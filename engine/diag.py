@@ -9,29 +9,23 @@ def get(name, url, headers=None):
     try:
         r = op.open(urllib.request.Request(url, headers=h), timeout=20)
         body = r.read().decode("utf-8", "replace")
-        out.append(f"== {name}: {r.status} len={len(body)}\n{body[:300]}\n")
+        out.append(f"== {name}: {r.status} len={len(body)}\n{body[:1600]}\n")
         return body
     except urllib.error.HTTPError as e:
         out.append(f"== {name}: HTTP {e.code} {e.read()[:300]!r}\n")
     except Exception as e:
         out.append(f"== {name}: ERR {e!r}\n")
     return None
-get("yahoo q1 plain", "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?range=5d&interval=1d")
-get("yahoo q2 plain", "https://query2.finance.yahoo.com/v8/finance/chart/NVDA?range=5d&interval=1d")
-get("fc.yahoo cookie", "https://fc.yahoo.com")
-out.append(f"cookies: {[c.name for c in jar]}\n")
-crumb = get("crumb", "https://query2.finance.yahoo.com/v1/test/getcrumb")
-if crumb and len(crumb) < 40:
-    get("yahoo with crumb", f"https://query2.finance.yahoo.com/v8/finance/chart/NVDA?range=5d&interval=1d&crumb={crumb}")
-get("yahoo search news", "https://query2.finance.yahoo.com/v1/finance/search?q=NVDA&quotesCount=0&newsCount=3")
 nh = {"Accept": "application/json, text/plain, */*", "Origin": "https://www.nasdaq.com", "Referer": "https://www.nasdaq.com/"}
-get("nasdaq hist stock", "https://api.nasdaq.com/api/quote/NVDA/historical?assetclass=stocks&fromdate=2026-09-01&limit=5", nh)
-get("nasdaq info stock", "https://api.nasdaq.com/api/quote/NVDA/info?assetclass=stocks", nh)
-get("nasdaq hist etf", "https://api.nasdaq.com/api/quote/SPY/historical?assetclass=etf&fromdate=2026-09-01&limit=3", nh)
-get("kraken", "https://api.kraken.com/0/public/OHLC?pair=XBTUSD&interval=1440")
-get("coinbase", "https://api.exchange.coinbase.com/products/BTC-USD/candles?granularity=86400")
-get("stooq", "https://stooq.com/q/d/l/?s=nvda.us&i=d")
-get("google news", "https://news.google.com/rss/search?q=Nvidia%20stock%20when:2d&hl=en-US&gl=US&ceid=US:en")
-get("cnbc quote", "https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=NVDA&requestMethod=itv&noform=1&partnerId=2&fund=1&exthrs=1&output=json")
+b = get("nasdaq chart", "https://api.nasdaq.com/api/quote/NVDA/chart?assetclass=stocks", nh)
+if b:
+    try:
+        d = json.loads(b)["data"]; out.append("chart keys: %s; first pts: %s; last: %s\n" % (list(d.keys()), d["chart"][:2], d["chart"][-1:]))
+    except Exception as e: out.append(f"chart parse {e!r}\n")
+get("nasdaq summary", "https://api.nasdaq.com/api/quote/NVDA/summary?assetclass=stocks", nh)
+get("nasdaq info full", "https://api.nasdaq.com/api/quote/NVDA/info?assetclass=stocks", nh)
+get("nasdaq hist NVO", "https://api.nasdaq.com/api/quote/NVO/historical?assetclass=stocks&fromdate=2026-09-01&limit=2", nh)
+get("nasdaq VIX index", "https://api.nasdaq.com/api/quote/VIX/info?assetclass=index", nh)
+get("nasdaq hist 3y count", "https://api.nasdaq.com/api/quote/AVGO/historical?assetclass=stocks&fromdate=2023-10-01&limit=9999", nh)
 open("diag.txt", "w").write("\n".join(out))
 print("\n".join(out))
