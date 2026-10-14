@@ -143,6 +143,7 @@
   async function gh(path, opts = {}) {
     if (!S.token || !S.repo) throw new Error("NO_TOKEN");
     const r = await fetch(`https://api.github.com/repos/${S.repo}${path}`, {
+      cache: "no-store",
       ...opts,
       headers: { Accept: "application/vnd.github+json", Authorization: `Bearer ${S.token}`, "X-GitHub-Api-Version": "2022-11-28", ...(opts.headers || {}) },
     });
@@ -158,7 +159,7 @@
     if (S.config && !force) return S.config;
     if (S.token && S.repo) {
       try {
-        const f = await gh(`/contents/config.json?ref=${encodeURIComponent(S.branch)}`);
+        const f = await gh(`/contents/config.json?ref=${encodeURIComponent(S.branch)}&t=${Date.now()}`);
         S.config = JSON.parse(b64dec(f.content));
         S.configSha = f.sha;
         return S.config;
@@ -189,7 +190,7 @@
         toast("Saved – live after the next check (≈1–2 min).");
         return true;
       } catch (e) {
-        if (e.status === 409 && attempt === 0) continue;
+        if ((e.status === 409 || e.status === 422) && attempt === 0) { await new Promise((r) => setTimeout(r, 1200)); continue; }
         toast(e.status === 401 || e.status === 403 ? "GitHub key rejected – check it in Settings." : `Could not save (${e.message}).`, 4000);
         return false;
       }
