@@ -1,22 +1,22 @@
 {
  "date": "2026-10-14",
  "threshold": 3.0,
- "updated": "2026-10-14T18:03:38+00:00",
+ "updated": "2026-10-14T18:55:41+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 767.5,
-   "change_pct": -1.35
+   "price": 768.03,
+   "change_pct": -1.28
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 728.12,
-   "change_pct": -2.08
+   "price": 728.06,
+   "change_pct": -2.09
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 78.73,
-   "change_pct": 0.46
+   "price": 78.83,
+   "change_pct": 0.59
   }
  },
  "movers": [
@@ -24,23 +24,23 @@
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "watchlist",
-   "price": 183.71,
+   "price": 184.09,
    "prev_close": 206.86,
-   "change_pct": -11.2,
+   "change_pct": -11.0,
    "trigger_change": -9.1,
    "peak_change": -11.2,
    "first_seen": "2026-10-14T13:52:43+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 107.72,
-    "change_pct": -2.94
+    "price": 107.45,
+    "change_pct": -3.18
    },
    "chart": {
-    "ema8": -14.0,
-    "ema21": -17.4,
-    "sma50": -17.9,
-    "sma200": 6.1,
+    "ema8": -13.8,
+    "ema21": -17.3,
+    "sma50": -17.8,
+    "sma200": 6.3,
     "momentum": false
    },
    "headlines": [
@@ -99,23 +99,23 @@
    "symbol": "SOFI",
    "name": "SoFi",
    "list": "watchlist",
-   "price": 13.98,
+   "price": 14.11,
    "prev_close": 15.24,
-   "change_pct": -8.3,
+   "change_pct": -7.4,
    "trigger_change": -3.6,
    "peak_change": -8.3,
    "first_seen": "2026-10-14T13:52:43+00:00",
    "sector": {
     "etf": "XLF",
     "name": "Financials",
-    "price": 54.2,
-    "change_pct": -1.12
+    "price": 54.3,
+    "change_pct": -0.95
    },
    "chart": {
-    "ema8": -8.3,
-    "ema21": -12.4,
-    "sma50": -18.8,
-    "sma200": -24.4,
+    "ema8": -7.6,
+    "ema21": -11.7,
+    "sma50": -18.1,
+    "sma200": -23.7,
     "momentum": false
    },
    "headlines": [
@@ -174,23 +174,23 @@
    "symbol": "ANET",
    "name": "Arista Networks",
    "list": "watchlist",
-   "price": 194.33,
+   "price": 194.81,
    "prev_close": 204.52,
-   "change_pct": -5.0,
+   "change_pct": -4.7,
    "trigger_change": -5.0,
    "peak_change": -5.0,
    "first_seen": "2026-10-14T18:03:38+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 565.93,
-    "change_pct": -3.77
+    "price": 565.41,
+    "change_pct": -3.86
    },
    "chart": {
-    "ema8": -5.8,
-    "ema21": -5.1,
-    "sma50": -2.3,
-    "sma200": 19.8,
+    "ema8": -5.6,
+    "ema21": -4.9,
+    "sma50": -2.1,
+    "sma200": 20.1,
     "momentum": true
    },
    "headlines": [
@@ -243,29 +243,29 @@
      "time": "2026-10-14T08:09:44+00:00"
     }
    ],
-   "brief": null
+   "brief": "2026-10-14-ANET"
   },
   {
    "symbol": "CRWD",
    "name": "CrowdStrike",
    "list": "watchlist",
-   "price": 251.35,
+   "price": 250.0,
    "prev_close": 261.21,
-   "change_pct": -3.8,
+   "change_pct": -4.3,
    "trigger_change": -3.8,
-   "peak_change": -3.8,
+   "peak_change": -4.3,
    "first_seen": "2026-10-14T18:03:38+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 107.72,
-    "change_pct": -2.94
+    "price": 107.45,
+    "change_pct": -3.18
    },
    "chart": {
-    "ema8": -4.2,
-    "ema21": -1.8,
-    "sma50": 8.3,
-    "sma200": 57.7,
+    "ema8": -4.6,
+    "ema21": -2.2,
+    "sma50": 7.7,
+    "sma200": 56.8,
     "momentum": true
    },
    "headlines": [
@@ -318,179 +318,29 @@
      "time": "2026-10-14T02:54:24+00:00"
     }
    ],
-   "brief": null
-  },
-  {
-   "symbol": "AXON",
-   "name": "Axon",
-   "list": "watchlist",
-   "price": 397.95,
-   "prev_close": 413.35,
-   "change_pct": -3.7,
-   "trigger_change": -3.7,
-   "peak_change": -3.7,
-   "first_seen": "2026-10-14T18:03:38+00:00",
-   "sector": {
-    "etf": "XLI",
-    "name": "Industrials",
-    "price": 165.88,
-    "change_pct": -1.65
-   },
-   "chart": {
-    "ema8": -3.7,
-    "ema21": -8.6,
-    "sma50": -21.8,
-    "sma200": -18.8,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Axon Enterprise, Inc $AXON Stock: Adirondack Trust Co. Increases Stake",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPLV9tc0J5c0JzTWIxV2tXdXF5d3M3OXJ2dmhGbTlHWkpiNmMyQWxhS2J4YlJuaExaR2VOeTNLdm1sQnRHZDFCMXRGekMzOFlMemtDZjY5dm13Sk1hWWJENUU1Z2l1MUstN2tIeHVuZGVqU1RFUi1YWmFWRndIYklaNUNBX2o5eDhPekVKZzFQdy0xeUlwNFo2bkJERjR4MG5FRmEyTWE1akcwcTRVOHBEeHRYVFNEc0J3R1NBc2xYWTZNaEFrWnc?oc=5",
-     "time": "2026-10-14T17:55:52+00:00"
-    },
-    {
-     "title": "Form 4 Axon Enterprise Inc For: 14 October By Investing.com",
-     "publisher": "Investing.com India",
-     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNTnV3VWpKcW5qMjBMN013YWo1XzgtSHhrN242QlljNE5iemxLVXBFUWZVRXAtSUNMZUxnN3l5WGZTeHk1a3ZJd1hPOEZqc01yeEdIVWxPU2FrOGltZFFlMV9SclJIYkxJeDJCQXNQb0FYQ01OQ3JpMnQteEhoNnZmSGFaLTE5b0pDbWlWYU5uWWFmSzV1YnU1ZHMzSnkxWnIxelNwTQ?oc=5",
-     "time": "2026-10-14T17:11:29+00:00"
-    },
-    {
-     "title": "Taser maker Axon is mandating AI use to speed up work as its surveillance tools face scrutiny",
-     "publisher": "Fortune",
-     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNODBtVktWdUROWEVzU09mZUI0QVk1Z0hUWDk3N09BcnA2UzIxSjVhUFgzcFp4cUMySlgwQUtEWmpiX0xzdkR6OHVPVHZ1NTZ0aklUQUZsZ0pWNlZfZjJ0VmNfT3ItaFpPc0hWLU9EM2pZak1pZzItZGVSTzhCTHVXT3g5SW9OampyTlRCRnh6NloxeldJVHoxeXZydm9nZHVQLUtQMEhqV3RCMFZtTDNmUk42eU9zNDlHLWh6MHBSTHdWVmc?oc=5",
-     "time": "2026-10-14T16:43:00+00:00"
-    },
-    {
-     "title": "AppLovin (APP) vs. U and TTD: Can AXON\u2019s AI Advantage Outpace Execution Risks?",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNZnlXTEViaGVUV2MxcXZyUmRmTUpHRmNQbUZxZ3AxajMxVzBvVDAzQkhrVk5vSFdrTVJOa1pkT25leDNQRXIyRkZLLXF1bzlPRGVVRE91R3A0ekpobGJ5SHhDMDdqaXVKQTBaeGhfXzRoZlROalgtek9DUmNkR3IyTE5RaWxRaTk0dHFHaU5MVQ?oc=5",
-     "time": "2026-10-14T16:42:58+00:00"
-    },
-    {
-     "title": "$1000 Invested In Axon Enterprise 5 Years Ago Would Be Worth This Much Today",
-     "publisher": "Benzinga",
-     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOQ21TSU5TQzk3MmtoRE03TTBwQXQxUm5IeFlwSV9ZM0M4bGtlZGJCZFR3QkRxTlozbzhDQTNwTHFyc0FXZW1aQmVWZE5UVlNyUV8zS1NKdWQtUVRZbDRDRnNlYURCWVhMYjNEOWhuSTBIWHVmRVE4OXYwd2RzT0VBcUliNDR5OFJXVTdzbEhrazcyb1d4emN1OGVlclRPNm9HRGt2ZVVDVUxVY0dKZkhpbkNB?oc=5",
-     "time": "2026-10-14T14:00:43+00:00"
-    },
-    {
-     "title": "Axon Enterprise, Inc (AXON) is Attracting Investor Attention: Here is What You Should Know",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdDVfakVoZktCa1dYdlJXWVNWNEFOZEtWdVBMU0daLTd3d0VNRVNJZF8yN2syOEJyUVhjM2F4SGd6NncyRWU1U0ktVkNpYmJ6aWpWWDdZdlZac2lyU19lUUdDdE1iWFF2VzVwN0NwRk9FS3I1azVSRkF0MFltQ2RPZEpyME1wSm94MmxMNjlZUDVsRVVWNTZvU2FEN2JhOXFmbGc?oc=5",
-     "time": "2026-10-14T12:00:04+00:00"
-    },
-    {
-     "title": "Krilogy Financial LLC Acquires 17,660 Shares of Axon Enterprise, Inc $AXON",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNSnBzWWhwTHNad0ZLLVpVY3AyeTlKTFRlS3A4bWlzSVZnNGxzRTZlY21UYmhNZ0tBVTFxTDU1Q3BFUGFuT016bG1PelBUTTlFeHBLV1lVMUNuenFDRjdwM3JYcGFLZzZtaG5ZUjBjMGZTNWZFQndpV0g1T3VDSTdJcE5zWEJBWWlkZ2VrVEdUXzJkU3lNdlplRXJiRS1WU0xlemtva3E0eVdzeE5DYnpQdHVFVEdEb2lHY0VoNDBGLWdVaVJYemZKYVlwUjQ?oc=5",
-     "time": "2026-10-14T08:09:43+00:00"
-    },
-    {
-     "title": "First Financial Corp IN Acquires New Shares in Axon Enterprise, Inc $AXON",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNMEprLW1hLWNGVFltX3U5N2piSDl3ZEM3WUxMTGhSVzY2N3cyRjNGSHpKYm90RVEtRm5KZ2gxQlR2azhwTDgxNjBxTGx1d1k3UXVXY0FmMFdxSGlUQzQzV2NUb0JVNUdPb0p1VFBUVVo3OXhoTWlTb0ZEM0w0ZkF5ZzBBM2JLdExuSndfMEtvbzNmdld3Wm9oNXpib21HTU5RNFg3eVYxaF8xQzJpSmN0d1Y0Q3dGY2tWWXpUdDI0ZmV4akF0czhRaGpHWnY?oc=5",
-     "time": "2026-10-13T23:18:35+00:00"
-    }
-   ],
-   "brief": null
-  },
-  {
-   "symbol": "META",
-   "name": "Meta",
-   "list": "watchlist",
-   "price": 735.13,
-   "prev_close": 762.5,
-   "change_pct": -3.6,
-   "trigger_change": -3.6,
-   "peak_change": -3.6,
-   "first_seen": "2026-10-14T18:03:38+00:00",
-   "sector": {
-    "etf": "XLC",
-    "name": "Communication",
-    "price": 110.6,
-    "change_pct": -1.5
-   },
-   "chart": {
-    "ema8": -0.2,
-    "ema21": 2.6,
-    "sma50": 13.1,
-    "sma200": 16.4,
-    "momentum": true
-   },
-   "headlines": [
-    {
-     "title": "Meta Gains on Anthropic in AI Race: Guggenheim",
-     "publisher": "Benzinga",
-     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNbHFTNG1EWnYzTGs3YXdWS1VJMGVGN1lFQjhVOVZuc2dqZW9GTlI4elZGV29xbjM0NzM2YVNQVEY3Ylc2OG5fSjN4ZmMweFVOWUdxNjF4V3lRNUVBN2lCMmF0VF9hYlRJd1NGTWVhdWFBbDlub0pQcVg4aFV0cHpMRnppVzh5MEZiaTJCTzhxWDI1aGNjT3NsUDVmTkFzLU1MRFlpOEJNSHZLblRiVTJrWklPZzY2VDQ2UDJOaA?oc=5",
-     "time": "2026-10-14T17:32:36+00:00"
-    },
-    {
-     "title": "Cathie Wood buys $17.3 million of surging AI stock",
-     "publisher": "TheStreet",
-     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPU2RZU3pDeHBZUVBka3lQeG9tV21UZXdBRXBCNWRCMjVUWXRhcHdYa2pTbnVDODRpYzhHWnNxNnc4aE43YTZBRU9EbW1aeENpX3FKbU1XYmtSZjJPZy1LOVZyR05JNUdnLW1SU2FXbFRfYzFSLUd2ZmxvSE1nbEVWdGd1WWF0SVZ6WmF6R3E1ZE1YT0lybm40Q2hROUZQSEZRVElkT0M3anRmUm5xbVZudQ?oc=5",
-     "time": "2026-10-14T17:29:07+00:00"
-    },
-    {
-     "title": "Truist Says $1,000 for Meta. Our Bull Case Goes Higher",
-     "publisher": "24/7 Wall St.",
-     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNMUVOdTFaeUxoRFlwaDIyNEQyNUwzMTFuS0JGQ2xCRXVZN2gzR044b0hFYTNqYXJqT0tkZXZNVnkwQUhZV3QyLVhqOGRZNWltbGtvZS14S0ZvT1NFNG1sZ1l3Yk80Yjh3NGNSODZqRkx1MGIydl9TR0FBNVlPMVpWVW1IeEpoc2RJdURUVEx4ek8tSVVYQjZNNHBnNA?oc=5",
-     "time": "2026-10-14T16:30:00+00:00"
-    },
-    {
-     "title": "Meta\u2019s Muse and Stock Conquer AI Spending Fears\u2014for Now",
-     "publisher": "Barron's",
-     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5NT1lIUXRJR2JNSVJWakVSajdmSDI0eTN1bUZIMThJMHRhLThCb2V3S2JzM0JDUDBaeVQ3enhFVmJPcl9nTWZFV281R0dUbVRtN2t2TzFPQlEzek1BR2ZBTF80RlJDcGJXS0FOTA?oc=5",
-     "time": "2026-10-14T15:38:00+00:00"
-    },
-    {
-     "title": "Meta's AI Push Draws Fresh Street Calls \u2013 Goldman Flags Higher Costs, UBS Sees Monetization Potential",
-     "publisher": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOMzZLMnVvYm4zOThzZUlXOG4tajJNWHZfX1NWNlQwTVk0TFp5NXV3dHVKZWFWSEZjenVDTFVFYUNBbDJVd21HOEU1RlNySmFDY2dFeUVtbVdnTEI0SXpMcXhyOUh1c2ZGTzVCOGFBNmI5bUlwRHNjdFpYYzNIa2xRLURDNTJDS29OYlFDSUpCa09LczJ1aTJ5ZTViazV1MTBMaloyUlFtd1RQRXVGZjZGc3Y4NkJXaXF3OWFST2Q3OE9Uam9BRUstd2FSRHk0TFhiSGlwWV9JZE40NGRQUDFQeERmdTZsdjdVQ19wMVYzRlM?oc=5",
-     "time": "2026-10-14T13:21:47+00:00"
-    },
-    {
-     "title": "Meta To Rally More Than 11%? Here Are 10 Top Analyst Forecasts For Wednesday",
-     "publisher": "Benzinga",
-     "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPUjl2OV90dHk2aWNSU2NHTHlNRWxINTJaRS1CR1phZ1JaNTIxb0xUVEhCOWFSLXF0Qml3Z2duUFRSWFh3a09MRUd1Snl2a2lSYWpWYk9vNGlva3EwVmI2UnlYVlB5OEFYdGZsOVh1ampNdFdfTjlPSXZBS2RIOGxIeFp4QUg2YzhZLVpRU1BjT1cxQy0yNlBYQjV6WDlyX3phVmpad0lrNjlZT2NOX3QzdTV2N1VvMVdLNExjRnpQRkFTSE8tUERKYl9PZHpldmlVOERhci12cTY3ODQ1UjZuU29ycw?oc=5",
-     "time": "2026-10-14T13:20:12+00:00"
-    },
-    {
-     "title": "META, TTD, SNAP, GOOGL, BMBL, WDAY Stocks Get New UBS Targets Amid AI And Ad Shifts",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxORGNNOXM4bG5laDJkTnQ2d0NqbURmUVYxdTRNbzE3SWxkSHlZR1JldlhDZEd6Yk9keEJFUjAxQjJHakI1SkR3QTZQcTR4aTIzX19SVERHYjZ2Vl9yeVktODhEVTdPcEVmQVc4QkFuTDNJZkNidmF6UG5sdmhIMXNKaWZiOU9nNjBlX0twZFYwXzFiYW1iZk0w?oc=5",
-     "time": "2026-10-14T13:11:44+00:00"
-    },
-    {
-     "title": "Meta, JPMorgan, West Pharmaceutical And More: CNBC\u2019s \u2018Final Trades\u2019",
-     "publisher": "Benzinga",
-     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOa2wyYVhJbHBXR2d4dFMxQ2owcXpfdDhwUERWcUh4bnBvT0UwX3VGZDZBdGZWMFFPbkJLM2FQMHIxU05qNlFnQ2NUNGxxanNhTkdOUlZGTFFvSURFdl8yanY0R1FHY3VCVlNCVXhzLXJvODJHWW5uTUV6eGV2MjMzN1RoeXQ0WmhqV2gxZ2JYZnJfTmJYSzQ5a2ZMbDRFa2xMOG9JMmN6RkhJYnFuazVla1ZDOHQwblo1M0J3S05iNlNNbU05?oc=5",
-     "time": "2026-10-14T12:09:53+00:00"
-    }
-   ],
-   "brief": null
+   "brief": "2026-10-14-CRWD"
   },
   {
    "symbol": "UNH",
    "name": "UnitedHealth",
    "list": "watchlist",
-   "price": 391.05,
+   "price": 392.91,
    "prev_close": 377.76,
-   "change_pct": 3.5,
+   "change_pct": 4.0,
    "trigger_change": 3.6,
-   "peak_change": 3.8,
+   "peak_change": 4.0,
    "first_seen": "2026-10-14T13:52:43+00:00",
    "sector": {
     "etf": "XLV",
     "name": "Health care",
-    "price": 173.7,
-    "change_pct": 2.38
+    "price": 173.74,
+    "change_pct": 2.4
    },
    "chart": {
-    "ema8": 3.0,
-    "ema21": 3.2,
-    "sma50": 0.9,
-    "sma200": 9.1,
+    "ema8": 3.4,
+    "ema21": 3.6,
+    "sma50": 1.4,
+    "sma200": 9.6,
     "momentum": true
    },
    "headlines": [
@@ -549,17 +399,17 @@
    "symbol": "AVGO",
    "name": "Broadcom",
    "list": "watchlist",
-   "price": 345.16,
+   "price": 344.96,
    "prev_close": 357.31,
-   "change_pct": -3.4,
+   "change_pct": -3.5,
    "trigger_change": -3.4,
-   "peak_change": -3.4,
+   "peak_change": -3.5,
    "first_seen": "2026-10-14T18:03:38+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 565.93,
-    "change_pct": -3.77
+    "price": 565.41,
+    "change_pct": -3.86
    },
    "chart": {
     "ema8": -3.2,
@@ -621,10 +471,85 @@
    "brief": null
   },
   {
+   "symbol": "NVDA",
+   "name": "Nvidia",
+   "list": "watchlist",
+   "price": 220.43,
+   "prev_close": 228.52,
+   "change_pct": -3.5,
+   "trigger_change": -3.4,
+   "peak_change": -3.5,
+   "first_seen": "2026-10-14T18:03:38+00:00",
+   "sector": {
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 565.41,
+    "change_pct": -3.86
+   },
+   "chart": {
+    "ema8": -3.4,
+    "ema21": -3.1,
+    "sma50": -1.2,
+    "sma200": 8.8,
+    "momentum": true
+   },
+   "headlines": [
+    {
+     "title": "Is Nvidia Still the Best AI Stock to Buy in 2026, or Is This Challenger?",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOcktBMVhpVFVZU1ozb0c5U3g0NXFvcVAySGp6Y0xiZmNzVlM1aGE4QlBlRU85Q1lrSUljYVYteGRpb1pFUmhCTHVCTlVsOHByUWdUQlNJd2VnMjFOQ1BVVjl4NmF4U01ITVBhLURTZlZuc2UxM1NMbm9LelptTWtoN280T0VQd1ViVElNdGZJU0k0cXNnMTMzOGFZWTU4REpmS1ZOOHFHQWYtOHh5MDdhN3dfVQ?oc=5",
+     "time": "2026-10-14T16:17:39+00:00"
+    },
+    {
+     "title": "Caterpillar, NVIDIA Corp. Share Losses Contribute To Dow's Nearly 150-Point Drop",
+     "publisher": "Moomoo",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQN3d0aFZITVZsME5Vb1NidnJpcUhuTjVqYVEwS2pFSFVrM1BBWkpDdlNDU0NUR2Q1WE4yczVQTEhSem00Zk1pM2h4TS1Db2k0clBwVFIyV0xuTFBHUmQ0ZmRhYjVuTFNOSC00OUFEeTdweXJYRG14aGR1M2dLQURFQU53Q3dlTUhJVXRvbjgyYW1Jbjd0YlFJY3lSU3pXNjhLYU5UYmJtZkdxNW8?oc=5",
+     "time": "2026-10-14T16:14:00+00:00"
+    },
+    {
+     "title": "Why Nvidia shares have fallen over 2% on Wednesday?",
+     "publisher": "Invezz",
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNLWU5YzFMZ19MdE0zUWxkQjRkMUdUY0ItUXRjd0NGWk52WEdMcnF1WExzY2xTellQVG1sclpuVzY2dTMyMG4wNjJLYWFBNDl2eFNqYzlUS1RHMGJtQVRTcWgzTUt6Z2JYWWhnSGw4UHg0dDU0Yk9uUGdYYXRFZE1pbzI5WGVlQTEyTEU1WkV3?oc=5",
+     "time": "2026-10-14T15:41:26+00:00"
+    },
+    {
+     "title": "Don\u2019t Get NVIDIA\u2019s Reflection AI Interest Wrong: Its Moat Could Deepen",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQNlFPUWx6RnVOdHBSX3dnZ1d6cjIwRmhwOGF0aDJ0bFQ2c1RGNFZHQzcwcFM5T2dRejlpOTQ4bmh6VHNYVnNKWVQwOHRDTFBkVmZhSFhIRXpXeVJLN09DOVQ5OVl6bEF1OW4xZEZQRGhqZldNR2k0YzY2eUNxSVdrQjZwWEl4eWlyeUF4bWVCeWdFV1ZCdF9xU2Vub1BteW10SWJKNlBTNA?oc=5",
+     "time": "2026-10-14T15:37:25+00:00"
+    },
+    {
+     "title": "Nvidia Commits $250 Million to UK AI Research as Its Market Value Reaches $5.5 Trillion",
+     "publisher": "Coinpaper",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOdkdKQ0JBcmtBSWJ3NDk4T0xHY213NHVMY2t1VmdjazFXZ3p1WU5McEVpUFJMLU1MQVdqelRZc25oNnQ4SHl0ZzBXaW1zTmh2UnNIcTlxSmMyeVdHMlBRR050cVpicUR3NWYxaVRGZC1sSjhyZ0lzT3UzbGwtU0hKMmJIR1R2U2lORDVBZ3Y5R3dZVmQzMEtSa1FLczhvRjlETGVpWnNNVG50ZHp2UlJqdnRR?oc=5",
+     "time": "2026-10-14T15:32:24+00:00"
+    },
+    {
+     "title": "Broadcom vs. Nvidia: If I Could Only Own One for the Next 5 Years, It Would Be This One",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxORVVRSkprWFJzUXJEY01lZENlWkNqMDZyVzJzYkNSYXpmYzhTMGwzZFV3eTdzdFFTZ3A3d0Z5RzJ6SkV1SGlZR0xadjRjVkVsRU80bk53bVdldXktRVhtQzVVYUt6X3JMVGRkYVQ2VTVNN05iMkRXNWRMZXJGZ2JYamUxUC10NW1yYzdwNTFpVmJLUktRS3hyTA?oc=5",
+     "time": "2026-10-14T15:04:06+00:00"
+    },
+    {
+     "title": "Nvidia: The $235 Billion Bullish Signal Investors Are Missing (NASDAQ:NVDA)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMy1tU19oVXVjT3Qwemh1anREV2V5ME1tU29mYXkxLW8zM3RWUjZoM0JvalFYYXpVSWx3OElGOGZNUDhHZzlWOFBUdEFwU0pnODc5UTU2MDN5Rm1zaXMwYTg3dURsQTF5QzBhRnJyNUZ0cnVsaHNGRkNwYlZKVG0tZzJLUGJvWWo2bElmSHRMRE1PU3ZyM3d6TU1OV25WUWo0WWc?oc=5",
+     "time": "2026-10-14T14:06:57+00:00"
+    },
+    {
+     "title": "Trump and Nancy Pelosi\u2019s Top AI Stock Pick: NVIDIA (NVDA)",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOR2dzUkJHbHQ3c1VVS0pwZXQ5dFpkLUJyQTRHM2UxMDZIWmlVY1lKb0dESkJyODh6YzVmUE1pd0NWRHpWX2Z2WGI1M0tPbTc5TkZpSFByMVpGaWpfSF9jVnY3dlQ3YjlmUEhYRFZ3WFlxTjRLenNvUHJDdFFPOW5JX2pVdEtqWHJEUVl2YjY0S1J1bnoy?oc=5",
+     "time": "2026-10-14T13:33:16+00:00"
+    }
+   ],
+   "brief": "2026-10-14-NVDA"
+  },
+  {
    "symbol": "AMAT",
    "name": "Applied Materials",
    "list": "portfolio",
-   "price": 448.43,
+   "price": 448.23,
    "prev_close": 464.24,
    "change_pct": -3.4,
    "trigger_change": -3.4,
@@ -633,11 +558,11 @@
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 565.93,
-    "change_pct": -3.77
+    "price": 565.41,
+    "change_pct": -3.86
    },
    "chart": {
-    "ema8": -8.2,
+    "ema8": -8.3,
     "ema21": -8.6,
     "sma50": -7.9,
     "sma200": 2.5,
@@ -693,104 +618,104 @@
      "time": "2026-10-14T09:10:45+00:00"
     }
    ],
-   "brief": null
+   "brief": "2026-10-14-AMAT"
   },
   {
-   "symbol": "NVDA",
-   "name": "Nvidia",
+   "symbol": "META",
+   "name": "Meta",
    "list": "watchlist",
-   "price": 220.77,
-   "prev_close": 228.52,
+   "price": 736.87,
+   "prev_close": 762.5,
    "change_pct": -3.4,
-   "trigger_change": -3.4,
-   "peak_change": -3.4,
+   "trigger_change": -3.6,
+   "peak_change": -3.6,
    "first_seen": "2026-10-14T18:03:38+00:00",
    "sector": {
-    "etf": "SMH",
-    "name": "Semiconductors",
-    "price": 565.93,
-    "change_pct": -3.77
+    "etf": "XLC",
+    "name": "Communication",
+    "price": 110.63,
+    "change_pct": -1.47
    },
    "chart": {
-    "ema8": -3.3,
-    "ema21": -3.0,
-    "sma50": -1.1,
-    "sma200": 8.9,
+    "ema8": -0.0,
+    "ema21": 2.8,
+    "sma50": 13.4,
+    "sma200": 16.7,
     "momentum": true
    },
    "headlines": [
     {
-     "title": "Is Nvidia Still the Best AI Stock to Buy in 2026, or Is This Challenger?",
-     "publisher": "The Motley Fool",
-     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOcktBMVhpVFVZU1ozb0c5U3g0NXFvcVAySGp6Y0xiZmNzVlM1aGE4QlBlRU85Q1lrSUljYVYteGRpb1pFUmhCTHVCTlVsOHByUWdUQlNJd2VnMjFOQ1BVVjl4NmF4U01ITVBhLURTZlZuc2UxM1NMbm9LelptTWtoN280T0VQd1ViVElNdGZJU0k0cXNnMTMzOGFZWTU4REpmS1ZOOHFHQWYtOHh5MDdhN3dfVQ?oc=5",
-     "time": "2026-10-14T16:17:39+00:00"
+     "title": "Meta Gains on Anthropic in AI Race: Guggenheim",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNbHFTNG1EWnYzTGs3YXdWS1VJMGVGN1lFQjhVOVZuc2dqZW9GTlI4elZGV29xbjM0NzM2YVNQVEY3Ylc2OG5fSjN4ZmMweFVOWUdxNjF4V3lRNUVBN2lCMmF0VF9hYlRJd1NGTWVhdWFBbDlub0pQcVg4aFV0cHpMRnppVzh5MEZiaTJCTzhxWDI1aGNjT3NsUDVmTkFzLU1MRFlpOEJNSHZLblRiVTJrWklPZzY2VDQ2UDJOaA?oc=5",
+     "time": "2026-10-14T17:32:36+00:00"
     },
     {
-     "title": "Caterpillar, NVIDIA Corp. Share Losses Contribute To Dow's Nearly 150-Point Drop",
-     "publisher": "Moomoo",
-     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQN3d0aFZITVZsME5Vb1NidnJpcUhuTjVqYVEwS2pFSFVrM1BBWkpDdlNDU0NUR2Q1WE4yczVQTEhSem00Zk1pM2h4TS1Db2k0clBwVFIyV0xuTFBHUmQ0ZmRhYjVuTFNOSC00OUFEeTdweXJYRG14aGR1M2dLQURFQU53Q3dlTUhJVXRvbjgyYW1Jbjd0YlFJY3lSU3pXNjhLYU5UYmJtZkdxNW8?oc=5",
-     "time": "2026-10-14T16:14:00+00:00"
+     "title": "Cathie Wood buys $17.3 million of surging AI stock",
+     "publisher": "TheStreet",
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPU2RZU3pDeHBZUVBka3lQeG9tV21UZXdBRXBCNWRCMjVUWXRhcHdYa2pTbnVDODRpYzhHWnNxNnc4aE43YTZBRU9EbW1aeENpX3FKbU1XYmtSZjJPZy1LOVZyR05JNUdnLW1SU2FXbFRfYzFSLUd2ZmxvSE1nbEVWdGd1WWF0SVZ6WmF6R3E1ZE1YT0lybm40Q2hROUZQSEZRVElkT0M3anRmUm5xbVZudQ?oc=5",
+     "time": "2026-10-14T17:29:07+00:00"
     },
     {
-     "title": "Why Nvidia shares have fallen over 2% on Wednesday?",
-     "publisher": "Invezz",
-     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNLWU5YzFMZ19MdE0zUWxkQjRkMUdUY0ItUXRjd0NGWk52WEdMcnF1WExzY2xTellQVG1sclpuVzY2dTMyMG4wNjJLYWFBNDl2eFNqYzlUS1RHMGJtQVRTcWgzTUt6Z2JYWWhnSGw4UHg0dDU0Yk9uUGdYYXRFZE1pbzI5WGVlQTEyTEU1WkV3?oc=5",
-     "time": "2026-10-14T15:41:26+00:00"
+     "title": "Truist Says $1,000 for Meta. Our Bull Case Goes Higher",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNMUVOdTFaeUxoRFlwaDIyNEQyNUwzMTFuS0JGQ2xCRXVZN2gzR044b0hFYTNqYXJqT0tkZXZNVnkwQUhZV3QyLVhqOGRZNWltbGtvZS14S0ZvT1NFNG1sZ1l3Yk80Yjh3NGNSODZqRkx1MGIydl9TR0FBNVlPMVpWVW1IeEpoc2RJdURUVEx4ek8tSVVYQjZNNHBnNA?oc=5",
+     "time": "2026-10-14T16:30:00+00:00"
     },
     {
-     "title": "Don\u2019t Get NVIDIA\u2019s Reflection AI Interest Wrong: Its Moat Could Deepen",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQNlFPUWx6RnVOdHBSX3dnZ1d6cjIwRmhwOGF0aDJ0bFQ2c1RGNFZHQzcwcFM5T2dRejlpOTQ4bmh6VHNYVnNKWVQwOHRDTFBkVmZhSFhIRXpXeVJLN09DOVQ5OVl6bEF1OW4xZEZQRGhqZldNR2k0YzY2eUNxSVdrQjZwWEl4eWlyeUF4bWVCeWdFV1ZCdF9xU2Vub1BteW10SWJKNlBTNA?oc=5",
-     "time": "2026-10-14T15:37:25+00:00"
+     "title": "Meta\u2019s Muse and Stock Conquer AI Spending Fears\u2014for Now",
+     "publisher": "Barron's",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5NT1lIUXRJR2JNSVJWakVSajdmSDI0eTN1bUZIMThJMHRhLThCb2V3S2JzM0JDUDBaeVQ3enhFVmJPcl9nTWZFV281R0dUbVRtN2t2TzFPQlEzek1BR2ZBTF80RlJDcGJXS0FOTA?oc=5",
+     "time": "2026-10-14T15:38:00+00:00"
     },
     {
-     "title": "Nvidia Commits $250 Million to UK AI Research as Its Market Value Reaches $5.5 Trillion",
-     "publisher": "Coinpaper",
-     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOdkdKQ0JBcmtBSWJ3NDk4T0xHY213NHVMY2t1VmdjazFXZ3p1WU5McEVpUFJMLU1MQVdqelRZc25oNnQ4SHl0ZzBXaW1zTmh2UnNIcTlxSmMyeVdHMlBRR050cVpicUR3NWYxaVRGZC1sSjhyZ0lzT3UzbGwtU0hKMmJIR1R2U2lORDVBZ3Y5R3dZVmQzMEtSa1FLczhvRjlETGVpWnNNVG50ZHp2UlJqdnRR?oc=5",
-     "time": "2026-10-14T15:32:24+00:00"
+     "title": "Meta's AI Push Draws Fresh Street Calls \u2013 Goldman Flags Higher Costs, UBS Sees Monetization Potential",
+     "publisher": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOMzZLMnVvYm4zOThzZUlXOG4tajJNWHZfX1NWNlQwTVk0TFp5NXV3dHVKZWFWSEZjenVDTFVFYUNBbDJVd21HOEU1RlNySmFDY2dFeUVtbVdnTEI0SXpMcXhyOUh1c2ZGTzVCOGFBNmI5bUlwRHNjdFpYYzNIa2xRLURDNTJDS29OYlFDSUpCa09LczJ1aTJ5ZTViazV1MTBMaloyUlFtd1RQRXVGZjZGc3Y4NkJXaXF3OWFST2Q3OE9Uam9BRUstd2FSRHk0TFhiSGlwWV9JZE40NGRQUDFQeERmdTZsdjdVQ19wMVYzRlM?oc=5",
+     "time": "2026-10-14T13:21:47+00:00"
     },
     {
-     "title": "Broadcom vs. Nvidia: If I Could Only Own One for the Next 5 Years, It Would Be This One",
-     "publisher": "The Motley Fool",
-     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxORVVRSkprWFJzUXJEY01lZENlWkNqMDZyVzJzYkNSYXpmYzhTMGwzZFV3eTdzdFFTZ3A3d0Z5RzJ6SkV1SGlZR0xadjRjVkVsRU80bk53bVdldXktRVhtQzVVYUt6X3JMVGRkYVQ2VTVNN05iMkRXNWRMZXJGZ2JYamUxUC10NW1yYzdwNTFpVmJLUktRS3hyTA?oc=5",
-     "time": "2026-10-14T15:04:06+00:00"
+     "title": "Meta To Rally More Than 11%? Here Are 10 Top Analyst Forecasts For Wednesday",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPUjl2OV90dHk2aWNSU2NHTHlNRWxINTJaRS1CR1phZ1JaNTIxb0xUVEhCOWFSLXF0Qml3Z2duUFRSWFh3a09MRUd1Snl2a2lSYWpWYk9vNGlva3EwVmI2UnlYVlB5OEFYdGZsOVh1ampNdFdfTjlPSXZBS2RIOGxIeFp4QUg2YzhZLVpRU1BjT1cxQy0yNlBYQjV6WDlyX3phVmpad0lrNjlZT2NOX3QzdTV2N1VvMVdLNExjRnpQRkFTSE8tUERKYl9PZHpldmlVOERhci12cTY3ODQ1UjZuU29ycw?oc=5",
+     "time": "2026-10-14T13:20:12+00:00"
     },
     {
-     "title": "Nvidia: The $235 Billion Bullish Signal Investors Are Missing (NASDAQ:NVDA)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMy1tU19oVXVjT3Qwemh1anREV2V5ME1tU29mYXkxLW8zM3RWUjZoM0JvalFYYXpVSWx3OElGOGZNUDhHZzlWOFBUdEFwU0pnODc5UTU2MDN5Rm1zaXMwYTg3dURsQTF5QzBhRnJyNUZ0cnVsaHNGRkNwYlZKVG0tZzJLUGJvWWo2bElmSHRMRE1PU3ZyM3d6TU1OV25WUWo0WWc?oc=5",
-     "time": "2026-10-14T14:06:57+00:00"
-    },
-    {
-     "title": "Trump and Nancy Pelosi\u2019s Top AI Stock Pick: NVIDIA (NVDA)",
+     "title": "META, TTD, SNAP, GOOGL, BMBL, WDAY Stocks Get New UBS Targets Amid AI And Ad Shifts",
      "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOR2dzUkJHbHQ3c1VVS0pwZXQ5dFpkLUJyQTRHM2UxMDZIWmlVY1lKb0dESkJyODh6YzVmUE1pd0NWRHpWX2Z2WGI1M0tPbTc5TkZpSFByMVpGaWpfSF9jVnY3dlQ3YjlmUEhYRFZ3WFlxTjRLenNvUHJDdFFPOW5JX2pVdEtqWHJEUVl2YjY0S1J1bnoy?oc=5",
-     "time": "2026-10-14T13:33:16+00:00"
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxORGNNOXM4bG5laDJkTnQ2d0NqbURmUVYxdTRNbzE3SWxkSHlZR1JldlhDZEd6Yk9keEJFUjAxQjJHakI1SkR3QTZQcTR4aTIzX19SVERHYjZ2Vl9yeVktODhEVTdPcEVmQVc4QkFuTDNJZkNidmF6UG5sdmhIMXNKaWZiOU9nNjBlX0twZFYwXzFiYW1iZk0w?oc=5",
+     "time": "2026-10-14T13:11:44+00:00"
+    },
+    {
+     "title": "Meta, JPMorgan, West Pharmaceutical And More: CNBC\u2019s \u2018Final Trades\u2019",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOa2wyYVhJbHBXR2d4dFMxQ2owcXpfdDhwUERWcUh4bnBvT0UwX3VGZDZBdGZWMFFPbkJLM2FQMHIxU05qNlFnQ2NUNGxxanNhTkdOUlZGTFFvSURFdl8yanY0R1FHY3VCVlNCVXhzLXJvODJHWW5uTUV6eGV2MjMzN1RoeXQ0WmhqV2gxZ2JYZnJfTmJYSzQ5a2ZMbDRFa2xMOG9JMmN6RkhJYnFuazVla1ZDOHQwblo1M0J3S05iNlNNbU05?oc=5",
+     "time": "2026-10-14T12:09:53+00:00"
     }
    ],
-   "brief": null
+   "brief": "2026-10-14-META"
   },
   {
    "symbol": "APP",
    "name": "AppLovin",
    "list": "watchlist",
-   "price": 263.2,
+   "price": 263.08,
    "prev_close": 272.28,
-   "change_pct": -3.3,
+   "change_pct": -3.4,
    "trigger_change": -3.3,
-   "peak_change": -3.3,
+   "peak_change": -3.4,
    "first_seen": "2026-10-14T18:03:38+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 107.72,
-    "change_pct": -2.94
+    "price": 107.45,
+    "change_pct": -3.18
    },
    "chart": {
     "ema8": -4.5,
     "ema21": -9.5,
     "sma50": -15.1,
-    "sma200": -40.0,
+    "sma200": -40.1,
     "momentum": false
    },
    "headlines": [
@@ -849,23 +774,23 @@
    "symbol": "MELI",
    "name": "MercadoLibre",
    "list": "portfolio",
-   "price": 1820.12,
+   "price": 1829.29,
    "prev_close": 1876.04,
-   "change_pct": -3.0,
+   "change_pct": -2.5,
    "trigger_change": -3.0,
    "peak_change": -3.0,
    "first_seen": "2026-10-14T18:03:38+00:00",
    "sector": {
     "etf": "XLY",
     "name": "Consumer discr.",
-    "price": 110.87,
-    "change_pct": -1.33
+    "price": 110.92,
+    "change_pct": -1.28
    },
    "chart": {
-    "ema8": -1.3,
-    "ema21": -0.7,
-    "sma50": -2.2,
-    "sma200": -0.7,
+    "ema8": -1.0,
+    "ema21": -0.2,
+    "sma50": -1.7,
+    "sma200": -0.2,
     "momentum": true
    },
    "headlines": [
@@ -919,6 +844,81 @@
     }
    ],
    "brief": null
+  },
+  {
+   "symbol": "AXON",
+   "name": "Axon",
+   "list": "watchlist",
+   "price": 404.12,
+   "prev_close": 413.35,
+   "change_pct": -2.2,
+   "trigger_change": -3.7,
+   "peak_change": -3.7,
+   "first_seen": "2026-10-14T18:03:38+00:00",
+   "sector": {
+    "etf": "XLI",
+    "name": "Industrials",
+    "price": 166.31,
+    "change_pct": -1.4
+   },
+   "chart": {
+    "ema8": -2.5,
+    "ema21": -7.3,
+    "sma50": -20.6,
+    "sma200": -17.6,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Axon Enterprise, Inc $AXON Stock: Adirondack Trust Co. Increases Stake",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPLV9tc0J5c0JzTWIxV2tXdXF5d3M3OXJ2dmhGbTlHWkpiNmMyQWxhS2J4YlJuaExaR2VOeTNLdm1sQnRHZDFCMXRGekMzOFlMemtDZjY5dm13Sk1hWWJENUU1Z2l1MUstN2tIeHVuZGVqU1RFUi1YWmFWRndIYklaNUNBX2o5eDhPekVKZzFQdy0xeUlwNFo2bkJERjR4MG5FRmEyTWE1akcwcTRVOHBEeHRYVFNEc0J3R1NBc2xYWTZNaEFrWnc?oc=5",
+     "time": "2026-10-14T17:55:52+00:00"
+    },
+    {
+     "title": "Form 4 Axon Enterprise Inc For: 14 October By Investing.com",
+     "publisher": "Investing.com India",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNTnV3VWpKcW5qMjBMN013YWo1XzgtSHhrN242QlljNE5iemxLVXBFUWZVRXAtSUNMZUxnN3l5WGZTeHk1a3ZJd1hPOEZqc01yeEdIVWxPU2FrOGltZFFlMV9SclJIYkxJeDJCQXNQb0FYQ01OQ3JpMnQteEhoNnZmSGFaLTE5b0pDbWlWYU5uWWFmSzV1YnU1ZHMzSnkxWnIxelNwTQ?oc=5",
+     "time": "2026-10-14T17:11:29+00:00"
+    },
+    {
+     "title": "Taser maker Axon is mandating AI use to speed up work as its surveillance tools face scrutiny",
+     "publisher": "Fortune",
+     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNODBtVktWdUROWEVzU09mZUI0QVk1Z0hUWDk3N09BcnA2UzIxSjVhUFgzcFp4cUMySlgwQUtEWmpiX0xzdkR6OHVPVHZ1NTZ0aklUQUZsZ0pWNlZfZjJ0VmNfT3ItaFpPc0hWLU9EM2pZak1pZzItZGVSTzhCTHVXT3g5SW9OampyTlRCRnh6NloxeldJVHoxeXZydm9nZHVQLUtQMEhqV3RCMFZtTDNmUk42eU9zNDlHLWh6MHBSTHdWVmc?oc=5",
+     "time": "2026-10-14T16:43:00+00:00"
+    },
+    {
+     "title": "AppLovin (APP) vs. U and TTD: Can AXON\u2019s AI Advantage Outpace Execution Risks?",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNZnlXTEViaGVUV2MxcXZyUmRmTUpHRmNQbUZxZ3AxajMxVzBvVDAzQkhrVk5vSFdrTVJOa1pkT25leDNQRXIyRkZLLXF1bzlPRGVVRE91R3A0ekpobGJ5SHhDMDdqaXVKQTBaeGhfXzRoZlROalgtek9DUmNkR3IyTE5RaWxRaTk0dHFHaU5MVQ?oc=5",
+     "time": "2026-10-14T16:42:58+00:00"
+    },
+    {
+     "title": "$1000 Invested In Axon Enterprise 5 Years Ago Would Be Worth This Much Today",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOQ21TSU5TQzk3MmtoRE03TTBwQXQxUm5IeFlwSV9ZM0M4bGtlZGJCZFR3QkRxTlozbzhDQTNwTHFyc0FXZW1aQmVWZE5UVlNyUV8zS1NKdWQtUVRZbDRDRnNlYURCWVhMYjNEOWhuSTBIWHVmRVE4OXYwd2RzT0VBcUliNDR5OFJXVTdzbEhrazcyb1d4emN1OGVlclRPNm9HRGt2ZVVDVUxVY0dKZkhpbkNB?oc=5",
+     "time": "2026-10-14T14:00:43+00:00"
+    },
+    {
+     "title": "Axon Enterprise, Inc (AXON) is Attracting Investor Attention: Here is What You Should Know",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdDVfakVoZktCa1dYdlJXWVNWNEFOZEtWdVBMU0daLTd3d0VNRVNJZF8yN2syOEJyUVhjM2F4SGd6NncyRWU1U0ktVkNpYmJ6aWpWWDdZdlZac2lyU19lUUdDdE1iWFF2VzVwN0NwRk9FS3I1azVSRkF0MFltQ2RPZEpyME1wSm94MmxMNjlZUDVsRVVWNTZvU2FEN2JhOXFmbGc?oc=5",
+     "time": "2026-10-14T12:00:04+00:00"
+    },
+    {
+     "title": "Krilogy Financial LLC Acquires 17,660 Shares of Axon Enterprise, Inc $AXON",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNSnBzWWhwTHNad0ZLLVpVY3AyeTlKTFRlS3A4bWlzSVZnNGxzRTZlY21UYmhNZ0tBVTFxTDU1Q3BFUGFuT016bG1PelBUTTlFeHBLV1lVMUNuenFDRjdwM3JYcGFLZzZtaG5ZUjBjMGZTNWZFQndpV0g1T3VDSTdJcE5zWEJBWWlkZ2VrVEdUXzJkU3lNdlplRXJiRS1WU0xlemtva3E0eVdzeE5DYnpQdHVFVEdEb2lHY0VoNDBGLWdVaVJYemZKYVlwUjQ?oc=5",
+     "time": "2026-10-14T08:09:43+00:00"
+    },
+    {
+     "title": "First Financial Corp IN Acquires New Shares in Axon Enterprise, Inc $AXON",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNMEprLW1hLWNGVFltX3U5N2piSDl3ZEM3WUxMTGhSVzY2N3cyRjNGSHpKYm90RVEtRm5KZ2gxQlR2azhwTDgxNjBxTGx1d1k3UXVXY0FmMFdxSGlUQzQzV2NUb0JVNUdPb0p1VFBUVVo3OXhoTWlTb0ZEM0w0ZkF5ZzBBM2JLdExuSndfMEtvbzNmdld3Wm9oNXpib21HTU5RNFg3eVYxaF8xQzJpSmN0d1Y0Q3dGY2tWWXpUdDI0ZmV4akF0czhRaGpHWnY?oc=5",
+     "time": "2026-10-13T23:18:35+00:00"
+    }
+   ],
+   "brief": "2026-10-14-AXON"
   }
  ]
 }
