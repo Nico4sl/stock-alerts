@@ -1,0 +1,88 @@
+name: Check prices
+
+on:
+  schedule:
+    # every 10 min, Mon–Fri, 13:00–21:59 UTC. The script itself only runs
+    # 09:30–16:20 New York time and skips NYSE holidays (handles summer time).
+    - cron: "*/10 13-21 * * 1-5"
+  push:
+    branches: [main]
+    paths: ["config.json", "briefs/**", "app/**", "engine/**", ".github/workflows/**"]
+  workflow_dispatch:
+    inputs:
+      test_notification:
+        description: "Send a test notification"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write   # only used to publish today's movers to the `data` branch
+  pages: write
+  id-token: write
+
+concurrency:
+  group: check
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment:
+      name: github-pages
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Restore alert memory
+        uses: actions/cache/restore@v4
+        with:
+          path: .state
+          key: alert-state-${{ github.run_id }}
+          restore-keys: alert-state-
+
+      - name: Check prices and send alerts
+        id: run
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          APP_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
+        run: |
+          ARGS=""
+          if [ "${{ github.event_name }}" != "schedule" ]; then ARGS="--force"; fi
+          if [ "${{ inputs.test_notification }}" = "true" ]; then ARGS="$ARGS --test-notification"; fi
+          python3 engine/check.py --app-url "$APP_URL" $ARGS
+
+      - name: Save alert memory
+        if: steps.run.outputs.ran == 'true'
+        uses: actions/cache/save@v4
+        with:
+          path: .state
+          key: alert-state-${{ github.run_id }}
+
+      - name: Publish movers for the brief writer (data branch)
+        if: steps.run.outputs.ran == 'true'
+        run: |
+          mkdir -p /tmp/pub && cp _site/data/brief-queue.json /tmp/pub/queue.json && cp _site/data/movers.json /tmp/pub/movers.json
+          git config user.name "pullback-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git fetch -q origin data 2>/dev/null; then
+            git show origin/data:queue.json > /tmp/pub/old.json 2>/dev/null || true
+          fi
+          if cmp -s /tmp/pub/queue.json /tmp/pub/old.json; then echo "queue unchanged"; exit 0; fi
+          git worktree add -q --detach /tmp/datawt
+          cd /tmp/datawt
+          if git rev-parse -q --verify origin/data >/dev/null; then git checkout -q -B data origin/data; else git checkout -q --orphan data; git rm -rfq . ; fi
+          cp /tmp/pub/queue.json /tmp/pub/movers.json .
+          git add queue.json movers.json
+          git commit -qm "Movers $(jq -r .date queue.json): $(jq -r '[.movers[].symbol]|join(", ")' queue.json)"
+          git push -q origin data
+
+      - uses: actions/configure-pages@v5
+        if: steps.run.outputs.ran == 'true'
+
+      - uses: actions/upload-pages-artifact@v3
+        if: steps.run.outputs.ran == 'true'
+        with:
+          path: _site
+
+      - uses: actions/deploy-pages@v4
+        if: steps.run.outputs.ran == 'true'
