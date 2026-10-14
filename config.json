@@ -4,7 +4,9 @@
     "extended_pct": 15,
     "min_gap_pct": 0.5,
     "sma_alerts_all": [],
-    "sma_alerts_high_conviction": [200],
+    "sma_alerts_high_conviction": [
+      200
+    ],
     "ema_alerts": true,
     "gap_alerts": true,
     "move_pct": 3,
@@ -12,23 +14,131 @@
     "brief_lang": "en"
   },
   "stocks": [
-    { "symbol": "AVGO",    "name": "Broadcom",          "list": "watchlist", "high_conviction": false, "levels": [] },
-    { "symbol": "NBIS",    "name": "Nebius",            "list": "watchlist", "high_conviction": false, "levels": [] },
-    { "symbol": "AXON",    "name": "Axon",              "list": "watchlist", "high_conviction": false, "levels": [] },
-    { "symbol": "MELI",    "name": "MercadoLibre",      "list": "watchlist", "high_conviction": false, "levels": [] },
-    { "symbol": "AMAT",    "name": "Applied Materials", "list": "watchlist", "high_conviction": false, "levels": [] },
-    { "symbol": "NFLX",    "name": "Netflix",           "list": "watchlist", "high_conviction": false, "levels": [] },
-    { "symbol": "AMZN",    "name": "Amazon",            "list": "watchlist", "high_conviction": false, "levels": [] },
-    { "symbol": "NVDA",    "name": "Nvidia",            "list": "watchlist", "high_conviction": false, "levels": [] },
-    { "symbol": "GOOG",    "name": "Alphabet",          "list": "watchlist", "high_conviction": false, "levels": [] },
-    { "symbol": "META",    "name": "Meta",              "list": "watchlist", "high_conviction": false, "levels": [] },
-    { "symbol": "ANET",    "name": "Arista Networks",   "list": "watchlist", "high_conviction": false, "levels": [] },
-    { "symbol": "CRWD",    "name": "CrowdStrike",       "list": "watchlist", "high_conviction": false, "levels": [] },
-    { "symbol": "APP",     "name": "AppLovin",          "list": "watchlist", "high_conviction": false, "levels": [] },
-    { "symbol": "NOW",     "name": "ServiceNow",        "list": "watchlist", "high_conviction": false, "levels": [] },
-    { "symbol": "NVO",     "name": "Novo Nordisk (ADR)","list": "watchlist", "high_conviction": false, "levels": [] },
-    { "symbol": "UNH",     "name": "UnitedHealth",      "list": "watchlist", "high_conviction": false, "levels": [] },
-    { "symbol": "SOFI",    "name": "SoFi",              "list": "watchlist", "high_conviction": false, "levels": [] },
-    { "symbol": "BTC-USD", "name": "Bitcoin",           "list": "watchlist", "high_conviction": false, "levels": [] }
+    {
+      "symbol": "AVGO",
+      "name": "Broadcom",
+      "list": "watchlist",
+      "high_conviction": false,
+      "levels": []
+    },
+    {
+      "symbol": "NBIS",
+      "name": "Nebius",
+      "list": "watchlist",
+      "high_conviction": false,
+      "levels": []
+    },
+    {
+      "symbol": "AXON",
+      "name": "Axon",
+      "list": "watchlist",
+      "high_conviction": false,
+      "levels": []
+    },
+    {
+      "symbol": "MELI",
+      "name": "MercadoLibre",
+      "list": "watchlist",
+      "high_conviction": false,
+      "levels": []
+    },
+    {
+      "symbol": "AMAT",
+      "name": "Applied Materials",
+      "list": "portfolio",
+      "high_conviction": false,
+      "levels": []
+    },
+    {
+      "symbol": "NFLX",
+      "name": "Netflix",
+      "list": "watchlist",
+      "high_conviction": false,
+      "levels": []
+    },
+    {
+      "symbol": "AMZN",
+      "name": "Amazon",
+      "list": "watchlist",
+      "high_conviction": false,
+      "levels": []
+    },
+    {
+      "symbol": "NVDA",
+      "name": "Nvidia",
+      "list": "watchlist",
+      "high_conviction": false,
+      "levels": []
+    },
+    {
+      "symbol": "GOOG",
+      "name": "Alphabet",
+      "list": "watchlist",
+      "high_conviction": false,
+      "levels": []
+    },
+    {
+      "symbol": "META",
+      "name": "Meta",
+      "list": "watchlist",
+      "high_conviction": false,
+      "levels": []
+    },
+    {
+      "symbol": "ANET",
+      "name": "Arista Networks",
+      "list": "watchlist",
+      "high_conviction": false,
+      "levels": []
+    },
+    {
+      "symbol": "CRWD",
+      "name": "CrowdStrike",
+      "list": "watchlist",
+      "high_conviction": false,
+      "levels": []
+    },
+    {
+      "symbol": "APP",
+      "name": "AppLovin",
+      "list": "watchlist",
+      "high_conviction": false,
+      "levels": []
+    },
+    {
+      "symbol": "NOW",
+      "name": "ServiceNow",
+      "list": "watchlist",
+      "high_conviction": false,
+      "levels": []
+    },
+    {
+      "symbol": "NVO",
+      "name": "Novo Nordisk (ADR)",
+      "list": "watchlist",
+      "high_conviction": false,
+      "levels": []
+    },
+    {
+      "symbol": "UNH",
+      "name": "UnitedHealth",
+      "list": "watchlist",
+      "high_conviction": false,
+      "levels": []
+    },
+    {
+      "symbol": "SOFI",
+      "name": "SoFi",
+      "list": "watchlist",
+      "high_conviction": false,
+      "levels": []
+    },
+    {
+      "symbol": "BTC-USD",
+      "name": "Bitcoin",
+      "list": "watchlist",
+      "high_conviction": false,
+      "levels": []
+    }
   ]
 }
