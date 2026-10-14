@@ -1,0 +1,19 @@
+name: Diagnose data sources
+on:
+  push:
+    branches: [main]
+    paths: ["engine/diag.py", ".github/workflows/diag.yml"]
+permissions:
+  contents: write
+jobs:
+  diag:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 engine/diag.py
+      - name: Save result to diag branch
+        run: |
+          cp diag.txt /tmp/diag.txt
+          git config user.name "pullback-bot"; git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -q --orphan diag && git rm -rfq . && cp /tmp/diag.txt . && git add diag.txt && git commit -qm diag && git push -qf origin diag
