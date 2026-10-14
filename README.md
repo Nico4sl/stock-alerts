@@ -71,12 +71,12 @@ The key stays on that device only. Without it the app still shows everything; yo
 - The first run records the current state silently, so you won't get a flood of alerts on day one.
 
 ## Good to know
-- Prices: Yahoo Finance (Stooq as fallback), daily candles plus the live price. No API key needed.
+- Prices: Nasdaq.com (stocks, ADRs, ETFs; daily candles plus live intraday price) and Kraken (crypto). No API key needed.
 - Checks: every 10 min, 15:30–22:00 Vienna time on NYSE trading days. GitHub can delay scheduled
   runs by a few minutes at busy times.
 - GitHub pauses scheduled jobs in repos with **no changes for 60 days** and sends you an email first.
   Any edit, such as saving a level in the app, resets the clock.
-- Non-US tickers need Yahoo suffixes: Vienna `.VI`, Xetra `.DE`, Korea `.KS`. Crypto: `BTC-USD`.
+- Tickers: US-listed stocks, ADRs and ETFs; crypto as `BTC-USD`. European listings are not covered by the free source.
 - Novo Nordisk is tracked via its US ADR `NVO`.
 
 ## Files

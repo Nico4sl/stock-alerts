@@ -718,10 +718,10 @@
 
   function addStockSheet(kind) {
     openSheet(`<h4>Add a stock</h4><div class="form">
-        <label class="field">Ticker (Yahoo Finance symbol)<input id="asSym" autocapitalize="characters" placeholder="e.g. TSM, ASML, ETH-USD"></label>
+        <label class="field">Ticker<input id="asSym" autocapitalize="characters" placeholder="e.g. TSM, ASML, ETH-USD"></label>
         <label class="field">Name<input id="asName" placeholder="e.g. TSMC"></label>
         <label class="field">List<select id="asList"><option value="watchlist">Watchlist</option><option value="portfolio">Portfolio</option></select></label>
-        <div class="help">US tickers as usual. Others need a suffix: Vienna <code>.VI</code>, Xetra <code>.DE</code>, Korea <code>.KS</code>; crypto like <code>BTC-USD</code>.</div>
+        <div class="help">US-listed stocks, ADRs and ETFs (as on Nasdaq.com), crypto like <code>BTC-USD</code> or <code>ETH-USD</code>. European listings (e.g. Vienna) are not available from the free data source – use the US ADR if there is one.</div>
         <div style="display:flex;gap:8px"><button class="btn" id="asCancel" style="flex:1">Cancel</button><button class="btn primary" id="asSave" style="flex:2">Add</button></div>
       </div>`, (bg) => {
       $("#asList", bg).value = kind;

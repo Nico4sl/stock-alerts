@@ -112,87 +112,148 @@ def market_status(now_utc):
 # ----------------------------------------------------------------------------
 # data
 # ----------------------------------------------------------------------------
-def http_get(url, timeout=20):
-    req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "*/*"})
+def http_get(url, timeout=20, headers=None):
+    h = {"User-Agent": UA, "Accept": "*/*", "Accept-Language": "en-US,en;q=0.9"}
+    h.update(headers or {})
+    req = urllib.request.Request(url, headers=h)
     with urllib.request.urlopen(req, timeout=timeout) as r:
         return r.read().decode("utf-8")
 
 
-def fetch_yahoo(symbol, rng="3y", min_len=30):
-    q = urllib.parse.quote(symbol)
-    last_err = None
-    for host in ("query1", "query2"):
-        url = (f"https://{host}.finance.yahoo.com/v8/finance/chart/{q}"
-               f"?range={rng}&interval=1d&includePrePost=false&events=div%2Csplit")
-        for attempt in range(2):
-            try:
-                raw = json.loads(http_get(url))
-                res = raw["chart"]["result"][0]
-                meta = res["meta"]
-                ts = res.get("timestamp") or []
-                qd = res["indicators"]["quote"][0]
-                off = meta.get("gmtoffset", 0)
-                rows = {}
-                for i, t in enumerate(ts):
-                    o, h, l, c, v = (qd["open"][i], qd["high"][i], qd["low"][i],
-                                     qd["close"][i], qd["volume"][i])
-                    if None in (o, h, l, c):
-                        continue
-                    d = dt.datetime.fromtimestamp(t + off, dt.timezone.utc).strftime("%Y-%m-%d")
-                    rows[d] = [d, o, h, l, c, v or 0]
-                candles = [rows[k] for k in sorted(rows)]
-                price = meta.get("regularMarketPrice")
-                if price and candles:
-                    mt = meta.get("regularMarketTime")
-                    mday = (dt.datetime.fromtimestamp(mt + off, dt.timezone.utc).strftime("%Y-%m-%d")
-                            if mt else candles[-1][0])
-                    last = candles[-1]
-                    if mday == last[0]:
-                        last[4] = price
-                        last[2] = max(last[2], price)
-                        last[3] = min(last[3], price)
-                if len(candles) < min_len:
-                    raise ValueError("too little history")
-                return {
-                    "candles": candles,
-                    "price": price or candles[-1][4],
-                    "currency": meta.get("currency", "USD"),
-                    "market_time": meta.get("regularMarketTime"),
-                    "source": "Yahoo Finance",
-                }
-            except Exception as e:  # noqa: BLE001
-                last_err = e
-                time.sleep(1.5)
-    raise RuntimeError(f"Yahoo failed for {symbol}: {last_err}")
+NASDAQ_HEADERS = {"Accept": "application/json, text/plain, */*",
+                  "Origin": "https://www.nasdaq.com", "Referer": "https://www.nasdaq.com/"}
 
 
-def fetch_stooq(symbol):
-    s = symbol.lower()
-    s = s.replace("-usd", "usd") if s.endswith("-usd") else f"{s.replace('.', '-')}.us"
-    text = http_get(f"https://stooq.com/q/d/l/?s={s}&i=d")
-    lines = [ln for ln in text.strip().splitlines()[1:] if ln and "," in ln]
-    candles = []
-    for ln in lines[-800:]:
-        p = ln.split(",")
-        if len(p) < 5:
-            continue
-        try:
-            candles.append([p[0], float(p[1]), float(p[2]), float(p[3]), float(p[4]),
-                            float(p[5]) if len(p) > 5 and p[5] else 0])
-        except ValueError:
-            continue
-    if len(candles) < 30:
-        raise RuntimeError(f"Stooq returned no data for {symbol}")
-    return {"candles": candles, "price": candles[-1][4], "currency": "USD",
-            "market_time": None, "source": "Stooq"}
-
-
-def fetch(symbol):
+def _num(x):
+    if x is None:
+        return None
+    x = str(x).replace("$", "").replace(",", "").strip()
     try:
-        return fetch_yahoo(symbol)
+        return float(x)
+    except ValueError:
+        return None
+
+
+def _nasdaq(path):
+    raw = json.loads(http_get(f"https://api.nasdaq.com/api/quote/{path}", headers=NASDAQ_HEADERS))
+    return raw.get("data")
+
+
+def fetch_nasdaq(symbol, years=3, min_len=30):
+    """Daily candles from Nasdaq.com (stocks, ADRs, ETFs) + today's live candle."""
+    q = urllib.parse.quote(symbol)
+    start = (dt.date.today() - dt.timedelta(days=365 * years + 10)).isoformat()
+    hist, asset = None, None
+    for asset in ("stocks", "etf"):
+        hist = _nasdaq(f"{q}/historical?assetclass={asset}&fromdate={start}&limit=9999")
+        if hist and (hist.get("tradesTable") or {}).get("rows"):
+            break
+        hist = None
+    if not hist:
+        raise RuntimeError(f"Nasdaq has no data for {symbol}")
+    rows = {}
+    for r in hist["tradesTable"]["rows"]:
+        try:
+            d = dt.datetime.strptime(r["date"], "%m/%d/%Y").strftime("%Y-%m-%d")
+        except (KeyError, ValueError):
+            continue
+        o, h, l, c = _num(r.get("open")), _num(r.get("high")), _num(r.get("low")), _num(r.get("close"))
+        if None in (o, h, l, c) or c <= 0:
+            continue
+        rows[d] = [d, o or c, h or c, l or c, c, _num(r.get("volume")) or 0]
+    candles = [rows[k] for k in sorted(rows)]
+    if len(candles) < min_len:
+        raise RuntimeError(f"Nasdaq returned too little history for {symbol}")
+
+    price, market_time = candles[-1][4], None
+    try:  # live price + today's candle from the intraday chart
+        live = _nasdaq(f"{q}/chart?assetclass={asset}")
+        last = _num(live.get("lastSalePrice"))
+        asof = (live.get("timeAsOf") or "").replace(" ET", "")
+        when = dt.datetime.strptime(asof, "%b %d, %Y %I:%M %p").replace(tzinfo=NY) if asof else None
+        if last:
+            price = last
+        if when and last:
+            market_time = int(when.timestamp())
+            day = when.strftime("%Y-%m-%d")
+            pts = []
+            for p in live.get("chart") or []:
+                t = dt.datetime.fromtimestamp(p["x"] / 1000, dt.timezone.utc)
+                # Nasdaq's x is wall-clock New York time encoded as UTC
+                mins = t.hour * 60 + t.minute
+                if 9 * 60 + 30 <= mins <= 16 * 60 and p.get("y") is not None:
+                    pts.append(float(p["y"]))
+            if day > candles[-1][0] and pts:
+                candles.append([day, pts[0], max(pts + [last]), min(pts + [last]), last,
+                                _num(live.get("volume")) or 0])
+            elif day == candles[-1][0]:
+                bar = candles[-1]
+                bar[4] = last
+                bar[2], bar[3] = max(bar[2], last), min(bar[3], last)
     except Exception as e:  # noqa: BLE001
-        log(f"  ! {e} – trying Stooq")
-        return fetch_stooq(symbol)
+        log(f"  (live price unavailable for {symbol}: {e})")
+    return {"candles": candles, "price": price, "currency": "USD",
+            "market_time": market_time, "source": "Nasdaq"}
+
+
+def fetch_crypto(symbol, min_len=30):
+    """Daily candles for e.g. BTC-USD from Kraken (fallback Coinbase). No key needed."""
+    base, quote = symbol.upper().split("-", 1)
+    kbase = {"BTC": "XBT", "DOGE": "XDG"}.get(base, base)
+    candles = []
+    try:
+        raw = json.loads(http_get(f"https://api.kraken.com/0/public/OHLC?pair={kbase}{quote}&interval=1440"))
+        if raw.get("error"):
+            raise RuntimeError(raw["error"])
+        series = next(v for k, v in raw["result"].items() if k != "last")
+        for t, o, h, l, c, _vw, v, _n in series:
+            d = dt.datetime.fromtimestamp(int(t), dt.timezone.utc).strftime("%Y-%m-%d")
+            candles.append([d, float(o), float(h), float(l), float(c), float(v)])
+        source = "Kraken"
+    except Exception as e:  # noqa: BLE001
+        log(f"  ! Kraken: {e} – trying Coinbase")
+        raw = json.loads(http_get(f"https://api.exchange.coinbase.com/products/{base}-{quote}/candles?granularity=86400"))
+        for t, l, h, o, c, v in sorted(raw):
+            d = dt.datetime.fromtimestamp(int(t), dt.timezone.utc).strftime("%Y-%m-%d")
+            candles.append([d, float(o), float(h), float(l), float(c), float(v)])
+        source = "Coinbase"
+    if len(candles) < min_len:
+        raise RuntimeError(f"no crypto data for {symbol}")
+    return {"candles": candles, "price": candles[-1][4], "currency": quote,
+            "market_time": None, "source": source}
+
+
+def fetch_daily(symbol, min_len=30):
+    if "-" in symbol and symbol.upper().split("-")[1] in ("USD", "EUR", "USDT"):
+        return fetch_crypto(symbol, min_len)
+    try:
+        return fetch_nasdaq(symbol, min_len=min_len)
+    except Exception as e:  # noqa: BLE001
+        log(f"  ! {e} – trying Yahoo")
+        return fetch_yahoo(symbol, min_len=min_len)
+
+
+def fetch_yahoo(symbol, rng="3y", min_len=30):
+    """Last-resort fallback (Yahoo often blocks GitHub's servers)."""
+    q = urllib.parse.quote(symbol)
+    raw = json.loads(http_get(f"https://query2.finance.yahoo.com/v8/finance/chart/{q}?range={rng}&interval=1d"))
+    res = raw["chart"]["result"][0]
+    qd, off = res["indicators"]["quote"][0], res["meta"].get("gmtoffset", 0)
+    rows = {}
+    for i, t in enumerate(res.get("timestamp") or []):
+        o, h, l, c, v = (qd[k][i] for k in ("open", "high", "low", "close", "volume"))
+        if None in (o, h, l, c):
+            continue
+        d = dt.datetime.fromtimestamp(t + off, dt.timezone.utc).strftime("%Y-%m-%d")
+        rows[d] = [d, o, h, l, c, v or 0]
+    candles = [rows[k] for k in sorted(rows)]
+    if len(candles) < min_len:
+        raise RuntimeError(f"no data for {symbol}")
+    return {"candles": candles, "price": res["meta"].get("regularMarketPrice") or candles[-1][4],
+            "currency": res["meta"].get("currency", "USD"), "market_time": None, "source": "Yahoo Finance"}
+
+
+fetch = fetch_daily
 
 
 # ----------------------------------------------------------------------------
@@ -627,7 +688,7 @@ def main():
         ctx_fn = lambda syms: load_json(os.path.join(args.fixtures, "_market.json"), {})  # noqa: E731
         news_fn = lambda sym, name: load_json(os.path.join(args.fixtures, "_news.json"), {}).get(sym, [])  # noqa: E731
     else:
-        ctx_fn = lambda syms: mv.market_context(lambda x: fetch_yahoo(x, "5d", 2), syms, log)  # noqa: E731
+        ctx_fn = lambda syms: mv.market_context(lambda x: fetch_daily(x, 2), syms, log)  # noqa: E731
         news_fn = lambda sym, name: mv.headlines(http_get, sym, name)  # noqa: E731
     movers_payload, queue, new_movers = mv.update_movers(rows, mstate, today_ny, stamp, settings, ctx_fn, news_fn, log)
     extra = []

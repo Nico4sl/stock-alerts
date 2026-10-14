@@ -12,7 +12,7 @@ He wants to know **what is going on** and **learn something useful**, quickly.
 2. If `date` is not today's date in New York, or every mover already has `briefs/<id>.json`
    on `main`, stop – nothing to do.
 3. Optional extra context: `git show origin/data:movers.json` has the live change, sector ETF move,
-   S&P 500 / Nasdaq / VIX / 10y yield, distance to the 8/21 EMA and 50/200 SMA, and recent headlines.
+   S&P 500 / Nasdaq 100 / long-Treasury ETF (TLT), distance to the 8/21 EMA and 50/200 SMA, and recent headlines.
 
 ## 2 · Research each mover without a brief (max 6 per run, biggest moves first)
 - Use web search. Prefer primary or reputable sources: company press release / 8-K / earnings

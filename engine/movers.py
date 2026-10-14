@@ -3,7 +3,7 @@ Big-mover detection and "why it moved" briefs.
 
 - A stock that moves ±move_pct (default 3 %) vs. yesterday's close becomes a *mover*.
 - For movers we collect recent headlines (Yahoo Finance + Google News) and market
-  context (S&P 500, Nasdaq 100, VIX, 10y yield, sector ETF) – shown instantly in the app.
+  context (S&P 500, Nasdaq 100, long Treasuries, sector ETF) – shown instantly in the app.
 - A Claude scheduled task reads brief-queue.json (published to the `data` branch),
   researches each mover and commits briefs/<date>-<SYMBOL>.json to the repo.
 - Here we publish those briefs to the app and push a notification for new ones.
@@ -15,7 +15,7 @@ import urllib.parse
 import xml.etree.ElementTree as ET
 from email.utils import parsedate_to_datetime
 
-MARKET = [("SPY", "S&P 500"), ("QQQ", "Nasdaq 100"), ("^VIX", "VIX"), ("^TNX", "US 10y yield")]
+MARKET = [("SPY", "S&P 500"), ("QQQ", "Nasdaq 100"), ("TLT", "Long Treasuries")]
 SECTOR_ETF = {
     "AVGO": ("SMH", "Semiconductors"), "NVDA": ("SMH", "Semiconductors"), "AMAT": ("SMH", "Semiconductors"),
     "ANET": ("SMH", "Semiconductors"), "NBIS": ("IGV", "Software"), "CRWD": ("IGV", "Software"),
@@ -65,16 +65,6 @@ def headlines(http_get, symbol, name, limit=8):
         seen.add(key)
         items.append({"title": title.strip(), "publisher": publisher or "", "url": url, "time": ts})
 
-    try:  # Yahoo Finance news search
-        q = urllib.parse.quote(symbol)
-        raw = json.loads(http_get(
-            f"https://query2.finance.yahoo.com/v1/finance/search?q={q}&quotesCount=0&newsCount=10&enableFuzzyQuery=false"))
-        for n in raw.get("news", []):
-            ts = n.get("providerPublishTime")
-            add(n.get("title"), n.get("publisher"), n.get("link"),
-                dt.datetime.fromtimestamp(ts, dt.timezone.utc).isoformat() if ts else None)
-    except Exception:  # noqa: BLE001
-        pass
     try:  # Google News RSS (last 2 days)
         term = name if symbol.endswith("-USD") else f"{name} {symbol} stock"
         q = urllib.parse.quote(f"{term} when:2d")
