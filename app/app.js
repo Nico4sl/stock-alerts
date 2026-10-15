@@ -1251,7 +1251,8 @@
         </div>
         <div class="checks">
           <label><input type="checkbox" id="stMover" ${set.mover_push !== false ? "checked" : ""}> Instant push on a big move</label>
-          <label><input type="checkbox" id="stEma" ${set.ema_alerts !== false ? "checked" : ""}> 8 / 21 EMA entry alerts</label>
+          <label><input type="checkbox" id="stEma" ${set.ema_alerts !== false ? "checked" : ""}> 8 / 21 EMA entry alerts (in app)</label>
+          <label><input type="checkbox" id="stEmaPush" ${set.ema_push ? "checked" : ""}> Push 8 / 21 EMA alerts to phone</label>
           <label><input type="checkbox" id="stGaps" ${set.gap_alerts !== false ? "checked" : ""}> Gap alerts</label>
         </div>
         <button class="btn primary" id="stSave">Save rules</button>
@@ -1287,7 +1288,7 @@
         Object.assign(c.settings, {
           band_pct: +$("#stBand").value || 1.5, extended_pct: +$("#stExt").value || 0, min_gap_pct: +$("#stGap").value || 0,
           sma_alerts_all: all, sma_alerts_high_conviction: hc,
-          ema_alerts: $("#stEma").checked, gap_alerts: $("#stGaps").checked,
+          ema_alerts: $("#stEma").checked, ema_push: $("#stEmaPush").checked, gap_alerts: $("#stGaps").checked,
           move_pct: +$("#stMove").value || 3, mover_push: $("#stMover").checked, brief_lang: $("#stLangPush").value,
         });
       }, "Update alert rules");

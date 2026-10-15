@@ -723,7 +723,16 @@ def push(topic, server, alert):
         r.read()
 
 
-def deliver(alerts, topic, server, app_url):
+PUSH_OFF_KINDS = {"ema8", "ema21"}   # in-app only unless settings.ema_push is true
+
+
+def deliver(alerts, topic, server, app_url, settings=None):
+    settings = settings or {}
+    if not settings.get("ema_push", False):
+        quiet = [a for a in alerts if a.get("kind") in PUSH_OFF_KINDS]
+        if quiet:
+            log(f"  {len(quiet)} EMA alert(s) kept in the app only (no push)")
+        alerts = [a for a in alerts if a.get("kind") not in PUSH_OFF_KINDS]
     if not alerts:
         return
     if not topic:
@@ -864,7 +873,7 @@ def main():
     for a in alerts.fired:
         a["time"] = stamp
         log(f"  ALERT {a['title']}")
-    deliver(alerts.fired, topic, server, args.app_url)
+    deliver(alerts.fired, topic, server, args.app_url, settings)
     history = (list(reversed(alerts.fired)) + history)[:MAX_LOG]
 
     save_json(state_path, state)
