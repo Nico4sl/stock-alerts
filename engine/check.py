@@ -171,7 +171,13 @@ def fetch_nasdaq(symbol, years=3, min_len=30, assets=("stocks", "etf")):
         live = _nasdaq(f"{q}/chart?assetclass={asset}")
         last = _num(live.get("lastSalePrice"))
         asof = (live.get("timeAsOf") or "").replace(" ET", "")
-        when = dt.datetime.strptime(asof, "%b %d, %Y %I:%M %p").replace(tzinfo=NY) if asof else None
+        when = None
+        for f in ("%b %d, %Y %I:%M %p", "%b %d, %Y"):
+            try:
+                when = dt.datetime.strptime(asof, f).replace(tzinfo=NY)
+                break
+            except ValueError:
+                continue
         if last:
             price = last
         if when and last:
@@ -328,9 +334,9 @@ def fetch_us_yield(symbol, min_len=30):
 
 def fetch_de_yield(symbol, min_len=30):
     code = DE_YIELDS[symbol]
-    start = (dt.date.today() - dt.timedelta(days=365 * 3 + 10)).isoformat()
     text = http_get("https://api.statistiken.bundesbank.de/rest/data/BBSIS/"
-                    f"D.I.ZST.ZI.EUR.S1311.B.A604.{code}.R.A.A._Z._Z.A?format=csv&startPeriod={start}")
+                    f"D.I.ZST.ZI.EUR.S1311.B.A604.{code}.R.A.A._Z._Z.A?format=csv&lastNObservations=800",
+                    timeout=45)
     points = {}
     for ln in text.splitlines():
         p = ln.split(";")

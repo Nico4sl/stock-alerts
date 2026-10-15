@@ -44,7 +44,7 @@ POPULAR_ETF = set("""SPY VOO IVV VTI QQQ QQQM DIA IWM VEA VWO EFA EEM VXUS ACWI 
 HYG LQD TIP GOVT SGOV BIL VGIT VGLT EMB GLD IAU SLV USO SMH SOXX XLK XLF XLE XLV XLY XLP XLI XLB XLU
 XLRE XLC IGV ARKK SCHD VIG VYM IBIT FBTC ETHA RSP MTUM QUAL USMV VNQ IEMG IJH IJR""".split())
 NAME_TRIM = re.compile(r"\s+(Class [A-C] )?(Common Stock|Ordinary Shares|Common Shares|Capital Stock)"
-                       r"(\s*\(.*\))?$|,?\s+Inc\.?$", re.I)
+                       r"(\s*\(.*\))?$|,?\s+Inc\.?$|\s+(Trust )?Units?$", re.I)
 
 
 def _rows(raw):
@@ -104,11 +104,11 @@ def build_directory(log=print):
             add(sym, r.get("companyName"), "E", 2_000_000 if sym in POPULAR_ETF else 1)
     except Exception as e:  # noqa: BLE001
         log(f"  ! ETF list: {e}")
-    items.sort(key=lambda x: -x[3])
+    items.sort(key=lambda x: -x[3])          # biggest first: the app keeps this order
     log(f"  symbol directory: {len(items)} entries ({n_stocks} stocks)")
     if n_stocks < 1000:
         raise RuntimeError("stock list looks incomplete")
-    return items
+    return [x[:3] for x in items]
 
 
 def ensure_directory(state_dir, out_dir, today, log=print):

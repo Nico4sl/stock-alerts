@@ -1,13 +1,12 @@
-import subprocess, sys, json, os
+import sys, json
 sys.path.insert(0, "engine")
-import lookup as lk
-for s in ["AAPL","BRK.B","TLT","^SPX","^DJI","^NDX","^VIX","^RUT","US10Y","US2Y","DE10Y","ETH-USD","NVO"]:
-    lk.lookup(s, "out")
+import lookup as lk, check as ck
+for s in ["DE10Y","DE2Y","DE30Y","^NDX","^COMP"]:
+    lk.lookup(s, "out", "")
     d = json.load(open(f"out/{lk.mv.SAFE(s)}.json"))
     if "error" in d: print(s, "ERROR", d["error"]); continue
-    sm = d["summary"]; dt_ = d["detail"]
-    print(s, sm["name"], sm["price"], sm["change_pct"], "bars", len(dt_["t"]), dt_["t"][0], dt_["t"][-1], "gaps", sm["open_gap_count"], "src", sm["source"], "size", os.path.getsize(f"out/{lk.mv.SAFE(s)}.json"))
-items = lk.build_directory()
-print("dir", len(items), "bytes", len(json.dumps(items, separators=(",",":"))))
-for q in ["AAPL","NVO","SPY","BRK.B","^NDX","^SOX"]: print([i for i in items if i[0]==q])
-print(items[:5], items[40:45], [i for i in items if i[2]=="E"][:5])
+    sm = d["summary"]; print(s, sm["price"], sm["change_pct"], len(d["detail"]["t"]), d["detail"]["t"][-1])
+try:
+    t = ck.http_get("https://api.statistiken.bundesbank.de/rest/data/BBSIS/D.I.ZST.ZI.EUR.S1311.B.A604.R10XX.R.A.A._Z._Z.A?format=csv&lastNObservations=800", timeout=45)
+    print(len(t)); print(t[:800]); print(t[-300:])
+except Exception as e: print("ERR", e)
