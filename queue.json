@@ -3,30 +3,6 @@
  "threshold": 3.0,
  "movers": [
   {
-   "id": "2026-10-15-NBIS",
-   "symbol": "NBIS",
-   "name": "Nebius",
-   "list": "portfolio",
-   "trigger_change": -13.8,
-   "first_seen": "2026-10-15T10:06:18+00:00"
-  },
-  {
-   "id": "2026-10-15-SOFI",
-   "symbol": "SOFI",
-   "name": "SoFi",
-   "list": "portfolio",
-   "trigger_change": -8.2,
-   "first_seen": "2026-10-15T10:06:18+00:00"
-  },
-  {
-   "id": "2026-10-15-CRWD",
-   "symbol": "CRWD",
-   "name": "CrowdStrike",
-   "list": "portfolio",
-   "trigger_change": -6.9,
-   "first_seen": "2026-10-15T10:06:18+00:00"
-  },
-  {
    "id": "2026-10-15-ANET",
    "symbol": "ANET",
    "name": "Arista Networks",
@@ -35,11 +11,11 @@
    "first_seen": "2026-10-15T10:06:18+00:00"
   },
   {
-   "id": "2026-10-15-AMAT",
-   "symbol": "AMAT",
-   "name": "Applied Materials",
+   "id": "2026-10-15-NBIS",
+   "symbol": "NBIS",
+   "name": "Nebius",
    "list": "portfolio",
-   "trigger_change": -6.2,
+   "trigger_change": -13.8,
    "first_seen": "2026-10-15T10:06:18+00:00"
   },
   {
@@ -51,6 +27,14 @@
    "first_seen": "2026-10-15T10:06:18+00:00"
   },
   {
+   "id": "2026-10-15-AMAT",
+   "symbol": "AMAT",
+   "name": "Applied Materials",
+   "list": "portfolio",
+   "trigger_change": -6.2,
+   "first_seen": "2026-10-15T10:06:18+00:00"
+  },
+  {
    "id": "2026-10-15-UNH",
    "symbol": "UNH",
    "name": "UnitedHealth",
@@ -59,19 +43,11 @@
    "first_seen": "2026-10-15T10:06:18+00:00"
   },
   {
-   "id": "2026-10-15-META",
-   "symbol": "META",
-   "name": "Meta",
+   "id": "2026-10-15-CRWD",
+   "symbol": "CRWD",
+   "name": "CrowdStrike",
    "list": "portfolio",
-   "trigger_change": -4.6,
-   "first_seen": "2026-10-15T10:06:18+00:00"
-  },
-  {
-   "id": "2026-10-15-AMZN",
-   "symbol": "AMZN",
-   "name": "Amazon",
-   "list": "portfolio",
-   "trigger_change": -3.4,
+   "trigger_change": -6.9,
    "first_seen": "2026-10-15T10:06:18+00:00"
   },
   {
@@ -80,6 +56,14 @@
    "name": "Nvidia",
    "list": "portfolio",
    "trigger_change": -5.1,
+   "first_seen": "2026-10-15T10:06:18+00:00"
+  },
+  {
+   "id": "2026-10-15-SOFI",
+   "symbol": "SOFI",
+   "name": "SoFi",
+   "list": "portfolio",
+   "trigger_change": -8.2,
    "first_seen": "2026-10-15T10:06:18+00:00"
   },
   {
@@ -99,12 +83,44 @@
    "first_seen": "2026-10-15T10:06:18+00:00"
   },
   {
+   "id": "2026-10-15-META",
+   "symbol": "META",
+   "name": "Meta",
+   "list": "portfolio",
+   "trigger_change": -4.6,
+   "first_seen": "2026-10-15T10:06:18+00:00"
+  },
+  {
+   "id": "2026-10-15-AMZN",
+   "symbol": "AMZN",
+   "name": "Amazon",
+   "list": "portfolio",
+   "trigger_change": -3.4,
+   "first_seen": "2026-10-15T10:06:18+00:00"
+  },
+  {
    "id": "2026-10-15-MELI",
    "symbol": "MELI",
    "name": "MercadoLibre",
    "list": "watchlist",
    "trigger_change": -3.0,
    "first_seen": "2026-10-15T11:30:06+00:00"
+  },
+  {
+   "id": "2026-10-15-NOW",
+   "symbol": "NOW",
+   "name": "ServiceNow",
+   "list": "portfolio",
+   "trigger_change": 5.6,
+   "first_seen": "2026-10-15T15:08:43+00:00"
+  },
+  {
+   "id": "2026-10-15-NVO",
+   "symbol": "NVO",
+   "name": "Novo Nordisk (ADR)",
+   "list": "portfolio",
+   "trigger_change": 3.9,
+   "first_seen": "2026-10-15T15:08:43+00:00"
   }
  ]
 }
