@@ -3,35 +3,11 @@
  "threshold": 3.0,
  "movers": [
   {
-   "id": "2026-10-15-ANET",
-   "symbol": "ANET",
-   "name": "Arista Networks",
-   "list": "portfolio",
-   "trigger_change": -5.7,
-   "first_seen": "2026-10-15T10:06:18+00:00"
-  },
-  {
    "id": "2026-10-15-APP",
    "symbol": "APP",
    "name": "AppLovin",
    "list": "portfolio",
    "trigger_change": -5.1,
-   "first_seen": "2026-10-15T10:06:18+00:00"
-  },
-  {
-   "id": "2026-10-15-AMAT",
-   "symbol": "AMAT",
-   "name": "Applied Materials",
-   "list": "portfolio",
-   "trigger_change": -6.2,
-   "first_seen": "2026-10-15T10:06:18+00:00"
-  },
-  {
-   "id": "2026-10-15-UNH",
-   "symbol": "UNH",
-   "name": "UnitedHealth",
-   "list": "portfolio",
-   "trigger_change": 5.4,
    "first_seen": "2026-10-15T10:06:18+00:00"
   },
   {
@@ -43,11 +19,27 @@
    "first_seen": "2026-10-15T10:06:18+00:00"
   },
   {
-   "id": "2026-10-15-NBIS",
-   "symbol": "NBIS",
-   "name": "Nebius",
+   "id": "2026-10-15-ANET",
+   "symbol": "ANET",
+   "name": "Arista Networks",
    "list": "portfolio",
-   "trigger_change": -13.8,
+   "trigger_change": -5.7,
+   "first_seen": "2026-10-15T10:06:18+00:00"
+  },
+  {
+   "id": "2026-10-15-UNH",
+   "symbol": "UNH",
+   "name": "UnitedHealth",
+   "list": "portfolio",
+   "trigger_change": 5.4,
+   "first_seen": "2026-10-15T10:06:18+00:00"
+  },
+  {
+   "id": "2026-10-15-AMAT",
+   "symbol": "AMAT",
+   "name": "Applied Materials",
+   "list": "portfolio",
+   "trigger_change": -6.2,
    "first_seen": "2026-10-15T10:06:18+00:00"
   },
   {
@@ -59,14 +51,6 @@
    "first_seen": "2026-10-15T10:06:18+00:00"
   },
   {
-   "id": "2026-10-15-AVGO",
-   "symbol": "AVGO",
-   "name": "Broadcom",
-   "list": "watchlist",
-   "trigger_change": -4.8,
-   "first_seen": "2026-10-15T10:06:18+00:00"
-  },
-  {
    "id": "2026-10-15-NVDA",
    "symbol": "NVDA",
    "name": "Nvidia",
@@ -75,11 +59,27 @@
    "first_seen": "2026-10-15T10:06:18+00:00"
   },
   {
-   "id": "2026-10-15-META",
-   "symbol": "META",
-   "name": "Meta",
+   "id": "2026-10-15-AVGO",
+   "symbol": "AVGO",
+   "name": "Broadcom",
+   "list": "watchlist",
+   "trigger_change": -4.8,
+   "first_seen": "2026-10-15T10:06:18+00:00"
+  },
+  {
+   "id": "2026-10-15-NBIS",
+   "symbol": "NBIS",
+   "name": "Nebius",
    "list": "portfolio",
-   "trigger_change": -4.6,
+   "trigger_change": -13.8,
+   "first_seen": "2026-10-15T10:06:18+00:00"
+  },
+  {
+   "id": "2026-10-15-AMZN",
+   "symbol": "AMZN",
+   "name": "Amazon",
+   "list": "portfolio",
+   "trigger_change": -3.4,
    "first_seen": "2026-10-15T10:06:18+00:00"
   },
   {
@@ -91,11 +91,11 @@
    "first_seen": "2026-10-15T10:06:18+00:00"
   },
   {
-   "id": "2026-10-15-AMZN",
-   "symbol": "AMZN",
-   "name": "Amazon",
+   "id": "2026-10-15-META",
+   "symbol": "META",
+   "name": "Meta",
    "list": "portfolio",
-   "trigger_change": -3.4,
+   "trigger_change": -4.6,
    "first_seen": "2026-10-15T10:06:18+00:00"
   },
   {
