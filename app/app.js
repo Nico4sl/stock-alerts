@@ -960,7 +960,7 @@
   function resultHTML(x) {
     const listed = onLists(x.s);
     return `<li class="sr" data-s="${esc(x.s)}" data-n="${esc(x.n)}" data-t="${esc(x.t)}">
-      <div class="sr-main"><div class="sym">${esc(disp(x.s))}<span class="chip t-${esc(x.t)}">${TYPE[x.t] || ""}</span>${listed ? '<span class="chip zone">On your lists</span>' : ""}</div>
+      <div class="sr-main"><div class="sym">${esc(disp(x.s))}${TYPE[x.t] ? `<span class="chip t-${esc(x.t)}">${TYPE[x.t]}</span>` : ""}${listed ? '<span class="chip zone">On your lists</span>' : ""}</div>
       <div class="name">${esc(x.n)}</div></div>
       <svg viewBox="0 0 24 24" class="chev"><path d="M9 5l7 7-7 7"/></svg></li>`;
   }
@@ -1005,10 +1005,9 @@
       if (my !== seq) return;
       results = list ? searchSymbols(list, q) : [];
       const raw = q.trim().toUpperCase();
-      const exact = results.some((r) => disp(r.s) === raw.replace(/^\^/, ""));
       const tickerish = /^[A-Z0-9.^\-]{1,15}$/.test(raw);
       let html = results.length ? `<ul class="rows">${results.map(resultHTML).join("")}</ul>` : "";
-      if (!exact && tickerish) {
+      if (!results.length && tickerish) {
         html += `<ul class="rows">${resultHTML({ s: raw, n: list ? "Not in the symbol list – try anyway" : "Symbol list unavailable – look up this ticker", t: "" })}</ul>`;
       }
       if (!html) html = `<div class="empty"><b>No matches</b>Try the ticker symbol or another part of the name.</div>`;

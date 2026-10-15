@@ -15,6 +15,9 @@ A personal chart and alert app for your watchlist and portfolio, based on Babyfo
   right away. Within about an hour Claude researches the catalyst (company, sector or macro) and writes a short read
   in English and German, with what happened, why the market cares, context, one concept to learn and sources.
   It pops up when you open the app.
+- **Search:** look up any US stock, ETF or ADR, the S&P 500 / Nasdaq 100 / Dow / Russell 2000 / VIX
+  (and other Nasdaq indices), US Treasury and German Bund yields, and major crypto – same three charts,
+  without adding it to a list. Tap **+ Watchlist** if you want alerts for it.
 - Works on **Android** (home-screen app) and **Mac** (Dock app). Free: GitHub + ntfy, no other accounts.
 
 ---
@@ -63,6 +66,9 @@ The key stays on that device only. Without it the app still shows everything; yo
 ---
 
 ## Using it
+- **Search tab:** type a ticker or name. Opening a symbol that isn't on your lists starts the small
+  *Lookup* job on GitHub (≈30–60 s the first time; cached and reused for 15 min). Needs the GitHub key
+  from step 5. Non-US stocks and indices like the DAX aren't available from the free sources.
 - **Portfolio / Watchlist:** open a stock → **+ Portfolio** moves it. Holdings get the "gap above = trim area" wording.
 - **★ High conviction** turns on 200-day SMA alerts for that stock.
 - **+ Add level** → pick a type, type a price or tap **Pick on chart**.
@@ -86,6 +92,8 @@ The key stays on that device only. Without it the app still shows everything; yo
 | `BRIEF_TASK.md` | Instructions Claude follows when writing briefs |
 | `briefs/` | The written briefs (one JSON per mover per day) |
 | `engine/check.py` | Fetches prices, computes EMA/SMA/gaps, sends alerts |
+| `engine/lookup.py` | Search: daily symbol list + on-demand charts for any symbol |
+| `.github/workflows/lookup.yml` | Runs a lookup when you open a symbol from Search (writes to the `lookup` branch) |
 | `engine/movers.py` | ±3 % movers, headlines, market context, publishes briefs |
 | `app/` | The app (TradingView Lightweight Charts™) |
 | `.github/workflows/check.yml` | Schedule plus deployment to GitHub Pages |
