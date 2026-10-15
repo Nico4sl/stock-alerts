@@ -20,6 +20,22 @@
     gaps: { name: "Gaps", lines: [], bars: 260 },
   };
   const RANGES = [["3M", 63], ["6M", 130], ["1Y", 260], ["2Y", 520], ["All", 99999]];
+  // Candle timeframes. Weekly/monthly series come precomputed in the detail JSON (d.w / d.m)
+  // with their own EMAs/SMAs (e.g. weekly 200 SMA = TradingView's weekly 200 SMA).
+  const TFS = { d: "D", w: "W", m: "M" };
+  const TF_RANGES = {
+    d: RANGES,
+    w: [["6M", 26], ["1Y", 52], ["2Y", 104], ["5Y", 260], ["All", 99999]],
+    m: [["2Y", 24], ["5Y", 60], ["10Y", 120], ["All", 99999]],
+  };
+  const TF_NAME = { d: "daily", w: "weekly", m: "monthly" };
+  const defaultBars = (v) => (S.tf === "w" ? (v === "ema" ? 52 : 260) : S.tf === "m" ? 99999 : VIEWS[v].bars);
+  const rangesHTML = () => TF_RANGES[S.tf].map(([l, n]) => `<button data-n="${n}">${l}</button>`).join("");
+  const tfSegHTML = () => `<div class="seg tf" id="tfSeg">${Object.entries(TFS).map(([k, l]) => `<button data-tf="${k}" class="${k === S.tf ? "on" : ""}" aria-label="${TF_NAME[k]} candles">${l}</button>`).join("")}</div>`;
+  function tfData(detail) {
+    if (S.tf === "d" || !detail[S.tf]) return detail;
+    return { ...detail[S.tf], gaps: detail.gaps, close_only: detail.close_only, tf: S.tf };
+  }
   const LEVEL_TYPES = {
     support: { label: "Support", color: "#2bd576", help: "Alert when price comes within the zone (±band)" },
     resistance: { label: "Resistance", color: "#ef5350", help: "Alert when price comes within the zone (±band)" },
@@ -50,6 +66,7 @@
     chart: null, sheetOpen: false, picking: null,
     sort: store.get("sort", "default"),
     zones: store.get("zones", true),
+    tf: store.get("tf", "d"),
     repo: detectRepo(),
     token: store.get("token", ""),
     branch: store.get("branch", "main"),
@@ -373,11 +390,11 @@
       </div>
       <div class="views"><div class="seg" id="viewSeg">
         ${Object.entries(VIEWS).map(([k, v]) => `<button data-v="${k}" class="${k === vname ? "on" : ""}">${v.name}</button>`).join("")}
-      </div></div>
+      </div>${tfSegHTML()}</div>
       <div class="chart-wrap"><div id="chart"></div><div class="legend num" id="legend"></div>
         <div class="pick-hint" id="pickHint" hidden>Tap the chart at your price</div></div>
       <div class="ranges" id="ranges">
-        ${RANGES.map(([l, n]) => `<button data-n="${n}">${l}</button>`).join("")}
+        ${rangesHTML()}
         <span class="sp"></span>
         <label class="toggle"><input type="checkbox" id="zonesChk" ${S.zones ? "checked" : ""}> Zones ±${S.summary.settings?.band_pct ?? 1.5}%</label>
       </div>
@@ -403,11 +420,19 @@
       return;
     }
     if (parseRoute().sym !== sym) return;   // user navigated away meanwhile
-    buildChart(detail, row, levels, vname, keepRange);
-    bindChartControls();
+    buildChart(tfData(detail), row, levels, vname, keepRange);
+    bindChartControls(detail);
   }
 
-  function bindChartControls() {
+  function bindChartControls(detail) {
+    if (S.tf !== "d" && !detail[S.tf]) toast(`${TF_NAME[S.tf][0].toUpperCase() + TF_NAME[S.tf].slice(1)} candles appear after the next update – showing daily`);
+    $("#tfSeg").onclick = (e) => {
+      const tf = e.target.closest("button")?.dataset.tf;
+      if (!tf || tf === S.tf) return;
+      S.tf = tf;
+      store.set("tf", tf);
+      render(false);
+    };
     $("#viewSeg").onclick = (e) => {
       const v = e.target.closest("button")?.dataset.v;
       if (!v) return;
@@ -423,6 +448,12 @@
   }
 
   function levelsCardHTML(v, row, detail) {
+    const inner = levelsCardInner(v, row, detail);
+    if (!detail?.tf || v === "gaps") return inner;
+    return `<div class="tf-note">Chart shows ${TF_NAME[detail.tf]} candles with ${TF_NAME[detail.tf]} averages. The levels and alerts below use daily values.</div>` + inner;
+  }
+
+  function levelsCardInner(v, row, detail) {
     const set = S.summary.settings || {};
     const band = set.band_pct ?? 1.5;
     const L = row.levels || {};
@@ -605,9 +636,14 @@
     const overlay = new Overlay();
     candles.attachPrimitive(overlay);
 
-    const idx = Object.fromEntries(d.t.map((t, i) => [t, i]));
+    const barOf = (date) => {          // last bar starting on or before date
+      let lo = 0, hi = n - 1;
+      if (!date || date < d.t[0]) return 0;
+      while (lo < hi) { const mid = (lo + hi + 1) >> 1; if (d.t[mid] <= date) lo = mid; else hi = mid - 1; }
+      return lo;
+    };
     const gaps = (d.gaps || []).map((g) => ({
-      ...g, i0: idx[g.start] ?? 0, i1: g.filled ? (idx[g.filled_date] ?? n - 1) : null,
+      ...g, i0: barOf(g.start), i1: g.filled ? barOf(g.filled_date) : null,
       below: g.open_top <= row.price,
     }));
 
@@ -646,7 +682,7 @@
     const bands = S.zones ? VIEWS[v].lines.map((key) => ({ values: c.d[key], pct: band, fill: hexA(COLORS[key], key === "sma200" ? 0.08 : 0.1) })) : [];
     c.overlay.set(v === "gaps" ? c.gaps : [], bands);
     c.showLegend(null);
-    if (resetRange) setBars(VIEWS[v].bars);
+    if (resetRange) setBars(defaultBars(v));
     $("#levelsCard").innerHTML = levelsCardHTML(v, c.row, c.d);
   }
 
@@ -1151,10 +1187,10 @@
       <div class="lk-status" id="lkStatus">${st}</div>
       <div class="views"><div class="seg" id="viewSeg">
         ${Object.entries(VIEWS).map(([k, v]) => `<button data-v="${k}" class="${k === vname ? "on" : ""}">${v.name}</button>`).join("")}
-      </div></div>
+      </div>${tfSegHTML()}</div>
       <div class="chart-wrap"><div id="chart"></div><div class="legend num" id="legend"></div></div>
       <div class="ranges" id="ranges">
-        ${RANGES.map(([l, n]) => `<button data-n="${n}">${l}</button>`).join("")}
+        ${rangesHTML()}
         <span class="sp"></span>
         <label class="toggle"><input type="checkbox" id="zonesChk" ${S.zones ? "checked" : ""}> Zones ±${S.summary?.settings?.band_pct ?? 1.5}%</label>
       </div>
@@ -1175,8 +1211,8 @@
     if (!S.summary) {   // levelsCardHTML needs settings
       S.summary = { settings: S.config?.settings || {}, stocks: [], generated: null, market: "" };
     }
-    buildChart(d, row, [], vname, keepRange);
-    bindChartControls();
+    buildChart(tfData(d), row, [], vname, keepRange);
+    bindChartControls(d);
   }
 
   // ------------------------------------------------------------------ alerts

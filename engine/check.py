@@ -33,6 +33,8 @@ UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/126.0 Safari/537.36")
 
 EMA_LENGTHS = (8, 21)
+HISTORY_YEARS = 15        # fetched for weekly/monthly charts; daily output + alerts use the last 3 years
+DAILY_YEARS = 3
 SMA_LENGTHS = (50, 100, 150, 200)
 MAX_LOG = 200          # alerts kept in the in-app log
 BUNDLE_LIMIT = 6       # more alerts than this in one run -> one combined push
@@ -140,16 +142,21 @@ def _nasdaq(path):
     return raw.get("data")
 
 
-def fetch_nasdaq(symbol, years=3, min_len=30, assets=("stocks", "etf")):
-    """Daily candles from Nasdaq.com (stocks, ADRs, ETFs) + today's live candle."""
+def fetch_nasdaq(symbol, years=HISTORY_YEARS, min_len=30, assets=("stocks", "etf")):
+    """Daily candles from Nasdaq.com (stocks, ADRs, ETFs) + today's live candle.
+    Asking for 15 years returns the maximum Nasdaq has (10 y for stocks, more for indices);
+    if that ever comes back empty we fall back to 3 years."""
     q = urllib.parse.quote(symbol)
-    start = (dt.date.today() - dt.timedelta(days=365 * years + 10)).isoformat()
     hist, asset = None, None
-    for asset in assets:
-        hist = _nasdaq(f"{q}/historical?assetclass={asset}&fromdate={start}&limit=9999")
-        if hist and (hist.get("tradesTable") or {}).get("rows"):
+    for yrs in (years, 3):
+        start = (dt.date.today() - dt.timedelta(days=365 * yrs + 10)).isoformat()
+        for asset in assets:
+            hist = _nasdaq(f"{q}/historical?assetclass={asset}&fromdate={start}&limit=9999")
+            if hist and (hist.get("tradesTable") or {}).get("rows"):
+                break
+            hist = None
+        if hist:
             break
-        hist = None
     if not hist:
         raise RuntimeError(f"Nasdaq has no data for {symbol}")
     rows = {}
@@ -260,7 +267,7 @@ def fetch_cboe(symbol, min_len=30):
         o = o or c
         h, l = max(h or c, o, c), min(l or c, o, c)
         candles.append([r["date"], o * scale, h * scale, l * scale, c * scale, 0])
-    candles = _cut_years(sorted(candles))
+    candles = _cut_years(sorted(candles), HISTORY_YEARS)
     price, market_time = candles[-1][4] if candles else None, None
     try:  # delayed live quote (~15 min) for today's candle
         q = json.loads(http_get(f"https://cdn.cboe.com/api/global/delayed_quotes/quotes/{csym}.json"))["data"]
@@ -296,7 +303,7 @@ def fetch_nasdaq_index(symbol, min_len=30):
 
 def _close_only(points, source, min_len, symbol):
     candles = [[d, v, v, v, v, 0] for d, v in sorted(points.items())]
-    candles = _cut_years(candles)
+    candles = _cut_years(candles, HISTORY_YEARS)
     if len(candles) < min_len:
         raise RuntimeError(f"{source} returned too little history for {symbol}")
     return {"candles": candles, "price": candles[-1][4], "currency": "%", "market_time": None,
@@ -307,7 +314,7 @@ def fetch_us_yield(symbol, min_len=30):
     col = US_YIELDS[symbol]
     points = {}
     year = dt.date.today().year
-    for y in range(year - 3, year + 1):
+    for y in range(year - 10, year + 1):
         try:
             text = http_get("https://home.treasury.gov/resource-center/data-chart-center/interest-rates/"
                             f"daily-treasury-rates.csv/{y}/all?type=daily_treasury_yield_curve"
@@ -335,7 +342,7 @@ def fetch_us_yield(symbol, min_len=30):
 def fetch_de_yield(symbol, min_len=30):
     code = DE_YIELDS[symbol]
     text = http_get("https://api.statistiken.bundesbank.de/rest/data/BBSIS/"
-                    f"D.I.ZST.ZI.EUR.S1311.B.A604.{code}.R.A.A._Z._Z.A?format=csv&lastNObservations=1110",
+                    f"D.I.ZST.ZI.EUR.S1311.B.A604.{code}.R.A.A._Z._Z.A?format=csv&lastNObservations=3700",
                     timeout=45)
     points = {}
     for ln in text.splitlines():
@@ -367,7 +374,7 @@ def fetch_daily(symbol, min_len=30):
         return fetch_yahoo(symbol, min_len=min_len)
 
 
-def fetch_yahoo(symbol, rng="3y", min_len=30):
+def fetch_yahoo(symbol, rng="10y", min_len=30):
     """Last-resort fallback (Yahoo often blocks GitHub's servers)."""
     q = urllib.parse.quote(symbol)
     raw = json.loads(http_get(f"https://query2.finance.yahoo.com/v8/finance/chart/{q}?range={rng}&interval=1d"))
@@ -416,6 +423,36 @@ def ema(values, n):
         prev = values[i] * k + prev * (1 - k)
         out[i] = prev
     return out
+
+
+def resample(candles, tf):
+    """Daily candles -> weekly (Mon–Fri) or monthly candles, labelled with their first trading day."""
+    out, key_prev = [], None
+    for d, o, h, l, c, v in candles:
+        day = dt.date.fromisoformat(d)
+        key = (day - dt.timedelta(days=day.weekday())) if tf == "w" else (day.year, day.month)
+        if key != key_prev:
+            out.append([d, o, h, l, c, v or 0])
+            key_prev = key
+        else:
+            bar = out[-1]
+            bar[2], bar[3], bar[4] = max(bar[2], h), min(bar[3], l), c
+            bar[5] += v or 0
+    return out
+
+
+def timeframe(full, tf, price):
+    bars = resample(full, tf)
+    closes = [b[4] for b in bars]
+    ser = {f"ema{n}": ema(closes, n) for n in EMA_LENGTHS}
+    ser.update({f"sma{n}": sma(closes, n) for n in SMA_LENGTHS})
+    return {
+        "t": [b[0] for b in bars],
+        "o": [rnd(b[1], price) for b in bars], "h": [rnd(b[2], price) for b in bars],
+        "l": [rnd(b[3], price) for b in bars], "c": [rnd(b[4], price) for b in bars],
+        "v": [int(b[5]) for b in bars],
+        **{key: [rnd(x, price) for x in v] for key, v in ser.items()},
+    }
 
 
 def find_gaps(candles, min_gap_pct):
@@ -506,14 +543,18 @@ def analyse(stock, data, settings, alerts, app_url):
     hc = bool(stock.get("high_conviction"))
     link = f"{app_url}#/s/{urllib.parse.quote(sym)}" if app_url else None
 
-    candles = data["candles"]
-    closes = [c[4] for c in candles]
+    full = data["candles"]
+    full_closes = [c[4] for c in full]
+    series_full = {f"ema{n}": ema(full_closes, n) for n in EMA_LENGTHS}
+    series_full.update({f"sma{n}": sma(full_closes, n) for n in SMA_LENGTHS})
+    cut = (dt.date.today() - dt.timedelta(days=365 * DAILY_YEARS + 10)).isoformat()
+    k = next((i for i, c in enumerate(full) if c[0] >= cut), 0)
+    candles = full[k:]
+    closes = full_closes[k:]
+    series = {key: v[k:] for key, v in series_full.items()}
     price = float(data["price"])
     prev_close = closes[-2] if len(closes) > 1 else price
     change_pct = pct(price, prev_close)
-
-    series = {f"ema{n}": ema(closes, n) for n in EMA_LENGTHS}
-    series.update({f"sma{n}": sma(closes, n) for n in SMA_LENGTHS})
     lv = {k: v[-1] for k, v in series.items()}
     prev_lv = {k: (v[-2] if len(v) > 1 else None) for k, v in series.items()}
     momentum = (lv["ema8"] is not None and lv["ema21"] is not None and lv["ema8"] > lv["ema21"])
@@ -705,6 +746,8 @@ def analyse(stock, data, settings, alerts, app_url):
                   "filled": g["filled"], "filled_date": g["filled_date"],
                   "fill_pct": round(g["fill_pct"])}
                  for g in gaps if not g["filled"] or g["age"] <= 260],
+        "w": timeframe(full, "w", price),
+        "m": timeframe(full, "m", price),
     }
     return summary, detail
 
