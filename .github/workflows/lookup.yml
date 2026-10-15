@@ -28,11 +28,6 @@ jobs:
     timeout-minutes: 5
     steps:
       - uses: actions/checkout@v4
-        with:
-          sparse-checkout: |
-            engine
-            config.json
-          sparse-checkout-cone-mode: false
 
       - name: Fetch and analyse
         env:
