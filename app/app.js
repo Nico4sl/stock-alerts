@@ -915,36 +915,6 @@
     store.set("seenBriefs", [...seen].slice(-300));
   }
 
-  // pop-up for briefs you have not read yet (last 24 h)
-  async function maybePopupBriefs() {
-    if (S.sheetOpen || parseRoute().name === "brief" || !S.briefs.length) return;
-    if (!store.get("popupInit", false)) {             // first launch: don't pop up the archive
-      store.set("popupInit", true);
-      store.set("seenBriefs", S.briefs.map((b) => b.id));
-      return;
-    }
-    const seen = new Set(store.get("seenBriefs", []));
-    const dayAgo = new Date(Date.now() - 36 * 3600e3).toISOString().slice(0, 10);
-    const fresh = S.briefs.filter((b) => !seen.has(b.id) && b.date >= dayAgo);
-    if (!fresh.length) return;
-    let i = 0;
-    const show = async () => {
-      const b = await loadBrief(fresh[i].id).catch(() => null);
-      if (!b) return;
-      markBriefSeen(b.id);
-      openSheet(`<div class="pop-h">⚡ Why it moved${fresh.length > 1 ? ` · ${i + 1}/${fresh.length}` : ""}</div>${briefBodyHTML(b)}
-        <div class="actions"><button class="btn small" id="pChart">Chart</button><span style="flex:1"></span>
-        ${i < fresh.length - 1 ? `<button class="btn primary small" id="pNext">Next: ${esc(fresh[i + 1].symbol)} →</button>` : `<button class="btn primary small" id="pDone">Done</button>`}</div>`, (bg) => {
-        bindLang(bg, () => { closeSheet(); show(); });
-        $("#pChart", bg).onclick = () => { closeSheet(); location.hash = `#/s/${encodeURIComponent(b.symbol)}`; };
-        const nx = $("#pNext", bg), dn = $("#pDone", bg);
-        if (nx) nx.onclick = () => { i++; show(); };
-        if (dn) dn.onclick = closeSheet;
-      });
-    };
-    show();
-  }
-
   // ------------------------------------------------------------------ search
   // Look up any stock, ETF, index, bond yield or crypto without adding it to a list.
   // The symbol directory comes from data/symbols.json (rebuilt daily). Charts for symbols
@@ -1358,7 +1328,6 @@
       const changed = await loadSummary();
       if (manual) await loadConfig(true).catch(() => {});
       if ((changed || manual) && !S.sheetOpen && parseRoute().name !== "search") await render(true);
-      maybePopupBriefs();
       if (manual) toast(changed ? "Updated" : `Up to date · last check ${timeAgo(S.summary.generated)}`);
     } catch (e) {
       if (manual || !S.summary) toast("Offline – showing last saved data.");
@@ -1386,6 +1355,5 @@
       return;
     }
     await render(false);
-    maybePopupBriefs();
   })();
 })();
