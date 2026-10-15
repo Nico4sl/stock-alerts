@@ -3,14 +3,6 @@
  "threshold": 3.0,
  "movers": [
   {
-   "id": "2026-10-15-APP",
-   "symbol": "APP",
-   "name": "AppLovin",
-   "list": "portfolio",
-   "trigger_change": -5.1,
-   "first_seen": "2026-10-15T10:06:18+00:00"
-  },
-  {
    "id": "2026-10-15-ANET",
    "symbol": "ANET",
    "name": "Arista Networks",
@@ -19,19 +11,11 @@
    "first_seen": "2026-10-15T10:06:18+00:00"
   },
   {
-   "id": "2026-10-15-NBIS",
-   "symbol": "NBIS",
-   "name": "Nebius",
+   "id": "2026-10-15-APP",
+   "symbol": "APP",
+   "name": "AppLovin",
    "list": "portfolio",
-   "trigger_change": -13.8,
-   "first_seen": "2026-10-15T10:06:18+00:00"
-  },
-  {
-   "id": "2026-10-15-UNH",
-   "symbol": "UNH",
-   "name": "UnitedHealth",
-   "list": "portfolio",
-   "trigger_change": 5.4,
+   "trigger_change": -5.1,
    "first_seen": "2026-10-15T10:06:18+00:00"
   },
   {
@@ -43,11 +27,19 @@
    "first_seen": "2026-10-15T10:06:18+00:00"
   },
   {
-   "id": "2026-10-15-CRWD",
-   "symbol": "CRWD",
-   "name": "CrowdStrike",
+   "id": "2026-10-15-UNH",
+   "symbol": "UNH",
+   "name": "UnitedHealth",
    "list": "portfolio",
-   "trigger_change": -6.9,
+   "trigger_change": 5.4,
+   "first_seen": "2026-10-15T10:06:18+00:00"
+  },
+  {
+   "id": "2026-10-15-NBIS",
+   "symbol": "NBIS",
+   "name": "Nebius",
+   "list": "portfolio",
+   "trigger_change": -13.8,
    "first_seen": "2026-10-15T10:06:18+00:00"
   },
   {
@@ -75,6 +67,14 @@
    "first_seen": "2026-10-15T10:06:18+00:00"
   },
   {
+   "id": "2026-10-15-CRWD",
+   "symbol": "CRWD",
+   "name": "CrowdStrike",
+   "list": "portfolio",
+   "trigger_change": -6.9,
+   "first_seen": "2026-10-15T10:06:18+00:00"
+  },
+  {
    "id": "2026-10-15-META",
    "symbol": "META",
    "name": "Meta",
@@ -83,19 +83,19 @@
    "first_seen": "2026-10-15T10:06:18+00:00"
   },
   {
-   "id": "2026-10-15-GOOG",
-   "symbol": "GOOG",
-   "name": "Alphabet",
-   "list": "portfolio",
-   "trigger_change": -3.1,
-   "first_seen": "2026-10-15T10:06:18+00:00"
-  },
-  {
    "id": "2026-10-15-AMZN",
    "symbol": "AMZN",
    "name": "Amazon",
    "list": "portfolio",
    "trigger_change": -3.4,
+   "first_seen": "2026-10-15T10:06:18+00:00"
+  },
+  {
+   "id": "2026-10-15-GOOG",
+   "symbol": "GOOG",
+   "name": "Alphabet",
+   "list": "portfolio",
+   "trigger_change": -3.1,
    "first_seen": "2026-10-15T10:06:18+00:00"
   },
   {
