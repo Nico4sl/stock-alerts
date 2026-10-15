@@ -1,0 +1,52 @@
+====== idx-hist SPX 
+ 200 len=142 :: {"data":null,"message":null,"status":{"rCode":400,"bCodeMessage":[{"code":1001,"errorMessage":"Symbol not exists."}],"developerMessage":null}}
+====== idx-hist NDX 
+ 200 len=603 :: {"data":{"symbol":"NDX","totalRecords":31,"tradesTable":{"asOf":null,"headers":{"date":"Date","close":"Close/Last","volume":"Volume","open":"Open","high":"High","low":"Low"},"rows":[{"date":"10/14/2026","close":"29,950.82","volume":"--","open":"30,316.02","high":"30,436.60","low":"29,861.06"},{"date":"10/13/2026","close":"30,569.48","volume":"--","open":"30,404.20","high":"30,595.80","low":"30,372
+====== idx-hist COMP 
+ 200 len=604 :: {"data":{"symbol":"COMP","totalRecords":31,"tradesTable":{"asOf":null,"headers":{"date":"Date","close":"Close/Last","volume":"Volume","open":"Open","high":"High","low":"Low"},"rows":[{"date":"10/14/2026","close":"26,692.87","volume":"--","open":"27,031.64","high":"27,134.29","low":"26,602.12"},{"date":"10/13/2026","close":"27,204.38","volume":"--","open":"27,138.73","high":"27,277.88","low":"27,11
+====== idx-hist DJIA 
+ 200 len=142 :: {"data":null,"message":null,"status":{"rCode":400,"bCodeMessage":[{"code":1001,"errorMessage":"Symbol not exists."}],"developerMessage":null}}
+====== idx-hist INDU 
+ 200 len=142 :: {"data":null,"message":null,"status":{"rCode":400,"bCodeMessage":[{"code":1001,"errorMessage":"Symbol not exists."}],"developerMessage":null}}
+====== idx-hist RUT 
+ 200 len=142 :: {"data":null,"message":null,"status":{"rCode":400,"bCodeMessage":[{"code":1001,"errorMessage":"Symbol not exists."}],"developerMessage":null}}
+====== idx-hist VIX 
+ 200 len=142 :: {"data":null,"message":null,"status":{"rCode":400,"bCodeMessage":[{"code":1001,"errorMessage":"Symbol not exists."}],"developerMessage":null}}
+====== idx-hist NYA 
+ 200 len=142 :: {"data":null,"message":null,"status":{"rCode":400,"bCodeMessage":[{"code":1001,"errorMessage":"Symbol not exists."}],"developerMessage":null}}
+====== idx-hist SOX 
+ 200 len=603 :: {"data":{"symbol":"SOX","totalRecords":31,"tradesTable":{"asOf":null,"headers":{"date":"Date","close":"Close/Last","volume":"Volume","open":"Open","high":"High","low":"Low"},"rows":[{"date":"10/14/2026","close":"11,684.38","volume":"--","open":"11,960.04","high":"12,022.21","low":"11,638.92"},{"date":"10/13/2026","close":"12,208.79","volume":"--","open":"11,959.54","high":"12,217.21","low":"11,861
+====== idx-hist DAX 
+ 200 len=142 :: {"data":null,"message":null,"status":{"rCode":400,"bCodeMessage":[{"code":1001,"errorMessage":"Symbol not exists."}],"developerMessage":null}}
+====== idx-hist N225 
+ 200 len=142 :: {"data":null,"message":null,"status":{"rCode":400,"bCodeMessage":[{"code":1001,"errorMessage":"Symbol not exists."}],"developerMessage":null}}
+====== idx-hist FTSE 
+ 200 len=142 :: {"data":null,"message":null,"status":{"rCode":400,"bCodeMessage":[{"code":1001,"errorMessage":"Symbol not exists."}],"developerMessage":null}}
+====== idx-chart SPX 
+ 200 len=142 :: {"data":null,"message":null,"status":{"rCode":400,"bCodeMessage":[{"code":1001,"errorMessage":"Symbol not exists."}],"developerMessage":null}}
+====== etf-screener 
+ 200 len=1156378 :: {"data":{"dataAsOf":"10/14/2026 8:00:00 PM","data":{"asOf":null,"headers":{"symbol":"SYMBOL","companyName":"NAME","lastSalePrice":"LAST PRICE","netChange":"NET CHANGE","percentageChange":"% CHANGE","deltaIndicator":"DELTA","oneYearPercentage":"1 yr % CHANGE"},"rows":[{"oneYearPercentage":"20.45%","symbol":"BAMG","companyName":"Brookstone Growth Stock ETF","lastSalePrice":"$44.8600","netChange":"-0
+====== stock-screener 
+ 200 len=2204056 :: {"data":{"asOf":null,"headers":{"symbol":"Symbol","name":"Name","lastsale":"Last Sale","netchange":"Net Change","pctchange":"% Change","marketCap":"Market Cap","country":"Country","ipoyear":"IPO Year","volume":"Volume","sector":"Sector","industry":"Industry","url":"Url"},"rows":[{"symbol":"A","name":"Agilent Technologies Inc. Common Stock","lastsale":"$174.00","netchange":"2.40","pctchange":"1.399
+====== index-screener 
+ 200 len=802 :: {"data":{"filters":null,"records":{"totalrecords":68,"limit":3,"offset":0,"data":{"asOf":null,"headers":{"symbol":"SYMBOL","companyName":"NAME","lastSalePrice":"LAST","netChange":"NET CHANGE","percentageChange":"% CHANGE"},"rows":[{"symbol":"ABAQ","companyName":"ABA Community Bank NASDAQ Index","lastSalePrice":"451.82","netChange":"-2.44","percentageChange":"-0.54%","deltaIndicator":"down"},{"symb
+====== autocomplete 
+ 200 len=2585 :: {"data":[{"symbol":"S","name":"SentinelOne, Inc. Class A Common Stock","mrktCategory":"","exchange":"NYSE","subCategory":"Class A Common Stock","nasdaq100":null,"region":"North America","asset":"STOCKS","industry":"Technology Hardware & Equipment","count":"","flag":"","score":null},{"symbol":"SA","name":"Seabridge Gold, Inc. Common Shares New","mrktCategory":"","exchange":"NYSE","subCategory":"Com
+====== nasdaqtrader 
+ 200 len=1001687 :: Nasdaq Traded|Symbol|Security Name|Listing Exchange|Market Category|ETF|Round Lot Size|Test Issue|Financial Status|CQS Symbol|NASDAQ Symbol|NextShares
+Y|A|Agilent Technologies, Inc. Common Stock|N| |N|100|N||A|A|N
+Y|AA|Alcoa Corporation Common Stock |N| |N|100|N||AA|AA|N
+Y|AAA|Alternative Access First Priority CLO Bond ETF|P| |Y|100|N||AAA|AAA|N
+Y|AAAA|Amplius Aggressive Asset Allocation ETF|Z
+====== treasury 
+ 200 len=16067 :: Date,"1 Mo","1.5 Month","2 Mo","3 Mo","4 Mo","6 Mo","1 Yr","2 Yr","3 Yr","5 Yr","7 Yr","10 Yr","20 Yr","30 Yr"
+10/14/2026,4.11,4.15,4.15,4.28,4.36,4.37,4.53,4.82,4.92,5.00,5.09,5.19,5.57,5.52
+10/13/2026,4.10,4.15,4.15,4.26,4.32,4.34,4.48,4.79,4.90,5.00,5.11,5.21,5.60,5.56
+10/09/2026,4.13,4.13,4.13,4.25,4.29,4.32,4.47,4.80,4.89,5.02,5.13,5.24,5.65,5.60
+10/08/2026,4.14,4.14,4.13,4.23,4.29,4.30,4.44,
+====== fred 
+ ERR The read operation timed out
+====== ecb-bund 
+ 200 len=2114 :: KEY,FREQ,REF_AREA,CURRENCY,PROVIDER_FM,INSTRUMENT_FM,PROVIDER_FM_ID,DATA_TYPE_FM,TIME_PERIOD,OBS_VALUE,OBS_STATUS,OBS_CONF,OBS_PRE_BREAK,OBS_COM,TIME_FORMAT,BREAKS,COLLECTION,COMPILING_ORG,DISS_ORG,DOM_SER_IDS,FM_CONTRACT_TIME,FM_COUPON_RATE,FM_IDENTIFIER,FM_LOT_SIZE,FM_MATURITY,FM_OUTS_AMOUNT,FM_PUT_CALL,FM_STRIKE_PRICE,PUBL_MU,PUBL_PUBLIC,UNIT_INDEX_BASE,COMPILATION,COVERAGE,DECIMALS,SOURCE_AGEN
+====== tlt-hist 
+ 200 len=581 :: {"data":{"symbol":"TLT","totalRecords":31,"tradesTable":{"asOf":null,"headers":{"date":"Date","close":"Close/Last","volume":"Volume","open":"Open","high":"High","low":"Low"},"rows":[{"date":"10/14/2026","close":"78.89","volume":"51,119,960","open":"77.82","high":"79.01","low":"77.74"},{"date":"10/13/2026","close":"78.37","volume":"29,587,720","open":"78.555","high":"78.569","low":"78.20"},{"date":
