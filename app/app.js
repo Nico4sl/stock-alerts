@@ -564,6 +564,17 @@
           ctx.closePath();
           ctx.fillStyle = b.fill;
           ctx.fill();
+          // crisp thin edges so the zone reads as a clear band instead of a haze
+          ctx.save();
+          ctx.strokeStyle = b.edge;
+          ctx.lineWidth = Math.max(1, Math.round(hr));
+          ctx.setLineDash([4 * hr, 3 * hr]);
+          for (const pts of [up, dn]) {
+            ctx.beginPath();
+            pts.forEach(([x, y], i) => (i ? ctx.lineTo(x, Math.round(y) + 0.5) : ctx.moveTo(x, Math.round(y) + 0.5)));
+            ctx.stroke();
+          }
+          ctx.restore();
         }
         for (const g of this.gaps) {
           const x1 = ts.logicalToCoordinate(g.i0 - 0.5);
@@ -679,7 +690,12 @@
     c.view = v;
     const band = S.summary.settings?.band_pct ?? 1.5;
     for (const [key, s] of Object.entries(c.lines)) s.applyOptions({ visible: VIEWS[v].lines.includes(key) });
-    const bands = S.zones ? VIEWS[v].lines.map((key) => ({ values: c.d[key], pct: band, fill: hexA(COLORS[key], key === "sma200" ? 0.08 : 0.1) })) : [];
+    // zone = lighter shade of its line: flat tinted fill + thin dashed edges in the same tint
+    const bands = S.zones ? VIEWS[v].lines.map((key) => ({
+      values: c.d[key], pct: band,
+      fill: tintA(COLORS[key], 0.35, key === "sma200" ? 0.11 : 0.15),
+      edge: tintA(COLORS[key], 0.35, 0.55),
+    })) : [];
     c.overlay.set(v === "gaps" ? c.gaps : [], bands);
     c.showLegend(null);
     if (resetRange) setBars(defaultBars(v));
@@ -692,6 +708,12 @@
     if (bars >= c.n) c.chart.timeScale().fitContent();
     else c.chart.timeScale().setVisibleLogicalRange({ from: c.n - bars, to: c.n + 3 });
     document.querySelectorAll("#ranges button").forEach((b) => b.classList.toggle("on", +b.dataset.n === bars));
+  }
+
+  function tintA(hex, mix, a) {          // blend towards white, then apply alpha
+    const n = parseInt(hex.slice(1), 16);
+    const ch = (v) => Math.round(v + (255 - v) * mix);
+    return `rgba(${ch((n >> 16) & 255)},${ch((n >> 8) & 255)},${ch(n & 255)},${a})`;
   }
 
   function hexA(hex, a) {
