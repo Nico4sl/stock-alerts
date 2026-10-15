@@ -55,6 +55,7 @@
     branch: store.get("branch", "main"),
     movers: null, briefs: [], briefCache: {},
     lang: store.get("lang", "en"),
+    searchQ: "", lookups: {}, lookupMeta: {}, lkPending: {},
   };
 
   // ------------------------------------------------------------------ utils
@@ -243,7 +244,8 @@
     const [a, b] = h.split("/");
     if (a === "s" && b) return { name: "detail", sym: decodeURIComponent(b) };
     if (a === "brief" && b) return { name: "brief", id: decodeURIComponent(b) };
-    if (["portfolio", "watchlist", "alerts", "settings"].includes(a)) return { name: a };
+    if (a === "q" && b) return { name: "lookup", sym: decodeURIComponent(b) };
+    if (["portfolio", "watchlist", "search", "alerts", "settings"].includes(a)) return { name: a };
     return { name: store.get("lastList", "portfolio") };
   }
 
@@ -253,11 +255,13 @@
     if (keepChartRange && S.chart) range = S.chart.chart.timeScale().getVisibleLogicalRange();
     destroyChart();
     closeSheet();
-    if (!S.summary && r.name !== "settings") {
+    if (!S.summary && !["settings", "search", "lookup"].includes(r.name)) {
       view.innerHTML = `<div class="empty"><b>Loading…</b></div>`;
       return;
     }
     if (r.name === "detail") return renderDetail(r.sym, range);
+    if (r.name === "lookup") return renderLookup(r.sym, range);
+    if (r.name === "search") return renderSearch();
     if (r.name === "brief") return renderBriefPage(r.id);
     window.scrollTo(0, 0);
     if (r.name === "alerts") return renderAlerts();
@@ -335,7 +339,7 @@
     const ext = S.summary.settings?.extended_pct ?? 15;
     if (r.extended_pct !== null && r.extended_pct >= ext) chips.push(`<span class="chip ext">Extended ${sgn(r.extended_pct, 0)} vs 8 EMA</span>`);
     return `<li class="row" data-sym="${esc(r.symbol)}">
-      <div><div class="sym">${esc(r.symbol)}${r.high_conviction ? '<span class="star" title="High conviction">★</span>' : ""}</div>
+      <div><div class="sym">${esc(disp(r.symbol))}${r.high_conviction ? '<span class="star" title="High conviction">★</span>' : ""}</div>
         <div class="name">${esc(r.name)}</div><div class="chips">${chips.join("")}</div></div>
       <div class="spark">${spark(r.spark, (r.change_pct ?? 0) >= 0)}</div>
       <div class="px num"><div class="p">${fmt(r.price)}</div><div class="c ${cls(r.change_pct)}">${sgn(r.change_pct, 2)}</div></div>
@@ -346,7 +350,7 @@
   async function renderDetail(sym, keepRange) {
     const row = (S.summary.stocks || []).find((r) => r.symbol === sym);
     const cfg = (S.config?.stocks || []).find((s) => s.symbol === sym) || row || { symbol: sym, levels: [] };
-    setTop(sym, true);
+    setTop(disp(sym), true);
     setTab(cfg.list || "watchlist");
     if (!row || row.error) {
       view.innerHTML = `<div class="empty"><b>${esc(sym)}</b>${row?.error ? "No data could be loaded for this ticker." : "Data appears after the next check."}</div>` + manageCard(cfg);
@@ -400,7 +404,10 @@
     }
     if (parseRoute().sym !== sym) return;   // user navigated away meanwhile
     buildChart(detail, row, levels, vname, keepRange);
+    bindChartControls();
+  }
 
+  function bindChartControls() {
     $("#viewSeg").onclick = (e) => {
       const v = e.target.closest("button")?.dataset.v;
       if (!v) return;
@@ -445,7 +452,7 @@
       return `<div class="card"><h3>Longer-term trend</h3>
         ${line("sma50", bell(50))}${line("sma100", bell(100))}${line("sma150", bell(150))}
         ${line("sma200", bell(200) + '<span class="sub">Major entry on high-conviction names – check why it fell</span>')}
-        <div class="note" style="padding-top:10px">${row.high_conviction ? "★ High conviction: 200-day alerts on." : "Mark ★ High conviction to get 200-day alerts."}</div></div>`;
+        <div class="note" style="padding-top:10px">${row.list === "lookup" ? "Not on your lists – no alerts." : row.high_conviction ? "★ High conviction: 200-day alerts on." : "Mark ★ High conviction to get 200-day alerts."}</div></div>`;
     }
     // gaps
     const gaps = (detail?.gaps || []).filter((g) => !g.filled)
@@ -460,7 +467,7 @@
         <span></span><span class="d num ${inside || Math.abs(d) <= band ? "zone" : ""}">${inside ? "● inside" : sgn(d)}</span></div>`;
     };
     return `<div class="card"><h3>Open gaps · ${gaps.length}</h3>
-      ${gaps.length ? gaps.slice(0, 8).map(gl).join("") : '<div class="note">No open gaps in the last 3 years.</div>'}
+      ${gaps.length ? gaps.slice(0, 8).map(gl).join("") : `<div class="note">${detail?.close_only ? "Yields only have one value per day, so there are no gaps to track." : "No open gaps in the last 3 years."}</div>`}
       ${filled.length ? `<h3 style="padding-top:14px">Recently filled</h3>${filled.map((g) => `<div class="lv"><span class="sw box" style="background:#3a4357"></span><span>${fmt(g.bottom)} – ${fmt(g.top)}<span class="sub">${g.dir}-gap ${g.start} · filled ${g.filled_date}</span></span><span></span><span></span></div>`).join("")}` : ""}
       <div class="note" style="padding-top:10px">Distance = how far price must move to reach the open edge.</div></div>`;
   }
@@ -562,15 +569,23 @@
     });
 
     const n = d.t.length;
-    const candles = chart.addCandlestickSeries({
-      upColor: COLORS.up, downColor: COLORS.down, wickUpColor: COLORS.up, wickDownColor: COLORS.down, borderVisible: false,
-      priceFormat: { type: "price", precision: row.price >= 10 ? 2 : 4, minMove: row.price >= 10 ? 0.01 : 0.0001 },
-    });
-    candles.setData(d.t.map((t, i) => ({ time: t, open: d.o[i], high: d.h[i], low: d.l[i], close: d.c[i] })));
+    const priceFormat = { type: "price", precision: row.price >= 10 ? 2 : 4, minMove: row.price >= 10 ? 0.01 : 0.0001 };
+    let candles;
+    if (d.close_only) {      // bond yields: one value per day -> line chart
+      candles = chart.addLineSeries({ color: "#e7eaf0", lineWidth: 2, priceFormat: { type: "price", precision: 2, minMove: 0.01 } });
+      candles.setData(d.t.map((t, i) => ({ time: t, value: d.c[i] })));
+    } else {
+      candles = chart.addCandlestickSeries({
+        upColor: COLORS.up, downColor: COLORS.down, wickUpColor: COLORS.up, wickDownColor: COLORS.down, borderVisible: false, priceFormat,
+      });
+      candles.setData(d.t.map((t, i) => ({ time: t, open: d.o[i], high: d.h[i], low: d.l[i], close: d.c[i] })));
+    }
 
     const vol = chart.addHistogramSeries({ priceScaleId: "vol", priceFormat: { type: "volume" }, lastValueVisible: false, priceLineVisible: false });
     chart.priceScale("vol").applyOptions({ scaleMargins: { top: 0.86, bottom: 0 }, visible: false });
-    vol.setData(d.t.map((t, i) => ({ time: t, value: d.v[i], color: d.c[i] >= d.o[i] ? "rgba(38,166,154,.28)" : "rgba(239,83,80,.28)" })));
+    if (d.v.some((x) => x > 0)) {
+      vol.setData(d.t.map((t, i) => ({ time: t, value: d.v[i], color: d.c[i] >= d.o[i] ? "rgba(38,166,154,.28)" : "rgba(239,83,80,.28)" })));
+    }
 
     const lines = {};
     for (const key of ["ema8", "ema21", "sma50", "sma100", "sma150", "sma200"]) {
@@ -604,7 +619,7 @@
       if (i === null || i === undefined || i < 0 || i >= n) i = n - 1;
       const v = S.chart.view;
       const parts = [`<span class="k">${d.t[i]}</span>`];
-      if (v === "sma") parts.push(`<span><span class="k">C</span> <i>${fmt(d.c[i])}</i></span>`);
+      if (v === "sma" || d.close_only) parts.push(`<span><span class="k">C</span> <i>${fmt(d.c[i])}</i></span>`);
       else parts.push(`<span><span class="k">O</span> ${fmt(d.o[i])} <span class="k">H</span> ${fmt(d.h[i])} <span class="k">L</span> ${fmt(d.l[i])} <span class="k">C</span> <i>${fmt(d.c[i])}</i></span>`);
       for (const key of VIEWS[v].lines) parts.push(`<span><span class="k">${LABEL[key]}</span> <i style="color:${COLORS[key]}">${fmt(d[key][i])}</i></span>`);
       legend.innerHTML = parts.join("");
@@ -894,6 +909,277 @@
     show();
   }
 
+  // ------------------------------------------------------------------ search
+  // Look up any stock, ETF, index, bond yield or crypto without adding it to a list.
+  // The symbol directory comes from data/symbols.json (rebuilt daily). Charts for symbols
+  // that aren't on your lists are fetched on demand by the "Lookup" GitHub workflow and
+  // read back from the `lookup` branch.
+  const TYPE = { S: "Stock", E: "ETF", I: "Index", B: "Bond yield", C: "Crypto" };
+  const QUICK = [
+    ["^SPX", "S&P 500", "I"], ["^NDX", "Nasdaq 100", "I"], ["^DJI", "Dow Jones Industrial Average", "I"],
+    ["^RUT", "Russell 2000", "I"], ["^VIX", "Cboe Volatility Index (VIX)", "I"],
+    ["US10Y", "US Treasury 10-year yield", "B"], ["US2Y", "US Treasury 2-year yield", "B"],
+    ["DE10Y", "German Bund 10-year yield", "B"], ["TLT", "iShares 20+ Year Treasury Bond ETF", "E"],
+    ["BTC-USD", "Bitcoin", "C"],
+  ];
+  const LK_FRESH_MS = 15 * 60e3;
+  const LK_TIMEOUT_MS = 180e3;
+  const disp = (sym) => String(sym).replace(/^\^/, "");
+  const safeName = (sym) => String(sym).replace(/[^A-Za-z0-9.-]/g, "_");
+  const onLists = (sym) => (S.config?.stocks || []).some((s) => s.symbol === sym);
+
+  let symbolsP = null;
+  function loadSymbols() {
+    if (!symbolsP) {
+      symbolsP = getJSON(`data/symbols.json?d=${(S.summary?.generated || "").slice(0, 10)}`)
+        .then((j) => j.items.map(([s, n, t]) => ({ s, n, t, sl: disp(s).toLowerCase(), nl: n.toLowerCase() })))
+        .catch((e) => { symbolsP = null; throw e; });
+    }
+    return symbolsP;
+  }
+
+  function searchSymbols(list, query) {
+    const q = query.trim().toLowerCase().replace(/^\^/, "");
+    if (!q) return [];
+    const hits = [];
+    for (let i = 0; i < list.length; i++) {
+      const x = list[i];
+      let sc = -1;
+      if (x.sl === q) sc = 0;
+      else if (x.sl.startsWith(q)) sc = 1;
+      else if (x.nl.startsWith(q)) sc = 2;
+      else if (q.length >= 2 && (x.nl.includes(" " + q) || x.nl.includes("-" + q))) sc = 3;
+      else if (q.length >= 2 && x.sl.includes(q)) sc = 4;
+      else if (q.length >= 3 && x.nl.includes(q)) sc = 5;
+      if (sc >= 0) hits.push([sc, i, x]);
+    }
+    hits.sort((a, b) => a[0] - b[0] || a[1] - b[1]);   // list is already biggest-first
+    return hits.slice(0, 40).map((h) => h[2]);
+  }
+
+  function resultHTML(x) {
+    const listed = onLists(x.s);
+    return `<li class="sr" data-s="${esc(x.s)}" data-n="${esc(x.n)}" data-t="${esc(x.t)}">
+      <div class="sr-main"><div class="sym">${esc(disp(x.s))}<span class="chip t-${esc(x.t)}">${TYPE[x.t] || ""}</span>${listed ? '<span class="chip zone">On your lists</span>' : ""}</div>
+      <div class="name">${esc(x.n)}</div></div>
+      <svg viewBox="0 0 24 24" class="chev"><path d="M9 5l7 7-7 7"/></svg></li>`;
+  }
+
+  function openSymbol(s, n, t) {
+    S.lookupMeta[s] = { n, t };
+    const rec = store.get("recentLookups", []).filter((r) => r.s !== s);
+    store.set("recentLookups", [{ s, n, t }, ...rec].slice(0, 8));
+    location.hash = onLists(s) ? `#/s/${encodeURIComponent(s)}` : `#/q/${encodeURIComponent(s)}`;
+  }
+
+  function renderSearch() {
+    setTop("Search", false);
+    setTab("search");
+    view.innerHTML = `<div class="search-bar">
+        <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+        <input id="sq" type="search" enterkeyhint="search" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"
+          placeholder="Stock, ETF, index, bond yield, crypto" value="${esc(S.searchQ)}">
+      </div><div id="sres"></div>`;
+    const input = $("#sq"), out = $("#sres");
+    let results = [], seq = 0;
+
+    const draw = async () => {
+      const q = input.value;
+      const my = ++seq;
+      if (!q.trim()) {
+        const rec = store.get("recentLookups", []);
+        out.innerHTML = (rec.length ? `<div class="list-head"><h2>Recent</h2><button class="btn small" id="clrRec">Clear</button></div><ul class="rows">${rec.map(resultHTML).join("")}</ul>` : "")
+          + `<div class="list-head"><h2>Markets</h2></div><ul class="rows">${QUICK.map(([s, n, t]) => resultHTML({ s, n, t })).join("")}</ul>
+          <div class="note s-note">Opens a chart with the same EMA, SMA and gap views as your lists, without adding anything. US stocks, ETFs and ADRs, US &amp; Nasdaq indices, US Treasury and German Bund yields, and major crypto. Non-US stocks and indices like the DAX aren't available from the free data sources.</div>`;
+        const c = $("#clrRec");
+        if (c) c.onclick = () => { store.set("recentLookups", []); draw(); };
+        return;
+      }
+      let list;
+      try {
+        if (!symbolsP) out.innerHTML = `<div class="empty">Loading symbol list…</div>`;
+        list = await loadSymbols();
+      } catch {
+        list = null;
+      }
+      if (my !== seq) return;
+      results = list ? searchSymbols(list, q) : [];
+      const raw = q.trim().toUpperCase();
+      const exact = results.some((r) => disp(r.s) === raw.replace(/^\^/, ""));
+      const tickerish = /^[A-Z0-9.^\-]{1,15}$/.test(raw);
+      let html = results.length ? `<ul class="rows">${results.map(resultHTML).join("")}</ul>` : "";
+      if (!exact && tickerish) {
+        html += `<ul class="rows">${resultHTML({ s: raw, n: list ? "Not in the symbol list – try anyway" : "Symbol list unavailable – look up this ticker", t: "" })}</ul>`;
+      }
+      if (!html) html = `<div class="empty"><b>No matches</b>Try the ticker symbol or another part of the name.</div>`;
+      out.innerHTML = html;
+    };
+
+    input.oninput = () => { S.searchQ = input.value; draw(); };
+    input.onkeydown = (e) => {
+      if (e.key !== "Enter") return;
+      const first = out.querySelector(".sr");
+      if (first) openSymbol(first.dataset.s, first.dataset.n, first.dataset.t);
+    };
+    out.onclick = (e) => {
+      const li = e.target.closest(".sr");
+      if (li) openSymbol(li.dataset.s, li.dataset.n, li.dataset.t);
+    };
+    draw();
+    if (!S.searchQ) input.focus();
+  }
+
+  // ------------------------------------------------------------------ lookup (chart without a list)
+  async function readLookup(sym) {
+    const file = encodeURIComponent(`${safeName(sym)}.json`);
+    let r;
+    if (S.token && S.repo) {
+      r = await fetch(`https://api.github.com/repos/${S.repo}/contents/${file}?ref=lookup`, {
+        cache: "no-store",
+        headers: { Accept: "application/vnd.github.raw", Authorization: `Bearer ${S.token}`, "X-GitHub-Api-Version": "2022-11-28" },
+      });
+    } else if (S.repo) {
+      r = await fetch(`https://raw.githubusercontent.com/${S.repo}/lookup/${file}?t=${Date.now()}`, { cache: "no-store" });
+    } else return null;
+    if (r.status === 404) return null;
+    if (!r.ok) throw new Error(`GitHub ${r.status}`);
+    return r.json();
+  }
+
+  function refreshLookup(sym, name, prevGen) {
+    if (S.lkPending[sym]) return S.lkPending[sym].p;
+    const t0 = Date.now();
+    const job = { t0 };
+    job.p = (async () => {
+      await gh("/actions/workflows/lookup.yml/dispatches", {
+        method: "POST",
+        body: JSON.stringify({ ref: S.branch, inputs: { symbol: sym, name: name || "" } }),
+      });
+      await new Promise((ok) => setTimeout(ok, 12000));       // a runner needs ~15 s to start
+      while (Date.now() - t0 < LK_TIMEOUT_MS) {
+        const d = await readLookup(sym).catch(() => null);
+        if (d && d.generated && d.generated !== prevGen && Date.parse(d.generated) > t0 - 120e3) return d;
+        await new Promise((ok) => setTimeout(ok, 4000));
+      }
+      throw new Error("TIMEOUT");
+    })().finally(() => { delete S.lkPending[sym]; });
+    S.lkPending[sym] = job;
+    return job.p;
+  }
+
+  async function renderLookup(sym, keepRange) {
+    if (onLists(sym)) { location.replace(`#/s/${encodeURIComponent(sym)}`); return; }
+    const meta = S.lookupMeta[sym] || store.get("recentLookups", []).find((r) => r.s === sym) || {};
+    setTop(disp(sym), true);
+    setTab("search");
+    const here = () => parseRoute().name === "lookup" && parseRoute().sym === sym;
+
+    let data = S.lookups[sym];
+    if (!data) {
+      view.innerHTML = lookupShell(sym, meta, null, "Loading…");
+      data = await readLookup(sym).catch(() => null);
+      if (!here()) return;
+      if (data) S.lookups[sym] = data;
+    }
+    const age = data?.generated ? Date.now() - Date.parse(data.generated) : Infinity;
+    const stale = !data || age > LK_FRESH_MS;
+    const pending = S.lkPending[sym];
+
+    let status;
+    if (pending) status = "updating";
+    else if (stale && !(S.token && S.repo)) status = "nokey";
+    else if (stale) status = "updating";
+    else status = "fresh";
+    drawLookup(sym, meta, data, status, keepRange);
+
+    if (status === "updating") {
+      const p = pending ? pending.p : refreshLookup(sym, meta.n || data?.summary?.name, data?.generated);
+      p.then((d) => {
+        S.lookups[sym] = d;
+        if (here()) render(true);
+      }).catch((e) => {
+        if (!here()) return;
+        const el = $("#lkStatus");
+        const msg = e.message === "NO_TOKEN" ? "Add your GitHub key in Settings to look up new symbols."
+          : e.status === 401 || e.status === 403 ? "GitHub key rejected – it needs “Actions: read & write”."
+          : e.status === 404 ? "Lookup workflow not found – the app update may still be deploying."
+          : e.message === "TIMEOUT" ? "Still no data after 3 min – GitHub may be busy. Try again later."
+          : `Could not update (${e.message}).`;
+        if (el) { el.className = "lk-status warn"; el.innerHTML = `${esc(msg)} <button class="btn small" id="lkRetry">Retry</button>`; $("#lkRetry").onclick = () => render(true); }
+      });
+    }
+  }
+
+  function lookupShell(sym, meta, row, statusHTML) {
+    return `<div class="d-head"><div><div class="muted" style="font-size:13px">${esc(meta.n || row?.name || "")}</div>
+      <div class="big num">${row ? priceText(row) : esc(disp(sym))}</div></div></div>
+      <div class="lk-status" id="lkStatus">${statusHTML}</div>`;
+  }
+
+  const priceText = (row) => (row.close_only ? `${fmt(row.price)}%` : fmt(row.price));
+  function changeHTML(row) {
+    if (row.close_only && row.prev_close !== null && row.prev_close !== undefined) {
+      const bp = Math.round((row.price - row.prev_close) * 100);
+      return `<div class="chg num ${cls(bp)}">${bp > 0 ? "+" : bp < 0 ? "−" : "±"}${Math.abs(bp)} bp</div>`;
+    }
+    return `<div class="chg num ${cls(row.change_pct)}">${sgn(row.change_pct, 2)}</div>`;
+  }
+
+  function drawLookup(sym, meta, data, status, keepRange) {
+    const updatingTxt = `<span class="dotspin"></span>Fetching the latest data – usually 30–60 s`;
+    if (!data || data.error) {
+      const err = data?.error && status !== "updating"
+        ? `<div class="empty"><b>No data for ${esc(disp(sym))}</b>${esc(data.error)}</div>` : "";
+      const st = status === "updating" ? updatingTxt
+        : status === "nokey" ? `Add your GitHub key in <a href="#/settings" style="color:var(--accent)">Settings</a> to look up symbols that aren't on your lists.` : "";
+      view.innerHTML = lookupShell(sym, meta, null, st) + err;
+      return;
+    }
+    const row = { ...data.summary, list: "lookup", high_conviction: false };
+    const d = data.detail;
+    const vname = store.get("view", "ema");
+    const st = status === "updating" ? updatingTxt
+      : status === "nokey" ? `Data from ${timeAgo(data.generated)}. Add your GitHub key in Settings to refresh.`
+      : `Updated ${timeAgo(data.generated)} · ${esc(row.source || "")}`;
+    view.innerHTML = `
+      <div class="d-head">
+        <div><div class="muted" style="font-size:13px">${esc(row.name)}${meta.t ? ` · ${TYPE[meta.t] || ""}` : ""}</div>
+          <div class="big num">${priceText(row)}</div></div>
+        ${changeHTML(row)}
+        <div class="spacer"></div>
+        <button class="pill" id="addWl">+ Watchlist</button>
+      </div>
+      <div class="lk-status" id="lkStatus">${st}</div>
+      <div class="views"><div class="seg" id="viewSeg">
+        ${Object.entries(VIEWS).map(([k, v]) => `<button data-v="${k}" class="${k === vname ? "on" : ""}">${v.name}</button>`).join("")}
+      </div></div>
+      <div class="chart-wrap"><div id="chart"></div><div class="legend num" id="legend"></div></div>
+      <div class="ranges" id="ranges">
+        ${RANGES.map(([l, n]) => `<button data-n="${n}">${l}</button>`).join("")}
+        <span class="sp"></span>
+        <label class="toggle"><input type="checkbox" id="zonesChk" ${S.zones ? "checked" : ""}> Zones ±${S.summary?.settings?.band_pct ?? 1.5}%</label>
+      </div>
+      <div class="detail-grid">
+        <div id="levelsCard"></div>
+        <div><div class="card"><h3>Quick look</h3><div class="note">Not on your lists, so no alerts. Tap <b style="color:var(--text)">+ Watchlist</b> to track it with alerts like your other stocks.
+          ${row.close_only ? "<br><br>Yields are in percent; the chart shows one value per trading day." : ""}
+          <br><br>Data: ${esc(row.source || "–")} · last bar ${esc(row.last_bar || "–")}</div></div></div>
+      </div>`;
+    $("#addWl").onclick = async () => {
+      const b = $("#addWl");
+      b.disabled = true;
+      const ok = await saveConfig((c) => {
+        if (!c.stocks.some((s) => s.symbol === sym)) c.stocks.push({ symbol: sym, name: row.name, list: "watchlist", high_conviction: false, levels: [] });
+      }, `Add ${sym}`);
+      if (ok) { b.textContent = "✓ On watchlist"; b.classList.add("on"); toast("Added – alerts start with the next check."); } else b.disabled = false;
+    };
+    if (!S.summary) {   // levelsCardHTML needs settings
+      S.summary = { settings: S.config?.settings || {}, stocks: [], generated: null, market: "" };
+    }
+    buildChart(d, row, [], vname, keepRange);
+    bindChartControls();
+  }
+
   // ------------------------------------------------------------------ alerts
   const KIND_ICON = { ema8: ["8", COLORS.ema8], ema21: ["21", COLORS.ema21], sma50: ["50", COLORS.sma50], sma100: ["100", COLORS.sma100], sma150: ["150", COLORS.sma150], sma200: ["200", COLORS.sma200], extended: ["↑", COLORS.sma150], gap: ["▭", COLORS.up], gapfilled: ["✓", COLORS.up], manual: ["◆", COLORS.zone], mover: ["⚡", COLORS.ema21], brief: ["📰", COLORS.text] };
 
@@ -1035,7 +1321,7 @@
     try {
       const changed = await loadSummary();
       if (manual) await loadConfig(true).catch(() => {});
-      if ((changed || manual) && !S.sheetOpen) await render(true);
+      if ((changed || manual) && !S.sheetOpen && parseRoute().name !== "search") await render(true);
       maybePopupBriefs();
       if (manual) toast(changed ? "Updated" : `Up to date · last check ${timeAgo(S.summary.generated)}`);
     } catch (e) {

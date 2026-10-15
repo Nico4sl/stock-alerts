@@ -12,6 +12,7 @@ Runs on GitHub Actions every 10 minutes while the NYSE is open:
 Standard library only, so it needs no installs.
 """
 import argparse
+import csv
 import datetime as dt
 import json
 import math
@@ -139,12 +140,12 @@ def _nasdaq(path):
     return raw.get("data")
 
 
-def fetch_nasdaq(symbol, years=3, min_len=30):
+def fetch_nasdaq(symbol, years=3, min_len=30, assets=("stocks", "etf")):
     """Daily candles from Nasdaq.com (stocks, ADRs, ETFs) + today's live candle."""
     q = urllib.parse.quote(symbol)
     start = (dt.date.today() - dt.timedelta(days=365 * years + 10)).isoformat()
     hist, asset = None, None
-    for asset in ("stocks", "etf"):
+    for asset in assets:
         hist = _nasdaq(f"{q}/historical?assetclass={asset}&fromdate={start}&limit=9999")
         if hist and (hist.get("tradesTable") or {}).get("rows"):
             break
@@ -170,7 +171,13 @@ def fetch_nasdaq(symbol, years=3, min_len=30):
         live = _nasdaq(f"{q}/chart?assetclass={asset}")
         last = _num(live.get("lastSalePrice"))
         asof = (live.get("timeAsOf") or "").replace(" ET", "")
-        when = dt.datetime.strptime(asof, "%b %d, %Y %I:%M %p").replace(tzinfo=NY) if asof else None
+        when = None
+        for f in ("%b %d, %Y %I:%M %p", "%b %d, %Y"):
+            try:
+                when = dt.datetime.strptime(asof, f).replace(tzinfo=NY)
+                break
+            except ValueError:
+                continue
         if last:
             price = last
         if when and last:
@@ -223,8 +230,135 @@ def fetch_crypto(symbol, min_len=30):
             "market_time": None, "source": source}
 
 
+# ---- indices (Cboe + Nasdaq) and government bond yields ---------------------
+# App symbols: indices start with "^", yields look like US10Y / DE10Y.
+CBOE_INDEX = {   # app symbol -> (Cboe symbol, scale, name)
+    "^SPX": ("_SPX", 1, "S&P 500"),
+    "^DJI": ("_DJX", 100, "Dow Jones Industrial Average"),
+    "^RUT": ("_RUT", 1, "Russell 2000"),
+    "^VIX": ("_VIX", 1, "Cboe Volatility Index (VIX)"),
+}
+US_YIELDS = {"US1M": "1 Mo", "US3M": "3 Mo", "US6M": "6 Mo", "US1Y": "1 Yr", "US2Y": "2 Yr",
+             "US3Y": "3 Yr", "US5Y": "5 Yr", "US7Y": "7 Yr", "US10Y": "10 Yr", "US20Y": "20 Yr",
+             "US30Y": "30 Yr"}
+DE_YIELDS = {"DE2Y": "R02XX", "DE5Y": "R05XX", "DE10Y": "R10XX", "DE30Y": "R30XX"}
+
+
+def _cut_years(candles, years=3):
+    start = (dt.date.today() - dt.timedelta(days=365 * years + 10)).isoformat()
+    return [c for c in candles if c[0] >= start]
+
+
+def fetch_cboe(symbol, min_len=30):
+    csym, scale, _ = CBOE_INDEX[symbol]
+    raw = json.loads(http_get(f"https://cdn.cboe.com/api/global/delayed_quotes/charts/historical/{csym}.json"))
+    candles = []
+    for r in raw.get("data", []):
+        o, h, l, c = (_num(r.get(k)) for k in ("open", "high", "low", "close"))
+        if not c:
+            continue
+        o = o or c
+        h, l = max(h or c, o, c), min(l or c, o, c)
+        candles.append([r["date"], o * scale, h * scale, l * scale, c * scale, 0])
+    candles = _cut_years(sorted(candles))
+    price, market_time = candles[-1][4] if candles else None, None
+    try:  # delayed live quote (~15 min) for today's candle
+        q = json.loads(http_get(f"https://cdn.cboe.com/api/global/delayed_quotes/quotes/{csym}.json"))["data"]
+        last = _num(q.get("current_price"))
+        when = q.get("last_trade_time") or ""
+        day = when[:10]
+        if last and day:
+            last *= scale
+            price = last
+            market_time = int(dt.datetime.fromisoformat(when).replace(tzinfo=NY).timestamp())
+            if candles and day > candles[-1][0]:
+                o = (_num(q.get("open")) or 0) * scale or last
+                h = max((_num(q.get("high")) or 0) * scale, o, last)
+                lo = min((_num(q.get("low")) or 0) * scale or last, o, last)
+                candles.append([day, o, h, lo, last, 0])
+            elif candles and day == candles[-1][0]:
+                bar = candles[-1]
+                bar[4] = last
+                bar[2], bar[3] = max(bar[2], last), min(bar[3], last)
+    except Exception as e:  # noqa: BLE001
+        log(f"  (live quote unavailable for {symbol}: {e})")
+    if len(candles) < min_len:
+        raise RuntimeError(f"Cboe returned too little history for {symbol}")
+    return {"candles": candles, "price": price, "currency": "pts", "market_time": market_time,
+            "source": "Cboe (15 min delayed)"}
+
+
+def fetch_nasdaq_index(symbol, min_len=30):
+    d = fetch_nasdaq(symbol[1:], min_len=min_len, assets=("index",))
+    d["currency"] = "pts"
+    return d
+
+
+def _close_only(points, source, min_len, symbol):
+    candles = [[d, v, v, v, v, 0] for d, v in sorted(points.items())]
+    candles = _cut_years(candles)
+    if len(candles) < min_len:
+        raise RuntimeError(f"{source} returned too little history for {symbol}")
+    return {"candles": candles, "price": candles[-1][4], "currency": "%", "market_time": None,
+            "source": source, "close_only": True}
+
+
+def fetch_us_yield(symbol, min_len=30):
+    col = US_YIELDS[symbol]
+    points = {}
+    year = dt.date.today().year
+    for y in range(year - 3, year + 1):
+        try:
+            text = http_get("https://home.treasury.gov/resource-center/data-chart-center/interest-rates/"
+                            f"daily-treasury-rates.csv/{y}/all?type=daily_treasury_yield_curve"
+                            f"&field_tdr_date_value={y}&page&_format=csv")
+        except Exception as e:  # noqa: BLE001
+            log(f"  ! Treasury {y}: {e}")
+            continue
+        rows = list(csv.reader(text.splitlines()))
+        if not rows:
+            continue
+        head = [h.strip() for h in rows[0]]
+        if col not in head:
+            continue
+        i = head.index(col)
+        for r in rows[1:]:
+            try:
+                d = dt.datetime.strptime(r[0], "%m/%d/%Y").strftime("%Y-%m-%d")
+                v = float(r[i])
+            except (ValueError, IndexError):
+                continue
+            points[d] = v
+    return _close_only(points, "U.S. Treasury (daily close)", min_len, symbol)
+
+
+def fetch_de_yield(symbol, min_len=30):
+    code = DE_YIELDS[symbol]
+    text = http_get("https://api.statistiken.bundesbank.de/rest/data/BBSIS/"
+                    f"D.I.ZST.ZI.EUR.S1311.B.A604.{code}.R.A.A._Z._Z.A?format=csv&lastNObservations=1110",
+                    timeout=45)
+    points = {}
+    for ln in text.splitlines():
+        p = ln.split(";") if ";" in ln else ln.split(",")    # German or English CSV
+        if len(p) >= 2 and len(p[0]) == 10 and p[0][4] == "-":
+            try:
+                points[p[0]] = float(p[1].replace(",", "."))
+            except ValueError:
+                continue
+    return _close_only(points, "Deutsche Bundesbank (daily)", min_len, symbol)
+
+
 def fetch_daily(symbol, min_len=30):
-    if "-" in symbol and symbol.upper().split("-")[1] in ("USD", "EUR", "USDT"):
+    symbol = symbol.upper()
+    if symbol in CBOE_INDEX:
+        return fetch_cboe(symbol, min_len)
+    if symbol.startswith("^"):
+        return fetch_nasdaq_index(symbol, min_len)
+    if symbol in US_YIELDS:
+        return fetch_us_yield(symbol, min_len)
+    if symbol in DE_YIELDS:
+        return fetch_de_yield(symbol, min_len)
+    if "-" in symbol and symbol.split("-")[1] in ("USD", "EUR", "USDT"):
         return fetch_crypto(symbol, min_len)
     try:
         return fetch_nasdaq(symbol, min_len=min_len)
@@ -448,7 +582,8 @@ def analyse(stock, data, settings, alerts, app_url):
             ["rocket"], 3))
 
     # ---- gaps -------------------------------------------------------------
-    gaps = find_gaps(candles, float(settings.get("min_gap_pct", 0.5)))
+    # close-only series (bond yields) have no real highs/lows, so no gaps
+    gaps = [] if data.get("close_only") else find_gaps(candles, float(settings.get("min_gap_pct", 0.5)))
     open_gaps = [g for g in gaps if not g["filled"]]
     for g in gaps:
         g["below"] = g["open_top"] <= price if not g["filled"] else g["top"] <= price
@@ -550,11 +685,13 @@ def analyse(stock, data, settings, alerts, app_url):
                   "fill_pct": round(g["fill_pct"])} for g in near_gaps],
         "open_gap_count": len(open_gaps),
         "manual": manual, "source": data.get("source"), "last_bar": candles[-1][0],
+        "close_only": bool(data.get("close_only")),
         "spark": [rnd(c, price) for c in closes[-30:]],
     }
 
     detail = {
         "symbol": sym, "name": name, "source": data.get("source"),
+        "close_only": bool(data.get("close_only")), "currency": data.get("currency", "USD"),
         "t": [c[0] for c in candles],
         "o": [rnd(c[1], price) for c in candles],
         "h": [rnd(c[2], price) for c in candles],
@@ -709,6 +846,11 @@ def main():
     save_json(seen_path, sorted(seen))
     save_json(os.path.join(data_dir, "movers.json"), movers_payload)
     save_json(os.path.join(data_dir, "brief-queue.json"), queue)
+
+    # ---- symbol directory for the app's search (rebuilt once a day) ----------
+    if not args.fixtures:
+        import lookup as lk  # noqa: PLC0415
+        lk.ensure_directory(args.state, args.out, today_ny, log)
 
     # forget state for alerts that no longer exist (removed levels, filled gaps …)
     for k in list(state):

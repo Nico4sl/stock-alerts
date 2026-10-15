@@ -1,0 +1,61 @@
+name: Lookup
+run-name: "Lookup ${{ inputs.symbol }}"
+
+# Started by the app's search when you open a symbol that isn't on your lists.
+# Fetches the data, computes the indicators and publishes <SYMBOL>.json to the
+# `lookup` branch, which the app reads. Nothing in config.json changes, no alerts.
+on:
+  workflow_dispatch:
+    inputs:
+      symbol:
+        description: "Symbol, e.g. AAPL, ^SPX, US10Y, ETH-USD"
+        required: true
+      name:
+        description: "Display name (optional)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: lookup-${{ inputs.symbol }}
+  cancel-in-progress: false
+
+jobs:
+  lookup:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            engine
+            config.json
+          sparse-checkout-cone-mode: false
+
+      - name: Fetch and analyse
+        env:
+          SYM: ${{ inputs.symbol }}
+          NAME: ${{ inputs.name }}
+        run: python3 engine/lookup.py "$SYM" --name "$NAME" --out /tmp/out
+
+      - name: Publish to the lookup branch
+        run: |
+          git config user.name "pullback-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git worktree add -q --detach /tmp/lk
+          cd /tmp/lk
+          for i in 1 2 3 4 5; do
+            if git fetch -q origin lookup 2>/dev/null; then
+              git checkout -q -B lookup origin/lookup
+            else
+              git checkout -q --orphan lookup && git rm -rfq . 2>/dev/null || true
+            fi
+            cp /tmp/out/*.json .
+            git add -A
+            git commit -qm "Lookup ${{ inputs.symbol }}" || exit 0
+            if git push -q origin lookup; then exit 0; fi
+            sleep $((i * 2))
+          done
+          exit 1

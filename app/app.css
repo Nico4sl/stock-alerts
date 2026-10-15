@@ -67,7 +67,7 @@ main {
 .tabs {
   position: fixed; inset: auto 0 0 0; z-index: 20;
   height: calc(var(--tabs-h) + var(--sab)); padding-bottom: var(--sab);
-  display: grid; grid-template-columns: repeat(4, 1fr);
+  display: grid; grid-template-columns: repeat(5, 1fr);
   background: rgba(11, 14, 20, .95); backdrop-filter: blur(12px);
   border-top: 1px solid var(--line);
 }
@@ -228,3 +228,26 @@ main {
 .brief .heads { padding: 0; }
 .b-foot { font-size: 12px; color: var(--faint); padding: 14px 0 6px; }
 .pop-h { padding: 14px 16px 0; font-size: 12px; text-transform: uppercase; letter-spacing: .06em; color: var(--ema21); font-weight: 700; }
+
+/* ---------- search ---------- */
+.search-bar { position: sticky; top: calc(var(--top-h) + var(--sat)); z-index: 5; display: flex; align-items: center; gap: 8px;
+  margin: 0; padding: 10px 16px; background: var(--bg); border-bottom: 1px solid var(--line); }
+.search-bar svg { color: var(--muted); flex: 0 0 auto; }
+.search-bar input { flex: 1; min-width: 0; background: var(--panel); border: 1px solid var(--line); border-radius: 10px;
+  padding: 10px 12px; font-size: 16px; color: var(--text); }
+.search-bar input:focus { outline: 2px solid rgba(90, 200, 250, .5); border-color: transparent; }
+.sr { display: flex; align-items: center; gap: 10px; padding: 11px 16px; border-bottom: 1px solid var(--line); cursor: pointer; }
+.sr:active { background: var(--panel); }
+.sr-main { flex: 1; min-width: 0; }
+.sr .sym { font-weight: 700; font-size: 15px; display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+.sr .name { font-size: 13px; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.sr .chev { width: 18px; height: 18px; color: var(--faint); flex: 0 0 auto; }
+.chip.t-I { color: var(--sma100); border-color: rgba(167, 139, 250, .35); }
+.chip.t-B { color: var(--sma150); border-color: rgba(245, 158, 11, .35); }
+.chip.t-C { color: var(--ema21); border-color: rgba(255, 214, 10, .3); }
+.chip.t-E { color: var(--sma50); border-color: rgba(79, 157, 255, .35); }
+.s-note { padding: 14px 16px; font-size: 13px; color: var(--muted); line-height: 1.5; }
+.lk-status { padding: 2px 16px 6px; font-size: 13px; color: var(--muted); display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.lk-status.warn { color: var(--sma150); }
+.dotspin { width: 12px; height: 12px; border-radius: 50%; border: 2px solid var(--line); border-top-color: var(--accent); animation: spin .8s linear infinite; flex: 0 0 auto; }
+.tabs a span { white-space: nowrap; }
