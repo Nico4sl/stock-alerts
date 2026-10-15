@@ -1,12 +1,14 @@
-import sys, json
+import sys, json, datetime as dt
 sys.path.insert(0, "engine")
-import lookup as lk, check as ck
-for s in ["DE10Y","DE2Y","DE30Y","^NDX","^COMP"]:
-    lk.lookup(s, "out", "")
-    d = json.load(open(f"out/{lk.mv.SAFE(s)}.json"))
-    if "error" in d: print(s, "ERROR", d["error"]); continue
-    sm = d["summary"]; print(s, sm["price"], sm["change_pct"], len(d["detail"]["t"]), d["detail"]["t"][-1])
-try:
-    t = ck.http_get("https://api.statistiken.bundesbank.de/rest/data/BBSIS/D.I.ZST.ZI.EUR.S1311.B.A604.R10XX.R.A.A._Z._Z.A?format=csv&lastNObservations=800", timeout=45)
-    print(len(t)); print(t[:800]); print(t[-300:])
-except Exception as e: print("ERR", e)
+import check as ck
+for sym, asset in [("AAPL","stocks"),("SPY","etf"),("NBIS","stocks"),("NDX","index")]:
+    for yrs in (10, 15, 20):
+        start=(dt.date.today()-dt.timedelta(days=365*yrs)).isoformat()
+        try:
+            h=ck._nasdaq(f"{sym}/historical?assetclass={asset}&fromdate={start}&limit=9999")
+            rows=h["tradesTable"]["rows"]; print(sym, yrs, len(rows), rows[-1]["date"], h.get("totalRecords"))
+        except Exception as e: print(sym, yrs, "ERR", e)
+import urllib.request
+for iv in (10080, 21600):
+    r=json.loads(ck.http_get(f"https://api.kraken.com/0/public/OHLC?pair=XBTUSD&interval={iv}"))
+    s=next(v for k,v in r["result"].items() if k!="last"); print("kraken", iv, len(s), dt.datetime.utcfromtimestamp(s[0][0]).date(), dt.datetime.utcfromtimestamp(s[0][0]).strftime("%a"))
