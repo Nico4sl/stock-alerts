@@ -5,21 +5,17 @@ H={"User-Agent":UA,"Accept":"application/json, text/plain, */*","Accept-Language
 def get(u, h=H):
     try:
         with urllib.request.urlopen(urllib.request.Request(u, headers=h), timeout=30) as r:
-            b=r.read().decode("utf-8","replace"); return f"{r.status} len={len(b)} :: {b[:400]}"
+            b=r.read().decode("utf-8","replace"); return f"{r.status} len={len(b)} :: {b[:3000]}"
     except Exception as e: return f"ERR {e}"
 tests = {}
-for s in ["SPX","NDX","COMP","DJIA","INDU","RUT","VIX","NYA","SOX","DAX","N225","FTSE"]:
-    tests[f"idx-hist {s}"] = f"https://api.nasdaq.com/api/quote/{s}/historical?assetclass=index&fromdate=2026-09-01&limit=3"
-tests["idx-chart SPX"]="https://api.nasdaq.com/api/quote/SPX/chart?assetclass=index"
-tests["etf-screener"]="https://api.nasdaq.com/api/screener/etf?tableonly=true&limit=3&download=true"
-tests["stock-screener"]="https://api.nasdaq.com/api/screener/stocks?tableonly=true&limit=3&download=true"
-tests["index-screener"]="https://api.nasdaq.com/api/screener/index?tableonly=true&limit=3"
-tests["autocomplete"]="https://api.nasdaq.com/api/autocomplete/slookup/10?search=s%26p"
-tests["nasdaqtrader"]="https://www.nasdaqtrader.com/dynamic/SymDir/nasdaqtraded.txt"
-tests["treasury"]="https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/2026/all?type=daily_treasury_yield_curve&field_tdr_date_value=2026&page&_format=csv"
-tests["fred"]="https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10"
-tests["ecb-bund"]="https://data-api.ecb.europa.eu/service/data/YC/B.U2.EUR.4F.G_N_A.SV_C_YM.SR_10Y?format=csvdata&lastNObservations=3"
-tests["tlt-hist"]="https://api.nasdaq.com/api/quote/TLT/historical?assetclass=etf&fromdate=2026-09-01&limit=3"
+for s in ["_SPX","_DJX","_RUT","_VIX","_NDX","_XSP","_DJI"]:
+    tests["cboe "+s]=f"https://cdn.cboe.com/api/global/delayed_quotes/charts/historical/{s}.json"
+tests["cboe quote _SPX"]="https://cdn.cboe.com/api/global/delayed_quotes/quotes/_SPX.json"
+tests["cboe vix csv"]="https://cdn.cboe.com/api/global/us_indices/daily_prices/VIX_History.csv"
+tests["buba 10y"]="https://api.statistiken.bundesbank.de/rest/data/BBSIS/D.I.ZST.ZI.EUR.S1311.B.A604.R10XX.R.A.A._Z._Z.A?format=csv&lastNObservations=3"
+tests["brk.b"]="https://api.nasdaq.com/api/quote/BRK.B/historical?assetclass=stocks&fromdate=2026-10-01&limit=2"
+tests["brk/b"]="https://api.nasdaq.com/api/quote/BRK%25sB/historical?assetclass=stocks&fromdate=2026-10-01&limit=2"
+tests["idx screener all"]="https://api.nasdaq.com/api/screener/index?tableonly=true&limit=100"
 for k,u in tests.items():
     h = H if "nasdaq.com" in u else {"User-Agent":UA}
-    print("=="*3, k, "\n", get(u,h), flush=True)
+    r=get(u,h); print("=="*3, k, "\n", r if "screener" not in k else r[:3000], flush=True)
