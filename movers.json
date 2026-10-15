@@ -1,22 +1,22 @@
 {
  "date": "2026-10-15",
  "threshold": 3.0,
- "updated": "2026-10-15T17:05:29+00:00",
+ "updated": "2026-10-15T17:34:10+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 770.02,
-   "change_pct": 0.05
+   "price": 770.64,
+   "change_pct": 0.14
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 723.95,
-   "change_pct": -0.69
+   "price": 725.12,
+   "change_pct": -0.53
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 80.09,
-   "change_pct": 1.52
+   "price": 80.12,
+   "change_pct": 1.56
   }
  },
  "movers": [
@@ -24,23 +24,23 @@
    "symbol": "ANET",
    "name": "Arista Networks",
    "list": "portfolio",
-   "price": 183.34,
+   "price": 183.46,
    "prev_close": 195.42,
-   "change_pct": -6.2,
+   "change_pct": -6.1,
    "trigger_change": -5.7,
    "peak_change": -7.1,
    "first_seen": "2026-10-15T10:06:18+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 551.54,
-    "change_pct": -2.34
+    "price": 553.76,
+    "change_pct": -1.94
    },
    "chart": {
     "ema8": -8.9,
-    "ema21": -9.7,
+    "ema21": -9.6,
     "sma50": -7.7,
-    "sma200": 12.9,
+    "sma200": 13.0,
     "momentum": false
    },
    "headlines": [
@@ -99,23 +99,23 @@
    "symbol": "APP",
    "name": "AppLovin",
    "list": "portfolio",
-   "price": 276.28,
+   "price": 276.88,
    "prev_close": 262.19,
-   "change_pct": 5.4,
+   "change_pct": 5.6,
    "trigger_change": -5.1,
    "peak_change": 6.1,
    "first_seen": "2026-10-15T10:06:18+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 108.89,
-    "change_pct": 1.15
+    "price": 108.83,
+    "change_pct": 1.1
    },
    "chart": {
-    "ema8": 0.3,
-    "ema21": -4.5,
-    "sma50": -10.0,
-    "sma200": -36.8,
+    "ema8": 0.5,
+    "ema21": -4.3,
+    "sma50": -9.8,
+    "sma200": -36.6,
     "momentum": false
    },
    "headlines": [
@@ -174,7 +174,7 @@
    "symbol": "NOW",
    "name": "ServiceNow",
    "list": "portfolio",
-   "price": 147.57,
+   "price": 147.56,
    "prev_close": 139.98,
    "change_pct": 5.4,
    "trigger_change": 5.6,
@@ -183,8 +183,8 @@
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 108.89,
-    "change_pct": 1.15
+    "price": 108.83,
+    "change_pct": 1.1
    },
    "chart": {
     "ema8": 4.8,
@@ -249,22 +249,22 @@
    "symbol": "AMAT",
    "name": "Applied Materials",
    "list": "portfolio",
-   "price": 428.51,
+   "price": 428.79,
    "prev_close": 446.63,
-   "change_pct": -4.1,
+   "change_pct": -4.0,
    "trigger_change": -6.2,
    "peak_change": -6.2,
    "first_seen": "2026-10-15T10:06:18+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 551.54,
-    "change_pct": -2.34
+    "price": 553.76,
+    "change_pct": -1.94
    },
    "chart": {
-    "ema8": -9.8,
+    "ema8": -9.7,
     "ema21": -11.6,
-    "sma50": -11.6,
+    "sma50": -11.5,
     "sma200": -2.2,
     "momentum": false
    },
@@ -324,23 +324,23 @@
    "symbol": "UNH",
    "name": "UnitedHealth",
    "list": "portfolio",
-   "price": 411.01,
+   "price": 410.15,
    "prev_close": 395.62,
-   "change_pct": 3.9,
+   "change_pct": 3.7,
    "trigger_change": 5.4,
    "peak_change": 5.5,
    "first_seen": "2026-10-15T10:06:18+00:00",
    "sector": {
     "etf": "XLV",
     "name": "Health care",
-    "price": 178.29,
-    "change_pct": 2.49
+    "price": 177.91,
+    "change_pct": 2.27
    },
    "chart": {
-    "ema8": 6.1,
-    "ema21": 7.5,
-    "sma50": 6.1,
-    "sma200": 14.6,
+    "ema8": 5.9,
+    "ema21": 7.3,
+    "sma50": 5.9,
+    "sma200": 14.3,
     "momentum": true
    },
    "headlines": [
@@ -396,215 +396,26 @@
    "brief": "2026-10-15-UNH"
   },
   {
-   "symbol": "NBIS",
-   "name": "Nebius",
-   "list": "portfolio",
-   "price": 179.17,
-   "prev_close": 186.01,
-   "change_pct": -3.7,
-   "trigger_change": -13.8,
-   "peak_change": -13.9,
-   "first_seen": "2026-10-15T10:06:18+00:00",
-   "sector": {
-    "etf": "IGV",
-    "name": "Software",
-    "price": 108.89,
-    "change_pct": 1.15
-   },
-   "chart": {
-    "ema8": -13.1,
-    "ema21": -18.1,
-    "sma50": -19.7,
-    "sma200": 3.2,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Nebius Group Stock Is Falling Thursday: What's Going On?",
-     "publisher": "Benzinga",
-     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPbzNjaGFpS1RWcTd0eHQ0RXl5WWZGSmYycGlHNnYzcFp4YnJ4SHhpUkFSR3pwRXFaTkRaNTY4MXRXZHlhSUx5bFUyUEFudTBpbnAtLWdHSUZDQ1hmbjRpNk8wVVpqLU43TUtxU256RnQwLWhWY1REMU9SM0ItY3VncmluNkw3S1dCRHpyX3VHMTlydkFFTjR1M0xxckFfZUJoSW0ydTlxUjh4M1c1ZVppTGwxeVc?oc=5",
-     "time": "2026-10-15T16:02:14+00:00"
-    },
-    {
-     "title": "Nebius stock breaks below $200 as CoreWeave\u2019s debt scare spreads",
-     "publisher": "TheStreet",
-     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQY3NWTU9FZkEySGZSYmd3WHRUUnQtVjRWcEJLbFVfN1pfdU9GM08zZ05xaTFPaXcxcFY0dnNZY0JMdENwMmprbGQ3a3Y1S0ZEVlZqY2FqSG02MzJXQmQyYTljekVPQTVBclBTTTdvRWh4dmFNandxbHg0blRIVHFJZC1JcWRXeWpTS3c?oc=5",
-     "time": "2026-10-15T14:47:00+00:00"
-    },
-    {
-     "title": "Nebius: The Real Test Starts After This Selloff (Rating Downgrade) (NBIS)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPSlZUWnkzcEdNaE9sOWlnSzJobWltTHNZX1lveXFzUTkxSFNpM09tY0JoOW5OT1BZd1ZQSVBhRXA1RlFWVzJZZ2RUMzRFcF9EUHhGNzRDalYzTTEwSlRhWUlRUkZCVGtNSkpiVHk4SlNnVmZzQTNVUjZPeDdjNHJ1Tl94aEltSnVFMFFESGVNM0RaM0RIMkVSTFRNUXJRbWRYSkstXzJ2Zw?oc=5",
-     "time": "2026-10-15T14:44:39+00:00"
-    },
-    {
-     "title": "AI Cloud Stocks Sink as Gartner Warns Most Neoclouds Won't Survive Independently: IREN and CoreWeave Fall 5%, Nebius Drops 4%",
-     "publisher": "24/7 Wall St.",
-     "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPckQ4YUhLOGxNcEJnWXA0OG5jNjVXUFVWekxYZ3BySVlzWHhoNENFQ0RzSG1PQWgzZHZEYTZTR3BocXJMcGFubGVwdTVhbVdqWVpJdW5EVFBDSnNxQ3VQUnhmUEFfMndnN0ItMlhnTTRORnZsWWF1aUxGVkM3ZXhmQkN1d21rcy1BdllodHljM08tTlBjNWduMWxybUxNdS1OVUtWVVR4QjdJYTVsQjZHeTVUaGdHRXluSHJiMU1lZXlWUmhHUjlkbXViMjhTMGhiN1lVOEo4ZW51dExVVmlOZFpsUFlwS1NxbmU3Z1hZcHktNXVNeGdv?oc=5",
-     "time": "2026-10-15T13:34:00+00:00"
-    },
-    {
-     "title": "Nebius Stock Fell 10% and IREN 12% as Gartner\u2019s $8.5 Trillion Neocloud Math Met a CoreWeave Debt Scare",
-     "publisher": "FinanceFeeds",
-     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9rUy1EbzlZUWZaTVp0YVNoMzdYRTBIQWE2TU5nMlZGMlVTbDhOSS1PNzVtQzRsNWZhVHJhY1RBMzdYdGF2Y3JEOEt2QnRwM2x6UW1EOVBxYXFzTFhST2RSZG9ZdmhlNjhtUUF6X2xhUm1VdUZUWjI3Vg?oc=5",
-     "time": "2026-10-15T12:54:49+00:00"
-    },
-    {
-     "title": "NBIS Stock Slides As Burry\u2019s Bearish Bet Intensifies",
-     "publisher": "Timothy Sykes",
-     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9VSldESjJTVElTTmZCdFhGVVJya1ZuTldrOGpwRmxQR2pZejNUWllYMzFIRVVTUlFnUEJHM1Q1cFktY2NRNC1BYlpOMS12bzY4TVZKd2ZhWXpLZHF1QldUbGRHRkRuY3NwYnUxRHpfUThaMGd3S2tPSjJMaHBmQQ?oc=5",
-     "time": "2026-10-15T12:32:00+00:00"
-    },
-    {
-     "title": "NBIS Stock Slides As Burry\u2019s Bearish Bet And Selling Pressure Mount",
-     "publisher": "StocksToTrade",
-     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBzYzlTRXJ0VU1Wc2xPa0VUMXEyYmdfS1l1c1VCR0phRk9hWnlzTER1REtqSHpySEVrMmVFRFJEYnpVN2xFeldVdFNVcEpGVlJPbXFnVi0zN0V5ekhkdmJQbVZrS1I4MWVPaXZrWk1sbENmVTloanBXWUln?oc=5",
-     "time": "2026-10-15T12:32:00+00:00"
-    },
-    {
-     "title": "NBIS Stock Slides As Burry\u2019s Bearish Bet Meets WSB Weakness",
-     "publisher": "Timothy Sykes",
-     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9qenpxQlhyN09EcDRKdlNkcWFGQ2hGelVKd2p3ZjNYM3hIekpZUTlnREFNRGRfWEFRaFJ3eWhiX2RhWkFES09DWVgycE1aUTZ5Vk05NGhjR29SV0xHUDA3UDVsODFkLTlfSGxJTTd4SjNYeFNJdVFSMzdjRQ?oc=5",
-     "time": "2026-10-15T11:48:00+00:00"
-    }
-   ],
-   "brief": "2026-10-15-NBIS"
-  },
-  {
-   "symbol": "NVO",
-   "name": "Novo Nordisk (ADR)",
-   "list": "portfolio",
-   "price": 39.52,
-   "prev_close": 38.12,
-   "change_pct": 3.7,
-   "trigger_change": 3.9,
-   "peak_change": 3.9,
-   "first_seen": "2026-10-15T15:08:43+00:00",
-   "sector": {
-    "etf": "XLV",
-    "name": "Health care",
-    "price": 178.29,
-    "change_pct": 2.49
-   },
-   "chart": {
-    "ema8": 2.6,
-    "ema21": 0.4,
-    "sma50": -7.8,
-    "sma200": -12.4,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Novo Nordisk stock consolidates amid seller pressure near $38.39 resistance",
-     "publisher": "Traders Union",
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOeDFBUFNfdm8wZFJla3RrYnFtNU01ZHZ2WUZ2bjRiS3JnRS1DaVBRM0dSR0dBaWFxRUlSZUNKaS1nbTY5aTB6bWZHUlljYnZQRGljS1I2NnZJUjVaeW14bTZxSTN1cVNDQ2NOQ2pMRUpDLS1zUGlzWDM4bDctWnN4SDRGdmlpWDFNdG9Z?oc=5",
-     "time": "2026-10-15T08:02:40+00:00"
-    },
-    {
-     "title": "Will NVO avoid deeper losses as technical momentum remains weak?",
-     "publisher": "Traders Union",
-     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQLV9vS0xhOVRjTHY2dU1JSU8xelJjSXliQ0dxLUsxUjgzNE9xcTlwYnM0aGhRSXl6ZmFQeFpDWnpzUGVMY2JUaVZBN2pEbTNZX0YyaFBXbmhfWVF3RktmMkI1NkFtcmJuM1VBbGotVWRnYWN3cmtSdkRTeU5kWUVQTElycFBZSWNlWWhIdktB?oc=5",
-     "time": "2026-10-14T08:02:22+00:00"
-    }
-   ],
-   "brief": "2026-10-15-NVO"
-  },
-  {
-   "symbol": "NFLX",
-   "name": "Netflix",
-   "list": "portfolio",
-   "price": 72.97,
-   "prev_close": 70.57,
-   "change_pct": 3.4,
-   "trigger_change": 3.2,
-   "peak_change": 3.4,
-   "first_seen": "2026-10-15T15:57:30+00:00",
-   "sector": {
-    "etf": "XLC",
-    "name": "Communication",
-    "price": 112.2,
-    "change_pct": 1.25
-   },
-   "chart": {
-    "ema8": 3.0,
-    "ema21": 2.0,
-    "sma50": -2.9,
-    "sma200": -12.1,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Netflix Stock (NASDAQ:NFLX) Gains\u2014Job Cuts Unconnected to AI",
-     "publisher": "TipRanks",
-     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPcXlsUWxaODJvX3VNYjJUR21pMzNNdTd1elBYOE93eTFMV0lDb05WeUx5V01seXV3ekNpa0pnbzIzdkJxdzc0WnVIZEQ0dHA5QzFOcXdjanVHVGViLV9GVjhhU241RUg1aE1NQ3FkcWtaSWlySXBpMnpPWmY5Y2Z5cm9LcXh2NXU5Y01jand2Ylg?oc=5",
-     "time": "2026-10-15T16:10:34+00:00"
-    },
-    {
-     "title": "Jefferies sees Netflix revenue growth supported by pricing, advertising (NFLX:NASDAQ)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNLW9WSWhoQlI4eXNHN05HWGs4VktEcjZRektnZHV3UG9sNGZEM1ZGOVNYWnJLZkJfbGpWMVRMaVp4ZmtUYzYwdnlRcVFLSFNGRnA2b0x5Y1gyLTE4RnZJeFEyMXBMVERXbldzX0dZbWp3Sm1aN2RKUi1uSVNCZmNfWEJLRDZGb3RBV0l3ZGFXNGxIVW0zblV5LWpJZVpyQVFYOUlpOGlBNDZoUEh3?oc=5",
-     "time": "2026-10-15T12:56:37+00:00"
-    },
-    {
-     "title": "Netflix, Inc. $NFLX Stock Holdings Lifted by ZWJ Investment Counsel Inc.",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOQVJpdzBPc21ka01UZWZRaERNdEdzaFFuQ2tIRGFlVElPSnhFWHJmaVJiMHJ2QzhkRlNwX3pqS3d6ZlJLcmI0cXB6NURQdGx6WllFX1FLUFZJcU5vWXg2djlsQnI0N2JiWFVsQkV0TFpHblYwMzhxbmRkQmxUZnZLckZWekRLTVhndWlKUklhSVI5QVNQWFpTZ1pUOGowTFh1cE5GUWNKMDV0RHMyRzQ5TDBkU3ozR2tnVUNoMFcyNU5zMFFkYzdnaQ?oc=5",
-     "time": "2026-10-15T11:33:34+00:00"
-    },
-    {
-     "title": "NFLX Stock On Track For 4-Day Slide After Wells Fargo Downgrade Flags \u201cWorrying\u201d Engagement Trends",
-     "publisher": "Stocktwits",
-     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQNzR3RnRweFhjekJnYURQRlc1cUdCTERLSTBIZVVUNEZfbVc0QmtPakRUR2RIQks4QW1vOHdzVnJPYWJiVXgwWi1rdDJtTUxhTzV5a3FVWUtfdUFaQThrZ29YdGNoSm82ZjRSeHI2YmRLdTBWaWJFSlhUS2oyTkRvU0w3ME1aTnJ0SGlYT21DU2t3MERhcXIzWV9UY2NqQUhSQU43ZGg4SUxlaTZ6Y0dDY3NhSHZ3SnBEd3g0Vlk0VDhsVUJTdVdOUWhlcF8?oc=5",
-     "time": "2026-10-15T10:34:37+00:00"
-    },
-    {
-     "title": "Premarket Movers: AAPL Gains On China AI Approval Report \u2014 Why WMT, NFLX Stocks Are Also Rising",
-     "publisher": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPRlF0MDNmcUdwMTItLTZ5UWhCaEhsTzBrcVpRSW5ZUVZndXlfY1lMRHZicmVoNS1rYnJYajdKRVFEYUhudlE4SFlmY0VscndnRlFrWGpHZmsxTEhoN21WUkptWExNSWljT1M3QzFFVEpiSDY5c0V5TmRzamJtTnR2cWEyV1RLUVZoOGk2TXdCWWJSQmpMRHFlWDJJeHF2azA4Um0yRkZyQkZDVGFvYWZEandlQWVMMExXdUxxYWJoWDduS0xyVXd3eVRzd0k1R1M5SDB5cUlmdTRFc0ZkX1p0dDdCM0Nhc3c?oc=5",
-     "time": "2026-10-15T10:19:03+00:00"
-    },
-    {
-     "title": "Netflix stock gets bullish analyst call ahead of next week\u2019s earnings",
-     "publisher": "Finbold",
-     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNMERtcWVZdE11bkdpNGxxOUZMeG9BbjhqZUNoU3FxY0lybFRnU29wZlhmVTIyTkVIWWY3V0V4OXZoOUlWWjJuWG1uamZJUUJmby0wVlZKYUVIXzRiaFNZbXNMNE56SVZqb3ZMbnVrTWhtU0doVFlzVkJmbmFNdDBtdy1qS0JhWk41VHRqTENvUEh3a2c?oc=5",
-     "time": "2026-10-15T09:47:18+00:00"
-    },
-    {
-     "title": "NFLX Stock Dips Overnight: Retail Turns Bearish Ahead Of Earnings As Netflix Reels Under Growth Pressure",
-     "publisher": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOWXNHOUtSVmRRYXNJdDVwSmt6V3k1TW1KUkRxZW5ualNxdDJCREVKQmVmWmh2SjByZkpzTlpNZVFWOWJaOHFrejd2YXhnQWlLLWZvSVBjTl9yenlSVTczS3hpZXpodm1JN2xIbE1IZjdidjNCaWsyWVY2bEVyQ3NaeWNXa1FiZlFLSWNsZ29idWVDRVNDSVJjX2VObXE1NE91Y1ZrdUdVUjdCQ3VWaWNQOXl2WG5GVnpVbm1IbkROZXp4bmU1OEQ3M045M1hEUWNqTkdSQzd1VjZHNFk0Q0M0amxwajE3Qnp0VlNPQTFkVHRIZ2d5Y2lZ?oc=5",
-     "time": "2026-10-15T05:27:00+00:00"
-    },
-    {
-     "title": "Michael Burry Is Skeptical Of NVDA, ORCL And NFLX \u2014 But Bullish On This Sports Betting Stock",
-     "publisher": "Stocktwits",
-     "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNa2hfbXNDa1p1T0tMTWdhYnFEZHhNcllaYUdNLWMtUUtYckJkaGlKV2t4dmd5RGd2Ynl5NGlhLUFUNlJRb1NsV002Zm5pbC1SMmlCS2t4V2l3cWllMFE5MHBYVHRSVlA3OHVxdnFoQjNIdWhrRFdMVzVnSTk1VjVtWkUwUVVldXlNRXE2R1NVZXRfTlV3emtlOTRtQkcyRG9PdXk5WU5RN0NIcGI3YVV4UUdUV0s5dWFsLUN0S21RUENUb193aVJheDM2eFQ4anlDS3haanMxU245WUNUd1pYcDc2N24wS2tmMnM1M0NiN2ZpZi1POS1YaXpoYU00dw?oc=5",
-     "time": "2026-10-14T22:05:23+00:00"
-    }
-   ],
-   "brief": "2026-10-15-NFLX"
-  },
-  {
    "symbol": "SOFI",
    "name": "SoFi",
    "list": "portfolio",
-   "price": 14.57,
+   "price": 14.74,
    "prev_close": 14.22,
-   "change_pct": 2.5,
+   "change_pct": 3.6,
    "trigger_change": -8.2,
    "peak_change": -8.5,
    "first_seen": "2026-10-15T10:06:18+00:00",
    "sector": {
     "etf": "XLF",
     "name": "Financials",
-    "price": 55.14,
-    "change_pct": 1.13
+    "price": 55.18,
+    "change_pct": 1.21
    },
    "chart": {
-    "ema8": -3.7,
-    "ema21": -8.1,
-    "sma50": -15.1,
-    "sma200": -20.9,
+    "ema8": -2.9,
+    "ema21": -7.1,
+    "sma50": -14.1,
+    "sma200": -20.0,
     "momentum": false
    },
    "headlines": [
@@ -660,26 +471,290 @@
    "brief": "2026-10-15-SOFI"
   },
   {
+   "symbol": "NVO",
+   "name": "Novo Nordisk (ADR)",
+   "list": "portfolio",
+   "price": 39.51,
+   "prev_close": 38.12,
+   "change_pct": 3.6,
+   "trigger_change": 3.9,
+   "peak_change": 3.9,
+   "first_seen": "2026-10-15T15:08:43+00:00",
+   "sector": {
+    "etf": "XLV",
+    "name": "Health care",
+    "price": 177.91,
+    "change_pct": 2.27
+   },
+   "chart": {
+    "ema8": 2.6,
+    "ema21": 0.3,
+    "sma50": -7.8,
+    "sma200": -12.5,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Novo Nordisk stock consolidates amid seller pressure near $38.39 resistance",
+     "publisher": "Traders Union",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOeDFBUFNfdm8wZFJla3RrYnFtNU01ZHZ2WUZ2bjRiS3JnRS1DaVBRM0dSR0dBaWFxRUlSZUNKaS1nbTY5aTB6bWZHUlljYnZQRGljS1I2NnZJUjVaeW14bTZxSTN1cVNDQ2NOQ2pMRUpDLS1zUGlzWDM4bDctWnN4SDRGdmlpWDFNdG9Z?oc=5",
+     "time": "2026-10-15T08:02:40+00:00"
+    },
+    {
+     "title": "Will NVO avoid deeper losses as technical momentum remains weak?",
+     "publisher": "Traders Union",
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQLV9vS0xhOVRjTHY2dU1JSU8xelJjSXliQ0dxLUsxUjgzNE9xcTlwYnM0aGhRSXl6ZmFQeFpDWnpzUGVMY2JUaVZBN2pEbTNZX0YyaFBXbmhfWVF3RktmMkI1NkFtcmJuM1VBbGotVWRnYWN3cmtSdkRTeU5kWUVQTElycFBZSWNlWWhIdktB?oc=5",
+     "time": "2026-10-14T08:02:22+00:00"
+    }
+   ],
+   "brief": "2026-10-15-NVO"
+  },
+  {
+   "symbol": "NFLX",
+   "name": "Netflix",
+   "list": "portfolio",
+   "price": 72.78,
+   "prev_close": 70.57,
+   "change_pct": 3.1,
+   "trigger_change": 3.2,
+   "peak_change": 3.4,
+   "first_seen": "2026-10-15T15:57:30+00:00",
+   "sector": {
+    "etf": "XLC",
+    "name": "Communication",
+    "price": 112.64,
+    "change_pct": 1.64
+   },
+   "chart": {
+    "ema8": 2.8,
+    "ema21": 1.8,
+    "sma50": -3.2,
+    "sma200": -12.3,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Netflix Stock (NASDAQ:NFLX) Gains\u2014Job Cuts Unconnected to AI",
+     "publisher": "TipRanks",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPcXlsUWxaODJvX3VNYjJUR21pMzNNdTd1elBYOE93eTFMV0lDb05WeUx5V01seXV3ekNpa0pnbzIzdkJxdzc0WnVIZEQ0dHA5QzFOcXdjanVHVGViLV9GVjhhU241RUg1aE1NQ3FkcWtaSWlySXBpMnpPWmY5Y2Z5cm9LcXh2NXU5Y01jand2Ylg?oc=5",
+     "time": "2026-10-15T16:10:34+00:00"
+    },
+    {
+     "title": "Jefferies sees Netflix revenue growth supported by pricing, advertising (NFLX:NASDAQ)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNLW9WSWhoQlI4eXNHN05HWGs4VktEcjZRektnZHV3UG9sNGZEM1ZGOVNYWnJLZkJfbGpWMVRMaVp4ZmtUYzYwdnlRcVFLSFNGRnA2b0x5Y1gyLTE4RnZJeFEyMXBMVERXbldzX0dZbWp3Sm1aN2RKUi1uSVNCZmNfWEJLRDZGb3RBV0l3ZGFXNGxIVW0zblV5LWpJZVpyQVFYOUlpOGlBNDZoUEh3?oc=5",
+     "time": "2026-10-15T12:56:37+00:00"
+    },
+    {
+     "title": "Netflix, Inc. $NFLX Stock Holdings Lifted by ZWJ Investment Counsel Inc.",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOQVJpdzBPc21ka01UZWZRaERNdEdzaFFuQ2tIRGFlVElPSnhFWHJmaVJiMHJ2QzhkRlNwX3pqS3d6ZlJLcmI0cXB6NURQdGx6WllFX1FLUFZJcU5vWXg2djlsQnI0N2JiWFVsQkV0TFpHblYwMzhxbmRkQmxUZnZLckZWekRLTVhndWlKUklhSVI5QVNQWFpTZ1pUOGowTFh1cE5GUWNKMDV0RHMyRzQ5TDBkU3ozR2tnVUNoMFcyNU5zMFFkYzdnaQ?oc=5",
+     "time": "2026-10-15T11:33:34+00:00"
+    },
+    {
+     "title": "NFLX Stock On Track For 4-Day Slide After Wells Fargo Downgrade Flags \u201cWorrying\u201d Engagement Trends",
+     "publisher": "Stocktwits",
+     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQNzR3RnRweFhjekJnYURQRlc1cUdCTERLSTBIZVVUNEZfbVc0QmtPakRUR2RIQks4QW1vOHdzVnJPYWJiVXgwWi1rdDJtTUxhTzV5a3FVWUtfdUFaQThrZ29YdGNoSm82ZjRSeHI2YmRLdTBWaWJFSlhUS2oyTkRvU0w3ME1aTnJ0SGlYT21DU2t3MERhcXIzWV9UY2NqQUhSQU43ZGg4SUxlaTZ6Y0dDY3NhSHZ3SnBEd3g0Vlk0VDhsVUJTdVdOUWhlcF8?oc=5",
+     "time": "2026-10-15T10:34:37+00:00"
+    },
+    {
+     "title": "Premarket Movers: AAPL Gains On China AI Approval Report \u2014 Why WMT, NFLX Stocks Are Also Rising",
+     "publisher": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPRlF0MDNmcUdwMTItLTZ5UWhCaEhsTzBrcVpRSW5ZUVZndXlfY1lMRHZicmVoNS1rYnJYajdKRVFEYUhudlE4SFlmY0VscndnRlFrWGpHZmsxTEhoN21WUkptWExNSWljT1M3QzFFVEpiSDY5c0V5TmRzamJtTnR2cWEyV1RLUVZoOGk2TXdCWWJSQmpMRHFlWDJJeHF2azA4Um0yRkZyQkZDVGFvYWZEandlQWVMMExXdUxxYWJoWDduS0xyVXd3eVRzd0k1R1M5SDB5cUlmdTRFc0ZkX1p0dDdCM0Nhc3c?oc=5",
+     "time": "2026-10-15T10:19:03+00:00"
+    },
+    {
+     "title": "Netflix stock gets bullish analyst call ahead of next week\u2019s earnings",
+     "publisher": "Finbold",
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNMERtcWVZdE11bkdpNGxxOUZMeG9BbjhqZUNoU3FxY0lybFRnU29wZlhmVTIyTkVIWWY3V0V4OXZoOUlWWjJuWG1uamZJUUJmby0wVlZKYUVIXzRiaFNZbXNMNE56SVZqb3ZMbnVrTWhtU0doVFlzVkJmbmFNdDBtdy1qS0JhWk41VHRqTENvUEh3a2c?oc=5",
+     "time": "2026-10-15T09:47:18+00:00"
+    },
+    {
+     "title": "NFLX Stock Dips Overnight: Retail Turns Bearish Ahead Of Earnings As Netflix Reels Under Growth Pressure",
+     "publisher": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOWXNHOUtSVmRRYXNJdDVwSmt6V3k1TW1KUkRxZW5ualNxdDJCREVKQmVmWmh2SjByZkpzTlpNZVFWOWJaOHFrejd2YXhnQWlLLWZvSVBjTl9yenlSVTczS3hpZXpodm1JN2xIbE1IZjdidjNCaWsyWVY2bEVyQ3NaeWNXa1FiZlFLSWNsZ29idWVDRVNDSVJjX2VObXE1NE91Y1ZrdUdVUjdCQ3VWaWNQOXl2WG5GVnpVbm1IbkROZXp4bmU1OEQ3M045M1hEUWNqTkdSQzd1VjZHNFk0Q0M0amxwajE3Qnp0VlNPQTFkVHRIZ2d5Y2lZ?oc=5",
+     "time": "2026-10-15T05:27:00+00:00"
+    },
+    {
+     "title": "Michael Burry Is Skeptical Of NVDA, ORCL And NFLX \u2014 But Bullish On This Sports Betting Stock",
+     "publisher": "Stocktwits",
+     "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNa2hfbXNDa1p1T0tMTWdhYnFEZHhNcllaYUdNLWMtUUtYckJkaGlKV2t4dmd5RGd2Ynl5NGlhLUFUNlJRb1NsV002Zm5pbC1SMmlCS2t4V2l3cWllMFE5MHBYVHRSVlA3OHVxdnFoQjNIdWhrRFdMVzVnSTk1VjVtWkUwUVVldXlNRXE2R1NVZXRfTlV3emtlOTRtQkcyRG9PdXk5WU5RN0NIcGI3YVV4UUdUV0s5dWFsLUN0S21RUENUb193aVJheDM2eFQ4anlDS3haanMxU245WUNUd1pYcDc2N24wS2tmMnM1M0NiN2ZpZi1POS1YaXpoYU00dw?oc=5",
+     "time": "2026-10-14T22:05:23+00:00"
+    }
+   ],
+   "brief": "2026-10-15-NFLX"
+  },
+  {
+   "symbol": "NBIS",
+   "name": "Nebius",
+   "list": "portfolio",
+   "price": 180.44,
+   "prev_close": 186.01,
+   "change_pct": -3.0,
+   "trigger_change": -13.8,
+   "peak_change": -13.9,
+   "first_seen": "2026-10-15T10:06:18+00:00",
+   "sector": {
+    "etf": "IGV",
+    "name": "Software",
+    "price": 108.83,
+    "change_pct": 1.1
+   },
+   "chart": {
+    "ema8": -12.6,
+    "ema21": -17.5,
+    "sma50": -19.1,
+    "sma200": 3.9,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Nebius Group Stock Is Falling Thursday: What's Going On?",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPbzNjaGFpS1RWcTd0eHQ0RXl5WWZGSmYycGlHNnYzcFp4YnJ4SHhpUkFSR3pwRXFaTkRaNTY4MXRXZHlhSUx5bFUyUEFudTBpbnAtLWdHSUZDQ1hmbjRpNk8wVVpqLU43TUtxU256RnQwLWhWY1REMU9SM0ItY3VncmluNkw3S1dCRHpyX3VHMTlydkFFTjR1M0xxckFfZUJoSW0ydTlxUjh4M1c1ZVppTGwxeVc?oc=5",
+     "time": "2026-10-15T16:02:14+00:00"
+    },
+    {
+     "title": "Nebius stock breaks below $200 as CoreWeave\u2019s debt scare spreads",
+     "publisher": "TheStreet",
+     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQY3NWTU9FZkEySGZSYmd3WHRUUnQtVjRWcEJLbFVfN1pfdU9GM08zZ05xaTFPaXcxcFY0dnNZY0JMdENwMmprbGQ3a3Y1S0ZEVlZqY2FqSG02MzJXQmQyYTljekVPQTVBclBTTTdvRWh4dmFNandxbHg0blRIVHFJZC1JcWRXeWpTS3c?oc=5",
+     "time": "2026-10-15T14:47:00+00:00"
+    },
+    {
+     "title": "Nebius: The Real Test Starts After This Selloff (Rating Downgrade) (NBIS)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPSlZUWnkzcEdNaE9sOWlnSzJobWltTHNZX1lveXFzUTkxSFNpM09tY0JoOW5OT1BZd1ZQSVBhRXA1RlFWVzJZZ2RUMzRFcF9EUHhGNzRDalYzTTEwSlRhWUlRUkZCVGtNSkpiVHk4SlNnVmZzQTNVUjZPeDdjNHJ1Tl94aEltSnVFMFFESGVNM0RaM0RIMkVSTFRNUXJRbWRYSkstXzJ2Zw?oc=5",
+     "time": "2026-10-15T14:44:39+00:00"
+    },
+    {
+     "title": "AI Cloud Stocks Sink as Gartner Warns Most Neoclouds Won't Survive Independently: IREN and CoreWeave Fall 5%, Nebius Drops 4%",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPckQ4YUhLOGxNcEJnWXA0OG5jNjVXUFVWekxYZ3BySVlzWHhoNENFQ0RzSG1PQWgzZHZEYTZTR3BocXJMcGFubGVwdTVhbVdqWVpJdW5EVFBDSnNxQ3VQUnhmUEFfMndnN0ItMlhnTTRORnZsWWF1aUxGVkM3ZXhmQkN1d21rcy1BdllodHljM08tTlBjNWduMWxybUxNdS1OVUtWVVR4QjdJYTVsQjZHeTVUaGdHRXluSHJiMU1lZXlWUmhHUjlkbXViMjhTMGhiN1lVOEo4ZW51dExVVmlOZFpsUFlwS1NxbmU3Z1hZcHktNXVNeGdv?oc=5",
+     "time": "2026-10-15T13:34:00+00:00"
+    },
+    {
+     "title": "Nebius Stock Fell 10% and IREN 12% as Gartner\u2019s $8.5 Trillion Neocloud Math Met a CoreWeave Debt Scare",
+     "publisher": "FinanceFeeds",
+     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9rUy1EbzlZUWZaTVp0YVNoMzdYRTBIQWE2TU5nMlZGMlVTbDhOSS1PNzVtQzRsNWZhVHJhY1RBMzdYdGF2Y3JEOEt2QnRwM2x6UW1EOVBxYXFzTFhST2RSZG9ZdmhlNjhtUUF6X2xhUm1VdUZUWjI3Vg?oc=5",
+     "time": "2026-10-15T12:54:49+00:00"
+    },
+    {
+     "title": "NBIS Stock Slides As Burry\u2019s Bearish Bet Intensifies",
+     "publisher": "Timothy Sykes",
+     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9VSldESjJTVElTTmZCdFhGVVJya1ZuTldrOGpwRmxQR2pZejNUWllYMzFIRVVTUlFnUEJHM1Q1cFktY2NRNC1BYlpOMS12bzY4TVZKd2ZhWXpLZHF1QldUbGRHRkRuY3NwYnUxRHpfUThaMGd3S2tPSjJMaHBmQQ?oc=5",
+     "time": "2026-10-15T12:32:00+00:00"
+    },
+    {
+     "title": "NBIS Stock Slides As Burry\u2019s Bearish Bet And Selling Pressure Mount",
+     "publisher": "StocksToTrade",
+     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBzYzlTRXJ0VU1Wc2xPa0VUMXEyYmdfS1l1c1VCR0phRk9hWnlzTER1REtqSHpySEVrMmVFRFJEYnpVN2xFeldVdFNVcEpGVlJPbXFnVi0zN0V5ekhkdmJQbVZrS1I4MWVPaXZrWk1sbENmVTloanBXWUln?oc=5",
+     "time": "2026-10-15T12:32:00+00:00"
+    },
+    {
+     "title": "NBIS Stock Slides As Burry\u2019s Bearish Bet Meets WSB Weakness",
+     "publisher": "Timothy Sykes",
+     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9qenpxQlhyN09EcDRKdlNkcWFGQ2hGelVKd2p3ZjNYM3hIekpZUTlnREFNRGRfWEFRaFJ3eWhiX2RhWkFES09DWVgycE1aUTZ5Vk05NGhjR29SV0xHUDA3UDVsODFkLTlfSGxJTTd4SjNYeFNJdVFSMzdjRQ?oc=5",
+     "time": "2026-10-15T11:48:00+00:00"
+    }
+   ],
+   "brief": "2026-10-15-NBIS"
+  },
+  {
+   "symbol": "CRWD",
+   "name": "CrowdStrike",
+   "list": "portfolio",
+   "price": 242.31,
+   "prev_close": 249.29,
+   "change_pct": -2.8,
+   "trigger_change": -6.9,
+   "peak_change": -6.9,
+   "first_seen": "2026-10-15T10:06:18+00:00",
+   "sector": {
+    "etf": "IGV",
+    "name": "Software",
+    "price": 108.83,
+    "change_pct": 1.1
+   },
+   "chart": {
+    "ema8": -5.9,
+    "ema21": -4.8,
+    "sma50": 4.1,
+    "sma200": 51.4,
+    "momentum": true
+   },
+   "headlines": [
+    {
+     "title": "Cybersecurity Stocks Retreat From Record Highs \u2014 Citi Raises CRWD, PANW, ZS Targets On Improving Spending Momentum",
+     "publisher": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNY0J4dXBTOFNDZVJWNElOVG1CUllsMm9SR0M3ZnBtYXc4WlJJVGdSbDV2bzgyTXBibVI4c3pqYk4zUW1qeDc1VTNRci1vYzYxUGZjamFuVGJxUHk1MVlpVmFjUm1TdzFxRVVLSk5wMGRaNW9ER0pjek5acFpNWGxwOEJEbVM1eUlSTGlXb1JSaDB4eGRfMG95WWVNR3cxYUlBbndGMzQ2UnRDRFVObEdwazRoUXA2dFVhSURFTURwOUYzdFJxODVrNGJCRVB2dndNVzFDQ1M2VnE5SWpXQmQ0Ny1WRGdLVXE4YmpiRTFVY04xamhhUHZYdmpjYUliRGZn?oc=5",
+     "time": "2026-10-15T12:02:16+00:00"
+    },
+    {
+     "title": "What CrowdStrike Stock Was Telling You About The AI Arms Race",
+     "publisher": "Trefis",
+     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNRC1WUWpIMHB4cDZQQkdFY1NYLTRPUUlhczJETUxsOVBGLTJ4ZkxBa2JxelBBYVlqbVJZa2hBek5nVHhxd1dsaWpkaEdBajZTdDdNSWZnQzFWMFlHckw1dThNNFdkLWxDTkJHZllxRlhtU25jbEV0TWgxSVh4TXc3UFVVOEZSWTVGVTZIWFBmLTVsWUJLRU5DOGdpc3JPMTg1X1ZtbGRON2RoMzg5MkxsOTJFMkZ2d2toaURicDdwNkdKMWVnNjJwUVZzSQ?oc=5",
+     "time": "2026-10-15T09:03:48+00:00"
+    },
+    {
+     "title": "Why Did DELL, CRWD, CVX Stocks Jump To 52-Week Highs Today?",
+     "publisher": "Stocktwits",
+     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQckpPZHZuR2Y3NG4xRmtobE1qUmdHaURFdS1BQnM0MVE4UExjNDNHZVZKcFltRDJjdDlzeHliWXNtVTZlemdrcUt6czlhd0RpaTN3Y0xkd2VjUVhXeUNGdG8xRG9DXzNlMXdINFE1dlFHOG5ibVRZNVZyeFlyVEVyZ25zbUdFbEl3TWpUVTJJSUt1akUyZG56Ym85LWMyT2NGS0E0eUt2d2tTOTVmNE1GSm1YM3ZqSzJJUV8ydA?oc=5",
+     "time": "2026-10-15T05:12:12+00:00"
+    },
+    {
+     "title": "CrowdStrike (CRWD) Stock Looks Above Fair Value After Its 431% Run",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQYVlQNFZfazYyZHl1cHkwWDN4NDlpZGlUaGtadzIzZmV4RVJxYldZRlpfdnVNQW1XMFNQV0dteXoyQWxrVUhKMTR5RmFrWi0zQkd6am05bEsxMV9oVUh3cVBfbnlSQnd4NGVtSkhwNHlRU1llRWNvOXNQaks5MXl4bnZVR0tuRWFId1dUbkdLZzVBWElFSU1mdEoyRG9qSkdL?oc=5",
+     "time": "2026-10-14T22:17:36+00:00"
+    },
+    {
+     "title": "CrowdStrike Holdings (CRWD) Sees a More Significant Dip Than Broader Market: Some Facts to Know",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPZnIyR2VIUmVYTjJxS21BZ0lMaUliSmpUY1FLV2NzM2xOTmJ1LXRDOFkwMDBHQ3Q1eUxLVVJscnhJMzhDaWhwTGRvczM4cy0zcHU3MW9HTTZSeGlVZEpoVWpzQnNib3BGVmlMR1VmbnZWT1lhdEtFcXZfSXlhTTNlb29XMHVWcGFMckwxZEQ2TWlRWkQ0OUotQ1BwWnZqa3BXNFE?oc=5",
+     "time": "2026-10-14T20:45:03+00:00"
+    },
+    {
+     "title": "CrowdStrike Holdings (CRWD) Opens Falcon Marketplace To Zero Trust Microsegmentation",
+     "publisher": "Simply Wall Street",
+     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNdDR6cWlHbU52WV91M1Z2dFRGRGJPbG10LTVKM2xVRXd4UzNocmhSTFM1SWRvb3ZtazJLeTNUVXpqUFI3RGloTWxRakJIQ2NRRjNadkhsMVRzemJWNlhHXy1pWFhCZFBQTWtjelFwR3JzSFdxdW5aWEZ6c0hlbjlqSnhLb1ZUaDhzbnBHTTVvNEhHTmpuNGQ2VGlBa0hhR1Z5UHNPQ3d0SWlNVy1leTZjc3FqODdDbHcxQUsyODZOc29zZVNwMkZBZjcxNjRxY0FEVUZuM3Z30gHbAUFVX3lxTE5yZmxGTmlIMjBGNVZ0dktCWUxPYXc4V2RVQlJYdnI0TjY5MVA2NEhZYWV2WlhBZkxxM0s2VUVnRzRKMmJSakVQZW1KVlhhd2h3d0VjRF9FSGRQbTBCbm5xNUVvR2p5SU9vcE1kUU5kMWhmY2ozdnQ4ZEZnOGlvcGtJMUZiUEpaNzNUQWpMbzY5TDVXYVRxREdMd3pOdFo5Q3V2QlE4UTM4NUpIMi0wbDR5V1hYU1ZkTHVEUlVYS1c4dTVhdEI2V0NpY3Q2cTZDSFk3M19aM0JGWUZNQQ?oc=5",
+     "time": "2026-10-14T19:13:51+00:00"
+    },
+    {
+     "title": "Why Did CRWD, S, AEHR Stocks Hit 52-Week Highs Last Week?",
+     "publisher": "Stocktwits",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPRkNRVkVtSTcyOGZ1ejV3LU5FOGVfSzZqOXhYaURnTkM0T2JGRjNBSVFnNGhYQVBLZVppX2RKWjgwa2JuV3d3T3NwN1RRLUtKS2lKM1NOcVNPTTVGbmVnTFBPMTYxRWpnVXNJMEloQ2xubGJqeWUwRWo3Rklyak1vZVBkVE9pWm4tQkZLVjNoM1Q5WF8zaWN1ZmZQSEk0VW84dnRneVlXN2c0NjMyUHBHZS1HZWp1c0RSTnc?oc=5",
+     "time": "2026-10-14T18:45:48+00:00"
+    },
+    {
+     "title": "CrowdStrike Stock Is Up 160% in Six Months. What Does Guardian Add to the Story?",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOODVIcHNWX2JxZ0lGTVNLZ0JPX3pmRlFvb2pGQktfMTg3dzdnZzZaUmNyUVZld2RCWWpCazhUd0VoOFBrVWhHaDJmVUlpLS10U0xNTmtpbE5rNEFEdUV3YUNpb2NyZG9Pd1pFNzA2M3J2M2lHbnl1Z0hFNWJMUUJSb2pCZEZrREVjWUoxTkltSGVpUlZUNWk0SVFxRzB0Zw?oc=5",
+     "time": "2026-10-14T18:27:59+00:00"
+    }
+   ],
+   "brief": "2026-10-15-CRWD"
+  },
+  {
    "symbol": "AVGO",
    "name": "Broadcom",
    "list": "watchlist",
-   "price": 339.15,
+   "price": 340.07,
    "prev_close": 346.25,
-   "change_pct": -2.1,
+   "change_pct": -1.8,
    "trigger_change": -4.8,
    "peak_change": -5.0,
    "first_seen": "2026-10-15T10:06:18+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 551.54,
-    "change_pct": -2.34
+    "price": 553.76,
+    "change_pct": -1.94
    },
    "chart": {
-    "ema8": -3.9,
-    "ema21": -4.9,
-    "sma50": -7.7,
-    "sma200": -7.9,
+    "ema8": -3.7,
+    "ema21": -4.7,
+    "sma50": -7.5,
+    "sma200": -7.7,
     "momentum": false
    },
    "headlines": [
@@ -738,23 +813,23 @@
    "symbol": "NVDA",
    "name": "Nvidia",
    "list": "portfolio",
-   "price": 217.14,
+   "price": 217.5,
    "prev_close": 221.3,
-   "change_pct": -1.9,
+   "change_pct": -1.7,
    "trigger_change": -5.1,
    "peak_change": -5.1,
    "first_seen": "2026-10-15T10:06:18+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 551.54,
-    "change_pct": -2.34
+    "price": 553.76,
+    "change_pct": -1.94
    },
    "chart": {
-    "ema8": -3.9,
-    "ema21": -4.2,
-    "sma50": -2.7,
-    "sma200": 7.1,
+    "ema8": -3.7,
+    "ema21": -4.1,
+    "sma50": -2.5,
+    "sma200": 7.2,
     "momentum": false
    },
    "headlines": [
@@ -810,85 +885,10 @@
    "brief": "2026-10-15-NVDA"
   },
   {
-   "symbol": "CRWD",
-   "name": "CrowdStrike",
-   "list": "portfolio",
-   "price": 245.02,
-   "prev_close": 249.29,
-   "change_pct": -1.7,
-   "trigger_change": -6.9,
-   "peak_change": -6.9,
-   "first_seen": "2026-10-15T10:06:18+00:00",
-   "sector": {
-    "etf": "IGV",
-    "name": "Software",
-    "price": 108.89,
-    "change_pct": 1.15
-   },
-   "chart": {
-    "ema8": -5.1,
-    "ema21": -3.8,
-    "sma50": 5.3,
-    "sma200": 53.1,
-    "momentum": true
-   },
-   "headlines": [
-    {
-     "title": "Cybersecurity Stocks Retreat From Record Highs \u2014 Citi Raises CRWD, PANW, ZS Targets On Improving Spending Momentum",
-     "publisher": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNY0J4dXBTOFNDZVJWNElOVG1CUllsMm9SR0M3ZnBtYXc4WlJJVGdSbDV2bzgyTXBibVI4c3pqYk4zUW1qeDc1VTNRci1vYzYxUGZjamFuVGJxUHk1MVlpVmFjUm1TdzFxRVVLSk5wMGRaNW9ER0pjek5acFpNWGxwOEJEbVM1eUlSTGlXb1JSaDB4eGRfMG95WWVNR3cxYUlBbndGMzQ2UnRDRFVObEdwazRoUXA2dFVhSURFTURwOUYzdFJxODVrNGJCRVB2dndNVzFDQ1M2VnE5SWpXQmQ0Ny1WRGdLVXE4YmpiRTFVY04xamhhUHZYdmpjYUliRGZn?oc=5",
-     "time": "2026-10-15T12:02:16+00:00"
-    },
-    {
-     "title": "What CrowdStrike Stock Was Telling You About The AI Arms Race",
-     "publisher": "Trefis",
-     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNRC1WUWpIMHB4cDZQQkdFY1NYLTRPUUlhczJETUxsOVBGLTJ4ZkxBa2JxelBBYVlqbVJZa2hBek5nVHhxd1dsaWpkaEdBajZTdDdNSWZnQzFWMFlHckw1dThNNFdkLWxDTkJHZllxRlhtU25jbEV0TWgxSVh4TXc3UFVVOEZSWTVGVTZIWFBmLTVsWUJLRU5DOGdpc3JPMTg1X1ZtbGRON2RoMzg5MkxsOTJFMkZ2d2toaURicDdwNkdKMWVnNjJwUVZzSQ?oc=5",
-     "time": "2026-10-15T09:03:48+00:00"
-    },
-    {
-     "title": "Why Did DELL, CRWD, CVX Stocks Jump To 52-Week Highs Today?",
-     "publisher": "Stocktwits",
-     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQckpPZHZuR2Y3NG4xRmtobE1qUmdHaURFdS1BQnM0MVE4UExjNDNHZVZKcFltRDJjdDlzeHliWXNtVTZlemdrcUt6czlhd0RpaTN3Y0xkd2VjUVhXeUNGdG8xRG9DXzNlMXdINFE1dlFHOG5ibVRZNVZyeFlyVEVyZ25zbUdFbEl3TWpUVTJJSUt1akUyZG56Ym85LWMyT2NGS0E0eUt2d2tTOTVmNE1GSm1YM3ZqSzJJUV8ydA?oc=5",
-     "time": "2026-10-15T05:12:12+00:00"
-    },
-    {
-     "title": "CrowdStrike (CRWD) Stock Looks Above Fair Value After Its 431% Run",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQYVlQNFZfazYyZHl1cHkwWDN4NDlpZGlUaGtadzIzZmV4RVJxYldZRlpfdnVNQW1XMFNQV0dteXoyQWxrVUhKMTR5RmFrWi0zQkd6am05bEsxMV9oVUh3cVBfbnlSQnd4NGVtSkhwNHlRU1llRWNvOXNQaks5MXl4bnZVR0tuRWFId1dUbkdLZzVBWElFSU1mdEoyRG9qSkdL?oc=5",
-     "time": "2026-10-14T22:17:36+00:00"
-    },
-    {
-     "title": "CrowdStrike Holdings (CRWD) Sees a More Significant Dip Than Broader Market: Some Facts to Know",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPZnIyR2VIUmVYTjJxS21BZ0lMaUliSmpUY1FLV2NzM2xOTmJ1LXRDOFkwMDBHQ3Q1eUxLVVJscnhJMzhDaWhwTGRvczM4cy0zcHU3MW9HTTZSeGlVZEpoVWpzQnNib3BGVmlMR1VmbnZWT1lhdEtFcXZfSXlhTTNlb29XMHVWcGFMckwxZEQ2TWlRWkQ0OUotQ1BwWnZqa3BXNFE?oc=5",
-     "time": "2026-10-14T20:45:03+00:00"
-    },
-    {
-     "title": "CrowdStrike Holdings (CRWD) Opens Falcon Marketplace To Zero Trust Microsegmentation",
-     "publisher": "Simply Wall Street",
-     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNdDR6cWlHbU52WV91M1Z2dFRGRGJPbG10LTVKM2xVRXd4UzNocmhSTFM1SWRvb3ZtazJLeTNUVXpqUFI3RGloTWxRakJIQ2NRRjNadkhsMVRzemJWNlhHXy1pWFhCZFBQTWtjelFwR3JzSFdxdW5aWEZ6c0hlbjlqSnhLb1ZUaDhzbnBHTTVvNEhHTmpuNGQ2VGlBa0hhR1Z5UHNPQ3d0SWlNVy1leTZjc3FqODdDbHcxQUsyODZOc29zZVNwMkZBZjcxNjRxY0FEVUZuM3Z30gHbAUFVX3lxTE5yZmxGTmlIMjBGNVZ0dktCWUxPYXc4V2RVQlJYdnI0TjY5MVA2NEhZYWV2WlhBZkxxM0s2VUVnRzRKMmJSakVQZW1KVlhhd2h3d0VjRF9FSGRQbTBCbm5xNUVvR2p5SU9vcE1kUU5kMWhmY2ozdnQ4ZEZnOGlvcGtJMUZiUEpaNzNUQWpMbzY5TDVXYVRxREdMd3pOdFo5Q3V2QlE4UTM4NUpIMi0wbDR5V1hYU1ZkTHVEUlVYS1c4dTVhdEI2V0NpY3Q2cTZDSFk3M19aM0JGWUZNQQ?oc=5",
-     "time": "2026-10-14T19:13:51+00:00"
-    },
-    {
-     "title": "Why Did CRWD, S, AEHR Stocks Hit 52-Week Highs Last Week?",
-     "publisher": "Stocktwits",
-     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPRkNRVkVtSTcyOGZ1ejV3LU5FOGVfSzZqOXhYaURnTkM0T2JGRjNBSVFnNGhYQVBLZVppX2RKWjgwa2JuV3d3T3NwN1RRLUtKS2lKM1NOcVNPTTVGbmVnTFBPMTYxRWpnVXNJMEloQ2xubGJqeWUwRWo3Rklyak1vZVBkVE9pWm4tQkZLVjNoM1Q5WF8zaWN1ZmZQSEk0VW84dnRneVlXN2c0NjMyUHBHZS1HZWp1c0RSTnc?oc=5",
-     "time": "2026-10-14T18:45:48+00:00"
-    },
-    {
-     "title": "CrowdStrike Stock Is Up 160% in Six Months. What Does Guardian Add to the Story?",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOODVIcHNWX2JxZ0lGTVNLZ0JPX3pmRlFvb2pGQktfMTg3dzdnZzZaUmNyUVZld2RCWWpCazhUd0VoOFBrVWhHaDJmVUlpLS10U0xNTmtpbE5rNEFEdUV3YUNpb2NyZG9Pd1pFNzA2M3J2M2lHbnl1Z0hFNWJMUUJSb2pCZEZrREVjWUoxTkltSGVpUlZUNWk0SVFxRzB0Zw?oc=5",
-     "time": "2026-10-14T18:27:59+00:00"
-    }
-   ],
-   "brief": "2026-10-15-CRWD"
-  },
-  {
    "symbol": "MELI",
    "name": "MercadoLibre",
    "list": "watchlist",
-   "price": 1860.12,
+   "price": 1859.0,
    "prev_close": 1839.11,
    "change_pct": 1.1,
    "trigger_change": -3.0,
@@ -897,14 +897,14 @@
    "sector": {
     "etf": "XLY",
     "name": "Consumer discr.",
-    "price": 112.96,
-    "change_pct": 1.31
+    "price": 113.17,
+    "change_pct": 1.49
    },
    "chart": {
-    "ema8": 0.5,
-    "ema21": 1.3,
-    "sma50": 0.0,
-    "sma200": 1.5,
+    "ema8": 0.4,
+    "ema21": 1.2,
+    "sma50": -0.1,
+    "sma200": 1.4,
     "momentum": true
    },
    "headlines": [
@@ -963,23 +963,23 @@
    "symbol": "META",
    "name": "Meta",
    "list": "portfolio",
-   "price": 735.5,
+   "price": 743.08,
    "prev_close": 737.54,
-   "change_pct": -0.3,
+   "change_pct": 0.8,
    "trigger_change": -4.6,
    "peak_change": -4.7,
    "first_seen": "2026-10-15T10:06:18+00:00",
    "sector": {
     "etf": "XLC",
     "name": "Communication",
-    "price": 112.2,
-    "change_pct": 1.25
+    "price": 112.64,
+    "change_pct": 1.64
    },
    "chart": {
-    "ema8": -0.2,
-    "ema21": 2.3,
-    "sma50": 12.7,
-    "sma200": 16.4,
+    "ema8": 0.6,
+    "ema21": 3.3,
+    "sma50": 13.8,
+    "sma200": 17.6,
     "momentum": true
    },
    "headlines": [
@@ -1035,101 +1035,26 @@
    "brief": "2026-10-15-META"
   },
   {
-   "symbol": "AMZN",
-   "name": "Amazon",
-   "list": "portfolio",
-   "price": 253.6,
-   "prev_close": 254.08,
-   "change_pct": -0.2,
-   "trigger_change": -3.4,
-   "peak_change": -3.5,
-   "first_seen": "2026-10-15T10:06:18+00:00",
-   "sector": {
-    "etf": "XLY",
-    "name": "Consumer discr.",
-    "price": 112.96,
-    "change_pct": 1.31
-   },
-   "chart": {
-    "ema8": -0.8,
-    "ema21": -0.4,
-    "sma50": -1.5,
-    "sma200": 4.5,
-    "momentum": true
-   },
-   "headlines": [
-    {
-     "title": "Amazon (AMZN) Unveils Bee AI Devices, Signaling Innovation Amid Complex Valuation Landscape",
-     "publisher": "GuruFocus",
-     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNT1g1dXQtLTNEQU5PNmxlWXFxd2pVdE44M3NZYUluNDhPZ1Q5OUhHdkRKem5rd3BBdUYxVnpTOTBGbVV6UUNLR2JhMW1YRGJqcE5WX1ZBXzJZWWRfbExiNXdpMDlRYUVrU2RkV1duUzctMFQwX0d5Z3JrWnBNRWhweUlXdlNqUmJ1cldDUVBzS0ctS0ZlRHBxM3dBWmloU2UzNlJ5MDVlRzZlU2pDNEdCcGlOcXV4OHBPdEZreTdZT1FDZkxYOEE?oc=5",
-     "time": "2026-10-15T16:07:58+00:00"
-    },
-    {
-     "title": "Amazon (AMZN) Returns to Wearables Market with $75 Bee Frontier Wristband, $100 Eclipse Recorder, and $12 Software Tier",
-     "publisher": "TipRanks",
-     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQem5HZzMtNkI1cTdSWUJoN1FYMjlLb2RuMmNIV0NBS3lrdHFnRUl1Sm4tQ3o5SGhnOTBuNEhqUzV4U0NKSkJFWFZ3dk1pMXBIZjkwelQ0WnVWTnloWU1KMVpVN1lacURZa3l4WURJN1Z1LVJqVTJzc0xJYkVvcFJ0V1IzWjNHZkhSWU1PeHM2WDM3MVF5RWpmdGExWGlObnRsX05DYzB6SFJFRFhSVENGTmZSSlphcEgxdUlmNzBKOUlBemktRlplT2IyNTMzQUg2QmRrWXMzb05Kdw?oc=5",
-     "time": "2026-10-15T14:31:20+00:00"
-    },
-    {
-     "title": "Amazon (AMZN): Who Captures the Savings From its Custom AI Chips?",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNMVFkY05YWVdSOTlVNXNGdnl2NkY5UWJxZUc0WWd1c3RCNTZ2aC00bi1XaUJYTWdzS0EzUWNJUzV1ZHMzaEo3dzlNZjBMeXBfakZELVk0aHJqMnpuT1ZidklGSGxaRDVtMnVuYjRpb1U4TmtXcC16TERmTF81WDUtU2pqaVNSZjYzRTVMb2pOOGFGYVBQM2UtOV9mbThkZnFp?oc=5",
-     "time": "2026-10-15T13:41:38+00:00"
-    },
-    {
-     "title": "Is The Market Underpricing Amazon Stock At Twenty Times Earnings?",
-     "publisher": "Trefis",
-     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPY05HTWxYcm1ZZEtrc0pMbWQwaDNzNHRiOGdwdXgzRjBCOU1CSnF6aUhHYUhaM2ZIa2g1WWQ0ZFJlOTU5YjIzSlFaaHdlaFJ1TXRDa3VpTnlvRHAyWmhpdVBWNVZQUWUxZ1hTTTJZRlpyMWJ5YmJ0VVZGTXR1T3RPMWJmWmdZTndkQ1VDXzhpWHNmTm84YWNzMjF6a0kzekhDWHgwSnVJLXczb09Ca0wwaTJoTmJsSTJjNENka2g2YlZGa1k?oc=5",
-     "time": "2026-10-15T13:24:34+00:00"
-    },
-    {
-     "title": "Amazon Launches Bee AI Devices, Enhancing Personal AI Portfolio (AMZN)",
-     "publisher": "GuruFocus",
-     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPQXlySjRyektvMTlNc2JaaF8xdzdlU00tR2had1YtVUJlUlN2MW4wSVlSaHh0bU1GRi1XQVRaRDN5WVFSMktmcjBKTEZnNW5nUk5xemljN1pVOGdoSHBvWHh0XzNxelE0TEl1T1N6WXllRnpjNWdadlg3WDBqcExwWFhtR1dBcGtFYlZJZUVheVh1T1NRLXVuc2s4dlppRTBpVUNtcTZyaGNZZw?oc=5",
-     "time": "2026-10-15T13:06:25+00:00"
-    },
-    {
-     "title": "Amazon launches two new AI devices under Bee brand (AMZN:NASDAQ)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPX1M4bzFqMUc3S21nRWlEaGdlUTFDWUcza1k1ZVlpdVRZZjdTYkx4QTZzWGY5OGRWS3RGX3BqQ0M1T2NETHFaVFY1bV9vbjVuXzJKSFc0MjQyN0RMdEZKeUNibUM4a0E4UW1MbUFxcE5JWWhNbWxLOU1qMXVhSkM5SHo3X05BbWNlY2VNY2RoZDV0UQ?oc=5",
-     "time": "2026-10-15T12:22:16+00:00"
-    },
-    {
-     "title": "Amazon (AMZN) Stock May Be 44% Undervalued As AI Deal Talks Emerge",
-     "publisher": "Simply Wall Street",
-     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQX29SOUVoazVjNldvV1hiLXFxR1oxckx0d2JxMzRZT0NJNXB4bzc4cy0wZU01WXpLejg3ZVlITURkX3NFdERGc0hESkR0ejFaT3dTZThkVEhNa0o3eTd5eEFBRElDXzFhNWtsdklyQV9xaWhTVlFUQWJlRnFFc1pTY2VraW5oTG5HdU9EUlBsV2M3T2V3Ym5kT010dDdOYnp3N25HQ1ZYVjB5S1ZqUUZBYmc0RDJtSUNIalVBX0R0ejNZU0JO0gHKAUFVX3lxTE5EcFdrWlVSSTZRdjJSOVdVVjdYSl9NMzlxT3dMOXZkOXpIOWduRThoTUc4cUlKYXdhU0E4SVlvTENad3Y3SEFLeGxaZVBSalJzZF9TOGxUbXZSZFB1TEEwbkhzUk1EOEQxR2dmZ3lRdlhFY0l5SXBqNXNVdzdsQWJzVVQ1UENRckY5XzFsN3Q3RUIwVHpsUFJxTVlSWUVFZERvQzNPSFdMMHFXY3JlMUd5amZMRThXejZ4cXNmTmdkQUZtdVBia3MyU0E?oc=5",
-     "time": "2026-10-15T10:35:31+00:00"
-    },
-    {
-     "title": "Amazon.com, Inc. $AMZN Stock Sold by Westwind Capital",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPVWhEWGRKV0FVei1TeGlObmRpa1gzVFNzdlpXREMxQ2h0dU8yYXd6aE56ZWFNOWNnd0gxTGJwR1UzSkZ0VkxHY05ZTVpyOXR3VmJoMzRzcDdBZ3pLcG9xbmRDdmdhRXQ1UXdfaTBFOHNPNm42a0hTU0VtVVlINElQN1hxeWYwXzhIYWNBZUh5STUzdjRXVURhbUY5YVRXcXA0WFBaaTRKSnd6cmtPdjkw?oc=5",
-     "time": "2026-10-15T08:38:44+00:00"
-    }
-   ],
-   "brief": "2026-10-15-AMZN"
-  },
-  {
    "symbol": "GOOG",
    "name": "Alphabet",
    "list": "portfolio",
-   "price": 344.34,
+   "price": 345.3,
    "prev_close": 343.65,
-   "change_pct": 0.2,
+   "change_pct": 0.5,
    "trigger_change": -3.1,
    "peak_change": -3.1,
    "first_seen": "2026-10-15T10:06:18+00:00",
    "sector": {
     "etf": "XLC",
     "name": "Communication",
-    "price": 112.2,
-    "change_pct": 1.25
+    "price": 112.64,
+    "change_pct": 1.64
    },
    "chart": {
-    "ema8": -0.3,
-    "ema21": 0.2,
-    "sma50": 0.7,
-    "sma200": 1.6,
+    "ema8": -0.1,
+    "ema21": 0.5,
+    "sma50": 1.0,
+    "sma200": 1.9,
     "momentum": true
    },
    "headlines": [
@@ -1183,6 +1108,81 @@
     }
    ],
    "brief": "2026-10-15-GOOG"
+  },
+  {
+   "symbol": "AMZN",
+   "name": "Amazon",
+   "list": "portfolio",
+   "price": 254.28,
+   "prev_close": 254.08,
+   "change_pct": 0.1,
+   "trigger_change": -3.4,
+   "peak_change": -3.5,
+   "first_seen": "2026-10-15T10:06:18+00:00",
+   "sector": {
+    "etf": "XLY",
+    "name": "Consumer discr.",
+    "price": 113.17,
+    "change_pct": 1.49
+   },
+   "chart": {
+    "ema8": -0.6,
+    "ema21": -0.2,
+    "sma50": -1.3,
+    "sma200": 4.8,
+    "momentum": true
+   },
+   "headlines": [
+    {
+     "title": "Amazon (AMZN) Unveils Bee AI Devices, Signaling Innovation Amid Complex Valuation Landscape",
+     "publisher": "GuruFocus",
+     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNT1g1dXQtLTNEQU5PNmxlWXFxd2pVdE44M3NZYUluNDhPZ1Q5OUhHdkRKem5rd3BBdUYxVnpTOTBGbVV6UUNLR2JhMW1YRGJqcE5WX1ZBXzJZWWRfbExiNXdpMDlRYUVrU2RkV1duUzctMFQwX0d5Z3JrWnBNRWhweUlXdlNqUmJ1cldDUVBzS0ctS0ZlRHBxM3dBWmloU2UzNlJ5MDVlRzZlU2pDNEdCcGlOcXV4OHBPdEZreTdZT1FDZkxYOEE?oc=5",
+     "time": "2026-10-15T16:07:58+00:00"
+    },
+    {
+     "title": "Amazon (AMZN) Returns to Wearables Market with $75 Bee Frontier Wristband, $100 Eclipse Recorder, and $12 Software Tier",
+     "publisher": "TipRanks",
+     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQem5HZzMtNkI1cTdSWUJoN1FYMjlLb2RuMmNIV0NBS3lrdHFnRUl1Sm4tQ3o5SGhnOTBuNEhqUzV4U0NKSkJFWFZ3dk1pMXBIZjkwelQ0WnVWTnloWU1KMVpVN1lacURZa3l4WURJN1Z1LVJqVTJzc0xJYkVvcFJ0V1IzWjNHZkhSWU1PeHM2WDM3MVF5RWpmdGExWGlObnRsX05DYzB6SFJFRFhSVENGTmZSSlphcEgxdUlmNzBKOUlBemktRlplT2IyNTMzQUg2QmRrWXMzb05Kdw?oc=5",
+     "time": "2026-10-15T14:31:20+00:00"
+    },
+    {
+     "title": "Amazon (AMZN): Who Captures the Savings From its Custom AI Chips?",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNMVFkY05YWVdSOTlVNXNGdnl2NkY5UWJxZUc0WWd1c3RCNTZ2aC00bi1XaUJYTWdzS0EzUWNJUzV1ZHMzaEo3dzlNZjBMeXBfakZELVk0aHJqMnpuT1ZidklGSGxaRDVtMnVuYjRpb1U4TmtXcC16TERmTF81WDUtU2pqaVNSZjYzRTVMb2pOOGFGYVBQM2UtOV9mbThkZnFp?oc=5",
+     "time": "2026-10-15T13:41:38+00:00"
+    },
+    {
+     "title": "Is The Market Underpricing Amazon Stock At Twenty Times Earnings?",
+     "publisher": "Trefis",
+     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPY05HTWxYcm1ZZEtrc0pMbWQwaDNzNHRiOGdwdXgzRjBCOU1CSnF6aUhHYUhaM2ZIa2g1WWQ0ZFJlOTU5YjIzSlFaaHdlaFJ1TXRDa3VpTnlvRHAyWmhpdVBWNVZQUWUxZ1hTTTJZRlpyMWJ5YmJ0VVZGTXR1T3RPMWJmWmdZTndkQ1VDXzhpWHNmTm84YWNzMjF6a0kzekhDWHgwSnVJLXczb09Ca0wwaTJoTmJsSTJjNENka2g2YlZGa1k?oc=5",
+     "time": "2026-10-15T13:24:34+00:00"
+    },
+    {
+     "title": "Amazon Launches Bee AI Devices, Enhancing Personal AI Portfolio (AMZN)",
+     "publisher": "GuruFocus",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPQXlySjRyektvMTlNc2JaaF8xdzdlU00tR2had1YtVUJlUlN2MW4wSVlSaHh0bU1GRi1XQVRaRDN5WVFSMktmcjBKTEZnNW5nUk5xemljN1pVOGdoSHBvWHh0XzNxelE0TEl1T1N6WXllRnpjNWdadlg3WDBqcExwWFhtR1dBcGtFYlZJZUVheVh1T1NRLXVuc2s4dlppRTBpVUNtcTZyaGNZZw?oc=5",
+     "time": "2026-10-15T13:06:25+00:00"
+    },
+    {
+     "title": "Amazon launches two new AI devices under Bee brand (AMZN:NASDAQ)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPX1M4bzFqMUc3S21nRWlEaGdlUTFDWUcza1k1ZVlpdVRZZjdTYkx4QTZzWGY5OGRWS3RGX3BqQ0M1T2NETHFaVFY1bV9vbjVuXzJKSFc0MjQyN0RMdEZKeUNibUM4a0E4UW1MbUFxcE5JWWhNbWxLOU1qMXVhSkM5SHo3X05BbWNlY2VNY2RoZDV0UQ?oc=5",
+     "time": "2026-10-15T12:22:16+00:00"
+    },
+    {
+     "title": "Amazon (AMZN) Stock May Be 44% Undervalued As AI Deal Talks Emerge",
+     "publisher": "Simply Wall Street",
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQX29SOUVoazVjNldvV1hiLXFxR1oxckx0d2JxMzRZT0NJNXB4bzc4cy0wZU01WXpLejg3ZVlITURkX3NFdERGc0hESkR0ejFaT3dTZThkVEhNa0o3eTd5eEFBRElDXzFhNWtsdklyQV9xaWhTVlFUQWJlRnFFc1pTY2VraW5oTG5HdU9EUlBsV2M3T2V3Ym5kT010dDdOYnp3N25HQ1ZYVjB5S1ZqUUZBYmc0RDJtSUNIalVBX0R0ejNZU0JO0gHKAUFVX3lxTE5EcFdrWlVSSTZRdjJSOVdVVjdYSl9NMzlxT3dMOXZkOXpIOWduRThoTUc4cUlKYXdhU0E4SVlvTENad3Y3SEFLeGxaZVBSalJzZF9TOGxUbXZSZFB1TEEwbkhzUk1EOEQxR2dmZ3lRdlhFY0l5SXBqNXNVdzdsQWJzVVQ1UENRckY5XzFsN3Q3RUIwVHpsUFJxTVlSWUVFZERvQzNPSFdMMHFXY3JlMUd5amZMRThXejZ4cXNmTmdkQUZtdVBia3MyU0E?oc=5",
+     "time": "2026-10-15T10:35:31+00:00"
+    },
+    {
+     "title": "Amazon.com, Inc. $AMZN Stock Sold by Westwind Capital",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPVWhEWGRKV0FVei1TeGlObmRpa1gzVFNzdlpXREMxQ2h0dU8yYXd6aE56ZWFNOWNnd0gxTGJwR1UzSkZ0VkxHY05ZTVpyOXR3VmJoMzRzcDdBZ3pLcG9xbmRDdmdhRXQ1UXdfaTBFOHNPNm42a0hTU0VtVVlINElQN1hxeWYwXzhIYWNBZUh5STUzdjRXVURhbUY5YVRXcXA0WFBaaTRKSnd6cmtPdjkw?oc=5",
+     "time": "2026-10-15T08:38:44+00:00"
+    }
+   ],
+   "brief": "2026-10-15-AMZN"
   }
  ]
 }
