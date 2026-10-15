@@ -1,55 +1,16 @@
-ERROR Deutsche Bundesbank (daily) returned too little history for DE10Y
-DE10Y ERROR Deutsche Bundesbank (daily) returned too little history for DE10Y
-ERROR Deutsche Bundesbank (daily) returned too little history for DE2Y
-DE2Y ERROR Deutsche Bundesbank (daily) returned too little history for DE2Y
-ERROR Deutsche Bundesbank (daily) returned too little history for DE30Y
-DE30Y ERROR Deutsche Bundesbank (daily) returned too little history for DE30Y
-wrote out/_NDX.json
-^NDX 29950.82 -2.0 758 2026-10-14
-wrote out/_COMP.json
-^COMP 26692.87 -1.9 758 2026-10-14
-17652
-﻿"",BBSIS.D.I.ZST.ZI.EUR.S1311.B.A604.R10XX.R.A.A._Z._Z.A,BBSIS.D.I.ZST.ZI.EUR.S1311.B.A604.R10XX.R.A.A._Z._Z.A_FLAGS
-"",Term structure of interest rates on listed Federal securities (method by Svensson) / residual maturity of 10.0 years / daily data,
-Comment (in english),,
-Decimals,2,
-Time format code,P1D,
-category,ZRZS,
-unit,Prozent,
-unit multiplier,One,
-last update,2026-10-15 12:05:39,
-2024-08-07,2.29,
-2024-08-08,2.25,
-2024-08-09,2.27,
-2024-08-10,.,No value available
-2024-08-11,.,No value available
-2024-08-12,2.26,
-2024-08-13,2.26,
-2024-08-14,2.23,
-2024-08-15,2.23,
-2024-08-16,2.27,
-2024-08-17,.,No value available
-2024-08-18,.,No value available
-2024-08-19,2.25,
-2024-08-20,2.27,
-2024-08-21,2.25,
-2024-08-22,2.25,
-2024-08-23,2.29,
-2024-08-24,.,No value available
-2024-08-25,.,No value avail
-,
-2026-10-02,3.49,
-2026-10-03,.,No value available
-2026-10-04,.,No value available
-2026-10-05,3.51,
-2026-10-06,3.52,
-2026-10-07,3.55,
-2026-10-08,3.57,
-2026-10-09,3.53,
-2026-10-10,.,No value available
-2026-10-11,.,No value available
-2026-10-12,3.53,
-2026-10-13,3.49,
-2026-10-14,3.51,
-2026-10-15,3.45,
-
+/home/runner/work/stock-alerts/stock-alerts/probe.py:14: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  s=next(v for k,v in r["result"].items() if k!="last"); print("kraken", iv, len(s), dt.datetime.utcfromtimestamp(s[0][0]).date(), dt.datetime.utcfromtimestamp(s[0][0]).strftime("%a"))
+AAPL 10 ERR 'NoneType' object is not subscriptable
+AAPL 15 2513 10/14/2016 2513
+AAPL 20 2513 10/14/2016 2513
+SPY 10 ERR 'NoneType' object is not subscriptable
+SPY 15 2513 10/14/2016 2513
+SPY 20 2513 10/14/2016 2513
+NBIS 10 ERR 'NoneType' object is not subscriptable
+NBIS 15 2513 10/14/2016 2513
+NBIS 20 2513 10/14/2016 2513
+NDX 10 2512 10/17/2016 2512
+NDX 15 3808 10/19/2011 3808
+NDX 20 5111 10/20/2006 5111
+kraken 10080 681 2013-10-03 Thu
+kraken 21600 318 2013-09-27 Fri
