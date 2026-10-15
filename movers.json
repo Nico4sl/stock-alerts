@@ -1,22 +1,22 @@
 {
  "date": "2026-10-15",
  "threshold": 3.0,
- "updated": "2026-10-15T19:24:38+00:00",
+ "updated": "2026-10-15T19:33:46+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 772.55,
-   "change_pct": 0.38
+   "price": 772.03,
+   "change_pct": 0.32
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 728.49,
-   "change_pct": -0.06
+   "price": 727.93,
+   "change_pct": -0.14
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 79.98,
-   "change_pct": 1.39
+   "price": 79.96,
+   "change_pct": 1.36
   }
  },
  "movers": [
@@ -24,23 +24,23 @@
    "symbol": "NOW",
    "name": "ServiceNow",
    "list": "portfolio",
-   "price": 148.5,
+   "price": 148.9,
    "prev_close": 139.98,
-   "change_pct": 6.1,
+   "change_pct": 6.4,
    "trigger_change": 5.6,
-   "peak_change": 6.1,
+   "peak_change": 6.4,
    "first_seen": "2026-10-15T15:08:43+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 109.36,
-    "change_pct": 1.58
+    "price": 109.2,
+    "change_pct": 1.44
    },
    "chart": {
-    "ema8": 5.3,
-    "ema21": 7.4,
-    "sma50": 10.5,
-    "sma200": 29.0,
+    "ema8": 5.6,
+    "ema21": 7.7,
+    "sma50": 10.8,
+    "sma200": 29.4,
     "momentum": true
    },
    "headlines": [
@@ -99,23 +99,23 @@
    "symbol": "APP",
    "name": "AppLovin",
    "list": "portfolio",
-   "price": 277.08,
+   "price": 277.41,
    "prev_close": 262.19,
-   "change_pct": 5.7,
+   "change_pct": 5.8,
    "trigger_change": -5.1,
    "peak_change": 6.1,
    "first_seen": "2026-10-15T10:06:18+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 109.36,
-    "change_pct": 1.58
+    "price": 109.2,
+    "change_pct": 1.44
    },
    "chart": {
-    "ema8": 0.5,
-    "ema21": -4.2,
-    "sma50": -9.8,
-    "sma200": -36.6,
+    "ema8": 0.6,
+    "ema21": -4.1,
+    "sma50": -9.6,
+    "sma200": -36.5,
     "momentum": false
    },
    "headlines": [
@@ -174,23 +174,23 @@
    "symbol": "SOFI",
    "name": "SoFi",
    "list": "portfolio",
-   "price": 15.01,
+   "price": 15.05,
    "prev_close": 14.22,
-   "change_pct": 5.6,
+   "change_pct": 5.8,
    "trigger_change": -8.2,
    "peak_change": -8.5,
    "first_seen": "2026-10-15T10:06:18+00:00",
    "sector": {
     "etf": "XLF",
     "name": "Financials",
-    "price": 55.31,
-    "change_pct": 1.46
+    "price": 55.32,
+    "change_pct": 1.47
    },
    "chart": {
-    "ema8": -1.5,
-    "ema21": -5.6,
-    "sma50": -12.5,
-    "sma200": -18.6,
+    "ema8": -1.3,
+    "ema21": -5.3,
+    "sma50": -12.3,
+    "sma200": -18.3,
     "momentum": false
    },
    "headlines": [
@@ -249,23 +249,23 @@
    "symbol": "ANET",
    "name": "Arista Networks",
    "list": "portfolio",
-   "price": 185.85,
+   "price": 185.35,
    "prev_close": 195.42,
-   "change_pct": -4.9,
+   "change_pct": -5.2,
    "trigger_change": -5.7,
    "peak_change": -7.1,
    "first_seen": "2026-10-15T10:06:18+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 559.25,
-    "change_pct": -0.97
+    "price": 559.55,
+    "change_pct": -0.92
    },
    "chart": {
-    "ema8": -7.9,
-    "ema21": -8.5,
-    "sma50": -6.5,
-    "sma200": 14.4,
+    "ema8": -8.1,
+    "ema21": -8.7,
+    "sma50": -6.7,
+    "sma200": 14.1,
     "momentum": false
    },
    "headlines": [
@@ -321,65 +321,26 @@
    "brief": "2026-10-15-ANET"
   },
   {
-   "symbol": "NVO",
-   "name": "Novo Nordisk (ADR)",
-   "list": "portfolio",
-   "price": 39.41,
-   "prev_close": 38.12,
-   "change_pct": 3.4,
-   "trigger_change": 3.9,
-   "peak_change": 3.9,
-   "first_seen": "2026-10-15T15:08:43+00:00",
-   "sector": {
-    "etf": "XLV",
-    "name": "Health care",
-    "price": 178.03,
-    "change_pct": 2.34
-   },
-   "chart": {
-    "ema8": 2.4,
-    "ema21": 0.1,
-    "sma50": -8.0,
-    "sma200": -12.7,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Novo Nordisk stock consolidates amid seller pressure near $38.39 resistance",
-     "publisher": "Traders Union",
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOeDFBUFNfdm8wZFJla3RrYnFtNU01ZHZ2WUZ2bjRiS3JnRS1DaVBRM0dSR0dBaWFxRUlSZUNKaS1nbTY5aTB6bWZHUlljYnZQRGljS1I2NnZJUjVaeW14bTZxSTN1cVNDQ2NOQ2pMRUpDLS1zUGlzWDM4bDctWnN4SDRGdmlpWDFNdG9Z?oc=5",
-     "time": "2026-10-15T08:02:40+00:00"
-    },
-    {
-     "title": "Will NVO avoid deeper losses as technical momentum remains weak?",
-     "publisher": "Traders Union",
-     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQLV9vS0xhOVRjTHY2dU1JSU8xelJjSXliQ0dxLUsxUjgzNE9xcTlwYnM0aGhRSXl6ZmFQeFpDWnpzUGVMY2JUaVZBN2pEbTNZX0YyaFBXbmhfWVF3RktmMkI1NkFtcmJuM1VBbGotVWRnYWN3cmtSdkRTeU5kWUVQTElycFBZSWNlWWhIdktB?oc=5",
-     "time": "2026-10-14T08:02:22+00:00"
-    }
-   ],
-   "brief": "2026-10-15-NVO"
-  },
-  {
    "symbol": "UNH",
    "name": "UnitedHealth",
    "list": "portfolio",
-   "price": 408.64,
+   "price": 409.78,
    "prev_close": 395.62,
-   "change_pct": 3.3,
+   "change_pct": 3.6,
    "trigger_change": 5.4,
    "peak_change": 5.5,
    "first_seen": "2026-10-15T10:06:18+00:00",
    "sector": {
     "etf": "XLV",
     "name": "Health care",
-    "price": 178.03,
-    "change_pct": 2.34
+    "price": 177.87,
+    "change_pct": 2.25
    },
    "chart": {
-    "ema8": 5.6,
-    "ema21": 6.9,
-    "sma50": 5.5,
-    "sma200": 13.9,
+    "ema8": 5.9,
+    "ema21": 7.2,
+    "sma50": 5.8,
+    "sma200": 14.2,
     "momentum": true
    },
    "headlines": [
@@ -435,6 +396,45 @@
    "brief": "2026-10-15-UNH"
   },
   {
+   "symbol": "NVO",
+   "name": "Novo Nordisk (ADR)",
+   "list": "portfolio",
+   "price": 39.34,
+   "prev_close": 38.12,
+   "change_pct": 3.2,
+   "trigger_change": 3.9,
+   "peak_change": 3.9,
+   "first_seen": "2026-10-15T15:08:43+00:00",
+   "sector": {
+    "etf": "XLV",
+    "name": "Health care",
+    "price": 177.87,
+    "change_pct": 2.25
+   },
+   "chart": {
+    "ema8": 2.3,
+    "ema21": -0.1,
+    "sma50": -8.2,
+    "sma200": -12.8,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Novo Nordisk stock consolidates amid seller pressure near $38.39 resistance",
+     "publisher": "Traders Union",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOeDFBUFNfdm8wZFJla3RrYnFtNU01ZHZ2WUZ2bjRiS3JnRS1DaVBRM0dSR0dBaWFxRUlSZUNKaS1nbTY5aTB6bWZHUlljYnZQRGljS1I2NnZJUjVaeW14bTZxSTN1cVNDQ2NOQ2pMRUpDLS1zUGlzWDM4bDctWnN4SDRGdmlpWDFNdG9Z?oc=5",
+     "time": "2026-10-15T08:02:40+00:00"
+    },
+    {
+     "title": "Will NVO avoid deeper losses as technical momentum remains weak?",
+     "publisher": "Traders Union",
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQLV9vS0xhOVRjTHY2dU1JSU8xelJjSXliQ0dxLUsxUjgzNE9xcTlwYnM0aGhRSXl6ZmFQeFpDWnpzUGVMY2JUaVZBN2pEbTNZX0YyaFBXbmhfWVF3RktmMkI1NkFtcmJuM1VBbGotVWRnYWN3cmtSdkRTeU5kWUVQTElycFBZSWNlWWhIdktB?oc=5",
+     "time": "2026-10-14T08:02:22+00:00"
+    }
+   ],
+   "brief": "2026-10-15-NVO"
+  },
+  {
    "symbol": "NFLX",
    "name": "Netflix",
    "list": "portfolio",
@@ -447,8 +447,8 @@
    "sector": {
     "etf": "XLC",
     "name": "Communication",
-    "price": 112.17,
-    "change_pct": 1.22
+    "price": 112.27,
+    "change_pct": 1.3
    },
    "chart": {
     "ema8": 2.8,
@@ -513,22 +513,22 @@
    "symbol": "AMAT",
    "name": "Applied Materials",
    "list": "portfolio",
-   "price": 432.99,
+   "price": 433.24,
    "prev_close": 446.63,
-   "change_pct": -3.1,
+   "change_pct": -3.0,
    "trigger_change": -6.2,
    "peak_change": -6.2,
    "first_seen": "2026-10-15T10:06:18+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 559.25,
-    "change_pct": -0.97
+    "price": 559.55,
+    "change_pct": -0.92
    },
    "chart": {
     "ema8": -9.0,
-    "ema21": -10.8,
-    "sma50": -10.7,
+    "ema21": -10.7,
+    "sma50": -10.6,
     "sma200": -1.2,
     "momentum": false
    },
@@ -588,23 +588,23 @@
    "symbol": "CRWD",
    "name": "CrowdStrike",
    "list": "portfolio",
-   "price": 242.85,
+   "price": 242.29,
    "prev_close": 249.29,
-   "change_pct": -2.6,
+   "change_pct": -2.8,
    "trigger_change": -6.9,
    "peak_change": -6.9,
    "first_seen": "2026-10-15T10:06:18+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 109.36,
-    "change_pct": 1.58
+    "price": 109.2,
+    "change_pct": 1.44
    },
    "chart": {
-    "ema8": -5.8,
-    "ema21": -4.6,
-    "sma50": 4.3,
-    "sma200": 51.8,
+    "ema8": -5.9,
+    "ema21": -4.8,
+    "sma50": 4.1,
+    "sma200": 51.4,
     "momentum": true
    },
    "headlines": [
@@ -663,7 +663,7 @@
    "symbol": "NVDA",
    "name": "Nvidia",
    "list": "portfolio",
-   "price": 218.05,
+   "price": 217.89,
    "prev_close": 221.3,
    "change_pct": -1.5,
    "trigger_change": -5.1,
@@ -672,14 +672,14 @@
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 559.25,
-    "change_pct": -0.97
+    "price": 559.55,
+    "change_pct": -0.92
    },
    "chart": {
-    "ema8": -3.5,
-    "ema21": -3.8,
-    "sma50": -2.3,
-    "sma200": 7.5,
+    "ema8": -3.6,
+    "ema21": -3.9,
+    "sma50": -2.4,
+    "sma200": 7.4,
     "momentum": false
    },
    "headlines": [
@@ -735,26 +735,101 @@
    "brief": "2026-10-15-NVDA"
   },
   {
+   "symbol": "NBIS",
+   "name": "Nebius",
+   "list": "portfolio",
+   "price": 187.77,
+   "prev_close": 186.01,
+   "change_pct": 0.9,
+   "trigger_change": -13.8,
+   "peak_change": -13.9,
+   "first_seen": "2026-10-15T10:06:18+00:00",
+   "sector": {
+    "etf": "IGV",
+    "name": "Software",
+    "price": 109.2,
+    "change_pct": 1.44
+   },
+   "chart": {
+    "ema8": -9.8,
+    "ema21": -14.4,
+    "sma50": -15.9,
+    "sma200": 8.1,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Nebius (NBIS) Emerges as a Long-Term Play Amid Neocloud Sector P",
+     "publisher": "GuruFocus",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNZlhDNTJDZTNHcEp4UEg0TE5QN3NJVXpCal9MUWVHcGhLQU5qaC16Z2JrS29wdC1RRVBvRGptV2xQcWN2M2VfTVR6NmI2Rk9Nb2lhQVRZX05peTczckJXTlF2ci11SGZEd0QxU3lHSld1bXRhaWw0YVF0aTZDTzhjdFQ2MVdPcW93WjNXRXFtT2UxNFNlTnFBOFh6dml4MnZDcGlWRW5venlIdTA?oc=5",
+     "time": "2026-10-15T19:04:59+00:00"
+    },
+    {
+     "title": "SA Asks: Are neocloud stocks a buy after this week's sell-off? (NBIS:NASDAQ)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOSUFXOHhrVERZMzJvQ1lYZmRPYzFxaHlNNzdSa1BMTXBHOXdNbktBNDJ3dG5vQUwxUGxoMnZ5UEtQaWNvblFkQzdBNDZueXEzb1AxNkRBZlBlYUpFUjlOUzRFRFpEZWZBbDYyYzFDM1JrMm93RzUwZDFMX1lYLUE0bmh0WWlrRmFEYWhxd1ZHS1dzUHdpVVFWZ202bXRyZw?oc=5",
+     "time": "2026-10-15T18:09:50+00:00"
+    },
+    {
+     "title": "Nebius Group Stock Is Falling Thursday: What's Going On?",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPbzNjaGFpS1RWcTd0eHQ0RXl5WWZGSmYycGlHNnYzcFp4YnJ4SHhpUkFSR3pwRXFaTkRaNTY4MXRXZHlhSUx5bFUyUEFudTBpbnAtLWdHSUZDQ1hmbjRpNk8wVVpqLU43TUtxU256RnQwLWhWY1REMU9SM0ItY3VncmluNkw3S1dCRHpyX3VHMTlydkFFTjR1M0xxckFfZUJoSW0ydTlxUjh4M1c1ZVppTGwxeVc?oc=5",
+     "time": "2026-10-15T16:02:14+00:00"
+    },
+    {
+     "title": "Nebius stock breaks below $200 as CoreWeave\u2019s debt scare spreads",
+     "publisher": "TheStreet",
+     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQY3NWTU9FZkEySGZSYmd3WHRUUnQtVjRWcEJLbFVfN1pfdU9GM08zZ05xaTFPaXcxcFY0dnNZY0JMdENwMmprbGQ3a3Y1S0ZEVlZqY2FqSG02MzJXQmQyYTljekVPQTVBclBTTTdvRWh4dmFNandxbHg0blRIVHFJZC1JcWRXeWpTS3c?oc=5",
+     "time": "2026-10-15T14:47:00+00:00"
+    },
+    {
+     "title": "Nebius: The Real Test Starts After This Selloff (Rating Downgrade) (NBIS)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPSlZUWnkzcEdNaE9sOWlnSzJobWltTHNZX1lveXFzUTkxSFNpM09tY0JoOW5OT1BZd1ZQSVBhRXA1RlFWVzJZZ2RUMzRFcF9EUHhGNzRDalYzTTEwSlRhWUlRUkZCVGtNSkpiVHk4SlNnVmZzQTNVUjZPeDdjNHJ1Tl94aEltSnVFMFFESGVNM0RaM0RIMkVSTFRNUXJRbWRYSkstXzJ2Zw?oc=5",
+     "time": "2026-10-15T14:44:39+00:00"
+    },
+    {
+     "title": "AI Cloud Stocks Sink as Gartner Warns Most Neoclouds Won't Survive Independently: IREN and CoreWeave Fall 5%, Nebius Drops 4%",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPckQ4YUhLOGxNcEJnWXA0OG5jNjVXUFVWekxYZ3BySVlzWHhoNENFQ0RzSG1PQWgzZHZEYTZTR3BocXJMcGFubGVwdTVhbVdqWVpJdW5EVFBDSnNxQ3VQUnhmUEFfMndnN0ItMlhnTTRORnZsWWF1aUxGVkM3ZXhmQkN1d21rcy1BdllodHljM08tTlBjNWduMWxybUxNdS1OVUtWVVR4QjdJYTVsQjZHeTVUaGdHRXluSHJiMU1lZXlWUmhHUjlkbXViMjhTMGhiN1lVOEo4ZW51dExVVmlOZFpsUFlwS1NxbmU3Z1hZcHktNXVNeGdv?oc=5",
+     "time": "2026-10-15T13:34:00+00:00"
+    },
+    {
+     "title": "Nebius Stock Fell 10% and IREN 12% as Gartner\u2019s $8.5 Trillion Neocloud Math Met a CoreWeave Debt Scare",
+     "publisher": "FinanceFeeds",
+     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9rUy1EbzlZUWZaTVp0YVNoMzdYRTBIQWE2TU5nMlZGMlVTbDhOSS1PNzVtQzRsNWZhVHJhY1RBMzdYdGF2Y3JEOEt2QnRwM2x6UW1EOVBxYXFzTFhST2RSZG9ZdmhlNjhtUUF6X2xhUm1VdUZUWjI3Vg?oc=5",
+     "time": "2026-10-15T12:54:49+00:00"
+    },
+    {
+     "title": "NBIS Stock Slides As Burry\u2019s Bearish Bet Intensifies",
+     "publisher": "Timothy Sykes",
+     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9VSldESjJTVElTTmZCdFhGVVJya1ZuTldrOGpwRmxQR2pZejNUWllYMzFIRVVTUlFnUEJHM1Q1cFktY2NRNC1BYlpOMS12bzY4TVZKd2ZhWXpLZHF1QldUbGRHRkRuY3NwYnUxRHpfUThaMGd3S2tPSjJMaHBmQQ?oc=5",
+     "time": "2026-10-15T12:32:00+00:00"
+    }
+   ],
+   "brief": "2026-10-15-NBIS"
+  },
+  {
    "symbol": "AVGO",
    "name": "Broadcom",
    "list": "watchlist",
-   "price": 343.43,
+   "price": 344.15,
    "prev_close": 346.25,
-   "change_pct": -0.8,
+   "change_pct": -0.6,
    "trigger_change": -4.8,
    "peak_change": -5.0,
    "first_seen": "2026-10-15T10:06:18+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 559.25,
-    "change_pct": -0.97
+    "price": 559.55,
+    "change_pct": -0.92
    },
    "chart": {
-    "ema8": -2.9,
-    "ema21": -3.8,
-    "sma50": -6.6,
-    "sma200": -6.8,
+    "ema8": -2.8,
+    "ema21": -3.6,
+    "sma50": -6.4,
+    "sma200": -6.6,
     "momentum": false
    },
    "headlines": [
@@ -813,9 +888,9 @@
    "symbol": "MELI",
    "name": "MercadoLibre",
    "list": "watchlist",
-   "price": 1851.68,
+   "price": 1850.17,
    "prev_close": 1839.11,
-   "change_pct": 0.7,
+   "change_pct": 0.6,
    "trigger_change": -3.0,
    "peak_change": -3.0,
    "first_seen": "2026-10-15T11:30:06+00:00",
@@ -826,9 +901,9 @@
     "change_pct": 1.78
    },
    "chart": {
-    "ema8": 0.1,
-    "ema21": 0.9,
-    "sma50": -0.4,
+    "ema8": 0.0,
+    "ema21": 0.8,
+    "sma50": -0.5,
     "sma200": 1.0,
     "momentum": true
    },
@@ -885,87 +960,12 @@
    "brief": "2026-10-15-MELI"
   },
   {
-   "symbol": "NBIS",
-   "name": "Nebius",
-   "list": "portfolio",
-   "price": 187.14,
-   "prev_close": 186.01,
-   "change_pct": 0.6,
-   "trigger_change": -13.8,
-   "peak_change": -13.9,
-   "first_seen": "2026-10-15T10:06:18+00:00",
-   "sector": {
-    "etf": "IGV",
-    "name": "Software",
-    "price": 109.36,
-    "change_pct": 1.58
-   },
-   "chart": {
-    "ema8": -10.0,
-    "ema21": -14.7,
-    "sma50": -16.2,
-    "sma200": 7.8,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Nebius (NBIS) Emerges as a Long-Term Play Amid Neocloud Sector P",
-     "publisher": "GuruFocus",
-     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNZlhDNTJDZTNHcEp4UEg0TE5QN3NJVXpCal9MUWVHcGhLQU5qaC16Z2JrS29wdC1RRVBvRGptV2xQcWN2M2VfTVR6NmI2Rk9Nb2lhQVRZX05peTczckJXTlF2ci11SGZEd0QxU3lHSld1bXRhaWw0YVF0aTZDTzhjdFQ2MVdPcW93WjNXRXFtT2UxNFNlTnFBOFh6dml4MnZDcGlWRW5venlIdTA?oc=5",
-     "time": "2026-10-15T19:04:59+00:00"
-    },
-    {
-     "title": "SA Asks: Are neocloud stocks a buy after this week's sell-off? (NBIS:NASDAQ)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOSUFXOHhrVERZMzJvQ1lYZmRPYzFxaHlNNzdSa1BMTXBHOXdNbktBNDJ3dG5vQUwxUGxoMnZ5UEtQaWNvblFkQzdBNDZueXEzb1AxNkRBZlBlYUpFUjlOUzRFRFpEZWZBbDYyYzFDM1JrMm93RzUwZDFMX1lYLUE0bmh0WWlrRmFEYWhxd1ZHS1dzUHdpVVFWZ202bXRyZw?oc=5",
-     "time": "2026-10-15T18:09:50+00:00"
-    },
-    {
-     "title": "Nebius Group Stock Is Falling Thursday: What's Going On?",
-     "publisher": "Benzinga",
-     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPbzNjaGFpS1RWcTd0eHQ0RXl5WWZGSmYycGlHNnYzcFp4YnJ4SHhpUkFSR3pwRXFaTkRaNTY4MXRXZHlhSUx5bFUyUEFudTBpbnAtLWdHSUZDQ1hmbjRpNk8wVVpqLU43TUtxU256RnQwLWhWY1REMU9SM0ItY3VncmluNkw3S1dCRHpyX3VHMTlydkFFTjR1M0xxckFfZUJoSW0ydTlxUjh4M1c1ZVppTGwxeVc?oc=5",
-     "time": "2026-10-15T16:02:14+00:00"
-    },
-    {
-     "title": "Nebius stock breaks below $200 as CoreWeave\u2019s debt scare spreads",
-     "publisher": "TheStreet",
-     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQY3NWTU9FZkEySGZSYmd3WHRUUnQtVjRWcEJLbFVfN1pfdU9GM08zZ05xaTFPaXcxcFY0dnNZY0JMdENwMmprbGQ3a3Y1S0ZEVlZqY2FqSG02MzJXQmQyYTljekVPQTVBclBTTTdvRWh4dmFNandxbHg0blRIVHFJZC1JcWRXeWpTS3c?oc=5",
-     "time": "2026-10-15T14:47:00+00:00"
-    },
-    {
-     "title": "Nebius: The Real Test Starts After This Selloff (Rating Downgrade) (NBIS)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPSlZUWnkzcEdNaE9sOWlnSzJobWltTHNZX1lveXFzUTkxSFNpM09tY0JoOW5OT1BZd1ZQSVBhRXA1RlFWVzJZZ2RUMzRFcF9EUHhGNzRDalYzTTEwSlRhWUlRUkZCVGtNSkpiVHk4SlNnVmZzQTNVUjZPeDdjNHJ1Tl94aEltSnVFMFFESGVNM0RaM0RIMkVSTFRNUXJRbWRYSkstXzJ2Zw?oc=5",
-     "time": "2026-10-15T14:44:39+00:00"
-    },
-    {
-     "title": "AI Cloud Stocks Sink as Gartner Warns Most Neoclouds Won't Survive Independently: IREN and CoreWeave Fall 5%, Nebius Drops 4%",
-     "publisher": "24/7 Wall St.",
-     "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPckQ4YUhLOGxNcEJnWXA0OG5jNjVXUFVWekxYZ3BySVlzWHhoNENFQ0RzSG1PQWgzZHZEYTZTR3BocXJMcGFubGVwdTVhbVdqWVpJdW5EVFBDSnNxQ3VQUnhmUEFfMndnN0ItMlhnTTRORnZsWWF1aUxGVkM3ZXhmQkN1d21rcy1BdllodHljM08tTlBjNWduMWxybUxNdS1OVUtWVVR4QjdJYTVsQjZHeTVUaGdHRXluSHJiMU1lZXlWUmhHUjlkbXViMjhTMGhiN1lVOEo4ZW51dExVVmlOZFpsUFlwS1NxbmU3Z1hZcHktNXVNeGdv?oc=5",
-     "time": "2026-10-15T13:34:00+00:00"
-    },
-    {
-     "title": "Nebius Stock Fell 10% and IREN 12% as Gartner\u2019s $8.5 Trillion Neocloud Math Met a CoreWeave Debt Scare",
-     "publisher": "FinanceFeeds",
-     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9rUy1EbzlZUWZaTVp0YVNoMzdYRTBIQWE2TU5nMlZGMlVTbDhOSS1PNzVtQzRsNWZhVHJhY1RBMzdYdGF2Y3JEOEt2QnRwM2x6UW1EOVBxYXFzTFhST2RSZG9ZdmhlNjhtUUF6X2xhUm1VdUZUWjI3Vg?oc=5",
-     "time": "2026-10-15T12:54:49+00:00"
-    },
-    {
-     "title": "NBIS Stock Slides As Burry\u2019s Bearish Bet Intensifies",
-     "publisher": "Timothy Sykes",
-     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9VSldESjJTVElTTmZCdFhGVVJya1ZuTldrOGpwRmxQR2pZejNUWllYMzFIRVVTUlFnUEJHM1Q1cFktY2NRNC1BYlpOMS12bzY4TVZKd2ZhWXpLZHF1QldUbGRHRkRuY3NwYnUxRHpfUThaMGd3S2tPSjJMaHBmQQ?oc=5",
-     "time": "2026-10-15T12:32:00+00:00"
-    }
-   ],
-   "brief": "2026-10-15-NBIS"
-  },
-  {
    "symbol": "AMZN",
    "name": "Amazon",
    "list": "portfolio",
-   "price": 255.56,
+   "price": 255.19,
    "prev_close": 254.08,
-   "change_pct": 0.6,
+   "change_pct": 0.4,
    "trigger_change": -3.4,
    "peak_change": -3.5,
    "first_seen": "2026-10-15T10:06:18+00:00",
@@ -976,10 +976,10 @@
     "change_pct": 1.78
    },
    "chart": {
-    "ema8": -0.2,
-    "ema21": 0.3,
-    "sma50": -0.8,
-    "sma200": 5.3,
+    "ema8": -0.3,
+    "ema21": 0.2,
+    "sma50": -0.9,
+    "sma200": 5.2,
     "momentum": true
    },
    "headlines": [
@@ -1038,23 +1038,23 @@
    "symbol": "GOOG",
    "name": "Alphabet",
    "list": "portfolio",
-   "price": 345.04,
+   "price": 344.65,
    "prev_close": 343.65,
-   "change_pct": 0.4,
+   "change_pct": 0.3,
    "trigger_change": -3.1,
    "peak_change": -3.1,
    "first_seen": "2026-10-15T10:06:18+00:00",
    "sector": {
     "etf": "XLC",
     "name": "Communication",
-    "price": 112.17,
-    "change_pct": 1.22
+    "price": 112.27,
+    "change_pct": 1.3
    },
    "chart": {
-    "ema8": -0.1,
-    "ema21": 0.4,
-    "sma50": 0.9,
-    "sma200": 1.8,
+    "ema8": -0.2,
+    "ema21": 0.3,
+    "sma50": 0.8,
+    "sma200": 1.7,
     "momentum": true
    },
    "headlines": [
@@ -1113,23 +1113,23 @@
    "symbol": "META",
    "name": "Meta",
    "list": "portfolio",
-   "price": 735.61,
+   "price": 735.8,
    "prev_close": 737.54,
-   "change_pct": -0.3,
+   "change_pct": -0.2,
    "trigger_change": -4.6,
    "peak_change": -4.7,
    "first_seen": "2026-10-15T10:06:18+00:00",
    "sector": {
     "etf": "XLC",
     "name": "Communication",
-    "price": 112.17,
-    "change_pct": 1.22
+    "price": 112.27,
+    "change_pct": 1.3
    },
    "chart": {
-    "ema8": -0.2,
-    "ema21": 2.3,
+    "ema8": -0.1,
+    "ema21": 2.4,
     "sma50": 12.7,
-    "sma200": 16.4,
+    "sma200": 16.5,
     "momentum": true
    },
    "headlines": [
