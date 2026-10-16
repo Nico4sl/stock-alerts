@@ -1,22 +1,22 @@
 {
  "date": "2026-10-16",
  "threshold": 3.0,
- "updated": "2026-10-16T17:07:39+00:00",
+ "updated": "2026-10-16T17:12:41+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 763.97,
-   "change_pct": -1.01
+   "price": 763.72,
+   "change_pct": -1.05
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 712.65,
-   "change_pct": -2.11
+   "price": 712.58,
+   "change_pct": -2.12
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 79.93,
-   "change_pct": -0.05
+   "price": 79.92,
+   "change_pct": -0.06
   }
  },
  "movers": [
@@ -24,23 +24,23 @@
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 167.58,
+   "price": 168.43,
    "prev_close": 188.41,
-   "change_pct": -11.1,
+   "change_pct": -10.6,
    "trigger_change": -6.2,
    "peak_change": -11.1,
    "first_seen": "2026-10-16T14:33:43+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 104.22,
-    "change_pct": -4.91
+    "price": 103.99,
+    "change_pct": -5.12
    },
    "chart": {
-    "ema8": -15.9,
-    "ema21": -22.0,
-    "sma50": -24.8,
-    "sma200": -3.7,
+    "ema8": -15.6,
+    "ema21": -21.6,
+    "sma50": -24.4,
+    "sma200": -3.2,
     "momentum": false
    },
    "headlines": [
@@ -96,26 +96,101 @@
    "brief": "2026-10-16-NBIS"
   },
   {
+   "symbol": "CRWD",
+   "name": "CrowdStrike",
+   "list": "portfolio",
+   "price": 226.19,
+   "prev_close": 244.57,
+   "change_pct": -7.5,
+   "trigger_change": -4.9,
+   "peak_change": -8.1,
+   "first_seen": "2026-10-16T14:33:43+00:00",
+   "sector": {
+    "etf": "IGV",
+    "name": "Software",
+    "price": 103.99,
+    "change_pct": -5.12
+   },
+   "chart": {
+    "ema8": -9.9,
+    "ema21": -10.3,
+    "sma50": -3.0,
+    "sma200": 40.9,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "CrowdStrike CEO sells shares: Can CRWD avoid further losses?",
+     "publisher": "Traders Union",
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOOUFWeGFSSGNxWTlIV2RoU005QmltUTJ5MWM4RkRzU2FKOTl5UnBZcXM4QWhnV25hY2REcmZUTEFqLWhTcmdDbUdnV2xKZ1c3bXZzR0RFMVlyUHRSbzR4ZHR1NUxVV21ma01vRWZhNy0xZWZyaUdYbnBMQVhwcHhGdEN5aTBlb18wS29EcnhYNk1HazRD?oc=5",
+     "time": "2026-10-16T16:11:34+00:00"
+    },
+    {
+     "title": "CrowdStrike Holdings Inc Stock (CRWD) Opened Down by 4.00% on Oct 16: Key Drivers Unveiled",
+     "publisher": "TradingKey",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQbzZIYk1GcmpQejJGMWJiVnRfNGMtYTUyc3NEb2haYnZQQldxRkVtcmNXVzJNVXF5S1hVd2k0eDFNNVZENWFOX19zcTZvV1oya0k4dUNiV2xjMk1tcW5FVXlwVThfYWNsLU5GZTNzUm9fWEExYVdGdmV4eTkybm5DQlUzR1R3dnlVcFRF?oc=5",
+     "time": "2026-10-16T13:47:15+00:00"
+    },
+    {
+     "title": "CrowdStrike, Netflix And A Financial Stock: CNBC\u2019s \u2018Final Trades\u2019",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOc2NBU19QUXpzQ2JuWWNVQWp3X3ZabVNfY1dJTjRwWi1oRkZnU3laTUNla1E2R3B2MDNZb3lvT2EtbHltNjUtcWxXWmZhTi1WWWk0aTZNem5sTjU3c1FDenQyRG9rMWhfZlNVRWUyYmZNSkJjZ0Q4cVc4SDhPZEdKcmRBVjNUc3FSNkRtQU1WZjJET244cWxFbmJfYWFwYVdhNEMtSXRKNVFoSVdraTBmNXR0Nm5jdjF5bXBLZE0zc2o0QVk?oc=5",
+     "time": "2026-10-16T11:34:20+00:00"
+    },
+    {
+     "title": "Mapping the Market: Bulls beware \u2014 CrowdStrike shares could be in for more losses",
+     "publisher": "Reuters",
+     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNVzhyTExkaER4WEJ3VXV5MnMyVjNxMW16aVE3YXFlRDkwSGtseDVfUzJOVkZLci04NG1KTFlfWTB4RlFmZmFxdUs3blpoOVJDTjJ2VTFRMXJDZjY4OWFSQ0hEbUN0UnZGUGh4TDZfbFF4Ui1qZGhLbWxOdjd6OHZ5MnktMA?oc=5",
+     "time": "2026-10-16T10:05:50+00:00"
+    },
+    {
+     "title": "CrowdStrike vs. ServiceNow: Comparing Revenue Trends Between These Growing Software Giants",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPaFdDS1VXNTJxa0NxdGlLaUFpZzBBWlhpaE5JdndVMWlLVm5fSlUwTEZmTnhTc3l3SHRJMnVPZUZpcTljSVZ2blNxdkYwNHRzeGVhWW05d2lZWjNpTHZrZFZUQWg0ZnZJcGxkZmg1Z3FqWHVPNEIzUkJxeThwNmRzcTQwalp6cXJraUtmTElrcDUyQUZHQUo2cVdSVTcxNXB6SkFKOU56ZmtseGVCNGVRUkNhOXhLRGZLVnNNVEx4YVBKVTFoQjJBcVN0TkQ0d25GOW9V?oc=5",
+     "time": "2026-10-16T07:33:00+00:00"
+    },
+    {
+     "title": "Stock Splits Calendar for:",
+     "publisher": "Yahoo! Finance Canada",
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOR2FrOUN0RHNNY1dJOU02T2F0T016RHp2R3BJT2t5aXJEN2ZFdlk1SFhSc21aanpmcnBzbEdiSkJNalpxUmExcGEzaVVvUkNzMDdHTGd6b0VpbmFrWWpIVmFReTZYVjQzY05YbU5wZDJXMC11SnQ5REZtZnVtY0ZQdjZWOTduT1JmNWFUT3FJcDBBbE0?oc=5",
+     "time": "2026-10-16T03:14:04+00:00"
+    },
+    {
+     "title": "Crowdstrike president and CEO George Kurtz sells $5.15M in stock",
+     "publisher": "Investing.com",
+     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNX3dwN1pZLWhTNkhnWGhucWk1MVhOOWtRWnh6dFNmRXRnNW9aSXZza0VRNGFWamtFRXpIdkJxR0ctUWpKZVFGWlV6blA1Q1Ytd0ticlVHLTJodkxobjFhSlg1bnJxbUdyLW4xYmNQSVhsRXlNdE5LamhaNXh3OUJOMm9GMTZYQTU5V0ozQ1N6WGVDSmtUNG1Sd3dxTFB5RGRfMzBlWVk0STNBQUZ6UHlPdk14N1FHSGp3WTc4U3JRX1FDTlE0RVE?oc=5",
+     "time": "2026-10-16T00:57:06+00:00"
+    },
+    {
+     "title": "CrowdStrike CEO George Kurtz Executes Stock Sales on October 13-14, 2026",
+     "publisher": "Kalkine Media",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOWUtHblhMUXY3Q0I1SWtQRXQwZkF6UG12MEtCZWJiNGJRUk9yMWdnbDJEcm0wRFF4NXV5eWtYTHZVdkVqdTIzRFFNcVc2MVVWMWpqOGdhUzlON0trLUEyUFE4R0llcl9vWGtzS2N1VXQxNnQwOTFUMlZ6OHdqTlNfSWtDVnR0amVHMElLYVNVVEhaTVVUU29HQXhyVFlER2plRFQ4S0NWYzhYcHQzTGY4azlUMHAzRFVmU2c?oc=5",
+     "time": "2026-10-16T00:05:51+00:00"
+    }
+   ],
+   "brief": "2026-10-16-CRWD"
+  },
+  {
    "symbol": "NOW",
    "name": "ServiceNow",
    "list": "portfolio",
-   "price": 140.66,
+   "price": 140.38,
    "prev_close": 148.57,
-   "change_pct": -5.3,
+   "change_pct": -5.5,
    "trigger_change": -3.4,
    "peak_change": -5.7,
    "first_seen": "2026-10-16T14:33:43+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 104.22,
-    "change_pct": -4.91
+    "price": 103.99,
+    "change_pct": -5.12
    },
    "chart": {
-    "ema8": -0.2,
-    "ema21": 1.6,
-    "sma50": 4.3,
-    "sma200": 22.3,
+    "ema8": -0.3,
+    "ema21": 1.4,
+    "sma50": 4.1,
+    "sma200": 22.0,
     "momentum": true
    },
    "headlines": [
@@ -174,23 +249,23 @@
    "symbol": "AXON",
    "name": "Axon",
    "list": "watchlist",
-   "price": 396.64,
+   "price": 396.46,
    "prev_close": 417.19,
-   "change_pct": -4.9,
+   "change_pct": -5.0,
    "trigger_change": -3.5,
-   "peak_change": -4.9,
+   "peak_change": -5.0,
    "first_seen": "2026-10-16T15:06:37+00:00",
    "sector": {
     "etf": "XLI",
     "name": "Industrials",
-    "price": 167.61,
-    "change_pct": -0.17
+    "price": 167.64,
+    "change_pct": -0.15
    },
    "chart": {
-    "ema8": -3.6,
+    "ema8": -3.7,
     "ema21": -8.0,
-    "sma50": -21.1,
-    "sma200": -18.8,
+    "sma50": -21.2,
+    "sma200": -18.9,
     "momentum": false
    },
    "headlines": [
@@ -249,23 +324,23 @@
    "symbol": "APP",
    "name": "AppLovin",
    "list": "portfolio",
-   "price": 268.01,
+   "price": 267.38,
    "prev_close": 279.29,
-   "change_pct": -4.0,
+   "change_pct": -4.3,
    "trigger_change": -3.0,
    "peak_change": 6.5,
    "first_seen": "2026-10-16T16:27:31+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 104.22,
-    "change_pct": -4.91
+    "price": 103.99,
+    "change_pct": -5.12
    },
    "chart": {
-    "ema8": -2.3,
-    "ema21": -6.8,
-    "sma50": -12.3,
-    "sma200": -38.4,
+    "ema8": -2.5,
+    "ema21": -7.0,
+    "sma50": -12.5,
+    "sma200": -38.5,
     "momentum": false
    },
    "headlines": [
@@ -324,23 +399,23 @@
    "symbol": "ANET",
    "name": "Arista Networks",
    "list": "portfolio",
-   "price": 178.47,
+   "price": 178.69,
    "prev_close": 185.58,
-   "change_pct": -3.8,
+   "change_pct": -3.7,
    "trigger_change": -3.0,
    "peak_change": -3.8,
    "first_seen": "2026-10-16T15:17:04+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 546.75,
-    "change_pct": -2.16
+    "price": 546.2,
+    "change_pct": -2.26
    },
    "chart": {
     "ema8": -9.2,
-    "ema21": -11.2,
-    "sma50": -10.1,
-    "sma200": 9.7,
+    "ema21": -11.1,
+    "sma50": -10.0,
+    "sma200": 9.9,
     "momentum": false
    },
    "headlines": [
@@ -396,85 +471,85 @@
    "brief": "2026-10-16-ANET"
   },
   {
-   "symbol": "AMAT",
-   "name": "Applied Materials",
+   "symbol": "META",
+   "name": "Meta",
    "list": "portfolio",
-   "price": 415.85,
-   "prev_close": 430.01,
-   "change_pct": -3.3,
-   "trigger_change": -3.1,
-   "peak_change": -3.7,
-   "first_seen": "2026-10-16T15:11:41+00:00",
+   "price": 711.92,
+   "prev_close": 736.72,
+   "change_pct": -3.4,
+   "trigger_change": -3.0,
+   "peak_change": -3.4,
+   "first_seen": "2026-10-16T17:02:39+00:00",
    "sector": {
-    "etf": "SMH",
-    "name": "Semiconductors",
-    "price": 546.75,
-    "change_pct": -2.16
+    "etf": "XLC",
+    "name": "Communication",
+    "price": 110.39,
+    "change_pct": -1.82
    },
    "chart": {
-    "ema8": -10.0,
-    "ema21": -13.1,
-    "sma50": -13.8,
-    "sma200": -5.3,
-    "momentum": false
+    "ema8": -2.7,
+    "ema21": -0.9,
+    "sma50": 8.6,
+    "sma200": 12.6,
+    "momentum": true
    },
    "headlines": [
     {
-     "title": "Applied Materials Inc Stock (AMAT) Moved Down by 3.13% on Oct 16: What Investors Need To Know",
-     "publisher": "TradingKey",
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxORDhUd0ZQeUtNdmZ1b2U0QU0zanVJck1kaENaRzhLTS1YMlMxMGpNaG10cUZXV2dHSXcwbV9qNGhGOFRCUnVWUXZrcG1DRVNNR3pTV2c2T1V2SElxM3JpM0tWekhQUm5LaWxoUXFISWdRV0FVSDVSMXZxQmtmYVdERTYxUnQtZlcxRFVz?oc=5",
-     "time": "2026-10-16T16:15:22+00:00"
+     "title": "Meta's AI Bet Could Deliver Another Earnings Surprise, Analyst Says",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxONExpcnpOdC1zbDQ0MUNnNnFtRWtKUDEtSC05VU1fTlIzQk9OS2REcU5iTzVkSTJlN0Z6U19yT05adVhRd1ZmUjZKVG1BcnVmUHpVY1NjR2hVWEluOWpTcld2cXVkR19WV2FyelZFakRwejRrZ2c2V0JfU1I0dHE1amgxS0paREVtbnJFUXc5VGFnbkNBa3gxcUNScm12dmpnVWN2SHpGQ3pfaU1ubk5lQkFqbUpZQmlJVWc?oc=5",
+     "time": "2026-10-16T15:59:29+00:00"
     },
     {
-     "title": "ETFs Are Net Sellers of Applied Materials (AMAT) on Oct. 14",
+     "title": "Meta Platforms Will Report Q3 Earnings on October 21. Here\u2019s Who Still Owns META Stock",
+     "publisher": "TipRanks",
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWEtCd2d2V1BWYmU4QnQ1UVpYN05FcEdNNGJzZmZwb2NYN2pfcHh4VzBHUTZMOWIzWi00SnhvY0FJS2dIV042Y2FONGwxTmR4Z3N5RVIydllYUmNzMU5YdzlQSzIwblFlcE5tNk9YbHFFY1JFS1lnUUFuRmpZTWVlamZFT3ROYWktOXNEOTRTSmlSdkxyOU1zZzllTUxZTnd6LTBYT1VBdThjZEZLUDBHZnhYTU0?oc=5",
+     "time": "2026-10-16T15:54:31+00:00"
+    },
+    {
+     "title": "Meta Platforms (META) Unveiled Muse Spark Open For Developers",
      "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOd1lWZ01oZTRWWkVDRVIzbzBJUmZvcUFjSDVyU1FVUFlnQmtiWjVMTzhrb0VCOXlOclczOHJhT0pQa1EyQ2hkMi1JTko1TFZyVFA4enNvNTFrUDhkeVN1STFEazZmMWtEY1FyWVBobl9iSjBfZE1uSVh5N3RaVlFwYTVHNDdiT0RGRGg1Vy1QcFB2SlZmNy1TRTIwVXQ0cVBz?oc=5",
-     "time": "2026-10-16T11:03:30+00:00"
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNWWtQYlhmNk5NNXhsOFBDdFYxVF9jUHc0dW9TMHlhQ05MMjBXZnIxcUJ1YWNKQ3JySXRrZkNtQnh2Y1QtLWpUYUtYc0pienpLN3pYRnZBaWt6Z1FIejRIblJTOTlFSDZDZnFOMWZPdWg1eVd6dkxQdGJoSHNxV1RQRF9wRjFYZjVKMkVUUUlYUkFWTS11eVFuTGNlR0tpQQ?oc=5",
+     "time": "2026-10-16T15:16:42+00:00"
     },
     {
-     "title": "Applied Materials Stock Extends An 8-Day Losing Streak To A 21% Loss",
-     "publisher": "Trefis",
-     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOZEs2OWc5NENYNWxlLUZFNlJOanFzazhFMm9LMmFpOWdRUGRuRmhjVUtGT0ZhQk10TDVrUG9pdmVKN2w2UHVMa2N2dktaVWlEdzQxTjJyZ1c1Wk5taS0zQkVzWXFZUjBGeGxiMkxmV3FqS0hMaFZpVVlLZWxhZ29YVmRfbk9QX2NvNlZKWWVVVHRUTHJyY1FRZlU0U2N1bC1wNnRCREI2LTdHMVpaWFlmbDRWQlpEcENvejVlVUttc2ZicnRhNUlZ?oc=5",
-     "time": "2026-10-16T06:12:37+00:00"
+     "title": "Meta Releases Open-Weight Muse Spark Model for Developers and Coding Agents",
+     "publisher": "TIKR.com",
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5kNDdlOElXeFdvSkxOR0p1SjBCR3ZhQnRZekJaMDBFdFg1dUFuNGxyMEhzSk1PZ0RWOTZBdjlnSXgxWEVFSEl1SUxUWjVzSDBvNTZlNGpYR01yVEZmekM0YXF2aTNqdmU2amhlLWpDOWFHVk0?oc=5",
+     "time": "2026-10-16T14:06:19+00:00"
     },
     {
-     "title": "Applied Materials Stock Shot Up 7% Today \u2013 Everything To Know About Its Advanced Chipmaking Systems",
-     "publisher": "Stocktwits",
-     "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPelQ1azFGd0F4dmUzSi1kWWVXX29DMGFZMHVDZW4tSG9hZkhWN2JzNmFHbzIyV2ItdTlKUzEzb3pjZGcxaTJEYnFmZVJ2VjFZYV9XZ3Rna2Z1aGVmb216b0FaOGt3MmRWbzc1dnFOdVZoX3AzQ3lZUlluNS1Xb0FTbEcxMm1EejNRdm51VTFZaWpoLXNRNWFkQzA1WFh2U0hhbU1GY09yLUhTcGMwQmZhY0hWT1d6T01FSWFvUmE3NEJqVFJDLUFCbzhGVWtsX0NDVFRkdkRSMHlyYlVTaWFhN2JNNEVMOFd0T0JvaFBtSQ?oc=5",
-     "time": "2026-10-16T03:43:45+00:00"
+     "title": "Meta Just Climbed 12% in a Month: Take Profits, or Hold On for the Ride?",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPd2szTDNRQjJBYnhXWU9DLXNPaWM2a3BvUVlBUDV5U1FoTnFQb2J6Wm8tSy1ZMEI5VjdGNUdJNDFaTThUVzlKdl9XTXl1QkdYZlpfcHFNdWl6OTAwZ0NEN2k2NUg3TXJHa2xsblJpVkZPRDdUbkRXVEo0RGFVS01vOHFudHV2aUlVX3J3RVdZeGo2UXVORE5ZMS1jMUctNFBwNkFfWlVB?oc=5",
+     "time": "2026-10-16T13:35:47+00:00"
     },
     {
-     "title": "Has Buying Applied Materials Stock\u2019s Dips Paid Off?",
-     "publisher": "Trefis",
-     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNcTF5RjJpN2tYMjhueEROLTV5UmYzSDRQTkMyRW00am9DbTZTcXVkeklDdGhWMm9tR25FUXFyR2VJRUFXMnNfV3dZeFdmRGFnMFNjZUIwY2stS2dmcWhHR01JVUVGMjdpTkNOVmxHd1NrYkdIUGxBYUdCb1RBczJGSjdDR2plRFFCVTBlTC1SdmFPcDBVVmtESGI4ZEU2NnRRenEtZGNaM05PS3A1QkhZ?oc=5",
-     "time": "2026-10-15T23:00:18+00:00"
+     "title": "If You Invest $1,000 in Meta Each Month Starting Now, This is What You\u2019d Have in 5 Years",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNT05ybmFSRXJ4VXpVUlBlbGhwR294R0pXek0zYmY0c2pBRVIzSF9GX2pGTDRQRmh5TGZJY3ZBMUNLZHBycE5teFRCbUZxaWtUcEFSSERIdG9Qa20tdjE1WVBIRUF6dTdTVnBJS3dpUVU1WWRXM0xud2RjRmpPYnFTc25vbllHWEFwWFUzcTRhNGVIM2JXbHc1TnJzT1VTVTZsbWw3UndWcW01bVluNGxtVUxBVWozR3BmN3g0cGdtUGNkVjNMdmVF?oc=5",
+     "time": "2026-10-16T13:30:00+00:00"
     },
     {
-     "title": "MU, AMAT Stocks Rise Premarket: Analysts Justify Bull Case For Memory Darlings Amid Supply Crunch",
-     "publisher": "Stocktwits",
-     "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQUjE0WFhKZGJSU3E3RW52QXBCMW1reTZVZG16bm5vV2lLWWljSTQwblR6cG5tWlVLczZWRUt5Yk1GUVhUTVVWSGg3TF9PTTN0aEVvWUpFME9qbFVUdktqdXVsVHdmaXZwc2xRbVJvR0szNlpiZFhPRm00aUV1WU4xZ2RCRjZyYmJRNFF2QnUyODBTMFNBVGtTaXdzeHBSLUNWNUpNQ0JaUUxNNy1ndnVzU0lyUFVMeDgxSlpiM1M2VGJDUS01a2p4ODVLUDNNZXJTZV9hTWdmYVFyYkE1Ylc2REFNVFEweHJSU1RWdVlqcWQ?oc=5",
-     "time": "2026-10-15T22:07:32+00:00"
+     "title": "How Bad Would Outspending Its Cash Flow Be For Meta Stock?",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZm00SmltaklwVTQteVNlM193b3RMRk9KUVFRaFB2RDVmQ1YxVTJnNDVTQVJEQ3A0Uk56N2praE1uNXNtRG5MTXRrTG5tbjJ6RU1XWlFUa3pqQTMzaldnZjdqdFN5a3RUdURYblBwSmV2SHUwXzRWb3N0WDRHMkZ2ME9qQjJidDZtYmg1TVFwSmZ0T0xuZUJIQTVRUQ?oc=5",
+     "time": "2026-10-16T13:25:34+00:00"
     },
     {
-     "title": "Applied Materials Inc Stock (AMAT) Moved Down by 4.39% on Oct 15: Key Drivers Unveiled",
-     "publisher": "TradingKey",
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQOVRsWURRQlF4dVFnbEpHRmJRQU1EbFhTLUZxZjdKUVpzU3JJQU1XdDZCQWNpdC1WMnAtbGpKVWlDQXZ4aEJ1UmNDanVkbVJXYVJuTEJ1QlE1RVR3U005WHRsT1F6LUdTbGFpMWdFaEkzUXpWRXhFV0V4cWxSb3k0dW9IQWh6OUVQYkpN?oc=5",
-     "time": "2026-10-15T15:15:32+00:00"
-    },
-    {
-     "title": "Chart of the Day: Applied Materials Follows the Rest of Semi Stocks",
-     "publisher": "RealMoney Pro",
-     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNRVlJZ2JHdEV1cThnczNGV2JHQ3pkY3hPanlzTTNHTWNzalpRU3FhSW9aYkJMd19uMHBSQlkzRXdXdzdQbVI3MC1SLUZ1YmNFQ2xKanZrSUdWRzE1bmJJUnhPZW1tMkEteW5ndmJXcE1BbFE5NHFuWlhucjZMRmVnSll6Sk1UcUdQUDkxcnZfTm9EUFBHeGJxUGE4MnBZV1FEM2lrTw?oc=5",
-     "time": "2026-10-15T14:46:00+00:00"
+     "title": "Cathie Wood Is Buying Shares of This Bargain \u201cMagnificent Seven\u201d Stock Before Oct. 21. Should You?",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQclhBT1VYWFlqNFBfTUJ6U2dWOF9zNnRRTHY0QmVWb291ellEb3Zwa3BMcFdfeFQ4aVpJZzRzRmtqVTJjV0FCb0gxYXZBZGdYMllMTExHdm5MU2tZa0RTdVZZUDl5NXVwM2pFZTJGdWo5VFNGY3RQVmxuRWx0NXlvdjJISmxqMTdkRzB2OGZ0dFlUY3hzcVZVV2s0Zm5jYWhmallnejM3cDlobmprczd2RE5rNEVLeVpseHl3TTZTT09HTTdibjlkaldfbW5yQUxzNlE?oc=5",
+     "time": "2026-10-16T13:05:00+00:00"
     }
    ],
-   "brief": "2026-10-16-AMAT"
+   "brief": null
   },
   {
    "symbol": "AVGO",
    "name": "Broadcom",
    "list": "watchlist",
-   "price": 332.93,
+   "price": 333.06,
    "prev_close": 344.33,
    "change_pct": -3.3,
    "trigger_change": -3.0,
@@ -483,14 +558,14 @@
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 546.75,
-    "change_pct": -2.16
+    "price": 546.2,
+    "change_pct": -2.26
    },
    "chart": {
     "ema8": -4.7,
     "ema21": -6.2,
     "sma50": -9.0,
-    "sma200": -9.6,
+    "sma200": -9.5,
     "momentum": false
    },
    "headlines": [
@@ -549,9 +624,9 @@
    "symbol": "SOFI",
    "name": "SoFi",
    "list": "portfolio",
-   "price": 14.62,
+   "price": 14.59,
    "prev_close": 15.09,
-   "change_pct": -3.1,
+   "change_pct": -3.3,
    "trigger_change": 6.1,
    "peak_change": 6.1,
    "first_seen": "2026-10-16T16:52:35+00:00",
@@ -559,13 +634,13 @@
     "etf": "XLF",
     "name": "Financials",
     "price": 55.23,
-    "change_pct": -0.06
+    "change_pct": -0.08
    },
    "chart": {
-    "ema8": -3.2,
-    "ema21": -7.4,
-    "sma50": -14.5,
-    "sma200": -20.4,
+    "ema8": -3.4,
+    "ema21": -7.6,
+    "sma50": -14.6,
+    "sma200": -20.6,
     "momentum": false
    },
    "headlines": [
@@ -621,154 +696,79 @@
    "brief": null
   },
   {
-   "symbol": "META",
-   "name": "Meta",
+   "symbol": "AMAT",
+   "name": "Applied Materials",
    "list": "portfolio",
-   "price": 713.76,
-   "prev_close": 736.72,
-   "change_pct": -3.1,
-   "trigger_change": -3.0,
-   "peak_change": -3.1,
-   "first_seen": "2026-10-16T17:02:39+00:00",
+   "price": 416.27,
+   "prev_close": 430.01,
+   "change_pct": -3.2,
+   "trigger_change": -3.1,
+   "peak_change": -3.7,
+   "first_seen": "2026-10-16T15:11:41+00:00",
    "sector": {
-    "etf": "XLC",
-    "name": "Communication",
-    "price": 110.48,
-    "change_pct": -1.74
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 546.2,
+    "change_pct": -2.26
    },
    "chart": {
-    "ema8": -2.5,
-    "ema21": -0.6,
-    "sma50": 8.9,
-    "sma200": 12.9,
-    "momentum": true
+    "ema8": -9.9,
+    "ema21": -13.0,
+    "sma50": -13.7,
+    "sma200": -5.2,
+    "momentum": false
    },
    "headlines": [
     {
-     "title": "Meta's AI Bet Could Deliver Another Earnings Surprise, Analyst Says",
-     "publisher": "Benzinga",
-     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxONExpcnpOdC1zbDQ0MUNnNnFtRWtKUDEtSC05VU1fTlIzQk9OS2REcU5iTzVkSTJlN0Z6U19yT05adVhRd1ZmUjZKVG1BcnVmUHpVY1NjR2hVWEluOWpTcld2cXVkR19WV2FyelZFakRwejRrZ2c2V0JfU1I0dHE1amgxS0paREVtbnJFUXc5VGFnbkNBa3gxcUNScm12dmpnVWN2SHpGQ3pfaU1ubk5lQkFqbUpZQmlJVWc?oc=5",
-     "time": "2026-10-16T15:59:29+00:00"
-    },
-    {
-     "title": "Meta Platforms Will Report Q3 Earnings on October 21. Here\u2019s Who Still Owns META Stock",
-     "publisher": "TipRanks",
-     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWEtCd2d2V1BWYmU4QnQ1UVpYN05FcEdNNGJzZmZwb2NYN2pfcHh4VzBHUTZMOWIzWi00SnhvY0FJS2dIV042Y2FONGwxTmR4Z3N5RVIydllYUmNzMU5YdzlQSzIwblFlcE5tNk9YbHFFY1JFS1lnUUFuRmpZTWVlamZFT3ROYWktOXNEOTRTSmlSdkxyOU1zZzllTUxZTnd6LTBYT1VBdThjZEZLUDBHZnhYTU0?oc=5",
-     "time": "2026-10-16T15:54:31+00:00"
-    },
-    {
-     "title": "Meta Platforms (META) Unveiled Muse Spark Open For Developers",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNWWtQYlhmNk5NNXhsOFBDdFYxVF9jUHc0dW9TMHlhQ05MMjBXZnIxcUJ1YWNKQ3JySXRrZkNtQnh2Y1QtLWpUYUtYc0pienpLN3pYRnZBaWt6Z1FIejRIblJTOTlFSDZDZnFOMWZPdWg1eVd6dkxQdGJoSHNxV1RQRF9wRjFYZjVKMkVUUUlYUkFWTS11eVFuTGNlR0tpQQ?oc=5",
-     "time": "2026-10-16T15:16:42+00:00"
-    },
-    {
-     "title": "Meta Releases Open-Weight Muse Spark Model for Developers and Coding Agents",
-     "publisher": "TIKR.com",
-     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5kNDdlOElXeFdvSkxOR0p1SjBCR3ZhQnRZekJaMDBFdFg1dUFuNGxyMEhzSk1PZ0RWOTZBdjlnSXgxWEVFSEl1SUxUWjVzSDBvNTZlNGpYR01yVEZmekM0YXF2aTNqdmU2amhlLWpDOWFHVk0?oc=5",
-     "time": "2026-10-16T14:06:19+00:00"
-    },
-    {
-     "title": "Meta Just Climbed 12% in a Month: Take Profits, or Hold On for the Ride?",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPd2szTDNRQjJBYnhXWU9DLXNPaWM2a3BvUVlBUDV5U1FoTnFQb2J6Wm8tSy1ZMEI5VjdGNUdJNDFaTThUVzlKdl9XTXl1QkdYZlpfcHFNdWl6OTAwZ0NEN2k2NUg3TXJHa2xsblJpVkZPRDdUbkRXVEo0RGFVS01vOHFudHV2aUlVX3J3RVdZeGo2UXVORE5ZMS1jMUctNFBwNkFfWlVB?oc=5",
-     "time": "2026-10-16T13:35:47+00:00"
-    },
-    {
-     "title": "If You Invest $1,000 in Meta Each Month Starting Now, This is What You\u2019d Have in 5 Years",
-     "publisher": "24/7 Wall St.",
-     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNT05ybmFSRXJ4VXpVUlBlbGhwR294R0pXek0zYmY0c2pBRVIzSF9GX2pGTDRQRmh5TGZJY3ZBMUNLZHBycE5teFRCbUZxaWtUcEFSSERIdG9Qa20tdjE1WVBIRUF6dTdTVnBJS3dpUVU1WWRXM0xud2RjRmpPYnFTc25vbllHWEFwWFUzcTRhNGVIM2JXbHc1TnJzT1VTVTZsbWw3UndWcW01bVluNGxtVUxBVWozR3BmN3g0cGdtUGNkVjNMdmVF?oc=5",
-     "time": "2026-10-16T13:30:00+00:00"
-    },
-    {
-     "title": "How Bad Would Outspending Its Cash Flow Be For Meta Stock?",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZm00SmltaklwVTQteVNlM193b3RMRk9KUVFRaFB2RDVmQ1YxVTJnNDVTQVJEQ3A0Uk56N2praE1uNXNtRG5MTXRrTG5tbjJ6RU1XWlFUa3pqQTMzaldnZjdqdFN5a3RUdURYblBwSmV2SHUwXzRWb3N0WDRHMkZ2ME9qQjJidDZtYmg1TVFwSmZ0T0xuZUJIQTVRUQ?oc=5",
-     "time": "2026-10-16T13:25:34+00:00"
-    },
-    {
-     "title": "Cathie Wood Is Buying Shares of This Bargain \u201cMagnificent Seven\u201d Stock Before Oct. 21. Should You?",
-     "publisher": "The Motley Fool",
-     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQclhBT1VYWFlqNFBfTUJ6U2dWOF9zNnRRTHY0QmVWb291ellEb3Zwa3BMcFdfeFQ4aVpJZzRzRmtqVTJjV0FCb0gxYXZBZGdYMllMTExHdm5MU2tZa0RTdVZZUDl5NXVwM2pFZTJGdWo5VFNGY3RQVmxuRWx0NXlvdjJISmxqMTdkRzB2OGZ0dFlUY3hzcVZVV2s0Zm5jYWhmallnejM3cDlobmprczd2RE5rNEVLeVpseHl3TTZTT09HTTdibjlkaldfbW5yQUxzNlE?oc=5",
-     "time": "2026-10-16T13:05:00+00:00"
-    }
-   ],
-   "brief": null
-  },
-  {
-   "symbol": "CRWD",
-   "name": "CrowdStrike",
-   "list": "portfolio",
-   "price": 244.57,
-   "prev_close": 249.29,
-   "change_pct": -1.9,
-   "trigger_change": -4.9,
-   "peak_change": -8.1,
-   "first_seen": "2026-10-16T14:33:43+00:00",
-   "sector": {
-    "etf": "IGV",
-    "name": "Software",
-    "price": 104.22,
-    "change_pct": -4.91
-   },
-   "chart": {
-    "ema8": -5.2,
-    "ema21": -4.0,
-    "sma50": 5.1,
-    "sma200": 52.8,
-    "momentum": true
-   },
-   "headlines": [
-    {
-     "title": "CrowdStrike CEO sells shares: Can CRWD avoid further losses?",
-     "publisher": "Traders Union",
-     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOOUFWeGFSSGNxWTlIV2RoU005QmltUTJ5MWM4RkRzU2FKOTl5UnBZcXM4QWhnV25hY2REcmZUTEFqLWhTcmdDbUdnV2xKZ1c3bXZzR0RFMVlyUHRSbzR4ZHR1NUxVV21ma01vRWZhNy0xZWZyaUdYbnBMQVhwcHhGdEN5aTBlb18wS29EcnhYNk1HazRD?oc=5",
-     "time": "2026-10-16T16:11:34+00:00"
-    },
-    {
-     "title": "CrowdStrike Holdings Inc Stock (CRWD) Opened Down by 4.00% on Oct 16: Key Drivers Unveiled",
+     "title": "Applied Materials Inc Stock (AMAT) Moved Down by 3.13% on Oct 16: What Investors Need To Know",
      "publisher": "TradingKey",
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQbzZIYk1GcmpQejJGMWJiVnRfNGMtYTUyc3NEb2haYnZQQldxRkVtcmNXVzJNVXF5S1hVd2k0eDFNNVZENWFOX19zcTZvV1oya0k4dUNiV2xjMk1tcW5FVXlwVThfYWNsLU5GZTNzUm9fWEExYVdGdmV4eTkybm5DQlUzR1R3dnlVcFRF?oc=5",
-     "time": "2026-10-16T13:47:15+00:00"
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxORDhUd0ZQeUtNdmZ1b2U0QU0zanVJck1kaENaRzhLTS1YMlMxMGpNaG10cUZXV2dHSXcwbV9qNGhGOFRCUnVWUXZrcG1DRVNNR3pTV2c2T1V2SElxM3JpM0tWekhQUm5LaWxoUXFISWdRV0FVSDVSMXZxQmtmYVdERTYxUnQtZlcxRFVz?oc=5",
+     "time": "2026-10-16T16:15:22+00:00"
     },
     {
-     "title": "CrowdStrike, Netflix And A Financial Stock: CNBC\u2019s \u2018Final Trades\u2019",
-     "publisher": "Benzinga",
-     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOc2NBU19QUXpzQ2JuWWNVQWp3X3ZabVNfY1dJTjRwWi1oRkZnU3laTUNla1E2R3B2MDNZb3lvT2EtbHltNjUtcWxXWmZhTi1WWWk0aTZNem5sTjU3c1FDenQyRG9rMWhfZlNVRWUyYmZNSkJjZ0Q4cVc4SDhPZEdKcmRBVjNUc3FSNkRtQU1WZjJET244cWxFbmJfYWFwYVdhNEMtSXRKNVFoSVdraTBmNXR0Nm5jdjF5bXBLZE0zc2o0QVk?oc=5",
-     "time": "2026-10-16T11:34:20+00:00"
+     "title": "ETFs Are Net Sellers of Applied Materials (AMAT) on Oct. 14",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOd1lWZ01oZTRWWkVDRVIzbzBJUmZvcUFjSDVyU1FVUFlnQmtiWjVMTzhrb0VCOXlOclczOHJhT0pQa1EyQ2hkMi1JTko1TFZyVFA4enNvNTFrUDhkeVN1STFEazZmMWtEY1FyWVBobl9iSjBfZE1uSVh5N3RaVlFwYTVHNDdiT0RGRGg1Vy1QcFB2SlZmNy1TRTIwVXQ0cVBz?oc=5",
+     "time": "2026-10-16T11:03:30+00:00"
     },
     {
-     "title": "Mapping the Market: Bulls beware \u2014 CrowdStrike shares could be in for more losses",
-     "publisher": "Reuters",
-     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNVzhyTExkaER4WEJ3VXV5MnMyVjNxMW16aVE3YXFlRDkwSGtseDVfUzJOVkZLci04NG1KTFlfWTB4RlFmZmFxdUs3blpoOVJDTjJ2VTFRMXJDZjY4OWFSQ0hEbUN0UnZGUGh4TDZfbFF4Ui1qZGhLbWxOdjd6OHZ5MnktMA?oc=5",
-     "time": "2026-10-16T10:05:50+00:00"
+     "title": "Applied Materials Stock Extends An 8-Day Losing Streak To A 21% Loss",
+     "publisher": "Trefis",
+     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOZEs2OWc5NENYNWxlLUZFNlJOanFzazhFMm9LMmFpOWdRUGRuRmhjVUtGT0ZhQk10TDVrUG9pdmVKN2w2UHVMa2N2dktaVWlEdzQxTjJyZ1c1Wk5taS0zQkVzWXFZUjBGeGxiMkxmV3FqS0hMaFZpVVlLZWxhZ29YVmRfbk9QX2NvNlZKWWVVVHRUTHJyY1FRZlU0U2N1bC1wNnRCREI2LTdHMVpaWFlmbDRWQlpEcENvejVlVUttc2ZicnRhNUlZ?oc=5",
+     "time": "2026-10-16T06:12:37+00:00"
     },
     {
-     "title": "CrowdStrike vs. ServiceNow: Comparing Revenue Trends Between These Growing Software Giants",
-     "publisher": "The Motley Fool",
-     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPaFdDS1VXNTJxa0NxdGlLaUFpZzBBWlhpaE5JdndVMWlLVm5fSlUwTEZmTnhTc3l3SHRJMnVPZUZpcTljSVZ2blNxdkYwNHRzeGVhWW05d2lZWjNpTHZrZFZUQWg0ZnZJcGxkZmg1Z3FqWHVPNEIzUkJxeThwNmRzcTQwalp6cXJraUtmTElrcDUyQUZHQUo2cVdSVTcxNXB6SkFKOU56ZmtseGVCNGVRUkNhOXhLRGZLVnNNVEx4YVBKVTFoQjJBcVN0TkQ0d25GOW9V?oc=5",
-     "time": "2026-10-16T07:33:00+00:00"
+     "title": "Applied Materials Stock Shot Up 7% Today \u2013 Everything To Know About Its Advanced Chipmaking Systems",
+     "publisher": "Stocktwits",
+     "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPelQ1azFGd0F4dmUzSi1kWWVXX29DMGFZMHVDZW4tSG9hZkhWN2JzNmFHbzIyV2ItdTlKUzEzb3pjZGcxaTJEYnFmZVJ2VjFZYV9XZ3Rna2Z1aGVmb216b0FaOGt3MmRWbzc1dnFOdVZoX3AzQ3lZUlluNS1Xb0FTbEcxMm1EejNRdm51VTFZaWpoLXNRNWFkQzA1WFh2U0hhbU1GY09yLUhTcGMwQmZhY0hWT1d6T01FSWFvUmE3NEJqVFJDLUFCbzhGVWtsX0NDVFRkdkRSMHlyYlVTaWFhN2JNNEVMOFd0T0JvaFBtSQ?oc=5",
+     "time": "2026-10-16T03:43:45+00:00"
     },
     {
-     "title": "Stock Splits Calendar for:",
-     "publisher": "Yahoo! Finance Canada",
-     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOR2FrOUN0RHNNY1dJOU02T2F0T016RHp2R3BJT2t5aXJEN2ZFdlk1SFhSc21aanpmcnBzbEdiSkJNalpxUmExcGEzaVVvUkNzMDdHTGd6b0VpbmFrWWpIVmFReTZYVjQzY05YbU5wZDJXMC11SnQ5REZtZnVtY0ZQdjZWOTduT1JmNWFUT3FJcDBBbE0?oc=5",
-     "time": "2026-10-16T03:14:04+00:00"
+     "title": "Has Buying Applied Materials Stock\u2019s Dips Paid Off?",
+     "publisher": "Trefis",
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNcTF5RjJpN2tYMjhueEROLTV5UmYzSDRQTkMyRW00am9DbTZTcXVkeklDdGhWMm9tR25FUXFyR2VJRUFXMnNfV3dZeFdmRGFnMFNjZUIwY2stS2dmcWhHR01JVUVGMjdpTkNOVmxHd1NrYkdIUGxBYUdCb1RBczJGSjdDR2plRFFCVTBlTC1SdmFPcDBVVmtESGI4ZEU2NnRRenEtZGNaM05PS3A1QkhZ?oc=5",
+     "time": "2026-10-15T23:00:18+00:00"
     },
     {
-     "title": "Crowdstrike president and CEO George Kurtz sells $5.15M in stock",
-     "publisher": "Investing.com",
-     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNX3dwN1pZLWhTNkhnWGhucWk1MVhOOWtRWnh6dFNmRXRnNW9aSXZza0VRNGFWamtFRXpIdkJxR0ctUWpKZVFGWlV6blA1Q1Ytd0ticlVHLTJodkxobjFhSlg1bnJxbUdyLW4xYmNQSVhsRXlNdE5LamhaNXh3OUJOMm9GMTZYQTU5V0ozQ1N6WGVDSmtUNG1Sd3dxTFB5RGRfMzBlWVk0STNBQUZ6UHlPdk14N1FHSGp3WTc4U3JRX1FDTlE0RVE?oc=5",
-     "time": "2026-10-16T00:57:06+00:00"
+     "title": "MU, AMAT Stocks Rise Premarket: Analysts Justify Bull Case For Memory Darlings Amid Supply Crunch",
+     "publisher": "Stocktwits",
+     "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQUjE0WFhKZGJSU3E3RW52QXBCMW1reTZVZG16bm5vV2lLWWljSTQwblR6cG5tWlVLczZWRUt5Yk1GUVhUTVVWSGg3TF9PTTN0aEVvWUpFME9qbFVUdktqdXVsVHdmaXZwc2xRbVJvR0szNlpiZFhPRm00aUV1WU4xZ2RCRjZyYmJRNFF2QnUyODBTMFNBVGtTaXdzeHBSLUNWNUpNQ0JaUUxNNy1ndnVzU0lyUFVMeDgxSlpiM1M2VGJDUS01a2p4ODVLUDNNZXJTZV9hTWdmYVFyYkE1Ylc2REFNVFEweHJSU1RWdVlqcWQ?oc=5",
+     "time": "2026-10-15T22:07:32+00:00"
     },
     {
-     "title": "CrowdStrike CEO George Kurtz Executes Stock Sales on October 13-14, 2026",
-     "publisher": "Kalkine Media",
-     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOWUtHblhMUXY3Q0I1SWtQRXQwZkF6UG12MEtCZWJiNGJRUk9yMWdnbDJEcm0wRFF4NXV5eWtYTHZVdkVqdTIzRFFNcVc2MVVWMWpqOGdhUzlON0trLUEyUFE4R0llcl9vWGtzS2N1VXQxNnQwOTFUMlZ6OHdqTlNfSWtDVnR0amVHMElLYVNVVEhaTVVUU29HQXhyVFlER2plRFQ4S0NWYzhYcHQzTGY4azlUMHAzRFVmU2c?oc=5",
-     "time": "2026-10-16T00:05:51+00:00"
+     "title": "Applied Materials Inc Stock (AMAT) Moved Down by 4.39% on Oct 15: Key Drivers Unveiled",
+     "publisher": "TradingKey",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQOVRsWURRQlF4dVFnbEpHRmJRQU1EbFhTLUZxZjdKUVpzU3JJQU1XdDZCQWNpdC1WMnAtbGpKVWlDQXZ4aEJ1UmNDanVkbVJXYVJuTEJ1QlE1RVR3U005WHRsT1F6LUdTbGFpMWdFaEkzUXpWRXhFV0V4cWxSb3k0dW9IQWh6OUVQYkpN?oc=5",
+     "time": "2026-10-15T15:15:32+00:00"
+    },
+    {
+     "title": "Chart of the Day: Applied Materials Follows the Rest of Semi Stocks",
+     "publisher": "RealMoney Pro",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNRVlJZ2JHdEV1cThnczNGV2JHQ3pkY3hPanlzTTNHTWNzalpRU3FhSW9aYkJMd19uMHBSQlkzRXdXdzdQbVI3MC1SLUZ1YmNFQ2xKanZrSUdWRzE1bmJJUnhPZW1tMkEteW5ndmJXcE1BbFE5NHFuWlhucjZMRmVnSll6Sk1UcUdQUDkxcnZfTm9EUFBHeGJxUGE4MnBZV1FEM2lrTw?oc=5",
+     "time": "2026-10-15T14:46:00+00:00"
     }
    ],
-   "brief": "2026-10-16-CRWD"
+   "brief": "2026-10-16-AMAT"
   }
  ]
 }
