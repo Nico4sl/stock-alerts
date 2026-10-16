@@ -1,22 +1,22 @@
 {
  "date": "2026-10-16",
  "threshold": 3.0,
- "updated": "2026-10-16T16:27:31+00:00",
+ "updated": "2026-10-16T16:52:35+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 767.6,
-   "change_pct": -0.54
+   "price": 766.0,
+   "change_pct": -0.75
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 717.01,
-   "change_pct": -1.51
+   "price": 715.46,
+   "change_pct": -1.72
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 79.7,
-   "change_pct": -0.33
+   "price": 79.75,
+   "change_pct": -0.28
   }
  },
  "movers": [
@@ -24,23 +24,23 @@
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 170.0,
+   "price": 169.41,
    "prev_close": 188.41,
-   "change_pct": -9.8,
+   "change_pct": -10.1,
    "trigger_change": -6.2,
-   "peak_change": -9.8,
+   "peak_change": -10.1,
    "first_seen": "2026-10-16T14:33:43+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 104.57,
-    "change_pct": -4.59
+    "price": 104.46,
+    "change_pct": -4.69
    },
    "chart": {
-    "ema8": -14.9,
-    "ema21": -20.9,
-    "sma50": -23.7,
-    "sma200": -2.3,
+    "ema8": -15.2,
+    "ema21": -21.2,
+    "sma50": -24.0,
+    "sma200": -2.7,
     "momentum": false
    },
    "headlines": [
@@ -99,23 +99,23 @@
    "symbol": "CRWD",
    "name": "CrowdStrike",
    "list": "portfolio",
-   "price": 226.23,
+   "price": 226.88,
    "prev_close": 244.57,
-   "change_pct": -7.5,
+   "change_pct": -7.2,
    "trigger_change": -4.9,
    "peak_change": -8.1,
    "first_seen": "2026-10-16T14:33:43+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 104.57,
-    "change_pct": -4.59
+    "price": 104.46,
+    "change_pct": -4.69
    },
    "chart": {
-    "ema8": -9.9,
-    "ema21": -10.3,
-    "sma50": -3.0,
-    "sma200": 40.9,
+    "ema8": -9.7,
+    "ema21": -10.0,
+    "sma50": -2.7,
+    "sma200": 41.3,
     "momentum": false
    },
    "headlines": [
@@ -171,26 +171,176 @@
    "brief": "2026-10-16-CRWD"
   },
   {
+   "symbol": "APP",
+   "name": "AppLovin",
+   "list": "portfolio",
+   "price": 279.29,
+   "prev_close": 262.19,
+   "change_pct": 6.5,
+   "trigger_change": -3.0,
+   "peak_change": 6.5,
+   "first_seen": "2026-10-16T16:27:31+00:00",
+   "sector": {
+    "etf": "IGV",
+    "name": "Software",
+    "price": 104.46,
+    "change_pct": -4.69
+   },
+   "chart": {
+    "ema8": 1.1,
+    "ema21": -3.5,
+    "sma50": -9.0,
+    "sma200": -36.1,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "AppLovin stock: Results due November 4 for AppLovin stock",
+     "publisher": "ad-hoc-news.de",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPU2N1VkJ1RWJuLVozeTk2MEZqY0hyckN1Tl9DeWNvTGRZNml4QzdqMk1taUdCbS02YXp2R1ZoeTgyR05OclhYdUVEQnRXMTFzeXpwZFBSYVpyaUZIMkdMbkhuVjhwWGhadEFDM0VNTTBULThYdE9GblRwd3NhVGk2V1pab2h1bFZsUjR5R25NWFkyZTNxdExibElEbkNCWTdVZUxZYnN5VGJBZ01TNHJfUU9qX1VRbTk3SHJv?oc=5",
+     "time": "2026-10-16T14:53:44+00:00"
+    },
+    {
+     "title": "AppLovin stock near 52-week low: fundamentals vs. bearish trend",
+     "publisher": "Investing.com",
+     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPMlY3bGFvcmZFUEFoTlhGX2JMblJSbUFIWk1tcjRwLVVVYXh0TVJHUDBaS3ExQjRHZXlHMjhxOHNmeFcxTWJhTUdHUDFsU2c0SDFKNGFrVFp2VndqSmxTTUhnejBodEwzUUxzclFuanBrdFk4bFA2cUQxTWdhZFdvdzR4T3VUVVhJSDFHZk4wT1otSEw5QTFVemdzZE81REhQVjZyT1hyQWM2Yl9WRk0zUURkc2ktTjZCOEN2a2dpUQ?oc=5",
+     "time": "2026-10-16T12:32:41+00:00"
+    },
+    {
+     "title": "APP Securities Announcement: AppLovin Investors with Losses",
+     "publisher": "GlobeNewswire",
+     "url": "https://news.google.com/rss/articles/CBMi0wJBVV95cUxOZkh5SGs0ak5xZzU1QzVpeDRXZVBOSnNGcF9FSkdjNTF5c2NNOFVwSFctZUNrTlVEV0d2eGU3UDYyZkppLWUzNVFGcHJBMVRSS055MS1CUmNxa0hYMGZYRFBTRFpoZF82c1N5X2hhV2dGQlp4QmhUZk0weDZpQVE1dm9zbkdWUXNVam5DMjVfNkhSRVhmTnAzaWhwTld3cDNzTlA2QnJTNl9FeExyRlJab1U0SzNHMU9KVUdPTjI0SW1pbk10U0FjbUdoUFNfSE1nRk90SW1XRFlCMVpFS0hVX2hQRmdnUXVGbjg0UTM2dGtVSlNvS1hxcVNoR2tDaFJrNURON2JnN05fbmh1aXJLa0pmOEJDVTByRmM1NEZ1d0QyQl95TGk3VUhvamtjdG10bnNfQUJQUkZhMWJMWWpkMWxMSl9XRmF4Y0FEcUtJdjVoMTQ?oc=5",
+     "time": "2026-10-16T10:18:00+00:00"
+    },
+    {
+     "title": "Wedbush cuts target for AppLovin stock to USD 560",
+     "publisher": "ad-hoc-news.de",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQa29BSjN4OFRMSDdmcDVVSENPT042bGptYnpOUzZ6VGgtNU5majZib1Voak1LdDFBRkQ0ellOVFZ0cnRud2hNamJrWkluU1JqeXNnMjBDamtKQnpnRUQ5M1pDSWhTRzlWNVFTY1RxQ2h3bEpTQnBQb0VrSGdOM09LdGhRaFNkWVZLX3VNc2lYWHk1LVFlTGdtbjA4TkZMa0Y5SS01UkJFM19CQjdib3psY3NR?oc=5",
+     "time": "2026-10-16T08:01:29+00:00"
+    },
+    {
+     "title": "WDC Stock Sinks 11% After-Hours Despite Earnings Beat \u2014 Retail Questions Selloff, Blames \u2018Technicals And Algos\u2019",
+     "publisher": "Stocktwits",
+     "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOWjk5OTVpSk00bkFDQmJyakRoLU5BY1Z1YkVpNVVuZmpSd084ajljODlqa0RNTmRqUlRVM2xtdXIyVTdTQmZpbmEyRWlwdGxnelgwUjUxbG94aWYwQk8zVzRnMlZhM0FqOVR4TnZCTUdnYndBR0J3Q0xGOU12U2cyZjJfTF9udUlVRUZDcGYwWGNVbzhZYnhyWG9sWnFkT0RaWlpCZE9tRTM5YXBJRUJINUJBdFN6ZDJ6VjFoTjh1eVZQa0tid3BJYkc1NFNNdlBRTlFUYWEzTWoyTFZwb3JOeHVhVzlnYzJYSGxz?oc=5",
+     "time": "2026-10-16T02:33:10+00:00"
+    },
+    {
+     "title": "Kaplan Fox Urges AppLovin Corporation (NASDAQ: APP) Investors Wit",
+     "publisher": "The National Law Review",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOTmtzdk9WSjlqRWF4bVlrRTlHbWYxQVYtS3FuS2N6U3o1SDhlX3FHd3dDbmlPU1dhTVhKREZ4RjNLSzNONTNBSjB5em9YT2J1SnFCV2htU0xCdFhCNVBielg0d0ktTzFtQTFaTXp5a0NKeFM2VG9mSEw4cTd5djJodDFWYWdTUzlKcUJFRU9nMlROYjdaLUJsQ0tzX0ZpU1VSR01hd0h4R2N3MEtXVUE?oc=5",
+     "time": "2026-10-16T00:49:55+00:00"
+    },
+    {
+     "title": "CELH Stock Heads For 16-Month Lows After Q2 Earnings Miss Sparks Massive Selloff \u2013 Retail Eyes Guidance Update",
+     "publisher": "Stocktwits",
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNSDJhaHpUX1RqRDh2MHZNdWJ0WE95ZjhmNDRMeFg5ZW1wVTR3WnltVUV6aWtFY2F0ZW9rWUJWM1FESXctbHMxYk1CZDdpbERlVUV5a3plYzY5TW40YzVUQjI1R1l1VGpsdV9QemRJaXpObTdvTmUtQmw4Wm5lVVhDYjlvQVdtOHBMMjZZMWNraUlhZmc4VEc4U0hvei1odHZtWmMwZ0p5aGt5amt1LXV1SHNsblI5ZkNPNWV3MlBB?oc=5",
+     "time": "2026-10-16T00:11:23+00:00"
+    },
+    {
+     "title": "CoreWeave, Broadcom Join Objections to OKX-ICE Stock Tokenization",
+     "publisher": "The Defiant",
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQOU1raUk4OXVVUEdxeUJrSEo0N2JQeDJYZXBYYUU4dHRueUxEa0xWaGtmSDhnNWdaWW1wSUtyV0dtb1JmYzNDTnhpV05NZG1fY2JhN09nLXBQeGZmV2xwMXRFQXNPZVJkaUJOWXhXbFNvTUhmVnVIMmpvRUYwbFBaek0tWGFzSkw5elJZNDJMc3FuWEw5ZDVVajhkcHM4ODJtaHVWTlJrYnVDVVZnQjFMVktabVY?oc=5",
+     "time": "2026-10-15T23:59:01+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
+   "symbol": "SOFI",
+   "name": "SoFi",
+   "list": "portfolio",
+   "price": 15.09,
+   "prev_close": 14.22,
+   "change_pct": 6.1,
+   "trigger_change": 6.1,
+   "peak_change": 6.1,
+   "first_seen": "2026-10-16T16:52:35+00:00",
+   "sector": {
+    "etf": "XLF",
+    "name": "Financials",
+    "price": 55.37,
+    "change_pct": 0.17
+   },
+   "chart": {
+    "ema8": -1.1,
+    "ema21": -5.1,
+    "sma50": -12.1,
+    "sma200": -18.1,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "SoFi: The Market Will Wake Up From Its Hangover Eventually (NASDAQ:SOFI)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNWFdoWEVaYzByWGdYMFZhMmpCTHFMWjlNNEpjZThIdmdMYlJkMzVCbFpwNC1WSFpCVFVCNnFFNGx5R2JaQjNoNWNmUld1S3hYRW1XUVZYSUxqVDJFNDdaT055Z1pUem53UnpoZFhRN1hpYjhmeDNYc0k0SEF3YXR1eFBUTWtOUmVuMExwcEtMcHNycHo4?oc=5",
+     "time": "2026-10-16T13:28:53+00:00"
+    },
+    {
+     "title": "SoFi (SOFI) Stock Could Be 26% Overvalued Despite Rate Hike Fears",
+     "publisher": "Simply Wall Street",
+     "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPeU1uVlJPX3d4N2lxbjVrQU11NUUtZkY4Y293bnBWODFyWHIxUkRPeTd4aWc3a0thU3A1Z18wOU9ocmVwUUNJdTFQWW9KR1g5SEl1TGlLZlVsOW9walpTb01RQ3h6UE03aGpLbUtiUWtSUlJnNEgzU0hxcHE5ZkdINVlHaWtFR21FQkJqU2I5aExYOGk2a0g4TndSd2JXZnV3a25hR0pzMDZta0JJYmZLZGh3V0dmVG9kQW9rVzhmVVFkbjZpTEwxR3pmVUFpMVdBY0Iyd0FTcS1jR2FuOWE5eGU4ZELSAeoBQVVfeXFMTzZhd3FzeTdzZTJyRy0wVlJVeGdjTHZKWmExdjFXZW1fVDdxVTFDRUxTd0FXWVZVcS1IdmpoSW0wY3Fmdk5lQnk3U0FPeklxdG5FTl9QZGI2VkQ4UUFQUnNDQkVoaktNMWZVbDBGX2E2NlU5VGVzNmNRLTdOWWJHYklMazlCR0o1U29KOVg3c1AxWFlHcGZ3d0FyLThpSktkRHlvMFozTWFoLXZXVG9ZZUhWR2pJRm9sNjZUNGV0WkdvcnBlXzZ2WDZPRzJNT2pmb2o4a1BNeTJ3d3BwZ3E3WTFwZi11ZEJaS2FB?oc=5",
+     "time": "2026-10-16T10:35:50+00:00"
+    },
+    {
+     "title": "SoFi Technologies, Inc. (NASDAQ:SOFI) Stock Has Consensus Target Price of $22.20 According to Analysts",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPcDI4NW1vTGM5a282OFd2U0dPc2NKbi1BTHhRWVBGSnk0YmhCSmVvbExxdkh0ZF9YUnY1cng3WnBlS3hBTWFURDNPMks4S2c4ZXBDYWlocldraTZiY1F6OUJWc0VRODE4Y2NwMmtjZG9PVVJuSGw5cGhWNkg0MTRabXd1TnR1SkhDZ2NtYUFVbWpIV1FnOFdzenFpN01uVVU5a1lld3M2dXZzUlZ1NXV2aERuY2lDWTlRUDhacE5wYWlGZXdfdGxUMFRIRmZ1ZEdUX0JQMkxfQ0MyQWpWdEg2ekdTY2dVRmFIVUVtSlRLSzdmUQ?oc=5",
+     "time": "2026-10-16T06:35:01+00:00"
+    },
+    {
+     "title": "Why Is SoFi Stock Crashing, and is it a Generational Buying Opportunity?",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNS0xveEVHQ1hKMk9YMC1uckxnNTJLV2htUnU3ZlVvdEdHSngwVjE0NVBzN0wtRHQxVHA5TFpyQkE2dFc5c011RlplYVFqc1RkMS0tc2twaTlhZ2QtNF9tOTJ3Q1lHQVdpTHNBemk3aUY1WTdSZ1dpUTZhMlJLVklNX1NKdEZvRUVIdzc4LVc4VTNaOV9BaVZDaw?oc=5",
+     "time": "2026-10-16T05:21:00+00:00"
+    },
+    {
+     "title": "SOFI 261016 15.50C (SOFI261016C15500) Stock Options Chain | Quotes & News",
+     "publisher": "Moomoo",
+     "url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxPRk5pQUdhOWNPWlkwelpXUVIzWTlUejNpTDFlS05iMU9IMldJR1dPbFU5N2xKdGpLSUEzaFhETWs3d3hNVUZIN3hRY2JObUR4QndnXzRPbHlCM3I4enFVQkhhN1MxeHFLclU2Zm1IekRKM0d3T1NaZ251ZlQ0Z3VLeVEtenJoQ1BqRjE5UDVnb3Q1eUNJWVhUa1pqUnNhZlBfNTdOYk9iRjlPRTRnNV84MFlVR1hvTHY1dzFuT2dSRk1pV3MtR0h6dzNReV9NMWlrMUZ3eDRJRTI0UDJEMWJETzE3clk0RmpQNDk3YlVVWmlPQU4zY3dlYXlXZm9IRWJwdVV5NUlqR3pmb0t0bUZnaGl0Q3V5UldqZ3BlQlFrNjFOQ0N6YllzbHF3RkFXdw?oc=5",
+     "time": "2026-10-16T04:41:15+00:00"
+    },
+    {
+     "title": "Why Did CRWV, OPEN, SOFI Stocks Tumble To 52-Week Lows Today?",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQdzhHRmluVDFrQTRBeGxja1pEN29nVFNVRmJfYW82OGJDekEwWGNKR18xT1RrRS1xazBueXhfSWM4V3JmX2J6S1hqYm15bWNMMUFSekNHSHM4VGRHWTlTSnViS051MFBaQzJQU0h6WHUwRk81OHdaRlVhNER0NGhDM1BkZm05bXF6TDhLN3czWDQ?oc=5",
+     "time": "2026-10-16T04:15:00+00:00"
+    },
+    {
+     "title": "SoFi Stock News (Oct 16, 2026): SOFI Rises 6.1% to $15.09",
+     "publisher": "Gotrade",
+     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBiUDBfSk91VERYSXV0VGp4SjFBZFNXNUJ3OHNXeVBaTzNXRXRxZlM5Zk9zNmtBcTIyNmFzNjJqYmVpM0NEQWptbHJrSjJ4YjNyQ1JDblZmc2p1emJBMTI1TW1qTHAwLXUxd2VXYUNVczhrdHMtY1VHUGp0Yng?oc=5",
+     "time": "2026-10-16T03:00:00+00:00"
+    },
+    {
+     "title": "SoFi Technologies (NASDAQ:SOFI) Stock Price Up 6.1% - Here's Why",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOQV8yamF2ZGx4Z3htR1A5eE1FOTVTcDJqbkw4dGxEc2l6S2ZPTkM4ekVoeU1ZZHV5UTljWEdFWEVtYm53a2t1ZV9NSlVoVkJjdmk3ZnFKeU1kMFJQZjJMLXoyRGpOOGVDNXZ1UGMzckc1YzYzWWZ5Qi0tQ1oxaF9KZHRLeFVTM1pzZGNJbVloaUllYlJ2cUZWZnFSeWpWMERDMEdpbVpqZlNLTUxHREJVVzNsSUhHMlpu?oc=5",
+     "time": "2026-10-15T21:33:28+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
    "symbol": "NOW",
    "name": "ServiceNow",
    "list": "portfolio",
-   "price": 140.83,
+   "price": 140.93,
    "prev_close": 148.57,
-   "change_pct": -5.2,
+   "change_pct": -5.1,
    "trigger_change": -3.4,
    "peak_change": -5.7,
    "first_seen": "2026-10-16T14:33:43+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 104.57,
-    "change_pct": -4.59
+    "price": 104.46,
+    "change_pct": -4.69
    },
    "chart": {
-    "ema8": -0.1,
-    "ema21": 1.7,
+    "ema8": -0.0,
+    "ema21": 1.8,
     "sma50": 4.5,
-    "sma200": 22.4,
+    "sma200": 22.5,
     "momentum": true
    },
    "headlines": [
@@ -249,23 +399,23 @@
    "symbol": "AXON",
    "name": "Axon",
    "list": "watchlist",
-   "price": 401.26,
+   "price": 400.13,
    "prev_close": 417.19,
-   "change_pct": -3.8,
+   "change_pct": -4.1,
    "trigger_change": -3.5,
-   "peak_change": -4.4,
+   "peak_change": -4.5,
    "first_seen": "2026-10-16T15:06:37+00:00",
    "sector": {
     "etf": "XLI",
     "name": "Industrials",
-    "price": 168.06,
-    "change_pct": 0.1
+    "price": 167.89,
+    "change_pct": 0.0
    },
    "chart": {
-    "ema8": -2.8,
-    "ema21": -7.0,
-    "sma50": -20.2,
-    "sma200": -17.9,
+    "ema8": -3.0,
+    "ema21": -7.2,
+    "sma50": -20.4,
+    "sma200": -18.1,
     "momentum": false
    },
    "headlines": [
@@ -324,23 +474,23 @@
    "symbol": "ANET",
    "name": "Arista Networks",
    "list": "portfolio",
-   "price": 179.47,
+   "price": 178.81,
    "prev_close": 185.58,
-   "change_pct": -3.3,
+   "change_pct": -3.6,
    "trigger_change": -3.0,
-   "peak_change": -3.3,
+   "peak_change": -3.6,
    "first_seen": "2026-10-16T15:17:04+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 550.01,
-    "change_pct": -1.58
+    "price": 558.84,
+    "change_pct": -1.04
    },
    "chart": {
-    "ema8": -8.8,
-    "ema21": -10.7,
-    "sma50": -9.6,
-    "sma200": 10.3,
+    "ema8": -9.1,
+    "ema21": -11.0,
+    "sma50": -9.9,
+    "sma200": 9.9,
     "momentum": false
    },
    "headlines": [
@@ -399,17 +549,17 @@
    "symbol": "AVGO",
    "name": "Broadcom",
    "list": "watchlist",
-   "price": 333.82,
+   "price": 333.84,
    "prev_close": 344.33,
-   "change_pct": -3.1,
+   "change_pct": -3.0,
    "trigger_change": -3.0,
-   "peak_change": -3.1,
+   "peak_change": -3.2,
    "first_seen": "2026-10-16T16:07:24+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 550.01,
-    "change_pct": -1.58
+    "price": 558.84,
+    "change_pct": -1.04
    },
    "chart": {
     "ema8": -4.5,
@@ -471,101 +621,26 @@
    "brief": null
   },
   {
-   "symbol": "APP",
-   "name": "AppLovin",
-   "list": "portfolio",
-   "price": 270.87,
-   "prev_close": 279.29,
-   "change_pct": -3.0,
-   "trigger_change": -3.0,
-   "peak_change": -3.0,
-   "first_seen": "2026-10-16T16:27:31+00:00",
-   "sector": {
-    "etf": "IGV",
-    "name": "Software",
-    "price": 104.57,
-    "change_pct": -4.59
-   },
-   "chart": {
-    "ema8": -1.5,
-    "ema21": -5.9,
-    "sma50": -11.4,
-    "sma200": -37.7,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "AppLovin stock: Results due November 4 for AppLovin stock",
-     "publisher": "ad-hoc-news.de",
-     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPU2N1VkJ1RWJuLVozeTk2MEZqY0hyckN1Tl9DeWNvTGRZNml4QzdqMk1taUdCbS02YXp2R1ZoeTgyR05OclhYdUVEQnRXMTFzeXpwZFBSYVpyaUZIMkdMbkhuVjhwWGhadEFDM0VNTTBULThYdE9GblRwd3NhVGk2V1pab2h1bFZsUjR5R25NWFkyZTNxdExibElEbkNCWTdVZUxZYnN5VGJBZ01TNHJfUU9qX1VRbTk3SHJv?oc=5",
-     "time": "2026-10-16T14:53:44+00:00"
-    },
-    {
-     "title": "AppLovin stock near 52-week low: fundamentals vs. bearish trend",
-     "publisher": "Investing.com",
-     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPMlY3bGFvcmZFUEFoTlhGX2JMblJSbUFIWk1tcjRwLVVVYXh0TVJHUDBaS3ExQjRHZXlHMjhxOHNmeFcxTWJhTUdHUDFsU2c0SDFKNGFrVFp2VndqSmxTTUhnejBodEwzUUxzclFuanBrdFk4bFA2cUQxTWdhZFdvdzR4T3VUVVhJSDFHZk4wT1otSEw5QTFVemdzZE81REhQVjZyT1hyQWM2Yl9WRk0zUURkc2ktTjZCOEN2a2dpUQ?oc=5",
-     "time": "2026-10-16T12:32:41+00:00"
-    },
-    {
-     "title": "APP Securities Announcement: AppLovin Investors with Losses",
-     "publisher": "GlobeNewswire",
-     "url": "https://news.google.com/rss/articles/CBMi0wJBVV95cUxOZkh5SGs0ak5xZzU1QzVpeDRXZVBOSnNGcF9FSkdjNTF5c2NNOFVwSFctZUNrTlVEV0d2eGU3UDYyZkppLWUzNVFGcHJBMVRSS055MS1CUmNxa0hYMGZYRFBTRFpoZF82c1N5X2hhV2dGQlp4QmhUZk0weDZpQVE1dm9zbkdWUXNVam5DMjVfNkhSRVhmTnAzaWhwTld3cDNzTlA2QnJTNl9FeExyRlJab1U0SzNHMU9KVUdPTjI0SW1pbk10U0FjbUdoUFNfSE1nRk90SW1XRFlCMVpFS0hVX2hQRmdnUXVGbjg0UTM2dGtVSlNvS1hxcVNoR2tDaFJrNURON2JnN05fbmh1aXJLa0pmOEJDVTByRmM1NEZ1d0QyQl95TGk3VUhvamtjdG10bnNfQUJQUkZhMWJMWWpkMWxMSl9XRmF4Y0FEcUtJdjVoMTQ?oc=5",
-     "time": "2026-10-16T10:18:00+00:00"
-    },
-    {
-     "title": "Wedbush cuts target for AppLovin stock to USD 560",
-     "publisher": "ad-hoc-news.de",
-     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQa29BSjN4OFRMSDdmcDVVSENPT042bGptYnpOUzZ6VGgtNU5majZib1Voak1LdDFBRkQ0ellOVFZ0cnRud2hNamJrWkluU1JqeXNnMjBDamtKQnpnRUQ5M1pDSWhTRzlWNVFTY1RxQ2h3bEpTQnBQb0VrSGdOM09LdGhRaFNkWVZLX3VNc2lYWHk1LVFlTGdtbjA4TkZMa0Y5SS01UkJFM19CQjdib3psY3NR?oc=5",
-     "time": "2026-10-16T08:01:29+00:00"
-    },
-    {
-     "title": "WDC Stock Sinks 11% After-Hours Despite Earnings Beat \u2014 Retail Questions Selloff, Blames \u2018Technicals And Algos\u2019",
-     "publisher": "Stocktwits",
-     "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOWjk5OTVpSk00bkFDQmJyakRoLU5BY1Z1YkVpNVVuZmpSd084ajljODlqa0RNTmRqUlRVM2xtdXIyVTdTQmZpbmEyRWlwdGxnelgwUjUxbG94aWYwQk8zVzRnMlZhM0FqOVR4TnZCTUdnYndBR0J3Q0xGOU12U2cyZjJfTF9udUlVRUZDcGYwWGNVbzhZYnhyWG9sWnFkT0RaWlpCZE9tRTM5YXBJRUJINUJBdFN6ZDJ6VjFoTjh1eVZQa0tid3BJYkc1NFNNdlBRTlFUYWEzTWoyTFZwb3JOeHVhVzlnYzJYSGxz?oc=5",
-     "time": "2026-10-16T02:33:10+00:00"
-    },
-    {
-     "title": "Kaplan Fox Urges AppLovin Corporation (NASDAQ: APP) Investors Wit",
-     "publisher": "The National Law Review",
-     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOTmtzdk9WSjlqRWF4bVlrRTlHbWYxQVYtS3FuS2N6U3o1SDhlX3FHd3dDbmlPU1dhTVhKREZ4RjNLSzNONTNBSjB5em9YT2J1SnFCV2htU0xCdFhCNVBielg0d0ktTzFtQTFaTXp5a0NKeFM2VG9mSEw4cTd5djJodDFWYWdTUzlKcUJFRU9nMlROYjdaLUJsQ0tzX0ZpU1VSR01hd0h4R2N3MEtXVUE?oc=5",
-     "time": "2026-10-16T00:49:55+00:00"
-    },
-    {
-     "title": "CELH Stock Heads For 16-Month Lows After Q2 Earnings Miss Sparks Massive Selloff \u2013 Retail Eyes Guidance Update",
-     "publisher": "Stocktwits",
-     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNSDJhaHpUX1RqRDh2MHZNdWJ0WE95ZjhmNDRMeFg5ZW1wVTR3WnltVUV6aWtFY2F0ZW9rWUJWM1FESXctbHMxYk1CZDdpbERlVUV5a3plYzY5TW40YzVUQjI1R1l1VGpsdV9QemRJaXpObTdvTmUtQmw4Wm5lVVhDYjlvQVdtOHBMMjZZMWNraUlhZmc4VEc4U0hvei1odHZtWmMwZ0p5aGt5amt1LXV1SHNsblI5ZkNPNWV3MlBB?oc=5",
-     "time": "2026-10-16T00:11:23+00:00"
-    },
-    {
-     "title": "CoreWeave, Broadcom Join Objections to OKX-ICE Stock Tokenization",
-     "publisher": "The Defiant",
-     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQOU1raUk4OXVVUEdxeUJrSEo0N2JQeDJYZXBYYUU4dHRueUxEa0xWaGtmSDhnNWdaWW1wSUtyV0dtb1JmYzNDTnhpV05NZG1fY2JhN09nLXBQeGZmV2xwMXRFQXNPZVJkaUJOWXhXbFNvTUhmVnVIMmpvRUYwbFBaek0tWGFzSkw5elJZNDJMc3FuWEw5ZDVVajhkcHM4ODJtaHVWTlJrYnVDVVZnQjFMVktabVY?oc=5",
-     "time": "2026-10-15T23:59:01+00:00"
-    }
-   ],
-   "brief": null
-  },
-  {
    "symbol": "AMAT",
    "name": "Applied Materials",
    "list": "portfolio",
-   "price": 418.12,
+   "price": 417.67,
    "prev_close": 430.01,
-   "change_pct": -2.8,
+   "change_pct": -2.9,
    "trigger_change": -3.1,
-   "peak_change": -3.3,
+   "peak_change": -3.7,
    "first_seen": "2026-10-16T15:11:41+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 550.01,
-    "change_pct": -1.58
+    "price": 558.84,
+    "change_pct": -1.04
    },
    "chart": {
-    "ema8": -9.6,
-    "ema21": -12.7,
-    "sma50": -13.3,
-    "sma200": -4.8,
+    "ema8": -9.7,
+    "ema21": -12.8,
+    "sma50": -13.4,
+    "sma200": -4.9,
     "momentum": false
    },
    "headlines": [
