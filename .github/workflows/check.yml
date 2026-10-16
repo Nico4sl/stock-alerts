@@ -40,6 +40,9 @@ jobs:
     environment:
       name: github-pages
     steps:
+      - name: Note start time
+        run: echo "T0=$(date +%s)" >> "$GITHUB_ENV"
+
       - uses: actions/checkout@v4
 
       - name: Restore alert memory
@@ -101,11 +104,9 @@ jobs:
         if: always() && github.ref == 'refs/heads/main'
         env:
           GH_TOKEN: ${{ github.token }}
-          STARTED: ${{ github.run_started_at }}
         run: |
           if ! python3 engine/check.py --chain-window; then echo "outside trading window – chain stops"; exit 0; fi
-          start=$(date -d "$STARTED" +%s 2>/dev/null || date +%s)
-          wait=$(( start + 300 - $(date +%s) ))
+          wait=$(( ${T0:-$(date +%s)} + 290 - $(date +%s) ))
           if [ $wait -gt 0 ]; then echo "next check in ${wait}s"; sleep $wait; fi
           gh api -X POST "repos/${{ github.repository }}/actions/workflows/check.yml/dispatches" \
             -f ref=main -f "inputs[auto]=true" -f "inputs[test_notification]=false"
