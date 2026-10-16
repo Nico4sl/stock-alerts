@@ -1,22 +1,22 @@
 {
  "date": "2026-10-16",
  "threshold": 3.0,
- "updated": "2026-10-16T16:07:24+00:00",
+ "updated": "2026-10-16T16:27:31+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 767.08,
-   "change_pct": -0.61
+   "price": 767.6,
+   "change_pct": -0.54
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 716.19,
-   "change_pct": -1.62
+   "price": 717.01,
+   "change_pct": -1.51
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 79.87,
-   "change_pct": -0.13
+   "price": 79.7,
+   "change_pct": -0.33
   }
  },
  "movers": [
@@ -24,9 +24,9 @@
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 170.7,
+   "price": 170.0,
    "prev_close": 188.41,
-   "change_pct": -9.4,
+   "change_pct": -9.8,
    "trigger_change": -6.2,
    "peak_change": -9.8,
    "first_seen": "2026-10-16T14:33:43+00:00",
@@ -37,10 +37,10 @@
     "change_pct": -4.59
    },
    "chart": {
-    "ema8": -14.6,
-    "ema21": -20.6,
-    "sma50": -23.4,
-    "sma200": -1.9,
+    "ema8": -14.9,
+    "ema21": -20.9,
+    "sma50": -23.7,
+    "sma200": -2.3,
     "momentum": false
    },
    "headlines": [
@@ -99,9 +99,9 @@
    "symbol": "CRWD",
    "name": "CrowdStrike",
    "list": "portfolio",
-   "price": 226.8,
+   "price": 226.23,
    "prev_close": 244.57,
-   "change_pct": -7.3,
+   "change_pct": -7.5,
    "trigger_change": -4.9,
    "peak_change": -8.1,
    "first_seen": "2026-10-16T14:33:43+00:00",
@@ -112,10 +112,10 @@
     "change_pct": -4.59
    },
    "chart": {
-    "ema8": -9.7,
-    "ema21": -10.0,
-    "sma50": -2.7,
-    "sma200": 41.3,
+    "ema8": -9.9,
+    "ema21": -10.3,
+    "sma50": -3.0,
+    "sma200": 40.9,
     "momentum": false
    },
    "headlines": [
@@ -174,9 +174,9 @@
    "symbol": "NOW",
    "name": "ServiceNow",
    "list": "portfolio",
-   "price": 140.26,
+   "price": 140.83,
    "prev_close": 148.57,
-   "change_pct": -5.6,
+   "change_pct": -5.2,
    "trigger_change": -3.4,
    "peak_change": -5.7,
    "first_seen": "2026-10-16T14:33:43+00:00",
@@ -187,10 +187,10 @@
     "change_pct": -4.59
    },
    "chart": {
-    "ema8": -0.4,
-    "ema21": 1.3,
-    "sma50": 4.0,
-    "sma200": 21.9,
+    "ema8": -0.1,
+    "ema21": 1.7,
+    "sma50": 4.5,
+    "sma200": 22.4,
     "momentum": true
    },
    "headlines": [
@@ -249,23 +249,23 @@
    "symbol": "AXON",
    "name": "Axon",
    "list": "watchlist",
-   "price": 401.98,
+   "price": 401.26,
    "prev_close": 417.19,
-   "change_pct": -3.6,
+   "change_pct": -3.8,
    "trigger_change": -3.5,
    "peak_change": -4.4,
    "first_seen": "2026-10-16T15:06:37+00:00",
    "sector": {
     "etf": "XLI",
     "name": "Industrials",
-    "price": 168.11,
-    "change_pct": 0.13
+    "price": 168.06,
+    "change_pct": 0.1
    },
    "chart": {
-    "ema8": -2.6,
-    "ema21": -6.8,
-    "sma50": -20.1,
-    "sma200": -17.7,
+    "ema8": -2.8,
+    "ema21": -7.0,
+    "sma50": -20.2,
+    "sma200": -17.9,
     "momentum": false
    },
    "headlines": [
@@ -321,101 +321,26 @@
    "brief": "2026-10-16-AXON"
   },
   {
-   "symbol": "AMAT",
-   "name": "Applied Materials",
-   "list": "portfolio",
-   "price": 416.68,
-   "prev_close": 430.01,
-   "change_pct": -3.1,
-   "trigger_change": -3.1,
-   "peak_change": -3.3,
-   "first_seen": "2026-10-16T15:11:41+00:00",
-   "sector": {
-    "etf": "SMH",
-    "name": "Semiconductors",
-    "price": 548.45,
-    "change_pct": -1.86
-   },
-   "chart": {
-    "ema8": -9.9,
-    "ema21": -13.0,
-    "sma50": -13.6,
-    "sma200": -5.1,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "ETFs Are Net Sellers of Applied Materials (AMAT) on Oct. 14",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOd1lWZ01oZTRWWkVDRVIzbzBJUmZvcUFjSDVyU1FVUFlnQmtiWjVMTzhrb0VCOXlOclczOHJhT0pQa1EyQ2hkMi1JTko1TFZyVFA4enNvNTFrUDhkeVN1STFEazZmMWtEY1FyWVBobl9iSjBfZE1uSVh5N3RaVlFwYTVHNDdiT0RGRGg1Vy1QcFB2SlZmNy1TRTIwVXQ0cVBz?oc=5",
-     "time": "2026-10-16T11:03:30+00:00"
-    },
-    {
-     "title": "Applied Materials Stock Extends An 8-Day Losing Streak To A 21% Loss",
-     "publisher": "Trefis",
-     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOZEs2OWc5NENYNWxlLUZFNlJOanFzazhFMm9LMmFpOWdRUGRuRmhjVUtGT0ZhQk10TDVrUG9pdmVKN2w2UHVMa2N2dktaVWlEdzQxTjJyZ1c1Wk5taS0zQkVzWXFZUjBGeGxiMkxmV3FqS0hMaFZpVVlLZWxhZ29YVmRfbk9QX2NvNlZKWWVVVHRUTHJyY1FRZlU0U2N1bC1wNnRCREI2LTdHMVpaWFlmbDRWQlpEcENvejVlVUttc2ZicnRhNUlZ?oc=5",
-     "time": "2026-10-16T06:12:37+00:00"
-    },
-    {
-     "title": "Applied Materials Stock Shot Up 7% Today \u2013 Everything To Know About Its Advanced Chipmaking Systems",
-     "publisher": "Stocktwits",
-     "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPelQ1azFGd0F4dmUzSi1kWWVXX29DMGFZMHVDZW4tSG9hZkhWN2JzNmFHbzIyV2ItdTlKUzEzb3pjZGcxaTJEYnFmZVJ2VjFZYV9XZ3Rna2Z1aGVmb216b0FaOGt3MmRWbzc1dnFOdVZoX3AzQ3lZUlluNS1Xb0FTbEcxMm1EejNRdm51VTFZaWpoLXNRNWFkQzA1WFh2U0hhbU1GY09yLUhTcGMwQmZhY0hWT1d6T01FSWFvUmE3NEJqVFJDLUFCbzhGVWtsX0NDVFRkdkRSMHlyYlVTaWFhN2JNNEVMOFd0T0JvaFBtSQ?oc=5",
-     "time": "2026-10-16T03:43:45+00:00"
-    },
-    {
-     "title": "Has Buying Applied Materials Stock\u2019s Dips Paid Off?",
-     "publisher": "Trefis",
-     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNcTF5RjJpN2tYMjhueEROLTV5UmYzSDRQTkMyRW00am9DbTZTcXVkeklDdGhWMm9tR25FUXFyR2VJRUFXMnNfV3dZeFdmRGFnMFNjZUIwY2stS2dmcWhHR01JVUVGMjdpTkNOVmxHd1NrYkdIUGxBYUdCb1RBczJGSjdDR2plRFFCVTBlTC1SdmFPcDBVVmtESGI4ZEU2NnRRenEtZGNaM05PS3A1QkhZ?oc=5",
-     "time": "2026-10-15T23:00:18+00:00"
-    },
-    {
-     "title": "MU, AMAT Stocks Rise Premarket: Analysts Justify Bull Case For Memory Darlings Amid Supply Crunch",
-     "publisher": "Stocktwits",
-     "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQUjE0WFhKZGJSU3E3RW52QXBCMW1reTZVZG16bm5vV2lLWWljSTQwblR6cG5tWlVLczZWRUt5Yk1GUVhUTVVWSGg3TF9PTTN0aEVvWUpFME9qbFVUdktqdXVsVHdmaXZwc2xRbVJvR0szNlpiZFhPRm00aUV1WU4xZ2RCRjZyYmJRNFF2QnUyODBTMFNBVGtTaXdzeHBSLUNWNUpNQ0JaUUxNNy1ndnVzU0lyUFVMeDgxSlpiM1M2VGJDUS01a2p4ODVLUDNNZXJTZV9hTWdmYVFyYkE1Ylc2REFNVFEweHJSU1RWdVlqcWQ?oc=5",
-     "time": "2026-10-15T22:07:32+00:00"
-    },
-    {
-     "title": "Applied Materials Inc Stock (AMAT) Moved Down by 4.39% on Oct 15: Key Drivers Unveiled",
-     "publisher": "TradingKey",
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQOVRsWURRQlF4dVFnbEpHRmJRQU1EbFhTLUZxZjdKUVpzU3JJQU1XdDZCQWNpdC1WMnAtbGpKVWlDQXZ4aEJ1UmNDanVkbVJXYVJuTEJ1QlE1RVR3U005WHRsT1F6LUdTbGFpMWdFaEkzUXpWRXhFV0V4cWxSb3k0dW9IQWh6OUVQYkpN?oc=5",
-     "time": "2026-10-15T15:15:32+00:00"
-    },
-    {
-     "title": "Chart of the Day: Applied Materials Follows the Rest of Semi Stocks",
-     "publisher": "RealMoney Pro",
-     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNRVlJZ2JHdEV1cThnczNGV2JHQ3pkY3hPanlzTTNHTWNzalpRU3FhSW9aYkJMd19uMHBSQlkzRXdXdzdQbVI3MC1SLUZ1YmNFQ2xKanZrSUdWRzE1bmJJUnhPZW1tMkEteW5ndmJXcE1BbFE5NHFuWlhucjZMRmVnSll6Sk1UcUdQUDkxcnZfTm9EUFBHeGJxUGE4MnBZV1FEM2lrTw?oc=5",
-     "time": "2026-10-15T14:46:00+00:00"
-    },
-    {
-     "title": "Applied Materials vs. Broadcom: Which Tech Stock Is a Better Buy in 2026?",
-     "publisher": "The Motley Fool",
-     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPYTRTbUdzTVNzYy03VDFvTVlTeWtpOC1VRXZmN0pna1dHUEJvc2g0eTY3b3F4MWVhUng5S0dNN2k2YnA2dVBId091SFlpdlBETVBzaFQ0dFBwWE1hNmo2Y3lxUWN1Q0JRNkZ2bHViWUFfck9kN3hvM0NMUjZCZVpZNW9FYkgweVhmMmVyWDUtTVFuaTVWYXdtZklNeGJPb3ZabDRReUZMNHNlSDlTeUt4bmJyNm5kVVVOR0lNSk5NRmE?oc=5",
-     "time": "2026-10-15T14:05:00+00:00"
-    }
-   ],
-   "brief": "2026-10-16-AMAT"
-  },
-  {
    "symbol": "ANET",
    "name": "Arista Networks",
    "list": "portfolio",
-   "price": 180.09,
+   "price": 179.47,
    "prev_close": 185.58,
-   "change_pct": -3.0,
+   "change_pct": -3.3,
    "trigger_change": -3.0,
    "peak_change": -3.3,
    "first_seen": "2026-10-16T15:17:04+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 548.45,
-    "change_pct": -1.86
+    "price": 550.01,
+    "change_pct": -1.58
    },
    "chart": {
-    "ema8": -8.6,
-    "ema21": -10.4,
-    "sma50": -9.3,
-    "sma200": 10.7,
+    "ema8": -8.8,
+    "ema21": -10.7,
+    "sma50": -9.6,
+    "sma200": 10.3,
     "momentum": false
    },
    "headlines": [
@@ -474,21 +399,21 @@
    "symbol": "AVGO",
    "name": "Broadcom",
    "list": "watchlist",
-   "price": 334.11,
+   "price": 333.82,
    "prev_close": 344.33,
-   "change_pct": -3.0,
+   "change_pct": -3.1,
    "trigger_change": -3.0,
-   "peak_change": -3.0,
+   "peak_change": -3.1,
    "first_seen": "2026-10-16T16:07:24+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 548.45,
-    "change_pct": -1.86
+    "price": 550.01,
+    "change_pct": -1.58
    },
    "chart": {
-    "ema8": -4.4,
-    "ema21": -5.9,
+    "ema8": -4.5,
+    "ema21": -6.0,
     "sma50": -8.7,
     "sma200": -9.3,
     "momentum": false
@@ -544,6 +469,156 @@
     }
    ],
    "brief": null
+  },
+  {
+   "symbol": "APP",
+   "name": "AppLovin",
+   "list": "portfolio",
+   "price": 270.87,
+   "prev_close": 279.29,
+   "change_pct": -3.0,
+   "trigger_change": -3.0,
+   "peak_change": -3.0,
+   "first_seen": "2026-10-16T16:27:31+00:00",
+   "sector": {
+    "etf": "IGV",
+    "name": "Software",
+    "price": 104.57,
+    "change_pct": -4.59
+   },
+   "chart": {
+    "ema8": -1.5,
+    "ema21": -5.9,
+    "sma50": -11.4,
+    "sma200": -37.7,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "AppLovin stock: Results due November 4 for AppLovin stock",
+     "publisher": "ad-hoc-news.de",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPU2N1VkJ1RWJuLVozeTk2MEZqY0hyckN1Tl9DeWNvTGRZNml4QzdqMk1taUdCbS02YXp2R1ZoeTgyR05OclhYdUVEQnRXMTFzeXpwZFBSYVpyaUZIMkdMbkhuVjhwWGhadEFDM0VNTTBULThYdE9GblRwd3NhVGk2V1pab2h1bFZsUjR5R25NWFkyZTNxdExibElEbkNCWTdVZUxZYnN5VGJBZ01TNHJfUU9qX1VRbTk3SHJv?oc=5",
+     "time": "2026-10-16T14:53:44+00:00"
+    },
+    {
+     "title": "AppLovin stock near 52-week low: fundamentals vs. bearish trend",
+     "publisher": "Investing.com",
+     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPMlY3bGFvcmZFUEFoTlhGX2JMblJSbUFIWk1tcjRwLVVVYXh0TVJHUDBaS3ExQjRHZXlHMjhxOHNmeFcxTWJhTUdHUDFsU2c0SDFKNGFrVFp2VndqSmxTTUhnejBodEwzUUxzclFuanBrdFk4bFA2cUQxTWdhZFdvdzR4T3VUVVhJSDFHZk4wT1otSEw5QTFVemdzZE81REhQVjZyT1hyQWM2Yl9WRk0zUURkc2ktTjZCOEN2a2dpUQ?oc=5",
+     "time": "2026-10-16T12:32:41+00:00"
+    },
+    {
+     "title": "APP Securities Announcement: AppLovin Investors with Losses",
+     "publisher": "GlobeNewswire",
+     "url": "https://news.google.com/rss/articles/CBMi0wJBVV95cUxOZkh5SGs0ak5xZzU1QzVpeDRXZVBOSnNGcF9FSkdjNTF5c2NNOFVwSFctZUNrTlVEV0d2eGU3UDYyZkppLWUzNVFGcHJBMVRSS055MS1CUmNxa0hYMGZYRFBTRFpoZF82c1N5X2hhV2dGQlp4QmhUZk0weDZpQVE1dm9zbkdWUXNVam5DMjVfNkhSRVhmTnAzaWhwTld3cDNzTlA2QnJTNl9FeExyRlJab1U0SzNHMU9KVUdPTjI0SW1pbk10U0FjbUdoUFNfSE1nRk90SW1XRFlCMVpFS0hVX2hQRmdnUXVGbjg0UTM2dGtVSlNvS1hxcVNoR2tDaFJrNURON2JnN05fbmh1aXJLa0pmOEJDVTByRmM1NEZ1d0QyQl95TGk3VUhvamtjdG10bnNfQUJQUkZhMWJMWWpkMWxMSl9XRmF4Y0FEcUtJdjVoMTQ?oc=5",
+     "time": "2026-10-16T10:18:00+00:00"
+    },
+    {
+     "title": "Wedbush cuts target for AppLovin stock to USD 560",
+     "publisher": "ad-hoc-news.de",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQa29BSjN4OFRMSDdmcDVVSENPT042bGptYnpOUzZ6VGgtNU5majZib1Voak1LdDFBRkQ0ellOVFZ0cnRud2hNamJrWkluU1JqeXNnMjBDamtKQnpnRUQ5M1pDSWhTRzlWNVFTY1RxQ2h3bEpTQnBQb0VrSGdOM09LdGhRaFNkWVZLX3VNc2lYWHk1LVFlTGdtbjA4TkZMa0Y5SS01UkJFM19CQjdib3psY3NR?oc=5",
+     "time": "2026-10-16T08:01:29+00:00"
+    },
+    {
+     "title": "WDC Stock Sinks 11% After-Hours Despite Earnings Beat \u2014 Retail Questions Selloff, Blames \u2018Technicals And Algos\u2019",
+     "publisher": "Stocktwits",
+     "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOWjk5OTVpSk00bkFDQmJyakRoLU5BY1Z1YkVpNVVuZmpSd084ajljODlqa0RNTmRqUlRVM2xtdXIyVTdTQmZpbmEyRWlwdGxnelgwUjUxbG94aWYwQk8zVzRnMlZhM0FqOVR4TnZCTUdnYndBR0J3Q0xGOU12U2cyZjJfTF9udUlVRUZDcGYwWGNVbzhZYnhyWG9sWnFkT0RaWlpCZE9tRTM5YXBJRUJINUJBdFN6ZDJ6VjFoTjh1eVZQa0tid3BJYkc1NFNNdlBRTlFUYWEzTWoyTFZwb3JOeHVhVzlnYzJYSGxz?oc=5",
+     "time": "2026-10-16T02:33:10+00:00"
+    },
+    {
+     "title": "Kaplan Fox Urges AppLovin Corporation (NASDAQ: APP) Investors Wit",
+     "publisher": "The National Law Review",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOTmtzdk9WSjlqRWF4bVlrRTlHbWYxQVYtS3FuS2N6U3o1SDhlX3FHd3dDbmlPU1dhTVhKREZ4RjNLSzNONTNBSjB5em9YT2J1SnFCV2htU0xCdFhCNVBielg0d0ktTzFtQTFaTXp5a0NKeFM2VG9mSEw4cTd5djJodDFWYWdTUzlKcUJFRU9nMlROYjdaLUJsQ0tzX0ZpU1VSR01hd0h4R2N3MEtXVUE?oc=5",
+     "time": "2026-10-16T00:49:55+00:00"
+    },
+    {
+     "title": "CELH Stock Heads For 16-Month Lows After Q2 Earnings Miss Sparks Massive Selloff \u2013 Retail Eyes Guidance Update",
+     "publisher": "Stocktwits",
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNSDJhaHpUX1RqRDh2MHZNdWJ0WE95ZjhmNDRMeFg5ZW1wVTR3WnltVUV6aWtFY2F0ZW9rWUJWM1FESXctbHMxYk1CZDdpbERlVUV5a3plYzY5TW40YzVUQjI1R1l1VGpsdV9QemRJaXpObTdvTmUtQmw4Wm5lVVhDYjlvQVdtOHBMMjZZMWNraUlhZmc4VEc4U0hvei1odHZtWmMwZ0p5aGt5amt1LXV1SHNsblI5ZkNPNWV3MlBB?oc=5",
+     "time": "2026-10-16T00:11:23+00:00"
+    },
+    {
+     "title": "CoreWeave, Broadcom Join Objections to OKX-ICE Stock Tokenization",
+     "publisher": "The Defiant",
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQOU1raUk4OXVVUEdxeUJrSEo0N2JQeDJYZXBYYUU4dHRueUxEa0xWaGtmSDhnNWdaWW1wSUtyV0dtb1JmYzNDTnhpV05NZG1fY2JhN09nLXBQeGZmV2xwMXRFQXNPZVJkaUJOWXhXbFNvTUhmVnVIMmpvRUYwbFBaek0tWGFzSkw5elJZNDJMc3FuWEw5ZDVVajhkcHM4ODJtaHVWTlJrYnVDVVZnQjFMVktabVY?oc=5",
+     "time": "2026-10-15T23:59:01+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
+   "symbol": "AMAT",
+   "name": "Applied Materials",
+   "list": "portfolio",
+   "price": 418.12,
+   "prev_close": 430.01,
+   "change_pct": -2.8,
+   "trigger_change": -3.1,
+   "peak_change": -3.3,
+   "first_seen": "2026-10-16T15:11:41+00:00",
+   "sector": {
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 550.01,
+    "change_pct": -1.58
+   },
+   "chart": {
+    "ema8": -9.6,
+    "ema21": -12.7,
+    "sma50": -13.3,
+    "sma200": -4.8,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "ETFs Are Net Sellers of Applied Materials (AMAT) on Oct. 14",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOd1lWZ01oZTRWWkVDRVIzbzBJUmZvcUFjSDVyU1FVUFlnQmtiWjVMTzhrb0VCOXlOclczOHJhT0pQa1EyQ2hkMi1JTko1TFZyVFA4enNvNTFrUDhkeVN1STFEazZmMWtEY1FyWVBobl9iSjBfZE1uSVh5N3RaVlFwYTVHNDdiT0RGRGg1Vy1QcFB2SlZmNy1TRTIwVXQ0cVBz?oc=5",
+     "time": "2026-10-16T11:03:30+00:00"
+    },
+    {
+     "title": "Applied Materials Stock Extends An 8-Day Losing Streak To A 21% Loss",
+     "publisher": "Trefis",
+     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOZEs2OWc5NENYNWxlLUZFNlJOanFzazhFMm9LMmFpOWdRUGRuRmhjVUtGT0ZhQk10TDVrUG9pdmVKN2w2UHVMa2N2dktaVWlEdzQxTjJyZ1c1Wk5taS0zQkVzWXFZUjBGeGxiMkxmV3FqS0hMaFZpVVlLZWxhZ29YVmRfbk9QX2NvNlZKWWVVVHRUTHJyY1FRZlU0U2N1bC1wNnRCREI2LTdHMVpaWFlmbDRWQlpEcENvejVlVUttc2ZicnRhNUlZ?oc=5",
+     "time": "2026-10-16T06:12:37+00:00"
+    },
+    {
+     "title": "Applied Materials Stock Shot Up 7% Today \u2013 Everything To Know About Its Advanced Chipmaking Systems",
+     "publisher": "Stocktwits",
+     "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPelQ1azFGd0F4dmUzSi1kWWVXX29DMGFZMHVDZW4tSG9hZkhWN2JzNmFHbzIyV2ItdTlKUzEzb3pjZGcxaTJEYnFmZVJ2VjFZYV9XZ3Rna2Z1aGVmb216b0FaOGt3MmRWbzc1dnFOdVZoX3AzQ3lZUlluNS1Xb0FTbEcxMm1EejNRdm51VTFZaWpoLXNRNWFkQzA1WFh2U0hhbU1GY09yLUhTcGMwQmZhY0hWT1d6T01FSWFvUmE3NEJqVFJDLUFCbzhGVWtsX0NDVFRkdkRSMHlyYlVTaWFhN2JNNEVMOFd0T0JvaFBtSQ?oc=5",
+     "time": "2026-10-16T03:43:45+00:00"
+    },
+    {
+     "title": "Has Buying Applied Materials Stock\u2019s Dips Paid Off?",
+     "publisher": "Trefis",
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNcTF5RjJpN2tYMjhueEROLTV5UmYzSDRQTkMyRW00am9DbTZTcXVkeklDdGhWMm9tR25FUXFyR2VJRUFXMnNfV3dZeFdmRGFnMFNjZUIwY2stS2dmcWhHR01JVUVGMjdpTkNOVmxHd1NrYkdIUGxBYUdCb1RBczJGSjdDR2plRFFCVTBlTC1SdmFPcDBVVmtESGI4ZEU2NnRRenEtZGNaM05PS3A1QkhZ?oc=5",
+     "time": "2026-10-15T23:00:18+00:00"
+    },
+    {
+     "title": "MU, AMAT Stocks Rise Premarket: Analysts Justify Bull Case For Memory Darlings Amid Supply Crunch",
+     "publisher": "Stocktwits",
+     "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQUjE0WFhKZGJSU3E3RW52QXBCMW1reTZVZG16bm5vV2lLWWljSTQwblR6cG5tWlVLczZWRUt5Yk1GUVhUTVVWSGg3TF9PTTN0aEVvWUpFME9qbFVUdktqdXVsVHdmaXZwc2xRbVJvR0szNlpiZFhPRm00aUV1WU4xZ2RCRjZyYmJRNFF2QnUyODBTMFNBVGtTaXdzeHBSLUNWNUpNQ0JaUUxNNy1ndnVzU0lyUFVMeDgxSlpiM1M2VGJDUS01a2p4ODVLUDNNZXJTZV9hTWdmYVFyYkE1Ylc2REFNVFEweHJSU1RWdVlqcWQ?oc=5",
+     "time": "2026-10-15T22:07:32+00:00"
+    },
+    {
+     "title": "Applied Materials Inc Stock (AMAT) Moved Down by 4.39% on Oct 15: Key Drivers Unveiled",
+     "publisher": "TradingKey",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQOVRsWURRQlF4dVFnbEpHRmJRQU1EbFhTLUZxZjdKUVpzU3JJQU1XdDZCQWNpdC1WMnAtbGpKVWlDQXZ4aEJ1UmNDanVkbVJXYVJuTEJ1QlE1RVR3U005WHRsT1F6LUdTbGFpMWdFaEkzUXpWRXhFV0V4cWxSb3k0dW9IQWh6OUVQYkpN?oc=5",
+     "time": "2026-10-15T15:15:32+00:00"
+    },
+    {
+     "title": "Chart of the Day: Applied Materials Follows the Rest of Semi Stocks",
+     "publisher": "RealMoney Pro",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNRVlJZ2JHdEV1cThnczNGV2JHQ3pkY3hPanlzTTNHTWNzalpRU3FhSW9aYkJMd19uMHBSQlkzRXdXdzdQbVI3MC1SLUZ1YmNFQ2xKanZrSUdWRzE1bmJJUnhPZW1tMkEteW5ndmJXcE1BbFE5NHFuWlhucjZMRmVnSll6Sk1UcUdQUDkxcnZfTm9EUFBHeGJxUGE4MnBZV1FEM2lrTw?oc=5",
+     "time": "2026-10-15T14:46:00+00:00"
+    },
+    {
+     "title": "Applied Materials vs. Broadcom: Which Tech Stock Is a Better Buy in 2026?",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPYTRTbUdzTVNzYy03VDFvTVlTeWtpOC1VRXZmN0pna1dHUEJvc2g0eTY3b3F4MWVhUng5S0dNN2k2YnA2dVBId091SFlpdlBETVBzaFQ0dFBwWE1hNmo2Y3lxUWN1Q0JRNkZ2bHViWUFfck9kN3hvM0NMUjZCZVpZNW9FYkgweVhmMmVyWDUtTVFuaTVWYXdtZklNeGJPb3ZabDRReUZMNHNlSDlTeUt4bmJyNm5kVVVOR0lNSk5NRmE?oc=5",
+     "time": "2026-10-15T14:05:00+00:00"
+    }
+   ],
+   "brief": "2026-10-16-AMAT"
   }
  ]
 }
