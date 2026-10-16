@@ -1,22 +1,22 @@
 {
  "date": "2026-10-16",
  "threshold": 3.0,
- "updated": "2026-10-16T15:17:04+00:00",
+ "updated": "2026-10-16T16:07:24+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 769.8,
-   "change_pct": -0.26
+   "price": 767.08,
+   "change_pct": -0.61
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 718.37,
-   "change_pct": -1.32
+   "price": 716.19,
+   "change_pct": -1.62
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 80.23,
-   "change_pct": 0.33
+   "price": 79.87,
+   "change_pct": -0.13
   }
  },
  "movers": [
@@ -24,26 +24,38 @@
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 171.72,
+   "price": 170.7,
    "prev_close": 188.41,
-   "change_pct": -8.9,
+   "change_pct": -9.4,
    "trigger_change": -6.2,
-   "peak_change": -8.9,
+   "peak_change": -9.8,
    "first_seen": "2026-10-16T14:33:43+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 105.08,
-    "change_pct": -4.12
+    "price": 104.57,
+    "change_pct": -4.59
    },
    "chart": {
-    "ema8": -14.2,
-    "ema21": -20.2,
-    "sma50": -23.0,
-    "sma200": -1.4,
+    "ema8": -14.6,
+    "ema21": -20.6,
+    "sma50": -23.4,
+    "sma200": -1.9,
     "momentum": false
    },
    "headlines": [
+    {
+     "title": "CoreWeave and Nebius Sink 9% as Sentiment Index Closes in on \u2018Extreme Fear\u2019",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOclZxOUhub3BtYkg0RlJtbHB4R3RFSVZHaGNJYW9RczBnRkVzZy1QYTIwZURsY3ZYajFkU0NiNUd4RzdHX1QwZC1NNmE2TmpjY0JZRm1kN2c1bU9OcHhVT2thMlhaUVVTRGRhSVVPV2lxV2lwaUtidkFRVkdYOVVLTjQ0cjlaaVRYVnU4R1RZamxOc3dkaTQwUE8yMGpHX25MdHdKTGpQTzM3RzlLVWhENjgxQURtVUU?oc=5",
+     "time": "2026-10-16T15:52:00+00:00"
+    },
+    {
+     "title": "Nebius Stock Falls 20% as AI Infrastructure Debt and Overcapacity Fears Hit NBIS",
+     "publisher": "CoinCodex",
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNaE1iS2hBUFVyamd6UVE4RWhRRnc4Yzc0VXB6bDl2UTJOOUs3ZUFQeWdlVU9ZaG1ERDRhRkd0MXpYcXpNV1RiZWlTT2JwWW1JdE5COTJRbzBjbU1oOUtDV0NQQjM1bFd4UUpsRTlndlA0TTB1YkxFTEFLVDBoNGl2bFhRQV85M2RIX01Vbm94YVRUbEFlQUlVYVZPNVVVVFZ6QUZNcWpLNHVTelpBVklvcDlxY0xDNm8?oc=5",
+     "time": "2026-10-16T15:34:00+00:00"
+    },
     {
      "title": "Why Is Nebius Group Stock Falling Friday?",
      "publisher": "Benzinga",
@@ -79,18 +91,6 @@
      "publisher": "Yahoo Finance",
      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNWXB0eklRTTB1SUFqSE56WUZsT3NXQlhrbWxpdXNqcG9meDR5UTRlQ21VXzF3ZnRXWTl2MG5EOWtzbVBONXNuU3NRTW5YRUZoRkpjcHlWZHJLZERNbDlwWjNUREstd1NTbWtTRTBpX2JEQnRzQ3BDYkpQalRsQnhXX0hLc3Vjbkt6eXQ2NklmN3E3ZVVjSWJpdWl3?oc=5",
      "time": "2026-10-16T08:27:34+00:00"
-    },
-    {
-     "title": "Funding Fears Could Be A Game Changer For Nebius Group (NBIS)",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQUGU0YTlhTXlrdWdEZGJTQ0hmZ2xpUnl4b0pCOEtzNWhJcUVFOEI4SHVQa2dTZU5mS2dxYnh6SU9OUU9waXFIQU4yMUZFVDlVbHp6T3pSNmZWSjFzQnotZ09QalNra2N1NWdqYVg4SWNaOTdaVXQyNW9DUndOQ2QzNWR6dUtSMmYyTi1faHRoQm1XTXBOZndEX29MT1A?oc=5",
-     "time": "2026-10-16T04:31:00+00:00"
-    },
-    {
-     "title": "Nebius Group N.V. (NBIS) Stock Forecasts",
-     "publisher": "Yahoo! Finance Canada",
-     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOWlVVaEhhUDlUZTJtaUlIeW5jQjFXNGxRZjlqb05DLUlhYUFvOHVuX2NFSlNlWHRkX2psdzY3SVFxRURjS1I4QV95N2NYcUZMbTM5Q0lCMHVhRFVLNFlBX0RtY1dpazBSaXY3R2d2THpTN1A1Q2dsM0tqNXRvNi0wQy0yZjNMVnc5emJtcHpscnQ?oc=5",
-     "time": "2026-10-16T01:16:52+00:00"
     }
    ],
    "brief": "2026-10-16-NBIS"
@@ -99,23 +99,23 @@
    "symbol": "CRWD",
    "name": "CrowdStrike",
    "list": "portfolio",
-   "price": 227.9,
+   "price": 226.8,
    "prev_close": 244.57,
-   "change_pct": -6.8,
+   "change_pct": -7.3,
    "trigger_change": -4.9,
-   "peak_change": -6.8,
+   "peak_change": -8.1,
    "first_seen": "2026-10-16T14:33:43+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 105.08,
-    "change_pct": -4.12
+    "price": 104.57,
+    "change_pct": -4.59
    },
    "chart": {
-    "ema8": -9.3,
-    "ema21": -9.6,
-    "sma50": -2.3,
-    "sma200": 41.9,
+    "ema8": -9.7,
+    "ema21": -10.0,
+    "sma50": -2.7,
+    "sma200": 41.3,
     "momentum": false
    },
    "headlines": [
@@ -130,6 +130,12 @@
      "publisher": "Benzinga",
      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOc2NBU19QUXpzQ2JuWWNVQWp3X3ZabVNfY1dJTjRwWi1oRkZnU3laTUNla1E2R3B2MDNZb3lvT2EtbHltNjUtcWxXWmZhTi1WWWk0aTZNem5sTjU3c1FDenQyRG9rMWhfZlNVRWUyYmZNSkJjZ0Q4cVc4SDhPZEdKcmRBVjNUc3FSNkRtQU1WZjJET244cWxFbmJfYWFwYVdhNEMtSXRKNVFoSVdraTBmNXR0Nm5jdjF5bXBLZE0zc2o0QVk?oc=5",
      "time": "2026-10-16T11:34:20+00:00"
+    },
+    {
+     "title": "Mapping the Market: Bulls beware \u2014 CrowdStrike shares could be in for more losses",
+     "publisher": "Reuters",
+     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNVzhyTExkaER4WEJ3VXV5MnMyVjNxMW16aVE3YXFlRDkwSGtseDVfUzJOVkZLci04NG1KTFlfWTB4RlFmZmFxdUs3blpoOVJDTjJ2VTFRMXJDZjY4OWFSQ0hEbUN0UnZGUGh4TDZfbFF4Ui1qZGhLbWxOdjd6OHZ5MnktMA?oc=5",
+     "time": "2026-10-16T10:05:50+00:00"
     },
     {
      "title": "CrowdStrike vs. ServiceNow: Comparing Revenue Trends Between These Growing Software Giants",
@@ -160,12 +166,6 @@
      "publisher": "Stocktwits",
      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQQ3Uya0U0OGJ2TjB6UGFaWmZyckNDcHlmOXphWHY1dk5meHJ0bHBVZklfOWdsb2UzX2FROE1kaVNvTUhSQWhmaGxhdEJFNkkwQXFJQmRJa2ZJZG9ULTluN3dPY0xmM1habEtoMWtEVk1GRjFSWDFuTEt5WWs0THBoMHZZaUdIRnViMms4bDgtdnVvTGNiQlpCUUxTUDdpWWVaRENYRjZld2EtazBuSkdWUlhlXzA0Nk0?oc=5",
      "time": "2026-10-15T23:37:30+00:00"
-    },
-    {
-     "title": "What Did CrowdStrike Say Before Its Stock Nearly Doubled?",
-     "publisher": "Trefis",
-     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQREJzNE0wMjRTMVgwbl83TEFwVWd4dzc4UGNMNzlmUXJEOXk3Ti1ZZmhmOFk0TVNpNTgtcVBENXhpQ1dqMDU2T0NscUZGTjNFREM5R1RTNndPWTM0TjhEeFd2czctbm40ZUFuMFhqLXJYVm5yYWphSUt3cnlyOW9zVnAyRGhaclVWZTA3T3hZZVJzMWhvZzBTN2FJb3hrVnlnQ3Uyc0hHQnJxalY5YnJWOE1PR01xWGRZ?oc=5",
-     "time": "2026-10-15T20:44:03+00:00"
     }
    ],
    "brief": "2026-10-16-CRWD"
@@ -174,26 +174,44 @@
    "symbol": "NOW",
    "name": "ServiceNow",
    "list": "portfolio",
-   "price": 141.95,
+   "price": 140.26,
    "prev_close": 148.57,
-   "change_pct": -4.5,
+   "change_pct": -5.6,
    "trigger_change": -3.4,
-   "peak_change": -4.8,
+   "peak_change": -5.7,
    "first_seen": "2026-10-16T14:33:43+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 105.08,
-    "change_pct": -4.12
+    "price": 104.57,
+    "change_pct": -4.59
    },
    "chart": {
-    "ema8": 0.5,
-    "ema21": 2.4,
-    "sma50": 5.3,
-    "sma200": 23.4,
+    "ema8": -0.4,
+    "ema21": 1.3,
+    "sma50": 4.0,
+    "sma200": 21.9,
     "momentum": true
    },
    "headlines": [
+    {
+     "title": "Enterprise Software Stocks Fall as AI Financing Worries Spread: Palantir and ServiceNow Drop 5%, Salesforce Slides 4%",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOeTFma2tFZldOMmxKQlVIdlYxa1lVal91a1B6VGx2SS1JMEZUNFgzVnVzbEpqd2J6MEFxalV6bnNTMzFBUzQ3dkVXWXYyNk5udmp5ZWhPQUpCMTdNSHhLUnNjbmMxZ1Q4UXJBaThaOWxNSWRUN0RFcFdGVklyeW5ZMkZpT1F3M3BoOV9QVTZZeHBxUzdxQ2JsTjR2dUQyUWhqLVRWUmFuNVo1TlkxOFBQakRMYWY4TTNnTURkaWkwREd6RGVxcThpdTA5aGZVaGRwY0RjSGhoWjdicC1uczhxWktDX2FZUG1GOHZlcFh3?oc=5",
+     "time": "2026-10-16T15:57:00+00:00"
+    },
+    {
+     "title": "How Deep System Roots Protect ServiceNow (NOW) in AI Era",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQX3FXeVBVV1FOb3FGR0xHdGw4SEw1ZjFkYTc4WGx4bkxVRld4RS1qWGxlUG15VVU1bXdOakNIUVRVQ0toNUFjVU9PVGV4SWNlSTBnYm1nd0N2ejZ3S2tYc1JJNVpKYUdEOFF6US1WZFZ3bF9EV1ZRYkV3ekRwZ09ReExMNGtUTGZ2Uk9MRmxTMlRWZlFtRVYzTWNIOWZaWWJnQzZR?oc=5",
+     "time": "2026-10-16T15:12:58+00:00"
+    },
+    {
+     "title": "ServiceNow Shares Surge 5.1% as New AI Features and Developer Tools Announced",
+     "publisher": "SSBCrack",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOODZYdUg1bk1SNWlLV3pwcVNRYUd2Y0lKZE1VMWNYRGx3c3BuOG1vWDhRN3h3VWZKS3BUMzJvMUVWNGZnZzFwLVdaVkc5b3c0d1V0bktoc2FnWDM2VllycHpxdExmeC0wd0Rtd3BWSm5wRS1TX1YwdzdxUmtDcmJlQXBlU2NyOC1oVGg4M0h6UTNhU2lmQ2Vaazc2cjZpckxjbWZTdDd3?oc=5",
+     "time": "2026-10-16T15:09:03+00:00"
+    },
     {
      "title": "ServiceNow (NYSE:NOW) Given New $175.00 Price Target at Piper Sandler",
      "publisher": "MarketBeat",
@@ -219,28 +237,10 @@
      "time": "2026-10-16T09:46:26+00:00"
     },
     {
-     "title": "\"ServiceNow Tokenized Stock (Robinhood)\" price data",
-     "publisher": "CryptoDaily",
-     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5FVjZqTXpNemY2TnI2UHJlRVRkb0x6QTJaeFl3WlExd255VVp3Zld3ZklvaUZwXzAyaFVFeHMwNEt5dkJGMmZlV0dyNFRhU25CbVYxT2plVmJVZjdJR3NaSVBQWWdoNGpqVnRuVklDd1RHQU1xRnJr?oc=5",
-     "time": "2026-10-16T03:29:59+00:00"
-    },
-    {
-     "title": "Why Is NOW Stock Soaring In Premarket Trading Today?",
-     "publisher": "Stocktwits",
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOWDVwdTJRdGdWQk1fdzFUMGNmQ0hVRFd4Rjk2M3BlckpoQnpsd1p0bkk4ZHNqMWIzelEzS1JSend4SThwQmRNeGVUWjFDVXpNWjlNeTRHdi1tT3d6eDJMSm80NlpLUW92OUZ5WXd0Z2ZWNllVcS1ZYWpCWWxNeUp4NGVLTTV2MnE5Sm81Y2dGZmVrc2dONXZqcVMyY08weno0NUxWel94R3dYUzdUUzZFVjdXRVBIZw?oc=5",
-     "time": "2026-10-16T03:09:02+00:00"
-    },
-    {
-     "title": "ServiceNow Inc (NOW) Stock Up 6.1% and Still Undervalued -- GF S",
-     "publisher": "GuruFocus",
-     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNjlNNFY4aTc2ZVpVUUg0LWFheWJkbnlwc2wweXF5UjE0VlhSRlZGTnV4RzJ3TUxibTItZXdCb19JazNDVjVybHRiUXFNcm1WSElWY2o0SklFQXBfbkpYUFJqMFlBNHhjbnVMaDhwY2Z4LUdrYWVRWjFRLVlJMUJPR0k0a0Zxam9mckZwSGFwUUdycER4QVhwaUVxUmNHSEtnQjRkSGtwR3Zidw?oc=5",
-     "time": "2026-10-15T21:34:17+00:00"
-    },
-    {
-     "title": "Why ServiceNow (NOW) Stock Is Trading Up Today",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQWFlSWUJHT3pxbDRYN2E1S0RXcFZPRXZhTy1IcEduYl81bXZJVjItYjFTeFRmNk9FVFVhc01KMkNWZ2ZEN1QtVWk4NXVWSHpNR0d3Y0Y3MmgtcHUzZmY5WllCSEg0Q1pTekx0LTJOdnVhNVEycHhtUGFSS1VMZmFiblRabnBBZEl2b29wS09hNk9lU2tjemFnMUxtNnJxQQ?oc=5",
-     "time": "2026-10-15T19:31:09+00:00"
+     "title": "Has United Parcel Service Stock Quietly Become a Value Opportunity?",
+     "publisher": "Trefis",
+     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPYjVBSUZ4QTN1eHhnVDBIanVWUGJRZERvZnpEUWd6SHQ4VnN0cEtad3htaFJlZElrbmgwQ2lQeXI4SkpnaXZGLWN5SHlVMEdZclRGX2VCTnk2eG8zYVplU2U2ZUZNQ3NoQUNNeGVJOEUzdFBnR1VWVld1U3EtcWlwWElfZmtSVzJfUXRmUWZxc1g1NVVZZnh6X2RmSlNSWllCQVM0Vjk1WEN3cGFaZVJReXRTcDV0d3d0eTdYd1NsMnlFcGl6dDl5SjM0U2RQMEs4bHc?oc=5",
+     "time": "2026-10-16T09:09:07+00:00"
     }
    ],
    "brief": "2026-10-16-NOW"
@@ -249,23 +249,23 @@
    "symbol": "AXON",
    "name": "Axon",
    "list": "watchlist",
-   "price": 401.33,
+   "price": 401.98,
    "prev_close": 417.19,
-   "change_pct": -3.8,
+   "change_pct": -3.6,
    "trigger_change": -3.5,
-   "peak_change": -3.8,
+   "peak_change": -4.4,
    "first_seen": "2026-10-16T15:06:37+00:00",
    "sector": {
     "etf": "XLI",
     "name": "Industrials",
-    "price": 168.51,
-    "change_pct": 0.37
+    "price": 168.11,
+    "change_pct": 0.13
    },
    "chart": {
-    "ema8": -2.7,
-    "ema21": -7.0,
-    "sma50": -20.2,
-    "sma200": -17.9,
+    "ema8": -2.6,
+    "ema21": -6.8,
+    "sma50": -20.1,
+    "sma200": -17.7,
     "momentum": false
    },
    "headlines": [
@@ -288,16 +288,16 @@
      "time": "2026-10-16T10:01:42+00:00"
     },
     {
-     "title": "AXON Sep 2027 800.000 call (AXON270917C00800000) Interactive Stock Chart - Yahoo Finance",
-     "publisher": "Yahoo! Finance Canada",
-     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9XRU1vNkpZN1NBUkRwRUV3eTJOZ0drU3dlQWhlaGtGOEpYM2VZOEUyVWxmRDZGSFphY2xoZFVTRWxYMUhqVEp3QTd1ZXEyVmFpZlBaSFNzTjIyZC1TM1BsS2YxRTZPcjBGTEtQeW1B?oc=5",
-     "time": "2026-10-16T08:38:27+00:00"
-    },
-    {
      "title": "Axon Enterprise, Inc $AXON Stock Acquired by Assenagon Asset Management S.A.",
      "publisher": "MarketBeat",
      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOLUYwc0dScnVOejE3Ui1uTGx2SHRXb2VNemM2ZUVkZGU4UER3U0hkRW5sYjFpZ05RN0ZnU2VaM0xXbGZrRUlxZWF6SDJJMlE5dkcwZE1mcnhWal9KSHRubHdsdUpYcnBjM0o1NmV4VEI5RXZDUVctV2hERDB6VGdkYzBKbVp1VGlCN1hHMFBYWHNZYTdXTTZJendJRks3Y3JjcmdXdlhkcVZId0IybjFZWWIwbnktQ1VIQ01pUUI3Ylk3akcxei1GQXFVNENtUQ?oc=5",
      "time": "2026-10-16T07:07:18+00:00"
+    },
+    {
+     "title": "AXON Oct 2026 407.500 call (AXON261016C00407500) Interactive Stock Chart - Yahoo Finance",
+     "publisher": "Yahoo! Finance Canada",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBHaXpwNTVWYjU5LWxzamZiOHFJSGVocnY0QlhmR3E0dm1BMXFSQzZNRERVaUNSMV9ablIweWlxMGZzNHdMbDBuSDZiUEt4T0RRekoycFMzRUlsbE41ZE9DaTE1NGZ6SGhLY1BYTTNR?oc=5",
+     "time": "2026-10-15T22:37:37+00:00"
     },
     {
      "title": "TD Cowen reiterates USD 825.00 target for Axon Enterprise stock",
@@ -306,41 +306,41 @@
      "time": "2026-10-15T20:31:06+00:00"
     },
     {
-     "title": "State of Alaska Department of Revenue Buys 583,067 Shares of Axon Enterprise, Inc $AXON",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNdElXeE50U2tURHhKRG94MHZoM1BOUDlpbXZmUVM0MzFlZkRhX1ZTWlkwcHhmUTN0d3hzTkxRd0JHUzN0czlzSEJWLWQ0TDFpTkRjQkdTcHpHVjJKQnlXM2dpRlNkZVdsQW5JeDc3Rmp3dWpJZk1YVldOYUZvVEN0RFNnYXQwX0VFb2xSNkpOd045UTRmSmRVdkhjUFdrTDFGaDdXbFUxMEp5bWRlaGRsUHVNM2RDN2xqZ2hJWDdDOGtHM2dmbUh5cEFxcXpQdEhpT092TExXamw1czdldmc?oc=5",
-     "time": "2026-10-15T17:44:13+00:00"
+     "title": "AXON Sep 2027 580.000 call (AXON270917C00580000) Interactive Stock Chart",
+     "publisher": "Yahoo! Finance Canada",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBYeW9WenlLMFg3N1ZPYlVkSDNTdnBKeGhzRXlwRWpxMVVyVmhoeWYzcTN6RzBHRGdZblptemVJbTdnRkV2c0txQzJwS3Q1MGMybjU3YU5OcXpFYzRrTENkclFHUndwaDNrYi1ZWnF3?oc=5",
+     "time": "2026-10-15T19:09:58+00:00"
     },
     {
-     "title": "Axon Enterprise, Inc $AXON Stock Bought by RDA Financial Network",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPUFFUQjZ3STdfbEEwMDdoel9ZaGxBR1ZrSlpsamdVblpjZDJpSjJPVy1lTF9XMzA1c1R4azkwN1JFWWRSb1Y5VTlTTElLRGRDTVR5QkhZRW0zTTdQb1hoVU5vTzktM19MTWFveXpCVjAtYW1oQWJJQ1hSVTVkV2dFLWFEcjNxNGdybFUxMG02OHRzenpkYTFVMVpPS1BSTmNUaGkzdWRhdTFkZ3IzRTB6dnduMkpBMF9mejNLektzX3M?oc=5",
-     "time": "2026-10-15T17:40:12+00:00"
+     "title": "Rounding Out Our Position in These Shares",
+     "publisher": "RealMoney Pro",
+     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPQV9OaWM2eG9xR3NIV1JKZXhnMFlxSXBrSFMyQjM3THUtQnBJTTlsTEE4TkNVVjZqSUdWNFdzUjJiVVdORklCRWVpSUh3MUkzclN4TVVvWlhqMTV6ZWkxWUI2ZENVUW1Fd21laU04b1pyOTBlc2hvazVMRE91LWNtbDUyUQ?oc=5",
+     "time": "2026-10-15T19:01:00+00:00"
     }
    ],
-   "brief": null
+   "brief": "2026-10-16-AXON"
   },
   {
    "symbol": "AMAT",
    "name": "Applied Materials",
    "list": "portfolio",
-   "price": 417.03,
+   "price": 416.68,
    "prev_close": 430.01,
-   "change_pct": -3.0,
+   "change_pct": -3.1,
    "trigger_change": -3.1,
-   "peak_change": -3.1,
+   "peak_change": -3.3,
    "first_seen": "2026-10-16T15:11:41+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 548.33,
-    "change_pct": -1.88
+    "price": 548.45,
+    "change_pct": -1.86
    },
    "chart": {
-    "ema8": -9.8,
-    "ema21": -12.9,
-    "sma50": -13.5,
-    "sma200": -5.0,
+    "ema8": -9.9,
+    "ema21": -13.0,
+    "sma50": -13.6,
+    "sma200": -5.1,
     "momentum": false
    },
    "headlines": [
@@ -393,23 +393,23 @@
      "time": "2026-10-15T14:05:00+00:00"
     }
    ],
-   "brief": null
+   "brief": "2026-10-16-AMAT"
   },
   {
    "symbol": "ANET",
    "name": "Arista Networks",
    "list": "portfolio",
-   "price": 180.06,
+   "price": 180.09,
    "prev_close": 185.58,
    "change_pct": -3.0,
    "trigger_change": -3.0,
-   "peak_change": -3.0,
+   "peak_change": -3.3,
    "first_seen": "2026-10-16T15:17:04+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 548.33,
-    "change_pct": -1.88
+    "price": 548.45,
+    "change_pct": -1.86
    },
    "chart": {
     "ema8": -8.6,
@@ -466,6 +466,81 @@
      "publisher": "MarketBeat",
      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPdnJrTk43RTlUTUJZRWFzN0laQjJjZlhNLTdIYnN4UkdEbnhJTUFHUnhoR3htMGRHcGlyd2JaSXVqNldNS1o0YmhNMi1zSVBmdWFPc2E3cjluekZMeDEyaGlndkdLdmZnZ3J4RklpdWt6UlM5MnZzUXVzeGtLUmtudGRjdjd3SDg2V3ZudkJub1F6YzhZMEtwTGJvemxLTnduaU5UODU4dGpXbjByYWxOUEI4Q3lESnFiRFRB?oc=5",
      "time": "2026-10-16T09:03:34+00:00"
+    }
+   ],
+   "brief": "2026-10-16-ANET"
+  },
+  {
+   "symbol": "AVGO",
+   "name": "Broadcom",
+   "list": "watchlist",
+   "price": 334.11,
+   "prev_close": 344.33,
+   "change_pct": -3.0,
+   "trigger_change": -3.0,
+   "peak_change": -3.0,
+   "first_seen": "2026-10-16T16:07:24+00:00",
+   "sector": {
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 548.45,
+    "change_pct": -1.86
+   },
+   "chart": {
+    "ema8": -4.4,
+    "ema21": -5.9,
+    "sma50": -8.7,
+    "sma200": -9.3,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Will Broadcom Rejoin the $2 Trillion Club in 2027?",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNeEo3UF9tYm11NUpCZlJvQUlmUm9HV2pIVEdHZ24xbXdaeHlKV29DWEVvdkFsWGd4cjRKdVpMRjdTUzlGUWc0eTlqZDFQYzJlWHo0cVZkSzNLVzRkSVNjWTV3Ty1DTGpEakVoSmlxaEd6R2o0TEpsZzdjRUFMbF9KOVlWY2hhRVpyYWJlVUl5YjhWNFFJdEE?oc=5",
+     "time": "2026-10-16T15:54:01+00:00"
+    },
+    {
+     "title": "Why Long-Term Conviction Remains Intact for Broadcom (AVGO)?",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNdzlhT0VzUEtTQ1BwaXByaS1DVzU3VEZ3THZxeng1UU90YS1kbTBRRjlFZnpMNVlvakJZMHVZVmU0Nkl1bnJfTlAxb2JaU2YyUG16MkZYRFRnLTVlSE44Y2UyZXRLMlBmMF9mN19LTkgzT29qMFpya1RFclhiWGFEbVljMjhLNUdfcU8zQkx5a1puTVNFYzhCRnFzejdJUQ?oc=5",
+     "time": "2026-10-16T15:21:01+00:00"
+    },
+    {
+     "title": "CoreWeave and Broadcom say no to OKXICE as AI trade stocks reject 24/7 expansion",
+     "publisher": "Cryptopolitan",
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE51TVIxZDZMLXg1bjBMdzAzdGRvdVAtY1FENzM2T2hxSG5mMmhjWkJUUDRwdlJVT05DT1JfTmE0b2tLYy1fY0pNVHEtazE5OVdyd2tLbmYyQjY0SXNhV1ZwRDFKaktDM0FCWUZZV2hWaUZfSms5?oc=5",
+     "time": "2026-10-16T14:31:22+00:00"
+    },
+    {
+     "title": "24/ 7 Wall St. sets USD 425.56 target for Broadcom stock",
+     "publisher": "ad-hoc-news.de",
+     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPRVpHV1dxZUdqanRPaVptVjhKeDlfRzBuU0U5Uy1hNFlvUDY4SHphaG9zSDdzaVYweVg2U19JSVF0anE2d19ZanVTNW1EV1V4MFNrNXJmSkxia09IQnlCWEU5aTJGTU5CVDVnaXNReEpBbXhmUlQ5dmxWZEFjM05nSjBOY3BKOUN3V2x3VmlxSVB6VURLTkVaUUZPTUVMbUFsZmQxQ0lwQmhZRmFFazB6cFNFc0R3V3lh?oc=5",
+     "time": "2026-10-16T13:58:57+00:00"
+    },
+    {
+     "title": "Memory Stocks Sell-Off: AI Growth Not Slowing, Counterpoint Says - Broadcom (NASDAQ:AVGO), SAMSUNG ELECT",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQLVlZdXZ6YzlSTlV6R3BTOGtuektXcmJ4NTRRZmRuNkptc0p0SW9sc1JTclo0U1czTnB2aF9FWFhvOVprUjM0ZmJFVjBObWhKMERWSVBEckxWbk1FUFlOdVRqQTJ3alFIdEk4ckJJUWZ0Y3ZydjlzbEcxZGVEWVc5aERreHFfLUhSX3ZYdlBSUi1TejZfXzQxX1R0RW96Y3ZIaTdGTFVHSjREdk0?oc=5",
+     "time": "2026-10-16T13:14:48+00:00"
+    },
+    {
+     "title": "Broadcom Stock Is Down 28%, And The Bar To Hit Its Target Is Lower Than You Think (AVGO)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOSE5QempUSld4MWlNT3BfRzJIWm9HMG1SZjUtS0R5cjEzQ3lKVUZtVFo1UUwxUXFnSkFlSkd2NFhTczBpb2h0ZTlRdVZkVmtnRVhsZHJDSFJZdjhpenlRUlFCZG54NDJlbS1LWmpfQ0dsaDlqVUY4a0NlQzROWUwtVk02dXZxYkVoNFR1SmNra3k4dTg1ZG9aaTlyN1BfRlVTalZZRW40Z3F0U2ZFa3VuQV9xVXJDcjZNNi1QN3o0YlJ0Sml5N0tJ?oc=5",
+     "time": "2026-10-16T11:25:11+00:00"
+    },
+    {
+     "title": "Why Nvidia Stock Is Rising While AMD, Broadcom, and Intel Stocks Are Falling in Premarket Today, October 16",
+     "publisher": "TipRanks",
+     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQWjBnbWJ2WlhrblFZbTBkdmlVV05qZV9Jc21JSkVZNVBtYUFRZTRlTmhKX1FLTi1ZSXFBWExWaFVLeDBnbE56Q2ZFc3Rwd3RnczJodXh4elJ2czUwOXlYUy1Na3JlN29aN3pKc2lTTHpkZkpRR3dmamJkOTVZdDdLa2VzWEtlb3c3blBQVjJ1WUdwWXV5VUFOald2OTdUQ2RFRmdua1Q4M0xReGJvN0xIV0x3Z3YycWdXZXZFVzZDSzJoSl9HTDFaa1Y1ZGVZWjQ?oc=5",
+     "time": "2026-10-16T11:17:51+00:00"
+    },
+    {
+     "title": "Broadcom (AVGO) Sees $121.5 Million in Net ETF Buying on Oct. 14",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPOGZDNzEwaUQwTTR3Z3RPNVJsczVIU2ZYam8zdzNCQ3k0Y25qNy1mbTU5SDRqUnBWdTd2WGZ1aDNwRFBwWE9Ldl82V0RpaDRPTDVRc2dDYnFNUnFjVU5SUF93bE1IcUN0YW5aX2RzU0h5QjhneVhXY0xhMDFOMGNHbTRXWGliRk92X1dSNl9EMnY0a1U?oc=5",
+     "time": "2026-10-16T11:01:17+00:00"
     }
    ],
    "brief": null
