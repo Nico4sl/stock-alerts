@@ -13,6 +13,7 @@ Standard library only, so it needs no installs.
 """
 import argparse
 import csv
+import hashlib
 import datetime as dt
 import json
 import math
@@ -936,11 +937,18 @@ def main():
             shutil.copytree(src, dst, dirs_exist_ok=True)
         else:
             shutil.copy(src, dst)
-    # cache-bust the service worker so phones pick up new data/app versions
+    # version the service worker by the app code itself: phones update when the app
+    # changes (and reload into it), not on every price check
     sw = os.path.join(args.out, "sw.js")
     if os.path.exists(sw):
+        h = hashlib.sha1()
+        for name in sorted(os.listdir(app_dir)):
+            fp = os.path.join(app_dir, name)
+            if os.path.isfile(fp):
+                with open(fp, "rb") as f:
+                    h.update(name.encode() + f.read())
         with open(sw, encoding="utf-8") as f:
-            txt = f.read().replace("__BUILD__", now.strftime("%Y%m%d%H%M"))
+            txt = f.read().replace("__BUILD__", h.hexdigest()[:12])
         with open(sw, "w", encoding="utf-8") as f:
             f.write(txt)
 

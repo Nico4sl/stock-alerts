@@ -1365,8 +1365,24 @@
   setInterval(() => { if (!document.hidden) refresh(false); }, 60_000);
   setInterval(updateStatus, 30_000);
 
+  // App updates: check for a new version whenever the app comes to the front. When the new
+  // version takes over, reload into it – right away if the app just opened, otherwise the next
+  // time it comes back to the front (never in the middle of reading a chart).
   if ("serviceWorker" in navigator && location.protocol === "https:") {
-    navigator.serviceWorker.register("sw.js").catch(() => {});
+    const t0 = Date.now();
+    let pendingReload = false;
+    const hadController = !!navigator.serviceWorker.controller;
+    navigator.serviceWorker.addEventListener("controllerchange", () => {
+      if (!hadController) return;                       // very first install: nothing to reload
+      if (Date.now() - t0 < 15000 || document.hidden) location.reload();
+      else pendingReload = true;
+    });
+    document.addEventListener("visibilitychange", () => {
+      if (document.hidden) return;
+      if (pendingReload) { location.reload(); return; }
+      navigator.serviceWorker.getRegistration().then((r) => r && r.update()).catch(() => {});
+    });
+    navigator.serviceWorker.register("sw.js", { updateViaCache: "none" }).catch(() => {});
   }
 
   (async () => {
