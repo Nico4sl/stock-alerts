@@ -1,10 +1,14 @@
 name: Check prices
 
+# How checks keep running: GitHub's cron is unreliable (it often fires hours late or not at
+# all), so each run that falls in the trading window starts the next one itself about
+# 5 minutes later ("chain"). Cron and the hourly brief-writer task only need to start the
+# chain once; duplicates collapse because only one run can wait in the queue.
 on:
   schedule:
-    # every 10 min, Mon–Fri, 13:00–21:59 UTC. The script itself only runs
-    # 09:30–16:20 New York time and skips NYSE holidays (handles summer time).
-    - cron: "*/10 13-21 * * 1-5"
+    # any of these starting = chain starts; the script only checks 09:30–16:20 New York
+    # time and skips NYSE holidays (handles summer time)
+    - cron: "*/10 12-20 * * 1-5"
   push:
     branches: [main]
     paths: ["config.json", "briefs/**", "app/**", "engine/**", ".github/workflows/**"]
@@ -14,9 +18,14 @@ on:
         description: "Send a test notification"
         type: boolean
         default: false
+      auto:
+        description: "Started by the chain (behave like a scheduled run)"
+        type: boolean
+        default: false
 
 permissions:
   contents: write   # only used to publish today's movers to the `data` branch
+  actions: write    # lets a run start the next one (chain)
   pages: write
   id-token: write
 
@@ -27,7 +36,7 @@ concurrency:
 jobs:
   check:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     environment:
       name: github-pages
     steps:
@@ -47,7 +56,7 @@ jobs:
           APP_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
         run: |
           ARGS=""
-          if [ "${{ github.event_name }}" != "schedule" ]; then ARGS="--force"; fi
+          if [ "${{ github.event_name }}" != "schedule" ] && [ "${{ inputs.auto }}" != "true" ]; then ARGS="--force"; fi
           if [ "${{ inputs.test_notification }}" = "true" ]; then ARGS="$ARGS --test-notification"; fi
           python3 engine/check.py --app-url "$APP_URL" $ARGS
 
@@ -86,3 +95,18 @@ jobs:
 
       - uses: actions/deploy-pages@v4
         if: steps.run.outputs.ran == 'true'
+
+      # ---- start the next run ~5 min after this one started (only in the trading window)
+      - name: Start next check
+        if: always() && github.ref == 'refs/heads/main'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          STARTED: ${{ github.run_started_at }}
+        run: |
+          if ! python3 engine/check.py --chain-window; then echo "outside trading window – chain stops"; exit 0; fi
+          start=$(date -d "$STARTED" +%s 2>/dev/null || date +%s)
+          wait=$(( start + 300 - $(date +%s) ))
+          if [ $wait -gt 0 ]; then echo "next check in ${wait}s"; sleep $wait; fi
+          gh api -X POST "repos/${{ github.repository }}/actions/workflows/check.yml/dispatches" \
+            -f ref=main -f "inputs[auto]=true" -f "inputs[test_notification]=false"
+          echo "next check started"

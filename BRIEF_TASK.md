@@ -5,6 +5,14 @@ The reader is Nico, a business & economics student in Vienna who invests long-te
 (fundamentals first; Babyfolio's 8/21 EMA, 200 SMA and gap-fill method for entries).
 He wants to know **what is going on** and **learn something useful**, quickly.
 
+## 0 · Keep the price checks running (backup, takes seconds)
+GitHub's cron is unreliable, so the "Check prices" workflow restarts itself every ~5 min during
+the trading day. As a backup, nudge it once per run:
+`gh api "repos/Nico4sl/stock-alerts/actions/workflows/check.yml/runs?per_page=1" --jq '.workflow_runs[0] | .status + " " + .created_at'`
+If the latest run is not `in_progress`/`queued` and was created more than 15 minutes ago, start one:
+`gh api -X POST repos/Nico4sl/stock-alerts/actions/workflows/check.yml/dispatches -f ref=main -f "inputs[auto]=true"`
+If `gh` is unavailable or this fails, just continue with the briefs – do not retry.
+
 ## 1 · Find today's movers
 1. `git fetch origin data main` and read the queue: `git show origin/data:queue.json`
    (fields: `date` = New York trading date, `movers[]` with `id`, `symbol`, `name`, `list`,

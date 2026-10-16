@@ -101,6 +101,15 @@ def fmt(x):
     return f"{x:,.2f}" if abs(x) >= 1 else f"{x:.4f}"
 
 
+def in_chain_window(now_utc):
+    """Trading day, 08:30–16:20 New York: keep the run chain going (starts before the open)."""
+    ny = now_utc.astimezone(NY)
+    if ny.weekday() >= 5 or ny.strftime("%Y-%m-%d") in NYSE_HOLIDAYS:
+        return False
+    minutes = ny.hour * 60 + ny.minute
+    return 8 * 60 + 30 <= minutes <= 16 * 60 + 20
+
+
 def market_status(now_utc):
     ny = now_utc.astimezone(NY)
     day = ny.strftime("%Y-%m-%d")
@@ -806,8 +815,11 @@ def main():
     ap.add_argument("--app-url", default=os.environ.get("APP_URL", ""))
     ap.add_argument("--force", action="store_true", help="run even when the market is closed")
     ap.add_argument("--test-notification", action="store_true")
+    ap.add_argument("--chain-window", action="store_true", help="exit 0 if the run chain should continue")
     ap.add_argument("--fixtures", help="folder with <SYMBOL>.json candles (offline testing)")
     args = ap.parse_args()
+    if args.chain_window:
+        sys.exit(0 if in_chain_window(dt.datetime.now(dt.timezone.utc)) else 1)
 
     topic = os.environ.get("NTFY_TOPIC", "").strip()
     server = os.environ.get("NTFY_SERVER", "https://ntfy.sh").strip() or "https://ntfy.sh"
