@@ -498,7 +498,7 @@
       const val = L[key], d = row.dist?.[key];
       const zone = d !== undefined && Math.abs(d) <= band;
       return `<div class="lv"><span class="sw" style="background:${COLORS[key]}"></span>
-        <span>${LABEL[key]}${extra}</span><span class="v num">${fmt(val)}</span>
+        <span>${LABEL[key]}${extra}${val ? `<span class="sub num">Zone ${fmt(val * (1 - band / 100))} – ${fmt(val * (1 + band / 100))}</span>` : ""}</span><span class="v num">${fmt(val)}</span>
         <span class="d num ${zone ? "zone" : cls(d)}">${zone ? "● " : ""}${sgn(d)}</span></div>`;
     };
     if (v === "ema") {
@@ -762,9 +762,36 @@
       edge: tintA(COLORS[key], 0.35, 0.55),
     })) : [];
     c.overlay.set(v === "gaps" ? c.gaps : [], bands);
+    setZoneEdges(c, v, band);
     c.showLegend(null);
     if (resetRange) setBars(defaultBars(v));
     $("#levelsCard").innerHTML = levelsCardHTML(v, c.row, c.d);
+  }
+
+  // Price-axis labels for the top and bottom of ONE zone: the line in this view that the
+  // current price is closest to (e.g. the 21 EMA band when price sits on it). Only shown
+  // while zones are switched on; the other lines keep just their own value label.
+  function setZoneEdges(c, v, band) {
+    (c.edgeLines || []).forEach((l) => c.candles.removePriceLine(l));
+    c.edgeLines = [];
+    if (!S.zones || !VIEWS[v].lines.length || !c.row?.price) return;
+    const lastVal = (arr) => { for (let i = (arr || []).length - 1; i >= 0; i--) if (arr[i] !== null && arr[i] !== undefined) return arr[i]; return null; };
+    let best = null;
+    for (const key of VIEWS[v].lines) {
+      const val = lastVal(c.d[key]);
+      if (val === null) continue;
+      const dist = Math.abs(c.row.price - val);
+      if (!best || dist < best.dist) best = { key, val, dist };
+    }
+    if (!best) return;
+    const color = tintA(COLORS[best.key], 0.35, 0.9);
+    for (const sign of [1, -1]) {
+      c.edgeLines.push(c.candles.createPriceLine({
+        price: best.val * (1 + sign * band / 100), color, lineWidth: 1, lineStyle: LWC.LineStyle.Dotted,
+        lineVisible: false, axisLabelVisible: true,
+        title: `${LABEL[best.key]} ${sign > 0 ? "+" : "−"}${band}%`,
+      }));
+    }
   }
 
   function setBars(bars) {
