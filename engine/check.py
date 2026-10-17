@@ -40,15 +40,60 @@ SMA_LENGTHS = (50, 100, 150, 200)
 MAX_LOG = 200          # alerts kept in the in-app log
 BUNDLE_LIMIT = 6       # more alerts than this in one run -> one combined push
 
-# NYSE full-day closures (early closes are treated as normal days)
-NYSE_HOLIDAYS = {
-    "2026-01-01", "2026-01-19", "2026-02-16", "2026-04-03", "2026-05-25",
-    "2026-06-19", "2026-07-03", "2026-09-07", "2026-11-26", "2026-12-25",
-    "2027-01-01", "2027-01-18", "2027-02-15", "2027-03-26", "2027-05-31",
-    "2027-06-18", "2027-07-05", "2027-09-06", "2027-11-25", "2027-12-24",
-    "2028-01-17", "2028-02-21", "2028-04-14", "2028-05-29", "2028-06-19",
-    "2028-07-04", "2028-09-04", "2028-11-23", "2028-12-25",
-}
+# NYSE full-day closures, computed from the exchange's rules so the list never runs out
+# (early closes are treated as normal days; one-off closures like a national day of
+# mourning can be added to EXTRA_CLOSURES).
+EXTRA_CLOSURES = set()
+
+
+def _easter(y):
+    a, b, c = y % 19, y // 100, y % 100
+    d, e = b // 4, b % 4
+    g = (8 * b + 13) // 25
+    h = (19 * a + b - d - g + 15) % 30
+    i, k = c // 4, c % 4
+    l = (32 + 2 * e + 2 * i - h - k) % 7
+    m = (a + 11 * h + 22 * l) // 451
+    month = (h + l - 7 * m + 114) // 31
+    day = (h + l - 7 * m + 114) % 31 + 1
+    return dt.date(y, month, day)
+
+
+def _nth_weekday(y, month, weekday, n):
+    """n-th weekday (0=Mon) of a month; n=-1 for the last one."""
+    if n > 0:
+        d = dt.date(y, month, 1)
+        d += dt.timedelta(days=(weekday - d.weekday()) % 7)
+        return d + dt.timedelta(weeks=n - 1)
+    d = dt.date(y + (month == 12), month % 12 + 1, 1) - dt.timedelta(days=1)
+    return d - dt.timedelta(days=(d.weekday() - weekday) % 7)
+
+
+def _observed(d):
+    """Saturday holiday -> Friday, Sunday holiday -> Monday."""
+    return d - dt.timedelta(days=1) if d.weekday() == 5 else d + dt.timedelta(days=1) if d.weekday() == 6 else d
+
+
+def nyse_holidays(y):
+    days = [
+        _nth_weekday(y, 1, 0, 3),                      # Martin Luther King Jr. Day
+        _nth_weekday(y, 2, 0, 3),                      # Washington's Birthday
+        _easter(y) - dt.timedelta(days=2),             # Good Friday
+        _nth_weekday(y, 5, 0, -1),                     # Memorial Day
+        _observed(dt.date(y, 6, 19)),                  # Juneteenth
+        _observed(dt.date(y, 7, 4)),                   # Independence Day
+        _nth_weekday(y, 9, 0, 1),                      # Labor Day
+        _nth_weekday(y, 11, 3, 4),                     # Thanksgiving
+        _observed(dt.date(y, 12, 25)),                 # Christmas
+    ]
+    ny = dt.date(y, 1, 1)                              # New Year: no Friday make-up day
+    if ny.weekday() != 5:
+        days.append(_observed(ny))
+    return {d.isoformat() for d in days}
+
+
+def is_holiday(day_iso):
+    return day_iso in EXTRA_CLOSURES or day_iso in nyse_holidays(int(day_iso[:4]))
 
 
 # ----------------------------------------------------------------------------
@@ -104,7 +149,7 @@ def fmt(x):
 def in_chain_window(now_utc):
     """Trading day, 08:30–16:20 New York: keep the run chain going (starts before the open)."""
     ny = now_utc.astimezone(NY)
-    if ny.weekday() >= 5 or ny.strftime("%Y-%m-%d") in NYSE_HOLIDAYS:
+    if ny.weekday() >= 5 or is_holiday(ny.strftime("%Y-%m-%d")):
         return False
     minutes = ny.hour * 60 + ny.minute
     return 8 * 60 + 30 <= minutes <= 16 * 60 + 20
@@ -113,7 +158,7 @@ def in_chain_window(now_utc):
 def market_status(now_utc):
     ny = now_utc.astimezone(NY)
     day = ny.strftime("%Y-%m-%d")
-    if ny.weekday() >= 5 or day in NYSE_HOLIDAYS:
+    if ny.weekday() >= 5 or is_holiday(day):
         return False, "closed (weekend/holiday)"
     minutes = ny.hour * 60 + ny.minute
     # 09:30 open … 16:00 close, plus one run shortly after to capture the close
@@ -195,18 +240,24 @@ def fetch_nasdaq(symbol, years=HISTORY_YEARS, min_len=30, assets=("stocks", "etf
                 break
             except ValueError:
                 continue
-        if last:
-            price = last
         if when and last:
-            market_time = int(when.timestamp())
             day = when.strftime("%Y-%m-%d")
             pts = []
             for p in live.get("chart") or []:
                 t = dt.datetime.fromtimestamp(p["x"] / 1000, dt.timezone.utc)
                 # Nasdaq's x is wall-clock New York time encoded as UTC
                 mins = t.hour * 60 + t.minute
-                if 9 * 60 + 30 <= mins <= 16 * 60 and p.get("y") is not None:
+                if (9 * 60 + 30 <= mins <= 16 * 60 and p.get("y") is not None
+                        and t.strftime("%Y-%m-%d") == day):
                     pts.append(float(p["y"]))
+            # Only regular-session prices count: a pre-/after-market lastSalePrice would
+            # otherwise become "today's close" and trigger alerts and movers.
+            wmins = when.hour * 60 + when.minute
+            if not (9 * 60 + 30 <= wmins <= 16 * 60):
+                last = pts[-1] if pts else None
+        if when and last:
+            price = last
+            market_time = int(when.timestamp())
             if day > candles[-1][0] and pts:
                 candles.append([day, pts[0], max(pts + [last]), min(pts + [last]), last,
                                 _num(live.get("volume")) or 0])
@@ -244,7 +295,7 @@ def fetch_crypto(symbol, min_len=30):
     if len(candles) < min_len:
         raise RuntimeError(f"no crypto data for {symbol}")
     return {"candles": candles, "price": candles[-1][4], "currency": quote,
-            "market_time": None, "source": source}
+            "market_time": None, "source": source, "always_on": True}
 
 
 # ---- indices (Cboe + Nasdaq) and government bond yields ---------------------
@@ -518,33 +569,48 @@ def find_gaps(candles, min_gap_pct):
 class Alerts:
     """Edge-triggered alerts with re-arm hysteresis, so each setup pings once."""
 
-    def __init__(self, state, seeding):
+    def __init__(self, state, seeding, frozen=False):
         self.state = state          # key -> {"on": bool}
         self.seeding = seeding
+        self.frozen = frozen        # outside NYSE hours: rebuild the app, change/fire nothing
         self.fired = []
         self.seen = set()
 
     def check(self, key, triggered, rearm, alert):
         self.seen.add(key)
+        if self.frozen:
+            return
+        # A change of state needs two checks in a row (~5 min apart), so a single bad quote
+        # can neither fire an alert nor re-arm one that already fired. The first-ever run
+        # (seeding) records the current state straight away.
         s = self.state.setdefault(key, {"on": False})
         if triggered and not s["on"]:
-            s["on"] = True
-            s["since"] = dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
-            if not self.seeding:
-                self.fired.append(alert)
+            s["streak"] = s.get("streak", 0) + 1
+            if s["streak"] >= 2 or self.seeding:
+                s.update(on=True, streak=0,
+                         since=dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"))
+                if not self.seeding:
+                    self.fired.append(alert)
         elif s["on"] and rearm and not triggered:
-            s["on"] = False
+            s["streak"] = s.get("streak", 0) + 1
+            if s["streak"] >= 2:
+                s.update(on=False, streak=0)
+        else:
+            s["streak"] = 0
 
     def event(self, key, happened, alert):
         """One-off events (e.g. gap fully filled)."""
         self.seen.add(key)
+        if self.frozen:
+            return
         if happened and key not in self.state:
             self.state[key] = {"on": True, "event": True}
             if not self.seeding:
                 self.fired.append(alert)
 
 
-def analyse(stock, data, settings, alerts, app_url):
+def analyse(stock, data, settings, alerts, app_url, live=True):
+    """live=False outside NYSE hours: use the last official close, not a pre-/after-market quote."""
     sym = stock["symbol"]
     name = stock.get("name", sym)
     band = float(settings.get("band_pct", 1.5))
@@ -563,7 +629,17 @@ def analyse(stock, data, settings, alerts, app_url):
     closes = full_closes[k:]
     series = {key: v[k:] for key, v in series_full.items()}
     price = float(data["price"])
-    prev_close = closes[-2] if len(closes) > 1 else price
+    if not live and not data.get("always_on"):
+        price = closes[-1]
+    # "Today's change" is measured against the session before the price's session. If the live
+    # quote belongs to a newer day than the last daily candle (e.g. a quote before the first
+    # candle of the day exists), the last candle *is* the previous close.
+    quote_day = (dt.datetime.fromtimestamp(data["market_time"], NY).strftime("%Y-%m-%d")
+                 if data.get("market_time") and live else None)
+    if quote_day and quote_day > candles[-1][0]:
+        prev_close = closes[-1]
+    else:
+        prev_close = closes[-2] if len(closes) > 1 else price
     change_pct = pct(price, prev_close)
     lv = {k: v[-1] for k, v in series.items()}
     prev_lv = {k: (v[-2] if len(v) > 1 else None) for k, v in series.items()}
@@ -852,7 +928,12 @@ def main():
     seeding = state is None
     state = state or {}
     history = load_json(log_path, [])
-    alerts = Alerts(state, seeding)
+    # A forced run outside NYSE hours (e.g. after you save a level, or a brief is committed)
+    # only refreshes the app: no alerts, no new movers, prices = last official close.
+    quiet = not is_open
+    alerts = Alerts(state, seeding, frozen=quiet)
+    if quiet:
+        log(f"NYSE {status} – refreshing the app only (no alerts).")
     if seeding:
         log("First run: recording current levels silently (no notifications).")
 
@@ -871,7 +952,7 @@ def main():
             else:
                 data = fetch(sym)
                 time.sleep(0.25)
-            summary, detail = analyse(s, data, settings, alerts, args.app_url)
+            summary, detail = analyse(s, data, settings, alerts, args.app_url, live=is_open)
             rows.append(summary)
             save_json(os.path.join(data_dir, f"{sym}.json"), detail, compact=True)
         except Exception as e:  # noqa: BLE001
@@ -892,7 +973,8 @@ def main():
     else:
         ctx_fn = lambda syms: mv.market_context(lambda x: fetch_daily(x, 2), syms, log)  # noqa: E731
         news_fn = lambda sym, name: mv.headlines(http_get, sym, name)  # noqa: E731
-    movers_payload, queue, new_movers = mv.update_movers(rows, mstate, today_ny, stamp, settings, ctx_fn, news_fn, log)
+    movers_payload, queue, new_movers = mv.update_movers(rows, mstate, today_ny, stamp, settings, ctx_fn, news_fn, log,
+                                                         allow_new=is_open)
     extra = []
     if settings.get("mover_push", True) and not seeding:
         extra += [mv.mover_alert(m, args.app_url, link) for m in movers_payload["movers"] if m["symbol"] in new_movers]
@@ -903,7 +985,7 @@ def main():
                                            settings.get("brief_lang", "en"), args.app_url, log)
     ids = {b["id"] for b in index}
     for m in movers_payload["movers"]:
-        bid = mv.brief_id(today_ny, m["symbol"])
+        bid = mv.brief_id(movers_payload["date"], m["symbol"])
         m["brief"] = bid if bid in ids else None
     extra += brief_notes
     alerts.fired += extra
@@ -932,7 +1014,8 @@ def main():
     deliver(alerts.fired, topic, server, args.app_url, settings)
     history = (list(reversed(alerts.fired)) + history)[:MAX_LOG]
 
-    save_json(state_path, state)
+    if not (quiet and seeding):        # a quiet run must not count as the silent first run
+        save_json(state_path, state)
     save_json(log_path, history)
     save_json(os.path.join(data_dir, "summary.json"), {
         "generated": stamp, "market": status, "seeded": seeding,

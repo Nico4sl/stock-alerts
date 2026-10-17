@@ -87,12 +87,22 @@ def headlines(http_get, symbol, name, limit=8):
 
 
 # ---------------------------------------------------------------- movers
-def update_movers(rows, state, today, now_iso, settings, ctx_fn, news_fn, log):
-    """Returns (movers_payload, queue_payload, new_movers)."""
+def update_movers(rows, state, today, now_iso, settings, ctx_fn, news_fn, log, allow_new=True):
+    """Returns (movers_payload, queue_payload, new_movers).
+
+    allow_new=False (outside NYSE hours) keeps today's movers but never adds one.
+    A stock only becomes a mover after two checks in a row (~5 min apart) both show a
+    move past the threshold in the same direction, so one bad quote can't trigger a
+    push and a brief."""
     threshold = float(settings.get("move_pct", 3))
     if state.get("date") != today:
-        state.clear()
-        state.update({"date": today, "items": {}})
+        if not allow_new:          # overnight / pre-market: keep showing the last session
+            today = state.get("date") or today
+        else:
+            state.clear()
+            state.update({"date": today, "items": {}, "pending": {}})
+    state.setdefault("items", {})
+    pending = state.setdefault("pending", {})
     items = state["items"]
     new = []
     for r in rows:
@@ -100,10 +110,19 @@ def update_movers(rows, state, today, now_iso, settings, ctx_fn, news_fn, log):
             continue
         sym, chg = r["symbol"], r["change_pct"]
         it = items.get(sym)
-        if abs(chg) >= threshold and not it:
-            it = items[sym] = {"first_seen": now_iso, "trigger_change": chg, "peak_change": chg}
-            new.append(sym)
-        if it and abs(chg) > abs(it["peak_change"]):
+        if not it and allow_new:
+            prev = pending.get(sym)
+            if abs(chg) >= threshold:
+                if prev is not None and (prev > 0) == (chg > 0):
+                    it = items[sym] = {"first_seen": now_iso, "trigger_change": chg, "peak_change": chg}
+                    new.append(sym)
+                    pending.pop(sym, None)
+                else:
+                    pending[sym] = chg
+                    log(f"  {sym} {chg:+.1f}% – waiting for the next check to confirm the move")
+            else:
+                pending.pop(sym, None)
+        if it and allow_new and abs(chg) > abs(it["peak_change"]):
             it["peak_change"] = chg
 
     by_sym = {r["symbol"]: r for r in rows if not r.get("error")}
