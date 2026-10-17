@@ -77,6 +77,9 @@
 
   // ------------------------------------------------------------------ utils
   const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  // Links from briefs and headlines come from outside sources: only allow normal web links,
+  // so a "javascript:" link can never run inside the app (where your GitHub key lives).
+  const safeUrl = (u) => { try { const x = new URL(String(u || ""), location.href); return /^https?:$/.test(x.protocol) ? x.href : "#"; } catch { return "#"; } };
   function fmt(x) {
     if (x === null || x === undefined || Number.isNaN(x)) return "–";
     const a = Math.abs(x);
@@ -135,6 +138,7 @@
     S.summary = summary;
     S.alerts = alerts;
     if (changed) S.details = {};
+    deskNotify();
     updateStatus();
     updateAlertDot();
     return changed;
@@ -197,7 +201,14 @@
     for (let attempt = 0; attempt < 2; attempt++) {
       await loadConfig(true);
       const next = JSON.parse(JSON.stringify(S.config));
-      mutate(next);
+      try {
+        mutate(next);
+      } catch {
+        // e.g. the stock was removed on another device, so the change has nothing to apply to
+        toast("That stock was changed or removed on another device – showing the latest version.", 4000);
+        render(true);
+        return false;
+      }
       try {
         const res = await gh("/contents/config.json", {
           method: "PUT",
@@ -228,12 +239,38 @@
     }
   }
 
+  // ------------------------------------------------- notifications on this device
+  // For the Mac: the Dock app shows new alerts as system notifications while it is running
+  // (also minimised or in the background). Clicking one opens the stock in the app.
+  // Off by default – on the phone, ntfy already does this.
+  const canNotify = () => "Notification" in window && "serviceWorker" in navigator;
+  function deskNotify() {
+    if (!store.get("deskNotify", false) || !canNotify() || Notification.permission !== "granted") return;
+    const list = S.alerts || [];
+    const upTo = store.get("notifiedUpTo", "");
+    if (!upTo) { store.set("notifiedUpTo", list[0]?.time || new Date().toISOString()); return; }
+    const pushEma = !!S.summary?.settings?.ema_push;
+    const fresh = list.filter((a) => a.time > upTo && (pushEma || !["ema8", "ema21"].includes(a.kind)));
+    if (list[0]?.time > upTo) store.set("notifiedUpTo", list[0].time);
+    if (!fresh.length) return;
+    const url = (a) => location.pathname + (a.brief ? `#/brief/${encodeURIComponent(a.brief)}` : `#/s/${encodeURIComponent(a.symbol)}`);
+    navigator.serviceWorker.ready.then((reg) => {
+      if (fresh.length > 4) {
+        reg.showNotification(`${fresh.length} new alerts`, { body: fresh.map((a) => a.title).join("\n"), tag: "pb-bundle", icon: "icons/icon-192.png", data: { url: location.pathname + "#/alerts" } });
+      } else {
+        fresh.reverse().forEach((a, i) => reg.showNotification(a.title, { body: a.message, tag: `pb-${a.time}-${i}`, icon: "icons/icon-192.png", data: { url: url(a) } }));
+      }
+    }).catch(() => {});
+  }
+
   // ------------------------------------------------------------- shell / nav
   function updateStatus() {
     const s = S.summary;
     if (!s) return;
     const open = (s.market || "").startsWith("open");
-    $("#status").innerHTML = `<b>${open ? "Market open" : "Market closed"}</b>${clock(s.generated)} · ${timeAgo(s.generated)}`;
+    const stale = open && Date.now() - new Date(s.generated).getTime() > 20 * 60e3;
+    const label = stale ? '<b class="warn">Checks paused?</b>' : `<b>${open ? "Market open" : "Market closed"}</b>`;
+    $("#status").innerHTML = `${label}${clock(s.generated)} · ${timeAgo(s.generated)}`;
   }
 
   function updateAlertDot() {
@@ -266,7 +303,7 @@
     return { name: store.get("lastList", "portfolio") };
   }
 
-  async function render(keepChartRange) {
+  async function render(keepChartRange, keepScroll) {
     const r = parseRoute();
     let range = null;
     if (keepChartRange && S.chart) range = S.chart.chart.timeScale().getVisibleLogicalRange();
@@ -277,14 +314,14 @@
       return;
     }
     if (r.name === "detail") return renderDetail(r.sym, range);
-    if (r.name === "lookup") return renderLookup(r.sym, range);
+    if (r.name === "lookup") return renderLookup(r.sym, range, !keepChartRange);
     if (r.name === "search") return renderSearch();
     if (r.name === "brief") return renderBriefPage(r.id);
-    window.scrollTo(0, 0);
-    if (r.name === "alerts") return renderAlerts();
-    if (r.name === "settings") return renderSettings();
-    store.set("lastList", r.name);
-    return renderList(r.name);
+    const y = window.scrollY;
+    if (r.name === "alerts") renderAlerts();
+    else if (r.name === "settings") renderSettings();
+    else { store.set("lastList", r.name); renderList(r.name); }
+    window.scrollTo(0, keepScroll ? y : 0);
   }
 
   // ------------------------------------------------------------------ list
@@ -605,8 +642,8 @@
       rightPriceScale: { borderColor: COLORS.line, scaleMargins: { top: 0.12, bottom: 0.18 } },
       timeScale: { borderColor: COLORS.line, rightOffset: 4, barSpacing: 6, minBarSpacing: 0.5 },
       crosshair: { mode: LWC.CrosshairMode.Normal, vertLine: { color: "#4b556b", labelBackgroundColor: "#263044" }, horzLine: { color: "#4b556b", labelBackgroundColor: "#263044" } },
-      handleScale: { axisPressedMouseMove: { time: true, price: true }, pinch: true, mouseWheel: true },
-      handleScroll: { vertTouchDrag: false },
+      handleScale: { axisPressedMouseMove: { time: true, price: true }, pinch: true, mouseWheel: false },
+      handleScroll: { vertTouchDrag: false, mouseWheel: false },
       kineticScroll: { touch: true, mouse: false },
     });
 
@@ -646,6 +683,7 @@
 
     const overlay = new Overlay();
     candles.attachPrimitive(overlay);
+    bindWheel(el, chart);
 
     const barOf = (date) => {          // last bar starting on or before date
       let lo = 0, hi = n - 1;
@@ -682,6 +720,33 @@
     applyView(vname, !keepRange);
     if (keepRange) chart.timeScale().setVisibleLogicalRange(keepRange);
     $("#levelsCard").innerHTML = levelsCardHTML(vname, row, d);
+  }
+
+  // Mac trackpad / mouse wheel: plain vertical scrolling scrolls the page (the chart no
+  // longer swallows it), pinch or Ctrl/⌘ + scroll zooms around the pointer, sideways
+  // swipe or Shift + scroll pans through time.
+  function bindWheel(el, chart) {
+    el.addEventListener("wheel", (e) => {
+      const ts = chart.timeScale();
+      const r = ts.getVisibleLogicalRange();
+      if (!r) return;
+      const width = el.clientWidth || 1;
+      const zoom = e.ctrlKey || e.metaKey;
+      const dx = e.shiftKey && !e.deltaX ? e.deltaY : e.deltaX;
+      if (!zoom && Math.abs(dx) <= Math.abs(e.deltaY)) return;   // let the page scroll
+      e.preventDefault();
+      const unit = e.deltaMode === 1 ? 16 : e.deltaMode === 2 ? width : 1;
+      if (zoom) {
+        const rect = el.getBoundingClientRect();
+        const anchor = ts.coordinateToLogical(e.clientX - rect.left) ?? r.to;
+        const f = Math.min(1.5, Math.max(0.67, Math.exp(e.deltaY * unit * 0.01)));
+        const from = anchor - (anchor - r.from) * f, to = anchor + (r.to - anchor) * f;
+        if (to - from >= 10 && (to - from) <= width * 2) ts.setVisibleLogicalRange({ from, to });
+      } else {
+        const shift = (dx * unit) * (r.to - r.from) / width;
+        ts.setVisibleLogicalRange({ from: r.from + shift, to: r.to + shift });
+      }
+    }, { passive: false });
   }
 
   function applyView(v, resetRange) {
@@ -857,7 +922,7 @@
 
   function headlinesHTML(list, n) {
     if (!list?.length) return `<div class="note">${tr().noNews}</div>`;
-    return `<ul class="heads">${list.slice(0, n).map((h) => `<li><a href="${esc(h.url)}" target="_blank" rel="noopener">${esc(h.title)}</a>
+    return `<ul class="heads">${list.slice(0, n).map((h) => `<li><a href="${esc(safeUrl(h.url))}" target="_blank" rel="noopener noreferrer">${esc(h.title)}</a>
       <span>${esc(h.publisher || "")}${h.time ? ` · ${timeAgo(h.time)}` : ""}</span></li>`).join("")}</ul>`;
   }
 
@@ -903,7 +968,7 @@
       ${t.context ? `<h5>${L.ctx}</h5><p>${p(t.context)}</p>` : ""}
       ${t.learn?.text ? `<div class="learn"><div class="lt">💡 ${L.learn}: ${esc(t.learn.term || "")}</div><p>${p(t.learn.text)}</p></div>` : ""}
       ${t.watch ? `<h5>${L.watch}</h5><p>${p(t.watch)}</p>` : ""}
-      ${b.sources?.length ? `<h5>${L.src}</h5><ul class="heads">${b.sources.map((s) => `<li><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title)}</a><span>${esc(s.publisher || "")}</span></li>`).join("")}</ul>` : ""}
+      ${b.sources?.length ? `<h5>${L.src}</h5><ul class="heads">${b.sources.map((s) => `<li><a href="${esc(safeUrl(s.url))}" target="_blank" rel="noopener noreferrer">${esc(s.title)}</a><span>${esc(s.publisher || "")}</span></li>`).join("")}</ul>` : ""}
       <div class="b-foot">Written by Claude · ${b.written_at ? new Date(b.written_at).toLocaleString([], { dateStyle: "medium", timeStyle: "short" }) : esc(b.date)} · Not investment advice</div>
     </div>`;
   }
@@ -1094,7 +1159,7 @@
     return job.p;
   }
 
-  async function renderLookup(sym, keepRange) {
+  async function renderLookup(sym, keepRange, allowFetch) {
     if (onLists(sym)) { location.replace(`#/s/${encodeURIComponent(sym)}`); return; }
     const meta = S.lookupMeta[sym] || store.get("recentLookups", []).find((r) => r.s === sym) || {};
     setTop(disp(sym), true);
@@ -1115,6 +1180,8 @@
     let status;
     if (pending) status = "updating";
     else if (stale && !(S.token && S.repo)) status = "nokey";
+    else if (stale && allowFetch) status = "updating";   // only when you open it, never on auto-refresh
+    else if (stale && data) status = "old";
     else if (stale) status = "updating";
     else status = "fresh";
     drawLookup(sym, meta, data, status, keepRange);
@@ -1132,7 +1199,7 @@
           : e.status === 404 ? "Lookup workflow not found – the app update may still be deploying."
           : e.message === "TIMEOUT" ? "Still no data after 3 min – GitHub may be busy. Try again later."
           : `Could not update (${e.message}).`;
-        if (el) { el.className = "lk-status warn"; el.innerHTML = `${esc(msg)} <button class="btn small" id="lkRetry">Retry</button>`; $("#lkRetry").onclick = () => render(true); }
+        if (el) { el.className = "lk-status warn"; el.innerHTML = `${esc(msg)} <button class="btn small" id="lkRetry">Retry</button>`; $("#lkRetry").onclick = () => render(false); }
       });
     }
   }
@@ -1167,6 +1234,7 @@
     const vname = store.get("view", "ema");
     const st = status === "updating" ? updatingTxt
       : status === "nokey" ? `Data from ${timeAgo(data.generated)}. Add your GitHub key in Settings to refresh.`
+      : status === "old" ? `Data from ${timeAgo(data.generated)} · <button class="btn small" id="lkRetry">Update</button>`
       : `Updated ${timeAgo(data.generated)} · ${esc(row.source || "")}`;
     view.innerHTML = `
       <div class="d-head">
@@ -1192,6 +1260,7 @@
           ${row.close_only ? "<br><br>Yields are in percent; the chart shows one value per trading day." : ""}
           <br><br>Data: ${esc(row.source || "–")} · last bar ${esc(row.last_bar || "–")}</div></div></div>
       </div>`;
+    if ($("#lkRetry")) $("#lkRetry").onclick = () => render(false);
     $("#addWl").onclick = async () => {
       const b = $("#addWl");
       b.disabled = true;
@@ -1257,7 +1326,7 @@
       <div class="card"><h3>Status</h3><div class="note">
         Last check: <b style="color:var(--text)">${s.generated ? new Date(s.generated).toLocaleString() : "–"}</b> (${timeAgo(s.generated)})<br>
         NYSE: ${esc(s.market)} · ${(s.stocks || []).length} symbols · data: ${esc(s.stocks?.find((x) => x.source)?.source || "–")}<br>
-        Checks run every 10 min while the NYSE is open (Mon–Fri, 15:30–22:00 Vienna time).
+        Checks run about every 5 min while the NYSE is open (Mon–Fri, 15:30–22:00 Vienna time; 14:30–21:00 for the few weeks a year when US and EU clocks change on different dates).
         ${s.errors?.length ? `<br><span style="color:var(--sma150)">No data: ${s.errors.map((e) => esc(e.symbol)).join(", ")}</span>` : ""}
       </div></div>
 
@@ -1301,8 +1370,11 @@
         </div>
       </div></div>
 
-      <div class="card"><h3>Notifications</h3><div class="note">
-        Alerts are pushed through the free <b style="color:var(--text)">ntfy</b> app. In ntfy tap + and subscribe to your private topic (the same text you saved as <code>NTFY_TOPIC</code> on GitHub). On the Mac you can open <code>ntfy.sh/app</code> in the browser and allow notifications.</div></div>
+      <div class="card"><h3>Notifications</h3><div class="form">
+        <div class="note">Phone: alerts are pushed through the free <b style="color:var(--text)">ntfy</b> app – subscribe to your private topic there (the same text you saved as <code>NTFY_TOPIC</code> on GitHub; never post it anywhere public).</div>
+        <div class="checks"><label><input type="checkbox" id="stDesk" ${store.get("deskNotify", false) ? "checked" : ""} ${canNotify() ? "" : "disabled"}> Show alerts as notifications on this device</label></div>
+        <div class="help">For the Mac: works while the Pullback app is open (it can sit minimised in the Dock). Tip: right-click the Dock icon → Options → <i>Open at Login</i>. Leave this off on the phone, where ntfy already notifies you.</div>
+      </div></div>
 
       <div class="card"><h3>Method</h3><div class="note">
         Based on Babyfolio's <a style="color:var(--accent)" href="https://edelbridge.substack.com/p/technical-analysis-keeping-it-simple" target="_blank" rel="noopener">“Technical Analysis: Keeping It Simple”</a>:
@@ -1338,18 +1410,50 @@
     };
     $("#stLangPush").value = set.brief_lang || "en";
     $("#langSeg").onclick = (e) => { const l = e.target.closest("button")?.dataset.l; if (l) { S.lang = l; store.set("lang", l); renderSettings(); toast(l === "de" ? "Briefs auf Deutsch" : "Briefs in English"); } };
+    $("#stDesk").onchange = async (e) => {
+      if (!e.target.checked) { store.set("deskNotify", false); return; }
+      const perm = await Notification.requestPermission().catch(() => "denied");
+      if (perm !== "granted") {
+        e.target.checked = false;
+        toast("Notifications are blocked – allow them for this app in System Settings → Notifications.", 4500);
+        return;
+      }
+      store.set("deskNotify", true);
+      store.set("notifiedUpTo", S.alerts?.[0]?.time || new Date().toISOString());
+      navigator.serviceWorker.ready.then((reg) => reg.showNotification("Pullback notifications are on", { body: "New alerts will show up here while the app is open.", icon: "icons/icon-192.png", data: { url: location.pathname + "#/alerts" } }));
+    };
     $("#cTest").onclick = () => runWorkflow(true);
     $("#cRun").onclick = () => runWorkflow(false);
   }
 
   // ------------------------------------------------------------------ boot
+  // Automatic refreshes (every minute, or when the app comes back to the front) update the
+  // screen quietly: the list keeps its scroll position, a chart is not rebuilt while you are
+  // touching it, and Settings, Search, briefs and lookups are left alone (so typing is never
+  // wiped and no new lookup job is started).
+  let lastTouch = 0, deferred = false;
+  ["pointerdown", "wheel", "touchstart", "keydown"].forEach((ev) =>
+    window.addEventListener(ev, () => { lastTouch = Date.now(); }, { passive: true, capture: true }));
+  const busy = () => S.sheetOpen || S.picking || Date.now() - lastTouch < 20000
+    || ["INPUT", "SELECT", "TEXTAREA"].includes(document.activeElement?.tagName);
+
+  function autoRender() {
+    const name = parseRoute().name;
+    if (["settings", "search", "lookup", "brief"].includes(name)) return;
+    if (busy()) { deferred = true; return; }
+    deferred = false;
+    render(true, true);
+  }
+  setInterval(() => { if (deferred && !busy() && !document.hidden) autoRender(); }, 5000);
+
   async function refresh(manual) {
     const btn = $("#refreshBtn");
     btn.classList.add("spin");
     try {
       const changed = await loadSummary();
       if (manual) await loadConfig(true).catch(() => {});
-      if ((changed || manual) && !S.sheetOpen && parseRoute().name !== "search") await render(true);
+      if (manual && !S.sheetOpen && parseRoute().name !== "search") await render(true, true);
+      else if (changed) autoRender();
       if (manual) toast(changed ? "Updated" : `Up to date · last check ${timeAgo(S.summary.generated)}`);
     } catch (e) {
       if (manual || !S.summary) toast("Offline – showing last saved data.");
@@ -1362,7 +1466,8 @@
   $("#backBtn").onclick = () => (history.length > 1 ? history.back() : (location.hash = "#/" + store.get("lastList", "portfolio")));
   window.addEventListener("hashchange", () => render(false));
   document.addEventListener("visibilitychange", () => { if (!document.hidden) refresh(false); });
-  setInterval(() => { if (!document.hidden) refresh(false); }, 60_000);
+  // keep checking in the background only when this device shows notifications itself
+  setInterval(() => { if (!document.hidden || store.get("deskNotify", false)) refresh(false); }, 60_000);
   setInterval(updateStatus, 30_000);
 
   // App updates: check for a new version whenever the app comes to the front. When the new

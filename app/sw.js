@@ -48,3 +48,14 @@ self.addEventListener("fetch", (e) => {
     );
   }
 });
+
+// Clicking a notification shown by the app (Mac): bring the app forward on that stock.
+self.addEventListener("notificationclick", (e) => {
+  e.notification.close();
+  const target = new URL((e.notification.data && e.notification.data.url) || "./", self.registration.scope).href;
+  e.waitUntil(self.clients.matchAll({ type: "window", includeUncontrolled: true }).then((list) => {
+    const c = list.find((x) => x.url.startsWith(self.registration.scope));
+    if (c) return c.focus().then(() => c.navigate(target)).catch(() => self.clients.openWindow(target));
+    return self.clients.openWindow(target);
+  }));
+});

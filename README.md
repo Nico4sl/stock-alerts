@@ -4,7 +4,7 @@ A personal chart and alert app for your watchlist and portfolio, based on Babyfo
 ["Technical Analysis: Keeping It Simple"](https://edelbridge.substack.com/p/technical-analysis-keeping-it-simple).
 
 - **3 charts per stock:** 8/21 EMA · 50/100/150/200 SMA · open gaps (pan and pinch like TradingView)
-- **Push alerts** while the NYSE is open (checks every 10 min):
+- **Push alerts** while the NYSE is open (checks about every 5 min):
   - Entry 1: price within ±1.5 % of the **8 EMA**
   - Entry 2: price within ±1.5 % of the **21 EMA**
   - **200 SMA** zone for ★ high-conviction names (other SMAs can be switched on)
@@ -46,6 +46,8 @@ The app is then live at `https://<your-username>.github.io/stock-alerts/`.
 - **Android (Chrome):** open the link → ⋮ menu → **Add to Home screen / Install app**.
 - **Mac (Chrome):** open the link → install icon in the address bar → it opens like an app and sits in the Dock.
   **Mac (Safari):** File → **Add to Dock**.
+- **Mac notifications:** in the app → **Settings → Notifications** → tick *Show alerts as notifications on this device*.
+  Works while the app is open (minimised is fine); right-click the Dock icon → Options → *Open at Login* to keep it running.
 
 ### 4 · "Why it moved" briefs (Claude)
 1. In claude.ai → Settings → Connectors, connect **GitHub** and give it access to `stock-alerts`.
@@ -80,10 +82,14 @@ The key stays on that device only. Without it the app still shows everything; yo
 
 ## Good to know
 - Prices: Nasdaq.com (stocks, ADRs, ETFs; daily candles plus live intraday price) and Kraken (crypto). No API key needed.
-- Checks: every 10 min, 15:30–22:00 Vienna time on NYSE trading days. GitHub can delay scheduled
+- Checks: about every 5 min, 15:30–22:00 Vienna time on NYSE trading days. Outside those hours a
+  run only refreshes the app (last official close) and never sends alerts. A level or a ±3 % move must show on
+  two checks in a row (≈5 min) before it alerts, so a single bad quote can't trigger anything. GitHub can delay scheduled
   runs by a few minutes at busy times.
 - GitHub pauses scheduled jobs in repos with **no changes for 60 days** and sends you an email first.
   Any edit, such as saving a level in the app, resets the clock.
+- Privacy: the repo is public, so `config.json` (your lists and levels) is visible to anyone. Your ntfy topic
+  and GitHub key are not in the repo. (A private repo would hide it, but GitHub Pages then needs a paid plan.)
 - Tickers: US-listed stocks, ADRs and ETFs; crypto as `BTC-USD`. European listings are not covered by the free source.
 - Novo Nordisk is tracked via its US ADR `NVO`.
 
