@@ -26,14 +26,16 @@ A personal chart and alert app for your watchlist and portfolio, based on Babyfo
 
 ### 1 · Notifications (phone)
 1. Install **ntfy** from the Play Store. No sign-up is needed.
-2. In ntfy tap **+** and subscribe to your private topic: `pullback-c2e79e21b89c`
-   (treat it like a password: anyone who knows it can read your alerts).
-3. Android: allow ntfy notifications, and set battery use for ntfy to *Unrestricted* so alerts arrive instantly.
+2. Make up a private topic: a long random name (30+ letters and digits). It works like a password –
+   anyone who knows it can read your alerts or send fake ones – so **never write it into this repo**
+   (the repo is public). Keep it only in the GitHub secret below and in the ntfy app.
+3. In ntfy tap **+** and subscribe to that topic.
+4. Android: allow ntfy notifications, and set battery use for ntfy to *Unrestricted* so alerts arrive instantly.
 
 ### 2 · GitHub
 1. Upload these files to your repository `stock-alerts` (public, branch `main`).
 2. **Settings → Secrets and variables → Actions → New repository secret**
-   Name `NTFY_TOPIC`, value `pullback-c2e79e21b89c`.
+   Name `NTFY_TOPIC`, value = your private topic.
 3. **Settings → Pages → Source: GitHub Actions**.
 4. **Actions** tab → enable workflows if asked → *Check prices* → **Run workflow** → tick
    *Send a test notification* → Run. Your phone should ping within about a minute.
