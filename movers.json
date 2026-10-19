@@ -1,22 +1,22 @@
 {
  "date": "2026-10-19",
  "threshold": 3.0,
- "updated": "2026-10-19T14:28:05+00:00",
+ "updated": "2026-10-19T14:38:09+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 768.5,
-   "change_pct": 0.69
+   "price": 767.3,
+   "change_pct": 0.53
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 721.09,
-   "change_pct": 1.59
+   "price": 719.49,
+   "change_pct": 1.36
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 79.75,
-   "change_pct": -0.37
+   "price": 79.68,
+   "change_pct": -0.46
   }
  },
  "movers": [
@@ -24,23 +24,23 @@
    "symbol": "AMZN",
    "name": "Amazon",
    "list": "portfolio",
-   "price": 259.97,
+   "price": 259.42,
    "prev_close": 250.0,
-   "change_pct": 4.0,
+   "change_pct": 3.8,
    "trigger_change": 3.5,
    "peak_change": 4.0,
    "first_seen": "2026-10-19T14:12:58+00:00",
    "sector": {
     "etf": "XLY",
     "name": "Consumer discr.",
-    "price": 113.79,
-    "change_pct": 1.18
+    "price": 113.66,
+    "change_pct": 1.07
    },
    "chart": {
-    "ema8": 1.6,
-    "ema21": 2.0,
-    "sma50": 1.2,
-    "sma200": 7.0,
+    "ema8": 1.5,
+    "ema21": 1.8,
+    "sma50": 1.0,
+    "sma200": 6.8,
     "momentum": true
    },
    "headlines": [
@@ -99,23 +99,23 @@
    "symbol": "AMAT",
    "name": "Applied Materials",
    "list": "portfolio",
-   "price": 423.85,
+   "price": 421.8,
    "prev_close": 409.29,
-   "change_pct": 3.6,
+   "change_pct": 3.1,
    "trigger_change": 3.5,
    "peak_change": 3.8,
    "first_seen": "2026-10-19T14:12:58+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 553.52,
-    "change_pct": 2.54
+    "price": 550.99,
+    "change_pct": 2.07
    },
    "chart": {
-    "ema8": -6.3,
-    "ema21": -10.4,
-    "sma50": -11.7,
-    "sma200": -3.6,
+    "ema8": -6.7,
+    "ema21": -10.8,
+    "sma50": -12.1,
+    "sma200": -4.1,
     "momentum": false
    },
    "headlines": [
@@ -166,6 +166,81 @@
      "publisher": "Yahoo Finance",
      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPV082S3ZTRERfWmJrX2FqaUdIVnlFR2VZM1lhN1QwVWRxNmU2OFU5S3l1Q2FIbU5CREszMUNiUHFUbzJGR1ZDN0t2T1ZGSVp6QmlSaGJ0U0N4UU5HdEpkTTljT1YzWFd1U3dFWDM2MzdBODF6Z3ZVRm5aRkJqa0J3Y0liMWZuU2M1QzE5OFcyN1Q4ekkxZDZsc1JoYm5MQjg?oc=5",
      "time": "2026-10-17T22:11:56+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
+   "symbol": "AXON",
+   "name": "Axon",
+   "list": "watchlist",
+   "price": 378.21,
+   "prev_close": 390.29,
+   "change_pct": -3.1,
+   "trigger_change": -3.1,
+   "peak_change": -3.1,
+   "first_seen": "2026-10-19T14:38:09+00:00",
+   "sector": {
+    "etf": "XLI",
+    "name": "Industrials",
+    "price": 166.6,
+    "change_pct": -0.69
+   },
+   "chart": {
+    "ema8": -6.2,
+    "ema21": -11.2,
+    "sma50": -24.2,
+    "sma200": -22.5,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Earnings Preview: What to Expect From Axon Enterprise\u2019s Report",
+     "publisher": "Barchart.com",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOeEtyZWtsMkoxc2pxQlA5SHJxRkJlQ1FUeTJadXVvSFN0MnNZdkpHd0Y3Zmt4T3V3OWJ2VlVUOVlFOGhFZ2NKY0F3RlhjQTRiRjJidjFOYXFCWEVOVi03bTFLRl9GWm83M1I4OWdVdHR1MTc1cUZWWUVLcXZhZER1bHVweUctX1ZyRmNETnFJZ0Jsd0x6NXlLdDNqQVVNXzN5UEUwcmdHZw?oc=5",
+     "time": "2026-10-19T13:19:09+00:00"
+    },
+    {
+     "title": "Axon Enterprise, Inc. (AXON) Stock Price, News, Quote & History",
+     "publisher": "Yahoo! Finance Canada",
+     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9FaFY2blB3Sm1pMS1PY0ZEYlVlaENiTHZ3UXB2YnZPUGhaQm40SHdVdFVzVEtPeXp0cTRGcVZMYTJrY2pvd0N1MWVYS3d0RDdnYnc?oc=5",
+     "time": "2026-10-19T08:55:04+00:00"
+    },
+    {
+     "title": "Axfood (OM:AXFO) Stock Could Be 44% Undervalued On Cash Flow",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQN1ZzUmJYcHJnZVB2UTZPOGhXaHRXUE9BbkdQUVYtaTZiN3ozSW1yakM4TXp3bnRXcHNaZmUwTFhKWEJ2X1BhUV9MaGZVX3E2b080MENaY3ZNZVpGRE9OMzZDVjZKd2ljZnV3elhJWjN5cVlGMldNSlU5M01TdWxsRG90WTlVeXFTejl3VWlMQzJwQlVsTGc?oc=5",
+     "time": "2026-10-19T02:10:00+00:00"
+    },
+    {
+     "title": "Axon Enterprise, Inc $AXON Stock: IFP Advisors Inc Grows Holdings",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOc0EydnVySWtCN0p3NWhmM0dLN09SQ1FQWGw3YUZlbm84MERXOFJQRGl4V2QxdE9EWkpzaktxNjJLSEpiMGZQR2QxaDE3S2xqWlgtYURtcFJwRmFIbVg4dTU4NmhYRFBsX2ZfNWhTY3RqbjFtS2tobEtFdXcweUNXbWV3bFB6eGlxa0hpMHFwNjFBX2lkMll6VDJ3RXBoNnZSQjJpem9NajZLU1JUd0g5SXZpZU5XbGJWWnRlNEhUQmE?oc=5",
+     "time": "2026-10-18T10:16:33+00:00"
+    },
+    {
+     "title": "SteelPeak Wealth LLC Buys 237,880 Shares of Axon Enterprise, Inc $AXON",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNemRQZklicUFUalVDdHBaTFIxWmZydmZKVzBpY0h0M3VJY3BYWm1BS2t0Ri1tZThTYml0Rk1zTUlnTGVBbXVWQ0loRVZ3eEpCMzlPNHkySHdpWk4wb1dITHRMU2ZuUTR2N2s3alpSZktYNXBMZ3JHdEdGc3c4aGgzS0ZjdmpFUDJFZGY0RmNoVm9OOVl2NWRsZWtRdEc5bm1HXzdZcTd5V0RjOWYta29oZlZoU1JKREd1SFBYb3l4T1l0TmtENjd3?oc=5",
+     "time": "2026-10-18T10:16:33+00:00"
+    },
+    {
+     "title": "Axon Enterprise, Inc $AXON Shares Bought by Robertson Stephens Wealth Management LLC",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPUGJ5ZnJwa1JaN2o2aVlzWVJCM0VOaHpEZnd4UndxUHhMOTJXR3dha0VEb0hiNldGTklERVFoMERMZnZ6Q3F5dzUybmt2TnhfZUtzazliLWNQVmZ2WXNycllnUElDVFdYTkxOSGF0NFJRaXFRaXN1eWRDUmlKT0lCbXF0NW5RNzhOT2VJUndKWmhOOGtoVE9zM2ExSFJ3bE0tUTRuakdzUWY4QU1LWERQUlJmUjJkVUFPU1F6UVVSOWIyTGJJLU9LX0M2aFF1WTFqWWFlNG0xOVF0Y1k?oc=5",
+     "time": "2026-10-18T10:13:25+00:00"
+    },
+    {
+     "title": "Axon Enterprise, Inc $AXON Shares Acquired by Frank Rimerman Advisors LLC",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPWlB0aWptVmJFRWZsczBpeTRSSmd5MlNOUlpfYnBzeG9Ka0pZNW04VWpOSWhVLUtCbmtfUm5qMmRtQ1VsM2hqNy04V1JzYmc2elRWb3ZkMEpsLVhDNG1yLTFRNENEWTdwdENWcHp2Tmd6OXZTZHpQaDN3ZkRoMl9ZSXRvbkNsT0hXNDJtV1dqa0tJdTRWaEh4M3FRRnJDcDM3Ym9YWmtNano5di1MX2RhbC1yWFpETW14UzFuaFhQM0p1d0UyWW8tUVlPaVY?oc=5",
+     "time": "2026-10-18T08:20:01+00:00"
+    },
+    {
+     "title": "Federal Contract Wins Could Reshape The Case For Axon Stock",
+     "publisher": "Simply Wall Street",
+     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOTTYteGVtYjZlOTZRRUprcjR5dTJrWGt4b2ZnMDRlR3liRWUwUUVZdlN2bmtHS2JST2NhOFdHN0ZTV18xbWMtSmd1NnBJVVR1XzN5WURaQXhQbXNwVlYyd1pVZzB2UXIzaXprN1NlOXlNeXFuOGVPYnhSR0ctbS1peEVLejgyb2N0R1czejRfUGI1UVprZ19mWGpLRDNPX2pWWC01SlJQSjRENjhmTUkyRTBBS2RxQUUtS0FFamd0aXVDNE9MZlpFNmNGNV9uX1BrUUxvWdIB2gFBVV95cUxNMHdNNTZpaHZXVW1ESzdKODBrRV9LYVFkMzNsM1ZrTUlSQW1VYUZvN3JaRkVlYXNDakJFQ2thaXVlOHZBakRhRGtSM04tOFhFSktfM3hsWTc3cWNKa1llbVB2eVJraVU1RXdKRHNneXJ5b0xwR1ZublMyNXJ4M1NzRUtSRGp5MG9ud3BjQ1BsMDZ6NnZ5b3cwNnYtVDU4NnhzMEZXYmZaR1pUY1g1ZEZUWElIVm1PUjNQc0lNeFNlNzFzVDhQT1dscW9jNWJfTWZHN1hab1dpaFk4UQ?oc=5",
+     "time": "2026-10-17T23:45:22+00:00"
     }
    ],
    "brief": null
