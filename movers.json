@@ -1,121 +1,46 @@
 {
  "date": "2026-10-19",
  "threshold": 3.0,
- "updated": "2026-10-19T14:23:02+00:00",
+ "updated": "2026-10-19T14:28:05+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 768.64,
-   "change_pct": 0.71
+   "price": 768.5,
+   "change_pct": 0.69
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 721.35,
-   "change_pct": 1.63
+   "price": 721.09,
+   "change_pct": 1.59
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 79.81,
-   "change_pct": -0.31
+   "price": 79.75,
+   "change_pct": -0.37
   }
  },
  "movers": [
   {
-   "symbol": "AMAT",
-   "name": "Applied Materials",
-   "list": "portfolio",
-   "price": 424.82,
-   "prev_close": 409.29,
-   "change_pct": 3.8,
-   "trigger_change": 3.5,
-   "peak_change": 3.8,
-   "first_seen": "2026-10-19T14:12:58+00:00",
-   "sector": {
-    "etf": "SMH",
-    "name": "Semiconductors",
-    "price": 553.8,
-    "change_pct": 2.6
-   },
-   "chart": {
-    "ema8": -6.2,
-    "ema21": -10.2,
-    "sma50": -11.5,
-    "sma200": -3.4,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Applied Materials is Going Solid. Is its AI Growth Already Priced In?",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNQWtlTlNyOG5QdkNfUHR5MkEwS3dwNHJ3VUxPVzFxU3cxSlJVeC1XZl9TVUFZRW9jczRsUzZKMmZWZjdPM3l1cEhyYnRicUhGc1lobjM5ZElHUDNvcVNkOExxU0FjUnVxVWdqWWlON0tLZjJESnNEaVVLMEF6alR4OHVRWmgwekdRMTZOVHBfM3JybE1ON04yZkhtOUk2UQ?oc=5",
-     "time": "2026-10-19T13:31:21+00:00"
-    },
-    {
-     "title": "Applied Materials Cratered 20% Since July: Multiple Wall Street Firms Predict It's Going to More Than Double From Here",
-     "publisher": "24/7 Wall St.",
-     "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxObmdwREdBa3o1VmNhWFlObTlTdnRTWk5kSjRRSVAtZXFYbC04WFdtc1VjNlp5RGxUNEV5ckhqUy0tdVdFMVlCS29RV3F3YmVHSTRrVnhxREp5LVhuYkdxeWs4azlwTzBndzQzYWJIc1A5ckZHNVF5QjRrdjFHeEZZQVJ5ZWFVVnNqTTlmZDdvd1VrSHA3YzJIZUtiSy1MLWxUSUxCRUcxb2t1VmVZTVhWZFhWcl9KZ2g2NTZEaXJ2b2xvSDBYRENmSldqeXNHcHo1Nm9YaXRlRThydWlXdjNNS2JhNFNnSWRsd3ZTaFRMbTRsOXRxLTgzd3h1Y3hZazdrMmZRVHVVQ2NfUm84SXRIMTJZZFpOQ3lqRkxiRkdIZw?oc=5",
-     "time": "2026-10-19T11:15:00+00:00"
-    },
-    {
-     "title": "Applied Materials (AMAT) Sees $58.8 Million in Net ETF Selling on Oct. 15",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOYTlrbnZqU3NGZ0o2TVo4Z1hBMzlzVWdZSmNpN1JyTmhtUFlOYlNfUk5HQ3hjTXZDbjM1TU10UjNTWjh4dnFfeTFPc0xoeFJIdmhadEpraWtPRXRqay1YSC1UeUE0WktDRC1xYmlQanQwRXd4QUJoUzdKdTRNZXJVXzJxY2FCbnQ0bmVtWEhvX3g1NnJQSFY1Ymp6UQ?oc=5",
-     "time": "2026-10-19T11:02:49+00:00"
-    },
-    {
-     "title": "1 Mega-Cap Stock on Our Watchlist and 2 We Turn Down",
-     "publisher": "FinancialContent",
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQX3NENHJLZktRSlk4TXh3RXNfR2p5WFBFZFlYZzFIMkkwZzNjUFVZNXF3UncyWjNnN0htZ3h4Y1FEbVRyY0E0Z2hoNC04aTNyUHJ4cUJ1VlNLWUVXZ21KNkJzei1aRF9BU3l1dnFHZHBYeGM3Y0U4MjRFemhLYjMzRDF0MURqMWlOVk9OdElLT2k2X19wTjhSYVlhWk9xZkVyOFp4Qmowazg5Z055V1Z3cnZzMl9IQQ?oc=5",
-     "time": "2026-10-19T04:38:00+00:00"
-    },
-    {
-     "title": "What Is Applied Materials\u2019 (AMAT) Economic Moat, and Is It Widening or Narrowing?",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQOUZuYy12QWRhX2VlS3hCZVctZXNoa2FXUG5nMjdzaWFvS29kN0w5Q3gzbU4xTklrbFNaM29RSE5HQndtTmZqc29NYUpIVjJlNExDeVN3ZW9vMXNCaVVuZ1psbWg1WG5PdTdlMnE3NFpBT1RYT3BzRWZ3ZUtJMTVWUVJ3cUxzeVI2amQyS0Nxb3BHOUVuZ1dISVprZlhiRllfZ1Br?oc=5",
-     "time": "2026-10-18T14:31:23+00:00"
-    },
-    {
-     "title": "Applied Materials And 2 Growth Stocks To Watch",
-     "publisher": "Simply Wall Street",
-     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNZ29CVGRkT1ZzLTVaTm1jNnFOVUZXQ2dZNWxKbkNVaVo2X1ZhY05zTTBIcy13aUNmdXA5VFVUZ1cwT0FQczBFVVFCMXpOUHptRUNtLUtNS1RJSzlUZ1Blejd6RGdNbEtMZU5HVG9WTmxjLUlyYTRfYlVjN0V4ZElCU2lnZFpzVTZzZ3paY2dNTW1OOEo5VHN6cThpY2FWRnA2ZUpwdThXQlJnMGZOSmNHR3dwMG80RGRpcWNzZzh4TzM0b0U4aG9R0gHMAUFVX3lxTE15T2twRW1WYktwR0JNbGpJWTVwOXB5TWdJRXllY3VUb3JVRHVzNTlYT0pKbEVlVXFuTkc2eWM0VllNcmhyOUhzVHJXd2JiS2pXeHQ0YVF1OFFlUjZnMTkwTkFTRTB2bXB0aUpDaVM2NjF4MFA0X0FuTHVKd01FRm1fX0pqSWwyeXJCbXJhbGRfQWJINW9DbnhPQVluRGd6UENRSzRhQk95NFJ3YkR3aFVWNkZHYjR1a2FUZHI2MWFpVVJzWGlvNzRSanp2LQ?oc=5",
-     "time": "2026-10-17T23:45:21+00:00"
-    },
-    {
-     "title": "Applied Materials (AMAT) Earnings Preview: AI Chip Demand, Capital Expenditure Trends, & Trade Setups - In Progress",
-     "publisher": "TradingKey",
-     "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOcHQ4N2xNRi1FZEFSUnBVM3V1U0tGM1FjMmRCcWR5cFdYLUNhQ29QT2JQcE4wMDBBRUdoSzJ4LWpmTjJJVzFpb3NydHJIRXFsSEFlbHhrNElVX0pJQUkteFJreTdGQ3lvYWVTQUdjZFM5UDMySnY4U21xTTBhVjZXUXZHNUN6SDFxemxwVWJDTTdfei1DWlJVeHVFVjFDemM4V0JIUlhHM3I5alBCWW9zYV9OZGdlQjAzZS1WUGpUOHVNSFgwZ2tvRmdmcHlVcXlCb0Z2NjB6NnQ2VjQ0SE5UYlFEZ0F6SU5PZk1KQQ?oc=5",
-     "time": "2026-10-17T22:17:40+00:00"
-    },
-    {
-     "title": "Lam Research vs. Applied Materials: Which Buybacks Are Better Covered by Cash?",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPV082S3ZTRERfWmJrX2FqaUdIVnlFR2VZM1lhN1QwVWRxNmU2OFU5S3l1Q2FIbU5CREszMUNiUHFUbzJGR1ZDN0t2T1ZGSVp6QmlSaGJ0U0N4UU5HdEpkTTljT1YzWFd1U3dFWDM2MzdBODF6Z3ZVRm5aRkJqa0J3Y0liMWZuU2M1QzE5OFcyN1Q4ekkxZDZsc1JoYm5MQjg?oc=5",
-     "time": "2026-10-17T22:11:56+00:00"
-    }
-   ],
-   "brief": null
-  },
-  {
    "symbol": "AMZN",
    "name": "Amazon",
    "list": "portfolio",
-   "price": 259.6,
+   "price": 259.97,
    "prev_close": 250.0,
-   "change_pct": 3.8,
+   "change_pct": 4.0,
    "trigger_change": 3.5,
-   "peak_change": 3.8,
+   "peak_change": 4.0,
    "first_seen": "2026-10-19T14:12:58+00:00",
    "sector": {
     "etf": "XLY",
     "name": "Consumer discr.",
-    "price": 113.78,
+    "price": 113.79,
     "change_pct": 1.18
    },
    "chart": {
-    "ema8": 1.5,
-    "ema21": 1.9,
-    "sma50": 1.1,
-    "sma200": 6.9,
+    "ema8": 1.6,
+    "ema21": 2.0,
+    "sma50": 1.2,
+    "sma200": 7.0,
     "momentum": true
    },
    "headlines": [
@@ -166,6 +91,81 @@
      "publisher": "Yahoo Finance",
      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQM2hCVGlXMzJRN25MbEptWTNURFlSX0FTLWVaVWltTGs4bDFXX09waGprUVF1QWlncGRIVVZURUVzNEJ0RTFtZ204blFyRFBERjEwWG1mUkFOU2hDQVUzc2c2MkpZcDFiZ0JCZkN1NHYtaXNJZkMyRGZOXzNfWW5XNjJTSWZPZmZocDYwUjdodE54dTZ5WGpBbA?oc=5",
      "time": "2026-10-19T11:02:25+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
+   "symbol": "AMAT",
+   "name": "Applied Materials",
+   "list": "portfolio",
+   "price": 423.85,
+   "prev_close": 409.29,
+   "change_pct": 3.6,
+   "trigger_change": 3.5,
+   "peak_change": 3.8,
+   "first_seen": "2026-10-19T14:12:58+00:00",
+   "sector": {
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 553.52,
+    "change_pct": 2.54
+   },
+   "chart": {
+    "ema8": -6.3,
+    "ema21": -10.4,
+    "sma50": -11.7,
+    "sma200": -3.6,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Applied Materials is Going Solid. Is its AI Growth Already Priced In?",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNQWtlTlNyOG5QdkNfUHR5MkEwS3dwNHJ3VUxPVzFxU3cxSlJVeC1XZl9TVUFZRW9jczRsUzZKMmZWZjdPM3l1cEhyYnRicUhGc1lobjM5ZElHUDNvcVNkOExxU0FjUnVxVWdqWWlON0tLZjJESnNEaVVLMEF6alR4OHVRWmgwekdRMTZOVHBfM3JybE1ON04yZkhtOUk2UQ?oc=5",
+     "time": "2026-10-19T13:31:21+00:00"
+    },
+    {
+     "title": "Applied Materials Cratered 20% Since July: Multiple Wall Street Firms Predict It's Going to More Than Double From Here",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxObmdwREdBa3o1VmNhWFlObTlTdnRTWk5kSjRRSVAtZXFYbC04WFdtc1VjNlp5RGxUNEV5ckhqUy0tdVdFMVlCS29RV3F3YmVHSTRrVnhxREp5LVhuYkdxeWs4azlwTzBndzQzYWJIc1A5ckZHNVF5QjRrdjFHeEZZQVJ5ZWFVVnNqTTlmZDdvd1VrSHA3YzJIZUtiSy1MLWxUSUxCRUcxb2t1VmVZTVhWZFhWcl9KZ2g2NTZEaXJ2b2xvSDBYRENmSldqeXNHcHo1Nm9YaXRlRThydWlXdjNNS2JhNFNnSWRsd3ZTaFRMbTRsOXRxLTgzd3h1Y3hZazdrMmZRVHVVQ2NfUm84SXRIMTJZZFpOQ3lqRkxiRkdIZw?oc=5",
+     "time": "2026-10-19T11:15:00+00:00"
+    },
+    {
+     "title": "Applied Materials (AMAT) Sees $58.8 Million in Net ETF Selling on Oct. 15",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOYTlrbnZqU3NGZ0o2TVo4Z1hBMzlzVWdZSmNpN1JyTmhtUFlOYlNfUk5HQ3hjTXZDbjM1TU10UjNTWjh4dnFfeTFPc0xoeFJIdmhadEpraWtPRXRqay1YSC1UeUE0WktDRC1xYmlQanQwRXd4QUJoUzdKdTRNZXJVXzJxY2FCbnQ0bmVtWEhvX3g1NnJQSFY1Ymp6UQ?oc=5",
+     "time": "2026-10-19T11:02:49+00:00"
+    },
+    {
+     "title": "1 Mega-Cap Stock on Our Watchlist and 2 We Turn Down",
+     "publisher": "FinancialContent",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQX3NENHJLZktRSlk4TXh3RXNfR2p5WFBFZFlYZzFIMkkwZzNjUFVZNXF3UncyWjNnN0htZ3h4Y1FEbVRyY0E0Z2hoNC04aTNyUHJ4cUJ1VlNLWUVXZ21KNkJzei1aRF9BU3l1dnFHZHBYeGM3Y0U4MjRFemhLYjMzRDF0MURqMWlOVk9OdElLT2k2X19wTjhSYVlhWk9xZkVyOFp4Qmowazg5Z055V1Z3cnZzMl9IQQ?oc=5",
+     "time": "2026-10-19T04:38:00+00:00"
+    },
+    {
+     "title": "What Is Applied Materials\u2019 (AMAT) Economic Moat, and Is It Widening or Narrowing?",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQOUZuYy12QWRhX2VlS3hCZVctZXNoa2FXUG5nMjdzaWFvS29kN0w5Q3gzbU4xTklrbFNaM29RSE5HQndtTmZqc29NYUpIVjJlNExDeVN3ZW9vMXNCaVVuZ1psbWg1WG5PdTdlMnE3NFpBT1RYT3BzRWZ3ZUtJMTVWUVJ3cUxzeVI2amQyS0Nxb3BHOUVuZ1dISVprZlhiRllfZ1Br?oc=5",
+     "time": "2026-10-18T14:31:23+00:00"
+    },
+    {
+     "title": "Applied Materials And 2 Growth Stocks To Watch",
+     "publisher": "Simply Wall Street",
+     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNZ29CVGRkT1ZzLTVaTm1jNnFOVUZXQ2dZNWxKbkNVaVo2X1ZhY05zTTBIcy13aUNmdXA5VFVUZ1cwT0FQczBFVVFCMXpOUHptRUNtLUtNS1RJSzlUZ1Blejd6RGdNbEtMZU5HVG9WTmxjLUlyYTRfYlVjN0V4ZElCU2lnZFpzVTZzZ3paY2dNTW1OOEo5VHN6cThpY2FWRnA2ZUpwdThXQlJnMGZOSmNHR3dwMG80RGRpcWNzZzh4TzM0b0U4aG9R0gHMAUFVX3lxTE15T2twRW1WYktwR0JNbGpJWTVwOXB5TWdJRXllY3VUb3JVRHVzNTlYT0pKbEVlVXFuTkc2eWM0VllNcmhyOUhzVHJXd2JiS2pXeHQ0YVF1OFFlUjZnMTkwTkFTRTB2bXB0aUpDaVM2NjF4MFA0X0FuTHVKd01FRm1fX0pqSWwyeXJCbXJhbGRfQWJINW9DbnhPQVluRGd6UENRSzRhQk95NFJ3YkR3aFVWNkZHYjR1a2FUZHI2MWFpVVJzWGlvNzRSanp2LQ?oc=5",
+     "time": "2026-10-17T23:45:21+00:00"
+    },
+    {
+     "title": "Applied Materials (AMAT) Earnings Preview: AI Chip Demand, Capital Expenditure Trends, & Trade Setups - In Progress",
+     "publisher": "TradingKey",
+     "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOcHQ4N2xNRi1FZEFSUnBVM3V1U0tGM1FjMmRCcWR5cFdYLUNhQ29QT2JQcE4wMDBBRUdoSzJ4LWpmTjJJVzFpb3NydHJIRXFsSEFlbHhrNElVX0pJQUkteFJreTdGQ3lvYWVTQUdjZFM5UDMySnY4U21xTTBhVjZXUXZHNUN6SDFxemxwVWJDTTdfei1DWlJVeHVFVjFDemM4V0JIUlhHM3I5alBCWW9zYV9OZGdlQjAzZS1WUGpUOHVNSFgwZ2tvRmdmcHlVcXlCb0Z2NjB6NnQ2VjQ0SE5UYlFEZ0F6SU5PZk1KQQ?oc=5",
+     "time": "2026-10-17T22:17:40+00:00"
+    },
+    {
+     "title": "Lam Research vs. Applied Materials: Which Buybacks Are Better Covered by Cash?",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPV082S3ZTRERfWmJrX2FqaUdIVnlFR2VZM1lhN1QwVWRxNmU2OFU5S3l1Q2FIbU5CREszMUNiUHFUbzJGR1ZDN0t2T1ZGSVp6QmlSaGJ0U0N4UU5HdEpkTTljT1YzWFd1U3dFWDM2MzdBODF6Z3ZVRm5aRkJqa0J3Y0liMWZuU2M1QzE5OFcyN1Q4ekkxZDZsc1JoYm5MQjg?oc=5",
+     "time": "2026-10-17T22:11:56+00:00"
     }
    ],
    "brief": null
