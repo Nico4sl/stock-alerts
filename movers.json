@@ -1,22 +1,22 @@
 {
  "date": "2026-10-19",
  "threshold": 3.0,
- "updated": "2026-10-19T15:08:39+00:00",
+ "updated": "2026-10-19T15:39:51+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 768.68,
-   "change_pct": 0.71
+   "price": 770.08,
+   "change_pct": 0.89
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 721.97,
-   "change_pct": 1.71
+   "price": 724.2,
+   "change_pct": 2.03
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 79.64,
-   "change_pct": -0.51
+   "price": 79.56,
+   "change_pct": -0.61
   }
  },
  "movers": [
@@ -24,23 +24,23 @@
    "symbol": "AMZN",
    "name": "Amazon",
    "list": "portfolio",
-   "price": 262.82,
+   "price": 262.56,
    "prev_close": 250.0,
-   "change_pct": 5.1,
+   "change_pct": 5.0,
    "trigger_change": 3.5,
    "peak_change": 5.1,
    "first_seen": "2026-10-19T14:12:58+00:00",
    "sector": {
     "etf": "XLY",
     "name": "Consumer discr.",
-    "price": 114.12,
-    "change_pct": 1.48
+    "price": 114.4,
+    "change_pct": 1.73
    },
    "chart": {
-    "ema8": 2.5,
-    "ema21": 3.0,
-    "sma50": 2.3,
-    "sma200": 8.2,
+    "ema8": 2.4,
+    "ema21": 2.9,
+    "sma50": 2.2,
+    "sma200": 8.1,
     "momentum": true
    },
    "headlines": [
@@ -96,176 +96,26 @@
    "brief": "2026-10-19-AMZN"
   },
   {
-   "symbol": "AMAT",
-   "name": "Applied Materials",
-   "list": "portfolio",
-   "price": 424.7,
-   "prev_close": 409.29,
-   "change_pct": 3.8,
-   "trigger_change": 3.5,
-   "peak_change": 3.8,
-   "first_seen": "2026-10-19T14:12:58+00:00",
-   "sector": {
-    "etf": "SMH",
-    "name": "Semiconductors",
-    "price": 555.17,
-    "change_pct": 2.85
-   },
-   "chart": {
-    "ema8": -6.2,
-    "ema21": -10.3,
-    "sma50": -11.5,
-    "sma200": -3.4,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Applied Materials, Lam Research, Marvell Technology, Micron, and Semtech Shares Skyrocket, What You Need To Know",
-     "publisher": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPNms4WVI3c0dLd3JhSVg4NDNfNGJiT09tdUE1N0dpVHU5LVdyaFNBMDFaN2kxMUpmdXh6cHYwdzl2R1RvRDVQa0oxTE1KRDZfQ2VmUUxxNHFSWTNnWi1UUDNEMFhMck9oYmNodlRKX0huT19XdFhGSEdjRmhmbm9CNGlnRDdlTzdKMGFHSU9iS29INHpYZEpzMzIycDgwWDhRS21ITHQweXZXaTFWdTVZdmk5RnBLclJjeU9DemVSWjNXRmtCN1FvdUk1LTJaS01pTVVCYXZMdGlqTS05Tm5aWjRVdzFsWUVjTENyWHdJd2xHR3IwR3BWeEgwM1o?oc=5",
-     "time": "2026-10-19T14:30:42+00:00"
-    },
-    {
-     "title": "Applied Materials is Going Solid. Is its AI Growth Already Priced In?",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNQWtlTlNyOG5QdkNfUHR5MkEwS3dwNHJ3VUxPVzFxU3cxSlJVeC1XZl9TVUFZRW9jczRsUzZKMmZWZjdPM3l1cEhyYnRicUhGc1lobjM5ZElHUDNvcVNkOExxU0FjUnVxVWdqWWlON0tLZjJESnNEaVVLMEF6alR4OHVRWmgwekdRMTZOVHBfM3JybE1ON04yZkhtOUk2UQ?oc=5",
-     "time": "2026-10-19T13:31:21+00:00"
-    },
-    {
-     "title": "Applied Materials, Inc. (AMAT) Is a Trending Stock: Facts to Know Before Betting on It",
-     "publisher": "Yahoo! Finance Canada",
-     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQNGI1eXhWOUhFbkxuekZEZjRLSGR6aGFOWWd4OTEwX21ueVZBTVhEb1pJWjZQQ2V4UkxXZ2F5RFB4OWNVMkZkbFI1RHU5cXJUbE9BS3ZVYTM2TzFqZ1dUOEViR2F3WWQtQnF6dGQ5bHF5UXZnSzloR3BUUDBmRUJ0bHF0b1V1V3pHZUtnUA?oc=5",
-     "time": "2026-10-19T12:00:04+00:00"
-    },
-    {
-     "title": "Applied Materials Cratered 20% Since July: Multiple Wall Street Firms Predict It's Going to More Than Double From Here",
-     "publisher": "24/7 Wall St.",
-     "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxObmdwREdBa3o1VmNhWFlObTlTdnRTWk5kSjRRSVAtZXFYbC04WFdtc1VjNlp5RGxUNEV5ckhqUy0tdVdFMVlCS29RV3F3YmVHSTRrVnhxREp5LVhuYkdxeWs4azlwTzBndzQzYWJIc1A5ckZHNVF5QjRrdjFHeEZZQVJ5ZWFVVnNqTTlmZDdvd1VrSHA3YzJIZUtiSy1MLWxUSUxCRUcxb2t1VmVZTVhWZFhWcl9KZ2g2NTZEaXJ2b2xvSDBYRENmSldqeXNHcHo1Nm9YaXRlRThydWlXdjNNS2JhNFNnSWRsd3ZTaFRMbTRsOXRxLTgzd3h1Y3hZazdrMmZRVHVVQ2NfUm84SXRIMTJZZFpOQ3lqRkxiRkdIZw?oc=5",
-     "time": "2026-10-19T11:15:00+00:00"
-    },
-    {
-     "title": "Applied Materials (AMAT) Sees $58.8 Million in Net ETF Selling on Oct. 15",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOYTlrbnZqU3NGZ0o2TVo4Z1hBMzlzVWdZSmNpN1JyTmhtUFlOYlNfUk5HQ3hjTXZDbjM1TU10UjNTWjh4dnFfeTFPc0xoeFJIdmhadEpraWtPRXRqay1YSC1UeUE0WktDRC1xYmlQanQwRXd4QUJoUzdKdTRNZXJVXzJxY2FCbnQ0bmVtWEhvX3g1NnJQSFY1Ymp6UQ?oc=5",
-     "time": "2026-10-19T11:02:49+00:00"
-    },
-    {
-     "title": "Weekly Recap: Return 80\u2013100% of FCF and 2030 revenue/margin targets",
-     "publisher": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOM0ZKeTYwQTNJQ0o2T1dpbmJqSTU1eTFKbm9KaGNGVTY3MWVmbG1tOUs3ZzZGRDFhRTgwM3JSRzFZYjFoSkplbDA2NS0wUjM0YXJFcWxaYTZUbHVMZDJ2dWdseXhTdUxCZ2FlaW5DVi16ZV80OGM0M3VCQVpLelA4WlpHYzFjUTlhNU1WdVpGZE5XWTRTR1g2QjNISkNURUhuNGNqdE1QLUlQMjlXcWZvb3k5Mi0tTzRLazVueXlVNU5mZ1BKR0E?oc=5",
-     "time": "2026-10-19T11:00:00+00:00"
-    },
-    {
-     "title": "Applied Materials (AMAT) Earnings Preview: AI Chip Demand, Capital Expenditure Trends, & Trade Setups - In Progress",
-     "publisher": "TradingKey",
-     "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOcHQ4N2xNRi1FZEFSUnBVM3V1U0tGM1FjMmRCcWR5cFdYLUNhQ29QT2JQcE4wMDBBRUdoSzJ4LWpmTjJJVzFpb3NydHJIRXFsSEFlbHhrNElVX0pJQUkteFJreTdGQ3lvYWVTQUdjZFM5UDMySnY4U21xTTBhVjZXUXZHNUN6SDFxemxwVWJDTTdfei1DWlJVeHVFVjFDemM4V0JIUlhHM3I5alBCWW9zYV9OZGdlQjAzZS1WUGpUOHVNSFgwZ2tvRmdmcHlVcXlCb0Z2NjB6NnQ2VjQ0SE5UYlFEZ0F6SU5PZk1KQQ?oc=5",
-     "time": "2026-10-18T15:15:05+00:00"
-    },
-    {
-     "title": "What Is Applied Materials\u2019 (AMAT) Economic Moat, and Is It Widening or Narrowing?",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQOUZuYy12QWRhX2VlS3hCZVctZXNoa2FXUG5nMjdzaWFvS29kN0w5Q3gzbU4xTklrbFNaM29RSE5HQndtTmZqc29NYUpIVjJlNExDeVN3ZW9vMXNCaVVuZ1psbWg1WG5PdTdlMnE3NFpBT1RYT3BzRWZ3ZUtJMTVWUVJ3cUxzeVI2amQyS0Nxb3BHOUVuZ1dISVprZlhiRllfZ1Br?oc=5",
-     "time": "2026-10-18T14:31:23+00:00"
-    }
-   ],
-   "brief": "2026-10-19-AMAT"
-  },
-  {
-   "symbol": "NBIS",
-   "name": "Nebius",
-   "list": "portfolio",
-   "price": 171.72,
-   "prev_close": 165.47,
-   "change_pct": 3.8,
-   "trigger_change": 3.5,
-   "peak_change": 3.9,
-   "first_seen": "2026-10-19T14:53:13+00:00",
-   "sector": {
-    "etf": "IGV",
-    "name": "Software",
-    "price": 105.96,
-    "change_pct": 1.55
-   },
-   "chart": {
-    "ema8": -10.9,
-    "ema21": -18.5,
-    "sma50": -22.8,
-    "sma200": -1.6,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Nebius is Your New AI Sentiment Gauge For AI Debt and GPU Risks",
-     "publisher": "24/7 Wall St.",
-     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPWnlVcmNURmt6ckV0WVpGYWlZeG5XRlZXa19UbGVrMXdWbHdjRWEza3lQRlJOS1BLWnFNdlliaGF4Uk84QzNybzQ1ZHZzeFlpQzV4NGE1NnRZTzh6NUkyTEgtS1BxdlZJYUxhTWV2QlpnM3FQdnZSTFVuUDAtZXBOQkZnVXVwTmR0anBWQUNyeHBzRURycnNIM0JOX1ZKaE5PM1B3Qmt4YmxsTHM?oc=5",
-     "time": "2026-10-19T14:45:00+00:00"
-    },
-    {
-     "title": "Nebius Group (NASDAQ:NBIS) Shares Gap Up After Insider Buying Activity",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPb05nLXpJM3JJQ3MtdndvNFA2eHRVYVVtNnlpRHRneWtVWjU5bjlBbHdUYk9IRHlrNXhLeTV5Q2NYSFJWZjNGM3FGazVWLVg5QmlrYkpraERBSGFSMFRrUnpLbWhnY3RDa3F5NkY4VmQxZ3REc0hFcUdFQ1lfSjNkc0ZoVzNjY2pZcGV0Q3k3SzE4M2NTeVVYS3hIa2tKRXhNaG1IQ19tY2hPR2pWQ3NBdlFGUEI3b3Y0VElGS0JwMEdHUE55dHE0?oc=5",
-     "time": "2026-10-19T14:27:14+00:00"
-    },
-    {
-     "title": "CRWV vs NBIS vs IREN: Which neocloud stock has the most upside?",
-     "publisher": "Investing.com",
-     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdzdaRzRrWFIwaG01NW81eWpFSDdBN1MzaDM5V1MxSXJjQlZ5SnJXZVIxbHEyb2FpM2dMZjdpcXFyMEJTR08tclZndE8xTWlTZF9VR2FRX3RPMVdIdWtDWmJuVkhrWTN1aHltLXlKWnZZQ1RNRVJtT29fai1xQ2ZfeGtaU2l5djRRRWZTZ1FVdFU3OVl0WWN3c3NHRk5ZZ0dXeUgtWi1fQml3Xy1oX05KYlZpYW5aUlBZVHdyRTE1Z0I?oc=5",
-     "time": "2026-10-19T13:25:51+00:00"
-    },
-    {
-     "title": "Nebius Group NBIS Jumps As AI Capacity And Growth Soar",
-     "publisher": "Timothy Sykes",
-     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE4yZUtjY2RzcHc5RWpLUnR4cVdmYUxJUXlMNFh0bE5zVWctZlVKeTlRbVZBWHBZdjBDLURGUi01WS12T1pyRHNick5tSmNHMXk2MXg3QW84WkVMSjZGQ2hrSGpFRkpaY2Vzc0VYUlVvRGdWOXAwX3VrX29MQWdKZw?oc=5",
-     "time": "2026-10-19T13:19:00+00:00"
-    },
-    {
-     "title": "Insider Selling: Nebius Group (NASDAQ:NBIS) Director Sells $1,289,593.80 in Stock",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNQmdkdkIxeE5kY1dHSmxnY2lPUkJSZjhyUlp0Vk9Fam1pbnN3RjFnZnViX0ZPcm5fVzhfeTFGbUg0bzJEREQ5M0NtM3RBUzFlM3FScmVWeXFjbmpNVGd3QXdwZWJ3M0NjV0lTcWt5S29sWkVFNGZMeGpGYlNwNy1hUi1lVjg2a2xxTkRUcmtLTzBtQ2FtQ25ScmItSFR0dDdweGpFRVZTSC1CQ2FzMmJWYjMwbHJscXQ3RUNmZ21taE9sUE1nTW5kYUlZZDM2Tzc4bHc?oc=5",
-     "time": "2026-10-19T13:11:17+00:00"
-    },
-    {
-     "title": "CoreWeave Jumps 6% on Goldman Sachs Upgrade; Nebius Rises 7%, Oracle Edges Higher",
-     "publisher": "24/7 Wall St.",
-     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNcnZiYWJTajViOHoxT1Bkb3lnSnROZFR2VTdnNG1PRkZoa0ZQUWZxTWc1azNMYlB2UldrRHd4eHRYYnlTc1gxS2s3ZnQ5bUg5end6bXB1bHB6NnEyekVoS3NFa25lam5UTXB2dUJpUjQtNGhfYXVpV04xZW9TSUFTYUgwZ0owZ2dONVl0NHlqMzdCcHRKV0pPeVdNb1RjelVwZzhqTWFYemN6TllkYTBBeUY0bl9BS3g5Z28zM3Nn?oc=5",
-     "time": "2026-10-19T12:58:00+00:00"
-    },
-    {
-     "title": "Nebius Group NV (NBIS) November 26 Puts Surge 48% as Shares Drop to $165.47",
-     "publisher": "GuruFocus",
-     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNenllYzRlR1RDT0x5bzU5X3E1UGRxMzRSSFVCenJrT1doSjlxS3Y1UGxMa1ZMLWNaYmxyZ3RiOEFCeUpleGViXzJjQ2dzUDJPUGtJcVlCc0xIOVR2NjhEOHVPSlZIYjNwNGNzcHppaUtsYi14MG5XOWtOczdHZlVEbXhCS01HZE5yOEE4eldQbUdIekFNN3dkaDBTQno5Q1ZRM2ctNWZiMTFVek9XRGc?oc=5",
-     "time": "2026-10-19T12:38:32+00:00"
-    },
-    {
-     "title": "Nebius Group NV (NBIS) Director Boynton John Wilson IV Sells 7,2",
-     "publisher": "GuruFocus",
-     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQbmcxZzVQeW1TQ3luMkNVcmlLbHRXNVkzdU9LUjdJaEhVdTJXVTEyemRza3hSM3l4S0ZNZEJGMW9pVjdtX1NBSDZlMWpQS21pUHhtUEFCWjBFeVhSeTZGb04yTmFHaGstbTlaUUdJUzlUTEpEOFJsVUlrZUVJOU9BTi0xb202VVNYcEY0VE83M1VYUVBBeFYyWUw5Y1BxQWg2SjkxbzQ2RG04ZE5VbFE?oc=5",
-     "time": "2026-10-19T12:38:32+00:00"
-    }
-   ],
-   "brief": null
-  },
-  {
    "symbol": "ANET",
    "name": "Arista Networks",
    "list": "portfolio",
-   "price": 182.76,
+   "price": 185.47,
    "prev_close": 176.98,
-   "change_pct": 3.3,
+   "change_pct": 4.8,
    "trigger_change": 3.3,
-   "peak_change": 3.3,
+   "peak_change": 4.8,
    "first_seen": "2026-10-19T15:08:39+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 555.17,
-    "change_pct": 2.85
+    "price": 557.8,
+    "change_pct": 3.34
    },
    "chart": {
-    "ema8": -5.4,
-    "ema21": -8.2,
-    "sma50": -7.8,
-    "sma200": 12.2,
+    "ema8": -4.3,
+    "ema21": -7.0,
+    "sma50": -6.5,
+    "sma200": 13.8,
     "momentum": false
    },
    "headlines": [
@@ -321,26 +171,251 @@
    "brief": null
   },
   {
+   "symbol": "NBIS",
+   "name": "Nebius",
+   "list": "portfolio",
+   "price": 173.1,
+   "prev_close": 165.47,
+   "change_pct": 4.6,
+   "trigger_change": 3.5,
+   "peak_change": 4.6,
+   "first_seen": "2026-10-19T14:53:13+00:00",
+   "sector": {
+    "etf": "IGV",
+    "name": "Software",
+    "price": 106.46,
+    "change_pct": 2.03
+   },
+   "chart": {
+    "ema8": -10.4,
+    "ema21": -17.9,
+    "sma50": -22.2,
+    "sma200": -0.8,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Nebius is Your New AI Sentiment Gauge For AI Debt and GPU Risks",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPWnlVcmNURmt6ckV0WVpGYWlZeG5XRlZXa19UbGVrMXdWbHdjRWEza3lQRlJOS1BLWnFNdlliaGF4Uk84QzNybzQ1ZHZzeFlpQzV4NGE1NnRZTzh6NUkyTEgtS1BxdlZJYUxhTWV2QlpnM3FQdnZSTFVuUDAtZXBOQkZnVXVwTmR0anBWQUNyeHBzRURycnNIM0JOX1ZKaE5PM1B3Qmt4YmxsTHM?oc=5",
+     "time": "2026-10-19T14:45:00+00:00"
+    },
+    {
+     "title": "Nebius Group (NASDAQ:NBIS) Shares Gap Up After Insider Buying Activity",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPb05nLXpJM3JJQ3MtdndvNFA2eHRVYVVtNnlpRHRneWtVWjU5bjlBbHdUYk9IRHlrNXhLeTV5Q2NYSFJWZjNGM3FGazVWLVg5QmlrYkpraERBSGFSMFRrUnpLbWhnY3RDa3F5NkY4VmQxZ3REc0hFcUdFQ1lfSjNkc0ZoVzNjY2pZcGV0Q3k3SzE4M2NTeVVYS3hIa2tKRXhNaG1IQ19tY2hPR2pWQ3NBdlFGUEI3b3Y0VElGS0JwMEdHUE55dHE0?oc=5",
+     "time": "2026-10-19T14:27:14+00:00"
+    },
+    {
+     "title": "CRWV vs NBIS vs IREN: Which neocloud stock has the most upside?",
+     "publisher": "Investing.com",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdzdaRzRrWFIwaG01NW81eWpFSDdBN1MzaDM5V1MxSXJjQlZ5SnJXZVIxbHEyb2FpM2dMZjdpcXFyMEJTR08tclZndE8xTWlTZF9VR2FRX3RPMVdIdWtDWmJuVkhrWTN1aHltLXlKWnZZQ1RNRVJtT29fai1xQ2ZfeGtaU2l5djRRRWZTZ1FVdFU3OVl0WWN3c3NHRk5ZZ0dXeUgtWi1fQml3Xy1oX05KYlZpYW5aUlBZVHdyRTE1Z0I?oc=5",
+     "time": "2026-10-19T13:25:51+00:00"
+    },
+    {
+     "title": "Nebius Group NBIS Jumps As AI Capacity And Growth Soar",
+     "publisher": "Timothy Sykes",
+     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE4yZUtjY2RzcHc5RWpLUnR4cVdmYUxJUXlMNFh0bE5zVWctZlVKeTlRbVZBWHBZdjBDLURGUi01WS12T1pyRHNick5tSmNHMXk2MXg3QW84WkVMSjZGQ2hrSGpFRkpaY2Vzc0VYUlVvRGdWOXAwX3VrX29MQWdKZw?oc=5",
+     "time": "2026-10-19T13:19:00+00:00"
+    },
+    {
+     "title": "Insider Selling: Nebius Group (NASDAQ:NBIS) Director Sells $1,289,593.80 in Stock",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNQmdkdkIxeE5kY1dHSmxnY2lPUkJSZjhyUlp0Vk9Fam1pbnN3RjFnZnViX0ZPcm5fVzhfeTFGbUg0bzJEREQ5M0NtM3RBUzFlM3FScmVWeXFjbmpNVGd3QXdwZWJ3M0NjV0lTcWt5S29sWkVFNGZMeGpGYlNwNy1hUi1lVjg2a2xxTkRUcmtLTzBtQ2FtQ25ScmItSFR0dDdweGpFRVZTSC1CQ2FzMmJWYjMwbHJscXQ3RUNmZ21taE9sUE1nTW5kYUlZZDM2Tzc4bHc?oc=5",
+     "time": "2026-10-19T13:11:17+00:00"
+    },
+    {
+     "title": "CoreWeave Jumps 6% on Goldman Sachs Upgrade; Nebius Rises 7%, Oracle Edges Higher",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNcnZiYWJTajViOHoxT1Bkb3lnSnROZFR2VTdnNG1PRkZoa0ZQUWZxTWc1azNMYlB2UldrRHd4eHRYYnlTc1gxS2s3ZnQ5bUg5end6bXB1bHB6NnEyekVoS3NFa25lam5UTXB2dUJpUjQtNGhfYXVpV04xZW9TSUFTYUgwZ0owZ2dONVl0NHlqMzdCcHRKV0pPeVdNb1RjelVwZzhqTWFYemN6TllkYTBBeUY0bl9BS3g5Z28zM3Nn?oc=5",
+     "time": "2026-10-19T12:58:00+00:00"
+    },
+    {
+     "title": "Nebius Group NV (NBIS) November 26 Puts Surge 48% as Shares Drop to $165.47",
+     "publisher": "GuruFocus",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNenllYzRlR1RDT0x5bzU5X3E1UGRxMzRSSFVCenJrT1doSjlxS3Y1UGxMa1ZMLWNaYmxyZ3RiOEFCeUpleGViXzJjQ2dzUDJPUGtJcVlCc0xIOVR2NjhEOHVPSlZIYjNwNGNzcHppaUtsYi14MG5XOWtOczdHZlVEbXhCS01HZE5yOEE4eldQbUdIekFNN3dkaDBTQno5Q1ZRM2ctNWZiMTFVek9XRGc?oc=5",
+     "time": "2026-10-19T12:38:32+00:00"
+    },
+    {
+     "title": "Nebius Group NV (NBIS) Director Boynton John Wilson IV Sells 7,2",
+     "publisher": "GuruFocus",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQbmcxZzVQeW1TQ3luMkNVcmlLbHRXNVkzdU9LUjdJaEhVdTJXVTEyemRza3hSM3l4S0ZNZEJGMW9pVjdtX1NBSDZlMWpQS21pUHhtUEFCWjBFeVhSeTZGb04yTmFHaGstbTlaUUdJUzlUTEpEOFJsVUlrZUVJOU9BTi0xb202VVNYcEY0VE83M1VYUVBBeFYyWUw5Y1BxQWg2SjkxbzQ2RG04ZE5VbFE?oc=5",
+     "time": "2026-10-19T12:38:32+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
+   "symbol": "AMAT",
+   "name": "Applied Materials",
+   "list": "portfolio",
+   "price": 426.15,
+   "prev_close": 409.29,
+   "change_pct": 4.1,
+   "trigger_change": 3.5,
+   "peak_change": 4.1,
+   "first_seen": "2026-10-19T14:12:58+00:00",
+   "sector": {
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 557.8,
+    "change_pct": 3.34
+   },
+   "chart": {
+    "ema8": -5.9,
+    "ema21": -10.0,
+    "sma50": -11.2,
+    "sma200": -3.1,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Applied Materials, Lam Research, Marvell Technology, Micron, and Semtech Shares Skyrocket, What You Need To Know",
+     "publisher": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPNms4WVI3c0dLd3JhSVg4NDNfNGJiT09tdUE1N0dpVHU5LVdyaFNBMDFaN2kxMUpmdXh6cHYwdzl2R1RvRDVQa0oxTE1KRDZfQ2VmUUxxNHFSWTNnWi1UUDNEMFhMck9oYmNodlRKX0huT19XdFhGSEdjRmhmbm9CNGlnRDdlTzdKMGFHSU9iS29INHpYZEpzMzIycDgwWDhRS21ITHQweXZXaTFWdTVZdmk5RnBLclJjeU9DemVSWjNXRmtCN1FvdUk1LTJaS01pTVVCYXZMdGlqTS05Tm5aWjRVdzFsWUVjTENyWHdJd2xHR3IwR3BWeEgwM1o?oc=5",
+     "time": "2026-10-19T14:30:42+00:00"
+    },
+    {
+     "title": "Applied Materials is Going Solid. Is its AI Growth Already Priced In?",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNQWtlTlNyOG5QdkNfUHR5MkEwS3dwNHJ3VUxPVzFxU3cxSlJVeC1XZl9TVUFZRW9jczRsUzZKMmZWZjdPM3l1cEhyYnRicUhGc1lobjM5ZElHUDNvcVNkOExxU0FjUnVxVWdqWWlON0tLZjJESnNEaVVLMEF6alR4OHVRWmgwekdRMTZOVHBfM3JybE1ON04yZkhtOUk2UQ?oc=5",
+     "time": "2026-10-19T13:31:21+00:00"
+    },
+    {
+     "title": "Applied Materials, Inc. (AMAT) Is a Trending Stock: Facts to Know Before Betting on It",
+     "publisher": "Yahoo! Finance Canada",
+     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQNGI1eXhWOUhFbkxuekZEZjRLSGR6aGFOWWd4OTEwX21ueVZBTVhEb1pJWjZQQ2V4UkxXZ2F5RFB4OWNVMkZkbFI1RHU5cXJUbE9BS3ZVYTM2TzFqZ1dUOEViR2F3WWQtQnF6dGQ5bHF5UXZnSzloR3BUUDBmRUJ0bHF0b1V1V3pHZUtnUA?oc=5",
+     "time": "2026-10-19T12:00:04+00:00"
+    },
+    {
+     "title": "Applied Materials Cratered 20% Since July: Multiple Wall Street Firms Predict It's Going to More Than Double From Here",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxObmdwREdBa3o1VmNhWFlObTlTdnRTWk5kSjRRSVAtZXFYbC04WFdtc1VjNlp5RGxUNEV5ckhqUy0tdVdFMVlCS29RV3F3YmVHSTRrVnhxREp5LVhuYkdxeWs4azlwTzBndzQzYWJIc1A5ckZHNVF5QjRrdjFHeEZZQVJ5ZWFVVnNqTTlmZDdvd1VrSHA3YzJIZUtiSy1MLWxUSUxCRUcxb2t1VmVZTVhWZFhWcl9KZ2g2NTZEaXJ2b2xvSDBYRENmSldqeXNHcHo1Nm9YaXRlRThydWlXdjNNS2JhNFNnSWRsd3ZTaFRMbTRsOXRxLTgzd3h1Y3hZazdrMmZRVHVVQ2NfUm84SXRIMTJZZFpOQ3lqRkxiRkdIZw?oc=5",
+     "time": "2026-10-19T11:15:00+00:00"
+    },
+    {
+     "title": "Applied Materials (AMAT) Sees $58.8 Million in Net ETF Selling on Oct. 15",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOYTlrbnZqU3NGZ0o2TVo4Z1hBMzlzVWdZSmNpN1JyTmhtUFlOYlNfUk5HQ3hjTXZDbjM1TU10UjNTWjh4dnFfeTFPc0xoeFJIdmhadEpraWtPRXRqay1YSC1UeUE0WktDRC1xYmlQanQwRXd4QUJoUzdKdTRNZXJVXzJxY2FCbnQ0bmVtWEhvX3g1NnJQSFY1Ymp6UQ?oc=5",
+     "time": "2026-10-19T11:02:49+00:00"
+    },
+    {
+     "title": "Weekly Recap: Return 80\u2013100% of FCF and 2030 revenue/margin targets",
+     "publisher": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOM0ZKeTYwQTNJQ0o2T1dpbmJqSTU1eTFKbm9KaGNGVTY3MWVmbG1tOUs3ZzZGRDFhRTgwM3JSRzFZYjFoSkplbDA2NS0wUjM0YXJFcWxaYTZUbHVMZDJ2dWdseXhTdUxCZ2FlaW5DVi16ZV80OGM0M3VCQVpLelA4WlpHYzFjUTlhNU1WdVpGZE5XWTRTR1g2QjNISkNURUhuNGNqdE1QLUlQMjlXcWZvb3k5Mi0tTzRLazVueXlVNU5mZ1BKR0E?oc=5",
+     "time": "2026-10-19T11:00:00+00:00"
+    },
+    {
+     "title": "Applied Materials (AMAT) Earnings Preview: AI Chip Demand, Capital Expenditure Trends, & Trade Setups - In Progress",
+     "publisher": "TradingKey",
+     "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOcHQ4N2xNRi1FZEFSUnBVM3V1U0tGM1FjMmRCcWR5cFdYLUNhQ29QT2JQcE4wMDBBRUdoSzJ4LWpmTjJJVzFpb3NydHJIRXFsSEFlbHhrNElVX0pJQUkteFJreTdGQ3lvYWVTQUdjZFM5UDMySnY4U21xTTBhVjZXUXZHNUN6SDFxemxwVWJDTTdfei1DWlJVeHVFVjFDemM4V0JIUlhHM3I5alBCWW9zYV9OZGdlQjAzZS1WUGpUOHVNSFgwZ2tvRmdmcHlVcXlCb0Z2NjB6NnQ2VjQ0SE5UYlFEZ0F6SU5PZk1KQQ?oc=5",
+     "time": "2026-10-18T15:15:05+00:00"
+    },
+    {
+     "title": "What Is Applied Materials\u2019 (AMAT) Economic Moat, and Is It Widening or Narrowing?",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQOUZuYy12QWRhX2VlS3hCZVctZXNoa2FXUG5nMjdzaWFvS29kN0w5Q3gzbU4xTklrbFNaM29RSE5HQndtTmZqc29NYUpIVjJlNExDeVN3ZW9vMXNCaVVuZ1psbWg1WG5PdTdlMnE3NFpBT1RYT3BzRWZ3ZUtJMTVWUVJ3cUxzeVI2amQyS0Nxb3BHOUVuZ1dISVprZlhiRllfZ1Br?oc=5",
+     "time": "2026-10-18T14:31:23+00:00"
+    }
+   ],
+   "brief": "2026-10-19-AMAT"
+  },
+  {
+   "symbol": "AVGO",
+   "name": "Broadcom",
+   "list": "portfolio",
+   "price": 339.88,
+   "prev_close": 328.75,
+   "change_pct": 3.4,
+   "trigger_change": 3.4,
+   "peak_change": 3.4,
+   "first_seen": "2026-10-19T15:39:51+00:00",
+   "sector": {
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 557.8,
+    "change_pct": 3.34
+   },
+   "chart": {
+    "ema8": -1.9,
+    "ema21": -3.8,
+    "sma50": -6.6,
+    "sma200": -7.7,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Semiconductor Sell-Off: 5 Stocks to Buy on the Dip",
+     "publisher": "AOL.com",
+     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNQUwtRlZKUnZlaVJ2TEhFbGpjay1vaHFoSE5OQ2c2Z0szTmZWaWMtTWRTSEE1bHAxX09ya3QwTXdYbUlheWZ2cnh0WkxTeEU4aFRrTUx2WHhpUi1kYjZucjdnV3VBT0FkTEx6bUpQSXV3bWl3ZWU2SkNmd3hCaWRvcA?oc=5",
+     "time": "2026-10-19T15:20:00+00:00"
+    },
+    {
+     "title": "Broadcom Vs. Micron: Which Semiconductor Stock Wins the AI Sell-Off?",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNenRYb0ZkS0VsT0RPOU1XaHpxRE15Mk5kbVIwVXFTN2lQVFY2Z3p4c2pfdnJNd21xZlVTRmV0aFp3dUJhaF83c0tadHI5VVZuSGRrclpNcm44NDFUTms5ZkEwMFZIaGhmZkNxSWZUVk9Vc0xfODFKdGh6MWtSb2RaSm5kNFB0bE1u?oc=5",
+     "time": "2026-10-19T15:13:07+00:00"
+    },
+    {
+     "title": "Broadcom stock is rebounding: is this a dead cat bounce as a death cross forms?",
+     "publisher": "Invezz",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMVA0dGRQYjRzeHJpY3I4eFNmVVlBbzVCUVVJVFByYmRzMk8yTkZLbGZzM3czT2UzUkQ5X3RwbEFvcFdHMUZYQms3X28tbXdXcDF2dXFkTjJDNkFDTEhrd3BIck11cHhRcGVqMndzcVRLWHplcUVFMFk2dllobTlubHZlSGJ3SFFra1pDZW1vbWhuMmdxZVJlLTUwUzRucGpib01QeGV6cGJtakxrYXQ4di0tSQ?oc=5",
+     "time": "2026-10-19T13:55:08+00:00"
+    },
+    {
+     "title": "Meta Tested Broadcom\u2019s CPO for 1 Million Port-Hours. What It Found",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNZERGRThTNGx6dDU1TXAwRVBGMExlWGM4YUNEalU3V1ZleExuNThNdkFXVV9YWEE5d2tJMm5MWTRJbG1sT0hTaVA2ZVkyVFRwTHdxS2xIZjdJR2V1RnRuZHNDVGJVcTdSNk9aVGdfZEhDQ1hSVWR5a2FpQ2FtRjNzRzBjN29EVXdkV0lrWVpSdXU?oc=5",
+     "time": "2026-10-19T13:34:21+00:00"
+    },
+    {
+     "title": "Broadcom stock Analysis closes at $328.75, down 4.52%",
+     "publisher": "The Cryptonomist",
+     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPU3NPQVFWUGtzb3d5eHowQW5hUmVfTnVuNGxBUkQ5SlZjanhKMFluRG5pZEx4eXFVY2xZaDFRcDJWZmNWWjlpODJJOVJYM0prX2RtYzd3TTNETTI3YTUxOFBFMDBhZjgtS0h5ZTUwcVBuTVNqcFdjam13bW9Pa3o5Yg?oc=5",
+     "time": "2026-10-19T13:14:52+00:00"
+    },
+    {
+     "title": "Broadcom stock: December 9, 2026 sets reporting date for Broadcom stock",
+     "publisher": "ad-hoc-news.de",
+     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPcS1hQVFYV1BoLThQd3h5ZzZIUG5YcThxdU1sNHgzVXFUQngxVUdaZWZmTmUyMVZjQUV6ZEpEV1dvTUVTOFNJRm8xZUpNYjV5NV9YNlRhMEQtZm4wTkc2cUhQMFJiZ0FtREZDQUlRV1pLTHpYcTA1czNWQ2IxRXFqWG9Ga1BOMnhVemlEWXEtVGJ5VUtPZ2U0UWV4RHZzODR2TlVMbXprOG9TWFRyMlZpdDloX004Wml1S24ySWNzR1RwVkJCV3FjNTlPMjI?oc=5",
+     "time": "2026-10-19T13:06:24+00:00"
+    },
+    {
+     "title": "Are Companies Reducing AI Spending? Chip Orders Say Otherwise",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQbEZYZFpSSm85UG53ZXVtS291Z3BPMVEyMldIQjQyYlJtdTNCXzR4emlZSll1c1NielBnWVYtaWF6d1Rhb3FIZDZONVI5eTRpTGdUZTZ5VjA0MFAway13aXNyQmhRMS1NcjNyZ2xRYjAzVF8wbHZJRjY4OUxjdFVnanJpVXhfRVY0ZUV5bjZPR2pCb3dNXzdiNG9MeGV4bVZtaWxYWXpzRnVwcEc1Y3pHX0RqMnFaTl9DdHByT3dDMHlodWUtaVpXTTktTEFXQTQ?oc=5",
+     "time": "2026-10-19T13:04:47+00:00"
+    },
+    {
+     "title": "Is Broadcom Stock Cheap Enough Yet?",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNWkc4cEdfaHV1cVVqeWptYm9WZDNWZ3BFVHdQNE5JaDdhYVRiNnNCSGl5LURsTVJuVmlpOGItTWVVMUJvZUFFdTZzQW5EOF8xVFRBNVRoNkhldkhxTUI3ckJYbTFaZzhvUFVMOExlTnlEX0tOQmYtWnU0aFZEZ3dqLWZ4MEY1ai1EVWVlYkdSLVBQX2xiQWpwX3B3MFU?oc=5",
+     "time": "2026-10-19T12:55:49+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
    "symbol": "AXON",
    "name": "Axon",
    "list": "watchlist",
-   "price": 378.02,
+   "price": 382.97,
    "prev_close": 390.29,
-   "change_pct": -3.1,
+   "change_pct": -1.9,
    "trigger_change": -3.1,
    "peak_change": -3.2,
    "first_seen": "2026-10-19T14:38:09+00:00",
    "sector": {
     "etf": "XLI",
     "name": "Industrials",
-    "price": 167.18,
-    "change_pct": -0.35
+    "price": 167.7,
+    "change_pct": -0.04
    },
    "chart": {
-    "ema8": -6.2,
-    "ema21": -11.2,
-    "sma50": -24.2,
-    "sma200": -22.5,
+    "ema8": -5.2,
+    "ema21": -10.1,
+    "sma50": -23.2,
+    "sma200": -21.5,
     "momentum": false
    },
    "headlines": [
