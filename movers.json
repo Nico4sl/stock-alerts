@@ -1,121 +1,46 @@
 {
  "date": "2026-10-19",
  "threshold": 3.0,
- "updated": "2026-10-19T14:18:02+00:00",
+ "updated": "2026-10-19T14:23:02+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 768.8,
-   "change_pct": 0.73
+   "price": 768.64,
+   "change_pct": 0.71
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 721.4,
+   "price": 721.35,
    "change_pct": 1.63
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 79.84,
-   "change_pct": -0.26
+   "price": 79.81,
+   "change_pct": -0.31
   }
  },
  "movers": [
   {
-   "symbol": "AMZN",
-   "name": "Amazon",
+   "symbol": "AMAT",
+   "name": "Applied Materials",
    "list": "portfolio",
-   "price": 259.44,
-   "prev_close": 250.0,
+   "price": 424.82,
+   "prev_close": 409.29,
    "change_pct": 3.8,
    "trigger_change": 3.5,
    "peak_change": 3.8,
    "first_seen": "2026-10-19T14:12:58+00:00",
    "sector": {
-    "etf": "XLY",
-    "name": "Consumer discr.",
-    "price": 113.8,
-    "change_pct": 1.19
-   },
-   "chart": {
-    "ema8": 1.5,
-    "ema21": 1.8,
-    "sma50": 1.0,
-    "sma200": 6.8,
-    "momentum": true
-   },
-   "headlines": [
-    {
-     "title": "Amazon stock rises as this analyst sees 40% upside",
-     "publisher": "Invezz",
-     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQcElJUDNTTW5zQkZiVXlZRGVYQ25YRkVJdzRXNEhoZjBfRVF6cjBua25UZmJtRkgtTk5DUzFHU1JVRXNBc3JVNEd1amNDQTBFN2lxRDJ6T2ZIUEtWMDF1NXQzTUl5U3ozLTZicGhoTWtHZno4R2NOc285VU1fYjVwQkxZd0EySGZJdG1rc1ZyQ0xUcm1neVlNc0FvTQ?oc=5",
-     "time": "2026-10-19T14:08:44+00:00"
-    },
-    {
-     "title": "Amazon stock pops after Morgan Stanley details 5 catalysts, lifts price target",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNR1N4OXljU1k1MUpnU1VlQ0tjY3ZZR1ZIQzdEaGJwSkZoMEkwUlRyTGJNR1BpSUg4QWpsRHJXOW9EZzFaQ3pOQUZFaFMyTUpudVhONDJFWWJneHBDQ0JlX2paTkV3UnFmaUZPNzZBM3ZzZGQ1RU1WS25keXZBYW9aSThxTnNOY0tjMVltakZnRHE4RnZONFFLTHNSWGdvalVtT2prb1h5YXFjVlU2ZFZGcXZTd2ZlMFY3eFNEdFcxLWkxU1J0VWdiN0FHSEpWRjJoM0szT2dnNjQ?oc=5",
-     "time": "2026-10-19T14:08:41+00:00"
-    },
-    {
-     "title": "One Big Question Could Determine Where Microsoft Stock Goes Next",
-     "publisher": "24/7 Wall St.",
-     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVkxKNWNmZTJNSFdzWGdIdW0zSDNqMlV3Y2ZRQjNBZFREV1U4bkxBUF9jclRIVHJoRzcyRFlTbHA4NWxKN1lwU3F1MmJXZHBQd1lZaXBuNVc0dmthWVh1RjlqLXdnNGtaX0dkaUZQUEhqVVI1SnhzbHc5eU1yMGFuQVBROW04MVVJbHkyYy1WV1Q1Ukl0YVhRREMtbkNxckl6dHZVNTc2Q0lqYy04?oc=5",
-     "time": "2026-10-19T14:00:00+00:00"
-    },
-    {
-     "title": "Microsoft vs. Amazon: Is AMZN\u2019s AI Growth Being Undervalued by Investors?",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPaVN1aEFyQTBhQWZDUHVpa1k4NXE3NW1BMkIyU0dMR3BTQmxtampneWNTQ0U0cktLek02ell4UmlORW1lMVE4Z0ZCQzZYT0tLWVJxbGR5NXdhbUV1Zk9wNllkSnh0bFN5YXlyRC1jNUxjLXVlUGNRNlQ1a1RwZlRYYVQwUE1iZGZRTVIxa1VkT3lTSXZXOVVB?oc=5",
-     "time": "2026-10-19T13:36:08+00:00"
-    },
-    {
-     "title": "Amazon Stock Edges Higher Monday: What's Going On?",
-     "publisher": "Benzinga",
-     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQYWZsYnlxdnlBZEtSUXdfV3NLYmlteUlvNGF5TWEyYWZwYTlpSGNuQkRiR1pna0NJUHQtSmdrTlVUXzcwZDlUSnpKQmwwMGVoazRaaXFwSlR1M3cwbFBaSGZyWWhqYUlDWlFtSHUzbmJpZlE0ODlqeWJCbnFWVFJzZnlpRGZBblFiZ0lDUnRrU19XZHQxYlR1cE56X0l5aVFIR3YyemM1VDE4UnRi?oc=5",
-     "time": "2026-10-19T13:16:12+00:00"
-    },
-    {
-     "title": "Amazon Stocks Advance Premarket as Investors Assess AI Spending Returns",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPX3R4eUJfQjhPTkJRLTY4YXdHbHdTWlZwbVlPRGJRSkQxRUMyNWtIUG94VkFDN2xac3loUjk3MjV1QjhZNnZfMXdBRVBoOVZhU05JU2lnVnBNZWd5djlpcU8tOWNVOFZxT3BoNkE3bzgzM3dpUmw3V0tMZVc1TkcwNEJnRDhydzQxRU9yWk5DSmJUNHpUeHVrZlVwRWRMaWJMaXprSmhNbl9ZZw?oc=5",
-     "time": "2026-10-19T12:12:12+00:00"
-    },
-    {
-     "title": "Stocks making the biggest moves premarket: Cleveland-Cliffs, Intel, Datadog, Amazon & more",
-     "publisher": "CNBC",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQRUFudW5lR0xSVGN5RktUTWhmSGdUYjAwQW5TOVh5cmtaSDF5WkFha0JDbTRtVGVMZWJETlhTTkExdTVJNnpLUERpQkoyRFRBa2otZF9TYVhDQWVzRVRGVmlRLU5QY0tEU1hzVXdQMmtSdmxKTnpiTk11SHNaTGxpNlB3U1dWbjZGSFFmNDdXMHVEbVVPaVF6MWZEMkhzUQ?oc=5",
-     "time": "2026-10-19T11:56:48+00:00"
-    },
-    {
-     "title": "ETFs Are Net Sellers of Amazon (AMZN) on Thursday",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQM2hCVGlXMzJRN25MbEptWTNURFlSX0FTLWVaVWltTGs4bDFXX09waGprUVF1QWlncGRIVVZURUVzNEJ0RTFtZ204blFyRFBERjEwWG1mUkFOU2hDQVUzc2c2MkpZcDFiZ0JCZkN1NHYtaXNJZkMyRGZOXzNfWW5XNjJTSWZPZmZocDYwUjdodE54dTZ5WGpBbA?oc=5",
-     "time": "2026-10-19T11:02:25+00:00"
-    }
-   ],
-   "brief": null
-  },
-  {
-   "symbol": "AMAT",
-   "name": "Applied Materials",
-   "list": "portfolio",
-   "price": 423.78,
-   "prev_close": 409.29,
-   "change_pct": 3.5,
-   "trigger_change": 3.5,
-   "peak_change": 3.5,
-   "first_seen": "2026-10-19T14:12:58+00:00",
-   "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 553.62,
-    "change_pct": 2.56
+    "price": 553.8,
+    "change_pct": 2.6
    },
    "chart": {
-    "ema8": -6.3,
-    "ema21": -10.4,
-    "sma50": -11.7,
-    "sma200": -3.7,
+    "ema8": -6.2,
+    "ema21": -10.2,
+    "sma50": -11.5,
+    "sma200": -3.4,
     "momentum": false
    },
    "headlines": [
@@ -166,6 +91,81 @@
      "publisher": "Yahoo Finance",
      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPV082S3ZTRERfWmJrX2FqaUdIVnlFR2VZM1lhN1QwVWRxNmU2OFU5S3l1Q2FIbU5CREszMUNiUHFUbzJGR1ZDN0t2T1ZGSVp6QmlSaGJ0U0N4UU5HdEpkTTljT1YzWFd1U3dFWDM2MzdBODF6Z3ZVRm5aRkJqa0J3Y0liMWZuU2M1QzE5OFcyN1Q4ekkxZDZsc1JoYm5MQjg?oc=5",
      "time": "2026-10-17T22:11:56+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
+   "symbol": "AMZN",
+   "name": "Amazon",
+   "list": "portfolio",
+   "price": 259.6,
+   "prev_close": 250.0,
+   "change_pct": 3.8,
+   "trigger_change": 3.5,
+   "peak_change": 3.8,
+   "first_seen": "2026-10-19T14:12:58+00:00",
+   "sector": {
+    "etf": "XLY",
+    "name": "Consumer discr.",
+    "price": 113.78,
+    "change_pct": 1.18
+   },
+   "chart": {
+    "ema8": 1.5,
+    "ema21": 1.9,
+    "sma50": 1.1,
+    "sma200": 6.9,
+    "momentum": true
+   },
+   "headlines": [
+    {
+     "title": "Amazon stock rises as this analyst sees 40% upside",
+     "publisher": "Invezz",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQcElJUDNTTW5zQkZiVXlZRGVYQ25YRkVJdzRXNEhoZjBfRVF6cjBua25UZmJtRkgtTk5DUzFHU1JVRXNBc3JVNEd1amNDQTBFN2lxRDJ6T2ZIUEtWMDF1NXQzTUl5U3ozLTZicGhoTWtHZno4R2NOc285VU1fYjVwQkxZd0EySGZJdG1rc1ZyQ0xUcm1neVlNc0FvTQ?oc=5",
+     "time": "2026-10-19T14:08:44+00:00"
+    },
+    {
+     "title": "Amazon stock pops after Morgan Stanley details 5 catalysts, lifts price target",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNR1N4OXljU1k1MUpnU1VlQ0tjY3ZZR1ZIQzdEaGJwSkZoMEkwUlRyTGJNR1BpSUg4QWpsRHJXOW9EZzFaQ3pOQUZFaFMyTUpudVhONDJFWWJneHBDQ0JlX2paTkV3UnFmaUZPNzZBM3ZzZGQ1RU1WS25keXZBYW9aSThxTnNOY0tjMVltakZnRHE4RnZONFFLTHNSWGdvalVtT2prb1h5YXFjVlU2ZFZGcXZTd2ZlMFY3eFNEdFcxLWkxU1J0VWdiN0FHSEpWRjJoM0szT2dnNjQ?oc=5",
+     "time": "2026-10-19T14:08:41+00:00"
+    },
+    {
+     "title": "One Big Question Could Determine Where Microsoft Stock Goes Next",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVkxKNWNmZTJNSFdzWGdIdW0zSDNqMlV3Y2ZRQjNBZFREV1U4bkxBUF9jclRIVHJoRzcyRFlTbHA4NWxKN1lwU3F1MmJXZHBQd1lZaXBuNVc0dmthWVh1RjlqLXdnNGtaX0dkaUZQUEhqVVI1SnhzbHc5eU1yMGFuQVBROW04MVVJbHkyYy1WV1Q1Ukl0YVhRREMtbkNxckl6dHZVNTc2Q0lqYy04?oc=5",
+     "time": "2026-10-19T14:00:00+00:00"
+    },
+    {
+     "title": "Microsoft vs. Amazon: Is AMZN\u2019s AI Growth Being Undervalued by Investors?",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPaVN1aEFyQTBhQWZDUHVpa1k4NXE3NW1BMkIyU0dMR3BTQmxtampneWNTQ0U0cktLek02ell4UmlORW1lMVE4Z0ZCQzZYT0tLWVJxbGR5NXdhbUV1Zk9wNllkSnh0bFN5YXlyRC1jNUxjLXVlUGNRNlQ1a1RwZlRYYVQwUE1iZGZRTVIxa1VkT3lTSXZXOVVB?oc=5",
+     "time": "2026-10-19T13:36:08+00:00"
+    },
+    {
+     "title": "Amazon Stock Edges Higher Monday: What's Going On?",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQYWZsYnlxdnlBZEtSUXdfV3NLYmlteUlvNGF5TWEyYWZwYTlpSGNuQkRiR1pna0NJUHQtSmdrTlVUXzcwZDlUSnpKQmwwMGVoazRaaXFwSlR1M3cwbFBaSGZyWWhqYUlDWlFtSHUzbmJpZlE0ODlqeWJCbnFWVFJzZnlpRGZBblFiZ0lDUnRrU19XZHQxYlR1cE56X0l5aVFIR3YyemM1VDE4UnRi?oc=5",
+     "time": "2026-10-19T13:16:12+00:00"
+    },
+    {
+     "title": "Amazon Stocks Advance Premarket as Investors Assess AI Spending Returns",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPX3R4eUJfQjhPTkJRLTY4YXdHbHdTWlZwbVlPRGJRSkQxRUMyNWtIUG94VkFDN2xac3loUjk3MjV1QjhZNnZfMXdBRVBoOVZhU05JU2lnVnBNZWd5djlpcU8tOWNVOFZxT3BoNkE3bzgzM3dpUmw3V0tMZVc1TkcwNEJnRDhydzQxRU9yWk5DSmJUNHpUeHVrZlVwRWRMaWJMaXprSmhNbl9ZZw?oc=5",
+     "time": "2026-10-19T12:12:12+00:00"
+    },
+    {
+     "title": "Stocks making the biggest moves premarket: Cleveland-Cliffs, Intel, Datadog, Amazon & more",
+     "publisher": "CNBC",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQRUFudW5lR0xSVGN5RktUTWhmSGdUYjAwQW5TOVh5cmtaSDF5WkFha0JDbTRtVGVMZWJETlhTTkExdTVJNnpLUERpQkoyRFRBa2otZF9TYVhDQWVzRVRGVmlRLU5QY0tEU1hzVXdQMmtSdmxKTnpiTk11SHNaTGxpNlB3U1dWbjZGSFFmNDdXMHVEbVVPaVF6MWZEMkhzUQ?oc=5",
+     "time": "2026-10-19T11:56:48+00:00"
+    },
+    {
+     "title": "ETFs Are Net Sellers of Amazon (AMZN) on Thursday",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQM2hCVGlXMzJRN25MbEptWTNURFlSX0FTLWVaVWltTGs4bDFXX09waGprUVF1QWlncGRIVVZURUVzNEJ0RTFtZ204blFyRFBERjEwWG1mUkFOU2hDQVUzc2c2MkpZcDFiZ0JCZkN1NHYtaXNJZkMyRGZOXzNfWW5XNjJTSWZPZmZocDYwUjdodE54dTZ5WGpBbA?oc=5",
+     "time": "2026-10-19T11:02:25+00:00"
     }
    ],
    "brief": null
