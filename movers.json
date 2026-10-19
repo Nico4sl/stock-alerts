@@ -1,22 +1,22 @@
 {
  "date": "2026-10-19",
  "threshold": 3.0,
- "updated": "2026-10-19T14:38:09+00:00",
+ "updated": "2026-10-19T14:53:13+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 767.3,
-   "change_pct": 0.53
+   "price": 767.7,
+   "change_pct": 0.58
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 719.49,
-   "change_pct": 1.36
+   "price": 720.69,
+   "change_pct": 1.53
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 79.68,
-   "change_pct": -0.46
+   "price": 79.64,
+   "change_pct": -0.52
   }
  },
  "movers": [
@@ -24,23 +24,23 @@
    "symbol": "AMZN",
    "name": "Amazon",
    "list": "portfolio",
-   "price": 259.42,
+   "price": 261.55,
    "prev_close": 250.0,
-   "change_pct": 3.8,
+   "change_pct": 4.6,
    "trigger_change": 3.5,
-   "peak_change": 4.0,
+   "peak_change": 4.6,
    "first_seen": "2026-10-19T14:12:58+00:00",
    "sector": {
     "etf": "XLY",
     "name": "Consumer discr.",
-    "price": 113.66,
-    "change_pct": 1.07
+    "price": 113.97,
+    "change_pct": 1.34
    },
    "chart": {
-    "ema8": 1.5,
-    "ema21": 1.8,
-    "sma50": 1.0,
-    "sma200": 6.8,
+    "ema8": 2.1,
+    "ema21": 2.6,
+    "sma50": 1.8,
+    "sma200": 7.7,
     "momentum": true
    },
    "headlines": [
@@ -96,26 +96,101 @@
    "brief": null
   },
   {
+   "symbol": "NBIS",
+   "name": "Nebius",
+   "list": "portfolio",
+   "price": 171.2,
+   "prev_close": 165.47,
+   "change_pct": 3.5,
+   "trigger_change": 3.5,
+   "peak_change": 3.5,
+   "first_seen": "2026-10-19T14:53:13+00:00",
+   "sector": {
+    "etf": "IGV",
+    "name": "Software",
+    "price": 106.01,
+    "change_pct": 1.6
+   },
+   "chart": {
+    "ema8": -11.1,
+    "ema21": -18.7,
+    "sma50": -23.0,
+    "sma200": -1.9,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Nebius is Your New AI Sentiment Gauge For AI Debt and GPU Risks",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPWnlVcmNURmt6ckV0WVpGYWlZeG5XRlZXa19UbGVrMXdWbHdjRWEza3lQRlJOS1BLWnFNdlliaGF4Uk84QzNybzQ1ZHZzeFlpQzV4NGE1NnRZTzh6NUkyTEgtS1BxdlZJYUxhTWV2QlpnM3FQdnZSTFVuUDAtZXBOQkZnVXVwTmR0anBWQUNyeHBzRURycnNIM0JOX1ZKaE5PM1B3Qmt4YmxsTHM?oc=5",
+     "time": "2026-10-19T14:45:00+00:00"
+    },
+    {
+     "title": "Nebius Group (NASDAQ:NBIS) Shares Gap Up After Insider Buying Activity",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPb05nLXpJM3JJQ3MtdndvNFA2eHRVYVVtNnlpRHRneWtVWjU5bjlBbHdUYk9IRHlrNXhLeTV5Q2NYSFJWZjNGM3FGazVWLVg5QmlrYkpraERBSGFSMFRrUnpLbWhnY3RDa3F5NkY4VmQxZ3REc0hFcUdFQ1lfSjNkc0ZoVzNjY2pZcGV0Q3k3SzE4M2NTeVVYS3hIa2tKRXhNaG1IQ19tY2hPR2pWQ3NBdlFGUEI3b3Y0VElGS0JwMEdHUE55dHE0?oc=5",
+     "time": "2026-10-19T14:27:14+00:00"
+    },
+    {
+     "title": "CRWV vs NBIS vs IREN: Which neocloud stock has the most upside?",
+     "publisher": "Investing.com",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdzdaRzRrWFIwaG01NW81eWpFSDdBN1MzaDM5V1MxSXJjQlZ5SnJXZVIxbHEyb2FpM2dMZjdpcXFyMEJTR08tclZndE8xTWlTZF9VR2FRX3RPMVdIdWtDWmJuVkhrWTN1aHltLXlKWnZZQ1RNRVJtT29fai1xQ2ZfeGtaU2l5djRRRWZTZ1FVdFU3OVl0WWN3c3NHRk5ZZ0dXeUgtWi1fQml3Xy1oX05KYlZpYW5aUlBZVHdyRTE1Z0I?oc=5",
+     "time": "2026-10-19T13:25:51+00:00"
+    },
+    {
+     "title": "Nebius Group NBIS Jumps As AI Capacity And Growth Soar",
+     "publisher": "Timothy Sykes",
+     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE4yZUtjY2RzcHc5RWpLUnR4cVdmYUxJUXlMNFh0bE5zVWctZlVKeTlRbVZBWHBZdjBDLURGUi01WS12T1pyRHNick5tSmNHMXk2MXg3QW84WkVMSjZGQ2hrSGpFRkpaY2Vzc0VYUlVvRGdWOXAwX3VrX29MQWdKZw?oc=5",
+     "time": "2026-10-19T13:19:00+00:00"
+    },
+    {
+     "title": "Insider Selling: Nebius Group (NASDAQ:NBIS) Director Sells $1,289,593.80 in Stock",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNQmdkdkIxeE5kY1dHSmxnY2lPUkJSZjhyUlp0Vk9Fam1pbnN3RjFnZnViX0ZPcm5fVzhfeTFGbUg0bzJEREQ5M0NtM3RBUzFlM3FScmVWeXFjbmpNVGd3QXdwZWJ3M0NjV0lTcWt5S29sWkVFNGZMeGpGYlNwNy1hUi1lVjg2a2xxTkRUcmtLTzBtQ2FtQ25ScmItSFR0dDdweGpFRVZTSC1CQ2FzMmJWYjMwbHJscXQ3RUNmZ21taE9sUE1nTW5kYUlZZDM2Tzc4bHc?oc=5",
+     "time": "2026-10-19T13:11:17+00:00"
+    },
+    {
+     "title": "CoreWeave Jumps 6% on Goldman Sachs Upgrade; Nebius Rises 7%, Oracle Edges Higher",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNcnZiYWJTajViOHoxT1Bkb3lnSnROZFR2VTdnNG1PRkZoa0ZQUWZxTWc1azNMYlB2UldrRHd4eHRYYnlTc1gxS2s3ZnQ5bUg5end6bXB1bHB6NnEyekVoS3NFa25lam5UTXB2dUJpUjQtNGhfYXVpV04xZW9TSUFTYUgwZ0owZ2dONVl0NHlqMzdCcHRKV0pPeVdNb1RjelVwZzhqTWFYemN6TllkYTBBeUY0bl9BS3g5Z28zM3Nn?oc=5",
+     "time": "2026-10-19T12:58:00+00:00"
+    },
+    {
+     "title": "Nebius Group NV (NBIS) November 26 Puts Surge 48% as Shares Drop to $165.47",
+     "publisher": "GuruFocus",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNenllYzRlR1RDT0x5bzU5X3E1UGRxMzRSSFVCenJrT1doSjlxS3Y1UGxMa1ZMLWNaYmxyZ3RiOEFCeUpleGViXzJjQ2dzUDJPUGtJcVlCc0xIOVR2NjhEOHVPSlZIYjNwNGNzcHppaUtsYi14MG5XOWtOczdHZlVEbXhCS01HZE5yOEE4eldQbUdIekFNN3dkaDBTQno5Q1ZRM2ctNWZiMTFVek9XRGc?oc=5",
+     "time": "2026-10-19T12:38:32+00:00"
+    },
+    {
+     "title": "Nebius Group NV (NBIS) Director Boynton John Wilson IV Sells 7,2",
+     "publisher": "GuruFocus",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQbmcxZzVQeW1TQ3luMkNVcmlLbHRXNVkzdU9LUjdJaEhVdTJXVTEyemRza3hSM3l4S0ZNZEJGMW9pVjdtX1NBSDZlMWpQS21pUHhtUEFCWjBFeVhSeTZGb04yTmFHaGstbTlaUUdJUzlUTEpEOFJsVUlrZUVJOU9BTi0xb202VVNYcEY0VE83M1VYUVBBeFYyWUw5Y1BxQWg2SjkxbzQ2RG04ZE5VbFE?oc=5",
+     "time": "2026-10-19T12:38:32+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
    "symbol": "AMAT",
    "name": "Applied Materials",
    "list": "portfolio",
-   "price": 421.8,
+   "price": 422.61,
    "prev_close": 409.29,
-   "change_pct": 3.1,
+   "change_pct": 3.3,
    "trigger_change": 3.5,
    "peak_change": 3.8,
    "first_seen": "2026-10-19T14:12:58+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 550.99,
-    "change_pct": 2.07
+    "price": 552.75,
+    "change_pct": 2.4
    },
    "chart": {
-    "ema8": -6.7,
-    "ema21": -10.8,
-    "sma50": -12.1,
-    "sma200": -4.1,
+    "ema8": -6.5,
+    "ema21": -10.7,
+    "sma50": -11.9,
+    "sma200": -3.9,
     "momentum": false
    },
    "headlines": [
@@ -174,7 +249,7 @@
    "symbol": "AXON",
    "name": "Axon",
    "list": "watchlist",
-   "price": 378.21,
+   "price": 378.38,
    "prev_close": 390.29,
    "change_pct": -3.1,
    "trigger_change": -3.1,
@@ -183,14 +258,14 @@
    "sector": {
     "etf": "XLI",
     "name": "Industrials",
-    "price": 166.6,
-    "change_pct": -0.69
+    "price": 166.75,
+    "change_pct": -0.6
    },
    "chart": {
-    "ema8": -6.2,
-    "ema21": -11.2,
-    "sma50": -24.2,
-    "sma200": -22.5,
+    "ema8": -6.1,
+    "ema21": -11.1,
+    "sma50": -24.1,
+    "sma200": -22.4,
     "momentum": false
    },
    "headlines": [
