@@ -1,7 +1,174 @@
 {
  "date": "2026-10-19",
  "threshold": 3.0,
- "updated": "2026-10-19T14:07:55+00:00",
- "market": {},
- "movers": []
+ "updated": "2026-10-19T14:12:58+00:00",
+ "market": {
+  "SPY": {
+   "name": "S&P 500",
+   "price": 767.71,
+   "change_pct": 0.58
+  },
+  "QQQ": {
+   "name": "Nasdaq 100",
+   "price": 719.31,
+   "change_pct": 1.34
+  },
+  "TLT": {
+   "name": "Long Treasuries",
+   "price": 79.82,
+   "change_pct": -0.29
+  }
+ },
+ "movers": [
+  {
+   "symbol": "AMAT",
+   "name": "Applied Materials",
+   "list": "portfolio",
+   "price": 423.6,
+   "prev_close": 409.29,
+   "change_pct": 3.5,
+   "trigger_change": 3.5,
+   "peak_change": 3.5,
+   "first_seen": "2026-10-19T14:12:58+00:00",
+   "sector": {
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 551.69,
+    "change_pct": 2.2
+   },
+   "chart": {
+    "ema8": -6.4,
+    "ema21": -10.5,
+    "sma50": -11.7,
+    "sma200": -3.7,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Applied Materials is Going Solid. Is its AI Growth Already Priced In?",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNQWtlTlNyOG5QdkNfUHR5MkEwS3dwNHJ3VUxPVzFxU3cxSlJVeC1XZl9TVUFZRW9jczRsUzZKMmZWZjdPM3l1cEhyYnRicUhGc1lobjM5ZElHUDNvcVNkOExxU0FjUnVxVWdqWWlON0tLZjJESnNEaVVLMEF6alR4OHVRWmgwekdRMTZOVHBfM3JybE1ON04yZkhtOUk2UQ?oc=5",
+     "time": "2026-10-19T13:31:21+00:00"
+    },
+    {
+     "title": "Applied Materials Cratered 20% Since July: Multiple Wall Street Firms Predict It's Going to More Than Double From Here",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxObmdwREdBa3o1VmNhWFlObTlTdnRTWk5kSjRRSVAtZXFYbC04WFdtc1VjNlp5RGxUNEV5ckhqUy0tdVdFMVlCS29RV3F3YmVHSTRrVnhxREp5LVhuYkdxeWs4azlwTzBndzQzYWJIc1A5ckZHNVF5QjRrdjFHeEZZQVJ5ZWFVVnNqTTlmZDdvd1VrSHA3YzJIZUtiSy1MLWxUSUxCRUcxb2t1VmVZTVhWZFhWcl9KZ2g2NTZEaXJ2b2xvSDBYRENmSldqeXNHcHo1Nm9YaXRlRThydWlXdjNNS2JhNFNnSWRsd3ZTaFRMbTRsOXRxLTgzd3h1Y3hZazdrMmZRVHVVQ2NfUm84SXRIMTJZZFpOQ3lqRkxiRkdIZw?oc=5",
+     "time": "2026-10-19T11:15:00+00:00"
+    },
+    {
+     "title": "Applied Materials (AMAT) Sees $58.8 Million in Net ETF Selling on Oct. 15",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOYTlrbnZqU3NGZ0o2TVo4Z1hBMzlzVWdZSmNpN1JyTmhtUFlOYlNfUk5HQ3hjTXZDbjM1TU10UjNTWjh4dnFfeTFPc0xoeFJIdmhadEpraWtPRXRqay1YSC1UeUE0WktDRC1xYmlQanQwRXd4QUJoUzdKdTRNZXJVXzJxY2FCbnQ0bmVtWEhvX3g1NnJQSFY1Ymp6UQ?oc=5",
+     "time": "2026-10-19T11:02:49+00:00"
+    },
+    {
+     "title": "1 Mega-Cap Stock on Our Watchlist and 2 We Turn Down",
+     "publisher": "FinancialContent",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQX3NENHJLZktRSlk4TXh3RXNfR2p5WFBFZFlYZzFIMkkwZzNjUFVZNXF3UncyWjNnN0htZ3h4Y1FEbVRyY0E0Z2hoNC04aTNyUHJ4cUJ1VlNLWUVXZ21KNkJzei1aRF9BU3l1dnFHZHBYeGM3Y0U4MjRFemhLYjMzRDF0MURqMWlOVk9OdElLT2k2X19wTjhSYVlhWk9xZkVyOFp4Qmowazg5Z055V1Z3cnZzMl9IQQ?oc=5",
+     "time": "2026-10-19T04:38:00+00:00"
+    },
+    {
+     "title": "What Is Applied Materials\u2019 (AMAT) Economic Moat, and Is It Widening or Narrowing?",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQOUZuYy12QWRhX2VlS3hCZVctZXNoa2FXUG5nMjdzaWFvS29kN0w5Q3gzbU4xTklrbFNaM29RSE5HQndtTmZqc29NYUpIVjJlNExDeVN3ZW9vMXNCaVVuZ1psbWg1WG5PdTdlMnE3NFpBT1RYT3BzRWZ3ZUtJMTVWUVJ3cUxzeVI2amQyS0Nxb3BHOUVuZ1dISVprZlhiRllfZ1Br?oc=5",
+     "time": "2026-10-18T14:31:23+00:00"
+    },
+    {
+     "title": "Applied Materials And 2 Growth Stocks To Watch",
+     "publisher": "Simply Wall Street",
+     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNZ29CVGRkT1ZzLTVaTm1jNnFOVUZXQ2dZNWxKbkNVaVo2X1ZhY05zTTBIcy13aUNmdXA5VFVUZ1cwT0FQczBFVVFCMXpOUHptRUNtLUtNS1RJSzlUZ1Blejd6RGdNbEtMZU5HVG9WTmxjLUlyYTRfYlVjN0V4ZElCU2lnZFpzVTZzZ3paY2dNTW1OOEo5VHN6cThpY2FWRnA2ZUpwdThXQlJnMGZOSmNHR3dwMG80RGRpcWNzZzh4TzM0b0U4aG9R0gHMAUFVX3lxTE15T2twRW1WYktwR0JNbGpJWTVwOXB5TWdJRXllY3VUb3JVRHVzNTlYT0pKbEVlVXFuTkc2eWM0VllNcmhyOUhzVHJXd2JiS2pXeHQ0YVF1OFFlUjZnMTkwTkFTRTB2bXB0aUpDaVM2NjF4MFA0X0FuTHVKd01FRm1fX0pqSWwyeXJCbXJhbGRfQWJINW9DbnhPQVluRGd6UENRSzRhQk95NFJ3YkR3aFVWNkZHYjR1a2FUZHI2MWFpVVJzWGlvNzRSanp2LQ?oc=5",
+     "time": "2026-10-17T23:45:21+00:00"
+    },
+    {
+     "title": "Applied Materials (AMAT) Earnings Preview: AI Chip Demand, Capital Expenditure Trends, & Trade Setups - In Progress",
+     "publisher": "TradingKey",
+     "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOcHQ4N2xNRi1FZEFSUnBVM3V1U0tGM1FjMmRCcWR5cFdYLUNhQ29QT2JQcE4wMDBBRUdoSzJ4LWpmTjJJVzFpb3NydHJIRXFsSEFlbHhrNElVX0pJQUkteFJreTdGQ3lvYWVTQUdjZFM5UDMySnY4U21xTTBhVjZXUXZHNUN6SDFxemxwVWJDTTdfei1DWlJVeHVFVjFDemM4V0JIUlhHM3I5alBCWW9zYV9OZGdlQjAzZS1WUGpUOHVNSFgwZ2tvRmdmcHlVcXlCb0Z2NjB6NnQ2VjQ0SE5UYlFEZ0F6SU5PZk1KQQ?oc=5",
+     "time": "2026-10-17T22:17:40+00:00"
+    },
+    {
+     "title": "Lam Research vs. Applied Materials: Which Buybacks Are Better Covered by Cash?",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPV082S3ZTRERfWmJrX2FqaUdIVnlFR2VZM1lhN1QwVWRxNmU2OFU5S3l1Q2FIbU5CREszMUNiUHFUbzJGR1ZDN0t2T1ZGSVp6QmlSaGJ0U0N4UU5HdEpkTTljT1YzWFd1U3dFWDM2MzdBODF6Z3ZVRm5aRkJqa0J3Y0liMWZuU2M1QzE5OFcyN1Q4ekkxZDZsc1JoYm5MQjg?oc=5",
+     "time": "2026-10-17T22:11:56+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
+   "symbol": "AMZN",
+   "name": "Amazon",
+   "list": "portfolio",
+   "price": 258.69,
+   "prev_close": 250.0,
+   "change_pct": 3.5,
+   "trigger_change": 3.5,
+   "peak_change": 3.5,
+   "first_seen": "2026-10-19T14:12:58+00:00",
+   "sector": {
+    "etf": "XLY",
+    "name": "Consumer discr.",
+    "price": 113.64,
+    "change_pct": 1.05
+   },
+   "chart": {
+    "ema8": 1.2,
+    "ema21": 1.6,
+    "sma50": 0.8,
+    "sma200": 6.5,
+    "momentum": true
+   },
+   "headlines": [
+    {
+     "title": "Amazon stock rises as this analyst sees 40% upside",
+     "publisher": "Invezz",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQcElJUDNTTW5zQkZiVXlZRGVYQ25YRkVJdzRXNEhoZjBfRVF6cjBua25UZmJtRkgtTk5DUzFHU1JVRXNBc3JVNEd1amNDQTBFN2lxRDJ6T2ZIUEtWMDF1NXQzTUl5U3ozLTZicGhoTWtHZno4R2NOc285VU1fYjVwQkxZd0EySGZJdG1rc1ZyQ0xUcm1neVlNc0FvTQ?oc=5",
+     "time": "2026-10-19T14:08:44+00:00"
+    },
+    {
+     "title": "Amazon stock pops after Morgan Stanley details 5 catalysts, lifts price target",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNR1N4OXljU1k1MUpnU1VlQ0tjY3ZZR1ZIQzdEaGJwSkZoMEkwUlRyTGJNR1BpSUg4QWpsRHJXOW9EZzFaQ3pOQUZFaFMyTUpudVhONDJFWWJneHBDQ0JlX2paTkV3UnFmaUZPNzZBM3ZzZGQ1RU1WS25keXZBYW9aSThxTnNOY0tjMVltakZnRHE4RnZONFFLTHNSWGdvalVtT2prb1h5YXFjVlU2ZFZGcXZTd2ZlMFY3eFNEdFcxLWkxU1J0VWdiN0FHSEpWRjJoM0szT2dnNjQ?oc=5",
+     "time": "2026-10-19T14:08:41+00:00"
+    },
+    {
+     "title": "One Big Question Could Determine Where Microsoft Stock Goes Next",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVkxKNWNmZTJNSFdzWGdIdW0zSDNqMlV3Y2ZRQjNBZFREV1U4bkxBUF9jclRIVHJoRzcyRFlTbHA4NWxKN1lwU3F1MmJXZHBQd1lZaXBuNVc0dmthWVh1RjlqLXdnNGtaX0dkaUZQUEhqVVI1SnhzbHc5eU1yMGFuQVBROW04MVVJbHkyYy1WV1Q1Ukl0YVhRREMtbkNxckl6dHZVNTc2Q0lqYy04?oc=5",
+     "time": "2026-10-19T14:00:00+00:00"
+    },
+    {
+     "title": "Microsoft vs. Amazon: Is AMZN\u2019s AI Growth Being Undervalued by Investors?",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPaVN1aEFyQTBhQWZDUHVpa1k4NXE3NW1BMkIyU0dMR3BTQmxtampneWNTQ0U0cktLek02ell4UmlORW1lMVE4Z0ZCQzZYT0tLWVJxbGR5NXdhbUV1Zk9wNllkSnh0bFN5YXlyRC1jNUxjLXVlUGNRNlQ1a1RwZlRYYVQwUE1iZGZRTVIxa1VkT3lTSXZXOVVB?oc=5",
+     "time": "2026-10-19T13:36:08+00:00"
+    },
+    {
+     "title": "Amazon Stock Edges Higher Monday: What's Going On?",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQYWZsYnlxdnlBZEtSUXdfV3NLYmlteUlvNGF5TWEyYWZwYTlpSGNuQkRiR1pna0NJUHQtSmdrTlVUXzcwZDlUSnpKQmwwMGVoazRaaXFwSlR1M3cwbFBaSGZyWWhqYUlDWlFtSHUzbmJpZlE0ODlqeWJCbnFWVFJzZnlpRGZBblFiZ0lDUnRrU19XZHQxYlR1cE56X0l5aVFIR3YyemM1VDE4UnRi?oc=5",
+     "time": "2026-10-19T13:16:12+00:00"
+    },
+    {
+     "title": "Amazon Stocks Advance Premarket as Investors Assess AI Spending Returns",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPX3R4eUJfQjhPTkJRLTY4YXdHbHdTWlZwbVlPRGJRSkQxRUMyNWtIUG94VkFDN2xac3loUjk3MjV1QjhZNnZfMXdBRVBoOVZhU05JU2lnVnBNZWd5djlpcU8tOWNVOFZxT3BoNkE3bzgzM3dpUmw3V0tMZVc1TkcwNEJnRDhydzQxRU9yWk5DSmJUNHpUeHVrZlVwRWRMaWJMaXprSmhNbl9ZZw?oc=5",
+     "time": "2026-10-19T12:12:12+00:00"
+    },
+    {
+     "title": "Stocks making the biggest moves premarket: Cleveland-Cliffs, Intel, Datadog, Amazon & more",
+     "publisher": "CNBC",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQRUFudW5lR0xSVGN5RktUTWhmSGdUYjAwQW5TOVh5cmtaSDF5WkFha0JDbTRtVGVMZWJETlhTTkExdTVJNnpLUERpQkoyRFRBa2otZF9TYVhDQWVzRVRGVmlRLU5QY0tEU1hzVXdQMmtSdmxKTnpiTk11SHNaTGxpNlB3U1dWbjZGSFFmNDdXMHVEbVVPaVF6MWZEMkhzUQ?oc=5",
+     "time": "2026-10-19T11:56:48+00:00"
+    },
+    {
+     "title": "ETFs Are Net Sellers of Amazon (AMZN) on Thursday",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQM2hCVGlXMzJRN25MbEptWTNURFlSX0FTLWVaVWltTGs4bDFXX09waGprUVF1QWlncGRIVVZURUVzNEJ0RTFtZ204blFyRFBERjEwWG1mUkFOU2hDQVUzc2c2MkpZcDFiZ0JCZkN1NHYtaXNJZkMyRGZOXzNfWW5XNjJTSWZPZmZocDYwUjdodE54dTZ5WGpBbA?oc=5",
+     "time": "2026-10-19T11:02:25+00:00"
+    }
+   ],
+   "brief": null
+  }
+ ]
 }
