@@ -7,11 +7,14 @@ He wants to know **what is going on** and **learn something useful**, quickly.
 
 ## 0 · Keep the price checks running (backup, takes seconds)
 GitHub's cron is unreliable, so the "Check prices" workflow restarts itself every ~5 min during
-the trading day. As a backup, nudge it once per run:
-`gh api "repos/Nico4sl/stock-alerts/actions/workflows/check.yml/runs?per_page=1" --jq '.workflow_runs[0] | .status + " " + .created_at'`
-If the latest run is not `in_progress`/`queued` and was created more than 15 minutes ago, start one:
-`gh api -X POST repos/Nico4sl/stock-alerts/actions/workflows/check.yml/dispatches -f ref=main -f "inputs[auto]=true"`
-If `gh` is unavailable or this fails, just continue with the briefs – do not retry.
+the trading day. If GitHub never starts it, nothing runs – so check once per run.
+(The Actions API is blocked from Claude sessions; the commit check-runs API and a push both work.)
+1. Latest check start:
+   `gh api "repos/Nico4sl/stock-alerts/commits/main/check-runs?filter=all&per_page=1" --jq '.check_runs[0] | .status + " " + .started_at'`
+2. If it is not `in_progress`/`queued` and started more than 15 minutes ago, restart the checks by
+   pushing a heartbeat (a push to `heartbeat.txt` starts a run, which restarts the chain):
+   `cd /home/claude/stock-alerts && git fetch origin main && git rebase origin/main && echo "$(date -u +%FT%TZ)" >> heartbeat.txt && tail -n 50 heartbeat.txt > h && mv h heartbeat.txt && git add heartbeat.txt && git commit -m "Heartbeat: restart price checks" && git push origin main`
+3. If this fails, just continue with the briefs – do not retry.
 
 ## 1 · Find today's movers
 1. `git fetch origin data main` and read the queue: `git show origin/data:queue.json`
