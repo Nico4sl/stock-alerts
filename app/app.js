@@ -790,7 +790,7 @@
       const y = this.series.priceToCoordinate(b.val);
       if (y === null) return;
       target.useBitmapCoordinateSpace(({ context: ctx, bitmapSize, horizontalPixelRatio: hr, verticalPixelRatio: vr }) => {
-        const row = 15, h = row * 3 + 4;                     // css px
+        const row = 11, h = row * 3 + 2;                     // css px – compact
         const W = bitmapSize.width, H = Math.round(h * vr);
         const Y = Math.round((y - h / 2) * vr);
         const r = 3 * hr;
@@ -801,19 +801,19 @@
         ctx.fill();
         // thin dividers between the three rows
         ctx.fillStyle = "rgba(11,14,20,.25)";
-        ctx.fillRect(Math.round(4 * hr), Math.round(Y + (2 + row) * vr), W - Math.round(8 * hr), Math.max(1, Math.round(vr)));
-        ctx.fillRect(Math.round(4 * hr), Math.round(Y + (2 + row * 2) * vr), W - Math.round(8 * hr), Math.max(1, Math.round(vr)));
+        ctx.fillRect(Math.round(4 * hr), Math.round(Y + (1 + row) * vr), W - Math.round(8 * hr), Math.max(1, Math.round(vr)));
+        ctx.fillRect(Math.round(4 * hr), Math.round(Y + (1 + row * 2) * vr), W - Math.round(8 * hr), Math.max(1, Math.round(vr)));
         ctx.fillStyle = "#0b0e14";
         ctx.textBaseline = "middle";
         ctx.textAlign = "left";
-        const x = Math.round(7 * hr);
+        const x = Math.round(6 * hr);
         const font = (wt, px) => `${wt} ${Math.round(px * vr)}px -apple-system, Roboto, system-ui, sans-serif`;
-        ctx.font = font(400, 10.5);
-        ctx.fillText(b.upTxt, x, Y + (2 + row * 0.5) * vr);
-        ctx.font = font(700, 11.5);
-        ctx.fillText(b.valTxt, x, Y + (2 + row * 1.5) * vr);
-        ctx.font = font(400, 10.5);
-        ctx.fillText(b.dnTxt, x, Y + (2 + row * 2.5) * vr);
+        ctx.font = font(400, 9);
+        ctx.fillText(b.upTxt, x, Y + (1 + row * 0.5) * vr);
+        ctx.font = font(700, 11);
+        ctx.fillText(b.valTxt, x, Y + (1 + row * 1.5) * vr);
+        ctx.font = font(400, 9);
+        ctx.fillText(b.dnTxt, x, Y + (1 + row * 2.5) * vr);
         ctx.restore();
       });
     }
