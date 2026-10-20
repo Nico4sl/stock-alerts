@@ -1,5 +1,22 @@
 {
  "date": "2026-10-20",
  "threshold": 3.0,
- "movers": []
+ "movers": [
+  {
+   "id": "2026-10-20-NBIS",
+   "symbol": "NBIS",
+   "name": "Nebius",
+   "list": "portfolio",
+   "trigger_change": -3.1,
+   "first_seen": "2026-10-20T13:56:59+00:00"
+  },
+  {
+   "id": "2026-10-20-META",
+   "symbol": "META",
+   "name": "Meta",
+   "list": "portfolio",
+   "trigger_change": -3.1,
+   "first_seen": "2026-10-20T13:56:59+00:00"
+  }
+ ]
 }

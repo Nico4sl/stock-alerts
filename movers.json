@@ -1,7 +1,174 @@
 {
  "date": "2026-10-20",
  "threshold": 3.0,
- "updated": "2026-10-20T13:51:59+00:00",
- "market": {},
- "movers": []
+ "updated": "2026-10-20T13:56:59+00:00",
+ "market": {
+  "SPY": {
+   "name": "S&P 500",
+   "price": 767.35,
+   "change_pct": 0.11
+  },
+  "QQQ": {
+   "name": "Nasdaq 100",
+   "price": 714.83,
+   "change_pct": -0.49
+  },
+  "TLT": {
+   "name": "Long Treasuries",
+   "price": 80.09,
+   "change_pct": 0.79
+  }
+ },
+ "movers": [
+  {
+   "symbol": "NBIS",
+   "name": "Nebius",
+   "list": "portfolio",
+   "price": 164.91,
+   "prev_close": 170.24,
+   "change_pct": -3.1,
+   "trigger_change": -3.1,
+   "peak_change": -3.1,
+   "first_seen": "2026-10-20T13:56:59+00:00",
+   "sector": {
+    "etf": "IGV",
+    "name": "Software",
+    "price": 106.36,
+    "change_pct": 0.35
+   },
+   "chart": {
+    "ema8": -11.5,
+    "ema21": -20.1,
+    "sma50": -25.7,
+    "sma200": -5.7,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "NBIS Stock Slides As AI Credit Jitters Rattle Nebius Group",
+     "publisher": "Timothy Sykes",
+     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5wUXNNd1pDS2Y4SWhlc1hyaTNJUlUzTVpvbEt0Y2NzcWw1QXk3SFNuQ3d3SWpzUWVGdkE0ejM1ZjdpUGluT0dvamM4dHRTVW8ybU1qRE9UbGpuYzItUHBmMjRYbjF2RHhqcUR4SFN6VmxqM0NHcE14TER4WQ?oc=5",
+     "time": "2026-10-20T13:19:00+00:00"
+    },
+    {
+     "title": "Nebius: The Neocloud Window Is Ending (NASDAQ:NBIS)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQcHYzRloxbWFFb05wQ2ZBWHhzVXU1QXpmM2tZQTdtbGxPcmxMOUZIWDgtbDViM3gwRlhqQ0ttMG9rV1dyT25va1hKc2ZWbGZVYVNwcmxEYmpWN21TLS1wMEd1Wll4bjUwcHNUVGdrQ1VQdmFBclRLUXpnTEtybEp4bjFuTQ?oc=5",
+     "time": "2026-10-20T13:14:49+00:00"
+    },
+    {
+     "title": "Nebius Group (NASDAQ:NBIS) Stock: Insider Arne Grimme Purchases 148 Shares",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPRVp2Y3dLZEtfZVZFVEc0OENKeTNKbnFiVUdIWVFELUtSVGV2R0tkTUNPNC1LZVJvbEFkSE4zemkyQ3dmVjkxQ0FIbE5PZ1dQT0c1ZU9vVzc1MC1wbU5wU1VZQ3NrVHlyZkEzMC0wVGJOTW91ZmNuNHQxYk15c09oOU8yR19qU0dzSlVoVDlpaGJ2MXQyMGxhazdlOG92NWlwWWgxTFp2MmhFVk1VR2xPQWtVMmNuNUJIMWNlT3hkYlhyVXNuNWlDazdScG42Zw?oc=5",
+     "time": "2026-10-20T13:14:36+00:00"
+    },
+    {
+     "title": "CoreWeave Falls 4% as HSBC Reiterates Bearish Call on Debt Risk; Nebius Drops 5%, Oracle Holds Steady",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOQWJCbUk2SjRSVzFkaGxzX0lMbEFMTklSdXZ2VTVvWTZfTWtkSHRhUE1VbVRXWjlGa0ZUaVBTUF96Zmpyblc2MmlqSlJCOXFaaVJRXzFRei1vNFJ2RnRmb0tZQjBuYXdjOWdNREpjRlczenpqUlZjMkkyYW5uVkNtWFdPb0dES0RscXpsMEl2cHNSYnBPYnk2MW9URTk1OHAyS1J3c2c2SjVmRXFvbWlKNnpPQlZIVzhGTnBzWmFVaUNwekx3WkpuU0VEQTJmX3ZMWlpaVC1UcDg?oc=5",
+     "time": "2026-10-20T12:36:00+00:00"
+    },
+    {
+     "title": "Nebius Group Stock Is Falling Tuesday: What's Going On?",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQLUhDZHBWTHpSYklIVHo4WjVIb00tU3BiVzF0ZlZqTDM1ZVZzQ1pvakFHS0FoTVY3bmNyN2daamRIYnRqTWhoWUYwZWM5OVlvMUpjZS1rbmZJOGVOcFhHaEo4emdOMTY5dHExU1VTaUg3WU1tVmNVVWtzd0FYT2xDRDBTbXBrdTIybC0tN2xxamlCclA2RGxMZmwtbEt4bV9QY2NOYTBoV1g?oc=5",
+     "time": "2026-10-20T10:53:50+00:00"
+    },
+    {
+     "title": "Nebius: Next Chip To Fall As The AI Infrastructure Bubble Is Starting To Burst (Rating Downgrade)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOQnJDM3pkb0UxOWZYbktmVnFPclBPUkFaeXV2OHZIZVFkaTFqdWhaWjNNQnduRU5tVmFGeFU0aUpfZWU2ODN0MnB0WEFWeUdrWkh5Slk3Skw2UFhMQWRnQzhZNHBpZEZVZm1SUGpwY1QyRlhiZEZsT3J1WTFaNDF4Yjk3TkhZWVVfTVZKTjRQX3MxMm9vZ1ZJejNtTXdXZVYyZ0ZSMWVpY0pDZXM0WDhGRk9ZQzRXci1jM3FSWm5ZYWxrRDZz?oc=5",
+     "time": "2026-10-20T09:24:17+00:00"
+    },
+    {
+     "title": "Nebius Is Poised To Feast On The CoreWeave Rout (NASDAQ:NBIS)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQY1E3emE3MGFOLXNFNGVKVk9wMGdSNzJGYW1CQTZDOG16Zi1tX1BzdTFJMnNUTzNydWtTUnhHYUUtQVIwZlNVcmxzTFEzLWJuU2NETkFVTDNrQ2EtR1hkWnAxM0JhZU44T2xCTVVXUWZyNTJHb1pMY1hMSjZZN3E1NDhJbXJ6MWJi?oc=5",
+     "time": "2026-10-20T09:16:28+00:00"
+    },
+    {
+     "title": "Why Are Nasdaq Futures Falling Premarket? CRWV, NBIS, TSLA, SPCX, MU, ASTS, NFLX, SLS Stocks In Focus",
+     "publisher": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQVG1SMEw0d2ZwS3NHcngwODFGUDZWTmFuUUN5VW52UlcxWXBnbDROTU1VRk9EX0s5eFVMalZFZEJCUlBFS195c3FsZUh1SGJpX2hBeDNSTHQ2WDBCenhwQzAyN0hFMTBQaUFuZWhPdGx6RjZfREhyaTNJbi1fV1VDdXJadFBzTE1VWmcyY1BUb0wyeVYyazZYb1h4U2tKVzFNNlR2c2xUY0lUU3JZYkxydEhtTkRTMTd5S2x6TUdBeV93eXNsemp2TEN3OVJXSGZpWDdkZmFLOGs3TXMzSEVtaDItOXVZLUFwT3c?oc=5",
+     "time": "2026-10-20T08:52:01+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
+   "symbol": "META",
+   "name": "Meta",
+   "list": "portfolio",
+   "price": 683.24,
+   "prev_close": 705.44,
+   "change_pct": -3.1,
+   "trigger_change": -3.1,
+   "peak_change": -3.1,
+   "first_seen": "2026-10-20T13:56:59+00:00",
+   "sector": {
+    "etf": "XLC",
+    "name": "Communication",
+    "price": 110.24,
+    "change_pct": 0.14
+   },
+   "chart": {
+    "ema8": -4.6,
+    "ema21": -4.3,
+    "sma50": 3.6,
+    "sma200": 8.0,
+    "momentum": true
+   },
+   "headlines": [
+    {
+     "title": "Meta (META) Maintains Strong Buy Rating with $860 Price Target",
+     "publisher": "GuruFocus",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQTmRSWjZsQnlXMklkWlJ5RjJRTzhzQWxRN1pVbmotZHFXeUs0ZldlVDJZY0F2TjhscG10Y3IzcVVOSkVKYm1rR3BOVjFSZnNHZXRtVU9XbEUzSVpVRHQ1em1RYmlHUmI3RVdWX2dkS0pnVTZoV21Ud0tZZ2FlRUhCYlk5Y0ladFc0cV9YTmxJZzF2UTJWNFlBNG1la3dxeDg?oc=5",
+     "time": "2026-10-20T13:30:00+00:00"
+    },
+    {
+     "title": "Meta is back on offense \u2014 and its next move could signal higher AI spending across Big Tech",
+     "publisher": "MarketWatch",
+     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPcU90ZDZnWmtVZEhOWUNtY2txM05UajhKVW41c0pQUmU0Q2VZaEx0SDV3Nlk1ODRwWElXMnJSeDhyeEV2azRCRHJJUmdEWllrZVotcW93ODRic3hZcUhMM0tIOWFWS2hWX2RSMFpWTldZVXlXUUhOV3FFSHdGQXVRV1dwcVgxejJta3NZY0F6MUhaNXpQczVRazhRbm5Dd2lpSll0UE9la2xFZk55UHBMTjUtYV82TlZ3WmtnQ1VQV05DOUNLcXFJUFlRcTQ?oc=5",
+     "time": "2026-10-20T12:56:00+00:00"
+    },
+    {
+     "title": "Meta Q3 Earnings Preview: Wall Street Eyes Muse AI Monetization As Mark Zuckerberg's AI Bet Faces Its Next Test",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPcXFXOUljSFN4ZjdHUlFDMkNtNUZjdmItTnlyTVZRdjVRWG9tall6Y1NJRHFtdmJpT19Kd3BBT190WkJReElmLWc0LUlsZDBJbVZmSXpab2NFX2pRSDVhNDBxV3AtSDFRNWk2NFh4NVJhemRUbXJkZWNPUnNnNkpEUURmTERaQVZxdmFhc3RmYVlRb0VvTVZzN1RNWHNjTlVpOG5sRlRWZU9CeUxUekg3UU9iWFg3V3lvalB1RERBN0JNQ3pOSDRjTEZiemZ1X25UWXdNMEpqSll6VjFPd3pZWjZJR2ZXZlR3Vk9zRWxUVmZmd01HQkx2cEdB?oc=5",
+     "time": "2026-10-20T12:16:37+00:00"
+    },
+    {
+     "title": "AI Trade Rotation Favors Mag 7 Over Neoclouds, Analysts Say Ahead Of SPCX, META, NFLX Results",
+     "publisher": "Stocktwits",
+     "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOSERMdXd2cEtLdGZ1QmlHU20ydFZXRWM1SGo4YkZpNUhSVWRHX0NyMnh0eDlpZFpOQzNycmVOSHFfakxyMk5kSVdmZlVJeS1iVVhmdWltV2dpTjhLeHNHSlJMM21fWkxFaU96RzFSMVVrdHluVWFKV3RHcG44bjZ5QzRNYTlkRl9zYjhseUtRM3AwZUFQczM3VTQ2M2ZXTzFfUTJvX2xHbzRwcHE4RTlvbTNwTFp5ZnJSRk5kTWNRU084N1FKNGhDV2xPT1plSFR3WC12Qng5QWt3TVREalFZenJweWhzT2c4ZUE?oc=5",
+     "time": "2026-10-20T11:44:03+00:00"
+    },
+    {
+     "title": "Raymond James reiterates Strong Buy on Meta stock, $860 target By Investing.com",
+     "publisher": "Investing.com India",
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPblN3QVRUcFlWZGdPR1NhTHNzblAzRXZZOEJmVlBYN1ZHVUtZd2tyUl9hcFQzSWtSNjhMMXBVS1M3ZDROaThpN0VZTlBJTEJTLTdvSTNLcWl1UkRXcjdNaE1NbzVZT1cxcngtN3dENDloV0hIZnVZbDhCVWNKR3R4ZzZOb0FtTmdyclZXNkdmY1ZRR0NDb2xJT1AxeHpWdzN1dHNxOVhfVlhvdlVjTERaakVsQVAwbENQS1F6RTJB?oc=5",
+     "time": "2026-10-20T11:11:41+00:00"
+    },
+    {
+     "title": "AI chip stocks bounce back as hyperscaler earnings loom, META equity raise in focus",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPVDBqcUlXdU5sa0R5OWFJdnJNSmUzOW9ONWIxejVfTnJZTkxPbjlsV3l1TER0Ti1neGwwT2x1V2VyQnF2RDlaUkQyOU4zUkxXNXBjUWhvcU9LOXFHUnJUSnVJOHBNd2VtcUxIWjdZd3c0RlUwdE03QVFRZl9JVjBWT25NN2xzV0tvTldtc3dkdk04VXZ4MzFrMERULS1PY1g0ZWJEZ05WQ0tNRy0xTk5zVVJaSE1KeWVzeEcwWlVVb3R1LXBo?oc=5",
+     "time": "2026-10-20T11:00:00+00:00"
+    },
+    {
+     "title": "Dear Meta Stock Fans, Mark Your Calendar for October 21",
+     "publisher": "Barchart.com",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZnZFRGg0M2NKRzZGQTJMNnFuNzVoakVJU1AtWVhmQnY3M090QXllQmhBbnlUdDRYVXlacHdlTjB0eS1SRFc3LWNlR1otUDlORG16OGVjaC1tZ1pQNWhTWXlJSmkwbnpxTmV1SGdwZlFhRFlCMTByQkhoRVV4NnBBdG1DMFpPTVBVZUJ6emNUZFNkWmpURGJaQlRuWHNQLWs?oc=5",
+     "time": "2026-10-20T10:39:16+00:00"
+    },
+    {
+     "title": "Netflix, SpaceX, Meta, and Tesla Q3 earnings: What investors need to see from Big Tech this week",
+     "publisher": "Business Insider",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOMktPUmZrNmgyUDhFbTJGVUxVWmRHd0dIenBPV2o1Z3pzWkNuNlFsZWZuSXBBWGMtRXd0U1RoTlZRbUtJTG11bVhiUzNSeGFOT0U1TUt6OE5NclFZNnM5cFZLNnNhZU5qRkhXeTZjQUFCWGpSSUcxZUNUWjMwZU9aRW1BRlpucXZDQ09MWnBVSGJOQ1lCWV9DckUxTzZEMGl6SnR0NU1zZ0VnUQ?oc=5",
+     "time": "2026-10-20T09:50:00+00:00"
+    }
+   ],
+   "brief": null
+  }
+ ]
 }
