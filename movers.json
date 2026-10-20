@@ -1,22 +1,22 @@
 {
  "date": "2026-10-20",
  "threshold": 3.0,
- "updated": "2026-10-20T14:32:16+00:00",
+ "updated": "2026-10-20T14:37:20+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 771.04,
+   "price": 771.0,
    "change_pct": 0.59
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 720.92,
-   "change_pct": 0.36
+   "price": 721.21,
+   "change_pct": 0.4
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 80.23,
-   "change_pct": 0.98
+   "price": 80.25,
+   "change_pct": 0.99
   }
  },
  "movers": [
@@ -24,9 +24,9 @@
    "symbol": "SOFI",
    "name": "SoFi",
    "list": "portfolio",
-   "price": 14.93,
+   "price": 14.9,
    "prev_close": 14.3,
-   "change_pct": 4.4,
+   "change_pct": 4.2,
    "trigger_change": 4.4,
    "peak_change": 4.4,
    "first_seen": "2026-10-20T14:32:16+00:00",
@@ -34,13 +34,13 @@
     "etf": "XLF",
     "name": "Financials",
     "price": 55.84,
-    "change_pct": 1.42
+    "change_pct": 1.43
    },
    "chart": {
-    "ema8": 0.0,
-    "ema21": -4.2,
-    "sma50": -11.9,
-    "sma200": -18.2,
+    "ema8": -0.1,
+    "ema21": -4.3,
+    "sma50": -12.0,
+    "sma200": -18.3,
     "momentum": false
    },
    "headlines": [
@@ -99,23 +99,23 @@
    "symbol": "AXON",
    "name": "Axon",
    "list": "watchlist",
-   "price": 399.5,
+   "price": 398.2,
    "prev_close": 383.09,
-   "change_pct": 4.3,
+   "change_pct": 3.9,
    "trigger_change": 4.1,
    "peak_change": 4.3,
    "first_seen": "2026-10-20T14:27:13+00:00",
    "sector": {
     "etf": "XLI",
     "name": "Industrials",
-    "price": 167.46,
+    "price": 167.47,
     "change_pct": 0.47
    },
    "chart": {
-    "ema8": -0.9,
-    "ema21": -5.7,
-    "sma50": -19.3,
-    "sma200": -18.0,
+    "ema8": -1.2,
+    "ema21": -6.0,
+    "sma50": -19.6,
+    "sma200": -18.2,
     "momentum": false
    },
    "headlines": [
@@ -171,101 +171,26 @@
    "brief": null
   },
   {
-   "symbol": "NBIS",
-   "name": "Nebius",
-   "list": "portfolio",
-   "price": 172.97,
-   "prev_close": 170.24,
-   "change_pct": 1.6,
-   "trigger_change": -3.1,
-   "peak_change": -3.1,
-   "first_seen": "2026-10-20T13:56:59+00:00",
-   "sector": {
-    "etf": "IGV",
-    "name": "Software",
-    "price": 106.86,
-    "change_pct": 0.82
-   },
-   "chart": {
-    "ema8": -8.1,
-    "ema21": -16.5,
-    "sma50": -22.2,
-    "sma200": -1.1,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "NBIS Stock Slides As AI Credit Jitters Rattle Nebius Group",
-     "publisher": "Timothy Sykes",
-     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5wUXNNd1pDS2Y4SWhlc1hyaTNJUlUzTVpvbEt0Y2NzcWw1QXk3SFNuQ3d3SWpzUWVGdkE0ejM1ZjdpUGluT0dvamM4dHRTVW8ybU1qRE9UbGpuYzItUHBmMjRYbjF2RHhqcUR4SFN6VmxqM0NHcE14TER4WQ?oc=5",
-     "time": "2026-10-20T13:19:00+00:00"
-    },
-    {
-     "title": "Nebius: The Neocloud Window Is Ending (NASDAQ:NBIS)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQcHYzRloxbWFFb05wQ2ZBWHhzVXU1QXpmM2tZQTdtbGxPcmxMOUZIWDgtbDViM3gwRlhqQ0ttMG9rV1dyT25va1hKc2ZWbGZVYVNwcmxEYmpWN21TLS1wMEd1Wll4bjUwcHNUVGdrQ1VQdmFBclRLUXpnTEtybEp4bjFuTQ?oc=5",
-     "time": "2026-10-20T13:14:49+00:00"
-    },
-    {
-     "title": "Nebius Group (NASDAQ:NBIS) Stock: Insider Arne Grimme Purchases 148 Shares",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPRVp2Y3dLZEtfZVZFVEc0OENKeTNKbnFiVUdIWVFELUtSVGV2R0tkTUNPNC1LZVJvbEFkSE4zemkyQ3dmVjkxQ0FIbE5PZ1dQT0c1ZU9vVzc1MC1wbU5wU1VZQ3NrVHlyZkEzMC0wVGJOTW91ZmNuNHQxYk15c09oOU8yR19qU0dzSlVoVDlpaGJ2MXQyMGxhazdlOG92NWlwWWgxTFp2MmhFVk1VR2xPQWtVMmNuNUJIMWNlT3hkYlhyVXNuNWlDazdScG42Zw?oc=5",
-     "time": "2026-10-20T13:14:36+00:00"
-    },
-    {
-     "title": "CoreWeave Falls 4% as HSBC Reiterates Bearish Call on Debt Risk; Nebius Drops 5%, Oracle Holds Steady",
-     "publisher": "24/7 Wall St.",
-     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOQWJCbUk2SjRSVzFkaGxzX0lMbEFMTklSdXZ2VTVvWTZfTWtkSHRhUE1VbVRXWjlGa0ZUaVBTUF96Zmpyblc2MmlqSlJCOXFaaVJRXzFRei1vNFJ2RnRmb0tZQjBuYXdjOWdNREpjRlczenpqUlZjMkkyYW5uVkNtWFdPb0dES0RscXpsMEl2cHNSYnBPYnk2MW9URTk1OHAyS1J3c2c2SjVmRXFvbWlKNnpPQlZIVzhGTnBzWmFVaUNwekx3WkpuU0VEQTJmX3ZMWlpaVC1UcDg?oc=5",
-     "time": "2026-10-20T12:36:00+00:00"
-    },
-    {
-     "title": "NBIS Stock Trend Puts Nebius\u2019 $10M European AI Builder Plan in Focus",
-     "publisher": "iNews Zoombangla",
-     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9PTHF3UW5IMjZEYVZVX0d4Mno5QzduVXpyU0lUNzdzX2tiWVJidmpvcmR3Z2gxWEFsYlU2X0VTc0hIWVVvczc0X0IxMjlyZmpYNkRfYnVTcU5TWmlEQzlIekJOVHlycFJCcXVHM3VITV9iZEtfY01qSVZlQzgxUQ?oc=5",
-     "time": "2026-10-20T11:24:35+00:00"
-    },
-    {
-     "title": "Nebius Group Stock Is Falling Tuesday: What's Going On?",
-     "publisher": "Benzinga",
-     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQLUhDZHBWTHpSYklIVHo4WjVIb00tU3BiVzF0ZlZqTDM1ZVZzQ1pvakFHS0FoTVY3bmNyN2daamRIYnRqTWhoWUYwZWM5OVlvMUpjZS1rbmZJOGVOcFhHaEo4emdOMTY5dHExU1VTaUg3WU1tVmNVVWtzd0FYT2xDRDBTbXBrdTIybC0tN2xxamlCclA2RGxMZmwtbEt4bV9QY2NOYTBoV1g?oc=5",
-     "time": "2026-10-20T10:53:50+00:00"
-    },
-    {
-     "title": "Nebius: Next Chip To Fall As The AI Infrastructure Bubble Is Starting To Burst (Rating Downgrade)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOQnJDM3pkb0UxOWZYbktmVnFPclBPUkFaeXV2OHZIZVFkaTFqdWhaWjNNQnduRU5tVmFGeFU0aUpfZWU2ODN0MnB0WEFWeUdrWkh5Slk3Skw2UFhMQWRnQzhZNHBpZEZVZm1SUGpwY1QyRlhiZEZsT3J1WTFaNDF4Yjk3TkhZWVVfTVZKTjRQX3MxMm9vZ1ZJejNtTXdXZVYyZ0ZSMWVpY0pDZXM0WDhGRk9ZQzRXci1jM3FSWm5ZYWxrRDZz?oc=5",
-     "time": "2026-10-20T09:24:17+00:00"
-    },
-    {
-     "title": "Nebius Is Poised To Feast On The CoreWeave Rout (NASDAQ:NBIS)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQY1E3emE3MGFOLXNFNGVKVk9wMGdSNzJGYW1CQTZDOG16Zi1tX1BzdTFJMnNUTzNydWtTUnhHYUUtQVIwZlNVcmxzTFEzLWJuU2NETkFVTDNrQ2EtR1hkWnAxM0JhZU44T2xCTVVXUWZyNTJHb1pMY1hMSjZZN3E1NDhJbXJ6MWJi?oc=5",
-     "time": "2026-10-20T09:16:28+00:00"
-    }
-   ],
-   "brief": null
-  },
-  {
    "symbol": "META",
    "name": "Meta",
    "list": "portfolio",
-   "price": 693.96,
+   "price": 693.36,
    "prev_close": 705.44,
-   "change_pct": -1.6,
+   "change_pct": -1.7,
    "trigger_change": -3.1,
    "peak_change": -3.1,
    "first_seen": "2026-10-20T13:56:59+00:00",
    "sector": {
     "etf": "XLC",
     "name": "Communication",
-    "price": 110.62,
-    "change_pct": 0.48
+    "price": 110.53,
+    "change_pct": 0.4
    },
    "chart": {
     "ema8": -3.4,
-    "ema21": -2.9,
-    "sma50": 5.2,
-    "sma200": 9.7,
+    "ema21": -3.0,
+    "sma50": 5.1,
+    "sma200": 9.6,
     "momentum": true
    },
    "headlines": [
@@ -316,6 +241,81 @@
      "publisher": "Barchart.com",
      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZnZFRGg0M2NKRzZGQTJMNnFuNzVoakVJU1AtWVhmQnY3M090QXllQmhBbnlUdDRYVXlacHdlTjB0eS1SRFc3LWNlR1otUDlORG16OGVjaC1tZ1pQNWhTWXlJSmkwbnpxTmV1SGdwZlFhRFlCMTByQkhoRVV4NnBBdG1DMFpPTVBVZUJ6emNUZFNkWmpURGJaQlRuWHNQLWs?oc=5",
      "time": "2026-10-20T10:39:16+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
+   "symbol": "NBIS",
+   "name": "Nebius",
+   "list": "portfolio",
+   "price": 172.87,
+   "prev_close": 170.24,
+   "change_pct": 1.5,
+   "trigger_change": -3.1,
+   "peak_change": -3.1,
+   "first_seen": "2026-10-20T13:56:59+00:00",
+   "sector": {
+    "etf": "IGV",
+    "name": "Software",
+    "price": 106.84,
+    "change_pct": 0.8
+   },
+   "chart": {
+    "ema8": -8.1,
+    "ema21": -16.5,
+    "sma50": -22.2,
+    "sma200": -1.2,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "NBIS Stock Slides As AI Credit Jitters Rattle Nebius Group",
+     "publisher": "Timothy Sykes",
+     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5wUXNNd1pDS2Y4SWhlc1hyaTNJUlUzTVpvbEt0Y2NzcWw1QXk3SFNuQ3d3SWpzUWVGdkE0ejM1ZjdpUGluT0dvamM4dHRTVW8ybU1qRE9UbGpuYzItUHBmMjRYbjF2RHhqcUR4SFN6VmxqM0NHcE14TER4WQ?oc=5",
+     "time": "2026-10-20T13:19:00+00:00"
+    },
+    {
+     "title": "Nebius: The Neocloud Window Is Ending (NASDAQ:NBIS)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQcHYzRloxbWFFb05wQ2ZBWHhzVXU1QXpmM2tZQTdtbGxPcmxMOUZIWDgtbDViM3gwRlhqQ0ttMG9rV1dyT25va1hKc2ZWbGZVYVNwcmxEYmpWN21TLS1wMEd1Wll4bjUwcHNUVGdrQ1VQdmFBclRLUXpnTEtybEp4bjFuTQ?oc=5",
+     "time": "2026-10-20T13:14:49+00:00"
+    },
+    {
+     "title": "Nebius Group (NASDAQ:NBIS) Stock: Insider Arne Grimme Purchases 148 Shares",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPRVp2Y3dLZEtfZVZFVEc0OENKeTNKbnFiVUdIWVFELUtSVGV2R0tkTUNPNC1LZVJvbEFkSE4zemkyQ3dmVjkxQ0FIbE5PZ1dQT0c1ZU9vVzc1MC1wbU5wU1VZQ3NrVHlyZkEzMC0wVGJOTW91ZmNuNHQxYk15c09oOU8yR19qU0dzSlVoVDlpaGJ2MXQyMGxhazdlOG92NWlwWWgxTFp2MmhFVk1VR2xPQWtVMmNuNUJIMWNlT3hkYlhyVXNuNWlDazdScG42Zw?oc=5",
+     "time": "2026-10-20T13:14:36+00:00"
+    },
+    {
+     "title": "CoreWeave Falls 4% as HSBC Reiterates Bearish Call on Debt Risk; Nebius Drops 5%, Oracle Holds Steady",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOQWJCbUk2SjRSVzFkaGxzX0lMbEFMTklSdXZ2VTVvWTZfTWtkSHRhUE1VbVRXWjlGa0ZUaVBTUF96Zmpyblc2MmlqSlJCOXFaaVJRXzFRei1vNFJ2RnRmb0tZQjBuYXdjOWdNREpjRlczenpqUlZjMkkyYW5uVkNtWFdPb0dES0RscXpsMEl2cHNSYnBPYnk2MW9URTk1OHAyS1J3c2c2SjVmRXFvbWlKNnpPQlZIVzhGTnBzWmFVaUNwekx3WkpuU0VEQTJmX3ZMWlpaVC1UcDg?oc=5",
+     "time": "2026-10-20T12:36:00+00:00"
+    },
+    {
+     "title": "NBIS Stock Trend Puts Nebius\u2019 $10M European AI Builder Plan in Focus",
+     "publisher": "iNews Zoombangla",
+     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9PTHF3UW5IMjZEYVZVX0d4Mno5QzduVXpyU0lUNzdzX2tiWVJidmpvcmR3Z2gxWEFsYlU2X0VTc0hIWVVvczc0X0IxMjlyZmpYNkRfYnVTcU5TWmlEQzlIekJOVHlycFJCcXVHM3VITV9iZEtfY01qSVZlQzgxUQ?oc=5",
+     "time": "2026-10-20T11:24:35+00:00"
+    },
+    {
+     "title": "Nebius Group Stock Is Falling Tuesday: What's Going On?",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQLUhDZHBWTHpSYklIVHo4WjVIb00tU3BiVzF0ZlZqTDM1ZVZzQ1pvakFHS0FoTVY3bmNyN2daamRIYnRqTWhoWUYwZWM5OVlvMUpjZS1rbmZJOGVOcFhHaEo4emdOMTY5dHExU1VTaUg3WU1tVmNVVWtzd0FYT2xDRDBTbXBrdTIybC0tN2xxamlCclA2RGxMZmwtbEt4bV9QY2NOYTBoV1g?oc=5",
+     "time": "2026-10-20T10:53:50+00:00"
+    },
+    {
+     "title": "Nebius: Next Chip To Fall As The AI Infrastructure Bubble Is Starting To Burst (Rating Downgrade)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOQnJDM3pkb0UxOWZYbktmVnFPclBPUkFaeXV2OHZIZVFkaTFqdWhaWjNNQnduRU5tVmFGeFU0aUpfZWU2ODN0MnB0WEFWeUdrWkh5Slk3Skw2UFhMQWRnQzhZNHBpZEZVZm1SUGpwY1QyRlhiZEZsT3J1WTFaNDF4Yjk3TkhZWVVfTVZKTjRQX3MxMm9vZ1ZJejNtTXdXZVYyZ0ZSMWVpY0pDZXM0WDhGRk9ZQzRXci1jM3FSWm5ZYWxrRDZz?oc=5",
+     "time": "2026-10-20T09:24:17+00:00"
+    },
+    {
+     "title": "Nebius Is Poised To Feast On The CoreWeave Rout (NASDAQ:NBIS)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQY1E3emE3MGFOLXNFNGVKVk9wMGdSNzJGYW1CQTZDOG16Zi1tX1BzdTFJMnNUTzNydWtTUnhHYUUtQVIwZlNVcmxzTFEzLWJuU2NETkFVTDNrQ2EtR1hkWnAxM0JhZU44T2xCTVVXUWZyNTJHb1pMY1hMSjZZN3E1NDhJbXJ6MWJi?oc=5",
+     "time": "2026-10-20T09:16:28+00:00"
     }
    ],
    "brief": null
