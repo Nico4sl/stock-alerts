@@ -1,46 +1,121 @@
 {
  "date": "2026-10-20",
  "threshold": 3.0,
- "updated": "2026-10-20T14:02:02+00:00",
+ "updated": "2026-10-20T14:27:13+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 767.92,
-   "change_pct": 0.19
+   "price": 771.43,
+   "change_pct": 0.65
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 716.59,
-   "change_pct": -0.25
+   "price": 721.25,
+   "change_pct": 0.4
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 80.04,
-   "change_pct": 0.73
+   "price": 80.28,
+   "change_pct": 1.03
   }
  },
  "movers": [
   {
+   "symbol": "AXON",
+   "name": "Axon",
+   "list": "watchlist",
+   "price": 398.62,
+   "prev_close": 383.09,
+   "change_pct": 4.1,
+   "trigger_change": 4.1,
+   "peak_change": 4.1,
+   "first_seen": "2026-10-20T14:27:13+00:00",
+   "sector": {
+    "etf": "XLI",
+    "name": "Industrials",
+    "price": 167.67,
+    "change_pct": 0.59
+   },
+   "chart": {
+    "ema8": -1.1,
+    "ema21": -5.9,
+    "sma50": -19.5,
+    "sma200": -18.1,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Piper Sandler cuts Axon Enterprise stock price target on valuation By Investing.com",
+     "publisher": "Investing.com Canada",
+     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQVFlCODVZZzFzTjZQbTlPWWREMDlXd1dwZ191MzQ5RWNrdlRWd3hMS0VsTS1EcjcyTHljcFFQVHh5dkRwVGhvaTRMbGtyZ1A1WlZlNloybDcwVC05M2s5dzQ1Zzh5N0ZBczRYRHJ1UDZCeFM2bjc4SFc2U0RsaUJiSS1ramRQNnpLYXd4UURGZlJfVkY5OUlDTFBGUTU5U0xxYWFJQlZma0tMQnp4eGVsbEVuSWxydlVXY05Id0V6Rm1yaUxIM3c?oc=5",
+     "time": "2026-10-20T14:02:53+00:00"
+    },
+    {
+     "title": "Has Buying Axon Stock\u2019s Dips Paid Off?",
+     "publisher": "Trefis",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNb1N2N3B1ZVBTR1Q5bFR6QWU1dHJlMERQbE11R3pjczdVS1Q4Y2JOY2Y2WTY5U1ljN1dyVFFrUWJWSWcwX1FJWk9ENk9JaW9RbWNBTmJuVExZQWpua2E4d1ZEbVNJZkpsRHo5ZU9DcmM3WVpidzlMZ2R6ZXhNYzdkQXJ2N2NqVDNpN0ZoMXRBcXMweUx2YUJEMkU4T0NPUQ?oc=5",
+     "time": "2026-10-20T12:07:10+00:00"
+    },
+    {
+     "title": "Axon Enterprise, Inc $AXON Stock: Sumitomo Mitsui DS Asset Management Company Ltd Boosts Stake",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOVVI1WjVxUXZGYno1WkhiODJKcnh0RXhIemZZcVRJQ1ZaZTZ5NTJWdkVDb1l6WlI0U2hMY3gzQVplWHB2aTNoWmlTQ0xtOW9iQU5jeWZBaUU0cTJJVnQ5Mm5jOE1BTlFiZVFua0VHT1Jxb3NwSzZZQ0w1cUtIZGtXS2lqTmhDeXp2T2J0MjZWdlRKUWkySmV4SGxnWDNTWVlJQ1ctT2JWbXJhcW5zbnpVTDF0SVFnSm80VVdINFVnSWphS096TDNnMldGYUxsNmVIOTlJa3lnSzhDcnN0dDQ2dlN3aW5KMVk?oc=5",
+     "time": "2026-10-20T11:54:06+00:00"
+    },
+    {
+     "title": "Axon Enterprise, Inc $AXON Stock Bought by Teamwork Financial Advisors LLC",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNa3VlQkFIY280MnJFWndMUUxLU2ctNUVrdHcyVzNJNVBIdlAwT0Y2d3RUdmFyOWNCS0N1ZzZ6XzNtODlmOHVHZi1EdDFEVi15dllpTUx2MG5FcHU4bE9xNUJvZWw4NUZEN2pCWjFEbG9vQ1NLblczZ1JOQ1JBcWN1Z1piUFA2dS1oanM0OGxfTGNCM0pMLThTNDMwTDJTZUFSSjR4Y0ZyME5zTHo2YlUyNjRrZ2x1SHZmMWkyOUJhVkR6U0FvejRTZ0psSjZMdw?oc=5",
+     "time": "2026-10-19T23:34:50+00:00"
+    },
+    {
+     "title": "Axon Enterprise, Inc $AXON Stock Acquired by Foguth Wealth Management LLC.",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNZ0tCVlh5OE9IZzlFa0p4MTRXNXQ3S0lSOXNCRWZ2Y0J3SloyaXRiQm41TjdSa0NOc2RIeFVqMHBiclVoNE4yX2t3UmxGZjMzZGpYTm1OYVhBZ2dvYTB3QkgzY2JVSjUxamRjQkhHT3J1WG1XcWJlZ21CeTN5dmlvR0FpWnlrSlczLVB2QkcxaUxoTDVTS20xdjRuTFhHMWN4eTNaYUExWFBFRWczTHNqNWlVYnlTUF9zNjJlM0lqaFB1TEt3MXI4bmY4VGw?oc=5",
+     "time": "2026-10-19T17:22:18+00:00"
+    },
+    {
+     "title": "Earnings Preview: What to Expect From Axon Enterprise\u2019s Report",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOekZrbHVLMzlGcURGbkc5cWdvb1lOTHZ0ZGc0NWZKaGVBdFZlRUIxT2s5bWtsaUVrdU1Yd3pDOUhUeFpDTWE2bEJpc0hmNnlQM2J4b0trb0NkSjV2RXlaOTNXazd6MDVMRlZVaHI3Qno5M0gtZmtNU1FqRDdWd3pndnFQM0VSbk50SlMtVE5VTWdZbTdpT0lhMWZPTnZFcDNLdUtLN1VOQQ?oc=5",
+     "time": "2026-10-19T13:19:09+00:00"
+    },
+    {
+     "title": "Axfood (OM:AXFO) Stock Could Be 44% Undervalued On Cash Flow",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQN1ZzUmJYcHJnZVB2UTZPOGhXaHRXUE9BbkdQUVYtaTZiN3ozSW1yakM4TXp3bnRXcHNaZmUwTFhKWEJ2X1BhUV9MaGZVX3E2b080MENaY3ZNZVpGRE9OMzZDVjZKd2ljZnV3elhJWjN5cVlGMldNSlU5M01TdWxsRG90WTlVeXFTejl3VWlMQzJwQlVsTGc?oc=5",
+     "time": "2026-10-19T02:10:00+00:00"
+    },
+    {
+     "title": "Axon Enterprise, Inc. (AXON) stock price, news, quote and history",
+     "publisher": "Yahoo Finance Australia",
+     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9lMWxlTzJWNWE1OURwblhLdDZyV0t0LUo4VHpza3RpbHc0R3Racks5NFhiMHBXN0p0V0NTdVdmTEltTmt0SzExUEpSRG1CV2cxNGc?oc=5",
+     "time": "2026-10-18T17:38:21+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
    "symbol": "META",
    "name": "Meta",
    "list": "portfolio",
-   "price": 684.21,
+   "price": 695.32,
    "prev_close": 705.44,
-   "change_pct": -3.0,
+   "change_pct": -1.4,
    "trigger_change": -3.1,
    "peak_change": -3.1,
    "first_seen": "2026-10-20T13:56:59+00:00",
    "sector": {
     "etf": "XLC",
     "name": "Communication",
-    "price": 110.12,
-    "change_pct": 0.03
+    "price": 110.76,
+    "change_pct": 0.61
    },
    "chart": {
-    "ema8": -4.5,
-    "ema21": -4.2,
-    "sma50": 3.8,
-    "sma200": 8.2,
+    "ema8": -3.2,
+    "ema21": -2.7,
+    "sma50": 5.4,
+    "sma200": 9.9,
     "momentum": true
    },
    "headlines": [
@@ -99,23 +174,23 @@
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 165.44,
+   "price": 171.68,
    "prev_close": 170.24,
-   "change_pct": -2.8,
+   "change_pct": 0.8,
    "trigger_change": -3.1,
    "peak_change": -3.1,
    "first_seen": "2026-10-20T13:56:59+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 106.6,
-    "change_pct": 0.58
+    "price": 107.04,
+    "change_pct": 0.99
    },
    "chart": {
-    "ema8": -11.3,
-    "ema21": -19.9,
-    "sma50": -25.5,
-    "sma200": -5.4,
+    "ema8": -8.6,
+    "ema21": -17.1,
+    "sma50": -22.7,
+    "sma200": -1.8,
     "momentum": false
    },
    "headlines": [
