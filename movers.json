@@ -1,22 +1,22 @@
 {
  "date": "2026-10-20",
  "threshold": 3.0,
- "updated": "2026-10-20T14:42:21+00:00",
+ "updated": "2026-10-20T15:02:29+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 771.59,
-   "change_pct": 0.67
+   "price": 771.35,
+   "change_pct": 0.64
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 721.47,
-   "change_pct": 0.43
+   "price": 721.27,
+   "change_pct": 0.41
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 80.25,
-   "change_pct": 1.0
+   "price": 80.19,
+   "change_pct": 0.92
   }
  },
  "movers": [
@@ -24,26 +24,32 @@
    "symbol": "SOFI",
    "name": "SoFi",
    "list": "portfolio",
-   "price": 14.96,
+   "price": 14.91,
    "prev_close": 14.3,
-   "change_pct": 4.6,
+   "change_pct": 4.3,
    "trigger_change": 4.4,
-   "peak_change": 4.6,
+   "peak_change": 4.7,
    "first_seen": "2026-10-20T14:32:16+00:00",
    "sector": {
     "etf": "XLF",
     "name": "Financials",
-    "price": 55.92,
-    "change_pct": 1.56
+    "price": 55.81,
+    "change_pct": 1.37
    },
    "chart": {
-    "ema8": 0.2,
-    "ema21": -4.0,
-    "sma50": -11.8,
-    "sma200": -18.0,
+    "ema8": -0.0,
+    "ema21": -4.3,
+    "sma50": -12.0,
+    "sma200": -18.3,
     "momentum": false
    },
    "headlines": [
+    {
+     "title": "Multicoin Just Made HYPE Its Largest Hedge Fund Holding. Is Hyperliquid a Buy After a 14% Monthly Drop?",
+     "publisher": "AOL.com",
+     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNT0tfLUZ5NTlFYW83ZFowTWcyNWtfd3NTOXlIY0tGWW5YX0xHcjBCOUVsejVpd0x5UHk2TDN5dzhxcExCSG5EalBQMzhUdnhMYTBUUUlsT0txS0NJcTJaWFNQVEkwRnFlN2UzZFZFTG9fS29SSUtHcUoyOTk3dm4xcWJn?oc=5",
+     "time": "2026-10-20T14:30:50+00:00"
+    },
     {
      "title": "SoFi Technologies shares may move 8.2% on earnings release By Investing.com",
      "publisher": "Investing.com UK",
@@ -85,36 +91,30 @@
      "publisher": "AOL.com",
      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPWmE2cHhaRWNkeGNMTzhnamhSanUwbzBCM0tyZlIzTUJjRUUyX1RLLWlzeHRTMnRrWW1XV2ZfQ1U1NFY4TlJ2UTZHb0Z5RjBRMWdtVzA3SXlmMlNkN0xHTVdnSFUtWVBfRS1hNkRqVk9YZkd3d01FcUxBX2NiTjlGRFpB?oc=5",
      "time": "2026-10-20T12:31:43+00:00"
-    },
-    {
-     "title": "Benchmark upgrades SoFi Technologies stock to Strong Buy",
-     "publisher": "ad-hoc-news.de",
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcHhkcmp3SXdoLUdwNFVIV3ljMkhUWWF2c1U0REJMd0dRNjhqUVFhVVJPT3NuaTRNV1pxWXBDNUx4S2VkV2hIWnlyd2JtNGtPSTA3WUJKMENHMzVwZmJHUEI2ZG9nNTlKMHV5aXN0cXA3QXdYRHhEX3haWk9EelpWZDF3R0gtd2szam0teUVpSHVPRzlzY21JSXJqSWhBYWRCOEtoWHBfZFJ4T3picG9EMjliWDd1Zw?oc=5",
-     "time": "2026-10-20T12:26:29+00:00"
     }
    ],
-   "brief": null
+   "brief": "2026-10-20-SOFI"
   },
   {
    "symbol": "AXON",
    "name": "Axon",
    "list": "watchlist",
-   "price": 399.14,
+   "price": 399.25,
    "prev_close": 383.09,
    "change_pct": 4.2,
    "trigger_change": 4.1,
-   "peak_change": 4.3,
+   "peak_change": 4.4,
    "first_seen": "2026-10-20T14:27:13+00:00",
    "sector": {
     "etf": "XLI",
     "name": "Industrials",
-    "price": 167.87,
-    "change_pct": 0.71
+    "price": 167.68,
+    "change_pct": 0.6
    },
    "chart": {
-    "ema8": -1.0,
+    "ema8": -0.9,
     "ema21": -5.8,
-    "sma50": -19.4,
+    "sma50": -19.3,
     "sma200": -18.0,
     "momentum": false
    },
@@ -124,6 +124,12 @@
      "publisher": "Investing.com Canada",
      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQVFlCODVZZzFzTjZQbTlPWWREMDlXd1dwZ191MzQ5RWNrdlRWd3hMS0VsTS1EcjcyTHljcFFQVHh5dkRwVGhvaTRMbGtyZ1A1WlZlNloybDcwVC05M2s5dzQ1Zzh5N0ZBczRYRHJ1UDZCeFM2bjc4SFc2U0RsaUJiSS1ramRQNnpLYXd4UURGZlJfVkY5OUlDTFBGUTU5U0xxYWFJQlZma0tMQnp4eGVsbEVuSWxydlVXY05Id0V6Rm1yaUxIM3c?oc=5",
      "time": "2026-10-20T14:02:53+00:00"
+    },
+    {
+     "title": "Axon Enterprise (NASDAQ:AXON) Stock Gets Price Target Reduction from Piper Sandler",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNek5fU1N2Q3BTckdTVUhaQnY4R0tPRExHUGlkMmZLZU9TQXIzR2tYNXNJZ3NZRDQ2WnNIV0VHekloZWl1QWdtNk5JenI0VUtHQmFpOFkya1QtSHg3NFpjWlVhRHd0d0d4bXlsWExJVjdJWE1FUGpMOFVfUFZwaWhHblExNHNtR2dwbFpSLVNmWlZlNGdsX0JHM3ItSVR6Rlp5VXY3N2NxdU0xeHd3YmExN0RybEF5TENlcUd6dW9HYzNjX0NjbUsxUi02RjAyVEkycGoxcWR3TFctZw?oc=5",
+     "time": "2026-10-20T13:50:56+00:00"
     },
     {
      "title": "Has Buying Axon Stock\u2019s Dips Paid Off?",
@@ -160,37 +166,106 @@
      "publisher": "Yahoo Finance",
      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQN1ZzUmJYcHJnZVB2UTZPOGhXaHRXUE9BbkdQUVYtaTZiN3ozSW1yakM4TXp3bnRXcHNaZmUwTFhKWEJ2X1BhUV9MaGZVX3E2b080MENaY3ZNZVpGRE9OMzZDVjZKd2ljZnV3elhJWjN5cVlGMldNSlU5M01TdWxsRG90WTlVeXFTejl3VWlMQzJwQlVsTGc?oc=5",
      "time": "2026-10-19T02:10:00+00:00"
-    },
-    {
-     "title": "Axon Enterprise, Inc. (AXON) stock price, news, quote and history",
-     "publisher": "Yahoo Finance Australia",
-     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9lMWxlTzJWNWE1OURwblhLdDZyV0t0LUo4VHpza3RpbHc0R3Racks5NFhiMHBXN0p0V0NTdVdmTEltTmt0SzExUEpSRG1CV2cxNGc?oc=5",
-     "time": "2026-10-18T17:38:21+00:00"
     }
    ],
-   "brief": null
+   "brief": "2026-10-20-AXON"
+  },
+  {
+   "symbol": "META",
+   "name": "Meta",
+   "list": "portfolio",
+   "price": 694.6,
+   "prev_close": 705.44,
+   "change_pct": -1.5,
+   "trigger_change": -3.1,
+   "peak_change": -3.1,
+   "first_seen": "2026-10-20T13:56:59+00:00",
+   "sector": {
+    "etf": "XLC",
+    "name": "Communication",
+    "price": 110.62,
+    "change_pct": 0.49
+   },
+   "chart": {
+    "ema8": -3.3,
+    "ema21": -2.8,
+    "sma50": 5.3,
+    "sma200": 9.8,
+    "momentum": true
+   },
+   "headlines": [
+    {
+     "title": "Will Meta stock hold above $670.39 support amid seller pressure and flat price action?",
+     "publisher": "Traders Union",
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxONFB5S3RCd3MzaEVWTXdnRlZVS3Q5SENHZnVjdF9KTFJ4RllXdnN1NFZENVhmYUk0elhsQThaU01BVDdXRjhDcTM5Tm9QVjRyeGdLekl1WDRRTzJhTllmREhBSFJtY25vVUdHQTgzUHVQcjFhOUt5cDVXTEdZQ0w0VV9XYTJZT1lPRGtFX18ybw?oc=5",
+     "time": "2026-10-20T14:24:35+00:00"
+    },
+    {
+     "title": "Will Higher Ad Revenues Aid Meta Platforms Stock in Q3 Earnings?",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNSS1IR0hGR085c3Vfa3NfZXVxQUEzUG1JVDJFNG0xRnhPSmhaSl8wZ1BwZHRCTUhZNURSRVVMV29zNVlrU2lfSUtZYVRqLWNoUVNTLUY4ekNCSXlUWm1TVFBGMlVrY2RWOXhvaEpxcGpBR1VpVXVfc3pEMEMxd1JYbGhZQkJZMjl6SmdXejhNQkVwSldUZndNZWNYNA?oc=5",
+     "time": "2026-10-20T13:38:00+00:00"
+    },
+    {
+     "title": "Meta (META) Maintains Strong Buy Rating with $860 Price Target",
+     "publisher": "GuruFocus",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQTmRSWjZsQnlXMklkWlJ5RjJRTzhzQWxRN1pVbmotZHFXeUs0ZldlVDJZY0F2TjhscG10Y3IzcVVOSkVKYm1rR3BOVjFSZnNHZXRtVU9XbEUzSVpVRHQ1em1RYmlHUmI3RVdWX2dkS0pnVTZoV21Ud0tZZ2FlRUhCYlk5Y0ladFc0cV9YTmxJZzF2UTJWNFlBNG1la3dxeDg?oc=5",
+     "time": "2026-10-20T13:30:00+00:00"
+    },
+    {
+     "title": "Meta Q3 Earnings Preview: Wall Street Eyes Muse AI Monetization As Mark Zuckerberg's AI Bet Faces Its Next Test",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPcXFXOUljSFN4ZjdHUlFDMkNtNUZjdmItTnlyTVZRdjVRWG9tall6Y1NJRHFtdmJpT19Kd3BBT190WkJReElmLWc0LUlsZDBJbVZmSXpab2NFX2pRSDVhNDBxV3AtSDFRNWk2NFh4NVJhemRUbXJkZWNPUnNnNkpEUURmTERaQVZxdmFhc3RmYVlRb0VvTVZzN1RNWHNjTlVpOG5sRlRWZU9CeUxUekg3UU9iWFg3V3lvalB1RERBN0JNQ3pOSDRjTEZiemZ1X25UWXdNMEpqSll6VjFPd3pZWjZJR2ZXZlR3Vk9zRWxUVmZmd01HQkx2cEdB?oc=5",
+     "time": "2026-10-20T12:16:37+00:00"
+    },
+    {
+     "title": "Meta Platforms (NASDAQ:META) Stock Keeps \"Buy\" Rating at Rosenblatt Securities",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOdk85dGRteUFDRFllUnp3dlAtY0wxbUs1QkxCY1dYVTdCbVlUeHBScUNqbXdUd1lUczFYRl9oVzN5RWxuUklUVHE3VWt2cGFfM3pQVWFuUkdudWtGZFRaRTBHWFoxRXdhcEpjTzFyYzlTaG8zR01YcXd4Ri1XYlY3a2tNLTM4aFFYVEVaWFBrVVd1b2tfWV9laWd2MEtnczgzTmVudHNNNG9heEstVlF1eVlxaG51U2FrNDhHb211Szc3THR5a2JkamJMZ0pvTFd4SGc?oc=5",
+     "time": "2026-10-20T12:09:58+00:00"
+    },
+    {
+     "title": "AI Trade Rotation Favors Mag 7 Over Neoclouds, Analysts Say Ahead Of SPCX, META, NFLX Results",
+     "publisher": "Stocktwits",
+     "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOSERMdXd2cEtLdGZ1QmlHU20ydFZXRWM1SGo4YkZpNUhSVWRHX0NyMnh0eDlpZFpOQzNycmVOSHFfakxyMk5kSVdmZlVJeS1iVVhmdWltV2dpTjhLeHNHSlJMM21fWkxFaU96RzFSMVVrdHluVWFKV3RHcG44bjZ5QzRNYTlkRl9zYjhseUtRM3AwZUFQczM3VTQ2M2ZXTzFfUTJvX2xHbzRwcHE4RTlvbTNwTFp5ZnJSRk5kTWNRU084N1FKNGhDV2xPT1plSFR3WC12Qng5QWt3TVREalFZenJweWhzT2c4ZUE?oc=5",
+     "time": "2026-10-20T11:44:03+00:00"
+    },
+    {
+     "title": "Raymond James reiterates Strong Buy on Meta stock, $860 target By Investing.com",
+     "publisher": "Investing.com India",
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPblN3QVRUcFlWZGdPR1NhTHNzblAzRXZZOEJmVlBYN1ZHVUtZd2tyUl9hcFQzSWtSNjhMMXBVS1M3ZDROaThpN0VZTlBJTEJTLTdvSTNLcWl1UkRXcjdNaE1NbzVZT1cxcngtN3dENDloV0hIZnVZbDhCVWNKR3R4ZzZOb0FtTmdyclZXNkdmY1ZRR0NDb2xJT1AxeHpWdzN1dHNxOVhfVlhvdlVjTERaakVsQVAwbENQS1F6RTJB?oc=5",
+     "time": "2026-10-20T11:11:41+00:00"
+    },
+    {
+     "title": "AI chip stocks bounce back as hyperscaler earnings loom, META equity raise in focus",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPVDBqcUlXdU5sa0R5OWFJdnJNSmUzOW9ONWIxejVfTnJZTkxPbjlsV3l1TER0Ti1neGwwT2x1V2VyQnF2RDlaUkQyOU4zUkxXNXBjUWhvcU9LOXFHUnJUSnVJOHBNd2VtcUxIWjdZd3c0RlUwdE03QVFRZl9JVjBWT25NN2xzV0tvTldtc3dkdk04VXZ4MzFrMERULS1PY1g0ZWJEZ05WQ0tNRy0xTk5zVVJaSE1KeWVzeEcwWlVVb3R1LXBo?oc=5",
+     "time": "2026-10-20T11:00:00+00:00"
+    }
+   ],
+   "brief": "2026-10-20-META"
   },
   {
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 173.63,
+   "price": 172.58,
    "prev_close": 170.24,
-   "change_pct": 2.0,
+   "change_pct": 1.4,
    "trigger_change": -3.1,
    "peak_change": -3.1,
    "first_seen": "2026-10-20T13:56:59+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 107.03,
-    "change_pct": 0.98
+    "price": 107.05,
+    "change_pct": 1.0
    },
    "chart": {
-    "ema8": -7.8,
-    "ema21": -16.2,
-    "sma50": -21.9,
-    "sma200": -0.7,
+    "ema8": -8.2,
+    "ema21": -16.7,
+    "sma50": -22.3,
+    "sma200": -1.3,
     "momentum": false
    },
    "headlines": [
@@ -243,82 +318,7 @@
      "time": "2026-10-20T09:16:28+00:00"
     }
    ],
-   "brief": null
-  },
-  {
-   "symbol": "META",
-   "name": "Meta",
-   "list": "portfolio",
-   "price": 693.0,
-   "prev_close": 705.44,
-   "change_pct": -1.8,
-   "trigger_change": -3.1,
-   "peak_change": -3.1,
-   "first_seen": "2026-10-20T13:56:59+00:00",
-   "sector": {
-    "etf": "XLC",
-    "name": "Communication",
-    "price": 110.55,
-    "change_pct": 0.42
-   },
-   "chart": {
-    "ema8": -3.5,
-    "ema21": -3.0,
-    "sma50": 5.1,
-    "sma200": 9.6,
-    "momentum": true
-   },
-   "headlines": [
-    {
-     "title": "Meta (META) Maintains Strong Buy Rating with $860 Price Target",
-     "publisher": "GuruFocus",
-     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQTmRSWjZsQnlXMklkWlJ5RjJRTzhzQWxRN1pVbmotZHFXeUs0ZldlVDJZY0F2TjhscG10Y3IzcVVOSkVKYm1rR3BOVjFSZnNHZXRtVU9XbEUzSVpVRHQ1em1RYmlHUmI3RVdWX2dkS0pnVTZoV21Ud0tZZ2FlRUhCYlk5Y0ladFc0cV9YTmxJZzF2UTJWNFlBNG1la3dxeDg?oc=5",
-     "time": "2026-10-20T13:30:00+00:00"
-    },
-    {
-     "title": "Meta is back on offense \u2014 and its next move could signal higher AI spending across Big Tech",
-     "publisher": "MarketWatch",
-     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPcU90ZDZnWmtVZEhOWUNtY2txM05UajhKVW41c0pQUmU0Q2VZaEx0SDV3Nlk1ODRwWElXMnJSeDhyeEV2azRCRHJJUmdEWllrZVotcW93ODRic3hZcUhMM0tIOWFWS2hWX2RSMFpWTldZVXlXUUhOV3FFSHdGQXVRV1dwcVgxejJta3NZY0F6MUhaNXpQczVRazhRbm5Dd2lpSll0UE9la2xFZk55UHBMTjUtYV82TlZ3WmtnQ1VQV05DOUNLcXFJUFlRcTQ?oc=5",
-     "time": "2026-10-20T12:56:00+00:00"
-    },
-    {
-     "title": "Meta Q3 Earnings Preview: Wall Street Eyes Muse AI Monetization As Mark Zuckerberg's AI Bet Faces Its Next Test",
-     "publisher": "Benzinga",
-     "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPcXFXOUljSFN4ZjdHUlFDMkNtNUZjdmItTnlyTVZRdjVRWG9tall6Y1NJRHFtdmJpT19Kd3BBT190WkJReElmLWc0LUlsZDBJbVZmSXpab2NFX2pRSDVhNDBxV3AtSDFRNWk2NFh4NVJhemRUbXJkZWNPUnNnNkpEUURmTERaQVZxdmFhc3RmYVlRb0VvTVZzN1RNWHNjTlVpOG5sRlRWZU9CeUxUekg3UU9iWFg3V3lvalB1RERBN0JNQ3pOSDRjTEZiemZ1X25UWXdNMEpqSll6VjFPd3pZWjZJR2ZXZlR3Vk9zRWxUVmZmd01HQkx2cEdB?oc=5",
-     "time": "2026-10-20T12:16:37+00:00"
-    },
-    {
-     "title": "Meta Platforms (NASDAQ:META) Stock Keeps \"Buy\" Rating at Rosenblatt Securities",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOdk85dGRteUFDRFllUnp3dlAtY0wxbUs1QkxCY1dYVTdCbVlUeHBScUNqbXdUd1lUczFYRl9oVzN5RWxuUklUVHE3VWt2cGFfM3pQVWFuUkdudWtGZFRaRTBHWFoxRXdhcEpjTzFyYzlTaG8zR01YcXd4Ri1XYlY3a2tNLTM4aFFYVEVaWFBrVVd1b2tfWV9laWd2MEtnczgzTmVudHNNNG9heEstVlF1eVlxaG51U2FrNDhHb211Szc3THR5a2JkamJMZ0pvTFd4SGc?oc=5",
-     "time": "2026-10-20T12:09:58+00:00"
-    },
-    {
-     "title": "AI Trade Rotation Favors Mag 7 Over Neoclouds, Analysts Say Ahead Of SPCX, META, NFLX Results",
-     "publisher": "Stocktwits",
-     "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOSERMdXd2cEtLdGZ1QmlHU20ydFZXRWM1SGo4YkZpNUhSVWRHX0NyMnh0eDlpZFpOQzNycmVOSHFfakxyMk5kSVdmZlVJeS1iVVhmdWltV2dpTjhLeHNHSlJMM21fWkxFaU96RzFSMVVrdHluVWFKV3RHcG44bjZ5QzRNYTlkRl9zYjhseUtRM3AwZUFQczM3VTQ2M2ZXTzFfUTJvX2xHbzRwcHE4RTlvbTNwTFp5ZnJSRk5kTWNRU084N1FKNGhDV2xPT1plSFR3WC12Qng5QWt3TVREalFZenJweWhzT2c4ZUE?oc=5",
-     "time": "2026-10-20T11:44:03+00:00"
-    },
-    {
-     "title": "Raymond James reiterates Strong Buy on Meta stock, $860 target By Investing.com",
-     "publisher": "Investing.com India",
-     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPblN3QVRUcFlWZGdPR1NhTHNzblAzRXZZOEJmVlBYN1ZHVUtZd2tyUl9hcFQzSWtSNjhMMXBVS1M3ZDROaThpN0VZTlBJTEJTLTdvSTNLcWl1UkRXcjdNaE1NbzVZT1cxcngtN3dENDloV0hIZnVZbDhCVWNKR3R4ZzZOb0FtTmdyclZXNkdmY1ZRR0NDb2xJT1AxeHpWdzN1dHNxOVhfVlhvdlVjTERaakVsQVAwbENQS1F6RTJB?oc=5",
-     "time": "2026-10-20T11:11:41+00:00"
-    },
-    {
-     "title": "AI chip stocks bounce back as hyperscaler earnings loom, META equity raise in focus",
-     "publisher": "24/7 Wall St.",
-     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPVDBqcUlXdU5sa0R5OWFJdnJNSmUzOW9ONWIxejVfTnJZTkxPbjlsV3l1TER0Ti1neGwwT2x1V2VyQnF2RDlaUkQyOU4zUkxXNXBjUWhvcU9LOXFHUnJUSnVJOHBNd2VtcUxIWjdZd3c0RlUwdE03QVFRZl9JVjBWT25NN2xzV0tvTldtc3dkdk04VXZ4MzFrMERULS1PY1g0ZWJEZ05WQ0tNRy0xTk5zVVJaSE1KeWVzeEcwWlVVb3R1LXBo?oc=5",
-     "time": "2026-10-20T11:00:00+00:00"
-    },
-    {
-     "title": "Dear Meta Stock Fans, Mark Your Calendar for October 21",
-     "publisher": "Barchart.com",
-     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZnZFRGg0M2NKRzZGQTJMNnFuNzVoakVJU1AtWVhmQnY3M090QXllQmhBbnlUdDRYVXlacHdlTjB0eS1SRFc3LWNlR1otUDlORG16OGVjaC1tZ1pQNWhTWXlJSmkwbnpxTmV1SGdwZlFhRFlCMTByQkhoRVV4NnBBdG1DMFpPTVBVZUJ6emNUZFNkWmpURGJaQlRuWHNQLWs?oc=5",
-     "time": "2026-10-20T10:39:16+00:00"
-    }
-   ],
-   "brief": null
+   "brief": "2026-10-20-NBIS"
   }
  ]
 }
