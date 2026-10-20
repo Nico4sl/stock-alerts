@@ -676,10 +676,11 @@
     }
 
     // manual levels as price lines (all views)
-    for (const m of levels) {
+    const levelLines = levels.map((m) => {
       const t = LEVEL_TYPES[m.type] || LEVEL_TYPES.support;
-      candles.createPriceLine({ price: +m.price, color: t.color, lineWidth: 1, lineStyle: LWC.LineStyle.Dashed, axisLabelVisible: true, title: m.note ? m.note.slice(0, 14) : t.label });
-    }
+      return { price: +m.price, color: t.color, title: m.note ? m.note.slice(0, 14) : t.label,
+        line: candles.createPriceLine({ price: +m.price, color: t.color, lineWidth: 1, lineStyle: LWC.LineStyle.Dashed, axisLabelVisible: true, title: m.note ? m.note.slice(0, 14) : t.label }) };
+    });
 
     const overlay = new Overlay();
     candles.attachPrimitive(overlay);
@@ -698,7 +699,7 @@
       below: g.open_top <= row.price,
     }));
 
-    S.chart = { chart, candles, vol, lines, overlay, zoneBox, gaps, d, row, view: vname, n };
+    S.chart = { chart, candles, vol, lines, overlay, zoneBox, levelLines, gaps, d, row, view: vname, n };
 
     // legend + chart picking
     const legend = $("#legend");
@@ -772,72 +773,127 @@
 
   // One taller price-axis label for the zone the price is closest to: the line's value in the
   // middle (at the line's height), the +band edge above it and the −band edge below it – the same
-  // order as on the chart. The other lines keep their normal one-value label.
+  // order as on the chart. While the box is shown, the other axis labels (other lines, your
+  // levels, the current price) are drawn here too, *after* the box, so where they overlap the
+  // smaller labels always stay visible on top of the bigger box.
   class ZoneBox {
     constructor() {
       this.box = null;
+      this.labels = [];
       this._views = [{ zOrder: () => "top", renderer: () => ({ draw: (t) => this.draw(t) }) }];
+      this._pane = [{ zOrder: () => "top", renderer: () => ({ draw: (t) => this.drawTitles(t) }) }];
     }
     attached({ series, requestUpdate }) { this.series = series; this.req = requestUpdate; }
     detached() {}
     updateAllViews() {}
-    paneViews() { return []; }
+    paneViews() { return this._pane; }
     priceAxisPaneViews() { return this._views; }
-    set(box) { this.box = box; this.req && this.req(); }
+    // names of your levels ("Support", or your note) at the right edge of the chart, as the
+    // library shows them when it draws the labels itself
+    drawTitles(target) {
+      if (!this.box || !this.series) return;
+      target.useBitmapCoordinateSpace(({ context: ctx, bitmapSize, horizontalPixelRatio: hr, verticalPixelRatio: vr }) => {
+        ctx.save();
+        ctx.textBaseline = "middle";
+        ctx.font = `400 ${Math.round(11 * vr)}px -apple-system, Roboto, system-ui, sans-serif`;
+        for (const l of this.labels) {
+          if (!l.title) continue;
+          const ly = this.series.priceToCoordinate(l.val);
+          if (ly === null) continue;
+          const tw = ctx.measureText(l.title).width, pad = 5 * hr, h = 16;
+          const W = tw + pad * 2, X = bitmapSize.width - W, Y = Math.round((ly - h / 2) * vr);
+          ctx.fillStyle = l.color;
+          ctx.fillRect(X, Y, W, Math.round(h * vr));
+          ctx.fillStyle = textOn(l.color);
+          ctx.fillText(l.title, X + pad, Y + (h / 2) * vr);
+        }
+        ctx.restore();
+      });
+    }
+    set(box, labels) { this.box = box; this.labels = labels || []; this.req && this.req(); }
     draw(target) {
       const b = this.box;
       if (!b || !this.series) return;
       const y = this.series.priceToCoordinate(b.val);
-      if (y === null) return;
       target.useBitmapCoordinateSpace(({ context: ctx, bitmapSize, horizontalPixelRatio: hr, verticalPixelRatio: vr }) => {
-        const row = 11, h = row * 3 + 2;                     // css px – compact
-        const W = bitmapSize.width, H = Math.round(h * vr);
-        const Y = Math.round((y - h / 2) * vr);
-        const r = 3 * hr;
+        const W = bitmapSize.width, r = 3 * hr, x = Math.round(6 * hr);
+        const font = (wt, px) => `${wt} ${Math.round(px * vr)}px -apple-system, Roboto, system-ui, sans-serif`;
+        const rect = (Y, H, color) => {
+          ctx.fillStyle = color;
+          ctx.beginPath();
+          if (ctx.roundRect) ctx.roundRect(0, Y, W, H, [0, r, r, 0]); else ctx.rect(0, Y, W, H);
+          ctx.fill();
+        };
         ctx.save();
-        ctx.fillStyle = b.color;
-        ctx.beginPath();
-        if (ctx.roundRect) ctx.roundRect(0, Y, W, H, [0, r, r, 0]); else ctx.rect(0, Y, W, H);
-        ctx.fill();
-        // thin dividers between the three rows
-        ctx.fillStyle = "rgba(11,14,20,.25)";
-        ctx.fillRect(Math.round(4 * hr), Math.round(Y + (1 + row) * vr), W - Math.round(8 * hr), Math.max(1, Math.round(vr)));
-        ctx.fillRect(Math.round(4 * hr), Math.round(Y + (1 + row * 2) * vr), W - Math.round(8 * hr), Math.max(1, Math.round(vr)));
-        ctx.fillStyle = "#0b0e14";
         ctx.textBaseline = "middle";
         ctx.textAlign = "left";
-        const x = Math.round(6 * hr);
-        const font = (wt, px) => `${wt} ${Math.round(px * vr)}px -apple-system, Roboto, system-ui, sans-serif`;
-        ctx.font = font(400, 9);
-        ctx.fillText(b.upTxt, x, Y + (1 + row * 0.5) * vr);
-        ctx.font = font(700, 11);
-        ctx.fillText(b.valTxt, x, Y + (1 + row * 1.5) * vr);
-        ctx.font = font(400, 9);
-        ctx.fillText(b.dnTxt, x, Y + (1 + row * 2.5) * vr);
+        if (y !== null) {
+          const row = 11, h = row * 3 + 2;                   // css px – compact
+          const Y = Math.round((y - h / 2) * vr);
+          rect(Y, Math.round(h * vr), b.color);
+          ctx.fillStyle = textOn(b.color);
+          ctx.font = font(400, 9);
+          ctx.fillText(b.upTxt, x, Y + (1 + row * 0.5) * vr);
+          ctx.font = font(700, 11);
+          ctx.fillText(b.valTxt, x, Y + (1 + row * 1.5) * vr);
+          ctx.font = font(400, 9);
+          ctx.fillText(b.dnTxt, x, Y + (1 + row * 2.5) * vr);
+        }
+        // normal one-value labels on top (current price last, so it always wins)
+        for (const l of this.labels) {
+          const ly = this.series.priceToCoordinate(l.val);
+          if (ly === null) continue;
+          const h = 16, Y = Math.round((ly - h / 2) * vr);
+          rect(Y, Math.round(h * vr), l.color);
+          ctx.fillStyle = textOn(l.color);
+          ctx.font = font(400, 11);
+          ctx.fillText(l.txt, x, Y + (h / 2) * vr);
+        }
         ctx.restore();
       });
     }
   }
 
+  function textOn(hex) {             // dark text on light labels, white on dark ones
+    const n = parseInt(String(hex).slice(1, 7), 16);
+    const lum = 0.299 * ((n >> 16) & 255) + 0.587 * ((n >> 8) & 255) + 0.114 * (n & 255);
+    return lum > 150 ? "#0b0e14" : "#ffffff";
+  }
+
   function setZoneEdges(c, v, band) {
     const keys = VIEWS[v].lines;
-    for (const [key, s] of Object.entries(c.lines)) s.applyOptions({ lastValueVisible: true });
-    c.zoneBox.set(null);
-    if (!S.zones || !keys.length || !c.row?.price) return;
     const lastVal = (arr) => { for (let i = (arr || []).length - 1; i >= 0; i--) if (arr[i] !== null && arr[i] !== undefined) return arr[i]; return null; };
     let best = null;
-    for (const key of keys) {
-      const val = lastVal(c.d[key]);
-      if (val === null) continue;
-      const dist = Math.abs(c.row.price - val);
-      if (!best || dist < best.dist) best = { key, val, dist };
+    if (S.zones && keys.length && c.row?.price) {
+      for (const key of keys) {
+        const val = lastVal(c.d[key]);
+        if (val === null) continue;
+        const dist = Math.abs(c.row.price - val);
+        if (!best || dist < best.dist) best = { key, val, dist };
+      }
     }
-    if (!best) return;
-    c.lines[best.key].applyOptions({ lastValueVisible: false });   // the box replaces its label
+    const own = !!best;                      // while the box shows, we draw every axis label
+    for (const s of Object.values(c.lines)) s.applyOptions({ lastValueVisible: !own });
+    c.candles.applyOptions({ lastValueVisible: !own });
+    for (const l of c.levelLines || []) l.line.applyOptions({ axisLabelVisible: !own });
+    if (!own) { c.zoneBox.set(null); return; }
+
+    const dec = c.row.price >= 10 ? 2 : 4;
+    const txt = (x) => (+x).toFixed(dec);
+    const labels = [];
+    for (const key of keys) {
+      if (key === best.key) continue;
+      const val = lastVal(c.d[key]);
+      if (val !== null) labels.push({ val, color: COLORS[key], txt: txt(val) });
+    }
+    for (const l of c.levelLines || []) labels.push({ val: l.price, color: l.color, txt: txt(l.price), title: l.title });
+    const last = c.n - 1;
+    const pxColor = c.d.close_only ? "#e7eaf0" : (c.d.c[last] >= c.d.o[last] ? COLORS.up : COLORS.down);
+    labels.push({ val: c.d.c[last], color: pxColor, txt: txt(c.d.c[last]) });
     c.zoneBox.set({
       val: best.val, color: COLORS[best.key],
       upTxt: fmt(best.val * (1 + band / 100)), valTxt: fmt(best.val), dnTxt: fmt(best.val * (1 - band / 100)),
-    });
+    }, labels);
   }
 
   function setBars(bars) {
