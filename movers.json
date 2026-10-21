@@ -1,22 +1,22 @@
 {
  "date": "2026-10-21",
  "threshold": 3.0,
- "updated": "2026-10-21T14:12:13+00:00",
+ "updated": "2026-10-21T20:09:15+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 768.96,
-   "change_pct": -0.01
+   "price": 773.39,
+   "change_pct": 0.56
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 720.71,
-   "change_pct": 0.43
+   "price": 725.77,
+   "change_pct": 1.13
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 80.31,
-   "change_pct": 0.22
+   "price": 80.25,
+   "change_pct": 0.15
   }
  },
  "movers": [
@@ -24,101 +24,131 @@
    "symbol": "NFLX",
    "name": "Netflix",
    "list": "portfolio",
-   "price": 66.17,
+   "price": 65.02,
    "prev_close": 68.69,
-   "change_pct": -3.7,
+   "change_pct": -5.3,
    "trigger_change": -3.1,
-   "peak_change": -3.7,
+   "peak_change": -5.4,
    "first_seen": "2026-10-21T14:07:12+00:00",
    "sector": {
     "etf": "XLC",
     "name": "Communication",
-    "price": 108.86,
-    "change_pct": -1.21
+    "price": 108.97,
+    "change_pct": -1.11
    },
    "chart": {
-    "ema8": -4.4,
-    "ema21": -6.2,
-    "sma50": -11.4,
-    "sma200": -19.8,
+    "ema8": -5.7,
+    "ema21": -7.7,
+    "sma50": -12.9,
+    "sma200": -21.2,
     "momentum": false
    },
    "headlines": [
     {
-     "title": "Netflix Inc Stock (NFLX) Opened Down by 3.33% on Oct 21: Facts Behind the Movement",
-     "publisher": "TradingKey",
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNX0tBVWVkZUwyWHVvb2pjbU1VQ1pEN3ZyX1FCV0FzaENfTEZKWjBWdDlaLUFkTHN2akF1eElFMG1JNVVQNGNydUNsSFhXWEVyMHhBT2VnQUZWTVQ5RnVfME83RmVadlJRbm5sZ2lZcjVwVDhMbHRKdWtfMUhab0VXVE1IcnZYdi1KMEFZ?oc=5",
-     "time": "2026-10-21T13:47:21+00:00"
+     "title": "Why Is Netflix (NASDAQ:NFLX) Stock Falling 5% Despite Beating Earnings? US$300 Million Warning Hits Shares",
+     "publisher": "Stocks Down Under",
+     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPVlFzSUdPU2FNSFA2UlJDT2xBMDhPQ09qLXNEU01Kd3Q5ZG9DOUN0TXJMdDA0QklLajU1NTNnODF6ZERlcEVxVkdxM0VkYTRtRC13dVktdFV2TlNkVFJNcGJYbk9MZmEzR2NpN19uMHc2Zm9sV05EQ2sxXzlRNnpnWQ?oc=5",
+     "time": "2026-10-21T17:46:16+00:00"
     },
     {
-     "title": "Netflix (NASDAQ:NFLX) Stock Price Target Lowered at Guggenheim",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQVEtlRE5HTzFEOFlEdTZXOTVKejFTMTlBQWxxY3I2MzJnV1lBT0R3U0QxbGZ3cV9rXzdDeHA4aE1JQ20tcGs4Q3lZSlM3SXNlWUU3MENHR0tpbTdLWlhVclUyN1VqTzVRdi1zZDdSTjZxZEhkR0tKN01qcTE2RHBXZ1FsdUV6RVBFZUE3UHczTlgzZTJxTXVkakpqVFd1bVVzRmlYMTVNeDczTHRfYUNWTWViMXM2SlpJZ2FrNnJBbw?oc=5",
-     "time": "2026-10-21T12:51:56+00:00"
+     "title": "Is Netflix losing one of its longest-standing edge?",
+     "publisher": "Invezz",
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNMFV5bmw4U1E0U2ZJeVllWUJNdXJ0c1l4aVJZVG5KaE1OR3p1clE2bGxNR29pbTE3MVV2WlZzejBBb1ZkME04dzlZcmc3ekJRM2Z6MU5zLUxkNGVjemRCSVZQMDRNdmV0N29XNm01cG9kUzc4NUZ1NzdNWm8zS2lROTJaTFVCVmgwVUtnWlpZby0zeHc?oc=5",
+     "time": "2026-10-21T17:40:55+00:00"
     },
     {
-     "title": "Netflix (NASDAQ:NFLX) Stock Rating Reaffirmed as \"Market Perform\" by Citizens Jmp",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPYnBvOTVlV1d2ZzBYeUNaMEEyM002MFljUTgxOVNhb1JXSVRYSU5LcURtYXJDclRCUTJHSGhVUWJCSzhNN3d1VXVkVnNKdk0xY2JGNFFqODI0dEItRVFPaXhXTEVuSnBKT0h5SUxPZXhlWmxCWFNSSHVDVVVZQWVwcW9XaWUwVHpBUDBQckk3UzVOUno4a0xMV0Z5OENsZHlxOTNXQ3FFbmFaRlc2YlJwdGxvWXB4aHRybnRqTU45emdQTWJsOXgwcnVrb1JMSExDVElVSmZR?oc=5",
-     "time": "2026-10-21T12:51:56+00:00"
-    },
-    {
-     "title": "NFLX Stock Heads For 26-Month Low After Needham Downgrade, Wall Street Price Target Cuts \u2014 YouTube Threat Grows, Content Problem \u2018Seems Clear\u2019",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOSTNsWGs5VllLU09RdWlFcGkySkh6UTRaTUVCRFplcm5GamFZQnFhVFhvQnJzU3JMQkRFT3NuVjJCNThrX0s5X0pYeW9TT1p4RWNpUGtja0hNYy1nUXhUZjlCYklKN3RjNzhpS3NtN2F2dVVOY0R2OXhLNXF0UUp2VkNrdVVxMVVQeHR1cFdnOEx5Q2dn?oc=5",
-     "time": "2026-10-21T12:51:08+00:00"
-    },
-    {
-     "title": "Netflix Stock Sinks To 52-Week Low - Here's Why",
-     "publisher": "Benzinga",
-     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPOEdDM0lRcERUWnQ3Zi0xU192cXRTSUlfRnotLTRFSU1BTGZSa0R5bDQyUTBnaDRENkhpU2NtTmJ1LW9aZUVzWjVhYlNaU1FnMG0weDJFOTY0dWZKX3dBWnc5OGZlTmFURHhpZ09fcVBaMzRVbkVab1BEM1lZWjRGWGF4eWtvRUQxemwzdTNpaDBZMlJlcno4QVhPUElyWGtvYlV6Ny1EV3U?oc=5",
-     "time": "2026-10-21T12:12:46+00:00"
-    },
-    {
-     "title": "Bank of America Has Lowered Expectations for Netflix (NASDAQ:NFLX) Stock Price",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQLUhWNjJZcG1NaC05ZFB5eXBlX0lmU1VYRDY4MjgtOTZ3Zm9SUjV4TjQ0N3RvUm9XNzBuZE4ydUdTZ2tVRVFBRFNZUXN2YjJ2R2VhY29JOXBFWnplTHJjRy1pVVV4NEhyV1V6SWNvdFZkWlRuVlFPUWhFOGtkVHJqSnM2UGtOX003ckJoR2txdTlXM3V5R1hTbS1kNXRyRXJNVGUxNjNvZERYZjNJZEJIR1ZyTTllbHRVSk5yRVlSMU1YYjIyWU1NRWdKbGpVMzFWLW45MQ?oc=5",
-     "time": "2026-10-21T12:10:51+00:00"
-    },
-    {
-     "title": "What analysts are saying about Netflix after earnings (NFLX:NASDAQ)",
+     "title": "Netflix: The Revenue Slowdown Is Real, The Earnings Slowdown Isn't",
      "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQSDI1UzVYcG9uUVdjaTRaa2JSczVjelpndlo4WGdyWjd6eWVIaC01LTNHbWtlVXlwOFNYYXo0b1ljMFlEdUpuSXQ0aEEwTzF3ak5LbkFQNjVjeXlaZHBMWk5qcDdjVC1qcjVXTWVGOHVOX0pLMzJYV21oT3VJdHdKOU5aYnZaTFVPd2tNcGFMU1RwMmF1TVE?oc=5",
-     "time": "2026-10-21T11:32:25+00:00"
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPeTZxUTZ4Mk9SWC1Pbnh0c3ZYVnotUmJCWUtnQ1YwR21DdDFmdG0zNWhnOHpmanZUS1otajhnUGxFWlVmaXoxb01keFdCWEZ0NDVCeFNYT3ZFMzdwVjNXb0Q3NnBSVU42Ql9ySVlaYnlISFc1cFF1SlN5WDZUb0xlZXBtSGJoVXNQaG9sdlFySFhWdUt1LU02OEp0ZFBtYlJhc2dOa0EzRQ?oc=5",
+     "time": "2026-10-21T16:14:28+00:00"
     },
     {
-     "title": "ISRG, NFLX, ACN Stocks Slide Before The Bell: Why Intuitive Surgical, Netflix And Accenture Are Heading Lower",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPUkZ5UXVsZjJXaGVOT3Z1RkR2TmdDb2xMQ0JNNWJpY2dTX3ZtNFNRVUVVckVReTR2ZGhlUUFtSXl5UElKZE55dnFYdHplX3NkQXVOU1lQcVkySzYyWGo5UFFaaGJadGpjRGRENHVnd0MwVW9KN0dzcm9qdWloZmpVeXAtUXY5ZnJHUE1nX0pyTlptMDZvRFE?oc=5",
-     "time": "2026-10-21T11:24:17+00:00"
+     "title": "Netflix: The Market Has Lost Its Mind (NASDAQ:NFLX)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1BalZDNVE4WHV5cHZacVhVYVBLQ09UTDlreTdUanZJWWExR0pwdDNJcWVITkRKb09ydVpqSVNVNXU1TVhDMVh5bndIeVd3YWRwd21jbmlYa0xDU3lmS2Q3MlVXdjhzQzI0R05EOU9qVG4wNzVwdi1wa1pyREhhdw?oc=5",
+     "time": "2026-10-21T15:57:05+00:00"
+    },
+    {
+     "title": "Netflix (NASDAQ:NFLX) Stock Price Target Lowered at JPMorgan Chase & Co.",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOQjd4OUpISFIzdUZNUUVQY3JoZ2ZDcEdWZ3RGUS14SGNoVlBXdVNwcWJmc0taamtQXzR2Q3p1U1NhaWlsVzJmblNmTF80aWlHeXEyakNFRGZRXy11NDdTb243M2pVNDBSU0VhRDJZeExvQUZmVExJaU9KUlpzWXpycXpFWUN1M0dyOXJZb19xOVpDRzh6UmphTmRCSWJfZkRNTk1FUGUwclE1Mmh4UWRIY3p3UzhEMVZCYmhxaEFPR1BGMzBsMk1qcw?oc=5",
+     "time": "2026-10-21T15:50:46+00:00"
+    },
+    {
+     "title": "Buy the Post-Earnings Selloff in Netflix Stock (NFLX), Says BMO",
+     "publisher": "TipRanks",
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPNmRvYzRKTU5UVTJfMEhVajRnQmFVV295NG1TOE5FZ1dxNVcwZlloOFFlSmFfNkVDRTNvamIySFpoTzdnRHIzaUtPNmwtNDA2SnJJd0FXYXpUNmhlQ2gyQ1c1czFJOHNZYmk3MVYxX0x2cTZreFk4aTJtUEgyanpOWXVRU2YzVVdPQll0Vmx1VHVrOUxr?oc=5",
+     "time": "2026-10-21T15:46:46+00:00"
+    },
+    {
+     "title": "Netflix Stock Slammed With Price-Target Cuts After Q3 Report",
+     "publisher": "Investor's Business Daily",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNYXVfZkFlZnFVM1o1cDJXVkh2VlBsOWZ5cjhtUXRKMncxS2VuTWFoM1Z2b3dEUWg5LTFGNFNtdE13aFZFa2d5Uk9fSl9mMUpUbFhGZ3B0Qm04TlY0R1hpSmdGMEZmcEt6cHpKVkMtUmZ1Y2I2Qnp6c19ESTRjMGo4Unp3ZnB0ZV95N244WkEwNG1UZ1pERWRxQzlHMmR6NHJQdlFaU0VR?oc=5",
+     "time": "2026-10-21T15:23:00+00:00"
+    },
+    {
+     "title": "Wall Street Lunch: Netflix Sinks As Analysts Debate Competition And Growth Prospects",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNQjBkMkFWX2hpZEsxNElOTFI2UmRXVFJtUC1FVTlxR2Fkd05rTHBKMUkza1N1UjV6bjFQSHVQT05Kcmthd2JleUgzSkZGRWVnS3ZxWFRCdGRnODZMYzdHYnQxSE5HdjFzeVgxVElLSlQ2UVprUzNXUERSbTVyUVBtaGkxSVZLMVNrYkh3cnN2alNJbVFRM3RxMUxVZWZSRHJlU1Q2dmJtTVprVndSX011NjlJVm50aHdXZF9vbFRDZTFQdw?oc=5",
+     "time": "2026-10-21T15:20:34+00:00"
     }
    ],
-   "brief": null
+   "brief": "2026-10-21-NFLX"
   },
   {
    "symbol": "CRWD",
    "name": "CrowdStrike",
    "list": "portfolio",
-   "price": 234.3,
+   "price": 239.34,
    "prev_close": 227.37,
-   "change_pct": 3.0,
+   "change_pct": 5.3,
    "trigger_change": 3.0,
-   "peak_change": 3.0,
+   "peak_change": 6.8,
    "first_seen": "2026-10-21T14:12:13+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 108.17,
-    "change_pct": 1.16
+    "price": 108.82,
+    "change_pct": 1.77
    },
    "chart": {
-    "ema8": -2.5,
-    "ema21": -5.0,
-    "sma50": 0.2,
-    "sma200": 44.4,
+    "ema8": -0.8,
+    "ema21": -3.2,
+    "sma50": 2.4,
+    "sma200": 47.5,
     "momentum": false
    },
    "headlines": [
+    {
+     "title": "Top Midday Gainers",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPQzNKa1lsTmprS0cwT3dRQ3d1YTBXQXBBTVVwemY3SllxcERSeUFmdXY2VU1jbGcwRGd4bDh3eTBjdVU5VWNSV0tlT2xSYThBNThianJBVTBwejNrUUNKekFRR1ZwT2JwQVM5dllfamVKQXFoWnYtWkdwTl9zb19uSl9EcllQcWVyTnc4?oc=5",
+     "time": "2026-10-21T17:56:43+00:00"
+    },
+    {
+     "title": "CrowdStrike Gains 3.6% on Expanded NVIDIA AI Agent Security Deal: \u201cSetting the Standard\u201d",
+     "publisher": "TIKR.com",
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPcGo0Sk1jSXBrRkFwXzF5YmkyUFpSSU5GVnhJV2dwT0xHa1dHWFNaUWdYRzAwQnpPTkJxeUFHRmZza3Bpb2JTQUMtZFdhQWVoSHFfTVdpUV9DLXpIU0s2QW5kZjFwdVgyaFZkTlVET042Sjhqc3hrdW4yZzRKY0JTa0RWd002NXRmeURCbnYwQm5qaHJTMjVfSmtNdWU2R3lPaVFmZVFITlBLcS1ab0hv?oc=5",
+     "time": "2026-10-21T15:30:02+00:00"
+    },
+    {
+     "title": "CrowdStrike Rallies 4% on Expanded NVIDIA AI Security Pact; Datadog Jumps 6%, Okta Climbs 4%",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQNWF0VXloc2g2TUk2RkdQTEN3bFVyUm5ESU1KZUdCZmlmOU5sSTBpbHA0T211UmFkN0ZHOTFncHpmYlh0a1RaVU5mTzFlRVBsNjF1UFExR3VYcGxEQ2ZsaHBGempWcWVrVHJPYk9VbmVFZlk0NjhEWGx3YTBWUUp5NGZFWjZpUWwza0ZmRi1LNWtHSnlHZ181ZW51UDlsRC01MXVud3BoUDJsNUpSQnpza1ZYNm9yNnYwVVoxOE5tWFN3V3VKVzlweVNCNA?oc=5",
+     "time": "2026-10-21T14:45:00+00:00"
+    },
+    {
+     "title": "CrowdStrike Stock Climbs: What's Going On?",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQNXFUeGp0WTNqVlUyNE93SEs3WEp2VER5VzA2UzM4UmItdzc2V0pYSUdBWk52b2JMRTlzbXNzX0VDazJzdndjMzB1dFJZa3dwYTBGYmY5aEFZeEk2MkNNcU90SDlxNC1RVGZJTnFGbWtQSUU1TW9sNU02bW9abmUxTkI5M0RRd2FfYnpYRXZYLVR6ZHYxS3lGWHlDaTlOVGFoM1E?oc=5",
+     "time": "2026-10-21T14:44:15+00:00"
+    },
+    {
+     "title": "CrowdStrike Holdings Inc Stock (CRWD) Moved Up by 3.04% on Oct 21: Drivers Behind the Movement",
+     "publisher": "TradingKey",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNT2htZVpsUFZJb1FSMFRCa0dnMkthbHR2cFNuZ25RdHV6cWJ0dGhWY0JYTHdvdlNOTUsxcDh3WGRUZ1hnWFNqUExlTzZFTU5uYWhvSTNOaDAtZ3pTd2Z2WXlEOVp0Ym01cVZMenlRMzhZTVItdlJ5YjVRQVMxQk1oZTBNQk9uRFNLeGt3?oc=5",
+     "time": "2026-10-21T14:15:18+00:00"
+    },
     {
      "title": "CrowdStrike (CRWD) Expands AI Security Partnership with NVIDIA, Shares Rise 1.25%",
      "publisher": "GuruFocus",
@@ -136,36 +166,81 @@
      "publisher": "Yahoo Finance",
      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOTmhjTGRkTEZOUndUWjB2NEFZOEtBRENmQ0dhVy1GRkY2S3I3ZlBYanBuSXdrUW5ocnpDTUV4LWVYaV9TMnNYNGxZaGFmLVEtdXZQTnRwQVZqSGxCck9Fb0NfRUNoN2pJRzNLNkk1RlNaXzB6N0k4bmRLXzFTVUtHU1VDNUw1aGxQenFnWlhMTjFHVWEwZGJQTDV2ZTdkazVDdjRKckZn?oc=5",
      "time": "2026-10-21T12:12:57+00:00"
+    }
+   ],
+   "brief": "2026-10-21-CRWD"
+  },
+  {
+   "symbol": "AXON",
+   "name": "Axon",
+   "list": "watchlist",
+   "price": 407.0,
+   "prev_close": 392.64,
+   "change_pct": 3.7,
+   "trigger_change": 3.7,
+   "peak_change": 3.7,
+   "first_seen": "2026-10-21T20:09:15+00:00",
+   "sector": {
+    "etf": "XLI",
+    "name": "Industrials",
+    "price": 168.31,
+    "change_pct": 0.91
+   },
+   "chart": {
+    "ema8": 1.0,
+    "ema21": -3.5,
+    "sma50": -17.0,
+    "sma200": -16.2,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Drone Stocks Have Burned Investors\u2014Are These 4 Different?",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZWExRTR6QjdtYUFud05La3VfYWk1QUdHNWozUm5SVWhGOGFIQ0t1STlBSjl0VTdsZFdNNEctbWZKZ1F4bVRNcVJ0WlhYN2dtQ2tZb0FOUVhkaXBSZHdteWE2RldIQlNhTzEtR3RrUTNZRkRMdnlkZGhOQldEcVdtdDhtMU4xNFlsSWtlTHhQbmd0VmU0ZXo0?oc=5",
+     "time": "2026-10-21T13:11:34+00:00"
     },
     {
-     "title": "NVIDIA and CrowdStrike are adding security for AI that acts on its own; chip controls are planned.",
-     "publisher": "Stock Titan",
-     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNYnBJaGVrZ0dDUlEzbkZ3S3pucUtEcnNTZ0gwZUlWWHQ5VkVjb2NycW92dWVfVWVYZVR6clowc0hJdkRtTkVtVzF4ZDVvaHVIVWRwSDViQjdkSURHTWJSdFQ1WlB1MHdXWFQwUTVZNG5xS3RkdHVNU21INE1ZcU05RnhYVkZHTVllb0ZrVWF1X01TWGJIOTNMc2pFMFVBTFNyUTRjc0NUYVQ1eDZOdlAzR3lieFdoWFY3NVEyVg?oc=5",
-     "time": "2026-10-21T11:30:00+00:00"
+     "title": "73,160 Axon Enterprise, Inc $AXON Shares Bought by Quadrant Capital Group LLC",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQZ0FRX080X1o5N2lrdjRVRXdTWE5LT2l2SHpYcXpVS2RDMVExelV5bHFVV1NSWUI2ZFd1aHZVTlVSQzBwdktRcFgzNVN0VUFvRzk3WFVOdmw4MEZ0MnhXUTVUYU1HV0NTRnlDc1ZEU3hZWVNsTW5OZzdZZl9WMDFhQkY1RVE4R1paVE5Ia1VzVDBndmtXQWZvLXZLSks0MkhQX3IwTGxST25vY3U4UHFjak03UHlNMHlhejJBVk1DdU5wNHk0a09jd2Z1NWlrTzNN?oc=5",
+     "time": "2026-10-21T11:43:36+00:00"
     },
     {
-     "title": "Why Did WBD, HPE, CRWD Stocks Rise To 52-Week Highs Today?",
-     "publisher": "Stocktwits",
-     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNYktfZFpfMzgwQXZYTlJDT0NYS1hrQ1ZCTDF5NmFmbDJwcWQ2dGs5Y2g4YUlYbndXYkNnQkM0aGtfVTJpSzdmR2J1MGxieGE4QWJpQ2oydEN0Y3BTWjRRZ2U1OUhIWFY3b2ZiYTlZQk5QSlEtWmZIVFRHeE1STzd5RE04enlWbHhSandsY3dydmowNHdBd2psVGVuVExBckZkU2xndU9yeHNaTnVaU3pGWkJtVGNmUGdTbDlZ?oc=5",
-     "time": "2026-10-21T00:22:49+00:00"
+     "title": "Axon Enterprise, Inc $AXON Shares Purchased by Sowell Financial Services LLC",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNaXhRQk8yV1BfLTk2Ui11RU5vamhjTGxxOW5ZNzNqQ0M5VmNVbk5LaTc5LWk4MUVPNnJZUlZpeXhGdlBkSXRSSTRrWG8zc0dTS0RKWE1SZGl0ODNkd19PNUt3VUd3RDMtSEtMM2xxZmg4N1JYazdGLUNsb2lMbTktQWxpSGR4WUdiQWN1MWlnYy1YaEtra0djNzFXZlJoWmcxS0NxZjF5ZGI1MTdJS3FlYk5SM1VOckxNSDZMaDNIRzY2X3NJWXM1OFJVSkIyWnJW?oc=5",
+     "time": "2026-10-21T11:43:35+00:00"
     },
     {
-     "title": "CrowdStrike vs. Docusign: Which Technology Stock Is a Better Buy in 2026?",
-     "publisher": "The Motley Fool",
-     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPOEhITTVMOEJkMmppdC0xc2pMY1pfSVpCYUJkNVlmSmo3TEV0QVZYYlRNaUhsaTlDVWJOSjdfcXg0VzJ4aF9nZF9IMmlWZ1NMNm52eUhKa3pkelZhU2tRN2JfWGhUTnU5Q3RzZHR1UmRMbktnU3ZfODduei13V2daMGRkUEZZQmpma1VBMGxLdjVqRVBvUXo5ekUyVVRXbWE0TVdibXhWVzhCbWEzdlVvWGtJVnc5YkdiQXhCTjVuUnc?oc=5",
-     "time": "2026-10-20T19:35:00+00:00"
+     "title": "Axon Enterprise, Inc $AXON Stock Acquired by Robeco Institutional Asset Management B.V.",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQUVl4aHdTLWh6MkZSZU5sN3N6dzJ5TU93TFB1bk1qd0p1MFYwOHh6bGtXSlZyZklpWFVxdFR1SWVLSXZaMWowaHpZNEZneTQ4R2VYZGlEWXc2eE9lV1huZm1iNUJfam9mY1ozVjBtWjlaNmdYVkZGeEFWQTNqZ0tUTlZSRDU0UjlKQ0NCX2tibVdDc3g4T2VQZ2JlTDItSjVYNlU0UnBHMllaV05INUZhb0tSdF91dl9pdk5Lak5Tb2hJcEhGYmw1aGNhTWNTRjFXdHZvU1o2RUp4b3ct?oc=5",
+     "time": "2026-10-21T09:47:06+00:00"
     },
     {
-     "title": "Another CrowdStrike Stock Bull Signal Now Flashing",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOZG9zUmRwUDV6TjRCUmdjWDl1aE9qNVJXaGpxbFBZaVNSSVR6UjZWM2p4Y1g2dll0M0RyejIxWm9Kdlc4U043VmNhSEc2SENwVk5wbG9yel9DQk1PMjl1REhjV1RxYUdIWFpwTlR1U1hCbnM1TTYzUldhY3hsWUxwR09sdHVvZXFtNmptNXdickx0Qkd2UFBfMlVIanNqeS1sY0VUSA?oc=5",
-     "time": "2026-10-20T17:56:01+00:00"
+     "title": "Axon Down 54% From 2025 Peak: Is the Law-Enforcement Tech Leader a Buy?",
+     "publisher": "NAI500",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNQVozQVU4QW9mQlFWOE9YRjZpcGwtRkdSR1YyTnJZSGw0THVRWUZabkZZeFlvYlZxTjUtRk5qUXBjejJlYlZKNC1BbldVa3RMeHlMUmJoQ1VQMU9KR1U4Qy1RRWJUcUU0N25UcGZMS21YbjZYWGNKZl9fTm1LQ2JBS1lJXzU5U2FRVkkwbnMwdmJYUTRCbmo3WVduNmRQTmhpbTln?oc=5",
+     "time": "2026-10-21T09:02:00+00:00"
     },
     {
-     "title": "Is CrowdStrike (CRWD) Still Priced for Perfection After the October Selloff?",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPRGc4bG8zMGhUSjZCa1hLSmpwQkVnZ3YtLVVEZ0FRSExxM0VPMHhEYXlHWVZvZ3FTbjA4OHFaaUtRMkJ6cmN6QmIyTFM0RG5uQVdzb3FhOGJvQzMyWVhHY0NBbkZoVmlSZFdIMWtkN1QxbVh5eFdYTGUzLUU5UC0tUElON0ljdmRIUXI4ekE2dEtSRDg4RWpmT3ZlanVRUGJvbWc1RzZFMWI?oc=5",
-     "time": "2026-10-20T14:44:33+00:00"
+     "title": "Axon Enterprise, Inc $AXON Stock: Physician Wealth Advisors Inc. Increases Stake",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPSHlwTG8za3V5UkM0OTJVdnNBVlNzQUFYVWxraXUwVDFtSmpZX3E4bTBnQ1Q1dWRJdmV4SEJuZDE3VzdidVVhOFMwYzlkZEZiWGhfMThlUkRCRjRSOWJSMk5MN1J1blFNbjJCaG1SM2tWWEQ5dzctajU4SFVYdVIwZHg2ZWRDcWJOQ09yaTdxNF80LU1vNWxjeFBaOEZMNUZIM212TG1QMnJsM3BGUk5ZYURYQ2dLWWhsc0VRbU82aXFFU3h0LUFOY0pabWRmcURKam53?oc=5",
+     "time": "2026-10-21T08:48:49+00:00"
+    },
+    {
+     "title": "Nisa Investment Advisors LLC Acquires 811,082 Shares of Axon Enterprise, Inc $AXON",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOSGFVaFVWLWpULWN3eVpRMjVGZEVybXBkbmxUYWhsY0l6M0RYNkJ1R0pvNVhoX0k0eDNvc2lyR1BQU0d1UTNCaUFpVlA3cGV6WlZsX3FoaUNhek5jQV94RzNEeF9YN01BeFRzeThjeTRPcUx4ZlJYV3I2UFlTZFRIbk4yLVExZDN2MFVCMEdjSEgwNzZwclBXSG1BakRhUDVNOGVQZDJ6dUJTOVM2Smw5Z2U3bWE3RXNvZlNkSlVHQkxJdnF0V2NmLVhyNFN5YklwMWtuc2xEYw?oc=5",
+     "time": "2026-10-21T08:48:49+00:00"
+    },
+    {
+     "title": "432,383 Axon Enterprise, Inc $AXON Shares Acquired by Diversify Advisory Services LLC",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNWmtRTlRKNnVXeTBuT2ZHbVJuOGVwMlN0YTREZXNBekV0eFpSa2VRLXBTNi1vdHhBYW11N0FfZWk5TWdmMm5ocHpEY2IxTW94dlo3aG9BYkNwdjZ2RW81akNrZ3FycW9BdWtISGJabTdzTWJxcWpITnZOMGs1MXpKS21SQXA5OUJQZWloRTJ3cnhCTkVrV3liT1ZVSGx3cmQ4djFvb29MSGozcmN6ak5NMXRJQWJTZzlZN21VZmJ5RUwtU0xBUHA0aWdXcHFBcDNjanV1QjdDZUNDNFU?oc=5",
+     "time": "2026-10-21T08:28:39+00:00"
     }
    ],
    "brief": null
