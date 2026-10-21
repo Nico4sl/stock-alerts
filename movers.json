@@ -1,22 +1,22 @@
 {
  "date": "2026-10-21",
  "threshold": 3.0,
- "updated": "2026-10-21T14:07:12+00:00",
+ "updated": "2026-10-21T14:12:13+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 769.44,
-   "change_pct": 0.05
+   "price": 768.96,
+   "change_pct": -0.01
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 721.73,
-   "change_pct": 0.57
+   "price": 720.71,
+   "change_pct": 0.43
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 80.2,
-   "change_pct": 0.09
+   "price": 80.31,
+   "change_pct": 0.22
   }
  },
  "movers": [
@@ -24,23 +24,23 @@
    "symbol": "NFLX",
    "name": "Netflix",
    "list": "portfolio",
-   "price": 66.58,
+   "price": 66.17,
    "prev_close": 68.69,
-   "change_pct": -3.1,
+   "change_pct": -3.7,
    "trigger_change": -3.1,
-   "peak_change": -3.1,
+   "peak_change": -3.7,
    "first_seen": "2026-10-21T14:07:12+00:00",
    "sector": {
     "etf": "XLC",
     "name": "Communication",
-    "price": 109.3,
-    "change_pct": -0.81
+    "price": 108.86,
+    "change_pct": -1.21
    },
    "chart": {
-    "ema8": -4.0,
-    "ema21": -5.7,
-    "sma50": -10.9,
-    "sma200": -19.3,
+    "ema8": -4.4,
+    "ema21": -6.2,
+    "sma50": -11.4,
+    "sma200": -19.8,
     "momentum": false
    },
    "headlines": [
@@ -91,6 +91,81 @@
      "publisher": "Yahoo Finance",
      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPUkZ5UXVsZjJXaGVOT3Z1RkR2TmdDb2xMQ0JNNWJpY2dTX3ZtNFNRVUVVckVReTR2ZGhlUUFtSXl5UElKZE55dnFYdHplX3NkQXVOU1lQcVkySzYyWGo5UFFaaGJadGpjRGRENHVnd0MwVW9KN0dzcm9qdWloZmpVeXAtUXY5ZnJHUE1nX0pyTlptMDZvRFE?oc=5",
      "time": "2026-10-21T11:24:17+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
+   "symbol": "CRWD",
+   "name": "CrowdStrike",
+   "list": "portfolio",
+   "price": 234.3,
+   "prev_close": 227.37,
+   "change_pct": 3.0,
+   "trigger_change": 3.0,
+   "peak_change": 3.0,
+   "first_seen": "2026-10-21T14:12:13+00:00",
+   "sector": {
+    "etf": "IGV",
+    "name": "Software",
+    "price": 108.17,
+    "change_pct": 1.16
+   },
+   "chart": {
+    "ema8": -2.5,
+    "ema21": -5.0,
+    "sma50": 0.2,
+    "sma200": 44.4,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "CrowdStrike (CRWD) Expands AI Security Partnership with NVIDIA, Shares Rise 1.25%",
+     "publisher": "GuruFocus",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNSUpWOExzc3A2NVJXTHZLQmtqSHl2QnBrU3gxV29pcWhibkdMeVBrcnpQZnhrbWhpMzR1ZEctclJ0dHIzdTVsMUh0MUZVUmxYOENGcXY4OHlWaTBKM0s0b3lIbVFiZXE1VmE4MzJkUms3bHZ0eWFHQVl1dFdzUmNQSTM2UUxPTkRpWkluc2stV19rd3dPalFodnFIeHhaVk15RDh5cjJfQ1lZV3BEZjd1ODlKaVpMUQ?oc=5",
+     "time": "2026-10-21T12:48:37+00:00"
+    },
+    {
+     "title": "CrowdStrike (CRWD) Expands AI Security Partnership with NVIDIA t",
+     "publisher": "GuruFocus",
+     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQNGNfRGpMekxjN25EOGpkdmtfZXA5NG1Jdmk1bHFqdmpHdXFhUEJ4MVhBQUV1WWxMZWdzcEZrYmhOcEdCdnRPdFBJOFNlTGpoZTJvcG9rbl9EWkI4OEtfSG54TE9rTHFiTDdfbFZiR1VJTGtKQWRyVWNlUDgzWVhGOTlYTTF0UnFiN2FKdklYektHODVvQnl5b2h6V2RuMXBxT2p6TDN5Y2h5bUJsRUIwQ2tFc1poQzNGSGJfSTRLdnVybXZGUEpONkRIZUFQWldk?oc=5",
+     "time": "2026-10-21T12:16:26+00:00"
+    },
+    {
+     "title": "CrowdStrike stock rises on expanded NVIDIA AI security partnership",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOTmhjTGRkTEZOUndUWjB2NEFZOEtBRENmQ0dhVy1GRkY2S3I3ZlBYanBuSXdrUW5ocnpDTUV4LWVYaV9TMnNYNGxZaGFmLVEtdXZQTnRwQVZqSGxCck9Fb0NfRUNoN2pJRzNLNkk1RlNaXzB6N0k4bmRLXzFTVUtHU1VDNUw1aGxQenFnWlhMTjFHVWEwZGJQTDV2ZTdkazVDdjRKckZn?oc=5",
+     "time": "2026-10-21T12:12:57+00:00"
+    },
+    {
+     "title": "NVIDIA and CrowdStrike are adding security for AI that acts on its own; chip controls are planned.",
+     "publisher": "Stock Titan",
+     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNYnBJaGVrZ0dDUlEzbkZ3S3pucUtEcnNTZ0gwZUlWWHQ5VkVjb2NycW92dWVfVWVYZVR6clowc0hJdkRtTkVtVzF4ZDVvaHVIVWRwSDViQjdkSURHTWJSdFQ1WlB1MHdXWFQwUTVZNG5xS3RkdHVNU21INE1ZcU05RnhYVkZHTVllb0ZrVWF1X01TWGJIOTNMc2pFMFVBTFNyUTRjc0NUYVQ1eDZOdlAzR3lieFdoWFY3NVEyVg?oc=5",
+     "time": "2026-10-21T11:30:00+00:00"
+    },
+    {
+     "title": "Why Did WBD, HPE, CRWD Stocks Rise To 52-Week Highs Today?",
+     "publisher": "Stocktwits",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNYktfZFpfMzgwQXZYTlJDT0NYS1hrQ1ZCTDF5NmFmbDJwcWQ2dGs5Y2g4YUlYbndXYkNnQkM0aGtfVTJpSzdmR2J1MGxieGE4QWJpQ2oydEN0Y3BTWjRRZ2U1OUhIWFY3b2ZiYTlZQk5QSlEtWmZIVFRHeE1STzd5RE04enlWbHhSandsY3dydmowNHdBd2psVGVuVExBckZkU2xndU9yeHNaTnVaU3pGWkJtVGNmUGdTbDlZ?oc=5",
+     "time": "2026-10-21T00:22:49+00:00"
+    },
+    {
+     "title": "CrowdStrike vs. Docusign: Which Technology Stock Is a Better Buy in 2026?",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPOEhITTVMOEJkMmppdC0xc2pMY1pfSVpCYUJkNVlmSmo3TEV0QVZYYlRNaUhsaTlDVWJOSjdfcXg0VzJ4aF9nZF9IMmlWZ1NMNm52eUhKa3pkelZhU2tRN2JfWGhUTnU5Q3RzZHR1UmRMbktnU3ZfODduei13V2daMGRkUEZZQmpma1VBMGxLdjVqRVBvUXo5ekUyVVRXbWE0TVdibXhWVzhCbWEzdlVvWGtJVnc5YkdiQXhCTjVuUnc?oc=5",
+     "time": "2026-10-20T19:35:00+00:00"
+    },
+    {
+     "title": "Another CrowdStrike Stock Bull Signal Now Flashing",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOZG9zUmRwUDV6TjRCUmdjWDl1aE9qNVJXaGpxbFBZaVNSSVR6UjZWM2p4Y1g2dll0M0RyejIxWm9Kdlc4U043VmNhSEc2SENwVk5wbG9yel9DQk1PMjl1REhjV1RxYUdIWFpwTlR1U1hCbnM1TTYzUldhY3hsWUxwR09sdHVvZXFtNmptNXdickx0Qkd2UFBfMlVIanNqeS1sY0VUSA?oc=5",
+     "time": "2026-10-20T17:56:01+00:00"
+    },
+    {
+     "title": "Is CrowdStrike (CRWD) Still Priced for Perfection After the October Selloff?",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPRGc4bG8zMGhUSjZCa1hLSmpwQkVnZ3YtLVVEZ0FRSExxM0VPMHhEYXlHWVZvZ3FTbjA4OHFaaUtRMkJ6cmN6QmIyTFM0RG5uQVdzb3FhOGJvQzMyWVhHY0NBbkZoVmlSZFdIMWtkN1QxbVh5eFdYTGUzLUU5UC0tUElON0ljdmRIUXI4ekE2dEtSRDg4RWpmT3ZlanVRUGJvbWc1RzZFMWI?oc=5",
+     "time": "2026-10-20T14:44:33+00:00"
     }
    ],
    "brief": null
