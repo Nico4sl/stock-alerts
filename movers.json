@@ -1,7 +1,99 @@
 {
  "date": "2026-10-21",
  "threshold": 3.0,
- "updated": "2026-10-21T13:52:04+00:00",
- "market": {},
- "movers": []
+ "updated": "2026-10-21T14:07:12+00:00",
+ "market": {
+  "SPY": {
+   "name": "S&P 500",
+   "price": 769.44,
+   "change_pct": 0.05
+  },
+  "QQQ": {
+   "name": "Nasdaq 100",
+   "price": 721.73,
+   "change_pct": 0.57
+  },
+  "TLT": {
+   "name": "Long Treasuries",
+   "price": 80.2,
+   "change_pct": 0.09
+  }
+ },
+ "movers": [
+  {
+   "symbol": "NFLX",
+   "name": "Netflix",
+   "list": "portfolio",
+   "price": 66.58,
+   "prev_close": 68.69,
+   "change_pct": -3.1,
+   "trigger_change": -3.1,
+   "peak_change": -3.1,
+   "first_seen": "2026-10-21T14:07:12+00:00",
+   "sector": {
+    "etf": "XLC",
+    "name": "Communication",
+    "price": 109.3,
+    "change_pct": -0.81
+   },
+   "chart": {
+    "ema8": -4.0,
+    "ema21": -5.7,
+    "sma50": -10.9,
+    "sma200": -19.3,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Netflix Inc Stock (NFLX) Opened Down by 3.33% on Oct 21: Facts Behind the Movement",
+     "publisher": "TradingKey",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNX0tBVWVkZUwyWHVvb2pjbU1VQ1pEN3ZyX1FCV0FzaENfTEZKWjBWdDlaLUFkTHN2akF1eElFMG1JNVVQNGNydUNsSFhXWEVyMHhBT2VnQUZWTVQ5RnVfME83RmVadlJRbm5sZ2lZcjVwVDhMbHRKdWtfMUhab0VXVE1IcnZYdi1KMEFZ?oc=5",
+     "time": "2026-10-21T13:47:21+00:00"
+    },
+    {
+     "title": "Netflix (NASDAQ:NFLX) Stock Price Target Lowered at Guggenheim",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQVEtlRE5HTzFEOFlEdTZXOTVKejFTMTlBQWxxY3I2MzJnV1lBT0R3U0QxbGZ3cV9rXzdDeHA4aE1JQ20tcGs4Q3lZSlM3SXNlWUU3MENHR0tpbTdLWlhVclUyN1VqTzVRdi1zZDdSTjZxZEhkR0tKN01qcTE2RHBXZ1FsdUV6RVBFZUE3UHczTlgzZTJxTXVkakpqVFd1bVVzRmlYMTVNeDczTHRfYUNWTWViMXM2SlpJZ2FrNnJBbw?oc=5",
+     "time": "2026-10-21T12:51:56+00:00"
+    },
+    {
+     "title": "Netflix (NASDAQ:NFLX) Stock Rating Reaffirmed as \"Market Perform\" by Citizens Jmp",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPYnBvOTVlV1d2ZzBYeUNaMEEyM002MFljUTgxOVNhb1JXSVRYSU5LcURtYXJDclRCUTJHSGhVUWJCSzhNN3d1VXVkVnNKdk0xY2JGNFFqODI0dEItRVFPaXhXTEVuSnBKT0h5SUxPZXhlWmxCWFNSSHVDVVVZQWVwcW9XaWUwVHpBUDBQckk3UzVOUno4a0xMV0Z5OENsZHlxOTNXQ3FFbmFaRlc2YlJwdGxvWXB4aHRybnRqTU45emdQTWJsOXgwcnVrb1JMSExDVElVSmZR?oc=5",
+     "time": "2026-10-21T12:51:56+00:00"
+    },
+    {
+     "title": "NFLX Stock Heads For 26-Month Low After Needham Downgrade, Wall Street Price Target Cuts \u2014 YouTube Threat Grows, Content Problem \u2018Seems Clear\u2019",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOSTNsWGs5VllLU09RdWlFcGkySkh6UTRaTUVCRFplcm5GamFZQnFhVFhvQnJzU3JMQkRFT3NuVjJCNThrX0s5X0pYeW9TT1p4RWNpUGtja0hNYy1nUXhUZjlCYklKN3RjNzhpS3NtN2F2dVVOY0R2OXhLNXF0UUp2VkNrdVVxMVVQeHR1cFdnOEx5Q2dn?oc=5",
+     "time": "2026-10-21T12:51:08+00:00"
+    },
+    {
+     "title": "Netflix Stock Sinks To 52-Week Low - Here's Why",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPOEdDM0lRcERUWnQ3Zi0xU192cXRTSUlfRnotLTRFSU1BTGZSa0R5bDQyUTBnaDRENkhpU2NtTmJ1LW9aZUVzWjVhYlNaU1FnMG0weDJFOTY0dWZKX3dBWnc5OGZlTmFURHhpZ09fcVBaMzRVbkVab1BEM1lZWjRGWGF4eWtvRUQxemwzdTNpaDBZMlJlcno4QVhPUElyWGtvYlV6Ny1EV3U?oc=5",
+     "time": "2026-10-21T12:12:46+00:00"
+    },
+    {
+     "title": "Bank of America Has Lowered Expectations for Netflix (NASDAQ:NFLX) Stock Price",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQLUhWNjJZcG1NaC05ZFB5eXBlX0lmU1VYRDY4MjgtOTZ3Zm9SUjV4TjQ0N3RvUm9XNzBuZE4ydUdTZ2tVRVFBRFNZUXN2YjJ2R2VhY29JOXBFWnplTHJjRy1pVVV4NEhyV1V6SWNvdFZkWlRuVlFPUWhFOGtkVHJqSnM2UGtOX003ckJoR2txdTlXM3V5R1hTbS1kNXRyRXJNVGUxNjNvZERYZjNJZEJIR1ZyTTllbHRVSk5yRVlSMU1YYjIyWU1NRWdKbGpVMzFWLW45MQ?oc=5",
+     "time": "2026-10-21T12:10:51+00:00"
+    },
+    {
+     "title": "What analysts are saying about Netflix after earnings (NFLX:NASDAQ)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQSDI1UzVYcG9uUVdjaTRaa2JSczVjelpndlo4WGdyWjd6eWVIaC01LTNHbWtlVXlwOFNYYXo0b1ljMFlEdUpuSXQ0aEEwTzF3ak5LbkFQNjVjeXlaZHBMWk5qcDdjVC1qcjVXTWVGOHVOX0pLMzJYV21oT3VJdHdKOU5aYnZaTFVPd2tNcGFMU1RwMmF1TVE?oc=5",
+     "time": "2026-10-21T11:32:25+00:00"
+    },
+    {
+     "title": "ISRG, NFLX, ACN Stocks Slide Before The Bell: Why Intuitive Surgical, Netflix And Accenture Are Heading Lower",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPUkZ5UXVsZjJXaGVOT3Z1RkR2TmdDb2xMQ0JNNWJpY2dTX3ZtNFNRVUVVckVReTR2ZGhlUUFtSXl5UElKZE55dnFYdHplX3NkQXVOU1lQcVkySzYyWGo5UFFaaGJadGpjRGRENHVnd0MwVW9KN0dzcm9qdWloZmpVeXAtUXY5ZnJHUE1nX0pyTlptMDZvRFE?oc=5",
+     "time": "2026-10-21T11:24:17+00:00"
+    }
+   ],
+   "brief": null
+  }
+ ]
 }
