@@ -22,7 +22,8 @@ do the work (edit, test, push) instead of handing him code or terminal steps.
   `lookup` (on-demand charts from Search, via `lookup.yml`), `diag` (old diagnostics, ignore).
 - "Why it moved" briefs: Claude scheduled task "Pullback – why it moved briefs", hourly at :50 (NY time)
   on trading days. Follows `BRIEF_TASK.md`, commits `briefs/<date>-<SYMBOL>.json` (EN + DE).
-  It also restarts stalled checks by appending a timestamp to `heartbeat.txt` and pushing.
+  It also restarts stalled checks by appending a timestamp to `heartbeat.txt` and pushing, and keeps
+  `fed.json` (Fed tab) current – step 5 of `BRIEF_TASK.md`.
 - Data sources (no keys): Nasdaq.com (stocks/ETFs/ADRs/Nasdaq indices), Cboe (^SPX ^DJI ^RUT ^VIX),
   Kraken/Coinbase (crypto), US Treasury + Bundesbank (yields). Yahoo is a last-resort fallback.
 
@@ -33,6 +34,8 @@ do the work (edit, test, push) instead of handing him code or terminal steps.
 | `engine/check.py` | Fetch, indicators, alert rules, ntfy push, site build, holiday calendar |
 | `engine/movers.py` | ±3 % movers, headlines, market context, brief publishing |
 | `engine/lookup.py` | Search symbol directory + on-demand lookups |
+| `engine/fed.py` | Fed screen: live target range history (FRED DFEDTARL/U) + effective rate (NY Fed), FOMC decision times, writes `data/fed.json` |
+| `fed.json` | Fed screen text (stance, focus, balance sheet, projections, meetings; EN + DE). Updated by the brief task after each FOMC decision and weekly |
 | `app/app.js`, `app.css`, `sw.js` | The app (TradingView Lightweight Charts v4.2.3 in `app/vendor/`) |
 | `BRIEF_TASK.md` | Instructions for the brief-writing scheduled task |
 
@@ -49,7 +52,7 @@ do the work (edit, test, push) instead of handing him code or terminal steps.
 - Claude sessions can't use the GitHub **Actions API** (blocked by the proxy). Use instead:
   `gh api repos/Nico4sl/stock-alerts/commits/<sha>/check-runs?filter=all` (run status),
   `.../deployments` (Pages deploys), and a push to start a run.
-- A push to `config.json`, `briefs/`, `app/`, `engine/`, workflows or `heartbeat.txt` starts a check run and redeploys.
+- A push to `config.json`, `briefs/`, `app/`, `engine/`, workflows, `heartbeat.txt` or `fed.json` starts a check run and redeploys.
   The app updates itself when it comes to the front (service worker versioned by a hash of `app/`).
 - Test before pushing: `node --check app/app.js`, `python3 -m py_compile engine/*.py`, and run
   `engine/check.py --fixtures <dir> --force --out <dir> --state <dir>` with synthetic candles

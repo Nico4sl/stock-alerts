@@ -1,0 +1,130 @@
+"""
+Fed screen data.
+
+- fed.json (repo root) holds the written summary – stance, focus, balance sheet, projections,
+  meeting calendar – kept up to date by the Claude brief task after each FOMC decision.
+- Here we add the live numbers (no API keys):
+    * target range + its history: FRED series DFEDTARU / DFEDTARL (fredgraph.csv)
+    * effective fed funds rate: New York Fed API (EFFR)
+  and turn the meeting calendar into exact decision times (14:00 New York, summer time handled).
+- Output: _site/data/fed.json for the app. Live numbers are cached in .state for 3 hours.
+"""
+import csv
+import datetime as dt
+import json
+import os
+from zoneinfo import ZoneInfo
+
+NY = ZoneInfo("America/New_York")
+FRED = "https://fred.stlouisfed.org/graph/fredgraph.csv?id={ids}&cosd={start}"
+EFFR = "https://markets.newyorkfed.org/api/rates/unsecured/effr/last/1.json"
+CACHE_HOURS = 3
+
+
+def _load(path, default):
+    try:
+        with open(path, encoding="utf-8") as f:
+            return json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        return default
+
+
+def _fred_history(http_get, start="2022-01-01"):
+    """[[date, lower, upper], …] – only the days the target range changed, plus the latest day."""
+    text = http_get(FRED.format(ids="DFEDTARL,DFEDTARU", start=start), timeout=30)
+    rows = list(csv.reader(text.splitlines()))
+    head = [h.strip().upper() for h in rows[0]]
+    il, iu = head.index("DFEDTARL"), head.index("DFEDTARU")
+    pts = []
+    for r in rows[1:]:
+        try:
+            lo, up = float(r[il]), float(r[iu])
+        except (ValueError, IndexError):
+            continue          # "." = no value that day
+        pts.append([r[0], lo, up])
+    if not pts:
+        raise RuntimeError("FRED returned no target-range data")
+    steps = [pts[0]]
+    for p in pts[1:]:
+        if p[1:] != steps[-1][1:]:
+            steps.append(p)
+    if steps[-1][0] != pts[-1][0]:
+        steps.append(pts[-1])  # today's level, so the chart runs to the latest date
+    return steps
+
+
+def _effr(http_get):
+    raw = json.loads(http_get(EFFR, timeout=20))
+    r = (raw.get("refRates") or [{}])[0]
+    return {"rate": float(r["percentRate"]), "date": r.get("effectiveDate")}
+
+
+def live_numbers(http_get, state_dir, now, log):
+    path = os.path.join(state_dir, "fed_live.json")
+    cache = _load(path, {})
+    fresh = cache.get("fetched") and (now - dt.datetime.fromisoformat(cache["fetched"])) < dt.timedelta(hours=CACHE_HOURS)
+    if fresh:
+        return cache
+    out = {"fetched": now.isoformat(timespec="seconds")}
+    try:
+        out["history"] = _fred_history(http_get)
+    except Exception as e:  # noqa: BLE001
+        log(f"  ! Fed target range (FRED): {e}")
+        if cache.get("history"):
+            out["history"] = cache["history"]
+    try:
+        out["effr"] = _effr(http_get)
+    except Exception as e:  # noqa: BLE001
+        log(f"  ! Fed effective rate (NY Fed): {e}")
+        if cache.get("effr"):
+            out["effr"] = cache["effr"]
+    os.makedirs(state_dir, exist_ok=True)
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(out, f)
+    return out
+
+
+def decision_time(day_iso):
+    """FOMC statements come out at 14:00 New York time on the meeting's last day."""
+    d = dt.date.fromisoformat(day_iso)
+    return dt.datetime(d.year, d.month, d.day, 14, 0, tzinfo=NY).astimezone(dt.timezone.utc)
+
+
+def build(root, out_dir, state_dir, http_get, log, now=None):
+    now = now or dt.datetime.now(dt.timezone.utc)
+    summary = _load(os.path.join(root, "fed.json"), None)
+    if not summary:
+        return
+    live = live_numbers(http_get, state_dir, now, log) if http_get else {}
+
+    meetings = []
+    for m in summary.get("meetings", []):
+        t = decision_time(m["end"])
+        meetings.append({**m, "decision_utc": t.isoformat().replace("+00:00", "Z"), "past": t <= now})
+    upcoming = [m for m in meetings if not m["past"]]
+
+    rate = dict(summary.get("rate", {}))
+    rate["source"] = "summary"
+    hist = live.get("history")
+    if hist:
+        rate.update(lower=hist[-1][1], upper=hist[-1][2], as_of=hist[-1][0], source="FRED (live)")
+    if live.get("effr"):
+        rate["effective"] = live["effr"]["rate"]
+        rate["effective_date"] = live["effr"]["date"]
+    s_rate = summary.get("rate", {})
+    outdated = bool(hist) and (s_rate.get("lower"), s_rate.get("upper")) != (hist[-1][1], hist[-1][2])
+
+    data = {
+        **{k: v for k, v in summary.items() if k not in ("meetings", "rate")},
+        "rate": rate,
+        "history": hist or [],
+        "meetings": meetings,
+        "next": upcoming[0] if upcoming else None,
+        "summary_outdated": outdated,   # live rate changed since the text was written
+        "generated": now.isoformat(timespec="seconds"),
+    }
+    os.makedirs(os.path.join(out_dir, "data"), exist_ok=True)
+    with open(os.path.join(out_dir, "data", "fed.json"), "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, separators=(",", ":"))
+    log(f"  Fed: {rate.get('lower')}–{rate.get('upper')} % ({rate['source']}), "
+        f"next decision {data['next']['end'] if data['next'] else '–'}")

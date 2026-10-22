@@ -13,7 +13,7 @@ on:
     - cron: "13,43 12-20 * * 1-5"
   push:
     branches: [main]
-    paths: ["config.json", "briefs/**", "app/**", "engine/**", ".github/workflows/**", "heartbeat.txt"]
+    paths: ["config.json", "briefs/**", "app/**", "engine/**", ".github/workflows/**", "heartbeat.txt", "fed.json"]
   workflow_dispatch:
     inputs:
       test_notification:

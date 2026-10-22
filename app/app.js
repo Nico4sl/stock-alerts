@@ -299,7 +299,7 @@
     if (a === "s" && b) return { name: "detail", sym: decodeURIComponent(b) };
     if (a === "brief" && b) return { name: "brief", id: decodeURIComponent(b) };
     if (a === "q" && b) return { name: "lookup", sym: decodeURIComponent(b) };
-    if (["portfolio", "watchlist", "search", "alerts", "settings"].includes(a)) return { name: a };
+    if (["portfolio", "watchlist", "search", "fed", "alerts", "settings"].includes(a)) return { name: a };
     return { name: store.get("lastList", "portfolio") };
   }
 
@@ -309,7 +309,8 @@
     if (keepChartRange && S.chart) range = S.chart.chart.timeScale().getVisibleLogicalRange();
     destroyChart();
     closeSheet();
-    if (!S.summary && !["settings", "search", "lookup"].includes(r.name)) {
+    clearInterval(fedTimer);
+    if (!S.summary && !["settings", "search", "lookup", "fed"].includes(r.name)) {
       view.innerHTML = `<div class="empty"><b>Loading…</b></div>`;
       return;
     }
@@ -317,6 +318,7 @@
     if (r.name === "lookup") return renderLookup(r.sym, range, !keepChartRange);
     if (r.name === "search") return renderSearch();
     if (r.name === "brief") return renderBriefPage(r.id);
+    if (r.name === "fed") return renderFed();
     const y = window.scrollY;
     if (r.name === "alerts") renderAlerts();
     else if (r.name === "settings") renderSettings();
@@ -1403,6 +1405,154 @@
     }
     buildChart(tfData(d), row, [], vname, keepRange);
     bindChartControls(d);
+  }
+
+  // ------------------------------------------------------------------ Fed
+  // Current fed funds rate (live from FRED / NY Fed via the price check), a countdown to the
+  // next FOMC decision, and Claude's summary of where the Fed stands (fed.json, updated after
+  // every decision by the brief task).
+  let fedTimer = null;
+  const FT = {
+    en: { rate: "Fed funds target", eff: "Effective rate", last: "Last move", next: "Next rate decision", d: "days", h: "hours", m: "min", s: "sec",
+      yourTime: "your time", stmt: "Statement", pc: "press conference", dots: "with new projections (dot plot)", nodots: "no new projections at this meeting",
+      exp: "Markets expect", hold: "no change", focus: "Focus & direction", bs: "Balance sheet", proj: "Fed projections", hist: "Target rate since 2022",
+      meet: "Upcoming meetings", src: "Sources", learn: "Learn", outdated: "The rate changed since this summary was written – Claude updates it within the next hour.",
+      written: "Summary by Claude, as of", live: "Rate data", chair: "Chair", vote: "vote", decisionDay: "Decision today", soon: "Decision is out – the summary is updated within about an hour.",
+      hike: "hike", cut: "cut", unchanged: "unchanged", endYr: "end of", pce: "PCE inflation", target2: "2 % inflation expected in",
+      st: { tightening: "Tightening ↑", hold: "On hold", easing: "Easing ↓" },
+      bsm: { qt: "Balance sheet: shrinking (QT)", qe: "Balance sheet: buying bonds (QE)", stable: "Balance sheet: stable – ample reserves" } },
+    de: { rate: "Leitzins (Zielband)", eff: "Effektiver Zins", last: "Letzte Änderung", next: "Nächster Zinsentscheid", d: "Tage", h: "Std.", m: "Min.", s: "Sek.",
+      yourTime: "deine Zeit", stmt: "Statement", pc: "Pressekonferenz", dots: "mit neuen Projektionen (Dot Plot)", nodots: "keine neuen Projektionen bei dieser Sitzung",
+      exp: "Märkte erwarten", hold: "keine Änderung", focus: "Fokus & Richtung", bs: "Bilanz", proj: "Projektionen der Fed", hist: "Leitzins seit 2022",
+      meet: "Nächste Sitzungen", src: "Quellen", learn: "Dazugelernt", outdated: "Der Zins hat sich seit dieser Zusammenfassung geändert – Claude aktualisiert sie innerhalb der nächsten Stunde.",
+      written: "Zusammenfassung von Claude, Stand", live: "Zinsdaten", chair: "Vorsitz", vote: "Abstimmung", decisionDay: "Heute Zinsentscheid", soon: "Der Entscheid ist da – die Zusammenfassung wird in etwa einer Stunde aktualisiert.",
+      hike: "Erhöhung", cut: "Senkung", unchanged: "unverändert", endYr: "Ende", pce: "PCE-Inflation", target2: "2 % Inflation erwartet",
+      st: { tightening: "Straffung ↑", hold: "Pause", easing: "Lockerung ↓" },
+      bsm: { qt: "Bilanz: schrumpft (QT)", qe: "Bilanz: Anleihekäufe (QE)", stable: "Bilanz: stabil – ausreichende Reserven" } },
+  };
+
+  const pctTxt = (x, d = 2) => (x === null || x === undefined ? "–" : `${(+x).toFixed(d)}`);
+  const dayTxt = (iso, opts) => new Date(iso.length === 10 ? iso + "T12:00:00Z" : iso).toLocaleDateString(S.lang === "de" ? "de-AT" : "en-GB", opts || { day: "numeric", month: "short", year: "numeric" });
+
+  function fedHistorySVG(hist) {
+    if (!hist || hist.length < 2) return "";
+    const W = 320, H = 120, L = 30, R = 6, T = 8, B = 18;
+    const t0 = Date.parse(hist[0][0]), t1 = Math.max(Date.parse(hist[hist.length - 1][0]), Date.now());
+    const ups = hist.map((h) => h[2]), los = hist.map((h) => h[1]);
+    const lo = Math.floor(Math.min(...los)), hi = Math.ceil(Math.max(...ups));
+    const x = (iso) => L + ((Date.parse(iso) - t0) / (t1 - t0 || 1)) * (W - L - R);
+    const y = (v) => T + (1 - (v - lo) / (hi - lo || 1)) * (H - T - B);
+    let up = "", dn = "";
+    hist.forEach((h, i) => {
+      const X = x(h[0]).toFixed(1);
+      if (i === 0) { up = `M${X},${y(h[2]).toFixed(1)}`; dn = `M${X},${y(h[1]).toFixed(1)}`; return; }
+      up += `H${X}V${y(h[2]).toFixed(1)}`; dn += `H${X}V${y(h[1]).toFixed(1)}`;
+    });
+    const xEnd = (W - R).toFixed(1);
+    up += `H${xEnd}`; dn += `H${xEnd}`;
+    const grid = [];
+    for (let v = lo; v <= hi; v += (hi - lo > 4 ? 2 : 1)) grid.push(`<line x1="${L}" x2="${W - R}" y1="${y(v)}" y2="${y(v)}" stroke="var(--line)" stroke-width="1"/><text x="${L - 4}" y="${y(v) + 3}" text-anchor="end">${v}%</text>`);
+    const years = [];
+    for (let yr = new Date(t0).getUTCFullYear() + 1; yr <= new Date(t1).getUTCFullYear(); yr++) {
+      const X = x(`${yr}-01-01`);
+      years.push(`<text x="${X}" y="${H - 4}" text-anchor="middle">${yr}</text>`);
+    }
+    return `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Fed funds target range history">
+      ${grid.join("")}${years.join("")}
+      <path d="${up}" fill="none" stroke="${COLORS.ema8}" stroke-width="2" vector-effect="non-scaling-stroke"/>
+      <path d="${dn}" fill="none" stroke="${COLORS.ema8}" stroke-width="1" stroke-opacity=".5" vector-effect="non-scaling-stroke"/>
+    </svg>`;
+  }
+
+  function nextMeeting(f) {
+    const now = Date.now();
+    return (f.meetings || []).find((m) => Date.parse(m.decision_utc) > now) || null;
+  }
+
+  async function renderFed() {
+    setTop("Fed", false);
+    setTab("fed");
+    let f;
+    try { f = await getJSON(`data/fed.json?t=${Date.now()}`); } catch {
+      view.innerHTML = `<div class="empty"><b>No Fed data yet</b>It appears after the next price check.</div>`;
+      return;
+    }
+    if (parseRoute().name !== "fed") return;
+    const L = FT[S.lang] || FT.en;
+    const t = f[S.lang]?.summary ? f[S.lang] : f.en;
+    const r = f.rate || {};
+    const ld = f.last_decision || {};
+    const nx = nextMeeting(f);
+    const ldTxt = ld.change_bp ? `${ld.change_bp > 0 ? "+" : "−"}${Math.abs(ld.change_bp) / 100} (${ld.change_bp > 0 ? L.hike : L.cut})` : L.unchanged;
+    const local = (iso, o) => new Date(iso).toLocaleString(S.lang === "de" ? "de-AT" : "en-GB", o);
+    const pr = f.projections || {};
+    const exp = f.expectations || {};
+    const decisionPassed = f.next && nx && f.next.end !== nx.end;   // a decision happened since the data was built
+
+    const upcoming = (f.meetings || []).filter((m) => Date.parse(m.decision_utc) > Date.now()).slice(0, 6);
+
+    view.innerHTML = `
+      <div class="fed-top"><span class="sp"></span>
+        <span class="seg b-lang"><button data-l="en" class="${S.lang === "en" ? "on" : ""}">EN</button><button data-l="de" class="${S.lang === "de" ? "on" : ""}">DE</button></span></div>
+      <div class="fed-hero">
+        <div><div class="lbl">${L.rate}</div>
+          <div class="rate num">${pctTxt(r.lower)}–${pctTxt(r.upper)} %</div>
+          <div class="sub">${[r.effective !== undefined ? `${L.eff} ${pctTxt(r.effective)} %` : "", ld.date ? `${L.last}: ${ldTxt} · ${dayTxt(ld.date)}` : ""].filter(Boolean).join(" · ")}</div></div>
+      </div>
+      <div class="fed-chips">
+        <span class="chip st-${esc(f.stance || "hold")}">${esc(L.st[f.stance] || f.stance || "")}</span>
+        <span class="chip">${esc(L.bsm[f.balance_sheet_mode] || "")}</span>
+        ${f.chair ? `<span class="chip">${L.chair}: ${esc(f.chair)}</span>` : ""}
+      </div>
+      ${f.summary_outdated || decisionPassed ? `<div class="banner warn" style="margin:10px 16px 0">${f.summary_outdated ? L.outdated : L.soon}</div>` : ""}
+
+      ${nx ? `<div class="card fed-card"><h3>${L.next}<span class="sp"></span>${nx.sep ? '<span class="chip t-I">Dot plot</span>' : ""}</h3>
+        <div class="cd num" id="fedCd"></div>
+        <div class="note" style="padding-top:6px">
+          <b style="color:var(--text)">${local(nx.decision_utc, { weekday: "long", day: "numeric", month: "long" })}</b> ·
+          ${L.stmt} ${local(nx.decision_utc, { hour: "2-digit", minute: "2-digit" })}, ${L.pc} ${local(new Date(Date.parse(nx.decision_utc) + 30 * 60e3).toISOString(), { hour: "2-digit", minute: "2-digit" })} (${L.yourTime})<br>
+          ${nx.sep ? L.dots : L.nodots}${exp.hold_pct && f.next && nx.end === f.next.end ? ` · ${L.exp}: ${L.hold} (≈ ${exp.hold_pct} %)` : ""}
+        </div></div>` : ""}
+
+      <div class="card fed-card"><h3>${L.focus}</h3>
+        <p class="fed-p"><b>${esc(t.headline || "")}</b><br>${esc(t.summary || "")}</p>
+        ${(t.focus || []).map((x) => `<div class="fed-f"><div class="ft">${esc(x.title)}</div><p>${esc(x.text)}</p></div>`).join("")}
+      </div>
+
+      <div class="card fed-card"><h3>${L.bs}</h3><p class="fed-p">${esc(t.balance_sheet || "")}</p>
+        ${t.learn?.text ? `<div class="learn"><div class="lt">💡 ${L.learn}: ${esc(t.learn.term || "")}</div><p style="margin:0;font-size:14px;line-height:1.5;color:#cdd3de">${esc(t.learn.text)}</p></div>` : ""}
+      </div>
+
+      ${pr.rate_2026 !== undefined ? `<div class="card fed-card"><h3>${L.proj}<span class="sp"></span><span style="text-transform:none;letter-spacing:0;font-weight:400">${dayTxt(pr.from)}</span></h3>
+        <div class="mt-row" style="border-top:0"><span>${L.rate} · ${L.endYr} 2026</span><b class="num">${pctTxt(pr.rate_2026, 1)} %</b></div>
+        <div class="mt-row"><span>${L.rate} · ${L.endYr} 2027</span><b class="num">${pctTxt(pr.rate_2027, 1)} %</b></div>
+        <div class="mt-row"><span>${L.pce} 2026 / 2027</span><b class="num">${pctTxt(pr.pce_2026, 1)} % / ${pctTxt(pr.pce_2027, 1)} %</b></div>
+        ${pr.target_year ? `<div class="mt-row"><span>${L.target2}</span><b class="num">${esc(pr.target_year)}</b></div>` : ""}
+      </div>` : ""}
+
+      ${f.history?.length > 1 ? `<div class="card fed-card"><h3>${L.hist}</h3><div class="fed-chart">${fedHistorySVG(f.history)}</div></div>` : ""}
+
+      ${upcoming.length ? `<div class="card fed-card"><h3>${L.meet}</h3>${upcoming.map((m, i) => `<div class="mt-row ${i === 0 ? "next" : ""}"${i === 0 ? ' style="border-top:0"' : ""}>
+          <span>${m.start.slice(0, 7) === m.end.slice(0, 7) ? `${+m.start.slice(8)}–${dayTxt(m.end)}` : `${dayTxt(m.start, { day: "numeric", month: "short" })} – ${dayTxt(m.end)}`}<span class="sub"> · ${local(m.decision_utc, { hour: "2-digit", minute: "2-digit" })}</span></span>
+          <span>${m.sep ? '<span class="chip t-I">Dot plot</span>' : ""}</span></div>`).join("")}</div>` : ""}
+
+      ${f.sources?.length ? `<div class="card fed-card"><h3>${L.src}</h3><ul class="heads">${f.sources.map((x) => `<li><a href="${esc(safeUrl(x.url))}" target="_blank" rel="noopener noreferrer">${esc(x.title)}</a><span>${esc(x.publisher || "")}</span></li>`).join("")}</ul></div>` : ""}
+
+      <div class="b-foot" style="padding:12px 16px 20px">${L.written} ${f.as_of ? dayTxt(f.as_of) : "–"} · ${L.live}: ${esc(r.source || "–")}${r.as_of ? ` (${dayTxt(r.as_of)})` : ""} · Not investment advice</div>`;
+
+    view.querySelectorAll(".b-lang button").forEach((b) => (b.onclick = () => { S.lang = b.dataset.l; store.set("lang", S.lang); renderFed(); }));
+    const cd = $("#fedCd");
+    if (cd && nx) {
+      const tick = () => {
+        const ms = Date.parse(nx.decision_utc) - Date.now();
+        if (ms <= 0) { clearInterval(fedTimer); cd.innerHTML = `<div style="flex:1"><b>${L.decisionDay}</b></div>`; return; }
+        const d = Math.floor(ms / 864e5), h = Math.floor(ms / 36e5) % 24, m = Math.floor(ms / 6e4) % 60, s = Math.floor(ms / 1e3) % 60;
+        cd.innerHTML = [[d, L.d], [h, L.h], [m, L.m], [s, L.s]].map(([v, l]) => `<div><b>${v}</b><span>${l}</span></div>`).join("");
+      };
+      tick();
+      clearInterval(fedTimer);
+      fedTimer = setInterval(() => { if (parseRoute().name !== "fed") return clearInterval(fedTimer); tick(); }, 1000);
+    }
   }
 
   // ------------------------------------------------------------------ alerts

@@ -77,4 +77,34 @@ Rules
 
 ## 4 · Publish
 Commit only new files in `briefs/` to `main` with the message `Briefs <date>: SYM1, SYM2` and push.
-The push triggers the app update and the phone notification automatically. Do not change other files.
+The push triggers the app update and the phone notification automatically. Do not change other files
+(except `heartbeat.txt` in step 0 and `fed.json` in step 5).
+
+## 5 · Fed screen – keep `fed.json` current (do this even when there are no movers)
+`fed.json` (repo root) is the written part of the app's Fed screen. The live target range, effective
+rate and meeting countdown are added automatically – you only maintain the text and key facts.
+Update it when **any** of these is true (New York time):
+- today is the last day of an FOMC meeting (see `meetings`), it is 14:30 or later, and
+  `last_decision.date` is not today → write up today's decision;
+- `as_of` is 7 or more days old → refresh focus, data and market expectations;
+- the Fed has published next year's meeting calendar and it is missing from `meetings`.
+Otherwise skip this step.
+
+How:
+- Research with web search: the FOMC statement and implementation note (federalreserve.gov), the
+  chair's press conference, the Summary of Economic Projections (Mar/Jun/Sep/Dec meetings), minutes
+  (published 3 weeks after each meeting), latest CPI/PCE and jobs data, CME FedWatch-based reporting
+  for the next meeting, and the latest balance-sheet operations (QT, reserve management purchases).
+- Keep the exact schema and keys. Update: `as_of` (today), `chair`, `rate` (lower/upper/iorb),
+  `last_decision` (date, change_bp: +25 / −25 / 0, vote), `stance` (`tightening` | `hold` | `easing` –
+  the direction of policy, e.g. `hold` after a pause that follows cuts), `balance_sheet_mode`
+  (`qt` | `qe` | `stable`), `projections` (only after an SEP meeting), `expectations`
+  (as_of + `hold_pct` = market-implied probability of no change at the next meeting, or omit if unknown),
+  `en` / `de` texts, `sources` (3–6 real links), `meetings`.
+- Texts: `headline` (≤ 70 chars), `summary` (2–4 sentences), `focus` (3–4 items: inflation, jobs,
+  growth, next steps – each 1–3 sentences with concrete numbers and their month), `balance_sheet`
+  (2–4 sentences: QT/QE/neither, monthly amounts, size), `learn` (one concept tied to the current
+  situation, 2–4 sentences). German written naturally, same content. Plain language, neutral,
+  no investment advice, no invented numbers – every figure must come from a source you list.
+- Validate (`python3 -m json.tool fed.json`), commit only `fed.json` with message
+  `Fed summary <date>` (rebase on `origin/main` first) and push. The push updates the app.

@@ -15,6 +15,9 @@ A personal chart and alert app for your watchlist and portfolio, based on Babyfo
   right away. Within about an hour Claude researches the catalyst (company, sector or macro) and writes a short read
   in English and German, with what happened, why the market cares, context, one concept to learn and sources.
   It pops up when you open the app.
+- **Fed tab:** the current fed funds target range (live), a countdown to the next FOMC decision in your
+  time zone, and a short read on where the Fed stands – rates, inflation focus, balance sheet (QT/QE),
+  projections and upcoming meetings – in English or German. Claude refreshes it after every decision.
 - **Search:** look up any US stock, ETF or ADR, the S&P 500 / Nasdaq 100 / Dow / Russell 2000 / VIX
   (and other Nasdaq indices), US Treasury and German Bund yields, and major crypto – same three charts,
   without adding it to a list. Tap **+ Watchlist** if you want alerts for it.

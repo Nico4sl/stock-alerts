@@ -994,6 +994,13 @@ def main():
     save_json(os.path.join(data_dir, "movers.json"), movers_payload)
     save_json(os.path.join(data_dir, "brief-queue.json"), queue)
 
+    # ---- Fed screen: written summary + live target range / effective rate ------
+    try:
+        import fed  # noqa: PLC0415
+        fed.build(ROOT, args.out, args.state, None if args.fixtures else http_get, log, now)
+    except Exception as e:  # noqa: BLE001
+        log(f"  ! Fed data: {e}")
+
     # ---- symbol directory for the app's search (rebuilt once a day) ----------
     if not args.fixtures:
         import lookup as lk  # noqa: PLC0415
