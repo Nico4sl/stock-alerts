@@ -1,121 +1,46 @@
 {
  "date": "2026-10-22",
  "threshold": 3.0,
- "updated": "2026-10-22T16:01:55+00:00",
+ "updated": "2026-10-22T16:06:58+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 765.0,
-   "change_pct": -1.05
+   "price": 764.9,
+   "change_pct": -1.06
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 709.4,
-   "change_pct": -2.18
+   "price": 709.45,
+   "change_pct": -2.17
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 81.34,
-   "change_pct": 1.38
+   "price": 81.36,
+   "change_pct": 1.4
   }
  },
  "movers": [
   {
-   "symbol": "ANET",
-   "name": "Arista Networks",
-   "list": "portfolio",
-   "price": 171.85,
-   "prev_close": 184.33,
-   "change_pct": -6.8,
-   "trigger_change": -3.6,
-   "peak_change": -7.2,
-   "first_seen": "2026-10-22T14:00:23+00:00",
-   "sector": {
-    "etf": "SMH",
-    "name": "Semiconductors",
-    "price": 528.89,
-    "change_pct": -5.0
-   },
-   "chart": {
-    "ema8": -7.3,
-    "ema21": -11.5,
-    "sma50": -12.8,
-    "sma200": 5.1,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Arista Networks (ANET) Is Considered a Good Investment by Brokers: Is That True?",
-     "publisher": "Yahoo Finance UK",
-     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNYlNNQkozY1FZaTlKbDh1ZGwtSjk4UWNJVmJuMHlJWktQS2pDbF9ONmg5b0l1MGdFOTlQMHIxT2FvQ1FPOHFBMXMydW9WcEhwdjc2aG1yNXNoRS1oT0I2MVZPTGlfVmJYNnk1dmJEY3ZqdzJTal9JN21jc1hzdmh6NW1rTzQ4MDVZRHNwMVNB?oc=5",
-     "time": "2026-10-22T12:30:03+00:00"
-    },
-    {
-     "title": "Should You Pick Arista Networks Stock Over Its Competitors?",
-     "publisher": "Trefis",
-     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOdE1KQy1saVVQa05YTGZ5WlhVWlRnR3JPaDZmQnVhRVFHaDlKSnVrdmdrbEgxWlJYSEZna2x3UVJUaGl6cEQxT1hhVWg4d0xBOV9zc1JSWTQtLTc3ekdWYlhiS2xScl9LOHZhQlgtaTE1RUlJYlZhanptZ3I1b3NTeFZDUmZ3eXNLbHlvZ0dVckhWdnVVU3pheGcweFdOb1ZuQ1FqVTZydm5EbDI4XzBZbF84YXR1eVhmT3gw?oc=5",
-     "time": "2026-10-22T10:52:40+00:00"
-    },
-    {
-     "title": "Arista Networks, Inc. $ANET Shares Acquired by Crossmark Global Holdings Inc.",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQcnFRQ3ZvSk02bUdoTWRvSEZsSFhrYXZXV29FMlNacEUteDd6NzEwQmc2V2h2T2pkSllKSjh4VjZkWTFHNjdtUHoxYjVRckNrdUZ2Z0pIUXZGTlBGTUU0N1BXTDdhWXo2clNQX0hrdms3eWFpdlN3TFFVM1ROVkFtT1hNMnlPWnIzZXZJZ1NyR2xqMVhUaXlndW5NV2VVTXpvMWpJclJ2eThTaHNEaXphZ29WbXM4ZERLT1o3SGc3Wk9xb2pxZnBDYnlCeGJiTWc?oc=5",
-     "time": "2026-10-22T08:14:51+00:00"
-    },
-    {
-     "title": "13,807 Shares of Arista Networks, Inc. $ANET Purchased by Cantor Fitzgerald Investment Advisors L.P.",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOSWJ5bnZ4a3ZCVGZIcHIwbkdoYzg4U3RpRTVhcW4yNnlZUTlRaks5YjU2Vzd0MEtZTUhqNGlNeGQ2ZVBJYS1WWWhhVlplM3VkZlVXT2U5Zy1PVk8xS2VjVXBVN1RjUzZ2MzZ2dlhpNHhjY2RGOTZJcVNCMDFCbk9wcmNiUkRUbTgzaDdNTEUyblhsWVRBRndLcDFVSzRiVWpoaUNQdlNCUWkwakZ4ZERTTnFsM2RkU3duNUZwWG1kZmJlYUdDU3lPXzItU2I0cWhPUkJldE9UWEZwVVRQbnlGR3JvQzU2anVOMWtZ?oc=5",
-     "time": "2026-10-22T07:41:18+00:00"
-    },
-    {
-     "title": "Arista Networks vs. CrowdStrike: Which Tech Stock Is a Better Buy in 2026?",
-     "publisher": "The Motley Fool",
-     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOazczMGdXNjlxbzBPM1ZRN2NtaGM5cWFDdnc1N3VuMkxoa1hSTVdEeUtlVVhfY2N6b3c2dU9mUW5KejFpQ2lqSUFLckV3RXkxMVloQ3RIcWdHdWR1NmYtWV9MTVJxNW9vX0JnbjZmTUJXQWxXRHRBSmxTRVNkNHJzM3VXNTlYNVhaSGh5SEhLY1QyOUZrc1YzWkU0RlRZWVEyU3hmbm80UWxidEtPWG5YVC1aa09RblBSamhUc0hrNGs0Zw?oc=5",
-     "time": "2026-10-22T02:37:00+00:00"
-    },
-    {
-     "title": "Arista Networks (NYSE:ANET) Shares Climb 1.8% - Should You Buy?",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPR0tDYm9FSjI3UkFkb1JVWk9Iam1OQVNZNExYV2hnSGJrd01NUzM4RW9kOEpiZGViNWUtZXJIS3l0WnJCTE9ma2lfQy1sRTN2Z2FsV3hzc1Nhc3kzMU56R2gtODluNkdzSEJtTkUzZkMzM3RveU9PRjA2U0VncjNNNFk4N2JiV0dEaXduZDdlMXVlZmZkM0JVNTZWTi0xaEZrRUM0aGZDczBQZ2haWVlCdlNuUGt0cVk?oc=5",
-     "time": "2026-10-21T21:47:09+00:00"
-    },
-    {
-     "title": "Arista Networks (ANET) Rises Higher Than Market: Key Facts",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNGhPTURKQjdlZ0JwLVN4UXRoejkteExYZ2RwY0QweTlRaHZlQTZFNDN5Ujh1blplMDhYcDV4NklIMWx2VEJyY3h6WGlBTS1scFo2ZHI2M1dUc2FWcWVOWVlJclVsUFBUVDd6YnI5d1ZwaENpWlBwblhUNkhuLVR6UlpjY3c5ckhYM1l6dHNFNnBrTDdSeGl3bHZTelcxblU?oc=5",
-     "time": "2026-10-21T20:45:02+00:00"
-    },
-    {
-     "title": "Arista Networks: No Pricing Power And No Durable Business Model (NYSE:ANET)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQOFBEQXpaY0lIV2VhSkRUWktIWVh0aUtMbVNvME9nYW80c25aRk85bGwxOUhPeHJSTVdqVFhxbzk1VVkwZ2cycXQyclE2bkZoZ2lGeEVyTjRhbzZxX1hQdVdDODlFMF83STNwclpub1QyQlAzenBLbU9lZ3dNcVl4cVNLakNyQ3h4bFFpVlJhR3Z2cEsxdDlQSTg0ZFpjTHNBeHpYNDRB?oc=5",
-     "time": "2026-10-21T20:02:45+00:00"
-    }
-   ],
-   "brief": "2026-10-22-ANET"
-  },
-  {
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 160.43,
+   "price": 160.03,
    "prev_close": 171.57,
-   "change_pct": -6.5,
+   "change_pct": -6.7,
    "trigger_change": -5.4,
    "peak_change": -7.4,
    "first_seen": "2026-10-22T14:00:23+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 109.43,
-    "change_pct": 0.56
+    "price": 109.62,
+    "change_pct": 0.74
    },
    "chart": {
-    "ema8": -10.3,
-    "ema21": -19.7,
-    "sma50": -27.0,
-    "sma200": -8.6,
+    "ema8": -10.5,
+    "ema21": -19.9,
+    "sma50": -27.2,
+    "sma200": -8.9,
     "momentum": false
    },
    "headlines": [
@@ -174,7 +99,7 @@
    "symbol": "AMAT",
    "name": "Applied Materials",
    "list": "portfolio",
-   "price": 382.32,
+   "price": 382.31,
    "prev_close": 408.94,
    "change_pct": -6.5,
    "trigger_change": -4.8,
@@ -183,13 +108,13 @@
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 528.89,
-    "change_pct": -5.0
+    "price": 529.61,
+    "change_pct": -4.87
    },
    "chart": {
     "ema8": -9.4,
     "ema21": -15.7,
-    "sma50": -18.9,
+    "sma50": -19.0,
     "sma200": -13.4,
     "momentum": false
    },
@@ -246,26 +171,101 @@
    "brief": "2026-10-22-AMAT"
   },
   {
+   "symbol": "ANET",
+   "name": "Arista Networks",
+   "list": "portfolio",
+   "price": 172.6,
+   "prev_close": 184.33,
+   "change_pct": -6.4,
+   "trigger_change": -3.6,
+   "peak_change": -7.2,
+   "first_seen": "2026-10-22T14:00:23+00:00",
+   "sector": {
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 529.61,
+    "change_pct": -4.87
+   },
+   "chart": {
+    "ema8": -7.0,
+    "ema21": -11.1,
+    "sma50": -12.4,
+    "sma200": 5.5,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Arista Networks (ANET) Is Considered a Good Investment by Brokers: Is That True?",
+     "publisher": "Yahoo Finance UK",
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNYlNNQkozY1FZaTlKbDh1ZGwtSjk4UWNJVmJuMHlJWktQS2pDbF9ONmg5b0l1MGdFOTlQMHIxT2FvQ1FPOHFBMXMydW9WcEhwdjc2aG1yNXNoRS1oT0I2MVZPTGlfVmJYNnk1dmJEY3ZqdzJTal9JN21jc1hzdmh6NW1rTzQ4MDVZRHNwMVNB?oc=5",
+     "time": "2026-10-22T12:30:03+00:00"
+    },
+    {
+     "title": "Should You Pick Arista Networks Stock Over Its Competitors?",
+     "publisher": "Trefis",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOdE1KQy1saVVQa05YTGZ5WlhVWlRnR3JPaDZmQnVhRVFHaDlKSnVrdmdrbEgxWlJYSEZna2x3UVJUaGl6cEQxT1hhVWg4d0xBOV9zc1JSWTQtLTc3ekdWYlhiS2xScl9LOHZhQlgtaTE1RUlJYlZhanptZ3I1b3NTeFZDUmZ3eXNLbHlvZ0dVckhWdnVVU3pheGcweFdOb1ZuQ1FqVTZydm5EbDI4XzBZbF84YXR1eVhmT3gw?oc=5",
+     "time": "2026-10-22T10:52:40+00:00"
+    },
+    {
+     "title": "Arista Networks, Inc. $ANET Shares Acquired by Crossmark Global Holdings Inc.",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQcnFRQ3ZvSk02bUdoTWRvSEZsSFhrYXZXV29FMlNacEUteDd6NzEwQmc2V2h2T2pkSllKSjh4VjZkWTFHNjdtUHoxYjVRckNrdUZ2Z0pIUXZGTlBGTUU0N1BXTDdhWXo2clNQX0hrdms3eWFpdlN3TFFVM1ROVkFtT1hNMnlPWnIzZXZJZ1NyR2xqMVhUaXlndW5NV2VVTXpvMWpJclJ2eThTaHNEaXphZ29WbXM4ZERLT1o3SGc3Wk9xb2pxZnBDYnlCeGJiTWc?oc=5",
+     "time": "2026-10-22T08:14:51+00:00"
+    },
+    {
+     "title": "13,807 Shares of Arista Networks, Inc. $ANET Purchased by Cantor Fitzgerald Investment Advisors L.P.",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOSWJ5bnZ4a3ZCVGZIcHIwbkdoYzg4U3RpRTVhcW4yNnlZUTlRaks5YjU2Vzd0MEtZTUhqNGlNeGQ2ZVBJYS1WWWhhVlplM3VkZlVXT2U5Zy1PVk8xS2VjVXBVN1RjUzZ2MzZ2dlhpNHhjY2RGOTZJcVNCMDFCbk9wcmNiUkRUbTgzaDdNTEUyblhsWVRBRndLcDFVSzRiVWpoaUNQdlNCUWkwakZ4ZERTTnFsM2RkU3duNUZwWG1kZmJlYUdDU3lPXzItU2I0cWhPUkJldE9UWEZwVVRQbnlGR3JvQzU2anVOMWtZ?oc=5",
+     "time": "2026-10-22T07:41:18+00:00"
+    },
+    {
+     "title": "Arista Networks vs. CrowdStrike: Which Tech Stock Is a Better Buy in 2026?",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOazczMGdXNjlxbzBPM1ZRN2NtaGM5cWFDdnc1N3VuMkxoa1hSTVdEeUtlVVhfY2N6b3c2dU9mUW5KejFpQ2lqSUFLckV3RXkxMVloQ3RIcWdHdWR1NmYtWV9MTVJxNW9vX0JnbjZmTUJXQWxXRHRBSmxTRVNkNHJzM3VXNTlYNVhaSGh5SEhLY1QyOUZrc1YzWkU0RlRZWVEyU3hmbm80UWxidEtPWG5YVC1aa09RblBSamhUc0hrNGs0Zw?oc=5",
+     "time": "2026-10-22T02:37:00+00:00"
+    },
+    {
+     "title": "Arista Networks (NYSE:ANET) Shares Climb 1.8% - Should You Buy?",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPR0tDYm9FSjI3UkFkb1JVWk9Iam1OQVNZNExYV2hnSGJrd01NUzM4RW9kOEpiZGViNWUtZXJIS3l0WnJCTE9ma2lfQy1sRTN2Z2FsV3hzc1Nhc3kzMU56R2gtODluNkdzSEJtTkUzZkMzM3RveU9PRjA2U0VncjNNNFk4N2JiV0dEaXduZDdlMXVlZmZkM0JVNTZWTi0xaEZrRUM0aGZDczBQZ2haWVlCdlNuUGt0cVk?oc=5",
+     "time": "2026-10-21T21:47:09+00:00"
+    },
+    {
+     "title": "Arista Networks (ANET) Rises Higher Than Market: Key Facts",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNGhPTURKQjdlZ0JwLVN4UXRoejkteExYZ2RwY0QweTlRaHZlQTZFNDN5Ujh1blplMDhYcDV4NklIMWx2VEJyY3h6WGlBTS1scFo2ZHI2M1dUc2FWcWVOWVlJclVsUFBUVDd6YnI5d1ZwaENpWlBwblhUNkhuLVR6UlpjY3c5ckhYM1l6dHNFNnBrTDdSeGl3bHZTelcxblU?oc=5",
+     "time": "2026-10-21T20:45:02+00:00"
+    },
+    {
+     "title": "Arista Networks: No Pricing Power And No Durable Business Model (NYSE:ANET)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQOFBEQXpaY0lIV2VhSkRUWktIWVh0aUtMbVNvME9nYW80c25aRk85bGwxOUhPeHJSTVdqVFhxbzk1VVkwZ2cycXQyclE2bkZoZ2lGeEVyTjRhbzZxX1hQdVdDODlFMF83STNwclpub1QyQlAzenBLbU9lZ3dNcVl4cVNLakNyQ3h4bFFpVlJhR3Z2cEsxdDlQSTg0ZFpjTHNBeHpYNDRB?oc=5",
+     "time": "2026-10-21T20:02:45+00:00"
+    }
+   ],
+   "brief": "2026-10-22-ANET"
+  },
+  {
    "symbol": "META",
    "name": "Meta",
    "list": "portfolio",
-   "price": 658.4,
+   "price": 655.8,
    "prev_close": 697.52,
-   "change_pct": -5.6,
+   "change_pct": -6.0,
    "trigger_change": -5.6,
    "peak_change": -6.8,
    "first_seen": "2026-10-22T14:00:23+00:00",
    "sector": {
     "etf": "XLC",
     "name": "Communication",
-    "price": 108.03,
-    "change_pct": -0.86
+    "price": 107.93,
+    "change_pct": -0.95
    },
    "chart": {
-    "ema8": -6.1,
-    "ema21": -7.0,
-    "sma50": -0.7,
-    "sma200": 4.1,
+    "ema8": -6.4,
+    "ema21": -7.4,
+    "sma50": -1.1,
+    "sma200": 3.7,
     "momentum": false
    },
    "headlines": [
@@ -321,10 +321,85 @@
    "brief": "2026-10-22-META"
   },
   {
+   "symbol": "AMZN",
+   "name": "Amazon",
+   "list": "portfolio",
+   "price": 252.48,
+   "prev_close": 262.37,
+   "change_pct": -3.8,
+   "trigger_change": -3.4,
+   "peak_change": -4.1,
+   "first_seen": "2026-10-22T14:00:23+00:00",
+   "sector": {
+    "etf": "XLY",
+    "name": "Consumer discr.",
+    "price": 115.36,
+    "change_pct": -0.15
+   },
+   "chart": {
+    "ema8": -1.9,
+    "ema21": -1.4,
+    "sma50": -1.4,
+    "sma200": 3.8,
+    "momentum": true
+   },
+   "headlines": [
+    {
+     "title": "Amazon Q3: The $220 Billion Question Investors Can't Ignore (NASDAQ:AMZN)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQeEhHYjB6bGVMVVlLaUFiaUJGbHJ3OTQ5N25FaHNWNjBhZHl5bV9hMUk0b3V0Wkw5WWNrdkpVcDN0RVY4SGIxbjM2dFV5aVlvX0E0V1lVTC0xQWtmVG9lSVliamtydTI4cVY5b3Z3anB5dkdnbC1YUkxxYWt6clY0Y1hsZnJyMmd6U1lEcTRreElkMWpidXZ4VkNvZ1hoZw?oc=5",
+     "time": "2026-10-22T15:21:32+00:00"
+    },
+    {
+     "title": "If You Invest $1,000 in Amazon Each Month Starting Now, This is What You\u2019d Have in 5 Years",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPWms3UkVRTzVrMElkTWZJY1lyWDF4dXhxM0xtTkdzSFllSTAwX241VkZmcEg1b0I0X3NUZGd4RkxXX0FMZUxUM2lZSlh6TjVmZGhlUU00Uk5wQzB0NVlBMjgxMUJCSmN5YXVROE8yd3oyWG03SnBGNkVBOHBydkNRUnIxVVlVUzRWUnEydU4yZzZSbjlMWDlBcHdfQkw4WXZaVDN2OXhOOUl6THROV1h3SXBYNHQ2QmRKV290eG1SbU1RU1J6ekZaaUZn?oc=5",
+     "time": "2026-10-22T15:00:00+00:00"
+    },
+    {
+     "title": "Here\u2019s How Much You Would Have Made Owning Amazon.com Stock In The Last 10 Years",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZVZnc2pUT29jVk94UTlaR1lHMjRjaU5VY2ZZZnNzS3YwRWFBZ00ta0d1c2FlOEFWTlJma1MzTl9tT215eFZxQURwazhwLW1uS0Z1aG5Oa0pfT3JYcmFKdmdqa2E1cVlsb3FnU3RfaEJtbUpCYXVleFhMel9kd2ItcDBYYXRPVmVkN01KanU4UFVLZVkwTWZFQkJyYk5jWW50d1MyX0ZnQXBnbTVOU1YxWEU5UnlXS0Jkb2c?oc=5",
+     "time": "2026-10-22T14:00:45+00:00"
+    },
+    {
+     "title": "Amazon.com Inc Stock (AMZN) Opened Down by 3.50% on Oct 22: Facts Behind the Movement",
+     "publisher": "TradingKey",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQX3Y3cFRid0NPbU1FYUs3M2xrTVozQ2NyUlY4TVhqZnhzWUx0YnR0MzdKdVROYm1jUWNLc2hrYlYwSlFVMmczMmFINFJwVGJmWnRnbVh2cE9IMzJRLWxzRktaWmtCeWNYdGl3eGZIbk16VzlTWGhkbjF0VklLRHA0dWJGUFpLMG0xRnZj?oc=5",
+     "time": "2026-10-22T13:47:30+00:00"
+    },
+    {
+     "title": "Tech Giants Race To Patch Critical PHP Vulnerabilities Affecting Web Systems",
+     "publisher": "TIKR.com",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPWVdYX19CRGJGTC1odElROXBsWWZUcUExZkloTVVoNzBqYzRFQ1ZqZkZWYkNZWmx4ZUluMEV6cVpvVm1ab2JfdzE0Y3FlY0s2RFI4S0VQaHFMNHpZTU1XRmR5eXp6dnh5SWZBOEIzWWFJVTVOeEF4QkE5M0RPb2s1N0ltZnhhLVA5d0Q0bloxV0U?oc=5",
+     "time": "2026-10-22T13:13:39+00:00"
+    },
+    {
+     "title": "Analysts Have Conflicting Sentiments on These Consumer Cyclical Companies: Tesla (TSLA), Amazon (AMZN) and Crocs (CROX)",
+     "publisher": "The Globe and Mail",
+     "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxQYlBiM1hodHdVYUpqREZwUGxWZjVRVlRRTFBGaUJGalBsS1lCbzQxaklhUElieDItN2RRbWlNUmNRR2ppYzdubk5zWVBNNC1BbXVYeTl3bjNfWVVXUjM3NTVWb0dObmQ0cGt6ckFRWVVWREk5SDlfQVI3aXdxaktucHZmTW5KSU9xWGdJcHJ1UUpIeVNneF92MFpnZ2dhRWtOaElva05OSk5uaFBndWtfUlJKSmhRcVZJSEUzYUJwc0wwejhvTkpXOGR4X0x5MWtybXp4aDc2amFYS2RienRqVV8wdWcwaG9sWTdQdkJUWXBfd2hqbGVmNGZ6SENMVUhOajV3bkRaUnVEZG1idzdXaUR5emNCRWlGaExGMjQ3YVUyeVUz?oc=5",
+     "time": "2026-10-22T12:12:54+00:00"
+    },
+    {
+     "title": "Amazon\u2019s Bee AI Wearables Could Be a New Growth Driver for AMZN Stock",
+     "publisher": "Barchart.com",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQN09OaUVOSU1CTk1HLXZqb2Q2R2pBaGFwMzNRcGRjdDNTanhaRHBKMEFNRW8zeFgybDlnWmpMQW1fRmFWaVZ0QlFTZXg4RzFRdjh2dEVpSWxxb09OdnBYMnN3RnJOWmx1b29tUWVSODFoZzRWSDUxODM3MHl3cEduQ3pzbjRPMWJERlZKWHQzS0xpT25SVG5pY204N3hwcHZseUU2R1c5S1RIcGhWcDAtTDVB?oc=5",
+     "time": "2026-10-22T10:51:33+00:00"
+    },
+    {
+     "title": "1 Analyst Says Amazon Stock Has 30% Upside. What's the Bull Case for Buying Amazon Right Now?",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOc3o4a3QxaE5aa2h6eWY2NW4tMS1tNkZYSGd1NTZWMWdZd2VlaHc3eE9KazlCQnBqUVdJdWlyTHExbE5FYUQ5czVkWDBnY21SV3ZGLVA1YjkyWVFNYUtUU0RReHpXRV9ValZ3dVMxQ0JsaHN6Y005dXM4RUlPWWFmZ1FFaVdFZ0t3TTQ2Nw?oc=5",
+     "time": "2026-10-22T09:27:00+00:00"
+    }
+   ],
+   "brief": "2026-10-22-AMZN"
+  },
+  {
    "symbol": "NVDA",
    "name": "Nvidia",
    "list": "portfolio",
-   "price": 213.58,
+   "price": 213.47,
    "prev_close": 221.97,
    "change_pct": -3.8,
    "trigger_change": -3.3,
@@ -333,13 +408,13 @@
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 528.89,
-    "change_pct": -5.0
+    "price": 529.61,
+    "change_pct": -4.87
    },
    "chart": {
-    "ema8": -2.6,
+    "ema8": -2.7,
     "ema21": -4.2,
-    "sma50": -4.1,
+    "sma50": -4.2,
     "sma200": 4.9,
     "momentum": false
    },
@@ -399,7 +474,7 @@
    "symbol": "AVGO",
    "name": "Broadcom",
    "list": "portfolio",
-   "price": 324.86,
+   "price": 325.03,
    "prev_close": 337.8,
    "change_pct": -3.8,
    "trigger_change": -3.6,
@@ -408,8 +483,8 @@
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 528.89,
-    "change_pct": -5.0
+    "price": 529.61,
+    "change_pct": -4.87
    },
    "chart": {
     "ema8": -3.9,
@@ -471,101 +546,26 @@
    "brief": "2026-10-22-AVGO"
   },
   {
-   "symbol": "AMZN",
-   "name": "Amazon",
-   "list": "portfolio",
-   "price": 252.78,
-   "prev_close": 262.37,
-   "change_pct": -3.7,
-   "trigger_change": -3.4,
-   "peak_change": -4.1,
-   "first_seen": "2026-10-22T14:00:23+00:00",
-   "sector": {
-    "etf": "XLY",
-    "name": "Consumer discr.",
-    "price": 115.37,
-    "change_pct": -0.14
-   },
-   "chart": {
-    "ema8": -1.8,
-    "ema21": -1.3,
-    "sma50": -1.3,
-    "sma200": 3.9,
-    "momentum": true
-   },
-   "headlines": [
-    {
-     "title": "Amazon Q3: The $220 Billion Question Investors Can't Ignore (NASDAQ:AMZN)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQeEhHYjB6bGVMVVlLaUFiaUJGbHJ3OTQ5N25FaHNWNjBhZHl5bV9hMUk0b3V0Wkw5WWNrdkpVcDN0RVY4SGIxbjM2dFV5aVlvX0E0V1lVTC0xQWtmVG9lSVliamtydTI4cVY5b3Z3anB5dkdnbC1YUkxxYWt6clY0Y1hsZnJyMmd6U1lEcTRreElkMWpidXZ4VkNvZ1hoZw?oc=5",
-     "time": "2026-10-22T15:21:32+00:00"
-    },
-    {
-     "title": "If You Invest $1,000 in Amazon Each Month Starting Now, This is What You\u2019d Have in 5 Years",
-     "publisher": "24/7 Wall St.",
-     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPWms3UkVRTzVrMElkTWZJY1lyWDF4dXhxM0xtTkdzSFllSTAwX241VkZmcEg1b0I0X3NUZGd4RkxXX0FMZUxUM2lZSlh6TjVmZGhlUU00Uk5wQzB0NVlBMjgxMUJCSmN5YXVROE8yd3oyWG03SnBGNkVBOHBydkNRUnIxVVlVUzRWUnEydU4yZzZSbjlMWDlBcHdfQkw4WXZaVDN2OXhOOUl6THROV1h3SXBYNHQ2QmRKV290eG1SbU1RU1J6ekZaaUZn?oc=5",
-     "time": "2026-10-22T15:00:00+00:00"
-    },
-    {
-     "title": "Here\u2019s How Much You Would Have Made Owning Amazon.com Stock In The Last 10 Years",
-     "publisher": "Benzinga",
-     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZVZnc2pUT29jVk94UTlaR1lHMjRjaU5VY2ZZZnNzS3YwRWFBZ00ta0d1c2FlOEFWTlJma1MzTl9tT215eFZxQURwazhwLW1uS0Z1aG5Oa0pfT3JYcmFKdmdqa2E1cVlsb3FnU3RfaEJtbUpCYXVleFhMel9kd2ItcDBYYXRPVmVkN01KanU4UFVLZVkwTWZFQkJyYk5jWW50d1MyX0ZnQXBnbTVOU1YxWEU5UnlXS0Jkb2c?oc=5",
-     "time": "2026-10-22T14:00:45+00:00"
-    },
-    {
-     "title": "Amazon.com Inc Stock (AMZN) Opened Down by 3.50% on Oct 22: Facts Behind the Movement",
-     "publisher": "TradingKey",
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQX3Y3cFRid0NPbU1FYUs3M2xrTVozQ2NyUlY4TVhqZnhzWUx0YnR0MzdKdVROYm1jUWNLc2hrYlYwSlFVMmczMmFINFJwVGJmWnRnbVh2cE9IMzJRLWxzRktaWmtCeWNYdGl3eGZIbk16VzlTWGhkbjF0VklLRHA0dWJGUFpLMG0xRnZj?oc=5",
-     "time": "2026-10-22T13:47:30+00:00"
-    },
-    {
-     "title": "Tech Giants Race To Patch Critical PHP Vulnerabilities Affecting Web Systems",
-     "publisher": "TIKR.com",
-     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPWVdYX19CRGJGTC1odElROXBsWWZUcUExZkloTVVoNzBqYzRFQ1ZqZkZWYkNZWmx4ZUluMEV6cVpvVm1ab2JfdzE0Y3FlY0s2RFI4S0VQaHFMNHpZTU1XRmR5eXp6dnh5SWZBOEIzWWFJVTVOeEF4QkE5M0RPb2s1N0ltZnhhLVA5d0Q0bloxV0U?oc=5",
-     "time": "2026-10-22T13:13:39+00:00"
-    },
-    {
-     "title": "Analysts Have Conflicting Sentiments on These Consumer Cyclical Companies: Tesla (TSLA), Amazon (AMZN) and Crocs (CROX)",
-     "publisher": "The Globe and Mail",
-     "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxQYlBiM1hodHdVYUpqREZwUGxWZjVRVlRRTFBGaUJGalBsS1lCbzQxaklhUElieDItN2RRbWlNUmNRR2ppYzdubk5zWVBNNC1BbXVYeTl3bjNfWVVXUjM3NTVWb0dObmQ0cGt6ckFRWVVWREk5SDlfQVI3aXdxaktucHZmTW5KSU9xWGdJcHJ1UUpIeVNneF92MFpnZ2dhRWtOaElva05OSk5uaFBndWtfUlJKSmhRcVZJSEUzYUJwc0wwejhvTkpXOGR4X0x5MWtybXp4aDc2amFYS2RienRqVV8wdWcwaG9sWTdQdkJUWXBfd2hqbGVmNGZ6SENMVUhOajV3bkRaUnVEZG1idzdXaUR5emNCRWlGaExGMjQ3YVUyeVUz?oc=5",
-     "time": "2026-10-22T12:12:54+00:00"
-    },
-    {
-     "title": "Amazon\u2019s Bee AI Wearables Could Be a New Growth Driver for AMZN Stock",
-     "publisher": "Barchart.com",
-     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQN09OaUVOSU1CTk1HLXZqb2Q2R2pBaGFwMzNRcGRjdDNTanhaRHBKMEFNRW8zeFgybDlnWmpMQW1fRmFWaVZ0QlFTZXg4RzFRdjh2dEVpSWxxb09OdnBYMnN3RnJOWmx1b29tUWVSODFoZzRWSDUxODM3MHl3cEduQ3pzbjRPMWJERlZKWHQzS0xpT25SVG5pY204N3hwcHZseUU2R1c5S1RIcGhWcDAtTDVB?oc=5",
-     "time": "2026-10-22T10:51:33+00:00"
-    },
-    {
-     "title": "1 Analyst Says Amazon Stock Has 30% Upside. What's the Bull Case for Buying Amazon Right Now?",
-     "publisher": "The Motley Fool",
-     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOc3o4a3QxaE5aa2h6eWY2NW4tMS1tNkZYSGd1NTZWMWdZd2VlaHc3eE9KazlCQnBqUVdJdWlyTHExbE5FYUQ5czVkWDBnY21SV3ZGLVA1YjkyWVFNYUtUU0RReHpXRV9ValZ3dVMxQ0JsaHN6Y005dXM4RUlPWWFmZ1FFaVdFZ0t3TTQ2Nw?oc=5",
-     "time": "2026-10-22T09:27:00+00:00"
-    }
-   ],
-   "brief": "2026-10-22-AMZN"
-  },
-  {
    "symbol": "NFLX",
    "name": "Netflix",
    "list": "portfolio",
-   "price": 67.31,
+   "price": 67.37,
    "prev_close": 65.04,
-   "change_pct": 3.5,
+   "change_pct": 3.6,
    "trigger_change": 3.3,
-   "peak_change": 3.5,
+   "peak_change": 3.6,
    "first_seen": "2026-10-22T15:56:49+00:00",
    "sector": {
     "etf": "XLC",
     "name": "Communication",
-    "price": 108.03,
-    "change_pct": -0.86
+    "price": 107.93,
+    "change_pct": -0.95
    },
    "chart": {
-    "ema8": -1.9,
-    "ema21": -4.1,
-    "sma50": -9.7,
-    "sma200": -18.3,
+    "ema8": -1.8,
+    "ema21": -4.0,
+    "sma50": -9.6,
+    "sma200": -18.2,
     "momentum": false
    },
    "headlines": [
@@ -624,7 +624,7 @@
    "symbol": "BTC-USD",
    "name": "Bitcoin",
    "list": "watchlist",
-   "price": 81582.7,
+   "price": 81565.0,
    "prev_close": 84022.5,
    "change_pct": -2.9,
    "trigger_change": -3.0,
@@ -634,8 +634,8 @@
    "chart": {
     "ema8": -1.0,
     "ema21": -1.2,
-    "sma50": -0.2,
-    "sma200": 12.1,
+    "sma50": -0.3,
+    "sma200": 12.0,
     "momentum": false
    },
    "headlines": [
