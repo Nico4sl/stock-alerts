@@ -1,121 +1,46 @@
 {
  "date": "2026-10-22",
  "threshold": 3.0,
- "updated": "2026-10-22T16:46:42+00:00",
+ "updated": "2026-10-22T16:51:47+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 762.53,
-   "change_pct": -1.37
+   "price": 762.7,
+   "change_pct": -1.34
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 705.71,
-   "change_pct": -2.69
+   "price": 705.11,
+   "change_pct": -2.77
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 81.6,
-   "change_pct": 1.69
+   "price": 81.59,
+   "change_pct": 1.68
   }
  },
  "movers": [
   {
-   "symbol": "META",
-   "name": "Meta",
-   "list": "portfolio",
-   "price": 646.25,
-   "prev_close": 697.52,
-   "change_pct": -7.4,
-   "trigger_change": -5.6,
-   "peak_change": -7.4,
-   "first_seen": "2026-10-22T14:00:23+00:00",
-   "sector": {
-    "etf": "XLC",
-    "name": "Communication",
-    "price": 107.27,
-    "change_pct": -1.56
-   },
-   "chart": {
-    "ema8": -7.5,
-    "ema21": -8.6,
-    "sma50": -2.5,
-    "sma200": 2.2,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Mizuho raises Meta stock price target to $950 on revenue outlook",
-     "publisher": "Investing.com UK",
-     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQQUVKY3dINnRPaF9DOVN6UjBraXMzTnlGN0tMemZVVW5UMVhzY19jM3RCZ1JqejNOay0ycC0tUXNDczg4V0VMdGlKa21RS3J6ME1hTXE4OWZvTjVBa1hIS0F6ODZ1NHJOc3MyTnFtdnBINjkyQjV0MGRwZHBwY0VkdV8wQW5UUTVrWFdKVGxRWWNtcURSS1RQVFJzX2hMTzhrN0x4cTE0bzNlQko0R21WMWVwc1pOcFU3eVhUNTdLOEVvUQ?oc=5",
-     "time": "2026-10-22T15:52:00+00:00"
-    },
-    {
-     "title": "Meta stock sinks 6% as AI spend pushes free cash flow negative",
-     "publisher": "CNBC",
-     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBFSFFjR3I5aUd1LXZFRmNOcEFlM2RxQjdkX05DTmhvS2Z4SDJ1dDlGVWpZVE9hVXBzMlZFSmhxTUhqSFRvZ210RXdKd3JJd3Q1RjU0bHhwdHV3ZlpuV25fb2dxTW1OVUNJczlJNTBVQTNiVjd5WER0T2NUaTVtbDDSAYQBQVVfeXFMUFE4Qjg4VTlqMHB2R05IejZsT1FjYVVmcnBEaTlZV1B5a3NLaWhTazF2Q0UyREpKZFJrakVTWFFVSDJQellSb08wZmFFdjE3eDNINkVjSUJ5ZWM0Z19na3F4SkRJWk5GbXFtUFB3bzYzeS1Fc1ZpUk8yUFNVblJ3di1lZ1pu?oc=5",
-     "time": "2026-10-22T15:41:25+00:00"
-    },
-    {
-     "title": "Meta and chip stocks decline as AI trade comes under pressure: AlphaCheck",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQZ2ZfdGdfS21jbGZ2WDZCX241bWs2RTFmdnRFY1FCQVdsS0VLOTdFNk1relhYdHAxT3VrdUY1RzhfdlFtbGRkV3o5MzZVeG93WkxfNzFxczIxWDJOVEZEN0o2eXJiQUN2eGQxRUdNMkEtZm52RUdZTmFmdGJnVEl2YjV3djlkVzExVnJQMFMwRWM5eldrdFRiNnFHQVFQUzhUZWFYOVN0Wlk1Zk96aWdEQ2thRDM2NDVKRFZwNnB0QWdUMGhCQkRtUQ?oc=5",
-     "time": "2026-10-22T15:39:07+00:00"
-    },
-    {
-     "title": "Meta's AI build is Muse-ic to investors' ears (META:NASDAQ)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQnpRTkU2S0U5LXlmNmtDMWItTWx6RUtqemkwS2FXN09PUjZ3azJVVGNlVXU3UFpsU0tLS3NzeW1NWlFxVUtYNFd2dC1PRndzVldxVmlqWmljdG5GTnZLTFloWWxSU0NJZXNmamt0bDhlXzFMejYyMlltQ3ZVSURJM1dEMmJNMm9m?oc=5",
-     "time": "2026-10-22T15:32:56+00:00"
-    },
-    {
-     "title": "Meta\u2019s Stock Split Paves Way for Huge AI Financing Deal",
-     "publisher": "Barron's",
-     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQclVZYi1ZSWIzcjFXUVdfWTUzVVh0eUtRRkxmVllWNm1yYzA1Q2s3dVZmVTdPZDlsNjlSR2pfdnpBMkRoZ0Q2UTU4M1ZPajNuekxVZV9tX3dyXzFLNWZ1THFHQmNPZUxiSHNFVkNrRkVMdXhla0hHSVpabEloYndobUp5bFlmN2M?oc=5",
-     "time": "2026-10-22T15:20:00+00:00"
-    },
-    {
-     "title": "Meta stock drops more than 6% despite strong Q3 results, stock split",
-     "publisher": "AOL.com",
-     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1remRKbTZTM2c4YWwyNUsyTHdyNHpPR1Q1TW1CZ0M3eDFBMXZPZmVuOWpvTGx0V3h5cHNYMEd3dHkzTG4zbHdLalZnaC01TkhOSXN4WWRtczNKWndGVVNpX0ZfdFBPRXVYdm9zQTE4M0lnZEFDbHc?oc=5",
-     "time": "2026-10-22T15:12:18+00:00"
-    },
-    {
-     "title": "Meta\u2019s new Class C stock to keep Zuckerberg in California, fund AI spending spree",
-     "publisher": "Investing.com",
-     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOendIcEI1OEszaHNVWmpqb3RWZm8wTHctWWEwY0MyVHBDcGVjdmxSdEhySlplVkhVWG9DTmxLeUF2Z1lHQmp3RFVLWlVmTTBTSHRodktObXFUcm01OGxIemlhRk8xUTg0VWJaTF9IblpWSVlTOHhBQ25DclBvUEZGNXRWeG9hLWUxSHRnZ1c2X2hTM1VZN0VsQ293WlZBcDFMNGFqdlNJcVIzYjFzTlp5ZjMxS3NGVy1pRkpaaDg3Z05zRVF2LW81M3JGVjVUTUNJLXc?oc=5",
-     "time": "2026-10-22T15:11:15+00:00"
-    },
-    {
-     "title": "RBC Capital raises Meta stock price target to $800 on AI strength",
-     "publisher": "Investing.com",
-     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNOC1qY2RIOFktUDFocHFQNE1uSGUzN1VINW4wNWFlRGxSZVJCTk1mQ1Y2dHQ2anhkb2tCMTZzTE9ydlFpcnhJVXNZUVF4N29kajg1Z0hRdndPNzVUUmtHOTBYT2pUYUxleTFLcjNJdml1NnV4QUJrN2NWOFJHcDlJNzBWWXV1SlZUelBlZzJwbzZEVGZMVE1EOU5fMkRrNk9xNFJPS1VKY2ZueDlkNDYxQ1hXeW02WGdMcGx0ODV4Rm9ZUQ?oc=5",
-     "time": "2026-10-22T14:48:16+00:00"
-    }
-   ],
-   "brief": "2026-10-22-META"
-  },
-  {
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 159.06,
+   "price": 158.76,
    "prev_close": 171.57,
-   "change_pct": -7.3,
+   "change_pct": -7.5,
    "trigger_change": -5.4,
-   "peak_change": -7.4,
+   "peak_change": -7.5,
    "first_seen": "2026-10-22T14:00:23+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 108.76,
+    "price": 108.75,
     "change_pct": -0.06
    },
    "chart": {
-    "ema8": -10.9,
-    "ema21": -20.4,
-    "sma50": -27.6,
-    "sma200": -9.4,
+    "ema8": -11.1,
+    "ema21": -20.5,
+    "sma50": -27.8,
+    "sma200": -9.6,
     "momentum": false
    },
    "headlines": [
@@ -171,101 +96,101 @@
    "brief": "2026-10-22-NBIS"
   },
   {
-   "symbol": "ANET",
-   "name": "Arista Networks",
+   "symbol": "META",
+   "name": "Meta",
    "list": "portfolio",
-   "price": 170.88,
-   "prev_close": 184.33,
-   "change_pct": -7.3,
-   "trigger_change": -3.6,
-   "peak_change": -7.3,
+   "price": 646.14,
+   "prev_close": 697.52,
+   "change_pct": -7.4,
+   "trigger_change": -5.6,
+   "peak_change": -7.4,
    "first_seen": "2026-10-22T14:00:23+00:00",
    "sector": {
-    "etf": "SMH",
-    "name": "Semiconductors",
-    "price": 525.18,
-    "change_pct": -5.66
+    "etf": "XLC",
+    "name": "Communication",
+    "price": 107.28,
+    "change_pct": -1.55
    },
    "chart": {
-    "ema8": -7.7,
-    "ema21": -11.9,
-    "sma50": -13.3,
-    "sma200": 4.5,
+    "ema8": -7.5,
+    "ema21": -8.6,
+    "sma50": -2.5,
+    "sma200": 2.1,
     "momentum": false
    },
    "headlines": [
     {
-     "title": "Arista Networks (ANET) Is Considered a Good Investment by Brokers: Is That True?",
-     "publisher": "Yahoo Finance UK",
-     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNYlNNQkozY1FZaTlKbDh1ZGwtSjk4UWNJVmJuMHlJWktQS2pDbF9ONmg5b0l1MGdFOTlQMHIxT2FvQ1FPOHFBMXMydW9WcEhwdjc2aG1yNXNoRS1oT0I2MVZPTGlfVmJYNnk1dmJEY3ZqdzJTal9JN21jc1hzdmh6NW1rTzQ4MDVZRHNwMVNB?oc=5",
-     "time": "2026-10-22T12:30:03+00:00"
+     "title": "Mizuho raises Meta stock price target to $950 on revenue outlook",
+     "publisher": "Investing.com UK",
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQQUVKY3dINnRPaF9DOVN6UjBraXMzTnlGN0tMemZVVW5UMVhzY19jM3RCZ1JqejNOay0ycC0tUXNDczg4V0VMdGlKa21RS3J6ME1hTXE4OWZvTjVBa1hIS0F6ODZ1NHJOc3MyTnFtdnBINjkyQjV0MGRwZHBwY0VkdV8wQW5UUTVrWFdKVGxRWWNtcURSS1RQVFJzX2hMTzhrN0x4cTE0bzNlQko0R21WMWVwc1pOcFU3eVhUNTdLOEVvUQ?oc=5",
+     "time": "2026-10-22T15:52:00+00:00"
     },
     {
-     "title": "Should You Pick Arista Networks Stock Over Its Competitors?",
-     "publisher": "Trefis",
-     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOdE1KQy1saVVQa05YTGZ5WlhVWlRnR3JPaDZmQnVhRVFHaDlKSnVrdmdrbEgxWlJYSEZna2x3UVJUaGl6cEQxT1hhVWg4d0xBOV9zc1JSWTQtLTc3ekdWYlhiS2xScl9LOHZhQlgtaTE1RUlJYlZhanptZ3I1b3NTeFZDUmZ3eXNLbHlvZ0dVckhWdnVVU3pheGcweFdOb1ZuQ1FqVTZydm5EbDI4XzBZbF84YXR1eVhmT3gw?oc=5",
-     "time": "2026-10-22T10:52:40+00:00"
+     "title": "Meta stock sinks 6% as AI spend pushes free cash flow negative",
+     "publisher": "CNBC",
+     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBFSFFjR3I5aUd1LXZFRmNOcEFlM2RxQjdkX05DTmhvS2Z4SDJ1dDlGVWpZVE9hVXBzMlZFSmhxTUhqSFRvZ210RXdKd3JJd3Q1RjU0bHhwdHV3ZlpuV25fb2dxTW1OVUNJczlJNTBVQTNiVjd5WER0T2NUaTVtbDDSAYQBQVVfeXFMUFE4Qjg4VTlqMHB2R05IejZsT1FjYVVmcnBEaTlZV1B5a3NLaWhTazF2Q0UyREpKZFJrakVTWFFVSDJQellSb08wZmFFdjE3eDNINkVjSUJ5ZWM0Z19na3F4SkRJWk5GbXFtUFB3bzYzeS1Fc1ZpUk8yUFNVblJ3di1lZ1pu?oc=5",
+     "time": "2026-10-22T15:41:25+00:00"
     },
     {
-     "title": "Arista Networks, Inc. $ANET Shares Acquired by Crossmark Global Holdings Inc.",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQcnFRQ3ZvSk02bUdoTWRvSEZsSFhrYXZXV29FMlNacEUteDd6NzEwQmc2V2h2T2pkSllKSjh4VjZkWTFHNjdtUHoxYjVRckNrdUZ2Z0pIUXZGTlBGTUU0N1BXTDdhWXo2clNQX0hrdms3eWFpdlN3TFFVM1ROVkFtT1hNMnlPWnIzZXZJZ1NyR2xqMVhUaXlndW5NV2VVTXpvMWpJclJ2eThTaHNEaXphZ29WbXM4ZERLT1o3SGc3Wk9xb2pxZnBDYnlCeGJiTWc?oc=5",
-     "time": "2026-10-22T08:14:51+00:00"
-    },
-    {
-     "title": "13,807 Shares of Arista Networks, Inc. $ANET Purchased by Cantor Fitzgerald Investment Advisors L.P.",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOSWJ5bnZ4a3ZCVGZIcHIwbkdoYzg4U3RpRTVhcW4yNnlZUTlRaks5YjU2Vzd0MEtZTUhqNGlNeGQ2ZVBJYS1WWWhhVlplM3VkZlVXT2U5Zy1PVk8xS2VjVXBVN1RjUzZ2MzZ2dlhpNHhjY2RGOTZJcVNCMDFCbk9wcmNiUkRUbTgzaDdNTEUyblhsWVRBRndLcDFVSzRiVWpoaUNQdlNCUWkwakZ4ZERTTnFsM2RkU3duNUZwWG1kZmJlYUdDU3lPXzItU2I0cWhPUkJldE9UWEZwVVRQbnlGR3JvQzU2anVOMWtZ?oc=5",
-     "time": "2026-10-22T07:41:18+00:00"
-    },
-    {
-     "title": "Arista Networks vs. CrowdStrike: Which Tech Stock Is a Better Buy in 2026?",
-     "publisher": "The Motley Fool",
-     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOazczMGdXNjlxbzBPM1ZRN2NtaGM5cWFDdnc1N3VuMkxoa1hSTVdEeUtlVVhfY2N6b3c2dU9mUW5KejFpQ2lqSUFLckV3RXkxMVloQ3RIcWdHdWR1NmYtWV9MTVJxNW9vX0JnbjZmTUJXQWxXRHRBSmxTRVNkNHJzM3VXNTlYNVhaSGh5SEhLY1QyOUZrc1YzWkU0RlRZWVEyU3hmbm80UWxidEtPWG5YVC1aa09RblBSamhUc0hrNGs0Zw?oc=5",
-     "time": "2026-10-22T02:37:00+00:00"
-    },
-    {
-     "title": "Arista Networks (NYSE:ANET) Shares Climb 1.8% - Should You Buy?",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPR0tDYm9FSjI3UkFkb1JVWk9Iam1OQVNZNExYV2hnSGJrd01NUzM4RW9kOEpiZGViNWUtZXJIS3l0WnJCTE9ma2lfQy1sRTN2Z2FsV3hzc1Nhc3kzMU56R2gtODluNkdzSEJtTkUzZkMzM3RveU9PRjA2U0VncjNNNFk4N2JiV0dEaXduZDdlMXVlZmZkM0JVNTZWTi0xaEZrRUM0aGZDczBQZ2haWVlCdlNuUGt0cVk?oc=5",
-     "time": "2026-10-21T21:47:09+00:00"
-    },
-    {
-     "title": "Arista Networks (ANET) Rises Higher Than Market: Key Facts",
+     "title": "Meta and chip stocks decline as AI trade comes under pressure: AlphaCheck",
      "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNGhPTURKQjdlZ0JwLVN4UXRoejkteExYZ2RwY0QweTlRaHZlQTZFNDN5Ujh1blplMDhYcDV4NklIMWx2VEJyY3h6WGlBTS1scFo2ZHI2M1dUc2FWcWVOWVlJclVsUFBUVDd6YnI5d1ZwaENpWlBwblhUNkhuLVR6UlpjY3c5ckhYM1l6dHNFNnBrTDdSeGl3bHZTelcxblU?oc=5",
-     "time": "2026-10-21T20:45:02+00:00"
+     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQZ2ZfdGdfS21jbGZ2WDZCX241bWs2RTFmdnRFY1FCQVdsS0VLOTdFNk1relhYdHAxT3VrdUY1RzhfdlFtbGRkV3o5MzZVeG93WkxfNzFxczIxWDJOVEZEN0o2eXJiQUN2eGQxRUdNMkEtZm52RUdZTmFmdGJnVEl2YjV3djlkVzExVnJQMFMwRWM5eldrdFRiNnFHQVFQUzhUZWFYOVN0Wlk1Zk96aWdEQ2thRDM2NDVKRFZwNnB0QWdUMGhCQkRtUQ?oc=5",
+     "time": "2026-10-22T15:39:07+00:00"
     },
     {
-     "title": "Arista Networks: No Pricing Power And No Durable Business Model (NYSE:ANET)",
+     "title": "Meta's AI build is Muse-ic to investors' ears (META:NASDAQ)",
      "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQOFBEQXpaY0lIV2VhSkRUWktIWVh0aUtMbVNvME9nYW80c25aRk85bGwxOUhPeHJSTVdqVFhxbzk1VVkwZ2cycXQyclE2bkZoZ2lGeEVyTjRhbzZxX1hQdVdDODlFMF83STNwclpub1QyQlAzenBLbU9lZ3dNcVl4cVNLakNyQ3h4bFFpVlJhR3Z2cEsxdDlQSTg0ZFpjTHNBeHpYNDRB?oc=5",
-     "time": "2026-10-21T20:02:45+00:00"
+     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQnpRTkU2S0U5LXlmNmtDMWItTWx6RUtqemkwS2FXN09PUjZ3azJVVGNlVXU3UFpsU0tLS3NzeW1NWlFxVUtYNFd2dC1PRndzVldxVmlqWmljdG5GTnZLTFloWWxSU0NJZXNmamt0bDhlXzFMejYyMlltQ3ZVSURJM1dEMmJNMm9m?oc=5",
+     "time": "2026-10-22T15:32:56+00:00"
+    },
+    {
+     "title": "Meta\u2019s Stock Split Paves Way for Huge AI Financing Deal",
+     "publisher": "Barron's",
+     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQclVZYi1ZSWIzcjFXUVdfWTUzVVh0eUtRRkxmVllWNm1yYzA1Q2s3dVZmVTdPZDlsNjlSR2pfdnpBMkRoZ0Q2UTU4M1ZPajNuekxVZV9tX3dyXzFLNWZ1THFHQmNPZUxiSHNFVkNrRkVMdXhla0hHSVpabEloYndobUp5bFlmN2M?oc=5",
+     "time": "2026-10-22T15:20:00+00:00"
+    },
+    {
+     "title": "Meta stock drops more than 6% despite strong Q3 results, stock split",
+     "publisher": "AOL.com",
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1remRKbTZTM2c4YWwyNUsyTHdyNHpPR1Q1TW1CZ0M3eDFBMXZPZmVuOWpvTGx0V3h5cHNYMEd3dHkzTG4zbHdLalZnaC01TkhOSXN4WWRtczNKWndGVVNpX0ZfdFBPRXVYdm9zQTE4M0lnZEFDbHc?oc=5",
+     "time": "2026-10-22T15:12:18+00:00"
+    },
+    {
+     "title": "Meta\u2019s new Class C stock to keep Zuckerberg in California, fund AI spending spree",
+     "publisher": "Investing.com",
+     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOendIcEI1OEszaHNVWmpqb3RWZm8wTHctWWEwY0MyVHBDcGVjdmxSdEhySlplVkhVWG9DTmxLeUF2Z1lHQmp3RFVLWlVmTTBTSHRodktObXFUcm01OGxIemlhRk8xUTg0VWJaTF9IblpWSVlTOHhBQ25DclBvUEZGNXRWeG9hLWUxSHRnZ1c2X2hTM1VZN0VsQ293WlZBcDFMNGFqdlNJcVIzYjFzTlp5ZjMxS3NGVy1pRkpaaDg3Z05zRVF2LW81M3JGVjVUTUNJLXc?oc=5",
+     "time": "2026-10-22T15:11:15+00:00"
+    },
+    {
+     "title": "RBC Capital raises Meta stock price target to $800 on AI strength",
+     "publisher": "Investing.com",
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNOC1qY2RIOFktUDFocHFQNE1uSGUzN1VINW4wNWFlRGxSZVJCTk1mQ1Y2dHQ2anhkb2tCMTZzTE9ydlFpcnhJVXNZUVF4N29kajg1Z0hRdndPNzVUUmtHOTBYT2pUYUxleTFLcjNJdml1NnV4QUJrN2NWOFJHcDlJNzBWWXV1SlZUelBlZzJwbzZEVGZMVE1EOU5fMkRrNk9xNFJPS1VKY2ZueDlkNDYxQ1hXeW02WGdMcGx0ODV4Rm9ZUQ?oc=5",
+     "time": "2026-10-22T14:48:16+00:00"
     }
    ],
-   "brief": "2026-10-22-ANET"
+   "brief": "2026-10-22-META"
   },
   {
    "symbol": "AMAT",
    "name": "Applied Materials",
    "list": "portfolio",
-   "price": 379.9,
+   "price": 379.08,
    "prev_close": 408.94,
-   "change_pct": -7.1,
+   "change_pct": -7.3,
    "trigger_change": -4.8,
    "peak_change": -7.3,
    "first_seen": "2026-10-22T14:00:23+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 525.18,
-    "change_pct": -5.66
+    "price": 524.63,
+    "change_pct": -5.76
    },
    "chart": {
-    "ema8": -9.8,
-    "ema21": -16.2,
-    "sma50": -19.5,
-    "sma200": -14.0,
+    "ema8": -10.0,
+    "ema21": -16.4,
+    "sma50": -19.6,
+    "sma200": -14.1,
     "momentum": false
    },
    "headlines": [
@@ -321,26 +246,101 @@
    "brief": "2026-10-22-AMAT"
   },
   {
+   "symbol": "ANET",
+   "name": "Arista Networks",
+   "list": "portfolio",
+   "price": 170.79,
+   "prev_close": 184.33,
+   "change_pct": -7.3,
+   "trigger_change": -3.6,
+   "peak_change": -7.3,
+   "first_seen": "2026-10-22T14:00:23+00:00",
+   "sector": {
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 524.63,
+    "change_pct": -5.76
+   },
+   "chart": {
+    "ema8": -7.8,
+    "ema21": -12.0,
+    "sma50": -13.3,
+    "sma200": 4.4,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Arista Networks (ANET) Is Considered a Good Investment by Brokers: Is That True?",
+     "publisher": "Yahoo Finance UK",
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNYlNNQkozY1FZaTlKbDh1ZGwtSjk4UWNJVmJuMHlJWktQS2pDbF9ONmg5b0l1MGdFOTlQMHIxT2FvQ1FPOHFBMXMydW9WcEhwdjc2aG1yNXNoRS1oT0I2MVZPTGlfVmJYNnk1dmJEY3ZqdzJTal9JN21jc1hzdmh6NW1rTzQ4MDVZRHNwMVNB?oc=5",
+     "time": "2026-10-22T12:30:03+00:00"
+    },
+    {
+     "title": "Should You Pick Arista Networks Stock Over Its Competitors?",
+     "publisher": "Trefis",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOdE1KQy1saVVQa05YTGZ5WlhVWlRnR3JPaDZmQnVhRVFHaDlKSnVrdmdrbEgxWlJYSEZna2x3UVJUaGl6cEQxT1hhVWg4d0xBOV9zc1JSWTQtLTc3ekdWYlhiS2xScl9LOHZhQlgtaTE1RUlJYlZhanptZ3I1b3NTeFZDUmZ3eXNLbHlvZ0dVckhWdnVVU3pheGcweFdOb1ZuQ1FqVTZydm5EbDI4XzBZbF84YXR1eVhmT3gw?oc=5",
+     "time": "2026-10-22T10:52:40+00:00"
+    },
+    {
+     "title": "Arista Networks, Inc. $ANET Shares Acquired by Crossmark Global Holdings Inc.",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQcnFRQ3ZvSk02bUdoTWRvSEZsSFhrYXZXV29FMlNacEUteDd6NzEwQmc2V2h2T2pkSllKSjh4VjZkWTFHNjdtUHoxYjVRckNrdUZ2Z0pIUXZGTlBGTUU0N1BXTDdhWXo2clNQX0hrdms3eWFpdlN3TFFVM1ROVkFtT1hNMnlPWnIzZXZJZ1NyR2xqMVhUaXlndW5NV2VVTXpvMWpJclJ2eThTaHNEaXphZ29WbXM4ZERLT1o3SGc3Wk9xb2pxZnBDYnlCeGJiTWc?oc=5",
+     "time": "2026-10-22T08:14:51+00:00"
+    },
+    {
+     "title": "13,807 Shares of Arista Networks, Inc. $ANET Purchased by Cantor Fitzgerald Investment Advisors L.P.",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOSWJ5bnZ4a3ZCVGZIcHIwbkdoYzg4U3RpRTVhcW4yNnlZUTlRaks5YjU2Vzd0MEtZTUhqNGlNeGQ2ZVBJYS1WWWhhVlplM3VkZlVXT2U5Zy1PVk8xS2VjVXBVN1RjUzZ2MzZ2dlhpNHhjY2RGOTZJcVNCMDFCbk9wcmNiUkRUbTgzaDdNTEUyblhsWVRBRndLcDFVSzRiVWpoaUNQdlNCUWkwakZ4ZERTTnFsM2RkU3duNUZwWG1kZmJlYUdDU3lPXzItU2I0cWhPUkJldE9UWEZwVVRQbnlGR3JvQzU2anVOMWtZ?oc=5",
+     "time": "2026-10-22T07:41:18+00:00"
+    },
+    {
+     "title": "Arista Networks vs. CrowdStrike: Which Tech Stock Is a Better Buy in 2026?",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOazczMGdXNjlxbzBPM1ZRN2NtaGM5cWFDdnc1N3VuMkxoa1hSTVdEeUtlVVhfY2N6b3c2dU9mUW5KejFpQ2lqSUFLckV3RXkxMVloQ3RIcWdHdWR1NmYtWV9MTVJxNW9vX0JnbjZmTUJXQWxXRHRBSmxTRVNkNHJzM3VXNTlYNVhaSGh5SEhLY1QyOUZrc1YzWkU0RlRZWVEyU3hmbm80UWxidEtPWG5YVC1aa09RblBSamhUc0hrNGs0Zw?oc=5",
+     "time": "2026-10-22T02:37:00+00:00"
+    },
+    {
+     "title": "Arista Networks (NYSE:ANET) Shares Climb 1.8% - Should You Buy?",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPR0tDYm9FSjI3UkFkb1JVWk9Iam1OQVNZNExYV2hnSGJrd01NUzM4RW9kOEpiZGViNWUtZXJIS3l0WnJCTE9ma2lfQy1sRTN2Z2FsV3hzc1Nhc3kzMU56R2gtODluNkdzSEJtTkUzZkMzM3RveU9PRjA2U0VncjNNNFk4N2JiV0dEaXduZDdlMXVlZmZkM0JVNTZWTi0xaEZrRUM0aGZDczBQZ2haWVlCdlNuUGt0cVk?oc=5",
+     "time": "2026-10-21T21:47:09+00:00"
+    },
+    {
+     "title": "Arista Networks (ANET) Rises Higher Than Market: Key Facts",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNGhPTURKQjdlZ0JwLVN4UXRoejkteExYZ2RwY0QweTlRaHZlQTZFNDN5Ujh1blplMDhYcDV4NklIMWx2VEJyY3h6WGlBTS1scFo2ZHI2M1dUc2FWcWVOWVlJclVsUFBUVDd6YnI5d1ZwaENpWlBwblhUNkhuLVR6UlpjY3c5ckhYM1l6dHNFNnBrTDdSeGl3bHZTelcxblU?oc=5",
+     "time": "2026-10-21T20:45:02+00:00"
+    },
+    {
+     "title": "Arista Networks: No Pricing Power And No Durable Business Model (NYSE:ANET)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQOFBEQXpaY0lIV2VhSkRUWktIWVh0aUtMbVNvME9nYW80c25aRk85bGwxOUhPeHJSTVdqVFhxbzk1VVkwZ2cycXQyclE2bkZoZ2lGeEVyTjRhbzZxX1hQdVdDODlFMF83STNwclpub1QyQlAzenBLbU9lZ3dNcVl4cVNLakNyQ3h4bFFpVlJhR3Z2cEsxdDlQSTg0ZFpjTHNBeHpYNDRB?oc=5",
+     "time": "2026-10-21T20:02:45+00:00"
+    }
+   ],
+   "brief": "2026-10-22-ANET"
+  },
+  {
    "symbol": "AMZN",
    "name": "Amazon",
    "list": "portfolio",
-   "price": 251.48,
+   "price": 251.21,
    "prev_close": 262.37,
-   "change_pct": -4.2,
+   "change_pct": -4.3,
    "trigger_change": -3.4,
-   "peak_change": -4.2,
+   "peak_change": -4.3,
    "first_seen": "2026-10-22T14:00:23+00:00",
    "sector": {
     "etf": "XLY",
     "name": "Consumer discr.",
-    "price": 115.04,
-    "change_pct": -0.42
+    "price": 115.14,
+    "change_pct": -0.33
    },
    "chart": {
-    "ema8": -2.2,
-    "ema21": -1.7,
-    "sma50": -1.8,
-    "sma200": 3.4,
+    "ema8": -2.3,
+    "ema21": -1.8,
+    "sma50": -1.9,
+    "sma200": 3.3,
     "momentum": true
    },
    "headlines": [
@@ -399,23 +399,23 @@
    "symbol": "NVDA",
    "name": "Nvidia",
    "list": "portfolio",
-   "price": 212.72,
+   "price": 212.49,
    "prev_close": 221.97,
-   "change_pct": -4.2,
+   "change_pct": -4.3,
    "trigger_change": -3.3,
-   "peak_change": -4.2,
+   "peak_change": -4.3,
    "first_seen": "2026-10-22T14:34:34+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 525.18,
-    "change_pct": -5.66
+    "price": 524.63,
+    "change_pct": -5.76
    },
    "chart": {
-    "ema8": -2.9,
-    "ema21": -4.5,
-    "sma50": -4.5,
-    "sma200": 4.5,
+    "ema8": -3.0,
+    "ema21": -4.6,
+    "sma50": -4.6,
+    "sma200": 4.4,
     "momentum": false
    },
    "headlines": [
@@ -474,23 +474,23 @@
    "symbol": "AVGO",
    "name": "Broadcom",
    "list": "portfolio",
-   "price": 324.9,
+   "price": 323.77,
    "prev_close": 337.8,
-   "change_pct": -3.8,
+   "change_pct": -4.2,
    "trigger_change": -3.6,
    "peak_change": -4.5,
    "first_seen": "2026-10-22T14:47:47+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 525.18,
-    "change_pct": -5.66
+    "price": 524.63,
+    "change_pct": -5.76
    },
    "chart": {
-    "ema8": -3.9,
-    "ema21": -6.5,
-    "sma50": -9.4,
-    "sma200": -11.7,
+    "ema8": -4.1,
+    "ema21": -6.8,
+    "sma50": -9.7,
+    "sma200": -12.0,
     "momentum": false
    },
    "headlines": [
@@ -546,96 +546,21 @@
    "brief": "2026-10-22-AVGO"
   },
   {
-   "symbol": "NFLX",
-   "name": "Netflix",
-   "list": "portfolio",
-   "price": 67.36,
-   "prev_close": 65.04,
-   "change_pct": 3.6,
-   "trigger_change": 3.3,
-   "peak_change": 3.6,
-   "first_seen": "2026-10-22T15:56:49+00:00",
-   "sector": {
-    "etf": "XLC",
-    "name": "Communication",
-    "price": 107.27,
-    "change_pct": -1.56
-   },
-   "chart": {
-    "ema8": -1.8,
-    "ema21": -4.0,
-    "sma50": -9.6,
-    "sma200": -18.3,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Netflix: Don\u2019t Start Buying After The Q3 Post-Earnings Price Drop (NASDAQ:NFLX)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNT3I5dV9TZ19FY2lpWExRYkR3enAwSi1wQ2Q3YTlzM3ZIVm9VMWJkZEgzeTRDVTFNSHdLQmZpM0hXMTBIM1FNYlZXLXVpVFJwN0Nzb3FaS2FQTXRlSmt6X3ZhN2ZNWEtjOWxmVjZ6TTdpVk1LcW5iNFI5cUJLQkxEU043MFRrM0M2MW1rWi1FS3VmLVZkd2VNMENURVpVdVRyZ1E?oc=5",
-     "time": "2026-10-22T14:40:44+00:00"
-    },
-    {
-     "title": "Netflix: Frustrating Growth Slowdown, But This Isn't Game Over (NASDAQ:NFLX)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQRnNRaXhQMEVXTmM1TVRkODdCOWtkNnhsNjhWZGpVRUdBS3lINUREbkQwMGx2cEFhbXRsTjVWTjNBWklVT1JlNkpuM05MeHduakhWeklHWndLcE1BZEd6eTU0SmpwU2FYLUtlMFR1Vy1yRjBLWXVCMEtia0NhYzRQZ1hvN1E4SzBfMFNjdGFRaDRhbVVPdHY2QmlSLUUxTTg?oc=5",
-     "time": "2026-10-22T14:30:00+00:00"
-    },
-    {
-     "title": "Netflix Stock: Earnings Are Growing, But The Market Doesn't Care (NASDAQ:NFLX)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOcGs3LUh4Y2g3N2o1MG9walZ3MERlSkJJeGQwM3BMU0NNZ1BpS0FaTURGMTRVZ3hjNHFFejZQTGJqaFhNcHE5eUJzeklUWDJZd3R4ZVBqTjZtQ1B3STZObV91cU1nT2pyY1VJdHJEcXZ5d005Vi1feTFleGFQNjZXS2tMV3JmUjgwUnZlTXBHVzhtTWwyT1hn?oc=5",
-     "time": "2026-10-22T13:32:47+00:00"
-    },
-    {
-     "title": "As Netflix\u2019s Slowdown Becomes More Palpable, I\u2019m Still Not Giving Up on NFLX Stock",
-     "publisher": "Barchart.com",
-     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNV25PMTdvVEpvR1hmVFVSc1AyTjRURjZtb21qTDQxUHllWDdHaVdmRF9mY1JIU2RsQ191T3NhOUFuaW5PZlFtOHVKTTlZNmpaZ3N2RmJ6cnJyNXAwT3R5bV8ya19pb2pFYXVQT2lURW0yNk9OOUlLT3NIeHdzWDNZRW9mTUt1bk9WSEt4WHQyTFgxdS1EWHUxVFAyVDVNYUgyaVp0VE1DY0xnSXZpVlVWY3BuT01vczQxcjVJYUhLZEQ?oc=5",
-     "time": "2026-10-22T11:21:31+00:00"
-    },
-    {
-     "title": "Netflix, Inc. $NFLX Stock: Pinnacle Associates Ltd. Grows Position",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNSUtKcWlzTWRibHZlS21aMFVsVXA5N3BLdWVncDZJeENseXJCRnhyQlhJVTZ0c3BqWkhiTzNPblZDbEZ2SFZXWU9CT0hnNjN4dkpkUDY2SHFyWUpRbGhlZGREN21VTzlMNHpsc2ZTdzVDTWlzRl80bTdzQ2diam1DeDVQVEQtQUxicDBzUVhhdS1QczRWa19iZDlRMjRreVJJY2VaMUFNQnl0bUF0allUMUZwN0RFbms2bUp4c19HVQ?oc=5",
-     "time": "2026-10-22T09:31:14+00:00"
-    },
-    {
-     "title": "Netflix Earnings Q3: NFLX Stock Falls on $2.7B Ad Forecast",
-     "publisher": "Techloy",
-     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPa1dhUTM0S0VadkVwNWVBd2RZSTlabVRYWXNvZE1iUUlQZENPdm5VOXQtalEtdWE2eUI0aUVrc2tCNXdYWUpyWXM0NWhVNjBkQVloU3I3OG1mUzlaLXlIZFVZN010WjZvTXVVZ1Nfc1BCYm1JQmRHc1g1ZjlxWW1raVhHQTNScDROendOdWU1dw?oc=5",
-     "time": "2026-10-22T08:07:17+00:00"
-    },
-    {
-     "title": "Netflix (NASDAQ:NFLX) stock soars as third-quarter streaming results beat today",
-     "publisher": "Kalkine Media",
-     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOWVVvWS15Nlp3TGxHRHVicHV6Y1JaYVJwU2x0NnF4RUtXQjI1V21jQThkWmFueWI3bFlUZTBQX2NlaXQ4RTlCR2JRdTcwbnh5OVdPdnlvYkdlQkxuR09DbU55eHBnc05MZGtLNVA5bE8xdW9CdWFaQ1VtS3ZmUUFBblA5VGFCRk1SajRTazlfVENZY1FBektfRzRHR0dVdG9ZZGJfOU1zeTVaSC0ySEZ4LW9icFFmWDdDaUw5N3BvZGNEWDQ?oc=5",
-     "time": "2026-10-22T06:52:00+00:00"
-    },
-    {
-     "title": "Why Did NFLX, CMG, AVEX Stocks Crash To 52-Week Lows Today?",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNbnlvcTA1OGZ3YVBrMFd3bm16Z0loemw0dVFybDJyU0c2VHc5V0VnazN5MTZVcFh1WFVpejdaaFJRRHhBaUxGNWxpcFdzMXJsUGs2NmpuOU9HcDdERER2VkZxNmRxUmdsVWNBdFliMWFtQ0pFbE1XaGVsMU9Yd2Z5dTVUQTFOTEE5WjZtTFBkMA?oc=5",
-     "time": "2026-10-22T04:29:00+00:00"
-    }
-   ],
-   "brief": null
-  },
-  {
    "symbol": "BTC-USD",
    "name": "Bitcoin",
    "list": "watchlist",
-   "price": 81057.5,
+   "price": 80838.6,
    "prev_close": 84022.5,
-   "change_pct": -3.5,
+   "change_pct": -3.8,
    "trigger_change": -3.0,
-   "peak_change": -3.5,
+   "peak_change": -3.8,
    "first_seen": "2026-10-22T15:16:29+00:00",
    "sector": null,
    "chart": {
-    "ema8": -1.5,
-    "ema21": -1.8,
-    "sma50": -0.9,
-    "sma200": 11.4,
+    "ema8": -1.7,
+    "ema21": -2.0,
+    "sma50": -1.1,
+    "sma200": 11.1,
     "momentum": false
    },
    "headlines": [
@@ -689,6 +614,81 @@
     }
    ],
    "brief": "2026-10-22-BTC-USD"
+  },
+  {
+   "symbol": "NFLX",
+   "name": "Netflix",
+   "list": "portfolio",
+   "price": 67.36,
+   "prev_close": 65.04,
+   "change_pct": 3.6,
+   "trigger_change": 3.3,
+   "peak_change": 3.6,
+   "first_seen": "2026-10-22T15:56:49+00:00",
+   "sector": {
+    "etf": "XLC",
+    "name": "Communication",
+    "price": 107.28,
+    "change_pct": -1.55
+   },
+   "chart": {
+    "ema8": -1.8,
+    "ema21": -4.0,
+    "sma50": -9.6,
+    "sma200": -18.2,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Netflix: Don\u2019t Start Buying After The Q3 Post-Earnings Price Drop (NASDAQ:NFLX)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNT3I5dV9TZ19FY2lpWExRYkR3enAwSi1wQ2Q3YTlzM3ZIVm9VMWJkZEgzeTRDVTFNSHdLQmZpM0hXMTBIM1FNYlZXLXVpVFJwN0Nzb3FaS2FQTXRlSmt6X3ZhN2ZNWEtjOWxmVjZ6TTdpVk1LcW5iNFI5cUJLQkxEU043MFRrM0M2MW1rWi1FS3VmLVZkd2VNMENURVpVdVRyZ1E?oc=5",
+     "time": "2026-10-22T14:40:44+00:00"
+    },
+    {
+     "title": "Netflix: Frustrating Growth Slowdown, But This Isn't Game Over (NASDAQ:NFLX)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQRnNRaXhQMEVXTmM1TVRkODdCOWtkNnhsNjhWZGpVRUdBS3lINUREbkQwMGx2cEFhbXRsTjVWTjNBWklVT1JlNkpuM05MeHduakhWeklHWndLcE1BZEd6eTU0SmpwU2FYLUtlMFR1Vy1yRjBLWXVCMEtia0NhYzRQZ1hvN1E4SzBfMFNjdGFRaDRhbVVPdHY2QmlSLUUxTTg?oc=5",
+     "time": "2026-10-22T14:30:00+00:00"
+    },
+    {
+     "title": "Netflix Stock: Earnings Are Growing, But The Market Doesn't Care (NASDAQ:NFLX)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOcGs3LUh4Y2g3N2o1MG9walZ3MERlSkJJeGQwM3BMU0NNZ1BpS0FaTURGMTRVZ3hjNHFFejZQTGJqaFhNcHE5eUJzeklUWDJZd3R4ZVBqTjZtQ1B3STZObV91cU1nT2pyY1VJdHJEcXZ5d005Vi1feTFleGFQNjZXS2tMV3JmUjgwUnZlTXBHVzhtTWwyT1hn?oc=5",
+     "time": "2026-10-22T13:32:47+00:00"
+    },
+    {
+     "title": "As Netflix\u2019s Slowdown Becomes More Palpable, I\u2019m Still Not Giving Up on NFLX Stock",
+     "publisher": "Barchart.com",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNV25PMTdvVEpvR1hmVFVSc1AyTjRURjZtb21qTDQxUHllWDdHaVdmRF9mY1JIU2RsQ191T3NhOUFuaW5PZlFtOHVKTTlZNmpaZ3N2RmJ6cnJyNXAwT3R5bV8ya19pb2pFYXVQT2lURW0yNk9OOUlLT3NIeHdzWDNZRW9mTUt1bk9WSEt4WHQyTFgxdS1EWHUxVFAyVDVNYUgyaVp0VE1DY0xnSXZpVlVWY3BuT01vczQxcjVJYUhLZEQ?oc=5",
+     "time": "2026-10-22T11:21:31+00:00"
+    },
+    {
+     "title": "Netflix, Inc. $NFLX Stock: Pinnacle Associates Ltd. Grows Position",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNSUtKcWlzTWRibHZlS21aMFVsVXA5N3BLdWVncDZJeENseXJCRnhyQlhJVTZ0c3BqWkhiTzNPblZDbEZ2SFZXWU9CT0hnNjN4dkpkUDY2SHFyWUpRbGhlZGREN21VTzlMNHpsc2ZTdzVDTWlzRl80bTdzQ2diam1DeDVQVEQtQUxicDBzUVhhdS1QczRWa19iZDlRMjRreVJJY2VaMUFNQnl0bUF0allUMUZwN0RFbms2bUp4c19HVQ?oc=5",
+     "time": "2026-10-22T09:31:14+00:00"
+    },
+    {
+     "title": "Netflix Earnings Q3: NFLX Stock Falls on $2.7B Ad Forecast",
+     "publisher": "Techloy",
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPa1dhUTM0S0VadkVwNWVBd2RZSTlabVRYWXNvZE1iUUlQZENPdm5VOXQtalEtdWE2eUI0aUVrc2tCNXdYWUpyWXM0NWhVNjBkQVloU3I3OG1mUzlaLXlIZFVZN010WjZvTXVVZ1Nfc1BCYm1JQmRHc1g1ZjlxWW1raVhHQTNScDROendOdWU1dw?oc=5",
+     "time": "2026-10-22T08:07:17+00:00"
+    },
+    {
+     "title": "Netflix (NASDAQ:NFLX) stock soars as third-quarter streaming results beat today",
+     "publisher": "Kalkine Media",
+     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOWVVvWS15Nlp3TGxHRHVicHV6Y1JaYVJwU2x0NnF4RUtXQjI1V21jQThkWmFueWI3bFlUZTBQX2NlaXQ4RTlCR2JRdTcwbnh5OVdPdnlvYkdlQkxuR09DbU55eHBnc05MZGtLNVA5bE8xdW9CdWFaQ1VtS3ZmUUFBblA5VGFCRk1SajRTazlfVENZY1FBektfRzRHR0dVdG9ZZGJfOU1zeTVaSC0ySEZ4LW9icFFmWDdDaUw5N3BvZGNEWDQ?oc=5",
+     "time": "2026-10-22T06:52:00+00:00"
+    },
+    {
+     "title": "Why Did NFLX, CMG, AVEX Stocks Crash To 52-Week Lows Today?",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNbnlvcTA1OGZ3YVBrMFd3bm16Z0loemw0dVFybDJyU0c2VHc5V0VnazN5MTZVcFh1WFVpejdaaFJRRHhBaUxGNWxpcFdzMXJsUGs2NmpuOU9HcDdERER2VkZxNmRxUmdsVWNBdFliMWFtQ0pFbE1XaGVsMU9Yd2Z5dTVUQTFOTEE5WjZtTFBkMA?oc=5",
+     "time": "2026-10-22T04:29:00+00:00"
+    }
+   ],
+   "brief": null
   }
  ]
 }
