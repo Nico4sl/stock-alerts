@@ -1,22 +1,22 @@
 {
  "date": "2026-10-22",
  "threshold": 3.0,
- "updated": "2026-10-22T15:36:45+00:00",
+ "updated": "2026-10-22T15:56:49+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 763.49,
-   "change_pct": -1.24
+   "price": 764.67,
+   "change_pct": -1.09
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 708.44,
-   "change_pct": -2.31
+   "price": 709.33,
+   "change_pct": -2.19
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 81.36,
-   "change_pct": 1.4
+   "price": 81.4,
+   "change_pct": 1.45
   }
  },
  "movers": [
@@ -28,13 +28,13 @@
    "prev_close": 184.33,
    "change_pct": -7.0,
    "trigger_change": -3.6,
-   "peak_change": -7.0,
+   "peak_change": -7.2,
    "first_seen": "2026-10-22T14:00:23+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 528.03,
-    "change_pct": -5.15
+    "price": 529.18,
+    "change_pct": -4.94
    },
    "chart": {
     "ema8": -7.5,
@@ -99,23 +99,23 @@
    "symbol": "AMAT",
    "name": "Applied Materials",
    "list": "portfolio",
-   "price": 381.49,
+   "price": 382.5,
    "prev_close": 408.94,
-   "change_pct": -6.7,
+   "change_pct": -6.5,
    "trigger_change": -4.8,
    "peak_change": -7.3,
    "first_seen": "2026-10-22T14:00:23+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 528.03,
-    "change_pct": -5.15
+    "price": 529.18,
+    "change_pct": -4.94
    },
    "chart": {
-    "ema8": -9.5,
-    "ema21": -15.9,
-    "sma50": -19.1,
-    "sma200": -13.6,
+    "ema8": -9.3,
+    "ema21": -15.7,
+    "sma50": -18.9,
+    "sma200": -13.4,
     "momentum": false
    },
    "headlines": [
@@ -174,17 +174,17 @@
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 160.44,
+   "price": 160.54,
    "prev_close": 171.57,
-   "change_pct": -6.5,
+   "change_pct": -6.4,
    "trigger_change": -5.4,
    "peak_change": -7.4,
    "first_seen": "2026-10-22T14:00:23+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 109.12,
-    "change_pct": 0.28
+    "price": 109.37,
+    "change_pct": 0.51
    },
    "chart": {
     "ema8": -10.3,
@@ -249,23 +249,23 @@
    "symbol": "META",
    "name": "Meta",
    "list": "portfolio",
-   "price": 656.9,
+   "price": 660.71,
    "prev_close": 697.52,
-   "change_pct": -5.8,
+   "change_pct": -5.3,
    "trigger_change": -5.6,
    "peak_change": -6.8,
    "first_seen": "2026-10-22T14:00:23+00:00",
    "sector": {
     "etf": "XLC",
     "name": "Communication",
-    "price": 107.76,
-    "change_pct": -1.11
+    "price": 108.13,
+    "change_pct": -0.77
    },
    "chart": {
-    "ema8": -6.3,
-    "ema21": -7.2,
-    "sma50": -0.9,
-    "sma200": 3.8,
+    "ema8": -5.9,
+    "ema21": -6.7,
+    "sma50": -0.4,
+    "sma200": 4.4,
     "momentum": false
    },
    "headlines": [
@@ -324,23 +324,23 @@
    "symbol": "AVGO",
    "name": "Broadcom",
    "list": "portfolio",
-   "price": 322.68,
+   "price": 324.28,
    "prev_close": 337.8,
-   "change_pct": -4.5,
+   "change_pct": -4.0,
    "trigger_change": -3.6,
    "peak_change": -4.5,
    "first_seen": "2026-10-22T14:47:47+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 528.03,
-    "change_pct": -5.15
+    "price": 529.18,
+    "change_pct": -4.94
    },
    "chart": {
-    "ema8": -4.4,
-    "ema21": -7.1,
-    "sma50": -10.0,
-    "sma200": -12.3,
+    "ema8": -4.0,
+    "ema21": -6.7,
+    "sma50": -9.6,
+    "sma200": -11.9,
     "momentum": false
    },
    "headlines": [
@@ -396,101 +396,26 @@
    "brief": null
   },
   {
-   "symbol": "AMZN",
-   "name": "Amazon",
-   "list": "portfolio",
-   "price": 252.12,
-   "prev_close": 262.37,
-   "change_pct": -3.9,
-   "trigger_change": -3.4,
-   "peak_change": -4.1,
-   "first_seen": "2026-10-22T14:00:23+00:00",
-   "sector": {
-    "etf": "XLY",
-    "name": "Consumer discr.",
-    "price": 115.36,
-    "change_pct": -0.14
-   },
-   "chart": {
-    "ema8": -2.0,
-    "ema21": -1.5,
-    "sma50": -1.5,
-    "sma200": 3.6,
-    "momentum": true
-   },
-   "headlines": [
-    {
-     "title": "Here\u2019s How Much You Would Have Made Owning Amazon.com Stock In The Last 10 Years",
-     "publisher": "Benzinga",
-     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZVZnc2pUT29jVk94UTlaR1lHMjRjaU5VY2ZZZnNzS3YwRWFBZ00ta0d1c2FlOEFWTlJma1MzTl9tT215eFZxQURwazhwLW1uS0Z1aG5Oa0pfT3JYcmFKdmdqa2E1cVlsb3FnU3RfaEJtbUpCYXVleFhMel9kd2ItcDBYYXRPVmVkN01KanU4UFVLZVkwTWZFQkJyYk5jWW50d1MyX0ZnQXBnbTVOU1YxWEU5UnlXS0Jkb2c?oc=5",
-     "time": "2026-10-22T14:00:45+00:00"
-    },
-    {
-     "title": "Amazon.com Inc Stock (AMZN) Opened Down by 3.50% on Oct 22: Facts Behind the Movement",
-     "publisher": "TradingKey",
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQX3Y3cFRid0NPbU1FYUs3M2xrTVozQ2NyUlY4TVhqZnhzWUx0YnR0MzdKdVROYm1jUWNLc2hrYlYwSlFVMmczMmFINFJwVGJmWnRnbVh2cE9IMzJRLWxzRktaWmtCeWNYdGl3eGZIbk16VzlTWGhkbjF0VklLRHA0dWJGUFpLMG0xRnZj?oc=5",
-     "time": "2026-10-22T13:47:30+00:00"
-    },
-    {
-     "title": "Tech Giants Race To Patch Critical PHP Vulnerabilities Affecting Web Systems",
-     "publisher": "TIKR.com",
-     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPWVdYX19CRGJGTC1odElROXBsWWZUcUExZkloTVVoNzBqYzRFQ1ZqZkZWYkNZWmx4ZUluMEV6cVpvVm1ab2JfdzE0Y3FlY0s2RFI4S0VQaHFMNHpZTU1XRmR5eXp6dnh5SWZBOEIzWWFJVTVOeEF4QkE5M0RPb2s1N0ltZnhhLVA5d0Q0bloxV0U?oc=5",
-     "time": "2026-10-22T13:13:39+00:00"
-    },
-    {
-     "title": "Amazon\u2019s Bee AI Wearables Could Be a New Growth Driver for AMZN Stock",
-     "publisher": "Barchart.com",
-     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQN09OaUVOSU1CTk1HLXZqb2Q2R2pBaGFwMzNRcGRjdDNTanhaRHBKMEFNRW8zeFgybDlnWmpMQW1fRmFWaVZ0QlFTZXg4RzFRdjh2dEVpSWxxb09OdnBYMnN3RnJOWmx1b29tUWVSODFoZzRWSDUxODM3MHl3cEduQ3pzbjRPMWJERlZKWHQzS0xpT25SVG5pY204N3hwcHZseUU2R1c5S1RIcGhWcDAtTDVB?oc=5",
-     "time": "2026-10-22T10:51:33+00:00"
-    },
-    {
-     "title": "1 Analyst Says Amazon Stock Has 30% Upside. What's the Bull Case for Buying Amazon Right Now?",
-     "publisher": "The Motley Fool",
-     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOc3o4a3QxaE5aa2h6eWY2NW4tMS1tNkZYSGd1NTZWMWdZd2VlaHc3eE9KazlCQnBqUVdJdWlyTHExbE5FYUQ5czVkWDBnY21SV3ZGLVA1YjkyWVFNYUtUU0RReHpXRV9ValZ3dVMxQ0JsaHN6Y005dXM4RUlPWWFmZ1FFaVdFZ0t3TTQ2Nw?oc=5",
-     "time": "2026-10-22T09:27:00+00:00"
-    },
-    {
-     "title": "Amazon.com, Inc. $AMZN Stock Position Lessened by Three Magnolias Financial Advisors LLC",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPRU5BMzJQb3dyazlYaUMtM3E5VFNOTUVXcUVUTF9xR1o3U2docHpXRklhWWZQTDNzdzlZV1BhVTVqZFg2TWR6U1BLNHZkT3FKQ3lnVl9wOUFVcEItNm5QVWstN1BBdnhmVm1ubVpwLUN6TmhNN0QxMko4U2ViVC0wVUNURjFOMW1tTUVuVEJXU1JjbzRfdXNjOG1XTDhxajY5UjF6UWwyMEVLdG8yTERGRDlXM0ZkUW1qM1JLaDJSSkVvWmFkZkViQ1VLcFlCSXNCa21XOEozNlQ0ejQzNGc?oc=5",
-     "time": "2026-10-22T09:13:01+00:00"
-    },
-    {
-     "title": "Amazon.com, Inc. $AMZN Stock: SFM LLC d b a Sweeney Financial Advisors Cuts Stake",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNb2NGV0s1VnFnMjhFSHRuaWpSek5iSlRJWDVjWHBnVS1aN2pkcUk3eVB4OXBhNkpDNlpsb05XYnBfYWNkM2x1THdFbjVjSGZqdHR0NVNXOHpBaGxCYk5mTUhqV3RRMU5CSHVkcWxIYTJYYnYxMExPQmxMdUlqLVZ2UjFzRGM0SmU4MDcxRW1WNG9tX0FpZTZiYktZZm5yYkE4YVJ1elpOamJlYTRoR1ZvbEhuUEhwckRuR29QSlhNV2ZzTkgyOTdmQ21kSnA2T0xwUHRV?oc=5",
-     "time": "2026-10-22T09:12:59+00:00"
-    },
-    {
-     "title": "Amazon.com, Inc. $AMZN Shares Sold by WealthSpring Partners LLC",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxONWszLXEwNE1pSlhoVEE4S01haDZiU0N0LXJxazQzaFZiOG5XR1RXNUVLUTFNcUhLbmdMXzd2aVhvQjJ5WEhqTWNKYmQ5YnFtRG5tTzZUZHRmaTRxRlBoaWkyZ0NoWTNveDU4QXo1U1VTOTRkR3ZOQzE4NlF5YmJHZUhVZkpyQlFUd3lIdXhiazh4Vy05T1ZpMV9xeGtVRkw4bFdLMGttcEFpNnJxZS14bEVCWU9jNElmbVFFWQ?oc=5",
-     "time": "2026-10-22T09:12:59+00:00"
-    }
-   ],
-   "brief": "2026-10-22-AMZN"
-  },
-  {
    "symbol": "NVDA",
    "name": "Nvidia",
    "list": "portfolio",
-   "price": 213.31,
+   "price": 213.5,
    "prev_close": 221.97,
-   "change_pct": -3.9,
+   "change_pct": -3.8,
    "trigger_change": -3.3,
    "peak_change": -4.2,
    "first_seen": "2026-10-22T14:34:34+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 528.03,
-    "change_pct": -5.15
+    "price": 529.18,
+    "change_pct": -4.94
    },
    "chart": {
     "ema8": -2.7,
-    "ema21": -4.3,
-    "sma50": -4.3,
-    "sma200": 4.8,
+    "ema21": -4.2,
+    "sma50": -4.2,
+    "sma200": 4.9,
     "momentum": false
    },
    "headlines": [
@@ -546,10 +471,160 @@
    "brief": "2026-10-22-NVDA"
   },
   {
+   "symbol": "AMZN",
+   "name": "Amazon",
+   "list": "portfolio",
+   "price": 252.63,
+   "prev_close": 262.37,
+   "change_pct": -3.7,
+   "trigger_change": -3.4,
+   "peak_change": -4.1,
+   "first_seen": "2026-10-22T14:00:23+00:00",
+   "sector": {
+    "etf": "XLY",
+    "name": "Consumer discr.",
+    "price": 115.55,
+    "change_pct": 0.02
+   },
+   "chart": {
+    "ema8": -1.9,
+    "ema21": -1.3,
+    "sma50": -1.3,
+    "sma200": 3.8,
+    "momentum": true
+   },
+   "headlines": [
+    {
+     "title": "Here\u2019s How Much You Would Have Made Owning Amazon.com Stock In The Last 10 Years",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZVZnc2pUT29jVk94UTlaR1lHMjRjaU5VY2ZZZnNzS3YwRWFBZ00ta0d1c2FlOEFWTlJma1MzTl9tT215eFZxQURwazhwLW1uS0Z1aG5Oa0pfT3JYcmFKdmdqa2E1cVlsb3FnU3RfaEJtbUpCYXVleFhMel9kd2ItcDBYYXRPVmVkN01KanU4UFVLZVkwTWZFQkJyYk5jWW50d1MyX0ZnQXBnbTVOU1YxWEU5UnlXS0Jkb2c?oc=5",
+     "time": "2026-10-22T14:00:45+00:00"
+    },
+    {
+     "title": "Amazon.com Inc Stock (AMZN) Opened Down by 3.50% on Oct 22: Facts Behind the Movement",
+     "publisher": "TradingKey",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQX3Y3cFRid0NPbU1FYUs3M2xrTVozQ2NyUlY4TVhqZnhzWUx0YnR0MzdKdVROYm1jUWNLc2hrYlYwSlFVMmczMmFINFJwVGJmWnRnbVh2cE9IMzJRLWxzRktaWmtCeWNYdGl3eGZIbk16VzlTWGhkbjF0VklLRHA0dWJGUFpLMG0xRnZj?oc=5",
+     "time": "2026-10-22T13:47:30+00:00"
+    },
+    {
+     "title": "Tech Giants Race To Patch Critical PHP Vulnerabilities Affecting Web Systems",
+     "publisher": "TIKR.com",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPWVdYX19CRGJGTC1odElROXBsWWZUcUExZkloTVVoNzBqYzRFQ1ZqZkZWYkNZWmx4ZUluMEV6cVpvVm1ab2JfdzE0Y3FlY0s2RFI4S0VQaHFMNHpZTU1XRmR5eXp6dnh5SWZBOEIzWWFJVTVOeEF4QkE5M0RPb2s1N0ltZnhhLVA5d0Q0bloxV0U?oc=5",
+     "time": "2026-10-22T13:13:39+00:00"
+    },
+    {
+     "title": "Amazon\u2019s Bee AI Wearables Could Be a New Growth Driver for AMZN Stock",
+     "publisher": "Barchart.com",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQN09OaUVOSU1CTk1HLXZqb2Q2R2pBaGFwMzNRcGRjdDNTanhaRHBKMEFNRW8zeFgybDlnWmpMQW1fRmFWaVZ0QlFTZXg4RzFRdjh2dEVpSWxxb09OdnBYMnN3RnJOWmx1b29tUWVSODFoZzRWSDUxODM3MHl3cEduQ3pzbjRPMWJERlZKWHQzS0xpT25SVG5pY204N3hwcHZseUU2R1c5S1RIcGhWcDAtTDVB?oc=5",
+     "time": "2026-10-22T10:51:33+00:00"
+    },
+    {
+     "title": "1 Analyst Says Amazon Stock Has 30% Upside. What's the Bull Case for Buying Amazon Right Now?",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOc3o4a3QxaE5aa2h6eWY2NW4tMS1tNkZYSGd1NTZWMWdZd2VlaHc3eE9KazlCQnBqUVdJdWlyTHExbE5FYUQ5czVkWDBnY21SV3ZGLVA1YjkyWVFNYUtUU0RReHpXRV9ValZ3dVMxQ0JsaHN6Y005dXM4RUlPWWFmZ1FFaVdFZ0t3TTQ2Nw?oc=5",
+     "time": "2026-10-22T09:27:00+00:00"
+    },
+    {
+     "title": "Amazon.com, Inc. $AMZN Stock Position Lessened by Three Magnolias Financial Advisors LLC",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPRU5BMzJQb3dyazlYaUMtM3E5VFNOTUVXcUVUTF9xR1o3U2docHpXRklhWWZQTDNzdzlZV1BhVTVqZFg2TWR6U1BLNHZkT3FKQ3lnVl9wOUFVcEItNm5QVWstN1BBdnhmVm1ubVpwLUN6TmhNN0QxMko4U2ViVC0wVUNURjFOMW1tTUVuVEJXU1JjbzRfdXNjOG1XTDhxajY5UjF6UWwyMEVLdG8yTERGRDlXM0ZkUW1qM1JLaDJSSkVvWmFkZkViQ1VLcFlCSXNCa21XOEozNlQ0ejQzNGc?oc=5",
+     "time": "2026-10-22T09:13:01+00:00"
+    },
+    {
+     "title": "Amazon.com, Inc. $AMZN Stock: SFM LLC d b a Sweeney Financial Advisors Cuts Stake",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNb2NGV0s1VnFnMjhFSHRuaWpSek5iSlRJWDVjWHBnVS1aN2pkcUk3eVB4OXBhNkpDNlpsb05XYnBfYWNkM2x1THdFbjVjSGZqdHR0NVNXOHpBaGxCYk5mTUhqV3RRMU5CSHVkcWxIYTJYYnYxMExPQmxMdUlqLVZ2UjFzRGM0SmU4MDcxRW1WNG9tX0FpZTZiYktZZm5yYkE4YVJ1elpOamJlYTRoR1ZvbEhuUEhwckRuR29QSlhNV2ZzTkgyOTdmQ21kSnA2T0xwUHRV?oc=5",
+     "time": "2026-10-22T09:12:59+00:00"
+    },
+    {
+     "title": "Amazon.com, Inc. $AMZN Shares Sold by WealthSpring Partners LLC",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxONWszLXEwNE1pSlhoVEE4S01haDZiU0N0LXJxazQzaFZiOG5XR1RXNUVLUTFNcUhLbmdMXzd2aVhvQjJ5WEhqTWNKYmQ5YnFtRG5tTzZUZHRmaTRxRlBoaWkyZ0NoWTNveDU4QXo1U1VTOTRkR3ZOQzE4NlF5YmJHZUhVZkpyQlFUd3lIdXhiazh4Vy05T1ZpMV9xeGtVRkw4bFdLMGttcEFpNnJxZS14bEVCWU9jNElmbVFFWQ?oc=5",
+     "time": "2026-10-22T09:12:59+00:00"
+    }
+   ],
+   "brief": "2026-10-22-AMZN"
+  },
+  {
+   "symbol": "NFLX",
+   "name": "Netflix",
+   "list": "portfolio",
+   "price": 67.16,
+   "prev_close": 65.04,
+   "change_pct": 3.3,
+   "trigger_change": 3.3,
+   "peak_change": 3.3,
+   "first_seen": "2026-10-22T15:56:49+00:00",
+   "sector": {
+    "etf": "XLC",
+    "name": "Communication",
+    "price": 108.13,
+    "change_pct": -0.77
+   },
+   "chart": {
+    "ema8": -2.1,
+    "ema21": -4.3,
+    "sma50": -9.9,
+    "sma200": -18.5,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Netflix: Don\u2019t Start Buying After The Q3 Post-Earnings Price Drop (NASDAQ:NFLX)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNT3I5dV9TZ19FY2lpWExRYkR3enAwSi1wQ2Q3YTlzM3ZIVm9VMWJkZEgzeTRDVTFNSHdLQmZpM0hXMTBIM1FNYlZXLXVpVFJwN0Nzb3FaS2FQTXRlSmt6X3ZhN2ZNWEtjOWxmVjZ6TTdpVk1LcW5iNFI5cUJLQkxEU043MFRrM0M2MW1rWi1FS3VmLVZkd2VNMENURVpVdVRyZ1E?oc=5",
+     "time": "2026-10-22T14:40:44+00:00"
+    },
+    {
+     "title": "Netflix: Frustrating Growth Slowdown, But This Isn't Game Over (NASDAQ:NFLX)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQRnNRaXhQMEVXTmM1TVRkODdCOWtkNnhsNjhWZGpVRUdBS3lINUREbkQwMGx2cEFhbXRsTjVWTjNBWklVT1JlNkpuM05MeHduakhWeklHWndLcE1BZEd6eTU0SmpwU2FYLUtlMFR1Vy1yRjBLWXVCMEtia0NhYzRQZ1hvN1E4SzBfMFNjdGFRaDRhbVVPdHY2QmlSLUUxTTg?oc=5",
+     "time": "2026-10-22T14:30:00+00:00"
+    },
+    {
+     "title": "Netflix Stock: Earnings Are Growing, But The Market Doesn't Care (NASDAQ:NFLX)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOcGs3LUh4Y2g3N2o1MG9walZ3MERlSkJJeGQwM3BMU0NNZ1BpS0FaTURGMTRVZ3hjNHFFejZQTGJqaFhNcHE5eUJzeklUWDJZd3R4ZVBqTjZtQ1B3STZObV91cU1nT2pyY1VJdHJEcXZ5d005Vi1feTFleGFQNjZXS2tMV3JmUjgwUnZlTXBHVzhtTWwyT1hn?oc=5",
+     "time": "2026-10-22T13:32:47+00:00"
+    },
+    {
+     "title": "As Netflix\u2019s Slowdown Becomes More Palpable, I\u2019m Still Not Giving Up on NFLX Stock",
+     "publisher": "Barchart.com",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNV25PMTdvVEpvR1hmVFVSc1AyTjRURjZtb21qTDQxUHllWDdHaVdmRF9mY1JIU2RsQ191T3NhOUFuaW5PZlFtOHVKTTlZNmpaZ3N2RmJ6cnJyNXAwT3R5bV8ya19pb2pFYXVQT2lURW0yNk9OOUlLT3NIeHdzWDNZRW9mTUt1bk9WSEt4WHQyTFgxdS1EWHUxVFAyVDVNYUgyaVp0VE1DY0xnSXZpVlVWY3BuT01vczQxcjVJYUhLZEQ?oc=5",
+     "time": "2026-10-22T11:21:31+00:00"
+    },
+    {
+     "title": "Netflix, Inc. $NFLX Stock: Pinnacle Associates Ltd. Grows Position",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNSUtKcWlzTWRibHZlS21aMFVsVXA5N3BLdWVncDZJeENseXJCRnhyQlhJVTZ0c3BqWkhiTzNPblZDbEZ2SFZXWU9CT0hnNjN4dkpkUDY2SHFyWUpRbGhlZGREN21VTzlMNHpsc2ZTdzVDTWlzRl80bTdzQ2diam1DeDVQVEQtQUxicDBzUVhhdS1QczRWa19iZDlRMjRreVJJY2VaMUFNQnl0bUF0allUMUZwN0RFbms2bUp4c19HVQ?oc=5",
+     "time": "2026-10-22T09:31:14+00:00"
+    },
+    {
+     "title": "Why Is Netflix Stock Down? NFLX Shares Falls 5% to Two-Year Low Near $65",
+     "publisher": "Finance Magnates",
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQYzFXTlk3VmdOZDZDWEZUWkhVaXR0QVBMXzlLRE0yTkNJblg3bkZjcGxKRl90eTFKNFA4WEx6dVhKNTlBTnZIcVZUQ3pFeFBFNENMY25MZ3Uzci15TUZQaGlsZmVtYUdoWDhabTFpSzZ5Z2Z5ODRQakFaZVk0TUpfZGs5ZUpVNDNNTG1kWlNjZmc1aWpMLXFCYW5ZZmtGUGdoYlZ0SGV6UWJwV0l1MFpCaQ?oc=5",
+     "time": "2026-10-22T09:16:00+00:00"
+    },
+    {
+     "title": "Netflix Earnings Q3: NFLX Stock Falls on $2.7B Ad Forecast",
+     "publisher": "Techloy",
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPa1dhUTM0S0VadkVwNWVBd2RZSTlabVRYWXNvZE1iUUlQZENPdm5VOXQtalEtdWE2eUI0aUVrc2tCNXdYWUpyWXM0NWhVNjBkQVloU3I3OG1mUzlaLXlIZFVZN010WjZvTXVVZ1Nfc1BCYm1JQmRHc1g1ZjlxWW1raVhHQTNScDROendOdWU1dw?oc=5",
+     "time": "2026-10-22T08:07:17+00:00"
+    },
+    {
+     "title": "Netflix (NASDAQ:NFLX) stock soars as third-quarter streaming results beat today",
+     "publisher": "Kalkine Media",
+     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOWVVvWS15Nlp3TGxHRHVicHV6Y1JaYVJwU2x0NnF4RUtXQjI1V21jQThkWmFueWI3bFlUZTBQX2NlaXQ4RTlCR2JRdTcwbnh5OVdPdnlvYkdlQkxuR09DbU55eHBnc05MZGtLNVA5bE8xdW9CdWFaQ1VtS3ZmUUFBblA5VGFCRk1SajRTazlfVENZY1FBektfRzRHR0dVdG9ZZGJfOU1zeTVaSC0ySEZ4LW9icFFmWDdDaUw5N3BvZGNEWDQ?oc=5",
+     "time": "2026-10-22T06:52:00+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
    "symbol": "BTC-USD",
    "name": "Bitcoin",
    "list": "watchlist",
-   "price": 81553.1,
+   "price": 81570.9,
    "prev_close": 84022.5,
    "change_pct": -2.9,
    "trigger_change": -3.0,
@@ -560,7 +635,7 @@
     "ema8": -1.0,
     "ema21": -1.2,
     "sma50": -0.3,
-    "sma200": 12.0,
+    "sma200": 12.1,
     "momentum": false
    },
    "headlines": [
