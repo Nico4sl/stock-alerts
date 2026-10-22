@@ -1,121 +1,46 @@
 {
  "date": "2026-10-22",
  "threshold": 3.0,
- "updated": "2026-10-22T19:37:44+00:00",
+ "updated": "2026-10-22T19:52:45+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 762.2,
-   "change_pct": -1.41
+   "price": 763.26,
+   "change_pct": -1.27
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 702.92,
-   "change_pct": -3.07
+   "price": 704.65,
+   "change_pct": -2.83
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 81.78,
-   "change_pct": 1.92
+   "price": 81.72,
+   "change_pct": 1.85
   }
  },
  "movers": [
   {
-   "symbol": "NBIS",
-   "name": "Nebius",
-   "list": "portfolio",
-   "price": 157.47,
-   "prev_close": 171.57,
-   "change_pct": -8.2,
-   "trigger_change": -5.4,
-   "peak_change": -9.2,
-   "first_seen": "2026-10-22T14:00:23+00:00",
-   "sector": {
-    "etf": "IGV",
-    "name": "Software",
-    "price": 108.51,
-    "change_pct": -0.28
-   },
-   "chart": {
-    "ema8": -11.7,
-    "ema21": -21.1,
-    "sma50": -28.3,
-    "sma200": -10.3,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Nebius Says It Is \u2018Sequencing\u2019 Its Financing After Getting $3.5B From Citi, With Bigger Asset-Backed Loans Still to Come",
-     "publisher": "Stocktwits",
-     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQZW8xVVZNbkt3MDlRWFlYdm5aQS1EMjQxamRtWFUzYW9lalNJQ09TOHpfcDZNWTBkLXFncG9VNTlpd2lJVUlXX0ptSVlzNlRkT0VsWHNFVV9jZG96aVlLTlRSU19JQkp2cTA1NE5MV1NJdE5sWGhhQjJxSDJGUlpKSURtQmFwaXpNUm43aWxRa0xvSUxReVd2RFRxeHhhSEpkQXFpdzhFTHF5c2pROUZuWUpReUMtZVBqNmduSjFzdVFIWFlmS1ZST1VZNA?oc=5",
-     "time": "2026-10-22T18:36:54+00:00"
-    },
-    {
-     "title": "Nebius Group (NBIS) Has A Fresh Update, But What Is Drawing Attention Now?",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNdnFnR3hPbnZOQjBMaUNtQUxmMGZzdllvSTNUbmV0RVZjTFFTNmpXVDNwd0VPLW9senAydTlncHR6a2pFU2pLQkIyMUlhaVpNNjJwVWxFRkFHYjg0T1F2dU1wR0Zpdm9EandiRkp6WUc4Uy1JajI5S3JGY1R3QWsyQndodUFNS3BZeW13WmVGLVlVNEZncVh6LUVPYWI?oc=5",
-     "time": "2026-10-22T18:17:26+00:00"
-    },
-    {
-     "title": "Nebius Declines 6% Despite Fresh Citi Financing; CoreWeave Drops 5%, Cloudflare Edges Higher",
-     "publisher": "24/7 Wall St.",
-     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQUlFCdHUxQkYyX1d3ejR5ZDJGaEx4aE94ejEwSkd0NElLbF9uaWdMcnFiMXFuLUZJY0FGQ29xbXk2S2pPM1AzSktRb3B0Y1Z0V3RER3R0QnV4MlF3eWIwVVFMX29QaHdNQmxCUGJHVmhyZ2lMVmtHTHBkVzVhZkhHeFExc05RSXlLZ0pUdnlBZVZJRVpDN1lnckxNSlp4TkNIYTlqOUljUDhEN2xNQTFLTjVNRlU0Q01xVTMxUjg3alVoQld2NWVkM2hkYWg?oc=5",
-     "time": "2026-10-22T14:47:00+00:00"
-    },
-    {
-     "title": "What's Going On With Nebius Stock Thursday?",
-     "publisher": "Benzinga",
-     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPU2dKOGJYMXNYRWVhM3lSVHlzWXVFTHNUN1EwTlVyOHZvQXhTSHV1ck1ja0JPM0tHSVhOQmpHckpVZ2tPV1BibklBelJJdzhEaWVldEVJT0hhSEY2RUJ6aTZ5bDdreXAyYVZXWFczdTVvLWU5SlY3OUhRMUhKbGt2LWczLXFrQW9UeHAxSE5faTJoNUNPYzE1UEgxU1YxbGRVWDNaRw?oc=5",
-     "time": "2026-10-22T13:14:46+00:00"
-    },
-    {
-     "title": "Nebius Group NBIS Slides As Bears Lean In On AI Hype",
-     "publisher": "Timothy Sykes",
-     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5aN0JRdmVPT05IME5OYnAzWi1MbEpoRmZhTVNmLWJlTVBQQ3VteTh1Z045ODBMZTY2TVVObWVYNFJHM1ROSjRMbXNObG9YNmRJdjA4ZTBOWjlrZ0dFdVhtNjFsYzlHb3FhZDI5N1FhcXR3TzBWc1NrRmRwYw?oc=5",
-     "time": "2026-10-22T12:32:00+00:00"
-    },
-    {
-     "title": "Nebius Group (NBIS) Secures $3.5B Credit Facility to Fuel Expans",
-     "publisher": "GuruFocus",
-     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxObHdzeFZqbklWVDJtVFlFOWkzb3Rnd2NQRk9fdnhia3lsOEJNdFAyVXB5OEw2RDJuN2U1eGwwVmw5UV84YnVLWVlpS194MFNQSzhjVFRxTVNhZnBiOVEzSGlCRUhlX2Y3TVRnTjN6VmFqckJQZ3hSX09qcUpLYnhEcTA0bV91SHN4czExbUdHS0tsZ1RoMUZROVZwVkc4TEFjZ2VWdlFtVTRlRnZxZEQtTXROTUJ3SEtqS2ZfdGwxTld2cThrSmlR?oc=5",
-     "time": "2026-10-22T12:06:44+00:00"
-    },
-    {
-     "title": "Nebius secures $3.5 billion financing facility with Citi",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPaWZjc0dSRk1ZOTNzaHA3aVFYTHdIQjlxbnVqVkFkSzN1RUlXenIyVWMwWF9IUnZqeHktU3JNb3IzeU82MGNYbjJJNFhONXVyNlItYjUxYWZ1WGMwMUpBOUxTSDJ1eFdCNTg3SHhMOElSc0g1bGthNUM1dzRGWjZoS196djNJbjJVOTJnbU5nVTVZbExqMHc?oc=5",
-     "time": "2026-10-22T11:00:00+00:00"
-    },
-    {
-     "title": "Nebius Group N.V. $NBIS Stock: Pinnacle Associates Ltd. Decreases Position",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQTXhsbFdUQUdTdy13TUxTalFpdEZNUnZGUEIwYnV0a0tfT0FZeWtxWFZkcTFGU3hDVUd0VldpMV9lTkJBMENTd1BqZnk1TUZPcTJjUG80dnhDT0lwcmdJbWR1MHZvRHZOckRSeVNOXzFnSFZLZk9yRHAyY2Z6bU5MUnNGMnlBZHd5QlJSc19QSURlWkp2NjBmSUxUSC1JcU1wOHd2V1FTTjdwd3p0RTlERTZIRDlHRmZEaFRjMGkxSERNbW45aUFZN093?oc=5",
-     "time": "2026-10-22T09:29:33+00:00"
-    }
-   ],
-   "brief": "2026-10-22-NBIS"
-  },
-  {
    "symbol": "AMAT",
    "name": "Applied Materials",
    "list": "portfolio",
-   "price": 376.02,
+   "price": 376.74,
    "prev_close": 408.94,
-   "change_pct": -8.1,
+   "change_pct": -7.9,
    "trigger_change": -4.8,
-   "peak_change": -8.1,
+   "peak_change": -8.2,
    "first_seen": "2026-10-22T14:00:23+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 521.41,
-    "change_pct": -6.34
+    "price": 524.11,
+    "change_pct": -5.85
    },
    "chart": {
-    "ema8": -10.6,
-    "ema21": -17.0,
-    "sma50": -20.3,
-    "sma200": -14.8,
+    "ema8": -10.4,
+    "ema21": -16.9,
+    "sma50": -20.1,
+    "sma200": -14.7,
     "momentum": false
    },
    "headlines": [
@@ -171,26 +96,101 @@
    "brief": "2026-10-22-AMAT"
   },
   {
+   "symbol": "NBIS",
+   "name": "Nebius",
+   "list": "portfolio",
+   "price": 158.72,
+   "prev_close": 171.57,
+   "change_pct": -7.5,
+   "trigger_change": -5.4,
+   "peak_change": -9.2,
+   "first_seen": "2026-10-22T14:00:23+00:00",
+   "sector": {
+    "etf": "IGV",
+    "name": "Software",
+    "price": 108.72,
+    "change_pct": -0.09
+   },
+   "chart": {
+    "ema8": -11.1,
+    "ema21": -20.5,
+    "sma50": -27.8,
+    "sma200": -9.6,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Nebius Says It Is \u2018Sequencing\u2019 Its Financing After Getting $3.5B From Citi, With Bigger Asset-Backed Loans Still to Come",
+     "publisher": "Stocktwits",
+     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQZW8xVVZNbkt3MDlRWFlYdm5aQS1EMjQxamRtWFUzYW9lalNJQ09TOHpfcDZNWTBkLXFncG9VNTlpd2lJVUlXX0ptSVlzNlRkT0VsWHNFVV9jZG96aVlLTlRSU19JQkp2cTA1NE5MV1NJdE5sWGhhQjJxSDJGUlpKSURtQmFwaXpNUm43aWxRa0xvSUxReVd2RFRxeHhhSEpkQXFpdzhFTHF5c2pROUZuWUpReUMtZVBqNmduSjFzdVFIWFlmS1ZST1VZNA?oc=5",
+     "time": "2026-10-22T18:36:54+00:00"
+    },
+    {
+     "title": "Nebius Group (NBIS) Has A Fresh Update, But What Is Drawing Attention Now?",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNdnFnR3hPbnZOQjBMaUNtQUxmMGZzdllvSTNUbmV0RVZjTFFTNmpXVDNwd0VPLW9senAydTlncHR6a2pFU2pLQkIyMUlhaVpNNjJwVWxFRkFHYjg0T1F2dU1wR0Zpdm9EandiRkp6WUc4Uy1JajI5S3JGY1R3QWsyQndodUFNS3BZeW13WmVGLVlVNEZncVh6LUVPYWI?oc=5",
+     "time": "2026-10-22T18:17:26+00:00"
+    },
+    {
+     "title": "Nebius Declines 6% Despite Fresh Citi Financing; CoreWeave Drops 5%, Cloudflare Edges Higher",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQUlFCdHUxQkYyX1d3ejR5ZDJGaEx4aE94ejEwSkd0NElLbF9uaWdMcnFiMXFuLUZJY0FGQ29xbXk2S2pPM1AzSktRb3B0Y1Z0V3RER3R0QnV4MlF3eWIwVVFMX29QaHdNQmxCUGJHVmhyZ2lMVmtHTHBkVzVhZkhHeFExc05RSXlLZ0pUdnlBZVZJRVpDN1lnckxNSlp4TkNIYTlqOUljUDhEN2xNQTFLTjVNRlU0Q01xVTMxUjg3alVoQld2NWVkM2hkYWg?oc=5",
+     "time": "2026-10-22T14:47:00+00:00"
+    },
+    {
+     "title": "What's Going On With Nebius Stock Thursday?",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPU2dKOGJYMXNYRWVhM3lSVHlzWXVFTHNUN1EwTlVyOHZvQXhTSHV1ck1ja0JPM0tHSVhOQmpHckpVZ2tPV1BibklBelJJdzhEaWVldEVJT0hhSEY2RUJ6aTZ5bDdreXAyYVZXWFczdTVvLWU5SlY3OUhRMUhKbGt2LWczLXFrQW9UeHAxSE5faTJoNUNPYzE1UEgxU1YxbGRVWDNaRw?oc=5",
+     "time": "2026-10-22T13:14:46+00:00"
+    },
+    {
+     "title": "Nebius Group NBIS Slides As Bears Lean In On AI Hype",
+     "publisher": "Timothy Sykes",
+     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5aN0JRdmVPT05IME5OYnAzWi1MbEpoRmZhTVNmLWJlTVBQQ3VteTh1Z045ODBMZTY2TVVObWVYNFJHM1ROSjRMbXNObG9YNmRJdjA4ZTBOWjlrZ0dFdVhtNjFsYzlHb3FhZDI5N1FhcXR3TzBWc1NrRmRwYw?oc=5",
+     "time": "2026-10-22T12:32:00+00:00"
+    },
+    {
+     "title": "Nebius Group (NBIS) Secures $3.5B Credit Facility to Fuel Expans",
+     "publisher": "GuruFocus",
+     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxObHdzeFZqbklWVDJtVFlFOWkzb3Rnd2NQRk9fdnhia3lsOEJNdFAyVXB5OEw2RDJuN2U1eGwwVmw5UV84YnVLWVlpS194MFNQSzhjVFRxTVNhZnBiOVEzSGlCRUhlX2Y3TVRnTjN6VmFqckJQZ3hSX09qcUpLYnhEcTA0bV91SHN4czExbUdHS0tsZ1RoMUZROVZwVkc4TEFjZ2VWdlFtVTRlRnZxZEQtTXROTUJ3SEtqS2ZfdGwxTld2cThrSmlR?oc=5",
+     "time": "2026-10-22T12:06:44+00:00"
+    },
+    {
+     "title": "Nebius secures $3.5 billion financing facility with Citi",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPaWZjc0dSRk1ZOTNzaHA3aVFYTHdIQjlxbnVqVkFkSzN1RUlXenIyVWMwWF9IUnZqeHktU3JNb3IzeU82MGNYbjJJNFhONXVyNlItYjUxYWZ1WGMwMUpBOUxTSDJ1eFdCNTg3SHhMOElSc0g1bGthNUM1dzRGWjZoS196djNJbjJVOTJnbU5nVTVZbExqMHc?oc=5",
+     "time": "2026-10-22T11:00:00+00:00"
+    },
+    {
+     "title": "Nebius Group N.V. $NBIS Stock: Pinnacle Associates Ltd. Decreases Position",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQTXhsbFdUQUdTdy13TUxTalFpdEZNUnZGUEIwYnV0a0tfT0FZeWtxWFZkcTFGU3hDVUd0VldpMV9lTkJBMENTd1BqZnk1TUZPcTJjUG80dnhDT0lwcmdJbWR1MHZvRHZOckRSeVNOXzFnSFZLZk9yRHAyY2Z6bU5MUnNGMnlBZHd5QlJSc19QSURlWkp2NjBmSUxUSC1JcU1wOHd2V1FTTjdwd3p0RTlERTZIRDlHRmZEaFRjMGkxSERNbW45aUFZN093?oc=5",
+     "time": "2026-10-22T09:29:33+00:00"
+    }
+   ],
+   "brief": "2026-10-22-NBIS"
+  },
+  {
    "symbol": "META",
    "name": "Meta",
    "list": "portfolio",
-   "price": 643.59,
+   "price": 645.62,
    "prev_close": 697.52,
-   "change_pct": -7.7,
+   "change_pct": -7.4,
    "trigger_change": -5.6,
    "peak_change": -8.2,
    "first_seen": "2026-10-22T14:00:23+00:00",
    "sector": {
     "etf": "XLC",
     "name": "Communication",
-    "price": 107.02,
-    "change_pct": -1.79
+    "price": 107.22,
+    "change_pct": -1.61
    },
    "chart": {
-    "ema8": -7.8,
-    "ema21": -9.0,
-    "sma50": -2.9,
-    "sma200": 1.7,
+    "ema8": -7.6,
+    "ema21": -8.7,
+    "sma50": -2.6,
+    "sma200": 2.1,
     "momentum": false
    },
    "headlines": [
@@ -249,23 +249,23 @@
    "symbol": "ANET",
    "name": "Arista Networks",
    "list": "portfolio",
-   "price": 171.26,
+   "price": 171.61,
    "prev_close": 184.33,
-   "change_pct": -7.1,
+   "change_pct": -6.9,
    "trigger_change": -3.6,
    "peak_change": -7.7,
    "first_seen": "2026-10-22T14:00:23+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 521.41,
-    "change_pct": -6.34
+    "price": 524.11,
+    "change_pct": -5.85
    },
    "chart": {
-    "ema8": -7.5,
-    "ema21": -11.7,
-    "sma50": -13.1,
-    "sma200": 4.7,
+    "ema8": -7.4,
+    "ema21": -11.6,
+    "sma50": -12.9,
+    "sma200": 4.9,
     "momentum": false
    },
    "headlines": [
@@ -324,23 +324,23 @@
    "symbol": "AMZN",
    "name": "Amazon",
    "list": "portfolio",
-   "price": 249.06,
+   "price": 249.84,
    "prev_close": 262.37,
-   "change_pct": -5.1,
+   "change_pct": -4.8,
    "trigger_change": -3.4,
    "peak_change": -5.4,
    "first_seen": "2026-10-22T14:00:23+00:00",
    "sector": {
     "etf": "XLY",
     "name": "Consumer discr.",
-    "price": 114.8,
-    "change_pct": -0.63
+    "price": 115.2,
+    "change_pct": -0.29
    },
    "chart": {
-    "ema8": -2.9,
-    "ema21": -2.6,
-    "sma50": -2.7,
-    "sma200": 2.4,
+    "ema8": -2.7,
+    "ema21": -2.3,
+    "sma50": -2.4,
+    "sma200": 2.7,
     "momentum": true
    },
    "headlines": [
@@ -399,23 +399,23 @@
    "symbol": "NVDA",
    "name": "Nvidia",
    "list": "portfolio",
-   "price": 211.79,
+   "price": 212.1,
    "prev_close": 221.97,
-   "change_pct": -4.6,
+   "change_pct": -4.4,
    "trigger_change": -3.3,
    "peak_change": -4.8,
    "first_seen": "2026-10-22T14:34:34+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 521.41,
-    "change_pct": -6.34
+    "price": 524.11,
+    "change_pct": -5.85
    },
    "chart": {
-    "ema8": -3.3,
-    "ema21": -4.9,
-    "sma50": -4.9,
-    "sma200": 4.0,
+    "ema8": -3.2,
+    "ema21": -4.8,
+    "sma50": -4.8,
+    "sma200": 4.2,
     "momentum": false
    },
    "headlines": [
@@ -474,23 +474,23 @@
    "symbol": "AVGO",
    "name": "Broadcom",
    "list": "portfolio",
-   "price": 322.56,
+   "price": 323.13,
    "prev_close": 337.8,
-   "change_pct": -4.5,
+   "change_pct": -4.3,
    "trigger_change": -3.6,
-   "peak_change": -4.5,
+   "peak_change": -4.9,
    "first_seen": "2026-10-22T14:47:47+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 521.41,
-    "change_pct": -6.34
+    "price": 524.11,
+    "change_pct": -5.85
    },
    "chart": {
-    "ema8": -4.4,
-    "ema21": -7.1,
-    "sma50": -10.1,
-    "sma200": -12.3,
+    "ema8": -4.3,
+    "ema21": -7.0,
+    "sma50": -9.9,
+    "sma200": -12.2,
     "momentum": false
    },
    "headlines": [
@@ -549,23 +549,23 @@
    "symbol": "GOOG",
    "name": "Alphabet",
    "list": "portfolio",
-   "price": 319.21,
+   "price": 319.48,
    "prev_close": 330.95,
    "change_pct": -3.5,
    "trigger_change": -3.0,
-   "peak_change": -3.5,
+   "peak_change": -3.7,
    "first_seen": "2026-10-22T18:07:13+00:00",
    "sector": {
     "etf": "XLC",
     "name": "Communication",
-    "price": 107.02,
-    "change_pct": -1.79
+    "price": 107.22,
+    "change_pct": -1.61
    },
    "chart": {
     "ema8": -4.6,
-    "ema21": -5.9,
+    "ema21": -5.8,
     "sma50": -6.1,
-    "sma200": -6.0,
+    "sma200": -5.9,
     "momentum": false
    },
    "headlines": [
@@ -624,18 +624,18 @@
    "symbol": "BTC-USD",
    "name": "Bitcoin",
    "list": "watchlist",
-   "price": 81310.0,
+   "price": 81420.3,
    "prev_close": 84022.5,
-   "change_pct": -3.2,
+   "change_pct": -3.1,
    "trigger_change": -3.0,
    "peak_change": -3.8,
    "first_seen": "2026-10-22T15:16:29+00:00",
    "sector": null,
    "chart": {
-    "ema8": -1.3,
-    "ema21": -1.5,
-    "sma50": -0.6,
-    "sma200": 11.7,
+    "ema8": -1.2,
+    "ema21": -1.4,
+    "sma50": -0.4,
+    "sma200": 11.8,
     "momentum": false
    },
    "headlines": [
@@ -694,23 +694,23 @@
    "symbol": "NFLX",
    "name": "Netflix",
    "list": "portfolio",
-   "price": 66.64,
+   "price": 66.78,
    "prev_close": 65.04,
-   "change_pct": 2.5,
+   "change_pct": 2.7,
    "trigger_change": 3.3,
    "peak_change": 3.7,
    "first_seen": "2026-10-22T15:56:49+00:00",
    "sector": {
     "etf": "XLC",
     "name": "Communication",
-    "price": 107.02,
-    "change_pct": -1.79
+    "price": 107.22,
+    "change_pct": -1.61
    },
    "chart": {
-    "ema8": -2.7,
-    "ema21": -5.0,
-    "sma50": -10.6,
-    "sma200": -19.1,
+    "ema8": -2.5,
+    "ema21": -4.8,
+    "sma50": -10.4,
+    "sma200": -18.9,
     "momentum": false
    },
    "headlines": [
