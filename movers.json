@@ -1,22 +1,22 @@
 {
  "date": "2026-10-22",
  "threshold": 3.0,
- "updated": "2026-10-22T17:11:49+00:00",
+ "updated": "2026-10-22T17:57:12+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 762.48,
-   "change_pct": -1.37
+   "price": 762.78,
+   "change_pct": -1.33
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 705.46,
-   "change_pct": -2.72
+   "price": 705.11,
+   "change_pct": -2.77
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 81.64,
-   "change_pct": 1.74
+   "price": 81.83,
+   "change_pct": 1.98
   }
  },
  "movers": [
@@ -24,23 +24,23 @@
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 159.15,
+   "price": 156.74,
    "prev_close": 171.57,
-   "change_pct": -7.2,
+   "change_pct": -8.6,
    "trigger_change": -5.4,
-   "peak_change": -7.5,
+   "peak_change": -8.6,
    "first_seen": "2026-10-22T14:00:23+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 108.78,
-    "change_pct": -0.04
+    "price": 108.66,
+    "change_pct": -0.15
    },
    "chart": {
-    "ema8": -10.9,
-    "ema21": -20.3,
-    "sma50": -27.6,
-    "sma200": -9.4,
+    "ema8": -12.0,
+    "ema21": -21.4,
+    "sma50": -28.7,
+    "sma200": -10.7,
     "momentum": false
    },
    "headlines": [
@@ -96,101 +96,26 @@
    "brief": "2026-10-22-NBIS"
   },
   {
-   "symbol": "META",
-   "name": "Meta",
-   "list": "portfolio",
-   "price": 648.0,
-   "prev_close": 697.52,
-   "change_pct": -7.1,
-   "trigger_change": -5.6,
-   "peak_change": -7.5,
-   "first_seen": "2026-10-22T14:00:23+00:00",
-   "sector": {
-    "etf": "XLC",
-    "name": "Communication",
-    "price": 107.33,
-    "change_pct": -1.51
-   },
-   "chart": {
-    "ema8": -7.3,
-    "ema21": -8.4,
-    "sma50": -2.2,
-    "sma200": 2.4,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Meta stock falls despite Wall Street analysts raising price targets",
-     "publisher": "TheStreet",
-     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQakE4Yk5SYXVIXzlDNHRKRzF6Q0pQVHA2WXZsRDk3TEs5cGJhbTNzSC1fTVNHemZEQ1laQXJxczkyTF9UNWtEY2RyNVJid0g2V0I4djNMZHlVVV9CSndId2k3SVIwVEdYTmY3b25YNGIwdDNlNzFDdTUzc2hOcXJZajNidV9pdUNzeDRrN1h0MU9YV2hQaVZpbGFVQ1ZLZkJDczBLdjk2VWRGTEJpT1VB?oc=5",
-     "time": "2026-10-22T16:50:53+00:00"
-    },
-    {
-     "title": "Mark Zuckerberg, Meta\u2019s designated first citizen",
-     "publisher": "Breakingviews",
-     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPODdjejEtNnNZallMeTRHWG1rSUtBRUNoMmc2ZGF6MXZ3YnAwWGJaV2dzTVdjVWdkN2xUS3QtSzV1b0VlaVBnVDhPWXltQU9ocXdNancyRjRGbXVsY0g5T2pYX0EtSDQ1UHk5NTZTbUQtZnp3OHpaNW1MZ1g4bzlOSDJHUlZGeldFWmZSd2V3SU14LTdzcm5qNGtSaGJLOFBTb2lBeUF5TXBBNExQUnBj?oc=5",
-     "time": "2026-10-22T16:45:00+00:00"
-    },
-    {
-     "title": "Meta\u2019s $25 Billion Headache: The ETF is Cashing In On META\u2019s Pain - Meta Platforms (NASDAQ:META)",
-     "publisher": "Benzinga",
-     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdzRIaXpqeHYwaWRlMXJKRWVkZVliSk5lbHE4MnhGeUFMVzJBbjlORWpQZm5iRmRxaDl4MTRVZnNENnJtbWZsSnJ6UEk1NDh1dkVrVWJGdnJHaUtyMGxIVUNpZ1Y4a29PTmtJRWhXNVJlMldyZXVIQXJYLTRZOFFmOFRyeUw2XzhhbmJXeEk0QTd1ZFljRGkwRHVMcHJhMnYxWUxGclBkdnhJYzdUWnRPbHpEN09XUHVaVGc?oc=5",
-     "time": "2026-10-22T16:15:43+00:00"
-    },
-    {
-     "title": "Meta\u2019s Threads Now Has More Monthly Users Than X",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNNVNOZHZGbm5LcEplV3FqMDhEc3l5RXpDQkR1Mi13R2thRnBySlIxTE5qcS10azdlTkhCanZsa3ZDWExvVVFLUUQyZ2xiUFcwcElQVy1teXZQU2FpOHNEOGlkYTQ0emZQbWl2VDZHYzNVU1dOMGluOUU1ak1DVzRqRHpSd1o3REJOcXJkZjhka1MtS0twZWhBd3BUZUJ2Zw?oc=5",
-     "time": "2026-10-22T16:13:28+00:00"
-    },
-    {
-     "title": "Analysts update Meta stock price targets",
-     "publisher": "Finbold",
-     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB5V1pGbTg2dkdBdjlNbm9DcERvM3NvT2dweGFHTjNsNTdLTWEwTG1iX1dwZ0NueUE5Y1NOLVVQUVlyemxrY3o3R09CdGpmQ244ZkdOeE0tRFVhNlV5Ykd3ZklwTkJOZFkybmhuME5R?oc=5",
-     "time": "2026-10-22T16:07:08+00:00"
-    },
-    {
-     "title": "Meta Platforms' share split, negative FCF, expanding capex lead NASDAQ lower",
-     "publisher": "FXStreet",
-     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPUHpMU3ZFVlZWMERjOHNOWURYZUl3anNuYU04REJuMnR1Z0xjdERMb0ZFd2lTaVQ5VU9ETnBxbTdPRWZXYzk5MnZhY0cyR3kxUjYxRE9POVRSZnhJYUVBTGdUOUdlMzVEeEkzSDczZzROd1NNTHBwQVFaN1hnUzZmWXFPeklwYjlEMDdPaHAzZ3dIOGtjV1NZeWlkc0lhZkVpT21JYTh4aVVqUWpyaU1hRmh0Q3BqYlE?oc=5",
-     "time": "2026-10-22T15:54:19+00:00"
-    },
-    {
-     "title": "Mizuho raises Meta stock price target to $950 on revenue outlook",
-     "publisher": "Investing.com UK",
-     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQQUVKY3dINnRPaF9DOVN6UjBraXMzTnlGN0tMemZVVW5UMVhzY19jM3RCZ1JqejNOay0ycC0tUXNDczg4V0VMdGlKa21RS3J6ME1hTXE4OWZvTjVBa1hIS0F6ODZ1NHJOc3MyTnFtdnBINjkyQjV0MGRwZHBwY0VkdV8wQW5UUTVrWFdKVGxRWWNtcURSS1RQVFJzX2hMTzhrN0x4cTE0bzNlQko0R21WMWVwc1pOcFU3eVhUNTdLOEVvUQ?oc=5",
-     "time": "2026-10-22T15:52:00+00:00"
-    },
-    {
-     "title": "Meta stock sinks 6% as AI spend pushes free cash flow negative",
-     "publisher": "CNBC",
-     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBFSFFjR3I5aUd1LXZFRmNOcEFlM2RxQjdkX05DTmhvS2Z4SDJ1dDlGVWpZVE9hVXBzMlZFSmhxTUhqSFRvZ210RXdKd3JJd3Q1RjU0bHhwdHV3ZlpuV25fb2dxTW1OVUNJczlJNTBVQTNiVjd5WER0T2NUaTVtbDDSAYQBQVVfeXFMUFE4Qjg4VTlqMHB2R05IejZsT1FjYVVmcnBEaTlZV1B5a3NLaWhTazF2Q0UyREpKZFJrakVTWFFVSDJQellSb08wZmFFdjE3eDNINkVjSUJ5ZWM0Z19na3F4SkRJWk5GbXFtUFB3bzYzeS1Fc1ZpUk8yUFNVblJ3di1lZ1pu?oc=5",
-     "time": "2026-10-22T15:41:25+00:00"
-    }
-   ],
-   "brief": "2026-10-22-META"
-  },
-  {
    "symbol": "ANET",
    "name": "Arista Networks",
    "list": "portfolio",
-   "price": 171.24,
+   "price": 170.88,
    "prev_close": 184.33,
-   "change_pct": -7.1,
+   "change_pct": -7.3,
    "trigger_change": -3.6,
    "peak_change": -7.3,
    "first_seen": "2026-10-22T14:00:23+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 525.81,
-    "change_pct": -5.55
+    "price": 525.69,
+    "change_pct": -5.57
    },
    "chart": {
-    "ema8": -7.6,
-    "ema21": -11.7,
-    "sma50": -13.1,
-    "sma200": 4.7,
+    "ema8": -7.7,
+    "ema21": -11.9,
+    "sma50": -13.3,
+    "sma200": 4.5,
     "momentum": false
    },
    "headlines": [
@@ -246,20 +171,95 @@
    "brief": "2026-10-22-ANET"
   },
   {
+   "symbol": "META",
+   "name": "Meta",
+   "list": "portfolio",
+   "price": 647.31,
+   "prev_close": 697.52,
+   "change_pct": -7.2,
+   "trigger_change": -5.6,
+   "peak_change": -7.5,
+   "first_seen": "2026-10-22T14:00:23+00:00",
+   "sector": {
+    "etf": "XLC",
+    "name": "Communication",
+    "price": 107.17,
+    "change_pct": -1.65
+   },
+   "chart": {
+    "ema8": -7.4,
+    "ema21": -8.5,
+    "sma50": -2.3,
+    "sma200": 2.3,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Meta stock falls despite Wall Street analysts raising price targets",
+     "publisher": "TheStreet",
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQakE4Yk5SYXVIXzlDNHRKRzF6Q0pQVHA2WXZsRDk3TEs5cGJhbTNzSC1fTVNHemZEQ1laQXJxczkyTF9UNWtEY2RyNVJid0g2V0I4djNMZHlVVV9CSndId2k3SVIwVEdYTmY3b25YNGIwdDNlNzFDdTUzc2hOcXJZajNidV9pdUNzeDRrN1h0MU9YV2hQaVZpbGFVQ1ZLZkJDczBLdjk2VWRGTEJpT1VB?oc=5",
+     "time": "2026-10-22T16:50:53+00:00"
+    },
+    {
+     "title": "Mark Zuckerberg, Meta\u2019s designated first citizen",
+     "publisher": "Breakingviews",
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPODdjejEtNnNZallMeTRHWG1rSUtBRUNoMmc2ZGF6MXZ3YnAwWGJaV2dzTVdjVWdkN2xUS3QtSzV1b0VlaVBnVDhPWXltQU9ocXdNancyRjRGbXVsY0g5T2pYX0EtSDQ1UHk5NTZTbUQtZnp3OHpaNW1MZ1g4bzlOSDJHUlZGeldFWmZSd2V3SU14LTdzcm5qNGtSaGJLOFBTb2lBeUF5TXBBNExQUnBj?oc=5",
+     "time": "2026-10-22T16:45:00+00:00"
+    },
+    {
+     "title": "Meta\u2019s $25 Billion Headache: The ETF is Cashing In On META\u2019s Pain - Meta Platforms (NASDAQ:META)",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdzRIaXpqeHYwaWRlMXJKRWVkZVliSk5lbHE4MnhGeUFMVzJBbjlORWpQZm5iRmRxaDl4MTRVZnNENnJtbWZsSnJ6UEk1NDh1dkVrVWJGdnJHaUtyMGxIVUNpZ1Y4a29PTmtJRWhXNVJlMldyZXVIQXJYLTRZOFFmOFRyeUw2XzhhbmJXeEk0QTd1ZFljRGkwRHVMcHJhMnYxWUxGclBkdnhJYzdUWnRPbHpEN09XUHVaVGc?oc=5",
+     "time": "2026-10-22T16:15:43+00:00"
+    },
+    {
+     "title": "Meta\u2019s Threads Now Has More Monthly Users Than X",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNNVNOZHZGbm5LcEplV3FqMDhEc3l5RXpDQkR1Mi13R2thRnBySlIxTE5qcS10azdlTkhCanZsa3ZDWExvVVFLUUQyZ2xiUFcwcElQVy1teXZQU2FpOHNEOGlkYTQ0emZQbWl2VDZHYzNVU1dOMGluOUU1ak1DVzRqRHpSd1o3REJOcXJkZjhka1MtS0twZWhBd3BUZUJ2Zw?oc=5",
+     "time": "2026-10-22T16:13:28+00:00"
+    },
+    {
+     "title": "Analysts update Meta stock price targets",
+     "publisher": "Finbold",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB5V1pGbTg2dkdBdjlNbm9DcERvM3NvT2dweGFHTjNsNTdLTWEwTG1iX1dwZ0NueUE5Y1NOLVVQUVlyemxrY3o3R09CdGpmQ244ZkdOeE0tRFVhNlV5Ykd3ZklwTkJOZFkybmhuME5R?oc=5",
+     "time": "2026-10-22T16:07:08+00:00"
+    },
+    {
+     "title": "Meta Platforms' share split, negative FCF, expanding capex lead NASDAQ lower",
+     "publisher": "FXStreet",
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPUHpMU3ZFVlZWMERjOHNOWURYZUl3anNuYU04REJuMnR1Z0xjdERMb0ZFd2lTaVQ5VU9ETnBxbTdPRWZXYzk5MnZhY0cyR3kxUjYxRE9POVRSZnhJYUVBTGdUOUdlMzVEeEkzSDczZzROd1NNTHBwQVFaN1hnUzZmWXFPeklwYjlEMDdPaHAzZ3dIOGtjV1NZeWlkc0lhZkVpT21JYTh4aVVqUWpyaU1hRmh0Q3BqYlE?oc=5",
+     "time": "2026-10-22T15:54:19+00:00"
+    },
+    {
+     "title": "Mizuho raises Meta stock price target to $950 on revenue outlook",
+     "publisher": "Investing.com UK",
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQQUVKY3dINnRPaF9DOVN6UjBraXMzTnlGN0tMemZVVW5UMVhzY19jM3RCZ1JqejNOay0ycC0tUXNDczg4V0VMdGlKa21RS3J6ME1hTXE4OWZvTjVBa1hIS0F6ODZ1NHJOc3MyTnFtdnBINjkyQjV0MGRwZHBwY0VkdV8wQW5UUTVrWFdKVGxRWWNtcURSS1RQVFJzX2hMTzhrN0x4cTE0bzNlQko0R21WMWVwc1pOcFU3eVhUNTdLOEVvUQ?oc=5",
+     "time": "2026-10-22T15:52:00+00:00"
+    },
+    {
+     "title": "Meta stock sinks 6% as AI spend pushes free cash flow negative",
+     "publisher": "CNBC",
+     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBFSFFjR3I5aUd1LXZFRmNOcEFlM2RxQjdkX05DTmhvS2Z4SDJ1dDlGVWpZVE9hVXBzMlZFSmhxTUhqSFRvZ210RXdKd3JJd3Q1RjU0bHhwdHV3ZlpuV25fb2dxTW1OVUNJczlJNTBVQTNiVjd5WER0T2NUaTVtbDDSAYQBQVVfeXFMUFE4Qjg4VTlqMHB2R05IejZsT1FjYVVmcnBEaTlZV1B5a3NLaWhTazF2Q0UyREpKZFJrakVTWFFVSDJQellSb08wZmFFdjE3eDNINkVjSUJ5ZWM0Z19na3F4SkRJWk5GbXFtUFB3bzYzeS1Fc1ZpUk8yUFNVblJ3di1lZ1pu?oc=5",
+     "time": "2026-10-22T15:41:25+00:00"
+    }
+   ],
+   "brief": "2026-10-22-META"
+  },
+  {
    "symbol": "AMAT",
    "name": "Applied Materials",
    "list": "portfolio",
-   "price": 380.13,
+   "price": 379.99,
    "prev_close": 408.94,
-   "change_pct": -7.0,
+   "change_pct": -7.1,
    "trigger_change": -4.8,
    "peak_change": -7.3,
    "first_seen": "2026-10-22T14:00:23+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 525.81,
-    "change_pct": -5.55
+    "price": 525.69,
+    "change_pct": -5.57
    },
    "chart": {
     "ema8": -9.8,
@@ -324,23 +324,23 @@
    "symbol": "AMZN",
    "name": "Amazon",
    "list": "portfolio",
-   "price": 251.0,
+   "price": 250.52,
    "prev_close": 262.37,
-   "change_pct": -4.3,
+   "change_pct": -4.5,
    "trigger_change": -3.4,
-   "peak_change": -4.3,
+   "peak_change": -4.5,
    "first_seen": "2026-10-22T14:00:23+00:00",
    "sector": {
     "etf": "XLY",
     "name": "Consumer discr.",
-    "price": 114.94,
-    "change_pct": -0.51
+    "price": 115.0,
+    "change_pct": -0.46
    },
    "chart": {
-    "ema8": -2.4,
-    "ema21": -1.9,
-    "sma50": -2.0,
-    "sma200": 3.2,
+    "ema8": -2.5,
+    "ema21": -2.1,
+    "sma50": -2.1,
+    "sma200": 3.0,
     "momentum": true
    },
    "headlines": [
@@ -399,7 +399,7 @@
    "symbol": "NVDA",
    "name": "Nvidia",
    "list": "portfolio",
-   "price": 212.41,
+   "price": 212.5,
    "prev_close": 221.97,
    "change_pct": -4.3,
    "trigger_change": -3.3,
@@ -408,14 +408,14 @@
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 525.81,
-    "change_pct": -5.55
+    "price": 525.69,
+    "change_pct": -5.57
    },
    "chart": {
     "ema8": -3.0,
-    "ema21": -4.7,
-    "sma50": -4.7,
-    "sma200": 4.3,
+    "ema21": -4.6,
+    "sma50": -4.6,
+    "sma200": 4.4,
     "momentum": false
    },
    "headlines": [
@@ -474,22 +474,22 @@
    "symbol": "AVGO",
    "name": "Broadcom",
    "list": "portfolio",
-   "price": 324.51,
+   "price": 324.39,
    "prev_close": 337.8,
-   "change_pct": -3.9,
+   "change_pct": -4.0,
    "trigger_change": -3.6,
    "peak_change": -4.5,
    "first_seen": "2026-10-22T14:47:47+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 525.81,
-    "change_pct": -5.55
+    "price": 525.69,
+    "change_pct": -5.57
    },
    "chart": {
     "ema8": -4.0,
-    "ema21": -6.6,
-    "sma50": -9.5,
+    "ema21": -6.7,
+    "sma50": -9.6,
     "sma200": -11.8,
     "momentum": false
    },
@@ -546,85 +546,10 @@
    "brief": "2026-10-22-AVGO"
   },
   {
-   "symbol": "NFLX",
-   "name": "Netflix",
-   "list": "portfolio",
-   "price": 67.35,
-   "prev_close": 65.04,
-   "change_pct": 3.6,
-   "trigger_change": 3.3,
-   "peak_change": 3.6,
-   "first_seen": "2026-10-22T15:56:49+00:00",
-   "sector": {
-    "etf": "XLC",
-    "name": "Communication",
-    "price": 107.33,
-    "change_pct": -1.51
-   },
-   "chart": {
-    "ema8": -1.9,
-    "ema21": -4.0,
-    "sma50": -9.6,
-    "sma200": -18.3,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Netflix Inc Stock (NFLX) Moved Up by 3.38% on Oct 22: What Signal Does It Send?",
-     "publisher": "TradingKey",
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOdThJUFVNb0hHQkE1V1FESVBYYWpUU1hQMDZpMXM1YTRGX1pmLWtVUXJyWE5mQUs0bDg2U3VucEJFVUJPNFMtMWxtRnlURWRYQl80OXVOaW1qVDFrd1dOYjlPSThsR0hhSnJkUTNUR0dKeXFCcERLWXZjcHk0ckZoMmw4dnNFekw0N3pz?oc=5",
-     "time": "2026-10-22T16:15:51+00:00"
-    },
-    {
-     "title": "Netflix: Don\u2019t Start Buying After The Q3 Post-Earnings Price Drop (NASDAQ:NFLX)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNT3I5dV9TZ19FY2lpWExRYkR3enAwSi1wQ2Q3YTlzM3ZIVm9VMWJkZEgzeTRDVTFNSHdLQmZpM0hXMTBIM1FNYlZXLXVpVFJwN0Nzb3FaS2FQTXRlSmt6X3ZhN2ZNWEtjOWxmVjZ6TTdpVk1LcW5iNFI5cUJLQkxEU043MFRrM0M2MW1rWi1FS3VmLVZkd2VNMENURVpVdVRyZ1E?oc=5",
-     "time": "2026-10-22T14:40:44+00:00"
-    },
-    {
-     "title": "Netflix: Frustrating Growth Slowdown, But This Isn't Game Over (NASDAQ:NFLX)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOMUlIY1Z4MmhJS0gzR2toNUt6SDF3VWtJRHdrSVhjUGR2Qnp5SlhSRjhPQ0l5R2RiYnY3VFhqTzZza0ZiQUlwcnItZF9iNVFPZkNaRzhXakZiWTV1aDVkVXh3TVN6aE9vUWUwc3FUMHdFdjJjdjdFUVNfUEhuTzRaZEhkWEZzYnlKbHdRSmVSR2o4T2NwZy0ybHhmQmw5TnQ3cE9EZ21sMzFGNGdLVWU1MHMtZjJZTVEw?oc=5",
-     "time": "2026-10-22T14:30:00+00:00"
-    },
-    {
-     "title": "Netflix Stock: Earnings Are Growing, But The Market Doesn't Care (NASDAQ:NFLX)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOcGs3LUh4Y2g3N2o1MG9walZ3MERlSkJJeGQwM3BMU0NNZ1BpS0FaTURGMTRVZ3hjNHFFejZQTGJqaFhNcHE5eUJzeklUWDJZd3R4ZVBqTjZtQ1B3STZObV91cU1nT2pyY1VJdHJEcXZ5d005Vi1feTFleGFQNjZXS2tMV3JmUjgwUnZlTXBHVzhtTWwyT1hn?oc=5",
-     "time": "2026-10-22T13:32:47+00:00"
-    },
-    {
-     "title": "As Netflix\u2019s Slowdown Becomes More Palpable, I\u2019m Still Not Giving Up on NFLX Stock",
-     "publisher": "Barchart.com",
-     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNV25PMTdvVEpvR1hmVFVSc1AyTjRURjZtb21qTDQxUHllWDdHaVdmRF9mY1JIU2RsQ191T3NhOUFuaW5PZlFtOHVKTTlZNmpaZ3N2RmJ6cnJyNXAwT3R5bV8ya19pb2pFYXVQT2lURW0yNk9OOUlLT3NIeHdzWDNZRW9mTUt1bk9WSEt4WHQyTFgxdS1EWHUxVFAyVDVNYUgyaVp0VE1DY0xnSXZpVlVWY3BuT01vczQxcjVJYUhLZEQ?oc=5",
-     "time": "2026-10-22T11:21:31+00:00"
-    },
-    {
-     "title": "Netflix, Inc. $NFLX Stock: Pinnacle Associates Ltd. Grows Position",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNSUtKcWlzTWRibHZlS21aMFVsVXA5N3BLdWVncDZJeENseXJCRnhyQlhJVTZ0c3BqWkhiTzNPblZDbEZ2SFZXWU9CT0hnNjN4dkpkUDY2SHFyWUpRbGhlZGREN21VTzlMNHpsc2ZTdzVDTWlzRl80bTdzQ2diam1DeDVQVEQtQUxicDBzUVhhdS1QczRWa19iZDlRMjRreVJJY2VaMUFNQnl0bUF0allUMUZwN0RFbms2bUp4c19HVQ?oc=5",
-     "time": "2026-10-22T09:31:14+00:00"
-    },
-    {
-     "title": "Why Is Netflix Stock Down? NFLX Shares Falls 5% to Two-Year Low Near $65",
-     "publisher": "Finance Magnates",
-     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQYzFXTlk3VmdOZDZDWEZUWkhVaXR0QVBMXzlLRE0yTkNJblg3bkZjcGxKRl90eTFKNFA4WEx6dVhKNTlBTnZIcVZUQ3pFeFBFNENMY25MZ3Uzci15TUZQaGlsZmVtYUdoWDhabTFpSzZ5Z2Z5ODRQakFaZVk0TUpfZGs5ZUpVNDNNTG1kWlNjZmc1aWpMLXFCYW5ZZmtGUGdoYlZ0SGV6UWJwV0l1MFpCaQ?oc=5",
-     "time": "2026-10-22T09:16:00+00:00"
-    },
-    {
-     "title": "Netflix Earnings Q3: NFLX Stock Falls on $2.7B Ad Forecast",
-     "publisher": "Techloy",
-     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPa1dhUTM0S0VadkVwNWVBd2RZSTlabVRYWXNvZE1iUUlQZENPdm5VOXQtalEtdWE2eUI0aUVrc2tCNXdYWUpyWXM0NWhVNjBkQVloU3I3OG1mUzlaLXlIZFVZN010WjZvTXVVZ1Nfc1BCYm1JQmRHc1g1ZjlxWW1raVhHQTNScDROendOdWU1dw?oc=5",
-     "time": "2026-10-22T08:07:17+00:00"
-    }
-   ],
-   "brief": "2026-10-22-NFLX"
-  },
-  {
    "symbol": "BTC-USD",
    "name": "Bitcoin",
    "list": "watchlist",
-   "price": 81067.1,
+   "price": 81100.4,
    "prev_close": 84022.5,
    "change_pct": -3.5,
    "trigger_change": -3.0,
@@ -633,8 +558,8 @@
    "sector": null,
    "chart": {
     "ema8": -1.5,
-    "ema21": -1.8,
-    "sma50": -0.9,
+    "ema21": -1.7,
+    "sma50": -0.8,
     "sma200": 11.4,
     "momentum": false
    },
@@ -689,6 +614,81 @@
     }
    ],
    "brief": "2026-10-22-BTC-USD"
+  },
+  {
+   "symbol": "NFLX",
+   "name": "Netflix",
+   "list": "portfolio",
+   "price": 67.07,
+   "prev_close": 65.04,
+   "change_pct": 3.1,
+   "trigger_change": 3.3,
+   "peak_change": 3.6,
+   "first_seen": "2026-10-22T15:56:49+00:00",
+   "sector": {
+    "etf": "XLC",
+    "name": "Communication",
+    "price": 107.17,
+    "change_pct": -1.65
+   },
+   "chart": {
+    "ema8": -2.2,
+    "ema21": -4.4,
+    "sma50": -10.0,
+    "sma200": -18.6,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Netflix Inc Stock (NFLX) Moved Up by 3.38% on Oct 22: What Signal Does It Send?",
+     "publisher": "TradingKey",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOdThJUFVNb0hHQkE1V1FESVBYYWpUU1hQMDZpMXM1YTRGX1pmLWtVUXJyWE5mQUs0bDg2U3VucEJFVUJPNFMtMWxtRnlURWRYQl80OXVOaW1qVDFrd1dOYjlPSThsR0hhSnJkUTNUR0dKeXFCcERLWXZjcHk0ckZoMmw4dnNFekw0N3pz?oc=5",
+     "time": "2026-10-22T16:15:51+00:00"
+    },
+    {
+     "title": "Netflix: Don\u2019t Start Buying After The Q3 Post-Earnings Price Drop (NASDAQ:NFLX)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNT3I5dV9TZ19FY2lpWExRYkR3enAwSi1wQ2Q3YTlzM3ZIVm9VMWJkZEgzeTRDVTFNSHdLQmZpM0hXMTBIM1FNYlZXLXVpVFJwN0Nzb3FaS2FQTXRlSmt6X3ZhN2ZNWEtjOWxmVjZ6TTdpVk1LcW5iNFI5cUJLQkxEU043MFRrM0M2MW1rWi1FS3VmLVZkd2VNMENURVpVdVRyZ1E?oc=5",
+     "time": "2026-10-22T14:40:44+00:00"
+    },
+    {
+     "title": "Netflix: Frustrating Growth Slowdown, But This Isn't Game Over (NASDAQ:NFLX)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOMUlIY1Z4MmhJS0gzR2toNUt6SDF3VWtJRHdrSVhjUGR2Qnp5SlhSRjhPQ0l5R2RiYnY3VFhqTzZza0ZiQUlwcnItZF9iNVFPZkNaRzhXakZiWTV1aDVkVXh3TVN6aE9vUWUwc3FUMHdFdjJjdjdFUVNfUEhuTzRaZEhkWEZzYnlKbHdRSmVSR2o4T2NwZy0ybHhmQmw5TnQ3cE9EZ21sMzFGNGdLVWU1MHMtZjJZTVEw?oc=5",
+     "time": "2026-10-22T14:30:00+00:00"
+    },
+    {
+     "title": "Netflix Stock: Earnings Are Growing, But The Market Doesn't Care (NASDAQ:NFLX)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOcGs3LUh4Y2g3N2o1MG9walZ3MERlSkJJeGQwM3BMU0NNZ1BpS0FaTURGMTRVZ3hjNHFFejZQTGJqaFhNcHE5eUJzeklUWDJZd3R4ZVBqTjZtQ1B3STZObV91cU1nT2pyY1VJdHJEcXZ5d005Vi1feTFleGFQNjZXS2tMV3JmUjgwUnZlTXBHVzhtTWwyT1hn?oc=5",
+     "time": "2026-10-22T13:32:47+00:00"
+    },
+    {
+     "title": "As Netflix\u2019s Slowdown Becomes More Palpable, I\u2019m Still Not Giving Up on NFLX Stock",
+     "publisher": "Barchart.com",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNV25PMTdvVEpvR1hmVFVSc1AyTjRURjZtb21qTDQxUHllWDdHaVdmRF9mY1JIU2RsQ191T3NhOUFuaW5PZlFtOHVKTTlZNmpaZ3N2RmJ6cnJyNXAwT3R5bV8ya19pb2pFYXVQT2lURW0yNk9OOUlLT3NIeHdzWDNZRW9mTUt1bk9WSEt4WHQyTFgxdS1EWHUxVFAyVDVNYUgyaVp0VE1DY0xnSXZpVlVWY3BuT01vczQxcjVJYUhLZEQ?oc=5",
+     "time": "2026-10-22T11:21:31+00:00"
+    },
+    {
+     "title": "Netflix, Inc. $NFLX Stock: Pinnacle Associates Ltd. Grows Position",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNSUtKcWlzTWRibHZlS21aMFVsVXA5N3BLdWVncDZJeENseXJCRnhyQlhJVTZ0c3BqWkhiTzNPblZDbEZ2SFZXWU9CT0hnNjN4dkpkUDY2SHFyWUpRbGhlZGREN21VTzlMNHpsc2ZTdzVDTWlzRl80bTdzQ2diam1DeDVQVEQtQUxicDBzUVhhdS1QczRWa19iZDlRMjRreVJJY2VaMUFNQnl0bUF0allUMUZwN0RFbms2bUp4c19HVQ?oc=5",
+     "time": "2026-10-22T09:31:14+00:00"
+    },
+    {
+     "title": "Why Is Netflix Stock Down? NFLX Shares Falls 5% to Two-Year Low Near $65",
+     "publisher": "Finance Magnates",
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQYzFXTlk3VmdOZDZDWEZUWkhVaXR0QVBMXzlLRE0yTkNJblg3bkZjcGxKRl90eTFKNFA4WEx6dVhKNTlBTnZIcVZUQ3pFeFBFNENMY25MZ3Uzci15TUZQaGlsZmVtYUdoWDhabTFpSzZ5Z2Z5ODRQakFaZVk0TUpfZGs5ZUpVNDNNTG1kWlNjZmc1aWpMLXFCYW5ZZmtGUGdoYlZ0SGV6UWJwV0l1MFpCaQ?oc=5",
+     "time": "2026-10-22T09:16:00+00:00"
+    },
+    {
+     "title": "Netflix Earnings Q3: NFLX Stock Falls on $2.7B Ad Forecast",
+     "publisher": "Techloy",
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPa1dhUTM0S0VadkVwNWVBd2RZSTlabVRYWXNvZE1iUUlQZENPdm5VOXQtalEtdWE2eUI0aUVrc2tCNXdYWUpyWXM0NWhVNjBkQVloU3I3OG1mUzlaLXlIZFVZN010WjZvTXVVZ1Nfc1BCYm1JQmRHc1g1ZjlxWW1raVhHQTNScDROendOdWU1dw?oc=5",
+     "time": "2026-10-22T08:07:17+00:00"
+    }
+   ],
+   "brief": "2026-10-22-NFLX"
   }
  ]
 }
