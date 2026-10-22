@@ -1,22 +1,22 @@
 {
  "date": "2026-10-22",
  "threshold": 3.0,
- "updated": "2026-10-22T16:22:03+00:00",
+ "updated": "2026-10-22T16:27:50+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 765.5,
-   "change_pct": -0.98
+   "price": 765.36,
+   "change_pct": -1.0
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 709.82,
-   "change_pct": -2.12
+   "price": 709.36,
+   "change_pct": -2.18
   },
   "TLT": {
    "name": "Long Treasuries",
    "price": 81.42,
-   "change_pct": 1.46
+   "change_pct": 1.48
   }
  },
  "movers": [
@@ -24,23 +24,23 @@
    "symbol": "AMAT",
    "name": "Applied Materials",
    "list": "portfolio",
-   "price": 382.47,
+   "price": 381.98,
    "prev_close": 408.94,
-   "change_pct": -6.5,
+   "change_pct": -6.6,
    "trigger_change": -4.8,
    "peak_change": -7.3,
    "first_seen": "2026-10-22T14:00:23+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 530.01,
-    "change_pct": -4.79
+    "price": 529.37,
+    "change_pct": -4.91
    },
    "chart": {
-    "ema8": -9.3,
-    "ema21": -15.7,
-    "sma50": -18.9,
-    "sma200": -13.4,
+    "ema8": -9.4,
+    "ema21": -15.8,
+    "sma50": -19.0,
+    "sma200": -13.5,
     "momentum": false
    },
    "headlines": [
@@ -96,101 +96,26 @@
    "brief": "2026-10-22-AMAT"
   },
   {
-   "symbol": "NBIS",
-   "name": "Nebius",
-   "list": "portfolio",
-   "price": 160.71,
-   "prev_close": 171.57,
-   "change_pct": -6.3,
-   "trigger_change": -5.4,
-   "peak_change": -7.4,
-   "first_seen": "2026-10-22T14:00:23+00:00",
-   "sector": {
-    "etf": "IGV",
-    "name": "Software",
-    "price": 109.63,
-    "change_pct": 0.74
-   },
-   "chart": {
-    "ema8": -10.2,
-    "ema21": -19.6,
-    "sma50": -26.9,
-    "sma200": -8.5,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Nebius Declines 6% Despite Fresh Citi Financing; CoreWeave Drops 5%, Cloudflare Edges Higher",
-     "publisher": "24/7 Wall St.",
-     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQUlFCdHUxQkYyX1d3ejR5ZDJGaEx4aE94ejEwSkd0NElLbF9uaWdMcnFiMXFuLUZJY0FGQ29xbXk2S2pPM1AzSktRb3B0Y1Z0V3RER3R0QnV4MlF3eWIwVVFMX29QaHdNQmxCUGJHVmhyZ2lMVmtHTHBkVzVhZkhHeFExc05RSXlLZ0pUdnlBZVZJRVpDN1lnckxNSlp4TkNIYTlqOUljUDhEN2xNQTFLTjVNRlU0Q01xVTMxUjg3alVoQld2NWVkM2hkYWg?oc=5",
-     "time": "2026-10-22T14:47:00+00:00"
-    },
-    {
-     "title": "What's Going On With Nebius Stock Thursday?",
-     "publisher": "Benzinga",
-     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPU2dKOGJYMXNYRWVhM3lSVHlzWXVFTHNUN1EwTlVyOHZvQXhTSHV1ck1ja0JPM0tHSVhOQmpHckpVZ2tPV1BibklBelJJdzhEaWVldEVJT0hhSEY2RUJ6aTZ5bDdreXAyYVZXWFczdTVvLWU5SlY3OUhRMUhKbGt2LWczLXFrQW9UeHAxSE5faTJoNUNPYzE1UEgxU1YxbGRVWDNaRw?oc=5",
-     "time": "2026-10-22T13:14:46+00:00"
-    },
-    {
-     "title": "Nebius Group NBIS Slides As Bears Lean In On AI Hype",
-     "publisher": "Timothy Sykes",
-     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5aN0JRdmVPT05IME5OYnAzWi1MbEpoRmZhTVNmLWJlTVBQQ3VteTh1Z045ODBMZTY2TVVObWVYNFJHM1ROSjRMbXNObG9YNmRJdjA4ZTBOWjlrZ0dFdVhtNjFsYzlHb3FhZDI5N1FhcXR3TzBWc1NrRmRwYw?oc=5",
-     "time": "2026-10-22T12:32:00+00:00"
-    },
-    {
-     "title": "Nebius Says It Is \u2018Sequencing\u2019 Its Financing After Getting $3.5B From Citi, With Bigger Asset-Backed Loans Still to Come",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQM0pWZFNpZmtOaVpIZ2xnUzFscXh1cVoyRFJ3TF9kM3ZVUGZFamJIME51bXhhX18zTzRYQV84YTN0Y2x0Ynl3R0R1QmpaV3l3SmtzOWczbkxXUXI4ajQ0RVBvcE1GaHcxRW9MLWZwMXR2czZKV1VfZ2JVZjdVd1J2MEoyRUVxX2I0bTRrclRvZkJVWnhLbXlCMnFwSF8yV1BWaHJTeUNockY?oc=5",
-     "time": "2026-10-22T12:25:34+00:00"
-    },
-    {
-     "title": "Nebius Group (NBIS) Secures $3.5B Credit Facility to Fuel Expans",
-     "publisher": "GuruFocus",
-     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxObHdzeFZqbklWVDJtVFlFOWkzb3Rnd2NQRk9fdnhia3lsOEJNdFAyVXB5OEw2RDJuN2U1eGwwVmw5UV84YnVLWVlpS194MFNQSzhjVFRxTVNhZnBiOVEzSGlCRUhlX2Y3TVRnTjN6VmFqckJQZ3hSX09qcUpLYnhEcTA0bV91SHN4czExbUdHS0tsZ1RoMUZROVZwVkc4TEFjZ2VWdlFtVTRlRnZxZEQtTXROTUJ3SEtqS2ZfdGwxTld2cThrSmlR?oc=5",
-     "time": "2026-10-22T12:06:44+00:00"
-    },
-    {
-     "title": "Nebius secures $3.5 billion financing facility with Citi",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPaWZjc0dSRk1ZOTNzaHA3aVFYTHdIQjlxbnVqVkFkSzN1RUlXenIyVWMwWF9IUnZqeHktU3JNb3IzeU82MGNYbjJJNFhONXVyNlItYjUxYWZ1WGMwMUpBOUxTSDJ1eFdCNTg3SHhMOElSc0g1bGthNUM1dzRGWjZoS196djNJbjJVOTJnbU5nVTVZbExqMHc?oc=5",
-     "time": "2026-10-22T11:00:00+00:00"
-    },
-    {
-     "title": "Nebius Group N.V. $NBIS Stock: Pinnacle Associates Ltd. Decreases Position",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQTXhsbFdUQUdTdy13TUxTalFpdEZNUnZGUEIwYnV0a0tfT0FZeWtxWFZkcTFGU3hDVUd0VldpMV9lTkJBMENTd1BqZnk1TUZPcTJjUG80dnhDT0lwcmdJbWR1MHZvRHZOckRSeVNOXzFnSFZLZk9yRHAyY2Z6bU5MUnNGMnlBZHd5QlJSc19QSURlWkp2NjBmSUxUSC1JcU1wOHd2V1FTTjdwd3p0RTlERTZIRDlHRmZEaFRjMGkxSERNbW45aUFZN093?oc=5",
-     "time": "2026-10-22T09:29:33+00:00"
-    },
-    {
-     "title": "Why Is Nebius Group (NBIS) Expanding Its AI Infrastructure Reach?",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNbmNtSHhjSWlWZUFkSVMzMzJ1eE0ydWkxaGdrSDR2ZFFEeTBnWHl2YTZ4Mk8wSHQ0aXZmRVluZko3a2h2eGRfS2lYTTJRZVNzV0ZXRGxNcWdMN2ZMT3E1UGNCZ0dpRHlaTll2LXE4ZVdzblBzTnQ3aHVWVDZQeVVldnBIWWtTRFZaX2pJMzZmN1doRFRqUDhRbk1SRQ?oc=5",
-     "time": "2026-10-22T03:19:00+00:00"
-    }
-   ],
-   "brief": "2026-10-22-NBIS"
-  },
-  {
    "symbol": "META",
    "name": "Meta",
    "list": "portfolio",
-   "price": 653.68,
+   "price": 651.43,
    "prev_close": 697.52,
-   "change_pct": -6.3,
+   "change_pct": -6.6,
    "trigger_change": -5.6,
    "peak_change": -6.8,
    "first_seen": "2026-10-22T14:00:23+00:00",
    "sector": {
     "etf": "XLC",
     "name": "Communication",
-    "price": 107.66,
-    "change_pct": -1.2
+    "price": 107.55,
+    "change_pct": -1.3
    },
    "chart": {
-    "ema8": -6.7,
-    "ema21": -7.6,
-    "sma50": -1.4,
-    "sma200": 3.3,
+    "ema8": -6.9,
+    "ema21": -7.9,
+    "sma50": -1.7,
+    "sma200": 3.0,
     "momentum": false
    },
    "headlines": [
@@ -249,23 +174,23 @@
    "symbol": "ANET",
    "name": "Arista Networks",
    "list": "portfolio",
-   "price": 172.86,
+   "price": 172.38,
    "prev_close": 184.33,
-   "change_pct": -6.2,
+   "change_pct": -6.5,
    "trigger_change": -3.6,
    "peak_change": -7.2,
    "first_seen": "2026-10-22T14:00:23+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 530.01,
-    "change_pct": -4.79
+    "price": 529.37,
+    "change_pct": -4.91
    },
    "chart": {
-    "ema8": -6.9,
-    "ema21": -11.0,
-    "sma50": -12.3,
-    "sma200": 5.7,
+    "ema8": -7.1,
+    "ema21": -11.2,
+    "sma50": -12.5,
+    "sma200": 5.4,
     "momentum": false
    },
    "headlines": [
@@ -321,85 +246,160 @@
    "brief": "2026-10-22-ANET"
   },
   {
-   "symbol": "AVGO",
-   "name": "Broadcom",
+   "symbol": "NBIS",
+   "name": "Nebius",
    "list": "portfolio",
-   "price": 325.44,
-   "prev_close": 337.8,
-   "change_pct": -3.7,
-   "trigger_change": -3.6,
-   "peak_change": -4.5,
-   "first_seen": "2026-10-22T14:47:47+00:00",
+   "price": 160.75,
+   "prev_close": 171.57,
+   "change_pct": -6.3,
+   "trigger_change": -5.4,
+   "peak_change": -7.4,
+   "first_seen": "2026-10-22T14:00:23+00:00",
    "sector": {
-    "etf": "SMH",
-    "name": "Semiconductors",
-    "price": 530.01,
-    "change_pct": -4.79
+    "etf": "IGV",
+    "name": "Software",
+    "price": 109.68,
+    "change_pct": 0.79
    },
    "chart": {
-    "ema8": -3.8,
-    "ema21": -6.4,
-    "sma50": -9.3,
-    "sma200": -11.6,
+    "ema8": -10.2,
+    "ema21": -19.6,
+    "sma50": -26.9,
+    "sma200": -8.4,
     "momentum": false
    },
    "headlines": [
     {
-     "title": "Prediction: Broadcom Stock Could Crush the S&P 500 Through 2030",
+     "title": "Nebius Declines 6% Despite Fresh Citi Financing; CoreWeave Drops 5%, Cloudflare Edges Higher",
      "publisher": "24/7 Wall St.",
-     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNcnlidnJ3N3RMdFZOWlZPY3JMcENnVVFfQTBuZjkxbk4wdGRVeGpjcTBMMTFORkNvR1htb2htVzZxemFWbENxU3ExaGhoMWhBODhuT0IxU28ydWtRWF9iSEJXZEVhUDRKbVhVbUVSU2dpcWNpVFVmTXkwZGhCQ1J0TzBxWUVhMmRfbVFyWGgyT0pmdGhBYXRnT3R6M1RiaUJGb05WRE9tcU4?oc=5",
-     "time": "2026-10-22T16:00:00+00:00"
+     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQUlFCdHUxQkYyX1d3ejR5ZDJGaEx4aE94ejEwSkd0NElLbF9uaWdMcnFiMXFuLUZJY0FGQ29xbXk2S2pPM1AzSktRb3B0Y1Z0V3RER3R0QnV4MlF3eWIwVVFMX29QaHdNQmxCUGJHVmhyZ2lMVmtHTHBkVzVhZkhHeFExc05RSXlLZ0pUdnlBZVZJRVpDN1lnckxNSlp4TkNIYTlqOUljUDhEN2xNQTFLTjVNRlU0Q01xVTMxUjg3alVoQld2NWVkM2hkYWg?oc=5",
+     "time": "2026-10-22T14:47:00+00:00"
     },
     {
-     "title": "Broadcom Inc Stock (AVGO) Moved Down by 4.36% on Oct 22: What Investors Need To Know",
-     "publisher": "TradingKey",
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOWGdTVjN0b0tvZjV5YllNemh3TDYxQjA1LTVQS2xBQWtXbGM3UWN0V0VEYTlUY25SLU9EaUppdzNNM3FGcm9kUGpRVWx4VkhUNm52dUlSY3cwaXpFbWxJSnUzaG50NjhKU2FJbXRWV1pGMFloZ2NhYXNNMjkxbDBRakZBS2JETXhTTWRn?oc=5",
-     "time": "2026-10-22T15:15:54+00:00"
+     "title": "What's Going On With Nebius Stock Thursday?",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPU2dKOGJYMXNYRWVhM3lSVHlzWXVFTHNUN1EwTlVyOHZvQXhTSHV1ck1ja0JPM0tHSVhOQmpHckpVZ2tPV1BibklBelJJdzhEaWVldEVJT0hhSEY2RUJ6aTZ5bDdreXAyYVZXWFczdTVvLWU5SlY3OUhRMUhKbGt2LWczLXFrQW9UeHAxSE5faTJoNUNPYzE1UEgxU1YxbGRVWDNaRw?oc=5",
+     "time": "2026-10-22T13:14:46+00:00"
     },
     {
-     "title": "Broadcom shares weekly forecast: Decline stretches into oversold territory as sellers retain short-term control",
-     "publisher": "Traders Union",
-     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPYUJLZUhPbTIwZU41bGE4WnZ2WkhuZ2JDc3YzNC1MYW5BVldySFZBand3cUdIMzlyaHJacjdFMDhsdzJTRmh1dElKYnRqREJEZVlmSzlEbnNZdkZQTU9PRzdDeHF5MlhsTGRmeFdfUno4WHhZMVFPVkNxYXItdzU3R0ViTVkwNWcwT0cwU2VtWQ?oc=5",
-     "time": "2026-10-22T14:49:30+00:00"
+     "title": "Nebius Group NBIS Slides As Bears Lean In On AI Hype",
+     "publisher": "Timothy Sykes",
+     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5aN0JRdmVPT05IME5OYnAzWi1MbEpoRmZhTVNmLWJlTVBQQ3VteTh1Z045ODBMZTY2TVVObWVYNFJHM1ROSjRMbXNObG9YNmRJdjA4ZTBOWjlrZ0dFdVhtNjFsYzlHb3FhZDI5N1FhcXR3TzBWc1NrRmRwYw?oc=5",
+     "time": "2026-10-22T12:32:00+00:00"
     },
     {
-     "title": "$Broadcom (AVGO.US)$ \"Death Cross\" getting more clearer.",
-     "publisher": "Moomoo",
-     "url": "https://news.google.com/rss/articles/CBMimgNBVV95cUxOUV9hZXp3blFuRVVBQktPamQ0dzRyNUVJTHRKelJFTlRFTTRSQmNaSnJneGRDblNjWndxeTg4TkRnTjE5LUtJTUlQZE4yUjVqcmczdjRSaE9qUnNmREVhUElURzRXY2pVck1Rck5TLV9hRWdIN19iRG81M3VLcmpQVkxiYzM4STF1MUs1SEszVHhMdzZ5Ny02ei1DQlE1RVVFNldIbS1iQnpIZjFaRmU0ZXd4REQ2YU84d1ZOVnpPelpHTTRLMW5JQ1FPUGstOHNwUDRYdDJ2RE5EVW1TOGhpLTlUSno3SzY1UTRVdWl4MnRvNm01YjR2R01TRm5JWFpLUzdEQ21DUTJqczc0RXRiVmNOUmk2QkxLWU02d1JsNHFkczBIdzhZbTJYSnJxNkgzbDRabDg2WkVPWEdmNjYtc3hUSmxUSUNESERTMHBRYVZhdmdpd1RjWTVpdUYtMURabDBlX1BfSVUzZnNURkdvQU5kTFdBNWl3OTRYN2NzTW1DLThjSmF0ajZ4SExsNl8wQ0pkU1dLbEN3Zw?oc=5",
-     "time": "2026-10-22T14:18:09+00:00"
+     "title": "Nebius Says It Is \u2018Sequencing\u2019 Its Financing After Getting $3.5B From Citi, With Bigger Asset-Backed Loans Still to Come",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQM0pWZFNpZmtOaVpIZ2xnUzFscXh1cVoyRFJ3TF9kM3ZVUGZFamJIME51bXhhX18zTzRYQV84YTN0Y2x0Ynl3R0R1QmpaV3l3SmtzOWczbkxXUXI4ajQ0RVBvcE1GaHcxRW9MLWZwMXR2czZKV1VfZ2JVZjdVd1J2MEoyRUVxX2I0bTRrclRvZkJVWnhLbXlCMnFwSF8yV1BWaHJTeUNockY?oc=5",
+     "time": "2026-10-22T12:25:34+00:00"
     },
     {
-     "title": "Snowflake vs. Broadcom: Which Enterprise AI Stock Is the Smarter Buy?",
-     "publisher": "Zacks Investment Research",
-     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQUW1mV0VNazVTdTNnQlpsNWxicUVLNFRKSl9FcXRSeHRUTkpsclVETmE0YWZZUHRMOVJuaGxuTzBhc0pjcFRfbXdhanBseWxBZ01weEdjR1c2S0cxOV9EU2VlV3duQ1ZLLTJlM3VCYWI0Qm55X0dJeWUyd0ZlTjlTVDJ4MmpGNl9GUXI2RjR0d2JYQmxwUFpCYkdSSlpGWFV0LS0tckhyb2RSM2c?oc=5",
-     "time": "2026-10-22T14:16:08+00:00"
+     "title": "Nebius Group (NBIS) Secures $3.5B Credit Facility to Fuel Expans",
+     "publisher": "GuruFocus",
+     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxObHdzeFZqbklWVDJtVFlFOWkzb3Rnd2NQRk9fdnhia3lsOEJNdFAyVXB5OEw2RDJuN2U1eGwwVmw5UV84YnVLWVlpS194MFNQSzhjVFRxTVNhZnBiOVEzSGlCRUhlX2Y3TVRnTjN6VmFqckJQZ3hSX09qcUpLYnhEcTA0bV91SHN4czExbUdHS0tsZ1RoMUZROVZwVkc4TEFjZ2VWdlFtVTRlRnZxZEQtTXROTUJ3SEtqS2ZfdGwxTld2cThrSmlR?oc=5",
+     "time": "2026-10-22T12:06:44+00:00"
     },
     {
-     "title": "Broadcom (NASDAQ:AVGO) Stock Picked Up by Analysts at Tigress Financial",
+     "title": "Nebius secures $3.5 billion financing facility with Citi",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPaWZjc0dSRk1ZOTNzaHA3aVFYTHdIQjlxbnVqVkFkSzN1RUlXenIyVWMwWF9IUnZqeHktU3JNb3IzeU82MGNYbjJJNFhONXVyNlItYjUxYWZ1WGMwMUpBOUxTSDJ1eFdCNTg3SHhMOElSc0g1bGthNUM1dzRGWjZoS196djNJbjJVOTJnbU5nVTVZbExqMHc?oc=5",
+     "time": "2026-10-22T11:00:00+00:00"
+    },
+    {
+     "title": "Nebius Group N.V. $NBIS Stock: Pinnacle Associates Ltd. Decreases Position",
      "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPbFI5VEQxMVc1VkJORXF4Y2l5WEV1eDZBRHJObm9qOUdiN20xOGNISkRUbXd4OFNWbEtRT2c4NWRMYUh0d084bURVZWpUTXg4V3JBeWxwOGR1TkJIbUlaT29mMEpLV0MtNWJhbGRJQnEwT05oNHlSWlRxSm02WFpxTXNKeHFCMmdCbDZRcUFHRFp5UVhrSnoyc1BFQ3ZhU0ozU1RQZmxKTG9aYW1pbkRyaWZMWlR4UVZMLWxUcWxsVWdRY3p2cnFyRVBSYw?oc=5",
-     "time": "2026-10-22T14:09:43+00:00"
+     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQTXhsbFdUQUdTdy13TUxTalFpdEZNUnZGUEIwYnV0a0tfT0FZeWtxWFZkcTFGU3hDVUd0VldpMV9lTkJBMENTd1BqZnk1TUZPcTJjUG80dnhDT0lwcmdJbWR1MHZvRHZOckRSeVNOXzFnSFZLZk9yRHAyY2Z6bU5MUnNGMnlBZHd5QlJSc19QSURlWkp2NjBmSUxUSC1JcU1wOHd2V1FTTjdwd3p0RTlERTZIRDlHRmZEaFRjMGkxSERNbW45aUFZN093?oc=5",
+     "time": "2026-10-22T09:29:33+00:00"
     },
     {
-     "title": "AI Chip Stocks Nvidia, Broadcom and Micron Resume Their Slide \u2014 What Wall Street Sees Next",
-     "publisher": "TipRanks",
-     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNXFyU0VGNnIwZHpUallTZXRMano4RWxPS1NTaENjaHZrWUVnd25VRE1KSW43NEFpNjZ2blZ3ZFlLZ0tzaDR1eHNjTVFRTVF0ZlAya2RjanlzU1dXbXpMQXFad2FVRk5JWjFvUDR2dXplYUZxR3lEV1hBMzdiNzVsZnRYNEpZbHdWOGpvX1U2cGtWV2puMGNkLTk5c3BGZWFLLTdDSFNPVnRQZ29HbHA5alNhWmZiTDVj?oc=5",
-     "time": "2026-10-22T13:19:55+00:00"
-    },
-    {
-     "title": "Broadcom initiated with a Buy at Tigress Financial",
-     "publisher": "TipRanks",
-     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNWEQ0b0gxNEpLVnZfRktNQjdfYWtJUFJpbWpmR3g0TnNWYURuM1FYeHltai1saWlFT05NeW5SaWRwMjh1RGJqekFaUEplYzMxb3F6WnJGMnNGQmpiWnJvcGRYTlZOamtWLVpveExFQlhROVhGbUVIcTZKU3pnTmdQdndVX0l0a2pxWnpWeUlramtYcElGSlk3LUtoaTdNN1JEdXc?oc=5",
-     "time": "2026-10-22T13:09:54+00:00"
+     "title": "Why Is Nebius Group (NBIS) Expanding Its AI Infrastructure Reach?",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNbmNtSHhjSWlWZUFkSVMzMzJ1eE0ydWkxaGdrSDR2ZFFEeTBnWHl2YTZ4Mk8wSHQ0aXZmRVluZko3a2h2eGRfS2lYTTJRZVNzV0ZXRGxNcWdMN2ZMT3E1UGNCZ0dpRHlaTll2LXE4ZVdzblBzTnQ3aHVWVDZQeVVldnBIWWtTRFZaX2pJMzZmN1doRFRqUDhRbk1SRQ?oc=5",
+     "time": "2026-10-22T03:19:00+00:00"
     }
    ],
-   "brief": "2026-10-22-AVGO"
+   "brief": "2026-10-22-NBIS"
+  },
+  {
+   "symbol": "NVDA",
+   "name": "Nvidia",
+   "list": "portfolio",
+   "price": 213.86,
+   "prev_close": 221.97,
+   "change_pct": -3.7,
+   "trigger_change": -3.3,
+   "peak_change": -4.2,
+   "first_seen": "2026-10-22T14:34:34+00:00",
+   "sector": {
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 529.37,
+    "change_pct": -4.91
+   },
+   "chart": {
+    "ema8": -2.5,
+    "ema21": -4.1,
+    "sma50": -4.0,
+    "sma200": 5.1,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "NVIDIA Corp Stock (NVDA) Moved Down by 3.95% on Oct 22: What Signal Does It Send?",
+     "publisher": "TradingKey",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNSElCcVY3eEtZZTEydkJyYVBkcmdQVWY4U1Ric3lJQ3oyMFp3UG9oQmVJb2JwYXpzTGppMEwtc25oalJFODYzM3ctRWVRRU95N05MRjBKRkhzVEh3NlNyUGxXS1o4cnFYdVpTc19SZ2tJTDhnSTdGNVdXd0JvSVFYSTB0TnBXWGwtMEFN?oc=5",
+     "time": "2026-10-22T15:15:53+00:00"
+    },
+    {
+     "title": "Nvidia continues impressive path at GTC Berlin, BNP Paribas says (NVDA:NASDAQ)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPc0NFaGtkb1pjYUtvSFhxcV9peDROTGwybDRWWVZhXzZ3VUxCbnpxRFIweGNyZV9DcFEwVWlrX2d6T093ZnpIMWhYVVFabEVaZ0Q0eU03b1laYzF5MVBLUjJNUHpSY01mRmpRdkJNVGtGMkVuOG1oc3M5QklwalNFTHgzTGhmV3EzcWhUNkd1Sm01Wll2eEdaS245VGVGV0M1YXkw?oc=5",
+     "time": "2026-10-22T14:35:22+00:00"
+    },
+    {
+     "title": "NVIDIA Corporation (NVDA) Remains a Key AI Growth Driver Despite Benchmark Headwinds",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNcVdHR2hGTWJjT2pSVUV3YUM3cUhBeHFlejVVUkdmM05DUHNsLVBVWk5mX2VqSFVQWmpMMnFVN0dmb3F6bUlXTW5CUGxXX0RGYmplbnNXVEJpQ0J2bllqU1RTdzFFa2M4bFlSeFctUTR5ODBjNTRXX25iOEFNRDJUTFFtdHF2cEE5b3R1QlFfbGd3VmJTN0pQYnJ4NllsWWFC?oc=5",
+     "time": "2026-10-22T14:25:20+00:00"
+    },
+    {
+     "title": "Nvidia (NVDA) CEO Says AI Cloud Demand Is \u201cOff the Charts,\u201d So Why Are CRWV and NBIS Stocks Falling?",
+     "publisher": "TipRanks",
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOd2diYVRuUW5TUTRYbG1NRXFvVUhIam9ZV0RJU0VaTnduMTU5RGdMd2pISlB1a09mXzRiQ2lfUEFqN3RISFFhVjE2TVZnbEdBb25UR0pTSk5wRktZNk9xcVMxdDFoTldqd1RyMmt3ZEk2UkZWZm5zSUxRWVJxdlg3cEgwa3g4aUl5NmxRbVJ3dElTZDZNSWplNmFMRE1uOGdJVTlQMXpGNE5tcUUzbzZpcDVQZjJnV05wUXUxUDE0WHV4dw?oc=5",
+     "time": "2026-10-22T13:09:54+00:00"
+    },
+    {
+     "title": "Nvidia Stock Price Today: NVDA Drops 2.18% As AI Demand Doubts And Export Curbs Bite",
+     "publisher": "Coinpedia",
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPcmxZVjJOeTBTS3lBWjRac2U4SUpQRHlBZlVicFpvNEcySXkxX0FmUHBMZUVZWXFqMklFV3BrYWxmR1lLLTFBNHJJWV9uclNXX3Fka0k5UE1saE9lZjE3X0I4eUtjNy1DT2NidzkyQldhZUlXb1dUNmE4LXIwS2tSVUlzRTdPeEx0X2VHOTlkODFEd0k0TUE3VkRlX00zZjBmUWJMYUdvNnBKZWQ3TUtqOXVCdTIwcFpyQWNRVkg3bXUzOHZ20gHEAUFVX3lxTE9ybFlWMk55MFNLeUFaNFpzZThJSlBEeUFmVWJwWm80RzJJeTFfQWZQcExlRVlZcWoySUVXcGthbGZHWUstMUE0cklZX25yU1dfcWRrSTlQTWxoT2VmMTdfQjh5S2M3LUNPY2J3OTJCV2FlSVdvV1Q2YTgtcjBLa1JVSXNFN094THRfZUc5OWQ4MUR3STRNQTdWRGVfTTNmMGZRYkxhR282cEplZDdNS2o5dUJ1MjBwWnJBY1FWSDdtdTM4dnY?oc=5",
+     "time": "2026-10-22T12:37:50+00:00"
+    },
+    {
+     "title": "NVDA Stock Jitters Grow As Retail Sentiment Sours",
+     "publisher": "StocksToTrade",
+     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5sZ1FrY3l0VmdKRS1ldUNEak1JQ0FLMzVBWC1EejlBbDVjbnU1MGM3MlhYb0s5eklaTmlTcVBYaGlYQ2lSNzhZWGxKNmVwVUNUcVVOWEZNS3RHTUZVZ1BfZnY5VUh1aEFoazB4d0xXRUV0ck84Q1preTA4MkFNQQ?oc=5",
+     "time": "2026-10-22T12:32:00+00:00"
+    },
+    {
+     "title": "Nvidia, Intel among chip stocks to benefit as open-weight models prove expensive: BofA (NVDA:NASDAQ)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPeFNlWG1qQ2ZDb29NZFdTN3p0QllTUUJVV2RKNGRSeEhhczhhbDh2OU16OHBONFktRG9hX1BaZFFUSWdUQ0NkTjVYNWF1WWdKSUp2Wi1vY3RjOWJkYi13Ry1rTEdET3BlbTQ1VG1WY19qa2VUeEY5Um9lclBXQXc3amhEVFNGVER1Z0tpSklmR2k1NHdvc0d3el8wVGVIZXFCNkNITF80bmZiSHFidmYwWHFHYjNwODNicUJWRDA5bw?oc=5",
+     "time": "2026-10-22T12:14:45+00:00"
+    },
+    {
+     "title": "Nvidia's Huang says scarce capital is holding back neocloud growth (NVDA:NASDAQ)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPOWp2eUNENzZ4RXB0THpENk1uR041ZVZjSV9SdThaN0VOdDZhMXg1aF9FUGVKbXdzRXBGQlJaY2pmQmdueUZhVFFEOE9ZOGhfeVhKdElYVkhNMEVsWGJLaUVjbVYzajlfUmZaNFJ1ZFdQSkU3d2ZNbmM2N1NXdHltVFBKN0w0TERkY3N0LWNUTGNiZks1enZYZlBOYVQwTHBQRW10RHd3?oc=5",
+     "time": "2026-10-22T11:12:40+00:00"
+    }
+   ],
+   "brief": "2026-10-22-NVDA"
   },
   {
    "symbol": "AMZN",
    "name": "Amazon",
    "list": "portfolio",
-   "price": 253.03,
+   "price": 252.91,
    "prev_close": 262.37,
    "change_pct": -3.6,
    "trigger_change": -3.4,
@@ -408,11 +408,11 @@
    "sector": {
     "etf": "XLY",
     "name": "Consumer discr.",
-    "price": 115.31,
-    "change_pct": -0.19
+    "price": 115.37,
+    "change_pct": -0.14
    },
    "chart": {
-    "ema8": -1.7,
+    "ema8": -1.8,
     "ema21": -1.2,
     "sma50": -1.2,
     "sma200": 4.0,
@@ -471,85 +471,85 @@
    "brief": "2026-10-22-AMZN"
   },
   {
-   "symbol": "NVDA",
-   "name": "Nvidia",
+   "symbol": "AVGO",
+   "name": "Broadcom",
    "list": "portfolio",
-   "price": 213.99,
-   "prev_close": 221.97,
+   "price": 325.6,
+   "prev_close": 337.8,
    "change_pct": -3.6,
-   "trigger_change": -3.3,
-   "peak_change": -4.2,
-   "first_seen": "2026-10-22T14:34:34+00:00",
+   "trigger_change": -3.6,
+   "peak_change": -4.5,
+   "first_seen": "2026-10-22T14:47:47+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 530.01,
-    "change_pct": -4.79
+    "price": 529.37,
+    "change_pct": -4.91
    },
    "chart": {
-    "ema8": -2.5,
-    "ema21": -4.0,
-    "sma50": -4.0,
-    "sma200": 5.1,
+    "ema8": -3.7,
+    "ema21": -6.3,
+    "sma50": -9.2,
+    "sma200": -11.5,
     "momentum": false
    },
    "headlines": [
     {
-     "title": "NVIDIA Corp Stock (NVDA) Moved Down by 3.95% on Oct 22: What Signal Does It Send?",
+     "title": "Prediction: Broadcom Stock Could Crush the S&P 500 Through 2030",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNcnlidnJ3N3RMdFZOWlZPY3JMcENnVVFfQTBuZjkxbk4wdGRVeGpjcTBMMTFORkNvR1htb2htVzZxemFWbENxU3ExaGhoMWhBODhuT0IxU28ydWtRWF9iSEJXZEVhUDRKbVhVbUVSU2dpcWNpVFVmTXkwZGhCQ1J0TzBxWUVhMmRfbVFyWGgyT0pmdGhBYXRnT3R6M1RiaUJGb05WRE9tcU4?oc=5",
+     "time": "2026-10-22T16:00:00+00:00"
+    },
+    {
+     "title": "Broadcom Inc Stock (AVGO) Moved Down by 4.36% on Oct 22: What Investors Need To Know",
      "publisher": "TradingKey",
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNSElCcVY3eEtZZTEydkJyYVBkcmdQVWY4U1Ric3lJQ3oyMFp3UG9oQmVJb2JwYXpzTGppMEwtc25oalJFODYzM3ctRWVRRU95N05MRjBKRkhzVEh3NlNyUGxXS1o4cnFYdVpTc19SZ2tJTDhnSTdGNVdXd0JvSVFYSTB0TnBXWGwtMEFN?oc=5",
-     "time": "2026-10-22T15:15:53+00:00"
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOWGdTVjN0b0tvZjV5YllNemh3TDYxQjA1LTVQS2xBQWtXbGM3UWN0V0VEYTlUY25SLU9EaUppdzNNM3FGcm9kUGpRVWx4VkhUNm52dUlSY3cwaXpFbWxJSnUzaG50NjhKU2FJbXRWV1pGMFloZ2NhYXNNMjkxbDBRakZBS2JETXhTTWRn?oc=5",
+     "time": "2026-10-22T15:15:54+00:00"
     },
     {
-     "title": "Nvidia continues impressive path at GTC Berlin, BNP Paribas says (NVDA:NASDAQ)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPc0NFaGtkb1pjYUtvSFhxcV9peDROTGwybDRWWVZhXzZ3VUxCbnpxRFIweGNyZV9DcFEwVWlrX2d6T093ZnpIMWhYVVFabEVaZ0Q0eU03b1laYzF5MVBLUjJNUHpSY01mRmpRdkJNVGtGMkVuOG1oc3M5QklwalNFTHgzTGhmV3EzcWhUNkd1Sm01Wll2eEdaS245VGVGV0M1YXkw?oc=5",
-     "time": "2026-10-22T14:35:22+00:00"
+     "title": "Broadcom shares weekly forecast: Decline stretches into oversold territory as sellers retain short-term control",
+     "publisher": "Traders Union",
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPYUJLZUhPbTIwZU41bGE4WnZ2WkhuZ2JDc3YzNC1MYW5BVldySFZBand3cUdIMzlyaHJacjdFMDhsdzJTRmh1dElKYnRqREJEZVlmSzlEbnNZdkZQTU9PRzdDeHF5MlhsTGRmeFdfUno4WHhZMVFPVkNxYXItdzU3R0ViTVkwNWcwT0cwU2VtWQ?oc=5",
+     "time": "2026-10-22T14:49:30+00:00"
     },
     {
-     "title": "NVIDIA Corporation (NVDA) Remains a Key AI Growth Driver Despite Benchmark Headwinds",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNcVdHR2hGTWJjT2pSVUV3YUM3cUhBeHFlejVVUkdmM05DUHNsLVBVWk5mX2VqSFVQWmpMMnFVN0dmb3F6bUlXTW5CUGxXX0RGYmplbnNXVEJpQ0J2bllqU1RTdzFFa2M4bFlSeFctUTR5ODBjNTRXX25iOEFNRDJUTFFtdHF2cEE5b3R1QlFfbGd3VmJTN0pQYnJ4NllsWWFC?oc=5",
-     "time": "2026-10-22T14:25:20+00:00"
+     "title": "$Broadcom (AVGO.US)$ \"Death Cross\" getting more clearer.",
+     "publisher": "Moomoo",
+     "url": "https://news.google.com/rss/articles/CBMimgNBVV95cUxOUV9hZXp3blFuRVVBQktPamQ0dzRyNUVJTHRKelJFTlRFTTRSQmNaSnJneGRDblNjWndxeTg4TkRnTjE5LUtJTUlQZE4yUjVqcmczdjRSaE9qUnNmREVhUElURzRXY2pVck1Rck5TLV9hRWdIN19iRG81M3VLcmpQVkxiYzM4STF1MUs1SEszVHhMdzZ5Ny02ei1DQlE1RVVFNldIbS1iQnpIZjFaRmU0ZXd4REQ2YU84d1ZOVnpPelpHTTRLMW5JQ1FPUGstOHNwUDRYdDJ2RE5EVW1TOGhpLTlUSno3SzY1UTRVdWl4MnRvNm01YjR2R01TRm5JWFpLUzdEQ21DUTJqczc0RXRiVmNOUmk2QkxLWU02d1JsNHFkczBIdzhZbTJYSnJxNkgzbDRabDg2WkVPWEdmNjYtc3hUSmxUSUNESERTMHBRYVZhdmdpd1RjWTVpdUYtMURabDBlX1BfSVUzZnNURkdvQU5kTFdBNWl3OTRYN2NzTW1DLThjSmF0ajZ4SExsNl8wQ0pkU1dLbEN3Zw?oc=5",
+     "time": "2026-10-22T14:18:09+00:00"
     },
     {
-     "title": "Nvidia (NVDA) CEO Says AI Cloud Demand Is \u201cOff the Charts,\u201d So Why Are CRWV and NBIS Stocks Falling?",
+     "title": "Snowflake vs. Broadcom: Which Enterprise AI Stock Is the Smarter Buy?",
+     "publisher": "Zacks Investment Research",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQUW1mV0VNazVTdTNnQlpsNWxicUVLNFRKSl9FcXRSeHRUTkpsclVETmE0YWZZUHRMOVJuaGxuTzBhc0pjcFRfbXdhanBseWxBZ01weEdjR1c2S0cxOV9EU2VlV3duQ1ZLLTJlM3VCYWI0Qm55X0dJeWUyd0ZlTjlTVDJ4MmpGNl9GUXI2RjR0d2JYQmxwUFpCYkdSSlpGWFV0LS0tckhyb2RSM2c?oc=5",
+     "time": "2026-10-22T14:16:08+00:00"
+    },
+    {
+     "title": "Broadcom (NASDAQ:AVGO) Stock Picked Up by Analysts at Tigress Financial",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPbFI5VEQxMVc1VkJORXF4Y2l5WEV1eDZBRHJObm9qOUdiN20xOGNISkRUbXd4OFNWbEtRT2c4NWRMYUh0d084bURVZWpUTXg4V3JBeWxwOGR1TkJIbUlaT29mMEpLV0MtNWJhbGRJQnEwT05oNHlSWlRxSm02WFpxTXNKeHFCMmdCbDZRcUFHRFp5UVhrSnoyc1BFQ3ZhU0ozU1RQZmxKTG9aYW1pbkRyaWZMWlR4UVZMLWxUcWxsVWdRY3p2cnFyRVBSYw?oc=5",
+     "time": "2026-10-22T14:09:43+00:00"
+    },
+    {
+     "title": "AI Chip Stocks Nvidia, Broadcom and Micron Resume Their Slide \u2014 What Wall Street Sees Next",
      "publisher": "TipRanks",
-     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOd2diYVRuUW5TUTRYbG1NRXFvVUhIam9ZV0RJU0VaTnduMTU5RGdMd2pISlB1a09mXzRiQ2lfUEFqN3RISFFhVjE2TVZnbEdBb25UR0pTSk5wRktZNk9xcVMxdDFoTldqd1RyMmt3ZEk2UkZWZm5zSUxRWVJxdlg3cEgwa3g4aUl5NmxRbVJ3dElTZDZNSWplNmFMRE1uOGdJVTlQMXpGNE5tcUUzbzZpcDVQZjJnV05wUXUxUDE0WHV4dw?oc=5",
+     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNXFyU0VGNnIwZHpUallTZXRMano4RWxPS1NTaENjaHZrWUVnd25VRE1KSW43NEFpNjZ2blZ3ZFlLZ0tzaDR1eHNjTVFRTVF0ZlAya2RjanlzU1dXbXpMQXFad2FVRk5JWjFvUDR2dXplYUZxR3lEV1hBMzdiNzVsZnRYNEpZbHdWOGpvX1U2cGtWV2puMGNkLTk5c3BGZWFLLTdDSFNPVnRQZ29HbHA5alNhWmZiTDVj?oc=5",
+     "time": "2026-10-22T13:19:55+00:00"
+    },
+    {
+     "title": "Broadcom initiated with a Buy at Tigress Financial",
+     "publisher": "TipRanks",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNWEQ0b0gxNEpLVnZfRktNQjdfYWtJUFJpbWpmR3g0TnNWYURuM1FYeHltai1saWlFT05NeW5SaWRwMjh1RGJqekFaUEplYzMxb3F6WnJGMnNGQmpiWnJvcGRYTlZOamtWLVpveExFQlhROVhGbUVIcTZKU3pnTmdQdndVX0l0a2pxWnpWeUlramtYcElGSlk3LUtoaTdNN1JEdXc?oc=5",
      "time": "2026-10-22T13:09:54+00:00"
-    },
-    {
-     "title": "Nvidia Stock Price Today: NVDA Drops 2.18% As AI Demand Doubts And Export Curbs Bite",
-     "publisher": "Coinpedia",
-     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPcmxZVjJOeTBTS3lBWjRac2U4SUpQRHlBZlVicFpvNEcySXkxX0FmUHBMZUVZWXFqMklFV3BrYWxmR1lLLTFBNHJJWV9uclNXX3Fka0k5UE1saE9lZjE3X0I4eUtjNy1DT2NidzkyQldhZUlXb1dUNmE4LXIwS2tSVUlzRTdPeEx0X2VHOTlkODFEd0k0TUE3VkRlX00zZjBmUWJMYUdvNnBKZWQ3TUtqOXVCdTIwcFpyQWNRVkg3bXUzOHZ20gHEAUFVX3lxTE9ybFlWMk55MFNLeUFaNFpzZThJSlBEeUFmVWJwWm80RzJJeTFfQWZQcExlRVlZcWoySUVXcGthbGZHWUstMUE0cklZX25yU1dfcWRrSTlQTWxoT2VmMTdfQjh5S2M3LUNPY2J3OTJCV2FlSVdvV1Q2YTgtcjBLa1JVSXNFN094THRfZUc5OWQ4MUR3STRNQTdWRGVfTTNmMGZRYkxhR282cEplZDdNS2o5dUJ1MjBwWnJBY1FWSDdtdTM4dnY?oc=5",
-     "time": "2026-10-22T12:37:50+00:00"
-    },
-    {
-     "title": "NVDA Stock Jitters Grow As Retail Sentiment Sours",
-     "publisher": "StocksToTrade",
-     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5sZ1FrY3l0VmdKRS1ldUNEak1JQ0FLMzVBWC1EejlBbDVjbnU1MGM3MlhYb0s5eklaTmlTcVBYaGlYQ2lSNzhZWGxKNmVwVUNUcVVOWEZNS3RHTUZVZ1BfZnY5VUh1aEFoazB4d0xXRUV0ck84Q1preTA4MkFNQQ?oc=5",
-     "time": "2026-10-22T12:32:00+00:00"
-    },
-    {
-     "title": "Nvidia, Intel among chip stocks to benefit as open-weight models prove expensive: BofA (NVDA:NASDAQ)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPeFNlWG1qQ2ZDb29NZFdTN3p0QllTUUJVV2RKNGRSeEhhczhhbDh2OU16OHBONFktRG9hX1BaZFFUSWdUQ0NkTjVYNWF1WWdKSUp2Wi1vY3RjOWJkYi13Ry1rTEdET3BlbTQ1VG1WY19qa2VUeEY5Um9lclBXQXc3amhEVFNGVER1Z0tpSklmR2k1NHdvc0d3el8wVGVIZXFCNkNITF80bmZiSHFidmYwWHFHYjNwODNicUJWRDA5bw?oc=5",
-     "time": "2026-10-22T12:14:45+00:00"
-    },
-    {
-     "title": "Nvidia's Huang says scarce capital is holding back neocloud growth (NVDA:NASDAQ)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPOWp2eUNENzZ4RXB0THpENk1uR041ZVZjSV9SdThaN0VOdDZhMXg1aF9FUGVKbXdzRXBGQlJaY2pmQmdueUZhVFFEOE9ZOGhfeVhKdElYVkhNMEVsWGJLaUVjbVYzajlfUmZaNFJ1ZFdQSkU3d2ZNbmM2N1NXdHltVFBKN0w0TERkY3N0LWNUTGNiZks1enZYZlBOYVQwTHBQRW10RHd3?oc=5",
-     "time": "2026-10-22T11:12:40+00:00"
     }
    ],
-   "brief": "2026-10-22-NVDA"
+   "brief": "2026-10-22-AVGO"
   },
   {
    "symbol": "NFLX",
    "name": "Netflix",
    "list": "portfolio",
-   "price": 67.23,
+   "price": 67.25,
    "prev_close": 65.04,
    "change_pct": 3.4,
    "trigger_change": 3.3,
@@ -558,8 +558,8 @@
    "sector": {
     "etf": "XLC",
     "name": "Communication",
-    "price": 107.66,
-    "change_pct": -1.2
+    "price": 107.55,
+    "change_pct": -1.3
    },
    "chart": {
     "ema8": -2.0,
@@ -624,16 +624,16 @@
    "symbol": "BTC-USD",
    "name": "Bitcoin",
    "list": "watchlist",
-   "price": 81545.9,
+   "price": 81502.2,
    "prev_close": 84022.5,
-   "change_pct": -2.9,
+   "change_pct": -3.0,
    "trigger_change": -3.0,
    "peak_change": -3.1,
    "first_seen": "2026-10-22T15:16:29+00:00",
    "sector": null,
    "chart": {
-    "ema8": -1.0,
-    "ema21": -1.2,
+    "ema8": -1.1,
+    "ema21": -1.3,
     "sma50": -0.3,
     "sma200": 12.0,
     "momentum": false
