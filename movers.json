@@ -1,7 +1,399 @@
 {
  "date": "2026-10-22",
  "threshold": 3.0,
- "updated": "2026-10-22T13:54:54+00:00",
- "market": {},
- "movers": []
+ "updated": "2026-10-22T14:00:23+00:00",
+ "market": {
+  "SPY": {
+   "name": "S&P 500",
+   "price": 767.28,
+   "change_pct": -0.75
+  },
+  "QQQ": {
+   "name": "Nasdaq 100",
+   "price": 715.01,
+   "change_pct": -1.41
+  },
+  "TLT": {
+   "name": "Long Treasuries",
+   "price": 81.11,
+   "change_pct": 1.08
+  }
+ },
+ "movers": [
+  {
+   "symbol": "META",
+   "name": "Meta",
+   "list": "portfolio",
+   "price": 658.41,
+   "prev_close": 697.52,
+   "change_pct": -5.6,
+   "trigger_change": -5.6,
+   "peak_change": -5.6,
+   "first_seen": "2026-10-22T14:00:23+00:00",
+   "sector": {
+    "etf": "XLC",
+    "name": "Communication",
+    "price": 107.89,
+    "change_pct": -0.99
+   },
+   "chart": {
+    "ema8": -6.1,
+    "ema21": -7.0,
+    "sma50": -0.7,
+    "sma200": 4.1,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Meta Just Burned Cash for the First Time Since Its IPO",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNcHE0NnFMYlJ3ZVNjLXRqRHlwMWF1NmlvaC1JWmhVS1FnRWtyRG5LWndPd1hoUnhxOG15QXE0bTJKcUlaRG5pTXU4SElNcms2LUJkcTliWlJZdTVZaTRka3RDRjhFM29lODRjRFFkTnZaaUFQck1KN0RkaFV4QVJmbUVYQnZmY3I3amlIZjNLY3lfTXBpZXJ3bkE3bVVmR3M?oc=5",
+     "time": "2026-10-22T13:45:00+00:00"
+    },
+    {
+     "title": "Wedbush raises Meta stock price target to $920 on Muse demand",
+     "publisher": "Investing.com India",
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNYmQ0SUl0YkRaQkU2emozVTNoM3IwaW1tLTRSdkkzUzhRUXVlLV9BMENSbXZBWlp4QTFWTzlMWHJPaFVVdW5WTDFKWG54Nk1rS3NkaEw2Ukx1TU53RFQzeUJLOF9wV0hsNTZNeDBJM2hROGNacDJUWHpTNGRPQjdYY01JMW9sSUtiRkpsQUNmQWZGNDgxSXlTcXppcXcxbmo2aDRCMVBoeXVhRVR5NTNDem1ibFk4dVh2cXV3THl3?oc=5",
+     "time": "2026-10-22T13:23:15+00:00"
+    },
+    {
+     "title": "BofA raises Meta stock price target to $845 on AI ad growth",
+     "publisher": "Investing.com",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPVzJUN0ZOTFc2bjBWa1FFSFJUaW1UcGdMOGNWS002UGVWenVrN01iMVZMRkNoX0pUU0o5NThUcWlsUzRmcVpCN0drZUFQYlZIc3J6MEpfQUFENFdTMnVYckVHR3pGcGxBYVlCc0t2cjVGdHJpU1V4dFdlZUNpMVBqY2VxVWR2bUZXOHdWaERTTGoyQnNabERQYUtDNGtIOVFBUkZRT0ptUGlIYUtqbWNTVnVmUzhTVktMUlE?oc=5",
+     "time": "2026-10-22T13:15:17+00:00"
+    },
+    {
+     "title": "UBS raises Meta stock price target to $892 on AI investment gains By Investing.com",
+     "publisher": "Investing.com India",
+     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNZGxqTGdyNm5neHFsX1BlRnFUMTVPU01ZMVU2Ymc5MjRUbXZSZHVWZ1AtSVdyeTZCNkhmVko4YnVBTjk3WlRmclJzV1lBdG9tamNQa0FUN2NOOW11Qm43amFWVEU1S2FUTHU5Yy1tNm40eC1mOWNEby1aaWl2WFJPMXRoRThoQkhFeW91cy1UMTA1TGlyOC1WcVk0a3QxRXZ2M3lQWkNrOXk1ckRJNzJmQTM3Tm1XQV9kR0tUVU5SZEVLbXc?oc=5",
+     "time": "2026-10-22T13:14:40+00:00"
+    },
+    {
+     "title": "Meta Just Unveiled a New Takeover Weapon \u2014 But There's a Catch",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQX2JfektFdGNrTTBwX2pCM2JlUFBHeTVFeXRTeEVkaHYyMzB2MlNURTltVFdEXzRJZDRicHF6VHlHdDhCa0FsVFJlbzFRWmVreGNmbVItUnRiTEVNUzdRWVNaSUMteFpFZFV3QUI5TWt2Z2NETUFLcGJqdF9ZbGZqVm9Udm54V1Zuem9odUlDZnh2MFNEN3JGV3ViTDlqWGN6aklINnNfdlJBX3ZoV1FVUVRR?oc=5",
+     "time": "2026-10-22T13:10:34+00:00"
+    },
+    {
+     "title": "Meta Falls 3% as Higher AI Spending Outlook Overshadows Earnings Beat; Alphabet Dips, Microsoft Holds Steady",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQV2ZMT01CdlByNVAyWW9WYmZjWk9EWnk5cjFzZ29raFBjaEZCVmZ6V3dKaGd0VTBOaDdyakpiTXN2YW5HQll0b3R0RmJmZHljWUhaaDhuS3J1WFk2RVh2RGd4UHVqRlNzb1NHbUN2Z24wSm85eWxMWUEtNEdZeXd4MXZPUG5pd1dUSFhEOGxwcw?oc=5",
+     "time": "2026-10-22T12:56:46+00:00"
+    },
+    {
+     "title": "Meta Stock Falls. Earnings Show Just How Much Future Growth Will Cost.",
+     "publisher": "Barron's",
+     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE4tdTM5U2kwQ295eEpWaTdjamk4SDdmT09TWjFBNHBhZkRxcmR6SmpNT1lEbTZGZTl0LVZpYUxXUERlOEtsaWdFLXF2QTFSUG9LM0RjbkZyR21YR1dlNmN2NnhvTWFqanY4Q09IYjBqT29SOHBGeWxrZg?oc=5",
+     "time": "2026-10-22T12:54:00+00:00"
+    },
+    {
+     "title": "Meta is creating a new non-voting stock class it could use to fund its AI buildout",
+     "publisher": "Quartz",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5lbzlLWElVcUdKbWxhSTZuYVV0MjY3RnpfVjhaMjBQbDEyVzhDckdxRGlTOTFYRnFGVE1TbDRoWXFTTndXQmtfT3VfQlpUSEtZLVhfeEVGU3ZaUUZ0TXFvOGdXM3lQMkpSeFRud3FDVnM?oc=5",
+     "time": "2026-10-22T12:51:35+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
+   "symbol": "NBIS",
+   "name": "Nebius",
+   "list": "portfolio",
+   "price": 162.34,
+   "prev_close": 171.57,
+   "change_pct": -5.4,
+   "trigger_change": -5.4,
+   "peak_change": -5.4,
+   "first_seen": "2026-10-22T14:00:23+00:00",
+   "sector": {
+    "etf": "IGV",
+    "name": "Software",
+    "price": 109.14,
+    "change_pct": 0.29
+   },
+   "chart": {
+    "ema8": -9.5,
+    "ema21": -18.8,
+    "sma50": -26.2,
+    "sma200": -7.5,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Neocloud stock rout has a silver lining: It's staying contained",
+     "publisher": "AOL.com",
+     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNV3BSdk11RG9LNThCaDdTckpKdnRhbGZ5Zkpfa2lpbDBvc1Y3NFFlbXgzQUF2YlB3bF9wWFFYMUFqeHhSbm9pZ2JFWkJsRXhRRlZoR2FDM2RRTVZjbmhWME5IRUFhaDRDZlhwR29XRnQ4clVsOUl2dVR3em51UnlUMkxsdw?oc=5",
+     "time": "2026-10-22T13:26:35+00:00"
+    },
+    {
+     "title": "What's Going On With Nebius Stock Thursday?",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPU2dKOGJYMXNYRWVhM3lSVHlzWXVFTHNUN1EwTlVyOHZvQXhTSHV1ck1ja0JPM0tHSVhOQmpHckpVZ2tPV1BibklBelJJdzhEaWVldEVJT0hhSEY2RUJ6aTZ5bDdreXAyYVZXWFczdTVvLWU5SlY3OUhRMUhKbGt2LWczLXFrQW9UeHAxSE5faTJoNUNPYzE1UEgxU1YxbGRVWDNaRw?oc=5",
+     "time": "2026-10-22T13:14:46+00:00"
+    },
+    {
+     "title": "BofA reiterates Buy on Nebius stock, cites capacity expansion By Investing.com",
+     "publisher": "Investing.com UK",
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOMU5RV3ZLcFU5dnhqM3lkUTRJNVU4T18yVUFaZXBPRXRBYlBJbnpkNkxxenNGbkluMDZKUk9mekowRHduLVR6V3UwUDNuaklLcnlpTDF5bmc1MERVOHdodkZpRU1xMmNaSEFsUk5YM1VXWVE3dWlTaUczNjRrN2FEUG15bU1QcElUekhtT1RvT3BFaW9PSEpldDRDQkxJYlRja3lIZWpnMU5qREoyd2RTZDNncW5TbE9OaEJZclB3?oc=5",
+     "time": "2026-10-22T13:10:00+00:00"
+    },
+    {
+     "title": "Nvidia (NVDA) CEO Says AI Cloud Demand Is \u201cOff the Charts,\u201d So Why Are CRWV and NBIS Stocks Falling?",
+     "publisher": "TipRanks",
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOd2diYVRuUW5TUTRYbG1NRXFvVUhIam9ZV0RJU0VaTnduMTU5RGdMd2pISlB1a09mXzRiQ2lfUEFqN3RISFFhVjE2TVZnbEdBb25UR0pTSk5wRktZNk9xcVMxdDFoTldqd1RyMmt3ZEk2UkZWZm5zSUxRWVJxdlg3cEgwa3g4aUl5NmxRbVJ3dElTZDZNSWplNmFMRE1uOGdJVTlQMXpGNE5tcUUzbzZpcDVQZjJnV05wUXUxUDE0WHV4dw?oc=5",
+     "time": "2026-10-22T13:09:54+00:00"
+    },
+    {
+     "title": "Nebius Group NBIS Slides As Wallstreetbets Momentum Cracks",
+     "publisher": "StocksToTrade",
+     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9hTmx5VU9ybk43Tkh5T1pfenNMNUdZZXFOSll4RTR5YjA4WFVFZV9xZm1zUF9NcU1fVWJDSWMzeXFpYUp6THdWVmMyZTIwYm56a2haYWhNRGhxeUNERzRDU1FiUmk1MnlRMlQ4ZF9kV2E4UThQQmdJ?oc=5",
+     "time": "2026-10-22T12:33:00+00:00"
+    },
+    {
+     "title": "Nebius Group NBIS Slides As Bears Lean In On AI Hype",
+     "publisher": "Timothy Sykes",
+     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5aN0JRdmVPT05IME5OYnAzWi1MbEpoRmZhTVNmLWJlTVBQQ3VteTh1Z045ODBMZTY2TVVObWVYNFJHM1ROSjRMbXNObG9YNmRJdjA4ZTBOWjlrZ0dFdVhtNjFsYzlHb3FhZDI5N1FhcXR3TzBWc1NrRmRwYw?oc=5",
+     "time": "2026-10-22T12:32:00+00:00"
+    },
+    {
+     "title": "Nebius Says It Is \u2018Sequencing\u2019 Its Financing After Getting $3.5B From Citi, With Bigger Asset-Backed Loans Still to Come",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQM0pWZFNpZmtOaVpIZ2xnUzFscXh1cVoyRFJ3TF9kM3ZVUGZFamJIME51bXhhX18zTzRYQV84YTN0Y2x0Ynl3R0R1QmpaV3l3SmtzOWczbkxXUXI4ajQ0RVBvcE1GaHcxRW9MLWZwMXR2czZKV1VfZ2JVZjdVd1J2MEoyRUVxX2I0bTRrclRvZkJVWnhLbXlCMnFwSF8yV1BWaHJTeUNockY?oc=5",
+     "time": "2026-10-22T12:25:34+00:00"
+    },
+    {
+     "title": "Nebius Group (NBIS) Secures $3.5B Credit Facility to Fuel Expans",
+     "publisher": "GuruFocus",
+     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxObHdzeFZqbklWVDJtVFlFOWkzb3Rnd2NQRk9fdnhia3lsOEJNdFAyVXB5OEw2RDJuN2U1eGwwVmw5UV84YnVLWVlpS194MFNQSzhjVFRxTVNhZnBiOVEzSGlCRUhlX2Y3TVRnTjN6VmFqckJQZ3hSX09qcUpLYnhEcTA0bV91SHN4czExbUdHS0tsZ1RoMUZROVZwVkc4TEFjZ2VWdlFtVTRlRnZxZEQtTXROTUJ3SEtqS2ZfdGwxTld2cThrSmlR?oc=5",
+     "time": "2026-10-22T12:06:44+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
+   "symbol": "AMAT",
+   "name": "Applied Materials",
+   "list": "portfolio",
+   "price": 389.19,
+   "prev_close": 408.94,
+   "change_pct": -4.8,
+   "trigger_change": -4.8,
+   "peak_change": -4.8,
+   "first_seen": "2026-10-22T14:00:23+00:00",
+   "sector": {
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 540.06,
+    "change_pct": -2.99
+   },
+   "chart": {
+    "ema8": -8.1,
+    "ema21": -14.3,
+    "sma50": -17.5,
+    "sma200": -11.9,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "How Much Should This Move Change Your View Of Applied Materials Stock?",
+     "publisher": "Trefis",
+     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPeGtTa1BibE96TnNDNTFoeV9XNDRVWkxlR1YydW0zUlNVTFJZSkU2TnZmU0VlQ3RQMTJqNzdmR1NKQ3BrMnpfb2xOdGVYeWJyQWhaM3dvWHN5T1VERm5QRndkRWE2NDJCUzdaNWI5TjFRd2RqNVJfd2xKQVRwNllIcm9jcHBBNU9KWGpwRGlXZEJjR0dDa0xiOEVXQWNNdGhzdjFEUFpqRFgwQm1KNlRvcWtLM0tJUnRZNnpfSmJOeURPOUI1ZV9POTdn?oc=5",
+     "time": "2026-10-22T12:31:56+00:00"
+    },
+    {
+     "title": "A live webcast of Applied Materials' 2026 results call is set for Nov. 12, with a replay that evening.",
+     "publisher": "Stock Titan",
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPZEEwQnI3NEpEWTkxcmtwTVFYT0dVb0dJMF9UTHhfaE9YSWVseUYyZE5tcFdZQnYtdHFaYkpqMFdyMUZOaHJfT0x2Y2luSGM2LWtkbXVWWVRMcHVzX1RNZWYtWi1zUkhWMWVDVWluT19lTURJcHlNbWlkOFlWQU9SelVPYVRrS1lGQjl1RjZwS05mV2RkRkFPSHFXZjN6UFNNd2RxLUpxRkI0dllRbG0yVEVWcVVMUkxfY3FVNl93?oc=5",
+     "time": "2026-10-22T11:30:00+00:00"
+    },
+    {
+     "title": "Applied Materials (AMAT) Sees $102.1 Million in Net ETF Buying on Tuesday",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPakduVmRLcWxMRFBFcXEtWEpPQVFHTHM5aDJTeXJURVkwWDRNaUZ6bmdpajlsVnZvbVdMV1lWaVJfbkI1OFZ3UmR4WWZuSG5salh3QnhqNlFmN21zOGtPN0dXTHV1MG5BWVdhelZmVzZqVW0xck1CWHlSNVVzSG1GMjQxN1NLbTNSd0ZncmVpMmM3MFpzQWNRQ1RQckM?oc=5",
+     "time": "2026-10-22T11:01:26+00:00"
+    },
+    {
+     "title": "Two Reasons To Rethink Applied Materials Stock Now",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQNEJzQ0p6RWNPbU5oWGlwY2NMQkdfUXN2WmU1UDJieXcxX0dHSFpydS1lbEs5TEhQc25qSUYyWEJHOVJUdld5WG1sNnZYM2dfekhnODJza2lHNEthWFByRnVaZU5OTUoyTlM4YWVXUl9jQWRERFNJd0Rhc0Y5SWNJXzRtT1FKeUp6RDA2RHphNlNWQmZ6Uzl6Y0txU1BGcjVzTUY3NQ?oc=5",
+     "time": "2026-10-21T20:58:32+00:00"
+    },
+    {
+     "title": "AMAT,LNG,LRLCY,VLTO | Stock Prices | Quote Comparison",
+     "publisher": "Yahoo! Finance Canada",
+     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5KOGd6emVieEtaUjAzYnFqbE5UaTRTQmduNExRSEx4RlhKY2MtSGlUSHR6MHFYcV9oZjVrREJxbzFYeGJWaUxTWWpMUUtLLTFmbkpkYXQyakM1QnppN1l4RVU4cGU2Rnc?oc=5",
+     "time": "2026-10-21T17:49:00+00:00"
+    },
+    {
+     "title": "ETFs Bought $131.5 Million of Applied Materials (AMAT) on Oct. 19",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQeUU4ZktnM29BWjl6Z0hfWnJSYnRiQ3g3V2FsVWxXUUl2aTlSc1VNLWJkUHlQNnQ0LURZWkVpSHhSdVpjdURwMjM2MkxNMzI0MnR2bnVXWXlOS09hZTRLWFlGYjNydmdWS2pxeGhoSzRqTTFWWnJiclFlVEo3Y3R6WmJISmtCQ1pkdjJvQkFGYjZYd2ZW?oc=5",
+     "time": "2026-10-21T11:01:41+00:00"
+    },
+    {
+     "title": "Applied Materials Slides After Targeting $12 Billion in Services by 2030",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPUTJrUll1eFR6ZjdjZDhtTXdFcVRfdXoyekNBd1YyZlVwLW1WdTAzNkltclVEV2Z1UXllakw5TkV5bHBJQWVRT0J2OVpZYkMxcHdwS3pCY3BHOEc4ZHh0VmFyaHVLdUJUd2lYd01xYk12MmhmeW42LVdjNEVlREFFdV9YbVRWeXVDQmV3Yjc1SmtsVEprUE9LMjRCV2RzMHNMRzVtbA?oc=5",
+     "time": "2026-10-21T10:28:18+00:00"
+    },
+    {
+     "title": "BABA,AMAT,FIVE,ATLC,PBF,PRM,SHPH,PSNY,NVCT | Stock Prices | Quote Comparison",
+     "publisher": "Yahoo! Finance Canada",
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOR0xYc0FEaTBNTk1ENU5md3pkeEVDTDVJT1BqWTNTTUlfVXZLbmt0azI3Nk8xaE9JWWRySEEybWhZa3d2bDFYMFFmb3NJbzlIZzN2dG92VHNycWJoM19XNHNSVkdLQURleVJxV01RNURjUEdJd0dyQXAyR1lfWnYtX1VickFKQQ?oc=5",
+     "time": "2026-10-21T04:11:59+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
+   "symbol": "ANET",
+   "name": "Arista Networks",
+   "list": "portfolio",
+   "price": 177.73,
+   "prev_close": 184.33,
+   "change_pct": -3.6,
+   "trigger_change": -3.6,
+   "peak_change": -3.6,
+   "first_seen": "2026-10-22T14:00:23+00:00",
+   "sector": {
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 540.06,
+    "change_pct": -2.99
+   },
+   "chart": {
+    "ema8": -4.8,
+    "ema21": -8.7,
+    "sma50": -9.9,
+    "sma200": 8.6,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Arista Networks (ANET) May Have More Room to Run After Q3 Results",
+     "publisher": "TipRanks",
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTUJVbHBPOFN0RENRclpaY1V3U2NuQWNOc2daNG1hVVRRWjFxNDBTX3dtY29Wa25MZDhmSnFINi1LMXR3cThWSTFhMFZTOVVjRG5xaTlnemdNblZOcmpqYUxQcksyS2tMRVhSZWowQkdhY2xtTEYxcXJvV1pST1IxUUlfYXotcEdnZDM1YlgxdmxBbHZyZjgw?oc=5",
+     "time": "2026-10-22T12:35:01+00:00"
+    },
+    {
+     "title": "Arista Networks (ANET) Is Considered a Good Investment by Brokers: Is That True?",
+     "publisher": "Yahoo Finance UK",
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNYlNNQkozY1FZaTlKbDh1ZGwtSjk4UWNJVmJuMHlJWktQS2pDbF9ONmg5b0l1MGdFOTlQMHIxT2FvQ1FPOHFBMXMydW9WcEhwdjc2aG1yNXNoRS1oT0I2MVZPTGlfVmJYNnk1dmJEY3ZqdzJTal9JN21jc1hzdmh6NW1rTzQ4MDVZRHNwMVNB?oc=5",
+     "time": "2026-10-22T12:30:03+00:00"
+    },
+    {
+     "title": "Should You Pick Arista Networks Stock Over Its Competitors?",
+     "publisher": "Trefis",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOdE1KQy1saVVQa05YTGZ5WlhVWlRnR3JPaDZmQnVhRVFHaDlKSnVrdmdrbEgxWlJYSEZna2x3UVJUaGl6cEQxT1hhVWg4d0xBOV9zc1JSWTQtLTc3ekdWYlhiS2xScl9LOHZhQlgtaTE1RUlJYlZhanptZ3I1b3NTeFZDUmZ3eXNLbHlvZ0dVckhWdnVVU3pheGcweFdOb1ZuQ1FqVTZydm5EbDI4XzBZbF84YXR1eVhmT3gw?oc=5",
+     "time": "2026-10-22T10:52:40+00:00"
+    },
+    {
+     "title": "Arista Networks, Inc. $ANET Shares Acquired by Crossmark Global Holdings Inc.",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQcnFRQ3ZvSk02bUdoTWRvSEZsSFhrYXZXV29FMlNacEUteDd6NzEwQmc2V2h2T2pkSllKSjh4VjZkWTFHNjdtUHoxYjVRckNrdUZ2Z0pIUXZGTlBGTUU0N1BXTDdhWXo2clNQX0hrdms3eWFpdlN3TFFVM1ROVkFtT1hNMnlPWnIzZXZJZ1NyR2xqMVhUaXlndW5NV2VVTXpvMWpJclJ2eThTaHNEaXphZ29WbXM4ZERLT1o3SGc3Wk9xb2pxZnBDYnlCeGJiTWc?oc=5",
+     "time": "2026-10-22T08:14:51+00:00"
+    },
+    {
+     "title": "13,807 Shares of Arista Networks, Inc. $ANET Purchased by Cantor Fitzgerald Investment Advisors L.P.",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOSWJ5bnZ4a3ZCVGZIcHIwbkdoYzg4U3RpRTVhcW4yNnlZUTlRaks5YjU2Vzd0MEtZTUhqNGlNeGQ2ZVBJYS1WWWhhVlplM3VkZlVXT2U5Zy1PVk8xS2VjVXBVN1RjUzZ2MzZ2dlhpNHhjY2RGOTZJcVNCMDFCbk9wcmNiUkRUbTgzaDdNTEUyblhsWVRBRndLcDFVSzRiVWpoaUNQdlNCUWkwakZ4ZERTTnFsM2RkU3duNUZwWG1kZmJlYUdDU3lPXzItU2I0cWhPUkJldE9UWEZwVVRQbnlGR3JvQzU2anVOMWtZ?oc=5",
+     "time": "2026-10-22T07:41:18+00:00"
+    },
+    {
+     "title": "Arista Networks vs. CrowdStrike: Which Tech Stock Is a Better Buy in 2026?",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOazczMGdXNjlxbzBPM1ZRN2NtaGM5cWFDdnc1N3VuMkxoa1hSTVdEeUtlVVhfY2N6b3c2dU9mUW5KejFpQ2lqSUFLckV3RXkxMVloQ3RIcWdHdWR1NmYtWV9MTVJxNW9vX0JnbjZmTUJXQWxXRHRBSmxTRVNkNHJzM3VXNTlYNVhaSGh5SEhLY1QyOUZrc1YzWkU0RlRZWVEyU3hmbm80UWxidEtPWG5YVC1aa09RblBSamhUc0hrNGs0Zw?oc=5",
+     "time": "2026-10-22T02:37:00+00:00"
+    },
+    {
+     "title": "Arista Networks (NYSE:ANET) Shares Climb 1.8% - Should You Buy?",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPR0tDYm9FSjI3UkFkb1JVWk9Iam1OQVNZNExYV2hnSGJrd01NUzM4RW9kOEpiZGViNWUtZXJIS3l0WnJCTE9ma2lfQy1sRTN2Z2FsV3hzc1Nhc3kzMU56R2gtODluNkdzSEJtTkUzZkMzM3RveU9PRjA2U0VncjNNNFk4N2JiV0dEaXduZDdlMXVlZmZkM0JVNTZWTi0xaEZrRUM0aGZDczBQZ2haWVlCdlNuUGt0cVk?oc=5",
+     "time": "2026-10-21T21:47:09+00:00"
+    },
+    {
+     "title": "Arista Networks (ANET) Rises Higher Than Market: Key Facts",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNGhPTURKQjdlZ0JwLVN4UXRoejkteExYZ2RwY0QweTlRaHZlQTZFNDN5Ujh1blplMDhYcDV4NklIMWx2VEJyY3h6WGlBTS1scFo2ZHI2M1dUc2FWcWVOWVlJclVsUFBUVDd6YnI5d1ZwaENpWlBwblhUNkhuLVR6UlpjY3c5ckhYM1l6dHNFNnBrTDdSeGl3bHZTelcxblU?oc=5",
+     "time": "2026-10-21T20:45:02+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
+   "symbol": "AMZN",
+   "name": "Amazon",
+   "list": "portfolio",
+   "price": 253.44,
+   "prev_close": 262.37,
+   "change_pct": -3.4,
+   "trigger_change": -3.4,
+   "peak_change": -3.4,
+   "first_seen": "2026-10-22T14:00:23+00:00",
+   "sector": {
+    "etf": "XLY",
+    "name": "Consumer discr.",
+    "price": 115.43,
+    "change_pct": -0.09
+   },
+   "chart": {
+    "ema8": -1.6,
+    "ema21": -1.0,
+    "sma50": -1.0,
+    "sma200": 4.2,
+    "momentum": true
+   },
+   "headlines": [
+    {
+     "title": "Amazon.com Inc Stock (AMZN) Opened Down by 3.50% on Oct 22: Facts Behind the Movement",
+     "publisher": "TradingKey",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQX3Y3cFRid0NPbU1FYUs3M2xrTVozQ2NyUlY4TVhqZnhzWUx0YnR0MzdKdVROYm1jUWNLc2hrYlYwSlFVMmczMmFINFJwVGJmWnRnbVh2cE9IMzJRLWxzRktaWmtCeWNYdGl3eGZIbk16VzlTWGhkbjF0VklLRHA0dWJGUFpLMG0xRnZj?oc=5",
+     "time": "2026-10-22T13:47:30+00:00"
+    },
+    {
+     "title": "Tech Giants Race To Patch Critical PHP Vulnerabilities Affecting Web Systems",
+     "publisher": "TIKR.com",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPWVdYX19CRGJGTC1odElROXBsWWZUcUExZkloTVVoNzBqYzRFQ1ZqZkZWYkNZWmx4ZUluMEV6cVpvVm1ab2JfdzE0Y3FlY0s2RFI4S0VQaHFMNHpZTU1XRmR5eXp6dnh5SWZBOEIzWWFJVTVOeEF4QkE5M0RPb2s1N0ltZnhhLVA5d0Q0bloxV0U?oc=5",
+     "time": "2026-10-22T13:13:39+00:00"
+    },
+    {
+     "title": "Analysts Have Conflicting Sentiments on These Consumer Cyclical Companies: Tesla (TSLA), Amazon (AMZN) and Crocs (CROX)",
+     "publisher": "The Globe and Mail",
+     "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxQYlBiM1hodHdVYUpqREZwUGxWZjVRVlRRTFBGaUJGalBsS1lCbzQxaklhUElieDItN2RRbWlNUmNRR2ppYzdubk5zWVBNNC1BbXVYeTl3bjNfWVVXUjM3NTVWb0dObmQ0cGt6ckFRWVVWREk5SDlfQVI3aXdxaktucHZmTW5KSU9xWGdJcHJ1UUpIeVNneF92MFpnZ2dhRWtOaElva05OSk5uaFBndWtfUlJKSmhRcVZJSEUzYUJwc0wwejhvTkpXOGR4X0x5MWtybXp4aDc2amFYS2RienRqVV8wdWcwaG9sWTdQdkJUWXBfd2hqbGVmNGZ6SENMVUhOajV3bkRaUnVEZG1idzdXaUR5emNCRWlGaExGMjQ3YVUyeVUz?oc=5",
+     "time": "2026-10-22T12:12:54+00:00"
+    },
+    {
+     "title": "Amazon\u2019s Bee AI Wearables Could Be a New Growth Driver for AMZN Stock",
+     "publisher": "Barchart.com",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQN09OaUVOSU1CTk1HLXZqb2Q2R2pBaGFwMzNRcGRjdDNTanhaRHBKMEFNRW8zeFgybDlnWmpMQW1fRmFWaVZ0QlFTZXg4RzFRdjh2dEVpSWxxb09OdnBYMnN3RnJOWmx1b29tUWVSODFoZzRWSDUxODM3MHl3cEduQ3pzbjRPMWJERlZKWHQzS0xpT25SVG5pY204N3hwcHZseUU2R1c5S1RIcGhWcDAtTDVB?oc=5",
+     "time": "2026-10-22T10:51:33+00:00"
+    },
+    {
+     "title": "Amazon.com, Inc. $AMZN Stock Position Lessened by Three Magnolias Financial Advisors LLC",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPRU5BMzJQb3dyazlYaUMtM3E5VFNOTUVXcUVUTF9xR1o3U2docHpXRklhWWZQTDNzdzlZV1BhVTVqZFg2TWR6U1BLNHZkT3FKQ3lnVl9wOUFVcEItNm5QVWstN1BBdnhmVm1ubVpwLUN6TmhNN0QxMko4U2ViVC0wVUNURjFOMW1tTUVuVEJXU1JjbzRfdXNjOG1XTDhxajY5UjF6UWwyMEVLdG8yTERGRDlXM0ZkUW1qM1JLaDJSSkVvWmFkZkViQ1VLcFlCSXNCa21XOEozNlQ0ejQzNGc?oc=5",
+     "time": "2026-10-22T09:13:01+00:00"
+    },
+    {
+     "title": "Amazon.com, Inc. $AMZN Stock: SFM LLC d b a Sweeney Financial Advisors Cuts Stake",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNb2NGV0s1VnFnMjhFSHRuaWpSek5iSlRJWDVjWHBnVS1aN2pkcUk3eVB4OXBhNkpDNlpsb05XYnBfYWNkM2x1THdFbjVjSGZqdHR0NVNXOHpBaGxCYk5mTUhqV3RRMU5CSHVkcWxIYTJYYnYxMExPQmxMdUlqLVZ2UjFzRGM0SmU4MDcxRW1WNG9tX0FpZTZiYktZZm5yYkE4YVJ1elpOamJlYTRoR1ZvbEhuUEhwckRuR29QSlhNV2ZzTkgyOTdmQ21kSnA2T0xwUHRV?oc=5",
+     "time": "2026-10-22T09:12:59+00:00"
+    },
+    {
+     "title": "Amazon.com, Inc. $AMZN Shares Sold by WealthSpring Partners LLC",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxONWszLXEwNE1pSlhoVEE4S01haDZiU0N0LXJxazQzaFZiOG5XR1RXNUVLUTFNcUhLbmdMXzd2aVhvQjJ5WEhqTWNKYmQ5YnFtRG5tTzZUZHRmaTRxRlBoaWkyZ0NoWTNveDU4QXo1U1VTOTRkR3ZOQzE4NlF5YmJHZUhVZkpyQlFUd3lIdXhiazh4Vy05T1ZpMV9xeGtVRkw4bFdLMGttcEFpNnJxZS14bEVCWU9jNElmbVFFWQ?oc=5",
+     "time": "2026-10-22T09:12:59+00:00"
+    },
+    {
+     "title": "Amazon.com, Inc. $AMZN Position Boosted by LDIC Inc.",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNaTJ0NTIzcTUzVUR4U1VxT2lwamltLV85MUU0Wl9qZUg3NWlETEMtWmNLcHhtVUdYdGpkU2tMU0ZGN19GNWJsTDdoV1FYQWRSZFZVaGZCT1VRNXJFdFZKU2d1eWVJRm5GSmRtNVl1N2E4RnRsV1ZqT0M4YjRxS2pnYzRLb1M5U3hlM3lpRDZabWdhcmNMN0JmYW5ZQUdKNEhmZG1pbGNOd1prU2k4?oc=5",
+     "time": "2026-10-22T09:12:59+00:00"
+    }
+   ],
+   "brief": null
+  }
+ ]
 }
