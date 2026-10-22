@@ -1,121 +1,46 @@
 {
  "date": "2026-10-22",
  "threshold": 3.0,
- "updated": "2026-10-22T14:00:23+00:00",
+ "updated": "2026-10-22T14:09:13+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 767.28,
-   "change_pct": -0.75
+   "price": 766.26,
+   "change_pct": -0.88
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 715.01,
-   "change_pct": -1.41
+   "price": 713.37,
+   "change_pct": -1.63
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 81.11,
-   "change_pct": 1.08
+   "price": 81.14,
+   "change_pct": 1.13
   }
  },
  "movers": [
   {
-   "symbol": "META",
-   "name": "Meta",
-   "list": "portfolio",
-   "price": 658.41,
-   "prev_close": 697.52,
-   "change_pct": -5.6,
-   "trigger_change": -5.6,
-   "peak_change": -5.6,
-   "first_seen": "2026-10-22T14:00:23+00:00",
-   "sector": {
-    "etf": "XLC",
-    "name": "Communication",
-    "price": 107.89,
-    "change_pct": -0.99
-   },
-   "chart": {
-    "ema8": -6.1,
-    "ema21": -7.0,
-    "sma50": -0.7,
-    "sma200": 4.1,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Meta Just Burned Cash for the First Time Since Its IPO",
-     "publisher": "24/7 Wall St.",
-     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNcHE0NnFMYlJ3ZVNjLXRqRHlwMWF1NmlvaC1JWmhVS1FnRWtyRG5LWndPd1hoUnhxOG15QXE0bTJKcUlaRG5pTXU4SElNcms2LUJkcTliWlJZdTVZaTRka3RDRjhFM29lODRjRFFkTnZaaUFQck1KN0RkaFV4QVJmbUVYQnZmY3I3amlIZjNLY3lfTXBpZXJ3bkE3bVVmR3M?oc=5",
-     "time": "2026-10-22T13:45:00+00:00"
-    },
-    {
-     "title": "Wedbush raises Meta stock price target to $920 on Muse demand",
-     "publisher": "Investing.com India",
-     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNYmQ0SUl0YkRaQkU2emozVTNoM3IwaW1tLTRSdkkzUzhRUXVlLV9BMENSbXZBWlp4QTFWTzlMWHJPaFVVdW5WTDFKWG54Nk1rS3NkaEw2Ukx1TU53RFQzeUJLOF9wV0hsNTZNeDBJM2hROGNacDJUWHpTNGRPQjdYY01JMW9sSUtiRkpsQUNmQWZGNDgxSXlTcXppcXcxbmo2aDRCMVBoeXVhRVR5NTNDem1ibFk4dVh2cXV3THl3?oc=5",
-     "time": "2026-10-22T13:23:15+00:00"
-    },
-    {
-     "title": "BofA raises Meta stock price target to $845 on AI ad growth",
-     "publisher": "Investing.com",
-     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPVzJUN0ZOTFc2bjBWa1FFSFJUaW1UcGdMOGNWS002UGVWenVrN01iMVZMRkNoX0pUU0o5NThUcWlsUzRmcVpCN0drZUFQYlZIc3J6MEpfQUFENFdTMnVYckVHR3pGcGxBYVlCc0t2cjVGdHJpU1V4dFdlZUNpMVBqY2VxVWR2bUZXOHdWaERTTGoyQnNabERQYUtDNGtIOVFBUkZRT0ptUGlIYUtqbWNTVnVmUzhTVktMUlE?oc=5",
-     "time": "2026-10-22T13:15:17+00:00"
-    },
-    {
-     "title": "UBS raises Meta stock price target to $892 on AI investment gains By Investing.com",
-     "publisher": "Investing.com India",
-     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNZGxqTGdyNm5neHFsX1BlRnFUMTVPU01ZMVU2Ymc5MjRUbXZSZHVWZ1AtSVdyeTZCNkhmVko4YnVBTjk3WlRmclJzV1lBdG9tamNQa0FUN2NOOW11Qm43amFWVEU1S2FUTHU5Yy1tNm40eC1mOWNEby1aaWl2WFJPMXRoRThoQkhFeW91cy1UMTA1TGlyOC1WcVk0a3QxRXZ2M3lQWkNrOXk1ckRJNzJmQTM3Tm1XQV9kR0tUVU5SZEVLbXc?oc=5",
-     "time": "2026-10-22T13:14:40+00:00"
-    },
-    {
-     "title": "Meta Just Unveiled a New Takeover Weapon \u2014 But There's a Catch",
-     "publisher": "Benzinga",
-     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQX2JfektFdGNrTTBwX2pCM2JlUFBHeTVFeXRTeEVkaHYyMzB2MlNURTltVFdEXzRJZDRicHF6VHlHdDhCa0FsVFJlbzFRWmVreGNmbVItUnRiTEVNUzdRWVNaSUMteFpFZFV3QUI5TWt2Z2NETUFLcGJqdF9ZbGZqVm9Udm54V1Zuem9odUlDZnh2MFNEN3JGV3ViTDlqWGN6aklINnNfdlJBX3ZoV1FVUVRR?oc=5",
-     "time": "2026-10-22T13:10:34+00:00"
-    },
-    {
-     "title": "Meta Falls 3% as Higher AI Spending Outlook Overshadows Earnings Beat; Alphabet Dips, Microsoft Holds Steady",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQV2ZMT01CdlByNVAyWW9WYmZjWk9EWnk5cjFzZ29raFBjaEZCVmZ6V3dKaGd0VTBOaDdyakpiTXN2YW5HQll0b3R0RmJmZHljWUhaaDhuS3J1WFk2RVh2RGd4UHVqRlNzb1NHbUN2Z24wSm85eWxMWUEtNEdZeXd4MXZPUG5pd1dUSFhEOGxwcw?oc=5",
-     "time": "2026-10-22T12:56:46+00:00"
-    },
-    {
-     "title": "Meta Stock Falls. Earnings Show Just How Much Future Growth Will Cost.",
-     "publisher": "Barron's",
-     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE4tdTM5U2kwQ295eEpWaTdjamk4SDdmT09TWjFBNHBhZkRxcmR6SmpNT1lEbTZGZTl0LVZpYUxXUERlOEtsaWdFLXF2QTFSUG9LM0RjbkZyR21YR1dlNmN2NnhvTWFqanY4Q09IYjBqT29SOHBGeWxrZg?oc=5",
-     "time": "2026-10-22T12:54:00+00:00"
-    },
-    {
-     "title": "Meta is creating a new non-voting stock class it could use to fund its AI buildout",
-     "publisher": "Quartz",
-     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5lbzlLWElVcUdKbWxhSTZuYVV0MjY3RnpfVjhaMjBQbDEyVzhDckdxRGlTOTFYRnFGVE1TbDRoWXFTTndXQmtfT3VfQlpUSEtZLVhfeEVGU3ZaUUZ0TXFvOGdXM3lQMkpSeFRud3FDVnM?oc=5",
-     "time": "2026-10-22T12:51:35+00:00"
-    }
-   ],
-   "brief": null
-  },
-  {
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 162.34,
+   "price": 162.0,
    "prev_close": 171.57,
-   "change_pct": -5.4,
+   "change_pct": -5.6,
    "trigger_change": -5.4,
-   "peak_change": -5.4,
+   "peak_change": -5.6,
    "first_seen": "2026-10-22T14:00:23+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 109.14,
-    "change_pct": 0.29
+    "price": 108.85,
+    "change_pct": 0.03
    },
    "chart": {
-    "ema8": -9.5,
-    "ema21": -18.8,
-    "sma50": -26.2,
-    "sma200": -7.5,
+    "ema8": -9.6,
+    "ema21": -19.0,
+    "sma50": -26.3,
+    "sma200": -7.7,
     "momentum": false
    },
    "headlines": [
@@ -174,23 +99,23 @@
    "symbol": "AMAT",
    "name": "Applied Materials",
    "list": "portfolio",
-   "price": 389.19,
+   "price": 385.97,
    "prev_close": 408.94,
-   "change_pct": -4.8,
+   "change_pct": -5.6,
    "trigger_change": -4.8,
-   "peak_change": -4.8,
+   "peak_change": -5.6,
    "first_seen": "2026-10-22T14:00:23+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 540.06,
-    "change_pct": -2.99
+    "price": 536.3,
+    "change_pct": -3.66
    },
    "chart": {
-    "ema8": -8.1,
-    "ema21": -14.3,
-    "sma50": -17.5,
-    "sma200": -11.9,
+    "ema8": -8.7,
+    "ema21": -15.0,
+    "sma50": -18.2,
+    "sma200": -12.6,
     "momentum": false
    },
    "headlines": [
@@ -246,26 +171,101 @@
    "brief": null
   },
   {
+   "symbol": "META",
+   "name": "Meta",
+   "list": "portfolio",
+   "price": 660.32,
+   "prev_close": 697.52,
+   "change_pct": -5.3,
+   "trigger_change": -5.6,
+   "peak_change": -5.6,
+   "first_seen": "2026-10-22T14:00:23+00:00",
+   "sector": {
+    "etf": "XLC",
+    "name": "Communication",
+    "price": 108.11,
+    "change_pct": -0.78
+   },
+   "chart": {
+    "ema8": -5.9,
+    "ema21": -6.8,
+    "sma50": -0.4,
+    "sma200": 4.4,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Meta Just Burned Cash for the First Time Since Its IPO",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNcHE0NnFMYlJ3ZVNjLXRqRHlwMWF1NmlvaC1JWmhVS1FnRWtyRG5LWndPd1hoUnhxOG15QXE0bTJKcUlaRG5pTXU4SElNcms2LUJkcTliWlJZdTVZaTRka3RDRjhFM29lODRjRFFkTnZaaUFQck1KN0RkaFV4QVJmbUVYQnZmY3I3amlIZjNLY3lfTXBpZXJ3bkE3bVVmR3M?oc=5",
+     "time": "2026-10-22T13:45:00+00:00"
+    },
+    {
+     "title": "Wedbush raises Meta stock price target to $920 on Muse demand",
+     "publisher": "Investing.com India",
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNYmQ0SUl0YkRaQkU2emozVTNoM3IwaW1tLTRSdkkzUzhRUXVlLV9BMENSbXZBWlp4QTFWTzlMWHJPaFVVdW5WTDFKWG54Nk1rS3NkaEw2Ukx1TU53RFQzeUJLOF9wV0hsNTZNeDBJM2hROGNacDJUWHpTNGRPQjdYY01JMW9sSUtiRkpsQUNmQWZGNDgxSXlTcXppcXcxbmo2aDRCMVBoeXVhRVR5NTNDem1ibFk4dVh2cXV3THl3?oc=5",
+     "time": "2026-10-22T13:23:15+00:00"
+    },
+    {
+     "title": "BofA raises Meta stock price target to $845 on AI ad growth",
+     "publisher": "Investing.com",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPVzJUN0ZOTFc2bjBWa1FFSFJUaW1UcGdMOGNWS002UGVWenVrN01iMVZMRkNoX0pUU0o5NThUcWlsUzRmcVpCN0drZUFQYlZIc3J6MEpfQUFENFdTMnVYckVHR3pGcGxBYVlCc0t2cjVGdHJpU1V4dFdlZUNpMVBqY2VxVWR2bUZXOHdWaERTTGoyQnNabERQYUtDNGtIOVFBUkZRT0ptUGlIYUtqbWNTVnVmUzhTVktMUlE?oc=5",
+     "time": "2026-10-22T13:15:17+00:00"
+    },
+    {
+     "title": "UBS raises Meta stock price target to $892 on AI investment gains By Investing.com",
+     "publisher": "Investing.com India",
+     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNZGxqTGdyNm5neHFsX1BlRnFUMTVPU01ZMVU2Ymc5MjRUbXZSZHVWZ1AtSVdyeTZCNkhmVko4YnVBTjk3WlRmclJzV1lBdG9tamNQa0FUN2NOOW11Qm43amFWVEU1S2FUTHU5Yy1tNm40eC1mOWNEby1aaWl2WFJPMXRoRThoQkhFeW91cy1UMTA1TGlyOC1WcVk0a3QxRXZ2M3lQWkNrOXk1ckRJNzJmQTM3Tm1XQV9kR0tUVU5SZEVLbXc?oc=5",
+     "time": "2026-10-22T13:14:40+00:00"
+    },
+    {
+     "title": "Meta Just Unveiled a New Takeover Weapon \u2014 But There's a Catch",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQX2JfektFdGNrTTBwX2pCM2JlUFBHeTVFeXRTeEVkaHYyMzB2MlNURTltVFdEXzRJZDRicHF6VHlHdDhCa0FsVFJlbzFRWmVreGNmbVItUnRiTEVNUzdRWVNaSUMteFpFZFV3QUI5TWt2Z2NETUFLcGJqdF9ZbGZqVm9Udm54V1Zuem9odUlDZnh2MFNEN3JGV3ViTDlqWGN6aklINnNfdlJBX3ZoV1FVUVRR?oc=5",
+     "time": "2026-10-22T13:10:34+00:00"
+    },
+    {
+     "title": "Meta Falls 3% as Higher AI Spending Outlook Overshadows Earnings Beat; Alphabet Dips, Microsoft Holds Steady",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQV2ZMT01CdlByNVAyWW9WYmZjWk9EWnk5cjFzZ29raFBjaEZCVmZ6V3dKaGd0VTBOaDdyakpiTXN2YW5HQll0b3R0RmJmZHljWUhaaDhuS3J1WFk2RVh2RGd4UHVqRlNzb1NHbUN2Z24wSm85eWxMWUEtNEdZeXd4MXZPUG5pd1dUSFhEOGxwcw?oc=5",
+     "time": "2026-10-22T12:56:46+00:00"
+    },
+    {
+     "title": "Meta Stock Falls. Earnings Show Just How Much Future Growth Will Cost.",
+     "publisher": "Barron's",
+     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE4tdTM5U2kwQ295eEpWaTdjamk4SDdmT09TWjFBNHBhZkRxcmR6SmpNT1lEbTZGZTl0LVZpYUxXUERlOEtsaWdFLXF2QTFSUG9LM0RjbkZyR21YR1dlNmN2NnhvTWFqanY4Q09IYjBqT29SOHBGeWxrZg?oc=5",
+     "time": "2026-10-22T12:54:00+00:00"
+    },
+    {
+     "title": "Meta is creating a new non-voting stock class it could use to fund its AI buildout",
+     "publisher": "Quartz",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5lbzlLWElVcUdKbWxhSTZuYVV0MjY3RnpfVjhaMjBQbDEyVzhDckdxRGlTOTFYRnFGVE1TbDRoWXFTTndXQmtfT3VfQlpUSEtZLVhfeEVGU3ZaUUZ0TXFvOGdXM3lQMkpSeFRud3FDVnM?oc=5",
+     "time": "2026-10-22T12:51:35+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
    "symbol": "ANET",
    "name": "Arista Networks",
    "list": "portfolio",
-   "price": 177.73,
+   "price": 176.49,
    "prev_close": 184.33,
-   "change_pct": -3.6,
+   "change_pct": -4.3,
    "trigger_change": -3.6,
-   "peak_change": -3.6,
+   "peak_change": -4.3,
    "first_seen": "2026-10-22T14:00:23+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 540.06,
-    "change_pct": -2.99
+    "price": 536.3,
+    "change_pct": -3.66
    },
    "chart": {
-    "ema8": -4.8,
-    "ema21": -8.7,
-    "sma50": -9.9,
-    "sma200": 8.6,
+    "ema8": -5.3,
+    "ema21": -9.3,
+    "sma50": -10.5,
+    "sma200": 7.9,
     "momentum": false
    },
    "headlines": [
@@ -324,23 +324,23 @@
    "symbol": "AMZN",
    "name": "Amazon",
    "list": "portfolio",
-   "price": 253.44,
+   "price": 253.29,
    "prev_close": 262.37,
-   "change_pct": -3.4,
+   "change_pct": -3.5,
    "trigger_change": -3.4,
-   "peak_change": -3.4,
+   "peak_change": -3.5,
    "first_seen": "2026-10-22T14:00:23+00:00",
    "sector": {
     "etf": "XLY",
     "name": "Consumer discr.",
-    "price": 115.43,
-    "change_pct": -0.09
+    "price": 115.48,
+    "change_pct": -0.04
    },
    "chart": {
-    "ema8": -1.6,
-    "ema21": -1.0,
-    "sma50": -1.0,
-    "sma200": 4.2,
+    "ema8": -1.7,
+    "ema21": -1.1,
+    "sma50": -1.1,
+    "sma200": 4.1,
     "momentum": true
    },
    "headlines": [
