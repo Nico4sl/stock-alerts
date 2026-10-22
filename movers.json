@@ -1,121 +1,46 @@
 {
  "date": "2026-10-22",
  "threshold": 3.0,
- "updated": "2026-10-22T15:11:28+00:00",
+ "updated": "2026-10-22T15:16:29+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 762.8,
-   "change_pct": -1.33
+   "price": 763.33,
+   "change_pct": -1.26
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 707.04,
-   "change_pct": -2.5
+   "price": 708.22,
+   "change_pct": -2.34
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 81.3,
-   "change_pct": 1.32
+   "price": 81.28,
+   "change_pct": 1.29
   }
  },
  "movers": [
   {
-   "symbol": "AMAT",
-   "name": "Applied Materials",
-   "list": "portfolio",
-   "price": 379.01,
-   "prev_close": 408.94,
-   "change_pct": -7.3,
-   "trigger_change": -4.8,
-   "peak_change": -7.3,
-   "first_seen": "2026-10-22T14:00:23+00:00",
-   "sector": {
-    "etf": "SMH",
-    "name": "Semiconductors",
-    "price": 526.97,
-    "change_pct": -5.34
-   },
-   "chart": {
-    "ema8": -10.0,
-    "ema21": -16.4,
-    "sma50": -19.6,
-    "sma200": -14.2,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Lam Research Sinks 9% as Supply Constraints Cap Outlook; Applied Materials Drops 6%, ASML Holding Falls 4%",
-     "publisher": "24/7 Wall St.",
-     "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPNUlnaXBQZHFzOXFpMnFESHQtOExHLURMTk42Y3JPNlhPZ3c0RFJPSXZkN0dTaEdsTEktOGJRY0huUjh2a1pzemRrZVNwalZ5ZmhCeGx5YW1yRUlIUG50V3lpWXRyYlE3R3VNb3JBaUpZQ2VsbVp3WTBoSDlrU1JPWXNtXzlhVjMtTlNSRktzODdHR3hsaVdfaDRxMmRJc3JWdGVEM2JGT3J2aFRVZFFORUFnNGc0ci0takl0WXZvTHhxOC1SMnJBNDZrRVowQ250ZGFiUmloZGE1bUVPSmc?oc=5",
-     "time": "2026-10-22T14:44:00+00:00"
-    },
-    {
-     "title": "Applied Materials Inc Stock (AMAT) Moved Down by 5.81% on Oct 22: Drivers Behind the Movement",
-     "publisher": "TradingKey",
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQMWZPbng2T3NyaXZCX1d1VndIZGlOVmJuTHFQbEk4VjVrbDU2dHZ2V1JaWmRKU1ZXZ3l4eWJnTmJqUzVLRmZEQlNoN1dUQWw3MnNXZWlRNnpEb0NMWVdIWnFuaXktZjVEdElOanFGRVVmdkl4NTN3dnlBLTl4ZC1TNDR3c29FMFlZd2lN?oc=5",
-     "time": "2026-10-22T14:15:32+00:00"
-    },
-    {
-     "title": "How Much Should This Move Change Your View Of Applied Materials Stock?",
-     "publisher": "Trefis",
-     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPeGtTa1BibE96TnNDNTFoeV9XNDRVWkxlR1YydW0zUlNVTFJZSkU2TnZmU0VlQ3RQMTJqNzdmR1NKQ3BrMnpfb2xOdGVYeWJyQWhaM3dvWHN5T1VERm5QRndkRWE2NDJCUzdaNWI5TjFRd2RqNVJfd2xKQVRwNllIcm9jcHBBNU9KWGpwRGlXZEJjR0dDa0xiOEVXQWNNdGhzdjFEUFpqRFgwQm1KNlRvcWtLM0tJUnRZNnpfSmJOeURPOUI1ZV9POTdn?oc=5",
-     "time": "2026-10-22T12:31:56+00:00"
-    },
-    {
-     "title": "A live webcast of Applied Materials' 2026 results call is set for Nov. 12, with a replay that evening.",
-     "publisher": "Stock Titan",
-     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPZEEwQnI3NEpEWTkxcmtwTVFYT0dVb0dJMF9UTHhfaE9YSWVseUYyZE5tcFdZQnYtdHFaYkpqMFdyMUZOaHJfT0x2Y2luSGM2LWtkbXVWWVRMcHVzX1RNZWYtWi1zUkhWMWVDVWluT19lTURJcHlNbWlkOFlWQU9SelVPYVRrS1lGQjl1RjZwS05mV2RkRkFPSHFXZjN6UFNNd2RxLUpxRkI0dllRbG0yVEVWcVVMUkxfY3FVNl93?oc=5",
-     "time": "2026-10-22T11:30:00+00:00"
-    },
-    {
-     "title": "Applied Materials (AMAT) Sees $102.1 Million in Net ETF Buying on Tuesday",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPakduVmRLcWxMRFBFcXEtWEpPQVFHTHM5aDJTeXJURVkwWDRNaUZ6bmdpajlsVnZvbVdMV1lWaVJfbkI1OFZ3UmR4WWZuSG5salh3QnhqNlFmN21zOGtPN0dXTHV1MG5BWVdhelZmVzZqVW0xck1CWHlSNVVzSG1GMjQxN1NLbTNSd0ZncmVpMmM3MFpzQWNRQ1RQckM?oc=5",
-     "time": "2026-10-22T11:01:26+00:00"
-    },
-    {
-     "title": "BE Semiconductor Industries N.V. (BESI.AS) stock price, news, quote and history",
-     "publisher": "Yahoo Finance UK",
-     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE82M3VkRDg5SjFmdmY1U1BGd25LNmxlNmtONlItay0zX1NMMkowQmFYbkxHLUpuS01WU0M4dGhSLWw1ZmZjZTZnTlROUjRGdjROWkE2RU1R?oc=5",
-     "time": "2026-10-22T08:39:39+00:00"
-    },
-    {
-     "title": "Two Reasons To Rethink Applied Materials Stock Now",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQNEJzQ0p6RWNPbU5oWGlwY2NMQkdfUXN2WmU1UDJieXcxX0dHSFpydS1lbEs5TEhQc25qSUYyWEJHOVJUdld5WG1sNnZYM2dfekhnODJza2lHNEthWFByRnVaZU5OTUoyTlM4YWVXUl9jQWRERFNJd0Rhc0Y5SWNJXzRtT1FKeUp6RDA2RHphNlNWQmZ6Uzl6Y0txU1BGcjVzTUY3NQ?oc=5",
-     "time": "2026-10-21T20:58:32+00:00"
-    },
-    {
-     "title": "ETFs Bought $131.5 Million of Applied Materials (AMAT) on Oct. 19",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQeUU4ZktnM29BWjl6Z0hfWnJSYnRiQ3g3V2FsVWxXUUl2aTlSc1VNLWJkUHlQNnQ0LURZWkVpSHhSdVpjdURwMjM2MkxNMzI0MnR2bnVXWXlOS09hZTRLWFlGYjNydmdWS2pxeGhoSzRqTTFWWnJiclFlVEo3Y3R6WmJISmtCQ1pkdjJvQkFGYjZYd2ZW?oc=5",
-     "time": "2026-10-21T11:01:41+00:00"
-    }
-   ],
-   "brief": "2026-10-22-AMAT"
-  },
-  {
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 159.36,
+   "price": 158.91,
    "prev_close": 171.57,
-   "change_pct": -7.1,
+   "change_pct": -7.4,
    "trigger_change": -5.4,
-   "peak_change": -7.1,
+   "peak_change": -7.4,
    "first_seen": "2026-10-22T14:00:23+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 109.08,
-    "change_pct": 0.23
+    "price": 109.12,
+    "change_pct": 0.28
    },
    "chart": {
-    "ema8": -10.8,
-    "ema21": -20.2,
-    "sma50": -27.5,
-    "sma200": -9.2,
+    "ema8": -11.0,
+    "ema21": -20.4,
+    "sma50": -27.7,
+    "sma200": -9.5,
     "momentum": false
    },
    "headlines": [
@@ -171,26 +96,101 @@
    "brief": "2026-10-22-NBIS"
   },
   {
+   "symbol": "AMAT",
+   "name": "Applied Materials",
+   "list": "portfolio",
+   "price": 379.67,
+   "prev_close": 408.94,
+   "change_pct": -7.2,
+   "trigger_change": -4.8,
+   "peak_change": -7.3,
+   "first_seen": "2026-10-22T14:00:23+00:00",
+   "sector": {
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 528.49,
+    "change_pct": -5.07
+   },
+   "chart": {
+    "ema8": -9.9,
+    "ema21": -16.3,
+    "sma50": -19.5,
+    "sma200": -14.0,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Lam Research Sinks 9% as Supply Constraints Cap Outlook; Applied Materials Drops 6%, ASML Holding Falls 4%",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPNUlnaXBQZHFzOXFpMnFESHQtOExHLURMTk42Y3JPNlhPZ3c0RFJPSXZkN0dTaEdsTEktOGJRY0huUjh2a1pzemRrZVNwalZ5ZmhCeGx5YW1yRUlIUG50V3lpWXRyYlE3R3VNb3JBaUpZQ2VsbVp3WTBoSDlrU1JPWXNtXzlhVjMtTlNSRktzODdHR3hsaVdfaDRxMmRJc3JWdGVEM2JGT3J2aFRVZFFORUFnNGc0ci0takl0WXZvTHhxOC1SMnJBNDZrRVowQ250ZGFiUmloZGE1bUVPSmc?oc=5",
+     "time": "2026-10-22T14:44:00+00:00"
+    },
+    {
+     "title": "Applied Materials Inc Stock (AMAT) Moved Down by 5.81% on Oct 22: Drivers Behind the Movement",
+     "publisher": "TradingKey",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQMWZPbng2T3NyaXZCX1d1VndIZGlOVmJuTHFQbEk4VjVrbDU2dHZ2V1JaWmRKU1ZXZ3l4eWJnTmJqUzVLRmZEQlNoN1dUQWw3MnNXZWlRNnpEb0NMWVdIWnFuaXktZjVEdElOanFGRVVmdkl4NTN3dnlBLTl4ZC1TNDR3c29FMFlZd2lN?oc=5",
+     "time": "2026-10-22T14:15:32+00:00"
+    },
+    {
+     "title": "How Much Should This Move Change Your View Of Applied Materials Stock?",
+     "publisher": "Trefis",
+     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPeGtTa1BibE96TnNDNTFoeV9XNDRVWkxlR1YydW0zUlNVTFJZSkU2TnZmU0VlQ3RQMTJqNzdmR1NKQ3BrMnpfb2xOdGVYeWJyQWhaM3dvWHN5T1VERm5QRndkRWE2NDJCUzdaNWI5TjFRd2RqNVJfd2xKQVRwNllIcm9jcHBBNU9KWGpwRGlXZEJjR0dDa0xiOEVXQWNNdGhzdjFEUFpqRFgwQm1KNlRvcWtLM0tJUnRZNnpfSmJOeURPOUI1ZV9POTdn?oc=5",
+     "time": "2026-10-22T12:31:56+00:00"
+    },
+    {
+     "title": "A live webcast of Applied Materials' 2026 results call is set for Nov. 12, with a replay that evening.",
+     "publisher": "Stock Titan",
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPZEEwQnI3NEpEWTkxcmtwTVFYT0dVb0dJMF9UTHhfaE9YSWVseUYyZE5tcFdZQnYtdHFaYkpqMFdyMUZOaHJfT0x2Y2luSGM2LWtkbXVWWVRMcHVzX1RNZWYtWi1zUkhWMWVDVWluT19lTURJcHlNbWlkOFlWQU9SelVPYVRrS1lGQjl1RjZwS05mV2RkRkFPSHFXZjN6UFNNd2RxLUpxRkI0dllRbG0yVEVWcVVMUkxfY3FVNl93?oc=5",
+     "time": "2026-10-22T11:30:00+00:00"
+    },
+    {
+     "title": "Applied Materials (AMAT) Sees $102.1 Million in Net ETF Buying on Tuesday",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPakduVmRLcWxMRFBFcXEtWEpPQVFHTHM5aDJTeXJURVkwWDRNaUZ6bmdpajlsVnZvbVdMV1lWaVJfbkI1OFZ3UmR4WWZuSG5salh3QnhqNlFmN21zOGtPN0dXTHV1MG5BWVdhelZmVzZqVW0xck1CWHlSNVVzSG1GMjQxN1NLbTNSd0ZncmVpMmM3MFpzQWNRQ1RQckM?oc=5",
+     "time": "2026-10-22T11:01:26+00:00"
+    },
+    {
+     "title": "BE Semiconductor Industries N.V. (BESI.AS) stock price, news, quote and history",
+     "publisher": "Yahoo Finance UK",
+     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE82M3VkRDg5SjFmdmY1U1BGd25LNmxlNmtONlItay0zX1NMMkowQmFYbkxHLUpuS01WU0M4dGhSLWw1ZmZjZTZnTlROUjRGdjROWkE2RU1R?oc=5",
+     "time": "2026-10-22T08:39:39+00:00"
+    },
+    {
+     "title": "Two Reasons To Rethink Applied Materials Stock Now",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQNEJzQ0p6RWNPbU5oWGlwY2NMQkdfUXN2WmU1UDJieXcxX0dHSFpydS1lbEs5TEhQc25qSUYyWEJHOVJUdld5WG1sNnZYM2dfekhnODJza2lHNEthWFByRnVaZU5OTUoyTlM4YWVXUl9jQWRERFNJd0Rhc0Y5SWNJXzRtT1FKeUp6RDA2RHphNlNWQmZ6Uzl6Y0txU1BGcjVzTUY3NQ?oc=5",
+     "time": "2026-10-21T20:58:32+00:00"
+    },
+    {
+     "title": "ETFs Bought $131.5 Million of Applied Materials (AMAT) on Oct. 19",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQeUU4ZktnM29BWjl6Z0hfWnJSYnRiQ3g3V2FsVWxXUUl2aTlSc1VNLWJkUHlQNnQ0LURZWkVpSHhSdVpjdURwMjM2MkxNMzI0MnR2bnVXWXlOS09hZTRLWFlGYjNydmdWS2pxeGhoSzRqTTFWWnJiclFlVEo3Y3R6WmJISmtCQ1pkdjJvQkFGYjZYd2ZW?oc=5",
+     "time": "2026-10-21T11:01:41+00:00"
+    }
+   ],
+   "brief": "2026-10-22-AMAT"
+  },
+  {
    "symbol": "ANET",
    "name": "Arista Networks",
    "list": "portfolio",
-   "price": 171.61,
+   "price": 171.8,
    "prev_close": 184.33,
-   "change_pct": -6.9,
+   "change_pct": -6.8,
    "trigger_change": -3.6,
    "peak_change": -6.9,
    "first_seen": "2026-10-22T14:00:23+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 526.97,
-    "change_pct": -5.34
+    "price": 528.49,
+    "change_pct": -5.07
    },
    "chart": {
-    "ema8": -7.4,
-    "ema21": -11.6,
-    "sma50": -12.9,
-    "sma200": 4.9,
+    "ema8": -7.3,
+    "ema21": -11.5,
+    "sma50": -12.8,
+    "sma200": 5.0,
     "momentum": false
    },
    "headlines": [
@@ -249,23 +249,23 @@
    "symbol": "META",
    "name": "Meta",
    "list": "portfolio",
-   "price": 654.75,
+   "price": 655.59,
    "prev_close": 697.52,
-   "change_pct": -6.1,
+   "change_pct": -6.0,
    "trigger_change": -5.6,
    "peak_change": -6.8,
    "first_seen": "2026-10-22T14:00:23+00:00",
    "sector": {
     "etf": "XLC",
     "name": "Communication",
-    "price": 107.6,
-    "change_pct": -1.26
+    "price": 107.58,
+    "change_pct": -1.28
    },
    "chart": {
-    "ema8": -6.5,
-    "ema21": -7.5,
-    "sma50": -1.2,
-    "sma200": 3.5,
+    "ema8": -6.4,
+    "ema21": -7.4,
+    "sma50": -1.1,
+    "sma200": 3.6,
     "momentum": false
    },
    "headlines": [
@@ -324,23 +324,23 @@
    "symbol": "AVGO",
    "name": "Broadcom",
    "list": "portfolio",
-   "price": 323.33,
+   "price": 323.0,
    "prev_close": 337.8,
-   "change_pct": -4.3,
+   "change_pct": -4.4,
    "trigger_change": -3.6,
-   "peak_change": -4.3,
+   "peak_change": -4.4,
    "first_seen": "2026-10-22T14:47:47+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 526.97,
-    "change_pct": -5.34
+    "price": 528.49,
+    "change_pct": -5.07
    },
    "chart": {
-    "ema8": -4.2,
-    "ema21": -6.9,
+    "ema8": -4.3,
+    "ema21": -7.0,
     "sma50": -9.9,
-    "sma200": -12.1,
+    "sma200": -12.2,
     "momentum": false
    },
    "headlines": [
@@ -399,23 +399,23 @@
    "symbol": "AMZN",
    "name": "Amazon",
    "list": "portfolio",
-   "price": 251.62,
+   "price": 251.85,
    "prev_close": 262.37,
-   "change_pct": -4.1,
+   "change_pct": -4.0,
    "trigger_change": -3.4,
    "peak_change": -4.1,
    "first_seen": "2026-10-22T14:00:23+00:00",
    "sector": {
     "etf": "XLY",
     "name": "Consumer discr.",
-    "price": 115.02,
-    "change_pct": -0.44
+    "price": 115.18,
+    "change_pct": -0.3
    },
    "chart": {
-    "ema8": -2.2,
-    "ema21": -1.7,
-    "sma50": -1.7,
-    "sma200": 3.4,
+    "ema8": -2.1,
+    "ema21": -1.6,
+    "sma50": -1.6,
+    "sma200": 3.5,
     "momentum": true
    },
    "headlines": [
@@ -474,7 +474,7 @@
    "symbol": "NVDA",
    "name": "Nvidia",
    "list": "portfolio",
-   "price": 213.14,
+   "price": 213.1,
    "prev_close": 221.97,
    "change_pct": -4.0,
    "trigger_change": -3.3,
@@ -483,8 +483,8 @@
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 526.97,
-    "change_pct": -5.34
+    "price": 528.49,
+    "change_pct": -5.07
    },
    "chart": {
     "ema8": -2.8,
@@ -544,6 +544,76 @@
     }
    ],
    "brief": "2026-10-22-NVDA"
+  },
+  {
+   "symbol": "BTC-USD",
+   "name": "Bitcoin",
+   "list": "watchlist",
+   "price": 81519.0,
+   "prev_close": 84022.5,
+   "change_pct": -3.0,
+   "trigger_change": -3.0,
+   "peak_change": -3.0,
+   "first_seen": "2026-10-22T15:16:29+00:00",
+   "sector": null,
+   "chart": {
+    "ema8": -1.1,
+    "ema21": -1.3,
+    "sma50": -0.3,
+    "sma200": 12.0,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Bitcoin Approaches $81,500 Support as Bearish Momentum Grows: What\u2019s Next for BTC Price?",
+     "publisher": "Cryptonews.net",
+     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE0tNG44LXVXaHB3bTZ4MFdZaGpvTl9mVm5FbUxmOG5ocWExSExSTzl2NnpYOE9KTWN0Q25oVkJhcUdfRFlrNk1nUkJnajhtTEFhcEFGc2tJWk0?oc=5",
+     "time": "2026-10-22T15:04:52+00:00"
+    },
+    {
+     "title": "Would you take out a mortgage backed by bitcoin?",
+     "publisher": "Financial Times",
+     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOX0tFVGl1YkJMN3E4VFVEX3IyY1NkeC05NmZqbHBuY01iNGw4UTExcUQ4Yjc2QnAwcUF4dVZCZ3prNUg0dld2TVVkcnFyR0dOZGNpLTRUR0ZOZ0xYMFpxaFBtaElzUndQdHRJWnp2TTY3bnVCWHBBTGpxZWlGRHFLUjhYX3g?oc=5",
+     "time": "2026-10-22T15:00:03+00:00"
+    },
+    {
+     "title": "Bitcoin ETF Flows Key For Cryptocurrency's Outlook -- Market Talk",
+     "publisher": "Moomoo",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQM0NaTjJ0b05BSzNXZkJDMDNnM0VielFKUG40VWg5OHp4SXVOWDlzMDRUTFhEOVh2QlZETTRsMklWVUNRRFZTR19GVHFPUk9DV3lEcjBxbzRKTUZBeVZtU3djNVp2dE1aaS1CVi16ZzJlREdJMWdXVVo0d3dPbm12VVB3elAyTjNrTmJqOHlyNXhLZEdmaXNydmh4ZDBNRk9Jb19GTkNxZXptUQ?oc=5",
+     "time": "2026-10-22T14:59:47+00:00"
+    },
+    {
+     "title": "Bitcoin ETFs See $1B Inflows as Ethereum ETFs Bleed Cash - iShares Bitcoin Trust (NASDAQ:IBIT)",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQSW9zWmtrUTV0UXV0XzhkdUlQX0FxS2FiOVltX1pQak9OYVAxMHpUZjFLZHVUUE9wYU1tZHJDLWtfZ0pLX2xLNko3YWV0Rm5LMXZFX0lzZE44c043R3BRLThVSjRXT0xMWS1Pb0drcnhsa1lBUEI2Szk4d0N0bHJDbHgxZEV4ME5EUjd3TnlIeXNVRVpiZXVLaUlBb1NYRDNab0lBRVBfLVk5Ylo3RGtOdlpfaEtiajdLQ0VMYUpaM3V0X2taNmhXSm56TFE1SnYtaTB2X2xyNy1jdldSYjhlYmpVdl92V0MtUUhZNi1EZnJQblVj?oc=5",
+     "time": "2026-10-22T14:57:25+00:00"
+    },
+    {
+     "title": "CryptoQuant CEO calls rising Bitcoin hashrate \u2018indirect bullish signal\u2019 from institutions",
+     "publisher": "Cryptonews.net",
+     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1yNTVNZWdZamY1RFBmakJnZE1HM3N1ZS0tQXRVUHRoWElEa01mYU5WanFMWW1vWXR5SE1Da2F5WlpCOGhZWVI0dzNMVHdzTXF5aFRxck96WnM?oc=5",
+     "time": "2026-10-22T14:50:10+00:00"
+    },
+    {
+     "title": "Bitcoin Price Outlook as U.S.-Israeli Strike Fears Grow: Will $81K Hold?",
+     "publisher": "Cryptonews.net",
+     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5ZeVBtblpMTC1Tc29pV2ozbEFtS3ZYelJqaHJ4eFBQMXh4RHRLVUtucGszTnR0aWM3eHZra0cweDBRb0s3c0Z3VXRId1ZVNlZoa2hZeGptbnI?oc=5",
+     "time": "2026-10-22T14:49:55+00:00"
+    },
+    {
+     "title": "Market sees 3% chance of Bitcoin hitting record high this year",
+     "publisher": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxONjFpSm95MVZsWDZ3M3RNdmNvdndpNk9YZDZVZllTZTZEMTRKR1dWaVU0aDJMckZKZGQ0X3hQUDNkN1RuUGJBWWZyMUR3TmpETExQbVRwajBHMDFjWlI3aUhXblpZOWJlZy1tT3NlQTd4eHYxOHBhMkQ5emF0amhfbGZtaHEwVWxhWGRBdUQzWTZtbk1kQmZOVFlYMmkySE1oV0VlV19mZkdhNUlWRnZjT1g2elVkR1ZReHlUVWRmWE5rMTRt?oc=5",
+     "time": "2026-10-22T14:48:11+00:00"
+    },
+    {
+     "title": "Bitcoin ETFs Draw $524.8 Million As BlackRock And Fidelity Lead",
+     "publisher": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQSU1VYncxUldWLWhmektscXkzTndBLWVMQUFqN1A1bDh6dEwySFYyQlowWGk0ZGZmQjc3SGdSUzlWa1JKcE9FTVd4VEJzRk5zdDlUT0xod1VGd1A1NHJtRE5KVkZib0syQ2ZxcjlfQjNyZkZSMmRNTG1pYTJyZUVEbXB6bnBQNEpwNi1nY2Q5RjNZOXFnanMxSmh5RzV4UWwtSVU5OXVSRGVNZTlzQWpFcVQ3VjBrcjA3ZDRISg?oc=5",
+     "time": "2026-10-22T14:30:00+00:00"
+    }
+   ],
+   "brief": null
   }
  ]
 }
