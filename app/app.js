@@ -299,6 +299,7 @@
     if (a === "s" && b) return { name: "detail", sym: decodeURIComponent(b) };
     if (a === "brief" && b) return { name: "brief", id: decodeURIComponent(b) };
     if (a === "q" && b) return { name: "lookup", sym: decodeURIComponent(b) };
+    if (a === "rank" && ["portfolio", "watchlist"].includes(b)) return { name: "rank", kind: b };
     if (["portfolio", "watchlist", "search", "fed", "alerts", "settings"].includes(a)) return { name: a };
     return { name: store.get("lastList", "portfolio") };
   }
@@ -319,6 +320,7 @@
     if (r.name === "search") return renderSearch();
     if (r.name === "brief") return renderBriefPage(r.id);
     if (r.name === "fed") return renderFed();
+    if (r.name === "rank") { window.scrollTo(0, 0); return renderRank(r.kind); }
     const y = window.scrollY;
     if (r.name === "alerts") renderAlerts();
     else if (r.name === "settings") renderSettings();
@@ -357,6 +359,8 @@
       </div>
       <button class="icon-btn" id="addStock" aria-label="Add stock"><svg viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg></button></div>`;
 
+    html += `<button class="rank-btn" id="rankBtn"><svg viewBox="0 0 24 24"><path d="M4 20V13M10 20V8M16 20v-9M22 20H2"/><path d="M15 4l2-1v5"/></svg>
+      <span>Ranking – most attractive setups now</span><svg viewBox="0 0 24 24" class="chev"><path d="M9 5l7 7-7 7"/></svg></button>`;
     html += moversStripHTML();
     if (inZone.length) {
       html += `<div class="banner"><b>${inZone.length} in a zone now:</b> ${inZone.map((r) => esc(r.symbol)).join(", ")}</div>`;
@@ -380,6 +384,7 @@
       S.sort = s; store.set("sort", s); renderList(kind);
     };
     $("#addStock").onclick = () => addStockSheet(kind);
+    $("#rankBtn").onclick = () => (location.hash = `#/rank/${kind}`);
     bindMovers();
     view.querySelectorAll(".row").forEach((el) => (el.onclick = () => (location.hash = `#/s/${encodeURIComponent(el.dataset.sym)}`)));
   }
@@ -400,6 +405,69 @@
       <div class="spark">${spark(r.spark, (r.change_pct ?? 0) >= 0)}</div>
       <div class="px num"><div class="p">${fmt(r.price)}</div><div class="c ${cls(r.change_pct)}">${sgn(r.change_pct, 2)}</div></div>
     </li>`;
+  }
+
+  // ------------------------------------------------------------------ ranking
+  // How attractive each stock's setup is right now, by the strongest moving average the price
+  // sits on: 200 SMA › 150 SMA › 100 SMA › 50 SMA › 21 EMA › 8 EMA (±band zones). Gaps are ignored.
+  // 1) In a zone: by level strength, then by closeness to the line.
+  // 2) Not in a zone: by distance to the next line *below* the price (lines the price has clearly
+  //    fallen through don't count); ties go to the stronger line.
+  // 3) No line below the price at all: last.
+  const RANK_KEYS = ["sma200", "sma150", "sma100", "sma50", "ema21", "ema8"];   // strongest first
+  function rankRows(rows, band) {
+    const out = rows.filter((r) => !r.pending && !r.error && r.dist).map((r) => {
+      const hits = RANK_KEYS.filter((k) => r.dist[k] !== undefined && r.dist[k] !== null && Math.abs(r.dist[k]) <= band);
+      const below = RANK_KEYS.filter((k) => r.dist[k] !== undefined && r.dist[k] !== null && r.dist[k] > band)
+        .sort((a, b) => r.dist[a] - r.dist[b] || RANK_KEYS.indexOf(a) - RANK_KEYS.indexOf(b));
+      const under200 = r.dist.sma200 !== undefined && r.dist.sma200 !== null && r.dist.sma200 < -band;
+      if (hits.length) return { r, group: 0, key: hits[0], hits, d: r.dist[hits[0]], under200 };
+      if (below.length) return { r, group: 1, key: below[0], d: r.dist[below[0]], under200 };
+      return { r, group: 2, key: null, d: null, under200 };
+    });
+    const w = (k) => (k ? RANK_KEYS.indexOf(k) : 99);
+    out.sort((a, b) => a.group - b.group
+      || (a.group === 0 ? w(a.key) - w(b.key) || Math.abs(a.d) - Math.abs(b.d) : 0)
+      || (a.group === 1 ? Math.round(a.d * 10) - Math.round(b.d * 10) || w(a.key) - w(b.key) : 0)
+      || a.r.symbol.localeCompare(b.r.symbol));
+    return out;
+  }
+
+  function renderRank(kind) {
+    const title = kind === "portfolio" ? "Portfolio" : "Watchlist";
+    setTop(`Ranking · ${title}`, true);
+    setTab(kind);
+    const band = S.summary.settings?.band_pct ?? 1.5;
+    const ext = S.summary.settings?.extended_pct ?? 15;
+    const ranked = rankRows(stocksFor(kind), band);
+    const groups = [
+      [0, "In a zone now", "Price within ±" + band + " % of a line"],
+      [1, "Next level below", "Distance price must fall to reach the next line"],
+      [2, "No line below the price", "Trading below all six averages"],
+    ];
+    let n = 0;
+    const item = (x) => {
+      n += 1;
+      const r = x.r;
+      const lvl = x.key ? `<span class="chip rk-lvl" style="color:${COLORS[x.key]};border-color:${hexA(COLORS[x.key], 0.45)};background:${hexA(COLORS[x.key], 0.1)}">${x.group === 0 ? "● " : ""}${LABEL[x.key]} ${x.group === 0 ? sgn(x.d) : `${Math.abs(x.d).toFixed(1)} % above`}</span>` : "";
+      const more = x.group === 0 && x.hits.length > 1 ? x.hits.slice(1).map((k) => `<span class="chip">${LABEL[k]}</span>`).join("") : "";
+      const warn = x.under200 ? '<span class="chip rk-warn">Below 200 SMA</span>' : "";
+      const extd = r.extended_pct !== null && r.extended_pct >= ext ? `<span class="chip ext">Extended ${sgn(r.extended_pct, 0)}</span>` : "";
+      return `<li class="row rk" data-sym="${esc(r.symbol)}">
+        <div class="rk-n num">${n}</div>
+        <div><div class="sym">${esc(disp(r.symbol))}${r.high_conviction ? '<span class="star" title="High conviction">★</span>' : ""}</div>
+          <div class="name">${esc(r.name)}</div><div class="chips">${lvl}${more}${warn}${extd}</div></div>
+        <div class="px num"><div class="p">${fmt(r.price)}</div><div class="c ${cls(r.change_pct)}">${sgn(r.change_pct, 2)}</div></div></li>`;
+    };
+    let html = `<div class="s-note" style="padding-bottom:4px">Ranked by the strongest line the price sits on: <b style="color:var(--text)">200 SMA › 150 › 100 › 50 SMA › 21 EMA › 8 EMA</b>. Zones are ±${band} %. Gaps are not considered. A ranking of chart setups, not investment advice.</div>`;
+    for (const [g, h, sub] of groups) {
+      const items = ranked.filter((x) => x.group === g);
+      if (!items.length) continue;
+      html += `<div class="list-head"><h2>${h} · ${items.length}</h2></div><div class="rk-sub">${sub}</div><ul class="rows">${items.map(item).join("")}</ul>`;
+    }
+    if (!ranked.length) html += `<div class="empty"><b>Nothing to rank yet</b>Data appears after the next check.</div>`;
+    view.innerHTML = html;
+    view.querySelectorAll(".row").forEach((el) => (el.onclick = () => (location.hash = `#/s/${encodeURIComponent(el.dataset.sym)}`)));
   }
 
   // ------------------------------------------------------------------ detail

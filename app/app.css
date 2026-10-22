@@ -288,3 +288,14 @@ main {
 .mt-row.next { background: rgba(90, 200, 250, .06); }
 .fed-top { display: flex; align-items: center; gap: 8px; padding: 10px 16px 0; }
 .fed-top .sp { flex: 1; }
+
+/* ---------- ranking ---------- */
+.rank-btn { display: flex; align-items: center; gap: 10px; width: calc(100% - 32px); margin: 0 16px 10px; padding: 10px 12px;
+  background: var(--panel); border: 1px solid var(--line); border-radius: var(--r); color: var(--text); font-size: 14px; cursor: pointer; text-align: left; }
+.rank-btn span { flex: 1; }
+.rank-btn svg { width: 18px; height: 18px; fill: none; stroke: var(--accent); stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.rank-btn svg.chev { stroke: var(--faint); }
+.row.rk { grid-template-columns: 26px 1fr auto; }
+.rk-n { font-size: 17px; font-weight: 700; color: var(--muted); text-align: center; }
+.rk-sub { padding: 0 16px 6px; margin-top: -6px; font-size: 12px; color: var(--faint); }
+.chip.rk-warn { color: var(--down); border-color: rgba(239, 83, 80, .4); background: rgba(239, 83, 80, .08); }

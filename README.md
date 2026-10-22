@@ -15,6 +15,9 @@ A personal chart and alert app for your watchlist and portfolio, based on Babyfo
   right away. Within about an hour Claude researches the catalyst (company, sector or macro) and writes a short read
   in English and German, with what happened, why the market cares, context, one concept to learn and sources.
   It pops up when you open the app.
+- **Ranking:** on Portfolio and Watchlist, *Ranking – most attractive setups now* ranks that list by the
+  strongest line the price sits on (200 SMA › 150 › 100 › 50 SMA › 21 EMA › 8 EMA, ±1.5 % zones; gaps ignored),
+  then by distance to the next line below.
 - **Fed tab:** the current fed funds target range (live), a countdown to the next FOMC decision in your
   time zone, and a short read on where the Fed stands – rates, inflation focus, balance sheet (QT/QE),
   projections and upcoming meetings – in English or German. Claude refreshes it after every decision.
