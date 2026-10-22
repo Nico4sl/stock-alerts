@@ -1,22 +1,22 @@
 {
  "date": "2026-10-22",
  "threshold": 3.0,
- "updated": "2026-10-22T19:52:45+00:00",
+ "updated": "2026-10-22T19:57:47+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 763.26,
-   "change_pct": -1.27
+   "price": 763.59,
+   "change_pct": -1.23
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 704.65,
-   "change_pct": -2.83
+   "price": 704.17,
+   "change_pct": -2.9
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 81.72,
-   "change_pct": 1.85
+   "price": 81.69,
+   "change_pct": 1.81
   }
  },
  "movers": [
@@ -24,23 +24,23 @@
    "symbol": "AMAT",
    "name": "Applied Materials",
    "list": "portfolio",
-   "price": 376.74,
+   "price": 375.58,
    "prev_close": 408.94,
-   "change_pct": -7.9,
+   "change_pct": -8.2,
    "trigger_change": -4.8,
    "peak_change": -8.2,
    "first_seen": "2026-10-22T14:00:23+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 524.11,
-    "change_pct": -5.85
+    "price": 523.19,
+    "change_pct": -6.02
    },
    "chart": {
-    "ema8": -10.4,
-    "ema21": -16.9,
-    "sma50": -20.1,
-    "sma200": -14.7,
+    "ema8": -10.7,
+    "ema21": -17.1,
+    "sma50": -20.4,
+    "sma200": -14.9,
     "momentum": false
    },
    "headlines": [
@@ -96,26 +96,101 @@
    "brief": "2026-10-22-AMAT"
   },
   {
+   "symbol": "ANET",
+   "name": "Arista Networks",
+   "list": "portfolio",
+   "price": 170.75,
+   "prev_close": 184.33,
+   "change_pct": -7.4,
+   "trigger_change": -3.6,
+   "peak_change": -7.7,
+   "first_seen": "2026-10-22T14:00:23+00:00",
+   "sector": {
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 523.19,
+    "change_pct": -6.02
+   },
+   "chart": {
+    "ema8": -7.8,
+    "ema21": -12.0,
+    "sma50": -13.3,
+    "sma200": 4.4,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Arista Networks Inc Stock (ANET) Moved Down by 7.22% on Oct 22: What Signal Does It Send?",
+     "publisher": "TradingKey",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNNUY5aTFyOXIyaVRld2lza0hmQXJYNnN4Ny1mR0VRQllOS09YSE5XUkhxRkZJZmd6aENKbjFZQURlbFNmM2VJQ0F0Q29Kd3h4NGNHaktVVVlSQmxJQzFtTkl4aUtpUEFGcTgyMTdTUHdYZXdTeGRweHBlOVdISFhMbHZocllFVENveS1n?oc=5",
+     "time": "2026-10-22T18:15:53+00:00"
+    },
+    {
+     "title": "Arista Networks (ANET) Is Considered a Good Investment by Brokers: Is That True?",
+     "publisher": "Yahoo Finance UK",
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNYlNNQkozY1FZaTlKbDh1ZGwtSjk4UWNJVmJuMHlJWktQS2pDbF9ONmg5b0l1MGdFOTlQMHIxT2FvQ1FPOHFBMXMydW9WcEhwdjc2aG1yNXNoRS1oT0I2MVZPTGlfVmJYNnk1dmJEY3ZqdzJTal9JN21jc1hzdmh6NW1rTzQ4MDVZRHNwMVNB?oc=5",
+     "time": "2026-10-22T12:30:03+00:00"
+    },
+    {
+     "title": "Should You Pick Arista Networks Stock Over Its Competitors?",
+     "publisher": "Trefis",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOdE1KQy1saVVQa05YTGZ5WlhVWlRnR3JPaDZmQnVhRVFHaDlKSnVrdmdrbEgxWlJYSEZna2x3UVJUaGl6cEQxT1hhVWg4d0xBOV9zc1JSWTQtLTc3ekdWYlhiS2xScl9LOHZhQlgtaTE1RUlJYlZhanptZ3I1b3NTeFZDUmZ3eXNLbHlvZ0dVckhWdnVVU3pheGcweFdOb1ZuQ1FqVTZydm5EbDI4XzBZbF84YXR1eVhmT3gw?oc=5",
+     "time": "2026-10-22T10:52:40+00:00"
+    },
+    {
+     "title": "Arista Networks, Inc. $ANET Shares Acquired by Crossmark Global Holdings Inc.",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQcnFRQ3ZvSk02bUdoTWRvSEZsSFhrYXZXV29FMlNacEUteDd6NzEwQmc2V2h2T2pkSllKSjh4VjZkWTFHNjdtUHoxYjVRckNrdUZ2Z0pIUXZGTlBGTUU0N1BXTDdhWXo2clNQX0hrdms3eWFpdlN3TFFVM1ROVkFtT1hNMnlPWnIzZXZJZ1NyR2xqMVhUaXlndW5NV2VVTXpvMWpJclJ2eThTaHNEaXphZ29WbXM4ZERLT1o3SGc3Wk9xb2pxZnBDYnlCeGJiTWc?oc=5",
+     "time": "2026-10-22T08:14:51+00:00"
+    },
+    {
+     "title": "13,807 Shares of Arista Networks, Inc. $ANET Purchased by Cantor Fitzgerald Investment Advisors L.P.",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOSWJ5bnZ4a3ZCVGZIcHIwbkdoYzg4U3RpRTVhcW4yNnlZUTlRaks5YjU2Vzd0MEtZTUhqNGlNeGQ2ZVBJYS1WWWhhVlplM3VkZlVXT2U5Zy1PVk8xS2VjVXBVN1RjUzZ2MzZ2dlhpNHhjY2RGOTZJcVNCMDFCbk9wcmNiUkRUbTgzaDdNTEUyblhsWVRBRndLcDFVSzRiVWpoaUNQdlNCUWkwakZ4ZERTTnFsM2RkU3duNUZwWG1kZmJlYUdDU3lPXzItU2I0cWhPUkJldE9UWEZwVVRQbnlGR3JvQzU2anVOMWtZ?oc=5",
+     "time": "2026-10-22T07:41:18+00:00"
+    },
+    {
+     "title": "Arista Networks vs. CrowdStrike: Which Tech Stock Is a Better Buy in 2026?",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOazczMGdXNjlxbzBPM1ZRN2NtaGM5cWFDdnc1N3VuMkxoa1hSTVdEeUtlVVhfY2N6b3c2dU9mUW5KejFpQ2lqSUFLckV3RXkxMVloQ3RIcWdHdWR1NmYtWV9MTVJxNW9vX0JnbjZmTUJXQWxXRHRBSmxTRVNkNHJzM3VXNTlYNVhaSGh5SEhLY1QyOUZrc1YzWkU0RlRZWVEyU3hmbm80UWxidEtPWG5YVC1aa09RblBSamhUc0hrNGs0Zw?oc=5",
+     "time": "2026-10-22T02:37:00+00:00"
+    },
+    {
+     "title": "Arista Networks (NYSE:ANET) Shares Climb 1.8% - Should You Buy?",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPR0tDYm9FSjI3UkFkb1JVWk9Iam1OQVNZNExYV2hnSGJrd01NUzM4RW9kOEpiZGViNWUtZXJIS3l0WnJCTE9ma2lfQy1sRTN2Z2FsV3hzc1Nhc3kzMU56R2gtODluNkdzSEJtTkUzZkMzM3RveU9PRjA2U0VncjNNNFk4N2JiV0dEaXduZDdlMXVlZmZkM0JVNTZWTi0xaEZrRUM0aGZDczBQZ2haWVlCdlNuUGt0cVk?oc=5",
+     "time": "2026-10-21T21:47:09+00:00"
+    },
+    {
+     "title": "Arista Networks (ANET) Rises Higher Than Market: Key Facts",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNGhPTURKQjdlZ0JwLVN4UXRoejkteExYZ2RwY0QweTlRaHZlQTZFNDN5Ujh1blplMDhYcDV4NklIMWx2VEJyY3h6WGlBTS1scFo2ZHI2M1dUc2FWcWVOWVlJclVsUFBUVDd6YnI5d1ZwaENpWlBwblhUNkhuLVR6UlpjY3c5ckhYM1l6dHNFNnBrTDdSeGl3bHZTelcxblU?oc=5",
+     "time": "2026-10-21T20:45:02+00:00"
+    }
+   ],
+   "brief": "2026-10-22-ANET"
+  },
+  {
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 158.72,
+   "price": 159.17,
    "prev_close": 171.57,
-   "change_pct": -7.5,
+   "change_pct": -7.2,
    "trigger_change": -5.4,
    "peak_change": -9.2,
    "first_seen": "2026-10-22T14:00:23+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 108.72,
-    "change_pct": -0.09
+    "price": 108.69,
+    "change_pct": -0.12
    },
    "chart": {
-    "ema8": -11.1,
-    "ema21": -20.5,
-    "sma50": -27.8,
-    "sma200": -9.6,
+    "ema8": -10.9,
+    "ema21": -20.3,
+    "sma50": -27.6,
+    "sma200": -9.3,
     "momentum": false
    },
    "headlines": [
@@ -174,23 +249,23 @@
    "symbol": "META",
    "name": "Meta",
    "list": "portfolio",
-   "price": 645.62,
+   "price": 648.43,
    "prev_close": 697.52,
-   "change_pct": -7.4,
+   "change_pct": -7.0,
    "trigger_change": -5.6,
    "peak_change": -8.2,
    "first_seen": "2026-10-22T14:00:23+00:00",
    "sector": {
     "etf": "XLC",
     "name": "Communication",
-    "price": 107.22,
-    "change_pct": -1.61
+    "price": 107.42,
+    "change_pct": -1.43
    },
    "chart": {
-    "ema8": -7.6,
-    "ema21": -8.7,
-    "sma50": -2.6,
-    "sma200": 2.1,
+    "ema8": -7.3,
+    "ema21": -8.3,
+    "sma50": -2.2,
+    "sma200": 2.5,
     "momentum": false
    },
    "headlines": [
@@ -246,101 +321,26 @@
    "brief": "2026-10-22-META"
   },
   {
-   "symbol": "ANET",
-   "name": "Arista Networks",
-   "list": "portfolio",
-   "price": 171.61,
-   "prev_close": 184.33,
-   "change_pct": -6.9,
-   "trigger_change": -3.6,
-   "peak_change": -7.7,
-   "first_seen": "2026-10-22T14:00:23+00:00",
-   "sector": {
-    "etf": "SMH",
-    "name": "Semiconductors",
-    "price": 524.11,
-    "change_pct": -5.85
-   },
-   "chart": {
-    "ema8": -7.4,
-    "ema21": -11.6,
-    "sma50": -12.9,
-    "sma200": 4.9,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Arista Networks Inc Stock (ANET) Moved Down by 7.22% on Oct 22: What Signal Does It Send?",
-     "publisher": "TradingKey",
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNNUY5aTFyOXIyaVRld2lza0hmQXJYNnN4Ny1mR0VRQllOS09YSE5XUkhxRkZJZmd6aENKbjFZQURlbFNmM2VJQ0F0Q29Kd3h4NGNHaktVVVlSQmxJQzFtTkl4aUtpUEFGcTgyMTdTUHdYZXdTeGRweHBlOVdISFhMbHZocllFVENveS1n?oc=5",
-     "time": "2026-10-22T18:15:53+00:00"
-    },
-    {
-     "title": "Arista Networks (ANET) Is Considered a Good Investment by Brokers: Is That True?",
-     "publisher": "Yahoo Finance UK",
-     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNYlNNQkozY1FZaTlKbDh1ZGwtSjk4UWNJVmJuMHlJWktQS2pDbF9ONmg5b0l1MGdFOTlQMHIxT2FvQ1FPOHFBMXMydW9WcEhwdjc2aG1yNXNoRS1oT0I2MVZPTGlfVmJYNnk1dmJEY3ZqdzJTal9JN21jc1hzdmh6NW1rTzQ4MDVZRHNwMVNB?oc=5",
-     "time": "2026-10-22T12:30:03+00:00"
-    },
-    {
-     "title": "Should You Pick Arista Networks Stock Over Its Competitors?",
-     "publisher": "Trefis",
-     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOdE1KQy1saVVQa05YTGZ5WlhVWlRnR3JPaDZmQnVhRVFHaDlKSnVrdmdrbEgxWlJYSEZna2x3UVJUaGl6cEQxT1hhVWg4d0xBOV9zc1JSWTQtLTc3ekdWYlhiS2xScl9LOHZhQlgtaTE1RUlJYlZhanptZ3I1b3NTeFZDUmZ3eXNLbHlvZ0dVckhWdnVVU3pheGcweFdOb1ZuQ1FqVTZydm5EbDI4XzBZbF84YXR1eVhmT3gw?oc=5",
-     "time": "2026-10-22T10:52:40+00:00"
-    },
-    {
-     "title": "Arista Networks, Inc. $ANET Shares Acquired by Crossmark Global Holdings Inc.",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQcnFRQ3ZvSk02bUdoTWRvSEZsSFhrYXZXV29FMlNacEUteDd6NzEwQmc2V2h2T2pkSllKSjh4VjZkWTFHNjdtUHoxYjVRckNrdUZ2Z0pIUXZGTlBGTUU0N1BXTDdhWXo2clNQX0hrdms3eWFpdlN3TFFVM1ROVkFtT1hNMnlPWnIzZXZJZ1NyR2xqMVhUaXlndW5NV2VVTXpvMWpJclJ2eThTaHNEaXphZ29WbXM4ZERLT1o3SGc3Wk9xb2pxZnBDYnlCeGJiTWc?oc=5",
-     "time": "2026-10-22T08:14:51+00:00"
-    },
-    {
-     "title": "13,807 Shares of Arista Networks, Inc. $ANET Purchased by Cantor Fitzgerald Investment Advisors L.P.",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOSWJ5bnZ4a3ZCVGZIcHIwbkdoYzg4U3RpRTVhcW4yNnlZUTlRaks5YjU2Vzd0MEtZTUhqNGlNeGQ2ZVBJYS1WWWhhVlplM3VkZlVXT2U5Zy1PVk8xS2VjVXBVN1RjUzZ2MzZ2dlhpNHhjY2RGOTZJcVNCMDFCbk9wcmNiUkRUbTgzaDdNTEUyblhsWVRBRndLcDFVSzRiVWpoaUNQdlNCUWkwakZ4ZERTTnFsM2RkU3duNUZwWG1kZmJlYUdDU3lPXzItU2I0cWhPUkJldE9UWEZwVVRQbnlGR3JvQzU2anVOMWtZ?oc=5",
-     "time": "2026-10-22T07:41:18+00:00"
-    },
-    {
-     "title": "Arista Networks vs. CrowdStrike: Which Tech Stock Is a Better Buy in 2026?",
-     "publisher": "The Motley Fool",
-     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOazczMGdXNjlxbzBPM1ZRN2NtaGM5cWFDdnc1N3VuMkxoa1hSTVdEeUtlVVhfY2N6b3c2dU9mUW5KejFpQ2lqSUFLckV3RXkxMVloQ3RIcWdHdWR1NmYtWV9MTVJxNW9vX0JnbjZmTUJXQWxXRHRBSmxTRVNkNHJzM3VXNTlYNVhaSGh5SEhLY1QyOUZrc1YzWkU0RlRZWVEyU3hmbm80UWxidEtPWG5YVC1aa09RblBSamhUc0hrNGs0Zw?oc=5",
-     "time": "2026-10-22T02:37:00+00:00"
-    },
-    {
-     "title": "Arista Networks (NYSE:ANET) Shares Climb 1.8% - Should You Buy?",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPR0tDYm9FSjI3UkFkb1JVWk9Iam1OQVNZNExYV2hnSGJrd01NUzM4RW9kOEpiZGViNWUtZXJIS3l0WnJCTE9ma2lfQy1sRTN2Z2FsV3hzc1Nhc3kzMU56R2gtODluNkdzSEJtTkUzZkMzM3RveU9PRjA2U0VncjNNNFk4N2JiV0dEaXduZDdlMXVlZmZkM0JVNTZWTi0xaEZrRUM0aGZDczBQZ2haWVlCdlNuUGt0cVk?oc=5",
-     "time": "2026-10-21T21:47:09+00:00"
-    },
-    {
-     "title": "Arista Networks (ANET) Rises Higher Than Market: Key Facts",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNGhPTURKQjdlZ0JwLVN4UXRoejkteExYZ2RwY0QweTlRaHZlQTZFNDN5Ujh1blplMDhYcDV4NklIMWx2VEJyY3h6WGlBTS1scFo2ZHI2M1dUc2FWcWVOWVlJclVsUFBUVDd6YnI5d1ZwaENpWlBwblhUNkhuLVR6UlpjY3c5ckhYM1l6dHNFNnBrTDdSeGl3bHZTelcxblU?oc=5",
-     "time": "2026-10-21T20:45:02+00:00"
-    }
-   ],
-   "brief": "2026-10-22-ANET"
-  },
-  {
    "symbol": "AMZN",
    "name": "Amazon",
    "list": "portfolio",
-   "price": 249.84,
+   "price": 250.18,
    "prev_close": 262.37,
-   "change_pct": -4.8,
+   "change_pct": -4.6,
    "trigger_change": -3.4,
    "peak_change": -5.4,
    "first_seen": "2026-10-22T14:00:23+00:00",
    "sector": {
     "etf": "XLY",
     "name": "Consumer discr.",
-    "price": 115.2,
-    "change_pct": -0.29
+    "price": 114.99,
+    "change_pct": -0.47
    },
    "chart": {
-    "ema8": -2.7,
-    "ema21": -2.3,
-    "sma50": -2.4,
-    "sma200": 2.7,
+    "ema8": -2.6,
+    "ema21": -2.2,
+    "sma50": -2.3,
+    "sma200": 2.8,
     "momentum": true
    },
    "headlines": [
@@ -399,17 +399,17 @@
    "symbol": "NVDA",
    "name": "Nvidia",
    "list": "portfolio",
-   "price": 212.1,
+   "price": 212.01,
    "prev_close": 221.97,
-   "change_pct": -4.4,
+   "change_pct": -4.5,
    "trigger_change": -3.3,
    "peak_change": -4.8,
    "first_seen": "2026-10-22T14:34:34+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 524.11,
-    "change_pct": -5.85
+    "price": 523.19,
+    "change_pct": -6.02
    },
    "chart": {
     "ema8": -3.2,
@@ -474,7 +474,7 @@
    "symbol": "AVGO",
    "name": "Broadcom",
    "list": "portfolio",
-   "price": 323.13,
+   "price": 323.31,
    "prev_close": 337.8,
    "change_pct": -4.3,
    "trigger_change": -3.6,
@@ -483,14 +483,14 @@
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 524.11,
-    "change_pct": -5.85
+    "price": 523.19,
+    "change_pct": -6.02
    },
    "chart": {
     "ema8": -4.3,
-    "ema21": -7.0,
+    "ema21": -6.9,
     "sma50": -9.9,
-    "sma200": -12.2,
+    "sma200": -12.1,
     "momentum": false
    },
    "headlines": [
@@ -546,85 +546,10 @@
    "brief": "2026-10-22-AVGO"
   },
   {
-   "symbol": "GOOG",
-   "name": "Alphabet",
-   "list": "portfolio",
-   "price": 319.48,
-   "prev_close": 330.95,
-   "change_pct": -3.5,
-   "trigger_change": -3.0,
-   "peak_change": -3.7,
-   "first_seen": "2026-10-22T18:07:13+00:00",
-   "sector": {
-    "etf": "XLC",
-    "name": "Communication",
-    "price": 107.22,
-    "change_pct": -1.61
-   },
-   "chart": {
-    "ema8": -4.6,
-    "ema21": -5.8,
-    "sma50": -6.1,
-    "sma200": -5.9,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Better Buffett Stock: Alphabet vs. Apple",
-     "publisher": "The Motley Fool",
-     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNYkVLZlFKcGQxaDF4M19oZlppY3BpVkZRMW9td0szd2gxOUZHYmN5WDhSQV9ock85UnZTUnMtUUhMTmRsZDh3R2lGbW5XY1pPSkh3SjNyQWlPY0d4LTA4WXlRVzF2VjVHQVRFRDZURlF1dVdGLWI1b29ZblRJbUtmdVBsb2lYazN4?oc=5",
-     "time": "2026-10-22T18:58:02+00:00"
-    },
-    {
-     "title": "Alphabet Inc Class C Stock (GOOG) Moved Down by 3.02% on Oct 22: What Investors Need To Know",
-     "publisher": "TradingKey",
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNMEkyOVVLcDhVMEFfU0Q3SDRkaGhmM1V4Q3puSFJuczhicHBvYXFTeHFDR3EyNGY4U3F5VGpHVmZWZVJMUUdvUTMyYm40UjR3TUVrNFpBYzdmeGtGci0zMU5sWmxkVVpxbWt0MnJURzhKRjd4NU5JY3lKcGdEN3ItdWswWEJ0cjYwZnEw?oc=5",
-     "time": "2026-10-22T18:15:53+00:00"
-    },
-    {
-     "title": "Alphabet Stocks Slip 2.5% as Vera Rubin Cloud Scale Nears",
-     "publisher": "GuruFocus",
-     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNcnRIWDM5TlphZHlqM1IwTGdtOU8zYk5DRkZ1a0lSMU43dnlta2hwUjhRLUpBSHdvNWZSRFdmNzBLVjJlZ0pIU0duTWFmWkRfbGZRSkd1WmhkU1d4S2o3amk3RVNZVnhmOUFiOFRlc3BHVDZWWjBlSGFFOXBoRDBOSE5qZkZFSzRYaDZWb055aUZDdTBpMUw4dzNR?oc=5",
-     "time": "2026-10-22T18:00:53+00:00"
-    },
-    {
-     "title": "Prediction: One of the World\u2019s Biggest Stocks Could Still Have Room to Run",
-     "publisher": "24/7 Wall St.",
-     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQdDNHZE9BblNyTmdhX2F6bnlnYS15ajRrY2ZsVVJBMTFkZ0JpQUZGQWdMMmVMQjN3dThHcVJ3Y0xROGd5bEdTdUJMYmlHamxvLVFTTEV2U3E0YW1aSmZaTmgwZUpBY0toWWg1NThUalRBcXktR2k5OU1WeVFrd0JCeHY1WDZMNkY2ZUNnb29xX0RaQ3Z6aTNoV0ZzaEp5aW95MkE1eVZWbVQ3dlJDYlVwRUlfdksybjQ2V1E?oc=5",
-     "time": "2026-10-22T16:30:00+00:00"
-    },
-    {
-     "title": "Alphabet: The Best Way To Invest In AI May Be Closer To The End User (NASDAQ:GOOG)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQRTNVOHNsQkRoaDVZZi11M2FIQ1R3QlpXZU4yLWtZUkU2ejdBZklFN1F2b3dzX2Q3Zkl0bmJYVm9fM01GY0RnbXk5M0pZeEJaQnFZLVNaS2RKUUlNODhJY0JUakdPOEdKa19Pa1Y3ZmFuZFI1d0Y4T2hWaFNyc1NNX0NiU2FsM0tRZUo3TXQzb2NTMHRaX2pWTVVuOGw3a2F1M1J0c3ZRZ2sycUs2?oc=5",
-     "time": "2026-10-22T15:12:09+00:00"
-    },
-    {
-     "title": "Nvidia, Apple, Alphabet, Microsoft, and Amazon Now Make Up 30.8% of VOO and 49.2% of VUG. Here's a Better Low-Cost Vanguard ETF to Buy Now.",
-     "publisher": "The Motley Fool",
-     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOeFAwMkZaVnRQLXFMUk9ZSVRlMGNlRkJHWkQ0Mm1ZM2JZX2RZX3d0OGJEOGNXSkhaemIzSmFnV2hpdDcxWnZRZ0kwZFRvS1laMVh6TU5ZR3NHR2o2eVAybzZyenFReGx6QVRJTEp4OXp4Rld6SXRkUHJ3UmlfT0V3MnZzazdqcW9WMVBZeml5S1JYdEdOTDFPdQ?oc=5",
-     "time": "2026-10-22T14:45:00+00:00"
-    },
-    {
-     "title": "What Makes Google Stock A Buy?",
-     "publisher": "Forbes",
-     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOclVhNnUyczBENXloSW80S2xicDc3cmMyaURFT2ZlODY5bDdxQkZrekVGVkU2bDhQRG5SVDF6VEFXNkVYYmw5X0RGVnhpN0E4V3ZnLVN0dWhCMkpiWVZJR0ppVTVQQ0I1SzIzVU1VdEJHT2k3Y01MYlQ2ZTNHVzZRSENOUGM2bmFrb19BYnhfUzBQQQ?oc=5",
-     "time": "2026-10-22T14:43:13+00:00"
-    },
-    {
-     "title": "One Reason Alphabet Stock Looks Better Than Its Price",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNzk5dl9yRTlRZzJRTV8tMlJvWFV5WnliekdybHJfME5OMG5pNjlldE40UEVuSUozVHd6RnZjdF92ZFNhLXlCVVoxU1daQXZwLTcwVjdVeE1iTUVHZmdoUGwzdlR5akNNSWJnejliR3lLV2pCYkxLT3h2SGUwU0hRemNTa1ZJQ0QtVUlvWE1HYzlhV0l2eEhzcnBQZFg?oc=5",
-     "time": "2026-10-22T14:07:54+00:00"
-    }
-   ],
-   "brief": "2026-10-22-GOOG"
-  },
-  {
    "symbol": "BTC-USD",
    "name": "Bitcoin",
    "list": "watchlist",
-   "price": 81420.3,
+   "price": 81407.3,
    "prev_close": 84022.5,
    "change_pct": -3.1,
    "trigger_change": -3.0,
@@ -634,7 +559,7 @@
    "chart": {
     "ema8": -1.2,
     "ema21": -1.4,
-    "sma50": -0.4,
+    "sma50": -0.5,
     "sma200": 11.8,
     "momentum": false
    },
@@ -694,23 +619,23 @@
    "symbol": "NFLX",
    "name": "Netflix",
    "list": "portfolio",
-   "price": 66.78,
+   "price": 67.03,
    "prev_close": 65.04,
-   "change_pct": 2.7,
+   "change_pct": 3.1,
    "trigger_change": 3.3,
    "peak_change": 3.7,
    "first_seen": "2026-10-22T15:56:49+00:00",
    "sector": {
     "etf": "XLC",
     "name": "Communication",
-    "price": 107.22,
-    "change_pct": -1.61
+    "price": 107.42,
+    "change_pct": -1.43
    },
    "chart": {
-    "ema8": -2.5,
-    "ema21": -4.8,
-    "sma50": -10.4,
-    "sma200": -18.9,
+    "ema8": -2.2,
+    "ema21": -4.5,
+    "sma50": -10.0,
+    "sma200": -18.6,
     "momentum": false
    },
    "headlines": [
@@ -764,6 +689,81 @@
     }
    ],
    "brief": "2026-10-22-NFLX"
+  },
+  {
+   "symbol": "GOOG",
+   "name": "Alphabet",
+   "list": "portfolio",
+   "price": 320.59,
+   "prev_close": 330.95,
+   "change_pct": -3.1,
+   "trigger_change": -3.0,
+   "peak_change": -3.7,
+   "first_seen": "2026-10-22T18:07:13+00:00",
+   "sector": {
+    "etf": "XLC",
+    "name": "Communication",
+    "price": 107.42,
+    "change_pct": -1.43
+   },
+   "chart": {
+    "ema8": -4.3,
+    "ema21": -5.5,
+    "sma50": -5.7,
+    "sma200": -5.6,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Better Buffett Stock: Alphabet vs. Apple",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNYkVLZlFKcGQxaDF4M19oZlppY3BpVkZRMW9td0szd2gxOUZHYmN5WDhSQV9ock85UnZTUnMtUUhMTmRsZDh3R2lGbW5XY1pPSkh3SjNyQWlPY0d4LTA4WXlRVzF2VjVHQVRFRDZURlF1dVdGLWI1b29ZblRJbUtmdVBsb2lYazN4?oc=5",
+     "time": "2026-10-22T18:58:02+00:00"
+    },
+    {
+     "title": "Alphabet Inc Class C Stock (GOOG) Moved Down by 3.02% on Oct 22: What Investors Need To Know",
+     "publisher": "TradingKey",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNMEkyOVVLcDhVMEFfU0Q3SDRkaGhmM1V4Q3puSFJuczhicHBvYXFTeHFDR3EyNGY4U3F5VGpHVmZWZVJMUUdvUTMyYm40UjR3TUVrNFpBYzdmeGtGci0zMU5sWmxkVVpxbWt0MnJURzhKRjd4NU5JY3lKcGdEN3ItdWswWEJ0cjYwZnEw?oc=5",
+     "time": "2026-10-22T18:15:53+00:00"
+    },
+    {
+     "title": "Alphabet Stocks Slip 2.5% as Vera Rubin Cloud Scale Nears",
+     "publisher": "GuruFocus",
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNcnRIWDM5TlphZHlqM1IwTGdtOU8zYk5DRkZ1a0lSMU43dnlta2hwUjhRLUpBSHdvNWZSRFdmNzBLVjJlZ0pIU0duTWFmWkRfbGZRSkd1WmhkU1d4S2o3amk3RVNZVnhmOUFiOFRlc3BHVDZWWjBlSGFFOXBoRDBOSE5qZkZFSzRYaDZWb055aUZDdTBpMUw4dzNR?oc=5",
+     "time": "2026-10-22T18:00:53+00:00"
+    },
+    {
+     "title": "Prediction: One of the World\u2019s Biggest Stocks Could Still Have Room to Run",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQdDNHZE9BblNyTmdhX2F6bnlnYS15ajRrY2ZsVVJBMTFkZ0JpQUZGQWdMMmVMQjN3dThHcVJ3Y0xROGd5bEdTdUJMYmlHamxvLVFTTEV2U3E0YW1aSmZaTmgwZUpBY0toWWg1NThUalRBcXktR2k5OU1WeVFrd0JCeHY1WDZMNkY2ZUNnb29xX0RaQ3Z6aTNoV0ZzaEp5aW95MkE1eVZWbVQ3dlJDYlVwRUlfdksybjQ2V1E?oc=5",
+     "time": "2026-10-22T16:30:00+00:00"
+    },
+    {
+     "title": "Alphabet: The Best Way To Invest In AI May Be Closer To The End User (NASDAQ:GOOG)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQRTNVOHNsQkRoaDVZZi11M2FIQ1R3QlpXZU4yLWtZUkU2ejdBZklFN1F2b3dzX2Q3Zkl0bmJYVm9fM01GY0RnbXk5M0pZeEJaQnFZLVNaS2RKUUlNODhJY0JUakdPOEdKa19Pa1Y3ZmFuZFI1d0Y4T2hWaFNyc1NNX0NiU2FsM0tRZUo3TXQzb2NTMHRaX2pWTVVuOGw3a2F1M1J0c3ZRZ2sycUs2?oc=5",
+     "time": "2026-10-22T15:12:09+00:00"
+    },
+    {
+     "title": "Nvidia, Apple, Alphabet, Microsoft, and Amazon Now Make Up 30.8% of VOO and 49.2% of VUG. Here's a Better Low-Cost Vanguard ETF to Buy Now.",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOeFAwMkZaVnRQLXFMUk9ZSVRlMGNlRkJHWkQ0Mm1ZM2JZX2RZX3d0OGJEOGNXSkhaemIzSmFnV2hpdDcxWnZRZ0kwZFRvS1laMVh6TU5ZR3NHR2o2eVAybzZyenFReGx6QVRJTEp4OXp4Rld6SXRkUHJ3UmlfT0V3MnZzazdqcW9WMVBZeml5S1JYdEdOTDFPdQ?oc=5",
+     "time": "2026-10-22T14:45:00+00:00"
+    },
+    {
+     "title": "What Makes Google Stock A Buy?",
+     "publisher": "Forbes",
+     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOclVhNnUyczBENXloSW80S2xicDc3cmMyaURFT2ZlODY5bDdxQkZrekVGVkU2bDhQRG5SVDF6VEFXNkVYYmw5X0RGVnhpN0E4V3ZnLVN0dWhCMkpiWVZJR0ppVTVQQ0I1SzIzVU1VdEJHT2k3Y01MYlQ2ZTNHVzZRSENOUGM2bmFrb19BYnhfUzBQQQ?oc=5",
+     "time": "2026-10-22T14:43:13+00:00"
+    },
+    {
+     "title": "One Reason Alphabet Stock Looks Better Than Its Price",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNzk5dl9yRTlRZzJRTV8tMlJvWFV5WnliekdybHJfME5OMG5pNjlldE40UEVuSUozVHd6RnZjdF92ZFNhLXlCVVoxU1daQXZwLTcwVjdVeE1iTUVHZmdoUGwzdlR5akNNSWJnejliR3lLV2pCYkxLT3h2SGUwU0hRemNTa1ZJQ0QtVUlvWE1HYzlhV0l2eEhzcnBQZFg?oc=5",
+     "time": "2026-10-22T14:07:54+00:00"
+    }
+   ],
+   "brief": "2026-10-22-GOOG"
   }
  ]
 }
