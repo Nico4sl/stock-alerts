@@ -1,22 +1,22 @@
 {
  "date": "2026-10-22",
  "threshold": 3.0,
- "updated": "2026-10-22T15:01:30+00:00",
+ "updated": "2026-10-22T15:11:28+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 763.07,
-   "change_pct": -1.3
+   "price": 762.8,
+   "change_pct": -1.33
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 708.06,
-   "change_pct": -2.36
+   "price": 707.04,
+   "change_pct": -2.5
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 81.27,
-   "change_pct": 1.28
+   "price": 81.3,
+   "change_pct": 1.32
   }
  },
  "movers": [
@@ -24,23 +24,23 @@
    "symbol": "AMAT",
    "name": "Applied Materials",
    "list": "portfolio",
-   "price": 380.23,
+   "price": 379.01,
    "prev_close": 408.94,
-   "change_pct": -7.0,
+   "change_pct": -7.3,
    "trigger_change": -4.8,
-   "peak_change": -7.0,
+   "peak_change": -7.3,
    "first_seen": "2026-10-22T14:00:23+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 528.12,
-    "change_pct": -5.13
+    "price": 526.97,
+    "change_pct": -5.34
    },
    "chart": {
-    "ema8": -9.8,
-    "ema21": -16.2,
-    "sma50": -19.4,
-    "sma200": -13.9,
+    "ema8": -10.0,
+    "ema21": -16.4,
+    "sma50": -19.6,
+    "sma200": -14.2,
     "momentum": false
    },
    "headlines": [
@@ -99,23 +99,23 @@
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 160.29,
+   "price": 159.36,
    "prev_close": 171.57,
-   "change_pct": -6.6,
+   "change_pct": -7.1,
    "trigger_change": -5.4,
-   "peak_change": -6.7,
+   "peak_change": -7.1,
    "first_seen": "2026-10-22T14:00:23+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 108.95,
-    "change_pct": 0.12
+    "price": 109.08,
+    "change_pct": 0.23
    },
    "chart": {
-    "ema8": -10.4,
-    "ema21": -19.8,
-    "sma50": -27.1,
-    "sma200": -8.7,
+    "ema8": -10.8,
+    "ema21": -20.2,
+    "sma50": -27.5,
+    "sma200": -9.2,
     "momentum": false
    },
    "headlines": [
@@ -171,101 +171,26 @@
    "brief": "2026-10-22-NBIS"
   },
   {
-   "symbol": "META",
-   "name": "Meta",
-   "list": "portfolio",
-   "price": 651.77,
-   "prev_close": 697.52,
-   "change_pct": -6.6,
-   "trigger_change": -5.6,
-   "peak_change": -6.8,
-   "first_seen": "2026-10-22T14:00:23+00:00",
-   "sector": {
-    "etf": "XLC",
-    "name": "Communication",
-    "price": 107.54,
-    "change_pct": -1.31
-   },
-   "chart": {
-    "ema8": -6.9,
-    "ema21": -7.9,
-    "sma50": -1.7,
-    "sma200": 3.0,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Bernstein raises Meta stock price target on AI momentum",
-     "publisher": "Investing.com",
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPYmJyMGZmRVlSTkRnMDVTX2NZUzhVTEkyc3otZTBEekZOZFJicDZHTmM3ZWxNbHBPMzBqa2JNbzJ1RFFmZXdXSFpTQ0lyTk91bVNfOGZfd1VqbUJGMUdiU1JfVWpQeHNiRXEtanhieldUc2MyaDZGT0NTVEVGWTdkcUhfZFN1VWVBaDNlSTdDaHlIRXhZU254QXRvQTMyWTN1a0ZkRWtzU2VhcjdTVkt3NVV5QkoyQQ?oc=5",
-     "time": "2026-10-22T15:00:10+00:00"
-    },
-    {
-     "title": "StoneX reiterates Hold on Meta stock amid ROIC concerns",
-     "publisher": "Investing.com",
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOMkEyT1h0Q1RZRXB0SWRXN05hOHNYdzhHVmtpcGVXRElHOHUwRzVzSWhhQ1RZb1lZRjBlaVk0YVo4N3RZQkcxQVpzX0NBeHo0dzZpNExBbEpvWUNHWVZGYVdxdzJidU42U3NyR3RKZS1DSHZfdm1GbE5mcnBXdXVFYmZQWGxGN2E4MnFyNWpSWlMtSnBYZFcwV256NjdBWUgtaEttSVNYLVY1V3VESWR4NFlibkxZZw?oc=5",
-     "time": "2026-10-22T15:00:07+00:00"
-    },
-    {
-     "title": "RBC Capital raises Meta stock price target to $800 on AI strength",
-     "publisher": "Investing.com",
-     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNOC1qY2RIOFktUDFocHFQNE1uSGUzN1VINW4wNWFlRGxSZVJCTk1mQ1Y2dHQ2anhkb2tCMTZzTE9ydlFpcnhJVXNZUVF4N29kajg1Z0hRdndPNzVUUmtHOTBYT2pUYUxleTFLcjNJdml1NnV4QUJrN2NWOFJHcDlJNzBWWXV1SlZUelBlZzJwbzZEVGZMVE1EOU5fMkRrNk9xNFJPS1VKY2ZueDlkNDYxQ1hXeW02WGdMcGx0ODV4Rm9ZUQ?oc=5",
-     "time": "2026-10-22T14:48:16+00:00"
-    },
-    {
-     "title": "Truist reiterates Buy on Meta stock, cites AI ad gains By Investing.com",
-     "publisher": "Investing.com UK",
-     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNNzZTZWM5VnRTYkhnVndNMnd1N1gzd2NTMmJtQ3hUbDU4eXJkRXFQWHR1aHdjc2c0dVEzWVJfV21vYzI2a1p1aHd4cy1NcWZuTXd2aGtPRjhIRS01QUxQRWZQakVvYTdWcDNVV01zaGRham9oNHU0b0hUd0hRTGpabXVVdmR6bHhUdWN2VVRMZ3FJWmFIaUhvV2lOc2xjY3VqWGE1LXNrLWF2cnhBdWtaNXF1Xzc?oc=5",
-     "time": "2026-10-22T14:36:00+00:00"
-    },
-    {
-     "title": "DA Davidson raises Meta stock price target to $800 on AI spending",
-     "publisher": "Investing.com",
-     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOSzM0ZDFLYV9DVklTWEZTVGtFWXZzbnZLRS1rSnRVbGVGWE9UYkdVSjVyTzlzZVhnVUppY28tcXAybU1fMnpzcWRkdlNETGY3OVh3aUxTQkR3NnZybFFaUXdGa1NzNzZZbkVabllLOWpIRmpNOFlLT1BhZmJFWG1MdW1xVVMwcFkwN0RtQVhtdnZJQVJ1VUh3YndXY2J3V0lIelhGN205LXdXWm1tTFNnUGY1N2FmTlNRYm1QZXJUYUFBQQ?oc=5",
-     "time": "2026-10-22T14:32:05+00:00"
-    },
-    {
-     "title": "KeyBanc raises Meta stock price target to $905 on AI momentum",
-     "publisher": "Investing.com",
-     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNc0hHZlduS3pmbE9pQWJzakhLY0VrdWFqNjlRQnB1T2R1dDdpWWVCODZxRUFneEtsTzZUeWwxaTd3WUZaVml0cDRUdmZiQ09mUVk3cmRPTFI5LU83cHYydnlKTlUtRFJTeFh4RmJjSWhLS1gzOUZJZ1JKVEF5R2NvdmwyTW9rc3RJSHFjMnRrRExwN3FWY1Q1dDFLY3lwX2xPZnNDbUVBYmVubFJHdDRna3JnWWZzUkZVQjJ4NQ?oc=5",
-     "time": "2026-10-22T14:32:04+00:00"
-    },
-    {
-     "title": "AI doubts drive bond rally as Meta, IBM flash warning signs (TLT:NASDAQ)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQek5VT0NFcS1kWE5aR2VRZWVsVW5Kb0QxZUc4Q2xNdDBVLVI5Tkh3akVEb1lFVDRaV3gzSElrQm10SUNvZzNoWEx5WmNtbURzdGxZYV9yME9SdE1BNG1YcEl2R0xWeGkzdV9RTU16cWtrSnFNSVZFQU9uMUZkdXowT21YRWZ6ZUlXMUdicUczbk5HR1VIeXJlRjFPWkw?oc=5",
-     "time": "2026-10-22T14:24:52+00:00"
-    },
-    {
-     "title": "Meta and chip stocks decline as AI trade comes under pressure: AlphaCheck",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQZ2ZfdGdfS21jbGZ2WDZCX241bWs2RTFmdnRFY1FCQVdsS0VLOTdFNk1relhYdHAxT3VrdUY1RzhfdlFtbGRkV3o5MzZVeG93WkxfNzFxczIxWDJOVEZEN0o2eXJiQUN2eGQxRUdNMkEtZm52RUdZTmFmdGJnVEl2YjV3djlkVzExVnJQMFMwRWM5eldrdFRiNnFHQVFQUzhUZWFYOVN0Wlk1Zk96aWdEQ2thRDM2NDVKRFZwNnB0QWdUMGhCQkRtUQ?oc=5",
-     "time": "2026-10-22T14:01:07+00:00"
-    }
-   ],
-   "brief": "2026-10-22-META"
-  },
-  {
    "symbol": "ANET",
    "name": "Arista Networks",
    "list": "portfolio",
-   "price": 172.22,
+   "price": 171.61,
    "prev_close": 184.33,
-   "change_pct": -6.6,
+   "change_pct": -6.9,
    "trigger_change": -3.6,
-   "peak_change": -6.8,
+   "peak_change": -6.9,
    "first_seen": "2026-10-22T14:00:23+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 528.12,
-    "change_pct": -5.13
+    "price": 526.97,
+    "change_pct": -5.34
    },
    "chart": {
-    "ema8": -7.1,
-    "ema21": -11.3,
-    "sma50": -12.6,
-    "sma200": 5.3,
+    "ema8": -7.4,
+    "ema21": -11.6,
+    "sma50": -12.9,
+    "sma200": 4.9,
     "momentum": false
    },
    "headlines": [
@@ -321,26 +246,101 @@
    "brief": "2026-10-22-ANET"
   },
   {
+   "symbol": "META",
+   "name": "Meta",
+   "list": "portfolio",
+   "price": 654.75,
+   "prev_close": 697.52,
+   "change_pct": -6.1,
+   "trigger_change": -5.6,
+   "peak_change": -6.8,
+   "first_seen": "2026-10-22T14:00:23+00:00",
+   "sector": {
+    "etf": "XLC",
+    "name": "Communication",
+    "price": 107.6,
+    "change_pct": -1.26
+   },
+   "chart": {
+    "ema8": -6.5,
+    "ema21": -7.5,
+    "sma50": -1.2,
+    "sma200": 3.5,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Bernstein raises Meta stock price target on AI momentum",
+     "publisher": "Investing.com",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPYmJyMGZmRVlSTkRnMDVTX2NZUzhVTEkyc3otZTBEekZOZFJicDZHTmM3ZWxNbHBPMzBqa2JNbzJ1RFFmZXdXSFpTQ0lyTk91bVNfOGZfd1VqbUJGMUdiU1JfVWpQeHNiRXEtanhieldUc2MyaDZGT0NTVEVGWTdkcUhfZFN1VWVBaDNlSTdDaHlIRXhZU254QXRvQTMyWTN1a0ZkRWtzU2VhcjdTVkt3NVV5QkoyQQ?oc=5",
+     "time": "2026-10-22T15:00:10+00:00"
+    },
+    {
+     "title": "StoneX reiterates Hold on Meta stock amid ROIC concerns",
+     "publisher": "Investing.com",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOMkEyT1h0Q1RZRXB0SWRXN05hOHNYdzhHVmtpcGVXRElHOHUwRzVzSWhhQ1RZb1lZRjBlaVk0YVo4N3RZQkcxQVpzX0NBeHo0dzZpNExBbEpvWUNHWVZGYVdxdzJidU42U3NyR3RKZS1DSHZfdm1GbE5mcnBXdXVFYmZQWGxGN2E4MnFyNWpSWlMtSnBYZFcwV256NjdBWUgtaEttSVNYLVY1V3VESWR4NFlibkxZZw?oc=5",
+     "time": "2026-10-22T15:00:07+00:00"
+    },
+    {
+     "title": "RBC Capital raises Meta stock price target to $800 on AI strength",
+     "publisher": "Investing.com",
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNOC1qY2RIOFktUDFocHFQNE1uSGUzN1VINW4wNWFlRGxSZVJCTk1mQ1Y2dHQ2anhkb2tCMTZzTE9ydlFpcnhJVXNZUVF4N29kajg1Z0hRdndPNzVUUmtHOTBYT2pUYUxleTFLcjNJdml1NnV4QUJrN2NWOFJHcDlJNzBWWXV1SlZUelBlZzJwbzZEVGZMVE1EOU5fMkRrNk9xNFJPS1VKY2ZueDlkNDYxQ1hXeW02WGdMcGx0ODV4Rm9ZUQ?oc=5",
+     "time": "2026-10-22T14:48:16+00:00"
+    },
+    {
+     "title": "Truist reiterates Buy on Meta stock, cites AI ad gains By Investing.com",
+     "publisher": "Investing.com UK",
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNNzZTZWM5VnRTYkhnVndNMnd1N1gzd2NTMmJtQ3hUbDU4eXJkRXFQWHR1aHdjc2c0dVEzWVJfV21vYzI2a1p1aHd4cy1NcWZuTXd2aGtPRjhIRS01QUxQRWZQakVvYTdWcDNVV01zaGRham9oNHU0b0hUd0hRTGpabXVVdmR6bHhUdWN2VVRMZ3FJWmFIaUhvV2lOc2xjY3VqWGE1LXNrLWF2cnhBdWtaNXF1Xzc?oc=5",
+     "time": "2026-10-22T14:36:00+00:00"
+    },
+    {
+     "title": "DA Davidson raises Meta stock price target to $800 on AI spending",
+     "publisher": "Investing.com",
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOSzM0ZDFLYV9DVklTWEZTVGtFWXZzbnZLRS1rSnRVbGVGWE9UYkdVSjVyTzlzZVhnVUppY28tcXAybU1fMnpzcWRkdlNETGY3OVh3aUxTQkR3NnZybFFaUXdGa1NzNzZZbkVabllLOWpIRmpNOFlLT1BhZmJFWG1MdW1xVVMwcFkwN0RtQVhtdnZJQVJ1VUh3YndXY2J3V0lIelhGN205LXdXWm1tTFNnUGY1N2FmTlNRYm1QZXJUYUFBQQ?oc=5",
+     "time": "2026-10-22T14:32:05+00:00"
+    },
+    {
+     "title": "KeyBanc raises Meta stock price target to $905 on AI momentum",
+     "publisher": "Investing.com",
+     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNc0hHZlduS3pmbE9pQWJzakhLY0VrdWFqNjlRQnB1T2R1dDdpWWVCODZxRUFneEtsTzZUeWwxaTd3WUZaVml0cDRUdmZiQ09mUVk3cmRPTFI5LU83cHYydnlKTlUtRFJTeFh4RmJjSWhLS1gzOUZJZ1JKVEF5R2NvdmwyTW9rc3RJSHFjMnRrRExwN3FWY1Q1dDFLY3lwX2xPZnNDbUVBYmVubFJHdDRna3JnWWZzUkZVQjJ4NQ?oc=5",
+     "time": "2026-10-22T14:32:04+00:00"
+    },
+    {
+     "title": "AI doubts drive bond rally as Meta, IBM flash warning signs (TLT:NASDAQ)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQek5VT0NFcS1kWE5aR2VRZWVsVW5Kb0QxZUc4Q2xNdDBVLVI5Tkh3akVEb1lFVDRaV3gzSElrQm10SUNvZzNoWEx5WmNtbURzdGxZYV9yME9SdE1BNG1YcEl2R0xWeGkzdV9RTU16cWtrSnFNSVZFQU9uMUZkdXowT21YRWZ6ZUlXMUdicUczbk5HR1VIeXJlRjFPWkw?oc=5",
+     "time": "2026-10-22T14:24:52+00:00"
+    },
+    {
+     "title": "Meta and chip stocks decline as AI trade comes under pressure: AlphaCheck",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQZ2ZfdGdfS21jbGZ2WDZCX241bWs2RTFmdnRFY1FCQVdsS0VLOTdFNk1relhYdHAxT3VrdUY1RzhfdlFtbGRkV3o5MzZVeG93WkxfNzFxczIxWDJOVEZEN0o2eXJiQUN2eGQxRUdNMkEtZm52RUdZTmFmdGJnVEl2YjV3djlkVzExVnJQMFMwRWM5eldrdFRiNnFHQVFQUzhUZWFYOVN0Wlk1Zk96aWdEQ2thRDM2NDVKRFZwNnB0QWdUMGhCQkRtUQ?oc=5",
+     "time": "2026-10-22T14:01:07+00:00"
+    }
+   ],
+   "brief": "2026-10-22-META"
+  },
+  {
    "symbol": "AVGO",
    "name": "Broadcom",
    "list": "portfolio",
-   "price": 324.32,
+   "price": 323.33,
    "prev_close": 337.8,
-   "change_pct": -4.0,
+   "change_pct": -4.3,
    "trigger_change": -3.6,
-   "peak_change": -4.2,
+   "peak_change": -4.3,
    "first_seen": "2026-10-22T14:47:47+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 528.12,
-    "change_pct": -5.13
+    "price": 526.97,
+    "change_pct": -5.34
    },
    "chart": {
-    "ema8": -4.0,
-    "ema21": -6.7,
-    "sma50": -9.6,
-    "sma200": -11.9,
+    "ema8": -4.2,
+    "ema21": -6.9,
+    "sma50": -9.9,
+    "sma200": -12.1,
     "momentum": false
    },
    "headlines": [
@@ -399,23 +399,23 @@
    "symbol": "AMZN",
    "name": "Amazon",
    "list": "portfolio",
-   "price": 252.26,
+   "price": 251.62,
    "prev_close": 262.37,
-   "change_pct": -3.9,
+   "change_pct": -4.1,
    "trigger_change": -3.4,
-   "peak_change": -3.9,
+   "peak_change": -4.1,
    "first_seen": "2026-10-22T14:00:23+00:00",
    "sector": {
     "etf": "XLY",
     "name": "Consumer discr.",
-    "price": 115.11,
-    "change_pct": -0.37
+    "price": 115.02,
+    "change_pct": -0.44
    },
    "chart": {
-    "ema8": -2.0,
-    "ema21": -1.4,
-    "sma50": -1.5,
-    "sma200": 3.7,
+    "ema8": -2.2,
+    "ema21": -1.7,
+    "sma50": -1.7,
+    "sma200": 3.4,
     "momentum": true
    },
    "headlines": [
@@ -474,23 +474,23 @@
    "symbol": "NVDA",
    "name": "Nvidia",
    "list": "portfolio",
-   "price": 213.68,
+   "price": 213.14,
    "prev_close": 221.97,
-   "change_pct": -3.7,
+   "change_pct": -4.0,
    "trigger_change": -3.3,
    "peak_change": -4.2,
    "first_seen": "2026-10-22T14:34:34+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 528.12,
-    "change_pct": -5.13
+    "price": 526.97,
+    "change_pct": -5.34
    },
    "chart": {
-    "ema8": -2.6,
-    "ema21": -4.1,
-    "sma50": -4.1,
-    "sma200": 5.0,
+    "ema8": -2.8,
+    "ema21": -4.4,
+    "sma50": -4.3,
+    "sma200": 4.7,
     "momentum": false
    },
    "headlines": [
