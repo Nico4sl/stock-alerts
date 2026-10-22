@@ -1,105 +1,30 @@
 {
  "date": "2026-10-22",
  "threshold": 3.0,
- "updated": "2026-10-22T16:06:58+00:00",
+ "updated": "2026-10-22T16:22:03+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 764.9,
-   "change_pct": -1.06
+   "price": 765.5,
+   "change_pct": -0.98
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 709.45,
-   "change_pct": -2.17
+   "price": 709.82,
+   "change_pct": -2.12
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 81.36,
-   "change_pct": 1.4
+   "price": 81.42,
+   "change_pct": 1.46
   }
  },
  "movers": [
   {
-   "symbol": "NBIS",
-   "name": "Nebius",
-   "list": "portfolio",
-   "price": 160.03,
-   "prev_close": 171.57,
-   "change_pct": -6.7,
-   "trigger_change": -5.4,
-   "peak_change": -7.4,
-   "first_seen": "2026-10-22T14:00:23+00:00",
-   "sector": {
-    "etf": "IGV",
-    "name": "Software",
-    "price": 109.62,
-    "change_pct": 0.74
-   },
-   "chart": {
-    "ema8": -10.5,
-    "ema21": -19.9,
-    "sma50": -27.2,
-    "sma200": -8.9,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Nebius Declines 6% Despite Fresh Citi Financing; CoreWeave Drops 5%, Cloudflare Edges Higher",
-     "publisher": "24/7 Wall St.",
-     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQUlFCdHUxQkYyX1d3ejR5ZDJGaEx4aE94ejEwSkd0NElLbF9uaWdMcnFiMXFuLUZJY0FGQ29xbXk2S2pPM1AzSktRb3B0Y1Z0V3RER3R0QnV4MlF3eWIwVVFMX29QaHdNQmxCUGJHVmhyZ2lMVmtHTHBkVzVhZkhHeFExc05RSXlLZ0pUdnlBZVZJRVpDN1lnckxNSlp4TkNIYTlqOUljUDhEN2xNQTFLTjVNRlU0Q01xVTMxUjg3alVoQld2NWVkM2hkYWg?oc=5",
-     "time": "2026-10-22T14:47:00+00:00"
-    },
-    {
-     "title": "What's Going On With Nebius Stock Thursday?",
-     "publisher": "Benzinga",
-     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPU2dKOGJYMXNYRWVhM3lSVHlzWXVFTHNUN1EwTlVyOHZvQXhTSHV1ck1ja0JPM0tHSVhOQmpHckpVZ2tPV1BibklBelJJdzhEaWVldEVJT0hhSEY2RUJ6aTZ5bDdreXAyYVZXWFczdTVvLWU5SlY3OUhRMUhKbGt2LWczLXFrQW9UeHAxSE5faTJoNUNPYzE1UEgxU1YxbGRVWDNaRw?oc=5",
-     "time": "2026-10-22T13:14:46+00:00"
-    },
-    {
-     "title": "Nebius Group NBIS Slides As Bears Lean In On AI Hype",
-     "publisher": "Timothy Sykes",
-     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5aN0JRdmVPT05IME5OYnAzWi1MbEpoRmZhTVNmLWJlTVBQQ3VteTh1Z045ODBMZTY2TVVObWVYNFJHM1ROSjRMbXNObG9YNmRJdjA4ZTBOWjlrZ0dFdVhtNjFsYzlHb3FhZDI5N1FhcXR3TzBWc1NrRmRwYw?oc=5",
-     "time": "2026-10-22T12:32:00+00:00"
-    },
-    {
-     "title": "Nebius Says It Is \u2018Sequencing\u2019 Its Financing After Getting $3.5B From Citi, With Bigger Asset-Backed Loans Still to Come",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQM0pWZFNpZmtOaVpIZ2xnUzFscXh1cVoyRFJ3TF9kM3ZVUGZFamJIME51bXhhX18zTzRYQV84YTN0Y2x0Ynl3R0R1QmpaV3l3SmtzOWczbkxXUXI4ajQ0RVBvcE1GaHcxRW9MLWZwMXR2czZKV1VfZ2JVZjdVd1J2MEoyRUVxX2I0bTRrclRvZkJVWnhLbXlCMnFwSF8yV1BWaHJTeUNockY?oc=5",
-     "time": "2026-10-22T12:25:34+00:00"
-    },
-    {
-     "title": "Nebius Group (NBIS) Secures $3.5B Credit Facility to Fuel Expans",
-     "publisher": "GuruFocus",
-     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxObHdzeFZqbklWVDJtVFlFOWkzb3Rnd2NQRk9fdnhia3lsOEJNdFAyVXB5OEw2RDJuN2U1eGwwVmw5UV84YnVLWVlpS194MFNQSzhjVFRxTVNhZnBiOVEzSGlCRUhlX2Y3TVRnTjN6VmFqckJQZ3hSX09qcUpLYnhEcTA0bV91SHN4czExbUdHS0tsZ1RoMUZROVZwVkc4TEFjZ2VWdlFtVTRlRnZxZEQtTXROTUJ3SEtqS2ZfdGwxTld2cThrSmlR?oc=5",
-     "time": "2026-10-22T12:06:44+00:00"
-    },
-    {
-     "title": "Nebius secures $3.5 billion financing facility with Citi",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPaWZjc0dSRk1ZOTNzaHA3aVFYTHdIQjlxbnVqVkFkSzN1RUlXenIyVWMwWF9IUnZqeHktU3JNb3IzeU82MGNYbjJJNFhONXVyNlItYjUxYWZ1WGMwMUpBOUxTSDJ1eFdCNTg3SHhMOElSc0g1bGthNUM1dzRGWjZoS196djNJbjJVOTJnbU5nVTVZbExqMHc?oc=5",
-     "time": "2026-10-22T11:00:00+00:00"
-    },
-    {
-     "title": "Nebius Group N.V. $NBIS Stock: Pinnacle Associates Ltd. Decreases Position",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQTXhsbFdUQUdTdy13TUxTalFpdEZNUnZGUEIwYnV0a0tfT0FZeWtxWFZkcTFGU3hDVUd0VldpMV9lTkJBMENTd1BqZnk1TUZPcTJjUG80dnhDT0lwcmdJbWR1MHZvRHZOckRSeVNOXzFnSFZLZk9yRHAyY2Z6bU5MUnNGMnlBZHd5QlJSc19QSURlWkp2NjBmSUxUSC1JcU1wOHd2V1FTTjdwd3p0RTlERTZIRDlHRmZEaFRjMGkxSERNbW45aUFZN093?oc=5",
-     "time": "2026-10-22T09:29:33+00:00"
-    },
-    {
-     "title": "Why Is Nebius Group (NBIS) Expanding Its AI Infrastructure Reach?",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNbmNtSHhjSWlWZUFkSVMzMzJ1eE0ydWkxaGdrSDR2ZFFEeTBnWHl2YTZ4Mk8wSHQ0aXZmRVluZko3a2h2eGRfS2lYTTJRZVNzV0ZXRGxNcWdMN2ZMT3E1UGNCZ0dpRHlaTll2LXE4ZVdzblBzTnQ3aHVWVDZQeVVldnBIWWtTRFZaX2pJMzZmN1doRFRqUDhRbk1SRQ?oc=5",
-     "time": "2026-10-22T03:19:00+00:00"
-    }
-   ],
-   "brief": "2026-10-22-NBIS"
-  },
-  {
    "symbol": "AMAT",
    "name": "Applied Materials",
    "list": "portfolio",
-   "price": 382.31,
+   "price": 382.47,
    "prev_close": 408.94,
    "change_pct": -6.5,
    "trigger_change": -4.8,
@@ -108,13 +33,13 @@
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 529.61,
-    "change_pct": -4.87
+    "price": 530.01,
+    "change_pct": -4.79
    },
    "chart": {
-    "ema8": -9.4,
+    "ema8": -9.3,
     "ema21": -15.7,
-    "sma50": -19.0,
+    "sma50": -18.9,
     "sma200": -13.4,
     "momentum": false
    },
@@ -171,101 +96,101 @@
    "brief": "2026-10-22-AMAT"
   },
   {
-   "symbol": "ANET",
-   "name": "Arista Networks",
+   "symbol": "NBIS",
+   "name": "Nebius",
    "list": "portfolio",
-   "price": 172.6,
-   "prev_close": 184.33,
-   "change_pct": -6.4,
-   "trigger_change": -3.6,
-   "peak_change": -7.2,
+   "price": 160.71,
+   "prev_close": 171.57,
+   "change_pct": -6.3,
+   "trigger_change": -5.4,
+   "peak_change": -7.4,
    "first_seen": "2026-10-22T14:00:23+00:00",
    "sector": {
-    "etf": "SMH",
-    "name": "Semiconductors",
-    "price": 529.61,
-    "change_pct": -4.87
+    "etf": "IGV",
+    "name": "Software",
+    "price": 109.63,
+    "change_pct": 0.74
    },
    "chart": {
-    "ema8": -7.0,
-    "ema21": -11.1,
-    "sma50": -12.4,
-    "sma200": 5.5,
+    "ema8": -10.2,
+    "ema21": -19.6,
+    "sma50": -26.9,
+    "sma200": -8.5,
     "momentum": false
    },
    "headlines": [
     {
-     "title": "Arista Networks (ANET) Is Considered a Good Investment by Brokers: Is That True?",
-     "publisher": "Yahoo Finance UK",
-     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNYlNNQkozY1FZaTlKbDh1ZGwtSjk4UWNJVmJuMHlJWktQS2pDbF9ONmg5b0l1MGdFOTlQMHIxT2FvQ1FPOHFBMXMydW9WcEhwdjc2aG1yNXNoRS1oT0I2MVZPTGlfVmJYNnk1dmJEY3ZqdzJTal9JN21jc1hzdmh6NW1rTzQ4MDVZRHNwMVNB?oc=5",
-     "time": "2026-10-22T12:30:03+00:00"
+     "title": "Nebius Declines 6% Despite Fresh Citi Financing; CoreWeave Drops 5%, Cloudflare Edges Higher",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQUlFCdHUxQkYyX1d3ejR5ZDJGaEx4aE94ejEwSkd0NElLbF9uaWdMcnFiMXFuLUZJY0FGQ29xbXk2S2pPM1AzSktRb3B0Y1Z0V3RER3R0QnV4MlF3eWIwVVFMX29QaHdNQmxCUGJHVmhyZ2lMVmtHTHBkVzVhZkhHeFExc05RSXlLZ0pUdnlBZVZJRVpDN1lnckxNSlp4TkNIYTlqOUljUDhEN2xNQTFLTjVNRlU0Q01xVTMxUjg3alVoQld2NWVkM2hkYWg?oc=5",
+     "time": "2026-10-22T14:47:00+00:00"
     },
     {
-     "title": "Should You Pick Arista Networks Stock Over Its Competitors?",
-     "publisher": "Trefis",
-     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOdE1KQy1saVVQa05YTGZ5WlhVWlRnR3JPaDZmQnVhRVFHaDlKSnVrdmdrbEgxWlJYSEZna2x3UVJUaGl6cEQxT1hhVWg4d0xBOV9zc1JSWTQtLTc3ekdWYlhiS2xScl9LOHZhQlgtaTE1RUlJYlZhanptZ3I1b3NTeFZDUmZ3eXNLbHlvZ0dVckhWdnVVU3pheGcweFdOb1ZuQ1FqVTZydm5EbDI4XzBZbF84YXR1eVhmT3gw?oc=5",
-     "time": "2026-10-22T10:52:40+00:00"
+     "title": "What's Going On With Nebius Stock Thursday?",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPU2dKOGJYMXNYRWVhM3lSVHlzWXVFTHNUN1EwTlVyOHZvQXhTSHV1ck1ja0JPM0tHSVhOQmpHckpVZ2tPV1BibklBelJJdzhEaWVldEVJT0hhSEY2RUJ6aTZ5bDdreXAyYVZXWFczdTVvLWU5SlY3OUhRMUhKbGt2LWczLXFrQW9UeHAxSE5faTJoNUNPYzE1UEgxU1YxbGRVWDNaRw?oc=5",
+     "time": "2026-10-22T13:14:46+00:00"
     },
     {
-     "title": "Arista Networks, Inc. $ANET Shares Acquired by Crossmark Global Holdings Inc.",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQcnFRQ3ZvSk02bUdoTWRvSEZsSFhrYXZXV29FMlNacEUteDd6NzEwQmc2V2h2T2pkSllKSjh4VjZkWTFHNjdtUHoxYjVRckNrdUZ2Z0pIUXZGTlBGTUU0N1BXTDdhWXo2clNQX0hrdms3eWFpdlN3TFFVM1ROVkFtT1hNMnlPWnIzZXZJZ1NyR2xqMVhUaXlndW5NV2VVTXpvMWpJclJ2eThTaHNEaXphZ29WbXM4ZERLT1o3SGc3Wk9xb2pxZnBDYnlCeGJiTWc?oc=5",
-     "time": "2026-10-22T08:14:51+00:00"
+     "title": "Nebius Group NBIS Slides As Bears Lean In On AI Hype",
+     "publisher": "Timothy Sykes",
+     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5aN0JRdmVPT05IME5OYnAzWi1MbEpoRmZhTVNmLWJlTVBQQ3VteTh1Z045ODBMZTY2TVVObWVYNFJHM1ROSjRMbXNObG9YNmRJdjA4ZTBOWjlrZ0dFdVhtNjFsYzlHb3FhZDI5N1FhcXR3TzBWc1NrRmRwYw?oc=5",
+     "time": "2026-10-22T12:32:00+00:00"
     },
     {
-     "title": "13,807 Shares of Arista Networks, Inc. $ANET Purchased by Cantor Fitzgerald Investment Advisors L.P.",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOSWJ5bnZ4a3ZCVGZIcHIwbkdoYzg4U3RpRTVhcW4yNnlZUTlRaks5YjU2Vzd0MEtZTUhqNGlNeGQ2ZVBJYS1WWWhhVlplM3VkZlVXT2U5Zy1PVk8xS2VjVXBVN1RjUzZ2MzZ2dlhpNHhjY2RGOTZJcVNCMDFCbk9wcmNiUkRUbTgzaDdNTEUyblhsWVRBRndLcDFVSzRiVWpoaUNQdlNCUWkwakZ4ZERTTnFsM2RkU3duNUZwWG1kZmJlYUdDU3lPXzItU2I0cWhPUkJldE9UWEZwVVRQbnlGR3JvQzU2anVOMWtZ?oc=5",
-     "time": "2026-10-22T07:41:18+00:00"
-    },
-    {
-     "title": "Arista Networks vs. CrowdStrike: Which Tech Stock Is a Better Buy in 2026?",
-     "publisher": "The Motley Fool",
-     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOazczMGdXNjlxbzBPM1ZRN2NtaGM5cWFDdnc1N3VuMkxoa1hSTVdEeUtlVVhfY2N6b3c2dU9mUW5KejFpQ2lqSUFLckV3RXkxMVloQ3RIcWdHdWR1NmYtWV9MTVJxNW9vX0JnbjZmTUJXQWxXRHRBSmxTRVNkNHJzM3VXNTlYNVhaSGh5SEhLY1QyOUZrc1YzWkU0RlRZWVEyU3hmbm80UWxidEtPWG5YVC1aa09RblBSamhUc0hrNGs0Zw?oc=5",
-     "time": "2026-10-22T02:37:00+00:00"
-    },
-    {
-     "title": "Arista Networks (NYSE:ANET) Shares Climb 1.8% - Should You Buy?",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPR0tDYm9FSjI3UkFkb1JVWk9Iam1OQVNZNExYV2hnSGJrd01NUzM4RW9kOEpiZGViNWUtZXJIS3l0WnJCTE9ma2lfQy1sRTN2Z2FsV3hzc1Nhc3kzMU56R2gtODluNkdzSEJtTkUzZkMzM3RveU9PRjA2U0VncjNNNFk4N2JiV0dEaXduZDdlMXVlZmZkM0JVNTZWTi0xaEZrRUM0aGZDczBQZ2haWVlCdlNuUGt0cVk?oc=5",
-     "time": "2026-10-21T21:47:09+00:00"
-    },
-    {
-     "title": "Arista Networks (ANET) Rises Higher Than Market: Key Facts",
+     "title": "Nebius Says It Is \u2018Sequencing\u2019 Its Financing After Getting $3.5B From Citi, With Bigger Asset-Backed Loans Still to Come",
      "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNGhPTURKQjdlZ0JwLVN4UXRoejkteExYZ2RwY0QweTlRaHZlQTZFNDN5Ujh1blplMDhYcDV4NklIMWx2VEJyY3h6WGlBTS1scFo2ZHI2M1dUc2FWcWVOWVlJclVsUFBUVDd6YnI5d1ZwaENpWlBwblhUNkhuLVR6UlpjY3c5ckhYM1l6dHNFNnBrTDdSeGl3bHZTelcxblU?oc=5",
-     "time": "2026-10-21T20:45:02+00:00"
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQM0pWZFNpZmtOaVpIZ2xnUzFscXh1cVoyRFJ3TF9kM3ZVUGZFamJIME51bXhhX18zTzRYQV84YTN0Y2x0Ynl3R0R1QmpaV3l3SmtzOWczbkxXUXI4ajQ0RVBvcE1GaHcxRW9MLWZwMXR2czZKV1VfZ2JVZjdVd1J2MEoyRUVxX2I0bTRrclRvZkJVWnhLbXlCMnFwSF8yV1BWaHJTeUNockY?oc=5",
+     "time": "2026-10-22T12:25:34+00:00"
     },
     {
-     "title": "Arista Networks: No Pricing Power And No Durable Business Model (NYSE:ANET)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQOFBEQXpaY0lIV2VhSkRUWktIWVh0aUtMbVNvME9nYW80c25aRk85bGwxOUhPeHJSTVdqVFhxbzk1VVkwZ2cycXQyclE2bkZoZ2lGeEVyTjRhbzZxX1hQdVdDODlFMF83STNwclpub1QyQlAzenBLbU9lZ3dNcVl4cVNLakNyQ3h4bFFpVlJhR3Z2cEsxdDlQSTg0ZFpjTHNBeHpYNDRB?oc=5",
-     "time": "2026-10-21T20:02:45+00:00"
+     "title": "Nebius Group (NBIS) Secures $3.5B Credit Facility to Fuel Expans",
+     "publisher": "GuruFocus",
+     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxObHdzeFZqbklWVDJtVFlFOWkzb3Rnd2NQRk9fdnhia3lsOEJNdFAyVXB5OEw2RDJuN2U1eGwwVmw5UV84YnVLWVlpS194MFNQSzhjVFRxTVNhZnBiOVEzSGlCRUhlX2Y3TVRnTjN6VmFqckJQZ3hSX09qcUpLYnhEcTA0bV91SHN4czExbUdHS0tsZ1RoMUZROVZwVkc4TEFjZ2VWdlFtVTRlRnZxZEQtTXROTUJ3SEtqS2ZfdGwxTld2cThrSmlR?oc=5",
+     "time": "2026-10-22T12:06:44+00:00"
+    },
+    {
+     "title": "Nebius secures $3.5 billion financing facility with Citi",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPaWZjc0dSRk1ZOTNzaHA3aVFYTHdIQjlxbnVqVkFkSzN1RUlXenIyVWMwWF9IUnZqeHktU3JNb3IzeU82MGNYbjJJNFhONXVyNlItYjUxYWZ1WGMwMUpBOUxTSDJ1eFdCNTg3SHhMOElSc0g1bGthNUM1dzRGWjZoS196djNJbjJVOTJnbU5nVTVZbExqMHc?oc=5",
+     "time": "2026-10-22T11:00:00+00:00"
+    },
+    {
+     "title": "Nebius Group N.V. $NBIS Stock: Pinnacle Associates Ltd. Decreases Position",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQTXhsbFdUQUdTdy13TUxTalFpdEZNUnZGUEIwYnV0a0tfT0FZeWtxWFZkcTFGU3hDVUd0VldpMV9lTkJBMENTd1BqZnk1TUZPcTJjUG80dnhDT0lwcmdJbWR1MHZvRHZOckRSeVNOXzFnSFZLZk9yRHAyY2Z6bU5MUnNGMnlBZHd5QlJSc19QSURlWkp2NjBmSUxUSC1JcU1wOHd2V1FTTjdwd3p0RTlERTZIRDlHRmZEaFRjMGkxSERNbW45aUFZN093?oc=5",
+     "time": "2026-10-22T09:29:33+00:00"
+    },
+    {
+     "title": "Why Is Nebius Group (NBIS) Expanding Its AI Infrastructure Reach?",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNbmNtSHhjSWlWZUFkSVMzMzJ1eE0ydWkxaGdrSDR2ZFFEeTBnWHl2YTZ4Mk8wSHQ0aXZmRVluZko3a2h2eGRfS2lYTTJRZVNzV0ZXRGxNcWdMN2ZMT3E1UGNCZ0dpRHlaTll2LXE4ZVdzblBzTnQ3aHVWVDZQeVVldnBIWWtTRFZaX2pJMzZmN1doRFRqUDhRbk1SRQ?oc=5",
+     "time": "2026-10-22T03:19:00+00:00"
     }
    ],
-   "brief": "2026-10-22-ANET"
+   "brief": "2026-10-22-NBIS"
   },
   {
    "symbol": "META",
    "name": "Meta",
    "list": "portfolio",
-   "price": 655.8,
+   "price": 653.68,
    "prev_close": 697.52,
-   "change_pct": -6.0,
+   "change_pct": -6.3,
    "trigger_change": -5.6,
    "peak_change": -6.8,
    "first_seen": "2026-10-22T14:00:23+00:00",
    "sector": {
     "etf": "XLC",
     "name": "Communication",
-    "price": 107.93,
-    "change_pct": -0.95
+    "price": 107.66,
+    "change_pct": -1.2
    },
    "chart": {
-    "ema8": -6.4,
-    "ema21": -7.4,
-    "sma50": -1.1,
-    "sma200": 3.7,
+    "ema8": -6.7,
+    "ema21": -7.6,
+    "sma50": -1.4,
+    "sma200": 3.3,
     "momentum": false
    },
    "headlines": [
@@ -321,26 +246,176 @@
    "brief": "2026-10-22-META"
   },
   {
+   "symbol": "ANET",
+   "name": "Arista Networks",
+   "list": "portfolio",
+   "price": 172.86,
+   "prev_close": 184.33,
+   "change_pct": -6.2,
+   "trigger_change": -3.6,
+   "peak_change": -7.2,
+   "first_seen": "2026-10-22T14:00:23+00:00",
+   "sector": {
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 530.01,
+    "change_pct": -4.79
+   },
+   "chart": {
+    "ema8": -6.9,
+    "ema21": -11.0,
+    "sma50": -12.3,
+    "sma200": 5.7,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Arista Networks (ANET) Is Considered a Good Investment by Brokers: Is That True?",
+     "publisher": "Yahoo Finance UK",
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNYlNNQkozY1FZaTlKbDh1ZGwtSjk4UWNJVmJuMHlJWktQS2pDbF9ONmg5b0l1MGdFOTlQMHIxT2FvQ1FPOHFBMXMydW9WcEhwdjc2aG1yNXNoRS1oT0I2MVZPTGlfVmJYNnk1dmJEY3ZqdzJTal9JN21jc1hzdmh6NW1rTzQ4MDVZRHNwMVNB?oc=5",
+     "time": "2026-10-22T12:30:03+00:00"
+    },
+    {
+     "title": "Should You Pick Arista Networks Stock Over Its Competitors?",
+     "publisher": "Trefis",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOdE1KQy1saVVQa05YTGZ5WlhVWlRnR3JPaDZmQnVhRVFHaDlKSnVrdmdrbEgxWlJYSEZna2x3UVJUaGl6cEQxT1hhVWg4d0xBOV9zc1JSWTQtLTc3ekdWYlhiS2xScl9LOHZhQlgtaTE1RUlJYlZhanptZ3I1b3NTeFZDUmZ3eXNLbHlvZ0dVckhWdnVVU3pheGcweFdOb1ZuQ1FqVTZydm5EbDI4XzBZbF84YXR1eVhmT3gw?oc=5",
+     "time": "2026-10-22T10:52:40+00:00"
+    },
+    {
+     "title": "Arista Networks, Inc. $ANET Shares Acquired by Crossmark Global Holdings Inc.",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQcnFRQ3ZvSk02bUdoTWRvSEZsSFhrYXZXV29FMlNacEUteDd6NzEwQmc2V2h2T2pkSllKSjh4VjZkWTFHNjdtUHoxYjVRckNrdUZ2Z0pIUXZGTlBGTUU0N1BXTDdhWXo2clNQX0hrdms3eWFpdlN3TFFVM1ROVkFtT1hNMnlPWnIzZXZJZ1NyR2xqMVhUaXlndW5NV2VVTXpvMWpJclJ2eThTaHNEaXphZ29WbXM4ZERLT1o3SGc3Wk9xb2pxZnBDYnlCeGJiTWc?oc=5",
+     "time": "2026-10-22T08:14:51+00:00"
+    },
+    {
+     "title": "13,807 Shares of Arista Networks, Inc. $ANET Purchased by Cantor Fitzgerald Investment Advisors L.P.",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOSWJ5bnZ4a3ZCVGZIcHIwbkdoYzg4U3RpRTVhcW4yNnlZUTlRaks5YjU2Vzd0MEtZTUhqNGlNeGQ2ZVBJYS1WWWhhVlplM3VkZlVXT2U5Zy1PVk8xS2VjVXBVN1RjUzZ2MzZ2dlhpNHhjY2RGOTZJcVNCMDFCbk9wcmNiUkRUbTgzaDdNTEUyblhsWVRBRndLcDFVSzRiVWpoaUNQdlNCUWkwakZ4ZERTTnFsM2RkU3duNUZwWG1kZmJlYUdDU3lPXzItU2I0cWhPUkJldE9UWEZwVVRQbnlGR3JvQzU2anVOMWtZ?oc=5",
+     "time": "2026-10-22T07:41:18+00:00"
+    },
+    {
+     "title": "Arista Networks vs. CrowdStrike: Which Tech Stock Is a Better Buy in 2026?",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOazczMGdXNjlxbzBPM1ZRN2NtaGM5cWFDdnc1N3VuMkxoa1hSTVdEeUtlVVhfY2N6b3c2dU9mUW5KejFpQ2lqSUFLckV3RXkxMVloQ3RIcWdHdWR1NmYtWV9MTVJxNW9vX0JnbjZmTUJXQWxXRHRBSmxTRVNkNHJzM3VXNTlYNVhaSGh5SEhLY1QyOUZrc1YzWkU0RlRZWVEyU3hmbm80UWxidEtPWG5YVC1aa09RblBSamhUc0hrNGs0Zw?oc=5",
+     "time": "2026-10-22T02:37:00+00:00"
+    },
+    {
+     "title": "Arista Networks (NYSE:ANET) Shares Climb 1.8% - Should You Buy?",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPR0tDYm9FSjI3UkFkb1JVWk9Iam1OQVNZNExYV2hnSGJrd01NUzM4RW9kOEpiZGViNWUtZXJIS3l0WnJCTE9ma2lfQy1sRTN2Z2FsV3hzc1Nhc3kzMU56R2gtODluNkdzSEJtTkUzZkMzM3RveU9PRjA2U0VncjNNNFk4N2JiV0dEaXduZDdlMXVlZmZkM0JVNTZWTi0xaEZrRUM0aGZDczBQZ2haWVlCdlNuUGt0cVk?oc=5",
+     "time": "2026-10-21T21:47:09+00:00"
+    },
+    {
+     "title": "Arista Networks (ANET) Rises Higher Than Market: Key Facts",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNGhPTURKQjdlZ0JwLVN4UXRoejkteExYZ2RwY0QweTlRaHZlQTZFNDN5Ujh1blplMDhYcDV4NklIMWx2VEJyY3h6WGlBTS1scFo2ZHI2M1dUc2FWcWVOWVlJclVsUFBUVDd6YnI5d1ZwaENpWlBwblhUNkhuLVR6UlpjY3c5ckhYM1l6dHNFNnBrTDdSeGl3bHZTelcxblU?oc=5",
+     "time": "2026-10-21T20:45:02+00:00"
+    },
+    {
+     "title": "Arista Networks: No Pricing Power And No Durable Business Model (NYSE:ANET)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQOFBEQXpaY0lIV2VhSkRUWktIWVh0aUtMbVNvME9nYW80c25aRk85bGwxOUhPeHJSTVdqVFhxbzk1VVkwZ2cycXQyclE2bkZoZ2lGeEVyTjRhbzZxX1hQdVdDODlFMF83STNwclpub1QyQlAzenBLbU9lZ3dNcVl4cVNLakNyQ3h4bFFpVlJhR3Z2cEsxdDlQSTg0ZFpjTHNBeHpYNDRB?oc=5",
+     "time": "2026-10-21T20:02:45+00:00"
+    }
+   ],
+   "brief": "2026-10-22-ANET"
+  },
+  {
+   "symbol": "AVGO",
+   "name": "Broadcom",
+   "list": "portfolio",
+   "price": 325.44,
+   "prev_close": 337.8,
+   "change_pct": -3.7,
+   "trigger_change": -3.6,
+   "peak_change": -4.5,
+   "first_seen": "2026-10-22T14:47:47+00:00",
+   "sector": {
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 530.01,
+    "change_pct": -4.79
+   },
+   "chart": {
+    "ema8": -3.8,
+    "ema21": -6.4,
+    "sma50": -9.3,
+    "sma200": -11.6,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Prediction: Broadcom Stock Could Crush the S&P 500 Through 2030",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNcnlidnJ3N3RMdFZOWlZPY3JMcENnVVFfQTBuZjkxbk4wdGRVeGpjcTBMMTFORkNvR1htb2htVzZxemFWbENxU3ExaGhoMWhBODhuT0IxU28ydWtRWF9iSEJXZEVhUDRKbVhVbUVSU2dpcWNpVFVmTXkwZGhCQ1J0TzBxWUVhMmRfbVFyWGgyT0pmdGhBYXRnT3R6M1RiaUJGb05WRE9tcU4?oc=5",
+     "time": "2026-10-22T16:00:00+00:00"
+    },
+    {
+     "title": "Broadcom Inc Stock (AVGO) Moved Down by 4.36% on Oct 22: What Investors Need To Know",
+     "publisher": "TradingKey",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOWGdTVjN0b0tvZjV5YllNemh3TDYxQjA1LTVQS2xBQWtXbGM3UWN0V0VEYTlUY25SLU9EaUppdzNNM3FGcm9kUGpRVWx4VkhUNm52dUlSY3cwaXpFbWxJSnUzaG50NjhKU2FJbXRWV1pGMFloZ2NhYXNNMjkxbDBRakZBS2JETXhTTWRn?oc=5",
+     "time": "2026-10-22T15:15:54+00:00"
+    },
+    {
+     "title": "Broadcom shares weekly forecast: Decline stretches into oversold territory as sellers retain short-term control",
+     "publisher": "Traders Union",
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPYUJLZUhPbTIwZU41bGE4WnZ2WkhuZ2JDc3YzNC1MYW5BVldySFZBand3cUdIMzlyaHJacjdFMDhsdzJTRmh1dElKYnRqREJEZVlmSzlEbnNZdkZQTU9PRzdDeHF5MlhsTGRmeFdfUno4WHhZMVFPVkNxYXItdzU3R0ViTVkwNWcwT0cwU2VtWQ?oc=5",
+     "time": "2026-10-22T14:49:30+00:00"
+    },
+    {
+     "title": "$Broadcom (AVGO.US)$ \"Death Cross\" getting more clearer.",
+     "publisher": "Moomoo",
+     "url": "https://news.google.com/rss/articles/CBMimgNBVV95cUxOUV9hZXp3blFuRVVBQktPamQ0dzRyNUVJTHRKelJFTlRFTTRSQmNaSnJneGRDblNjWndxeTg4TkRnTjE5LUtJTUlQZE4yUjVqcmczdjRSaE9qUnNmREVhUElURzRXY2pVck1Rck5TLV9hRWdIN19iRG81M3VLcmpQVkxiYzM4STF1MUs1SEszVHhMdzZ5Ny02ei1DQlE1RVVFNldIbS1iQnpIZjFaRmU0ZXd4REQ2YU84d1ZOVnpPelpHTTRLMW5JQ1FPUGstOHNwUDRYdDJ2RE5EVW1TOGhpLTlUSno3SzY1UTRVdWl4MnRvNm01YjR2R01TRm5JWFpLUzdEQ21DUTJqczc0RXRiVmNOUmk2QkxLWU02d1JsNHFkczBIdzhZbTJYSnJxNkgzbDRabDg2WkVPWEdmNjYtc3hUSmxUSUNESERTMHBRYVZhdmdpd1RjWTVpdUYtMURabDBlX1BfSVUzZnNURkdvQU5kTFdBNWl3OTRYN2NzTW1DLThjSmF0ajZ4SExsNl8wQ0pkU1dLbEN3Zw?oc=5",
+     "time": "2026-10-22T14:18:09+00:00"
+    },
+    {
+     "title": "Snowflake vs. Broadcom: Which Enterprise AI Stock Is the Smarter Buy?",
+     "publisher": "Zacks Investment Research",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQUW1mV0VNazVTdTNnQlpsNWxicUVLNFRKSl9FcXRSeHRUTkpsclVETmE0YWZZUHRMOVJuaGxuTzBhc0pjcFRfbXdhanBseWxBZ01weEdjR1c2S0cxOV9EU2VlV3duQ1ZLLTJlM3VCYWI0Qm55X0dJeWUyd0ZlTjlTVDJ4MmpGNl9GUXI2RjR0d2JYQmxwUFpCYkdSSlpGWFV0LS0tckhyb2RSM2c?oc=5",
+     "time": "2026-10-22T14:16:08+00:00"
+    },
+    {
+     "title": "Broadcom (NASDAQ:AVGO) Stock Picked Up by Analysts at Tigress Financial",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPbFI5VEQxMVc1VkJORXF4Y2l5WEV1eDZBRHJObm9qOUdiN20xOGNISkRUbXd4OFNWbEtRT2c4NWRMYUh0d084bURVZWpUTXg4V3JBeWxwOGR1TkJIbUlaT29mMEpLV0MtNWJhbGRJQnEwT05oNHlSWlRxSm02WFpxTXNKeHFCMmdCbDZRcUFHRFp5UVhrSnoyc1BFQ3ZhU0ozU1RQZmxKTG9aYW1pbkRyaWZMWlR4UVZMLWxUcWxsVWdRY3p2cnFyRVBSYw?oc=5",
+     "time": "2026-10-22T14:09:43+00:00"
+    },
+    {
+     "title": "AI Chip Stocks Nvidia, Broadcom and Micron Resume Their Slide \u2014 What Wall Street Sees Next",
+     "publisher": "TipRanks",
+     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNXFyU0VGNnIwZHpUallTZXRMano4RWxPS1NTaENjaHZrWUVnd25VRE1KSW43NEFpNjZ2blZ3ZFlLZ0tzaDR1eHNjTVFRTVF0ZlAya2RjanlzU1dXbXpMQXFad2FVRk5JWjFvUDR2dXplYUZxR3lEV1hBMzdiNzVsZnRYNEpZbHdWOGpvX1U2cGtWV2puMGNkLTk5c3BGZWFLLTdDSFNPVnRQZ29HbHA5alNhWmZiTDVj?oc=5",
+     "time": "2026-10-22T13:19:55+00:00"
+    },
+    {
+     "title": "Broadcom initiated with a Buy at Tigress Financial",
+     "publisher": "TipRanks",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNWEQ0b0gxNEpLVnZfRktNQjdfYWtJUFJpbWpmR3g0TnNWYURuM1FYeHltai1saWlFT05NeW5SaWRwMjh1RGJqekFaUEplYzMxb3F6WnJGMnNGQmpiWnJvcGRYTlZOamtWLVpveExFQlhROVhGbUVIcTZKU3pnTmdQdndVX0l0a2pxWnpWeUlramtYcElGSlk3LUtoaTdNN1JEdXc?oc=5",
+     "time": "2026-10-22T13:09:54+00:00"
+    }
+   ],
+   "brief": "2026-10-22-AVGO"
+  },
+  {
    "symbol": "AMZN",
    "name": "Amazon",
    "list": "portfolio",
-   "price": 252.48,
+   "price": 253.03,
    "prev_close": 262.37,
-   "change_pct": -3.8,
+   "change_pct": -3.6,
    "trigger_change": -3.4,
    "peak_change": -4.1,
    "first_seen": "2026-10-22T14:00:23+00:00",
    "sector": {
     "etf": "XLY",
     "name": "Consumer discr.",
-    "price": 115.36,
-    "change_pct": -0.15
+    "price": 115.31,
+    "change_pct": -0.19
    },
    "chart": {
-    "ema8": -1.9,
-    "ema21": -1.4,
-    "sma50": -1.4,
-    "sma200": 3.8,
+    "ema8": -1.7,
+    "ema21": -1.2,
+    "sma50": -1.2,
+    "sma200": 4.0,
     "momentum": true
    },
    "headlines": [
@@ -399,23 +474,23 @@
    "symbol": "NVDA",
    "name": "Nvidia",
    "list": "portfolio",
-   "price": 213.47,
+   "price": 213.99,
    "prev_close": 221.97,
-   "change_pct": -3.8,
+   "change_pct": -3.6,
    "trigger_change": -3.3,
    "peak_change": -4.2,
    "first_seen": "2026-10-22T14:34:34+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 529.61,
-    "change_pct": -4.87
+    "price": 530.01,
+    "change_pct": -4.79
    },
    "chart": {
-    "ema8": -2.7,
-    "ema21": -4.2,
-    "sma50": -4.2,
-    "sma200": 4.9,
+    "ema8": -2.5,
+    "ema21": -4.0,
+    "sma50": -4.0,
+    "sma200": 5.1,
     "momentum": false
    },
    "headlines": [
@@ -471,101 +546,26 @@
    "brief": "2026-10-22-NVDA"
   },
   {
-   "symbol": "AVGO",
-   "name": "Broadcom",
-   "list": "portfolio",
-   "price": 325.03,
-   "prev_close": 337.8,
-   "change_pct": -3.8,
-   "trigger_change": -3.6,
-   "peak_change": -4.5,
-   "first_seen": "2026-10-22T14:47:47+00:00",
-   "sector": {
-    "etf": "SMH",
-    "name": "Semiconductors",
-    "price": 529.61,
-    "change_pct": -4.87
-   },
-   "chart": {
-    "ema8": -3.9,
-    "ema21": -6.5,
-    "sma50": -9.4,
-    "sma200": -11.7,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Prediction: Broadcom Stock Could Crush the S&P 500 Through 2030",
-     "publisher": "24/7 Wall St.",
-     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNcnlidnJ3N3RMdFZOWlZPY3JMcENnVVFfQTBuZjkxbk4wdGRVeGpjcTBMMTFORkNvR1htb2htVzZxemFWbENxU3ExaGhoMWhBODhuT0IxU28ydWtRWF9iSEJXZEVhUDRKbVhVbUVSU2dpcWNpVFVmTXkwZGhCQ1J0TzBxWUVhMmRfbVFyWGgyT0pmdGhBYXRnT3R6M1RiaUJGb05WRE9tcU4?oc=5",
-     "time": "2026-10-22T16:00:00+00:00"
-    },
-    {
-     "title": "Broadcom Inc Stock (AVGO) Moved Down by 4.36% on Oct 22: What Investors Need To Know",
-     "publisher": "TradingKey",
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOWGdTVjN0b0tvZjV5YllNemh3TDYxQjA1LTVQS2xBQWtXbGM3UWN0V0VEYTlUY25SLU9EaUppdzNNM3FGcm9kUGpRVWx4VkhUNm52dUlSY3cwaXpFbWxJSnUzaG50NjhKU2FJbXRWV1pGMFloZ2NhYXNNMjkxbDBRakZBS2JETXhTTWRn?oc=5",
-     "time": "2026-10-22T15:15:54+00:00"
-    },
-    {
-     "title": "Broadcom shares weekly forecast: Decline stretches into oversold territory as sellers retain short-term control",
-     "publisher": "Traders Union",
-     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPYUJLZUhPbTIwZU41bGE4WnZ2WkhuZ2JDc3YzNC1MYW5BVldySFZBand3cUdIMzlyaHJacjdFMDhsdzJTRmh1dElKYnRqREJEZVlmSzlEbnNZdkZQTU9PRzdDeHF5MlhsTGRmeFdfUno4WHhZMVFPVkNxYXItdzU3R0ViTVkwNWcwT0cwU2VtWQ?oc=5",
-     "time": "2026-10-22T14:49:30+00:00"
-    },
-    {
-     "title": "$Broadcom (AVGO.US)$ \"Death Cross\" getting more clearer.",
-     "publisher": "Moomoo",
-     "url": "https://news.google.com/rss/articles/CBMimgNBVV95cUxOUV9hZXp3blFuRVVBQktPamQ0dzRyNUVJTHRKelJFTlRFTTRSQmNaSnJneGRDblNjWndxeTg4TkRnTjE5LUtJTUlQZE4yUjVqcmczdjRSaE9qUnNmREVhUElURzRXY2pVck1Rck5TLV9hRWdIN19iRG81M3VLcmpQVkxiYzM4STF1MUs1SEszVHhMdzZ5Ny02ei1DQlE1RVVFNldIbS1iQnpIZjFaRmU0ZXd4REQ2YU84d1ZOVnpPelpHTTRLMW5JQ1FPUGstOHNwUDRYdDJ2RE5EVW1TOGhpLTlUSno3SzY1UTRVdWl4MnRvNm01YjR2R01TRm5JWFpLUzdEQ21DUTJqczc0RXRiVmNOUmk2QkxLWU02d1JsNHFkczBIdzhZbTJYSnJxNkgzbDRabDg2WkVPWEdmNjYtc3hUSmxUSUNESERTMHBRYVZhdmdpd1RjWTVpdUYtMURabDBlX1BfSVUzZnNURkdvQU5kTFdBNWl3OTRYN2NzTW1DLThjSmF0ajZ4SExsNl8wQ0pkU1dLbEN3Zw?oc=5",
-     "time": "2026-10-22T14:18:09+00:00"
-    },
-    {
-     "title": "Snowflake vs. Broadcom: Which Enterprise AI Stock Is the Smarter Buy?",
-     "publisher": "Zacks Investment Research",
-     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQUW1mV0VNazVTdTNnQlpsNWxicUVLNFRKSl9FcXRSeHRUTkpsclVETmE0YWZZUHRMOVJuaGxuTzBhc0pjcFRfbXdhanBseWxBZ01weEdjR1c2S0cxOV9EU2VlV3duQ1ZLLTJlM3VCYWI0Qm55X0dJeWUyd0ZlTjlTVDJ4MmpGNl9GUXI2RjR0d2JYQmxwUFpCYkdSSlpGWFV0LS0tckhyb2RSM2c?oc=5",
-     "time": "2026-10-22T14:16:08+00:00"
-    },
-    {
-     "title": "Broadcom (NASDAQ:AVGO) Stock Picked Up by Analysts at Tigress Financial",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPbFI5VEQxMVc1VkJORXF4Y2l5WEV1eDZBRHJObm9qOUdiN20xOGNISkRUbXd4OFNWbEtRT2c4NWRMYUh0d084bURVZWpUTXg4V3JBeWxwOGR1TkJIbUlaT29mMEpLV0MtNWJhbGRJQnEwT05oNHlSWlRxSm02WFpxTXNKeHFCMmdCbDZRcUFHRFp5UVhrSnoyc1BFQ3ZhU0ozU1RQZmxKTG9aYW1pbkRyaWZMWlR4UVZMLWxUcWxsVWdRY3p2cnFyRVBSYw?oc=5",
-     "time": "2026-10-22T14:09:43+00:00"
-    },
-    {
-     "title": "AI Chip Stocks Nvidia, Broadcom and Micron Resume Their Slide \u2014 What Wall Street Sees Next",
-     "publisher": "TipRanks",
-     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNXFyU0VGNnIwZHpUallTZXRMano4RWxPS1NTaENjaHZrWUVnd25VRE1KSW43NEFpNjZ2blZ3ZFlLZ0tzaDR1eHNjTVFRTVF0ZlAya2RjanlzU1dXbXpMQXFad2FVRk5JWjFvUDR2dXplYUZxR3lEV1hBMzdiNzVsZnRYNEpZbHdWOGpvX1U2cGtWV2puMGNkLTk5c3BGZWFLLTdDSFNPVnRQZ29HbHA5alNhWmZiTDVj?oc=5",
-     "time": "2026-10-22T13:19:55+00:00"
-    },
-    {
-     "title": "Broadcom initiated with a Buy at Tigress Financial",
-     "publisher": "TipRanks",
-     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNWEQ0b0gxNEpLVnZfRktNQjdfYWtJUFJpbWpmR3g0TnNWYURuM1FYeHltai1saWlFT05NeW5SaWRwMjh1RGJqekFaUEplYzMxb3F6WnJGMnNGQmpiWnJvcGRYTlZOamtWLVpveExFQlhROVhGbUVIcTZKU3pnTmdQdndVX0l0a2pxWnpWeUlramtYcElGSlk3LUtoaTdNN1JEdXc?oc=5",
-     "time": "2026-10-22T13:09:54+00:00"
-    }
-   ],
-   "brief": "2026-10-22-AVGO"
-  },
-  {
    "symbol": "NFLX",
    "name": "Netflix",
    "list": "portfolio",
-   "price": 67.37,
+   "price": 67.23,
    "prev_close": 65.04,
-   "change_pct": 3.6,
+   "change_pct": 3.4,
    "trigger_change": 3.3,
    "peak_change": 3.6,
    "first_seen": "2026-10-22T15:56:49+00:00",
    "sector": {
     "etf": "XLC",
     "name": "Communication",
-    "price": 107.93,
-    "change_pct": -0.95
+    "price": 107.66,
+    "change_pct": -1.2
    },
    "chart": {
-    "ema8": -1.8,
-    "ema21": -4.0,
-    "sma50": -9.6,
-    "sma200": -18.2,
+    "ema8": -2.0,
+    "ema21": -4.2,
+    "sma50": -9.8,
+    "sma200": -18.4,
     "momentum": false
    },
    "headlines": [
@@ -624,7 +624,7 @@
    "symbol": "BTC-USD",
    "name": "Bitcoin",
    "list": "watchlist",
-   "price": 81565.0,
+   "price": 81545.9,
    "prev_close": 84022.5,
    "change_pct": -2.9,
    "trigger_change": -3.0,
