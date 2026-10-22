@@ -4,8 +4,8 @@ Fed screen data.
 - fed.json (repo root) holds the written summary – stance, focus, balance sheet, projections,
   meeting calendar – kept up to date by the Claude brief task after each FOMC decision.
 - Here we add the live numbers (no API keys):
-    * target range + its history: FRED series DFEDTARU / DFEDTARL (fredgraph.csv)
-    * effective fed funds rate: New York Fed API (EFFR)
+    * target range + its history and the effective fed funds rate: New York Fed API (EFFR records)
+    * fallback for the history: FRED series DFEDTARU / DFEDTARL (fredgraph.csv; often slow from GitHub)
   and turn the meeting calendar into exact decision times (14:00 New York, summer time handled).
 - Output: _site/data/fed.json for the app. Live numbers are cached in .state for 3 hours.
 """
@@ -90,8 +90,8 @@ def live_numbers(http_get, state_dir, now, log):
     if fresh:
         return cache
     out = {"fetched": now.isoformat(timespec="seconds"), "errors": []}
-    for name, fn in (("FRED", lambda: _fred_history(http_get)),
-                     ("NY Fed", lambda: _nyfed_history(http_get, now.date().isoformat()))):
+    for name, fn in (("NY Fed", lambda: _nyfed_history(http_get, now.date().isoformat())),
+                     ("FRED", lambda: _fred_history(http_get))):
         try:
             out["history"] = fn()
             out["history_source"] = name

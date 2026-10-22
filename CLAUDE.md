@@ -34,7 +34,7 @@ do the work (edit, test, push) instead of handing him code or terminal steps.
 | `engine/check.py` | Fetch, indicators, alert rules, ntfy push, site build, holiday calendar |
 | `engine/movers.py` | ±3 % movers, headlines, market context, brief publishing |
 | `engine/lookup.py` | Search symbol directory + on-demand lookups |
-| `engine/fed.py` | Fed screen: live target range history (FRED DFEDTARL/U) + effective rate (NY Fed), FOMC decision times, writes `data/fed.json` |
+| `engine/fed.py` | Fed screen: live target range, its history and the effective rate (NY Fed API; FRED fallback), FOMC decision times, writes `data/fed.json` |
 | `fed.json` | Fed screen text (stance, focus, balance sheet, projections, meetings; EN + DE). Updated by the brief task after each FOMC decision and weekly |
 | `app/app.js`, `app.css`, `sw.js` | The app (TradingView Lightweight Charts v4.2.3 in `app/vendor/`) |
 | `BRIEF_TASK.md` | Instructions for the brief-writing scheduled task |
