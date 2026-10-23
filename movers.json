@@ -1,7 +1,99 @@
 {
  "date": "2026-10-23",
  "threshold": 3.0,
- "updated": "2026-10-23T13:51:33+00:00",
- "market": {},
- "movers": []
+ "updated": "2026-10-23T14:06:33+00:00",
+ "market": {
+  "SPY": {
+   "name": "S&P 500",
+   "price": 760.32,
+   "change_pct": -0.48
+  },
+  "QQQ": {
+   "name": "Nasdaq 100",
+   "price": 705.42,
+   "change_pct": 0.13
+  },
+  "TLT": {
+   "name": "Long Treasuries",
+   "price": 81.42,
+   "change_pct": -0.39
+  }
+ },
+ "movers": [
+  {
+   "symbol": "CRWD",
+   "name": "CrowdStrike",
+   "list": "portfolio",
+   "price": 245.36,
+   "prev_close": 237.94,
+   "change_pct": 3.1,
+   "trigger_change": 3.1,
+   "peak_change": 3.1,
+   "first_seen": "2026-10-23T14:06:33+00:00",
+   "sector": {
+    "etf": "IGV",
+    "name": "Software",
+    "price": 109.12,
+    "change_pct": 0.37
+   },
+   "chart": {
+    "ema8": 1.5,
+    "ema21": -0.4,
+    "sma50": 4.6,
+    "sma200": 50.0,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Adobe vs. CrowdStrike: Which Technology Stock Is a Better Buy in 2026?",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQam44M2t1ZHZpdy05SF9JLVgwTmdadmhPYV9MUmdJZ3pyUkNJaUp4NnBPU1VIWEpUOGY0SGhlTnBfSXcxalA5OExFeFFBM3ZVaTBycnB3RG1OZV9PTzZkQXVwRHNnY1hBVVE5cXFMd1FtdlprbFkxSDRFdkgyRVRhamdkeGRLaDFfWFN5ZnV0WWcxT0RBU0h4RDQ0YmpzTXpzS0VSNGMxTjc0dGhyR0owc3NveUhVZEhSSThxMA?oc=5",
+     "time": "2026-10-23T12:57:55+00:00"
+    },
+    {
+     "title": "CrowdStrike (CRWD) vs. Palo Alto Networks (PANW): Comparing Cybersecurity Stocks as AI Threats Evolve",
+     "publisher": "TipRanks",
+     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNU2dXQzg4SkJNc1V2TW00QkZ2UDlxREtfWjdCdDItcnVYME9zRHZYZVcyd0k0RVV0UGRpT2s0SEZfTEhvSUVZRmpkOGE2SzQ3OUtQNUEtQ0hIZi1pM0xkMm9ta2FEejlhb2N2WEtrMTdwVF9INnJmRG9YaXZfZkh5SkVXVEtVcnhFTlJLd09tNUIxYksyOW9DR0lfaXFCVnVvWXlreVU3SThndEI1NWh4dUhoSjNMUnZIdmZPVFktLTZzUTA?oc=5",
+     "time": "2026-10-23T11:49:48+00:00"
+    },
+    {
+     "title": "CrowdStrike vs. SentinelOne: Which Cybersecurity Stock Is a Better Buy in 2026?",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQeDRWVVBmWWFzOVNHTHZHNUJRWF9Yc0pxRDkwaDVwRDNiQjN0M3VjYnZoMUY5U25HR2dEWFNpRWZEcjE1MUJGNXNRaU1jNWdNcnRwTUEtb1JOcFFLZXVKQXU0NkVrVC1ORTR2U0gxbDdRMnpfMXZUVVhydEExUDZUUGo1QkU4a2RUYmxmQ3pvc3QxMjJGd2JmOUZnYlFBOWtNd0tnNUNNdlpfNGYyRl9ISUZyT1c4TjhuUUFvSURJNEFxVkswMWZObg?oc=5",
+     "time": "2026-10-23T11:35:52+00:00"
+    },
+    {
+     "title": "Should One Cost Scare You About CrowdStrike Stock?",
+     "publisher": "Trefis",
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNNHQzYUxjcVdqZTdUbk9EQlp0djdielBTZ2FIc3FuaUFaRzJCTGZxSGd4VjFwSS1waXZDN2MzVF9TX21oU0U2TUdoT29TT1ZDNjhwVm4zVEtoWkZxZDlaZlotOF9WTjk5VGtXUUhTcFA3SlI3WkhKSnF1ZGEyU19QQmgxZkpad3A3ZUFOclREMjI4NE1FTVg2dmdlc2M1TktVMndiNVRKeGN5bG1CQ2Zv?oc=5",
+     "time": "2026-10-22T13:39:36+00:00"
+    },
+    {
+     "title": "Mizuho Raises CrowdStrike (CRWD) Price Target Amid Positive Guar",
+     "publisher": "GuruFocus",
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPaG8wNnRQakNnM29KYzMtVGFFcVgtdVliZ2w5cDFBRUg1Z28xdS04enJMUzlvMXkzdFNhOGdTbXMteWIyMm1NWXN6Z3NOdjFGS0Y3eVpULWs1Z0JUUlY2S0g1THV6bU93Z2tZdVJZQzUtM0hkZ1JHSGJtWTgtd1djOTIzMEI3aGF0NnN0Z3MyRzJVZDhmT254UGpWSjFvN3U2c1ktZE9sR185Y1pYUlpPTjZwcks?oc=5",
+     "time": "2026-10-22T13:05:06+00:00"
+    },
+    {
+     "title": "CrowdStrike Holdings, Inc. (CRWD) Stock Forecasts",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQVndCZ19ZMHdIYThhWTZWOUxhRnZzeTZ5bGlVQnNPSkZ1MU91UVlIczEwcWdBTzg3T28wUW50eExDSks5MHBSRS1oZHFCbmtfZ3Y1UjJrc1hBX1JhbGE1WEk5VDFuSTU2ZHdLbDhHVFprWHVkQUo2REw2Mmh0TEZuTmhkWk1yNzhXZmoxenMybw?oc=5",
+     "time": "2026-10-22T12:41:15+00:00"
+    },
+    {
+     "title": "Mizuho Adjusts Price Target on CrowdStrike Holdings to $275 From $250",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOYi1MQ25YWGtsT2hqbEN4c1VlRU55eTdRMXloYWUzV2dsVml5VVpkVGNQOFBBZU5qY1Q1RGo1blRXMDFaT1dRQVhwTDdTVmVSWklMRVhjRUZGYURCd2wtcldCSFlaZ3lPU1dPeW42dWc2Nk1fcXNQNGhDeTBJTnJTbFNIeXJiRFU0REd2ZEhXTUMxUjZXakw2S0Q4SVFJQ1JfUUktZW93VQ?oc=5",
+     "time": "2026-10-22T12:38:17+00:00"
+    },
+    {
+     "title": "CrowdStrike in focus as Mizuho ups price target on strong early Guardian feedback (CRWD:NASDAQ)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPcWpSNzhnTEdnOVVZcVdyZWZHeUxGc2lZZEE0emVWWkk2ZjBYaGdBd0xPdjdocnJiNURzb2JmZG5NNEltbHlva3NKa3oyR29mQVFGT2lKRjdZWm1ha2kwbHdUSjlMYWdLVjE3X0xLUWVjV0ZrNEJGM0FfMWt6RXZfdXZvZXVrUGN5N1FBLXV1N3cteGliU3RtYUlnQWpSX2ZBd0p3ZEVCeGhrY0VUQUJKbGpPZVp1OEEwSFpN?oc=5",
+     "time": "2026-10-22T12:32:54+00:00"
+    }
+   ],
+   "brief": null
+  }
+ ]
 }
