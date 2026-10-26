@@ -1,22 +1,22 @@
 {
  "date": "2026-10-26",
  "threshold": 3.0,
- "updated": "2026-10-26T15:20:56+00:00",
+ "updated": "2026-10-26T15:25:59+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 767.17,
-   "change_pct": 0.95
+   "price": 767.02,
+   "change_pct": 0.93
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 714.49,
-   "change_pct": 1.43
+   "price": 714.89,
+   "change_pct": 1.49
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 81.65,
-   "change_pct": 0.38
+   "price": 81.6,
+   "change_pct": 0.32
   }
  },
  "movers": [
@@ -24,23 +24,23 @@
    "symbol": "MELI",
    "name": "MercadoLibre",
    "list": "watchlist",
-   "price": 1626.61,
+   "price": 1635.06,
    "prev_close": 1810.15,
-   "change_pct": -10.1,
+   "change_pct": -9.7,
    "trigger_change": -12.1,
    "peak_change": -12.1,
    "first_seen": "2026-10-26T14:02:02+00:00",
    "sector": {
     "etf": "XLY",
     "name": "Consumer discr.",
-    "price": 114.86,
-    "change_pct": 1.56
+    "price": 114.8,
+    "change_pct": 1.5
    },
    "chart": {
-    "ema8": -9.2,
-    "ema21": -10.5,
-    "sma50": -12.3,
-    "sma200": -10.7,
+    "ema8": -8.8,
+    "ema21": -10.1,
+    "sma50": -11.9,
+    "sma200": -10.3,
     "momentum": false
    },
    "headlines": [
@@ -99,23 +99,23 @@
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 164.53,
+   "price": 165.06,
    "prev_close": 158.74,
-   "change_pct": 3.7,
+   "change_pct": 4.0,
    "trigger_change": -4.3,
    "peak_change": -5.2,
    "first_seen": "2026-10-26T14:02:02+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 111.47,
-    "change_pct": 0.8
+    "price": 111.4,
+    "change_pct": 0.73
    },
    "chart": {
-    "ema8": -4.4,
-    "ema21": -14.8,
-    "sma50": -23.7,
-    "sma200": -6.6,
+    "ema8": -4.1,
+    "ema21": -14.6,
+    "sma50": -23.4,
+    "sma200": -6.3,
     "momentum": false
    },
    "headlines": [
@@ -174,23 +174,23 @@
    "symbol": "ANET",
    "name": "Arista Networks",
    "list": "portfolio",
-   "price": 178.12,
+   "price": 178.58,
    "prev_close": 172.37,
-   "change_pct": 3.3,
+   "change_pct": 3.6,
    "trigger_change": 3.3,
-   "peak_change": 3.3,
+   "peak_change": 3.6,
    "first_seen": "2026-10-26T15:20:56+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 543.53,
-    "change_pct": 3.1
+    "price": 544.25,
+    "change_pct": 3.24
    },
    "chart": {
-    "ema8": -1.8,
-    "ema21": -6.6,
-    "sma50": -9.1,
-    "sma200": 8.6,
+    "ema8": -1.6,
+    "ema21": -6.4,
+    "sma50": -8.9,
+    "sma200": 8.9,
     "momentum": false
    },
    "headlines": [
@@ -241,6 +241,156 @@
      "publisher": "Simply Wall Street",
      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQY19YczV3NnF2Si1pUV95c21fcXZCR3RzVUJiZHh3YjlmdGNsN3cycE1pNnRXZmp1UGVsZXlFOEdESk5hNmlreGt4ZXcxaGF2QnZ3OVgtTWl2MTBEeklWUnJ1dWNOdlVTak1XQlNxeDZwMHRod0ZWNE9Ua19ya3NobDB3bUlSejBzSXZLNUJTV0FmQjU2WEZxSnBNTG5rSnFLQ1FaeFVGb0Q4LXJ6YUdldUVTeWFUbW1XVUJJQ0FfRdIBxAFBVV95cUxQWVBELTNKcDlHNGpYV2dFUmpLay1pXzBVbUcwUVN6NDZONUh4R3AxVDFrX2l4VXU5RDJGLXRsWTA2MzJaZHFIb0xoNEdvQl9CSENsZHRTc1pJTFN4M0U4YWw2RDFKaDVBcjl1Si1zaTZ5a01IejhhZE9iUXBiTVZfUkxhS05makdXZzQyT2dkMmxQSFhjaV9OUlFPcS0wMlJVaFo0MVJOUHFDVEJob3VqRzVOcnNVMklPTmFNT0xkU3Nqc2ph?oc=5",
      "time": "2026-10-25T03:04:09+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
+   "symbol": "AMAT",
+   "name": "Applied Materials",
+   "list": "portfolio",
+   "price": 390.74,
+   "prev_close": 377.24,
+   "change_pct": 3.6,
+   "trigger_change": 3.6,
+   "peak_change": 3.6,
+   "first_seen": "2026-10-26T15:25:59+00:00",
+   "sector": {
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 544.25,
+    "change_pct": 3.24
+   },
+   "chart": {
+    "ema8": -3.8,
+    "ema21": -11.4,
+    "sma50": -16.2,
+    "sma200": -11.7,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "AMAT's AI-driven growth and chip demand boost i...",
+     "publisher": "Pluang",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOOFR4UFBWSXJlQlRsc3M0bXVBY0RfLVNmMVVuQlhTd1R2NUVubXRkamU5aVlDNHd6ZFBSYUpGaU10c1VhOENOS1YycWowQ09BWnVvWTNFbU5ycmhGU3R4YUdnRThrdVJENk9QLWJ1ODRRc0pQLTVPc0d5ZUNXX25RNHdkNkczaXJVdFFCWk5DOEJIcFR3cExfcy1VZS10RXFTQ0w0VzRLeUtTZw?oc=5",
+     "time": "2026-10-26T12:54:39+00:00"
+    },
+    {
+     "title": "Applied Materials' Meltdown Is A Gift As Durable Capex Meets Cooling AI Sentiments",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOU2syd29ZUVFOS0JDS1NXMW9NUFZXQnJjTk90c0RCZTZueTh4Q0tiaE5IeWljcG13RUFVRTM3M1lQNEk2aVNMVDFiaW9yR1pFV1lxbXMtSGZwTjk1YXFQY3BFYlRKRXE4ZDFpa3pnSm11eEctRkFReFN6blhHWHo3TXIxcnoydkdPalJFWGVBbnZYZ05TeVRQbzZmOGpVME5TNFRybzI5eFBYZkdaVmxpUmlwNWtkMHY4WWxONjVaWQ?oc=5",
+     "time": "2026-10-26T12:33:46+00:00"
+    },
+    {
+     "title": "Applied Materials, Inc. (NASDAQ:AMAT) Edges Up 0.44% to USD 377.24",
+     "publisher": "Kalkine India",
+     "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQQjJFV3Zmb3IxWWlvSXl3d19fMW8zbU1pVVNIZm1CTUhuTVJCNFBOclVDRVg0Q0pwNE9BZVpMeUdacWMzeDlwQm9OMjFTQ3ZtaUJTc1RXZVM2RWNHLTUwcEhpYlhld2tJbmMtdVVhUXNZcmJaYUVRZG1XckxoRnFCNnZKUGFxbG5lSmJHamNHQXZNYkpWb0NuRTdqYkFEeFlJN3lmNGxUdnEyOTM5OVhBTGxVejR3RHB2VFNyXy1hWVlScE1EODVaNl9uZFBIQUZ6NXE0VXF5b0lhQTZqV2hGdmxtS3R1ajllX3c?oc=5",
+     "time": "2026-10-26T07:53:00+00:00"
+    },
+    {
+     "title": "BE Semiconductor Industries N.V. (BESI.AS) Stock Price, News, Quote & History",
+     "publisher": "Yahoo! Finance Canada",
+     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9vQmI5dXUyd1h6YS0taGR1STR6RVdjajdSUFRzMDB2ZC1BajZVR0x1SXEzUWVhaVk0TFBYTU1RaHB2dGoySEZxVmswYmZkWGFXM2E1QkFR?oc=5",
+     "time": "2026-10-25T16:17:49+00:00"
+    },
+    {
+     "title": "Applied Materials, Inc. (AMAT) stock price, news, quote and history",
+     "publisher": "Yahoo Finance UK",
+     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFByaW40ck11V3cxeWNBcFJUMlBzV3JsODRESUFXbXlDVnZIZUxtYUtYdGNUd3RTWUdBQTBNVnVJUTBmeDY0YTN3ZEw3SGk2blRMTUltd0k5RXRjMXBiaGlPQll3?oc=5",
+     "time": "2026-10-25T14:28:58+00:00"
+    },
+    {
+     "title": "AMAT stock drops 48%, seen as rare buy with 66% upside amid strong AI chip demand.",
+     "publisher": "Pluang",
+     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNSlpaVnN3YThUTjJXWElfMmNycjdhOFVSemtsZktDR3lNcmZyYzhyU3BUSFFpR0JwUkRJVVZVMDU4ZVd2OFhMcGxNTmF6VkxTcXBxM0puUmIxM3lvZmxRNTdiLXMzUnpLTDdVZ3k1UlBueXV2V3BKWjZ4TVMyUFV5Z0huaU5OME9fN0E?oc=5",
+     "time": "2026-10-25T14:15:15+00:00"
+    },
+    {
+     "title": "Applied Materials: Once-In-A-Decade Opportunity (NASDAQ:AMAT)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOX1diSFRPMU93cmNFNGZiUUdNYWpHLXdOUWkzek82NEdsYnpVeFNWc3hxQnJoUGgxdUhpYzYxRG9qQzdva1pIWC1NWndSamEzUDdNNlhhSmFuN29YVzNpbTYtLXlmc2RqOXBNMkljeXBzM1B5TTJYSzExeThfc1ZDS3AyWEN3T3NJSC1DN045cC0?oc=5",
+     "time": "2026-10-25T13:40:00+00:00"
+    },
+    {
+     "title": "Applied Materials (AMAT) Earnings Preview: AI Chip Demand, Capital Expenditure Trends, & Trade Setups - In Progress",
+     "publisher": "TradingKey",
+     "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOcHQ4N2xNRi1FZEFSUnBVM3V1U0tGM1FjMmRCcWR5cFdYLUNhQ29QT2JQcE4wMDBBRUdoSzJ4LWpmTjJJVzFpb3NydHJIRXFsSEFlbHhrNElVX0pJQUkteFJreTdGQ3lvYWVTQUdjZFM5UDMySnY4U21xTTBhVjZXUXZHNUN6SDFxemxwVWJDTTdfei1DWlJVeHVFVjFDemM4V0JIUlhHM3I5alBCWW9zYV9OZGdlQjAzZS1WUGpUOHVNSFgwZ2tvRmdmcHlVcXlCb0Z2NjB6NnQ2VjQ0SE5UYlFEZ0F6SU5PZk1KQQ?oc=5",
+     "time": "2026-10-24T22:26:25+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
+   "symbol": "NVDA",
+   "name": "Nvidia",
+   "list": "portfolio",
+   "price": 217.28,
+   "prev_close": 210.96,
+   "change_pct": 3.0,
+   "trigger_change": 3.0,
+   "peak_change": 3.0,
+   "first_seen": "2026-10-26T15:25:59+00:00",
+   "sector": {
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 544.25,
+    "change_pct": 3.24
+   },
+   "chart": {
+    "ema8": 0.0,
+    "ema21": -1.8,
+    "sma50": -2.3,
+    "sma200": 6.6,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Prediction: This Could Trigger NVDA\u2019s Next Breakout by 2027",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQREZTS1hMYzJXdnNuUEt5QjdCQUZLSmpqU09sRDhLd05XX3Q1blhTMURVbDI2dUZnNFpsYjRobmZxMEEwdGZWVWJTS0pDM05rZFpVX1BOZnJLSF9fSU1PVUZaS1BIa3dMbkRqUEtWN1F3Yk9qZXBUVTlYdmFVWFZoR1Nld2Qwbzdyd1U3ckQ4amxqcTY0OG5BaEstUnkzNVlJUERF?oc=5",
+     "time": "2026-10-26T14:45:09+00:00"
+    },
+    {
+     "title": "Nvidia Or AMD On This Dip? Pick The Safest (NASDAQ:AMD)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOTkFuWEdpYUZENXhjWXQ2TXhPZ2JfUU1RZnFtSlBmaWxyQzJqdHFkOWxTckZrdEdOektqblVreHZ4akdaM3huSkR3em1EVWxsa0lFYUZFLXpPdWFTbkF5WDBNRmFwS1oyblJEdUJmVWI1MUg3UlJpYUtfWGlqaU52Y0xheVIwYmNZUHhHM0pPRWV6Z3FkMTlPUHFzeHJOZVlNVTZtUUZqOEZLYUd0STAw?oc=5",
+     "time": "2026-10-26T13:25:53+00:00"
+    },
+    {
+     "title": "NVDA Stock Slips to $210.96, Lowest Close in 20 Sessions, on AI Financing Fears",
+     "publisher": "FXLeaders",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNekVGZE42Ym9ITWU4Y2NQSzFJZjB5Y0tYd2JDMlltMEt4dWNpWXA4VktvblVKWnNUY1ZBS0J3V3FCdlhKUlZDUDV3aDY2cXJqWmI5WDVXQXB1SjNYWjktSG9LcVJvWUdGQ3lsVkFBT05Qd21VcTBldVVDU2VuUDlyWmpFakI3R0VYdWsxUzdvM0YwYWtjRjVGc2RzdGNhU28xb25CTUg3UjJhMVlLem9BQXBwaDJrQkJsT0NN?oc=5",
+     "time": "2026-10-26T12:47:57+00:00"
+    },
+    {
+     "title": "1 Unstoppable Stock-Split Stock to Buy Before It Joins Nvidia, Alphabet, Microsoft, and Apple in the $3 Trillion Club",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQZ00wQy0wb1ZGeDl2SEh3b29hLUFwYnNnZDRfeHgwcDh5Q29MTEJISVgzU3czWVlLUmtPMHpwQzNPSkJRSENTdS1wR0JfQkJYQzNTM0xsSHZURk05T0tqbG1OQU1rSVlmUHdwTTZPdW9Pa2VadndqaFE4dHlNVHJXS0VBZGZxUEs1alpIY0hEaUxVcTBPN09Zbg?oc=5",
+     "time": "2026-10-26T12:36:45+00:00"
+    },
+    {
+     "title": "Nvidia Financial Strategy Faces Stress Test As AI Credit Markets Tighten",
+     "publisher": "TIKR.com",
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOVVVxZWVveXE5R2oxM2hScWU1OWl3TGs2TDd0dl9RSVVYZEh3XzRRZVg5M05rM2hNRW52cVdUemNnNkZCeWlzNmozMnFCZWwwSkVaNUhFQ2NKdFpZaUF1VDhfdGViUmJUbzJFNWdVRDFvUk1uWUN4Z1ZaTVRCTTZmTmg3TXZacmtBZ0dhNW9KM3hKbFpX?oc=5",
+     "time": "2026-10-26T12:35:15+00:00"
+    },
+    {
+     "title": "Meta Launches $35B Stock Offering, Plans Another $60B Program In 2027: Nvidia, AMD, Broadcom Eye Up To $5B Investment",
+     "publisher": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOTHFfUVN4WDlGdEhma01TTE9Gb2o1ZmVzTXlFOTNJWmQtR3Exc3k1NkIzc3gyYTRFZkRBTmVHdUVndmVLbFRMLUpxV215MmN5Zm1pbngwYU1TeUhPb2o3X09wdzdTQjVwUkRZUFdnRkM1VmpuV24zRXlIeTU1U2M0akpZd05rcnEtZEhhUW5tdEtzMTVwWk45Z0NuZnJ5UjlnWElRYzVnTUt1SlA4ZjhwbVB6NFBpeFJJeGVRTFNJa3c3Q0ZZb1V3dVJNX0pRS2hJNmZLMFozek4wU3hyTGhQRlJTdUxDQzF6V2FRSjVQdnVrbjZiMW9pRXpFQ2ZkQUVW?oc=5",
+     "time": "2026-10-26T12:17:38+00:00"
+    },
+    {
+     "title": "Seaport Reiterates Sell Rating On Nvidia Stock Over Data Center Infrastructure Bottlenecks",
+     "publisher": "TIKR.com",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOSEkyWXRISEFKVWg0VXN0RnNZZmcxaGtQRVRnOGdyOTI5YnMyVWpDc1FCeG9PUGp6enYwM0VpSU8zQldaMGYyRXMxa21yV0JDLXNSZVhQejdFMTZEYUZETlAycFc2NUNpZW96WGROTmYwVS1rYVVhWEs0ZFVSWlllRlpOTVFNVFNmZHdSM1lqTUpqU3N1a2xnY3ljdXk3UG1STHBZSw?oc=5",
+     "time": "2026-10-26T12:13:09+00:00"
+    },
+    {
+     "title": "ETFs Are Buying NVIDIA (NVDA) on Thursday",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQRDhlSHItazZid1JpaGpGOVJSb0tMUENleERVZEVyX3pMaklPcXJwRDBqQlFVcTRBTzZ5ZXM4ZEMzRWdHS2oyaV8yNUFBeFFqU0l2UDZCd0s2THhnMUJkMGRfeWpNb2tJVjZaLXNmblNDdWlaczJPTjQwYkVsTzRaeVN0MlgzcG5ob3U5V05raGowQ2hGRVEzMjJQNTVnUQ?oc=5",
+     "time": "2026-10-26T11:00:41+00:00"
     }
    ],
    "brief": null
