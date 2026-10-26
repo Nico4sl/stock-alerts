@@ -1,22 +1,22 @@
 {
  "date": "2026-10-26",
  "threshold": 3.0,
- "updated": "2026-10-26T15:25:59+00:00",
+ "updated": "2026-10-26T15:31:03+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 767.02,
-   "change_pct": 0.93
+   "price": 766.5,
+   "change_pct": 0.86
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 714.89,
-   "change_pct": 1.49
+   "price": 714.5,
+   "change_pct": 1.43
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 81.6,
-   "change_pct": 0.32
+   "price": 81.64,
+   "change_pct": 0.37
   }
  },
  "movers": [
@@ -24,7 +24,7 @@
    "symbol": "MELI",
    "name": "MercadoLibre",
    "list": "watchlist",
-   "price": 1635.06,
+   "price": 1634.46,
    "prev_close": 1810.15,
    "change_pct": -9.7,
    "trigger_change": -12.1,
@@ -33,11 +33,11 @@
    "sector": {
     "etf": "XLY",
     "name": "Consumer discr.",
-    "price": 114.8,
-    "change_pct": 1.5
+    "price": 114.74,
+    "change_pct": 1.45
    },
    "chart": {
-    "ema8": -8.8,
+    "ema8": -8.9,
     "ema21": -10.1,
     "sma50": -11.9,
     "sma200": -10.3,
@@ -96,160 +96,10 @@
    "brief": "2026-10-26-MELI"
   },
   {
-   "symbol": "NBIS",
-   "name": "Nebius",
-   "list": "portfolio",
-   "price": 165.06,
-   "prev_close": 158.74,
-   "change_pct": 4.0,
-   "trigger_change": -4.3,
-   "peak_change": -5.2,
-   "first_seen": "2026-10-26T14:02:02+00:00",
-   "sector": {
-    "etf": "IGV",
-    "name": "Software",
-    "price": 111.4,
-    "change_pct": 0.73
-   },
-   "chart": {
-    "ema8": -4.1,
-    "ema21": -14.6,
-    "sma50": -23.4,
-    "sma200": -6.3,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "CoreWeave Bounces Despite Musk's 'Death' Warning, Nebius Lags: Short Seller Tracker",
-     "publisher": "Moomoo",
-     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQcHdtOVphYTNhSTRpMVFTOVVfYW92VzNuZjRJRWQxZm96RWZ4NHhYVzlFYUt5aTdrbUZuVUI1SjllTFJLM2l6Q2ZLWkI2VmtZNHNkUkZodGdvUnZkRTg4X2Ezdkc3M20yZ0NHY1dKTmVwbHZyYXZsQ1Q1SVFndHNyaVlGTnMwcUU1Q29DdHFCaFB3Y1JQMUtuWnRBczVvc1NSbWw0d2h6SmdfU2JqTU1zTDNJRTBRR0U?oc=5",
-     "time": "2026-10-26T14:19:15+00:00"
-    },
-    {
-     "title": "CoreWeave vs. Nebius: One Neocloud Stock Looks Cheap, the Other Looks Safer, Says Investor",
-     "publisher": "TipRanks",
-     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQTFdydWdtUkgxMms1elBKYUktT21HM2c1eHFOczlTQ1ZkR3IzZnFJTW9Ya21MMWlnUmFHaWhpWFNzaTI2djJGRlBLMnp3YkZtVjgzd2pJMWFJcDE4SGxOXzNaTVI3d1lvQVcyem9lRmlBN2pUZ2l5bWQ4d2I3RTVNZmZMRzhFN2VsT0pzNlROY3FNcUVNdmZzWW1xa3pDVERRUVY3YWdSZ3Eyc2hWenN1NmRCNTFpa3d3YVQ5Y09uRzlOdw?oc=5",
-     "time": "2026-10-26T14:16:32+00:00"
-    },
-    {
-     "title": "Nebius Stock After Elon Musk\u2019s 200-Neocloud Warning",
-     "publisher": "FinanceFeeds",
-     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9LNmtRMmpCelNJZENLeTBpMEFsaGowa2FMeXZBT0FhUkxaTFBpX1l2LWJ4TnJVT2d2eVN6T2I5Ujl1SzZUMlgzMmlhdEluYkwzR3JYUHF3Nmhpd2RLbGcwc282ODNXUEt5Vmh1Wm80ZXZTd2JQTkw4SjVn?oc=5",
-     "time": "2026-10-26T13:58:20+00:00"
-    },
-    {
-     "title": "CoreWeave Drops 5% as Musk Warns of Neocloud 'Guppy-Level Death'; IREN Slides 3%, Nebius Slips 2%",
-     "publisher": "24/7 Wall St.",
-     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPTzBpQ2g5ZnFWUmVUQVNwV2N2dWNzamNSQ0l3OWpYdTJiMXZ0Y2NjRjFENXpNYVpfN2gyODlXVkZfY0xtdEMxbGExVkhVZ21EWklyYndGTnBqcmFwemZxazNveTZoOE41ZFh2dUl6RVQ5Yk9CZXVKeG5KWkZYZWlRRzlCNURsMFRrOGQ2YmxZcmRhTG4tSEl3UzI2R21sckJ4NFFfWUpmdjNNZTIxT0haN2FsRkxCVnVyVWE0UkpOM2Z0cm5Lem1tTUhDSHh4ek0?oc=5",
-     "time": "2026-10-26T13:46:27+00:00"
-    },
-    {
-     "title": "CoreWeave, Nebius, Iren stocks fall as Musk warns 200 neoclouds could collapse",
-     "publisher": "Invezz",
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOS2VTeTM4bTlBcjFEN3NWSnBHSW9EVDNSdzhnMDMyeTZJU1dwZTVEYkhRMnF0YVJaay1UazZpemh1X3pBM2J0TlVuejRIYVFTQXdzd0Y0ZndxMmF2YjRsUmxNMjZWcl9OZUx6OW9GdE5qd2NuV3JwQ1NSS09PY05ySVFkYlUtbS1jcXczQm15Rk9BUkloOEs4SGlpZ2x1bzctOFcwaEIwWlc2OFVQX1VNVFFvUW1LQQ?oc=5",
-     "time": "2026-10-26T13:20:00+00:00"
-    },
-    {
-     "title": "CoreWeave Drops 5% as Musk Warns of Neocloud \u2018Guppy-Level Death\u2019; IREN Slides 3%, Nebius Slips 2%",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOX25fNWpkZm1sUmNZbHRlUjhwdExmUzdUcEVxT256MkM0bWdfNHJZUjREd3JXR21xYzc1Yzg1SkhrNDFUdEQtYWhRYkV1ZnFPVVR2Uk9BRDlHZlVjLWp2Nl96Q2FQbDZsdWhmVE0wd3ZZcDZ2enFad0M4VEgxUFBNTkNLWm9QaWxHb3NJbDVZeXpCTXNnRDhGQw?oc=5",
-     "time": "2026-10-26T13:18:52+00:00"
-    },
-    {
-     "title": "CoreWeave, Nebius, and IREN shares decline amid debt and AI market concerns",
-     "publisher": "KuCoin",
-     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOV1p1ZGQxNnhuQVM3WkdwSHBUZDNUdzlxUnlYc1o0RWJMNHN2R3A0OUQ4ZkF4RkZzNm8tRHhLNk1pazJYZXkxaVBPbGZubnNYcXViY24wcVYzZDdQeS10VFFRRXQwdjdmQUdrRlR4MWxheEZfcmlTQ0tBS2NkalBWMk5MU3liLWRJZDVBSHlscXFvWHh0R19rTFAtVjBITDhkRVBlM0xUaw?oc=5",
-     "time": "2026-10-26T13:06:59+00:00"
-    },
-    {
-     "title": "3 Insider Owned Growth Stocks To Own In October 2026",
-     "publisher": "Simply Wall Street",
-     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQd2VOUU5iQVlaU056X0FWZmRSYVN1eGFhU0dERmhReTF5T2FzaWk0TTlHTTJZRklfYzdDU2tFT05lQV9PNjBVNWRQei00ZjNyYnlHcl90VHBxN2MtZ2dWdzF0ek4wM0xpT3pOQWxMVXNudVVDeGRxaEJfQmtZRTZMeEtKbGY4LTg5WlBBSUEtSnJzeVFweHJrSnRfMzM4c09rdzB3ZjFVMTJTOS1BUnVCQWhQUTRrajk3cVVPUUhHWF9NUThiOGfSAcYBQVVfeXFMUHdlTlFOYkFZWlNOel9BVmZkUmFTdXhhYVNHREZoUXkxeU9hc2lpNE05R00yWUZJX2M3Q1NrRU9OZUFfTzYwVTVkUHotNGYzcmJ5R3JfdFRwcTdjLWdnVncxdHpOMDNMaU96TkFsTFVzbnVVQ3hkcWhCX0JrWUU2THhLSmxmOC04OVpQQUlBLUpyc3lRcHhya0p0XzMzOHNPa3cwd2YxVTEyUzktQVJ1QkFoUFE0a2o5N3FVT1FIR1hfTVE4Yjhn?oc=5",
-     "time": "2026-10-26T12:56:02+00:00"
-    }
-   ],
-   "brief": "2026-10-26-NBIS"
-  },
-  {
-   "symbol": "ANET",
-   "name": "Arista Networks",
-   "list": "portfolio",
-   "price": 178.58,
-   "prev_close": 172.37,
-   "change_pct": 3.6,
-   "trigger_change": 3.3,
-   "peak_change": 3.6,
-   "first_seen": "2026-10-26T15:20:56+00:00",
-   "sector": {
-    "etf": "SMH",
-    "name": "Semiconductors",
-    "price": 544.25,
-    "change_pct": 3.24
-   },
-   "chart": {
-    "ema8": -1.6,
-    "ema21": -6.4,
-    "sma50": -8.9,
-    "sma200": 8.9,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Up 13% In Last 12 Months, Can Arista Networks Stock Give Better Returns in 2026?",
-     "publisher": "TIKR.com",
-     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9rVlRjcHdjTW8zRkNHQ19RWnhhbnZMNnJ1ZGFJd0t2TldnY3N0VnR1OFQxdU5EcDhZb3hObmtVYlRqS0FYVGxZYzJYN0xVMUV0MHlJdEgtOWhUanNLNUF4ZmhMcXZBVVBGbTdSbnB2cllITGJMR1E?oc=5",
-     "time": "2026-10-26T13:11:28+00:00"
-    },
-    {
-     "title": "Arista Networks, Inc. (NYSE:ANET) Adds 0.76% to USD 172.37",
-     "publisher": "Kalkine India",
-     "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQZ3NnZXYyRUJwWTZUSFRiTnlyMEpkaUdVNkY4aU1QVm9tTkVtMWZGbTlOck5CU3RhVm1mU0ViUXZSWHIzUU5oeTlMTGR6Z2k2Z0FWeWdZNFNHSVY4cmpXV2ZxTGllMmlOMFVYNGltUXVtRjdLV0VxNE9mRmFHUFpqaWFJeHhMa2I1TDZtSGF2R2Z1UFBleXc0Q2dra0duemd6c3A4amJra1o1N0tBTlRxc2dyUllRWm05S0ZmY2o5QjVaVmNmUDlzSXlxMUoya2t5Qklwb1pQQzVBa1pVOUZlRnhtMDc?oc=5",
-     "time": "2026-10-26T11:24:00+00:00"
-    },
-    {
-     "title": "The Ethernet Tollbooth: Arista Rides Broadcom Silicon to Break Nvidia\u2019s InfiniBand Monopoly",
-     "publisher": "24/7 Wall St.",
-     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQRWpNLVVJdlR4bzhpUnFnT3l2NjVxM2dPd2ZQN09odTlKeV81eG1MT3pCU3p1WGpTSFQ0R0lXQnlVWTctOTBZb0lMbUU2d2dRVTFCTk03YlBDajZzTWhESnBMVnR4V3plaS1HZTR0U0xlMTJQNGxwWGxPUGFZVW9TZmJOWjFjRk1UVGNHVFBIUW1BMHNtdmRtMFJVa3VSNEFWMWx6Z2toTGFabjBZLTdDQ3JtN0x1RkZ6aV9ndmhObTZxbDN1anltbmlmMXZwQQ?oc=5",
-     "time": "2026-10-26T11:17:31+00:00"
-    },
-    {
-     "title": "Arista Networks, Inc. $ANET Shares Purchased by Citizens Financial Group Inc. RI",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPakoxTEQtcGMwN0tqRWVWaDVELThJQThMdkk4d2ExdklQMGsxTUh3RWs5a1Ftcm80bEd5YVlzdDhmSlZvRTdnNHdmU3pWWS01UlJzcjJLS1NRdVJDdU5ndGRTRDIzNmF6N1BVemhOdGRFTkdKX2ZmRTh5UkJVWE5tNkp3OVh2NzlDUnJmMkE3N29JLXR3eUZQOWZRZ3pPQjdQV2JVX2pTakdtbTRubWRZTktObDFYczZ1T2J0WENQWXA2XzZKM1ViYUlZSzRlU3BNRnpz?oc=5",
-     "time": "2026-10-26T08:10:23+00:00"
-    },
-    {
-     "title": "Arista Networks, Inc. (ANET) latest stock news and headlines",
-     "publisher": "Yahoo Finance Australia",
-     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE40MlNkeUlXZkdXaDhvd0lpVWNjWE93UVNwZl83Q0hKWno5N3UwLVRpLS1pQjJXQ3VUUTVGdExhT0lSaV9qTVZ2djRnSFNCb2FEQlVwS05ZNlg?oc=5",
-     "time": "2026-10-25T13:01:47+00:00"
-    },
-    {
-     "title": "Arista Networks, Inc. $ANET Stock Purchased by Norris Perne & French LLP MI",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPMHkxSzlSTmZnRld6ZzhTdE0xNmNfVkptYUJUSTZ3RVNHUTdwSVhSM1JuOXpKNENubVBtT3hESV9LVGN3QmZZTkRpQWZOcVBlUDgyVm5keGdGWjB2WDk1UkY1R3kwNnJxRk1xaUZDbVFwWld5eTBMM0VjNFhfLWU3cllqU2ZsckxPX0lNV21WWklteUZlakJOTGpLdEhoRHdFaEhSYmtJRUtMaDdwTHdoWlBUOTRyZTltenVDaXI2SHJNcDBMdnc3dllFdw?oc=5",
-     "time": "2026-10-25T10:30:20+00:00"
-    },
-    {
-     "title": "Arista Networks, Inc. (ANET) - What Are Researchers Thinking About This Stock?",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOUC1uSlBrV0VDUnNHb0VYa3p4dlBjOWFZdm55TjNLMHVKMm04bXdfNnRVaHczaUxTSDY4VkhzaHFJWmtGMDJ2ZVZodDNDQzJEQUZ5eU5JS2twS0ZRb0xZQWF1dnhWdktWMy1Rd2JJY3kzY3dsWnBmRENBcWUzS0I0NlFZT1VxM2JfcHVMYklLUlFIbWdvVHU3TlpDdjZNQ1ZPbVN1LWFJUFFjWFRXdDdVWHZjQzhMOVFZNk9xVXBhUWhrYWo4WnV2Ty1CalNKU3R1?oc=5",
-     "time": "2026-10-25T06:15:35+00:00"
-    },
-    {
-     "title": "Sat Out Arista Networks' Rally? Here Is What Holders Saw",
-     "publisher": "Simply Wall Street",
-     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQY19YczV3NnF2Si1pUV95c21fcXZCR3RzVUJiZHh3YjlmdGNsN3cycE1pNnRXZmp1UGVsZXlFOEdESk5hNmlreGt4ZXcxaGF2QnZ3OVgtTWl2MTBEeklWUnJ1dWNOdlVTak1XQlNxeDZwMHRod0ZWNE9Ua19ya3NobDB3bUlSejBzSXZLNUJTV0FmQjU2WEZxSnBNTG5rSnFLQ1FaeFVGb0Q4LXJ6YUdldUVTeWFUbW1XVUJJQ0FfRdIBxAFBVV95cUxQWVBELTNKcDlHNGpYV2dFUmpLay1pXzBVbUcwUVN6NDZONUh4R3AxVDFrX2l4VXU5RDJGLXRsWTA2MzJaZHFIb0xoNEdvQl9CSENsZHRTc1pJTFN4M0U4YWw2RDFKaDVBcjl1Si1zaTZ5a01IejhhZE9iUXBiTVZfUkxhS05makdXZzQyT2dkMmxQSFhjaV9OUlFPcS0wMlJVaFo0MVJOUHFDVEJob3VqRzVOcnNVMklPTmFNT0xkU3Nqc2ph?oc=5",
-     "time": "2026-10-25T03:04:09+00:00"
-    }
-   ],
-   "brief": null
-  },
-  {
    "symbol": "AMAT",
    "name": "Applied Materials",
    "list": "portfolio",
-   "price": 390.74,
+   "price": 390.7,
    "prev_close": 377.24,
    "change_pct": 3.6,
    "trigger_change": 3.6,
@@ -258,8 +108,8 @@
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 544.25,
-    "change_pct": 3.24
+    "price": 543.26,
+    "change_pct": 3.05
    },
    "chart": {
     "ema8": -3.8,
@@ -321,26 +171,251 @@
    "brief": null
   },
   {
+   "symbol": "ANET",
+   "name": "Arista Networks",
+   "list": "portfolio",
+   "price": 178.36,
+   "prev_close": 172.37,
+   "change_pct": 3.5,
+   "trigger_change": 3.3,
+   "peak_change": 3.6,
+   "first_seen": "2026-10-26T15:20:56+00:00",
+   "sector": {
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 543.26,
+    "change_pct": 3.05
+   },
+   "chart": {
+    "ema8": -1.7,
+    "ema21": -6.5,
+    "sma50": -9.0,
+    "sma200": 8.7,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Up 13% In Last 12 Months, Can Arista Networks Stock Give Better Returns in 2026?",
+     "publisher": "TIKR.com",
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9rVlRjcHdjTW8zRkNHQ19RWnhhbnZMNnJ1ZGFJd0t2TldnY3N0VnR1OFQxdU5EcDhZb3hObmtVYlRqS0FYVGxZYzJYN0xVMUV0MHlJdEgtOWhUanNLNUF4ZmhMcXZBVVBGbTdSbnB2cllITGJMR1E?oc=5",
+     "time": "2026-10-26T13:11:28+00:00"
+    },
+    {
+     "title": "Arista Networks, Inc. (NYSE:ANET) Adds 0.76% to USD 172.37",
+     "publisher": "Kalkine India",
+     "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQZ3NnZXYyRUJwWTZUSFRiTnlyMEpkaUdVNkY4aU1QVm9tTkVtMWZGbTlOck5CU3RhVm1mU0ViUXZSWHIzUU5oeTlMTGR6Z2k2Z0FWeWdZNFNHSVY4cmpXV2ZxTGllMmlOMFVYNGltUXVtRjdLV0VxNE9mRmFHUFpqaWFJeHhMa2I1TDZtSGF2R2Z1UFBleXc0Q2dra0duemd6c3A4amJra1o1N0tBTlRxc2dyUllRWm05S0ZmY2o5QjVaVmNmUDlzSXlxMUoya2t5Qklwb1pQQzVBa1pVOUZlRnhtMDc?oc=5",
+     "time": "2026-10-26T11:24:00+00:00"
+    },
+    {
+     "title": "The Ethernet Tollbooth: Arista Rides Broadcom Silicon to Break Nvidia\u2019s InfiniBand Monopoly",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQRWpNLVVJdlR4bzhpUnFnT3l2NjVxM2dPd2ZQN09odTlKeV81eG1MT3pCU3p1WGpTSFQ0R0lXQnlVWTctOTBZb0lMbUU2d2dRVTFCTk03YlBDajZzTWhESnBMVnR4V3plaS1HZTR0U0xlMTJQNGxwWGxPUGFZVW9TZmJOWjFjRk1UVGNHVFBIUW1BMHNtdmRtMFJVa3VSNEFWMWx6Z2toTGFabjBZLTdDQ3JtN0x1RkZ6aV9ndmhObTZxbDN1anltbmlmMXZwQQ?oc=5",
+     "time": "2026-10-26T11:17:31+00:00"
+    },
+    {
+     "title": "Arista Networks, Inc. $ANET Shares Purchased by Citizens Financial Group Inc. RI",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPakoxTEQtcGMwN0tqRWVWaDVELThJQThMdkk4d2ExdklQMGsxTUh3RWs5a1Ftcm80bEd5YVlzdDhmSlZvRTdnNHdmU3pWWS01UlJzcjJLS1NRdVJDdU5ndGRTRDIzNmF6N1BVemhOdGRFTkdKX2ZmRTh5UkJVWE5tNkp3OVh2NzlDUnJmMkE3N29JLXR3eUZQOWZRZ3pPQjdQV2JVX2pTakdtbTRubWRZTktObDFYczZ1T2J0WENQWXA2XzZKM1ViYUlZSzRlU3BNRnpz?oc=5",
+     "time": "2026-10-26T08:10:23+00:00"
+    },
+    {
+     "title": "Arista Networks, Inc. (ANET) latest stock news and headlines",
+     "publisher": "Yahoo Finance Australia",
+     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE40MlNkeUlXZkdXaDhvd0lpVWNjWE93UVNwZl83Q0hKWno5N3UwLVRpLS1pQjJXQ3VUUTVGdExhT0lSaV9qTVZ2djRnSFNCb2FEQlVwS05ZNlg?oc=5",
+     "time": "2026-10-25T13:01:47+00:00"
+    },
+    {
+     "title": "Arista Networks, Inc. $ANET Stock Purchased by Norris Perne & French LLP MI",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPMHkxSzlSTmZnRld6ZzhTdE0xNmNfVkptYUJUSTZ3RVNHUTdwSVhSM1JuOXpKNENubVBtT3hESV9LVGN3QmZZTkRpQWZOcVBlUDgyVm5keGdGWjB2WDk1UkY1R3kwNnJxRk1xaUZDbVFwWld5eTBMM0VjNFhfLWU3cllqU2ZsckxPX0lNV21WWklteUZlakJOTGpLdEhoRHdFaEhSYmtJRUtMaDdwTHdoWlBUOTRyZTltenVDaXI2SHJNcDBMdnc3dllFdw?oc=5",
+     "time": "2026-10-25T10:30:20+00:00"
+    },
+    {
+     "title": "Arista Networks, Inc. (ANET) - What Are Researchers Thinking About This Stock?",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOUC1uSlBrV0VDUnNHb0VYa3p4dlBjOWFZdm55TjNLMHVKMm04bXdfNnRVaHczaUxTSDY4VkhzaHFJWmtGMDJ2ZVZodDNDQzJEQUZ5eU5JS2twS0ZRb0xZQWF1dnhWdktWMy1Rd2JJY3kzY3dsWnBmRENBcWUzS0I0NlFZT1VxM2JfcHVMYklLUlFIbWdvVHU3TlpDdjZNQ1ZPbVN1LWFJUFFjWFRXdDdVWHZjQzhMOVFZNk9xVXBhUWhrYWo4WnV2Ty1CalNKU3R1?oc=5",
+     "time": "2026-10-25T06:15:35+00:00"
+    },
+    {
+     "title": "Sat Out Arista Networks' Rally? Here Is What Holders Saw",
+     "publisher": "Simply Wall Street",
+     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQY19YczV3NnF2Si1pUV95c21fcXZCR3RzVUJiZHh3YjlmdGNsN3cycE1pNnRXZmp1UGVsZXlFOEdESk5hNmlreGt4ZXcxaGF2QnZ3OVgtTWl2MTBEeklWUnJ1dWNOdlVTak1XQlNxeDZwMHRod0ZWNE9Ua19ya3NobDB3bUlSejBzSXZLNUJTV0FmQjU2WEZxSnBNTG5rSnFLQ1FaeFVGb0Q4LXJ6YUdldUVTeWFUbW1XVUJJQ0FfRdIBxAFBVV95cUxQWVBELTNKcDlHNGpYV2dFUmpLay1pXzBVbUcwUVN6NDZONUh4R3AxVDFrX2l4VXU5RDJGLXRsWTA2MzJaZHFIb0xoNEdvQl9CSENsZHRTc1pJTFN4M0U4YWw2RDFKaDVBcjl1Si1zaTZ5a01IejhhZE9iUXBiTVZfUkxhS05makdXZzQyT2dkMmxQSFhjaV9OUlFPcS0wMlJVaFo0MVJOUHFDVEJob3VqRzVOcnNVMklPTmFNT0xkU3Nqc2ph?oc=5",
+     "time": "2026-10-25T03:04:09+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
+   "symbol": "NBIS",
+   "name": "Nebius",
+   "list": "portfolio",
+   "price": 163.95,
+   "prev_close": 158.74,
+   "change_pct": 3.3,
+   "trigger_change": -4.3,
+   "peak_change": -5.2,
+   "first_seen": "2026-10-26T14:02:02+00:00",
+   "sector": {
+    "etf": "IGV",
+    "name": "Software",
+    "price": 111.44,
+    "change_pct": 0.77
+   },
+   "chart": {
+    "ema8": -4.6,
+    "ema21": -15.1,
+    "sma50": -23.9,
+    "sma200": -7.0,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "CoreWeave Bounces Despite Musk's 'Death' Warning, Nebius Lags: Short Seller Tracker",
+     "publisher": "Moomoo",
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQcHdtOVphYTNhSTRpMVFTOVVfYW92VzNuZjRJRWQxZm96RWZ4NHhYVzlFYUt5aTdrbUZuVUI1SjllTFJLM2l6Q2ZLWkI2VmtZNHNkUkZodGdvUnZkRTg4X2Ezdkc3M20yZ0NHY1dKTmVwbHZyYXZsQ1Q1SVFndHNyaVlGTnMwcUU1Q29DdHFCaFB3Y1JQMUtuWnRBczVvc1NSbWw0d2h6SmdfU2JqTU1zTDNJRTBRR0U?oc=5",
+     "time": "2026-10-26T14:19:15+00:00"
+    },
+    {
+     "title": "CoreWeave vs. Nebius: One Neocloud Stock Looks Cheap, the Other Looks Safer, Says Investor",
+     "publisher": "TipRanks",
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQTFdydWdtUkgxMms1elBKYUktT21HM2c1eHFOczlTQ1ZkR3IzZnFJTW9Ya21MMWlnUmFHaWhpWFNzaTI2djJGRlBLMnp3YkZtVjgzd2pJMWFJcDE4SGxOXzNaTVI3d1lvQVcyem9lRmlBN2pUZ2l5bWQ4d2I3RTVNZmZMRzhFN2VsT0pzNlROY3FNcUVNdmZzWW1xa3pDVERRUVY3YWdSZ3Eyc2hWenN1NmRCNTFpa3d3YVQ5Y09uRzlOdw?oc=5",
+     "time": "2026-10-26T14:16:32+00:00"
+    },
+    {
+     "title": "Nebius Stock After Elon Musk\u2019s 200-Neocloud Warning",
+     "publisher": "FinanceFeeds",
+     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9LNmtRMmpCelNJZENLeTBpMEFsaGowa2FMeXZBT0FhUkxaTFBpX1l2LWJ4TnJVT2d2eVN6T2I5Ujl1SzZUMlgzMmlhdEluYkwzR3JYUHF3Nmhpd2RLbGcwc282ODNXUEt5Vmh1Wm80ZXZTd2JQTkw4SjVn?oc=5",
+     "time": "2026-10-26T13:58:20+00:00"
+    },
+    {
+     "title": "CoreWeave Drops 5% as Musk Warns of Neocloud 'Guppy-Level Death'; IREN Slides 3%, Nebius Slips 2%",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPTzBpQ2g5ZnFWUmVUQVNwV2N2dWNzamNSQ0l3OWpYdTJiMXZ0Y2NjRjFENXpNYVpfN2gyODlXVkZfY0xtdEMxbGExVkhVZ21EWklyYndGTnBqcmFwemZxazNveTZoOE41ZFh2dUl6RVQ5Yk9CZXVKeG5KWkZYZWlRRzlCNURsMFRrOGQ2YmxZcmRhTG4tSEl3UzI2R21sckJ4NFFfWUpmdjNNZTIxT0haN2FsRkxCVnVyVWE0UkpOM2Z0cm5Lem1tTUhDSHh4ek0?oc=5",
+     "time": "2026-10-26T13:46:27+00:00"
+    },
+    {
+     "title": "CoreWeave, Nebius, Iren stocks fall as Musk warns 200 neoclouds could collapse",
+     "publisher": "Invezz",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOS2VTeTM4bTlBcjFEN3NWSnBHSW9EVDNSdzhnMDMyeTZJU1dwZTVEYkhRMnF0YVJaay1UazZpemh1X3pBM2J0TlVuejRIYVFTQXdzd0Y0ZndxMmF2YjRsUmxNMjZWcl9OZUx6OW9GdE5qd2NuV3JwQ1NSS09PY05ySVFkYlUtbS1jcXczQm15Rk9BUkloOEs4SGlpZ2x1bzctOFcwaEIwWlc2OFVQX1VNVFFvUW1LQQ?oc=5",
+     "time": "2026-10-26T13:20:00+00:00"
+    },
+    {
+     "title": "CoreWeave Drops 5% as Musk Warns of Neocloud \u2018Guppy-Level Death\u2019; IREN Slides 3%, Nebius Slips 2%",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOX25fNWpkZm1sUmNZbHRlUjhwdExmUzdUcEVxT256MkM0bWdfNHJZUjREd3JXR21xYzc1Yzg1SkhrNDFUdEQtYWhRYkV1ZnFPVVR2Uk9BRDlHZlVjLWp2Nl96Q2FQbDZsdWhmVE0wd3ZZcDZ2enFad0M4VEgxUFBNTkNLWm9QaWxHb3NJbDVZeXpCTXNnRDhGQw?oc=5",
+     "time": "2026-10-26T13:18:52+00:00"
+    },
+    {
+     "title": "CoreWeave, Nebius, and IREN shares decline amid debt and AI market concerns",
+     "publisher": "KuCoin",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOV1p1ZGQxNnhuQVM3WkdwSHBUZDNUdzlxUnlYc1o0RWJMNHN2R3A0OUQ4ZkF4RkZzNm8tRHhLNk1pazJYZXkxaVBPbGZubnNYcXViY24wcVYzZDdQeS10VFFRRXQwdjdmQUdrRlR4MWxheEZfcmlTQ0tBS2NkalBWMk5MU3liLWRJZDVBSHlscXFvWHh0R19rTFAtVjBITDhkRVBlM0xUaw?oc=5",
+     "time": "2026-10-26T13:06:59+00:00"
+    },
+    {
+     "title": "3 Insider Owned Growth Stocks To Own In October 2026",
+     "publisher": "Simply Wall Street",
+     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQd2VOUU5iQVlaU056X0FWZmRSYVN1eGFhU0dERmhReTF5T2FzaWk0TTlHTTJZRklfYzdDU2tFT05lQV9PNjBVNWRQei00ZjNyYnlHcl90VHBxN2MtZ2dWdzF0ek4wM0xpT3pOQWxMVXNudVVDeGRxaEJfQmtZRTZMeEtKbGY4LTg5WlBBSUEtSnJzeVFweHJrSnRfMzM4c09rdzB3ZjFVMTJTOS1BUnVCQWhQUTRrajk3cVVPUUhHWF9NUThiOGfSAcYBQVVfeXFMUHdlTlFOYkFZWlNOel9BVmZkUmFTdXhhYVNHREZoUXkxeU9hc2lpNE05R00yWUZJX2M3Q1NrRU9OZUFfTzYwVTVkUHotNGYzcmJ5R3JfdFRwcTdjLWdnVncxdHpOMDNMaU96TkFsTFVzbnVVQ3hkcWhCX0JrWUU2THhLSmxmOC04OVpQQUlBLUpyc3lRcHhya0p0XzMzOHNPa3cwd2YxVTEyUzktQVJ1QkFoUFE0a2o5N3FVT1FIR1hfTVE4Yjhn?oc=5",
+     "time": "2026-10-26T12:56:02+00:00"
+    }
+   ],
+   "brief": "2026-10-26-NBIS"
+  },
+  {
+   "symbol": "AVGO",
+   "name": "Broadcom",
+   "list": "portfolio",
+   "price": 331.55,
+   "prev_close": 321.68,
+   "change_pct": 3.1,
+   "trigger_change": 3.1,
+   "peak_change": 3.1,
+   "first_seen": "2026-10-26T15:31:03+00:00",
+   "sector": {
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 543.26,
+    "change_pct": 3.05
+   },
+   "chart": {
+    "ema8": -0.6,
+    "ema21": -3.6,
+    "sma50": -6.7,
+    "sma200": -9.9,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Not AMD. Not Marvell. Here's Which Company Nvidia Needs to Be Worried About.",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQSUlOdFp3Y2NRLXhramhUYW00bFJleG9kX2R2bW85aV81ZUxJSnRFMUZ0TV9aZTlacGFQSHFqSFBsYjlZZU5ZUGo3bzJXXzhyMWQ2MnVjSWJ1UlY2dGgyUW04SnNrZjUtYUx2ajRxYUFrTVBESUJRYjFuNUt0WjlxV2FWTk9vZmMtd21GNGVYcU1sU00?oc=5",
+     "time": "2026-10-26T15:18:51+00:00"
+    },
+    {
+     "title": "Dow rises 200 points as oil falls and chip stocks rally ahead of a Fed decision",
+     "publisher": "Quartz",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1kbFhIanJocXNwa3hTMHdnd1VONng2bWJpNjZ0dzF1Y19FbE01dFEyV0FHX3VEUWdUUUVLcDk4MEdPRmhNNjBsZy00LTVYZ0RDMExEZEJkaDh6eGxBQlFmZldDcGZvOUg3bUl3?oc=5",
+     "time": "2026-10-26T13:59:08+00:00"
+    },
+    {
+     "title": "Meta Launches $95 Billion Stock Offering Plan to Fund AI Expansion; Nvidia, AMD, and Broadcom Weigh $5 Billion Purchase",
+     "publisher": "TipRanks",
+     "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOT0ZpcFlFQTFFSHc2cFFmOVBDanJ2X0JvYzZxRjhiZUk5ZXMzM25mZFRhcTJkdmh5TUFtNHZMQzZJTVdCSndiQWw3bUJfYWlyWGJkcWJscjlYZEJsOXROdDBQTlVNQlo5elR4bjRSZ3ctdUx0dkdTaHJIbTB1V09ROVRYdkhDNXpaQVU1bS1qOVRkZ1FkUGp0dFVsMmxqOS1wMjQ3OVA4YXpiaFJwUDRCRk4weUU5eUJNNnczaVZaSVhQY0FLczVRVjN2WjZDdEdPb2pTZGk3UVBzV0VC?oc=5",
+     "time": "2026-10-26T13:15:50+00:00"
+    },
+    {
+     "title": "Meta's $35 Billion Stock Sale Draws Nvidia, AMD and Broadcom",
+     "publisher": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQN2NjLWFKRGJMTFhudUdfdGg1LTZoTFRkMHo0Nnc2Z3dqNUhOXzNfVmhHVlFBbWw0SUNEN0R5cWtnN3BFMUlJUC1Xd2ZHUlpYTmwzSlRvTGF6NjI1anpaNWM0MW82STdtdDNlQ2dUdGJpbEdpNlBaZEV0X3VwVHpMMHA3YmxwSVRtcEt0YmRZdGdRUW9NSENOblJDSFpTNG1URU1ZUkVCWUZENTVzT25XU1Y5NUpCNzZYdHc?oc=5",
+     "time": "2026-10-26T12:55:43+00:00"
+    },
+    {
+     "title": "Broadcom Is At a 6-Month Low - Is AVGO Stock Too Cheap?",
+     "publisher": "Barchart.com",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNVU5zd0UxZlBFY2VTcWI0aERlYnE2SnlObGJwLWpZTS1yYWQ4VERrWEs2V3JqZWVOMnJhRHh0R253WTNMdHhPQVB6aTl4X1pYRkc5Nk1qT0tlcUFBZzJMcWxRWDZkcE9MdUFPd0JBQVpJTFUyREgwSTE0cDFZMTZVWTdLR3RwVm1oTEpmN1plczlOQjZ2dWg0cko2ZkE?oc=5",
+     "time": "2026-10-26T12:45:01+00:00"
+    },
+    {
+     "title": "Meta is raising about $35 billion in stock for AI, with Nvidia and AMD as potential buyers",
+     "publisher": "Quartz",
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE45TUVNZzdNSTRQMVhfZEQyb2l0YXl0bm5KdE5oeTZHbWZxcmg0Qm55NDZ5bVMyYWVQLXRqSFk3S2FJdm9KZmVmZWtBN1NQWlBUejFsVUJnLUpLQkJmeVNnSE9WdnR4MERXak9TSEpCaUhMdE9p?oc=5",
+     "time": "2026-10-26T12:39:09+00:00"
+    },
+    {
+     "title": "Meta Launches $35B Stock Offering, Plans Another $60B Program In 2027: Nvidia, AMD, Broadcom Eye Up To $5B Investment",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPRUZTaHN0QlFyYk9uM1pRZWtkcWV4T19femtzQ3FwWXpGQnhDZDh0WFdQUU1EREtESlhjeUVKRUpfTkxfUjVhVGFFNFFnSUJ6NEc4RWNoUkJqZ19WdlNUNDZMb3U3N3RKUzZKa24zaTd0dkM0R0VLdThfUThyM1lIU2NOdlRXSHJTVXJyeUxfS1AtUnZqaVotNElVakI2QQ?oc=5",
+     "time": "2026-10-26T12:17:38+00:00"
+    },
+    {
+     "title": "Nvidia, AMD and Broadcom could buy Meta shares as part of $35 billion stock offering",
+     "publisher": "MarketWatch",
+     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPdDYyd2VndnhVdFI0ckxsUnVKbVRRaGxOMEoxOUpZTFcxeWJIdW5MbzlIWElaUW05RDdfNlM1b01jM3lFTkNCN184YzZwaU9PMWxOOVBKZkNrY2tGZldMc3U3THdNU0FST1ZKcmgtTF95ZlIwV3ZiYlBaVU12RXNoUjdIcVNBRGdnMldGUXllTXRxazY2SWNfZjZ0cks5T3p4LWppMUZqb1E3MWdpdThjVEU1OGNKdng4SUZHQndKalFVOTA?oc=5",
+     "time": "2026-10-26T12:08:00+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
    "symbol": "NVDA",
    "name": "Nvidia",
    "list": "portfolio",
-   "price": 217.28,
+   "price": 216.57,
    "prev_close": 210.96,
-   "change_pct": 3.0,
+   "change_pct": 2.7,
    "trigger_change": 3.0,
    "peak_change": 3.0,
    "first_seen": "2026-10-26T15:25:59+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 544.25,
-    "change_pct": 3.24
+    "price": 543.26,
+    "change_pct": 3.05
    },
    "chart": {
-    "ema8": 0.0,
-    "ema21": -1.8,
-    "sma50": -2.3,
-    "sma200": 6.6,
+    "ema8": -0.2,
+    "ema21": -2.1,
+    "sma50": -2.6,
+    "sma200": 6.3,
     "momentum": false
    },
    "headlines": [
