@@ -1,22 +1,22 @@
 {
  "date": "2026-10-26",
  "threshold": 3.0,
- "updated": "2026-10-26T14:02:02+00:00",
+ "updated": "2026-10-26T15:20:56+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 762.98,
-   "change_pct": 0.4
+   "price": 767.17,
+   "change_pct": 0.95
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 706.35,
-   "change_pct": 0.28
+   "price": 714.49,
+   "change_pct": 1.43
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 81.75,
-   "change_pct": 0.5
+   "price": 81.65,
+   "change_pct": 0.38
   }
  },
  "movers": [
@@ -24,26 +24,50 @@
    "symbol": "MELI",
    "name": "MercadoLibre",
    "list": "watchlist",
-   "price": 1591.8,
+   "price": 1626.61,
    "prev_close": 1810.15,
-   "change_pct": -12.1,
+   "change_pct": -10.1,
    "trigger_change": -12.1,
    "peak_change": -12.1,
    "first_seen": "2026-10-26T14:02:02+00:00",
    "sector": {
     "etf": "XLY",
     "name": "Consumer discr.",
-    "price": 114.97,
-    "change_pct": 1.65
+    "price": 114.86,
+    "change_pct": 1.56
    },
    "chart": {
-    "ema8": -10.8,
-    "ema21": -12.3,
-    "sma50": -14.2,
-    "sma200": -12.6,
+    "ema8": -9.2,
+    "ema21": -10.5,
+    "sma50": -12.3,
+    "sma200": -10.7,
     "momentum": false
    },
    "headlines": [
+    {
+     "title": "MELI slides nearly 10% as sellers dominate amid Brazil-driven volatility",
+     "publisher": "Traders Union",
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNeU5kYUhwdVp2cDJQR1VDN0swQkZzQmdiOXpqNTlDWldVaHNjanhWZU8wYUtxRkxkcVZlWWVaVjlUV25sRXhQM0NoSnNESEg3Z05Dcng3UVNRbFV6OVNnVWM1dW85eG0xWmp0NEFXZlFsOU03cDBLZWZRdThtalhMY0lGU040QVg2WUtBdUxGOHNnUVZmdHc?oc=5",
+     "time": "2026-10-26T14:54:20+00:00"
+    },
+    {
+     "title": "Why MercadoLibre (MELI) shares are plunging today",
+     "publisher": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZzZvalpVVWdmYnVhNFljVV9oRXZncThsYW5RVEFaRzA0UU5XMGZUTFdyLU5JeHZQU0t4dUk1ZmFFUGxsVlBzTHRYUWw0N2p4bVpHWTlKS1B2M1hXVk5HS3pHNU5xLXhZcWtSMDNvWmpJZTFxOG5sZ2hIMUx4ZVROcnFWN3BSR0tPU1lWaXQ0X3FsVDhNWXJwUVo1anFwcm9FelhnQzd0XzRiV3Ju?oc=5",
+     "time": "2026-10-26T14:45:41+00:00"
+    },
+    {
+     "title": "Brazil Election Selloff Hits StoneCo and MercadoLibre Stocks",
+     "publisher": "SuaraGarut.ID",
+     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBXejdFbDZhRGIxTEtYRmRNZFc3dFpfcC1SWS1ZbFFTTmN6MUpHa2ZDbHJJUjIxRG42cHBQSEFheU5kTzFZNmRjdGdJTml1Tk9WNTBwRlI0QTQtYUVWMjN2VEpGU0MwQkFya1VUMmxHdw?oc=5",
+     "time": "2026-10-26T14:14:45+00:00"
+    },
+    {
+     "title": "Petrobras Sinks 15%, MercadoLibre Down 12% as Lula\u2019s Surprise Re-Election Rocks Brazilian Stocks",
+     "publisher": "TIKR.com",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOQ256RzhMZHFGM2VWVWNsUFhHZFZwNGw1QUNlUTFxTTVwVHItQkFVZHV3eGVoenVISVRHTWZ0Q0JkbnRQOTZTekVobzBBQjd2RjVNX3NtSzM1bFVSSzhQY1g1bG9VOVN5eWZBUXQ3ODFJVC0xdkNtUHVScklXdzkzVHpmeHg3bnA5aVNGT0kyTmVva0JNaHV1T29Ocno2VVE2ZVl1aGNBWVgyUWJxT3FFYzdEdGRoVFlBdkE?oc=5",
+     "time": "2026-10-26T14:02:02+00:00"
+    },
     {
      "title": "MercadoLibre Inc Stock (MELI) Opened Down by 12.71% on Oct 26: Facts Behind the Movement",
      "publisher": "TradingKey",
@@ -52,9 +76,9 @@
     },
     {
      "title": "Brazilian Stocks Tumble as Lula Wins Surprise Fourth Term: Nu Holdings Sinks 25%, Petrobras Tumbles 21%, MercadoLibre Drops 15%",
-     "publisher": "24/7 Wall St.",
-     "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPMEhEMGRxUE1vSG56aXRpdGRESG96VktfMzVod2t6RWNCZFpmeHg2bjdVMnFCcnAwNk9zVlpxT0s0aUFKVVFaTmJVZWZzSlQtMm9SeUhvM3BSMlBwZW9acm9TVnVqQjJGZW5MTEp6dF83aEVIYXd5QzdaS1pabHoyRGM4czdfUTRXc2xWcnRCa19fM1YxY0hYSTZBX2lwcnduY2Z3MjJPYlJzWW5uS0REVjIzcmtFbGhuaWRsZlVCWmJzYl9LcVhKNG5DbW1vYmtDN1JPSWVZRVl4eWMtSUtVX2RibkZIcDYtbDllQUl1WGdPeERib1VoVg?oc=5",
-     "time": "2026-10-26T13:22:54+00:00"
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPbjRpQ3d0QlhqV1ZTWjZPc1lpZVl2eXZIOGZVTUZzUUwzbUNtMmhoemNkbjZIOVd4UUZUSTBTS1daWm9Pb0tRUENpUEtsV3BuR3NfUlhuR25nVUM1Y3hrdXdRWGpLdFc3X3RrYUtWR1dJY2kza0hqOU5IRm9iTW1BRWxCX0lNc3Q4cWpnZVZmWEk0M3RZTkVPaGpYWWRteXM?oc=5",
+     "time": "2026-10-26T13:22:06+00:00"
     },
     {
      "title": "Brazil Stocks Dive As President Lula Wins Re-Election",
@@ -67,58 +91,46 @@
      "publisher": "Yahoo! Finance Canada",
      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9zN2ZGWE5MSkl2WWI1OU5BYU9TYkZQbE1ockVqVXJ3QTZadmxOVXNRczdsbjBnenpyZElVVnEybUE0ZlllTXJtWTBIYmNSUWd6THc?oc=5",
      "time": "2026-10-26T12:30:19+00:00"
-    },
-    {
-     "title": "These consumer stocks are falling after the election results in Brazil (ABEV:NYSE)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQcnBqWDJHYlpmZFdZQm5PRk9FY1d4ajBkb2RxR041bC0wMlEyVTJrZldBSG5YQ0xfR3pyZ3FDZTN1VzFQOWl2TEt1SGhfY1FRZVF6ZXB1OWxxZExfbDBDLVNBc2k3RXRIUU5jTkZjQlg2UTJFRWZQZDFFT3czZWtZYkM4UE5ZWFhTS19vWEh3ZFJoVEVEbWwwX2ZVOXNFN1F4ckppSnZaYzgxVnl1?oc=5",
-     "time": "2026-10-26T12:28:19+00:00"
-    },
-    {
-     "title": "Update: Meta Launches $35 Billion Stock, Preferred Offerings; Plans Potential $60 Billion ATM Stock Offering",
-     "publisher": "Yahoo! Finance Canada",
-     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQblVka1M5NWZKYWN1ZmRtaldaa29vTTVIVURlQ2dIN2Z2YXVVNmFDSjBnSkpRWkhUU2d1NVE2YjhOeHRqT0hGY3VyeDBIdFRya0lWSVU5X2cyWk5LSEU0YVVTU2ozWlo2T0JCbllERjZwcXFyd3BTOVA4UXhlVEs4bzBXYkFDdw?oc=5",
-     "time": "2026-10-26T12:22:02+00:00"
-    },
-    {
-     "title": "Why Nu Holdings and MercadoLibre Stocks Are Plunging Today \u2014 and What Wall Street Sees Next",
-     "publisher": "TipRanks",
-     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxON2U1bHI1VHQ0cXNUWDVvY1MxbDlwV1poX25obVJvSzJTQXRwdFAyc3g5bXpsVjlrOUZiUmlrTXFsTHZPSlhaMF9TV1BDX0ZvR1pEVzl1UWt4SE5iZzZQckNqOS0tXzJaSXR3clFQeF9IX2hESC0xQWgxZXFVdElYZFpwSGJUaUxoVXR0QzZjTWNtQ0xCREU4b3M3XzJPUEI5bC1YejNWc1VDa3VBR3ZrVC1BMnMycTlkUVFn?oc=5",
-     "time": "2026-10-26T12:20:00+00:00"
-    },
-    {
-     "title": "MercadoLibre, Banco Bradesco, Ita\u00fa Unibanco And Other Big Stocks Moving Lower In Monday\u2019s Pre-Market Session",
-     "publisher": "Benzinga",
-     "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNN3ZCRjdPZWt0aEhuMjlCdTJmQk5xb2tpeU1WaGdEUWJNVXE3S0Jwem1UU0NkbV82NUt5OFl2OE5PRjd6Y2hNVE9Uc0Y1dGhTLVBlSnJxcEdSek5ZZFgxZEhkOEVMUS01Rk0zVmVucDNtalpJZzJ1d09xdTNBcUxQaWdXcWZmQVFpUGt6aF92MVN4VW9Xb0t2c2tJQzhrcjBVdFY4QU95RVZyX09leHQ3ejNEYWFTd0tzQzFlV21zaVpwMGo2VDVDY1F4aThSSVRqSWxGMVRCQUVwNkNWaVpXQktmWTNTWFl5YzFVZmV0TWRJV3FZYU9pSjJB?oc=5",
-     "time": "2026-10-26T12:02:10+00:00"
     }
    ],
-   "brief": null
+   "brief": "2026-10-26-MELI"
   },
   {
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 151.93,
+   "price": 164.53,
    "prev_close": 158.74,
-   "change_pct": -4.3,
+   "change_pct": 3.7,
    "trigger_change": -4.3,
-   "peak_change": -4.3,
+   "peak_change": -5.2,
    "first_seen": "2026-10-26T14:02:02+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 109.81,
-    "change_pct": -0.7
+    "price": 111.47,
+    "change_pct": 0.8
    },
    "chart": {
-    "ema8": -10.2,
-    "ema21": -20.9,
-    "sma50": -29.4,
-    "sma200": -13.8,
+    "ema8": -4.4,
+    "ema21": -14.8,
+    "sma50": -23.7,
+    "sma200": -6.6,
     "momentum": false
    },
    "headlines": [
+    {
+     "title": "CoreWeave Bounces Despite Musk's 'Death' Warning, Nebius Lags: Short Seller Tracker",
+     "publisher": "Moomoo",
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQcHdtOVphYTNhSTRpMVFTOVVfYW92VzNuZjRJRWQxZm96RWZ4NHhYVzlFYUt5aTdrbUZuVUI1SjllTFJLM2l6Q2ZLWkI2VmtZNHNkUkZodGdvUnZkRTg4X2Ezdkc3M20yZ0NHY1dKTmVwbHZyYXZsQ1Q1SVFndHNyaVlGTnMwcUU1Q29DdHFCaFB3Y1JQMUtuWnRBczVvc1NSbWw0d2h6SmdfU2JqTU1zTDNJRTBRR0U?oc=5",
+     "time": "2026-10-26T14:19:15+00:00"
+    },
+    {
+     "title": "CoreWeave vs. Nebius: One Neocloud Stock Looks Cheap, the Other Looks Safer, Says Investor",
+     "publisher": "TipRanks",
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQTFdydWdtUkgxMms1elBKYUktT21HM2c1eHFOczlTQ1ZkR3IzZnFJTW9Ya21MMWlnUmFHaWhpWFNzaTI2djJGRlBLMnp3YkZtVjgzd2pJMWFJcDE4SGxOXzNaTVI3d1lvQVcyem9lRmlBN2pUZ2l5bWQ4d2I3RTVNZmZMRzhFN2VsT0pzNlROY3FNcUVNdmZzWW1xa3pDVERRUVY3YWdSZ3Eyc2hWenN1NmRCNTFpa3d3YVQ5Y09uRzlOdw?oc=5",
+     "time": "2026-10-26T14:16:32+00:00"
+    },
     {
      "title": "Nebius Stock After Elon Musk\u2019s 200-Neocloud Warning",
      "publisher": "FinanceFeeds",
@@ -134,8 +146,8 @@
     {
      "title": "CoreWeave, Nebius, Iren stocks fall as Musk warns 200 neoclouds could collapse",
      "publisher": "Invezz",
-     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOdlk4YTh6YTE3Wm1mckstUkdULWdobWNlWm1Jd2lKREROT1pvYV9tTllxQWdocnV3RUVVeWdUZ0psN0FYY2ZFenZCVFRIcVF2S3VGZ3lJaTZ0X052NU81UkZKWm0xbVVhSnNIVVN1dmNLdzZzRGRMQngzazRkVVR6VXBtSjdGRXFlbGJjRGpaczBLVkxFN0tQbmdycDlHV3ZyeG80MjdVMXNxeFgweWVPNW5B?oc=5",
-     "time": "2026-10-26T13:20:01+00:00"
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOS2VTeTM4bTlBcjFEN3NWSnBHSW9EVDNSdzhnMDMyeTZJU1dwZTVEYkhRMnF0YVJaay1UazZpemh1X3pBM2J0TlVuejRIYVFTQXdzd0Y0ZndxMmF2YjRsUmxNMjZWcl9OZUx6OW9GdE5qd2NuV3JwQ1NSS09PY05ySVFkYlUtbS1jcXczQm15Rk9BUkloOEs4SGlpZ2x1bzctOFcwaEIwWlc2OFVQX1VNVFFvUW1LQQ?oc=5",
+     "time": "2026-10-26T13:20:00+00:00"
     },
     {
      "title": "CoreWeave Drops 5% as Musk Warns of Neocloud \u2018Guppy-Level Death\u2019; IREN Slides 3%, Nebius Slips 2%",
@@ -154,18 +166,81 @@
      "publisher": "Simply Wall Street",
      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQd2VOUU5iQVlaU056X0FWZmRSYVN1eGFhU0dERmhReTF5T2FzaWk0TTlHTTJZRklfYzdDU2tFT05lQV9PNjBVNWRQei00ZjNyYnlHcl90VHBxN2MtZ2dWdzF0ek4wM0xpT3pOQWxMVXNudVVDeGRxaEJfQmtZRTZMeEtKbGY4LTg5WlBBSUEtSnJzeVFweHJrSnRfMzM4c09rdzB3ZjFVMTJTOS1BUnVCQWhQUTRrajk3cVVPUUhHWF9NUThiOGfSAcYBQVVfeXFMUHdlTlFOYkFZWlNOel9BVmZkUmFTdXhhYVNHREZoUXkxeU9hc2lpNE05R00yWUZJX2M3Q1NrRU9OZUFfTzYwVTVkUHotNGYzcmJ5R3JfdFRwcTdjLWdnVncxdHpOMDNMaU96TkFsTFVzbnVVQ3hkcWhCX0JrWUU2THhLSmxmOC04OVpQQUlBLUpyc3lRcHhya0p0XzMzOHNPa3cwd2YxVTEyUzktQVJ1QkFoUFE0a2o5N3FVT1FIR1hfTVE4Yjhn?oc=5",
      "time": "2026-10-26T12:56:02+00:00"
+    }
+   ],
+   "brief": "2026-10-26-NBIS"
+  },
+  {
+   "symbol": "ANET",
+   "name": "Arista Networks",
+   "list": "portfolio",
+   "price": 178.12,
+   "prev_close": 172.37,
+   "change_pct": 3.3,
+   "trigger_change": 3.3,
+   "peak_change": 3.3,
+   "first_seen": "2026-10-26T15:20:56+00:00",
+   "sector": {
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 543.53,
+    "change_pct": 3.1
+   },
+   "chart": {
+    "ema8": -1.8,
+    "ema21": -6.6,
+    "sma50": -9.1,
+    "sma200": 8.6,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Up 13% In Last 12 Months, Can Arista Networks Stock Give Better Returns in 2026?",
+     "publisher": "TIKR.com",
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9rVlRjcHdjTW8zRkNHQ19RWnhhbnZMNnJ1ZGFJd0t2TldnY3N0VnR1OFQxdU5EcDhZb3hObmtVYlRqS0FYVGxZYzJYN0xVMUV0MHlJdEgtOWhUanNLNUF4ZmhMcXZBVVBGbTdSbnB2cllITGJMR1E?oc=5",
+     "time": "2026-10-26T13:11:28+00:00"
     },
     {
-     "title": "Elon Musk Stark Warning Sends CoreWeave and Nebius Stocks Tumbling",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNSkdFemtBenlUWkxsbktvRjE4T1ltQURVN3BfSU5xRW9ZSjVRZkVPRGRLdlU2eEc2YldZSmFnMmlnbHFmZ0VKY1JTd2tVR1RPZ24tTEpxLVNoRElNbTEzM1FyZEN2UUtSbzc5cmZhVFhHVGN1b3VqR0I1bk9oNUVhOU5wN2QydXdEcktVR051N2NNQ0RMeV9kbEJR?oc=5",
-     "time": "2026-10-26T12:42:58+00:00"
+     "title": "Arista Networks, Inc. (NYSE:ANET) Adds 0.76% to USD 172.37",
+     "publisher": "Kalkine India",
+     "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQZ3NnZXYyRUJwWTZUSFRiTnlyMEpkaUdVNkY4aU1QVm9tTkVtMWZGbTlOck5CU3RhVm1mU0ViUXZSWHIzUU5oeTlMTGR6Z2k2Z0FWeWdZNFNHSVY4cmpXV2ZxTGllMmlOMFVYNGltUXVtRjdLV0VxNE9mRmFHUFpqaWFJeHhMa2I1TDZtSGF2R2Z1UFBleXc0Q2dra0duemd6c3A4amJra1o1N0tBTlRxc2dyUllRWm05S0ZmY2o5QjVaVmNmUDlzSXlxMUoya2t5Qklwb1pQQzVBa1pVOUZlRnhtMDc?oc=5",
+     "time": "2026-10-26T11:24:00+00:00"
     },
     {
-     "title": "CoreWeave\u2019s (CRWV) Valuation Leaves Little Room for Error",
-     "publisher": "TipRanks",
-     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOMzZMR0h6cGhtVU43RDduQTFiOGszQ2NYYWhfUDN2UTE5M1FYQmtuN2F6N01VU1pCMWNEakRHZkhFSGdLOVZxTWlHd0dnZnhNWEFLWW54YlBWd2dsd19HQkpfWDlpZDByRHdTZlJiUl9DRlIzdjdkd0lzUzRsVnF6Q254R0pzM3hmR211Ug?oc=5",
-     "time": "2026-10-26T12:41:00+00:00"
+     "title": "The Ethernet Tollbooth: Arista Rides Broadcom Silicon to Break Nvidia\u2019s InfiniBand Monopoly",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQRWpNLVVJdlR4bzhpUnFnT3l2NjVxM2dPd2ZQN09odTlKeV81eG1MT3pCU3p1WGpTSFQ0R0lXQnlVWTctOTBZb0lMbUU2d2dRVTFCTk03YlBDajZzTWhESnBMVnR4V3plaS1HZTR0U0xlMTJQNGxwWGxPUGFZVW9TZmJOWjFjRk1UVGNHVFBIUW1BMHNtdmRtMFJVa3VSNEFWMWx6Z2toTGFabjBZLTdDQ3JtN0x1RkZ6aV9ndmhObTZxbDN1anltbmlmMXZwQQ?oc=5",
+     "time": "2026-10-26T11:17:31+00:00"
+    },
+    {
+     "title": "Arista Networks, Inc. $ANET Shares Purchased by Citizens Financial Group Inc. RI",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPakoxTEQtcGMwN0tqRWVWaDVELThJQThMdkk4d2ExdklQMGsxTUh3RWs5a1Ftcm80bEd5YVlzdDhmSlZvRTdnNHdmU3pWWS01UlJzcjJLS1NRdVJDdU5ndGRTRDIzNmF6N1BVemhOdGRFTkdKX2ZmRTh5UkJVWE5tNkp3OVh2NzlDUnJmMkE3N29JLXR3eUZQOWZRZ3pPQjdQV2JVX2pTakdtbTRubWRZTktObDFYczZ1T2J0WENQWXA2XzZKM1ViYUlZSzRlU3BNRnpz?oc=5",
+     "time": "2026-10-26T08:10:23+00:00"
+    },
+    {
+     "title": "Arista Networks, Inc. (ANET) latest stock news and headlines",
+     "publisher": "Yahoo Finance Australia",
+     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE40MlNkeUlXZkdXaDhvd0lpVWNjWE93UVNwZl83Q0hKWno5N3UwLVRpLS1pQjJXQ3VUUTVGdExhT0lSaV9qTVZ2djRnSFNCb2FEQlVwS05ZNlg?oc=5",
+     "time": "2026-10-25T13:01:47+00:00"
+    },
+    {
+     "title": "Arista Networks, Inc. $ANET Stock Purchased by Norris Perne & French LLP MI",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPMHkxSzlSTmZnRld6ZzhTdE0xNmNfVkptYUJUSTZ3RVNHUTdwSVhSM1JuOXpKNENubVBtT3hESV9LVGN3QmZZTkRpQWZOcVBlUDgyVm5keGdGWjB2WDk1UkY1R3kwNnJxRk1xaUZDbVFwWld5eTBMM0VjNFhfLWU3cllqU2ZsckxPX0lNV21WWklteUZlakJOTGpLdEhoRHdFaEhSYmtJRUtMaDdwTHdoWlBUOTRyZTltenVDaXI2SHJNcDBMdnc3dllFdw?oc=5",
+     "time": "2026-10-25T10:30:20+00:00"
+    },
+    {
+     "title": "Arista Networks, Inc. (ANET) - What Are Researchers Thinking About This Stock?",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOUC1uSlBrV0VDUnNHb0VYa3p4dlBjOWFZdm55TjNLMHVKMm04bXdfNnRVaHczaUxTSDY4VkhzaHFJWmtGMDJ2ZVZodDNDQzJEQUZ5eU5JS2twS0ZRb0xZQWF1dnhWdktWMy1Rd2JJY3kzY3dsWnBmRENBcWUzS0I0NlFZT1VxM2JfcHVMYklLUlFIbWdvVHU3TlpDdjZNQ1ZPbVN1LWFJUFFjWFRXdDdVWHZjQzhMOVFZNk9xVXBhUWhrYWo4WnV2Ty1CalNKU3R1?oc=5",
+     "time": "2026-10-25T06:15:35+00:00"
+    },
+    {
+     "title": "Sat Out Arista Networks' Rally? Here Is What Holders Saw",
+     "publisher": "Simply Wall Street",
+     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQY19YczV3NnF2Si1pUV95c21fcXZCR3RzVUJiZHh3YjlmdGNsN3cycE1pNnRXZmp1UGVsZXlFOEdESk5hNmlreGt4ZXcxaGF2QnZ3OVgtTWl2MTBEeklWUnJ1dWNOdlVTak1XQlNxeDZwMHRod0ZWNE9Ua19ya3NobDB3bUlSejBzSXZLNUJTV0FmQjU2WEZxSnBNTG5rSnFLQ1FaeFVGb0Q4LXJ6YUdldUVTeWFUbW1XVUJJQ0FfRdIBxAFBVV95cUxQWVBELTNKcDlHNGpYV2dFUmpLay1pXzBVbUcwUVN6NDZONUh4R3AxVDFrX2l4VXU5RDJGLXRsWTA2MzJaZHFIb0xoNEdvQl9CSENsZHRTc1pJTFN4M0U4YWw2RDFKaDVBcjl1Si1zaTZ5a01IejhhZE9iUXBiTVZfUkxhS05makdXZzQyT2dkMmxQSFhjaV9OUlFPcS0wMlJVaFo0MVJOUHFDVEJob3VqRzVOcnNVMklPTmFNT0xkU3Nqc2ph?oc=5",
+     "time": "2026-10-25T03:04:09+00:00"
     }
    ],
    "brief": null
