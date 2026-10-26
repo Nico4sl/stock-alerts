@@ -1,5 +1,22 @@
 {
  "date": "2026-10-26",
  "threshold": 3.0,
- "movers": []
+ "movers": [
+  {
+   "id": "2026-10-26-MELI",
+   "symbol": "MELI",
+   "name": "MercadoLibre",
+   "list": "watchlist",
+   "trigger_change": -12.1,
+   "first_seen": "2026-10-26T14:02:02+00:00"
+  },
+  {
+   "id": "2026-10-26-NBIS",
+   "symbol": "NBIS",
+   "name": "Nebius",
+   "list": "portfolio",
+   "trigger_change": -4.3,
+   "first_seen": "2026-10-26T14:02:02+00:00"
+  }
+ ]
 }
