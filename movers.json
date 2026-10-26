@@ -1,17 +1,17 @@
 {
  "date": "2026-10-26",
  "threshold": 3.0,
- "updated": "2026-10-26T15:31:03+00:00",
+ "updated": "2026-10-26T15:36:05+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 766.5,
-   "change_pct": 0.86
+   "price": 766.82,
+   "change_pct": 0.9
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 714.5,
-   "change_pct": 1.43
+   "price": 714.71,
+   "change_pct": 1.46
   },
   "TLT": {
    "name": "Long Treasuries",
@@ -24,7 +24,7 @@
    "symbol": "MELI",
    "name": "MercadoLibre",
    "list": "watchlist",
-   "price": 1634.46,
+   "price": 1635.0,
    "prev_close": 1810.15,
    "change_pct": -9.7,
    "trigger_change": -12.1,
@@ -33,11 +33,11 @@
    "sector": {
     "etf": "XLY",
     "name": "Consumer discr.",
-    "price": 114.74,
-    "change_pct": 1.45
+    "price": 114.78,
+    "change_pct": 1.49
    },
    "chart": {
-    "ema8": -8.9,
+    "ema8": -8.8,
     "ema21": -10.1,
     "sma50": -11.9,
     "sma200": -10.3,
@@ -96,26 +96,101 @@
    "brief": "2026-10-26-MELI"
   },
   {
+   "symbol": "NBIS",
+   "name": "Nebius",
+   "list": "portfolio",
+   "price": 164.6,
+   "prev_close": 158.74,
+   "change_pct": 3.7,
+   "trigger_change": -4.3,
+   "peak_change": -5.2,
+   "first_seen": "2026-10-26T14:02:02+00:00",
+   "sector": {
+    "etf": "IGV",
+    "name": "Software",
+    "price": 111.39,
+    "change_pct": 0.72
+   },
+   "chart": {
+    "ema8": -4.3,
+    "ema21": -14.8,
+    "sma50": -23.6,
+    "sma200": -6.6,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "CoreWeave Bounces Despite Musk's 'Death' Warning, Nebius Lags: Short Seller Tracker",
+     "publisher": "Moomoo",
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQcHdtOVphYTNhSTRpMVFTOVVfYW92VzNuZjRJRWQxZm96RWZ4NHhYVzlFYUt5aTdrbUZuVUI1SjllTFJLM2l6Q2ZLWkI2VmtZNHNkUkZodGdvUnZkRTg4X2Ezdkc3M20yZ0NHY1dKTmVwbHZyYXZsQ1Q1SVFndHNyaVlGTnMwcUU1Q29DdHFCaFB3Y1JQMUtuWnRBczVvc1NSbWw0d2h6SmdfU2JqTU1zTDNJRTBRR0U?oc=5",
+     "time": "2026-10-26T14:19:15+00:00"
+    },
+    {
+     "title": "CoreWeave vs. Nebius: One Neocloud Stock Looks Cheap, the Other Looks Safer, Says Investor",
+     "publisher": "TipRanks",
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQTFdydWdtUkgxMms1elBKYUktT21HM2c1eHFOczlTQ1ZkR3IzZnFJTW9Ya21MMWlnUmFHaWhpWFNzaTI2djJGRlBLMnp3YkZtVjgzd2pJMWFJcDE4SGxOXzNaTVI3d1lvQVcyem9lRmlBN2pUZ2l5bWQ4d2I3RTVNZmZMRzhFN2VsT0pzNlROY3FNcUVNdmZzWW1xa3pDVERRUVY3YWdSZ3Eyc2hWenN1NmRCNTFpa3d3YVQ5Y09uRzlOdw?oc=5",
+     "time": "2026-10-26T14:16:32+00:00"
+    },
+    {
+     "title": "Nebius Stock After Elon Musk\u2019s 200-Neocloud Warning",
+     "publisher": "FinanceFeeds",
+     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9LNmtRMmpCelNJZENLeTBpMEFsaGowa2FMeXZBT0FhUkxaTFBpX1l2LWJ4TnJVT2d2eVN6T2I5Ujl1SzZUMlgzMmlhdEluYkwzR3JYUHF3Nmhpd2RLbGcwc282ODNXUEt5Vmh1Wm80ZXZTd2JQTkw4SjVn?oc=5",
+     "time": "2026-10-26T13:58:20+00:00"
+    },
+    {
+     "title": "CoreWeave Drops 5% as Musk Warns of Neocloud 'Guppy-Level Death'; IREN Slides 3%, Nebius Slips 2%",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPTzBpQ2g5ZnFWUmVUQVNwV2N2dWNzamNSQ0l3OWpYdTJiMXZ0Y2NjRjFENXpNYVpfN2gyODlXVkZfY0xtdEMxbGExVkhVZ21EWklyYndGTnBqcmFwemZxazNveTZoOE41ZFh2dUl6RVQ5Yk9CZXVKeG5KWkZYZWlRRzlCNURsMFRrOGQ2YmxZcmRhTG4tSEl3UzI2R21sckJ4NFFfWUpmdjNNZTIxT0haN2FsRkxCVnVyVWE0UkpOM2Z0cm5Lem1tTUhDSHh4ek0?oc=5",
+     "time": "2026-10-26T13:46:27+00:00"
+    },
+    {
+     "title": "CoreWeave, Nebius, Iren stocks fall as Musk warns 200 neoclouds could collapse",
+     "publisher": "Invezz",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOS2VTeTM4bTlBcjFEN3NWSnBHSW9EVDNSdzhnMDMyeTZJU1dwZTVEYkhRMnF0YVJaay1UazZpemh1X3pBM2J0TlVuejRIYVFTQXdzd0Y0ZndxMmF2YjRsUmxNMjZWcl9OZUx6OW9GdE5qd2NuV3JwQ1NSS09PY05ySVFkYlUtbS1jcXczQm15Rk9BUkloOEs4SGlpZ2x1bzctOFcwaEIwWlc2OFVQX1VNVFFvUW1LQQ?oc=5",
+     "time": "2026-10-26T13:20:00+00:00"
+    },
+    {
+     "title": "CoreWeave Drops 5% as Musk Warns of Neocloud \u2018Guppy-Level Death\u2019; IREN Slides 3%, Nebius Slips 2%",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOX25fNWpkZm1sUmNZbHRlUjhwdExmUzdUcEVxT256MkM0bWdfNHJZUjREd3JXR21xYzc1Yzg1SkhrNDFUdEQtYWhRYkV1ZnFPVVR2Uk9BRDlHZlVjLWp2Nl96Q2FQbDZsdWhmVE0wd3ZZcDZ2enFad0M4VEgxUFBNTkNLWm9QaWxHb3NJbDVZeXpCTXNnRDhGQw?oc=5",
+     "time": "2026-10-26T13:18:52+00:00"
+    },
+    {
+     "title": "CoreWeave, Nebius, and IREN shares decline amid debt and AI market concerns",
+     "publisher": "KuCoin",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOV1p1ZGQxNnhuQVM3WkdwSHBUZDNUdzlxUnlYc1o0RWJMNHN2R3A0OUQ4ZkF4RkZzNm8tRHhLNk1pazJYZXkxaVBPbGZubnNYcXViY24wcVYzZDdQeS10VFFRRXQwdjdmQUdrRlR4MWxheEZfcmlTQ0tBS2NkalBWMk5MU3liLWRJZDVBSHlscXFvWHh0R19rTFAtVjBITDhkRVBlM0xUaw?oc=5",
+     "time": "2026-10-26T13:06:59+00:00"
+    },
+    {
+     "title": "3 Insider Owned Growth Stocks To Own In October 2026",
+     "publisher": "Simply Wall Street",
+     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQd2VOUU5iQVlaU056X0FWZmRSYVN1eGFhU0dERmhReTF5T2FzaWk0TTlHTTJZRklfYzdDU2tFT05lQV9PNjBVNWRQei00ZjNyYnlHcl90VHBxN2MtZ2dWdzF0ek4wM0xpT3pOQWxMVXNudVVDeGRxaEJfQmtZRTZMeEtKbGY4LTg5WlBBSUEtSnJzeVFweHJrSnRfMzM4c09rdzB3ZjFVMTJTOS1BUnVCQWhQUTRrajk3cVVPUUhHWF9NUThiOGfSAcYBQVVfeXFMUHdlTlFOYkFZWlNOel9BVmZkUmFTdXhhYVNHREZoUXkxeU9hc2lpNE05R00yWUZJX2M3Q1NrRU9OZUFfTzYwVTVkUHotNGYzcmJ5R3JfdFRwcTdjLWdnVncxdHpOMDNMaU96TkFsTFVzbnVVQ3hkcWhCX0JrWUU2THhLSmxmOC04OVpQQUlBLUpyc3lRcHhya0p0XzMzOHNPa3cwd2YxVTEyUzktQVJ1QkFoUFE0a2o5N3FVT1FIR1hfTVE4Yjhn?oc=5",
+     "time": "2026-10-26T12:56:02+00:00"
+    }
+   ],
+   "brief": "2026-10-26-NBIS"
+  },
+  {
    "symbol": "AMAT",
    "name": "Applied Materials",
    "list": "portfolio",
-   "price": 390.7,
+   "price": 391.1,
    "prev_close": 377.24,
-   "change_pct": 3.6,
+   "change_pct": 3.7,
    "trigger_change": 3.6,
-   "peak_change": 3.6,
+   "peak_change": 3.7,
    "first_seen": "2026-10-26T15:25:59+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 543.26,
-    "change_pct": 3.05
+    "price": 543.89,
+    "change_pct": 3.17
    },
    "chart": {
     "ema8": -3.8,
     "ema21": -11.4,
-    "sma50": -16.2,
-    "sma200": -11.7,
+    "sma50": -16.1,
+    "sma200": -11.6,
     "momentum": false
    },
    "headlines": [
@@ -174,23 +249,23 @@
    "symbol": "ANET",
    "name": "Arista Networks",
    "list": "portfolio",
-   "price": 178.36,
+   "price": 178.19,
    "prev_close": 172.37,
-   "change_pct": 3.5,
+   "change_pct": 3.4,
    "trigger_change": 3.3,
    "peak_change": 3.6,
    "first_seen": "2026-10-26T15:20:56+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 543.26,
-    "change_pct": 3.05
+    "price": 543.89,
+    "change_pct": 3.17
    },
    "chart": {
-    "ema8": -1.7,
-    "ema21": -6.5,
-    "sma50": -9.0,
-    "sma200": 8.7,
+    "ema8": -1.8,
+    "ema21": -6.6,
+    "sma50": -9.1,
+    "sma200": 8.6,
     "momentum": false
    },
    "headlines": [
@@ -246,100 +321,100 @@
    "brief": null
   },
   {
-   "symbol": "NBIS",
-   "name": "Nebius",
+   "symbol": "NFLX",
+   "name": "Netflix",
    "list": "portfolio",
-   "price": 163.95,
-   "prev_close": 158.74,
-   "change_pct": 3.3,
-   "trigger_change": -4.3,
-   "peak_change": -5.2,
-   "first_seen": "2026-10-26T14:02:02+00:00",
+   "price": 63.8,
+   "prev_close": 65.85,
+   "change_pct": -3.1,
+   "trigger_change": -3.1,
+   "peak_change": -3.1,
+   "first_seen": "2026-10-26T15:36:05+00:00",
    "sector": {
-    "etf": "IGV",
-    "name": "Software",
-    "price": 111.44,
-    "change_pct": 0.77
+    "etf": "XLC",
+    "name": "Communication",
+    "price": 104.69,
+    "change_pct": -0.78
    },
    "chart": {
-    "ema8": -4.6,
-    "ema21": -15.1,
-    "sma50": -23.9,
-    "sma200": -7.0,
+    "ema8": -4.8,
+    "ema21": -7.8,
+    "sma50": -13.8,
+    "sma200": -22.3,
     "momentum": false
    },
    "headlines": [
     {
-     "title": "CoreWeave Bounces Despite Musk's 'Death' Warning, Nebius Lags: Short Seller Tracker",
-     "publisher": "Moomoo",
-     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQcHdtOVphYTNhSTRpMVFTOVVfYW92VzNuZjRJRWQxZm96RWZ4NHhYVzlFYUt5aTdrbUZuVUI1SjllTFJLM2l6Q2ZLWkI2VmtZNHNkUkZodGdvUnZkRTg4X2Ezdkc3M20yZ0NHY1dKTmVwbHZyYXZsQ1Q1SVFndHNyaVlGTnMwcUU1Q29DdHFCaFB3Y1JQMUtuWnRBczVvc1NSbWw0d2h6SmdfU2JqTU1zTDNJRTBRR0U?oc=5",
-     "time": "2026-10-26T14:19:15+00:00"
+     "title": "Netflix (NASDAQ: NFLX) Has Crashed Over 50% Five Times Before - Here Is What The Pattern Reveals",
+     "publisher": "Foreign Policy Journal",
+     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPNHBFWXBjdVJrcEQyVzgwODZfR1VBVGlfbktwSWRta0hPd3g0VDB5NkxNa0RiTWE3ZHpqQngwZ1piN1Y1b01mZjF4bnZTNjhqMWhsUUQtUUZrQmk5cFBiblc5S2dwVnl1NGRRWkxnYWh4c0pyejJsLXFVTnNLZjdkQW1xbkdSS1RlWk1oTFo2MlBldmlablF4NzBJR0VKVlhkTHR0UWduaWYzTDlDWXVLU3lhamc1UWE3WU1USWFwWTBMZDJTQmhoa0thcXlfNk15YkJWY1Nn?oc=5",
+     "time": "2026-10-26T15:14:00+00:00"
     },
     {
-     "title": "CoreWeave vs. Nebius: One Neocloud Stock Looks Cheap, the Other Looks Safer, Says Investor",
-     "publisher": "TipRanks",
-     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQTFdydWdtUkgxMms1elBKYUktT21HM2c1eHFOczlTQ1ZkR3IzZnFJTW9Ya21MMWlnUmFHaWhpWFNzaTI2djJGRlBLMnp3YkZtVjgzd2pJMWFJcDE4SGxOXzNaTVI3d1lvQVcyem9lRmlBN2pUZ2l5bWQ4d2I3RTVNZmZMRzhFN2VsT0pzNlROY3FNcUVNdmZzWW1xa3pDVERRUVY3YWdSZ3Eyc2hWenN1NmRCNTFpa3d3YVQ5Y09uRzlOdw?oc=5",
-     "time": "2026-10-26T14:16:32+00:00"
-    },
-    {
-     "title": "Nebius Stock After Elon Musk\u2019s 200-Neocloud Warning",
-     "publisher": "FinanceFeeds",
-     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9LNmtRMmpCelNJZENLeTBpMEFsaGowa2FMeXZBT0FhUkxaTFBpX1l2LWJ4TnJVT2d2eVN6T2I5Ujl1SzZUMlgzMmlhdEluYkwzR3JYUHF3Nmhpd2RLbGcwc282ODNXUEt5Vmh1Wm80ZXZTd2JQTkw4SjVn?oc=5",
-     "time": "2026-10-26T13:58:20+00:00"
-    },
-    {
-     "title": "CoreWeave Drops 5% as Musk Warns of Neocloud 'Guppy-Level Death'; IREN Slides 3%, Nebius Slips 2%",
-     "publisher": "24/7 Wall St.",
-     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPTzBpQ2g5ZnFWUmVUQVNwV2N2dWNzamNSQ0l3OWpYdTJiMXZ0Y2NjRjFENXpNYVpfN2gyODlXVkZfY0xtdEMxbGExVkhVZ21EWklyYndGTnBqcmFwemZxazNveTZoOE41ZFh2dUl6RVQ5Yk9CZXVKeG5KWkZYZWlRRzlCNURsMFRrOGQ2YmxZcmRhTG4tSEl3UzI2R21sckJ4NFFfWUpmdjNNZTIxT0haN2FsRkxCVnVyVWE0UkpOM2Z0cm5Lem1tTUhDSHh4ek0?oc=5",
-     "time": "2026-10-26T13:46:27+00:00"
-    },
-    {
-     "title": "CoreWeave, Nebius, Iren stocks fall as Musk warns 200 neoclouds could collapse",
-     "publisher": "Invezz",
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOS2VTeTM4bTlBcjFEN3NWSnBHSW9EVDNSdzhnMDMyeTZJU1dwZTVEYkhRMnF0YVJaay1UazZpemh1X3pBM2J0TlVuejRIYVFTQXdzd0Y0ZndxMmF2YjRsUmxNMjZWcl9OZUx6OW9GdE5qd2NuV3JwQ1NSS09PY05ySVFkYlUtbS1jcXczQm15Rk9BUkloOEs4SGlpZ2x1bzctOFcwaEIwWlc2OFVQX1VNVFFvUW1LQQ?oc=5",
-     "time": "2026-10-26T13:20:00+00:00"
-    },
-    {
-     "title": "CoreWeave Drops 5% as Musk Warns of Neocloud \u2018Guppy-Level Death\u2019; IREN Slides 3%, Nebius Slips 2%",
+     "title": "Netflix Co-CEO Greg Peters Just Said \"We Know That We Can Do Better\" When It Comes to U.S. Engagement. Should Investors Be Worried?",
      "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOX25fNWpkZm1sUmNZbHRlUjhwdExmUzdUcEVxT256MkM0bWdfNHJZUjREd3JXR21xYzc1Yzg1SkhrNDFUdEQtYWhRYkV1ZnFPVVR2Uk9BRDlHZlVjLWp2Nl96Q2FQbDZsdWhmVE0wd3ZZcDZ2enFad0M4VEgxUFBNTkNLWm9QaWxHb3NJbDVZeXpCTXNnRDhGQw?oc=5",
-     "time": "2026-10-26T13:18:52+00:00"
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQblV4UHQ0NkJ3THpUT2JBOUJWd25KMnVicDFhckxMVlllU1R6Mjk4X3FoQU4teWNkZThqNFktdEZ4cGJwUW1TNFh2ak9VR1RHbUw2VTktX2ZXXzVQWWpUcjZ3Q3dLaFRoX2g5cEhDeFZaSTN3OVh6VHpTRFV1QkJ4NXRTeXVnOXhsZkxCNUVwc2gyYmp1bnc?oc=5",
+     "time": "2026-10-26T14:05:00+00:00"
     },
     {
-     "title": "CoreWeave, Nebius, and IREN shares decline amid debt and AI market concerns",
-     "publisher": "KuCoin",
-     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOV1p1ZGQxNnhuQVM3WkdwSHBUZDNUdzlxUnlYc1o0RWJMNHN2R3A0OUQ4ZkF4RkZzNm8tRHhLNk1pazJYZXkxaVBPbGZubnNYcXViY24wcVYzZDdQeS10VFFRRXQwdjdmQUdrRlR4MWxheEZfcmlTQ0tBS2NkalBWMk5MU3liLWRJZDVBSHlscXFvWHh0R19rTFAtVjBITDhkRVBlM0xUaw?oc=5",
-     "time": "2026-10-26T13:06:59+00:00"
+     "title": "Netflix (NASDAQ:NFLX) Margin Expansion Meets Ad Revenue Reset in Record Repurchase Quarter",
+     "publisher": "Kalkine Media",
+     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPbFBLVndYQ01lUUwweHZxY3FSSFBHQjFodk9GdWpURFhYWkY1RUZwWldqR0VEbEY1SjNFbWZMclQ0bGVMdVN4VlozSWlqTk9qeW0tN0ZCd052TXo2QkhjLWlDSzVENlNBOUNBSW9ROHV3SFpEMzVZRzVDbHN6bEFZUnlIaXJsbFJ5bTFTOTNnbWJfX3UzV3lSYWZlaG5mSnBRVlN2MkdWVEl0VWpmdGtzUDY4VHpkbUg4VXRtRGVKRWNjTmFEYTNhYQ?oc=5",
+     "time": "2026-10-26T13:33:00+00:00"
     },
     {
-     "title": "3 Insider Owned Growth Stocks To Own In October 2026",
-     "publisher": "Simply Wall Street",
-     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQd2VOUU5iQVlaU056X0FWZmRSYVN1eGFhU0dERmhReTF5T2FzaWk0TTlHTTJZRklfYzdDU2tFT05lQV9PNjBVNWRQei00ZjNyYnlHcl90VHBxN2MtZ2dWdzF0ek4wM0xpT3pOQWxMVXNudVVDeGRxaEJfQmtZRTZMeEtKbGY4LTg5WlBBSUEtSnJzeVFweHJrSnRfMzM4c09rdzB3ZjFVMTJTOS1BUnVCQWhQUTRrajk3cVVPUUhHWF9NUThiOGfSAcYBQVVfeXFMUHdlTlFOYkFZWlNOel9BVmZkUmFTdXhhYVNHREZoUXkxeU9hc2lpNE05R00yWUZJX2M3Q1NrRU9OZUFfTzYwVTVkUHotNGYzcmJ5R3JfdFRwcTdjLWdnVncxdHpOMDNMaU96TkFsTFVzbnVVQ3hkcWhCX0JrWUU2THhLSmxmOC04OVpQQUlBLUpyc3lRcHhya0p0XzMzOHNPa3cwd2YxVTEyUzktQVJ1QkFoUFE0a2o5N3FVT1FIR1hfTVE4Yjhn?oc=5",
-     "time": "2026-10-26T12:56:02+00:00"
+     "title": "Netflix (NFLX): Is a Comeback in the Cards?",
+     "publisher": "TipRanks",
+     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1WbWhoUWJwQVp3Zl9hc3V6d0xiRGs2elFDUFBGNHU3VXVIUmJYbEdRaC1GT194LWI1ZGV1ZTJtc2lMQVB3dEdaSnpJVjVqZjItTGRqZXg0dE01aEEtZWotdVRFQ1NTWlJLUDRNc3Bnc1pnblJSZzJkVw?oc=5",
+     "time": "2026-10-26T13:05:00+00:00"
+    },
+    {
+     "title": "Why Netflix (NFLX) International Revenue Trends Deserve Your Attention",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQUXQ4UG1WMXhrRTV6NzZuSjVaX0FpSFg0YkFOSVBlejZOdVBNaTRPVFpSbFItLWtjM2hfRnVWQ1dYV1NRVmo2UzVtcHd0Vmw1N29rb294UUNqcENXRmlZWVJWMlFqZG5DRlhlN0NraDdka0l4MU82X2lfR1lEb05tdnNDQm1sQUNGeGNObXBvbDFWSUh5dmFIZlYtQkhLWXlwWGMyTlFR?oc=5",
+     "time": "2026-10-26T12:15:03+00:00"
+    },
+    {
+     "title": "Netflix, Inc. (NFLX) is Attracting Investor Attention: Here is What You Should Know",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPY2cxdGhPUGVNaVdtMmxPSXdlSndzZ2RLNi1kN1p0OXBWaHgwblcyNy00QXJldHN0cEk3N1EtVGZFWVdnQ29yVUtqOVgzZ2UtclZjZXFrWVZwVHYtUTA1S1JTS3JJcnhDY3poX2hUdWUtVE8yeGd1bXJJVVQ1a1pCclIwSG1ISUx3dUJ3UmhEX19zV21fUlc4VkZkblkwZW11Uk9J?oc=5",
+     "time": "2026-10-26T12:00:03+00:00"
+    },
+    {
+     "title": "Why Is Netflix (NASDAQ:NFLX) Down 29% After Cutting Its Ad Outlook?",
+     "publisher": "Kalkine",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOODB2amFXLU9uYy1IWHkwazdtSmMzdkpMZVJFbl9BSkRaWDgyQm9fY1BLWkhuU0MxM0FaWTRuUG5TSDdhdzlZU3hpOWphZTBFUU84RFExSWZUT0V4YkhTRHo5c1ZaVzJQbndrM3hTb1dPckQzeHZaOVhvZ1hSaVhoUFJGWVJ6UWl2TVd1NWpveXdiQWtlUGtPVXV5TEF5YVN0LUNUUUFn?oc=5",
+     "time": "2026-10-26T10:51:00+00:00"
+    },
+    {
+     "title": "Netflix, Inc. $NFLX Stake Lessened by Provident Investment Management Inc.",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNNmNXVU5lTmxJUjZYQnVTMXllaml3enNWY2xqMWo0TTdHNzBBMk1rVlhJZXVlRHhrNjJ0Zk1PLWx5c3dBMk9GaUlfY1dWMW5mRlBSRXVPdjI3QVlhblhsOXNXWjVkeFpJVEhxcC0wS1NYWFBseDBSRV85cTNWU0xhU1FSNENheXl4Q1I0QjJVcWhJanA1T01UWlBRWVA1UjJ3cWpLdVF1WWZERHlEV1o0d19jaG1qNTBkMGNyYnZVbkQ1RTllcTZSZVhsMA?oc=5",
+     "time": "2026-10-26T09:51:38+00:00"
     }
    ],
-   "brief": "2026-10-26-NBIS"
+   "brief": null
   },
   {
    "symbol": "AVGO",
    "name": "Broadcom",
    "list": "portfolio",
-   "price": 331.55,
+   "price": 331.27,
    "prev_close": 321.68,
-   "change_pct": 3.1,
+   "change_pct": 3.0,
    "trigger_change": 3.1,
    "peak_change": 3.1,
    "first_seen": "2026-10-26T15:31:03+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 543.26,
-    "change_pct": 3.05
+    "price": 543.89,
+    "change_pct": 3.17
    },
    "chart": {
-    "ema8": -0.6,
-    "ema21": -3.6,
-    "sma50": -6.7,
+    "ema8": -0.7,
+    "ema21": -3.7,
+    "sma50": -6.8,
     "sma200": -9.9,
     "momentum": false
    },
@@ -399,23 +474,23 @@
    "symbol": "NVDA",
    "name": "Nvidia",
    "list": "portfolio",
-   "price": 216.57,
+   "price": 216.09,
    "prev_close": 210.96,
-   "change_pct": 2.7,
+   "change_pct": 2.4,
    "trigger_change": 3.0,
    "peak_change": 3.0,
    "first_seen": "2026-10-26T15:25:59+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 543.26,
-    "change_pct": 3.05
+    "price": 543.89,
+    "change_pct": 3.17
    },
    "chart": {
-    "ema8": -0.2,
-    "ema21": -2.1,
-    "sma50": -2.6,
-    "sma200": 6.3,
+    "ema8": -0.4,
+    "ema21": -2.3,
+    "sma50": -2.8,
+    "sma200": 6.0,
     "momentum": false
    },
    "headlines": [
