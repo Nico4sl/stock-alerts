@@ -1,9 +1,17 @@
 {
-  "as_of": "2026-10-22",
+  "as_of": "2026-10-28",
   "updated_by": "Claude",
   "chair": "Kevin Warsh",
-  "rate": { "lower": 3.75, "upper": 4.0, "iorb": 3.9 },
-  "last_decision": { "date": "2026-09-16", "change_bp": 25, "vote": "12–0" },
+  "rate": {
+    "lower": 3.75,
+    "upper": 4.0,
+    "iorb": 3.9
+  },
+  "last_decision": {
+    "date": "2026-10-28",
+    "change_bp": 0,
+    "vote": "10–2"
+  },
   "stance": "tightening",
   "balance_sheet_mode": "stable",
   "projections": {
@@ -14,55 +22,176 @@
     "pce_2027": 2.3,
     "target_year": 2029
   },
-  "expectations": { "as_of": "2026-10-19", "hold_pct": 80 },
+  "expectations": {
+    "as_of": "2026-10-28",
+    "hold_pct": 16
+  },
   "en": {
-    "headline": "Fighting inflation: the Fed is raising rates again",
-    "summary": "On 16 September the Fed raised its rate by 0.25 points to 3.75–4.00 %, its first hike since 2023 (vote 12–0). Chair Kevin Warsh: inflation is \"too high and has been for too long\". Most officials expect one more hike this year. Warsh gives no forward guidance – each meeting is decided on the data.",
+    "headline": "Fed pauses after September hike – two officials wanted more",
+    "summary": "On 28 October the Fed left its rate at 3.75–4.00 %, as expected, after hiking in September. The vote was 10–2: Governor Lisa Cook and Cleveland Fed President Beth Hammack wanted another 0.25-point hike. The statement says inflation \"remains elevated\" and the Fed will gather more information before setting its next step. Chair Kevin Warsh said financial conditions are tighter, but he is \"unwilling and unable to call them tight\" – a hawkish hold.",
     "focus": [
-      { "title": "Inflation – the main concern", "text": "Headline PCE inflation is about 3.6 % (August, Fed estimate), far above the 2 % goal, driven partly by energy prices after Middle East supply disruptions. Core inflation has edged up. Officials don't see 2 % before 2029." },
-      { "title": "Jobs – roughly balanced", "text": "Unemployment is around 4.1 % and job gains keep pace with the labour force. The Fed sees inflation risks to the upside and labour-market risks as balanced, so it can focus on prices." },
-      { "title": "Growth – solid", "text": "Spending, investment and productivity are strong (Q3 growth nowcast ≈ 3.5 % annualised). A strong economy gives the Fed room to tighten." },
-      { "title": "Next steps", "text": "Markets expect a hold on 28 October (≈ 80 %) and a hike on 9 December. Two or three hawks may dissent in favour of hiking now. The 10-year Treasury yield is near 5 %." }
+      {
+        "title": "Inflation – hotter again",
+        "text": "Consumer prices rose 3.7 % year on year in September (0.6 % in the month alone), up from 3.4 % in August; gasoline jumped 9.1 %. Core CPI rose 2.6 %. Both came in above forecasts. September PCE inflation, the Fed's preferred gauge, is due on 29 October."
+      },
+      {
+        "title": "Jobs – steady",
+        "text": "The statement says job gains have kept pace with the growth of the workforce and the unemployment rate has changed little. The Fed is not worried about jobs, so it can focus on prices."
+      },
+      {
+        "title": "Growth – upgraded to \"strong\"",
+        "text": "The Fed now calls growth \"strong\" (September: \"solid\"), with strong productivity and robust business investment. A strong economy gives the Fed room to tighten further."
+      },
+      {
+        "title": "Next steps",
+        "text": "Next meeting: 8–9 December, with new projections. Futures price roughly an 84 % chance of a hike then, and September's projections point to one more hike in 2026. Warsh said the Fed will hold fewer rate-setting meetings in coming years; the 10-year Treasury yield is about 5.0 %."
+      }
     ],
-    "balance_sheet": "Not QE, not QT. Quantitative tightening (shrinking the balance sheet) ended at the end of 2025. Since December 2025 the Fed buys small amounts of Treasury bills (\"reserve management purchases\", down from $40 bn to about $10 bn a month by summer) only to keep bank reserves \"ample\" (~$3 trn); maturing mortgage bonds are reinvested into bills. Balance sheet ≈ $6.75 trn. Warsh wants a smaller balance sheet over time – his task forces on Fed operations report in 2027.",
-    "learn": { "term": "Why bill purchases aren't QE", "text": "QE means buying long-term bonds to push long-term rates down and stimulate the economy. Reserve management purchases buy only short-term bills to keep enough cash in the banking system for money markets to run smoothly – they're plumbing, not stimulus. The policy signal is the rate, and right now it points to tighter conditions." }
+    "balance_sheet": "Not QE, not QT. The statement says the Fed keeps maintaining \"ample\" reserves in the banking system. Quantitative tightening ended at the end of 2025; since December 2025 the Fed buys small amounts of Treasury bills (\"reserve management purchases\", down from $40 bn to about $10 bn a month by summer) only to keep reserves around $3 trn. Balance sheet ≈ $6.75 trn. Warsh wants it smaller over time.",
+    "learn": {
+      "term": "Hawkish hold",
+      "text": "A hawkish hold means the central bank leaves rates unchanged but signals it is still leaning toward tightening. Here, two dissents in favour of a hike, the line that inflation \"remains elevated\" and Warsh refusing to call conditions \"tight\" all told markets that the September hike was probably not the last one. That is why December hike odds stayed high even though nothing changed today."
+    }
   },
   "de": {
-    "headline": "Kampf gegen die Inflation: Die Fed erhöht wieder die Zinsen",
-    "summary": "Am 16. September hob die Fed den Leitzins um 0,25 Prozentpunkte auf 3,75–4,00 % an – die erste Erhöhung seit 2023 (Abstimmung 12–0). Fed-Chef Kevin Warsh: Die Inflation sei „zu hoch, und das schon zu lange“. Die meisten Notenbanker erwarten noch eine Erhöhung in diesem Jahr. Warsh gibt keine Forward Guidance – entschieden wird von Sitzung zu Sitzung anhand der Daten.",
+    "headline": "Fed pausiert nach der Erhöhung – zwei Notenbanker wollten mehr",
+    "summary": "Am 28. Oktober ließ die Fed den Leitzins wie erwartet bei 3,75–4,00 %, nachdem sie ihn im September angehoben hatte. Die Abstimmung endete 10–2: Gouverneurin Lisa Cook und Cleveland-Fed-Präsidentin Beth Hammack wollten eine weitere Erhöhung um 0,25 Punkte. Laut Statement bleibt die Inflation „erhöht“, und die Fed will mehr Daten sammeln, bevor sie den nächsten Schritt festlegt. Fed-Chef Kevin Warsh: Die Finanzierungsbedingungen seien zwar enger geworden, er sei aber „weder willens noch in der Lage, sie als straff zu bezeichnen“ – eine „falkenhafte Pause“.",
     "focus": [
-      { "title": "Inflation – die Hauptsorge", "text": "Die PCE-Inflation liegt bei rund 3,6 % (August, Schätzung der Fed), weit über dem 2-%-Ziel – teils wegen höherer Energiepreise nach Lieferstörungen im Nahen Osten. Die Kerninflation ist leicht gestiegen. Die 2 % erwartet die Fed erst 2029." },
-      { "title": "Arbeitsmarkt – ausgeglichen", "text": "Die Arbeitslosenquote liegt bei etwa 4,1 %, der Jobzuwachs hält mit dem Arbeitskräfteangebot Schritt. Die Fed sieht Inflationsrisiken nach oben und ausgeglichene Arbeitsmarktrisiken – sie kann sich also auf die Preise konzentrieren." },
-      { "title": "Wachstum – solide", "text": "Konsum, Investitionen und Produktivität sind stark (Nowcast Q3 ≈ 3,5 % annualisiert). Eine robuste Wirtschaft gibt der Fed Spielraum für Straffungen." },
-      { "title": "Nächste Schritte", "text": "Die Märkte erwarten am 28. Oktober eine Pause (≈ 80 %) und am 9. Dezember eine Erhöhung. Zwei oder drei Falken könnten schon jetzt für eine Erhöhung stimmen. Die Rendite zehnjähriger US-Staatsanleihen liegt nahe 5 %." }
+      {
+        "title": "Inflation – wieder heißer",
+        "text": "Die Verbraucherpreise stiegen im September um 3,7 % zum Vorjahr (allein im Monat um 0,6 %), nach 3,4 % im August; Benzin verteuerte sich um 9,1 %. Die Kernrate lag bei 2,6 %. Beide Werte waren höher als erwartet. Die PCE-Inflation für September, das bevorzugte Maß der Fed, kommt am 29. Oktober."
+      },
+      {
+        "title": "Arbeitsmarkt – stabil",
+        "text": "Laut Statement hält der Jobzuwachs mit dem Wachstum der Erwerbsbevölkerung Schritt, die Arbeitslosenquote hat sich kaum verändert. Der Arbeitsmarkt bereitet der Fed keine Sorgen – sie kann sich auf die Preise konzentrieren."
+      },
+      {
+        "title": "Wachstum – jetzt „stark“",
+        "text": "Die Fed nennt das Wachstum nun „stark“ (September: „solide“), mit starker Produktivität und robusten Unternehmensinvestitionen. Eine starke Wirtschaft gibt ihr Spielraum für weitere Straffungen."
+      },
+      {
+        "title": "Nächste Schritte",
+        "text": "Nächste Sitzung: 8.–9. Dezember, mit neuen Projektionen. Die Terminmärkte sehen eine Wahrscheinlichkeit von rund 84 % für eine Erhöhung, und die September-Projektionen deuten auf eine weitere Erhöhung 2026 hin. Warsh kündigte an, dass die Fed künftig seltener über die Zinsen entscheiden wird; die Rendite zehnjähriger US-Anleihen liegt bei etwa 5,0 %."
+      }
     ],
-    "balance_sheet": "Weder QE noch QT. Die quantitative Straffung (Abbau der Bilanz) endete Ende 2025. Seit Dezember 2025 kauft die Fed kleine Mengen kurzlaufender Treasury Bills („Reserve Management Purchases“, von 40 auf etwa 10 Mrd. $ pro Monat bis zum Sommer reduziert) – nur damit die Bankreserven „ausreichend“ bleiben (~3 Bio. $). Auslaufende Hypothekenanleihen werden in Bills reinvestiert. Bilanzsumme ≈ 6,75 Bio. $. Warsh will die Bilanz langfristig verkleinern – seine Arbeitsgruppen zu den Abläufen der Fed berichten 2027.",
-    "learn": { "term": "Warum Bill-Käufe kein QE sind", "text": "QE bedeutet den Kauf langlaufender Anleihen, um die langfristigen Zinsen zu drücken und die Wirtschaft anzukurbeln. Reserve Management Purchases betreffen nur kurzlaufende Bills und sorgen dafür, dass genug Liquidität im Bankensystem ist, damit die Geldmärkte reibungslos funktionieren – Technik, kein Konjunkturimpuls. Das geldpolitische Signal ist der Zins, und der zeigt derzeit Richtung Straffung." }
+    "balance_sheet": "Weder QE noch QT. Laut Statement sorgt die Fed weiterhin für „ausreichende“ Reserven im Bankensystem. Die quantitative Straffung endete Ende 2025; seit Dezember 2025 kauft die Fed kleine Mengen Treasury Bills („Reserve Management Purchases“, von 40 auf etwa 10 Mrd. $ pro Monat bis zum Sommer reduziert) – nur damit die Reserven bei rund 3 Bio. $ bleiben. Bilanzsumme ≈ 6,75 Bio. $. Warsh will die Bilanz langfristig verkleinern.",
+    "learn": {
+      "term": "Falkenhafte Pause („Hawkish Hold“)",
+      "text": "Bei einer falkenhaften Pause lässt die Notenbank die Zinsen unverändert, signalisiert aber, dass sie weiter zur Straffung neigt. Hier zeigten zwei Gegenstimmen für eine Erhöhung, der Satz, die Inflation bleibe „erhöht“, und Warshs Weigerung, die Bedingungen „straff“ zu nennen, dass die September-Erhöhung wohl nicht die letzte war. Deshalb blieben die Wetten auf eine Erhöhung im Dezember hoch, obwohl sich heute nichts änderte."
+    }
   },
   "sources": [
-    { "title": "FOMC statement, 16 September 2026", "publisher": "Federal Reserve", "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm" },
-    { "title": "Chair Warsh's press conference, 16 September 2026 (transcript)", "publisher": "Federal Reserve", "url": "https://www.federalreserve.gov/mediacenter/files/FOMCpresconf20260916.pdf" },
-    { "title": "Fed hikes in 12-0 vote, commits to inflation fight", "publisher": "Charles Schwab", "url": "https://www.schwab.com/learn/story/fomc-meeting" },
-    { "title": "What to look for from the Fed's October meeting", "publisher": "Forbes", "url": "https://www.forbes.com/sites/simonmoore/2026/10/19/what-to-look-for-from-the-feds-october-meeting/" },
-    { "title": "Fed preview: on hold in October, hiking resumes later", "publisher": "FXStreet / Danske", "url": "https://www.fxstreet.com/analysis/fed-preview-on-hold-in-october-hiking-resumes-later-202610221047" },
-    { "title": "Can Warsh shrink the Fed's balance sheet?", "publisher": "First Trust", "url": "https://www.ftportfolios.com/Commentary/EconomicResearch/2026/8/13/can-warsh-shrink-the-feds-balance-sheet" }
+    {
+      "title": "Fed meeting live updates: Fed holds rates steady in split vote",
+      "publisher": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/economy/policy/live/fed-meeting-live-updates-federal-reserve-october-meeting-kevin-warsh-161129201.html"
+    },
+    {
+      "title": "FOMC press conference October 2026: live coverage",
+      "publisher": "American Banker",
+      "url": "https://www.americanbanker.com/live-blog/federal-open-market-committee-press-conference-october-2026-live-coverage"
+    },
+    {
+      "title": "Fed Chair Warsh says central bank to reduce the number of rate-setting meetings in coming years",
+      "publisher": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/28/fed-meeting-today-live-updates.html"
+    },
+    {
+      "title": "October Fed meeting: live updates and commentary",
+      "publisher": "Kiplinger",
+      "url": "https://www.kiplinger.com/investing/live/fed-meeting-updates-and-commentary-october-2026"
+    },
+    {
+      "title": "FOMC statement, 16 September 2026",
+      "publisher": "Federal Reserve",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm"
+    },
+    {
+      "title": "Can Warsh shrink the Fed's balance sheet?",
+      "publisher": "First Trust",
+      "url": "https://www.ftportfolios.com/Commentary/EconomicResearch/2026/8/13/can-warsh-shrink-the-feds-balance-sheet"
+    }
   ],
   "meetings": [
-    { "start": "2026-01-27", "end": "2026-01-28", "sep": false },
-    { "start": "2026-03-17", "end": "2026-03-18", "sep": true },
-    { "start": "2026-04-28", "end": "2026-04-29", "sep": false },
-    { "start": "2026-06-16", "end": "2026-06-17", "sep": true },
-    { "start": "2026-07-28", "end": "2026-07-29", "sep": false },
-    { "start": "2026-09-15", "end": "2026-09-16", "sep": true },
-    { "start": "2026-10-27", "end": "2026-10-28", "sep": false },
-    { "start": "2026-12-08", "end": "2026-12-09", "sep": true },
-    { "start": "2027-01-26", "end": "2027-01-27", "sep": false },
-    { "start": "2027-03-16", "end": "2027-03-17", "sep": true },
-    { "start": "2027-04-27", "end": "2027-04-28", "sep": false },
-    { "start": "2027-06-08", "end": "2027-06-09", "sep": true },
-    { "start": "2027-07-27", "end": "2027-07-28", "sep": false },
-    { "start": "2027-09-14", "end": "2027-09-15", "sep": true },
-    { "start": "2027-10-26", "end": "2027-10-27", "sep": false },
-    { "start": "2027-12-07", "end": "2027-12-08", "sep": true }
+    {
+      "start": "2026-01-27",
+      "end": "2026-01-28",
+      "sep": false
+    },
+    {
+      "start": "2026-03-17",
+      "end": "2026-03-18",
+      "sep": true
+    },
+    {
+      "start": "2026-04-28",
+      "end": "2026-04-29",
+      "sep": false
+    },
+    {
+      "start": "2026-06-16",
+      "end": "2026-06-17",
+      "sep": true
+    },
+    {
+      "start": "2026-07-28",
+      "end": "2026-07-29",
+      "sep": false
+    },
+    {
+      "start": "2026-09-15",
+      "end": "2026-09-16",
+      "sep": true
+    },
+    {
+      "start": "2026-10-27",
+      "end": "2026-10-28",
+      "sep": false
+    },
+    {
+      "start": "2026-12-08",
+      "end": "2026-12-09",
+      "sep": true
+    },
+    {
+      "start": "2027-01-26",
+      "end": "2027-01-27",
+      "sep": false
+    },
+    {
+      "start": "2027-03-16",
+      "end": "2027-03-17",
+      "sep": true
+    },
+    {
+      "start": "2027-04-27",
+      "end": "2027-04-28",
+      "sep": false
+    },
+    {
+      "start": "2027-06-08",
+      "end": "2027-06-09",
+      "sep": true
+    },
+    {
+      "start": "2027-07-27",
+      "end": "2027-07-28",
+      "sep": false
+    },
+    {
+      "start": "2027-09-14",
+      "end": "2027-09-15",
+      "sep": true
+    },
+    {
+      "start": "2027-10-26",
+      "end": "2027-10-27",
+      "sep": false
+    },
+    {
+      "start": "2027-12-07",
+      "end": "2027-12-08",
+      "sep": true
+    }
   ]
 }
