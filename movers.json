@@ -1,46 +1,121 @@
 {
  "date": "2026-10-28",
  "threshold": 3.0,
- "updated": "2026-10-28T18:36:03+00:00",
+ "updated": "2026-10-28T20:11:30+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 772.91,
-   "change_pct": 0.42
+   "price": 774.15,
+   "change_pct": 0.58
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 725.86,
-   "change_pct": 0.64
+   "price": 727.99,
+   "change_pct": 0.93
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 81.41,
-   "change_pct": -0.28
+   "price": 81.11,
+   "change_pct": -0.64
   }
  },
  "movers": [
   {
+   "symbol": "NBIS",
+   "name": "Nebius",
+   "list": "portfolio",
+   "price": 183.05,
+   "prev_close": 170.47,
+   "change_pct": 7.4,
+   "trigger_change": 4.0,
+   "peak_change": 7.4,
+   "first_seen": "2026-10-28T18:36:03+00:00",
+   "sector": {
+    "etf": "IGV",
+    "name": "Software",
+    "price": 111.91,
+    "change_pct": 0.12
+   },
+   "chart": {
+    "ema8": 6.0,
+    "ema21": -3.4,
+    "sma50": -13.7,
+    "sma200": 3.5,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Nebius Leads Major Rebound in Neocloud Stocks",
+     "publisher": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQN1B4MGZqcThKaGdZemNVOWZJeHk0ZkRKREU2NjJXcFVMWmsyWXNnaTZIVVdYZ3MxblJMX0VXeEswck9xRW1RVVEzNzNmLUJQMTdNcFVjdklDcFdLc3k4NHg2bmF5SkhiUlpvMUp4dnppMGtyaUpnQm9fTDd6UXpfSXBwNVJyMnlOb3F5MlFqell6X2pTZC1CUzcteURWcWtiOXpxcTZlakc?oc=5",
+     "time": "2026-10-28T16:48:08+00:00"
+    },
+    {
+     "title": "Nebius: Chance To Double Down While The Buy Signal Is Printing (NASDAQ:NBIS)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQRlZCaFRKdWw2ZDBRRlV3ZDIzM1AtbHZpYlBzM09FMG1aaGM2dWxpZEUyOUxwMlF6UlhJMjJsQlQxMXp4SElrMk82WGhlVnR6eUNtZXc2N1d5Y1pZTEl4WjdMZGdqSDhnelQ1V3huWExkNkQ5VnAwVHotenpGTUpFMUdSTjRXaDJsSU9uSl94d3BraFZqRDVhV1VDNzdXQ29NcTQ1aw?oc=5",
+     "time": "2026-10-28T15:24:59+00:00"
+    },
+    {
+     "title": "CoreWeave Vs. Nebius: One Runs the U.S. Government's Debt Playbook, The Other is Like Norway",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQMmpfeU1oQktrRTVTaTdLV29nQ0hCSzBKd0o4Q2cxUWVzTHVmNmg5U0ZPdi1rYVlwWE5adzVyR2h3WS1BOHhOUWRkR2NKQ1pNenZXSlBzOVFnajRUMVJCUDRkMWQ4bXVxZ3F6bkRDRjJEQ0xhZDVxRVo1M0ltRlRiSDdFbHNKMDAtd0kwRmFWdXc0U0JGY0VVbFd1a29zOUJ5Y09xYnEyTmtfZ2hFVk5MejVENTY4czJXWllGemkwMXIyWnc0RktvWmtfRQ?oc=5",
+     "time": "2026-10-28T14:49:09+00:00"
+    },
+    {
+     "title": "Nebius Group N.V. $NBIS Shares Newly Acquired by Parametrica Management Ltd",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOS2QzZUVteWo1akJadExRNlN2RzhjOHBBLVZ4OHZEQ1hRV1pxUVRzTUY3OTZMdjZsMElkSHJrRFZwNnF2NjdGb3RpUWF3eWV3bE9KV1lmWUhCRVJmZ1NpaGI3dkR3RmltWFZmMFhrZTlzUEhLWXIwLTZ1VlBhNnFNbmxUaFNydExzdURRbWg5NmVONXU2cU9sT1JINlpQams3cEl6enp0bzU5Y3VMclNnNjNtbHo4VmROdEZwdWhDNHV3ZmZtRU93anhzd1NwUQ?oc=5",
+     "time": "2026-10-28T10:36:04+00:00"
+    },
+    {
+     "title": "Nebius Group (NBIS) Shares Surge 11.44% Amid Renewed Interest in AI Cloud Sector",
+     "publisher": "GuruFocus",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPQUNzdkxpUkpFUVF2MGNVeVNGejFkR3lxa0xaZUVyT1hQUDEwNHJmM3hrSmNoS2tQVDFJcl9RWXFXT3E0TTA0dy0yb3VfcVBpVEx5TFV5WXVWWklYSEdpVlVHWU9xOW5KQ0diN2JhMzdFdUh4dzFGVmVIRlRQdWRmdEZ0M2M4WlFEZWo3YkJsWGpwNVJfNzdReXU5cTVGeVNlOGtjbDQ2MlJ1TnRZR1dVWDFNZ3RmUQ?oc=5",
+     "time": "2026-10-27T23:13:12+00:00"
+    },
+    {
+     "title": "Nebius Group (NASDAQ:NBIS) Stock Price Up 11.2% on Insider Buying Activity",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQM2VzaEhVa2tNRFl2d2s3dGlZai1RdHhaaUNQa1N6M3dTVFdKLXZVOVRhM2NmdVpBcTNQaHBfVl9ib3BMd25ieENJZG9sOTBGY2RWSk0wV1JkLVFHOGhpSEh4N2RYN3pEQ0k5SEtfcjZRdHF4aUdpWFd4TkNJVnRjVjZFMGEzYWZBZWdtYnhoa0FHOFpOcms1eHMzTWZFUWRfSUpMOVFZMTZtRlJiZ1A4T1kyWktyM2lQNWJGZWpVMHMxbng3cEtpUmlB?oc=5",
+     "time": "2026-10-27T21:11:14+00:00"
+    },
+    {
+     "title": "Nebius Group rises 11% along with other neocloud stocks (NBIS:NASDAQ)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPaU43R1p1bnRWd2lNRV91YWhwbzc0UmhVRzlVNThXM0laMXpNeEJoZWdneloyRVhJelpVX09VUUJablRFNmlVYXE3Ry1vTFpWMUxoTUNIUmRPZG5JU0p3a1hfX0loVnNrWmRiY2xwN0NXOF9mbDZUYVIzYmJYc1NFal8zNlZZUm9mWF9WLU5BbGJOcF9iQjNF?oc=5",
+     "time": "2026-10-27T20:15:28+00:00"
+    },
+    {
+     "title": "Nebius Group NBIS Stock Jumps As AI Cloud Buildout Accelerates",
+     "publisher": "Timothy Sykes",
+     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9VU0RiTzFmUG1hWnVfaGlQRm9Rc1RKWGlsTDZKem10YkxDdDcya0pWUGp2VEdIN1dmTXNYeXpLOFA3a1Y3Nk10WThnUVV1Q2dvWlBkRFNCZ1FLX3NuWkU2V0s2XzNYMnp3Zzd2WHVjejk2aHQtcmhhSA?oc=5",
+     "time": "2026-10-27T20:02:00+00:00"
+    }
+   ],
+   "brief": "2026-10-28-NBIS"
+  },
+  {
    "symbol": "AMAT",
    "name": "Applied Materials",
    "list": "portfolio",
-   "price": 419.23,
+   "price": 418.0,
    "prev_close": 395.93,
-   "change_pct": 5.9,
+   "change_pct": 5.6,
    "trigger_change": 3.4,
-   "peak_change": 5.9,
+   "peak_change": 6.0,
    "first_seen": "2026-10-28T14:03:48+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 569.42,
-    "change_pct": 2.05
+    "price": 568.31,
+    "change_pct": 1.85
    },
    "chart": {
-    "ema8": 3.0,
-    "ema21": -3.7,
-    "sma50": -9.1,
-    "sma200": -5.5,
+    "ema8": 2.8,
+    "ema21": -3.9,
+    "sma50": -9.4,
+    "sma200": -5.7,
     "momentum": false
    },
    "headlines": [
@@ -49,6 +124,12 @@
      "publisher": "Traders Union",
      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPRlloNDNVemE4RzlDNFV4cFFvUVNkX1NqTVFhUjFiZ0FJeGJTcXlpZlIwQ1hBdXlmVmdjZl9SN2RYMm5hU1R1d0hERlVXcG1tcW5Fbm5zejdkcXk5Q01paDR4Q29nSEI1Y3p6TmFFa1RXenczS01nMTZfT0dDUVF1dUZQY1JLRVFCWDJlMVdvcENqSEE?oc=5",
      "time": "2026-10-28T17:31:34+00:00"
+    },
+    {
+     "title": "Applied Materials (AMAT) Moved, What Is Drawing Fresh Attention?",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxObVNWQjYxejFzN3dwNy1PbDlCRVZXTWdqcXZVMVJTQTdkRWpBLWdCME5rOVRJR052LUJGWFVBSENZcXZwOWM1Z0k4RThXd19iaGZSanVhYmpoMTBGMW9tMzlBZ19JUTNMV2R2WUZsSmktRWJSYkJWVnYtcjJhbVV3YkItOXRxdnpsTHl6YUVnenlsVXF0Qlhqbm5wSVRRbVZ5eFl3?oc=5",
+     "time": "2026-10-28T17:06:44+00:00"
     },
     {
      "title": "Chip Equipment Stocks Rally as SK Hynix Signals Memory Shortage Into 2030: Lam Research Jumps 5%, Applied Materials Climbs 4%, KLA Gains 3%",
@@ -85,100 +166,19 @@
      "publisher": "Yahoo Finance",
      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPS2JQbzFMNmlUZ2JSYzc1ODktNXN4YXpaOWFWR1Uwd1prNHNuVlBOUkpVMzl1MnU1dENpZi1LVmhHbnY2c1E1NFJqMnQ2YUVWa2hudGYyTVZyTHVvMFh1c3lLLTlnMnZVYVZZOC1uTnFkTV9ENmtHZGoxdjg4WEozYTdWM1gxRnpLY0NHemViZ2NyeXE2YkQ2OEt3?oc=5",
      "time": "2026-10-28T11:01:57+00:00"
-    },
-    {
-     "title": "Why does Applied Materials (AMAT) matter to chip investors as 12 November nears?",
-     "publisher": "Kalkine",
-     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPWDd2SDQwSWlpcmljODkwQVZYanFrQnM0aGpFLVFvX0ZGbmdVWmVrMndWelE3RnFfdkVERVgweFpicjB5Q3lJQ0s2aXVLX0x0UlhsQ1ZFUWFVVGlrLU5NaGV0TDNLOEVadzZqZENwdnRwazdxY2RWUVlUT1RnWnZ6dTQ4Z1p4T0NWUWI0Z2p6ZURKY3RYLVhmWWhLSjd5b3U0ZEVjTEhiTms3OTd0bDRKSXdKWkJ1eU9qMXZWZVRucEhaS1pV?oc=5",
-     "time": "2026-10-28T06:00:00+00:00"
     }
    ],
    "brief": "2026-10-28-AMAT"
   },
   {
-   "symbol": "NBIS",
-   "name": "Nebius",
-   "list": "portfolio",
-   "price": 177.36,
-   "prev_close": 170.47,
-   "change_pct": 4.0,
-   "trigger_change": 4.0,
-   "peak_change": 4.0,
-   "first_seen": "2026-10-28T18:36:03+00:00",
-   "sector": {
-    "etf": "IGV",
-    "name": "Software",
-    "price": 111.8,
-    "change_pct": 0.02
-   },
-   "chart": {
-    "ema8": 3.4,
-    "ema21": -6.2,
-    "sma50": -16.3,
-    "sma200": 0.3,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Nebius Leads Major Rebound in Neocloud Stocks",
-     "publisher": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQN1B4MGZqcThKaGdZemNVOWZJeHk0ZkRKREU2NjJXcFVMWmsyWXNnaTZIVVdYZ3MxblJMX0VXeEswck9xRW1RVVEzNzNmLUJQMTdNcFVjdklDcFdLc3k4NHg2bmF5SkhiUlpvMUp4dnppMGtyaUpnQm9fTDd6UXpfSXBwNVJyMnlOb3F5MlFqell6X2pTZC1CUzcteURWcWtiOXpxcTZlakc?oc=5",
-     "time": "2026-10-28T16:48:08+00:00"
-    },
-    {
-     "title": "NBIS stock Analysis trades at $171.745, up 0.75%",
-     "publisher": "The Cryptonomist",
-     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBXV05XSTBmRjlMVjRudjJnQVc5SjNjNkhlZFpuc19Qclo3SU5vQ2ZaMGxvR3JFT1dHVjc2TjJrUXV3NkdYcEVfVkU4ZnlKZUNHc0NsLXlWc2kxRlBKYmZyUHFsYVNQTmlCYmpiVmRsTnNTSmVFN1YzZ0lxZ01BUQ?oc=5",
-     "time": "2026-10-28T16:18:59+00:00"
-    },
-    {
-     "title": "Nebius: Chance To Double Down While The Buy Signal Is Printing (NASDAQ:NBIS)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQRlZCaFRKdWw2ZDBRRlV3ZDIzM1AtbHZpYlBzM09FMG1aaGM2dWxpZEUyOUxwMlF6UlhJMjJsQlQxMXp4SElrMk82WGhlVnR6eUNtZXc2N1d5Y1pZTEl4WjdMZGdqSDhnelQ1V3huWExkNkQ5VnAwVHotenpGTUpFMUdSTjRXaDJsSU9uSl94d3BraFZqRDVhV1VDNzdXQ29NcTQ1aw?oc=5",
-     "time": "2026-10-28T15:24:59+00:00"
-    },
-    {
-     "title": "CoreWeave Vs. Nebius: One Runs the U.S. Government's Debt Playbook, The Other is Like Norway",
-     "publisher": "24/7 Wall St.",
-     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQMmpfeU1oQktrRTVTaTdLV29nQ0hCSzBKd0o4Q2cxUWVzTHVmNmg5U0ZPdi1rYVlwWE5adzVyR2h3WS1BOHhOUWRkR2NKQ1pNenZXSlBzOVFnajRUMVJCUDRkMWQ4bXVxZ3F6bkRDRjJEQ0xhZDVxRVo1M0ltRlRiSDdFbHNKMDAtd0kwRmFWdXc0U0JGY0VVbFd1a29zOUJ5Y09xYnEyTmtfZ2hFVk5MejVENTY4czJXWllGemkwMXIyWnc0RktvWmtfRQ?oc=5",
-     "time": "2026-10-28T14:49:09+00:00"
-    },
-    {
-     "title": "CoreWeave Vs. Nebius: One Runs the U.S. Government\u2019s Debt Playbook, The Other is Like Norway",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNcWE0cy1uSU1CRkNMSFA1UG1hNUZOSG1ibC1USERyTGM0eEx2WVU5bmVGNlhjYm81eUxHQTJveXJmemR1bTZ2b2JRUmlSX0tsbDN3OHFITi01N1ZqeGhaTU1vSnFZMGdtOUtFQmpnU29KSjZYcjBwQVp1U1FlR25hUzV6Ylk2RTZFUkF1Q3BhRk44amRzOXVhXw?oc=5",
-     "time": "2026-10-28T14:45:43+00:00"
-    },
-    {
-     "title": "Nebius Group N.V. $NBIS Shares Newly Acquired by Parametrica Management Ltd",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOS2QzZUVteWo1akJadExRNlN2RzhjOHBBLVZ4OHZEQ1hRV1pxUVRzTUY3OTZMdjZsMElkSHJrRFZwNnF2NjdGb3RpUWF3eWV3bE9KV1lmWUhCRVJmZ1NpaGI3dkR3RmltWFZmMFhrZTlzUEhLWXIwLTZ1VlBhNnFNbmxUaFNydExzdURRbWg5NmVONXU2cU9sT1JINlpQams3cEl6enp0bzU5Y3VMclNnNjNtbHo4VmROdEZwdWhDNHV3ZmZtRU93anhzd1NwUQ?oc=5",
-     "time": "2026-10-28T10:36:04+00:00"
-    },
-    {
-     "title": "Nebius Jumps 11.22% as Neocloud and Chip Stocks Outpace Nasdaq",
-     "publisher": "www.tokenpost.com",
-     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE81TkFiTnozZXNnZy1kWVVlUXJzUkhGaHZNRkxLRU1MckRMMExBeFNWaUF3bUxWZnBmMEoxeEo1MVR3MDJXZllmaUJ5Y0Z6cWRkWk5pczV2cERNZw?oc=5",
-     "time": "2026-10-27T23:45:34+00:00"
-    },
-    {
-     "title": "Nebius Group (NBIS) Shares Surge 11.44% Amid Renewed Interest in AI Cloud Sector",
-     "publisher": "GuruFocus",
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPQUNzdkxpUkpFUVF2MGNVeVNGejFkR3lxa0xaZUVyT1hQUDEwNHJmM3hrSmNoS2tQVDFJcl9RWXFXT3E0TTA0dy0yb3VfcVBpVEx5TFV5WXVWWklYSEdpVlVHWU9xOW5KQ0diN2JhMzdFdUh4dzFGVmVIRlRQdWRmdEZ0M2M4WlFEZWo3YkJsWGpwNVJfNzdReXU5cTVGeVNlOGtjbDQ2MlJ1TnRZR1dVWDFNZ3RmUQ?oc=5",
-     "time": "2026-10-27T23:13:12+00:00"
-    }
-   ],
-   "brief": null
-  },
-  {
    "symbol": "SOFI",
    "name": "SoFi",
    "list": "portfolio",
-   "price": 17.04,
+   "price": 17.1,
    "prev_close": 16.4,
-   "change_pct": 3.9,
+   "change_pct": 4.3,
    "trigger_change": 3.8,
-   "peak_change": 3.9,
+   "peak_change": 4.7,
    "first_seen": "2026-10-28T13:58:47+00:00",
    "sector": {
     "etf": "XLF",
@@ -187,36 +187,48 @@
     "change_pct": 0.48
    },
    "chart": {
-    "ema8": 9.7,
-    "ema21": 9.7,
-    "sma50": 2.5,
-    "sma200": -4.7,
-    "momentum": false
+    "ema8": 10.0,
+    "ema21": 10.1,
+    "sma50": 2.9,
+    "sma200": -4.4,
+    "momentum": true
    },
    "headlines": [
+    {
+     "title": "SOFI Stock Jumps As Earnings Beat Fuels Bold 2027 Targets",
+     "publisher": "Timothy Sykes",
+     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOUjJTUndqQjUyRU92Q0pHazNRZTI0cEtFcTlfLUNJcjRDMjN1cmxLS2lNOHJUWmphS291SmZVaDMzdER4N2daN0dWa0h2NzV4Y0lnMTUwdmdtWXhVekNuRU5VNEEzQmw5WDlYMnVON3hTQnFCb1V4dThISS1OOUNlM0NJVQ?oc=5",
+     "time": "2026-10-28T19:19:18+00:00"
+    },
+    {
+     "title": "Defiance Daily Target 2X Long SOFI ETF (SOFX) Stock Price | Live Quotes & Charts | NASDAQ",
+     "publisher": "www.timothysykes.com",
+     "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5TdElNODFMS1FuUnNKNlY1RURwc25pa1N3ckJNSUhmcEJoNUt2YjJCdUNoY0JFR0oyMVdpZHZyN1BqcV9UMEJScGVGOVo?oc=5",
+     "time": "2026-10-28T19:18:10+00:00"
+    },
     {
      "title": "SoFi Is Still Down 35% This Year: Did Today Just Mark the Bottom for SOFI Stock?",
      "publisher": "24/7 Wall St.",
      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOVDJNdnpYcms1ejg2MEVEdjJsRm1KTllrcVlwSFZTX213N0psSVZkVllSbUpiaHQ1NTh4V25SN01qQlF3MnR1TVEwQzFvX1JkQUVlN3dieEVPMjVmOXJEOEdGRVN3Smo1ZjVLdUZqbmxZcVNoLVZzRGlCOVJLNEIzUUVYQk9CMHgwcVhqb090V1VEcnhHdjRIR09CU3lKel94X3pCQmVnSUhVTDZsUFI2UHdqNnBxSUgybDdVcE9B?oc=5",
-     "time": "2026-10-28T18:01:55+00:00"
+     "time": "2026-10-28T18:19:45+00:00"
+    },
+    {
+     "title": "SoFi's stock remains down 35% YTD despite stron...",
+     "publisher": "Pluang",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOMEp5TmxybEsxZ09MbElRQzhwbUNwbFp3SG9TSzRPT3p6bTRoamU3LXlPaWZJaHl2N0ViSlV4UWlWZ3BmTGJETHF2ZFI4VGFrYXFEMHEzdUlHcTludGl0Z2F3VUNPUmhaNkxWdzloTFBIZXFvX0lacS02bFZjNmcwajhScWNxQzlYcXEwVWktdzZvczA0Ulg2R01nRmF0QlV0?oc=5",
+     "time": "2026-10-28T18:18:15+00:00"
+    },
+    {
+     "title": "2 Fintech Stocks to Buy While Their Customer Numbers Keep Climbing",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPVVQyWkZlTFl1Z0c5TXNnSTdMQ3JyYUVIa3czVmZkR2JyUlFYblplTjd3OXdMMEtJRVd4MkhBT1NDRWlJcHRxRUUwbDJTUWdWWVk0YVB3cV9UUDc3TFNpSERYdnlwdUlSRTVSbHJ3TmlnQjEtZG5INkR6YmhoTTNhZUVQV0lsSHJsZmNORnV5b0lOTnYxcENLbg?oc=5",
+     "time": "2026-10-28T17:10:00+00:00"
     },
     {
      "title": "Scotiabank maintains Sector Outperform rating on SoFi Technologies, $26 price target",
      "publisher": "TradingView",
      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQczBFcUNGU1d4blNTTGZxWnZYYkJEeGQ4djYtSEE1R1VCSGx2aFByQ1RPMFhyRkNqalZQQVdKck03MXhkVHhfU1d1bEJ5Q2thY1I1OEdFbGdtVUN5MHNTZ2k5X0hBVnNoczZNOHNaRTNSYm5OMllGN3ZIQXVqMXpvMEdGMG53ZGpXeDhkMldzZWYwWWVUUGhzSnliUUdRS21KRklVaUVRakJWUm5zTlN4Q3M1OXJqdHhXLUEtY0taZDgzZ0lIMVpRUFlSMURYNFFuajNuUTN2c0p0WG1P?oc=5",
      "time": "2026-10-28T17:00:32+00:00"
-    },
-    {
-     "title": "SoFi Stock Surges 13% Following Strong Q3 Beat and Upgraded Guidance",
-     "publisher": "TIKR.com",
-     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQVnpzcWJPcGx1cEIzOUVEaGpEWlM5NVZpSHVTRG95dnJ1X3FSaTg3ekNNT1lNSm1CTlZzc0FSVHJKXzZBQUtCZWFKQkdjWXhsOUxQaXNZV1ZNb251c1BuOEppRmpOVWZMdkZFeDhWZXk0WjBHMUxTMTgxVk9pcDYyejR4WUN3azEy?oc=5",
-     "time": "2026-10-28T16:41:15+00:00"
-    },
-    {
-     "title": "2 Fintech Stocks to Buy While Their Customer Numbers Keep Climbing",
-     "publisher": "The Globe and Mail",
-     "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNY1FyR3lOd0ZqZlFIakhRaDhsbVRTR1FJT2hkY052bk9BUzAxTzlvTzZxMDRkZ0x6dUM1UjBOVmREZzQwakJRRGhsUnZ3Y0ZHLUdpeGJvclF6LXlZWXhQUVJnd1BvQjJiSHlOcC1KbGo2d1g4VEc2cGJwSHlJaFFoTDk0QTFrWmdzTGRLTVRERmhVUHl2WnBfM3djSHlWWmxTOEFsOFpyaFN5TzRZWTlFZkNZcU5pODd6RHJUWjBRa0RqOHAtQzkzZVZyMGJzYjBIeDRMcEpRUnVoeWtMdzZjaXRXaFJkQQ?oc=5",
-     "time": "2026-10-28T16:30:48+00:00"
     },
     {
      "title": "SoFi stock Analysis at $16.9 with mixed momentum",
@@ -229,18 +241,6 @@
      "publisher": "Benzinga",
      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOYU1XYmU3TlZlR3BfYlQxSHJuVVh5c2U5Q3BqTUxYVUVvckJZa3hIcVhDNE02YmRoazJPUU5jakVOb0ZPcXNPVUxaaEVtQ3k4aFZzOHdOXy1GZXFWZ3pycEN5cjVOa3BnTVNkd2V0QUJUQ25hVFRIcmsweUd5c1BtN1NtQ2JIWXdISU5aWlJSV0ZFWEdoSDB4LVZUWi1SWDlpQmc?oc=5",
      "time": "2026-10-28T15:48:49+00:00"
-    },
-    {
-     "title": "SoFi stock pops as record revenue and a raised outlook stun Wall Street",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPWVdNUHRVX0NBclBXTnh1b2VEbEgyektVODlDcER1amxtZDBVWXJ1MV9lZ2gzUGV5VVZvTzRISFpFbl9Lbm5Cc2x2ZjhDOWhvbXVXejdOM1lUVnltckJjY0JWUm92MUZrbE1MLXplOGRKdVFNSFhwMUgta1NLamRIQXl2cWoyVGMxVUVvSE9MMWgxWUlQdFQySmpSQQ?oc=5",
-     "time": "2026-10-28T15:05:36+00:00"
-    },
-    {
-     "title": "SOFI Stock Rallies 13% After Earnings: Should You Buy or Hold?",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZG5pYTZSZTFsMzh3MEdRTF9Zb0ZBb0E3enROQjh1NDE0VkJlMWZ4TUE3Q0xfNFZBaUJ2THpCanE4WlBSMXJZS2ZjQ0ZCeThlRkdZcUdmOHhUdDhIQUQ4TENuUWRVaElPYW1PVVVQWEU0RnVHMGpTaHhZUTlwZE1CWjVoMVBZZWtWS3pnUGZOUElGWFpPc29qZ1hicw?oc=5",
-     "time": "2026-10-28T15:01:00+00:00"
     }
    ],
    "brief": "2026-10-28-SOFI"
@@ -249,31 +249,61 @@
    "symbol": "NOW",
    "name": "ServiceNow",
    "list": "portfolio",
-   "price": 150.28,
+   "price": 150.2,
    "prev_close": 154.78,
-   "change_pct": -2.9,
+   "change_pct": -3.0,
    "trigger_change": -3.1,
-   "peak_change": -3.3,
+   "peak_change": -4.2,
    "first_seen": "2026-10-28T17:55:45+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 111.8,
-    "change_pct": 0.02
+    "price": 111.91,
+    "change_pct": 0.12
    },
    "chart": {
-    "ema8": -1.3,
+    "ema8": -1.4,
     "ema21": 2.4,
-    "sma50": 7.7,
-    "sma200": 30.4,
+    "sma50": 7.6,
+    "sma200": 30.3,
     "momentum": true
    },
    "headlines": [
+    {
+     "title": "ServiceNow Drops 3.8%, Shedding About $6 Billion in One Session",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQX09xTnhNOWhTZEdUY3NQMkVxTFJQNEVnZGdldVY1UzZSaDh5MmJmNmFWNEdyb01zUEhFRk9UczRwYnJaRmtuTmZjTmItdDF5SmpGcGROaTBzaExYQ01qalVQZ0lmVXY5WWxpbFJlZzlsZmVfaUh2VjZ2WXNjYzd4VlFDY2VIVno0?oc=5",
+     "time": "2026-10-28T19:41:15+00:00"
+    },
+    {
+     "title": "ServiceNow (NOW) Deepens Enterprise AI Workflow Push",
+     "publisher": "Simply Wall St",
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQVWxnem9PdkJMZUY0N2tWWUd1UFpVTGFzRDBib05acWpDS3RYN0tuRnJKVmY0Z1kxR3Z2OXk1MFJKY2hzdkxIdjVleGdWTVNiSm5LMTBSd3gyV0NfNF9sNVVoZE9WbmpmWlZzblktVWNaaFg4eG9nTVNxR3NwSEM4WGJHMXBrZWJCekN5QW9Ub2tyWW40bnlvMkNDV0hHWVg2R3huT2N3LVM2VDFTdk1aZWVGR2Rib0HSAbwBQVVfeXFMUEstTWFtdFlVTXJ5T0dZWVY2ZktSVU9ZX083c2FoeU93cmoyVWdWWWI1bkRIR0FXeF9uSUpLWkp2R1RoNUxqVVJ3cnhhMEkxZnZVbkdaRjVMTVAyYURpQ3liUk10dzVteDVTZ0ltd1U2dDVTNmdDcFlWa3p0eFlKRFhHa2I5RDRUS0xVcHRhVjRobU4wWFNfYkVCN0EzeE1sNktvRTEzMDBSUUlzcXVDX29NLUNmT05GWmNQOVY?oc=5",
+     "time": "2026-10-28T19:30:00+00:00"
+    },
+    {
+     "title": "ServiceNow (NOW) Stock Still Looks Below Fair Value On Cash Flow",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNR21wSG92eUIzdTJ4bGIyY0JRRmdkWlJzMjUyRGVkUVd6aG9qN0F4Tl9YbU5vSXpnOGQ1R3hFM19KZUFZZHR2UkZCTzN4Wmc1MjBjZGhJVllxLUxtREpIWWdmdzZzTkdMY0Fqa1B5MnNLRURKLThDZEx5UWxRSFVha0tQa2hfbXJGaUM0TXB4MVBUR3RJRE5EVWthQldrUQ?oc=5",
+     "time": "2026-10-28T19:12:42+00:00"
+    },
+    {
+     "title": "ServiceNow Q3 2026 Earnings Date and Estimates",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOV0dHSjlJT2FwU2JNWUNhRlpmcTVveFloOEVkYzA1S2YtN1d3NzZhTXZfTEVtaGxiMEd2YV8zcDRNblJwbENEZThPYjdfa24wWW91NC1KZmNrNVVCZmxRT0EwaXFwRzhNUFpGWFI0S18tenFDdlRTeGFHa0VfeEFaUXhR?oc=5",
+     "time": "2026-10-28T18:39:27+00:00"
+    },
     {
      "title": "ServiceNow slips as investors brace for Q3 results and weigh valuation risk",
      "publisher": "Quiver Quantitative",
      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSlM3ZkxIYk9WZlE3VFJIVFJXR01sbzRZcXVBc2VON0dTbVRXQ3hyVlF4b25RZThOT1ZnS3B2Y1ppU1cwT3k3bHVocmVlR3BvRUpia0R4YnV6T0VGclVjSHQ0UUZkdTdrdGxCamd1Q0ZMbWR0ekxLQVRfcHJmZkFCZk0tYzFBcExJbVhaWWRLNTZDNDZKZng3cVJEcUxqQ1lMTEtHWmppV3JJSEJ4?oc=5",
      "time": "2026-10-28T17:35:00+00:00"
+    },
+    {
+     "title": "OpenAI, ServiceNow expand partnership across enterprise workflows",
+     "publisher": "TipRanks",
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQakJMQXZoSWN5N2ZDYmZDVEpKZ0ZNR0Zjc1MzbEhqbW4zZ1VVNTl4NkRPaGg4WEswemFyT3gwenJfVGVRUzBSQjV3ZnQ5YjA2cXBZZl94bWQ4YVhsd0htUEZYYmhxSEdVMmROc0loOVNGSWJCRWNZODJnWWF1ZS1VT0NlclZ6dy0tNUJROE9Mb0NtdGJiQXdRLWYxRHd0NmlaZXIwbUhGajJlWkJldVpNMGFuSmE?oc=5",
+     "time": "2026-10-28T17:30:30+00:00"
     },
     {
      "title": "ServiceNow Inc Stock (NOW) Moved Down by 3.17% on Oct 28: Facts Behind the Movement",
@@ -286,36 +316,81 @@
      "publisher": "Traders Union",
      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNQlhFQUhmVGdvMV9QR3ZGYVlMa2RiSWZ6TVdrZGhaQ0xXWU5pb2RpZjlfNnZ5dm9qaUtRNVZ0T0h3ZnFMaFNxU3VCd2FGeDZPZERldFNnYjhwUzJhcldUOU9nMUw5Z1dpNUwxZ0JKczVpWFpsNWJGd0NOVkowLVVWdzlnQjdEcjkxWlpTVEpWZzVwLUd0STMw?oc=5",
      "time": "2026-10-28T17:12:32+00:00"
+    }
+   ],
+   "brief": "2026-10-28-NOW"
+  },
+  {
+   "symbol": "AVGO",
+   "name": "Broadcom",
+   "list": "portfolio",
+   "price": 352.77,
+   "prev_close": 342.33,
+   "change_pct": 3.0,
+   "trigger_change": 3.0,
+   "peak_change": 3.0,
+   "first_seen": "2026-10-28T20:11:30+00:00",
+   "sector": {
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 568.31,
+    "change_pct": 1.85
+   },
+   "chart": {
+    "ema8": 4.1,
+    "ema21": 2.4,
+    "sma50": -0.3,
+    "sma200": -4.1,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Broadcom Stocks Rise With Anthropic Financing Linking Sales and Asset Risk",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPRVZnVlpRNzh1cFA4QVhHckdSMEdUbWliX0RYQzhPTjk2QlZQNUNBdG8ySkgwOExOZmFPWlpCV0ZWcmE2UVIxSno0S3pPS0N0aWFZV0xUUFpEVGZPc09nTHZua2FpTE9GMFBSZ1Z1VHRVOFJremJ0N3hKUlhrb2R2Z1lLQjBpV3JPV01Rd1J6Njc1dGNXd3BrSWVfZ1JISFVKdjdyRGRUc1Q?oc=5",
+     "time": "2026-10-28T17:26:38+00:00"
     },
     {
-     "title": "ServiceNow Slips Ahead of AI-Heavy Earnings, What Is Going On?",
+     "title": "This Pentair Analyst Is No Longer Bearish; Here Are Top 2 Upgrades For Wednesday",
      "publisher": "Benzinga",
-     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZVlYYmhMZUx1TzNhTHlDSDFQcTRDbGpwWDA3ME1vcEdpQzUyV3BLUm5rdHpQVmprcnJaMW1ZUE5RRENCREdtbHFXYWQwQm9fcHI5dFFSeElRcmNwdEpQZUVjNzlOUEtGN1JkeTFaZnFBaVBsZ3paak5XcExXaWpndEJVX1hUY21iR0tGNlVaTGcxYy16TW5tZ25GSDNwTTVvbllTcmhyVkxLdWVSN0FSN1JHVQ?oc=5",
-     "time": "2026-10-28T15:31:26+00:00"
+     "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOV0hSajFzTW9WT01CeDI1bUVHa0YwV1haX1RiMTlTX01sby1pRjhUd2ZhNHBaeGp1bGFEM2w3QkxuRnhjTUVUZ3JWd1pOODUtOFVDSnNlV3VJX1YzLTNqZHFVMVZPOHA3cmYxdmpqay03WHBWUEhfQ2owTzUtdnZ0R2Q1WmZGcno1aGpwZHAySHAxNmdtN2Q1VFFWZXNrejhQY1hyQzJ4RGxhTjdmTnVaQ1F3Y3RWSWptcVZhbmIwZGtrdEdtTi1od2pmcXVXeHVPYWdLaGhlRGY0aXlsYUJIdFVRTU4?oc=5",
+     "time": "2026-10-28T16:54:17+00:00"
     },
     {
-     "title": "ServiceNow stock setup into today\u2019s earnings: Here\u2019s what our AI model says",
-     "publisher": "Investing.com",
-     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQcnFoTllKWjBvcGxWWDBPbkdhc2tzdzNwaU1pNV9RTXdKYk5ySE5tR0xGYnJ3cDRSSUltcllUa1BsVFAzOHNIU3cyMG9jcjZzV2pGUFVIM1AwcHp1b25pbnk4QjZsc2VaT3JmRU9jZnJQLXA5QWRhRmNpbXZTQU5naU5KT3ljanFvTGZIU3B4U3lSaHVneHg0Nlo0YXNJcHAyTTdlTG4zOFZsTkZMcW1LaldFVXBXM291b1hQN0hOcEZyLTVHOTVwaktYYXh4MXM?oc=5",
-     "time": "2026-10-28T14:47:45+00:00"
+     "title": "Does AI Agent Risk Reach Four Stocks? Robinhood (NASDAQ:HOOD), SoFi (NASDAQ:SOFI), Microsoft (NASDAQ:MSFT) and Broadcom (NASDAQ:AVGO) on October 28?",
+     "publisher": "kalkine.ca",
+     "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPSWsySUVkc0hYZHFxWklkWFVtZ1VxZFY0TVNSMzNnUHA5b2FTN1JnLURrLVZTT0xZWS1xRWUtMFRsOWRqZlRGN0w4bkhmakJRYXBLOWItUVFPeEpVdVJtSzVJWkExMkdIX05UbXRSWDZIWFNWTXpfc2g2RUZTZ2YwVk4wV0ZfTHN2WXJuVll5RlJJSE02ZEtybWxFNjU1TWczT2tKazJ1YzNwOWluZV9yWmM3RDg4ckViMjN6Vmk1WUJIazBaOXVOM1ZzMmt3bFJlWmw5eTdDbWFqbW00NExNT2ZFY1dhZWUweUxQVnVtVVdwc1B6NG9McGF3?oc=5",
+     "time": "2026-10-28T16:22:00+00:00"
     },
     {
-     "title": "ServiceNow stock weekly forecast: Consolidation expected as earnings catalyst draws near",
-     "publisher": "Traders Union",
-     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNU0R3bktZRHNFTnRjM2Q1T29zWXRBb1JNeGhrOFVMMDhDNDFtc3BHYlBncG9EQnJoZWg3OGw2TXlYakxnZ1lySXBlYUFOWXFfMHZOTmp1THNpU1JxdHItMkE1WUZLWDNhOUZUWWtUOG5wVy1UYm9NZTRFZ0NtSW5PcXBZRGpaTzRLcy1vdTJZMUFhWnc?oc=5",
-     "time": "2026-10-28T14:07:33+00:00"
+     "title": "Broadcom AVGO stock rises 1.23%; hourly RSI stands at 71.85",
+     "publisher": "The Cryptonomist",
+     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1NRElHaVJZczBLOXlUMEh6MTJXRENud1MyTGFLZzdsempHZTlPQUVDY0RBS0E1bVJnWFY5TmNOem9kRmdRa1FDWEFFREV0VFFwaHI1VU90ek9VaU5Hbi1TMTUzbE84NXl3ekx3aHBSdWpfUnF5NEJQMWZkckVTQQ?oc=5",
+     "time": "2026-10-28T16:18:32+00:00"
     },
     {
-     "title": "Big Day for Econ Data, Hyperscaler Earnings",
-     "publisher": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNU28xSTM5S1JvSTRyaENnWjY0ZEpvdjdVYlI4QjZiRUhucVhsVkoyQVdQUV9pMy1jWXZNSG1fa1Y5LXZvY1JkQVRpbWRKRXpBOWdGNWNISHNWRU9fMWhjbjQyZEphMk8xakd4eER6cXdYZlB4SUdrR3MzbENDS1kzMFc5Q1JNcW5NbndnM1dqNUpieVlGYlNuM1cyeTQzSzQ?oc=5",
-     "time": "2026-10-28T13:38:00+00:00"
+     "title": "Rosenblatt\u2019s $600 Target Says Broadcom\u2019s Selloff Went Too Far",
+     "publisher": "TIKR.com",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPemp0RU9HLW56UWlpYVV4VzBFQW84Y2JSVGZEajJONEtoWEMtdXp6TldOMjhOblN3dVdzdC1IQWxLM1MyWjVOY3daQlpzRDZEcURFakxIUEt1RDQtNkVtV0c2c3dHWFowWGIxSDVtS0JLXzJxWDEybGtudzdFc3NlRmdKbnBDaGlxTkpGcm1QaHdmV3VwckV5cTlBQTVNQQ?oc=5",
+     "time": "2026-10-28T16:03:21+00:00"
     },
     {
-     "title": "ServiceNow Q3 2026 Earnings Date and Estimates",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOV0dHSjlJT2FwU2JNWUNhRlpmcTVveFloOEVkYzA1S2YtN1d3NzZhTXZfTEVtaGxiMEd2YV8zcDRNblJwbENEZThPYjdfa24wWW91NC1KZmNrNVVCZmxRT0EwaXFwRzhNUFpGWFI0S18tenFDdlRTeGFHa0VfeEFaUXhR?oc=5",
-     "time": "2026-10-28T11:27:44+00:00"
+     "title": "AMD, Broadcom, and Micron stocks lead chip sector higher for third day in a row",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNLUNESjNKQm9WM29KdEpZZlN1dGpYam5zbUhBUDE0X1lnLW1xZ3BGaFpsUld2cTJzVDJaeV80UTdyNWcyUW5xVkZEZ2Z5a0VNYlROSTZGUGRPQ0JSUFVINXNhWUcyQVo5MTRULWs2SVVLUXI5ZVd1SzBWbm1jdzNORkt0SkM5WHV4aUhGTlRiQ29TNzluVTlGTERRdmNiNklmVV9kMUQwbktWWHJVZHo0SndTYWVQeTdYM3h2dzF5WmJrWXZGLXk2Q3QxLTgxV3M?oc=5",
+     "time": "2026-10-28T15:03:29+00:00"
+    },
+    {
+     "title": "NVIDIA, AMD and Broadcom May Invest in Meta, Their Own Biggest Customer. What That Signals",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNRTFTY2JHT05UZFVEX0NzWEtjclJqQTIzdDV2YVlPY1dGRk5jTDJwVGRnUGszYjdyN25fNEFuN1hDNXRiTnE1TUdFZWxNNGRBYXJubkc0cmY3Y3RFbk9lQkFJdUVkN3dYMDQtN2ZwN01tTzdPSGxScW9yeExNbDRfWGZXUmZnd1I2czlvbExFZ0E0cmdxMl9qek5obVI4cWx5N2tOdVlKWldzTHk4ZDY1T0Q5WmtoQWUzM0l2S1hZNEdIWWNqbnBlRHZKMA?oc=5",
+     "time": "2026-10-28T14:13:00+00:00"
+    },
+    {
+     "title": "Credo Is Walking Into Broadcom\u2019s Backyard (NASDAQ:CRDO)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPNU1Yc1FqdzhEWS1zYW85QUlQWEpOWTlSaUNUWGhkM3BnR0pZWlhaN1VSMFhFeXBEYTBwTVE3M0llOFJVS2lMcGdCaDE5N0NPZU9rSkJqYUlQNS1BTnFGR3FlWnVDc21TX2J3WnpRR2YzRUxwZl8yWmczR0NPNHZVUjVUMkQ1OHN2?oc=5",
+     "time": "2026-10-28T12:50:45+00:00"
     }
    ],
    "brief": null
