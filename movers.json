@@ -1,7 +1,99 @@
 {
  "date": "2026-10-28",
  "threshold": 3.0,
- "updated": "2026-10-28T13:53:47+00:00",
- "market": {},
- "movers": []
+ "updated": "2026-10-28T13:58:47+00:00",
+ "market": {
+  "SPY": {
+   "name": "S&P 500",
+   "price": 770.38,
+   "change_pct": 0.09
+  },
+  "QQQ": {
+   "name": "Nasdaq 100",
+   "price": 722.42,
+   "change_pct": 0.16
+  },
+  "TLT": {
+   "name": "Long Treasuries",
+   "price": 81.74,
+   "change_pct": 0.13
+  }
+ },
+ "movers": [
+  {
+   "symbol": "SOFI",
+   "name": "SoFi",
+   "list": "portfolio",
+   "price": 17.03,
+   "prev_close": 16.4,
+   "change_pct": 3.8,
+   "trigger_change": 3.8,
+   "peak_change": 3.8,
+   "first_seen": "2026-10-28T13:58:47+00:00",
+   "sector": {
+    "etf": "XLF",
+    "name": "Financials",
+    "price": 55.88,
+    "change_pct": 0.01
+   },
+   "chart": {
+    "ema8": 9.7,
+    "ema21": 9.7,
+    "sma50": 2.5,
+    "sma200": -4.8,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "SoFi Technologies (NASDAQ:SOFI) Stock Price Target Raised at Wells Fargo & Company",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPRGRsNG0zNWM2WGN6U3pZT185VUdNTXVJNEw0RUU2R2g4NDlvQ2F0ZlRKY1A1UXRLT0hBUVlsZ0I4SXEtNmQ5X0pIMER0VnE3ZHNwV2xkZ0drWTVLN3lTeDZDQ1NVYVZpZHlWM0JJNlhZa2hKV3V1VXZCdm91V01oQVFMc0djY1lOV2VzM3JXSlJQMTBTV0k2LV9NZURGSUlsR1poSUxSTjFxaGYweDNFdkxJT2gtNDAxMVFCeC1lS1lMUEdwbllERlRlZkloNUtMSk85bXViQQ?oc=5",
+     "time": "2026-10-28T13:41:18+00:00"
+    },
+    {
+     "title": "SoFi's Q3 Smashes Bear Arguments (Earnings Review) (NASDAQ:SOFI)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQM2djZnNneUJzcXZnZkdHLWViSmJXOXdXUmNSNXVYZkFhVktMancxa3dyNDRYTzZkZU5Jc0JPMW14WGZONjQyZFQzbU9rbDA1eEJzNDliVTUteU55d0JRZi1rWW05QzlUaVV0QVdBSGxzczNtd1ZsU1g5bmo2LWI0dk96WEVOTVRfRVhiN19ELVc?oc=5",
+     "time": "2026-10-28T12:50:11+00:00"
+    },
+    {
+     "title": "SoFi Is Up 11% in a Week. Is Its 2027 Outlook Really That Good?",
+     "publisher": "TIKR.com",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNbmxRcEt4UWdwcHJQZ2NTNGxQRDM4SkNtSXBOc3ZBSVBzQkRZd3hfcGRPdjhLYkpZYWdNMjE2VUZ4VlhwcG1hejRFUDdCbC1xWVVMMXY1bk1vUG12OUtvMnVxLXg1cjJRM1B6cV9pdkh6aEZEUWMyNmotaHNaRHd0WldMaENDamtRX2kzV1IwM2g?oc=5",
+     "time": "2026-10-28T12:46:05+00:00"
+    },
+    {
+     "title": "Scotiabank raises SoFi stock price target to $26 on strong results",
+     "publisher": "Investing.com",
+     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQcjdULVFHRjZyT2JfMGcyTzFRUm9VTXNnMDloVnJqVVNmUmFiTzNJTkNFNmhEX19rTjFFMWpUWTBheFJzVldmSVV4cW9IaVhTVW9TNFFmVmtRNWtJRUlYQ0kwZjQzSEc2eGhoOGhMRzlkdmwxY2NjaVVlZ21JT3ZSRkJzZmh2LTlnMnVCXzZzdjRfaGhxVGg4anpSNmpKdXFVRll2UGhjRy1zSExXN3BIbVh4R1lrb1dTQXV4WWRqYzBlWGs?oc=5",
+     "time": "2026-10-28T12:35:35+00:00"
+    },
+    {
+     "title": "Keefe, Bruyette & Woods Forecasts Strong Price Appreciation for SoFi Technologies (NASDAQ:SOFI) Stock",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOdC1jVm1najRrU0pRSUxnTjdIYWRCREF5ZVNEcllrZGwzMXhwNDdZeWZ0OXpOVS1McVZ3b2x2S3hwLWcwOFFNUkV6Z2tmN2lEZ29tRTdjSWdIT2l3VnNENkdMQWduWjZhMWdvV2RlU2lHUklNbXBJdWZEOEl2cVNZOENxXy05c2JtaTJ5S0NiQkJhUUhFRVZ3Z2JNbFRqVjNlU2JYeTZkbzZxUzVwYmcybXRxVF9ESWJwYnN4ZEp5ZjZLczZMY25YZWk5R3R5UjBQbG8zYnZfRHRsVThJMlNScUMzYTQ1MGNFTVpUSWxXZw?oc=5",
+     "time": "2026-10-28T12:15:55+00:00"
+    },
+    {
+     "title": "StoneX raises SoFi stock price target to $27 on earnings outlook",
+     "publisher": "Investing.com India",
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOckJEZE9CRUdTUlR3cTdmOEhiX0NuQ1c1RTJKa1ktRGZWQVZXemRSNjVzbUFmZlphZ2hCd2pVZXZiNHEzdlpwdjl0VG1majBmbllISWl5RHJDZHJDdkgwSjJDZzJyUGhsX0wyOVlTMm9PSERlUzhYUDlPcDNhT2gtXzFJdDB5eXRaMzdHb0hvZjNCck5YeUdjMnBNbTREME4zdGxKLTJLcDJyQXRabTZUdWFvNmxFSGdnRGhyM1ZndFB4QQ?oc=5",
+     "time": "2026-10-28T11:55:35+00:00"
+    },
+    {
+     "title": "SoFi Stock News: Members Reach 17.1 Million After Q3 2026",
+     "publisher": "Admirals",
+     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOa1N0QS1YMFpwc2c1QTJJU1VjZGlHNVVtSW9JdmRERXljV3ZPMlUtZ2JJSlQ4aUc5SGc2ZmJhc3ZfdkMteWlfVnZsQkF1ZnpVQlZiR1ZaTUF6cVd6M053NVBlRXF3ZFQ0MHlDSFMzdDdKZ0oyRGk0aU0xRVpIUTlHNUJTZllBbzlfT0k3YQ?oc=5",
+     "time": "2026-10-28T11:30:00+00:00"
+    },
+    {
+     "title": "SoFi posts record quarter and investors send the stock soaring",
+     "publisher": "Startup Fortune",
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNcnBONzJfSmhvM2tERlF4MjVrZTl5QW1xVHctMy0zdE1BT25TS01CcU5NLW1DNC02TkZlZHdBWF9RQWE2cTZYNE5tbmFfRjh6VE5UMmFZWHlQSDdqakkyLTVHNjhnMEdOUHpROFhhTXBOakFTdUxJc0hCOHBfeW0yOVkxTW1wZ1g5ZC0wTkw1ejFSek1j?oc=5",
+     "time": "2026-10-28T11:29:15+00:00"
+    }
+   ],
+   "brief": null
+  }
+ ]
 }
