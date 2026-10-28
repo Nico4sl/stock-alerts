@@ -1,124 +1,67 @@
 {
  "date": "2026-10-28",
  "threshold": 3.0,
- "updated": "2026-10-28T14:03:48+00:00",
+ "updated": "2026-10-28T17:55:45+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 770.91,
-   "change_pct": 0.16
+   "price": 771.39,
+   "change_pct": 0.22
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 722.7,
-   "change_pct": 0.2
+   "price": 722.57,
+   "change_pct": 0.18
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 81.68,
-   "change_pct": 0.06
+   "price": 81.5,
+   "change_pct": -0.16
   }
  },
  "movers": [
   {
-   "symbol": "SOFI",
-   "name": "SoFi",
-   "list": "portfolio",
-   "price": 17.03,
-   "prev_close": 16.4,
-   "change_pct": 3.8,
-   "trigger_change": 3.8,
-   "peak_change": 3.8,
-   "first_seen": "2026-10-28T13:58:47+00:00",
-   "sector": {
-    "etf": "XLF",
-    "name": "Financials",
-    "price": 55.89,
-    "change_pct": 0.02
-   },
-   "chart": {
-    "ema8": 9.7,
-    "ema21": 9.7,
-    "sma50": 2.5,
-    "sma200": -4.8,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "SoFi Technologies (NASDAQ:SOFI) Stock Price Target Raised at Wells Fargo & Company",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPRGRsNG0zNWM2WGN6U3pZT185VUdNTXVJNEw0RUU2R2g4NDlvQ2F0ZlRKY1A1UXRLT0hBUVlsZ0I4SXEtNmQ5X0pIMER0VnE3ZHNwV2xkZ0drWTVLN3lTeDZDQ1NVYVZpZHlWM0JJNlhZa2hKV3V1VXZCdm91V01oQVFMc0djY1lOV2VzM3JXSlJQMTBTV0k2LV9NZURGSUlsR1poSUxSTjFxaGYweDNFdkxJT2gtNDAxMVFCeC1lS1lMUEdwbllERlRlZkloNUtMSk85bXViQQ?oc=5",
-     "time": "2026-10-28T13:41:18+00:00"
-    },
-    {
-     "title": "SoFi's Q3 Smashes Bear Arguments (Earnings Review) (NASDAQ:SOFI)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQM2djZnNneUJzcXZnZkdHLWViSmJXOXdXUmNSNXVYZkFhVktMancxa3dyNDRYTzZkZU5Jc0JPMW14WGZONjQyZFQzbU9rbDA1eEJzNDliVTUteU55d0JRZi1rWW05QzlUaVV0QVdBSGxzczNtd1ZsU1g5bmo2LWI0dk96WEVOTVRfRVhiN19ELVc?oc=5",
-     "time": "2026-10-28T12:50:11+00:00"
-    },
-    {
-     "title": "SoFi Is Up 11% in a Week. Is Its 2027 Outlook Really That Good?",
-     "publisher": "TIKR.com",
-     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNbmxRcEt4UWdwcHJQZ2NTNGxQRDM4SkNtSXBOc3ZBSVBzQkRZd3hfcGRPdjhLYkpZYWdNMjE2VUZ4VlhwcG1hejRFUDdCbC1xWVVMMXY1bk1vUG12OUtvMnVxLXg1cjJRM1B6cV9pdkh6aEZEUWMyNmotaHNaRHd0WldMaENDamtRX2kzV1IwM2g?oc=5",
-     "time": "2026-10-28T12:46:05+00:00"
-    },
-    {
-     "title": "Scotiabank raises SoFi stock price target to $26 on strong results",
-     "publisher": "Investing.com",
-     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQcjdULVFHRjZyT2JfMGcyTzFRUm9VTXNnMDloVnJqVVNmUmFiTzNJTkNFNmhEX19rTjFFMWpUWTBheFJzVldmSVV4cW9IaVhTVW9TNFFmVmtRNWtJRUlYQ0kwZjQzSEc2eGhoOGhMRzlkdmwxY2NjaVVlZ21JT3ZSRkJzZmh2LTlnMnVCXzZzdjRfaGhxVGg4anpSNmpKdXFVRll2UGhjRy1zSExXN3BIbVh4R1lrb1dTQXV4WWRqYzBlWGs?oc=5",
-     "time": "2026-10-28T12:35:35+00:00"
-    },
-    {
-     "title": "Keefe, Bruyette & Woods Forecasts Strong Price Appreciation for SoFi Technologies (NASDAQ:SOFI) Stock",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOdC1jVm1najRrU0pRSUxnTjdIYWRCREF5ZVNEcllrZGwzMXhwNDdZeWZ0OXpOVS1McVZ3b2x2S3hwLWcwOFFNUkV6Z2tmN2lEZ29tRTdjSWdIT2l3VnNENkdMQWduWjZhMWdvV2RlU2lHUklNbXBJdWZEOEl2cVNZOENxXy05c2JtaTJ5S0NiQkJhUUhFRVZ3Z2JNbFRqVjNlU2JYeTZkbzZxUzVwYmcybXRxVF9ESWJwYnN4ZEp5ZjZLczZMY25YZWk5R3R5UjBQbG8zYnZfRHRsVThJMlNScUMzYTQ1MGNFTVpUSWxXZw?oc=5",
-     "time": "2026-10-28T12:15:55+00:00"
-    },
-    {
-     "title": "StoneX raises SoFi stock price target to $27 on earnings outlook By Investing.com",
-     "publisher": "Investing.com South Africa",
-     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOeFBrTnB0VzRFYnJ4cG5jd1pqRmNlcFBPYVdWbzRQMnFYX3Nqamw0ZFJaaU5HTWo3dmxSeVBFRXBSNWo4NW1tQnRIcG9rYTduVkx3Z3JpanVQNXRVeTNoNWJlcjNmT3JSa3R4Zk1xcTllTEIycGxVaU5zX25nVmZjU0hsZTZlUGl0MVk2b2xOOExPa3lEZGV0cnlBdmdmLUtiUEZnR002SEZKb3lLNU43SktTSVI1MEhTeDdRdUZSTkplQQ?oc=5",
-     "time": "2026-10-28T12:00:10+00:00"
-    },
-    {
-     "title": "SoFi Stock News: Members Reach 17.1 Million After Q3 2026",
-     "publisher": "Admirals",
-     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOa1N0QS1YMFpwc2c1QTJJU1VjZGlHNVVtSW9JdmRERXljV3ZPMlUtZ2JJSlQ4aUc5SGc2ZmJhc3ZfdkMteWlfVnZsQkF1ZnpVQlZiR1ZaTUF6cVd6M053NVBlRXF3ZFQ0MHlDSFMzdDdKZ0oyRGk0aU0xRVpIUTlHNUJTZllBbzlfT0k3YQ?oc=5",
-     "time": "2026-10-28T11:30:00+00:00"
-    },
-    {
-     "title": "SoFi posts record quarter and investors send the stock soaring",
-     "publisher": "Startup Fortune",
-     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNcnBONzJfSmhvM2tERlF4MjVrZTl5QW1xVHctMy0zdE1BT25TS01CcU5NLW1DNC02TkZlZHdBWF9RQWE2cTZYNE5tbmFfRjh6VE5UMmFZWHlQSDdqakkyLTVHNjhnMEdOUHpROFhhTXBOakFTdUxJc0hCOHBfeW0yOVkxTW1wZ1g5ZC0wTkw1ejFSek1j?oc=5",
-     "time": "2026-10-28T11:29:15+00:00"
-    }
-   ],
-   "brief": null
-  },
-  {
    "symbol": "AMAT",
    "name": "Applied Materials",
    "list": "portfolio",
-   "price": 409.39,
+   "price": 414.65,
    "prev_close": 395.93,
-   "change_pct": 3.4,
+   "change_pct": 4.7,
    "trigger_change": 3.4,
-   "peak_change": 3.4,
+   "peak_change": 4.9,
    "first_seen": "2026-10-28T14:03:48+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 565.84,
-    "change_pct": 1.41
+    "price": 565.59,
+    "change_pct": 1.36
    },
    "chart": {
-    "ema8": 1.1,
-    "ema21": -5.7,
-    "sma50": -11.2,
-    "sma200": -7.7,
+    "ema8": 2.1,
+    "ema21": -4.6,
+    "sma50": -10.1,
+    "sma200": -6.5,
     "momentum": false
    },
    "headlines": [
+    {
+     "title": "Chip Equipment Stocks Rally as SK Hynix Signals Memory Shortage Into 2030: Lam Research Jumps 5%, Applied Materials Climbs 4%, KLA Gains 3%",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPR0JCLWVDVDRUaGgtMkhKZEw0a3JTZEZ4QkhsazNkUVU2c3FOME90YzVwNnBrUHp3VEVpUnFyTnVQOFRtc3RmZDYxcW5lWUdXdXc4a3dRaEtPQ0JZd01GSmNzN0pYSmYyMkQ2NjNKaG9UUTZHRlB0ZUhjQUpOTi02Umpsa2dwTVpYeEJZRF9VdEZoa3FyS0ZfbE0tTkt2TWozQWIyT1lOQlJpQjYxYVNvUFhiTnZxb0piREw0cHYzNUxlb1ZiWHFlR3BpbDE0Vk1iZ3FWc1IwM0o0eS1Pdkx5Ni1JUlNNb1JmcndPNFUtOGJJNWhURG80Z04xU1VCdkZuRGJUazU0b28?oc=5",
+     "time": "2026-10-28T16:19:41+00:00"
+    },
+    {
+     "title": "\u201cNow in Full Force\u201d: Applied Materials Is Up 73% in a Year. Take Profits, or Buy More?",
+     "publisher": "TIKR.com",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUUpDYmh5MENZb1duWWJ3MXMzZTEwT3hlcGxEcnFSUmFMeUNEWkRRNW1DZ0lILUFjOHlvRHFpSDZ6c3hxRVhvVUxkYXNVM0dHc2dZRGlnWnpvZ29ybDQzYW1YdW5aNnRkMGdJMnpKQm9pVURGSjYzY1BKZkJ3UGllRDhMNF9GRXpoT1VmZy1CQkdWZUxxU2diSzhLTE53RTdJQWFzT1FpWjJGZw?oc=5",
+     "time": "2026-10-28T15:53:37+00:00"
+    },
+    {
+     "title": "Is Applied Materials (AMAT) a Buy as Wall Street Analysts Look Optimistic?",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxONVl5cjZpVXdZWlllZWh3YkRHTXZnNDBDckdqV3V3OU1MWG0xLV82ZVdQRjdiQXllTEhIQ0VvZTZrYnQtVlZWYnpxZ2haaVA5eXcwcjZwOTdPQVNnVDdhd0hCbThDQlhzejlIYTlxZVk1S0cwc0dGaVJQTlVQV2VSNjU2VDQ1LWx0Nkg0OVJWYTltRlA2REFwN0dtcWU?oc=5",
+     "time": "2026-10-28T12:30:02+00:00"
+    },
     {
      "title": "Applied Materials benefits from AI growth with strong profits and buybacks amid some risks.",
      "publisher": "Pluang",
@@ -138,12 +81,6 @@
      "time": "2026-10-28T11:01:57+00:00"
     },
     {
-     "title": "AMAT 261030 320.00P (AMAT261030P320000) Stock Options Chain | Quotes & News",
-     "publisher": "Moomoo",
-     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB2bkdsRjlGMHkzaWhFaElHRFdES2N5OVF6M2NOc3RVUFVBcUkwbzBwdVRla01vZGYyMUF5eDRUTDVHaHdSWnctZkJoU252eFByWkQ4N3V6WlRKZHROM3c0NA?oc=5",
-     "time": "2026-10-28T07:37:53+00:00"
-    },
-    {
      "title": "Why does Applied Materials (AMAT) matter to chip investors as 12 November nears?",
      "publisher": "Kalkine",
      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPWDd2SDQwSWlpcmljODkwQVZYanFrQnM0aGpFLVFvX0ZGbmdVWmVrMndWelE3RnFfdkVERVgweFpicjB5Q3lJQ0s2aXVLX0x0UlhsQ1ZFUWFVVGlrLU5NaGV0TDNLOEVadzZqZENwdnRwazdxY2RWUVlUT1RnWnZ6dTQ4Z1p4T0NWUWI0Z2p6ZURKY3RYLVhmWWhLSjd5b3U0ZEVjTEhiTms3OTd0bDRKSXdKWkJ1eU9qMXZWZVRucEhaS1pV?oc=5",
@@ -154,21 +91,159 @@
      "publisher": "Kalkine Media",
      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOTUw2eWF6N0g3bnZ1WlRGYUtzcE84V19MR01WN0IzMVBNZlF3SDJwbEZXeUkyV0ZzTUdXNXViN2F5U2lNRDVOaGl1aG9HZkI2YndINEJ6Rm0xaVNKWmJmNlQxbXo0aVV0M2FOX1BzSkg4SEZ5cmtSY3ROSXBUZlJLWXZzQXdLUWRPUVZUS1ZkV3Fld1d4ZWtBTnpXVVl6bGxzcXV1bFJtVlRYRkxFYUU3bFFiM0lkV2Ux?oc=5",
      "time": "2026-10-27T22:58:00+00:00"
+    }
+   ],
+   "brief": "2026-10-28-AMAT"
+  },
+  {
+   "symbol": "NOW",
+   "name": "ServiceNow",
+   "list": "portfolio",
+   "price": 149.97,
+   "prev_close": 154.78,
+   "change_pct": -3.1,
+   "trigger_change": -3.1,
+   "peak_change": -3.1,
+   "first_seen": "2026-10-28T17:55:45+00:00",
+   "sector": {
+    "etf": "IGV",
+    "name": "Software",
+    "price": 110.78,
+    "change_pct": -0.89
+   },
+   "chart": {
+    "ema8": -1.5,
+    "ema21": 2.2,
+    "sma50": 7.5,
+    "sma200": 30.1,
+    "momentum": true
+   },
+   "headlines": [
+    {
+     "title": "ServiceNow slips as investors brace for Q3 results and weigh valuation risk",
+     "publisher": "Quiver Quantitative",
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSlM3ZkxIYk9WZlE3VFJIVFJXR01sbzRZcXVBc2VON0dTbVRXQ3hyVlF4b25RZThOT1ZnS3B2Y1ppU1cwT3k3bHVocmVlR3BvRUpia0R4YnV6T0VGclVjSHQ0UUZkdTdrdGxCamd1Q0ZMbWR0ekxLQVRfcHJmZkFCZk0tYzFBcExJbVhaWWRLNTZDNDZKZng3cVJEcUxqQ1lMTEtHWmppV3JJSEJ4?oc=5",
+     "time": "2026-10-28T17:35:00+00:00"
     },
     {
-     "title": "What Applied Materials Holders Bought Into",
-     "publisher": "Simply Wall Street",
-     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNVmM1bnoySk50dHVNdU9rR2ozWXpsdDFxMWt0azM5aTJUNGtHX3NiUW00cHZ3V0pPT3ZoU3NkX25EY0lIZkFPWkRiT243ZDRRMktXbEtOcERLdV9lZ2M5bFlYNWJCdGREN0U4YUp4aTdjaDBlTzVNQ0RlZ25ET0pxWFctMmdKZ2FkSWJwdGVYZHJyYllDOGJnc3BQd2stOGFVNjgtTHpIZXJrNExiTGZ6YXNHeDhWVkVzNC14WldCWGpyd9IBxwFBVV95cUxQcFpYdmExTmJiRUNHNlltaV9XXzBLN1d4SkFmd1YzakZfYVplNGJ0REYxRDNsRmRCSWRMdDRFUjBXSWM4NXhwRDJYMXJDSENvbVlNanRPam54OGJYeE1wQWVZZXpHc2RCUkVmbEtzX0RvNHc5VkRCT29Pb0o2NDgzY09kdWtSMFJNenVBM1RudXRaREZJbFFHOV82RmVNNW1KZ1dJVGpZYkFoUmZydWVHaWdUS295LV9KR05RVU1QOFBVd0dvMlVz?oc=5",
-     "time": "2026-10-27T20:27:34+00:00"
+     "title": "ServiceNow Inc Stock (NOW) Moved Down by 3.17% on Oct 28: Facts Behind the Movement",
+     "publisher": "TradingKey",
+     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNLWhWNWJlOUZKUG9FcG11WlBkYm13ZVZlNjJzcmVrOWRfM2ZlMmVVMXVSMS1FRkpKcmtLQjNTRXhQcm5Mc0lfaUx1bFIzSVJTdS1RbkpOb2o1TUtXTTljYXBUMEpDYlVOR1FQZmZRRmZkOUFEN2FJcUE2bGR5UFF5WDVMeDFMMTVLWkE?oc=5",
+     "time": "2026-10-28T17:15:27+00:00"
     },
     {
-     "title": "Besi Stock Rises as Applied Materials Lifts Stake to 20%",
+     "title": "ServiceNow stock outlook: Seller dominance persists ahead of Q3 earnings risk",
+     "publisher": "Traders Union",
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNQlhFQUhmVGdvMV9QR3ZGYVlMa2RiSWZ6TVdrZGhaQ0xXWU5pb2RpZjlfNnZ5dm9qaUtRNVZ0T0h3ZnFMaFNxU3VCd2FGeDZPZERldFNnYjhwUzJhcldUOU9nMUw5Z1dpNUwxZ0JKczVpWFpsNWJGd0NOVkowLVVWdzlnQjdEcjkxWlpTVEpWZzVwLUd0STMw?oc=5",
+     "time": "2026-10-28T17:12:32+00:00"
+    },
+    {
+     "title": "ServiceNow Slips Ahead of AI-Heavy Earnings, What Is Going On?",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZVlYYmhMZUx1TzNhTHlDSDFQcTRDbGpwWDA3ME1vcEdpQzUyV3BLUm5rdHpQVmprcnJaMW1ZUE5RRENCREdtbHFXYWQwQm9fcHI5dFFSeElRcmNwdEpQZUVjNzlOUEtGN1JkeTFaZnFBaVBsZ3paak5XcExXaWpndEJVX1hUY21iR0tGNlVaTGcxYy16TW5tZ25GSDNwTTVvbllTcmhyVkxLdWVSN0FSN1JHVQ?oc=5",
+     "time": "2026-10-28T15:31:26+00:00"
+    },
+    {
+     "title": "ServiceNow stock setup into today\u2019s earnings: Here\u2019s what our AI model says",
+     "publisher": "Investing.com",
+     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQcnFoTllKWjBvcGxWWDBPbkdhc2tzdzNwaU1pNV9RTXdKYk5ySE5tR0xGYnJ3cDRSSUltcllUa1BsVFAzOHNIU3cyMG9jcjZzV2pGUFVIM1AwcHp1b25pbnk4QjZsc2VaT3JmRU9jZnJQLXA5QWRhRmNpbXZTQU5naU5KT3ljanFvTGZIU3B4U3lSaHVneHg0Nlo0YXNJcHAyTTdlTG4zOFZsTkZMcW1LaldFVXBXM291b1hQN0hOcEZyLTVHOTVwaktYYXh4MXM?oc=5",
+     "time": "2026-10-28T14:47:45+00:00"
+    },
+    {
+     "title": "ServiceNow stock weekly forecast: Consolidation expected as earnings catalyst draws near",
+     "publisher": "Traders Union",
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNU0R3bktZRHNFTnRjM2Q1T29zWXRBb1JNeGhrOFVMMDhDNDFtc3BHYlBncG9EQnJoZWg3OGw2TXlYakxnZ1lySXBlYUFOWXFfMHZOTmp1THNpU1JxdHItMkE1WUZLWDNhOUZUWWtUOG5wVy1UYm9NZTRFZ0NtSW5PcXBZRGpaTzRLcy1vdTJZMUFhWnc?oc=5",
+     "time": "2026-10-28T14:07:33+00:00"
+    },
+    {
+     "title": "Big Day for Econ Data, Hyperscaler Earnings",
      "publisher": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPR1hDWkdIYlBaVXhfcmNfWGgyM09ZWFE2QWVXRDU4OERxN0ozRHRsazBjQUh3djh6SWhhQ3pmdXdxWVN4cFhjYm5HajduZDMwSjAyektwaVFlcTJRaUFOZV9QblZJdDcxdXVEM0hEMlhYdExUZHRFNTF6SEN0MnZ6cE5IbHRfY04zT2ZNbWswZjlPd2lpSWc0UkpNNjNrenNqM2ItT1plMGdETXozUXRFTkwxRGZGdw?oc=5",
-     "time": "2026-10-27T13:00:44+00:00"
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNU28xSTM5S1JvSTRyaENnWjY0ZEpvdjdVYlI4QjZiRUhucVhsVkoyQVdQUV9pMy1jWXZNSG1fa1Y5LXZvY1JkQVRpbWRKRXpBOWdGNWNISHNWRU9fMWhjbjQyZEphMk8xakd4eER6cXdYZlB4SUdrR3MzbENDS1kzMFc5Q1JNcW5NbndnM1dqNUpieVlGYlNuM1cyeTQzSzQ?oc=5",
+     "time": "2026-10-28T13:38:00+00:00"
+    },
+    {
+     "title": "ServiceNow Q3 2026 Earnings Date and Estimates",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOV0dHSjlJT2FwU2JNWUNhRlpmcTVveFloOEVkYzA1S2YtN1d3NzZhTXZfTEVtaGxiMEd2YV8zcDRNblJwbENEZThPYjdfa24wWW91NC1KZmNrNVVCZmxRT0EwaXFwRzhNUFpGWFI0S18tenFDdlRTeGFHa0VfeEFaUXhR?oc=5",
+     "time": "2026-10-28T11:27:44+00:00"
     }
    ],
    "brief": null
+  },
+  {
+   "symbol": "SOFI",
+   "name": "SoFi",
+   "list": "portfolio",
+   "price": 16.87,
+   "prev_close": 16.4,
+   "change_pct": 2.9,
+   "trigger_change": 3.8,
+   "peak_change": 3.9,
+   "first_seen": "2026-10-28T13:58:47+00:00",
+   "sector": {
+    "etf": "XLF",
+    "name": "Financials",
+    "price": 56.2,
+    "change_pct": 0.57
+   },
+   "chart": {
+    "ema8": 8.9,
+    "ema21": 8.7,
+    "sma50": 1.6,
+    "sma200": -5.7,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "2 Fintech Stocks to Buy While Their Customer Numbers Keep Climbing",
+     "publisher": "AOL.com",
+     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9ieUk1Nm9mZTlTUFhDMzBEY2FzU0kzOFhZQkpkOEdoR0dJenl5UEVqaUY2aDg3YzJMNjY1RVlmNGk4N2hwUjI3TTZoRFUyMTNEb2JLM1U3ZFA1ZkxuUm5rQ0NlelBMOEs4UExaQ1ZWQWU5OWQyU051dXd3?oc=5",
+     "time": "2026-10-28T16:30:00+00:00"
+    },
+    {
+     "title": "SoFi stock Analysis at $16.9 with mixed momentum",
+     "publisher": "The Cryptonomist",
+     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE4tSVVqSTBiQlRRVmc0ZG9OeDMtaERnQnJSQTlpOXhqZW0tallPaFRBbnJ6OE8ydWd3MWp1NW9LQ1h0bzZhUHRyMU9ydlBVNjdMay1aVG15eVBqQVdXMWs0aHh1QmIxNFlHYnNDd1Bta0pBWFYtVHh5T2NMQ3Y?oc=5",
+     "time": "2026-10-28T16:06:02+00:00"
+    },
+    {
+     "title": "SoFi Stock Moves Higher: What's Happening?",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOYU1XYmU3TlZlR3BfYlQxSHJuVVh5c2U5Q3BqTUxYVUVvckJZa3hIcVhDNE02YmRoazJPUU5jakVOb0ZPcXNPVUxaaEVtQ3k4aFZzOHdOXy1GZXFWZ3pycEN5cjVOa3BnTVNkd2V0QUJUQ25hVFRIcmsweUd5c1BtN1NtQ2JIWXdISU5aWlJSV0ZFWEdoSDB4LVZUWi1SWDlpQmc?oc=5",
+     "time": "2026-10-28T15:48:49+00:00"
+    },
+    {
+     "title": "SoFi stock pops as record revenue and a raised outlook stun Wall Street",
+     "publisher": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNMVVqNHdrSGdIWV90TXFJOFFQa1ZBQ0JuQktZVExwLU5KWkJoUzVVbVBjLWpXNUlvSVdXWDhwZTdMeXRUbHJlcW9NUUw1Ry0zSVZETDhjeUM1ZUl2cF96TUhYY0pLc3pNaHc2dXBaa0JWeVhjR25oZVNZcFJPUTVpeVZsVHNGU2ZzT2lsdmxPYnQzdk03NkU3QkM1ZEhac0pndlI3OHFpbF9kUlJyMXk0WVhRM0ZyVWFOZGc1ay1vZW9qNTlEVjNud2hGZw?oc=5",
+     "time": "2026-10-28T15:05:36+00:00"
+    },
+    {
+     "title": "SOFI Stock Rallies 13% After Earnings: Should You Buy or Hold?",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZG5pYTZSZTFsMzh3MEdRTF9Zb0ZBb0E3enROQjh1NDE0VkJlMWZ4TUE3Q0xfNFZBaUJ2THpCanE4WlBSMXJZS2ZjQ0ZCeThlRkdZcUdmOHhUdDhIQUQ4TENuUWRVaElPYW1PVVVQWEU0RnVHMGpTaHhZUTlwZE1CWjVoMVBZZWtWS3pnUGZOUElGWFpPc29qZ1hicw?oc=5",
+     "time": "2026-10-28T15:01:00+00:00"
+    },
+    {
+     "title": "SoFi Technologies Stock Is a Buy After Blockbuster Quarter, Analysts Say",
+     "publisher": "Barron's",
+     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQazRKeEJKMFhXcGowMUxiX3NDd2s3VDlZZGhMRTBfUnc5c0pRa3ZVZVFrVHJEeGhPYTFmMHNpSEVuZmcxTUdMYTVOb28wdUNlVHBJRjVpTXhJaDdoakxfMjdrRG9nQnJ6MjZHM2ZpRFVzR0s0NjNnRTZjc2VwTGdBazJfZWUzam8?oc=5",
+     "time": "2026-10-28T14:49:00+00:00"
+    },
+    {
+     "title": "RITM or SOFI: Which Is the Better Value Stock Right Now?",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPcXVxNG9RTTNreS1idkpQU1FMbldhZDh4OVZCRUQ4d2JFdVJXNTNNcEcwSVItMHNlZmFjcHRYRXh3SDRpcEp0eWdReV83ekJtWllzY1VJN1JyNURWT0cwTnJVMS1lVVl2Tmhmc1pWNWMwVUgyajRiTDRCcWRjRFFBZEE2X2xvZUk4ZWozWXFDOVFka1F0OFIycQ?oc=5",
+     "time": "2026-10-28T14:40:02+00:00"
+    },
+    {
+     "title": "SoFi (SOFI) Stock Climbs After Q3 Earnings Cement Profit Momentum",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPNlVYTG1pT3VMaXZkTGRXT1FCSHBRcC1odk1pU3R3VzhMSWN3bGhaVWxFWWpUeHAtckFqYlRwTnN1cWd4bW5EYjhyaThNYTgtVS1hMUNHazRycVhtbzJMdU5QeDUwUnE2X1lEckNrYzgtYks3OWppX25RZDVxYng5Rm1GclFDeWhRbDQ1elR0bjV6dkth?oc=5",
+     "time": "2026-10-28T14:10:24+00:00"
+    }
+   ],
+   "brief": "2026-10-28-SOFI"
   }
  ]
 }
