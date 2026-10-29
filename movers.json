@@ -1,22 +1,22 @@
 {
  "date": "2026-10-29",
  "threshold": 3.0,
- "updated": "2026-10-29T14:30:45+00:00",
+ "updated": "2026-10-29T14:50:53+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 769.29,
-   "change_pct": -0.39
+   "price": 767.98,
+   "change_pct": -0.56
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 715.46,
-   "change_pct": -1.4
+   "price": 713.66,
+   "change_pct": -1.65
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 81.47,
-   "change_pct": 0.59
+   "price": 81.58,
+   "change_pct": 0.73
   }
  },
  "movers": [
@@ -24,23 +24,23 @@
    "symbol": "NOW",
    "name": "ServiceNow",
    "list": "portfolio",
-   "price": 113.51,
+   "price": 112.43,
    "prev_close": 150.13,
-   "change_pct": -24.4,
+   "change_pct": -25.1,
    "trigger_change": -24.4,
-   "peak_change": -24.4,
+   "peak_change": -25.1,
    "first_seen": "2026-10-29T14:30:45+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 107.78,
-    "change_pct": -3.69
+    "price": 106.93,
+    "change_pct": -4.45
    },
    "chart": {
-    "ema8": -21.0,
-    "ema21": -21.0,
-    "sma50": -18.5,
-    "sma200": -1.4,
+    "ema8": -21.6,
+    "ema21": -21.7,
+    "sma50": -19.2,
+    "sma200": -2.4,
     "momentum": false
    },
    "headlines": [
@@ -99,23 +99,23 @@
    "symbol": "GOOG",
    "name": "Alphabet",
    "list": "portfolio",
-   "price": 283.94,
+   "price": 282.31,
    "prev_close": 321.89,
-   "change_pct": -11.8,
+   "change_pct": -12.3,
    "trigger_change": -11.8,
-   "peak_change": -11.8,
+   "peak_change": -12.3,
    "first_seen": "2026-10-29T14:30:45+00:00",
    "sector": {
     "etf": "XLC",
     "name": "Communication",
-    "price": 101.46,
-    "change_pct": -1.63
+    "price": 101.05,
+    "change_pct": -2.03
    },
    "chart": {
-    "ema8": -10.0,
-    "ema21": -13.4,
-    "sma50": -15.7,
-    "sma200": -16.2,
+    "ema8": -10.4,
+    "ema21": -13.9,
+    "sma50": -16.2,
+    "sma200": -16.7,
     "momentum": false
    },
    "headlines": [
@@ -174,23 +174,23 @@
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 173.83,
+   "price": 173.34,
    "prev_close": 182.34,
-   "change_pct": -4.7,
+   "change_pct": -4.9,
    "trigger_change": -4.7,
-   "peak_change": -4.7,
+   "peak_change": -4.9,
    "first_seen": "2026-10-29T14:30:45+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 107.78,
-    "change_pct": -3.69
+    "price": 106.93,
+    "change_pct": -4.45
    },
    "chart": {
-    "ema8": 0.6,
-    "ema21": -7.6,
-    "sma50": -17.6,
-    "sma200": -1.9,
+    "ema8": 0.4,
+    "ema21": -7.8,
+    "sma50": -17.9,
+    "sma200": -2.2,
     "momentum": false
    },
    "headlines": [
@@ -241,6 +241,81 @@
      "publisher": "MarketBeat",
      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPSktJM3Y1aEZ6WTNOMGRackVqM05YbVYzamVxQ1luVTUzSXR1T1pBeUxETGtxaVdMUUc3U1AxMUVlbFhfdUdNYU04dThqdEpheW8wUTBabmVYd3ZQMXV4ZXJSMHZfb0xDeW1xd2ZSVndJSEs5RVhEeWFvTkhGcmlxQmVhQ0xzN1lybFNIeTlWUE9GT3VGa29TRTFsTXljN0dvQlBKYm5wZlRwMWhmTi1NNDQ3UWhjR0I5MkVYcU5uREJsM3Z6LTdNUmJWWURnekl6OWFYVkRka1hEdw?oc=5",
      "time": "2026-10-29T07:15:44+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
+   "symbol": "AMZN",
+   "name": "Amazon",
+   "list": "portfolio",
+   "price": 245.82,
+   "prev_close": 254.6,
+   "change_pct": -3.4,
+   "trigger_change": -3.4,
+   "peak_change": -3.4,
+   "first_seen": "2026-10-29T14:50:53+00:00",
+   "sector": {
+    "etf": "XLY",
+    "name": "Consumer discr.",
+    "price": 116.19,
+    "change_pct": 0.74
+   },
+   "chart": {
+    "ema8": -2.4,
+    "ema21": -3.1,
+    "sma50": -3.5,
+    "sma200": 1.0,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "AMZN Stock Faces Mounting Pressure From Retail And AI Rivals",
+     "publisher": "www.timothysykes.com",
+     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBwMlpLUno4LU9IUFU1SmVjbkxETDRSbXRXNDJGN05Hd2lrclNwSDFvd3pNN0FsTlZocnZzSHNkcUpWWEZYSDhMM3RZZENXMUxiUVVCSkZsSUlOTjNicERWRVhZNXdaQjFiZmQxWWk1RzhPdFI1X2JRXw?oc=5",
+     "time": "2026-10-29T13:36:12+00:00"
+    },
+    {
+     "title": "Amazon stock setup into today\u2019s earnings: What could push shares higher or lower?",
+     "publisher": "Investing.com",
+     "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNZDdiUUh4Ny1oWWJHLUxSZUFGWTAwb3pkbE9meUpXcHVQa05TRWVaTFhmUmhUbFhUcVA0UzFSMVhyd1NraVJrMXBMSEliZ2dGRmZNTldpTEs4c0lJMlhBWGpWVEpqMHA2ak80SDc4dmh0aHF5eUItZm1wVk5keXN5ZUpuQmRKbmVSMFpKVnpDSTI3T2o5dzQzUkJuTmNKWF9aSzhCWWx2aV9JSkdHMXRSLU9ueDB5REpIbmRUNXNZSG4zaEFwRml0eFlWaVk2RWt0WkJYWHJmNA?oc=5",
+     "time": "2026-10-29T13:19:23+00:00"
+    },
+    {
+     "title": "Amazon options chain signals 8% earnings swing as huge call wall looms (AMZN:NASDAQ)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQYVpaeDNKOWhTdEY1R2djWnhqbjlGdzYzZWctb0I2OGFZVzhoUEl6MUptOXdUNk4yVzFxaURRdEt0UU1IQWtIeXluZXpnVERRdHVYTGE5QjZ1cDdMTHZKLU5vRTdveFJyNFhoLVJ1R1R6MkdtYkVIdE50NGtuT0l3d1pJemVxczRPN1pJdjdTbEw3aDFmeU5zUUdsaTRWNmllbDUtU294R1BXWFg2aFM5QjdvYzB0dw?oc=5",
+     "time": "2026-10-29T13:14:40+00:00"
+    },
+    {
+     "title": "Amazon Stock Forecast: AMZN Needs a Close Above $258 as Q3 Tests Its AI Spending",
+     "publisher": "TradingKey",
+     "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPTlZQWG1LWk5OZFhBX3g3ekhRN0FIMFpsT25BSjZ5QWQzOGt5NXpPV185VHRaY29ZUTZvWFN5aWM4NUdiME5jT3owYU1HNFZYc3lkZEZZNVZlYmRIZVQ1RmMyUTZsRWJjaEtXNUNTc1Z4RGEyZkdRR05iMjNqUGg0LWxaNnJUQTVJTEx3dVctcTVnZXNXWnN2dFNzeTlBTUVEdUliZ05rR08tZU16dlRVeWNaam12V0Y5OHBna28wQm5wNUdaMmxjMHc4S2tmRDZncGZvLVNna2ZXekVmR0JLd2lOZDg1ZW9PTjdZbVBFYlZaWVdUYmtCRw?oc=5",
+     "time": "2026-10-29T12:34:41+00:00"
+    },
+    {
+     "title": "Amazon Stock Forecast: What Options Traders and Financial Analysts Expect Ahead of Q3 Earnings Today",
+     "publisher": "TipRanks",
+     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNbUFzZjQ4SUFMclNURk1lMThac2NuOTJfbUZjRjhRcHB5Z2ZmTnQwRmptX2Fvd1V2eXhqaTgwU29kS3VScXhLUVIyal9BeFhkTWVTcTJ4Ymh3OElaUi1oWm9uTGN6dlNCYm10dTJyR2Fab0ZhMHVOSzdzXzFoenZwU2x2VDc5TU1hLTFjMy1LT2hKSk5TcWg4aGhYaFlvenBwU3YyRTAxeEZ2amNHcmdfVXlCNXpVM0dEbS1zUDlmc3BXZGF6dTBxaw?oc=5",
+     "time": "2026-10-29T12:20:19+00:00"
+    },
+    {
+     "title": "Alphabet, Amazon, SpaceX, Microsoft, Broadcom, and AMD Are Counting on Anthropic's IPO. Not All Their Contracts Are Equal.",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPMFVFcGhmOGRiajU5ay1YcGFnZTJ4VVdSc0NCZ0dha0lRdDZHUm1fZ3FQbU5IV1dEVHRwWjl6UGRaQXVXUTFIR2lHMFp1bGVaSUdYNEk0TmVVMWZmWnpVRGZnZUF4UHJ0X0plMVJyT1ZhWUliZjRpMDhLckY1c3NoZDk4b0pWcE9UT3VVUUNrQTZwS0ZlQWZz?oc=5",
+     "time": "2026-10-29T12:17:07+00:00"
+    },
+    {
+     "title": "Is Amazon (AMZN) a 'Buy' Ahead of Earnings?",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNS0Z5Z1RsdUJFdHdXdzNnbC1hVXZlYVB4SlQteXNpeFZxNUJMS2VNZVBuLXZFdzd3aHJWQzZOZk1tZWMxWWZNVUNWc1QzdGJPQ0c4bndHczk2M0xPeFQwOWNRMGlic0NXTjFnZndlZEozVElKemJmQ18yRVUxcmVDR2hzalUydTY4RkxHQm1wS0ZxUE1mdmhYSUNEdw?oc=5",
+     "time": "2026-10-29T12:13:00+00:00"
+    },
+    {
+     "title": "Amazon Gears Up For Q3 Print; Here Are The Recent Forecast Changes From Wall Street's Most Accurate Analysts",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxOR0RQYmFZUFpESHVvOS1DalFXbnpCYkZ6Nmc3UU8zWGg5RjhRZldVZ0NJLVFkVmk4UHZmWHhfQ1Z6b3ZVeW5fYk90a1c3ay1WU1B1SWhRclRkNU04WV9QQXYxUV9ZQzFvUGNIUWtuNnJ2NmZXLWhzb05Bck11TmdQMjk3Y3pMcXVYWkpxU2ZPOWEwZDkzUmx2YWFTVzZSQTAwbVc3OVNkZDJDVFVaQmVUVmplMDVSZm42X3d4cHI0bHd5ZVA0Mk0tSnlzaFhOaWlUYWQ1VHRwall1cXBEeE1tTGxub2ZyZ1M3S2VuTWZBZUhTT19yUzg4ajhSTmVxaExrelRPVUQ0QUJDTFg1V1E?oc=5",
+     "time": "2026-10-29T12:12:02+00:00"
     }
    ],
    "brief": null
