@@ -1,7 +1,249 @@
 {
  "date": "2026-10-29",
  "threshold": 3.0,
- "updated": "2026-10-29T14:25:45+00:00",
- "market": {},
- "movers": []
+ "updated": "2026-10-29T14:30:45+00:00",
+ "market": {
+  "SPY": {
+   "name": "S&P 500",
+   "price": 769.29,
+   "change_pct": -0.39
+  },
+  "QQQ": {
+   "name": "Nasdaq 100",
+   "price": 715.46,
+   "change_pct": -1.4
+  },
+  "TLT": {
+   "name": "Long Treasuries",
+   "price": 81.47,
+   "change_pct": 0.59
+  }
+ },
+ "movers": [
+  {
+   "symbol": "NOW",
+   "name": "ServiceNow",
+   "list": "portfolio",
+   "price": 113.51,
+   "prev_close": 150.13,
+   "change_pct": -24.4,
+   "trigger_change": -24.4,
+   "peak_change": -24.4,
+   "first_seen": "2026-10-29T14:30:45+00:00",
+   "sector": {
+    "etf": "IGV",
+    "name": "Software",
+    "price": 107.78,
+    "change_pct": -3.69
+   },
+   "chart": {
+    "ema8": -21.0,
+    "ema21": -21.0,
+    "sma50": -18.5,
+    "sma200": -1.4,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "ServiceNow\u2019s stock is on track for its worst day ever. Here\u2019s what went wrong.",
+     "publisher": "MarketWatch",
+     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPTUhUaVlZemhaS1kwaHpJSm1RMk94ZUZBSGVNcktCZlUwS2ZRRjhHX1Z5ejRLRFNoRXZISXBGN1hfZzZxWEdwMVBPY3E0WHVaa0cwV0xLRUdrdnVQUjU0SWQzQTdCNHVPQmtGUThBdnpOaXl2ZUI3Y005WEhWeWtWOHR0M1ZTTndmaVZiZG1vY0txUERKSzdnN0VBY0ZOdm1oUVVPdjFjT1I2c0RlR3FnWG9IX09STjJaU3BzZnpDX1RHdnEya3ZHX1BtcTVyQnM?oc=5",
+     "time": "2026-10-29T14:01:00+00:00"
+    },
+    {
+     "title": "Software stocks tumble as Fortinet, ServiceNow plunge on disappointing outlooks",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQQUpuMFR1MVJuYWRfQnZKNDlVRThQT1VyZl95Y2lIWWxoOWV5R2ladVplWk03blZrRWttbTJ3bFdmYXVZMEowQ1pVS0diYUFDaWsxWHNhd2VIWVVjcVdOZXRjVHFrQzdWaENucXc3R1NDVnpnR0YzVEVBZFA5Mk0yVmdvUmpjNmlKSWVJa3pxTmFaX0w0OS00MWZsbzhsQl9oelpYVmZhdEFJZXVHVTY0STdBLVliRW0wTkpheVZZZ0g0TTFBUkdHa3NpR1hyZGtpQXV5ejhJZGRwMHYyQW85QmtXVkNxWEtjSHY2QnJpYkZWOS03?oc=5",
+     "time": "2026-10-29T13:58:12+00:00"
+    },
+    {
+     "title": "Analysts revise ServiceNow stock price target after Q3 earnings",
+     "publisher": "Finbold",
+     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPQ2M3dzlMMTh3NkJGc0ktOEFnSVYyWVFnRDByX0NsczRob3VqZ1dCbnZscFU5a3BnWTVfbW5qUVU1UjE3bFFVSHdVTHc3TUdwSTBBVW5FMkJ3bUZBNThkMm1PMFg1S3lyUk43dDUycDF1RjdPYlRQUUptUllSZ0wtNm9XaUxRLUtOVko0Xw?oc=5",
+     "time": "2026-10-29T13:49:13+00:00"
+    },
+    {
+     "title": "ServiceNow's (NOW) \"Outperform\" Rating Reaffirmed at Oppenheimer",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPTldYVnJkMHM2YW9DM1FSTHZYTzdhQzR1bzZmejYtV09BMlUyY0E4cWV3cVl3QVo2SElYNGdObWJ3TU9oYVh4RUNaY0xkWmh1c2RuQXowaEVwbjVkN1Ffd1JsT1dyVG1wT21sUlA4cExLcXU1a0ZXQjZnNmZTMmVEdmx5ek0tMkZxYkYtNjVKRkhac2hJMFg1cUxqbmRwU1dIV0NxM0hIQUxDM0dtbjVuRkNwdzF4aTFIUjdzNlNB?oc=5",
+     "time": "2026-10-29T13:44:48+00:00"
+    },
+    {
+     "title": "ServiceNow Tumbles 19% as Slower Contract Growth Overshadows Raised AI Target; Salesforce Slides 6%, Workday Drops 5%",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQUEVpT2Q0OGNoeE9QOGlIU09mRjlwR3ZKTWJ1bnJ6U1JYTnJjUld5alJZMW9wSm1OMU5wQzRzNERsVHdEb0JXbmg4SjJuLTl4SXY1RmJEZkpMLXJ5OWNGOFBkcndvODd6VnVYNE9GVy02azBpd0VlQzFlTERvR3V2RjFxZVhXNXRDMV8xaGxGLWFUZndwQld2bmRmV1dscjQtUmhuUngtaWtxbTZPUW9pUFRUeVRCbldldlFGUmVmQW1SNWsyNEdZTTNVbUNPZ3pkOWJhMXA1S1hRX3ZtOHNoSkF2U25EcWd3bG9qdg?oc=5",
+     "time": "2026-10-29T13:21:27+00:00"
+    },
+    {
+     "title": "ServiceNow stock is plunging amid SaaSpocalypse fears: is this an overreaction?",
+     "publisher": "Invezz",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPTnZ3bXhKYWhmbzdNem5Zcll0ZkJfY3QtWTllUWl0UzI2T2VrQ0FnRGk0aWdaR0VYaWlyNmpDdnNPTGdodm9JS1I4WFVJcHpGMVlwRXdMX3h4SVFHeFVVVG13Q3ZLUU9wMnd3U3JsWUp3aEMxck55eDA1bEoyMk1WTEc4YjltR3czNlhXS09pQm5ZM3NhWVdWUUJlZ2xEMmxVcnhfU0xuemhKMi13Z2lnRUtocw?oc=5",
+     "time": "2026-10-29T13:09:45+00:00"
+    },
+    {
+     "title": "BTIG Research Has Lowered Expectations for ServiceNow (NYSE:NOW) Stock Price",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPSlpuM3ZndWpId3Nmd082Q2gtekdSYUZSaVdZRnp4MldqMFJFQ3RhV2xMdGh1UXJVVHgxNFZnaVloS3FqaW1RTkR3QzZodmpkRkRNWlVzMEh2THNWZFVNbmdWNFd2d3laMndIOFFxUWkwcGJvNHhxekVERlpTUXZGMGNRRjh6TnJuUVlqM3dGOFM5S0xyUlRseXZSQmVTZWd3cm95M0lwUlBic2s0a1RwQnZCbFZNQUc0a3dQVXFMWjhITTVIaXNIWlZoTVY4d2trTlE?oc=5",
+     "time": "2026-10-29T13:09:27+00:00"
+    },
+    {
+     "title": "ServiceNow stock tumbles after earnings: Buy the dip or stay put?",
+     "publisher": "Investing.com",
+     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNN2htNE5uX0FCNFE4RFZrczhZUFZXN29hWXdhRWdXUVB1emczb1R2YktYWEhWSmJ2UUNQZ0dNTWQxOE1femREUGZPdlpDaFluR3BJNWVlTnNqZGJkQ2toc0trc3ByeE5pU2Z0ZWppRE13S2J2U0JMTHZyRzU2T3FYLXNJV01hNVl6ZU1wR0Z2V1VXc09rOEM0azZ5UWVUdzZmLU5hSXd4OFZwWENyQlJEbTJlU3ZQWnFvcE1YYmktRkFsLXM?oc=5",
+     "time": "2026-10-29T13:09:21+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
+   "symbol": "GOOG",
+   "name": "Alphabet",
+   "list": "portfolio",
+   "price": 283.94,
+   "prev_close": 321.89,
+   "change_pct": -11.8,
+   "trigger_change": -11.8,
+   "peak_change": -11.8,
+   "first_seen": "2026-10-29T14:30:45+00:00",
+   "sector": {
+    "etf": "XLC",
+    "name": "Communication",
+    "price": 101.46,
+    "change_pct": -1.63
+   },
+   "chart": {
+    "ema8": -10.0,
+    "ema21": -13.4,
+    "sma50": -15.7,
+    "sma200": -16.2,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Why Microsoft stock isn't getting crushed like Google stock after its earnings report",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPNl90cjBzWjNJM3p0T0tXLXc1aXVuTThBNXg1blZUZTRfV2xXbXJrN3hzOVVPX2czZEliMkNZYVo4UGxyVndhOUo1X2hXUnd1VklTTmlMTmYwZzMtUWhJUlBQeXVjM2dZT25qNlh4cGQwNmxUWHMybzBzR3ZOLXd4TldVSkVlZXZxZWF5MEdGY1JSUWJ1Nzd6Sk5mMVBNb2VVeGpjbGJxMWo2dkpYbmpUTGJSbFF6MGF6SHNFOG5kdEtpZEFBZXFzYU14OE0xYXp1VXdUTWJhMkIwSjNsSm1MUFVn?oc=5",
+     "time": "2026-10-29T13:49:49+00:00"
+    },
+    {
+     "title": "Alphabet Inc Class C Stock (GOOG) Opened Down by 12.59% on Oct 29: Key Drivers Unveiled",
+     "publisher": "TradingKey",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQeG9BV2dvSExEcnFmd2xqUm9sZUxOQVRrWEc1QkhJWFBwNi10VXY3X3VKdFppV2d5VGNsYXhQVHFJV2ZiM1h0cjJ2REV3clItemwyUnVydWRycDl3akotVy1yMHFSQktWTXBfMXItaFdGQU0yQUN1T1FLaTNVSU9KdXExWUFkYllWYW5J?oc=5",
+     "time": "2026-10-29T13:47:31+00:00"
+    },
+    {
+     "title": "Google Erases a Record $500 Billion as AI Eats into Sales",
+     "publisher": "Bloomberg.com",
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNl94WE51TlQ2Q2dVVTBDNlZZbzF5Mk02UjZRaEJwQnhoM1lGX0dWODk3b1RwZDB1SDVHYmYtOUQzaWJyTEc0ZXlTNmpyQU50WVhaQUpJX3dyMkVFbmgyVXJFVy1fb21TQUxEOXFIWmtzdFEyYVk5SkU3ZGF4LTdnN0EyTlo1NklicFg4TzlpSHYwRE9VYzdUUTZ4N0ZLaG9XWUs1Nm5vM3FfSktn?oc=5",
+     "time": "2026-10-29T13:37:27+00:00"
+    },
+    {
+     "title": "If you invested $1,000 in Google stock in 2006, here\u2019s how much your Alphabet shares would be worth today",
+     "publisher": "The Economic Times",
+     "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQWE5UQllfREVhNDE2by1pY2JnazljRTV6R3p4N3lDYWd0QUxIb2FKV3NnNUR5cEJqYzZmMG9rZ2w1eHZfRXM2bU5NQkN1XzRwVDJFOF9hNzVrSmxRWGozajR6Z3NnSUJDNXhxVDhQcEtQVUhMbEhlWWNIaWVMblBtZ0dXaWJPX0tRbU03dkZLLUpzN0trTEZEeGtsOW1XTDZDMllvQUxRSVl4eV91WkRSVzVDc2FPXzB5TzkyTDhpV24wMmZ2TFdPeERFX1ZmRWVTWjJqcEphMl82M2N6UXVpQmdubUhPNmNaSzY1c1l3MGlCT1diaFQ1Q3cyb9IBgAJBVV95cUxOdFFWY0dQTDlzcWxNd2k5N3FZZjY2OF95RFJLUlhoM1dNOUpKNF9tU0RXLVBoSWR5SnpMSFVzNENMV1lhSjNlamdPcWs3emZiLUtqTTR4RmxidlJkQ0tEMW5FY2pHeDNqd0g1cERYOHVCTnludDZNSjBSeG1IUmZwb3lGSEJjOW9pa19Oc05SWkFiYTZ2SUswVTFpcnEzN09XOXZWbGVNcFgzcG9aREYxRFY1NkM5S2NMZV90WnlodHBTWjAtV005cF9uZ09tVmtGeGZRNDRVYm53SkhKaUV6N29zeVUxVWdYUlc0UHAzRFppUVFhYnp4eXNGTjRVd1gw?oc=5",
+     "time": "2026-10-29T13:33:02+00:00"
+    },
+    {
+     "title": "Dear Market, You Got Alphabet Stock Wrong (NASDAQ:GOOG)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQQ2gwSVgxNHVKck1XYnFOX3h5eEprLXJWaG5WeGlheTduMWNVSG9WbTFPa3RhRXFQaTNBbmR5Y1RPVXNzMWpOdWJVV01pYmtHUHpMcTVlbG1JYWVockU3aE9FblFXQnNOdTFtZVhjQXA2VmZCcWgxeGN2X0hOcXdHZQ?oc=5",
+     "time": "2026-10-29T13:32:21+00:00"
+    },
+    {
+     "title": "Alphabet: Why The 10% Post-Earnings Sell-Off Is An Opportunity",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQeXVTZXJ6SGJkY1BsVHp5VFNRNTRXN2JsaE5iaW1ITEhZemZRTUJULUFuUTVYczdlano3dHNPVmVScFZlRFJ4cWJtVTNxOFBxVUpiSDFDcE94VDdiT05iUWFBdmlnbDdTaHZnNFdna3hPOWpBT3V0UUdCQXYxdHlPQlBHVmQ4WVQyTjBmSkE1VnRoSUJSV1lzTXFHenJNOV8ybUZKc2ZwUEFMcDB1Q2c?oc=5",
+     "time": "2026-10-29T13:22:28+00:00"
+    },
+    {
+     "title": "Google stock plunges 11% on Q3 earnings miss",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOMVp6V1VmU1hjUmdiZF93cUZHQ1B1QkhyMG9NRHBnNjh2dDhaaWpmbnFQdkNZcWdiVTZTOEZvY3JyZUhEZGRaUjFBUzM4a1BuVlZhOExkUndwa2NRb0hYdEhUazJsSzhFN1BTMzJrWTU1ZnFlQkZQUHEwS2ZvOTVQNDd2ZGl3c0ZqQTdKdXJuRkg3OGQ0VmUtYlNlQ2ZyVUlaUzhzSmNB?oc=5",
+     "time": "2026-10-29T13:06:58+00:00"
+    },
+    {
+     "title": "Alphabet Earnings: Why Google Stock Is Falling",
+     "publisher": "Barron's",
+     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQc1cyWEw2N29xSWxneld4YlNXRFozMUVXMVVuR1ZBbXBDWno5Nzd4QklMQmFVZi1yTld5M2pfTk9TOXpYdGRBVm51WTNKQ2J4MVJPME1naEtCM3N2SXBNbVVlZzVBdS1nbnVnNy10WFFQanh4Y1VjUW12Y2dsYTVzTw?oc=5",
+     "time": "2026-10-29T13:03:00+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
+   "symbol": "NBIS",
+   "name": "Nebius",
+   "list": "portfolio",
+   "price": 173.83,
+   "prev_close": 182.34,
+   "change_pct": -4.7,
+   "trigger_change": -4.7,
+   "peak_change": -4.7,
+   "first_seen": "2026-10-29T14:30:45+00:00",
+   "sector": {
+    "etf": "IGV",
+    "name": "Software",
+    "price": 107.78,
+    "change_pct": -3.69
+   },
+   "chart": {
+    "ema8": 0.6,
+    "ema21": -7.6,
+    "sma50": -17.6,
+    "sma200": -1.9,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Nebius And NBIL: Smarter Pricing, Lower Leverage, But I'm Staying Out For Now (NBIS)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPYkNmdmRJU0FMVG9ESmpvOGZ4anNQNy1IODNaZ2JwTmFtQmxFc3lpWEt4bC1qVzdJSjhXTllzVVFOdVZpXzhWNG9TRFJsUzZjVHBkeFZNaUJZeVhKTFpMUWN2UDNNcE5HYW5vR0NPWUN0WEp5M09JWGVzd0VrWFplVjgwYUw0THVuTVdaeHdfT1JieGRMbTJnb3lzWW1LSWx5OG1KR2U3MGc4eV9WU2xhMHhsbXc?oc=5",
+     "time": "2026-10-29T14:17:41+00:00"
+    },
+    {
+     "title": "Nebius Stock Drops On Debt Fears, But Pricing Power Is A Game Changer (NASDAQ:NBIS)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPM2lpb1FFOThYeFBsU2ZQTmwyaWpjQWxzSDhPdHkzckJUUnJNWEZCVUxMWkl1ZFhPb3pFcXFhNWdPUDdDd0ZtOVM2TWNiWDd5QmZqWnNXNXRIWUxiVUJNU0F3Z2FXZEMycHFyVGkxLW4xbXplX0oybjB6VUpjM1NVY1FDczZkSkpLT192dWNMX1JMV3VFZkVxVThOSWZsQ1RaN042N3ZqaE9NbG5qQmc?oc=5",
+     "time": "2026-10-29T13:11:45+00:00"
+    },
+    {
+     "title": "Nebius vs. IREN: Which AI Infrastructure Stock is the Better Buy?",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPanJ5ZVpVZDhLbzJob1RzM0p0T1BCMEdxUWNQc2xNM0hmZ0VrV1UyVzJqQ2FjV1NwTVNJRTRsaHZ5NFR0SGFCaHRaOGxrMTI3QUtLSmM4TnRSU3BmNHpzQmpKMzVhSkQ4Uk9fTzJRWTlKejlLclZ4S0x4SHdMRDJMamNNQlpQUzhoX2xPOHliUC1jcXRPdk91QlZQcjU?oc=5",
+     "time": "2026-10-29T13:00:00+00:00"
+    },
+    {
+     "title": "Nebius is The Neocloud Smart Enough to Not Get Caught in The Race to The Bottom",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNTi1pWWFCTHp3SW5ST2ZWUUprLVRXR2hRNUpRVkFNUmV2ZDNlRGZtT1VFcjBPNFNFQXctb2g5bk5RVHBPZ3REV3RwV2dqUjQ1Rlc3eTN3VGlwU2RQSGg2UHEyWFdnS2xGWVRHMFpSSmNiOGc5aW1iaWhqNjVQNjZhMWxkY0swQUJIZFE3dmNtTnNmalJmV1ZJUWptb25SRlVTZlFBYjdtYURkWWoxUVV1QkloY0VzaGRpcXVlVktqeG8?oc=5",
+     "time": "2026-10-29T12:54:26+00:00"
+    },
+    {
+     "title": "Nebius Is Up 103% in 2026 Despite Musk\u2019s \u201cGuppy-Level Death\u201d Warning: Take Profits, or Buy More?",
+     "publisher": "TIKR.com",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQQVhvbExFSzROVlZDeG8zTzItRGZlZkd5a25QSy1XMjctQWhIWXdnODF3YjhQRHlydFcwZHEwLVJIeDFIX3Bna2dVeXRQUHpkZDJwNEVYdHBKMGEzalMzMlYxT09GZlJmZEdNZTJXZzA0aTlyX3dWdkduYWw2YkNuZGhsRVFpeWY5bEtDV0JOYVZIR0YzcEM5U2M1OEtiVWhUbXNydzhTd0p2TE51VVo1RXdnWmJwdw?oc=5",
+     "time": "2026-10-29T12:24:07+00:00"
+    },
+    {
+     "title": "Why CRWV, NBIS, IREN, APLD Stocks Are Falling Today - CoreWeave (NASDAQ:CRWV)",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOQXc3ODNSRENRYkV5Q2FOYURtckRkT1BtRnY1ZVRKYkpHZkRyRldWWUZremNQWnFuMTY0ZjFkUG1GMWtxSmFJVzAxbGJTR3FsN2g2QVhoTURNWWZZSTd5Vi1jLXN2SGtTUUZDMndFRjE3eHZfbzl3OEhXRVg0ZlRYaUdXaGpqM0JKenJPZURna0tiaWZpckVYUno2RHFyQjNYN1dkNGJNMzBjWmJBQXh5NS1qTHFJMHc?oc=5",
+     "time": "2026-10-29T12:10:58+00:00"
+    },
+    {
+     "title": "11,062 Nebius Group N.V. $NBIS Shares Bought by VestGen Advisors LLC",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOd3Zud19uMERrZVhZWWRYR1d5MWRyNFg1M1BiT21wQUJsVWc4cjU2b0loTlVnQUhlU29pVU8tQmd2d2JtRmpCd29zUGZJOUJJdl9scjVlbEhqNnZsZUtGdkZqOURvS0E2NXRvR2N0UVBKcU5DY3diTkItaUltd3FGdENQSlpGNlBiak5tYnlrdlY1X2FpNHZsLWc4T2dnbldEN0JBU0U2d0tVZmppOXNOR09kNk9pYkJlNE10QXFpaF9EQ0k?oc=5",
+     "time": "2026-10-29T10:12:34+00:00"
+    },
+    {
+     "title": "Nebius Group (NASDAQ:NBIS) Stock Price Breaks Above 200-Day Moving Average - Here's Why",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPSktJM3Y1aEZ6WTNOMGRackVqM05YbVYzamVxQ1luVTUzSXR1T1pBeUxETGtxaVdMUUc3U1AxMUVlbFhfdUdNYU04dThqdEpheW8wUTBabmVYd3ZQMXV4ZXJSMHZfb0xDeW1xd2ZSVndJSEs5RVhEeWFvTkhGcmlxQmVhQ0xzN1lybFNIeTlWUE9GT3VGa29TRTFsTXljN0dvQlBKYm5wZlRwMWhmTi1NNDQ3UWhjR0I5MkVYcU5uREJsM3Z6LTdNUmJWWURnekl6OWFYVkRka1hEdw?oc=5",
+     "time": "2026-10-29T07:15:44+00:00"
+    }
+   ],
+   "brief": null
+  }
+ ]
 }

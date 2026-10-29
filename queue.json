@@ -1,5 +1,30 @@
 {
  "date": "2026-10-29",
  "threshold": 3.0,
- "movers": []
+ "movers": [
+  {
+   "id": "2026-10-29-NOW",
+   "symbol": "NOW",
+   "name": "ServiceNow",
+   "list": "portfolio",
+   "trigger_change": -24.4,
+   "first_seen": "2026-10-29T14:30:45+00:00"
+  },
+  {
+   "id": "2026-10-29-GOOG",
+   "symbol": "GOOG",
+   "name": "Alphabet",
+   "list": "portfolio",
+   "trigger_change": -11.8,
+   "first_seen": "2026-10-29T14:30:45+00:00"
+  },
+  {
+   "id": "2026-10-29-NBIS",
+   "symbol": "NBIS",
+   "name": "Nebius",
+   "list": "portfolio",
+   "trigger_change": -4.7,
+   "first_seen": "2026-10-29T14:30:45+00:00"
+  }
+ ]
 }
