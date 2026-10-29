@@ -7,8 +7,8 @@ do the work (edit, test, push) instead of handing him code or terminal steps.
 ## What it is
 - Web app (PWA) installed on **Android** (Chrome → home screen) and **Mac** (Dock app). One codebase: `app/`.
 - Method: Babyfolio's "Technical Analysis: Keeping It Simple" – 8/21 EMA entries, 50/100/150/200 SMA,
-  open gaps, ±1.5 % zones, "extended" 15 %+ above the 8 EMA. Three chart views per stock (EMA / SMA / Gaps),
-  D/W/M candles. Not investment advice – no buy/sell wording.
+  open gaps, ±1.5 % zones, "extended" 15 %+ above the 8 EMA. Four chart views per stock (EMA / SMA / Gaps / RSI 14),
+  D/W/M candles. Earnings badge per stock (green ≤ 14 days, yellow ≤ 7 days) and an "Upcoming dates" card. Not investment advice – no buy/sell wording.
 - Free stack only, no new accounts: GitHub (repo, Actions, Pages) + ntfy (phone push) + Claude scheduled task.
 
 ## How it runs
@@ -34,6 +34,8 @@ do the work (edit, test, push) instead of handing him code or terminal steps.
 | `engine/check.py` | Fetch, indicators, alert rules, ntfy push, site build, holiday calendar |
 | `engine/movers.py` | ±3 % movers, headlines, market context, brief publishing |
 | `engine/lookup.py` | Search symbol directory + on-demand lookups |
+| `engine/events.py` | Upcoming dates: Nasdaq earnings + ex-dividend dates (fetched once per NY day, cached in `.state/events.json`), FOMC from `fed.json`, macro + company events from `events.json` |
+| `events.json` | Macro release dates (CPI, jobs, PCE) and hand-picked company events. Kept current by the brief task (step 6) |
 | `engine/fed.py` | Fed screen: live target range, its history and the effective rate (NY Fed API; FRED fallback), FOMC decision times, writes `data/fed.json` |
 | `fed.json` | Fed screen text (stance, focus, balance sheet, projections, meetings; EN + DE). Updated by the brief task after each FOMC decision and weekly |
 | `app/app.js`, `app.css`, `sw.js` | The app (TradingView Lightweight Charts v4.2.3 in `app/vendor/`) |
@@ -52,7 +54,7 @@ do the work (edit, test, push) instead of handing him code or terminal steps.
 - Claude sessions can't use the GitHub **Actions API** (blocked by the proxy). Use instead:
   `gh api repos/Nico4sl/stock-alerts/commits/<sha>/check-runs?filter=all` (run status),
   `.../deployments` (Pages deploys), and a push to start a run.
-- A push to `config.json`, `briefs/`, `app/`, `engine/`, workflows, `heartbeat.txt` or `fed.json` starts a check run and redeploys.
+- A push to `config.json`, `briefs/`, `app/`, `engine/`, workflows, `heartbeat.txt`, `fed.json` or `events.json` starts a check run and redeploys.
   The app updates itself when it comes to the front (service worker versioned by a hash of `app/`).
 - Test before pushing: `node --check app/app.js`, `python3 -m py_compile engine/*.py`, and run
   `engine/check.py --fixtures <dir> --force --out <dir> --state <dir>` with synthetic candles

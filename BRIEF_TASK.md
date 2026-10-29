@@ -21,7 +21,7 @@ the trading day. If GitHub never starts it, nothing runs – so check once per r
    (fields: `date` = New York trading date, `movers[]` with `id`, `symbol`, `name`, `list`,
    `trigger_change`, `first_seen`).
 2. If `date` is not today's date in New York, or every mover already has `briefs/<id>.json`
-   on `main`, stop – nothing to do.
+   on `main`, skip to step 5 (no briefs to write).
 3. Optional extra context: `git show origin/data:movers.json` has the live change, sector ETF move,
    S&P 500 / Nasdaq 100 / long-Treasury ETF (TLT), distance to the 8/21 EMA and 50/200 SMA, and recent headlines.
 
@@ -78,7 +78,7 @@ Rules
 ## 4 · Publish
 Commit only new files in `briefs/` to `main` with the message `Briefs <date>: SYM1, SYM2` and push.
 The push triggers the app update and the phone notification automatically. Do not change other files
-(except `heartbeat.txt` in step 0 and `fed.json` in step 5).
+(except `heartbeat.txt` in step 0, `fed.json` in step 5 and `events.json` in step 6).
 
 ## 5 · Fed screen – keep `fed.json` current (do this even when there are no movers)
 `fed.json` (repo root) is the written part of the app's Fed screen. The live target range, effective
@@ -108,3 +108,24 @@ How:
   no investment advice, no invented numbers – every figure must come from a source you list.
 - Validate (`python3 -m json.tool fed.json`), commit only `fed.json` with message
   `Fed summary <date>` (rebase on `origin/main` first) and push. The push updates the app.
+
+## 6 · Upcoming dates – keep `events.json` current (do this even when there are no movers)
+`events.json` (repo root) feeds the "Upcoming dates" card on each stock page. Earnings and
+ex-dividend dates come from Nasdaq automatically and FOMC dates from `fed.json` – **don't add those**.
+Update it when `as_of` is 7 or more days old (otherwise skip this step).
+
+How:
+- `macro`: US releases that move the whole market – jobs report, CPI, PCE (+ GDP when released the
+  same day). Keep at least the next 3 months listed; take dates only from the official schedules
+  (bls.gov/schedule, bea.gov/news/schedule). Drop past entries. Keys: `date` (YYYY-MM-DD), `time`
+  ("08:30 ET"), `kind` (`jobs` | `cpi` | `pce` | `gdp` | `other`), `title`, `title_de`.
+- `companies`: for each tracked stock in `config.json` (not crypto), search for **confirmed, dated**
+  events in the next 120 days that could clearly move the stock or say something about the
+  company's health: investor/capital markets day, drug approval (FDA PDUFA) or trial readout date,
+  major product launch event, shareholder vote, lock-up expiry, index inclusion, court or regulatory
+  ruling date. Skip anything vague ("later this year"), routine conferences and earnings.
+  Format: `"NVO": [{"date": "2026-12-03", "kind": "company", "title": "…", "title_de": "…",
+  "note": "one sentence: why it matters", "note_de": "…"}]`. Drop past entries.
+- Set `as_of` to today, list 3–8 real `sources`. No invented dates – if unsure, leave it out.
+- Validate (`python3 -m json.tool events.json`), commit only `events.json` with message
+  `Upcoming dates <date>` (rebase on `origin/main` first) and push.

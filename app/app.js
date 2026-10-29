@@ -18,7 +18,26 @@
     ema: { name: "EMA 8 / 21", lines: ["ema8", "ema21"], bars: 130 },
     sma: { name: "SMA 50–200", lines: ["sma50", "sma100", "sma150", "sma200"], bars: 260 },
     gaps: { name: "Gaps", lines: [], bars: 260 },
+    rsi: { name: "RSI", lines: [], bars: 130 },
   };
+  const RSI = { n: 14, hi: 70, lo: 30, color: "#c084fc" };
+  // Wilder's RSI(14) – the same calculation TradingView uses by default
+  function rsiSeries(c, n = RSI.n) {
+    const out = new Array(c.length).fill(null);
+    if (c.length <= n) return out;
+    let g = 0, l = 0;
+    for (let i = 1; i <= n; i++) { const ch = c[i] - c[i - 1]; g += Math.max(ch, 0); l += Math.max(-ch, 0); }
+    g /= n; l /= n;
+    out[n] = l === 0 ? 100 : 100 - 100 / (1 + g / l);
+    for (let i = n + 1; i < c.length; i++) {
+      const ch = c[i] - c[i - 1];
+      g = (g * (n - 1) + Math.max(ch, 0)) / n;
+      l = (l * (n - 1) + Math.max(-ch, 0)) / n;
+      out[i] = l === 0 ? 100 : 100 - 100 / (1 + g / l);
+    }
+    return out;
+  }
+  const rsiState = (v) => (v === null || v === undefined ? null : v >= RSI.hi ? "hi" : v <= RSI.lo ? "lo" : "mid");
   const RANGES = [["3M", 63], ["6M", 130], ["1Y", 260], ["2Y", 520], ["All", 99999]];
   // Candle timeframes. Weekly/monthly series come precomputed in the detail JSON (d.w / d.m)
   // with their own EMAs/SMAs (e.g. weekly 200 SMA = TradingView's weekly 200 SMA).
@@ -399,8 +418,9 @@
     if (!r.in_zone?.length && r.nearest) chips.push(`<span class="chip">${esc(r.nearest.label)} ${sgn(r.nearest.dist_pct)}</span>`);
     const ext = S.summary.settings?.extended_pct ?? 15;
     if (r.extended_pct !== null && r.extended_pct >= ext) chips.push(`<span class="chip ext">Extended ${sgn(r.extended_pct, 0)} vs 8 EMA</span>`);
+    chips.push(rsiChip(r));
     return `<li class="row" data-sym="${esc(r.symbol)}">
-      <div><div class="sym">${esc(disp(r.symbol))}${r.high_conviction ? '<span class="star" title="High conviction">★</span>' : ""}</div>
+      <div><div class="sym">${esc(disp(r.symbol))}${r.high_conviction ? '<span class="star" title="High conviction">★</span>' : ""}${earnBadge(r)}</div>
         <div class="name">${esc(r.name)}</div><div class="chips">${chips.join("")}</div></div>
       <div class="spark">${spark(r.spark, (r.change_pct ?? 0) >= 0)}</div>
       <div class="px num"><div class="p">${fmt(r.price)}</div><div class="c ${cls(r.change_pct)}">${sgn(r.change_pct, 2)}</div></div>
@@ -455,8 +475,8 @@
       const extd = r.extended_pct !== null && r.extended_pct >= ext ? `<span class="chip ext">Extended ${sgn(r.extended_pct, 0)}</span>` : "";
       return `<li class="row rk" data-sym="${esc(r.symbol)}">
         <div class="rk-n num">${n}</div>
-        <div><div class="sym">${esc(disp(r.symbol))}${r.high_conviction ? '<span class="star" title="High conviction">★</span>' : ""}</div>
-          <div class="name">${esc(r.name)}</div><div class="chips">${lvl}${more}${warn}${extd}</div></div>
+        <div><div class="sym">${esc(disp(r.symbol))}${r.high_conviction ? '<span class="star" title="High conviction">★</span>' : ""}${earnBadge(r)}</div>
+          <div class="name">${esc(r.name)}</div><div class="chips">${lvl}${more}${warn}${extd}${rsiChip(r)}</div></div>
         <div class="px num"><div class="p">${fmt(r.price)}</div><div class="c ${cls(r.change_pct)}">${sgn(r.change_pct, 2)}</div></div></li>`;
     };
     let html = `<div class="s-note" style="padding-bottom:4px">Ranked by the strongest line the price sits on: <b style="color:var(--text)">200 SMA › 150 › 100 › 50 SMA › 21 EMA › 8 EMA</b>. Zones are ±${band} %. Gaps are not considered. A ranking of chart setups, not investment advice.</div>`;
@@ -490,7 +510,7 @@
       <div class="d-head">
         <div><div class="muted" style="font-size:13px">${esc(row.name)}</div>
           <div class="big num">${fmt(row.price)}</div></div>
-        <div class="chg num ${cls(row.change_pct)}">${sgn(row.change_pct, 2)}</div>
+        <div class="chg num ${cls(row.change_pct)}">${sgn(row.change_pct, 2)}</div>${earnBadge(row, true)}
         <div class="spacer"></div>
         <button class="pill ${hc ? "on" : ""}" id="hcBtn">★ High conviction</button>
         <button class="pill port ${isPort ? "on" : ""}" id="listBtn">${isPort ? "✓ In portfolio" : "+ Portfolio"}</button>
@@ -506,6 +526,7 @@
         <label class="toggle"><input type="checkbox" id="zonesChk" ${S.zones ? "checked" : ""}> Zones ±${S.summary.settings?.band_pct ?? 1.5}%</label>
       </div>
       ${moverCardHTML(sym)}
+      ${datesCardHTML(row)}
       <div class="detail-grid">
         <div id="levelsCard"></div>
         <div>${manualCard(levels, row)}${manageCard(cfg)}</div>
@@ -556,7 +577,7 @@
 
   function levelsCardHTML(v, row, detail) {
     const inner = levelsCardInner(v, row, detail);
-    if (!detail?.tf || v === "gaps") return inner;
+    if (!detail?.tf || v === "gaps" || v === "rsi") return inner;
     return `<div class="tf-note">Chart shows ${TF_NAME[detail.tf]} candles with ${TF_NAME[detail.tf]} averages. The levels and alerts below use daily values.</div>` + inner;
   }
 
@@ -583,6 +604,7 @@
           <span class="d num ${row.extended_pct >= ext ? "zone" : ""}">${sgn(row.extended_pct)}</span></div>
         <div class="note" style="padding-top:10px">Distances are price vs. the line. Lines are areas, not exact prices (±${band}%).</div></div>`;
     }
+    if (v === "rsi") return rsiCardHTML(row, detail);
     if (v === "sma") {
       const all = new Set(set.sma_alerts_all || []);
       const hcs = new Set(set.sma_alerts_high_conviction || [200]);
@@ -745,6 +767,18 @@
       lines[key].setData(d.t.map((t, i) => (d[key][i] === null ? { time: t } : { time: t, value: d[key][i] })));
     }
 
+    // RSI(14) in its own strip under the candles (shown in the RSI view)
+    const rsiVals = d.close_only ? d.c.map(() => null) : rsiSeries(d.c);
+    const rsiLine = chart.addLineSeries({
+      priceScaleId: "rsi", color: RSI.color, lineWidth: 2, priceLineVisible: false,
+      crosshairMarkerVisible: true, visible: false, lastValueVisible: false, title: "RSI", priceFormat: { type: "price", precision: 1, minMove: 0.1 },
+      autoscaleInfoProvider: () => ({ priceRange: { minValue: 0, maxValue: 100 } }),
+    });
+    rsiLine.setData(d.t.map((t, i) => (rsiVals[i] === null ? { time: t } : { time: t, value: Math.round(rsiVals[i] * 10) / 10 })));
+    const rsiRefs = [[RSI.hi, COLORS.down, "70"], [50, "#4b556b", ""], [RSI.lo, COLORS.up, "30"]].map(([p, color, title]) =>
+      rsiLine.createPriceLine({ price: p, color, lineWidth: 1, lineStyle: LWC.LineStyle.Dashed, axisLabelVisible: false, title: "" }));
+    const rsiBand = new RsiBand(rsiLine);
+
     // manual levels as price lines (all views)
     const levelLines = levels.map((m) => {
       const t = LEVEL_TYPES[m.type] || LEVEL_TYPES.support;
@@ -754,6 +788,7 @@
 
     const overlay = new Overlay();
     candles.attachPrimitive(overlay);
+    candles.attachPrimitive(rsiBand);
     const zoneBox = new ZoneBox();
     candles.attachPrimitive(zoneBox);
     bindWheel(el, chart);
@@ -769,7 +804,7 @@
       below: g.open_top <= row.price,
     }));
 
-    S.chart = { chart, candles, vol, lines, overlay, zoneBox, levelLines, gaps, d, row, view: vname, n };
+    S.chart = { chart, candles, vol, lines, overlay, zoneBox, levelLines, gaps, d, row, view: vname, n, rsiLine, rsiVals, rsiRefs, rsiBand };
 
     // legend + chart picking
     const legend = $("#legend");
@@ -780,6 +815,7 @@
       if (v === "sma" || d.close_only) parts.push(`<span><span class="k">C</span> <i>${fmt(d.c[i])}</i></span>`);
       else parts.push(`<span><span class="k">O</span> ${fmt(d.o[i])} <span class="k">H</span> ${fmt(d.h[i])} <span class="k">L</span> ${fmt(d.l[i])} <span class="k">C</span> <i>${fmt(d.c[i])}</i></span>`);
       for (const key of VIEWS[v].lines) parts.push(`<span><span class="k">${LABEL[key]}</span> <i style="color:${COLORS[key]}">${fmt(d[key][i])}</i></span>`);
+      if (v === "rsi" && S.chart.rsiVals[i] !== null) parts.push(`<span><span class="k">RSI 14</span> <i style="color:${RSI.color}">${S.chart.rsiVals[i].toFixed(1)}</i></span>`);
       legend.innerHTML = parts.join("");
     };
     S.chart.showLegend = showLegend;
@@ -828,6 +864,14 @@
     c.view = v;
     const band = S.summary.settings?.band_pct ?? 1.5;
     for (const [key, s] of Object.entries(c.lines)) s.applyOptions({ visible: VIEWS[v].lines.includes(key) });
+    const isRsi = v === "rsi";
+    c.chart.priceScale("right").applyOptions({ scaleMargins: isRsi ? { top: 0.06, bottom: 0.38 } : { top: 0.12, bottom: 0.18 } });
+    c.chart.priceScale("rsi").applyOptions({ scaleMargins: { top: 0.68, bottom: 0.03 }, visible: false });
+    c.rsiLine.applyOptions({ visible: isRsi });
+    const lastRsi = [...c.rsiVals].reverse().find((x) => x !== null);
+    c.rsiBand.set(isRsi, lastRsi === undefined ? null : Math.round(lastRsi * 10) / 10);
+    c.chart.applyOptions({ grid: { horzLines: { visible: !isRsi } } });
+    c.vol.applyOptions({ visible: !isRsi });
     // zone = lighter shade of its line: flat tinted fill + thin dashed edges in the same tint
     const bands = S.zones ? VIEWS[v].lines.map((key) => ({
       values: c.d[key], pct: band,
@@ -964,6 +1008,170 @@
       val: best.val, color: COLORS[best.key],
       upTxt: fmt(best.val * (1 + band / 100)), valTxt: fmt(best.val), dnTxt: fmt(best.val * (1 - band / 100)),
     }, labels);
+  }
+
+  // Shaded 30–70 band and a divider line above the RSI strip (TradingView style)
+  class RsiBand {
+    constructor(rsiSeries) {        // attached to the candles (right price axis), positioned by the RSI series
+      this.rsi = rsiSeries;
+      this.on = false;
+      this.last = null;
+      this._views = [{ zOrder: () => "bottom", renderer: () => ({ draw: (t) => this.drawPane(t) }) }];
+      this._axis = [{ zOrder: () => "top", renderer: () => ({ draw: (t) => this.drawAxis(t) }) }];
+    }
+    attached({ requestUpdate }) { this.series = this.rsi; this.req = requestUpdate; }
+    detached() {}
+    updateAllViews() {}
+    paneViews() { return this._views; }
+    priceAxisPaneViews() { return this._axis; }
+    set(on, last) { this.on = on; this.last = last; this.req && this.req(); }
+    ys() {
+      const y = (p) => this.series.priceToCoordinate(p);
+      const y70 = y(RSI.hi), y30 = y(RSI.lo), y100 = y(100);
+      return y70 === null || y30 === null || y100 === null ? null : { y70, y30, top: y100 - 10 };
+    }
+    // shaded 30–70 band and a divider line above the RSI strip (TradingView style)
+    drawPane(target) {
+      if (!this.on || !this.series) return;
+      const Y = this.ys();
+      if (!Y) return;
+      target.useBitmapCoordinateSpace(({ context: ctx, bitmapSize, verticalPixelRatio: vr }) => {
+        ctx.fillStyle = "rgba(192,132,252,.07)";
+        ctx.fillRect(0, Math.round(Y.y70 * vr), bitmapSize.width, Math.round((Y.y30 - Y.y70) * vr));
+        ctx.fillStyle = "#2a3346";
+        ctx.fillRect(0, Math.round(Y.top * vr), bitmapSize.width, Math.max(1, Math.round(vr)));
+      });
+    }
+    // the main price scale's numbers would run on into the RSI strip: cover that part of the
+    // axis and draw the RSI's own labels (70 / 30 / current value) there instead
+    drawAxis(target) {
+      if (!this.on || !this.series) return;
+      const Y = this.ys();
+      if (!Y) return;
+      target.useBitmapCoordinateSpace(({ context: ctx, bitmapSize, verticalPixelRatio: vr, horizontalPixelRatio: hr }) => {
+        const top = Math.round(Y.top * vr);
+        ctx.fillStyle = "#0b0e14";
+        ctx.fillRect(0, top, bitmapSize.width, bitmapSize.height - top);
+        ctx.fillStyle = "#2a3346";
+        ctx.fillRect(0, top, bitmapSize.width, Math.max(1, Math.round(vr)));
+        ctx.textBaseline = "middle";
+        ctx.font = `400 ${Math.round(11 * vr)}px -apple-system, Roboto, system-ui, sans-serif`;
+        const label = (val, color) => {
+          const yy = this.series.priceToCoordinate(val);
+          if (yy === null) return;
+          const h = 16, y0 = Math.round((yy - h / 2) * vr);
+          ctx.fillStyle = color;
+          ctx.fillRect(0, y0, bitmapSize.width, Math.round(h * vr));
+          ctx.fillStyle = textOn(color);
+          ctx.fillText(val.toFixed(1), Math.round(6 * hr), y0 + (h / 2) * vr);
+        };
+        const yl = this.last === null || this.last === undefined ? null : this.series.priceToCoordinate(this.last);
+        const clear = (v) => { const yy = this.series.priceToCoordinate(v); return yl === null || yy === null || Math.abs(yy - yl) >= 16; };
+        if (clear(RSI.hi)) label(RSI.hi, COLORS.down);
+        if (clear(RSI.lo)) label(RSI.lo, COLORS.up);
+        ctx.fillStyle = "#222a3a";
+        ctx.fillRect(0, top, Math.max(1, Math.round(hr)), bitmapSize.height - top);   // axis border
+        if (this.last !== null && this.last !== undefined) label(this.last, RSI.color);
+      });
+    }
+  }
+
+  function rsiChip(r) {
+    const st = rsiState(r.rsi);
+    if (st === "hi") return `<span class="chip rsi-hi">Overbought · RSI ${Math.round(r.rsi)}</span>`;
+    if (st === "lo") return `<span class="chip rsi-lo">Oversold · RSI ${Math.round(r.rsi)}</span>`;
+    return "";
+  }
+
+  function rsiCardHTML(row, d) {
+    const vals = d ? rsiSeries(d.c) : [];
+    let i = vals.length - 1;
+    while (i >= 0 && vals[i] === null) i--;
+    const tfName = d?.tf ? TF_NAME[d.tf] : "daily";
+    const now = d?.tf ? (i >= 0 ? vals[i] : null) : (row.rsi ?? (i >= 0 ? vals[i] : null));
+    if (now === null || now === undefined) return `<div class="card"><h3>RSI 14</h3><div class="note">Not enough history for an RSI yet.</div></div>`;
+    const st = rsiState(now);
+    const prev = i >= 5 ? vals[i - 5] : null;
+    const dir = prev === null ? "" : now > prev + 1 ? "rising" : now < prev - 1 ? "falling" : "flat";
+    // days since it last left the 30–70 band
+    let k = i, since = 0;
+    if (st !== "mid") { while (k > 0 && rsiState(vals[k - 1]) === st) { k--; since++; } }
+    const label = { hi: "Overbought", lo: "Oversold", mid: now >= 50 ? "Neutral – buyers in control" : "Neutral – sellers in control" }[st];
+    const color = st === "hi" ? COLORS.down : st === "lo" ? COLORS.up : RSI.color;
+    const unit = tfName === "daily" ? "day" : tfName === "weekly" ? "week" : "month";
+    return `<div class="card"><h3>RSI 14 · ${tfName}</h3>
+      <div class="lv"><span class="sw" style="background:${color}"></span>
+        <span>${label}<span class="sub">${st !== "mid" ? `${since + 1} ${unit}${since ? "s" : ""} ${st === "hi" ? "above 70" : "below 30"} · ` : ""}${dir ? `${dir} over the last 5 ${unit}s` : ""}</span></span>
+        <span></span><span class="d num" style="color:${color}">${now.toFixed(1)}</span></div>
+      <div class="lv"><span class="sw" style="background:${COLORS.down}"></span><span>Above 70 – overbought<span class="sub">Ran up fast; pullbacks or sideways moves become more likely</span></span><span></span><span></span></div>
+      <div class="lv"><span class="sw" style="background:${COLORS.up}"></span><span>Below 30 – oversold<span class="sub">Sold off hard; worth a look if it is also near a key line (e.g. 200 SMA)</span></span><span></span><span></span></div>
+      <div class="note" style="padding-top:10px">RSI measures how strong recent gains were versus losses (0–100) over the last 14 ${unit}s. In strong uptrends it can stay above 70 for weeks – treat it as context next to the moving averages, not as a signal on its own.</div></div>`;
+  }
+
+  // ------------------------------------------------------------------ upcoming dates
+  // Earnings / ex-dividend / company events per stock and US macro dates, from the engine
+  // (engine/events.py). Days are counted in New York calendar days.
+  const nyToday = () => new Date().toLocaleDateString("en-CA", { timeZone: "America/New_York" });
+  const daysUntil = (iso) => Math.round((Date.parse(iso + "T00:00:00Z") - Date.parse(nyToday() + "T00:00:00Z")) / 864e5);
+  const EARN = { green: 14, yellow: 7 };
+  function earnBadge(r, big) {
+    const e = r?.earnings;
+    if (!e) return "";
+    const d = daysUntil(e.date);
+    if (d < 0 || d > EARN.green) return "";
+    const c = d <= EARN.yellow ? "y" : "g";
+    const txt = d === 0 ? "today" : d === 1 ? "tomorrow" : `${d}d`;
+    return `<span class="earn ${c}${big ? " big" : ""}" title="Earnings ${esc(e.date)}${e.time ? " " + e.time : ""}">Earnings ${txt}</span>`;
+  }
+  // "08:30 ET" on a given New York date -> the same moment in the viewer's time zone
+  function etToLocal(date, hhmm) {
+    const [h, m] = hhmm.split(":").map(Number);
+    const [Y, M, D] = date.split("-").map(Number);
+    let t = Date.UTC(Y, M - 1, D, h + 5, m);
+    const nyH = +new Date(t).toLocaleString("en-US", { timeZone: "America/New_York", hour: "numeric", hourCycle: "h23" });
+    t -= (nyH - h) * 36e5;
+    return new Date(t).toLocaleTimeString(S.lang === "de" ? "de-AT" : "en-GB", { hour: "2-digit", minute: "2-digit" });
+  }
+  const EV = {
+    earnings: { c: "#ffd60a", en: "Quarterly results and outlook – the biggest scheduled mover for a stock. Moves of ±5–15 % the next day are common.", de: "Quartalszahlen und Ausblick – der größte planbare Kurstreiber. Bewegungen von ±5–15 % am Folgetag sind üblich." },
+    dividend: { c: "#26a69a", en: "Own the shares before this day to get the dividend. The price usually opens lower by about the dividend.", de: "Wer die Aktie vor diesem Tag hält, bekommt die Dividende. Der Kurs eröffnet meist um etwa die Dividende tiefer." },
+    company: { c: "#4f9dff", en: "", de: "" },
+    fomc: { c: "#a78bfa", en: "Interest-rate decision – moves the whole market, growth stocks most.", de: "Zinsentscheid – bewegt den ganzen Markt, Wachstumsaktien am stärksten." },
+    cpi: { c: "#f59e0b", en: "Inflation data – a hot number pushes bond yields up and growth stocks down.", de: "Inflationsdaten – ein hoher Wert treibt Anleiherenditen nach oben und Wachstumsaktien nach unten." },
+    pce: { c: "#f59e0b", en: "The Fed's preferred inflation measure – shapes expectations for rate cuts.", de: "Das bevorzugte Inflationsmaß der Fed – prägt die Erwartungen an Zinssenkungen." },
+    jobs: { c: "#5ac8fa", en: "Jobs and wages – a read on the economy and on what the Fed does next.", de: "Jobs und Löhne – zeigt, wie es der Wirtschaft geht und was die Fed als Nächstes tut." },
+    gdp: { c: "#5ac8fa", en: "Economic growth – confirms or questions the earnings outlook.", de: "Wirtschaftswachstum – bestätigt oder hinterfragt den Gewinnausblick." },
+    other: { c: "#8a93a6", en: "", de: "" },
+  };
+  function eventRow(e, macro) {
+    const de = S.lang === "de";
+    const d = daysUntil(e.date);
+    const info = EV[e.kind] || EV.other;
+    const when = d === 0 ? (de ? "heute" : "today") : d === 1 ? (de ? "morgen" : "tomorrow") : (de ? `in ${d} T.` : `in ${d} d`);
+    let color = info.c;
+    if (e.kind === "earnings") color = d <= EARN.yellow ? "#ffd60a" : d <= EARN.green ? "#2bd576" : "#8a93a6";
+    const bits = [dayTxt(e.date, { weekday: "short", day: "numeric", month: "short" })];
+    if (e.time === "BMO") bits.push(de ? "vor Börsenstart" : "before the open");
+    else if (e.time === "AMC") bits.push(de ? "nach Börsenschluss" : "after the close");
+    else if (e.time && /^\d{2}:\d{2} ET$/.test(e.time)) bits.push(`${e.time.slice(0, 5)} NY · ${etToLocal(e.date, e.time.slice(0, 5))} ${de ? "deine Zeit" : "your time"}`);
+    if (e.kind === "earnings" && !e.confirmed) bits.push(de ? "geschätzt" : "estimated");
+    const title = (de && e.title_de) || e.title;
+    const note = (de && e.note_de) || e.note || (de ? info.de : info.en);
+    return `<div class="lv ev"><span class="sw" style="background:${color}"></span>
+      <span>${esc(title)}${macro ? `<span class="ev-tag">${de ? "Markt" : "Market"}</span>` : ""}<span class="sub">${esc(bits.join(" · "))}</span>${note ? `<span class="sub ev-why">${esc(note)}</span>` : ""}</span>
+      <span></span><span class="d num" style="color:${d <= EARN.yellow && e.kind === "earnings" ? color : "var(--text)"}">${when}</span></div>`;
+  }
+  function datesCardHTML(row) {
+    const de = S.lang === "de";
+    const own = (row.events || []).filter((e) => daysUntil(e.date) >= 0);
+    const macro = (S.summary.macro || []).filter((e) => { const d = daysUntil(e.date); return d >= 0 && d <= 30; }).slice(0, 4);
+    const isStockRow = !/^\^|-USD$|-EUR$|^(US|DE)\d+[MY]$/.test(row.symbol);
+    const ownHTML = own.length ? own.map((e) => eventRow(e, false)).join("")
+      : `<div class="note" style="padding-top:6px">${isStockRow ? (de ? "Noch kein Termin bekannt – der nächste Quartalstermin erscheint, sobald er angekündigt ist." : "No dates known yet – the next earnings date shows up once it's announced.") : (de ? "Keine Unternehmens­termine (kein Einzelunternehmen)." : "No company dates – not a single company.")}</div>`;
+    return `<div class="card dates"><h3>${de ? "Nächste Termine" : "Upcoming dates"}</h3>
+      ${ownHTML}
+      ${macro.length ? `<h3 style="padding-top:14px">${de ? "Markt · nächste 30 Tage" : "Whole market · next 30 days"}</h3>${macro.map((e) => eventRow(e, true)).join("")}` : ""}
+      <div class="note" style="padding-top:10px">${de ? "Quartals- und Dividendentermine von Nasdaq, täglich aktualisiert. Badge: grün ≤ 14 Tage, gelb ≤ 7 Tage bis zu den Zahlen." : "Earnings and dividend dates from Nasdaq, refreshed daily. Badge: green ≤ 14 days, yellow ≤ 7 days to earnings."}</div></div>`;
   }
 
   function setBars(bars) {

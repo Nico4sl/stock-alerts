@@ -486,6 +486,26 @@ def ema(values, n):
     return out
 
 
+def rsi(values, n=14):
+    """Wilder's RSI (same as TradingView's default RSI 14)."""
+    out = [None] * len(values)
+    if len(values) <= n:
+        return out
+    gain = loss = 0.0
+    for i in range(1, n + 1):
+        ch = values[i] - values[i - 1]
+        gain += max(ch, 0)
+        loss += max(-ch, 0)
+    gain, loss = gain / n, loss / n
+    out[n] = 100.0 if loss == 0 else 100 - 100 / (1 + gain / loss)
+    for i in range(n + 1, len(values)):
+        ch = values[i] - values[i - 1]
+        gain = (gain * (n - 1) + max(ch, 0)) / n
+        loss = (loss * (n - 1) + max(-ch, 0)) / n
+        out[i] = 100.0 if loss == 0 else 100 - 100 / (1 + gain / loss)
+    return out
+
+
 def resample(candles, tf):
     """Daily candles -> weekly (Mon–Fri) or monthly candles, labelled with their first trading day."""
     out, key_prev = [], None
@@ -797,6 +817,9 @@ def analyse(stock, data, settings, alerts, app_url, live=True):
 
     near_gaps = sorted(open_gaps, key=lambda g: abs(pct(price, g["open_top"] if g["below"] else g["open_bottom"])))[:4]
 
+    rsi_closes = full_closes[:-1] + [price] if not quote_day or quote_day <= candles[-1][0] else full_closes + [price]
+    rsi_now = rsi(rsi_closes[-400:])[-1]
+
     summary = {
         "symbol": sym, "name": name, "list": stock.get("list", "watchlist"),
         "high_conviction": hc, "price": rnd(price), "prev_close": rnd(prev_close),
@@ -814,6 +837,7 @@ def analyse(stock, data, settings, alerts, app_url, live=True):
         "manual": manual, "source": data.get("source"), "last_bar": candles[-1][0],
         "close_only": bool(data.get("close_only")),
         "spark": [rnd(c, price) for c in closes[-30:]],
+        "rsi": r1(rsi_now) if rsi_now is not None else None,
     }
 
     detail = {
@@ -961,8 +985,24 @@ def main():
             rows.append({"symbol": sym, "name": s.get("name", sym), "list": s.get("list", "watchlist"),
                          "high_conviction": bool(s.get("high_conviction")), "error": True})
 
-    # ---- big movers (±move_pct) and Claude's briefs -------------------------
     today_ny = now.astimezone(NY).strftime("%Y-%m-%d")
+
+    # ---- upcoming dates: earnings, ex-dividend, company events, macro ----------
+    macro, events_debug = [], []
+    try:
+        import events as ev  # noqa: PLC0415
+        get_json = lambda url: json.loads(http_get(url, headers=NASDAQ_HEADERS))  # noqa: E731
+        ecache = ev.load(args.state, [r["symbol"] for r in rows], get_json, today_ny, log, args.fixtures)
+        for r in rows:
+            r["events"] = ev.stock_events(r["symbol"], ecache, ROOT, today_ny)
+            r["earnings"] = ev.next_earnings(r["events"])
+        macro = ev.macro_events(ROOT, today_ny)
+        events_debug = (ecache.get("debug") or [])[:20]
+    except Exception as e:  # noqa: BLE001
+        log(f"  ! upcoming dates: {e}")
+        events_debug = [str(e)[:200]]
+
+    # ---- big movers (±move_pct) and Claude's briefs -------------------------
     stamp = now.isoformat(timespec="seconds")
     link = lambda sym: f"{args.app_url}#/s/{urllib.parse.quote(sym)}" if args.app_url else None  # noqa: E731
     mstate_path = os.path.join(args.state, "movers.json")
@@ -1027,6 +1067,7 @@ def main():
     save_json(os.path.join(data_dir, "summary.json"), {
         "generated": stamp, "market": status, "seeded": seeding,
         "settings": settings, "stocks": rows, "errors": errors,
+        "today": today_ny, "macro": macro, "events_debug": events_debug,
     })
     save_json(os.path.join(data_dir, "alerts.json"), history)
     shutil.copy(os.path.join(ROOT, "config.json"), os.path.join(args.out, "config.json"))
