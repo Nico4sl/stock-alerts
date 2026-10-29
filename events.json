@@ -1,23 +1,131 @@
 {
-  "as_of": "2026-10-01",
+  "as_of": "2026-10-29",
   "updated_by": "Claude",
   "about": "Upcoming dates for the app's 'Upcoming dates' card. Earnings and ex-dividend dates come from Nasdaq automatically and FOMC dates from fed.json – list only macro releases and company events here. Kept current by the brief task (BRIEF_TASK.md step 6).",
   "macro": [
-    {"date": "2026-11-06", "time": "08:30 ET", "kind": "jobs", "title": "US jobs report (October)", "title_de": "US-Arbeitsmarktbericht (Oktober)"},
-    {"date": "2026-11-10", "time": "08:30 ET", "kind": "cpi", "title": "US inflation – CPI (October)", "title_de": "US-Inflation – CPI (Oktober)"},
-    {"date": "2026-11-25", "time": "08:30 ET", "kind": "pce", "title": "PCE inflation (October) + GDP Q3 2nd estimate", "title_de": "PCE-Inflation (Oktober) + BIP Q3, 2. Schätzung"},
-    {"date": "2026-12-04", "time": "08:30 ET", "kind": "jobs", "title": "US jobs report (November)", "title_de": "US-Arbeitsmarktbericht (November)"},
-    {"date": "2026-12-10", "time": "08:30 ET", "kind": "cpi", "title": "US inflation – CPI (November)", "title_de": "US-Inflation – CPI (November)"},
-    {"date": "2026-12-23", "time": "08:30 ET", "kind": "pce", "title": "PCE inflation (November) + GDP Q3 3rd estimate", "title_de": "PCE-Inflation (November) + BIP Q3, 3. Schätzung"},
-    {"date": "2027-01-08", "time": "08:30 ET", "kind": "jobs", "title": "US jobs report (December)", "title_de": "US-Arbeitsmarktbericht (Dezember)"},
-    {"date": "2027-01-13", "time": "08:30 ET", "kind": "cpi", "title": "US inflation – CPI (December)", "title_de": "US-Inflation – CPI (Dezember)"},
-    {"date": "2027-02-05", "time": "08:30 ET", "kind": "jobs", "title": "US jobs report (January)", "title_de": "US-Arbeitsmarktbericht (Januar)"},
-    {"date": "2027-02-11", "time": "08:30 ET", "kind": "cpi", "title": "US inflation – CPI (January)", "title_de": "US-Inflation – CPI (Januar)"}
+    {
+      "date": "2026-11-06",
+      "time": "08:30 ET",
+      "kind": "jobs",
+      "title": "US jobs report (October)",
+      "title_de": "US-Arbeitsmarktbericht (Oktober)"
+    },
+    {
+      "date": "2026-11-10",
+      "time": "08:30 ET",
+      "kind": "cpi",
+      "title": "US inflation – CPI (October)",
+      "title_de": "US-Inflation – CPI (Oktober)"
+    },
+    {
+      "date": "2026-11-25",
+      "time": "08:30 ET",
+      "kind": "pce",
+      "title": "PCE inflation (October) + GDP Q3 2nd estimate",
+      "title_de": "PCE-Inflation (Oktober) + BIP Q3, 2. Schätzung"
+    },
+    {
+      "date": "2026-12-04",
+      "time": "08:30 ET",
+      "kind": "jobs",
+      "title": "US jobs report (November)",
+      "title_de": "US-Arbeitsmarktbericht (November)"
+    },
+    {
+      "date": "2026-12-10",
+      "time": "08:30 ET",
+      "kind": "cpi",
+      "title": "US inflation – CPI (November)",
+      "title_de": "US-Inflation – CPI (November)"
+    },
+    {
+      "date": "2026-12-23",
+      "time": "08:30 ET",
+      "kind": "pce",
+      "title": "PCE inflation (November) + GDP Q3 3rd estimate",
+      "title_de": "PCE-Inflation (November) + BIP Q3, 3. Schätzung"
+    },
+    {
+      "date": "2027-01-08",
+      "time": "08:30 ET",
+      "kind": "jobs",
+      "title": "US jobs report (December)",
+      "title_de": "US-Arbeitsmarktbericht (Dezember)"
+    },
+    {
+      "date": "2027-01-13",
+      "time": "08:30 ET",
+      "kind": "cpi",
+      "title": "US inflation – CPI (December)",
+      "title_de": "US-Inflation – CPI (Dezember)"
+    },
+    {
+      "date": "2027-01-28",
+      "time": "08:30 ET",
+      "kind": "pce",
+      "title": "PCE inflation (December) + GDP Q4 advance estimate",
+      "title_de": "PCE-Inflation (Dezember) + BIP Q4, 1. Schätzung"
+    },
+    {
+      "date": "2027-02-05",
+      "time": "08:30 ET",
+      "kind": "jobs",
+      "title": "US jobs report (January)",
+      "title_de": "US-Arbeitsmarktbericht (Januar)"
+    },
+    {
+      "date": "2027-02-11",
+      "time": "08:30 ET",
+      "kind": "cpi",
+      "title": "US inflation – CPI (January)",
+      "title_de": "US-Inflation – CPI (Januar)"
+    },
+    {
+      "date": "2027-02-25",
+      "time": "08:30 ET",
+      "kind": "pce",
+      "title": "PCE inflation (January) + GDP Q4 2nd estimate",
+      "title_de": "PCE-Inflation (Januar) + BIP Q4, 2. Schätzung"
+    },
+    {
+      "date": "2027-03-05",
+      "time": "08:30 ET",
+      "kind": "jobs",
+      "title": "US jobs report (February)",
+      "title_de": "US-Arbeitsmarktbericht (Februar)"
+    },
+    {
+      "date": "2027-03-10",
+      "time": "08:30 ET",
+      "kind": "cpi",
+      "title": "US inflation – CPI (February)",
+      "title_de": "US-Inflation – CPI (Februar)"
+    },
+    {
+      "date": "2027-03-31",
+      "time": "08:30 ET",
+      "kind": "pce",
+      "title": "PCE inflation (February) + GDP Q4 3rd estimate",
+      "title_de": "PCE-Inflation (Februar) + BIP Q4, 3. Schätzung"
+    }
   ],
-  "companies": {},
+  "companies": {
+    "AMZN": [
+      {
+        "date": "2026-11-30",
+        "kind": "company",
+        "title": "AWS re:Invent 2026 begins (Las Vegas, to Dec 4)",
+        "title_de": "AWS re:Invent 2026 startet (Las Vegas, bis 4. Dez.)",
+        "note": "AWS's biggest yearly conference, where new cloud and AI products are announced – AWS is Amazon's main profit engine.",
+        "note_de": "Die wichtigste Jahreskonferenz von AWS mit neuen Cloud- und KI-Produkten – AWS ist Amazons wichtigster Gewinnbringer."
+      }
+    ]
+  },
   "sources": [
     "https://www.bls.gov/schedule/news_release/cpi.htm",
     "https://www.bls.gov/schedule/news_release/empsit.htm",
-    "https://www.bea.gov/news/schedule/full"
+    "https://www.bea.gov/news/schedule/full",
+    "https://www.bea.gov/news/schedule/next-year",
+    "https://aws.amazon.com/events/reinvent/"
   ]
 }
