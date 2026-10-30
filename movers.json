@@ -1,22 +1,22 @@
 {
  "date": "2026-10-30",
  "threshold": 3.0,
- "updated": "2026-10-30T19:24:28+00:00",
+ "updated": "2026-10-30T19:34:32+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 753.4,
-   "change_pct": -2.07
+   "price": 753.52,
+   "change_pct": -2.06
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 687.24,
-   "change_pct": -3.93
+   "price": 687.96,
+   "change_pct": -3.83
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 81.55,
-   "change_pct": 0.08
+   "price": 81.58,
+   "change_pct": 0.11
   }
  },
  "movers": [
@@ -24,23 +24,23 @@
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 152.87,
+   "price": 152.56,
    "prev_close": 171.99,
-   "change_pct": -11.1,
+   "change_pct": -11.3,
    "trigger_change": -7.0,
    "peak_change": -12.7,
    "first_seen": "2026-10-30T14:04:25+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 104.24,
-    "change_pct": -3.45
+    "price": 104.12,
+    "change_pct": -3.57
    },
    "chart": {
-    "ema8": -9.1,
-    "ema21": -17.2,
-    "sma50": -27.1,
-    "sma200": -13.9,
+    "ema8": -9.2,
+    "ema21": -17.4,
+    "sma50": -27.2,
+    "sma200": -14.0,
     "momentum": false
    },
    "headlines": [
@@ -99,21 +99,21 @@
    "symbol": "APP",
    "name": "AppLovin",
    "list": "portfolio",
-   "price": 230.25,
+   "price": 230.36,
    "prev_close": 254.91,
-   "change_pct": -9.7,
+   "change_pct": -9.6,
    "trigger_change": -5.6,
    "peak_change": -11.4,
    "first_seen": "2026-10-30T14:04:25+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 104.24,
-    "change_pct": -3.45
+    "price": 104.12,
+    "change_pct": -3.57
    },
    "chart": {
     "ema8": -9.7,
-    "ema21": -14.5,
+    "ema21": -14.4,
     "sma50": -21.7,
     "sma200": -44.6,
     "momentum": false
@@ -174,23 +174,23 @@
    "symbol": "ANET",
    "name": "Arista Networks",
    "list": "portfolio",
-   "price": 168.28,
+   "price": 168.19,
    "prev_close": 184.22,
-   "change_pct": -8.6,
+   "change_pct": -8.7,
    "trigger_change": -6.4,
    "peak_change": -9.4,
    "first_seen": "2026-10-30T14:04:25+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 518.83,
-    "change_pct": -7.63
+    "price": 517.34,
+    "change_pct": -7.89
    },
    "chart": {
-    "ema8": -6.6,
+    "ema8": -6.7,
     "ema21": -10.3,
     "sma50": -13.8,
-    "sma200": 1.9,
+    "sma200": 1.8,
     "momentum": false
    },
    "headlines": [
@@ -249,23 +249,23 @@
    "symbol": "AMAT",
    "name": "Applied Materials",
    "list": "portfolio",
-   "price": 386.98,
+   "price": 386.37,
    "prev_close": 421.66,
-   "change_pct": -8.2,
+   "change_pct": -8.4,
    "trigger_change": -4.9,
    "peak_change": -9.2,
    "first_seen": "2026-10-30T14:04:25+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 518.83,
-    "change_pct": -7.63
+    "price": 517.34,
+    "change_pct": -7.89
    },
    "chart": {
-    "ema8": -4.4,
-    "ema21": -9.9,
-    "sma50": -15.4,
-    "sma200": -12.9,
+    "ema8": -4.5,
+    "ema21": -10.0,
+    "sma50": -15.6,
+    "sma200": -13.1,
     "momentum": false
    },
    "headlines": [
@@ -324,23 +324,23 @@
    "symbol": "AVGO",
    "name": "Broadcom",
    "list": "portfolio",
-   "price": 322.82,
+   "price": 322.27,
    "prev_close": 345.0,
-   "change_pct": -6.4,
+   "change_pct": -6.6,
    "trigger_change": -4.7,
    "peak_change": -7.4,
    "first_seen": "2026-10-30T14:04:25+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 518.83,
-    "change_pct": -7.63
+    "price": 517.34,
+    "change_pct": -7.89
    },
    "chart": {
-    "ema8": -4.0,
-    "ema21": -5.7,
-    "sma50": -8.5,
-    "sma200": -12.2,
+    "ema8": -4.1,
+    "ema21": -5.9,
+    "sma50": -8.6,
+    "sma200": -12.3,
     "momentum": false
    },
    "headlines": [
@@ -396,25 +396,100 @@
    "brief": "2026-10-30-AVGO"
   },
   {
+   "symbol": "NVDA",
+   "name": "Nvidia",
+   "list": "portfolio",
+   "price": 202.32,
+   "prev_close": 213.66,
+   "change_pct": -5.3,
+   "trigger_change": -3.1,
+   "peak_change": -5.9,
+   "first_seen": "2026-10-30T14:19:29+00:00",
+   "sector": {
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 517.34,
+    "change_pct": -7.89
+   },
+   "chart": {
+    "ema8": -5.0,
+    "ema21": -7.3,
+    "sma50": -8.7,
+    "sma200": -1.0,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Is Nvidia Stock a Trick or Treat?",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxONnZnUUtsUUFfd016V21VdFZGMkFNdnZFa2RJeGpfM2M2UjBwTG02bTZFbnlldGVqVS12V1dZNGpxQkthZmZRUkd5RFpQVmc5VHFUYUM4cS02V2RUMHE1QU91TnNpS3RsaVJJLVJkcFB4Ynpidm9oYkFSYXRwaFBjeQ?oc=5",
+     "time": "2026-10-30T18:13:40+00:00"
+    },
+    {
+     "title": "Nvidia Stock Is Set for Its Worst Month in a Year. Time to Buy the Dip.",
+     "publisher": "Barron's",
+     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA5eVhHal84SUVnWXJrMXZ0NGxSNzlkY2VBcnd2M1pjaEhYOTBJcWg1ZFVGeUFyUXhrX0cyZkhMQ0VQRms1VEFXUkFJS2kxd0g4a3ZjbDMteXhJYXVFVFJRVW90VjBaRHE0VUJDc2twdGVFc1c3azhjeQ?oc=5",
+     "time": "2026-10-30T18:12:00+00:00"
+    },
+    {
+     "title": "Why Nvidia shares are down over 4% on Friday?",
+     "publisher": "Invezz",
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNcVM1bDh2VTFiSk80QXE1STh2azE2TDlXQWtkX1ppS3BaaUctdGItZTNpNmo1WFJwaGVleGszWVVoaEk4Q1V6eEN2YmdBYk85RXVUOUNtSmN4OWFqTWZBSjJUNjVZYVRJSHVmZnpmanRqbkZvMVEtUzZpRnI5XzBfdV9TbHZzUQ?oc=5",
+     "time": "2026-10-30T17:23:13+00:00"
+    },
+    {
+     "title": "Nvidia: Time To Lock In The Profits (NASDAQ:NVDA)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOYXFJb1p4X09jV3Y5R3V5bU9XZFpRVXI2c3VyanpBaHVvcHpfbHpyd1VYSzctdU5NSFJFdHk0Tk1kVWpfbGYzeFFibTV3T2hKcC03Rjh1SXJXSEtlZVU2cDkxeHU2emZZUE1KRHpDMWxZbk1PUkxBTDROVzh3OU1KeA?oc=5",
+     "time": "2026-10-30T16:33:40+00:00"
+    },
+    {
+     "title": "NVIDIA Stock: Analyst Estimates & Ratings",
+     "publisher": "Barchart.com",
+     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPUmtaX09vY0lvNDRSS196b0l5UFNXbEx0eVp4RmhQT2E0UTVrT2x0MWJQZ1ZLSTMzTk9PbEF1cmNub3laQ1JkaUxnMEJFY0luc0IxUDZvS1V0V21WRnU0RmZpZmtlUDdZUGs0MjdQeVRGMG1kcDkyTmhVOEVtNUlpZ2F6RUFURG5iQkE?oc=5",
+     "time": "2026-10-30T15:42:30+00:00"
+    },
+    {
+     "title": "Intel Plunges 25% as Weak Outlook and PC Slump Overshadow Earnings Beat; Dell Tumbles 13%, AMD Sinks 10%, NVIDIA Falls 3%",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQUWgxdFFydHpwM0hLSVhENjBFTm5jZGVQT1lmejFZM1RqVEs1Wm5rU0k0TmpFTWE3Qk54RkI2QWEtRzctdkpHa1k1X2I2ZjQ1MUhCdmpnTE9jTE9rYTIxUFI0Q0h6VFA0bWxMVkY0dF8wemJWc3dCUjFmMnB0RjItSkU3MGpFcU83S0Fra01DOGFKX0czelpGV0lEajNFbkluTi1iVkEzNk9uSFFXVVhieHdzczdyVi1OTFozWDNNYV9wU0ptQVN4eTQ0NFFMVmdWTWd3VEtMV0tnQW5TY2UyR1RjN2xzWDVpSzg3UmNCcw?oc=5",
+     "time": "2026-10-30T14:09:00+00:00"
+    },
+    {
+     "title": "NVIDIA Corp Stock (NVDA) Opened Down by 3.37% on Oct 30: A Full Analysis",
+     "publisher": "TradingKey",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPQ05ndFlQU3pJVGNZQlRVTGlfMDFrcnFJYUxGSkNoVV9LVG5WVE5kQTNwd0tYMTRIT2NXVEtNNFpzZHhHd1FlSUdMYnBHLWkxUy15TnNXSDJtUjVadV80YWwyejd2Mk5MTFc3OFlYVDl0Y2ZXdUQzQzZUazA4N2QwdWJPcWVTV29lblFF?oc=5",
+     "time": "2026-10-30T13:50:10+00:00"
+    },
+    {
+     "title": "Can You Make Money Off NVIDIA Stock Now?",
+     "publisher": "Trefis",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQd3NKR0JBQldHLU45bXdMd1g3ZFBDby0tMURjdVNBelJOUW9OcXJfUmJ6cFN4NkdXUHo5Zkk3Z1pyeHRTMTdfTWNVY3prZmptVEJ2NHdGUmJrVEVGQ2xQUGIxZUs1dTk5Q09rWlRsRGt3UHM0YmdoaERWblc1dzF2RlJURHRyRnZCSi1WekRiazFaVDhEc0VMdFR3Q3V0MjJBaVE?oc=5",
+     "time": "2026-10-30T13:38:19+00:00"
+    }
+   ],
+   "brief": "2026-10-30-NVDA"
+  },
+  {
    "symbol": "SOFI",
    "name": "SoFi",
    "list": "portfolio",
    "price": 16.7,
    "prev_close": 17.61,
-   "change_pct": -5.2,
+   "change_pct": -5.1,
    "trigger_change": -4.2,
    "peak_change": -6.5,
    "first_seen": "2026-10-30T14:09:27+00:00",
    "sector": {
     "etf": "XLF",
     "name": "Financials",
-    "price": 56.45,
+    "price": 56.44,
     "change_pct": -0.87
    },
    "chart": {
-    "ema8": 3.3,
+    "ema8": 3.4,
     "ema21": 5.6,
-    "sma50": 0.7,
+    "sma50": 0.8,
     "sma200": -6.1,
     "momentum": true
    },
@@ -471,176 +546,26 @@
    "brief": "2026-10-30-SOFI"
   },
   {
-   "symbol": "NVDA",
-   "name": "Nvidia",
-   "list": "portfolio",
-   "price": 202.89,
-   "prev_close": 213.66,
-   "change_pct": -5.0,
-   "trigger_change": -3.1,
-   "peak_change": -5.9,
-   "first_seen": "2026-10-30T14:19:29+00:00",
-   "sector": {
-    "etf": "SMH",
-    "name": "Semiconductors",
-    "price": 518.83,
-    "change_pct": -7.63
-   },
-   "chart": {
-    "ema8": -4.8,
-    "ema21": -7.0,
-    "sma50": -8.5,
-    "sma200": -0.7,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Is Nvidia Stock a Trick or Treat?",
-     "publisher": "The Motley Fool",
-     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxONnZnUUtsUUFfd016V21VdFZGMkFNdnZFa2RJeGpfM2M2UjBwTG02bTZFbnlldGVqVS12V1dZNGpxQkthZmZRUkd5RFpQVmc5VHFUYUM4cS02V2RUMHE1QU91TnNpS3RsaVJJLVJkcFB4Ynpidm9oYkFSYXRwaFBjeQ?oc=5",
-     "time": "2026-10-30T18:13:40+00:00"
-    },
-    {
-     "title": "Nvidia Stock Is Set for Its Worst Month in a Year. Time to Buy the Dip.",
-     "publisher": "Barron's",
-     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA5eVhHal84SUVnWXJrMXZ0NGxSNzlkY2VBcnd2M1pjaEhYOTBJcWg1ZFVGeUFyUXhrX0cyZkhMQ0VQRms1VEFXUkFJS2kxd0g4a3ZjbDMteXhJYXVFVFJRVW90VjBaRHE0VUJDc2twdGVFc1c3azhjeQ?oc=5",
-     "time": "2026-10-30T18:12:00+00:00"
-    },
-    {
-     "title": "Why Nvidia shares are down over 4% on Friday?",
-     "publisher": "Invezz",
-     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNcVM1bDh2VTFiSk80QXE1STh2azE2TDlXQWtkX1ppS3BaaUctdGItZTNpNmo1WFJwaGVleGszWVVoaEk4Q1V6eEN2YmdBYk85RXVUOUNtSmN4OWFqTWZBSjJUNjVZYVRJSHVmZnpmanRqbkZvMVEtUzZpRnI5XzBfdV9TbHZzUQ?oc=5",
-     "time": "2026-10-30T17:23:13+00:00"
-    },
-    {
-     "title": "Nvidia: Time To Lock In The Profits (NASDAQ:NVDA)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOYXFJb1p4X09jV3Y5R3V5bU9XZFpRVXI2c3VyanpBaHVvcHpfbHpyd1VYSzctdU5NSFJFdHk0Tk1kVWpfbGYzeFFibTV3T2hKcC03Rjh1SXJXSEtlZVU2cDkxeHU2emZZUE1KRHpDMWxZbk1PUkxBTDROVzh3OU1KeA?oc=5",
-     "time": "2026-10-30T16:33:40+00:00"
-    },
-    {
-     "title": "NVIDIA Stock: Analyst Estimates & Ratings",
-     "publisher": "Barchart.com",
-     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPUmtaX09vY0lvNDRSS196b0l5UFNXbEx0eVp4RmhQT2E0UTVrT2x0MWJQZ1ZLSTMzTk9PbEF1cmNub3laQ1JkaUxnMEJFY0luc0IxUDZvS1V0V21WRnU0RmZpZmtlUDdZUGs0MjdQeVRGMG1kcDkyTmhVOEVtNUlpZ2F6RUFURG5iQkE?oc=5",
-     "time": "2026-10-30T15:42:30+00:00"
-    },
-    {
-     "title": "Intel Plunges 25% as Weak Outlook and PC Slump Overshadow Earnings Beat; Dell Tumbles 13%, AMD Sinks 10%, NVIDIA Falls 3%",
-     "publisher": "24/7 Wall St.",
-     "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQUWgxdFFydHpwM0hLSVhENjBFTm5jZGVQT1lmejFZM1RqVEs1Wm5rU0k0TmpFTWE3Qk54RkI2QWEtRzctdkpHa1k1X2I2ZjQ1MUhCdmpnTE9jTE9rYTIxUFI0Q0h6VFA0bWxMVkY0dF8wemJWc3dCUjFmMnB0RjItSkU3MGpFcU83S0Fra01DOGFKX0czelpGV0lEajNFbkluTi1iVkEzNk9uSFFXVVhieHdzczdyVi1OTFozWDNNYV9wU0ptQVN4eTQ0NFFMVmdWTWd3VEtMV0tnQW5TY2UyR1RjN2xzWDVpSzg3UmNCcw?oc=5",
-     "time": "2026-10-30T14:09:00+00:00"
-    },
-    {
-     "title": "NVIDIA Corp Stock (NVDA) Opened Down by 3.37% on Oct 30: A Full Analysis",
-     "publisher": "TradingKey",
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPQ05ndFlQU3pJVGNZQlRVTGlfMDFrcnFJYUxGSkNoVV9LVG5WVE5kQTNwd0tYMTRIT2NXVEtNNFpzZHhHd1FlSUdMYnBHLWkxUy15TnNXSDJtUjVadV80YWwyejd2Mk5MTFc3OFlYVDl0Y2ZXdUQzQzZUazA4N2QwdWJPcWVTV29lblFF?oc=5",
-     "time": "2026-10-30T13:50:10+00:00"
-    },
-    {
-     "title": "Can You Make Money Off NVIDIA Stock Now?",
-     "publisher": "Trefis",
-     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQd3NKR0JBQldHLU45bXdMd1g3ZFBDby0tMURjdVNBelJOUW9OcXJfUmJ6cFN4NkdXUHo5Zkk3Z1pyeHRTMTdfTWNVY3prZmptVEJ2NHdGUmJrVEVGQ2xQUGIxZUs1dTk5Q09rWlRsRGt3UHM0YmdoaERWblc1dzF2RlJURHRyRnZCSi1WekRiazFaVDhEc0VMdFR3Q3V0MjJBaVE?oc=5",
-     "time": "2026-10-30T13:38:19+00:00"
-    }
-   ],
-   "brief": "2026-10-30-NVDA"
-  },
-  {
-   "symbol": "NOW",
-   "name": "ServiceNow",
-   "list": "portfolio",
-   "price": 104.34,
-   "prev_close": 109.67,
-   "change_pct": -4.9,
-   "trigger_change": -3.3,
-   "peak_change": -5.5,
-   "first_seen": "2026-10-30T15:08:18+00:00",
-   "sector": {
-    "etf": "IGV",
-    "name": "Software",
-    "price": 104.24,
-    "change_pct": -3.45
-   },
-   "chart": {
-    "ema8": -22.3,
-    "ema21": -25.3,
-    "sma50": -24.8,
-    "sma200": -9.3,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "ServiceNow: Don't Fall For The Market's Knee-Jerk Reaction (NYSE:NOW)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPS282YkdMNm1lMkZadi1OemlZWndDWEpPdWZiSV9OZU01TU1tUEZLNmQwR1pMaDRob1NJNjFqVXV4VHNiSVBIZ2NuNmdiM3pRb2EzZ2J4YzVHdXU4QnIwUFg0LXZXcFRvUkx1Q0s2QlNXSWVCT0U0SXZxRzR2OW04Z0xDM2VYelNROVBjU2pHTDNWeTNud1J6VlNn?oc=5",
-     "time": "2026-10-30T16:15:56+00:00"
-    },
-    {
-     "title": "As ServiceNow plunges 31%, this mid-cap software stock is surging",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOY0JYREwwbXYtUXR2REdQOXc2VVpnaEtYOE9QbUEyXy1ybllQdlUyQUo5WWFHODRiS1pZeUNzNjBMV1ptTkRSQWJUdjFCWTd0Y3FvUkk4ZzJBY0RSb1g5eEVmRHc4TUtpLXRBZC1kTVA0Ni1XQzR0b0x2aExfaU1lREtzemZUbFVkV25jYkpybmdlZllBMW5NM2Rn?oc=5",
-     "time": "2026-10-30T15:02:04+00:00"
-    },
-    {
-     "title": "How Risky Is ServiceNow Stock?",
-     "publisher": "Trefis",
-     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNTWdLZjNfOTZnS0F6Z3dOQld0WVJlQlZta3hvUE5kb1lDSnZtZkJ3b2hSd05OSVBoOXZVQXN0eEczVGFwcUYtcVF5S2FybEZkTjdoY1ZfYUd0UjFQcnlFcFc5aUxTYmlaLVItX2dmTTNOSkVpOWRYV2daZm45em80aE5CekFlaHNDS2FiZnY4UXFRMW8?oc=5",
-     "time": "2026-10-30T14:41:31+00:00"
-    },
-    {
-     "title": "NOW Stock Slides Toward $110 After ServiceNow Misses Earnings Estimates",
-     "publisher": "FXLeaders",
-     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNY1Jod1E1aVRsVktYZ05uQmlTeDI3dkRsWmJtZ3k0VmRldUozR19fRTFKV0s1OFNQWXgxcnRhSTNjQ04xUFNsMzk4WUxNeUJ1MEowNElzQmpUa1R0WFFGMUpnZ0lWNy1OR1NQczFJT25JVm9QMnNmZ3padHRyb1lMdF9DQjNxOGZ6R0lHc3NhSloxVEF0MjRZR0VVeDc4bVdRVFJIaE9LamlHSDhDa2NnLTlLZw?oc=5",
-     "time": "2026-10-30T13:11:56+00:00"
-    },
-    {
-     "title": "Why ServiceNow Stock Plunged This Week",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNeUJsRGhMRGhZNDdQUk13dFhwQ1VZQUpLLXZpMHBQQVUzeVFOalU5T3dxaV9sXzRqTjJDWFpvMEhqTElqc0psTlJVMUdxMDBna01mLWJyYVlvQXVzZFNHMDNzYlNldXp0c0tYSXp6MjVRR090ME5jcTFldzFPQnZnYThmVWQ4YjF1V0E3R3BwU21KY2hnUklwTFJUVUljdHM?oc=5",
-     "time": "2026-10-30T12:37:01+00:00"
-    },
-    {
-     "title": "SaaS-Pocalypse II: Is ServiceNow's Sell-Off Another Buying Opportunity?",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNZjFQamNKT1l3WmlVLWUzUXBnZ3ZSZFNuOGNCMU51VUZMM0t0dlhRZWxPdDhJNVNoMGowZmZBSkZWVm04NXhvMzdMbEdnV2QwaWplZlFmZmx3RzhDS3JUVG5BcFlRdDR5N3J0U3JIcmhjR2ExRHdSanVlOU1JVzlxVUJvSXNEelhvdDRFNEdiekE5eWE3d1B4X3RyTS1MdEhHWkFLWllidlU?oc=5",
-     "time": "2026-10-30T12:35:59+00:00"
-    },
-    {
-     "title": "Brokers Suggest Investing in ServiceNow (NOW): Read This Before Placing a Bet",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQb09HRjFMb0hjWS1USzlFa3BxUXBzcW13WDg1M1ZnV0hQQm1QUUlZMGZhZVViQlM0UTl2Ml9pdHhVVHgtTFFlNURsaUw5YnhHRFM2YWJWRnZGOWNJYUZvTVMwSFgzLVZzQ1FyWjhDN0g4TUtWUzhqdGx4ellmUG5OaUFRczNnbW5waEMtV2ZNQVNlWkdDQ2RIT1ZVQWRCZUU0bV9jRVJvOFE?oc=5",
-     "time": "2026-10-30T12:30:01+00:00"
-    },
-    {
-     "title": "What Is Behind The Move In ServiceNow Stock?",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOMmJqLUlQQUsyN2JyYnRnTUhxdkpqdEx4S1I2ZGRacGlFNDl2UHRwbG9wc2V5cXFUcWZidTBmT0dsc0ZlSzBiOVRoTFVBRExwOFF2SmNjSnF6NTJ2NVVlbzJjemtSSWJMMm1xYTZYaG5MSFplRG1LUFJQWXMwY1NYZ0NFT2JEVGlPeXJIMThVOTlZWnIzSzZEWg?oc=5",
-     "time": "2026-10-30T10:50:06+00:00"
-    }
-   ],
-   "brief": "2026-10-30-NOW"
-  },
-  {
    "symbol": "CRWD",
    "name": "CrowdStrike",
    "list": "portfolio",
-   "price": 249.19,
+   "price": 248.3,
    "prev_close": 261.15,
-   "change_pct": -4.6,
+   "change_pct": -4.9,
    "trigger_change": -3.7,
    "peak_change": -5.9,
    "first_seen": "2026-10-30T15:08:18+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 104.24,
-    "change_pct": -3.45
+    "price": 104.12,
+    "change_pct": -3.57
    },
    "chart": {
-    "ema8": -2.4,
-    "ema21": -1.3,
-    "sma50": 3.7,
-    "sma200": 49.0,
+    "ema8": -2.6,
+    "ema21": -1.6,
+    "sma50": 3.4,
+    "sma200": 48.5,
     "momentum": true
    },
    "headlines": [
@@ -696,26 +621,101 @@
    "brief": "2026-10-30-CRWD"
   },
   {
+   "symbol": "NOW",
+   "name": "ServiceNow",
+   "list": "portfolio",
+   "price": 104.57,
+   "prev_close": 109.67,
+   "change_pct": -4.7,
+   "trigger_change": -3.3,
+   "peak_change": -5.5,
+   "first_seen": "2026-10-30T15:08:18+00:00",
+   "sector": {
+    "etf": "IGV",
+    "name": "Software",
+    "price": 104.12,
+    "change_pct": -3.57
+   },
+   "chart": {
+    "ema8": -22.1,
+    "ema21": -25.2,
+    "sma50": -24.6,
+    "sma200": -9.1,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "ServiceNow: Don't Fall For The Market's Knee-Jerk Reaction (NYSE:NOW)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPS282YkdMNm1lMkZadi1OemlZWndDWEpPdWZiSV9OZU01TU1tUEZLNmQwR1pMaDRob1NJNjFqVXV4VHNiSVBIZ2NuNmdiM3pRb2EzZ2J4YzVHdXU4QnIwUFg0LXZXcFRvUkx1Q0s2QlNXSWVCT0U0SXZxRzR2OW04Z0xDM2VYelNROVBjU2pHTDNWeTNud1J6VlNn?oc=5",
+     "time": "2026-10-30T16:15:56+00:00"
+    },
+    {
+     "title": "As ServiceNow plunges 31%, this mid-cap software stock is surging",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOY0JYREwwbXYtUXR2REdQOXc2VVpnaEtYOE9QbUEyXy1ybllQdlUyQUo5WWFHODRiS1pZeUNzNjBMV1ptTkRSQWJUdjFCWTd0Y3FvUkk4ZzJBY0RSb1g5eEVmRHc4TUtpLXRBZC1kTVA0Ni1XQzR0b0x2aExfaU1lREtzemZUbFVkV25jYkpybmdlZllBMW5NM2Rn?oc=5",
+     "time": "2026-10-30T15:02:04+00:00"
+    },
+    {
+     "title": "How Risky Is ServiceNow Stock?",
+     "publisher": "Trefis",
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNTWdLZjNfOTZnS0F6Z3dOQld0WVJlQlZta3hvUE5kb1lDSnZtZkJ3b2hSd05OSVBoOXZVQXN0eEczVGFwcUYtcVF5S2FybEZkTjdoY1ZfYUd0UjFQcnlFcFc5aUxTYmlaLVItX2dmTTNOSkVpOWRYV2daZm45em80aE5CekFlaHNDS2FiZnY4UXFRMW8?oc=5",
+     "time": "2026-10-30T14:41:31+00:00"
+    },
+    {
+     "title": "NOW Stock Slides Toward $110 After ServiceNow Misses Earnings Estimates",
+     "publisher": "FXLeaders",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNY1Jod1E1aVRsVktYZ05uQmlTeDI3dkRsWmJtZ3k0VmRldUozR19fRTFKV0s1OFNQWXgxcnRhSTNjQ04xUFNsMzk4WUxNeUJ1MEowNElzQmpUa1R0WFFGMUpnZ0lWNy1OR1NQczFJT25JVm9QMnNmZ3padHRyb1lMdF9DQjNxOGZ6R0lHc3NhSloxVEF0MjRZR0VVeDc4bVdRVFJIaE9LamlHSDhDa2NnLTlLZw?oc=5",
+     "time": "2026-10-30T13:11:56+00:00"
+    },
+    {
+     "title": "Why ServiceNow Stock Plunged This Week",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNeUJsRGhMRGhZNDdQUk13dFhwQ1VZQUpLLXZpMHBQQVUzeVFOalU5T3dxaV9sXzRqTjJDWFpvMEhqTElqc0psTlJVMUdxMDBna01mLWJyYVlvQXVzZFNHMDNzYlNldXp0c0tYSXp6MjVRR090ME5jcTFldzFPQnZnYThmVWQ4YjF1V0E3R3BwU21KY2hnUklwTFJUVUljdHM?oc=5",
+     "time": "2026-10-30T12:37:01+00:00"
+    },
+    {
+     "title": "SaaS-Pocalypse II: Is ServiceNow's Sell-Off Another Buying Opportunity?",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNZjFQamNKT1l3WmlVLWUzUXBnZ3ZSZFNuOGNCMU51VUZMM0t0dlhRZWxPdDhJNVNoMGowZmZBSkZWVm04NXhvMzdMbEdnV2QwaWplZlFmZmx3RzhDS3JUVG5BcFlRdDR5N3J0U3JIcmhjR2ExRHdSanVlOU1JVzlxVUJvSXNEelhvdDRFNEdiekE5eWE3d1B4X3RyTS1MdEhHWkFLWllidlU?oc=5",
+     "time": "2026-10-30T12:35:59+00:00"
+    },
+    {
+     "title": "Brokers Suggest Investing in ServiceNow (NOW): Read This Before Placing a Bet",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQb09HRjFMb0hjWS1USzlFa3BxUXBzcW13WDg1M1ZnV0hQQm1QUUlZMGZhZVViQlM0UTl2Ml9pdHhVVHgtTFFlNURsaUw5YnhHRFM2YWJWRnZGOWNJYUZvTVMwSFgzLVZzQ1FyWjhDN0g4TUtWUzhqdGx4ellmUG5OaUFRczNnbW5waEMtV2ZNQVNlWkdDQ2RIT1ZVQWRCZUU0bV9jRVJvOFE?oc=5",
+     "time": "2026-10-30T12:30:01+00:00"
+    },
+    {
+     "title": "What Is Behind The Move In ServiceNow Stock?",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOMmJqLUlQQUsyN2JyYnRnTUhxdkpqdEx4S1I2ZGRacGlFNDl2UHRwbG9wc2V5cXFUcWZidTBmT0dsc0ZlSzBiOVRoTFVBRExwOFF2SmNjSnF6NTJ2NVVlbzJjemtSSWJMMm1xYTZYaG5MSFplRG1LUFJQWXMwY1NYZ0NFT2JEVGlPeXJIMThVOTlZWnIzSzZEWg?oc=5",
+     "time": "2026-10-30T10:50:06+00:00"
+    }
+   ],
+   "brief": "2026-10-30-NOW"
+  },
+  {
    "symbol": "AXON",
    "name": "Axon",
    "list": "watchlist",
-   "price": 426.63,
+   "price": 426.37,
    "prev_close": 438.05,
-   "change_pct": -2.6,
+   "change_pct": -2.7,
    "trigger_change": -3.1,
    "peak_change": -3.3,
    "first_seen": "2026-10-30T17:09:19+00:00",
    "sector": {
     "etf": "XLI",
     "name": "Industrials",
-    "price": 167.23,
-    "change_pct": -1.7
+    "price": 167.04,
+    "change_pct": -1.82
    },
    "chart": {
     "ema8": 0.9,
-    "ema21": 0.8,
-    "sma50": -7.9,
-    "sma200": -10.9,
+    "ema21": 0.7,
+    "sma50": -8.0,
+    "sma200": -11.0,
     "momentum": false
    },
    "headlines": [
