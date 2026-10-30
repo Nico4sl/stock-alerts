@@ -3,6 +3,14 @@
  "threshold": 3.0,
  "movers": [
   {
+   "id": "2026-10-30-APP",
+   "symbol": "APP",
+   "name": "AppLovin",
+   "list": "portfolio",
+   "trigger_change": -5.6,
+   "first_seen": "2026-10-30T14:04:25+00:00"
+  },
+  {
    "id": "2026-10-30-NBIS",
    "symbol": "NBIS",
    "name": "Nebius",
@@ -16,14 +24,6 @@
    "name": "Arista Networks",
    "list": "portfolio",
    "trigger_change": -6.4,
-   "first_seen": "2026-10-30T14:04:25+00:00"
-  },
-  {
-   "id": "2026-10-30-APP",
-   "symbol": "APP",
-   "name": "AppLovin",
-   "list": "portfolio",
-   "trigger_change": -5.6,
    "first_seen": "2026-10-30T14:04:25+00:00"
   },
   {
@@ -49,6 +49,14 @@
    "list": "portfolio",
    "trigger_change": -4.2,
    "first_seen": "2026-10-30T14:09:27+00:00"
+  },
+  {
+   "id": "2026-10-30-NVDA",
+   "symbol": "NVDA",
+   "name": "Nvidia",
+   "list": "portfolio",
+   "trigger_change": -3.1,
+   "first_seen": "2026-10-30T14:19:29+00:00"
   }
  ]
 }

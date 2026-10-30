@@ -1,46 +1,121 @@
 {
  "date": "2026-10-30",
  "threshold": 3.0,
- "updated": "2026-10-30T14:14:30+00:00",
+ "updated": "2026-10-30T15:03:14+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 758.67,
-   "change_pct": -1.39
+   "price": 759.04,
+   "change_pct": -1.34
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 694.41,
-   "change_pct": -2.93
+   "price": 695.45,
+   "change_pct": -2.78
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 81.76,
-   "change_pct": 0.33
+   "price": 81.62,
+   "change_pct": 0.16
   }
  },
  "movers": [
   {
+   "symbol": "APP",
+   "name": "AppLovin",
+   "list": "portfolio",
+   "price": 232.69,
+   "prev_close": 254.91,
+   "change_pct": -8.7,
+   "trigger_change": -5.6,
+   "peak_change": -8.7,
+   "first_seen": "2026-10-30T14:04:25+00:00",
+   "sector": {
+    "etf": "IGV",
+    "name": "Software",
+    "price": 105.04,
+    "change_pct": -2.71
+   },
+   "chart": {
+    "ema8": -9.0,
+    "ema21": -13.6,
+    "sma50": -20.9,
+    "sma200": -44.0,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "AppLovin Slides as Investors Weigh Slower Growth Signals Ahead of Earnings",
+     "publisher": "Quiver Quantitative",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPd0p4eUpla3BZbjJmNnhKRlhOajRyaGtYUUxoUkVaYXpScVFlcUNYRzFrMXJsWlNlUlB6N3JzZWU0Nlh2cFFmTHNJVWRnYTVZc2hqNmNGZDBtdDN6NXNNNTVrYkZUcTFGSG1OU3JabmVNSEdubkNXUS1XMG5MM0FpMmFxQVlWbHdkQ2hmLWpmV3FyY1NDdDJZZktReWNpYUJoakczeDV0Q2xfbUk?oc=5",
+     "time": "2026-10-30T14:50:00+00:00"
+    },
+    {
+     "title": "Here's How Much $100 Invested In AppLovin 15 Years Ago Would Be Worth Today",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQbWY1d3E5THRZQ1JjZUNCcnlQNUkwYzBCcXlMNlUzU1dvNUdxRVVxR1VjSDl4LUQwT0U5MWhNZnB4bVJZUFFzVmNSWld5YWZ4Wjd2T3JkU1FHUzhnTU1uTUVZSmhza2cxNi1RbWw1dlRnNXFkdjhuTVhIZFlkRUJSYUxUdWZlemlTT0NuaDhjM1dsNERYdXMtcnNQd243VE5nYng3cGJMTEV4Tk1EdHFsV09KUEJjZzA?oc=5",
+     "time": "2026-10-30T14:15:24+00:00"
+    },
+    {
+     "title": "Is Wall Street Bullish or Bearish on AppLovin\u2019s Stock?",
+     "publisher": "Barchart.com",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNYWl0dm5JT2t1ZlBqa2tndXhUTDRNc3dBVmFkRTJCMjRtNVhha2hEWjF4M3Nfd05FMS1tX0hJWkpsZVRIQllNaTBBMm1SZVhTdFFzNTVrV0JDYWFzMGFXTjJ4QjNXWXR4NjAwelVBbTR1alpvVkpGVmNoWXhTNFpUa1AyQWVMcW94dE5DZ3hnMGV6SDNqWlhTVWhMMFk?oc=5",
+     "time": "2026-10-30T12:36:45+00:00"
+    },
+    {
+     "title": "Is Trending Stock AppLovin Corporation (APP) a Buy Now?",
+     "publisher": "Yahoo Finance UK",
+     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQX2VMUG9qR1BSbG5xSVoyTzR2aG1XTDVDODJsNjBxdTZlNkRfMVJaSVYycXRfQ0pKVk03UFV2Z0RGLWJPcktVWGZTbkg4NU5qSHpKWlZQSXVtQWZfQWlXdHBDbWM5U3FHeHdmZ2pNLXZpRzZXWWszVnFGM1ZEcmlfVThxem1DMENEQjlYSWpxSEhrdw?oc=5",
+     "time": "2026-10-30T12:00:04+00:00"
+    },
+    {
+     "title": "Applovin (bStocks Tokenized Stock) Price: APPB/USD Live Price Chart, Market Cap & News Today",
+     "publisher": "CoinGecko",
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9FbzdhR21ORkFXNWVoeHhNQklJM283OThDRWJydnlXOEk3WW1Ya2hfNU0wbW1OcmFybUFYZTBiMXRjaERpZFlVdm00X1BKTXRfSGpxMVFBUkh1YjlCbWpHa05pbVRRc2pKTUVqcGczcHNGUHU5alE?oc=5",
+     "time": "2026-10-30T11:22:01+00:00"
+    },
+    {
+     "title": "AppLovin stock hits annual low as RBC, UBS cut targets ahead of results",
+     "publisher": "ad-hoc-news.de",
+     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPajlUY2RldC1CcFpBYVdYWjBOSXZlRmNMLUk0ZUpycnNQdmdfSk12ZzJpT25GUGMxcHk1UlpZQWJOd090cDhqQ0c4ZHh1X0Z5MWpmeU1jcmRhSk9USkozTXVYUndVMll1am0zTWZIUEY1VzZHdDJIbmRYRHpZaFRseGc2eVVqb3JkMTB1ZlVQeGdsY2RnU3VscnhlWGVjbVMyVnhPaTQ4NEVBQUdvaXl6Sy05YlgzTEdsYU9ZVlc5bk9HeVgzRERMRXdsNHoxQQ?oc=5",
+     "time": "2026-10-30T09:32:00+00:00"
+    },
+    {
+     "title": "2 S&P 500 Stocks Just Made New 52-Week Lows",
+     "publisher": "Trefis",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQTEpKbFI0VG50ellHcjVEM0UzZ3FWNm4zbjdoSjlhXzUtYnI0TnVDaFJlam5nVkpiMHhQV0U4U3BudDNDQ1VwbGktYzF1RmtKSWpXR2c1SXE1UlMwekUxdW8yQTQzbkQwV0hBeHBiTGFWRTloQUhPakZidWxTdUFKX0tIMmZhWjc4RU1hSm9pb3hMWUF3bWx6aC1oNHZkTXJWOFowWA?oc=5",
+     "time": "2026-10-30T08:14:35+00:00"
+    },
+    {
+     "title": "The 52-Week-Low List: 17 Names On Thursday",
+     "publisher": "Trefis",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOS25uMkF3YUZZY3B1WGtfalVUbU5saVY1c2xISlBYX0ItRlJhYnFkZGhRdWNNME0xenZQdURNUGtVVGR2WHU5WHNLcU9QRm9GTkhidU1VYmxKQlc4UFBPMGdHWmp4cHJ1LUJtYnd0Qy02SjdXWVc0ZzlhRW03WnItbkFBaFd4clhYR0tDazF2NjQzNlhOQVNTN3htdkNVai14M1gw?oc=5",
+     "time": "2026-10-30T08:14:13+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 158.06,
+   "price": 158.37,
    "prev_close": 171.99,
-   "change_pct": -8.1,
+   "change_pct": -7.9,
    "trigger_change": -7.0,
    "peak_change": -8.1,
    "first_seen": "2026-10-30T14:04:25+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 105.22,
-    "change_pct": -2.55
+    "price": 105.04,
+    "change_pct": -2.71
    },
    "chart": {
-    "ema8": -6.6,
-    "ema21": -14.6,
-    "sma50": -24.7,
-    "sma200": -11.0,
+    "ema8": -6.5,
+    "ema21": -14.5,
+    "sma50": -24.5,
+    "sma200": -10.8,
     "momentum": false
    },
    "headlines": [
@@ -99,23 +174,23 @@
    "symbol": "ANET",
    "name": "Arista Networks",
    "list": "portfolio",
-   "price": 170.49,
+   "price": 171.23,
    "prev_close": 184.22,
-   "change_pct": -7.5,
+   "change_pct": -7.1,
    "trigger_change": -6.4,
    "peak_change": -7.5,
    "first_seen": "2026-10-30T14:04:25+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 529.13,
-    "change_pct": -5.79
+    "price": 527.1,
+    "change_pct": -6.16
    },
    "chart": {
-    "ema8": -5.7,
-    "ema21": -9.2,
-    "sma50": -12.7,
-    "sma200": 3.2,
+    "ema8": -5.3,
+    "ema21": -8.8,
+    "sma50": -12.3,
+    "sma200": 3.7,
     "momentum": false
    },
    "headlines": [
@@ -162,85 +237,10 @@
      "time": "2026-10-29T17:20:12+00:00"
     },
     {
-     "title": "Cisco Gains From AI Networking Boom: Can It Outpace HPE & ANET?",
-     "publisher": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQQ2tPMnVDVHA4cENoZWpuSDR1OXJmVTk2YmUxWU5GSFpnZDAzdmdWb09xWmN5Y3pJSEs2cV8xM2tXZmdJbTN4WkdOazlqcldZZjVnMFNoLUtZUU5RT3NfN3kwa0xQcV9FMW52cGN0T092cFBTQ3hrcGVwVGJ3d2V6eGk4VXJUVTgySkdEZUVEaWV1VzNGNFBBZXp2WWYzejd6NTNRWmRYbUdBNkpIQnFfY1FmczBxdw?oc=5",
-     "time": "2026-10-29T16:38:00+00:00"
-    }
-   ],
-   "brief": null
-  },
-  {
-   "symbol": "APP",
-   "name": "AppLovin",
-   "list": "portfolio",
-   "price": 238.42,
-   "prev_close": 254.91,
-   "change_pct": -6.5,
-   "trigger_change": -5.6,
-   "peak_change": -6.5,
-   "first_seen": "2026-10-30T14:04:25+00:00",
-   "sector": {
-    "etf": "IGV",
-    "name": "Software",
-    "price": 105.22,
-    "change_pct": -2.55
-   },
-   "chart": {
-    "ema8": -7.2,
-    "ema21": -11.7,
-    "sma50": -19.0,
-    "sma200": -42.7,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Is Wall Street Bullish or Bearish on AppLovin\u2019s Stock?",
-     "publisher": "Barchart.com",
-     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNYWl0dm5JT2t1ZlBqa2tndXhUTDRNc3dBVmFkRTJCMjRtNVhha2hEWjF4M3Nfd05FMS1tX0hJWkpsZVRIQllNaTBBMm1SZVhTdFFzNTVrV0JDYWFzMGFXTjJ4QjNXWXR4NjAwelVBbTR1alpvVkpGVmNoWXhTNFpUa1AyQWVMcW94dE5DZ3hnMGV6SDNqWlhTVWhMMFk?oc=5",
-     "time": "2026-10-30T12:36:45+00:00"
-    },
-    {
-     "title": "Is Trending Stock AppLovin Corporation (APP) a Buy Now?",
-     "publisher": "Yahoo Finance UK",
-     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQX2VMUG9qR1BSbG5xSVoyTzR2aG1XTDVDODJsNjBxdTZlNkRfMVJaSVYycXRfQ0pKVk03UFV2Z0RGLWJPcktVWGZTbkg4NU5qSHpKWlZQSXVtQWZfQWlXdHBDbWM5U3FHeHdmZ2pNLXZpRzZXWWszVnFGM1ZEcmlfVThxem1DMENEQjlYSWpxSEhrdw?oc=5",
-     "time": "2026-10-30T12:00:04+00:00"
-    },
-    {
-     "title": "Applovin (bStocks Tokenized Stock) Price: APPB/USD Live Price Chart, Market Cap & News Today",
-     "publisher": "CoinGecko",
-     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9FbzdhR21ORkFXNWVoeHhNQklJM283OThDRWJydnlXOEk3WW1Ya2hfNU0wbW1OcmFybUFYZTBiMXRjaERpZFlVdm00X1BKTXRfSGpxMVFBUkh1YjlCbWpHa05pbVRRc2pKTUVqcGczcHNGUHU5alE?oc=5",
-     "time": "2026-10-30T11:22:01+00:00"
-    },
-    {
-     "title": "AppLovin stock hits annual low as RBC, UBS cut targets ahead of results",
-     "publisher": "ad-hoc-news.de",
-     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPajlUY2RldC1CcFpBYVdYWjBOSXZlRmNMLUk0ZUpycnNQdmdfSk12ZzJpT25GUGMxcHk1UlpZQWJOd090cDhqQ0c4ZHh1X0Z5MWpmeU1jcmRhSk9USkozTXVYUndVMll1am0zTWZIUEY1VzZHdDJIbmRYRHpZaFRseGc2eVVqb3JkMTB1ZlVQeGdsY2RnU3VscnhlWGVjbVMyVnhPaTQ4NEVBQUdvaXl6Sy05YlgzTEdsYU9ZVlc5bk9HeVgzRERMRXdsNHoxQQ?oc=5",
-     "time": "2026-10-30T09:32:00+00:00"
-    },
-    {
-     "title": "2 S&P 500 Stocks Just Made New 52-Week Lows",
-     "publisher": "Trefis",
-     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQTEpKbFI0VG50ellHcjVEM0UzZ3FWNm4zbjdoSjlhXzUtYnI0TnVDaFJlam5nVkpiMHhQV0U4U3BudDNDQ1VwbGktYzF1RmtKSWpXR2c1SXE1UlMwekUxdW8yQTQzbkQwV0hBeHBiTGFWRTloQUhPakZidWxTdUFKX0tIMmZhWjc4RU1hSm9pb3hMWUF3bWx6aC1oNHZkTXJWOFowWA?oc=5",
-     "time": "2026-10-30T08:14:35+00:00"
-    },
-    {
-     "title": "The 52-Week-Low List: 17 Names On Thursday",
-     "publisher": "Trefis",
-     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOS25uMkF3YUZZY3B1WGtfalVUbU5saVY1c2xISlBYX0ItRlJhYnFkZGhRdWNNME0xenZQdURNUGtVVGR2WHU5WHNLcU9QRm9GTkhidU1VYmxKQlc4UFBPMGdHWmp4cHJ1LUJtYnd0Qy02SjdXWVc0ZzlhRW03WnItbkFBaFd4clhYR0tDazF2NjQzNlhOQVNTN3htdkNVai14M1gw?oc=5",
-     "time": "2026-10-30T08:14:13+00:00"
-    },
-    {
-     "title": "American Century Focused Dynamic Growth Fund Q3 2026 Commentary (ACFOX)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNYnkwWWJfQ19jWHJFaDhmc01kRDc4cDhPU1FWZGdaazBvWmVmSV93RG1yUldiajc5cHBQWHN1TGR5STZWZXJyUzM1ajE3TE9oN2tWcTJPNWpfSzl6RzJsZWFIZW8xVWtUVnhuMmZkZVBRWk9JdC0wOTRZU2xpeHpnTDFEU1V5OS1TYVZweVVXV1g4NDc0eU90RWl1dEZMeWFFd2hzejU4bw?oc=5",
-     "time": "2026-10-30T07:20:00+00:00"
-    },
-    {
-     "title": "Why Did NFLX, MBLY, APP Stocks Tumble To 52-Week Lows?",
-     "publisher": "Stocktwits",
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNc1NWNXd2cUxuTzJCOUJFZjlqSGsyZzA2NUw5SmlGQV8za0pOdU5IclJJUlpKWVk5WFNlM1dPUm9VelRvVlFsLTVESlMyMU1abGplWUxyaUhva2t6bG8wb2tCTkJiZEp2MUZrM2hSaS1Mb0xGZzg5YTEtb1JGb3FwZ2lFa1dxWWEyVE9oUk1zLXNuaDY4a2R3YnFpaG52X2FNZGw1Mjl1NkJxNkxkN1Z6OGhNTS0tdw?oc=5",
-     "time": "2026-10-30T03:29:31+00:00"
+     "title": "Arista Networks (ANET) Q1 2026 Earnings Call Transcript",
+     "publisher": "Fortune",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBnd0lra00wYUNPUjJiSnNuMThXcnpUTnFybDZqRHh2a2FySHU2S0tKdm81MXlRbEJaWEZPVFF0eXJ5N3Qzak5ZNF9mQ0tHd05ObEstRE85Nm4xQW13LUp1OS1zNmdCek85R0l6YXB3?oc=5",
+     "time": "2026-10-29T15:49:13+00:00"
     }
    ],
    "brief": null
@@ -249,26 +249,38 @@
    "symbol": "AMAT",
    "name": "Applied Materials",
    "list": "portfolio",
-   "price": 398.37,
+   "price": 393.56,
    "prev_close": 421.66,
-   "change_pct": -5.5,
+   "change_pct": -6.7,
    "trigger_change": -4.9,
-   "peak_change": -5.5,
+   "peak_change": -6.7,
    "first_seen": "2026-10-30T14:04:25+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 529.13,
-    "change_pct": -5.79
+    "price": 527.1,
+    "change_pct": -6.16
    },
    "chart": {
-    "ema8": -2.2,
-    "ema21": -7.5,
-    "sma50": -13.0,
-    "sma200": -10.4,
+    "ema8": -3.1,
+    "ema21": -8.5,
+    "sma50": -14.0,
+    "sma200": -11.5,
     "momentum": false
    },
    "headlines": [
+    {
+     "title": "Fund Update: 50,572 APPLIED MATERIALS (AMAT) shares added to COUNTRY TRUST BANK portfolio",
+     "publisher": "Quiver Quantitative",
+     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxObDBuVFJlMC1mT0pGZVFvZGY0c2RkY0Y1anAwSGdTMUlSZW1lbEpOZHRXYUZtM1dFVV9sZ19vUDJWQnN5QmxhR3A4OVpLd09oQkdDNkN2WU9BNkdJZGVVdm8yZDBfWG1OWjcxU2Q0a1d6eGIwdEl5MEhoMTBZdkNmWDZ1emR1SWVCQ1FiWTNpMVEyRjR0LVFqbVpkckVET0pwSmlDUy1XaDJZQXJfNm9wSGdhUVFNMHVQTVdhd1BHaVVkd183dWxsY1Rjbw?oc=5",
+     "time": "2026-10-30T14:42:00+00:00"
+    },
+    {
+     "title": "Applied Materials Is Up Nearly 9% Since Moving to Lift Its Besi Stake to 20%. Here\u2019s What Hybrid Bonding Could Mean for the Stock by 2030",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNSXlNenpUVW5xRUtnVUF6V054aFR2S3NXS3ZJQ193aTlYX0xjOWFUbmpUZjV6TVhqT0JTRk5qaWZGZXUxRkR3RUNiTFFJbTZOZUZxb044XzRDT2VMWWpjZDJfU1Q4TVVTY1ZsWDdfVVRkekdFRFBjeUN3ME5ZdU5YV0ROSjZmeUh0Ml9MSVVSMmdYdnFyWnBHYnh2cXJQdw?oc=5",
+     "time": "2026-10-30T13:23:16+00:00"
+    },
     {
      "title": "Applied Materials, Inc. (AMAT) is Attracting Investor Attention: Here is What You Should Know",
      "publisher": "Yahoo Finance",
@@ -300,22 +312,10 @@
      "time": "2026-10-29T22:21:00+00:00"
     },
     {
-     "title": "Is Applied Materials Still The Company You Bought?",
-     "publisher": "Trefis",
-     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNYmVsT2pRdlk5ZWh5MUFka3FnQ1N1WkNVM3JHNWdvWmVuUkR1QzRYck5KYURJbkdvU2s0eVpkWDRTZk5EczVGVE0tZG5ON1dhSU5DbWlsbHMxc1VmdjRkVUJnUm9OWUY5UzlYWDJReUpJbFRybGhkU0JQZTVMWWluYXR4Z09Ic0JlSURwNjdLd3VCdVJaZ09OdjY0QVM0NjFfcmVXZjJ1a2hGd09HNVRN?oc=5",
-     "time": "2026-10-29T12:59:40+00:00"
-    },
-    {
-     "title": "3 market-beating stocks for long-term investors",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPbWx2NzVCWEI3cDM1c25LdmRhb19RajhtMWQwZC1nb0lJMnduRUUzZHZreGJDT2xobjVKbnozaUE1Mm9sMVA3Vy1uLXVMdFZLSFlyNnA5RWtIQ0lyakd5YVpEdDNqWENZdExZMzJxNmN5T0NOX3g2OHladVRlTzFubldkTy1CQ0VlNVFYUEtoalNsaFRCOEYtNg?oc=5",
-     "time": "2026-10-29T08:59:25+00:00"
-    },
-    {
-     "title": "AMAT 261030 382.50C (AMAT261030C382500) Stock Options Chain | Quotes & News",
-     "publisher": "Moomoo",
-     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE10VHh2ajBrTFBTUXZGcGVtNUR0NkdCb1BpaGhBdXR3Rmw1bW8zTnozaTNla0hXMEhEYVFPang0MERkNnNhdDJxQzdjX2pqbHRqcTE2YTFwRXl3M0Y2UHFHMQ?oc=5",
-     "time": "2026-10-29T02:15:00+00:00"
+     "title": "Applied Materials Inc. stock outperforms competitors on strong trading day",
+     "publisher": "MarketWatch",
+     "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNc1hCa093WXFZaEtyWVFwT0s2NjJGN3lHSzFBZkotUjA5QVB5NThaVWFFenBVdGFma2p6QV9tUy1hbFhuS01GWWpZUWtmMGo3VFczYjlSWjd3c0ZUR2xPQzFKSEhNamJTTWRtQTlGTThKWHRlem45d012d1l0R1BvRzZ0YTZMbWI5V2hvNG9OQ3lSbl94MXUwbGJMXzROcVRUaWdCQlQ5MXdQX0trclFyTllJXzlnR2VmM3BORVQ4SWpRQXJwUXJLUGN3WHhmR1JhT294N29YNkI1eTZseko0TE0yZ3BOZw?oc=5",
+     "time": "2026-10-29T20:31:00+00:00"
     }
    ],
    "brief": null
@@ -324,31 +324,61 @@
    "symbol": "AVGO",
    "name": "Broadcom",
    "list": "portfolio",
-   "price": 329.02,
+   "price": 326.77,
    "prev_close": 345.0,
-   "change_pct": -4.6,
+   "change_pct": -5.3,
    "trigger_change": -4.7,
-   "peak_change": -4.7,
+   "peak_change": -5.3,
    "first_seen": "2026-10-30T14:04:25+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 529.13,
-    "change_pct": -5.79
+    "price": 527.1,
+    "change_pct": -6.16
    },
    "chart": {
-    "ema8": -2.6,
-    "ema21": -4.1,
-    "sma50": -6.8,
-    "sma200": -10.5,
+    "ema8": -3.1,
+    "ema21": -4.7,
+    "sma50": -7.4,
+    "sma200": -11.1,
     "momentum": false
    },
    "headlines": [
+    {
+     "title": "Why is Broadcom stock sliding today? By Investing.com",
+     "publisher": "Investing.com Canada",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPYW5wUGhfcmhLLThFQmM3ektKYkZ0UzEtaXBwRFhtWUJTZXJ3TVJZVGVEQjBiQVMwLWlKZjJNaXhPNk1pTzd2dmNya2tLV0gteDhlaFNKOW5rdmRmTWVNR0NGeEhNN1FDWnhRSXF6SWhOLWp5MlM1RzVYdXQ5SldPRzlBOHJNa3FrT1RmVDk1YTdZTzdRQ0gwYzdRQXQ?oc=5",
+     "time": "2026-10-30T15:04:07+00:00"
+    },
+    {
+     "title": "Broadcom Falls 5% Despite DA Davidson Upgrade on Anthropic and OpenAI IPO Hopes; Arm and Qualcomm Sink 10%, Marvell Drops 8%",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxONDA3Z0RHYkNET1dzQXpxODIxanAyc2hqSU11VGhlZ3E5dUdwTTJrQzR3bl9sWXVPWGRGaWprVWZNdjJWS3d4SURzY0VzaXdZNnpkQTNRbThsYkpRVUZwQjlzOEZfcHFIdk9YUlpXeEd6aHljd21KQlo2amtsTmNyUFR4SDZsaTZMcjBjNkh5YXBrOHhtcnpBLW1UZkU1RnFHNHRza2MwMUNvT1hYZzZadkhuWHh0aXNmMV8wSi01RVVGZzUyM3E1S3llNlNnNG5lU2NDTldJUXAzUGNuT1RMOHA3aERBVXBnZHhNdm5DVEE5WEg4Rmc?oc=5",
+     "time": "2026-10-30T14:58:11+00:00"
+    },
+    {
+     "title": "Fund Update: 78,680 BROADCOM (AVGO) shares added to COUNTRY TRUST BANK portfolio",
+     "publisher": "Quiver Quantitative",
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOcW1HcEktR3AtVUlKWjBDRzdVUlppbW94ZmJZR0xtejlJcVhWZEVvcnIzcUx4SzZ3dGQ4OGhkeXJVZmtHZXk5UTRZMFdQWndZM1pqTGFGalpMZGxVNWxoZEZQRWpsUU9EOUJycXllcDB6Z1BlbXItZ0NUQ0FPcFZvYkd0SG9pUHR4Nmhud24tYkFhR0h6UlJ5SndVZVFHZ1hPWVJpLVBVQ3RDbWtvN2EyRFBJOGN3bVE3d2FFcXdn?oc=5",
+     "time": "2026-10-30T14:42:00+00:00"
+    },
+    {
+     "title": "Marvell Rumored to Buy Lumentum in Major Challenge to Broadcom: Counterpoint",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNWWh0dUFNanpFakFrRV9oOTZ4TnlnVkFDSzRPaGs0VmhDYUhCZ05vcVY1bXZHRkUtcW41djVxVUZQU1NQZ3ZCODEyNmlqbkxFZHZNSkJvdDhFVWdvU3FacUJGeV8xb0lNTHVMY2k3bnh3LW1rNmdGWkY4cmJuN1JZTy1UZ1lUS2Voc2JPeFBILTN6VXlhTWwzRDFCWXlpUjVLQm92U1YyQ1FLR3BfSmVZQjJFRi1HOF9rOWl3WXVfa3ZRMTEzOWU4?oc=5",
+     "time": "2026-10-30T14:10:07+00:00"
+    },
     {
      "title": "Broadcom Inc Stock (AVGO) Opened Down by 5.16% on Oct 30: What Signal Does It Send?",
      "publisher": "TradingKey",
      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPU2VIX2kzSW15VzJjMnFaOHJtU3RlZTVlV2g2N3J1a0ZGSkw1ay1wN3VWaGdnZkktR2p5UEN3ZGcwUURCSnRBNlhpLVljUC1qNndLa1c4aXFOam04LThKVUZPQUN0MWZQRUliM1VDQXIyc3YzUjVDbFpjclRuZU1udVJNRTN5cHhZSDMw?oc=5",
      "time": "2026-10-30T13:47:40+00:00"
+    },
+    {
+     "title": "AVGO Stock Firms Up As Broadcom Shows Strong Profits And Cash",
+     "publisher": "StocksToTrade",
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5HcEJiSTlXVUYtUDFXMGx1M25fWkZTNlI5aG9SdlhaRTZNLVpiTndkSi1PYXp4TmMtRTVHcUZqcmVlQmtXTDJjb1oxYWM3d0ZzZ3I1VEh2eGRjMU9JWTBjaG5JaG5lN3YyZkh3bTF6SzNPTVU?oc=5",
+     "time": "2026-10-30T13:33:00+00:00"
     },
     {
      "title": "Is Broadcom Stock Priced Right Against Its Peers?",
@@ -357,40 +387,10 @@
      "time": "2026-10-30T13:29:53+00:00"
     },
     {
-     "title": "AVGO Stock Firms Up As Broadcom Shows Strong Profits And Cash",
-     "publisher": "StocksToTrade",
-     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5HcEJiSTlXVUYtUDFXMGx1M25fWkZTNlI5aG9SdlhaRTZNLVpiTndkSi1PYXp4TmMtRTVHcUZqcmVlQmtXTDJjb1oxYWM3d0ZzZ3I1VEh2eGRjMU9JWTBjaG5JaG5lN3YyZkh3bTF6SzNPTVU?oc=5",
-     "time": "2026-10-30T12:52:03+00:00"
-    },
-    {
-     "title": "Earnings Preview: What to Expect From Broadcom\u2019s Report",
-     "publisher": "Barchart.com",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNQmJ3NTlJSld2VHlqWU1QYVM2Y2g4NWM3VnlsNWVybGMxRzdhMWdhci1DWVVjN3g1cFBHdHdwMEs0SHZfMDdJMVNMVE1pQUduYWpEQ1VVcm9sWGVSZ2RucVpXUElfcGNsRWlmS0VKQ0pETWdMVk1vNlJ2b1pJNUVHS0J1SFliemdaX3JsZ0JkTjZPdmxVNXVzdTU5c25Idw?oc=5",
-     "time": "2026-10-30T12:10:57+00:00"
-    },
-    {
-     "title": "Broadcom's $63B deal with Anthropic boosts AI c...",
-     "publisher": "Pluang",
-     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQRk45cnlhYTc3Vm1NS3pEUVp0VHluTXMwWmtWYUlseGF2Ui1pb25LazJqZ0Y2Q1pkUHpMU3JxVHVFeGY2Uk9lY2w1U0l4bEJFNlZHNmwxdko0dFVpOGtUcGhxcG1KdHNYSGo2dmF4c05NeW1MNVBnTExZTVRxTk5vdTZ3Q0lNcE1MMHpSVWIxOEcyVTVxTlM1MEJrcWc?oc=5",
-     "time": "2026-10-30T11:37:08+00:00"
-    },
-    {
      "title": "Broadcom\u2019s $63B Anthropic Deal Could Be The One That Finally Gets it Into Gear",
      "publisher": "24/7 Wall St.",
      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxONmZjaE9fT25ocVdmSEtMWktfZF9YSlFEc3d6SW12RFM1UWoybS1KMk92ZHJnVTNfQzI3SF9jZ1dQcW9aYk5sQ09wZ2RlUmh0MUx5d2M2aFZ1TW1BZy0wS2s1U25NR2JWMEtkSDBJakdkV0laUjVVTWd1dS13MGdJMkFva1dRbFhueTJ3ai1wLWlrLUlrdE9fcUI2RDFLNzNwQUY2am5WYXg4SFVEUktWU29peUZZTXFUZnhJbA?oc=5",
-     "time": "2026-10-30T11:20:43+00:00"
-    },
-    {
-     "title": "Randolph Co Inc Acquires 227,807 Shares of Broadcom Inc. $AVGO",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPLTlCZm1uc0tiaWZpWHNzUVZFZ0d3VF8zdElWUzMwcXBNSVhobFNpVlF2elZzQVFCME9CZVN6Nll1MGNuclJvbTNUTmU4MDhEVEQyN1ZJdlZza2hqUnVWVjBCZDR5U0h2OWk5Z1k1aWo2dW5ETEo1Q3lma2RCYjhSeVJaZGZXMkkyS1F2UWhjVEtSUGc3UERkS3JXMnk3ZElYZEJVaTRpWGNMT1B6djFOOFhsMXVGQWsyUlppRg?oc=5",
-     "time": "2026-10-30T09:15:55+00:00"
-    },
-    {
-     "title": "Leo Wealth LLC Makes New Investment in Broadcom Inc. $AVGO",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNUE9SaXVReUNYbGl5S3VKTTdCcWxHb3F1dWw5T0V0VGJkUWF5Q09mNmRLcGhHMnRaeXZJWHpvVW5ScEdqX3BxWU95emNfSkVLWVFoZXhLTG5TVHdibW9SZU82Qk9FR0pqcnBpSmh1T3FZMmlEdmx5VVN5SEpQTkpTNEZoemJaTk5vX2xsQm1sMl9aOUpjMmNDZEp6NlB0SXB4dkFsTFJRSnJPQV9ycG5NQzJsdEM4bkw2?oc=5",
-     "time": "2026-10-30T09:15:55+00:00"
+     "time": "2026-10-30T12:15:00+00:00"
     }
    ],
    "brief": null
@@ -399,23 +399,23 @@
    "symbol": "SOFI",
    "name": "SoFi",
    "list": "portfolio",
-   "price": 16.91,
+   "price": 16.79,
    "prev_close": 17.61,
-   "change_pct": -3.9,
+   "change_pct": -4.6,
    "trigger_change": -4.2,
-   "peak_change": -4.2,
+   "peak_change": -4.6,
    "first_seen": "2026-10-30T14:09:27+00:00",
    "sector": {
     "etf": "XLF",
     "name": "Financials",
-    "price": 56.56,
-    "change_pct": -0.66
+    "price": 56.66,
+    "change_pct": -0.48
    },
    "chart": {
-    "ema8": 4.4,
-    "ema21": 6.8,
-    "sma50": 2.0,
-    "sma200": -4.9,
+    "ema8": 3.8,
+    "ema21": 6.1,
+    "sma50": 1.3,
+    "sma200": -5.6,
     "momentum": true
    },
    "headlines": [
@@ -430,12 +430,6 @@
      "publisher": "Seeking Alpha",
      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPVGdwWEJYaWZDNkZLcHg4MnEydXZpOGRwYkNKRjk1c2t2aFR6US1pcTdCV290MXRZTGs5VnpuWUZMa3FaOGhMMkhKeFhCVlRJWVdVOW03SUJuSnpqY29RanJCdmVGd1BZdEllWTdOUzNLTS1mbk1UNFdiRXlORWRpamRrVEJBUDdUUzJ1NzdiZjFMT3pDMXZDcHljNDRfbUVC?oc=5",
      "time": "2026-10-30T12:45:00+00:00"
-    },
-    {
-     "title": "Defiance Daily Target 2X Long SOFI ETF (SOFX) Stock Price | Live Quotes & Charts | NASDAQ",
-     "publisher": "www.timothysykes.com",
-     "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5TdElNODFMS1FuUnNKNlY1RURwc25pa1N3ckJNSUhmcEJoNUt2YjJCdUNoY0JFR0oyMVdpZHZyN1BqcV9UMEJScGVGOVo?oc=5",
-     "time": "2026-10-30T08:57:29+00:00"
     },
     {
      "title": "SoFi Technologies, Inc. (SOFI) Stock Forecasts",
@@ -456,16 +450,97 @@
      "time": "2026-10-29T20:39:17+00:00"
     },
     {
-     "title": "SOFI 261106 17.00P (SOFI261106P17000) Stock Options Chain | Quotes & News",
-     "publisher": "Moomoo",
-     "url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxNWnJMZXowdkdTVEEzME85azZScnpsM0hwSmlKUVhqUlVsVFlIZC1tclVydFBDaWFWbjBUZ0lrUV9MTW9PeTduNEpIS1h3NzBsd2ZSOXRnLTdXeE0zRmVpR3B1R3dGZi1qSHJ2dTc3LTNybzBWNEZpVDFrbElmNXlybWhhVXJLMkQ3U0RCR1N4aWFXMF9KeWJROXhBU2tTeDQtNE1SZU0xNVBxUWYzUnJUVFRMV2hYSFh0WlVwS0JWTTkzSEVfX0t2ZTJkMDZ6REkzTTEyOGNhZVozRTJhbXNCNEttM0R2cF9GVjd6OEZfV0JtYnRlSy03R1JUYTZQckFsMV9lemJJR2VWMDNUVUMzWkhON2tNVllZYXZDYlJyQlU4a25SUlZ2ckttWVhEUQ?oc=5",
-     "time": "2026-10-29T20:15:00+00:00"
+     "title": "Is SoFi Stock a Buy After Falling 43% in 2026?",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQS1JPNUNhWjJSV0FqVVNZdWJSWFF6aDc3MHo5M2FKZlhOd0lXeHBENXB2WFd0REVNcHhXWUEwV1ozQ3hNRkpGa2RvNHdJWFdrazMxU3NHTlVwb2cyYWo4ejI3emx5M1E3eTRPS185TzVoS0hwbGExenRiX1laZ2tYODZvaGt0UV93eC1tODlJT05QNmxj?oc=5",
+     "time": "2026-10-29T19:05:00+00:00"
     },
     {
      "title": "SoFi CEO Planned for \u201cTwo Rate Cuts.\u201d He Got a Hike, Then Raised His Outlook Anyway",
-     "publisher": "TIKR.com",
-     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdTN2TVRaQm9ILWJSNEpfM3NwYUxBTGd3N0pmUlFHSVg5RHdfOXNkUXh6V3lOWXh5ZWprQ1NabEpHdFlpeHJUc09VYXpEZ3dkLU9vYUtIbnR5MDFWa2NxSm51ZFhMWjAzZlVMdzdhYms2cFdoZmloMnV6ZnpjWTJ5MXhjYkxMVE5Yc09FcjdnRERfWldoNzFGV1pveW0tOHVOTTRyQnZTekc?oc=5",
-     "time": "2026-10-29T19:18:45+00:00"
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNdXdoTUo5bXJrbjhVWEpseGxwWHpZOHRKS0RWSG9MSGczRXVhYTFuMXlWY3VLN3lWN1dBY2hNZmlhM1N6V19Ca0JwTUlHSjdzQ0pVRVh1Y3RBVF93VHBBaXNha2VUSDVNR0lPMGlKRjFNc3ZlaFVfRmpMOWpYOTh0eTFKU18wOUJjOXY4aEZUZVNpaHNo?oc=5",
+     "time": "2026-10-29T18:52:50+00:00"
+    },
+    {
+     "title": "SoFi\u2019s Recent 13% Upward Burst Means Execution Is Now a Must",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOYzRlVVRIYUo4SmlKTXgxYnk1UnlRTnNRc1lMblF2TllMRTF2Y3ZPUUMtUjNLRmg5UU9MVHpYa2p4WVItUUhFWFdxQkRiZi1rY2ZGWkJ1RTVyOGpUd3pER1J5MUE2RDBJY1paaDBwRW1WTU93OEY2aFN1ZE96WVBFMUVpMzZONGUtSVY3UExRUm5sWFBSYU9CbVZ2VVNvVVh3b19lOA?oc=5",
+     "time": "2026-10-29T15:45:00+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
+   "symbol": "NVDA",
+   "name": "Nvidia",
+   "list": "portfolio",
+   "price": 206.36,
+   "prev_close": 213.66,
+   "change_pct": -3.4,
+   "trigger_change": -3.1,
+   "peak_change": -3.4,
+   "first_seen": "2026-10-30T14:19:29+00:00",
+   "sector": {
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 527.1,
+    "change_pct": -6.16
+   },
+   "chart": {
+    "ema8": -3.5,
+    "ema21": -5.6,
+    "sma50": -7.0,
+    "sma200": 1.0,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Intel Plunges 25% as Weak Outlook and PC Slump Overshadow Earnings Beat; Dell Tumbles 13%, AMD Sinks 10%, NVIDIA Falls 3%",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQUWgxdFFydHpwM0hLSVhENjBFTm5jZGVQT1lmejFZM1RqVEs1Wm5rU0k0TmpFTWE3Qk54RkI2QWEtRzctdkpHa1k1X2I2ZjQ1MUhCdmpnTE9jTE9rYTIxUFI0Q0h6VFA0bWxMVkY0dF8wemJWc3dCUjFmMnB0RjItSkU3MGpFcU83S0Fra01DOGFKX0czelpGV0lEajNFbkluTi1iVkEzNk9uSFFXVVhieHdzczdyVi1OTFozWDNNYV9wU0ptQVN4eTQ0NFFMVmdWTWd3VEtMV0tnQW5TY2UyR1RjN2xzWDVpSzg3UmNCcw?oc=5",
+     "time": "2026-10-30T14:06:50+00:00"
+    },
+    {
+     "title": "NVIDIA Corp Stock (NVDA) Opened Down by 3.37% on Oct 30: A Full Analysis",
+     "publisher": "TradingKey",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPQ05ndFlQU3pJVGNZQlRVTGlfMDFrcnFJYUxGSkNoVV9LVG5WVE5kQTNwd0tYMTRIT2NXVEtNNFpzZHhHd1FlSUdMYnBHLWkxUy15TnNXSDJtUjVadV80YWwyejd2Mk5MTFc3OFlYVDl0Y2ZXdUQzQzZUazA4N2QwdWJPcWVTV29lblFF?oc=5",
+     "time": "2026-10-30T13:47:42+00:00"
+    },
+    {
+     "title": "Can You Make Money Off NVIDIA Stock Now?",
+     "publisher": "Trefis",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQd3NKR0JBQldHLU45bXdMd1g3ZFBDby0tMURjdVNBelJOUW9OcXJfUmJ6cFN4NkdXUHo5Zkk3Z1pyeHRTMTdfTWNVY3prZmptVEJ2NHdGUmJrVEVGQ2xQUGIxZUs1dTk5Q09rWlRsRGt3UHM0YmdoaERWblc1dzF2RlJURHRyRnZCSi1WekRiazFaVDhEc0VMdFR3Q3V0MjJBaVE?oc=5",
+     "time": "2026-10-30T13:38:19+00:00"
+    },
+    {
+     "title": "NVDA Stock Rebounds As Traders Weigh Trump Sale News",
+     "publisher": "StocksToTrade",
+     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA3MkxUQWZqZUYyczd4YWx0cG44NnNnWDJMX004aG5yc1FPVjNFLTR5c0V4ZFNveXRySFFJQ3RhT1RXVzJJQnhEUHBoMEJzYVJVcDhUek9mLTVTSGdBelN3VVN2QWRWcmpTZjlDZE5aRExVREdGd0FZSnpUbXNLZw?oc=5",
+     "time": "2026-10-30T13:34:00+00:00"
+    },
+    {
+     "title": "NVDA Stock Rebounds As Trump Sale Adds Volatility Twist",
+     "publisher": "Timothy Sykes",
+     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE13NlhFcnZRZ0xVNEhmWWhGSmNBZ2pLWWgwSkJFN3pucGRCZ0Q1TDRYUE5XbGtVa3Z5RGVKYkZ2eU5GZnBKZFFmclRfNzFneDhTV3dfT0ZsZ1dlVWI4ZjZhS0dWUlR1T2hvS2VMSVJwWDlqcFV0YlB6Rmp1NlM5bHM?oc=5",
+     "time": "2026-10-30T12:42:43+00:00"
+    },
+    {
+     "title": "NVDA Stock Rebounds As Traders Weigh Trump Share Sale",
+     "publisher": "StocksToTrade",
+     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFA0bTk5TmhSSF84eEV3TmJQZlR5UGxDdFJhaFNEUVgwdTc4azJBM2JLR3NMaGtGTzI0WGQ2d19OME1TQzRxZjJoaHdETExwUXR5TGtMbVd0VUFXS21CMHlFRFpoanZhQTQ3cG1tV3lzLVRPN3RRdzVRR2QyUQ?oc=5",
+     "time": "2026-10-30T12:32:07+00:00"
+    },
+    {
+     "title": "NVIDIA Corporation (NVDA) is Attracting Investor Attention: Here is What You Should Know",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPa0VXRS1ZUVRxVlhOTHhfNTNGazVQZlJ5MEdxMUllUDNmdlZ0dElLbVJCQl9waFJaLUV1azhjc2I5UTJZYjRYT1dQLWRseUlJSjgwTnFaa0t0dnBYSnpOR09SZThsTnRObnhSaHRKZ1JFSnc3VnpJbEUzeTZsSDhkWmR5ZEltVVkyamN2U0VKMkJ0T05xTVZPNlBLTGQ4eGZXVnVTZ2hhX2xwem4t?oc=5",
+     "time": "2026-10-30T12:00:04+00:00"
+    },
+    {
+     "title": "Microsoft Just Announced Incredible News for Nvidia Shareholders",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQaHZLYkZRLU1QYmlxTXdmSl83UkFsNE13NXk4ekFMODlfS3ZDLXRtanFUOEJvODlrTkpnVFFyVkgtbU5QSVRwZ2hfVFRPWmRWOGhsbkpxaEFLV0JWaDRjbVZzc2V0NEZNUlRWSFg3eC11NElFNlV2dlBacHh3YzdsTU93cHY5ZTczeFVBZlA3U3ZpcThRb1RBc0Q3bW84WlR6U0ptV3BTV0ZsVGc?oc=5",
+     "time": "2026-10-30T11:05:00+00:00"
     }
    ],
    "brief": null
