@@ -1,121 +1,46 @@
 {
  "date": "2026-10-30",
  "threshold": 3.0,
- "updated": "2026-10-30T14:09:27+00:00",
+ "updated": "2026-10-30T14:14:30+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 759.59,
-   "change_pct": -1.27
+   "price": 758.67,
+   "change_pct": -1.39
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 695.64,
-   "change_pct": -2.75
+   "price": 694.41,
+   "change_pct": -2.93
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 81.69,
-   "change_pct": 0.25
+   "price": 81.76,
+   "change_pct": 0.33
   }
  },
  "movers": [
   {
-   "symbol": "ANET",
-   "name": "Arista Networks",
-   "list": "portfolio",
-   "price": 170.72,
-   "prev_close": 184.22,
-   "change_pct": -7.3,
-   "trigger_change": -6.4,
-   "peak_change": -7.3,
-   "first_seen": "2026-10-30T14:04:25+00:00",
-   "sector": {
-    "etf": "SMH",
-    "name": "Semiconductors",
-    "price": 530.05,
-    "change_pct": -5.63
-   },
-   "chart": {
-    "ema8": -5.5,
-    "ema21": -9.1,
-    "sma50": -12.6,
-    "sma200": 3.4,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Arista Networks, Inc. $ANET Shares Newly Acquired by Partners Wealth Management LLC",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNQmJZMk1MTzM2SzdIMTVYVk9RcEt6bFYxelBmYWZvQVZDSVNMREhxT3Bya2tXMzFpZ282eVdkU0xJc1JaWDNpQWZfYXd2S0l1ZGZQaDh1WElUN3VlSlB2aVNkbGxIMjhoVERlNnQyS2hFMVBpdXdubXpZMS1iN2hYU0tWNHJXUEZucHRfdmFvMEdWMm16WTdLVmxCanZqY2ZJcnpJQlJXTGVFd05hcnhjaDdUd0NxQl9oWURWZ0RuUnZoOEdpVmZmVDkxLTdMWlhNR0d6b2QyamQ?oc=5",
-     "time": "2026-10-30T10:34:34+00:00"
-    },
-    {
-     "title": "3 Insider Backed Growth Stocks With Revenue Growth Over 20%",
-     "publisher": "Simply Wall St",
-     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOc1RFSmt1RjBrWFJ1aWZIMWtUQnZOYzM1OVNfTTVUTml2M3JlQW1UN2Jjb1ZJUGU3UnNzUHFyTGlRbFh2REZwVENuVUFWX0NyQTVQNm9ZQnFtdl9MUTVxVHpqUlJoeG9URG0xcnVYNUJCLWxZckV1TmdmbWJkS0NQOUdMNVpSU2lpNnF5d09zalAwSm9XNHl4eS00M2s1dG9GMHFudjZPVzVOQkRpSEw0dHNyZHRwbGU0clRsOUlEazY2Um5TaDRRbklR0gHKAUFVX3lxTE5zVEVKa3VGMGtYUnVpZkgxa1RCdk5jMzU5U19NNVROaXYzcmVBbVQ3YmNvVklQZTdSc3NQcXJMaVFsWHZERnBUQ25VQVZfQ3JBNVA2b1lCcW12X0xRNXFUempSUmh4b1REbTFydVg1QkItbFlyRXVOZ2ZtYmRLQ1A5R0w1WlJTaWk2cXl3T3NqUDBKb1c0eXh5LTQzazV0b0YwcW52Nk9XNU5CRGlITDR0c3JkdHBsZTRyVGw5SURrNjZSblNoNFFuSVE?oc=5",
-     "time": "2026-10-30T07:44:37+00:00"
-    },
-    {
-     "title": "Here's How Much $100 Invested In Arista Networks 10 Years Ago Would Be Worth Today",
-     "publisher": "Benzinga",
-     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPSkRFaDczNGc3LVdMclptc01QQUVpUEN5TVBPWG9nandaT3R0aUtSbktrSl9Uc1FWLVpaT3hoYzI3ZVY2ZVFUQkk0V1dvejc1Q19VZVVRNVN0ejlYSFNWdXFBa2NzUzRJM1A2N3NYYlBUYkJReEdOcWdyeVduY3BSd3dLQnNpN2hFdDBTS3FkS3VDUnc3Z0JOMWpIbVdBVXZybDVuY2Q0enNwMWVVX01Fb0lqaDczNXpVZjNmcjRXdlA?oc=5",
-     "time": "2026-10-29T22:00:38+00:00"
-    },
-    {
-     "title": "Arista Networks (NYSE:ANET) Shares Down 1.4% - Time to Sell?",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPSVhrejNmUFc2OW5lOTNfMDEtWkJmNEFNTTN3MktsMnVtUklGbUcxTGtPVFVWanA2UVdQaW5OcE5ic1JFc0x1MWhwVDdxVGtkT2tMb2NxY1dLZmtDWmwyZTlCZGRPeFlLRWd1ZGNpR1M1dzhRbFc0cUpBY0lkTlFNX3ZXZEhYSmhTSG9fVkJCczAyLTZQUjdTSUhudmUtZ3NXS0xLSThpdllaZVNGSlRyTEVKSQ?oc=5",
-     "time": "2026-10-29T21:49:24+00:00"
-    },
-    {
-     "title": "Arista Networks (ANET) Declines More Than Market: Some Information for Investors",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNeHRpRVN4NFY4Z2FpYzhSQXZaMGVjTFIxUHJaVEZ4aTNsdjRsRlRITnhsb29MSGtGVElvUkJRRUVLTmRnRWhUbHpXcGtlU2JSU1hVZW00Zlp0ZWl3bzhfT3BGZVotemd1aEJFbHBOQ01EQVBueXBHeUdXbHk2NXhpbXpjYl9pbjl1d3RoZE55Z3FCTnBDS3ZJSHByeGc4NDhs?oc=5",
-     "time": "2026-10-29T20:45:02+00:00"
-    },
-    {
-     "title": "Arista Networks (ANET) Could Be 23% Undervalued Following Its AI Infrastructure Outlook",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNQUJxOWY4ZmtZaFF5dXkxUmpoTE1NN3g3U1d4U0U4NERjbWtVbU5QOEdJRkFySWZiT1NMQzd4RDRrZDlIMHhZMng2b2VFc3JPRkVYdExJYjdPYmw3bU82Z3AxZkdsTEMyOTc4MHR6Q2NxRGR5Y3hFcHZ2Z1k5OVBsV0lydE1zeGt6T0hURm80M3JLZjZ2ajIzZ25n?oc=5",
-     "time": "2026-10-29T19:15:47+00:00"
-    },
-    {
-     "title": "Arista Networks (ANET) vs. CSCO and AVGO: Is AI Data Center Expansion Creating a Long-Term Networking Winner?",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxON0hoV28wV0ZKN2swbTNyTV9SMXNTSXVRdTJkZXNnS0trR0hkVkNod0tJRGVabVNFTURKZkw0ckNNU1V0YVFjenlFb0FJVk4ybTA4RmJaZUNXVXZtV3RibWZxMlpZZUhGdlpIQWVST0dfbG5OUnlHMzlxaDhGTmw1NFhEdWVaYnJ1TXBNeHpYN2N2LXdlTDlkOA?oc=5",
-     "time": "2026-10-29T17:20:12+00:00"
-    },
-    {
-     "title": "Cisco Gains From AI Networking Boom: Can It Outpace HPE & ANET?",
-     "publisher": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQQ2tPMnVDVHA4cENoZWpuSDR1OXJmVTk2YmUxWU5GSFpnZDAzdmdWb09xWmN5Y3pJSEs2cV8xM2tXZmdJbTN4WkdOazlqcldZZjVnMFNoLUtZUU5RT3NfN3kwa0xQcV9FMW52cGN0T092cFBTQ3hrcGVwVGJ3d2V6eGk4VXJUVTgySkdEZUVEaWV1VzNGNFBBZXp2WWYzejd6NTNRWmRYbUdBNkpIQnFfY1FmczBxdw?oc=5",
-     "time": "2026-10-29T16:38:00+00:00"
-    }
-   ],
-   "brief": null
-  },
-  {
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 159.79,
+   "price": 158.06,
    "prev_close": 171.99,
-   "change_pct": -7.1,
+   "change_pct": -8.1,
    "trigger_change": -7.0,
-   "peak_change": -7.1,
+   "peak_change": -8.1,
    "first_seen": "2026-10-30T14:04:25+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 105.78,
-    "change_pct": -2.03
+    "price": 105.22,
+    "change_pct": -2.55
    },
    "chart": {
-    "ema8": -5.8,
-    "ema21": -13.8,
-    "sma50": -23.8,
-    "sma200": -10.0,
+    "ema8": -6.6,
+    "ema21": -14.6,
+    "sma50": -24.7,
+    "sma200": -11.0,
     "momentum": false
    },
    "headlines": [
@@ -171,26 +96,101 @@
    "brief": null
   },
   {
+   "symbol": "ANET",
+   "name": "Arista Networks",
+   "list": "portfolio",
+   "price": 170.49,
+   "prev_close": 184.22,
+   "change_pct": -7.5,
+   "trigger_change": -6.4,
+   "peak_change": -7.5,
+   "first_seen": "2026-10-30T14:04:25+00:00",
+   "sector": {
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 529.13,
+    "change_pct": -5.79
+   },
+   "chart": {
+    "ema8": -5.7,
+    "ema21": -9.2,
+    "sma50": -12.7,
+    "sma200": 3.2,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Arista Networks, Inc. $ANET Shares Newly Acquired by Partners Wealth Management LLC",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNQmJZMk1MTzM2SzdIMTVYVk9RcEt6bFYxelBmYWZvQVZDSVNMREhxT3Bya2tXMzFpZ282eVdkU0xJc1JaWDNpQWZfYXd2S0l1ZGZQaDh1WElUN3VlSlB2aVNkbGxIMjhoVERlNnQyS2hFMVBpdXdubXpZMS1iN2hYU0tWNHJXUEZucHRfdmFvMEdWMm16WTdLVmxCanZqY2ZJcnpJQlJXTGVFd05hcnhjaDdUd0NxQl9oWURWZ0RuUnZoOEdpVmZmVDkxLTdMWlhNR0d6b2QyamQ?oc=5",
+     "time": "2026-10-30T10:34:34+00:00"
+    },
+    {
+     "title": "3 Insider Backed Growth Stocks With Revenue Growth Over 20%",
+     "publisher": "Simply Wall St",
+     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOc1RFSmt1RjBrWFJ1aWZIMWtUQnZOYzM1OVNfTTVUTml2M3JlQW1UN2Jjb1ZJUGU3UnNzUHFyTGlRbFh2REZwVENuVUFWX0NyQTVQNm9ZQnFtdl9MUTVxVHpqUlJoeG9URG0xcnVYNUJCLWxZckV1TmdmbWJkS0NQOUdMNVpSU2lpNnF5d09zalAwSm9XNHl4eS00M2s1dG9GMHFudjZPVzVOQkRpSEw0dHNyZHRwbGU0clRsOUlEazY2Um5TaDRRbklR0gHKAUFVX3lxTE5zVEVKa3VGMGtYUnVpZkgxa1RCdk5jMzU5U19NNVROaXYzcmVBbVQ3YmNvVklQZTdSc3NQcXJMaVFsWHZERnBUQ25VQVZfQ3JBNVA2b1lCcW12X0xRNXFUempSUmh4b1REbTFydVg1QkItbFlyRXVOZ2ZtYmRLQ1A5R0w1WlJTaWk2cXl3T3NqUDBKb1c0eXh5LTQzazV0b0YwcW52Nk9XNU5CRGlITDR0c3JkdHBsZTRyVGw5SURrNjZSblNoNFFuSVE?oc=5",
+     "time": "2026-10-30T07:44:37+00:00"
+    },
+    {
+     "title": "Here's How Much $100 Invested In Arista Networks 10 Years Ago Would Be Worth Today",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPSkRFaDczNGc3LVdMclptc01QQUVpUEN5TVBPWG9nandaT3R0aUtSbktrSl9Uc1FWLVpaT3hoYzI3ZVY2ZVFUQkk0V1dvejc1Q19VZVVRNVN0ejlYSFNWdXFBa2NzUzRJM1A2N3NYYlBUYkJReEdOcWdyeVduY3BSd3dLQnNpN2hFdDBTS3FkS3VDUnc3Z0JOMWpIbVdBVXZybDVuY2Q0enNwMWVVX01Fb0lqaDczNXpVZjNmcjRXdlA?oc=5",
+     "time": "2026-10-29T22:00:38+00:00"
+    },
+    {
+     "title": "Arista Networks (NYSE:ANET) Shares Down 1.4% - Time to Sell?",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPSVhrejNmUFc2OW5lOTNfMDEtWkJmNEFNTTN3MktsMnVtUklGbUcxTGtPVFVWanA2UVdQaW5OcE5ic1JFc0x1MWhwVDdxVGtkT2tMb2NxY1dLZmtDWmwyZTlCZGRPeFlLRWd1ZGNpR1M1dzhRbFc0cUpBY0lkTlFNX3ZXZEhYSmhTSG9fVkJCczAyLTZQUjdTSUhudmUtZ3NXS0xLSThpdllaZVNGSlRyTEVKSQ?oc=5",
+     "time": "2026-10-29T21:49:24+00:00"
+    },
+    {
+     "title": "Arista Networks (ANET) Declines More Than Market: Some Information for Investors",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNeHRpRVN4NFY4Z2FpYzhSQXZaMGVjTFIxUHJaVEZ4aTNsdjRsRlRITnhsb29MSGtGVElvUkJRRUVLTmRnRWhUbHpXcGtlU2JSU1hVZW00Zlp0ZWl3bzhfT3BGZVotemd1aEJFbHBOQ01EQVBueXBHeUdXbHk2NXhpbXpjYl9pbjl1d3RoZE55Z3FCTnBDS3ZJSHByeGc4NDhs?oc=5",
+     "time": "2026-10-29T20:45:02+00:00"
+    },
+    {
+     "title": "Arista Networks (ANET) Could Be 23% Undervalued Following Its AI Infrastructure Outlook",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNQUJxOWY4ZmtZaFF5dXkxUmpoTE1NN3g3U1d4U0U4NERjbWtVbU5QOEdJRkFySWZiT1NMQzd4RDRrZDlIMHhZMng2b2VFc3JPRkVYdExJYjdPYmw3bU82Z3AxZkdsTEMyOTc4MHR6Q2NxRGR5Y3hFcHZ2Z1k5OVBsV0lydE1zeGt6T0hURm80M3JLZjZ2ajIzZ25n?oc=5",
+     "time": "2026-10-29T19:15:47+00:00"
+    },
+    {
+     "title": "Arista Networks (ANET) vs. CSCO and AVGO: Is AI Data Center Expansion Creating a Long-Term Networking Winner?",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxON0hoV28wV0ZKN2swbTNyTV9SMXNTSXVRdTJkZXNnS0trR0hkVkNod0tJRGVabVNFTURKZkw0ckNNU1V0YVFjenlFb0FJVk4ybTA4RmJaZUNXVXZtV3RibWZxMlpZZUhGdlpIQWVST0dfbG5OUnlHMzlxaDhGTmw1NFhEdWVaYnJ1TXBNeHpYN2N2LXdlTDlkOA?oc=5",
+     "time": "2026-10-29T17:20:12+00:00"
+    },
+    {
+     "title": "Cisco Gains From AI Networking Boom: Can It Outpace HPE & ANET?",
+     "publisher": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQQ2tPMnVDVHA4cENoZWpuSDR1OXJmVTk2YmUxWU5GSFpnZDAzdmdWb09xWmN5Y3pJSEs2cV8xM2tXZmdJbTN4WkdOazlqcldZZjVnMFNoLUtZUU5RT3NfN3kwa0xQcV9FMW52cGN0T092cFBTQ3hrcGVwVGJ3d2V6eGk4VXJUVTgySkdEZUVEaWV1VzNGNFBBZXp2WWYzejd6NTNRWmRYbUdBNkpIQnFfY1FmczBxdw?oc=5",
+     "time": "2026-10-29T16:38:00+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
    "symbol": "APP",
    "name": "AppLovin",
    "list": "portfolio",
-   "price": 239.19,
+   "price": 238.42,
    "prev_close": 254.91,
-   "change_pct": -6.2,
+   "change_pct": -6.5,
    "trigger_change": -5.6,
-   "peak_change": -6.2,
+   "peak_change": -6.5,
    "first_seen": "2026-10-30T14:04:25+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 105.78,
-    "change_pct": -2.03
+    "price": 105.22,
+    "change_pct": -2.55
    },
    "chart": {
-    "ema8": -7.0,
-    "ema21": -11.4,
-    "sma50": -18.8,
-    "sma200": -42.5,
+    "ema8": -7.2,
+    "ema21": -11.7,
+    "sma50": -19.0,
+    "sma200": -42.7,
     "momentum": false
    },
    "headlines": [
@@ -249,23 +249,23 @@
    "symbol": "AMAT",
    "name": "Applied Materials",
    "list": "portfolio",
-   "price": 400.63,
+   "price": 398.37,
    "prev_close": 421.66,
-   "change_pct": -5.0,
+   "change_pct": -5.5,
    "trigger_change": -4.9,
-   "peak_change": -5.0,
+   "peak_change": -5.5,
    "first_seen": "2026-10-30T14:04:25+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 530.05,
-    "change_pct": -5.63
+    "price": 529.13,
+    "change_pct": -5.79
    },
    "chart": {
-    "ema8": -1.7,
-    "ema21": -7.0,
-    "sma50": -12.5,
-    "sma200": -9.9,
+    "ema8": -2.2,
+    "ema21": -7.5,
+    "sma50": -13.0,
+    "sma200": -10.4,
     "momentum": false
    },
    "headlines": [
@@ -324,23 +324,23 @@
    "symbol": "AVGO",
    "name": "Broadcom",
    "list": "portfolio",
-   "price": 329.56,
+   "price": 329.02,
    "prev_close": 345.0,
-   "change_pct": -4.5,
+   "change_pct": -4.6,
    "trigger_change": -4.7,
    "peak_change": -4.7,
    "first_seen": "2026-10-30T14:04:25+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 530.05,
-    "change_pct": -5.63
+    "price": 529.13,
+    "change_pct": -5.79
    },
    "chart": {
-    "ema8": -2.4,
-    "ema21": -3.9,
-    "sma50": -6.6,
-    "sma200": -10.4,
+    "ema8": -2.6,
+    "ema21": -4.1,
+    "sma50": -6.8,
+    "sma200": -10.5,
     "momentum": false
    },
    "headlines": [
@@ -399,9 +399,9 @@
    "symbol": "SOFI",
    "name": "SoFi",
    "list": "portfolio",
-   "price": 16.86,
+   "price": 16.91,
    "prev_close": 17.61,
-   "change_pct": -4.2,
+   "change_pct": -3.9,
    "trigger_change": -4.2,
    "peak_change": -4.2,
    "first_seen": "2026-10-30T14:09:27+00:00",
@@ -409,13 +409,13 @@
     "etf": "XLF",
     "name": "Financials",
     "price": 56.56,
-    "change_pct": -0.67
+    "change_pct": -0.66
    },
    "chart": {
-    "ema8": 4.1,
-    "ema21": 6.5,
-    "sma50": 1.7,
-    "sma200": -5.2,
+    "ema8": 4.4,
+    "ema21": 6.8,
+    "sma50": 2.0,
+    "sma200": -4.9,
     "momentum": true
    },
    "headlines": [
