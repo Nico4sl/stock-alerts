@@ -1,121 +1,46 @@
 {
  "date": "2026-10-30",
  "threshold": 3.0,
- "updated": "2026-10-30T14:04:25+00:00",
+ "updated": "2026-10-30T14:09:27+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 760.37,
-   "change_pct": -1.17
+   "price": 759.59,
+   "change_pct": -1.27
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 697.6,
-   "change_pct": -2.48
+   "price": 695.64,
+   "change_pct": -2.75
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 81.66,
-   "change_pct": 0.2
+   "price": 81.69,
+   "change_pct": 0.25
   }
  },
  "movers": [
   {
-   "symbol": "NBIS",
-   "name": "Nebius",
-   "list": "portfolio",
-   "price": 159.97,
-   "prev_close": 171.99,
-   "change_pct": -7.0,
-   "trigger_change": -7.0,
-   "peak_change": -7.0,
-   "first_seen": "2026-10-30T14:04:25+00:00",
-   "sector": {
-    "etf": "IGV",
-    "name": "Software",
-    "price": 106.13,
-    "change_pct": -1.7
-   },
-   "chart": {
-    "ema8": -5.7,
-    "ema21": -13.7,
-    "sma50": -23.8,
-    "sma200": -9.9,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Nebius Group N.V. $NBIS Shares Newly Acquired by Partners Wealth Management LLC",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNVzBZYS1LLVlqV0F1RjkyYTk4YWVtNkQtbnNkUHhaUkV2QU03VVRFLV9VTWlGZm9TWVpXQU50N3pKN0FpM21JcFBZUGkzbHJCd2c0c1F1N3BtSmpHLWtabXZuRnBjYklVYW5Qdnl2VVYxQkhua28zU3dVUEkxMlpFUUlkT3M4bnVRZVFWSmFZVi1WZnpRNElHN3ZJNEJQRUI5SE1rdDhBUXpYVUhTdHRpUklDUU10R2I5SGQ1R1UzZzBuaGk0MTY5TkdHVm5GYnlYTXBj?oc=5",
-     "time": "2026-10-30T10:36:12+00:00"
-    },
-    {
-     "title": "Nebius Stock NBIS Falls to $160s as Microsoft and Google Spending Misses Expectations",
-     "publisher": "FXLeaders",
-     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPVXlwbkVFT2dONmtRaENIMlNrSUR0THNsRjJWdlZHZ2xERUJyX09HM3YtUkYyOGtTdG9EaGpxVUVGenE2endtR0dmbUJZRmhKZEhGT2dEOFU1UWNwd2Y1WURKd0dheW5TcVA4dnF0cXNKYUhyd1FUeEhHTUVBQ1hqSEJyYVNuT2lqVUh4N2FMdmd1MlRzaVpUbTRUZkJLU1VGUnRqMFRNYkVvNDc3eTZqaGhLWnNwVGtqaWJKSFg0RkZlX1dxbnc?oc=5",
-     "time": "2026-10-29T22:43:10+00:00"
-    },
-    {
-     "title": "Nebius Group (NASDAQ:NBIS) Stock Falls 5.7% - Here's Why",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxObjRXbHVhWlNRUkFRWXAyekdRQkFFNmQ2Nncwd1pydUtjcEgtTk04TXJBOUdXM3p6UlByS1NXXzJ0OHhQOVEzTzExYVBxODhmcm5jTkFCaHMzUU9yZ3pSczhObGZQLW1HUVJhMGRrb2t5QjFxOHVUekxIMzZ6V0lObTM4dFFRZDhIdHhJSS1waUNmc1Etb2dabFhEVHNFQXpNSVNBOUNuSTFuUjM2Nnc?oc=5",
-     "time": "2026-10-29T21:49:49+00:00"
-    },
-    {
-     "title": "If You Invested $100 In Nebius Group Stock 10 Years Ago, You Would Have This Much Today",
-     "publisher": "Benzinga",
-     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNOXJXT1F3YkFYVzF3cHgwZVBhQUFSUHVPR2tsamlhZlFYX0hja19MUDdGT0g3eE5qVFRqR2xsWnQzczZJSGdWY3ppOXVUUFkybmxqaGpKcHg3TjJremZuNTBYUG9PTXQzR1IwNENpUVRiRHlzdDVTVmNKcnloLXBKLXBHTGdsdnFtRnJ0eHoxTm8teWkwVG1JWk1EV3pRTWhBcFYwZmRSYkxudFMtcDdKY2EtcE04dWR1Ykd4ZVdoaw?oc=5",
-     "time": "2026-10-29T20:00:26+00:00"
-    },
-    {
-     "title": "What Does Nebius Group (NBIS) Face From Slower AI Data Center Spending?",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQbGFJTmpNQmdENDJpc0FxZEZ4bzJ6blN3S3dBYXdpRFltMXZEa1RTUkJzTXhicHgwS2YyMGliTzU1U0RuczZWd0ZxeFZ4S1RqTVNfajZZdWZzT1FlWm9aS2N0ekpKV3E5dVJidmVXOWk2Q1FoT3BWNEhhZkl0cnVZSHZBR0tDRW9XcEJrUE0yc3JnUDRPWFE?oc=5",
-     "time": "2026-10-29T19:18:10+00:00"
-    },
-    {
-     "title": "The One NeoCloud Stock to Buy Now",
-     "publisher": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQOHdYeUlfZVNTZm1ZZFBYRGJnMi13TXMwcTRBVzdSY2lpZ2txT1NCbnFKV2lIVXJUdmc3SzlrVlZRZ1dkMkktNUg5UFFyS3c1VlhkU2MwRkFQUGFselQyc2RHZlVqV2p0bkMtOTN3WUNxOHBVcFhEdS13dHY1bHpYS3M2Q3NmUlA4R3hUQXo2elFmVFhCMldfVm9pUWFXUQ?oc=5",
-     "time": "2026-10-29T18:45:04+00:00"
-    },
-    {
-     "title": "Is Nebius Group (NBIS) Fairly Valued as Sales Expectations Climb?",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZFAxTmg4OXVUeUZYc3d1V2NycU9vRVQxZGFjSXB0SHFuZjNuOHkzSWw1OXFpVENZR2dqdDVTR1Jsb0NKdHVtdndYZUdrNVltUXNPQ2x0aXRSTEl4MENRbWpIa0x0bzFaQ0VOakZxZmVqdUhoSE1oUmtlMlVzcWloT2piX2xZdVdFVGctcnAzSlV4bzdNSkxJbjU2NXg?oc=5",
-     "time": "2026-10-29T18:10:50+00:00"
-    },
-    {
-     "title": "Nebius (NASDAQ: NBIS) stock price forecast: Wall Street targets $281",
-     "publisher": "Beinsure",
-     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQQXZER0FPUy1yaHdmWFI0a1NUSlRpd1h5aGFpRVRTT1lac0d6QWxFeFVrRVdmU3lJRzdsd21LQkJodklWSkllMk9vSW9mSnJyLUUtdkFDOUQ2dXFZVzJVd2kwSUVhemx4Mnl0SHRHMWlURUJJbGc3emU3Nk5lRjFPeVpWUXUtX2dOS2Y5TC05MmY1aGtr?oc=5",
-     "time": "2026-10-29T17:24:41+00:00"
-    }
-   ],
-   "brief": null
-  },
-  {
    "symbol": "ANET",
    "name": "Arista Networks",
    "list": "portfolio",
-   "price": 172.4,
+   "price": 170.72,
    "prev_close": 184.22,
-   "change_pct": -6.4,
+   "change_pct": -7.3,
    "trigger_change": -6.4,
-   "peak_change": -6.4,
+   "peak_change": -7.3,
    "first_seen": "2026-10-30T14:04:25+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 531.81,
-    "change_pct": -5.32
+    "price": 530.05,
+    "change_pct": -5.63
    },
    "chart": {
-    "ema8": -4.8,
-    "ema21": -8.3,
-    "sma50": -11.7,
-    "sma200": 4.4,
+    "ema8": -5.5,
+    "ema21": -9.1,
+    "sma50": -12.6,
+    "sma200": 3.4,
     "momentum": false
    },
    "headlines": [
@@ -171,26 +96,101 @@
    "brief": null
   },
   {
-   "symbol": "APP",
-   "name": "AppLovin",
+   "symbol": "NBIS",
+   "name": "Nebius",
    "list": "portfolio",
-   "price": 240.76,
-   "prev_close": 254.91,
-   "change_pct": -5.6,
-   "trigger_change": -5.6,
-   "peak_change": -5.6,
+   "price": 159.79,
+   "prev_close": 171.99,
+   "change_pct": -7.1,
+   "trigger_change": -7.0,
+   "peak_change": -7.1,
    "first_seen": "2026-10-30T14:04:25+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 106.13,
-    "change_pct": -1.7
+    "price": 105.78,
+    "change_pct": -2.03
    },
    "chart": {
-    "ema8": -6.5,
-    "ema21": -10.9,
-    "sma50": -18.2,
-    "sma200": -42.1,
+    "ema8": -5.8,
+    "ema21": -13.8,
+    "sma50": -23.8,
+    "sma200": -10.0,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Nebius Group N.V. $NBIS Shares Newly Acquired by Partners Wealth Management LLC",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNVzBZYS1LLVlqV0F1RjkyYTk4YWVtNkQtbnNkUHhaUkV2QU03VVRFLV9VTWlGZm9TWVpXQU50N3pKN0FpM21JcFBZUGkzbHJCd2c0c1F1N3BtSmpHLWtabXZuRnBjYklVYW5Qdnl2VVYxQkhua28zU3dVUEkxMlpFUUlkT3M4bnVRZVFWSmFZVi1WZnpRNElHN3ZJNEJQRUI5SE1rdDhBUXpYVUhTdHRpUklDUU10R2I5SGQ1R1UzZzBuaGk0MTY5TkdHVm5GYnlYTXBj?oc=5",
+     "time": "2026-10-30T10:36:12+00:00"
+    },
+    {
+     "title": "Nebius Stock NBIS Falls to $160s as Microsoft and Google Spending Misses Expectations",
+     "publisher": "FXLeaders",
+     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPVXlwbkVFT2dONmtRaENIMlNrSUR0THNsRjJWdlZHZ2xERUJyX09HM3YtUkYyOGtTdG9EaGpxVUVGenE2endtR0dmbUJZRmhKZEhGT2dEOFU1UWNwd2Y1WURKd0dheW5TcVA4dnF0cXNKYUhyd1FUeEhHTUVBQ1hqSEJyYVNuT2lqVUh4N2FMdmd1MlRzaVpUbTRUZkJLU1VGUnRqMFRNYkVvNDc3eTZqaGhLWnNwVGtqaWJKSFg0RkZlX1dxbnc?oc=5",
+     "time": "2026-10-29T22:43:10+00:00"
+    },
+    {
+     "title": "Nebius Group (NASDAQ:NBIS) Stock Falls 5.7% - Here's Why",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxObjRXbHVhWlNRUkFRWXAyekdRQkFFNmQ2Nncwd1pydUtjcEgtTk04TXJBOUdXM3p6UlByS1NXXzJ0OHhQOVEzTzExYVBxODhmcm5jTkFCaHMzUU9yZ3pSczhObGZQLW1HUVJhMGRrb2t5QjFxOHVUekxIMzZ6V0lObTM4dFFRZDhIdHhJSS1waUNmc1Etb2dabFhEVHNFQXpNSVNBOUNuSTFuUjM2Nnc?oc=5",
+     "time": "2026-10-29T21:49:49+00:00"
+    },
+    {
+     "title": "If You Invested $100 In Nebius Group Stock 10 Years Ago, You Would Have This Much Today",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNOXJXT1F3YkFYVzF3cHgwZVBhQUFSUHVPR2tsamlhZlFYX0hja19MUDdGT0g3eE5qVFRqR2xsWnQzczZJSGdWY3ppOXVUUFkybmxqaGpKcHg3TjJremZuNTBYUG9PTXQzR1IwNENpUVRiRHlzdDVTVmNKcnloLXBKLXBHTGdsdnFtRnJ0eHoxTm8teWkwVG1JWk1EV3pRTWhBcFYwZmRSYkxudFMtcDdKY2EtcE04dWR1Ykd4ZVdoaw?oc=5",
+     "time": "2026-10-29T20:00:26+00:00"
+    },
+    {
+     "title": "What Does Nebius Group (NBIS) Face From Slower AI Data Center Spending?",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQbGFJTmpNQmdENDJpc0FxZEZ4bzJ6blN3S3dBYXdpRFltMXZEa1RTUkJzTXhicHgwS2YyMGliTzU1U0RuczZWd0ZxeFZ4S1RqTVNfajZZdWZzT1FlWm9aS2N0ekpKV3E5dVJidmVXOWk2Q1FoT3BWNEhhZkl0cnVZSHZBR0tDRW9XcEJrUE0yc3JnUDRPWFE?oc=5",
+     "time": "2026-10-29T19:18:10+00:00"
+    },
+    {
+     "title": "The One NeoCloud Stock to Buy Now",
+     "publisher": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQOHdYeUlfZVNTZm1ZZFBYRGJnMi13TXMwcTRBVzdSY2lpZ2txT1NCbnFKV2lIVXJUdmc3SzlrVlZRZ1dkMkktNUg5UFFyS3c1VlhkU2MwRkFQUGFselQyc2RHZlVqV2p0bkMtOTN3WUNxOHBVcFhEdS13dHY1bHpYS3M2Q3NmUlA4R3hUQXo2elFmVFhCMldfVm9pUWFXUQ?oc=5",
+     "time": "2026-10-29T18:45:04+00:00"
+    },
+    {
+     "title": "Is Nebius Group (NBIS) Fairly Valued as Sales Expectations Climb?",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZFAxTmg4OXVUeUZYc3d1V2NycU9vRVQxZGFjSXB0SHFuZjNuOHkzSWw1OXFpVENZR2dqdDVTR1Jsb0NKdHVtdndYZUdrNVltUXNPQ2x0aXRSTEl4MENRbWpIa0x0bzFaQ0VOakZxZmVqdUhoSE1oUmtlMlVzcWloT2piX2xZdVdFVGctcnAzSlV4bzdNSkxJbjU2NXg?oc=5",
+     "time": "2026-10-29T18:10:50+00:00"
+    },
+    {
+     "title": "Nebius (NASDAQ: NBIS) stock price forecast: Wall Street targets $281",
+     "publisher": "Beinsure",
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQQXZER0FPUy1yaHdmWFI0a1NUSlRpd1h5aGFpRVRTT1lac0d6QWxFeFVrRVdmU3lJRzdsd21LQkJodklWSkllMk9vSW9mSnJyLUUtdkFDOUQ2dXFZVzJVd2kwSUVhemx4Mnl0SHRHMWlURUJJbGc3emU3Nk5lRjFPeVpWUXUtX2dOS2Y5TC05MmY1aGtr?oc=5",
+     "time": "2026-10-29T17:24:41+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
+   "symbol": "APP",
+   "name": "AppLovin",
+   "list": "portfolio",
+   "price": 239.19,
+   "prev_close": 254.91,
+   "change_pct": -6.2,
+   "trigger_change": -5.6,
+   "peak_change": -6.2,
+   "first_seen": "2026-10-30T14:04:25+00:00",
+   "sector": {
+    "etf": "IGV",
+    "name": "Software",
+    "price": 105.78,
+    "change_pct": -2.03
+   },
+   "chart": {
+    "ema8": -7.0,
+    "ema21": -11.4,
+    "sma50": -18.8,
+    "sma200": -42.5,
     "momentum": false
    },
    "headlines": [
@@ -249,23 +249,23 @@
    "symbol": "AMAT",
    "name": "Applied Materials",
    "list": "portfolio",
-   "price": 401.13,
+   "price": 400.63,
    "prev_close": 421.66,
-   "change_pct": -4.9,
+   "change_pct": -5.0,
    "trigger_change": -4.9,
-   "peak_change": -4.9,
+   "peak_change": -5.0,
    "first_seen": "2026-10-30T14:04:25+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 531.81,
-    "change_pct": -5.32
+    "price": 530.05,
+    "change_pct": -5.63
    },
    "chart": {
-    "ema8": -1.6,
-    "ema21": -6.9,
-    "sma50": -12.4,
-    "sma200": -9.8,
+    "ema8": -1.7,
+    "ema21": -7.0,
+    "sma50": -12.5,
+    "sma200": -9.9,
     "momentum": false
    },
    "headlines": [
@@ -324,23 +324,23 @@
    "symbol": "AVGO",
    "name": "Broadcom",
    "list": "portfolio",
-   "price": 328.93,
+   "price": 329.56,
    "prev_close": 345.0,
-   "change_pct": -4.7,
+   "change_pct": -4.5,
    "trigger_change": -4.7,
    "peak_change": -4.7,
    "first_seen": "2026-10-30T14:04:25+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 531.81,
-    "change_pct": -5.32
+    "price": 530.05,
+    "change_pct": -5.63
    },
    "chart": {
-    "ema8": -2.6,
-    "ema21": -4.1,
-    "sma50": -6.8,
-    "sma200": -10.5,
+    "ema8": -2.4,
+    "ema21": -3.9,
+    "sma50": -6.6,
+    "sma200": -10.4,
     "momentum": false
    },
    "headlines": [
@@ -391,6 +391,81 @@
      "publisher": "MarketBeat",
      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNUE9SaXVReUNYbGl5S3VKTTdCcWxHb3F1dWw5T0V0VGJkUWF5Q09mNmRLcGhHMnRaeXZJWHpvVW5ScEdqX3BxWU95emNfSkVLWVFoZXhLTG5TVHdibW9SZU82Qk9FR0pqcnBpSmh1T3FZMmlEdmx5VVN5SEpQTkpTNEZoemJaTk5vX2xsQm1sMl9aOUpjMmNDZEp6NlB0SXB4dkFsTFJRSnJPQV9ycG5NQzJsdEM4bkw2?oc=5",
      "time": "2026-10-30T09:15:55+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
+   "symbol": "SOFI",
+   "name": "SoFi",
+   "list": "portfolio",
+   "price": 16.86,
+   "prev_close": 17.61,
+   "change_pct": -4.2,
+   "trigger_change": -4.2,
+   "peak_change": -4.2,
+   "first_seen": "2026-10-30T14:09:27+00:00",
+   "sector": {
+    "etf": "XLF",
+    "name": "Financials",
+    "price": 56.56,
+    "change_pct": -0.67
+   },
+   "chart": {
+    "ema8": 4.1,
+    "ema21": 6.5,
+    "sma50": 1.7,
+    "sma200": -5.2,
+    "momentum": true
+   },
+   "headlines": [
+    {
+     "title": "JPMorgan Launches SOFI-Linked Auto-Callable Notes Maturing November 2027",
+     "publisher": "Kalkine Media",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNSDI1Y3BUQmFpc2xOaVEzUTBTZDhubjZQSFNMUGxfOFFGUm5nSl9Kdk03YU93RlRiWHNWaEVNZWJPejE5RDhxbjBHS1hmYmVBa0M3U21pUjJKQTlHSi1MT1pzVlpoWUZhb0I5YnFfXzhobnRxRWlaSDFxajBxMXZCVUVYQVBBTWl2UXFad21SbzdwRmhFVWFGRFZ4LVhqTjM0Uk5ObVV3cnI4WG1rSUhWblZiVnRwSkFsRGpz?oc=5",
+     "time": "2026-10-30T13:35:32+00:00"
+    },
+    {
+     "title": "SoFi Technologies: 2027 Growth Outlook Looks Underpriced",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPVGdwWEJYaWZDNkZLcHg4MnEydXZpOGRwYkNKRjk1c2t2aFR6US1pcTdCV290MXRZTGs5VnpuWUZMa3FaOGhMMkhKeFhCVlRJWVdVOW03SUJuSnpqY29RanJCdmVGd1BZdEllWTdOUzNLTS1mbk1UNFdiRXlORWRpamRrVEJBUDdUUzJ1NzdiZjFMT3pDMXZDcHljNDRfbUVC?oc=5",
+     "time": "2026-10-30T12:45:00+00:00"
+    },
+    {
+     "title": "Defiance Daily Target 2X Long SOFI ETF (SOFX) Stock Price | Live Quotes & Charts | NASDAQ",
+     "publisher": "www.timothysykes.com",
+     "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5TdElNODFMS1FuUnNKNlY1RURwc25pa1N3ckJNSUhmcEJoNUt2YjJCdUNoY0JFR0oyMVdpZHZyN1BqcV9UMEJScGVGOVo?oc=5",
+     "time": "2026-10-30T08:57:29+00:00"
+    },
+    {
+     "title": "SoFi Technologies, Inc. (SOFI) Stock Forecasts",
+     "publisher": "Yahoo! Finance Canada",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNcnd5RkdPX01YY090cXBfTzdmbV9XSGk4TXJNV28yZTF6VHVvZWo4T18yUXpuS2NXaUJfamI2U2FhOExMRjZxaHdhMzQ2c3NoVk4wRkR4dE5zWTNjRk9xOXpPdXNrZHlsbXQ4ck9iZG5fS3lDdkE3Z1NHd0FCQWFBVWgtakJQUUZBZkVGV0NFS2M?oc=5",
+     "time": "2026-10-30T04:21:35+00:00"
+    },
+    {
+     "title": "SoFi Technologies (NASDAQ:SOFI) Stock Jumps 2.7% on Analyst Upgrade",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNWUpEaU0zMHlDeWhOVjI1U2xGZzBpaU5BbGtGX3RKWEt3MnNSUGdfRGtVbXFiQmVKUV9fV0U3VkM2cFhIbnhsZTVoYVBPRzBGejhBZTdjaXRoV1lVV3BXMnp6ajVrN3FnNVZOa013LUEtc1Bwa05nc3FxcTZHVUY4NHA5ei00eXFHeG5nU01JbkJDRXhOWnYxOUVjWGhkQWZoX3J2bk45Vkx2bDlUSml1dndDT0Q0Um5oRUU4dVloSVI?oc=5",
+     "time": "2026-10-29T21:11:39+00:00"
+    },
+    {
+     "title": "About SoFi Technologies, Inc. (Coinbase Tokenized Stock)",
+     "publisher": "Coinbase",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQVnVJS2dQVk1WVDFVNEgxYTRGMHZuR2dXeTlyN2tLaVFMRjVYWGxFS0hKWG15WHNnSWI5RUE1bkFBNUlqRWRKdjdvLVNNVU5TRm9PQm1lUU9ERFd5SDBweHBHRzJJTkVCcWhZQ1FlQ2RsY25TRnNiRFV0eE40VV9uWmswM3hCSEdsdEoyN0xpMjhBcjdMYVFnZWJEbFZ0YWtyNDd4aEpubnAzdw?oc=5",
+     "time": "2026-10-29T20:39:17+00:00"
+    },
+    {
+     "title": "SOFI 261106 17.00P (SOFI261106P17000) Stock Options Chain | Quotes & News",
+     "publisher": "Moomoo",
+     "url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxNWnJMZXowdkdTVEEzME85azZScnpsM0hwSmlKUVhqUlVsVFlIZC1tclVydFBDaWFWbjBUZ0lrUV9MTW9PeTduNEpIS1h3NzBsd2ZSOXRnLTdXeE0zRmVpR3B1R3dGZi1qSHJ2dTc3LTNybzBWNEZpVDFrbElmNXlybWhhVXJLMkQ3U0RCR1N4aWFXMF9KeWJROXhBU2tTeDQtNE1SZU0xNVBxUWYzUnJUVFRMV2hYSFh0WlVwS0JWTTkzSEVfX0t2ZTJkMDZ6REkzTTEyOGNhZVozRTJhbXNCNEttM0R2cF9GVjd6OEZfV0JtYnRlSy03R1JUYTZQckFsMV9lemJJR2VWMDNUVUMzWkhON2tNVllZYXZDYlJyQlU4a25SUlZ2ckttWVhEUQ?oc=5",
+     "time": "2026-10-29T20:15:00+00:00"
+    },
+    {
+     "title": "SoFi CEO Planned for \u201cTwo Rate Cuts.\u201d He Got a Hike, Then Raised His Outlook Anyway",
+     "publisher": "TIKR.com",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdTN2TVRaQm9ILWJSNEpfM3NwYUxBTGd3N0pmUlFHSVg5RHdfOXNkUXh6V3lOWXh5ZWprQ1NabEpHdFlpeHJUc09VYXpEZ3dkLU9vYUtIbnR5MDFWa2NxSm51ZFhMWjAzZlVMdzdhYms2cFdoZmloMnV6ZnpjWTJ5MXhjYkxMVE5Yc09FcjdnRERfWldoNzFGV1pveW0tOHVOTTRyQnZTekc?oc=5",
+     "time": "2026-10-29T19:18:45+00:00"
     }
    ],
    "brief": null
