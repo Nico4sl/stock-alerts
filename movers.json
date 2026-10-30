@@ -1,22 +1,22 @@
 {
  "date": "2026-10-30",
  "threshold": 3.0,
- "updated": "2026-10-30T15:13:23+00:00",
+ "updated": "2026-10-30T15:18:26+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 758.68,
-   "change_pct": -1.39
+   "price": 758.54,
+   "change_pct": -1.41
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 695.12,
-   "change_pct": -2.83
+   "price": 695.02,
+   "change_pct": -2.84
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 81.53,
-   "change_pct": 0.06
+   "price": 81.5,
+   "change_pct": 0.01
   }
  },
  "movers": [
@@ -24,7 +24,7 @@
    "symbol": "APP",
    "name": "AppLovin",
    "list": "portfolio",
-   "price": 232.65,
+   "price": 232.79,
    "prev_close": 254.91,
    "change_pct": -8.7,
    "trigger_change": -5.6,
@@ -33,14 +33,14 @@
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 104.95,
-    "change_pct": -2.8
+    "price": 104.84,
+    "change_pct": -2.89
    },
    "chart": {
-    "ema8": -9.0,
+    "ema8": -8.9,
     "ema21": -13.6,
     "sma50": -20.9,
-    "sma200": -44.1,
+    "sma200": -44.0,
     "momentum": false
    },
    "headlines": [
@@ -99,23 +99,23 @@
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 158.3,
+   "price": 158.67,
    "prev_close": 171.99,
-   "change_pct": -8.0,
+   "change_pct": -7.7,
    "trigger_change": -7.0,
    "peak_change": -8.1,
    "first_seen": "2026-10-30T14:04:25+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 104.95,
-    "change_pct": -2.8
+    "price": 104.84,
+    "change_pct": -2.89
    },
    "chart": {
-    "ema8": -6.5,
-    "ema21": -14.5,
-    "sma50": -24.5,
-    "sma200": -10.8,
+    "ema8": -6.3,
+    "ema21": -14.3,
+    "sma50": -24.4,
+    "sma200": -10.6,
     "momentum": false
    },
    "headlines": [
@@ -171,101 +171,26 @@
    "brief": "2026-10-30-NBIS"
   },
   {
-   "symbol": "AMAT",
-   "name": "Applied Materials",
-   "list": "portfolio",
-   "price": 392.28,
-   "prev_close": 421.66,
-   "change_pct": -7.0,
-   "trigger_change": -4.9,
-   "peak_change": -7.0,
-   "first_seen": "2026-10-30T14:04:25+00:00",
-   "sector": {
-    "etf": "SMH",
-    "name": "Semiconductors",
-    "price": 526.26,
-    "change_pct": -6.3
-   },
-   "chart": {
-    "ema8": -3.3,
-    "ema21": -8.8,
-    "sma50": -14.3,
-    "sma200": -11.8,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Fund Update: 50,572 APPLIED MATERIALS (AMAT) shares added to COUNTRY TRUST BANK portfolio",
-     "publisher": "Quiver Quantitative",
-     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxObDBuVFJlMC1mT0pGZVFvZGY0c2RkY0Y1anAwSGdTMUlSZW1lbEpOZHRXYUZtM1dFVV9sZ19vUDJWQnN5QmxhR3A4OVpLd09oQkdDNkN2WU9BNkdJZGVVdm8yZDBfWG1OWjcxU2Q0a1d6eGIwdEl5MEhoMTBZdkNmWDZ1emR1SWVCQ1FiWTNpMVEyRjR0LVFqbVpkckVET0pwSmlDUy1XaDJZQXJfNm9wSGdhUVFNMHVQTVdhd1BHaVVkd183dWxsY1Rjbw?oc=5",
-     "time": "2026-10-30T14:42:00+00:00"
-    },
-    {
-     "title": "Applied Materials Is Up Nearly 9% Since Moving to Lift Its Besi Stake to 20%. Here\u2019s What Hybrid Bonding Could Mean for the Stock by 2030",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNSXlNenpUVW5xRUtnVUF6V054aFR2S3NXS3ZJQ193aTlYX0xjOWFUbmpUZjV6TVhqT0JTRk5qaWZGZXUxRkR3RUNiTFFJbTZOZUZxb044XzRDT2VMWWpjZDJfU1Q4TVVTY1ZsWDdfVVRkekdFRFBjeUN3ME5ZdU5YV0ROSjZmeUh0Ml9MSVVSMmdYdnFyWnBHYnh2cXJQdw?oc=5",
-     "time": "2026-10-30T13:23:16+00:00"
-    },
-    {
-     "title": "Applied Materials, Inc. (AMAT) is Attracting Investor Attention: Here is What You Should Know",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOSldMQXdYelR1UzB4YTRnTUxwZDloN0xZZGRRWURFOW9yYmVvZDN2THM1T1oyTll6RlhZVENNM21xb3JHRnJlNjhuX2Q0TDlDODRJVlZDampwdVFXaUdFT184aGhMX0F1T0w0YnptQmo3cTBURGVMYW9ITDJ6NDRpV0IycFY2T0FJYWNFMXFxU2xmYVVFdFFPOFdWNlNxdU1EWjloUA?oc=5",
-     "time": "2026-10-30T12:00:04+00:00"
-    },
-    {
-     "title": "Applied Materials: A 51% Growth Quarter At 23x Forward Earnings",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQV0F4YjV1LTVoZXZRS2hEaGZMZVFYanFjUUJNTkFzTDFZeHR0QWU5alhhbU9sMVFMa3p1cUlMOXNMV2xrNHlpQ25ndTJrRFRrUVhTakdwVWhwM0p2SmpRcVU0N1RkeDZ4M3NIWmNVWlVFWjUzNG1fNkJqc1U0aHhsWGlEbTVOV1duSzZzTTZOTFZ1SFQ2d0o5aXh3ZkZ6QmhXU2E4RThqN0ZQNEZrTC1n?oc=5",
-     "time": "2026-10-30T09:58:09+00:00"
-    },
-    {
-     "title": "Applied Materials vs. Taiwan Semiconductor Manufacturing: Comparing Revenue Growth Trends Between These Artificial Intelligence Companies",
-     "publisher": "The Motley Fool",
-     "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPVkJ5M0RleDdQbkQyZWs0UUF1V3BITUs1Yzk3Sjd3QWxUQWxDQnBQLWU4dERDYWJMcEMtUzRyRXBCRzRWQ3N5djRsSHdlWE5TeU0wMi0tdVVHMktaNVVFb1dXMG5Mc291MWJteGVKQVA2TlpybE5qWGxjbktxNzg0Y3BWWXRyLVB3V0g5WTZVWnMtcWVsZDhjMDJIQmhUUXFwOUhXN01pdGF2VDNnN2JFQ28wNWU3eHdsdXNMZVhMcWxlcGIzbTF0YzE1U0VmZVU2QUhUTGtoQmVYc2xPYWZTdUJtV3Q3SFZiYjVreVZtTjAyTW9MM2twSmw1UzJQa1FSSkRJOW5STVFCQjR1ekI3SDFn?oc=5",
-     "time": "2026-10-30T07:51:00+00:00"
-    },
-    {
-     "title": "Capacity Expansion Could Be A Game Changer For Applied Materials Stock",
-     "publisher": "Simply Wall St",
-     "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNWS1raUQ3Rm5kYTZlRkhWWTRpVUkzNFRka08wSHNIQWo1dXdHRmoyZkttWHNDNmtGaFgwazVhNlFOVWtYaUUyb0pKS282NGdFWHpaRXlhRENTaEtNT0hITUVtZUUxellZX3BNaGo1amNSRnhITGl2dkUxaVlVcWN4dENvYkNRdkY4ZkJMNFpYN1B1NWhtNVlCYWtKRTZpdDhiLVZqSjBCdVdieGxfSExLOHc3MEMwZHZNZjB0c21mV3ZyX0hkeGphSS1OZWhWMlAybXNzUktxWmdKYnc2Vnpv0gHfAUFVX3lxTE1ZLWtpRDdGbmRhNmVGSFZZNGlVSTM0VGRrTzBIc0hBajV1d0dGajJmS21Yc0M2a0ZoWDBrNWE2UU5Va1hpRTJvSkpLbzY0Z0VYelpFeWFEQ1NoS01PSEhNRW1lRTF6WVlfcE1oajVqY1JGeEhMaXZ2RTFpWVVxY3h0Q29iQ1F2RjhmQkw0Wlg3UHU1aG01WUJha0pFNml0OGItVmpKMEJ1V2J4bF9ITEs4dzcwQzBkdk1mMHRzbWZXdnJfSGR4amFJLU5laFYyUDJtc3NSS3FaZ0pidzZWem8?oc=5",
-     "time": "2026-10-30T07:44:37+00:00"
-    },
-    {
-     "title": "Can Applied Materials (NASDAQ:AMAT) Capitalize on the AI Chip Boom?",
-     "publisher": "Kalkine Media",
-     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPNEowb3g4dHlMazhEbnRkdmJVb2ljSmltTjlQWmxmMzVyMTZyS2lfWWJxaXJzaVdodDZ1OXBlTm9JWnB4T21iemJkNWVFVGNrejctLTVLZ3VESnRTaWJyMkZ6WGhDSHlINDloaE9sOEs1LTkySEo1Znl4SmsxOEtNRDlRRFUxdFJNX1d1eE1DRzZFRXp4ZHlvbWpvYzJnQWQ4LTJfVVNGTkFGY2NVcXc?oc=5",
-     "time": "2026-10-29T22:21:00+00:00"
-    },
-    {
-     "title": "Applied Materials Inc. stock outperforms competitors on strong trading day",
-     "publisher": "MarketWatch",
-     "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNc1hCa093WXFZaEtyWVFwT0s2NjJGN3lHSzFBZkotUjA5QVB5NThaVWFFenBVdGFma2p6QV9tUy1hbFhuS01GWWpZUWtmMGo3VFczYjlSWjd3c0ZUR2xPQzFKSEhNamJTTWRtQTlGTThKWHRlem45d012d1l0R1BvRzZ0YTZMbWI5V2hvNG9OQ3lSbl94MXUwbGJMXzROcVRUaWdCQlQ5MXdQX0trclFyTllJXzlnR2VmM3BORVQ4SWpRQXJwUXJLUGN3WHhmR1JhT294N29YNkI1eTZseko0TE0yZ3BOZw?oc=5",
-     "time": "2026-10-29T20:31:00+00:00"
-    }
-   ],
-   "brief": "2026-10-30-AMAT"
-  },
-  {
    "symbol": "ANET",
    "name": "Arista Networks",
    "list": "portfolio",
-   "price": 171.34,
+   "price": 170.97,
    "prev_close": 184.22,
-   "change_pct": -7.0,
+   "change_pct": -7.2,
    "trigger_change": -6.4,
    "peak_change": -7.5,
    "first_seen": "2026-10-30T14:04:25+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 526.26,
-    "change_pct": -6.3
+    "price": 525.81,
+    "change_pct": -6.38
    },
    "chart": {
-    "ema8": -5.3,
-    "ema21": -8.8,
-    "sma50": -12.3,
-    "sma200": 3.7,
+    "ema8": -5.4,
+    "ema21": -9.0,
+    "sma50": -12.4,
+    "sma200": 3.5,
     "momentum": false
    },
    "headlines": [
@@ -321,26 +246,101 @@
    "brief": "2026-10-30-ANET"
   },
   {
+   "symbol": "AMAT",
+   "name": "Applied Materials",
+   "list": "portfolio",
+   "price": 392.34,
+   "prev_close": 421.66,
+   "change_pct": -7.0,
+   "trigger_change": -4.9,
+   "peak_change": -7.0,
+   "first_seen": "2026-10-30T14:04:25+00:00",
+   "sector": {
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 525.81,
+    "change_pct": -6.38
+   },
+   "chart": {
+    "ema8": -3.3,
+    "ema21": -8.7,
+    "sma50": -14.3,
+    "sma200": -11.7,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Fund Update: 50,572 APPLIED MATERIALS (AMAT) shares added to COUNTRY TRUST BANK portfolio",
+     "publisher": "Quiver Quantitative",
+     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxObDBuVFJlMC1mT0pGZVFvZGY0c2RkY0Y1anAwSGdTMUlSZW1lbEpOZHRXYUZtM1dFVV9sZ19vUDJWQnN5QmxhR3A4OVpLd09oQkdDNkN2WU9BNkdJZGVVdm8yZDBfWG1OWjcxU2Q0a1d6eGIwdEl5MEhoMTBZdkNmWDZ1emR1SWVCQ1FiWTNpMVEyRjR0LVFqbVpkckVET0pwSmlDUy1XaDJZQXJfNm9wSGdhUVFNMHVQTVdhd1BHaVVkd183dWxsY1Rjbw?oc=5",
+     "time": "2026-10-30T14:42:00+00:00"
+    },
+    {
+     "title": "Applied Materials Is Up Nearly 9% Since Moving to Lift Its Besi Stake to 20%. Here\u2019s What Hybrid Bonding Could Mean for the Stock by 2030",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNSXlNenpUVW5xRUtnVUF6V054aFR2S3NXS3ZJQ193aTlYX0xjOWFUbmpUZjV6TVhqT0JTRk5qaWZGZXUxRkR3RUNiTFFJbTZOZUZxb044XzRDT2VMWWpjZDJfU1Q4TVVTY1ZsWDdfVVRkekdFRFBjeUN3ME5ZdU5YV0ROSjZmeUh0Ml9MSVVSMmdYdnFyWnBHYnh2cXJQdw?oc=5",
+     "time": "2026-10-30T13:23:16+00:00"
+    },
+    {
+     "title": "Applied Materials, Inc. (AMAT) is Attracting Investor Attention: Here is What You Should Know",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOSldMQXdYelR1UzB4YTRnTUxwZDloN0xZZGRRWURFOW9yYmVvZDN2THM1T1oyTll6RlhZVENNM21xb3JHRnJlNjhuX2Q0TDlDODRJVlZDampwdVFXaUdFT184aGhMX0F1T0w0YnptQmo3cTBURGVMYW9ITDJ6NDRpV0IycFY2T0FJYWNFMXFxU2xmYVVFdFFPOFdWNlNxdU1EWjloUA?oc=5",
+     "time": "2026-10-30T12:00:04+00:00"
+    },
+    {
+     "title": "Applied Materials: A 51% Growth Quarter At 23x Forward Earnings",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQV0F4YjV1LTVoZXZRS2hEaGZMZVFYanFjUUJNTkFzTDFZeHR0QWU5alhhbU9sMVFMa3p1cUlMOXNMV2xrNHlpQ25ndTJrRFRrUVhTakdwVWhwM0p2SmpRcVU0N1RkeDZ4M3NIWmNVWlVFWjUzNG1fNkJqc1U0aHhsWGlEbTVOV1duSzZzTTZOTFZ1SFQ2d0o5aXh3ZkZ6QmhXU2E4RThqN0ZQNEZrTC1n?oc=5",
+     "time": "2026-10-30T09:58:09+00:00"
+    },
+    {
+     "title": "Applied Materials vs. Taiwan Semiconductor Manufacturing: Comparing Revenue Growth Trends Between These Artificial Intelligence Companies",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPVkJ5M0RleDdQbkQyZWs0UUF1V3BITUs1Yzk3Sjd3QWxUQWxDQnBQLWU4dERDYWJMcEMtUzRyRXBCRzRWQ3N5djRsSHdlWE5TeU0wMi0tdVVHMktaNVVFb1dXMG5Mc291MWJteGVKQVA2TlpybE5qWGxjbktxNzg0Y3BWWXRyLVB3V0g5WTZVWnMtcWVsZDhjMDJIQmhUUXFwOUhXN01pdGF2VDNnN2JFQ28wNWU3eHdsdXNMZVhMcWxlcGIzbTF0YzE1U0VmZVU2QUhUTGtoQmVYc2xPYWZTdUJtV3Q3SFZiYjVreVZtTjAyTW9MM2twSmw1UzJQa1FSSkRJOW5STVFCQjR1ekI3SDFn?oc=5",
+     "time": "2026-10-30T07:51:00+00:00"
+    },
+    {
+     "title": "Capacity Expansion Could Be A Game Changer For Applied Materials Stock",
+     "publisher": "Simply Wall St",
+     "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNWS1raUQ3Rm5kYTZlRkhWWTRpVUkzNFRka08wSHNIQWo1dXdHRmoyZkttWHNDNmtGaFgwazVhNlFOVWtYaUUyb0pKS282NGdFWHpaRXlhRENTaEtNT0hITUVtZUUxellZX3BNaGo1amNSRnhITGl2dkUxaVlVcWN4dENvYkNRdkY4ZkJMNFpYN1B1NWhtNVlCYWtKRTZpdDhiLVZqSjBCdVdieGxfSExLOHc3MEMwZHZNZjB0c21mV3ZyX0hkeGphSS1OZWhWMlAybXNzUktxWmdKYnc2Vnpv0gHfAUFVX3lxTE1ZLWtpRDdGbmRhNmVGSFZZNGlVSTM0VGRrTzBIc0hBajV1d0dGajJmS21Yc0M2a0ZoWDBrNWE2UU5Va1hpRTJvSkpLbzY0Z0VYelpFeWFEQ1NoS01PSEhNRW1lRTF6WVlfcE1oajVqY1JGeEhMaXZ2RTFpWVVxY3h0Q29iQ1F2RjhmQkw0Wlg3UHU1aG01WUJha0pFNml0OGItVmpKMEJ1V2J4bF9ITEs4dzcwQzBkdk1mMHRzbWZXdnJfSGR4amFJLU5laFYyUDJtc3NSS3FaZ0pidzZWem8?oc=5",
+     "time": "2026-10-30T07:44:37+00:00"
+    },
+    {
+     "title": "Can Applied Materials (NASDAQ:AMAT) Capitalize on the AI Chip Boom?",
+     "publisher": "Kalkine Media",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPNEowb3g4dHlMazhEbnRkdmJVb2ljSmltTjlQWmxmMzVyMTZyS2lfWWJxaXJzaVdodDZ1OXBlTm9JWnB4T21iemJkNWVFVGNrejctLTVLZ3VESnRTaWJyMkZ6WGhDSHlINDloaE9sOEs1LTkySEo1Znl4SmsxOEtNRDlRRFUxdFJNX1d1eE1DRzZFRXp4ZHlvbWpvYzJnQWQ4LTJfVVNGTkFGY2NVcXc?oc=5",
+     "time": "2026-10-29T22:21:00+00:00"
+    },
+    {
+     "title": "Applied Materials Inc. stock outperforms competitors on strong trading day",
+     "publisher": "MarketWatch",
+     "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNc1hCa093WXFZaEtyWVFwT0s2NjJGN3lHSzFBZkotUjA5QVB5NThaVWFFenBVdGFma2p6QV9tUy1hbFhuS01GWWpZUWtmMGo3VFczYjlSWjd3c0ZUR2xPQzFKSEhNamJTTWRtQTlGTThKWHRlem45d012d1l0R1BvRzZ0YTZMbWI5V2hvNG9OQ3lSbl94MXUwbGJMXzROcVRUaWdCQlQ5MXdQX0trclFyTllJXzlnR2VmM3BORVQ4SWpRQXJwUXJLUGN3WHhmR1JhT294N29YNkI1eTZseko0TE0yZ3BOZw?oc=5",
+     "time": "2026-10-29T20:31:00+00:00"
+    }
+   ],
+   "brief": "2026-10-30-AMAT"
+  },
+  {
    "symbol": "AVGO",
    "name": "Broadcom",
    "list": "portfolio",
-   "price": 326.8,
+   "price": 327.13,
    "prev_close": 345.0,
-   "change_pct": -5.3,
+   "change_pct": -5.2,
    "trigger_change": -4.7,
    "peak_change": -5.4,
    "first_seen": "2026-10-30T14:04:25+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 526.26,
-    "change_pct": -6.3
+    "price": 525.81,
+    "change_pct": -6.38
    },
    "chart": {
-    "ema8": -3.1,
-    "ema21": -4.7,
-    "sma50": -7.4,
-    "sma200": -11.1,
+    "ema8": -3.0,
+    "ema21": -4.6,
+    "sma50": -7.3,
+    "sma200": -11.0,
     "momentum": false
    },
    "headlines": [
@@ -399,23 +399,23 @@
    "symbol": "SOFI",
    "name": "SoFi",
    "list": "portfolio",
-   "price": 16.8,
+   "price": 16.77,
    "prev_close": 17.61,
-   "change_pct": -4.6,
+   "change_pct": -4.7,
    "trigger_change": -4.2,
-   "peak_change": -4.6,
+   "peak_change": -4.7,
    "first_seen": "2026-10-30T14:09:27+00:00",
    "sector": {
     "etf": "XLF",
     "name": "Financials",
-    "price": 56.6,
-    "change_pct": -0.59
+    "price": 56.58,
+    "change_pct": -0.63
    },
    "chart": {
-    "ema8": 3.8,
-    "ema21": 6.2,
-    "sma50": 1.4,
-    "sma200": -5.5,
+    "ema8": 3.7,
+    "ema21": 6.0,
+    "sma50": 1.2,
+    "sma200": -5.7,
     "momentum": true
    },
    "headlines": [
@@ -474,23 +474,23 @@
    "symbol": "CRWD",
    "name": "CrowdStrike",
    "list": "portfolio",
-   "price": 251.63,
+   "price": 251.01,
    "prev_close": 261.15,
-   "change_pct": -3.6,
+   "change_pct": -3.9,
    "trigger_change": -3.7,
-   "peak_change": -3.7,
+   "peak_change": -3.9,
    "first_seen": "2026-10-30T15:08:18+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 104.95,
-    "change_pct": -2.8
+    "price": 104.84,
+    "change_pct": -2.89
    },
    "chart": {
-    "ema8": -1.6,
-    "ema21": -0.4,
-    "sma50": 4.7,
-    "sma200": 50.5,
+    "ema8": -1.8,
+    "ema21": -0.6,
+    "sma50": 4.5,
+    "sma200": 50.1,
     "momentum": true
    },
    "headlines": [
@@ -549,23 +549,23 @@
    "symbol": "NVDA",
    "name": "Nvidia",
    "list": "portfolio",
-   "price": 206.24,
+   "price": 206.46,
    "prev_close": 213.66,
-   "change_pct": -3.5,
+   "change_pct": -3.4,
    "trigger_change": -3.1,
    "peak_change": -3.5,
    "first_seen": "2026-10-30T14:19:29+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 526.26,
-    "change_pct": -6.3
+    "price": 525.81,
+    "change_pct": -6.38
    },
    "chart": {
-    "ema8": -3.6,
-    "ema21": -5.6,
-    "sma50": -7.0,
-    "sma200": 0.9,
+    "ema8": -3.5,
+    "ema21": -5.5,
+    "sma50": -6.9,
+    "sma200": 1.0,
     "momentum": false
    },
    "headlines": [
@@ -624,7 +624,7 @@
    "symbol": "NOW",
    "name": "ServiceNow",
    "list": "portfolio",
-   "price": 106.03,
+   "price": 106.0,
    "prev_close": 109.67,
    "change_pct": -3.3,
    "trigger_change": -3.3,
@@ -633,11 +633,11 @@
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 104.95,
-    "change_pct": -2.8
+    "price": 104.84,
+    "change_pct": -2.89
    },
    "chart": {
-    "ema8": -21.2,
+    "ema8": -21.3,
     "ema21": -24.2,
     "sma50": -23.6,
     "sma200": -7.8,
