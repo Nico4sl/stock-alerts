@@ -1,17 +1,17 @@
 {
  "date": "2026-10-30",
  "threshold": 3.0,
- "updated": "2026-10-30T19:34:32+00:00",
+ "updated": "2026-10-30T19:39:30+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 753.52,
+   "price": 753.48,
    "change_pct": -2.06
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 687.96,
-   "change_pct": -3.83
+   "price": 688.1,
+   "change_pct": -3.81
   },
   "TLT": {
    "name": "Long Treasuries",
@@ -24,7 +24,7 @@
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 152.56,
+   "price": 152.59,
    "prev_close": 171.99,
    "change_pct": -11.3,
    "trigger_change": -7.0,
@@ -33,8 +33,8 @@
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 104.12,
-    "change_pct": -3.57
+    "price": 104.23,
+    "change_pct": -3.46
    },
    "chart": {
     "ema8": -9.2,
@@ -99,23 +99,23 @@
    "symbol": "APP",
    "name": "AppLovin",
    "list": "portfolio",
-   "price": 230.36,
+   "price": 231.05,
    "prev_close": 254.91,
-   "change_pct": -9.6,
+   "change_pct": -9.4,
    "trigger_change": -5.6,
    "peak_change": -11.4,
    "first_seen": "2026-10-30T14:04:25+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 104.12,
-    "change_pct": -3.57
+    "price": 104.23,
+    "change_pct": -3.46
    },
    "chart": {
-    "ema8": -9.7,
-    "ema21": -14.4,
-    "sma50": -21.7,
-    "sma200": -44.6,
+    "ema8": -9.5,
+    "ema21": -14.2,
+    "sma50": -21.5,
+    "sma200": -44.4,
     "momentum": false
    },
    "headlines": [
@@ -174,22 +174,22 @@
    "symbol": "ANET",
    "name": "Arista Networks",
    "list": "portfolio",
-   "price": 168.19,
+   "price": 168.07,
    "prev_close": 184.22,
-   "change_pct": -8.7,
+   "change_pct": -8.8,
    "trigger_change": -6.4,
    "peak_change": -9.4,
    "first_seen": "2026-10-30T14:04:25+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 517.34,
-    "change_pct": -7.89
+    "price": 517.74,
+    "change_pct": -7.82
    },
    "chart": {
     "ema8": -6.7,
-    "ema21": -10.3,
-    "sma50": -13.8,
+    "ema21": -10.4,
+    "sma50": -13.9,
     "sma200": 1.8,
     "momentum": false
    },
@@ -249,23 +249,23 @@
    "symbol": "AMAT",
    "name": "Applied Materials",
    "list": "portfolio",
-   "price": 386.37,
+   "price": 386.79,
    "prev_close": 421.66,
-   "change_pct": -8.4,
+   "change_pct": -8.3,
    "trigger_change": -4.9,
    "peak_change": -9.2,
    "first_seen": "2026-10-30T14:04:25+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 517.34,
-    "change_pct": -7.89
+    "price": 517.74,
+    "change_pct": -7.82
    },
    "chart": {
-    "ema8": -4.5,
-    "ema21": -10.0,
-    "sma50": -15.6,
-    "sma200": -13.1,
+    "ema8": -4.4,
+    "ema21": -9.9,
+    "sma50": -15.5,
+    "sma200": -13.0,
     "momentum": false
    },
    "headlines": [
@@ -324,23 +324,23 @@
    "symbol": "AVGO",
    "name": "Broadcom",
    "list": "portfolio",
-   "price": 322.27,
+   "price": 322.8,
    "prev_close": 345.0,
-   "change_pct": -6.6,
+   "change_pct": -6.4,
    "trigger_change": -4.7,
    "peak_change": -7.4,
    "first_seen": "2026-10-30T14:04:25+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 517.34,
-    "change_pct": -7.89
+    "price": 517.74,
+    "change_pct": -7.82
    },
    "chart": {
-    "ema8": -4.1,
-    "ema21": -5.9,
-    "sma50": -8.6,
-    "sma200": -12.3,
+    "ema8": -4.0,
+    "ema21": -5.7,
+    "sma50": -8.5,
+    "sma200": -12.2,
     "momentum": false
    },
    "headlines": [
@@ -396,101 +396,26 @@
    "brief": "2026-10-30-AVGO"
   },
   {
-   "symbol": "NVDA",
-   "name": "Nvidia",
-   "list": "portfolio",
-   "price": 202.32,
-   "prev_close": 213.66,
-   "change_pct": -5.3,
-   "trigger_change": -3.1,
-   "peak_change": -5.9,
-   "first_seen": "2026-10-30T14:19:29+00:00",
-   "sector": {
-    "etf": "SMH",
-    "name": "Semiconductors",
-    "price": 517.34,
-    "change_pct": -7.89
-   },
-   "chart": {
-    "ema8": -5.0,
-    "ema21": -7.3,
-    "sma50": -8.7,
-    "sma200": -1.0,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Is Nvidia Stock a Trick or Treat?",
-     "publisher": "The Motley Fool",
-     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxONnZnUUtsUUFfd016V21VdFZGMkFNdnZFa2RJeGpfM2M2UjBwTG02bTZFbnlldGVqVS12V1dZNGpxQkthZmZRUkd5RFpQVmc5VHFUYUM4cS02V2RUMHE1QU91TnNpS3RsaVJJLVJkcFB4Ynpidm9oYkFSYXRwaFBjeQ?oc=5",
-     "time": "2026-10-30T18:13:40+00:00"
-    },
-    {
-     "title": "Nvidia Stock Is Set for Its Worst Month in a Year. Time to Buy the Dip.",
-     "publisher": "Barron's",
-     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA5eVhHal84SUVnWXJrMXZ0NGxSNzlkY2VBcnd2M1pjaEhYOTBJcWg1ZFVGeUFyUXhrX0cyZkhMQ0VQRms1VEFXUkFJS2kxd0g4a3ZjbDMteXhJYXVFVFJRVW90VjBaRHE0VUJDc2twdGVFc1c3azhjeQ?oc=5",
-     "time": "2026-10-30T18:12:00+00:00"
-    },
-    {
-     "title": "Why Nvidia shares are down over 4% on Friday?",
-     "publisher": "Invezz",
-     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNcVM1bDh2VTFiSk80QXE1STh2azE2TDlXQWtkX1ppS3BaaUctdGItZTNpNmo1WFJwaGVleGszWVVoaEk4Q1V6eEN2YmdBYk85RXVUOUNtSmN4OWFqTWZBSjJUNjVZYVRJSHVmZnpmanRqbkZvMVEtUzZpRnI5XzBfdV9TbHZzUQ?oc=5",
-     "time": "2026-10-30T17:23:13+00:00"
-    },
-    {
-     "title": "Nvidia: Time To Lock In The Profits (NASDAQ:NVDA)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOYXFJb1p4X09jV3Y5R3V5bU9XZFpRVXI2c3VyanpBaHVvcHpfbHpyd1VYSzctdU5NSFJFdHk0Tk1kVWpfbGYzeFFibTV3T2hKcC03Rjh1SXJXSEtlZVU2cDkxeHU2emZZUE1KRHpDMWxZbk1PUkxBTDROVzh3OU1KeA?oc=5",
-     "time": "2026-10-30T16:33:40+00:00"
-    },
-    {
-     "title": "NVIDIA Stock: Analyst Estimates & Ratings",
-     "publisher": "Barchart.com",
-     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPUmtaX09vY0lvNDRSS196b0l5UFNXbEx0eVp4RmhQT2E0UTVrT2x0MWJQZ1ZLSTMzTk9PbEF1cmNub3laQ1JkaUxnMEJFY0luc0IxUDZvS1V0V21WRnU0RmZpZmtlUDdZUGs0MjdQeVRGMG1kcDkyTmhVOEVtNUlpZ2F6RUFURG5iQkE?oc=5",
-     "time": "2026-10-30T15:42:30+00:00"
-    },
-    {
-     "title": "Intel Plunges 25% as Weak Outlook and PC Slump Overshadow Earnings Beat; Dell Tumbles 13%, AMD Sinks 10%, NVIDIA Falls 3%",
-     "publisher": "24/7 Wall St.",
-     "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQUWgxdFFydHpwM0hLSVhENjBFTm5jZGVQT1lmejFZM1RqVEs1Wm5rU0k0TmpFTWE3Qk54RkI2QWEtRzctdkpHa1k1X2I2ZjQ1MUhCdmpnTE9jTE9rYTIxUFI0Q0h6VFA0bWxMVkY0dF8wemJWc3dCUjFmMnB0RjItSkU3MGpFcU83S0Fra01DOGFKX0czelpGV0lEajNFbkluTi1iVkEzNk9uSFFXVVhieHdzczdyVi1OTFozWDNNYV9wU0ptQVN4eTQ0NFFMVmdWTWd3VEtMV0tnQW5TY2UyR1RjN2xzWDVpSzg3UmNCcw?oc=5",
-     "time": "2026-10-30T14:09:00+00:00"
-    },
-    {
-     "title": "NVIDIA Corp Stock (NVDA) Opened Down by 3.37% on Oct 30: A Full Analysis",
-     "publisher": "TradingKey",
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPQ05ndFlQU3pJVGNZQlRVTGlfMDFrcnFJYUxGSkNoVV9LVG5WVE5kQTNwd0tYMTRIT2NXVEtNNFpzZHhHd1FlSUdMYnBHLWkxUy15TnNXSDJtUjVadV80YWwyejd2Mk5MTFc3OFlYVDl0Y2ZXdUQzQzZUazA4N2QwdWJPcWVTV29lblFF?oc=5",
-     "time": "2026-10-30T13:50:10+00:00"
-    },
-    {
-     "title": "Can You Make Money Off NVIDIA Stock Now?",
-     "publisher": "Trefis",
-     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQd3NKR0JBQldHLU45bXdMd1g3ZFBDby0tMURjdVNBelJOUW9OcXJfUmJ6cFN4NkdXUHo5Zkk3Z1pyeHRTMTdfTWNVY3prZmptVEJ2NHdGUmJrVEVGQ2xQUGIxZUs1dTk5Q09rWlRsRGt3UHM0YmdoaERWblc1dzF2RlJURHRyRnZCSi1WekRiazFaVDhEc0VMdFR3Q3V0MjJBaVE?oc=5",
-     "time": "2026-10-30T13:38:19+00:00"
-    }
-   ],
-   "brief": "2026-10-30-NVDA"
-  },
-  {
    "symbol": "SOFI",
    "name": "SoFi",
    "list": "portfolio",
-   "price": 16.7,
+   "price": 16.68,
    "prev_close": 17.61,
-   "change_pct": -5.1,
+   "change_pct": -5.3,
    "trigger_change": -4.2,
    "peak_change": -6.5,
    "first_seen": "2026-10-30T14:09:27+00:00",
    "sector": {
     "etf": "XLF",
     "name": "Financials",
-    "price": 56.44,
-    "change_pct": -0.87
+    "price": 56.38,
+    "change_pct": -0.97
    },
    "chart": {
-    "ema8": 3.4,
-    "ema21": 5.6,
-    "sma50": 0.8,
-    "sma200": -6.1,
+    "ema8": 3.2,
+    "ema21": 5.5,
+    "sma50": 0.6,
+    "sma200": -6.2,
     "momentum": true
    },
    "headlines": [
@@ -546,85 +471,85 @@
    "brief": "2026-10-30-SOFI"
   },
   {
-   "symbol": "CRWD",
-   "name": "CrowdStrike",
+   "symbol": "NVDA",
+   "name": "Nvidia",
    "list": "portfolio",
-   "price": 248.3,
-   "prev_close": 261.15,
-   "change_pct": -4.9,
-   "trigger_change": -3.7,
+   "price": 202.99,
+   "prev_close": 213.66,
+   "change_pct": -5.0,
+   "trigger_change": -3.1,
    "peak_change": -5.9,
-   "first_seen": "2026-10-30T15:08:18+00:00",
+   "first_seen": "2026-10-30T14:19:29+00:00",
    "sector": {
-    "etf": "IGV",
-    "name": "Software",
-    "price": 104.12,
-    "change_pct": -3.57
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 517.74,
+    "change_pct": -7.82
    },
    "chart": {
-    "ema8": -2.6,
-    "ema21": -1.6,
-    "sma50": 3.4,
-    "sma200": 48.5,
-    "momentum": true
+    "ema8": -4.8,
+    "ema21": -7.0,
+    "sma50": -8.4,
+    "sma200": -0.7,
+    "momentum": false
    },
    "headlines": [
     {
-     "title": "Datadog Sinks 12%, CrowdStrike Falls 4% Despite $6.3 Billion Binance Hack Spotlighting Cyber Defense; Palo Alto and Fortinet Slide 3%",
+     "title": "Is Nvidia Stock a Trick or Treat?",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxONnZnUUtsUUFfd016V21VdFZGMkFNdnZFa2RJeGpfM2M2UjBwTG02bTZFbnlldGVqVS12V1dZNGpxQkthZmZRUkd5RFpQVmc5VHFUYUM4cS02V2RUMHE1QU91TnNpS3RsaVJJLVJkcFB4Ynpidm9oYkFSYXRwaFBjeQ?oc=5",
+     "time": "2026-10-30T18:13:40+00:00"
+    },
+    {
+     "title": "Nvidia Stock Is Set for Its Worst Month in a Year. Time to Buy the Dip.",
+     "publisher": "Barron's",
+     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA5eVhHal84SUVnWXJrMXZ0NGxSNzlkY2VBcnd2M1pjaEhYOTBJcWg1ZFVGeUFyUXhrX0cyZkhMQ0VQRms1VEFXUkFJS2kxd0g4a3ZjbDMteXhJYXVFVFJRVW90VjBaRHE0VUJDc2twdGVFc1c3azhjeQ?oc=5",
+     "time": "2026-10-30T18:12:00+00:00"
+    },
+    {
+     "title": "Why Nvidia shares are down over 4% on Friday?",
+     "publisher": "Invezz",
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNcVM1bDh2VTFiSk80QXE1STh2azE2TDlXQWtkX1ppS3BaaUctdGItZTNpNmo1WFJwaGVleGszWVVoaEk4Q1V6eEN2YmdBYk85RXVUOUNtSmN4OWFqTWZBSjJUNjVZYVRJSHVmZnpmanRqbkZvMVEtUzZpRnI5XzBfdV9TbHZzUQ?oc=5",
+     "time": "2026-10-30T17:23:13+00:00"
+    },
+    {
+     "title": "Nvidia: Time To Lock In The Profits (NASDAQ:NVDA)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOYXFJb1p4X09jV3Y5R3V5bU9XZFpRVXI2c3VyanpBaHVvcHpfbHpyd1VYSzctdU5NSFJFdHk0Tk1kVWpfbGYzeFFibTV3T2hKcC03Rjh1SXJXSEtlZVU2cDkxeHU2emZZUE1KRHpDMWxZbk1PUkxBTDROVzh3OU1KeA?oc=5",
+     "time": "2026-10-30T16:33:40+00:00"
+    },
+    {
+     "title": "NVIDIA Stock: Analyst Estimates & Ratings",
+     "publisher": "Barchart.com",
+     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPUmtaX09vY0lvNDRSS196b0l5UFNXbEx0eVp4RmhQT2E0UTVrT2x0MWJQZ1ZLSTMzTk9PbEF1cmNub3laQ1JkaUxnMEJFY0luc0IxUDZvS1V0V21WRnU0RmZpZmtlUDdZUGs0MjdQeVRGMG1kcDkyTmhVOEVtNUlpZ2F6RUFURG5iQkE?oc=5",
+     "time": "2026-10-30T15:42:30+00:00"
+    },
+    {
+     "title": "Intel Plunges 25% as Weak Outlook and PC Slump Overshadow Earnings Beat; Dell Tumbles 13%, AMD Sinks 10%, NVIDIA Falls 3%",
      "publisher": "24/7 Wall St.",
-     "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNak5VOUxjRUNXZlViM2IxVmFJYk5IZ3BDdF9YYnM0NnRLT1hxVTBtb05HRXBqWGxkREpPVUpQWFM5OUd4Tzd6YVZ0WVdiQ3BTa0U1WXlIRTZubmU2b1lQVnZkQ3ZQVWhnOERpTXRETjVJTVgzQlpOWUdxaDA1emNmTWhDdVFGalFJdkJRc0xHLTRVbGVYTjZNekJCaUk5VDRLY0RCNUhYcUk0T0loRFRIME8zb0lOeDJHZUZHcFh3YWQ2anB1RlYyNDRreTllM2NPUi1TSXptUnpWVUNRTll5aGVaeWJQcEZhRnlPM2c5ZUlPZVNTbkpjTmhYZ203d1Vu?oc=5",
-     "time": "2026-10-30T16:49:33+00:00"
+     "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQUWgxdFFydHpwM0hLSVhENjBFTm5jZGVQT1lmejFZM1RqVEs1Wm5rU0k0TmpFTWE3Qk54RkI2QWEtRzctdkpHa1k1X2I2ZjQ1MUhCdmpnTE9jTE9rYTIxUFI0Q0h6VFA0bWxMVkY0dF8wemJWc3dCUjFmMnB0RjItSkU3MGpFcU83S0Fra01DOGFKX0czelpGV0lEajNFbkluTi1iVkEzNk9uSFFXVVhieHdzczdyVi1OTFozWDNNYV9wU0ptQVN4eTQ0NFFMVmdWTWd3VEtMV0tnQW5TY2UyR1RjN2xzWDVpSzg3UmNCcw?oc=5",
+     "time": "2026-10-30T14:09:00+00:00"
     },
     {
-     "title": "CrowdStrike Holdings Inc Stock (CRWD) Moved Down by 5.05% on Oct 30: Key Drivers Unveiled",
+     "title": "NVIDIA Corp Stock (NVDA) Opened Down by 3.37% on Oct 30: A Full Analysis",
      "publisher": "TradingKey",
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNMjJCWTg3bXR0TTlqRHJwS1hsUV93Nk1PQUNHcVFJdzRESUItRktpazk4LVJKQzM0NmxDOElaRjBiM1JsVlY2cDFGWFNQalFYbWlNcW5pTTBGZExzZ1VMM0JNa3RYMFlieUhCLWp5d3laUC1GVFg0anl2S0lLNXFEdEh5X0d1V0taLThJ?oc=5",
-     "time": "2026-10-30T16:15:59+00:00"
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPQ05ndFlQU3pJVGNZQlRVTGlfMDFrcnFJYUxGSkNoVV9LVG5WVE5kQTNwd0tYMTRIT2NXVEtNNFpzZHhHd1FlSUdMYnBHLWkxUy15TnNXSDJtUjVadV80YWwyejd2Mk5MTFc3OFlYVDl0Y2ZXdUQzQzZUazA4N2QwdWJPcWVTV29lblFF?oc=5",
+     "time": "2026-10-30T13:50:10+00:00"
     },
     {
-     "title": "Zacks Investment Ideas feature highlights: Fortinet, Palo Alto Networks and CrowdStrike",
-     "publisher": "The Globe and Mail",
-     "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQSFJJb0pkTDd1Rm5BbjVtdkhsT1dSNzluN25UMHB4cW9zaEkyYjV5VURFZEtndTVBakwxejFUUDMwWlN5cGVybV8zT2dtOXU0NWpmbnlMa2hMRXFNbVlqa2hULXRBNVBVLXhTbS1keFBYOGw2bVJYV0N4VzFneXZteXdsQWM2VTVuS21EMnphQjQ0dWIteUU0Q0JkazA0NnlTTVZSWkVhMUJTV2o4WjVZWkFVSmlWNmlsMEs0NnVqbzFjN1VCVkhtY1NmTTVLS2kySzRtSHM5bV9OT2lob2t4eFJhekxSZkZ2OEtLWm5lR1FQMGt1ZVZHYXlJYjdlYzg?oc=5",
-     "time": "2026-10-30T12:51:49+00:00"
-    },
-    {
-     "title": "Here is What to Know Beyond Why CrowdStrike (CRWD) is a Trending Stock",
-     "publisher": "Yahoo Finance Singapore",
-     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPWEV4ZzZUWThjcWUtOFlwaERlcmpuUmJPM00tTS1sb1dhUE83NlpXem9vdmN3MS13RWw5Y1IxV1NaTjg5cGRRLV9DWlZUZjJFRG5ndHNIcXB1ckpaZmVPWkV3NTZUbnpaOU5iY3lUd2o3Rk5Gdk5rQ0R5OWR3ZFJhdVBzYWsyeVRW?oc=5",
-     "time": "2026-10-30T12:00:04+00:00"
-    },
-    {
-     "title": "CrowdStrike (CRWD) Flags 129% Law Firm Attack Jump As AI Security Push Deepens",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOSlRMeHN6VVpSVkxyWVFhemM3U19pUkYwUlBYRHVmU0FRU0JMRktMYlR2RVNIY0JkMU5Yd0szVmpUY09vT3Z4UllOTkJWek04cm5vX1ROX3FJU0JYMXowYTNVdExjM21OaGI0NmZvQ2FuMzRhbUJrbTFKZkU2REQ2MmhNT29ESHdTNlR1UmRhSG80ckVEZy1BMktR?oc=5",
-     "time": "2026-10-30T05:21:00+00:00"
-    },
-    {
-     "title": "Does The Move In CrowdStrike Stock Change Anything?",
+     "title": "Can You Make Money Off NVIDIA Stock Now?",
      "publisher": "Trefis",
-     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNEVCM0VBdGllYlpWM3dkWlBtdWNmN3NoQS1SUlRVSW5jclpTN05SR2VIY2x2Yjg1MEMxemhWeEpONVdFOW1Ycm9yM3BETWFVN1lqYm5KNGtwNE5KSW1aWTJUUi13OS1Zdkd3V2c3dFF6dVE4VWJsbVREZDZOSklSNDBlM05XQzlmNDJ4UlJVTjVDX0VHdzMyeEhNcm1wMGhEa01QbXczZldBOFctN2lEMA?oc=5",
-     "time": "2026-10-29T21:43:22+00:00"
-    },
-    {
-     "title": "Could CrowdStrike (NASDAQ:CRWD) Sustain Its Growth Momentum After Raising Guidance?",
-     "publisher": "Kalkine Media",
-     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZlNUS3ZCWkRKQU9zNEYwbkFmNXFJUWZ6SzZ5aURTN05UMHVoRWFObFZjeVBaVFpNYVk5STEybWRXcXVzSnFGTkJoRmdXTllqLVJUVkh0bWdfaGttejdaSWFaVlI1TDVVZDIyRlBmUEl1ZGJBanNWUk1ERU5KODFnTGRDbFhIOXVaZ0ZtVGVKeDk5WXNQUXJMVDFsWkd2ZGRQQTBJNDhKTFdWRThtZG4wNWJkZENoVGV4d0JyQ3pB?oc=5",
-     "time": "2026-10-29T20:26:00+00:00"
-    },
-    {
-     "title": "CrowdStrike Holdings, Inc. (CRWD) Stock Forecasts",
-     "publisher": "Yahoo! Finance Canada",
-     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPR3gxMHFFNXRaLUROM1dmZ2NrRWxVbm9HYVlXdkZvRHJWR09nTHkxVmxOa0JBSmRSOFFHUmJ0WVdqS3YzQ2tFX21jT1pKYkNzR1NKWjJDSXpzekFWQjFjR3hyXzNxTExJLTRrSGhXd3ZQdXM1N0liU05Qank3b1l6aVRHUjJCbzNpY0pUUVAzVWZmd3pJ?oc=5",
-     "time": "2026-10-29T20:04:43+00:00"
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQd3NKR0JBQldHLU45bXdMd1g3ZFBDby0tMURjdVNBelJOUW9OcXJfUmJ6cFN4NkdXUHo5Zkk3Z1pyeHRTMTdfTWNVY3prZmptVEJ2NHdGUmJrVEVGQ2xQUGIxZUs1dTk5Q09rWlRsRGt3UHM0YmdoaERWblc1dzF2RlJURHRyRnZCSi1WekRiazFaVDhEc0VMdFR3Q3V0MjJBaVE?oc=5",
+     "time": "2026-10-30T13:38:19+00:00"
     }
    ],
-   "brief": "2026-10-30-CRWD"
+   "brief": "2026-10-30-NVDA"
   },
   {
    "symbol": "NOW",
    "name": "ServiceNow",
    "list": "portfolio",
-   "price": 104.57,
+   "price": 104.5,
    "prev_close": 109.67,
    "change_pct": -4.7,
    "trigger_change": -3.3,
@@ -633,11 +558,11 @@
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 104.12,
-    "change_pct": -3.57
+    "price": 104.23,
+    "change_pct": -3.46
    },
    "chart": {
-    "ema8": -22.1,
+    "ema8": -22.2,
     "ema21": -25.2,
     "sma50": -24.6,
     "sma200": -9.1,
@@ -696,26 +621,101 @@
    "brief": "2026-10-30-NOW"
   },
   {
+   "symbol": "CRWD",
+   "name": "CrowdStrike",
+   "list": "portfolio",
+   "price": 249.25,
+   "prev_close": 261.15,
+   "change_pct": -4.6,
+   "trigger_change": -3.7,
+   "peak_change": -5.9,
+   "first_seen": "2026-10-30T15:08:18+00:00",
+   "sector": {
+    "etf": "IGV",
+    "name": "Software",
+    "price": 104.23,
+    "change_pct": -3.46
+   },
+   "chart": {
+    "ema8": -2.3,
+    "ema21": -1.3,
+    "sma50": 3.8,
+    "sma200": 49.0,
+    "momentum": true
+   },
+   "headlines": [
+    {
+     "title": "Datadog Sinks 12%, CrowdStrike Falls 4% Despite $6.3 Billion Binance Hack Spotlighting Cyber Defense; Palo Alto and Fortinet Slide 3%",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNak5VOUxjRUNXZlViM2IxVmFJYk5IZ3BDdF9YYnM0NnRLT1hxVTBtb05HRXBqWGxkREpPVUpQWFM5OUd4Tzd6YVZ0WVdiQ3BTa0U1WXlIRTZubmU2b1lQVnZkQ3ZQVWhnOERpTXRETjVJTVgzQlpOWUdxaDA1emNmTWhDdVFGalFJdkJRc0xHLTRVbGVYTjZNekJCaUk5VDRLY0RCNUhYcUk0T0loRFRIME8zb0lOeDJHZUZHcFh3YWQ2anB1RlYyNDRreTllM2NPUi1TSXptUnpWVUNRTll5aGVaeWJQcEZhRnlPM2c5ZUlPZVNTbkpjTmhYZ203d1Vu?oc=5",
+     "time": "2026-10-30T16:49:33+00:00"
+    },
+    {
+     "title": "CrowdStrike Holdings Inc Stock (CRWD) Moved Down by 5.05% on Oct 30: Key Drivers Unveiled",
+     "publisher": "TradingKey",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNMjJCWTg3bXR0TTlqRHJwS1hsUV93Nk1PQUNHcVFJdzRESUItRktpazk4LVJKQzM0NmxDOElaRjBiM1JsVlY2cDFGWFNQalFYbWlNcW5pTTBGZExzZ1VMM0JNa3RYMFlieUhCLWp5d3laUC1GVFg0anl2S0lLNXFEdEh5X0d1V0taLThJ?oc=5",
+     "time": "2026-10-30T16:15:59+00:00"
+    },
+    {
+     "title": "Zacks Investment Ideas feature highlights: Fortinet, Palo Alto Networks and CrowdStrike",
+     "publisher": "The Globe and Mail",
+     "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQSFJJb0pkTDd1Rm5BbjVtdkhsT1dSNzluN25UMHB4cW9zaEkyYjV5VURFZEtndTVBakwxejFUUDMwWlN5cGVybV8zT2dtOXU0NWpmbnlMa2hMRXFNbVlqa2hULXRBNVBVLXhTbS1keFBYOGw2bVJYV0N4VzFneXZteXdsQWM2VTVuS21EMnphQjQ0dWIteUU0Q0JkazA0NnlTTVZSWkVhMUJTV2o4WjVZWkFVSmlWNmlsMEs0NnVqbzFjN1VCVkhtY1NmTTVLS2kySzRtSHM5bV9OT2lob2t4eFJhekxSZkZ2OEtLWm5lR1FQMGt1ZVZHYXlJYjdlYzg?oc=5",
+     "time": "2026-10-30T12:51:49+00:00"
+    },
+    {
+     "title": "Here is What to Know Beyond Why CrowdStrike (CRWD) is a Trending Stock",
+     "publisher": "Yahoo Finance Singapore",
+     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPWEV4ZzZUWThjcWUtOFlwaERlcmpuUmJPM00tTS1sb1dhUE83NlpXem9vdmN3MS13RWw5Y1IxV1NaTjg5cGRRLV9DWlZUZjJFRG5ndHNIcXB1ckpaZmVPWkV3NTZUbnpaOU5iY3lUd2o3Rk5Gdk5rQ0R5OWR3ZFJhdVBzYWsyeVRW?oc=5",
+     "time": "2026-10-30T12:00:04+00:00"
+    },
+    {
+     "title": "CrowdStrike (CRWD) Flags 129% Law Firm Attack Jump As AI Security Push Deepens",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOSlRMeHN6VVpSVkxyWVFhemM3U19pUkYwUlBYRHVmU0FRU0JMRktMYlR2RVNIY0JkMU5Yd0szVmpUY09vT3Z4UllOTkJWek04cm5vX1ROX3FJU0JYMXowYTNVdExjM21OaGI0NmZvQ2FuMzRhbUJrbTFKZkU2REQ2MmhNT29ESHdTNlR1UmRhSG80ckVEZy1BMktR?oc=5",
+     "time": "2026-10-30T05:21:00+00:00"
+    },
+    {
+     "title": "Does The Move In CrowdStrike Stock Change Anything?",
+     "publisher": "Trefis",
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNEVCM0VBdGllYlpWM3dkWlBtdWNmN3NoQS1SUlRVSW5jclpTN05SR2VIY2x2Yjg1MEMxemhWeEpONVdFOW1Ycm9yM3BETWFVN1lqYm5KNGtwNE5KSW1aWTJUUi13OS1Zdkd3V2c3dFF6dVE4VWJsbVREZDZOSklSNDBlM05XQzlmNDJ4UlJVTjVDX0VHdzMyeEhNcm1wMGhEa01QbXczZldBOFctN2lEMA?oc=5",
+     "time": "2026-10-29T21:43:22+00:00"
+    },
+    {
+     "title": "Could CrowdStrike (NASDAQ:CRWD) Sustain Its Growth Momentum After Raising Guidance?",
+     "publisher": "Kalkine Media",
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZlNUS3ZCWkRKQU9zNEYwbkFmNXFJUWZ6SzZ5aURTN05UMHVoRWFObFZjeVBaVFpNYVk5STEybWRXcXVzSnFGTkJoRmdXTllqLVJUVkh0bWdfaGttejdaSWFaVlI1TDVVZDIyRlBmUEl1ZGJBanNWUk1ERU5KODFnTGRDbFhIOXVaZ0ZtVGVKeDk5WXNQUXJMVDFsWkd2ZGRQQTBJNDhKTFdWRThtZG4wNWJkZENoVGV4d0JyQ3pB?oc=5",
+     "time": "2026-10-29T20:26:00+00:00"
+    },
+    {
+     "title": "CrowdStrike Holdings, Inc. (CRWD) Stock Forecasts",
+     "publisher": "Yahoo! Finance Canada",
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPR3gxMHFFNXRaLUROM1dmZ2NrRWxVbm9HYVlXdkZvRHJWR09nTHkxVmxOa0JBSmRSOFFHUmJ0WVdqS3YzQ2tFX21jT1pKYkNzR1NKWjJDSXpzekFWQjFjR3hyXzNxTExJLTRrSGhXd3ZQdXM1N0liU05Qank3b1l6aVRHUjJCbzNpY0pUUVAzVWZmd3pJ?oc=5",
+     "time": "2026-10-29T20:04:43+00:00"
+    }
+   ],
+   "brief": "2026-10-30-CRWD"
+  },
+  {
    "symbol": "AXON",
    "name": "Axon",
    "list": "watchlist",
-   "price": 426.37,
+   "price": 426.55,
    "prev_close": 438.05,
-   "change_pct": -2.7,
+   "change_pct": -2.6,
    "trigger_change": -3.1,
    "peak_change": -3.3,
    "first_seen": "2026-10-30T17:09:19+00:00",
    "sector": {
     "etf": "XLI",
     "name": "Industrials",
-    "price": 167.04,
-    "change_pct": -1.82
+    "price": 166.88,
+    "change_pct": -1.91
    },
    "chart": {
     "ema8": 0.9,
     "ema21": 0.7,
     "sma50": -8.0,
-    "sma200": -11.0,
+    "sma200": -10.9,
     "momentum": false
    },
    "headlines": [
