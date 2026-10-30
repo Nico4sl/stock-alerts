@@ -1,5 +1,46 @@
 {
  "date": "2026-10-30",
  "threshold": 3.0,
- "movers": []
+ "movers": [
+  {
+   "id": "2026-10-30-NBIS",
+   "symbol": "NBIS",
+   "name": "Nebius",
+   "list": "portfolio",
+   "trigger_change": -7.0,
+   "first_seen": "2026-10-30T14:04:25+00:00"
+  },
+  {
+   "id": "2026-10-30-ANET",
+   "symbol": "ANET",
+   "name": "Arista Networks",
+   "list": "portfolio",
+   "trigger_change": -6.4,
+   "first_seen": "2026-10-30T14:04:25+00:00"
+  },
+  {
+   "id": "2026-10-30-APP",
+   "symbol": "APP",
+   "name": "AppLovin",
+   "list": "portfolio",
+   "trigger_change": -5.6,
+   "first_seen": "2026-10-30T14:04:25+00:00"
+  },
+  {
+   "id": "2026-10-30-AMAT",
+   "symbol": "AMAT",
+   "name": "Applied Materials",
+   "list": "portfolio",
+   "trigger_change": -4.9,
+   "first_seen": "2026-10-30T14:04:25+00:00"
+  },
+  {
+   "id": "2026-10-30-AVGO",
+   "symbol": "AVGO",
+   "name": "Broadcom",
+   "list": "portfolio",
+   "trigger_change": -4.7,
+   "first_seen": "2026-10-30T14:04:25+00:00"
+  }
+ ]
 }
