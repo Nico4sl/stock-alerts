@@ -1,22 +1,22 @@
 {
  "date": "2026-10-30",
  "threshold": 3.0,
- "updated": "2026-10-30T16:23:56+00:00",
+ "updated": "2026-10-30T16:49:10+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 756.99,
-   "change_pct": -1.61
+   "price": 756.12,
+   "change_pct": -1.72
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 691.87,
-   "change_pct": -3.28
+   "price": 690.39,
+   "change_pct": -3.49
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 81.59,
-   "change_pct": 0.12
+   "price": 81.62,
+   "change_pct": 0.16
   }
  },
  "movers": [
@@ -24,23 +24,23 @@
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 156.87,
+   "price": 153.24,
    "prev_close": 171.99,
-   "change_pct": -8.8,
+   "change_pct": -10.9,
    "trigger_change": -7.0,
-   "peak_change": -8.9,
+   "peak_change": -10.9,
    "first_seen": "2026-10-30T14:04:25+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 104.39,
-    "change_pct": -3.31
+    "price": 103.9,
+    "change_pct": -3.77
    },
    "chart": {
-    "ema8": -7.2,
-    "ema21": -15.2,
-    "sma50": -25.2,
-    "sma200": -11.6,
+    "ema8": -8.9,
+    "ema21": -17.0,
+    "sma50": -26.9,
+    "sma200": -13.7,
     "momentum": false
    },
    "headlines": [
@@ -96,101 +96,26 @@
    "brief": "2026-10-30-NBIS"
   },
   {
-   "symbol": "APP",
-   "name": "AppLovin",
-   "list": "portfolio",
-   "price": 233.14,
-   "prev_close": 254.91,
-   "change_pct": -8.5,
-   "trigger_change": -5.6,
-   "peak_change": -8.7,
-   "first_seen": "2026-10-30T14:04:25+00:00",
-   "sector": {
-    "etf": "IGV",
-    "name": "Software",
-    "price": 104.39,
-    "change_pct": -3.31
-   },
-   "chart": {
-    "ema8": -8.8,
-    "ema21": -13.5,
-    "sma50": -20.8,
-    "sma200": -43.9,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "AppLovin Slides as Investors Weigh Slower Growth Signals Ahead of Earnings",
-     "publisher": "Quiver Quantitative",
-     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPd0p4eUpla3BZbjJmNnhKRlhOajRyaGtYUUxoUkVaYXpScVFlcUNYRzFrMXJsWlNlUlB6N3JzZWU0Nlh2cFFmTHNJVWRnYTVZc2hqNmNGZDBtdDN6NXNNNTVrYkZUcTFGSG1OU3JabmVNSEdubkNXUS1XMG5MM0FpMmFxQVlWbHdkQ2hmLWpmV3FyY1NDdDJZZktReWNpYUJoakczeDV0Q2xfbUk?oc=5",
-     "time": "2026-10-30T14:50:00+00:00"
-    },
-    {
-     "title": "Here's How Much $100 Invested In AppLovin 15 Years Ago Would Be Worth Today",
-     "publisher": "Benzinga",
-     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQbWY1d3E5THRZQ1JjZUNCcnlQNUkwYzBCcXlMNlUzU1dvNUdxRVVxR1VjSDl4LUQwT0U5MWhNZnB4bVJZUFFzVmNSWld5YWZ4Wjd2T3JkU1FHUzhnTU1uTUVZSmhza2cxNi1RbWw1dlRnNXFkdjhuTVhIZFlkRUJSYUxUdWZlemlTT0NuaDhjM1dsNERYdXMtcnNQd243VE5nYng3cGJMTEV4Tk1EdHFsV09KUEJjZzA?oc=5",
-     "time": "2026-10-30T14:15:24+00:00"
-    },
-    {
-     "title": "Is Wall Street Bullish or Bearish on AppLovin\u2019s Stock?",
-     "publisher": "Barchart.com",
-     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNYWl0dm5JT2t1ZlBqa2tndXhUTDRNc3dBVmFkRTJCMjRtNVhha2hEWjF4M3Nfd05FMS1tX0hJWkpsZVRIQllNaTBBMm1SZVhTdFFzNTVrV0JDYWFzMGFXTjJ4QjNXWXR4NjAwelVBbTR1alpvVkpGVmNoWXhTNFpUa1AyQWVMcW94dE5DZ3hnMGV6SDNqWlhTVWhMMFk?oc=5",
-     "time": "2026-10-30T12:36:45+00:00"
-    },
-    {
-     "title": "Is Trending Stock AppLovin Corporation (APP) a Buy Now?",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOb2JMUlVZV0E4dzdvN0daM1RPLWhUOXhhamlSOWhwMFlMODdtTmN0alJWLTN6X2pTcEdhSmRfZVM4MmtLdzhyWklYYXJRZ0xxSDNldVcyZEdwUjM3cGFLVDRFX2NFRlVTSUZqa01td3lDZ0lkVGV2dmJQdEs5dzBvMjdKUXFkT3JCeVVOZjVKVDhzNGJyWmlNaFpaSDF0WTltdWJtbG9EWQ?oc=5",
-     "time": "2026-10-30T12:00:04+00:00"
-    },
-    {
-     "title": "Applovin (bStocks Tokenized Stock) Price: APPB/USD Live Price Chart, Market Cap & News Today",
-     "publisher": "CoinGecko",
-     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9FbzdhR21ORkFXNWVoeHhNQklJM283OThDRWJydnlXOEk3WW1Ya2hfNU0wbW1OcmFybUFYZTBiMXRjaERpZFlVdm00X1BKTXRfSGpxMVFBUkh1YjlCbWpHa05pbVRRc2pKTUVqcGczcHNGUHU5alE?oc=5",
-     "time": "2026-10-30T11:22:01+00:00"
-    },
-    {
-     "title": "AppLovin stock hits annual low as RBC, UBS cut targets ahead of results",
-     "publisher": "ad-hoc-news.de",
-     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPajlUY2RldC1CcFpBYVdYWjBOSXZlRmNMLUk0ZUpycnNQdmdfSk12ZzJpT25GUGMxcHk1UlpZQWJOd090cDhqQ0c4ZHh1X0Z5MWpmeU1jcmRhSk9USkozTXVYUndVMll1am0zTWZIUEY1VzZHdDJIbmRYRHpZaFRseGc2eVVqb3JkMTB1ZlVQeGdsY2RnU3VscnhlWGVjbVMyVnhPaTQ4NEVBQUdvaXl6Sy05YlgzTEdsYU9ZVlc5bk9HeVgzRERMRXdsNHoxQQ?oc=5",
-     "time": "2026-10-30T09:32:00+00:00"
-    },
-    {
-     "title": "Why Did NFLX, MBLY, APP Stocks Tumble To 52-Week Lows?",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNY0Nja2xpQlVKWVZyYlowaGV0RTdxeTBHMnBTcU9KLUhRRXZRUWk4d1ZHaXNNR0U1d203bWROcXc1OVo2OUxUakVEbXNTSTNtZ1JFX2pYRG9pdzhxZWUtcmhJTFpqeE1WNW16ZktxaHdGa1NOZzRCdTN1dFpZeFd4WUp5VUR1ZVExWndvV2pXWQ?oc=5",
-     "time": "2026-10-30T03:23:00+00:00"
-    },
-    {
-     "title": "APP Stock On Track For 9-Day Losing Streak After Unity Ad Dispute Ruling \u2014 Wedbush Flags Competitive Shift",
-     "publisher": "Stocktwits",
-     "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPWnJOOWVEMnJaTW1ieEpaRGNoajczZURobEh0Qk9Cdk1tdHZwc3NMdWV3QjFiV2Noc2I0Y2Joc1lPbEhCNXlhbkx4dF9PbG91Qmg1Mm81WHZuOUlHbW10ODBnY2YxV0RZdDVSY2tDNlFfRE9KRm9kOEkxMVNsYmFjVGNPcGlyX0JjNTdmOVBXQXBKYnMxb29uUlpFaHYtYzlGRHRuTzRsRmxkTTZHdnc3dlZMUjRDc1BZVDNwbWhuR3F2clg2SHRDSTZGTHJuZXlvdm9PV2ZjWXEwaGUtR3B6WVF3Yi1HcVRLMHd5eTJrSGw3dm5DUEV1bnZfdVo?oc=5",
-     "time": "2026-10-30T00:47:28+00:00"
-    }
-   ],
-   "brief": "2026-10-30-APP"
-  },
-  {
    "symbol": "ANET",
    "name": "Arista Networks",
    "list": "portfolio",
-   "price": 169.88,
+   "price": 168.68,
    "prev_close": 184.22,
-   "change_pct": -7.8,
+   "change_pct": -8.4,
    "trigger_change": -6.4,
-   "peak_change": -7.9,
+   "peak_change": -8.4,
    "first_seen": "2026-10-30T14:04:25+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 521.94,
-    "change_pct": -7.07
+    "price": 519.09,
+    "change_pct": -7.58
    },
    "chart": {
-    "ema8": -5.9,
-    "ema21": -9.5,
-    "sma50": -13.0,
-    "sma200": 2.9,
+    "ema8": -6.4,
+    "ema21": -10.1,
+    "sma50": -13.6,
+    "sma200": 2.1,
     "momentum": false
    },
    "headlines": [
@@ -246,26 +171,101 @@
    "brief": "2026-10-30-ANET"
   },
   {
+   "symbol": "APP",
+   "name": "AppLovin",
+   "list": "portfolio",
+   "price": 233.53,
+   "prev_close": 254.91,
+   "change_pct": -8.4,
+   "trigger_change": -5.6,
+   "peak_change": -8.7,
+   "first_seen": "2026-10-30T14:04:25+00:00",
+   "sector": {
+    "etf": "IGV",
+    "name": "Software",
+    "price": 103.9,
+    "change_pct": -3.77
+   },
+   "chart": {
+    "ema8": -8.7,
+    "ema21": -13.3,
+    "sma50": -20.6,
+    "sma200": -43.8,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "AppLovin Slides as Investors Weigh Slower Growth Signals Ahead of Earnings",
+     "publisher": "Quiver Quantitative",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPd0p4eUpla3BZbjJmNnhKRlhOajRyaGtYUUxoUkVaYXpScVFlcUNYRzFrMXJsWlNlUlB6N3JzZWU0Nlh2cFFmTHNJVWRnYTVZc2hqNmNGZDBtdDN6NXNNNTVrYkZUcTFGSG1OU3JabmVNSEdubkNXUS1XMG5MM0FpMmFxQVlWbHdkQ2hmLWpmV3FyY1NDdDJZZktReWNpYUJoakczeDV0Q2xfbUk?oc=5",
+     "time": "2026-10-30T14:50:00+00:00"
+    },
+    {
+     "title": "Here's How Much $100 Invested In AppLovin 15 Years Ago Would Be Worth Today",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQbWY1d3E5THRZQ1JjZUNCcnlQNUkwYzBCcXlMNlUzU1dvNUdxRVVxR1VjSDl4LUQwT0U5MWhNZnB4bVJZUFFzVmNSWld5YWZ4Wjd2T3JkU1FHUzhnTU1uTUVZSmhza2cxNi1RbWw1dlRnNXFkdjhuTVhIZFlkRUJSYUxUdWZlemlTT0NuaDhjM1dsNERYdXMtcnNQd243VE5nYng3cGJMTEV4Tk1EdHFsV09KUEJjZzA?oc=5",
+     "time": "2026-10-30T14:15:24+00:00"
+    },
+    {
+     "title": "Is Wall Street Bullish or Bearish on AppLovin\u2019s Stock?",
+     "publisher": "Barchart.com",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNYWl0dm5JT2t1ZlBqa2tndXhUTDRNc3dBVmFkRTJCMjRtNVhha2hEWjF4M3Nfd05FMS1tX0hJWkpsZVRIQllNaTBBMm1SZVhTdFFzNTVrV0JDYWFzMGFXTjJ4QjNXWXR4NjAwelVBbTR1alpvVkpGVmNoWXhTNFpUa1AyQWVMcW94dE5DZ3hnMGV6SDNqWlhTVWhMMFk?oc=5",
+     "time": "2026-10-30T12:36:45+00:00"
+    },
+    {
+     "title": "Is Trending Stock AppLovin Corporation (APP) a Buy Now?",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOb2JMUlVZV0E4dzdvN0daM1RPLWhUOXhhamlSOWhwMFlMODdtTmN0alJWLTN6X2pTcEdhSmRfZVM4MmtLdzhyWklYYXJRZ0xxSDNldVcyZEdwUjM3cGFLVDRFX2NFRlVTSUZqa01td3lDZ0lkVGV2dmJQdEs5dzBvMjdKUXFkT3JCeVVOZjVKVDhzNGJyWmlNaFpaSDF0WTltdWJtbG9EWQ?oc=5",
+     "time": "2026-10-30T12:00:04+00:00"
+    },
+    {
+     "title": "Applovin (bStocks Tokenized Stock) Price: APPB/USD Live Price Chart, Market Cap & News Today",
+     "publisher": "CoinGecko",
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9FbzdhR21ORkFXNWVoeHhNQklJM283OThDRWJydnlXOEk3WW1Ya2hfNU0wbW1OcmFybUFYZTBiMXRjaERpZFlVdm00X1BKTXRfSGpxMVFBUkh1YjlCbWpHa05pbVRRc2pKTUVqcGczcHNGUHU5alE?oc=5",
+     "time": "2026-10-30T11:22:01+00:00"
+    },
+    {
+     "title": "AppLovin stock hits annual low as RBC, UBS cut targets ahead of results",
+     "publisher": "ad-hoc-news.de",
+     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPajlUY2RldC1CcFpBYVdYWjBOSXZlRmNMLUk0ZUpycnNQdmdfSk12ZzJpT25GUGMxcHk1UlpZQWJOd090cDhqQ0c4ZHh1X0Z5MWpmeU1jcmRhSk9USkozTXVYUndVMll1am0zTWZIUEY1VzZHdDJIbmRYRHpZaFRseGc2eVVqb3JkMTB1ZlVQeGdsY2RnU3VscnhlWGVjbVMyVnhPaTQ4NEVBQUdvaXl6Sy05YlgzTEdsYU9ZVlc5bk9HeVgzRERMRXdsNHoxQQ?oc=5",
+     "time": "2026-10-30T09:32:00+00:00"
+    },
+    {
+     "title": "Why Did NFLX, MBLY, APP Stocks Tumble To 52-Week Lows?",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNY0Nja2xpQlVKWVZyYlowaGV0RTdxeTBHMnBTcU9KLUhRRXZRUWk4d1ZHaXNNR0U1d203bWROcXc1OVo2OUxUakVEbXNTSTNtZ1JFX2pYRG9pdzhxZWUtcmhJTFpqeE1WNW16ZktxaHdGa1NOZzRCdTN1dFpZeFd4WUp5VUR1ZVExWndvV2pXWQ?oc=5",
+     "time": "2026-10-30T03:23:00+00:00"
+    },
+    {
+     "title": "APP Stock On Track For 9-Day Losing Streak After Unity Ad Dispute Ruling \u2014 Wedbush Flags Competitive Shift",
+     "publisher": "Stocktwits",
+     "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPWnJOOWVEMnJaTW1ieEpaRGNoajczZURobEh0Qk9Cdk1tdHZwc3NMdWV3QjFiV2Noc2I0Y2Joc1lPbEhCNXlhbkx4dF9PbG91Qmg1Mm81WHZuOUlHbW10ODBnY2YxV0RZdDVSY2tDNlFfRE9KRm9kOEkxMVNsYmFjVGNPcGlyX0JjNTdmOVBXQXBKYnMxb29uUlpFaHYtYzlGRHRuTzRsRmxkTTZHdnc3dlZMUjRDc1BZVDNwbWhuR3F2clg2SHRDSTZGTHJuZXlvdm9PV2ZjWXEwaGUtR3B6WVF3Yi1HcVRLMHd5eTJrSGw3dm5DUEV1bnZfdVo?oc=5",
+     "time": "2026-10-30T00:47:28+00:00"
+    }
+   ],
+   "brief": "2026-10-30-APP"
+  },
+  {
    "symbol": "AMAT",
    "name": "Applied Materials",
    "list": "portfolio",
-   "price": 389.61,
+   "price": 387.5,
    "prev_close": 421.66,
-   "change_pct": -7.6,
+   "change_pct": -8.1,
    "trigger_change": -4.9,
-   "peak_change": -7.7,
+   "peak_change": -8.1,
    "first_seen": "2026-10-30T14:04:25+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 521.94,
-    "change_pct": -7.07
+    "price": 519.09,
+    "change_pct": -7.58
    },
    "chart": {
-    "ema8": -3.9,
-    "ema21": -9.3,
-    "sma50": -14.9,
-    "sma200": -12.3,
+    "ema8": -4.3,
+    "ema21": -9.8,
+    "sma50": -15.3,
+    "sma200": -12.8,
     "momentum": false
    },
    "headlines": [
@@ -324,23 +324,23 @@
    "symbol": "AVGO",
    "name": "Broadcom",
    "list": "portfolio",
-   "price": 325.16,
+   "price": 323.36,
    "prev_close": 345.0,
-   "change_pct": -5.8,
+   "change_pct": -6.3,
    "trigger_change": -4.7,
-   "peak_change": -5.8,
+   "peak_change": -6.3,
    "first_seen": "2026-10-30T14:04:25+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 521.94,
-    "change_pct": -7.07
+    "price": 519.09,
+    "change_pct": -7.58
    },
    "chart": {
-    "ema8": -3.5,
-    "ema21": -5.1,
-    "sma50": -7.8,
-    "sma200": -11.6,
+    "ema8": -3.9,
+    "ema21": -5.6,
+    "sma50": -8.3,
+    "sma200": -12.1,
     "momentum": false
    },
    "headlines": [
@@ -396,101 +396,26 @@
    "brief": "2026-10-30-AVGO"
   },
   {
-   "symbol": "SOFI",
-   "name": "SoFi",
-   "list": "portfolio",
-   "price": 16.65,
-   "prev_close": 17.61,
-   "change_pct": -5.5,
-   "trigger_change": -4.2,
-   "peak_change": -5.5,
-   "first_seen": "2026-10-30T14:09:27+00:00",
-   "sector": {
-    "etf": "XLF",
-    "name": "Financials",
-    "price": 56.62,
-    "change_pct": -0.55
-   },
-   "chart": {
-    "ema8": 3.1,
-    "ema21": 5.3,
-    "sma50": 0.5,
-    "sma200": -6.4,
-    "momentum": true
-   },
-   "headlines": [
-    {
-     "title": "JPMorgan Launches SOFI-Linked Auto-Callable Notes Maturing November 2027",
-     "publisher": "Kalkine Media",
-     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNSDI1Y3BUQmFpc2xOaVEzUTBTZDhubjZQSFNMUGxfOFFGUm5nSl9Kdk03YU93RlRiWHNWaEVNZWJPejE5RDhxbjBHS1hmYmVBa0M3U21pUjJKQTlHSi1MT1pzVlpoWUZhb0I5YnFfXzhobnRxRWlaSDFxajBxMXZCVUVYQVBBTWl2UXFad21SbzdwRmhFVWFGRFZ4LVhqTjM0Uk5ObVV3cnI4WG1rSUhWblZiVnRwSkFsRGpz?oc=5",
-     "time": "2026-10-30T13:35:32+00:00"
-    },
-    {
-     "title": "SoFi Technologies: 2027 Growth Outlook Looks Underpriced",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPVGdwWEJYaWZDNkZLcHg4MnEydXZpOGRwYkNKRjk1c2t2aFR6US1pcTdCV290MXRZTGs5VnpuWUZMa3FaOGhMMkhKeFhCVlRJWVdVOW03SUJuSnpqY29RanJCdmVGd1BZdEllWTdOUzNLTS1mbk1UNFdiRXlORWRpamRrVEJBUDdUUzJ1NzdiZjFMT3pDMXZDcHljNDRfbUVC?oc=5",
-     "time": "2026-10-30T12:45:00+00:00"
-    },
-    {
-     "title": "SoFi Technologies, Inc. (SOFI) Stock Forecasts",
-     "publisher": "Yahoo! Finance Canada",
-     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNcnd5RkdPX01YY090cXBfTzdmbV9XSGk4TXJNV28yZTF6VHVvZWo4T18yUXpuS2NXaUJfamI2U2FhOExMRjZxaHdhMzQ2c3NoVk4wRkR4dE5zWTNjRk9xOXpPdXNrZHlsbXQ4ck9iZG5fS3lDdkE3Z1NHd0FCQWFBVWgtakJQUUZBZkVGV0NFS2M?oc=5",
-     "time": "2026-10-30T04:21:35+00:00"
-    },
-    {
-     "title": "SoFi Technologies (NASDAQ:SOFI) Stock Jumps 2.7% on Analyst Upgrade",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNWUpEaU0zMHlDeWhOVjI1U2xGZzBpaU5BbGtGX3RKWEt3MnNSUGdfRGtVbXFiQmVKUV9fV0U3VkM2cFhIbnhsZTVoYVBPRzBGejhBZTdjaXRoV1lVV3BXMnp6ajVrN3FnNVZOa013LUEtc1Bwa05nc3FxcTZHVUY4NHA5ei00eXFHeG5nU01JbkJDRXhOWnYxOUVjWGhkQWZoX3J2bk45Vkx2bDlUSml1dndDT0Q0Um5oRUU4dVloSVI?oc=5",
-     "time": "2026-10-29T21:11:39+00:00"
-    },
-    {
-     "title": "About SoFi Technologies, Inc. (Coinbase Tokenized Stock)",
-     "publisher": "Coinbase",
-     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQVnVJS2dQVk1WVDFVNEgxYTRGMHZuR2dXeTlyN2tLaVFMRjVYWGxFS0hKWG15WHNnSWI5RUE1bkFBNUlqRWRKdjdvLVNNVU5TRm9PQm1lUU9ERFd5SDBweHBHRzJJTkVCcWhZQ1FlQ2RsY25TRnNiRFV0eE40VV9uWmswM3hCSEdsdEoyN0xpMjhBcjdMYVFnZWJEbFZ0YWtyNDd4aEpubnAzdw?oc=5",
-     "time": "2026-10-29T20:39:17+00:00"
-    },
-    {
-     "title": "Is SoFi Stock a Buy After Falling 43% in 2026?",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQS1JPNUNhWjJSV0FqVVNZdWJSWFF6aDc3MHo5M2FKZlhOd0lXeHBENXB2WFd0REVNcHhXWUEwV1ozQ3hNRkpGa2RvNHdJWFdrazMxU3NHTlVwb2cyYWo4ejI3emx5M1E3eTRPS185TzVoS0hwbGExenRiX1laZ2tYODZvaGt0UV93eC1tODlJT05QNmxj?oc=5",
-     "time": "2026-10-29T19:05:00+00:00"
-    },
-    {
-     "title": "SoFi CEO Planned for \u201cTwo Rate Cuts.\u201d He Got a Hike, Then Raised His Outlook Anyway",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNdXdoTUo5bXJrbjhVWEpseGxwWHpZOHRKS0RWSG9MSGczRXVhYTFuMXlWY3VLN3lWN1dBY2hNZmlhM1N6V19Ca0JwTUlHSjdzQ0pVRVh1Y3RBVF93VHBBaXNha2VUSDVNR0lPMGlKRjFNc3ZlaFVfRmpMOWpYOTh0eTFKU18wOUJjOXY4aEZUZVNpaHNo?oc=5",
-     "time": "2026-10-29T18:52:50+00:00"
-    },
-    {
-     "title": "SoFi\u2019s Recent 13% Upward Burst Means Execution Is Now a Must",
-     "publisher": "24/7 Wall St.",
-     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOYzRlVVRIYUo4SmlKTXgxYnk1UnlRTnNRc1lMblF2TllMRTF2Y3ZPUUMtUjNLRmg5UU9MVHpYa2p4WVItUUhFWFdxQkRiZi1rY2ZGWkJ1RTVyOGpUd3pER1J5MUE2RDBJY1paaDBwRW1WTU93OEY2aFN1ZE96WVBFMUVpMzZONGUtSVY3UExRUm5sWFBSYU9CbVZ2VVNvVVh3b19lOA?oc=5",
-     "time": "2026-10-29T15:45:00+00:00"
-    }
-   ],
-   "brief": "2026-10-30-SOFI"
-  },
-  {
    "symbol": "CRWD",
    "name": "CrowdStrike",
    "list": "portfolio",
-   "price": 247.94,
+   "price": 245.9,
    "prev_close": 261.15,
-   "change_pct": -5.1,
+   "change_pct": -5.8,
    "trigger_change": -3.7,
-   "peak_change": -5.1,
+   "peak_change": -5.9,
    "first_seen": "2026-10-30T15:08:18+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 104.39,
-    "change_pct": -3.31
+    "price": 103.9,
+    "change_pct": -3.77
    },
    "chart": {
-    "ema8": -2.7,
-    "ema21": -1.7,
-    "sma50": 3.2,
-    "sma200": 48.3,
+    "ema8": -3.4,
+    "ema21": -2.5,
+    "sma50": 2.4,
+    "sma200": 47.1,
     "momentum": true
    },
    "headlines": [
@@ -546,26 +471,101 @@
    "brief": "2026-10-30-CRWD"
   },
   {
+   "symbol": "SOFI",
+   "name": "SoFi",
+   "list": "portfolio",
+   "price": 16.71,
+   "prev_close": 17.61,
+   "change_pct": -5.1,
+   "trigger_change": -4.2,
+   "peak_change": -5.5,
+   "first_seen": "2026-10-30T14:09:27+00:00",
+   "sector": {
+    "etf": "XLF",
+    "name": "Financials",
+    "price": 56.62,
+    "change_pct": -0.56
+   },
+   "chart": {
+    "ema8": 3.4,
+    "ema21": 5.7,
+    "sma50": 0.8,
+    "sma200": -6.0,
+    "momentum": true
+   },
+   "headlines": [
+    {
+     "title": "JPMorgan Launches SOFI-Linked Auto-Callable Notes Maturing November 2027",
+     "publisher": "Kalkine Media",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNSDI1Y3BUQmFpc2xOaVEzUTBTZDhubjZQSFNMUGxfOFFGUm5nSl9Kdk03YU93RlRiWHNWaEVNZWJPejE5RDhxbjBHS1hmYmVBa0M3U21pUjJKQTlHSi1MT1pzVlpoWUZhb0I5YnFfXzhobnRxRWlaSDFxajBxMXZCVUVYQVBBTWl2UXFad21SbzdwRmhFVWFGRFZ4LVhqTjM0Uk5ObVV3cnI4WG1rSUhWblZiVnRwSkFsRGpz?oc=5",
+     "time": "2026-10-30T13:35:32+00:00"
+    },
+    {
+     "title": "SoFi Technologies: 2027 Growth Outlook Looks Underpriced",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPVGdwWEJYaWZDNkZLcHg4MnEydXZpOGRwYkNKRjk1c2t2aFR6US1pcTdCV290MXRZTGs5VnpuWUZMa3FaOGhMMkhKeFhCVlRJWVdVOW03SUJuSnpqY29RanJCdmVGd1BZdEllWTdOUzNLTS1mbk1UNFdiRXlORWRpamRrVEJBUDdUUzJ1NzdiZjFMT3pDMXZDcHljNDRfbUVC?oc=5",
+     "time": "2026-10-30T12:45:00+00:00"
+    },
+    {
+     "title": "SoFi Technologies, Inc. (SOFI) Stock Forecasts",
+     "publisher": "Yahoo! Finance Canada",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNcnd5RkdPX01YY090cXBfTzdmbV9XSGk4TXJNV28yZTF6VHVvZWo4T18yUXpuS2NXaUJfamI2U2FhOExMRjZxaHdhMzQ2c3NoVk4wRkR4dE5zWTNjRk9xOXpPdXNrZHlsbXQ4ck9iZG5fS3lDdkE3Z1NHd0FCQWFBVWgtakJQUUZBZkVGV0NFS2M?oc=5",
+     "time": "2026-10-30T04:21:35+00:00"
+    },
+    {
+     "title": "SoFi Technologies (NASDAQ:SOFI) Stock Jumps 2.7% on Analyst Upgrade",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNWUpEaU0zMHlDeWhOVjI1U2xGZzBpaU5BbGtGX3RKWEt3MnNSUGdfRGtVbXFiQmVKUV9fV0U3VkM2cFhIbnhsZTVoYVBPRzBGejhBZTdjaXRoV1lVV3BXMnp6ajVrN3FnNVZOa013LUEtc1Bwa05nc3FxcTZHVUY4NHA5ei00eXFHeG5nU01JbkJDRXhOWnYxOUVjWGhkQWZoX3J2bk45Vkx2bDlUSml1dndDT0Q0Um5oRUU4dVloSVI?oc=5",
+     "time": "2026-10-29T21:11:39+00:00"
+    },
+    {
+     "title": "About SoFi Technologies, Inc. (Coinbase Tokenized Stock)",
+     "publisher": "Coinbase",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQVnVJS2dQVk1WVDFVNEgxYTRGMHZuR2dXeTlyN2tLaVFMRjVYWGxFS0hKWG15WHNnSWI5RUE1bkFBNUlqRWRKdjdvLVNNVU5TRm9PQm1lUU9ERFd5SDBweHBHRzJJTkVCcWhZQ1FlQ2RsY25TRnNiRFV0eE40VV9uWmswM3hCSEdsdEoyN0xpMjhBcjdMYVFnZWJEbFZ0YWtyNDd4aEpubnAzdw?oc=5",
+     "time": "2026-10-29T20:39:17+00:00"
+    },
+    {
+     "title": "Is SoFi Stock a Buy After Falling 43% in 2026?",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQS1JPNUNhWjJSV0FqVVNZdWJSWFF6aDc3MHo5M2FKZlhOd0lXeHBENXB2WFd0REVNcHhXWUEwV1ozQ3hNRkpGa2RvNHdJWFdrazMxU3NHTlVwb2cyYWo4ejI3emx5M1E3eTRPS185TzVoS0hwbGExenRiX1laZ2tYODZvaGt0UV93eC1tODlJT05QNmxj?oc=5",
+     "time": "2026-10-29T19:05:00+00:00"
+    },
+    {
+     "title": "SoFi CEO Planned for \u201cTwo Rate Cuts.\u201d He Got a Hike, Then Raised His Outlook Anyway",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNdXdoTUo5bXJrbjhVWEpseGxwWHpZOHRKS0RWSG9MSGczRXVhYTFuMXlWY3VLN3lWN1dBY2hNZmlhM1N6V19Ca0JwTUlHSjdzQ0pVRVh1Y3RBVF93VHBBaXNha2VUSDVNR0lPMGlKRjFNc3ZlaFVfRmpMOWpYOTh0eTFKU18wOUJjOXY4aEZUZVNpaHNo?oc=5",
+     "time": "2026-10-29T18:52:50+00:00"
+    },
+    {
+     "title": "SoFi\u2019s Recent 13% Upward Burst Means Execution Is Now a Must",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOYzRlVVRIYUo4SmlKTXgxYnk1UnlRTnNRc1lMblF2TllMRTF2Y3ZPUUMtUjNLRmg5UU9MVHpYa2p4WVItUUhFWFdxQkRiZi1rY2ZGWkJ1RTVyOGpUd3pER1J5MUE2RDBJY1paaDBwRW1WTU93OEY2aFN1ZE96WVBFMUVpMzZONGUtSVY3UExRUm5sWFBSYU9CbVZ2VVNvVVh3b19lOA?oc=5",
+     "time": "2026-10-29T15:45:00+00:00"
+    }
+   ],
+   "brief": "2026-10-30-SOFI"
+  },
+  {
    "symbol": "NVDA",
    "name": "Nvidia",
    "list": "portfolio",
-   "price": 204.74,
+   "price": 203.72,
    "prev_close": 213.66,
-   "change_pct": -4.2,
+   "change_pct": -4.6,
    "trigger_change": -3.1,
-   "peak_change": -4.2,
+   "peak_change": -4.6,
    "first_seen": "2026-10-30T14:19:29+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 521.94,
-    "change_pct": -7.07
+    "price": 519.09,
+    "change_pct": -7.58
    },
    "chart": {
-    "ema8": -4.1,
-    "ema21": -6.3,
-    "sma50": -7.7,
-    "sma200": 0.2,
+    "ema8": -4.5,
+    "ema21": -6.7,
+    "sma50": -8.1,
+    "sma200": -0.3,
     "momentum": false
    },
    "headlines": [
@@ -624,23 +624,23 @@
    "symbol": "NOW",
    "name": "ServiceNow",
    "list": "portfolio",
-   "price": 105.18,
+   "price": 105.11,
    "prev_close": 109.67,
-   "change_pct": -4.1,
+   "change_pct": -4.2,
    "trigger_change": -3.3,
    "peak_change": -4.4,
    "first_seen": "2026-10-30T15:08:18+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 104.39,
-    "change_pct": -3.31
+    "price": 103.9,
+    "change_pct": -3.77
    },
    "chart": {
     "ema8": -21.8,
     "ema21": -24.8,
     "sma50": -24.2,
-    "sma200": -8.5,
+    "sma200": -8.6,
     "momentum": false
    },
    "headlines": [
