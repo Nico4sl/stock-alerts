@@ -1,22 +1,22 @@
 {
  "date": "2026-10-30",
  "threshold": 3.0,
- "updated": "2026-10-30T17:36:28+00:00",
+ "updated": "2026-10-30T17:55:31+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 754.72,
-   "change_pct": -1.9
+   "price": 754.0,
+   "change_pct": -2.0
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 688.37,
-   "change_pct": -3.77
+   "price": 687.22,
+   "change_pct": -3.93
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 81.5,
-   "change_pct": 0.02
+   "price": 81.59,
+   "change_pct": 0.12
   }
  },
  "movers": [
@@ -24,7 +24,7 @@
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 151.29,
+   "price": 151.27,
    "prev_close": 171.99,
    "change_pct": -12.0,
    "trigger_change": -7.0,
@@ -33,8 +33,8 @@
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 103.86,
-    "change_pct": -3.81
+    "price": 103.71,
+    "change_pct": -3.95
    },
    "chart": {
     "ema8": -9.8,
@@ -99,23 +99,23 @@
    "symbol": "APP",
    "name": "AppLovin",
    "list": "portfolio",
-   "price": 229.48,
+   "price": 228.95,
    "prev_close": 254.91,
-   "change_pct": -10.0,
+   "change_pct": -10.2,
    "trigger_change": -5.6,
-   "peak_change": -10.0,
+   "peak_change": -10.2,
    "first_seen": "2026-10-30T14:04:25+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 103.86,
-    "change_pct": -3.81
+    "price": 103.71,
+    "change_pct": -3.95
    },
    "chart": {
-    "ema8": -10.0,
-    "ema21": -14.7,
-    "sma50": -22.0,
-    "sma200": -44.8,
+    "ema8": -10.1,
+    "ema21": -14.9,
+    "sma50": -22.2,
+    "sma200": -44.9,
     "momentum": false
    },
    "headlines": [
@@ -171,52 +171,26 @@
    "brief": "2026-10-30-APP"
   },
   {
-   "symbol": "ANET",
-   "name": "Arista Networks",
-   "list": "portfolio",
-   "price": 168.53,
-   "prev_close": 184.22,
-   "change_pct": -8.5,
-   "trigger_change": -6.4,
-   "peak_change": -8.6,
-   "first_seen": "2026-10-30T14:04:25+00:00",
-   "sector": {
-    "etf": "SMH",
-    "name": "Semiconductors",
-    "price": 517.8,
-    "change_pct": -7.81
-   },
-   "chart": {
-    "ema8": -6.5,
-    "ema21": -10.2,
-    "sma50": -13.7,
-    "sma200": 2.0,
-    "momentum": false
-   },
-   "headlines": [],
-   "brief": "2026-10-30-ANET"
-  },
-  {
    "symbol": "AMAT",
    "name": "Applied Materials",
    "list": "portfolio",
-   "price": 386.95,
+   "price": 386.16,
    "prev_close": 421.66,
-   "change_pct": -8.2,
+   "change_pct": -8.4,
    "trigger_change": -4.9,
-   "peak_change": -8.2,
+   "peak_change": -8.4,
    "first_seen": "2026-10-30T14:04:25+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 517.8,
-    "change_pct": -7.81
+    "price": 516.04,
+    "change_pct": -8.12
    },
    "chart": {
-    "ema8": -4.4,
-    "ema21": -9.9,
-    "sma50": -15.4,
-    "sma200": -12.9,
+    "ema8": -4.5,
+    "ema21": -10.1,
+    "sma50": -15.6,
+    "sma200": -13.1,
     "momentum": false
    },
    "headlines": [
@@ -272,10 +246,36 @@
    "brief": "2026-10-30-AMAT"
   },
   {
+   "symbol": "ANET",
+   "name": "Arista Networks",
+   "list": "portfolio",
+   "price": 168.7,
+   "prev_close": 184.22,
+   "change_pct": -8.4,
+   "trigger_change": -6.4,
+   "peak_change": -8.6,
+   "first_seen": "2026-10-30T14:04:25+00:00",
+   "sector": {
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 516.04,
+    "change_pct": -8.12
+   },
+   "chart": {
+    "ema8": -6.4,
+    "ema21": -10.1,
+    "sma50": -13.6,
+    "sma200": 2.1,
+    "momentum": false
+   },
+   "headlines": [],
+   "brief": "2026-10-30-ANET"
+  },
+  {
    "symbol": "AVGO",
    "name": "Broadcom",
    "list": "portfolio",
-   "price": 323.25,
+   "price": 323.24,
    "prev_close": 345.0,
    "change_pct": -6.3,
    "trigger_change": -4.7,
@@ -284,8 +284,8 @@
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 517.8,
-    "change_pct": -7.81
+    "price": 516.04,
+    "change_pct": -8.12
    },
    "chart": {
     "ema8": -3.9,
@@ -350,23 +350,23 @@
    "symbol": "SOFI",
    "name": "SoFi",
    "list": "portfolio",
-   "price": 16.61,
+   "price": 16.55,
    "prev_close": 17.61,
-   "change_pct": -5.7,
+   "change_pct": -6.0,
    "trigger_change": -4.2,
-   "peak_change": -5.7,
+   "peak_change": -6.0,
    "first_seen": "2026-10-30T14:09:27+00:00",
    "sector": {
     "etf": "XLF",
     "name": "Financials",
-    "price": 56.61,
-    "change_pct": -0.58
+    "price": 56.49,
+    "change_pct": -0.78
    },
    "chart": {
-    "ema8": 2.9,
-    "ema21": 5.1,
-    "sma50": 0.2,
-    "sma200": -6.6,
+    "ema8": 2.6,
+    "ema21": 4.7,
+    "sma50": -0.2,
+    "sma200": -7.0,
     "momentum": true
    },
    "headlines": [
@@ -422,26 +422,101 @@
    "brief": "2026-10-30-SOFI"
   },
   {
+   "symbol": "CRWD",
+   "name": "CrowdStrike",
+   "list": "portfolio",
+   "price": 247.25,
+   "prev_close": 261.15,
+   "change_pct": -5.3,
+   "trigger_change": -3.7,
+   "peak_change": -5.9,
+   "first_seen": "2026-10-30T15:08:18+00:00",
+   "sector": {
+    "etf": "IGV",
+    "name": "Software",
+    "price": 103.71,
+    "change_pct": -3.95
+   },
+   "chart": {
+    "ema8": -3.0,
+    "ema21": -2.0,
+    "sma50": 2.9,
+    "sma200": 47.9,
+    "momentum": true
+   },
+   "headlines": [
+    {
+     "title": "CrowdStrike Holdings Inc Stock (CRWD) Moved Down by 5.05% on Oct 30: Key Drivers Unveiled",
+     "publisher": "TradingKey",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNMjJCWTg3bXR0TTlqRHJwS1hsUV93Nk1PQUNHcVFJdzRESUItRktpazk4LVJKQzM0NmxDOElaRjBiM1JsVlY2cDFGWFNQalFYbWlNcW5pTTBGZExzZ1VMM0JNa3RYMFlieUhCLWp5d3laUC1GVFg0anl2S0lLNXFEdEh5X0d1V0taLThJ?oc=5",
+     "time": "2026-10-30T16:15:59+00:00"
+    },
+    {
+     "title": "Zacks Investment Ideas feature highlights: Fortinet, Palo Alto Networks and CrowdStrike",
+     "publisher": "The Globe and Mail",
+     "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQSFJJb0pkTDd1Rm5BbjVtdkhsT1dSNzluN25UMHB4cW9zaEkyYjV5VURFZEtndTVBakwxejFUUDMwWlN5cGVybV8zT2dtOXU0NWpmbnlMa2hMRXFNbVlqa2hULXRBNVBVLXhTbS1keFBYOGw2bVJYV0N4VzFneXZteXdsQWM2VTVuS21EMnphQjQ0dWIteUU0Q0JkazA0NnlTTVZSWkVhMUJTV2o4WjVZWkFVSmlWNmlsMEs0NnVqbzFjN1VCVkhtY1NmTTVLS2kySzRtSHM5bV9OT2lob2t4eFJhekxSZkZ2OEtLWm5lR1FQMGt1ZVZHYXlJYjdlYzg?oc=5",
+     "time": "2026-10-30T12:51:49+00:00"
+    },
+    {
+     "title": "Here is What to Know Beyond Why CrowdStrike (CRWD) is a Trending Stock",
+     "publisher": "Yahoo Finance Singapore",
+     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPWEV4ZzZUWThjcWUtOFlwaERlcmpuUmJPM00tTS1sb1dhUE83NlpXem9vdmN3MS13RWw5Y1IxV1NaTjg5cGRRLV9DWlZUZjJFRG5ndHNIcXB1ckpaZmVPWkV3NTZUbnpaOU5iY3lUd2o3Rk5Gdk5rQ0R5OWR3ZFJhdVBzYWsyeVRW?oc=5",
+     "time": "2026-10-30T12:00:04+00:00"
+    },
+    {
+     "title": "CrowdStrike (CRWD) Flags 129% Law Firm Attack Jump As AI Security Push Deepens",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOSlRMeHN6VVpSVkxyWVFhemM3U19pUkYwUlBYRHVmU0FRU0JMRktMYlR2RVNIY0JkMU5Yd0szVmpUY09vT3Z4UllOTkJWek04cm5vX1ROX3FJU0JYMXowYTNVdExjM21OaGI0NmZvQ2FuMzRhbUJrbTFKZkU2REQ2MmhNT29ESHdTNlR1UmRhSG80ckVEZy1BMktR?oc=5",
+     "time": "2026-10-30T05:21:00+00:00"
+    },
+    {
+     "title": "Does The Move In CrowdStrike Stock Change Anything?",
+     "publisher": "Trefis",
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNEVCM0VBdGllYlpWM3dkWlBtdWNmN3NoQS1SUlRVSW5jclpTN05SR2VIY2x2Yjg1MEMxemhWeEpONVdFOW1Ycm9yM3BETWFVN1lqYm5KNGtwNE5KSW1aWTJUUi13OS1Zdkd3V2c3dFF6dVE4VWJsbVREZDZOSklSNDBlM05XQzlmNDJ4UlJVTjVDX0VHdzMyeEhNcm1wMGhEa01QbXczZldBOFctN2lEMA?oc=5",
+     "time": "2026-10-29T21:43:22+00:00"
+    },
+    {
+     "title": "CrowdStrike Holdings, Inc. (CRWD) Stock Forecasts",
+     "publisher": "Yahoo! Finance Canada",
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPR3gxMHFFNXRaLUROM1dmZ2NrRWxVbm9HYVlXdkZvRHJWR09nTHkxVmxOa0JBSmRSOFFHUmJ0WVdqS3YzQ2tFX21jT1pKYkNzR1NKWjJDSXpzekFWQjFjR3hyXzNxTExJLTRrSGhXd3ZQdXM1N0liU05Qank3b1l6aVRHUjJCbzNpY0pUUVAzVWZmd3pJ?oc=5",
+     "time": "2026-10-29T20:04:43+00:00"
+    },
+    {
+     "title": "Why Mizuho Is Sweetening on CrowdStrike Stock Thanks to the Guardian Launch",
+     "publisher": "Barchart.com",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOT3ctSjZsUnhGUU1Ma3ZaOTZ0OU1ZNVFxdV83b09xRE9vTjJlOXNISmhZYmo0TFdRaEdqRjE1d3BnLVpUZDNOSkgyY0lWQnloNEVUWVNxaTNGZkEtZU43MG1oT2FHUWptYjlERjFJNjNJeXBrdzNjVkhORVBBbTJlMVo3eDJnV1pldGc4STd5QXpVS2J6RXl3SnBEamtrSWhaUnVzSThUNm9PeVBNbWswUUJQeDFrQk54MVVJ?oc=5",
+     "time": "2026-10-29T17:02:54+00:00"
+    },
+    {
+     "title": "CrowdStrike Is Winning Too Fast (NASDAQ:CRWD)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFByczlyUzRCekVibGRuQWhlLS04MkpLTUlNaDdGNE03YU9jcW5XUEt6NVhLNUozRUtQNTBhVTlxS0lyaUp5Y3M0c0pwTWVDMGt2bk1NNVhnWUJ1UV9NLWpYTDluUTA3NXpUNXRXUmtqNkNPbWx3VUhJU3libGc?oc=5",
+     "time": "2026-10-29T15:38:39+00:00"
+    }
+   ],
+   "brief": "2026-10-30-CRWD"
+  },
+  {
    "symbol": "NVDA",
    "name": "Nvidia",
    "list": "portfolio",
-   "price": 203.01,
+   "price": 202.7,
    "prev_close": 213.66,
-   "change_pct": -5.0,
+   "change_pct": -5.1,
    "trigger_change": -3.1,
-   "peak_change": -5.0,
+   "peak_change": -5.1,
    "first_seen": "2026-10-30T14:19:29+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 517.8,
-    "change_pct": -7.81
+    "price": 516.04,
+    "change_pct": -8.12
    },
    "chart": {
-    "ema8": -4.8,
-    "ema21": -7.0,
-    "sma50": -8.4,
-    "sma200": -0.7,
+    "ema8": -4.9,
+    "ema21": -7.1,
+    "sma50": -8.6,
+    "sma200": -0.8,
     "momentum": false
    },
    "headlines": [
@@ -500,7 +575,7 @@
    "symbol": "NOW",
    "name": "ServiceNow",
    "list": "portfolio",
-   "price": 104.2,
+   "price": 104.21,
    "prev_close": 109.67,
    "change_pct": -5.0,
    "trigger_change": -3.3,
@@ -509,13 +584,13 @@
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 103.86,
-    "change_pct": -3.81
+    "price": 103.71,
+    "change_pct": -3.95
    },
    "chart": {
     "ema8": -22.4,
     "ema21": -25.4,
-    "sma50": -24.9,
+    "sma50": -24.8,
     "sma200": -9.4,
     "momentum": false
    },
@@ -572,101 +647,26 @@
    "brief": "2026-10-30-NOW"
   },
   {
-   "symbol": "CRWD",
-   "name": "CrowdStrike",
-   "list": "portfolio",
-   "price": 248.43,
-   "prev_close": 261.15,
-   "change_pct": -4.9,
-   "trigger_change": -3.7,
-   "peak_change": -5.9,
-   "first_seen": "2026-10-30T15:08:18+00:00",
-   "sector": {
-    "etf": "IGV",
-    "name": "Software",
-    "price": 103.86,
-    "change_pct": -3.81
-   },
-   "chart": {
-    "ema8": -2.6,
-    "ema21": -1.6,
-    "sma50": 3.4,
-    "sma200": 48.6,
-    "momentum": true
-   },
-   "headlines": [
-    {
-     "title": "CrowdStrike Holdings Inc Stock (CRWD) Moved Down by 5.05% on Oct 30: Key Drivers Unveiled",
-     "publisher": "TradingKey",
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNMjJCWTg3bXR0TTlqRHJwS1hsUV93Nk1PQUNHcVFJdzRESUItRktpazk4LVJKQzM0NmxDOElaRjBiM1JsVlY2cDFGWFNQalFYbWlNcW5pTTBGZExzZ1VMM0JNa3RYMFlieUhCLWp5d3laUC1GVFg0anl2S0lLNXFEdEh5X0d1V0taLThJ?oc=5",
-     "time": "2026-10-30T16:15:59+00:00"
-    },
-    {
-     "title": "Zacks Investment Ideas feature highlights: Fortinet, Palo Alto Networks and CrowdStrike",
-     "publisher": "The Globe and Mail",
-     "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQSFJJb0pkTDd1Rm5BbjVtdkhsT1dSNzluN25UMHB4cW9zaEkyYjV5VURFZEtndTVBakwxejFUUDMwWlN5cGVybV8zT2dtOXU0NWpmbnlMa2hMRXFNbVlqa2hULXRBNVBVLXhTbS1keFBYOGw2bVJYV0N4VzFneXZteXdsQWM2VTVuS21EMnphQjQ0dWIteUU0Q0JkazA0NnlTTVZSWkVhMUJTV2o4WjVZWkFVSmlWNmlsMEs0NnVqbzFjN1VCVkhtY1NmTTVLS2kySzRtSHM5bV9OT2lob2t4eFJhekxSZkZ2OEtLWm5lR1FQMGt1ZVZHYXlJYjdlYzg?oc=5",
-     "time": "2026-10-30T12:51:49+00:00"
-    },
-    {
-     "title": "Here is What to Know Beyond Why CrowdStrike (CRWD) is a Trending Stock",
-     "publisher": "Yahoo Finance Singapore",
-     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPWEV4ZzZUWThjcWUtOFlwaERlcmpuUmJPM00tTS1sb1dhUE83NlpXem9vdmN3MS13RWw5Y1IxV1NaTjg5cGRRLV9DWlZUZjJFRG5ndHNIcXB1ckpaZmVPWkV3NTZUbnpaOU5iY3lUd2o3Rk5Gdk5rQ0R5OWR3ZFJhdVBzYWsyeVRW?oc=5",
-     "time": "2026-10-30T12:00:04+00:00"
-    },
-    {
-     "title": "CrowdStrike (CRWD) Flags 129% Law Firm Attack Jump As AI Security Push Deepens",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOSlRMeHN6VVpSVkxyWVFhemM3U19pUkYwUlBYRHVmU0FRU0JMRktMYlR2RVNIY0JkMU5Yd0szVmpUY09vT3Z4UllOTkJWek04cm5vX1ROX3FJU0JYMXowYTNVdExjM21OaGI0NmZvQ2FuMzRhbUJrbTFKZkU2REQ2MmhNT29ESHdTNlR1UmRhSG80ckVEZy1BMktR?oc=5",
-     "time": "2026-10-30T05:21:00+00:00"
-    },
-    {
-     "title": "Does The Move In CrowdStrike Stock Change Anything?",
-     "publisher": "Trefis",
-     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNEVCM0VBdGllYlpWM3dkWlBtdWNmN3NoQS1SUlRVSW5jclpTN05SR2VIY2x2Yjg1MEMxemhWeEpONVdFOW1Ycm9yM3BETWFVN1lqYm5KNGtwNE5KSW1aWTJUUi13OS1Zdkd3V2c3dFF6dVE4VWJsbVREZDZOSklSNDBlM05XQzlmNDJ4UlJVTjVDX0VHdzMyeEhNcm1wMGhEa01QbXczZldBOFctN2lEMA?oc=5",
-     "time": "2026-10-29T21:43:22+00:00"
-    },
-    {
-     "title": "CrowdStrike Holdings, Inc. (CRWD) Stock Forecasts",
-     "publisher": "Yahoo! Finance Canada",
-     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPR3gxMHFFNXRaLUROM1dmZ2NrRWxVbm9HYVlXdkZvRHJWR09nTHkxVmxOa0JBSmRSOFFHUmJ0WVdqS3YzQ2tFX21jT1pKYkNzR1NKWjJDSXpzekFWQjFjR3hyXzNxTExJLTRrSGhXd3ZQdXM1N0liU05Qank3b1l6aVRHUjJCbzNpY0pUUVAzVWZmd3pJ?oc=5",
-     "time": "2026-10-29T20:04:43+00:00"
-    },
-    {
-     "title": "Why Mizuho Is Sweetening on CrowdStrike Stock Thanks to the Guardian Launch",
-     "publisher": "Barchart.com",
-     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOT3ctSjZsUnhGUU1Ma3ZaOTZ0OU1ZNVFxdV83b09xRE9vTjJlOXNISmhZYmo0TFdRaEdqRjE1d3BnLVpUZDNOSkgyY0lWQnloNEVUWVNxaTNGZkEtZU43MG1oT2FHUWptYjlERjFJNjNJeXBrdzNjVkhORVBBbTJlMVo3eDJnV1pldGc4STd5QXpVS2J6RXl3SnBEamtrSWhaUnVzSThUNm9PeVBNbWswUUJQeDFrQk54MVVJ?oc=5",
-     "time": "2026-10-29T17:02:54+00:00"
-    },
-    {
-     "title": "CrowdStrike Is Winning Too Fast (NASDAQ:CRWD)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFByczlyUzRCekVibGRuQWhlLS04MkpLTUlNaDdGNE03YU9jcW5XUEt6NVhLNUozRUtQNTBhVTlxS0lyaUp5Y3M0c0pwTWVDMGt2bk1NNVhnWUJ1UV9NLWpYTDluUTA3NXpUNXRXUmtqNkNPbWx3VUhJU3libGc?oc=5",
-     "time": "2026-10-29T15:38:39+00:00"
-    }
-   ],
-   "brief": "2026-10-30-CRWD"
-  },
-  {
    "symbol": "AXON",
    "name": "Axon",
    "list": "watchlist",
-   "price": 426.81,
+   "price": 426.39,
    "prev_close": 438.05,
-   "change_pct": -2.6,
+   "change_pct": -2.7,
    "trigger_change": -3.1,
    "peak_change": -3.1,
    "first_seen": "2026-10-30T17:09:19+00:00",
    "sector": {
     "etf": "XLI",
     "name": "Industrials",
-    "price": 167.97,
-    "change_pct": -1.27
+    "price": 167.65,
+    "change_pct": -1.46
    },
    "chart": {
-    "ema8": 1.0,
-    "ema21": 0.8,
-    "sma50": -7.9,
-    "sma200": -10.9,
+    "ema8": 0.9,
+    "ema21": 0.7,
+    "sma50": -8.0,
+    "sma200": -11.0,
     "momentum": false
    },
    "headlines": [
