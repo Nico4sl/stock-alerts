@@ -1,7 +1,324 @@
 {
  "date": "2026-11-02",
  "threshold": 3.0,
- "updated": "2026-11-02T16:10:40+00:00",
- "market": {},
- "movers": []
+ "updated": "2026-11-02T16:15:40+00:00",
+ "market": {
+  "SPY": {
+   "name": "S&P 500",
+   "price": 760.63,
+   "change_pct": 0.65
+  },
+  "QQQ": {
+   "name": "Nasdaq 100",
+   "price": 694.67,
+   "change_pct": 0.61
+  },
+  "TLT": {
+   "name": "Long Treasuries",
+   "price": 81.86,
+   "change_pct": 0.02
+  }
+ },
+ "movers": [
+  {
+   "symbol": "AMZN",
+   "name": "Amazon",
+   "list": "portfolio",
+   "price": 253.02,
+   "prev_close": 240.35,
+   "change_pct": 5.3,
+   "trigger_change": 5.3,
+   "peak_change": 5.3,
+   "first_seen": "2026-11-02T16:15:40+00:00",
+   "sector": {
+    "etf": "XLY",
+    "name": "Consumer discr.",
+    "price": 119.02,
+    "change_pct": 3.15
+   },
+   "chart": {
+    "ema8": 1.2,
+    "ema21": 0.3,
+    "sma50": -0.5,
+    "sma200": 3.9,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Amazon: Don't Look At The Cash Flow (NASDAQ:AMZN)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBUejFDcXJiQ0NLMHd5alJ5Znp6N1h5X0ZqaFRDNHpTQ0cxenJOZHVBLS1ReDA0Rm5GMHg1NXRrOWVGYl8wUU9HZm13TUR0SmNqQU1PR3hMQTNYaC1oelJKUU55QnExUVVoV0hta204RG91VDZWUUhOVWZpT1FmNWs?oc=5",
+     "time": "2026-11-02T16:00:30+00:00"
+    },
+    {
+     "title": "Why is Amazon stock rallying today?",
+     "publisher": "Investing.com",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZ0dJeHJIREdSVkxZYmI3dkFwTURUQnJYVTlkRnNreWV3OHc1ZWpObzVjeUhYQktCaUZ4RndxZVdJeGJuVEhPcE04NS1FVXVTdjBvaGlNRm54bUd5bUhlNG5adU02N3dNTWpFTXB1b0NYTWk4Rm9zNy04RzZ2MlBvRHhCbkdmdE82VjlKT2cxQ3JxaW5aTk9ydWxWcmI?oc=5",
+     "time": "2026-11-02T15:08:57+00:00"
+    },
+    {
+     "title": "Amazon Stock Price Target Raised To $330 By Phillip Securities",
+     "publisher": "TronWeekly",
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOaG5rcV9RY096VEd2OUxmNkNlejRyRWFhX0tPcW9qRmpOSDJfblRDZ05yWUlJcENkSWFZaVpnT091MWM3azRTOUx2N3BIVnh6c015bFVmc2pFcGh6djJ4dDk1YnhiQ2VaWUUwQjl0bW1vN3pHR080S1FobjJUUHpWLXllX0RieF96VDVMbnZ3SE9aYjQ?oc=5",
+     "time": "2026-11-02T14:48:35+00:00"
+    },
+    {
+     "title": "Amazon Stock Rises as Phillip Securities Upgrades to Buy, Raises Target to $330",
+     "publisher": "The Crypto Basic",
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOWVU3QnpMdURRVHpZYXhhX1Nyc0U2dUFzZi1iWjFkdVRySEdlb2RfQVdieEFvS1pXR3hiMm9aRFpHa2VxTF9MUXNzbElXbXRKbGdkS21Pckh6aGhrSWVNNjFLbENudEJWVHVHOWgzSlgyRnZFTHlTS2FBNXljTGU4Q2d1VkV6ODVLQ1Q4M2t6N1ZOM0hUb1ZFbVZsb01wTjdzdW8wcExvWHVJVENieklTNVJicDhpLUU?oc=5",
+     "time": "2026-11-02T13:53:49+00:00"
+    },
+    {
+     "title": "Amazon.com, Inc. $AMZN Stock Sold by Robinswood Financial LLC",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOWEVLWUcyNkhTcFZscjUyOWVUdXB0NVBRMmgxdU9BaW9saXZXUGhDUzhraXJkRmx4VWZUdV9vZ1JKRVVPRFh1YjBKT0FPQ19jRlZnRXhSekg0UjBRekRldmhvVUUzaDV6NnlhWHFtTW5ETEtneHl5OXROYmFUUVVwdDV1eVNzazM3M2lkZ2FfazUyd3BncUVOREJEM01kRUxGdFlZSGIzYzVNRXJ2R3ltbndNci1OV2hJZWc?oc=5",
+     "time": "2026-11-02T11:47:18+00:00"
+    },
+    {
+     "title": "Amazon.com, Inc. $AMZN Stock: Prime Capital Investment Advisors LLC Cuts Stake",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPZ2F1MW16SUlZTTUtSDFSbTFZc2tfZlg2UEhDQl8tckM4cGpnRTdCSl9iTHVwUFZaVlNocDBfcFhFeXJJZnFVdEpGZ015ODEybGZTZnRLMzNwb3ZvVzEtTjNSZVpKMlktQWV6emIxcXBsX3VpdXppeEpLUVFCckxjVXo0RV8wNElnRHlUbnpkRjZ4Umtzazk5NVdmUEJaNHdLNUVJSGI1OVdUV1NJZ3hycDgtLW5ibF9Tcl9VbXROdDFfX3NmbUZ2T3g1bkZSd2M?oc=5",
+     "time": "2026-11-02T11:41:04+00:00"
+    },
+    {
+     "title": "Phillip Securities Says Amazon\u2019s \u2018Strong Demand Visibility\u2019 Supports Aggressive Capex",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOTU11b201VGNET3J1SXBfbmJfekt0aWhyakdicUJkYXdoTDRvSk5ibjFUenM1N0ZjTU4yeDBoTlNIdmhSU3hOQ2ZEeWRhVUh0SUstSWtjMDh0ZHgtWFk4ZTU3WFpfcDBSS3NjVGpydXRRTnNZdzlINkN4eVh2dXJyQXF0bWlFRWpsdFRJM1dtNU0wcFR3MzQ2R0hVY1JOc1hxRWdTZA?oc=5",
+     "time": "2026-11-02T11:22:47+00:00"
+    },
+    {
+     "title": "Zacks Investment Ideas feature highlights: Amazon, Alphabet, Meta Platforms and Nvidia",
+     "publisher": "The Globe and Mail",
+     "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPT25kaFBEbW1teWE4dnV0bDZxWnktSDRxNmYyaXl5YVZfV1d0U2lZb29nWkg4Yi1QVTU5bTVwWFdUaUFNZndmNFZEU1pHWmpkNllaUk5zbEVMeEZyc3RlcXJjV01iY2ZLMG1ld2JxTzJFMGhmYUtic0ttX1ozVE8tU0syWmFLZmhnU01iSHBQMF9xZEx5SEtHclVibDR5eGg0LXVLc3VhazFfcF9UeEw4VHBPWTJ5S1RCR1AtbkdBSmh4aXlKZmhHRkZKcGcwMy1SLThjNGtzNVhMVW5OLUw2WjlBQmhvRWJtTHY1UWJGUnBHbjJNbmNCVTY4OVdHQQ?oc=5",
+     "time": "2026-11-02T11:21:19+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
+   "symbol": "SOFI",
+   "name": "SoFi",
+   "list": "portfolio",
+   "price": 17.43,
+   "prev_close": 16.76,
+   "change_pct": 4.0,
+   "trigger_change": 4.0,
+   "peak_change": 4.0,
+   "first_seen": "2026-11-02T16:15:40+00:00",
+   "sector": {
+    "etf": "XLF",
+    "name": "Financials",
+    "price": 57.48,
+    "change_pct": 1.73
+   },
+   "chart": {
+    "ema8": 5.9,
+    "ema21": 9.2,
+    "sma50": 5.3,
+    "sma200": -1.8,
+    "momentum": true
+   },
+   "headlines": [
+    {
+     "title": "280,940 Shares of SoFi Technologies, Inc. $SOFI Purchased by Trek Financial LLC",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNWFM1dm5rbXlBY196ZHFZdUltSXRqUjMxczFkUV9VMFc4X1Y5WlRBa0E4SlBtdXN6LWJRblo4MHZucXpzVVZFeDhYeTliNzRtWFpiaGtJZXkxOENzNHBUZXpxZDBWeEFNa0VodUpUWWVGTzNManVxWGIySG5DQVhCdzdfdGtGcEh2Yl9YN0ZVTUxLNXdPTXp2bTk3b0lMeURya0Y5R3RDa1Vmd0xCUHFmd1JSTXRQcUtTc0tFdUVDdmlZSWwwZ2FNdE5tVDI2UE5mNHc?oc=5",
+     "time": "2026-11-02T13:29:39+00:00"
+    },
+    {
+     "title": "SoFi Technologies (NASDAQ: SOFI) Operating Margin Nearly Doubles As Record Loan Originations Fuel Massive Guidance Raise",
+     "publisher": "Foreign Policy Journal",
+     "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNamhjb3I3RnA5dDRSYUQ5Rl9sX3htaGZyZXVLUWxBdDhWRlNzSDVLUHljLXFKY0hoZFFiNTdveTVXdllBSmtOT1BNQXZ2ZmdRR2NDUkFxRmdSNWlqWnBXTmJMN1hhQ0EyQ0drcnd6WEJOdUI1a3VNOUxyUmIzWGROT0tsY3NUb1lKY3RjUFNOblNOc2VLbTIxYTJRZkhNRXBhZGt2X0dUZ0Q0Ny1GaC1jWV85YnM4eDFMaVhma21mRE9sOVhtRl96M2c0eTQ2cmp6UzdySmczSElNaG9KSFFYRk9OMGRUak5STW9jTVY4NU51d1h4QUxaUW5n?oc=5",
+     "time": "2026-11-02T13:03:00+00:00"
+    },
+    {
+     "title": "SoFi Technologies, Inc. $SOFI Shares Sold by VIRGINIA RETIREMENT SYSTEMS ET Al",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPbUZyOEJzTjlCQnJxdWQyLTBSLWdPME9pMWJycjgtbURtM01jN092RWt4T3ZxOTFhME5ZY09uczRrcWllMmUtSUxmcmZOVlFIdmx0V2lhWTNqTFYyNkYwS0V2MHZSUkdtMGk2ZHZEeXpxT0k5bVFSUjNibk1tVW55bE9TSkhBTFlBajRTYy1kOUM0cWxnWTNpVlpCRUhkWFRtcFZQci05WUltY05fOEJfbnhLaDBUTldZZTUycXJIQldOR2pWNjVndTQ5eEgyUjVoWmc?oc=5",
+     "time": "2026-11-02T12:42:42+00:00"
+    },
+    {
+     "title": "Latest News In Digital Payment - Transuite Expands AI Via Key Acquisition and China Growth",
+     "publisher": "Simply Wall St",
+     "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOZUxtYWJIdEZiU1VMRG9idUhybHV5VWtndTRISnBQeGR5NExuaEtvOEZLVTdaMC1TOU05OUNXMWxxeFdVbEdZYk0zUGNvMmNlT0EtT1dqT09TNndjRFJfODNqb3ZtZTFNcE9VOGRFU0VOUC1lRHRDRUktM1c5a0tVNDFweERsOHVwd0k2Q1o3Q2tOYTRSVDh3OC1FdEM4S0JCaHN6OEhvaVo0MzVKYVBLMGNrTFB5Mm02bXA3LTdKclhjdGdWemxERkRCTy1PNUZoR1BpbElPeHVYM2pzdV9QZXVGa9IB6AFBVV95cUxOcG9TRC1yc3ItUEZzeVpEVElucTBWRjlLV2c3Xy1HejZFM1ZMU2NsbURSUDdkSUd2LUd2ZDloWS1YS1dsLXZsN295ZUhDM0VybWI0MFd0a0hheDVqZEhQbkVjR1AzMERqMG14UkY3bm5EeFk3eXF2d1dXeC1RNDFES3lZMTN2TGxJRHcxMkh0cEo0dkFvZVdrRVpwbEVFYnZwQUI0QlV1bExzUndPcmVOUzBUOEZEZ05SclZQRnM2RE5ZZUM1V1FuSXZ2aXcxN05TSU1KQmN0VE82c1RUSndsTHVtYWVHN2tC?oc=5",
+     "time": "2026-11-02T12:30:06+00:00"
+    },
+    {
+     "title": "CME vs. SoFi Technologies: Which Financial Stock Is a Better Buy for 2027?",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQd0RxVjczdklVUUUxT1VtU01mTm5JYkR0UWY0Mjh3ZnEtZDFqTTA5VUpGT2lzY2NLWWZvcTJGeTlCWnJySlpVS3IxSjVYYkJEVDkxNVo4Zl9Sc1hHdVVrQkhtLXJJSWZQTUIwUVdlUHl0M0dqNzNSSWM2M0l4bFVDQ1czZEk0SGJ5NW1BMnhXZmRtR1pIT09BTGJQMG5TSS1YMjBlWllvRjZobVdoYXJNUURzUE96VVVEWm9yblo5QmJvZw?oc=5",
+     "time": "2026-11-02T12:23:00+00:00"
+    },
+    {
+     "title": "Is SoFi Stock a Buy After its Spectacular Investor Update?",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQeHd3UnFJZnFPWTcxcFN2SEI2RjNYcXMyWE9VdEtiazdYLVQ1QTItOEoxbHlqZzJQOTBlMGZpZnIwYnhOYjdwa2Z6RUtxY1B4Yk1jeFR6SFNzQS13alktR25YdndMck94QW1iUmJVNWhtamVVT05BVUlzcFo1LVVFbDhOWTBXOG12YlRoY2JRQUZRNDBVZ1JrQzNxNzQtSm55Wnc?oc=5",
+     "time": "2026-11-02T09:34:00+00:00"
+    },
+    {
+     "title": "Quantisnow - Real-Time Stock News, SEC Filings & Alerts",
+     "publisher": "Quantisnow",
+     "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE16YTl6eTN0a3R3OEhPUnVSdTF0Z2I4dU9WZmZPMGNONDFWamtSRWZWblhnY1VsNWxEbmNRZ3I2aWo?oc=5",
+     "time": "2026-11-02T09:24:16+00:00"
+    },
+    {
+     "title": "SoFi (SOFI) Stock May Trade At A Premium Following Raised Outlook",
+     "publisher": "Simply Wall St",
+     "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNal8tcHozX3pNVk9rNGRTLXpWRnM0R1JvU2x1c1k4TUtJODR2Mm5kWFFsd2tDWmVSTGNuWUlObUtsZzNxMzlXQ0dnaW1pSmw4UFQ0SjRDQk8tc3NpTU5RT0xlRE81MGtEV0FfMnkwWlZaWFU2eE8xWjRpQUk0cWYzb25BYzNKM1BlTkFKWWVKV3JncWpyaGtqdGQ4dGhObTVKQ2xsOE5WQ2VkMWNTNlMyLUtIX2NHWnRYdG9GbFJMZlFwRzg2bHU4a1dzSXNyeTlqandmWi1sUk1uOXFpQmNyekE0Y0fSAeoBQVVfeXFMTlhiYV8yRGJORzItMjZnbGtvZWVnMHUwZnYxakY0bVNEcEpwbTE2ZG1CcXpXQTE3azBrWUNlNnI4MUdudFhKWDM5Y1gtbVBGMDl5MzhkVFUxUnVWNlA4dkYzRUl3RkdtdV9wWjhBY2VlRWt4UHhJQ3N0azBiakJ0azRyczRkeGtpUGlRRUR1WWdFVlM4eldkMHdBalF6VVhkaDJaUXMzZ1EzOTRHSGdRMU9sc2Q4c1ZybkFRYmcxRFBSRzIyVTUtTG5CUk9zU20tak1ZOGRkRzB0RzhBYnBNdmVLQ2tCck5ueVln?oc=5",
+     "time": "2026-11-02T07:38:49+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
+   "symbol": "APP",
+   "name": "AppLovin",
+   "list": "portfolio",
+   "price": 236.63,
+   "prev_close": 228.5,
+   "change_pct": 3.6,
+   "trigger_change": 3.6,
+   "peak_change": 3.6,
+   "first_seen": "2026-11-02T16:15:40+00:00",
+   "sector": {
+    "etf": "IGV",
+    "name": "Software",
+    "price": 104.26,
+    "change_pct": -0.03
+   },
+   "chart": {
+    "ema8": -5.6,
+    "ema21": -11.1,
+    "sma50": -19.2,
+    "sma200": -42.8,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "APP Shareholder Alert: AppLovin Corporation Securities",
+     "publisher": "GlobeNewswire",
+     "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNM0NyYVI0cDlGT185VDM3YWEzb1k4bTMwZnRSRVVza2tpZUhPanR1cFpGdldLT0kyTnFBUlI3ZGtMc0ttNU5TZ2VPMDVNYXZxVUR2ZGgtd3g2a3YzUl8xNDQtZkFLeXJWNzJqUGNSNXA5ckNTYXRvcEtiYk5vS09RV25Cd09ZZjBMUm1wT1VrLW5MLXJPZFp4bHpqZXVUb1FnRDlOS3RkQkVhbk9NT3U0YnBpcVF3QWNYY2hHVkFxSTRXeVZhZjh3YVMtRktTNlFIaWFkSmpkZVhxT2h3dWFaUUdUNDhhUFJidnZuRE0zOXFJX2ZoTjR3ZVYybkRUa0V1aENNZmRYRDYwQWVVQk5IcUowcmZFMEhO?oc=5",
+     "time": "2026-11-02T15:15:00+00:00"
+    },
+    {
+     "title": "AppLovin stock approaches Nov. 4 results as ad growth faces test",
+     "publisher": "ad-hoc-news.de",
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNLW00bEZ3eGIxbzlzTXVXUXoyX2gySFE1LS1ZRGpaSVRaV3JoRWt4OVN4VFVTSVAyTVpQbHRiRzBCbmp6R3RmRUV6SjBIZ2x1TFRrbzhRVXAzb25iLVh6b2dhOVo5emZfandGVnlTNmVUTy1PZGpaNk9hclJtVnh5WDJnUkJSS1pVY21TeVJvMThUeE0wem45ZDJiejBObGRjdnNZckhCbmZUeWdzdlZ2M2VvS1NaSzZpVWNGOHN3aHRwaU5a?oc=5",
+     "time": "2026-11-02T15:09:41+00:00"
+    },
+    {
+     "title": "APP Stock Drops 10.36% on Friday, RSI Oversold",
+     "publisher": "JournalArta",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQd0MtOWlHR0piVlRaYWs2SU1HcC1vT0ptRTg5cFp4cllPdEdHdUtFaEVpNWc0LUp1dWg1TFRUcFg5Y1oxYzNNRjQ3M0tTWjdPeDltZXl0ZG9FeGZlMVFXeGpxYS1LZjdJRV9CUHN3b2pvZ0MxN0gwUEZIZjNXTmtISlN2cjd6MUhqZTJz?oc=5",
+     "time": "2026-11-02T13:06:25+00:00"
+    },
+    {
+     "title": "ECARX and Arm sign MoU to co-develop next-gen A...",
+     "publisher": "Pluang",
+     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPeTJ0eG9KYkZtOUxvWGV3Rmtha0w2WERJdUNOWGV5VlhJck5UV01SaHNFancxeUs0dmJKNjFFNFp3SDB2UEdlODY5Z0ZqalFNTlJLRmxkYTlxa3BzMjVvb084WlUwM1dhLTBLNVBWYnphNEhWeC1tdFpDdE4yTXZ3MzNhb2RId2hL?oc=5",
+     "time": "2026-11-02T11:14:38+00:00"
+    },
+    {
+     "title": "AppLovin stock faces Unity competition concerns ahead of earnings",
+     "publisher": "Investing.com",
+     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQUEpGMF9xMXhVNWtnLXdLMmZsTm8wclFCMzBJRXpuTnlyLWxtb0tqRzcwUUMyTmZwclZhMldLSURtdGFPTHFDa0lJaHo2UDMtQTVlRFV0Vm8tLUVBdXM1WW5BWFpXdWRfdVVPUmJFMENlZWxtcFdjczN1bk5KTWFieEZMeUJoeVNQVDdObmtvQnVJNVZDVXEyX0JvNUk2c1V0bV9XR2tTRlBMVU5DbGVVSVFLRUxGZ1RFT0treEVZSGJDelphZUE?oc=5",
+     "time": "2026-11-02T10:47:23+00:00"
+    },
+    {
+     "title": "Applovin (APP) Stock Price, Chart & Analysis",
+     "publisher": "www.debelegger.nl",
+     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5EZ3lWcHZvUnAzU0ZMdGFQV3luRDJTTmpQZzJoWWNuYmVoYlRWLXpLR3gxNDd2VkdQSWtwMWtOV0xKZFpjWjZCS1lzQ19QZWd2T0Vj?oc=5",
+     "time": "2026-11-02T10:17:25+00:00"
+    },
+    {
+     "title": "AppLovin stock heads into November 4 earnings release",
+     "publisher": "ad-hoc-news.de",
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOeWpVc2ZydUx4UGZXV01Dc0hVN2VTYXVacENWS251Y1RUVVZHSXdPVTdsSlpxaG9EOVpWa1BnTWtmRGpMTnZwaFo3d182RzlWa0VZWmt0ZHNWT0ZQelI5Q01zbndjcFEtMENFSUNTLVB2OTRRNExVUUpJUktBay1mU2g0cVV3MVpiUl95ODktajFRU3ZNRl96WVNMbUZ6LUppNzlURndCLVRJSkw2cU80c3gtNnhKNlE?oc=5",
+     "time": "2026-11-02T10:02:39+00:00"
+    },
+    {
+     "title": "Axon Enterprise, Inc. (AXON) Stock Price, News, Quote & History",
+     "publisher": "Yahoo! Finance Canada",
+     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9FaFY2blB3Sm1pMS1PY0ZEYlVlaENiTHZ3UXB2YnZPUGhaQm40SHdVdFVzVEtPeXp0cTRGcVZMYTJrY2pvd0N1MWVYS3d0RDdnYnc?oc=5",
+     "time": "2026-11-02T09:25:21+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
+   "symbol": "MELI",
+   "name": "MercadoLibre",
+   "list": "watchlist",
+   "price": 1675.6,
+   "prev_close": 1624.53,
+   "change_pct": 3.1,
+   "trigger_change": 3.1,
+   "peak_change": 3.1,
+   "first_seen": "2026-11-02T16:15:40+00:00",
+   "sector": {
+    "etf": "XLY",
+    "name": "Consumer discr.",
+    "price": 119.02,
+    "change_pct": 3.15
+   },
+   "chart": {
+    "ema8": -1.5,
+    "ema21": -4.9,
+    "sma50": -8.7,
+    "sma200": -7.5,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "MercadoLibre stock gains 3.17% before November 4 results",
+     "publisher": "ad-hoc-news.de",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQR19PTGlFbGVRSHdqcUNURUlFcWFCXzVWMFNkaXFBTVBjcE9WVXBlUUxrYjRSV1dWNFNXRnlPUHJEZmZZVDliTmt3anZJWmJzUVA1dEE1eTBKYmZSQUJOWndkMlJHQVJuVGJkNXp1SkQyMlMzbHc4bzhQN2RETWVYNWNEVnE1SlZxdUxoY3lkYjBPa0NjbTdnWkowZEpIWE5vUUk1cW1hc19JbkYzN21yTDR0S2RYVG1Uenc?oc=5",
+     "time": "2026-11-02T15:18:25+00:00"
+    },
+    {
+     "title": "MercadoLibre, Inc. $MELI Stock Purchased by ProShare Advisors LLC",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZUdVbGY0MzRBMTBYYTUwV3V3T2xlUVJLaVI1eU5kNHJKVFpLdFkxVGhJX2twWFdNMEx0ZjJwN29pc0ZqQjBMTFhva09XM1k5SnpRbHYzbkxrUWhNX0c0OWRPamZJbnpKMllCWWJzMDdhclJyemVTM2lXMEllMTc1WUs3Ym10UW11eVdsSFVWRGtlMUk3MWRRZXdCOU9OWkRXMDZ1UDZFOE5VbGdrMlBkVG1VS19fWm1RX0N0V19obGk?oc=5",
+     "time": "2026-11-02T12:44:27+00:00"
+    },
+    {
+     "title": "36,255 Shares in MercadoLibre, Inc. $MELI Purchased by Mirae Asset Global Investments Co. Ltd.",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNSlVDT2lXTWZHYklqNnViLW5oQ0JUR0ZjeERJZWJnaHJnUEZQWDl2NEUtVHNqMFpZSGZoN0hCaEctMWlwUHFPc21EZlpOTUw1SmF2b1N1aVZSaGxZMzZNNnhheVhoRzVQQXV6b1R5SUhhQy1HalBfcGwtZkdZM2wzWktMYXZ4U3ZPamFKUVlwZFlkcU5lbkc4MnZFVXZSRF9wZUthMUVRSl9vOFN1Qk82MlB1QWFWMy1LQ0xQSTdsVjNkeWFVMjdicEVkdXI2aG1QaVFpTDFZVW9MTllOWkxOY1FHQQ?oc=5",
+     "time": "2026-11-02T12:09:57+00:00"
+    },
+    {
+     "title": "Weekly Recap: Brazil-Mexico merchandise growth and $16B loan portfolio",
+     "publisher": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOcFF3RGZWVndwNUJyelV6b0xTVFZIUm9nclgxbHBYM3Nta2ViczBKQllwUm5SU0gzWkhJbjFsTmY1VUxCWlFXTXQzR3JyX0hucjZ6WFk4aVVrOHJlWDBXZHUzZHN3OGhSMkNDZDhVeVpqUEhUV1g3TjlWZlk1YnZqR2pjcjl1WUJiTVN2dm5CLU9zTzNQakFFSWNreU5ucUNCbjdETk8ya3NHRjNhZ1pNMmRkRFhYLXZjbHJSS09rV3ctSGRZeTRETk1R?oc=5",
+     "time": "2026-11-02T11:00:00+00:00"
+    },
+    {
+     "title": "MercadoLibre stock heads into November 4 earnings release",
+     "publisher": "ad-hoc-news.de",
+     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPN1dUcURWc1MySWp4aER3cExQZ1YtQVlraE9nemFzUlVsdk9pZTlRa3pkQklxeDl4d09nX29DUTlldTNGc19ublFETmREUTd0Q0tYa1ZLMkhiMmd2MjFwZnRfc3ZsM0lJcGZvTUFyUWlzMmJlenExTGJndllvWG0xZzJDQ1hPU3RZNVl6TDZZamFLWGFvakhZcEJ1aThmRHJjeU9memV5ZXhDcDljZEMxQmhHREk4MU1UeDAteg?oc=5",
+     "time": "2026-11-02T10:58:01+00:00"
+    },
+    {
+     "title": "Is MercadoLibre (MELI) Too Expensive After Its 30% Slide?",
+     "publisher": "Simply Wall St",
+     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNWHJVdjZRRW85VVVFOHhaSGpUTFd4SXF5ZlBSNjJBQXpKTS10aE9GR0pBdE9JRENWcW5wZ3RVZVpyQkRPRjVKOUY4UWJHalZQSk5RcFZsQWg4ZU1Vc3JRTmtsRE11S1hnR2JudnhSeDhmWDEyVzZ2N2gybmZfOEl3eGRIQ0Q2N29JSjhlaEV3VmFlWnltT29uUHZpb0RLaXBPQzZ1Q1p4SS02WlI5dVRNX1dkZ0tSTmRBSG1UUDh4a9IBxAFBVV95cUxNNi1TLWhGRXptRngtZ1JIU2Z0cnBKcDlLNzBUZkdJejMzbzZQRkR6MThuTVd0NFZDSjZEYjhRQTNJVWZNN3I0TXE3MzdxQlktZWlHRUFmUFBlcHlTMTV2UEhNZThyY3MtT0w3T3VTblpvc29BOTlmaXpYRV9jVm5GMXd3bXoyRGREaWFnaHBYN1p3SEM2Wm1oaTM2UFo1TGxRZC1aRU51ZlhNczhzZGVGWjN3aFhvcDJicTVMYXdTZVUxR1E2?oc=5",
+     "time": "2026-11-02T08:54:36+00:00"
+    },
+    {
+     "title": "MercadoLibre Fintech Chief Is \u201cNot Seeing Any Deceleration or Deterioration\u201d in Brazil Credit. November 4 Will Tell",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOOEtkaHAxbjVPcjZJSzZ6N242SXpTTlh6NUZBOWo3RUYyQUJwX0VTMS1aeG9VdHkwcVQ0WHZBX1dvRlhpYjgzclVVaF9GZS1SdjRGcWxnX2RzWURCWHRmTWxzX1ZKdkN6aUhXckh0UWFVbXhBOVRQRHctLWNOdVNiNHZGWU4yTnRQTm1iZUswMktuX2o0WExhVzFqR1hkLTl4MDZyeA?oc=5",
+     "time": "2026-11-01T23:26:41+00:00"
+    },
+    {
+     "title": "MercadoLibre, Inc. $MELI Position Trimmed by Sumitomo Mitsui Trust Group Inc.",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPNkY1YmdwT3BQSFlNWlFSYkNoanczbHFRTEFMemRQcl9fdmpPQ3E0QlFRd2Z0TF9KblI1UU9IWWd1Q0VhU2duRk0xN2FOWkN5aTZUT2tyT0FBYTZKLXQ4UUo2c0doS2hVd1VGTnZiYlVkR3ZRbE5FOEJWS3N5TTRDVW9KeHVNM0RWSXJSdTZhV0NTYi1FVm1QbnBRWHRYMVVmX1g2LWlXbVpqcHBDcGNYOURhRDR1bFhBajhfLXQ4VnFJblFYejVuOGViTUFIUG8?oc=5",
+     "time": "2026-11-01T11:47:21+00:00"
+    }
+   ],
+   "brief": null
+  }
+ ]
 }
