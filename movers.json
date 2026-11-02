@@ -1,22 +1,22 @@
 {
  "date": "2026-11-02",
  "threshold": 3.0,
- "updated": "2026-11-02T20:39:51+00:00",
+ "updated": "2026-11-02T20:44:59+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 752.41,
-   "change_pct": -0.44
+   "price": 752.73,
+   "change_pct": -0.4
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 680.78,
-   "change_pct": -1.41
+   "price": 682.04,
+   "change_pct": -1.22
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 81.72,
-   "change_pct": -0.15
+   "price": 81.73,
+   "change_pct": -0.13
   }
  },
  "movers": [
@@ -24,23 +24,23 @@
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 141.29,
+   "price": 141.94,
    "prev_close": 154.14,
-   "change_pct": -8.3,
+   "change_pct": -7.9,
    "trigger_change": -3.3,
    "peak_change": -8.3,
    "first_seen": "2026-11-02T16:55:57+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 101.78,
-    "change_pct": -2.41
+    "price": 102.19,
+    "change_pct": -2.01
    },
    "chart": {
-    "ema8": -13.0,
-    "ema21": -21.9,
-    "sma50": -32.1,
-    "sma200": -20.5,
+    "ema8": -12.6,
+    "ema21": -21.5,
+    "sma50": -31.8,
+    "sma200": -20.1,
     "momentum": false
    },
    "headlines": [
@@ -96,101 +96,26 @@
    "brief": "2026-11-02-NBIS"
   },
   {
-   "symbol": "MELI",
-   "name": "MercadoLibre",
-   "list": "watchlist",
-   "price": 1688.94,
-   "prev_close": 1624.53,
-   "change_pct": 4.0,
-   "trigger_change": 3.1,
-   "peak_change": 4.9,
-   "first_seen": "2026-11-02T16:15:40+00:00",
-   "sector": {
-    "etf": "XLY",
-    "name": "Consumer discr.",
-    "price": 117.98,
-    "change_pct": 2.25
-   },
-   "chart": {
-    "ema8": -0.9,
-    "ema21": -4.2,
-    "sma50": -8.0,
-    "sma200": -6.8,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Can MELI's Cross-Platform Users Unlock Outsized Profit Growth?",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVW5hbHRJYTJPZkZHRnJad1NscDBBOUgtektLU1p3a2xoeEw0bGR1Zm5FeDJTMnFveThaUXNBVEx1aW94c3ZtakRFTkZPNW5fSTdJMlZLc1pEcmMxSkxHZEJNaDl5YnVDdjhsVDkyUmVfalpqSEh0bjhvMU8xSUpiR2FiZWEwNkVrclJzQmlCdFNIUFg4NGpIM3M3UTJKbDJRbFpMUlJfRERzQzN1?oc=5",
-     "time": "2026-11-02T15:52:00+00:00"
-    },
-    {
-     "title": "MercadoLibre stock gains 3.17% before November 4 results",
-     "publisher": "ad-hoc-news.de",
-     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQR19PTGlFbGVRSHdqcUNURUlFcWFCXzVWMFNkaXFBTVBjcE9WVXBlUUxrYjRSV1dWNFNXRnlPUHJEZmZZVDliTmt3anZJWmJzUVA1dEE1eTBKYmZSQUJOWndkMlJHQVJuVGJkNXp1SkQyMlMzbHc4bzhQN2RETWVYNWNEVnE1SlZxdUxoY3lkYjBPa0NjbTdnWkowZEpIWE5vUUk1cW1hc19JbkYzN21yTDR0S2RYVG1Uenc?oc=5",
-     "time": "2026-11-02T15:18:25+00:00"
-    },
-    {
-     "title": "MercadoLibre, Inc. $MELI Stock Purchased by ProShare Advisors LLC",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZUdVbGY0MzRBMTBYYTUwV3V3T2xlUVJLaVI1eU5kNHJKVFpLdFkxVGhJX2twWFdNMEx0ZjJwN29pc0ZqQjBMTFhva09XM1k5SnpRbHYzbkxrUWhNX0c0OWRPamZJbnpKMllCWWJzMDdhclJyemVTM2lXMEllMTc1WUs3Ym10UW11eVdsSFVWRGtlMUk3MWRRZXdCOU9OWkRXMDZ1UDZFOE5VbGdrMlBkVG1VS19fWm1RX0N0V19obGk?oc=5",
-     "time": "2026-11-02T12:44:27+00:00"
-    },
-    {
-     "title": "36,255 Shares in MercadoLibre, Inc. $MELI Purchased by Mirae Asset Global Investments Co. Ltd.",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNSlVDT2lXTWZHYklqNnViLW5oQ0JUR0ZjeERJZWJnaHJnUEZQWDl2NEUtVHNqMFpZSGZoN0hCaEctMWlwUHFPc21EZlpOTUw1SmF2b1N1aVZSaGxZMzZNNnhheVhoRzVQQXV6b1R5SUhhQy1HalBfcGwtZkdZM2wzWktMYXZ4U3ZPamFKUVlwZFlkcU5lbkc4MnZFVXZSRF9wZUthMUVRSl9vOFN1Qk82MlB1QWFWMy1LQ0xQSTdsVjNkeWFVMjdicEVkdXI2aG1QaVFpTDFZVW9MTllOWkxOY1FHQQ?oc=5",
-     "time": "2026-11-02T12:09:57+00:00"
-    },
-    {
-     "title": "Weekly Recap: Brazil-Mexico merchandise growth and $16B loan portfolio",
-     "publisher": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOcFF3RGZWVndwNUJyelV6b0xTVFZIUm9nclgxbHBYM3Nta2ViczBKQllwUm5SU0gzWkhJbjFsTmY1VUxCWlFXTXQzR3JyX0hucjZ6WFk4aVVrOHJlWDBXZHUzZHN3OGhSMkNDZDhVeVpqUEhUV1g3TjlWZlk1YnZqR2pjcjl1WUJiTVN2dm5CLU9zTzNQakFFSWNreU5ucUNCbjdETk8ya3NHRjNhZ1pNMmRkRFhYLXZjbHJSS09rV3ctSGRZeTRETk1R?oc=5",
-     "time": "2026-11-02T11:00:00+00:00"
-    },
-    {
-     "title": "MercadoLibre stock heads into November 4 earnings release",
-     "publisher": "ad-hoc-news.de",
-     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPN1dUcURWc1MySWp4aER3cExQZ1YtQVlraE9nemFzUlVsdk9pZTlRa3pkQklxeDl4d09nX29DUTlldTNGc19ublFETmREUTd0Q0tYa1ZLMkhiMmd2MjFwZnRfc3ZsM0lJcGZvTUFyUWlzMmJlenExTGJndllvWG0xZzJDQ1hPU3RZNVl6TDZZamFLWGFvakhZcEJ1aThmRHJjeU9memV5ZXhDcDljZEMxQmhHREk4MU1UeDAteg?oc=5",
-     "time": "2026-11-02T10:58:01+00:00"
-    },
-    {
-     "title": "Is MercadoLibre (MELI) Too Expensive After Its 30% Slide?",
-     "publisher": "Simply Wall St",
-     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNWHJVdjZRRW85VVVFOHhaSGpUTFd4SXF5ZlBSNjJBQXpKTS10aE9GR0pBdE9JRENWcW5wZ3RVZVpyQkRPRjVKOUY4UWJHalZQSk5RcFZsQWg4ZU1Vc3JRTmtsRE11S1hnR2JudnhSeDhmWDEyVzZ2N2gybmZfOEl3eGRIQ0Q2N29JSjhlaEV3VmFlWnltT29uUHZpb0RLaXBPQzZ1Q1p4SS02WlI5dVRNX1dkZ0tSTmRBSG1UUDh4a9IBxAFBVV95cUxNNi1TLWhGRXptRngtZ1JIU2Z0cnBKcDlLNzBUZkdJejMzbzZQRkR6MThuTVd0NFZDSjZEYjhRQTNJVWZNN3I0TXE3MzdxQlktZWlHRUFmUFBlcHlTMTV2UEhNZThyY3MtT0w3T3VTblpvc29BOTlmaXpYRV9jVm5GMXd3bXoyRGREaWFnaHBYN1p3SEM2Wm1oaTM2UFo1TGxRZC1aRU51ZlhNczhzZGVGWjN3aFhvcDJicTVMYXdTZVUxR1E2?oc=5",
-     "time": "2026-11-02T08:54:36+00:00"
-    },
-    {
-     "title": "MercadoLibre, Inc. $MELI Position Trimmed by Sumitomo Mitsui Trust Group Inc.",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPNkY1YmdwT3BQSFlNWlFSYkNoanczbHFRTEFMemRQcl9fdmpPQ3E0QlFRd2Z0TF9KblI1UU9IWWd1Q0VhU2duRk0xN2FOWkN5aTZUT2tyT0FBYTZKLXQ4UUo2c0doS2hVd1VGTnZiYlVkR3ZRbE5FOEJWS3N5TTRDVW9KeHVNM0RWSXJSdTZhV0NTYi1FVm1QbnBRWHRYMVVmX1g2LWlXbVpqcHBDcGNYOURhRDR1bFhBajhfLXQ4VnFJblFYejVuOGViTUFIUG8?oc=5",
-     "time": "2026-11-01T11:47:21+00:00"
-    }
-   ],
-   "brief": "2026-11-02-MELI"
-  },
-  {
    "symbol": "AMAT",
    "name": "Applied Materials",
    "list": "portfolio",
-   "price": 375.05,
+   "price": 376.06,
    "prev_close": 390.09,
-   "change_pct": -3.9,
+   "change_pct": -3.6,
    "trigger_change": -3.0,
    "peak_change": -3.9,
    "first_seen": "2026-11-02T19:29:18+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 507.02,
-    "change_pct": -2.96
+    "price": 509.93,
+    "change_pct": -2.4
    },
    "chart": {
-    "ema8": -5.9,
-    "ema21": -11.7,
-    "sma50": -17.6,
-    "sma200": -15.7,
+    "ema8": -5.7,
+    "ema21": -11.5,
+    "sma50": -17.4,
+    "sma200": -15.5,
     "momentum": false
    },
    "headlines": [
@@ -249,23 +174,23 @@
    "symbol": "CRWD",
    "name": "CrowdStrike",
    "list": "portfolio",
-   "price": 240.75,
+   "price": 241.53,
    "prev_close": 250.43,
-   "change_pct": -3.9,
+   "change_pct": -3.6,
    "trigger_change": -3.4,
    "peak_change": -3.9,
    "first_seen": "2026-11-02T19:39:22+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 101.78,
-    "change_pct": -2.41
+    "price": 102.19,
+    "change_pct": -2.01
    },
    "chart": {
-    "ema8": -4.6,
-    "ema21": -4.3,
-    "sma50": -0.2,
-    "sma200": 43.4,
+    "ema8": -4.3,
+    "ema21": -4.0,
+    "sma50": 0.1,
+    "sma200": 43.9,
     "momentum": true
    },
    "headlines": [
@@ -321,10 +246,85 @@
    "brief": "2026-11-02-CRWD"
   },
   {
+   "symbol": "MELI",
+   "name": "MercadoLibre",
+   "list": "watchlist",
+   "price": 1681.99,
+   "prev_close": 1624.53,
+   "change_pct": 3.5,
+   "trigger_change": 3.1,
+   "peak_change": 4.9,
+   "first_seen": "2026-11-02T16:15:40+00:00",
+   "sector": {
+    "etf": "XLY",
+    "name": "Consumer discr.",
+    "price": 118.16,
+    "change_pct": 2.41
+   },
+   "chart": {
+    "ema8": -1.2,
+    "ema21": -4.5,
+    "sma50": -8.4,
+    "sma200": -7.1,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Can MELI's Cross-Platform Users Unlock Outsized Profit Growth?",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVW5hbHRJYTJPZkZHRnJad1NscDBBOUgtektLU1p3a2xoeEw0bGR1Zm5FeDJTMnFveThaUXNBVEx1aW94c3ZtakRFTkZPNW5fSTdJMlZLc1pEcmMxSkxHZEJNaDl5YnVDdjhsVDkyUmVfalpqSEh0bjhvMU8xSUpiR2FiZWEwNkVrclJzQmlCdFNIUFg4NGpIM3M3UTJKbDJRbFpMUlJfRERzQzN1?oc=5",
+     "time": "2026-11-02T15:52:00+00:00"
+    },
+    {
+     "title": "MercadoLibre stock gains 3.17% before November 4 results",
+     "publisher": "ad-hoc-news.de",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQR19PTGlFbGVRSHdqcUNURUlFcWFCXzVWMFNkaXFBTVBjcE9WVXBlUUxrYjRSV1dWNFNXRnlPUHJEZmZZVDliTmt3anZJWmJzUVA1dEE1eTBKYmZSQUJOWndkMlJHQVJuVGJkNXp1SkQyMlMzbHc4bzhQN2RETWVYNWNEVnE1SlZxdUxoY3lkYjBPa0NjbTdnWkowZEpIWE5vUUk1cW1hc19JbkYzN21yTDR0S2RYVG1Uenc?oc=5",
+     "time": "2026-11-02T15:18:25+00:00"
+    },
+    {
+     "title": "MercadoLibre, Inc. $MELI Stock Purchased by ProShare Advisors LLC",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZUdVbGY0MzRBMTBYYTUwV3V3T2xlUVJLaVI1eU5kNHJKVFpLdFkxVGhJX2twWFdNMEx0ZjJwN29pc0ZqQjBMTFhva09XM1k5SnpRbHYzbkxrUWhNX0c0OWRPamZJbnpKMllCWWJzMDdhclJyemVTM2lXMEllMTc1WUs3Ym10UW11eVdsSFVWRGtlMUk3MWRRZXdCOU9OWkRXMDZ1UDZFOE5VbGdrMlBkVG1VS19fWm1RX0N0V19obGk?oc=5",
+     "time": "2026-11-02T12:44:27+00:00"
+    },
+    {
+     "title": "36,255 Shares in MercadoLibre, Inc. $MELI Purchased by Mirae Asset Global Investments Co. Ltd.",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNSlVDT2lXTWZHYklqNnViLW5oQ0JUR0ZjeERJZWJnaHJnUEZQWDl2NEUtVHNqMFpZSGZoN0hCaEctMWlwUHFPc21EZlpOTUw1SmF2b1N1aVZSaGxZMzZNNnhheVhoRzVQQXV6b1R5SUhhQy1HalBfcGwtZkdZM2wzWktMYXZ4U3ZPamFKUVlwZFlkcU5lbkc4MnZFVXZSRF9wZUthMUVRSl9vOFN1Qk82MlB1QWFWMy1LQ0xQSTdsVjNkeWFVMjdicEVkdXI2aG1QaVFpTDFZVW9MTllOWkxOY1FHQQ?oc=5",
+     "time": "2026-11-02T12:09:57+00:00"
+    },
+    {
+     "title": "Weekly Recap: Brazil-Mexico merchandise growth and $16B loan portfolio",
+     "publisher": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOcFF3RGZWVndwNUJyelV6b0xTVFZIUm9nclgxbHBYM3Nta2ViczBKQllwUm5SU0gzWkhJbjFsTmY1VUxCWlFXTXQzR3JyX0hucjZ6WFk4aVVrOHJlWDBXZHUzZHN3OGhSMkNDZDhVeVpqUEhUV1g3TjlWZlk1YnZqR2pjcjl1WUJiTVN2dm5CLU9zTzNQakFFSWNreU5ucUNCbjdETk8ya3NHRjNhZ1pNMmRkRFhYLXZjbHJSS09rV3ctSGRZeTRETk1R?oc=5",
+     "time": "2026-11-02T11:00:00+00:00"
+    },
+    {
+     "title": "MercadoLibre stock heads into November 4 earnings release",
+     "publisher": "ad-hoc-news.de",
+     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPN1dUcURWc1MySWp4aER3cExQZ1YtQVlraE9nemFzUlVsdk9pZTlRa3pkQklxeDl4d09nX29DUTlldTNGc19ublFETmREUTd0Q0tYa1ZLMkhiMmd2MjFwZnRfc3ZsM0lJcGZvTUFyUWlzMmJlenExTGJndllvWG0xZzJDQ1hPU3RZNVl6TDZZamFLWGFvakhZcEJ1aThmRHJjeU9memV5ZXhDcDljZEMxQmhHREk4MU1UeDAteg?oc=5",
+     "time": "2026-11-02T10:58:01+00:00"
+    },
+    {
+     "title": "Is MercadoLibre (MELI) Too Expensive After Its 30% Slide?",
+     "publisher": "Simply Wall St",
+     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNWHJVdjZRRW85VVVFOHhaSGpUTFd4SXF5ZlBSNjJBQXpKTS10aE9GR0pBdE9JRENWcW5wZ3RVZVpyQkRPRjVKOUY4UWJHalZQSk5RcFZsQWg4ZU1Vc3JRTmtsRE11S1hnR2JudnhSeDhmWDEyVzZ2N2gybmZfOEl3eGRIQ0Q2N29JSjhlaEV3VmFlWnltT29uUHZpb0RLaXBPQzZ1Q1p4SS02WlI5dVRNX1dkZ0tSTmRBSG1UUDh4a9IBxAFBVV95cUxNNi1TLWhGRXptRngtZ1JIU2Z0cnBKcDlLNzBUZkdJejMzbzZQRkR6MThuTVd0NFZDSjZEYjhRQTNJVWZNN3I0TXE3MzdxQlktZWlHRUFmUFBlcHlTMTV2UEhNZThyY3MtT0w3T3VTblpvc29BOTlmaXpYRV9jVm5GMXd3bXoyRGREaWFnaHBYN1p3SEM2Wm1oaTM2UFo1TGxRZC1aRU51ZlhNczhzZGVGWjN3aFhvcDJicTVMYXdTZVUxR1E2?oc=5",
+     "time": "2026-11-02T08:54:36+00:00"
+    },
+    {
+     "title": "MercadoLibre, Inc. $MELI Position Trimmed by Sumitomo Mitsui Trust Group Inc.",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPNkY1YmdwT3BQSFlNWlFSYkNoanczbHFRTEFMemRQcl9fdmpPQ3E0QlFRd2Z0TF9KblI1UU9IWWd1Q0VhU2duRk0xN2FOWkN5aTZUT2tyT0FBYTZKLXQ4UUo2c0doS2hVd1VGTnZiYlVkR3ZRbE5FOEJWS3N5TTRDVW9KeHVNM0RWSXJSdTZhV0NTYi1FVm1QbnBRWHRYMVVmX1g2LWlXbVpqcHBDcGNYOURhRDR1bFhBajhfLXQ4VnFJblFYejVuOGViTUFIUG8?oc=5",
+     "time": "2026-11-01T11:47:21+00:00"
+    }
+   ],
+   "brief": "2026-11-02-MELI"
+  },
+  {
    "symbol": "AMZN",
    "name": "Amazon",
    "list": "portfolio",
-   "price": 246.58,
+   "price": 246.65,
    "prev_close": 240.35,
    "change_pct": 2.6,
    "trigger_change": 5.3,
@@ -333,12 +333,12 @@
    "sector": {
     "etf": "XLY",
     "name": "Consumer discr.",
-    "price": 117.98,
-    "change_pct": 2.25
+    "price": 118.16,
+    "change_pct": 2.41
    },
    "chart": {
     "ema8": -0.8,
-    "ema21": -2.1,
+    "ema21": -2.0,
     "sma50": -2.9,
     "sma200": 1.3,
     "momentum": false
@@ -399,7 +399,7 @@
    "symbol": "NOW",
    "name": "ServiceNow",
    "list": "portfolio",
-   "price": 105.91,
+   "price": 105.97,
    "prev_close": 105.12,
    "change_pct": 0.8,
    "trigger_change": 3.1,
@@ -408,14 +408,14 @@
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 101.78,
-    "change_pct": -2.41
+    "price": 102.19,
+    "change_pct": -2.01
    },
    "chart": {
     "ema8": -17.3,
-    "ema21": -22.6,
-    "sma50": -23.4,
-    "sma200": -7.8,
+    "ema21": -22.5,
+    "sma50": -23.3,
+    "sma200": -7.7,
     "momentum": false
    },
    "headlines": [
@@ -471,101 +471,26 @@
    "brief": "2026-11-02-NOW"
   },
   {
-   "symbol": "SOFI",
-   "name": "SoFi",
-   "list": "portfolio",
-   "price": 16.7,
-   "prev_close": 16.76,
-   "change_pct": -0.3,
-   "trigger_change": 4.0,
-   "peak_change": 4.1,
-   "first_seen": "2026-11-02T16:15:40+00:00",
-   "sector": {
-    "etf": "XLF",
-    "name": "Financials",
-    "price": 57.54,
-    "change_pct": 1.82
-   },
-   "chart": {
-    "ema8": 2.5,
-    "ema21": 5.1,
-    "sma50": 1.0,
-    "sma200": -5.8,
-    "momentum": true
-   },
-   "headlines": [
-    {
-     "title": "SoFi Added a Record 1.2 Million Members Last Quarter. Its Stock Is Still Down More Than 30% in 2026.",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOeW9mc3FzeE9kdDlRbDI2NVpyM1FPM0hmdWNCWW9VZWU5SS1aR0M2dzFheHl5MWpNUzNObmdaUDVjOUlMR21GS3p3cmxUR3JFeUpoYy0zX2ZhMzkwQUR6TmhuTHBVN3NhN3RLUm02ZlhNSWt0U1A4dy1JMG5wSnY4YXpJSUhFY3Noblhhb3ljZw?oc=5",
-     "time": "2026-11-02T19:20:00+00:00"
-    },
-    {
-     "title": "SoFi Stock Rises as Oil Prices Calm Inflation Fears",
-     "publisher": "Benzinga",
-     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWE9tMmYwYkFPOFpJVm80a0pNenhkeS1SUXFBRENJclR0Rk9UT2lNSi1oM0IwSlE1ZjF0aW5jbUI2Y3R2R2RrVGpqN1ZTNllGak9tbHNoT0hBSzdiOWNNOW5Qc09OTXhVSndCY3BIdml5NDNuT0I3Qks1YXhuWTZEWG9kdHh0clJyanZucUN1OHNZcnhOY0I4OXRwUWFHd2pWWm9TZmlEUmY4V29tMFU1VnZR?oc=5",
-     "time": "2026-11-02T19:03:33+00:00"
-    },
-    {
-     "title": "This Up-and-Coming Tech Company Just Delivered 44% Revenue Growth, and It Has Nothing to Do With AI.",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRmJiMjJ0WDV6c3R6SFNhVVBaVlBzc01Hc1NNdVY4aFk5SEpLSEhoNTFxaXcwbEsxTG1zYWZPMmk5MUFCenNpZ0dPdUNycF9mNUNwZkkyNmRsX19pWm5TczdpcmY4N1lXQ3U5OTBOdUxwYzdkTDV3V2dIRHJaVEdsTlhHeDdrZl9ISldpb0lKcmdaemRpdDFCeXhNRQ?oc=5",
-     "time": "2026-11-02T17:47:00+00:00"
-    },
-    {
-     "title": "Upstart stock falls 5% near 52-week low ahead o...",
-     "publisher": "Pluang",
-     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNeHQybVN1RXNXU0ZsdVRLUHRlbm9WWWdWdlBUc2o0OXBGbUo4YzhlZVFGd3ZmSUx1bEFDMG5xSy10dEhHWlgwNG5va0IxendLUnJPZkhueTExNk5IRDVCNU9qanIzN2JaVDNZdFpfbW5BY1NxTTNOYUNMcGlPcGwwMUMxZWs4Vnhtd0pZZkNLeFc0TzBuc2o3NTZVa3NiUjZrZE5USmt0a0lUUkpJdE1V?oc=5",
-     "time": "2026-11-02T17:14:03+00:00"
-    },
-    {
-     "title": "Upstart Drops 5% to Near 52-Week Low Ahead of Earnings; Affirm Advances 5%, SoFi Gains 4%",
-     "publisher": "24/7 Wall St.",
-     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPd2JMWXRqc3V0dGhBa05sbWVZREI1TFNrU2hyb0Zya0w4NDBIa3FnRmpKM1JTSHBldVJPaS1VQjhNS0hGM1VmV0FDRVdUbmxrcVVKZElDQmJPOXRwdDBvcWhxSUdEejY1b1luRG44NGluYjZ5T2hvWUhNSVdLZXhtLTdSODFQV201QXFjMnVxb2I3YS1lQkJSeWlsSXhGOTUxSDh2SFROMF91Wks5cjF6a2FTVXdqczhNU0FCTzNSenNCODBOcUNJ?oc=5",
-     "time": "2026-11-02T17:02:00+00:00"
-    },
-    {
-     "title": "SoFi Technologies Advances Over Three Percent in New York Trading : \uae30\uc5c5\uc8fc\uc2dd\uc815\ubcf4 : JKN",
-     "publisher": "\uc7ac\uacbd\uc77c\ubcf4",
-     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE15VFlPZkdHTElEQ2M0Wkl1OVBNZGNUM3pSVVhBclhIYUNFbHhFVlB0UGdUV0wtQWRJb3FrTmFXZk1ITjdhRzlVb0FtWWQtamdKc1hxYWFsNC1EdkVZY1BIMXF3?oc=5",
-     "time": "2026-11-02T15:58:00+00:00"
-    },
-    {
-     "title": "280,940 Shares of SoFi Technologies, Inc. $SOFI Purchased by Trek Financial LLC",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNWFM1dm5rbXlBY196ZHFZdUltSXRqUjMxczFkUV9VMFc4X1Y5WlRBa0E4SlBtdXN6LWJRblo4MHZucXpzVVZFeDhYeTliNzRtWFpiaGtJZXkxOENzNHBUZXpxZDBWeEFNa0VodUpUWWVGTzNManVxWGIySG5DQVhCdzdfdGtGcEh2Yl9YN0ZVTUxLNXdPTXp2bTk3b0lMeURya0Y5R3RDa1Vmd0xCUHFmd1JSTXRQcUtTc0tFdUVDdmlZSWwwZ2FNdE5tVDI2UE5mNHc?oc=5",
-     "time": "2026-11-02T13:29:39+00:00"
-    },
-    {
-     "title": "SOFI Nov 2026 19.500 put (SOFI261106P00019500) stock price, news, quote and history",
-     "publisher": "Yahoo Finance Australia",
-     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1MQm13QktLakNKMVhyaGt2dHlwNmFrM2ZPeFRsdEQ5ZVBNY1hWeGlkZ2N2QlB6bWNjM05oNGJiU2U1aFM2NmM5bGNyLUJkOEpBU0E3ZXlrUUZ0RlZRdVByVGNjM1dMQQ?oc=5",
-     "time": "2026-11-02T13:28:00+00:00"
-    }
-   ],
-   "brief": "2026-11-02-SOFI"
-  },
-  {
    "symbol": "APP",
    "name": "AppLovin",
    "list": "portfolio",
-   "price": 228.47,
+   "price": 228.96,
    "prev_close": 228.5,
-   "change_pct": -0.0,
+   "change_pct": 0.2,
    "trigger_change": 3.6,
    "peak_change": 4.8,
    "first_seen": "2026-11-02T16:15:40+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 101.78,
-    "change_pct": -2.41
+    "price": 102.19,
+    "change_pct": -2.01
    },
    "chart": {
-    "ema8": -8.2,
-    "ema21": -13.9,
-    "sma50": -21.9,
-    "sma200": -44.8,
+    "ema8": -8.0,
+    "ema21": -13.7,
+    "sma50": -21.8,
+    "sma200": -44.7,
     "momentum": false
    },
    "headlines": [
@@ -619,6 +544,81 @@
     }
    ],
    "brief": "2026-11-02-APP"
+  },
+  {
+   "symbol": "SOFI",
+   "name": "SoFi",
+   "list": "portfolio",
+   "price": 16.72,
+   "prev_close": 16.76,
+   "change_pct": -0.2,
+   "trigger_change": 4.0,
+   "peak_change": 4.1,
+   "first_seen": "2026-11-02T16:15:40+00:00",
+   "sector": {
+    "etf": "XLF",
+    "name": "Financials",
+    "price": 57.55,
+    "change_pct": 1.83
+   },
+   "chart": {
+    "ema8": 2.6,
+    "ema21": 5.1,
+    "sma50": 1.1,
+    "sma200": -5.7,
+    "momentum": true
+   },
+   "headlines": [
+    {
+     "title": "SoFi Added a Record 1.2 Million Members Last Quarter. Its Stock Is Still Down More Than 30% in 2026.",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOeW9mc3FzeE9kdDlRbDI2NVpyM1FPM0hmdWNCWW9VZWU5SS1aR0M2dzFheHl5MWpNUzNObmdaUDVjOUlMR21GS3p3cmxUR3JFeUpoYy0zX2ZhMzkwQUR6TmhuTHBVN3NhN3RLUm02ZlhNSWt0U1A4dy1JMG5wSnY4YXpJSUhFY3Noblhhb3ljZw?oc=5",
+     "time": "2026-11-02T19:20:00+00:00"
+    },
+    {
+     "title": "SoFi Stock Rises as Oil Prices Calm Inflation Fears",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWE9tMmYwYkFPOFpJVm80a0pNenhkeS1SUXFBRENJclR0Rk9UT2lNSi1oM0IwSlE1ZjF0aW5jbUI2Y3R2R2RrVGpqN1ZTNllGak9tbHNoT0hBSzdiOWNNOW5Qc09OTXhVSndCY3BIdml5NDNuT0I3Qks1YXhuWTZEWG9kdHh0clJyanZucUN1OHNZcnhOY0I4OXRwUWFHd2pWWm9TZmlEUmY4V29tMFU1VnZR?oc=5",
+     "time": "2026-11-02T19:03:33+00:00"
+    },
+    {
+     "title": "This Up-and-Coming Tech Company Just Delivered 44% Revenue Growth, and It Has Nothing to Do With AI.",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRmJiMjJ0WDV6c3R6SFNhVVBaVlBzc01Hc1NNdVY4aFk5SEpLSEhoNTFxaXcwbEsxTG1zYWZPMmk5MUFCenNpZ0dPdUNycF9mNUNwZkkyNmRsX19pWm5TczdpcmY4N1lXQ3U5OTBOdUxwYzdkTDV3V2dIRHJaVEdsTlhHeDdrZl9ISldpb0lKcmdaemRpdDFCeXhNRQ?oc=5",
+     "time": "2026-11-02T17:47:00+00:00"
+    },
+    {
+     "title": "Upstart stock falls 5% near 52-week low ahead o...",
+     "publisher": "Pluang",
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNeHQybVN1RXNXU0ZsdVRLUHRlbm9WWWdWdlBUc2o0OXBGbUo4YzhlZVFGd3ZmSUx1bEFDMG5xSy10dEhHWlgwNG5va0IxendLUnJPZkhueTExNk5IRDVCNU9qanIzN2JaVDNZdFpfbW5BY1NxTTNOYUNMcGlPcGwwMUMxZWs4Vnhtd0pZZkNLeFc0TzBuc2o3NTZVa3NiUjZrZE5USmt0a0lUUkpJdE1V?oc=5",
+     "time": "2026-11-02T17:14:03+00:00"
+    },
+    {
+     "title": "Upstart Drops 5% to Near 52-Week Low Ahead of Earnings; Affirm Advances 5%, SoFi Gains 4%",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPd2JMWXRqc3V0dGhBa05sbWVZREI1TFNrU2hyb0Zya0w4NDBIa3FnRmpKM1JTSHBldVJPaS1VQjhNS0hGM1VmV0FDRVdUbmxrcVVKZElDQmJPOXRwdDBvcWhxSUdEejY1b1luRG44NGluYjZ5T2hvWUhNSVdLZXhtLTdSODFQV201QXFjMnVxb2I3YS1lQkJSeWlsSXhGOTUxSDh2SFROMF91Wks5cjF6a2FTVXdqczhNU0FCTzNSenNCODBOcUNJ?oc=5",
+     "time": "2026-11-02T17:02:00+00:00"
+    },
+    {
+     "title": "SoFi Technologies Advances Over Three Percent in New York Trading : \uae30\uc5c5\uc8fc\uc2dd\uc815\ubcf4 : JKN",
+     "publisher": "\uc7ac\uacbd\uc77c\ubcf4",
+     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE15VFlPZkdHTElEQ2M0Wkl1OVBNZGNUM3pSVVhBclhIYUNFbHhFVlB0UGdUV0wtQWRJb3FrTmFXZk1ITjdhRzlVb0FtWWQtamdKc1hxYWFsNC1EdkVZY1BIMXF3?oc=5",
+     "time": "2026-11-02T15:58:00+00:00"
+    },
+    {
+     "title": "280,940 Shares of SoFi Technologies, Inc. $SOFI Purchased by Trek Financial LLC",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNWFM1dm5rbXlBY196ZHFZdUltSXRqUjMxczFkUV9VMFc4X1Y5WlRBa0E4SlBtdXN6LWJRblo4MHZucXpzVVZFeDhYeTliNzRtWFpiaGtJZXkxOENzNHBUZXpxZDBWeEFNa0VodUpUWWVGTzNManVxWGIySG5DQVhCdzdfdGtGcEh2Yl9YN0ZVTUxLNXdPTXp2bTk3b0lMeURya0Y5R3RDa1Vmd0xCUHFmd1JSTXRQcUtTc0tFdUVDdmlZSWwwZ2FNdE5tVDI2UE5mNHc?oc=5",
+     "time": "2026-11-02T13:29:39+00:00"
+    },
+    {
+     "title": "SOFI Nov 2026 19.500 put (SOFI261106P00019500) stock price, news, quote and history",
+     "publisher": "Yahoo Finance Australia",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1MQm13QktLakNKMVhyaGt2dHlwNmFrM2ZPeFRsdEQ5ZVBNY1hWeGlkZ2N2QlB6bWNjM05oNGJiU2U1aFM2NmM5bGNyLUJkOEpBU0E3ZXlrUUZ0RlZRdVByVGNjM1dMQQ?oc=5",
+     "time": "2026-11-02T13:28:00+00:00"
+    }
+   ],
+   "brief": "2026-11-02-SOFI"
   }
  ]
 }
