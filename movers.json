@@ -1,49 +1,130 @@
 {
  "date": "2026-11-02",
  "threshold": 3.0,
- "updated": "2026-11-02T17:26:33+00:00",
+ "updated": "2026-11-02T19:29:18+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 759.17,
-   "change_pct": 0.46
+   "price": 755.57,
+   "change_pct": -0.02
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 692.48,
-   "change_pct": 0.29
+   "price": 685.99,
+   "change_pct": -0.65
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 82.05,
-   "change_pct": 0.25
+   "price": 81.92,
+   "change_pct": 0.1
   }
  },
  "movers": [
   {
+   "symbol": "NBIS",
+   "name": "Nebius",
+   "list": "portfolio",
+   "price": 142.77,
+   "prev_close": 154.14,
+   "change_pct": -7.4,
+   "trigger_change": -3.3,
+   "peak_change": -8.0,
+   "first_seen": "2026-11-02T16:55:57+00:00",
+   "sector": {
+    "etf": "IGV",
+    "name": "Software",
+    "price": 103.04,
+    "change_pct": -1.2
+   },
+   "chart": {
+    "ema8": -12.2,
+    "ema21": -21.1,
+    "sma50": -31.4,
+    "sma200": -19.7,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "APLD Stock Hits Over 1-Year Low: CEO Says It\u2019s Not a Neocloud, But 800 MW Capacity Still Needs Financing",
+     "publisher": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNVVU3VGJBdUFEaTBOb29qTk5VZ2lZVk5vaFFzLWhwTkhwSmd0QjZzWnJ6NUV0dUQ5UEVFTVhyOGNab2F3WVpVeWtWNk9QOFdwLTJfRVNWMy1XWmR4dm9JOHUxRlU1YV9wcUR2SEc5a3IwcTFOczAtR29jWUFxOU1SWlVPTUo4djlabWIxOWwyaGw2aXIyeVJ3M3ZGUU5XUFRQa0tHZGNyV3ZVaUhTTlNJTmF3d1lLanhrY1B2M1owVW9TRGFpNjl2aTBsYWYzb1JaR3BodnlLRzJJM2ZNc043czh3QUl6c0N5dzJrN1ZXNk5wM1VuZXc?oc=5",
+     "time": "2026-11-02T17:36:43+00:00"
+    },
+    {
+     "title": "Nebius Stock Drops: What's Going On?",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOekhLQWZPanBJcXlIWFJrZ2NIb0FEU1BiVnFqZWVhOVQzbFF1bHgyWlJ2SkJzVXBFSTVRN3ZXZzZyWkRGZmhyQlpmY2NsNjNaUERUTXlMMjJnNm5qUEZFVktHWktET1FUNGxaLUVwSjRhc25tOGxvVVQtMkFwRURRcDEyQklUREhvRVprLUdvTV9HN1B5QzhKdzZn?oc=5",
+     "time": "2026-11-02T15:58:36+00:00"
+    },
+    {
+     "title": "Nebius Lost 35% Last Month As Contagion Spikes: One Wall Street Pro Says 165% Gains Are Coming",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPTExJa3pYS0N4MXM0QVlsU1NabVJDUjJ4ZnBLcEg1dDNIeTk3T1llcTVzRnhtZVNPLWFMR1pWaGphbG5DcThQdlZnM2hSQ0RfZ0FMQWFDekJjdXMxT0xTTlJxRTdESjNqbGxqNllTZFh4N3pZanFaUl84SGtURDVBcFZuNjdZS0pJcHBvWmwzN2ZHb3RkT3JrVHpMQnU3b0Q0M01lZzZWWk1jOXdzMjNFOHM3Qkh1djZoc05kMmhoenRNRTAwU1doYXZBYmZnMFdo?oc=5",
+     "time": "2026-11-02T15:45:00+00:00"
+    },
+    {
+     "title": "Why is Nebius stock sliding today? By Investing.com",
+     "publisher": "Investing.com India",
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOdzJ3Zm0tQW1BckFJSmQ5bnJqQU1FbzZxVnUwa2VIeHZncXFNdWk4MmdFQU5kbnRNeUhlazI5TnFNUXd0Wmw3eFA0ZnVmN21fMEgtaFJyMWZ2dzVNWU5YQkVEMC10UzFhUUFta2xnblBMLTkwZTZmTVkyRHRzMFlKN0g1bDd5NWY1Z0x5ZFFyeDRPemdFdDhVbUhB?oc=5",
+     "time": "2026-11-02T15:28:04+00:00"
+    },
+    {
+     "title": "Nebius Group NV (NBIS) Director Boynton John Wilson IV Sells 333 Shares",
+     "publisher": "GuruFocus",
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMm92a1F2NnUyeVVJZ01PR3ROZTAxR0l4Z3dlczJHZ3AxRXRlRkNXNW1FY0llaGVWUTl4X1JWM2dodUx5Wjl6NEl5V1h2Ykh4RFVQR2tRc2k3SmNMRmUxa3lBMDhIWjdOQmlRZHppUWpNUzR0bWFWWXNnTGp4U2hiTFdFVjJ3SHJlUGFYNGlrMGVQUmk1NWxYOTBZVG1JNEg2QkNGdGtUemdseEZD?oc=5",
+     "time": "2026-11-02T14:45:37+00:00"
+    },
+    {
+     "title": "Nebius Group N.V. $NBIS Stock Bought by ProShare Advisors LLC",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQRzNyRHZWNnJackpLdzFUS2ExOEFmdEkwTFdLcnRmYWpsaUR2akh5dWFoSnNOTFpjZlRiU3QtWU45QlJ1ekVtTTlGT3dzSWw1TjJnU2Zic0s0Y3ByQk9PbEN6OG96QjJjYjcxUklzRTR3RVRMc1JqNVRDVTBwaUJFcjJfWTZreUpPRzBpUjhSX2dSZEhORFdLZlAzVDRQalRpY0RpdHk4aVZ4QVBjMTAwakc2MzBnVnM1MmVv?oc=5",
+     "time": "2026-11-02T13:19:04+00:00"
+    },
+    {
+     "title": "Insider Selling: Nebius Group (NASDAQ:NBIS) Director Sells 333 Shares of Stock",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNMGNmX1pHcHpJWG43Qjl2Q1FiSUVEcDQ4SUxMTlJxWFZNdjJhOUJ4cEowajJEaVM0VVlmQmE5bnZGckprY0tLUXBXbUpHU0hxSG83V3E3bHJRS25LTUVVa2lUbEZkTjRXNGZoNjRaUmpidUZVTl9NUllaUmlrSVh3ZFFibnVuM0o0TUtyUkVfT1VNWEc0aFAwakd6eldQa3pITWlRZWJkOU50RXpWVWNLUWl2YXBsMmgwU1FqWHZsOUNnNkdtMzg4MUFpS1VnZVVxeGNn?oc=5",
+     "time": "2026-11-02T13:19:03+00:00"
+    },
+    {
+     "title": "Director Boynton John Wilson Iv sold $57,632 worth of Class A...",
+     "publisher": "Quantisnow",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQYnFIQmw3OEJkVXhWeVRPQVlob0ZXNlBtcWNOb2pEYk00d2Q2R3dQNW04ZmlRYmdyNzU1WVFlVjNfcEZfUnkwWE9NZmhCWEdmVWJGZ1RHUTQ2VEtYRzhEY0lyY3A4dW5TRFhxYVRyMXF4OWVFWGp4Uk1ZNENqa0syVzNmc01BUEp6cGlhTWw3OEh1MldpX25KMUdGUFdoSmtHRXc?oc=5",
+     "time": "2026-11-02T12:21:56+00:00"
+    }
+   ],
+   "brief": "2026-11-02-NBIS"
+  },
+  {
    "symbol": "MELI",
    "name": "MercadoLibre",
    "list": "watchlist",
-   "price": 1698.0,
+   "price": 1691.31,
    "prev_close": 1624.53,
-   "change_pct": 4.5,
+   "change_pct": 4.1,
    "trigger_change": 3.1,
-   "peak_change": 4.5,
+   "peak_change": 4.9,
    "first_seen": "2026-11-02T16:15:40+00:00",
    "sector": {
     "etf": "XLY",
     "name": "Consumer discr.",
-    "price": 118.72,
-    "change_pct": 2.89
+    "price": 118.33,
+    "change_pct": 2.56
    },
    "chart": {
-    "ema8": -0.4,
-    "ema21": -3.7,
-    "sma50": -7.5,
-    "sma200": -6.3,
+    "ema8": -0.7,
+    "ema21": -4.0,
+    "sma50": -7.9,
+    "sma200": -6.6,
     "momentum": false
    },
    "headlines": [
+    {
+     "title": "Can MELI's Cross-Platform Users Unlock Outsized Profit Growth?",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVW5hbHRJYTJPZkZHRnJad1NscDBBOUgtektLU1p3a2xoeEw0bGR1Zm5FeDJTMnFveThaUXNBVEx1aW94c3ZtakRFTkZPNW5fSTdJMlZLc1pEcmMxSkxHZEJNaDl5YnVDdjhsVDkyUmVfalpqSEh0bjhvMU8xSUpiR2FiZWEwNkVrclJzQmlCdFNIUFg4NGpIM3M3UTJKbDJRbFpMUlJfRERzQzN1?oc=5",
+     "time": "2026-11-02T15:52:00+00:00"
+    },
     {
      "title": "MercadoLibre stock gains 3.17% before November 4 results",
      "publisher": "ad-hoc-news.de",
@@ -85,40 +166,64 @@
      "publisher": "Yahoo Finance",
      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOOEtkaHAxbjVPcjZJSzZ6N242SXpTTlh6NUZBOWo3RUYyQUJwX0VTMS1aeG9VdHkwcVQ0WHZBX1dvRlhpYjgzclVVaF9GZS1SdjRGcWxnX2RzWURCWHRmTWxzX1ZKdkN6aUhXckh0UWFVbXhBOVRQRHctLWNOdVNiNHZGWU4yTnRQTm1iZUswMktuX2o0WExhVzFqR1hkLTl4MDZyeA?oc=5",
      "time": "2026-11-01T23:26:41+00:00"
-    },
-    {
-     "title": "MercadoLibre, Inc. $MELI Position Trimmed by Sumitomo Mitsui Trust Group Inc.",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPNkY1YmdwT3BQSFlNWlFSYkNoanczbHFRTEFMemRQcl9fdmpPQ3E0QlFRd2Z0TF9KblI1UU9IWWd1Q0VhU2duRk0xN2FOWkN5aTZUT2tyT0FBYTZKLXQ4UUo2c0doS2hVd1VGTnZiYlVkR3ZRbE5FOEJWS3N5TTRDVW9KeHVNM0RWSXJSdTZhV0NTYi1FVm1QbnBRWHRYMVVmX1g2LWlXbVpqcHBDcGNYOURhRDR1bFhBajhfLXQ4VnFJblFYejVuOGViTUFIUG8?oc=5",
-     "time": "2026-11-01T11:47:21+00:00"
     }
    ],
-   "brief": null
+   "brief": "2026-11-02-MELI"
   },
   {
    "symbol": "AMZN",
    "name": "Amazon",
    "list": "portfolio",
-   "price": 251.04,
+   "price": 248.73,
    "prev_close": 240.35,
-   "change_pct": 4.4,
+   "change_pct": 3.5,
    "trigger_change": 5.3,
    "peak_change": 5.3,
    "first_seen": "2026-11-02T16:15:40+00:00",
    "sector": {
     "etf": "XLY",
     "name": "Consumer discr.",
-    "price": 118.72,
-    "change_pct": 2.89
+    "price": 118.33,
+    "change_pct": 2.56
    },
    "chart": {
-    "ema8": 0.6,
-    "ema21": -0.4,
-    "sma50": -1.2,
-    "sma200": 3.1,
+    "ema8": -0.1,
+    "ema21": -1.3,
+    "sma50": -2.1,
+    "sma200": 2.2,
     "momentum": false
    },
    "headlines": [
+    {
+     "title": "Amazon Vs. Alphabet: The $420B AI Capex Squeeze Leaves Both At Hold (NASDAQ:AMZN)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQMTBOdW1vN1RWbkxOVXY0bl96c1U5R2hPbE12Y2VJdkJySDRfeDg5ZjRUOWpSb3c0WjdTWVdEME4tdkhjenlJOTlsa1ZFWE0tQVo5REtZRWZWOXBfeUtYaDVQSjFYZmFoTjgyZDdYejNXTFlQV21QWmtnRGhJVVVkNHhCSDR3VkxOX2xpdFJzbzZ3MkN6NE1OSlBMZGh1eFc3NlF1TTFIN1U?oc=5",
+     "time": "2026-11-02T19:02:53+00:00"
+    },
+    {
+     "title": "Amazon Stock Rises: What's Going On?",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQQlg2eVlHWDl0QUpwa3MtZ2JBVUVMOXd6Y0xzSlNSRTMyRGl2SmRRZEhQNTRsS01vellzQ3NvSm1GYUNNbmZiRUlaOTYwaHFuejRiajNOTmxLS2lJT1J1Sld6NXp2ajRMUlRheHcxckw1OHhHdVFHSW9fYnVXdkVWNmdFeGI5UFh5OS1CM2VUQ05KODhXZlhvSTJR?oc=5",
+     "time": "2026-11-02T17:28:25+00:00"
+    },
+    {
+     "title": "Why Wall Street Is Coming Back Around on Amazon Stock",
+     "publisher": "Barron's",
+     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPX3oyQ2tkVEFTaC1CMlhZSk5UYTAtUVUzdTRIN1JteTJFU3F4LWx2bnktV1VEVHMtdW80MzNmZjB2LWJOZHlnSFZacUxfSkpBQXM5anpZeWRXNS00azlsVGhoVW5WYXExdVBEUTRGZW1BTWdVV0FGZk1Mb2lkeHdlWEdR?oc=5",
+     "time": "2026-11-02T17:03:45+00:00"
+    },
+    {
+     "title": "Why Amazon Stock Rallied Monday Morning",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOdDBxcVFnZUY3UVczSkJGUFdIOXJweEg4NURlT09tRi12MThQQ1Y5Rl9CcUtzMWJUdDJHWnpHTWV6R015R194ZXE1cmtLZXprZGZnSWJFNndveUpBWU9sMTFwYkxPYTdib3JlOGVSSHVUalB6THFlOGFnckN4WWRLSmhYR1QzX0ROOHc?oc=5",
+     "time": "2026-11-02T17:00:00+00:00"
+    },
+    {
+     "title": "META_TITLE_QUOTE",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5wLXdlSm5MT0hsWEI2RjNWUHB6R3FYWEYzbi0ydDM4NGFScjNIZmYwYlpGQzRVWmdrVHJHcnRJdFdrMkxFczJqYnE2VFNWQQ?oc=5",
+     "time": "2026-11-02T16:53:40+00:00"
+    },
     {
      "title": "Amazon Soars 5% as Phillip Securities Upgrades It to Buy After Earnings Sell-Off",
      "publisher": "TIKR.com",
@@ -136,68 +241,194 @@
      "publisher": "Investing.com",
      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZ0dJeHJIREdSVkxZYmI3dkFwTURUQnJYVTlkRnNreWV3OHc1ZWpObzVjeUhYQktCaUZ4RndxZVdJeGJuVEhPcE04NS1FVXVTdjBvaGlNRm54bUd5bUhlNG5adU02N3dNTWpFTXB1b0NYTWk4Rm9zNy04RzZ2MlBvRHhCbkdmdE82VjlKT2cxQ3JxaW5aTk9ydWxWcmI?oc=5",
      "time": "2026-11-02T15:08:57+00:00"
+    }
+   ],
+   "brief": "2026-11-02-AMZN"
+  },
+  {
+   "symbol": "AMAT",
+   "name": "Applied Materials",
+   "list": "portfolio",
+   "price": 378.43,
+   "prev_close": 390.09,
+   "change_pct": -3.0,
+   "trigger_change": -3.0,
+   "peak_change": -3.0,
+   "first_seen": "2026-11-02T19:29:18+00:00",
+   "sector": {
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 512.56,
+    "change_pct": -1.9
+   },
+   "chart": {
+    "ema8": -5.2,
+    "ema21": -11.0,
+    "sma50": -16.9,
+    "sma200": -14.9,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Applied Materials (AMAT) Stock Could Be Above Fair Value As AI Packaging Bet Expands",
+     "publisher": "Simply Wall St",
+     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNQk14ekR4TnlWN0VGU01ZaFdjSzkyeXVzRXplMEhqTVN5akVDVkVEVUExTi1idTB5MzFWM1B1OWpRM2ppczUtamJWempCOU4tTE1sbGpTYTJ5dEFRR0pDQU5ENU1mLWMzbTBmc1FiaFotdXY4U043UTRSSlhqckw2ZVFEN01mVF9CTngtaFhqV3dJNFlqeC02U0hWdVlDdHZ5VmFGWTZlNXJsV2FCSVg0NFJkcnhmMmJtNTNuS0w0ZUhiQ0U0QmlHR01oQmxxd01TLUlTYnlhaTNqQdIB3wFBVV95cUxPa2w1NjJqOHB2QVFYNEU0M29DMlVzUE5IbkxzZndZY0FJcWdHYzNvSGM0MWxESE5ESjU5c0J6cWZwREZCTm1acWl5U210QnNUUU9wMXBwcVg3dnUwTGJ6ODRXejFkT3JIQWdDTDZEdmlTYlhhcXBzWmJMZ2tVSk01RVc2b3dpQUlJZ1BRZFg4bHdVYmpja1otb3kwekNVV3c0QTlLd0t1Qk5COE4xM1o3aE4zUnl5d3R6WDhRTDljR0lBdGR5aWdjSm1wZXJtVXJXb0tFQ0FlV3g1c2xUODBn?oc=5",
+     "time": "2026-11-02T16:22:11+00:00"
     },
     {
-     "title": "Amazon stock climbs with upward price move while weak momentum tempers upside potential",
-     "publisher": "Traders Union",
-     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxORW9seG9GbkFmclhubjM5SG04LTlwNkRheU5qMGNuMi1oOEJ1RHVDLUkta19DSWFYSk1SczRPY2xPUkQyeGM0SnFMUDJjQUF2N2tRUFBoRzV4cERnQl9nbzU1Y0ZmT1ZicGpyc2wtandCVGkta2tkb2ZqdlJTdUtvQ1RVdFJySUowSFljR0NaX2dlU28?oc=5",
-     "time": "2026-11-02T15:01:32+00:00"
+     "title": "Applied Materials (AMAT) Slides Despite EPS Surge and Higher Analyst Estimates",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUDZJY0NhMHVRek55MVRZa3Y3XzQ2TjM2MldJenc3Mm9PQ0xXM1RpTFhiWFVoSlFyOGpBMTctYks0bFRWMVhzMFFBcE4wcEpyMWRlNVZpLXhvdy1EeTFNMnlBNVBCVi1hNlBRMjUyY0txQUkydjVyWDlncTNoWDNlb0JNdG9UM085c1J5MzNJQkJWMi1JX09zYy1UTWlDN2dOMlBUTg?oc=5",
+     "time": "2026-11-02T14:36:59+00:00"
     },
     {
-     "title": "Amazon Stock Price Target Raised To $330 By Phillip Securities",
-     "publisher": "TronWeekly",
-     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOaG5rcV9RY096VEd2OUxmNkNlejRyRWFhX0tPcW9qRmpOSDJfblRDZ05yWUlJcENkSWFZaVpnT091MWM3azRTOUx2N3BIVnh6c015bFVmc2pFcGh6djJ4dDk1YnhiQ2VaWUUwQjl0bW1vN3pHR080S1FobjJUUHpWLXllX0RieF96VDVMbnZ3SE9aYjQ?oc=5",
-     "time": "2026-11-02T14:48:35+00:00"
+     "title": "Applied Materials Sinks 7.5% in Intel\u2019s Chip Rout Days After Doubling Its Besi Stake",
+     "publisher": "TIKR.com",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPTTdCZEp5N0o4V3RZZGk1em05b2dBTG1WTkpoYmVscjJKWW1BeFhfWlp5V2dlZnhJa2hWU3JjcW1odlQwYm9jaldzMlRhZHF5OTY3V1pKLWFHT1BEM01BR0czZWxuSzNXU2VHbS0xTUpGaFFCWXZNYzgyLWx6X2xobDhaYkZvUlhETl9VUmhZcXlERG5wSWNGbS1rX0pmc01jc2ZPeGJxcVc5dFI1bGc?oc=5",
+     "time": "2026-11-02T13:38:51+00:00"
     },
     {
-     "title": "Amazon.com Inc Stock (AMZN) Opened Up by 4.06% on Nov 2: What Investors Need To Know",
+     "title": "Applied Materials (AMAT) Sees $77.8 Million in Net ETF Selling on Oct. 29",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZjlGcjRyS2dManprY1lwUmUtTzJNVVlwUi1FTGxWZFVtd1dLdThISVNRVUVWbERxSGI5Z1VQNHNXbmNxUlVaeVQ5UnQtQUl5M2tHSmI3a3h3UndJdG04ZGY1YjRnMlBBNFdVMmhHYm10ZVFNRzFJM3dnLWhyWkN1eXN3QVVWaDIwNXpnd3VibDQtV2xHNDdDN2tncw?oc=5",
+     "time": "2026-11-02T11:03:38+00:00"
+    },
+    {
+     "title": "Will Applied Materials (NASDAQ:AMAT) Clear Its Guidance Bar?",
+     "publisher": "Kalkine Media",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOMXctV1laNGFDd2xJMUExTFVYUWN6UGthNG1xLW9OYjE3RUJ3czdIMHFYeFk0ZlN0UXNuSWtIdEVYdF9URmdjVEViNEIzSjN5d3F2aWZpeDNEMExXUXA2YndHOVBrUmZicTUycHJQU1BPVkI2bEY2TEVGYzB3YmVfT1ZoUTEyRUVBckdZVGg0T1Z4RE1DQ0tLTGVrSWlaTWV3dnNoQQ?oc=5",
+     "time": "2026-11-02T05:12:00+00:00"
+    },
+    {
+     "title": "How Much Downside Is Left In Applied Materials Stock?",
+     "publisher": "Trefis",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOMHV5YzFzd1lUb21zc3FaRnR3aWJSbXlBM05nWlZEeVc1OUUzZ1l1ejAtcjdzbGxjV1dXZl9tc25ISWY5SVVUSXlLOW5EYm1mRFl1bVBFeEFLbkVIbVlhcjRidVJQRnFjLW05amVpLUJKRmFiOHg1YmpOU3A5QllUbVVwRzBZcGZIQlhabDdjOGVNa1J1emM4dDBBTkZrUVFkRkI1dmFuVlktYWVmVk1lbDRrWQ?oc=5",
+     "time": "2026-11-02T01:40:29+00:00"
+    },
+    {
+     "title": "Applied Materials Recovered to $548 and Is Testing $554.94 Breakout \u2014 Earnings Tonight Will Confirm",
      "publisher": "TradingKey",
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPcGtxbHRyMkZpMVVQVE1qc3Q3eFZRLU9FaV91Sll4WC1kNHFuR0prdDRZUGxQQUp2bmwxMFVacEV2dkprczRIR2NkV1ByUTBRdENsb2ZBMklMSlp4azhZZjk3WVRReXNfLTdDVG9yQWp3V3JMRDVkT1V6X1U4ZVFEY0JyYWNfQXJwQ1hZ?oc=5",
-     "time": "2026-11-02T14:47:22+00:00"
+     "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQZGNDQkRmMHAxZTJBS3M0MHFkTzFhZzdtZlg4ZFFveEZSdkVYWkJod1pEZTZVb2NyeTF1QnFwNE1mbXZYc2d2ZS1uaDJlS2ljLWhDbFE0Z09NbzhIMlViSEExS0Y0ZGFyR0pDb0FValB5a1NnMGFkYVg5Q2dHRXZ1QkhaaDd3QXF5WURZQkVYQ21EaDkwblNLRTVLNHVVVTJ4T0ZoRTJ5YUszdFNOTlRCOWJqdE45Y0ZmWmxBaG1VU20tSGRhWTRHVEpqWlZMb21nbXZNQTdUanBPSXFJZkhuNl94elhnRWE2UVdfQUZBdk04c0F1d0QwSXdObw?oc=5",
+     "time": "2026-11-01T12:15:44+00:00"
     },
     {
-     "title": "Amazon Stock Climbs After Phillip Securities Upgrade to Buy",
-     "publisher": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxObnZpN3g4bTBoZ1BRSWYyYjRqa2FReU53dEx6bGE0d3JlWWM1cUI0eU1CU1ZSRHR1Q2JIY3BuaFZtZmhTelp4UHE4U3puT0JWV0JzUk0xUW4wSndMNmtGRmZveXpsWmxfRGFEMnJCUU4wdDlVenA0S2prNmEtcXVsUnlqeHpJQi1NUjlob1NTX21yNzU0LW9zWmlJbENybkY2V3lhdUhnaEFiU0o0eF9nTkFLdkVCMGRqXzBN?oc=5",
-     "time": "2026-11-02T14:35:15+00:00"
-    },
-    {
-     "title": "Amazon vs. Intel: One AI Stock Is a Gift, the Other Can Wait, Says Top Investor",
-     "publisher": "TipRanks",
-     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNekNfOGJVN3oxMlpPQUx3eUczeVRXRzgwMFVTQl9leXJFajFpcmlDWnN6d2xqZmg5cGJwVFVEaGx1dnhJWTVYV0QtRUxibEt2amo2bUtNbFE5X3Nqam9ubERmMkprc2M0dEVXa3hOWjRPRnFlRjROVkFmVTFHZ0lGb2t3c0w2Y0tGQTZNSlNtMVZmWHFSdXE1ZVZma1dWUXpfTExoRlhMaE1uQk9IT1JyV011WQ?oc=5",
-     "time": "2026-11-02T14:13:17+00:00"
+     "title": "Applied Materials Stock And AI Chip Equipment Names Riding Server Demand",
+     "publisher": "Simply Wall St",
+     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQOXNwckF1Yk1ITGEwRFFoM1BZQjlnTU9yN3A3cDlMRkNoM0h1M2xzcDA5aWo5X0gwaUZacTZaeDM2T3AxZnFvSF9tQVFhd1N6RWtUR1FhZzJrSW9SWW53clFxb2lpS0d4M3ROMHdqTjc5OE5nek9TMHpmUnpiRGNWOFMtVWFWdmtSVUp4QlJVaEJ0M09OeW9BZUJrOXNhQUN6VTg1NVc2aFhibWktQkNDZ1RCU21abFhTZW1JT2l1RkdzR0hiSG5tTDYxaHcybjRMal9RU1E4TjdXd9IB3wFBVV95cUxORWotY0xLMWdEbUd2Q2RjTl8xZWM0OTZpQlhrRkg1MmM3MFdkdWtzUlRNMHdBQW1PMDFwd0hBMy1hbWN6RFhZWWprN2p0bTNBSlNwbW4taGxieGRiVTdEemU0OTFrUUxkUWs3dmtFRGpjQWZqc2hVVHgxRFBjQU9ySVIwVUV1cllZUEdNYldMUGxfN3N5UjZHS0t5azNqdWlQZjYwQ2otR3VDdmREeF9pVC1YZkd0ckg3YXAtSUZaMXZoV3ZmanZNNHQ5RkxJMW03cmgyQzQ5blRZeGhuM3FZ?oc=5",
+     "time": "2026-11-01T06:46:08+00:00"
     }
    ],
    "brief": null
   },
   {
+   "symbol": "NOW",
+   "name": "ServiceNow",
+   "list": "portfolio",
+   "price": 107.3,
+   "prev_close": 105.12,
+   "change_pct": 2.1,
+   "trigger_change": 3.1,
+   "peak_change": 4.0,
+   "first_seen": "2026-11-02T16:40:54+00:00",
+   "sector": {
+    "etf": "IGV",
+    "name": "Software",
+    "price": 103.04,
+    "change_pct": -1.2
+   },
+   "chart": {
+    "ema8": -16.4,
+    "ema21": -21.6,
+    "sma50": -22.4,
+    "sma200": -6.6,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Adobe vs. ServiceNow: Which Technology Stock Is a Better Buy for 2027?",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQeGdCOWdzS3QtMjlaUjJ6cHlTeF9UYmxMaHozUFBQeTlvOV80bGdnaWlKdFNNLUVGVW9td21jbExydllTcEtLMUNhbER6YVE5UWU1Q0xpbV8yOE5aX25rQUpXc2RsQVBsZVVBYmZGWnd1Wl92ZVFUdDEyNmNvMzI0ZHlUcmZ1dmZPREFmeGtYdVNOYl8xT3djOUFGWE1zY2FibDVSY0E0Mzg0am9sR0VLOEZYdnVYakt1QkhLWA?oc=5",
+     "time": "2026-11-02T18:59:00+00:00"
+    },
+    {
+     "title": "ServiceNow Has Become The Canary In The Coal Mine For Agentic-AI Driven Software Implosion",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPc3hiQlVIVEZNU3ppR29wYTFHRzBWeHF0c1pGbDk1SW1xRG5ZRlFWOTNIYlZFR2xJREo3d3lCaFR2OC1uOGJISUFmbHgwZksxLVg0UXBxLU1TNE00QlFFbmZvSkNwZ3MyVVM4V011UmtJeVBMWlFFLTZaSk1rRVR2YVFjMmk4OWhJM1lQdkl1R0FZVzMxWm0wbTlQeWVFNllMX2hFSTZjS0NiVjhnZXlWNnJNUnpJLUZBUmxWTzhFNjVrRlpQeEZFQWJLQVZQR3M?oc=5",
+     "time": "2026-11-02T17:45:00+00:00"
+    },
+    {
+     "title": "Rolls-Royce stock gains focus after Hong Kong service milestone",
+     "publisher": "ad-hoc-news.de",
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQWlNpUFM1UjNnWW1NeTFVZWtJbjJWNFRFYjV3dVdNbEhLSThqRmlDVjM2cXpod3Bad3VmcktsMkZvX0RFWDNoczdtQzMxbmdMXzVOQVZ1MTBDanVkMXd2azhLYVdwVHBsVV9OMGVIN0JyaTg1NmtmOC0zMnZUdEZUUWl5NXl2R1hfanhLeVdZdFJxaUxvMlRKZWxVaUthYXdQWWhfdV9HWk42NEl0VWw5aUo3Q2dkSFozV2VuSEJzUWVZeFM3?oc=5",
+     "time": "2026-11-02T17:17:20+00:00"
+    },
+    {
+     "title": "ServiceNow stock gains while AI target, cash outlook rise",
+     "publisher": "ad-hoc-news.de",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNODZra2Zlb0hCQXBLQVV6eVZ2RUFEYmJjbmZIcVRiN3B3bXhkMjRiNVBYSXZJMEZ5ZzBpWkhKRUhmaldzSHkyRnlSSlpiSHRYTHNOLXpSM0E1c1dMSWlud1FPMDNKZUJsMG92NmNFc2NZVzR6OFJnOGpJSVh5MzVqa0pwNUxqazQ1RUxUN1NDemlwR0FQN1Q4S1BVaXdyNUZpNXhUdzhxRVotWFltT0dFT2dOUnNHR0paVE9R?oc=5",
+     "time": "2026-11-02T16:37:40+00:00"
+    },
+    {
+     "title": "Yes, I'm Buying The Tech Crash",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1XRzBneGUtUmk2M1pGMWVXb0xKOHlldC0tY2ZKTVpqYXNZUEx0bXQ4dU55eFpZZS10dEFpczl6QXdVVllwNlNsX2tDSXZpQldOZ2dQemFwd1czbC1JVFhpVjVUanVYMjRLLUt3WktaUnJLYVhSWDcyRA?oc=5",
+     "time": "2026-11-02T16:35:13+00:00"
+    },
+    {
+     "title": "NOW Stock Price Today (NYSE: NOW) \u2014 Live Chart & Levels",
+     "publisher": "JournalArta",
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9FaHRMUHUwOW5ENU8yRGdNenBsMWNPazAxSzBrcmpFZzI4Q0hUWUMzRS00c0lMSWJpcUhhOXYwSk16TXM2NzhvYV9RWHRTaTRwVFFMNTFjbGJjQQ?oc=5",
+     "time": "2026-11-02T16:15:39+00:00"
+    },
+    {
+     "title": "Nvidia, Costco and Nike join pushback against OKX\u2013ICE tokenized stock plans",
+     "publisher": "Cryptonews.net",
+     "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1uQXN6WWpQWEo1R2xpSEJZczN1clpUVDZhbUdBcGxmSlk0UGRsc1lnUE84TjNMWERBWHZ6QVJiWmYxV1VwMkFhRTlXbFl2UUdzc3gtSHp5QVRVU2Vu?oc=5",
+     "time": "2026-11-02T15:48:08+00:00"
+    },
+    {
+     "title": "RSI Oversold, NOW Stock Drops 4.15% on Friday",
+     "publisher": "JournalArta",
+     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNY1FDX1hVbEtkM3pOMUhteVNvUmZzaTlxdUtqS3YweDRZV1Foc1ZnSXRadE9NOWhYZ2c1UlpvTTVQZFdnZ2hTd1RURGRVa0J2Q0V0QUtGb3lIaHpNOGZVTXBxQ1drOFBiby14eVVNOG9raW96blpBY3I0cjdhelptZ2NFWFVfTkxlOVE?oc=5",
+     "time": "2026-11-02T13:53:04+00:00"
+    }
+   ],
+   "brief": "2026-11-02-NOW"
+  },
+  {
    "symbol": "APP",
    "name": "AppLovin",
    "list": "portfolio",
-   "price": 238.09,
+   "price": 231.59,
    "prev_close": 228.5,
-   "change_pct": 4.2,
+   "change_pct": 1.4,
    "trigger_change": 3.6,
    "peak_change": 4.8,
    "first_seen": "2026-11-02T16:15:40+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 104.37,
-    "change_pct": 0.08
+    "price": 103.04,
+    "change_pct": -1.2
    },
    "chart": {
-    "ema8": -5.1,
-    "ema21": -10.6,
-    "sma50": -18.7,
-    "sma200": -42.5,
+    "ema8": -7.2,
+    "ema21": -12.8,
+    "sma50": -20.9,
+    "sma200": -44.1,
     "momentum": false
    },
    "headlines": [
     {
-     "title": "APP Shareholder Alert: AppLovin Corporation Securities",
-     "publisher": "GlobeNewswire",
-     "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNM0NyYVI0cDlGT185VDM3YWEzb1k4bTMwZnRSRVVza2tpZUhPanR1cFpGdldLT0kyTnFBUlI3ZGtMc0ttNU5TZ2VPMDVNYXZxVUR2ZGgtd3g2a3YzUl8xNDQtZkFLeXJWNzJqUGNSNXA5ckNTYXRvcEtiYk5vS09RV25Cd09ZZjBMUm1wT1VrLW5MLXJPZFp4bHpqZXVUb1FnRDlOS3RkQkVhbk9NT3U0YnBpcVF3QWNYY2hHVkFxSTRXeVZhZjh3YVMtRktTNlFIaWFkSmpkZVhxT2h3dWFaUUdUNDhhUFJidnZuRE0zOXFJX2ZoTjR3ZVYybkRUa0V1aENNZmRYRDYwQWVVQk5IcUowcmZFMEhO?oc=5",
+     "title": "Should AppLovin Stock Be in Your Portfolio Before Q3 Earnings?",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOYVQwWWt6WXJxaDNpRlJMM0VqdXhSb2VfUGN2blVSU1B6R193OXJERmtHcEVNWkx1TkpXR0pJNnFJQldiS3MyNHhTcjdXV25nZGx1a0xCallMS3hzN3FVVjJ5YUVjTkZ6cXk4NGxyVGVSdVVlb1R0WXlOYXlId3NUdUk1NTdrS2ZXc29FTFhVMEVwQUxqcXpBLWl3WS04YkxhcEdZ?oc=5",
+     "time": "2026-11-02T17:16:00+00:00"
+    },
+    {
+     "title": "APP Shareholder Alert: AppLovin Corporation Securities Class Action Lawsuit - Investors Should Contact Levi & Korsinsky",
+     "publisher": "FinancialContent",
+     "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOeVlBY1pwUEZoSUZ2aVF5dkltTmdrMXZtVnUzbjkwXzlBTGkwb2d3ZXhMa2RqazNIcndrZXp4SGs2b3JzbzNJaTdFeTFDR3FTaE1IOXdpMGw3MWwyMmlreUFDNjVPUWctdXFILUdDQVE2Q1BLb0VEVkc4dWppM3VXLXB1a25oMjBNd1d3Nl9QYnNPS3paMHZ3SHhOcVhGYmFuNmhUY1NEVklleUJHdW01bTczOTN3bV9hR3NCaFNOTExEQV9JRUU5T25STHdFelJ0TEdrbDBHMWRvMmVHV2Rjbzd5ckxBMjVGYUVYYWRzSjV4RUNTR3gxZUxQOUZKM0ZsZnRsWWln?oc=5",
      "time": "2026-11-02T15:15:00+00:00"
     },
     {
@@ -231,244 +462,88 @@
      "time": "2026-11-02T10:02:39+00:00"
     },
     {
-     "title": "AppLovin Corporation (APP) stock price, news, quote and history",
-     "publisher": "Yahoo Finance UK",
-     "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1zQy1xdnFndGRMU2dTMnhmQTJCODRxdE1ZREZybTBLTDFiaFJ1MnN3Vkl4elJXRVRNM25YRVJOSjd6M1FHVGxnV2Q5OTRsVTUx?oc=5",
-     "time": "2026-11-02T08:04:58+00:00"
-    },
-    {
      "title": "Prediction: 3 Stocks That Will Be Worth More Than Palantir 5 Years From Now",
      "publisher": "The Motley Fool",
      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNUTZHcjk4SS1IVmNqVEVRM1hMTlZ4NF9aMlFVeHZkeklNMHZTNGl4aFlfa2RReUFCcnVTMFZmRDl6WmZweDBjQ1lxY0RwaVhjUnhLVW5jWVdHNkJITDNrTVBadjFKbXJIa2ZKMmVXVlVHOHRoaVpyQkx0TzYxVFZOMDZvUzVuQjNzNUxyM3Fvd2RkTUlKYjZzMA?oc=5",
      "time": "2026-11-01T16:43:00+00:00"
     }
    ],
-   "brief": null
-  },
-  {
-   "symbol": "NOW",
-   "name": "ServiceNow",
-   "list": "portfolio",
-   "price": 108.92,
-   "prev_close": 105.12,
-   "change_pct": 3.6,
-   "trigger_change": 3.1,
-   "peak_change": 4.0,
-   "first_seen": "2026-11-02T16:40:54+00:00",
-   "sector": {
-    "etf": "IGV",
-    "name": "Software",
-    "price": 104.37,
-    "change_pct": 0.08
-   },
-   "chart": {
-    "ema8": -15.4,
-    "ema21": -20.5,
-    "sma50": -21.2,
-    "sma200": -5.2,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "ServiceNow stock gains while AI target, cash outlook rise",
-     "publisher": "ad-hoc-news.de",
-     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNODZra2Zlb0hCQXBLQVV6eVZ2RUFEYmJjbmZIcVRiN3B3bXhkMjRiNVBYSXZJMEZ5ZzBpWkhKRUhmaldzSHkyRnlSSlpiSHRYTHNOLXpSM0E1c1dMSWlud1FPMDNKZUJsMG92NmNFc2NZVzR6OFJnOGpJSVh5MzVqa0pwNUxqazQ1RUxUN1NDemlwR0FQN1Q4S1BVaXdyNUZpNXhUdzhxRVotWFltT0dFT2dOUnNHR0paVE9R?oc=5",
-     "time": "2026-11-02T16:37:40+00:00"
-    },
-    {
-     "title": "Yes, I'm Buying The Tech Crash",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1XRzBneGUtUmk2M1pGMWVXb0xKOHlldC0tY2ZKTVpqYXNZUEx0bXQ4dU55eFpZZS10dEFpczl6QXdVVllwNlNsX2tDSXZpQldOZ2dQemFwd1czbC1JVFhpVjVUanVYMjRLLUt3WktaUnJLYVhSWDcyRA?oc=5",
-     "time": "2026-11-02T16:35:13+00:00"
-    },
-    {
-     "title": "NOW Stock Price Today (NYSE: NOW) \u2014 Live Chart & Levels",
-     "publisher": "JournalArta",
-     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9FaHRMUHUwOW5ENU8yRGdNenBsMWNPazAxSzBrcmpFZzI4Q0hUWUMzRS00c0lMSWJpcUhhOXYwSk16TXM2NzhvYV9RWHRTaTRwVFFMNTFjbGJjQQ?oc=5",
-     "time": "2026-11-02T16:15:39+00:00"
-    },
-    {
-     "title": "Nvidia (NVDA), Costco (COST), Nike (NKE) join OKX\u2013ICE tokenized stock objections, bringing total to 50",
-     "publisher": "CoinDesk",
-     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNT2JRbThULWtaaVVVeGEyVlZPSTQ0alVKSk1Qc2VKRGppaHVtSFoyM3Uzam1jWE1iVXFsT0dTNmFuTWJhQ3d1ZXZ6dWc3X0RvaVBSeGV5MTNvNm9MdmtyYWVNcmlkRWNMbWttQ2JQTzdEVlZ2SW5UZDRQZnJpOWtsN0V3dmtXaVdTOEZWZm5MeGpoRXZ3NjFHOGZkWEZSc2FObEZFT2hWSk1iYmZJSWxDamlQbWxFN0ppTzRv?oc=5",
-     "time": "2026-11-02T15:26:43+00:00"
-    },
-    {
-     "title": "RSI Oversold, NOW Stock Drops 4.15% on Friday",
-     "publisher": "JournalArta",
-     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNY1FDX1hVbEtkM3pOMUhteVNvUmZzaTlxdUtqS3YweDRZV1Foc1ZnSXRadE9NOWhYZ2c1UlpvTTVQZFdnZ2hTd1RURGRVa0J2Q0V0QUtGb3lIaHpNOGZVTXBxQ1drOFBiby14eVVNOG9raW96blpBY3I0cjdhelptZ2NFWFVfTkxlOVE?oc=5",
-     "time": "2026-11-02T13:53:04+00:00"
-    },
-    {
-     "title": "Service Corporation International (NYSE:SCI) Stock Gets Price Target Trim from JPMorgan Chase & Co.",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPcDIxbGNpOHFoMGVwd0FTRXpMOVRxOTJMTWE1Q2k2QUZXbnFBTkJzWFV5Uk93TG5kZEIzaUdyOG5ILUphY3p5N0hNUEFORDBmVXBMclpTUEFKOVlic2xIZ3pOYVJvVUNZTnc3WjMyNW1aUENxVVRkY0VBWWt2Q3p1N0VxMVdzSjhZUFl2bGZ5b19kY1VSYTgxcGtPVnRpVUFhZDRJRE9qNXJBS3NnX2lpY0QyTHYtOHhBZHpjdXZ2M2NDZWtkSWlNdTJsa01zUVIwbl9pXzM2ZloydzhWN0hfdGxMdkc3RWJGU25Vbw?oc=5",
-     "time": "2026-11-02T13:42:09+00:00"
-    },
-    {
-     "title": "UBS Group Has Lowered Expectations for Service Corporation International (NYSE:SCI) Stock Price",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPZkhSbzNzUzNpU2dCUHlWOVpXdFRTc2E5TG8xVnhHUDd6M0FsNUxkUTFoME9HdlZYbjNacFJidVVNWHFveHlIRDhyUC1QOWcwTWZaalJCYkZESWsyZVZBZDh6YUJnbENKNW5Lb2w4SXNFOUswMHR0RE9DWUhCb0lac0swdFZXX2k4R19SaU0zc0ZDMV9VaG5nRWdXd3M1bGJadGtyTmdBb1V1NHcxN3JiTE1MaktGaDk3WnN4Sl92UjZObHpMTlJ3UDJUR1lKZWJpdmhtMmM3MzAxUENYYTN6YTcyY3BRQ1pWTmg0?oc=5",
-     "time": "2026-11-02T13:41:32+00:00"
-    },
-    {
-     "title": "ENGIE stock: India solar projects add 450 MW of capacity",
-     "publisher": "ad-hoc-news.de",
-     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQTHdfMjRBaGNwXzlISndzZ1Exc3hhN2tvOHdLR3pTY01nb1FTcUgzS1g5V1VmNXdScEFKTWloQWVoaU85Z0EwNWhWeWUxYkg4Ry10c0lvOGgtR0VKNWxSZmxPU0c2aVhhblIzT1F1aGJKRDFQbUt6ZlBBWlF1TGRyb2NmNkxxZVBLMXh5TUxGRGhBWmlhSnFkNnJ6UmIxbXhKaVdXNlZMaTdVVElXVzMxamM1MjI3MmhuMlE?oc=5",
-     "time": "2026-11-02T13:34:11+00:00"
-    }
-   ],
-   "brief": null
-  },
-  {
-   "symbol": "NBIS",
-   "name": "Nebius",
-   "list": "portfolio",
-   "price": 148.69,
-   "prev_close": 154.14,
-   "change_pct": -3.5,
-   "trigger_change": -3.3,
-   "peak_change": -3.5,
-   "first_seen": "2026-11-02T16:55:57+00:00",
-   "sector": {
-    "etf": "IGV",
-    "name": "Software",
-    "price": 104.37,
-    "change_pct": 0.08
-   },
-   "chart": {
-    "ema8": -9.3,
-    "ema21": -18.1,
-    "sma50": -28.6,
-    "sma200": -16.3,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Nebius Stock Drops: What's Going On?",
-     "publisher": "Benzinga",
-     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOekhLQWZPanBJcXlIWFJrZ2NIb0FEU1BiVnFqZWVhOVQzbFF1bHgyWlJ2SkJzVXBFSTVRN3ZXZzZyWkRGZmhyQlpmY2NsNjNaUERUTXlMMjJnNm5qUEZFVktHWktET1FUNGxaLUVwSjRhc25tOGxvVVQtMkFwRURRcDEyQklUREhvRVprLUdvTV9HN1B5QzhKdzZn?oc=5",
-     "time": "2026-11-02T15:58:36+00:00"
-    },
-    {
-     "title": "Nebius Group NV (NBIS) Director Boynton John Wilson IV Sells 333 Shares",
-     "publisher": "GuruFocus",
-     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMm92a1F2NnUyeVVJZ01PR3ROZTAxR0l4Z3dlczJHZ3AxRXRlRkNXNW1FY0llaGVWUTl4X1JWM2dodUx5Wjl6NEl5V1h2Ykh4RFVQR2tRc2k3SmNMRmUxa3lBMDhIWjdOQmlRZHppUWpNUzR0bWFWWXNnTGp4U2hiTFdFVjJ3SHJlUGFYNGlrMGVQUmk1NWxYOTBZVG1JNEg2QkNGdGtUemdseEZD?oc=5",
-     "time": "2026-11-02T14:45:37+00:00"
-    },
-    {
-     "title": "Nebius Group N.V. $NBIS Stock Bought by ProShare Advisors LLC",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQRzNyRHZWNnJackpLdzFUS2ExOEFmdEkwTFdLcnRmYWpsaUR2akh5dWFoSnNOTFpjZlRiU3QtWU45QlJ1ekVtTTlGT3dzSWw1TjJnU2Zic0s0Y3ByQk9PbEN6OG96QjJjYjcxUklzRTR3RVRMc1JqNVRDVTBwaUJFcjJfWTZreUpPRzBpUjhSX2dSZEhORFdLZlAzVDRQalRpY0RpdHk4aVZ4QVBjMTAwakc2MzBnVnM1MmVv?oc=5",
-     "time": "2026-11-02T13:19:04+00:00"
-    },
-    {
-     "title": "Insider Selling: Nebius Group (NASDAQ:NBIS) Director Sells 333 Shares of Stock",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNMGNmX1pHcHpJWG43Qjl2Q1FiSUVEcDQ4SUxMTlJxWFZNdjJhOUJ4cEowajJEaVM0VVlmQmE5bnZGckprY0tLUXBXbUpHU0hxSG83V3E3bHJRS25LTUVVa2lUbEZkTjRXNGZoNjRaUmpidUZVTl9NUllaUmlrSVh3ZFFibnVuM0o0TUtyUkVfT1VNWEc0aFAwakd6eldQa3pITWlRZWJkOU50RXpWVWNLUWl2YXBsMmgwU1FqWHZsOUNnNkdtMzg4MUFpS1VnZVVxeGNn?oc=5",
-     "time": "2026-11-02T13:19:03+00:00"
-    },
-    {
-     "title": "What Does the New Citi Facility Mean for Nebius (NASDAQ:NBIS) Stock?",
-     "publisher": "Kalkine Media",
-     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOM2dCRk1sYWtHSU9TRDRFZXRFLXg3dVhFX0VkRHVzSmt6Nml5VlFCYno4Y3dRVjNUMHdsaGNwMlZScGpRQk9uT0JLTmNJSTRtVmtfdmRCNlNRbzgwTE1xS1VFd2dBOWlmdEN4Yk9jUE94eUdoNFJIY09sMURMSTlLeHBsS3JkYllFLUVJdzhQOVVsdUU2blBORlF2OHhhVHhySWVBZ3U2X0QwNWMzcW44YnZ3dnppdzE1UkxYQm4ySi0?oc=5",
-     "time": "2026-11-02T10:25:00+00:00"
-    },
-    {
-     "title": "Is Nebius Stock a Buy After Its 36% Pullback?",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPOHQxQ0VpdW8wb2RmSzBpUzBlaXRpVFJPYUFrVURoR0JQYWgzNDdwUjQxZm9FUldvdDN0RWxWT3hOSkVGNENaemhwZ2dJaU1oUXlXQWR6YVdXZ1o0Um5rZTNxTGtBQW1JTG4zclRZNkJwbTdwa3RzcFFCT2NvOEhXY29NYUVlT21lRDE2Rnd3anlQSU94N2hWZQ?oc=5",
-     "time": "2026-11-01T19:35:00+00:00"
-    },
-    {
-     "title": "Nebius after Microsoft spend cut: $255.14 bull, $73.42 bear",
-     "publisher": "FinanceFeeds",
-     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPcDhTVlVpYzdxOHFscVpJV25seW5hVVQteDhVMFVQZ1FEU3A2VWdtQ2FVT1VYaEhJLVRuRzhCSndxb2V2eHRFNEhtbER6NlpKQnpVZ0E4eFBsWENZd2o1TkYxaG1QamtONjBtZW5xdlp0SDA2ajBhcGV5Z0JoZDZqbHo5NmViOW54YjRrRXJpWjlMZw?oc=5",
-     "time": "2026-11-01T12:10:54+00:00"
-    },
-    {
-     "title": "International Assets Investment Management LLC Purchases 35,190 Shares of Nebius Group N.V. $NBIS",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOX1plTDlNanFzNDQyUWlScWNkUlZhdzVfUzdfd0o2clZrMnh1NThkSmVwcWpqWDNUc2otSjRJQ0dBdGpWV1N2UXA4aW1pYVdqNWlLWXNCdUpWNUNNMTRTaHUxamhvcDdUOTkzV1BOcmlhemRVUjM5LVZTbXdEV3FpSzQ5d00yUnV3SmhWWF83aXQ2U1lOSnFqQXFsNzhPSGVVamh2M1FySUxxbDlyNHl3dzFuczhwUnZiRDdkTGhnR3FQS2c2cFFLdGNEM3llYVNoS1RJTkh6M0hkMDJVT1FjeFdZUXY4UlFKS0E?oc=5",
-     "time": "2026-11-01T09:09:10+00:00"
-    }
-   ],
-   "brief": null
+   "brief": "2026-11-02-APP"
   },
   {
    "symbol": "SOFI",
    "name": "SoFi",
    "list": "portfolio",
-   "price": 17.33,
+   "price": 16.86,
    "prev_close": 16.76,
-   "change_pct": 3.4,
+   "change_pct": 0.6,
    "trigger_change": 4.0,
    "peak_change": 4.1,
    "first_seen": "2026-11-02T16:15:40+00:00",
    "sector": {
     "etf": "XLF",
     "name": "Financials",
-    "price": 57.63,
-    "change_pct": 1.98
+    "price": 57.52,
+    "change_pct": 1.78
    },
    "chart": {
-    "ema8": 5.5,
-    "ema21": 8.6,
-    "sma50": 4.7,
-    "sma200": -2.3,
+    "ema8": 3.3,
+    "ema21": 5.9,
+    "sma50": 2.0,
+    "sma200": -4.9,
     "momentum": true
    },
    "headlines": [
+    {
+     "title": "SoFi Stock Rises as Oil Prices Calm Inflation Fears",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWE9tMmYwYkFPOFpJVm80a0pNenhkeS1SUXFBRENJclR0Rk9UT2lNSi1oM0IwSlE1ZjF0aW5jbUI2Y3R2R2RrVGpqN1ZTNllGak9tbHNoT0hBSzdiOWNNOW5Qc09OTXhVSndCY3BIdml5NDNuT0I3Qks1YXhuWTZEWG9kdHh0clJyanZucUN1OHNZcnhOY0I4OXRwUWFHd2pWWm9TZmlEUmY4V29tMFU1VnZR?oc=5",
+     "time": "2026-11-02T19:03:33+00:00"
+    },
+    {
+     "title": "SoFi Added a Record 1.2 Million Members Last Quarter. Its Stock Is Still Down More Than 30% in 2026.",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNMWF4ci1QVXNMV09Jd0FERDVRNGZwUXBZNWh2SFZ0aFlrVGpzYzN6eHh2ZkF2WmJFRkVHZDVFWXBWVlF2S1J0SnFfSG0tVVp0NlhOTlBiMWFfRGJTek01NUp3OW5aUWNOTFptNFI5d3BsQXRNc2RtelhibDNrbVgtU01tMXJqdUZBYTdEeUZBRUN4blBTZXg4?oc=5",
+     "time": "2026-11-02T19:00:00+00:00"
+    },
+    {
+     "title": "This Up-and-Coming Tech Company Just Delivered 44% Revenue Growth, and It Has Nothing to Do With AI.",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRmJiMjJ0WDV6c3R6SFNhVVBaVlBzc01Hc1NNdVY4aFk5SEpLSEhoNTFxaXcwbEsxTG1zYWZPMmk5MUFCenNpZ0dPdUNycF9mNUNwZkkyNmRsX19pWm5TczdpcmY4N1lXQ3U5OTBOdUxwYzdkTDV3V2dIRHJaVEdsTlhHeDdrZl9ISldpb0lKcmdaemRpdDFCeXhNRQ?oc=5",
+     "time": "2026-11-02T17:47:00+00:00"
+    },
+    {
+     "title": "Upstart stock falls 5% near 52-week low ahead o...",
+     "publisher": "Pluang",
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNeHQybVN1RXNXU0ZsdVRLUHRlbm9WWWdWdlBUc2o0OXBGbUo4YzhlZVFGd3ZmSUx1bEFDMG5xSy10dEhHWlgwNG5va0IxendLUnJPZkhueTExNk5IRDVCNU9qanIzN2JaVDNZdFpfbW5BY1NxTTNOYUNMcGlPcGwwMUMxZWs4Vnhtd0pZZkNLeFc0TzBuc2o3NTZVa3NiUjZrZE5USmt0a0lUUkpJdE1V?oc=5",
+     "time": "2026-11-02T17:14:03+00:00"
+    },
+    {
+     "title": "Upstart Drops 5% to Near 52-Week Low Ahead of Earnings; Affirm Advances 5%, SoFi Gains 4%",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPd2JMWXRqc3V0dGhBa05sbWVZREI1TFNrU2hyb0Zya0w4NDBIa3FnRmpKM1JTSHBldVJPaS1VQjhNS0hGM1VmV0FDRVdUbmxrcVVKZElDQmJPOXRwdDBvcWhxSUdEejY1b1luRG44NGluYjZ5T2hvWUhNSVdLZXhtLTdSODFQV201QXFjMnVxb2I3YS1lQkJSeWlsSXhGOTUxSDh2SFROMF91Wks5cjF6a2FTVXdqczhNU0FCTzNSenNCODBOcUNJ?oc=5",
+     "time": "2026-11-02T17:02:00+00:00"
+    },
+    {
+     "title": "SoFi Technologies Advances Over Three Percent in New York Trading : \uae30\uc5c5\uc8fc\uc2dd\uc815\ubcf4 : JKN",
+     "publisher": "\uc7ac\uacbd\uc77c\ubcf4",
+     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE15VFlPZkdHTElEQ2M0Wkl1OVBNZGNUM3pSVVhBclhIYUNFbHhFVlB0UGdUV0wtQWRJb3FrTmFXZk1ITjdhRzlVb0FtWWQtamdKc1hxYWFsNC1EdkVZY1BIMXF3?oc=5",
+     "time": "2026-11-02T15:58:00+00:00"
+    },
+    {
+     "title": "280,940 Shares of SoFi Technologies, Inc. $SOFI Purchased by Trek Financial LLC",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNWFM1dm5rbXlBY196ZHFZdUltSXRqUjMxczFkUV9VMFc4X1Y5WlRBa0E4SlBtdXN6LWJRblo4MHZucXpzVVZFeDhYeTliNzRtWFpiaGtJZXkxOENzNHBUZXpxZDBWeEFNa0VodUpUWWVGTzNManVxWGIySG5DQVhCdzdfdGtGcEh2Yl9YN0ZVTUxLNXdPTXp2bTk3b0lMeURya0Y5R3RDa1Vmd0xCUHFmd1JSTXRQcUtTc0tFdUVDdmlZSWwwZ2FNdE5tVDI2UE5mNHc?oc=5",
+     "time": "2026-11-02T13:29:39+00:00"
+    },
     {
      "title": "SoFi Technologies (NASDAQ: SOFI) Operating Margin Nearly Doubles As Record Loan Originations Fuel Massive Guidance Raise",
      "publisher": "Foreign Policy Journal",
      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNamhjb3I3RnA5dDRSYUQ5Rl9sX3htaGZyZXVLUWxBdDhWRlNzSDVLUHljLXFKY0hoZFFiNTdveTVXdllBSmtOT1BNQXZ2ZmdRR2NDUkFxRmdSNWlqWnBXTmJMN1hhQ0EyQ0drcnd6WEJOdUI1a3VNOUxyUmIzWGROT0tsY3NUb1lKY3RjUFNOblNOc2VLbTIxYTJRZkhNRXBhZGt2X0dUZ0Q0Ny1GaC1jWV85YnM4eDFMaVhma21mRE9sOVhtRl96M2c0eTQ2cmp6UzdySmczSElNaG9KSFFYRk9OMGRUak5STW9jTVY4NU51d1h4QUxaUW5n?oc=5",
      "time": "2026-11-02T13:03:00+00:00"
-    },
-    {
-     "title": "CME vs. SoFi Technologies: Which Financial Stock Is a Better Buy for 2027?",
-     "publisher": "The Motley Fool",
-     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQd0RxVjczdklVUUUxT1VtU01mTm5JYkR0UWY0Mjh3ZnEtZDFqTTA5VUpGT2lzY2NLWWZvcTJGeTlCWnJySlpVS3IxSjVYYkJEVDkxNVo4Zl9Sc1hHdVVrQkhtLXJJSWZQTUIwUVdlUHl0M0dqNzNSSWM2M0l4bFVDQ1czZEk0SGJ5NW1BMnhXZmRtR1pIT09BTGJQMG5TSS1YMjBlWllvRjZobVdoYXJNUURzUE96VVVEWm9yblo5QmJvZw?oc=5",
-     "time": "2026-11-02T12:23:00+00:00"
-    },
-    {
-     "title": "Is SoFi Stock a Buy After its Spectacular Investor Update?",
-     "publisher": "The Motley Fool",
-     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQeHd3UnFJZnFPWTcxcFN2SEI2RjNYcXMyWE9VdEtiazdYLVQ1QTItOEoxbHlqZzJQOTBlMGZpZnIwYnhOYjdwa2Z6RUtxY1B4Yk1jeFR6SFNzQS13alktR25YdndMck94QW1iUmJVNWhtamVVT05BVUlzcFo1LVVFbDhOWTBXOG12YlRoY2JRQUZRNDBVZ1JrQzNxNzQtSm55Wnc?oc=5",
-     "time": "2026-11-02T09:34:00+00:00"
-    },
-    {
-     "title": "SoFi (SOFI) Stock May Trade At A Premium Following Raised Outlook",
-     "publisher": "Simply Wall St",
-     "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNal8tcHozX3pNVk9rNGRTLXpWRnM0R1JvU2x1c1k4TUtJODR2Mm5kWFFsd2tDWmVSTGNuWUlObUtsZzNxMzlXQ0dnaW1pSmw4UFQ0SjRDQk8tc3NpTU5RT0xlRE81MGtEV0FfMnkwWlZaWFU2eE8xWjRpQUk0cWYzb25BYzNKM1BlTkFKWWVKV3JncWpyaGtqdGQ4dGhObTVKQ2xsOE5WQ2VkMWNTNlMyLUtIX2NHWnRYdG9GbFJMZlFwRzg2bHU4a1dzSXNyeTlqandmWi1sUk1uOXFpQmNyekE0Y0fSAeoBQVVfeXFMTlhiYV8yRGJORzItMjZnbGtvZWVnMHUwZnYxakY0bVNEcEpwbTE2ZG1CcXpXQTE3azBrWUNlNnI4MUdudFhKWDM5Y1gtbVBGMDl5MzhkVFUxUnVWNlA4dkYzRUl3RkdtdV9wWjhBY2VlRWt4UHhJQ3N0azBiakJ0azRyczRkeGtpUGlRRUR1WWdFVlM4eldkMHdBalF6VVhkaDJaUXMzZ1EzOTRHSGdRMU9sc2Q4c1ZybkFRYmcxRFBSRzIyVTUtTG5CUk9zU20tak1ZOGRkRzB0RzhBYnBNdmVLQ2tCck5ueVln?oc=5",
-     "time": "2026-11-02T07:38:49+00:00"
-    },
-    {
-     "title": "SoFi Technologies: On The Brink Of A Major Profitability Breakout (NASDAQ:SOFI)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPeFpJRVFNNUY3dWROMlZ5b191VE9oUXN2UXBFU0xwNWtOZ0xqcy1CX3FLSl83WFVxak5jQVdGcmwzODdNTlNaVHFDQkxGS21QNVZsdHptUFVWdUxGdnM2bG9DaHFUOU9kSllYaXJ6UXkyUWxZb2hJR0pReUN2NUFCdmdaZ2tTTjcxQl9mUkpzQTBIXzhoYjEtVDQ0anEzUG1uT2hzclp2cFFlUQ?oc=5",
-     "time": "2026-11-02T03:32:37+00:00"
-    },
-    {
-     "title": "RILY,VCTR,ROAD,SPWH,SOFI,BBSI,IOT | Stock Prices | Quote Comparison - Yahoo Finance",
-     "publisher": "Yahoo! Finance Canada",
-     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9wdWFhT2Q3aU5EU0Vpb05HbWw5anlJNkRyMnhQU0FlYTJ4NUVpdm94T2w5Y19wbldxTDZHenFsV0l3N1ZpVmZRdXBobTNUYXVsY2VNTUhyb3J0Q2Z3WkNCZTdDTXBsSG1xR1psUWJBYWh5ZWs4QjRQOW5R?oc=5",
-     "time": "2026-11-02T01:11:30+00:00"
-    },
-    {
-     "title": "How Earnings Beat At SoFi Stock Has Changed Its Investment Story",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPMzNrUHl2RGJfVlRIS2J6akRtZHQ0aEpJMDltbW95TXM4VlRqT3hkSUJtVHh6ak9ya3pEbXBDQU1fNHZwcnc1cXFCamU3OEFPTGtfeHVlb0JqSkwtWDNuZ2VPTHBkODh4bkRSTTlyUGpEdGg4bzZaVTBaQklfOFdUZ2FsUWxtZkg0Mkc4WVJkUm5BeThWNllDQ1RYY2JMUQ?oc=5",
-     "time": "2026-11-01T23:20:51+00:00"
-    },
-    {
-     "title": "SoFi Technologies (SOFI) Shares Just Moved, So What Is Driving Attention Now?",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOcmZxYktXX093LWFqOUxGX09Dd3Vwajdyc3VreGlmaWE5LUhzdktzd0tfbVZFSENEcDZqLTdyX2sxdjJEQXg1VXQ4Q1c1MWtaQU82eUJ1OTh4ZDMtMGNjQkFQYkcxVUlzNk8ycGgzS3d2SXVUakNBOU40NU9RX2lyLUNpcE5vYlVnbWt6dVkzUFlBZ3p0VHdQNzJJbkhFOEZp?oc=5",
-     "time": "2026-11-01T22:07:49+00:00"
     }
    ],
-   "brief": null
+   "brief": "2026-11-02-SOFI"
   }
  ]
 }
