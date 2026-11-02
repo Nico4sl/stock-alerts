@@ -1,22 +1,22 @@
 {
  "date": "2026-11-02",
  "threshold": 3.0,
- "updated": "2026-11-02T19:39:22+00:00",
+ "updated": "2026-11-02T19:49:27+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 754.13,
-   "change_pct": -0.21
+   "price": 753.14,
+   "change_pct": -0.34
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 683.92,
-   "change_pct": -0.95
+   "price": 682.82,
+   "change_pct": -1.11
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 81.83,
-   "change_pct": -0.01
+   "price": 81.82,
+   "change_pct": -0.03
   }
  },
  "movers": [
@@ -24,23 +24,23 @@
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 142.11,
+   "price": 141.6,
    "prev_close": 154.14,
-   "change_pct": -7.8,
+   "change_pct": -8.1,
    "trigger_change": -3.3,
-   "peak_change": -8.0,
+   "peak_change": -8.1,
    "first_seen": "2026-11-02T16:55:57+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 102.64,
-    "change_pct": -1.59
+    "price": 102.37,
+    "change_pct": -1.84
    },
    "chart": {
-    "ema8": -12.6,
-    "ema21": -21.5,
-    "sma50": -31.7,
-    "sma200": -20.0,
+    "ema8": -12.8,
+    "ema21": -21.7,
+    "sma50": -32.0,
+    "sma200": -20.3,
     "momentum": false
    },
    "headlines": [
@@ -99,23 +99,23 @@
    "symbol": "MELI",
    "name": "MercadoLibre",
    "list": "watchlist",
-   "price": 1691.74,
+   "price": 1694.0,
    "prev_close": 1624.53,
-   "change_pct": 4.1,
+   "change_pct": 4.3,
    "trigger_change": 3.1,
    "peak_change": 4.9,
    "first_seen": "2026-11-02T16:15:40+00:00",
    "sector": {
     "etf": "XLY",
     "name": "Consumer discr.",
-    "price": 118.17,
-    "change_pct": 2.41
+    "price": 118.01,
+    "change_pct": 2.28
    },
    "chart": {
-    "ema8": -0.7,
-    "ema21": -4.0,
-    "sma50": -7.9,
-    "sma200": -6.6,
+    "ema8": -0.6,
+    "ema21": -3.9,
+    "sma50": -7.7,
+    "sma200": -6.5,
     "momentum": false
    },
    "headlines": [
@@ -171,101 +171,26 @@
    "brief": "2026-11-02-MELI"
   },
   {
-   "symbol": "CRWD",
-   "name": "CrowdStrike",
-   "list": "portfolio",
-   "price": 241.8,
-   "prev_close": 250.43,
-   "change_pct": -3.4,
-   "trigger_change": -3.4,
-   "peak_change": -3.4,
-   "first_seen": "2026-11-02T19:39:22+00:00",
-   "sector": {
-    "etf": "IGV",
-    "name": "Software",
-    "price": 102.64,
-    "change_pct": -1.59
-   },
-   "chart": {
-    "ema8": -4.2,
-    "ema21": -3.9,
-    "sma50": 0.2,
-    "sma200": 44.0,
-    "momentum": true
-   },
-   "headlines": [
-    {
-     "title": "CrowdStrike Stocks Decline 2.7% With Upgrade Testing AI Security Revenue Conversion",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQLVRYS1d0QWttbWI1Vm9ydkRZcHJXemFNeXdITDdJVkJEaWVLYXhzZ25ScW9lX2c3YnRTQ3BCTXd3czlWM3FmWkg2SEJ5bGRHdjZQNlFBSE5qckJ4bWphbEZvcG9DNHZBblpybzktZHVzbjRUUEo3dmEtNWx4SnhaMWpMWHhGR09NM0tXblRObzBvbUlCYWVob3Q5RQ?oc=5",
-     "time": "2026-11-02T18:16:18+00:00"
-    },
-    {
-     "title": "CRWD Stock Has Doubled Year-To-Date, And Deutsche Bank Thinks There Is More Upside Left",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPd2Zjc2Rrd29Vd3pPVDdTcnNpR1JzcGcxVEFhV1hlV0gyWVpYaGJkaGlyUWRmWGM5SHhkNl90dWczWFBxNnJEM0pqX2xRR0hDdkdlR3NDSmFTd0E1YWZ6c3kzMlFEbUxqZVgxMUFIc0x5NTkwd1RZNnVLZDM0ZXZLbkotZVNCV2F6bzNYV29MTl9oVWZ1TXBXbFQ5d1cxZw?oc=5",
-     "time": "2026-11-02T17:25:50+00:00"
-    },
-    {
-     "title": "Dell's AI Factory with NVIDIA adds CrowdStrike protection for AI agents",
-     "publisher": "Stock Titan",
-     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNczM1WmNnaWVzdklDZ3VfeC1xdzd1RkFjOXlHaUdWSzEzY0JyOEt5TWxSV2hReUJZSnhfVTJGSmd2cDBYbHhGVmppSi1hc0JSOUNJWkRNT25TNzF1d3NHaF9PUWtxRkE4UVhLMVBsaHh1QUNpZE9WOUEtTk1MaUlyU0t0ZlRNTGx4ak5VLVpCR3VvMnVKY2t3RFNvenBRT3YxQ0k3UE1UUUdvS19jc1ZPM0h5TWxIRjhzc1FqcFBR?oc=5",
-     "time": "2026-11-02T17:05:00+00:00"
-    },
-    {
-     "title": "CrowdStrike Stock Gets Stunning Upgrade -- Bank Sees Years of 20%+ Growth",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOTDdHVWhDYy1zRUR1OThoOV9xN3dXd3Fkd2FyWG1iNE1aWW1PbXQ0ZmVpZlBmRFNwLUY4SzY2dm1kYW1PaVNiSVJlRldOeDRLbGZrMF9yWWhEbnpqNXZRclBnTTBQRGxrUlI3aGRXMk80ZUNIdWFzcl9pRlR2NjQ1YVowdEtFSTBPQ0U2eGtzeTM3Uy0yYVgxZVExY2tERTc1TWJPN1pB?oc=5",
-     "time": "2026-11-02T16:44:46+00:00"
-    },
-    {
-     "title": "What's Going On With CrowdStrike Stock Monday? - CrowdStrike Holdings (NASDAQ:CRWD)",
-     "publisher": "Benzinga",
-     "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOYzBDR2RYX3JqT3J2OFBUNmVxR0ZXUGRVaG9waVpMbGFLZkpiMTFnRHozLWI2UXN5akVEelg4Y0xaOGNwM05VTE5aNWJ2eWlmR2RPYnFMMGtXWVVxUjM1LWZ5alVpOEF3UF9IbWJvc3BfeTBjZ25PQ0NuREVpRXNyUzVDcEtzUlgyeDNYVmtnT0loZl94NEJMMkVTeHAyX2hXLVdmR0dPUVg3NEw5eC0zMmdwSFhlb0FOV0k2c0ZPQ0psU3lPY083M0E1Z0VPREFvbzZBaWlEUkZZRjByUVZ0TURxUQ?oc=5",
-     "time": "2026-11-02T16:17:44+00:00"
-    },
-    {
-     "title": "CrowdStrike (CRWD) stock trades down, here is why",
-     "publisher": "Barchart.com",
-     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPeXhVTkdpYlZ4WDRUQ3h3YjExbzl3cXgwcDhQaG9LWGgwVjRjc1c2a3E2aWFnaFJDTkRuTXI4TzliTnltenN6eHF0OTlFLU40ZDEzT0owRzJ5bk1LblRIZWl6V3BjVXhWZ1ZnRUNMWVFDRzBfVXpZM2xRMlFuc0JUcTFOdnhtU1lCTHpWY1E3RWt4TnUx?oc=5",
-     "time": "2026-11-02T16:10:36+00:00"
-    },
-    {
-     "title": "Deutsche Bank Upgrades CrowdStrike Stock (CRWD) to Buy, Cites AI-Led Demand and Market Leadership",
-     "publisher": "TipRanks",
-     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPc1RNdy0wYjBHaWcwOGlxYWdaZC1qUkVnZUg5LWk1Z0s0N0YyM3h0a0EzMjJUaUxJb2Z3SmtVNjVnV0FfR2NvOEtPN2VtNHFmRjMyOUFaQ29hRnlLbUlyVkdmOXpXMkJJREpxMnRtYmlnR2xXNzhGZzVtbGZXYXY4VXE2QjhSRW9RcklSZlc2OVNVamtzQWRmbHV4cWNDY05kdmh3czFHbUxFNXJoa2pCMzFzQW1zNjBlVUhCSEV0TWdZUQ?oc=5",
-     "time": "2026-11-02T15:40:49+00:00"
-    },
-    {
-     "title": "CrowdStrike Upgraded On Expected AI Cybersecurity Leadership",
-     "publisher": "Investor's Business Daily",
-     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPRl9EbjhEVEtVaG1FRzZuVGJJcVpoV0NXZEY5M3NBZ002U0otM2NwdWtXR1RiZjBhT0NSaF9wcG9fYk9YS2JkbzljM0NVTzliYTBWWHVsczByX1NJekNla2lQcGdTTUdzV3BZbHc5Tmd4SHlBU2tIRUhZU3RRRDBfS3NTTTg2LTVaRUs4SzZJZlZVb0V4N2c?oc=5",
-     "time": "2026-11-02T14:59:00+00:00"
-    }
-   ],
-   "brief": null
-  },
-  {
    "symbol": "AMAT",
    "name": "Applied Materials",
    "list": "portfolio",
-   "price": 377.07,
+   "price": 375.38,
    "prev_close": 390.09,
-   "change_pct": -3.3,
+   "change_pct": -3.8,
    "trigger_change": -3.0,
-   "peak_change": -3.3,
+   "peak_change": -3.8,
    "first_seen": "2026-11-02T19:29:18+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 510.0,
-    "change_pct": -2.39
+    "price": 508.64,
+    "change_pct": -2.65
    },
    "chart": {
-    "ema8": -5.5,
-    "ema21": -11.3,
-    "sma50": -17.2,
-    "sma200": -15.2,
+    "ema8": -5.8,
+    "ema21": -11.6,
+    "sma50": -17.6,
+    "sma200": -15.6,
     "momentum": false
    },
    "headlines": [
@@ -321,26 +246,101 @@
    "brief": null
   },
   {
+   "symbol": "CRWD",
+   "name": "CrowdStrike",
+   "list": "portfolio",
+   "price": 240.93,
+   "prev_close": 250.43,
+   "change_pct": -3.8,
+   "trigger_change": -3.4,
+   "peak_change": -3.8,
+   "first_seen": "2026-11-02T19:39:22+00:00",
+   "sector": {
+    "etf": "IGV",
+    "name": "Software",
+    "price": 102.37,
+    "change_pct": -1.84
+   },
+   "chart": {
+    "ema8": -4.5,
+    "ema21": -4.2,
+    "sma50": -0.1,
+    "sma200": 43.5,
+    "momentum": true
+   },
+   "headlines": [
+    {
+     "title": "CrowdStrike Stocks Decline 2.7% With Upgrade Testing AI Security Revenue Conversion",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQLVRYS1d0QWttbWI1Vm9ydkRZcHJXemFNeXdITDdJVkJEaWVLYXhzZ25ScW9lX2c3YnRTQ3BCTXd3czlWM3FmWkg2SEJ5bGRHdjZQNlFBSE5qckJ4bWphbEZvcG9DNHZBblpybzktZHVzbjRUUEo3dmEtNWx4SnhaMWpMWHhGR09NM0tXblRObzBvbUlCYWVob3Q5RQ?oc=5",
+     "time": "2026-11-02T18:16:18+00:00"
+    },
+    {
+     "title": "CRWD Stock Has Doubled Year-To-Date, And Deutsche Bank Thinks There Is More Upside Left",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPd2Zjc2Rrd29Vd3pPVDdTcnNpR1JzcGcxVEFhV1hlV0gyWVpYaGJkaGlyUWRmWGM5SHhkNl90dWczWFBxNnJEM0pqX2xRR0hDdkdlR3NDSmFTd0E1YWZ6c3kzMlFEbUxqZVgxMUFIc0x5NTkwd1RZNnVLZDM0ZXZLbkotZVNCV2F6bzNYV29MTl9oVWZ1TXBXbFQ5d1cxZw?oc=5",
+     "time": "2026-11-02T17:25:50+00:00"
+    },
+    {
+     "title": "Dell's AI Factory with NVIDIA adds CrowdStrike protection for AI agents",
+     "publisher": "Stock Titan",
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNczM1WmNnaWVzdklDZ3VfeC1xdzd1RkFjOXlHaUdWSzEzY0JyOEt5TWxSV2hReUJZSnhfVTJGSmd2cDBYbHhGVmppSi1hc0JSOUNJWkRNT25TNzF1d3NHaF9PUWtxRkE4UVhLMVBsaHh1QUNpZE9WOUEtTk1MaUlyU0t0ZlRNTGx4ak5VLVpCR3VvMnVKY2t3RFNvenBRT3YxQ0k3UE1UUUdvS19jc1ZPM0h5TWxIRjhzc1FqcFBR?oc=5",
+     "time": "2026-11-02T17:05:00+00:00"
+    },
+    {
+     "title": "CrowdStrike Stock Gets Stunning Upgrade -- Bank Sees Years of 20%+ Growth",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOTDdHVWhDYy1zRUR1OThoOV9xN3dXd3Fkd2FyWG1iNE1aWW1PbXQ0ZmVpZlBmRFNwLUY4SzY2dm1kYW1PaVNiSVJlRldOeDRLbGZrMF9yWWhEbnpqNXZRclBnTTBQRGxrUlI3aGRXMk80ZUNIdWFzcl9pRlR2NjQ1YVowdEtFSTBPQ0U2eGtzeTM3Uy0yYVgxZVExY2tERTc1TWJPN1pB?oc=5",
+     "time": "2026-11-02T16:44:46+00:00"
+    },
+    {
+     "title": "What's Going On With CrowdStrike Stock Monday? - CrowdStrike Holdings (NASDAQ:CRWD)",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOYzBDR2RYX3JqT3J2OFBUNmVxR0ZXUGRVaG9waVpMbGFLZkpiMTFnRHozLWI2UXN5akVEelg4Y0xaOGNwM05VTE5aNWJ2eWlmR2RPYnFMMGtXWVVxUjM1LWZ5alVpOEF3UF9IbWJvc3BfeTBjZ25PQ0NuREVpRXNyUzVDcEtzUlgyeDNYVmtnT0loZl94NEJMMkVTeHAyX2hXLVdmR0dPUVg3NEw5eC0zMmdwSFhlb0FOV0k2c0ZPQ0psU3lPY083M0E1Z0VPREFvbzZBaWlEUkZZRjByUVZ0TURxUQ?oc=5",
+     "time": "2026-11-02T16:17:44+00:00"
+    },
+    {
+     "title": "CrowdStrike (CRWD) stock trades down, here is why",
+     "publisher": "Barchart.com",
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPeXhVTkdpYlZ4WDRUQ3h3YjExbzl3cXgwcDhQaG9LWGgwVjRjc1c2a3E2aWFnaFJDTkRuTXI4TzliTnltenN6eHF0OTlFLU40ZDEzT0owRzJ5bk1LblRIZWl6V3BjVXhWZ1ZnRUNMWVFDRzBfVXpZM2xRMlFuc0JUcTFOdnhtU1lCTHpWY1E3RWt4TnUx?oc=5",
+     "time": "2026-11-02T16:10:36+00:00"
+    },
+    {
+     "title": "Deutsche Bank Upgrades CrowdStrike Stock (CRWD) to Buy, Cites AI-Led Demand and Market Leadership",
+     "publisher": "TipRanks",
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPc1RNdy0wYjBHaWcwOGlxYWdaZC1qUkVnZUg5LWk1Z0s0N0YyM3h0a0EzMjJUaUxJb2Z3SmtVNjVnV0FfR2NvOEtPN2VtNHFmRjMyOUFaQ29hRnlLbUlyVkdmOXpXMkJJREpxMnRtYmlnR2xXNzhGZzVtbGZXYXY4VXE2QjhSRW9RcklSZlc2OVNVamtzQWRmbHV4cWNDY05kdmh3czFHbUxFNXJoa2pCMzFzQW1zNjBlVUhCSEV0TWdZUQ?oc=5",
+     "time": "2026-11-02T15:40:49+00:00"
+    },
+    {
+     "title": "CrowdStrike Upgraded On Expected AI Cybersecurity Leadership",
+     "publisher": "Investor's Business Daily",
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPRl9EbjhEVEtVaG1FRzZuVGJJcVpoV0NXZEY5M3NBZ002U0otM2NwdWtXR1RiZjBhT0NSaF9wcG9fYk9YS2JkbzljM0NVTzliYTBWWHVsczByX1NJekNla2lQcGdTTUdzV3BZbHc5Tmd4SHlBU2tIRUhZU3RRRDBfS3NTTTg2LTVaRUs4SzZJZlZVb0V4N2c?oc=5",
+     "time": "2026-11-02T14:59:00+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
    "symbol": "AMZN",
    "name": "Amazon",
    "list": "portfolio",
-   "price": 247.74,
+   "price": 247.45,
    "prev_close": 240.35,
-   "change_pct": 3.1,
+   "change_pct": 3.0,
    "trigger_change": 5.3,
    "peak_change": 5.3,
    "first_seen": "2026-11-02T16:15:40+00:00",
    "sector": {
     "etf": "XLY",
     "name": "Consumer discr.",
-    "price": 118.17,
-    "change_pct": 2.41
+    "price": 118.01,
+    "change_pct": 2.28
    },
    "chart": {
-    "ema8": -0.4,
-    "ema21": -1.6,
-    "sma50": -2.5,
-    "sma200": 1.8,
+    "ema8": -0.5,
+    "ema21": -1.7,
+    "sma50": -2.6,
+    "sma200": 1.6,
     "momentum": false
    },
    "headlines": [
@@ -399,23 +399,23 @@
    "symbol": "NOW",
    "name": "ServiceNow",
    "list": "portfolio",
-   "price": 106.8,
+   "price": 106.66,
    "prev_close": 105.12,
-   "change_pct": 1.6,
+   "change_pct": 1.5,
    "trigger_change": 3.1,
    "peak_change": 4.0,
    "first_seen": "2026-11-02T16:40:54+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 102.64,
-    "change_pct": -1.59
+    "price": 102.37,
+    "change_pct": -1.84
    },
    "chart": {
     "ema8": -16.8,
-    "ema21": -22.0,
-    "sma50": -22.7,
-    "sma200": -7.0,
+    "ema21": -22.1,
+    "sma50": -22.9,
+    "sma200": -7.1,
     "momentum": false
    },
    "headlines": [
@@ -471,101 +471,26 @@
    "brief": "2026-11-02-NOW"
   },
   {
-   "symbol": "APP",
-   "name": "AppLovin",
-   "list": "portfolio",
-   "price": 229.68,
-   "prev_close": 228.5,
-   "change_pct": 0.5,
-   "trigger_change": 3.6,
-   "peak_change": 4.8,
-   "first_seen": "2026-11-02T16:15:40+00:00",
-   "sector": {
-    "etf": "IGV",
-    "name": "Software",
-    "price": 102.64,
-    "change_pct": -1.59
-   },
-   "chart": {
-    "ema8": -7.8,
-    "ema21": -13.5,
-    "sma50": -21.5,
-    "sma200": -44.5,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Should AppLovin Stock Be in Your Portfolio Before Q3 Earnings?",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOYVQwWWt6WXJxaDNpRlJMM0VqdXhSb2VfUGN2blVSU1B6R193OXJERmtHcEVNWkx1TkpXR0pJNnFJQldiS3MyNHhTcjdXV25nZGx1a0xCallMS3hzN3FVVjJ5YUVjTkZ6cXk4NGxyVGVSdVVlb1R0WXlOYXlId3NUdUk1NTdrS2ZXc29FTFhVMEVwQUxqcXpBLWl3WS04YkxhcEdZ?oc=5",
-     "time": "2026-11-02T17:16:00+00:00"
-    },
-    {
-     "title": "APP Shareholder Alert: AppLovin Corporation Securities Class Action Lawsuit - Investors Should Contact Levi & Korsinsky",
-     "publisher": "FinancialContent",
-     "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOeVlBY1pwUEZoSUZ2aVF5dkltTmdrMXZtVnUzbjkwXzlBTGkwb2d3ZXhMa2RqazNIcndrZXp4SGs2b3JzbzNJaTdFeTFDR3FTaE1IOXdpMGw3MWwyMmlreUFDNjVPUWctdXFILUdDQVE2Q1BLb0VEVkc4dWppM3VXLXB1a25oMjBNd1d3Nl9QYnNPS3paMHZ3SHhOcVhGYmFuNmhUY1NEVklleUJHdW01bTczOTN3bV9hR3NCaFNOTExEQV9JRUU5T25STHdFelJ0TEdrbDBHMWRvMmVHV2Rjbzd5ckxBMjVGYUVYYWRzSjV4RUNTR3gxZUxQOUZKM0ZsZnRsWWln?oc=5",
-     "time": "2026-11-02T15:15:00+00:00"
-    },
-    {
-     "title": "AppLovin stock approaches Nov. 4 results as ad growth faces test",
-     "publisher": "ad-hoc-news.de",
-     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNLW00bEZ3eGIxbzlzTXVXUXoyX2gySFE1LS1ZRGpaSVRaV3JoRWt4OVN4VFVTSVAyTVpQbHRiRzBCbmp6R3RmRUV6SjBIZ2x1TFRrbzhRVXAzb25iLVh6b2dhOVo5emZfandGVnlTNmVUTy1PZGpaNk9hclJtVnh5WDJnUkJSS1pVY21TeVJvMThUeE0wem45ZDJiejBObGRjdnNZckhCbmZUeWdzdlZ2M2VvS1NaSzZpVWNGOHN3aHRwaU5a?oc=5",
-     "time": "2026-11-02T15:09:41+00:00"
-    },
-    {
-     "title": "APP Stock Drops 10.36% on Friday, RSI Oversold",
-     "publisher": "JournalArta",
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQd0MtOWlHR0piVlRaYWs2SU1HcC1vT0ptRTg5cFp4cllPdEdHdUtFaEVpNWc0LUp1dWg1TFRUcFg5Y1oxYzNNRjQ3M0tTWjdPeDltZXl0ZG9FeGZlMVFXeGpxYS1LZjdJRV9CUHN3b2pvZ0MxN0gwUEZIZjNXTmtISlN2cjd6MUhqZTJz?oc=5",
-     "time": "2026-11-02T13:06:05+00:00"
-    },
-    {
-     "title": "AppLovin stock faces Unity competition concerns ahead of earnings",
-     "publisher": "Investing.com",
-     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQUEpGMF9xMXhVNWtnLXdLMmZsTm8wclFCMzBJRXpuTnlyLWxtb0tqRzcwUUMyTmZwclZhMldLSURtdGFPTHFDa0lJaHo2UDMtQTVlRFV0Vm8tLUVBdXM1WW5BWFpXdWRfdVVPUmJFMENlZWxtcFdjczN1bk5KTWFieEZMeUJoeVNQVDdObmtvQnVJNVZDVXEyX0JvNUk2c1V0bV9XR2tTRlBMVU5DbGVVSVFLRUxGZ1RFT0treEVZSGJDelphZUE?oc=5",
-     "time": "2026-11-02T10:47:23+00:00"
-    },
-    {
-     "title": "Applovin (APP) Stock Price, Chart & Analysis",
-     "publisher": "www.debelegger.nl",
-     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5EZ3lWcHZvUnAzU0ZMdGFQV3luRDJTTmpQZzJoWWNuYmVoYlRWLXpLR3gxNDd2VkdQSWtwMWtOV0xKZFpjWjZCS1lzQ19QZWd2T0Vj?oc=5",
-     "time": "2026-11-02T10:17:25+00:00"
-    },
-    {
-     "title": "AppLovin stock heads into November 4 earnings release",
-     "publisher": "ad-hoc-news.de",
-     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOeWpVc2ZydUx4UGZXV01Dc0hVN2VTYXVacENWS251Y1RUVVZHSXdPVTdsSlpxaG9EOVpWa1BnTWtmRGpMTnZwaFo3d182RzlWa0VZWmt0ZHNWT0ZQelI5Q01zbndjcFEtMENFSUNTLVB2OTRRNExVUUpJUktBay1mU2g0cVV3MVpiUl95ODktajFRU3ZNRl96WVNMbUZ6LUppNzlURndCLVRJSkw2cU80c3gtNnhKNlE?oc=5",
-     "time": "2026-11-02T10:02:39+00:00"
-    },
-    {
-     "title": "Prediction: 3 Stocks That Will Be Worth More Than Palantir 5 Years From Now",
-     "publisher": "The Motley Fool",
-     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNUTZHcjk4SS1IVmNqVEVRM1hMTlZ4NF9aMlFVeHZkeklNMHZTNGl4aFlfa2RReUFCcnVTMFZmRDl6WmZweDBjQ1lxY0RwaVhjUnhLVW5jWVdHNkJITDNrTVBadjFKbXJIa2ZKMmVXVlVHOHRoaVpyQkx0TzYxVFZOMDZvUzVuQjNzNUxyM3Fvd2RkTUlKYjZzMA?oc=5",
-     "time": "2026-11-01T16:43:00+00:00"
-    }
-   ],
-   "brief": "2026-11-02-APP"
-  },
-  {
    "symbol": "SOFI",
    "name": "SoFi",
    "list": "portfolio",
-   "price": 16.74,
+   "price": 16.68,
    "prev_close": 16.76,
-   "change_pct": -0.1,
+   "change_pct": -0.5,
    "trigger_change": 4.0,
    "peak_change": 4.1,
    "first_seen": "2026-11-02T16:15:40+00:00",
    "sector": {
     "etf": "XLF",
     "name": "Financials",
-    "price": 57.52,
-    "change_pct": 1.78
+    "price": 57.53,
+    "change_pct": 1.8
    },
    "chart": {
-    "ema8": 2.7,
-    "ema21": 5.3,
-    "sma50": 1.3,
-    "sma200": -5.6,
+    "ema8": 2.4,
+    "ema21": 4.9,
+    "sma50": 0.9,
+    "sma200": -6.0,
     "momentum": true
    },
    "headlines": [
@@ -619,6 +544,81 @@
     }
    ],
    "brief": "2026-11-02-SOFI"
+  },
+  {
+   "symbol": "APP",
+   "name": "AppLovin",
+   "list": "portfolio",
+   "price": 228.69,
+   "prev_close": 228.5,
+   "change_pct": 0.1,
+   "trigger_change": 3.6,
+   "peak_change": 4.8,
+   "first_seen": "2026-11-02T16:15:40+00:00",
+   "sector": {
+    "etf": "IGV",
+    "name": "Software",
+    "price": 102.37,
+    "change_pct": -1.84
+   },
+   "chart": {
+    "ema8": -8.1,
+    "ema21": -13.8,
+    "sma50": -21.9,
+    "sma200": -44.8,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Should AppLovin Stock Be in Your Portfolio Before Q3 Earnings?",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOYVQwWWt6WXJxaDNpRlJMM0VqdXhSb2VfUGN2blVSU1B6R193OXJERmtHcEVNWkx1TkpXR0pJNnFJQldiS3MyNHhTcjdXV25nZGx1a0xCallMS3hzN3FVVjJ5YUVjTkZ6cXk4NGxyVGVSdVVlb1R0WXlOYXlId3NUdUk1NTdrS2ZXc29FTFhVMEVwQUxqcXpBLWl3WS04YkxhcEdZ?oc=5",
+     "time": "2026-11-02T17:16:00+00:00"
+    },
+    {
+     "title": "APP Shareholder Alert: AppLovin Corporation Securities Class Action Lawsuit - Investors Should Contact Levi & Korsinsky",
+     "publisher": "FinancialContent",
+     "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOeVlBY1pwUEZoSUZ2aVF5dkltTmdrMXZtVnUzbjkwXzlBTGkwb2d3ZXhMa2RqazNIcndrZXp4SGs2b3JzbzNJaTdFeTFDR3FTaE1IOXdpMGw3MWwyMmlreUFDNjVPUWctdXFILUdDQVE2Q1BLb0VEVkc4dWppM3VXLXB1a25oMjBNd1d3Nl9QYnNPS3paMHZ3SHhOcVhGYmFuNmhUY1NEVklleUJHdW01bTczOTN3bV9hR3NCaFNOTExEQV9JRUU5T25STHdFelJ0TEdrbDBHMWRvMmVHV2Rjbzd5ckxBMjVGYUVYYWRzSjV4RUNTR3gxZUxQOUZKM0ZsZnRsWWln?oc=5",
+     "time": "2026-11-02T15:15:00+00:00"
+    },
+    {
+     "title": "AppLovin stock approaches Nov. 4 results as ad growth faces test",
+     "publisher": "ad-hoc-news.de",
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNLW00bEZ3eGIxbzlzTXVXUXoyX2gySFE1LS1ZRGpaSVRaV3JoRWt4OVN4VFVTSVAyTVpQbHRiRzBCbmp6R3RmRUV6SjBIZ2x1TFRrbzhRVXAzb25iLVh6b2dhOVo5emZfandGVnlTNmVUTy1PZGpaNk9hclJtVnh5WDJnUkJSS1pVY21TeVJvMThUeE0wem45ZDJiejBObGRjdnNZckhCbmZUeWdzdlZ2M2VvS1NaSzZpVWNGOHN3aHRwaU5a?oc=5",
+     "time": "2026-11-02T15:09:41+00:00"
+    },
+    {
+     "title": "APP Stock Drops 10.36% on Friday, RSI Oversold",
+     "publisher": "JournalArta",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQd0MtOWlHR0piVlRaYWs2SU1HcC1vT0ptRTg5cFp4cllPdEdHdUtFaEVpNWc0LUp1dWg1TFRUcFg5Y1oxYzNNRjQ3M0tTWjdPeDltZXl0ZG9FeGZlMVFXeGpxYS1LZjdJRV9CUHN3b2pvZ0MxN0gwUEZIZjNXTmtISlN2cjd6MUhqZTJz?oc=5",
+     "time": "2026-11-02T13:06:05+00:00"
+    },
+    {
+     "title": "AppLovin stock faces Unity competition concerns ahead of earnings",
+     "publisher": "Investing.com",
+     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQUEpGMF9xMXhVNWtnLXdLMmZsTm8wclFCMzBJRXpuTnlyLWxtb0tqRzcwUUMyTmZwclZhMldLSURtdGFPTHFDa0lJaHo2UDMtQTVlRFV0Vm8tLUVBdXM1WW5BWFpXdWRfdVVPUmJFMENlZWxtcFdjczN1bk5KTWFieEZMeUJoeVNQVDdObmtvQnVJNVZDVXEyX0JvNUk2c1V0bV9XR2tTRlBMVU5DbGVVSVFLRUxGZ1RFT0treEVZSGJDelphZUE?oc=5",
+     "time": "2026-11-02T10:47:23+00:00"
+    },
+    {
+     "title": "Applovin (APP) Stock Price, Chart & Analysis",
+     "publisher": "www.debelegger.nl",
+     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5EZ3lWcHZvUnAzU0ZMdGFQV3luRDJTTmpQZzJoWWNuYmVoYlRWLXpLR3gxNDd2VkdQSWtwMWtOV0xKZFpjWjZCS1lzQ19QZWd2T0Vj?oc=5",
+     "time": "2026-11-02T10:17:25+00:00"
+    },
+    {
+     "title": "AppLovin stock heads into November 4 earnings release",
+     "publisher": "ad-hoc-news.de",
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOeWpVc2ZydUx4UGZXV01Dc0hVN2VTYXVacENWS251Y1RUVVZHSXdPVTdsSlpxaG9EOVpWa1BnTWtmRGpMTnZwaFo3d182RzlWa0VZWmt0ZHNWT0ZQelI5Q01zbndjcFEtMENFSUNTLVB2OTRRNExVUUpJUktBay1mU2g0cVV3MVpiUl95ODktajFRU3ZNRl96WVNMbUZ6LUppNzlURndCLVRJSkw2cU80c3gtNnhKNlE?oc=5",
+     "time": "2026-11-02T10:02:39+00:00"
+    },
+    {
+     "title": "Prediction: 3 Stocks That Will Be Worth More Than Palantir 5 Years From Now",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNUTZHcjk4SS1IVmNqVEVRM1hMTlZ4NF9aMlFVeHZkeklNMHZTNGl4aFlfa2RReUFCcnVTMFZmRDl6WmZweDBjQ1lxY0RwaVhjUnhLVW5jWVdHNkJITDNrTVBadjFKbXJIa2ZKMmVXVlVHOHRoaVpyQkx0TzYxVFZOMDZvUzVuQjNzNUxyM3Fvd2RkTUlKYjZzMA?oc=5",
+     "time": "2026-11-01T16:43:00+00:00"
+    }
+   ],
+   "brief": "2026-11-02-APP"
   }
  ]
 }
