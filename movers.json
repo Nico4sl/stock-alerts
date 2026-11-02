@@ -1,121 +1,46 @@
 {
  "date": "2026-11-02",
  "threshold": 3.0,
- "updated": "2026-11-02T17:01:03+00:00",
+ "updated": "2026-11-02T17:26:33+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 760.04,
-   "change_pct": 0.57
+   "price": 759.17,
+   "change_pct": 0.46
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 694.32,
-   "change_pct": 0.55
+   "price": 692.48,
+   "change_pct": 0.29
   },
   "TLT": {
    "name": "Long Treasuries",
    "price": 82.05,
-   "change_pct": 0.26
+   "change_pct": 0.25
   }
  },
  "movers": [
   {
-   "symbol": "AMZN",
-   "name": "Amazon",
-   "list": "portfolio",
-   "price": 251.43,
-   "prev_close": 240.35,
-   "change_pct": 4.6,
-   "trigger_change": 5.3,
-   "peak_change": 5.3,
-   "first_seen": "2026-11-02T16:15:40+00:00",
-   "sector": {
-    "etf": "XLY",
-    "name": "Consumer discr.",
-    "price": 118.94,
-    "change_pct": 3.09
-   },
-   "chart": {
-    "ema8": 0.7,
-    "ema21": -0.3,
-    "sma50": -1.1,
-    "sma200": 3.3,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Amazon Soars 5% as Phillip Securities Upgrades It to Buy After Earnings Sell-Off",
-     "publisher": "TIKR.com",
-     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOalpveHFxVk1mZG1TaXNDaXlrcHZzT2M5UmZuWWlHRHJIYUdCSTZfazdUZ0dBSGtDRkJNMnZMelV0WFJxNjVVeE9oaDRreloxRjk1VEpHbktVN1FOQnB1bzVwWTV3SDA2dWszZTVPNzRlY3ZiaTBtcWFEOUttQnFPSkhmWHNoVXQxRzFpbVMtalpSOC11UFJjVll5NnhaNFRCTmhnS1VWTWdqdw?oc=5",
-     "time": "2026-11-02T16:36:42+00:00"
-    },
-    {
-     "title": "Amazon: Don't Look At The Cash Flow (NASDAQ:AMZN)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBUejFDcXJiQ0NLMHd5alJ5Znp6N1h5X0ZqaFRDNHpTQ0cxenJOZHVBLS1ReDA0Rm5GMHg1NXRrOWVGYl8wUU9HZm13TUR0SmNqQU1PR3hMQTNYaC1oelJKUU55QnExUVVoV0hta204RG91VDZWUUhOVWZpT1FmNWs?oc=5",
-     "time": "2026-11-02T16:00:30+00:00"
-    },
-    {
-     "title": "Why is Amazon stock rallying today?",
-     "publisher": "Investing.com",
-     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZ0dJeHJIREdSVkxZYmI3dkFwTURUQnJYVTlkRnNreWV3OHc1ZWpObzVjeUhYQktCaUZ4RndxZVdJeGJuVEhPcE04NS1FVXVTdjBvaGlNRm54bUd5bUhlNG5adU02N3dNTWpFTXB1b0NYTWk4Rm9zNy04RzZ2MlBvRHhCbkdmdE82VjlKT2cxQ3JxaW5aTk9ydWxWcmI?oc=5",
-     "time": "2026-11-02T15:08:57+00:00"
-    },
-    {
-     "title": "Amazon stock climbs with upward price move while weak momentum tempers upside potential",
-     "publisher": "Traders Union",
-     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxORW9seG9GbkFmclhubjM5SG04LTlwNkRheU5qMGNuMi1oOEJ1RHVDLUkta19DSWFYSk1SczRPY2xPUkQyeGM0SnFMUDJjQUF2N2tRUFBoRzV4cERnQl9nbzU1Y0ZmT1ZicGpyc2wtandCVGkta2tkb2ZqdlJTdUtvQ1RVdFJySUowSFljR0NaX2dlU28?oc=5",
-     "time": "2026-11-02T15:01:32+00:00"
-    },
-    {
-     "title": "Amazon Stock Price Target Raised To $330 By Phillip Securities",
-     "publisher": "TronWeekly",
-     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOaG5rcV9RY096VEd2OUxmNkNlejRyRWFhX0tPcW9qRmpOSDJfblRDZ05yWUlJcENkSWFZaVpnT091MWM3azRTOUx2N3BIVnh6c015bFVmc2pFcGh6djJ4dDk1YnhiQ2VaWUUwQjl0bW1vN3pHR080S1FobjJUUHpWLXllX0RieF96VDVMbnZ3SE9aYjQ?oc=5",
-     "time": "2026-11-02T14:48:35+00:00"
-    },
-    {
-     "title": "Amazon.com Inc Stock (AMZN) Opened Up by 4.06% on Nov 2: What Investors Need To Know",
-     "publisher": "TradingKey",
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPcGtxbHRyMkZpMVVQVE1qc3Q3eFZRLU9FaV91Sll4WC1kNHFuR0prdDRZUGxQQUp2bmwxMFVacEV2dkprczRIR2NkV1ByUTBRdENsb2ZBMklMSlp4azhZZjk3WVRReXNfLTdDVG9yQWp3V3JMRDVkT1V6X1U4ZVFEY0JyYWNfQXJwQ1hZ?oc=5",
-     "time": "2026-11-02T14:47:22+00:00"
-    },
-    {
-     "title": "Amazon Stock Climbs After Phillip Securities Upgrade to Buy",
-     "publisher": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxObnZpN3g4bTBoZ1BRSWYyYjRqa2FReU53dEx6bGE0d3JlWWM1cUI0eU1CU1ZSRHR1Q2JIY3BuaFZtZmhTelp4UHE4U3puT0JWV0JzUk0xUW4wSndMNmtGRmZveXpsWmxfRGFEMnJCUU4wdDlVenA0S2prNmEtcXVsUnlqeHpJQi1NUjlob1NTX21yNzU0LW9zWmlJbENybkY2V3lhdUhnaEFiU0o0eF9nTkFLdkVCMGRqXzBN?oc=5",
-     "time": "2026-11-02T14:35:15+00:00"
-    },
-    {
-     "title": "Amazon vs. Intel: One AI Stock Is a Gift, the Other Can Wait, Says Top Investor",
-     "publisher": "TipRanks",
-     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNekNfOGJVN3oxMlpPQUx3eUczeVRXRzgwMFVTQl9leXJFajFpcmlDWnN6d2xqZmg5cGJwVFVEaGx1dnhJWTVYV0QtRUxibEt2amo2bUtNbFE5X3Nqam9ubERmMkprc2M0dEVXa3hOWjRPRnFlRjROVkFmVTFHZ0lGb2t3c0w2Y0tGQTZNSlNtMVZmWHFSdXE1ZVZma1dWUXpfTExoRlhMaE1uQk9IT1JyV011WQ?oc=5",
-     "time": "2026-11-02T14:13:17+00:00"
-    }
-   ],
-   "brief": null
-  },
-  {
    "symbol": "MELI",
    "name": "MercadoLibre",
    "list": "watchlist",
-   "price": 1692.4,
+   "price": 1698.0,
    "prev_close": 1624.53,
-   "change_pct": 4.2,
+   "change_pct": 4.5,
    "trigger_change": 3.1,
-   "peak_change": 4.2,
+   "peak_change": 4.5,
    "first_seen": "2026-11-02T16:15:40+00:00",
    "sector": {
     "etf": "XLY",
     "name": "Consumer discr.",
-    "price": 118.94,
-    "change_pct": 3.09
+    "price": 118.72,
+    "change_pct": 2.89
    },
    "chart": {
-    "ema8": -0.7,
-    "ema21": -4.0,
-    "sma50": -7.8,
-    "sma200": -6.6,
+    "ema8": -0.4,
+    "ema21": -3.7,
+    "sma50": -7.5,
+    "sma200": -6.3,
     "momentum": false
    },
    "headlines": [
@@ -171,25 +96,100 @@
    "brief": null
   },
   {
+   "symbol": "AMZN",
+   "name": "Amazon",
+   "list": "portfolio",
+   "price": 251.04,
+   "prev_close": 240.35,
+   "change_pct": 4.4,
+   "trigger_change": 5.3,
+   "peak_change": 5.3,
+   "first_seen": "2026-11-02T16:15:40+00:00",
+   "sector": {
+    "etf": "XLY",
+    "name": "Consumer discr.",
+    "price": 118.72,
+    "change_pct": 2.89
+   },
+   "chart": {
+    "ema8": 0.6,
+    "ema21": -0.4,
+    "sma50": -1.2,
+    "sma200": 3.1,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Amazon Soars 5% as Phillip Securities Upgrades It to Buy After Earnings Sell-Off",
+     "publisher": "TIKR.com",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOalpveHFxVk1mZG1TaXNDaXlrcHZzT2M5UmZuWWlHRHJIYUdCSTZfazdUZ0dBSGtDRkJNMnZMelV0WFJxNjVVeE9oaDRreloxRjk1VEpHbktVN1FOQnB1bzVwWTV3SDA2dWszZTVPNzRlY3ZiaTBtcWFEOUttQnFPSkhmWHNoVXQxRzFpbVMtalpSOC11UFJjVll5NnhaNFRCTmhnS1VWTWdqdw?oc=5",
+     "time": "2026-11-02T16:36:42+00:00"
+    },
+    {
+     "title": "Amazon: Don't Look At The Cash Flow (NASDAQ:AMZN)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBUejFDcXJiQ0NLMHd5alJ5Znp6N1h5X0ZqaFRDNHpTQ0cxenJOZHVBLS1ReDA0Rm5GMHg1NXRrOWVGYl8wUU9HZm13TUR0SmNqQU1PR3hMQTNYaC1oelJKUU55QnExUVVoV0hta204RG91VDZWUUhOVWZpT1FmNWs?oc=5",
+     "time": "2026-11-02T16:00:30+00:00"
+    },
+    {
+     "title": "Why is Amazon stock rallying today?",
+     "publisher": "Investing.com",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZ0dJeHJIREdSVkxZYmI3dkFwTURUQnJYVTlkRnNreWV3OHc1ZWpObzVjeUhYQktCaUZ4RndxZVdJeGJuVEhPcE04NS1FVXVTdjBvaGlNRm54bUd5bUhlNG5adU02N3dNTWpFTXB1b0NYTWk4Rm9zNy04RzZ2MlBvRHhCbkdmdE82VjlKT2cxQ3JxaW5aTk9ydWxWcmI?oc=5",
+     "time": "2026-11-02T15:08:57+00:00"
+    },
+    {
+     "title": "Amazon stock climbs with upward price move while weak momentum tempers upside potential",
+     "publisher": "Traders Union",
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxORW9seG9GbkFmclhubjM5SG04LTlwNkRheU5qMGNuMi1oOEJ1RHVDLUkta19DSWFYSk1SczRPY2xPUkQyeGM0SnFMUDJjQUF2N2tRUFBoRzV4cERnQl9nbzU1Y0ZmT1ZicGpyc2wtandCVGkta2tkb2ZqdlJTdUtvQ1RVdFJySUowSFljR0NaX2dlU28?oc=5",
+     "time": "2026-11-02T15:01:32+00:00"
+    },
+    {
+     "title": "Amazon Stock Price Target Raised To $330 By Phillip Securities",
+     "publisher": "TronWeekly",
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOaG5rcV9RY096VEd2OUxmNkNlejRyRWFhX0tPcW9qRmpOSDJfblRDZ05yWUlJcENkSWFZaVpnT091MWM3azRTOUx2N3BIVnh6c015bFVmc2pFcGh6djJ4dDk1YnhiQ2VaWUUwQjl0bW1vN3pHR080S1FobjJUUHpWLXllX0RieF96VDVMbnZ3SE9aYjQ?oc=5",
+     "time": "2026-11-02T14:48:35+00:00"
+    },
+    {
+     "title": "Amazon.com Inc Stock (AMZN) Opened Up by 4.06% on Nov 2: What Investors Need To Know",
+     "publisher": "TradingKey",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPcGtxbHRyMkZpMVVQVE1qc3Q3eFZRLU9FaV91Sll4WC1kNHFuR0prdDRZUGxQQUp2bmwxMFVacEV2dkprczRIR2NkV1ByUTBRdENsb2ZBMklMSlp4azhZZjk3WVRReXNfLTdDVG9yQWp3V3JMRDVkT1V6X1U4ZVFEY0JyYWNfQXJwQ1hZ?oc=5",
+     "time": "2026-11-02T14:47:22+00:00"
+    },
+    {
+     "title": "Amazon Stock Climbs After Phillip Securities Upgrade to Buy",
+     "publisher": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxObnZpN3g4bTBoZ1BRSWYyYjRqa2FReU53dEx6bGE0d3JlWWM1cUI0eU1CU1ZSRHR1Q2JIY3BuaFZtZmhTelp4UHE4U3puT0JWV0JzUk0xUW4wSndMNmtGRmZveXpsWmxfRGFEMnJCUU4wdDlVenA0S2prNmEtcXVsUnlqeHpJQi1NUjlob1NTX21yNzU0LW9zWmlJbENybkY2V3lhdUhnaEFiU0o0eF9nTkFLdkVCMGRqXzBN?oc=5",
+     "time": "2026-11-02T14:35:15+00:00"
+    },
+    {
+     "title": "Amazon vs. Intel: One AI Stock Is a Gift, the Other Can Wait, Says Top Investor",
+     "publisher": "TipRanks",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNekNfOGJVN3oxMlpPQUx3eUczeVRXRzgwMFVTQl9leXJFajFpcmlDWnN6d2xqZmg5cGJwVFVEaGx1dnhJWTVYV0QtRUxibEt2amo2bUtNbFE5X3Nqam9ubERmMkprc2M0dEVXa3hOWjRPRnFlRjROVkFmVTFHZ0lGb2t3c0w2Y0tGQTZNSlNtMVZmWHFSdXE1ZVZma1dWUXpfTExoRlhMaE1uQk9IT1JyV011WQ?oc=5",
+     "time": "2026-11-02T14:13:17+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
    "symbol": "APP",
    "name": "AppLovin",
    "list": "portfolio",
-   "price": 237.93,
+   "price": 238.09,
    "prev_close": 228.5,
-   "change_pct": 4.1,
+   "change_pct": 4.2,
    "trigger_change": 3.6,
    "peak_change": 4.8,
    "first_seen": "2026-11-02T16:15:40+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 104.46,
-    "change_pct": 0.16
+    "price": 104.37,
+    "change_pct": 0.08
    },
    "chart": {
-    "ema8": -5.2,
+    "ema8": -5.1,
     "ema21": -10.6,
-    "sma50": -18.8,
+    "sma50": -18.7,
     "sma200": -42.5,
     "momentum": false
    },
@@ -246,95 +246,20 @@
    "brief": null
   },
   {
-   "symbol": "SOFI",
-   "name": "SoFi",
-   "list": "portfolio",
-   "price": 17.37,
-   "prev_close": 16.76,
-   "change_pct": 3.7,
-   "trigger_change": 4.0,
-   "peak_change": 4.1,
-   "first_seen": "2026-11-02T16:15:40+00:00",
-   "sector": {
-    "etf": "XLF",
-    "name": "Financials",
-    "price": 57.52,
-    "change_pct": 1.8
-   },
-   "chart": {
-    "ema8": 5.7,
-    "ema21": 8.8,
-    "sma50": 5.0,
-    "sma200": -2.1,
-    "momentum": true
-   },
-   "headlines": [
-    {
-     "title": "SoFi Technologies (NASDAQ: SOFI) Operating Margin Nearly Doubles As Record Loan Originations Fuel Massive Guidance Raise",
-     "publisher": "Foreign Policy Journal",
-     "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNamhjb3I3RnA5dDRSYUQ5Rl9sX3htaGZyZXVLUWxBdDhWRlNzSDVLUHljLXFKY0hoZFFiNTdveTVXdllBSmtOT1BNQXZ2ZmdRR2NDUkFxRmdSNWlqWnBXTmJMN1hhQ0EyQ0drcnd6WEJOdUI1a3VNOUxyUmIzWGROT0tsY3NUb1lKY3RjUFNOblNOc2VLbTIxYTJRZkhNRXBhZGt2X0dUZ0Q0Ny1GaC1jWV85YnM4eDFMaVhma21mRE9sOVhtRl96M2c0eTQ2cmp6UzdySmczSElNaG9KSFFYRk9OMGRUak5STW9jTVY4NU51d1h4QUxaUW5n?oc=5",
-     "time": "2026-11-02T13:03:00+00:00"
-    },
-    {
-     "title": "CME vs. SoFi Technologies: Which Financial Stock Is a Better Buy for 2027?",
-     "publisher": "The Motley Fool",
-     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQd0RxVjczdklVUUUxT1VtU01mTm5JYkR0UWY0Mjh3ZnEtZDFqTTA5VUpGT2lzY2NLWWZvcTJGeTlCWnJySlpVS3IxSjVYYkJEVDkxNVo4Zl9Sc1hHdVVrQkhtLXJJSWZQTUIwUVdlUHl0M0dqNzNSSWM2M0l4bFVDQ1czZEk0SGJ5NW1BMnhXZmRtR1pIT09BTGJQMG5TSS1YMjBlWllvRjZobVdoYXJNUURzUE96VVVEWm9yblo5QmJvZw?oc=5",
-     "time": "2026-11-02T12:23:00+00:00"
-    },
-    {
-     "title": "Is SoFi Stock a Buy After its Spectacular Investor Update?",
-     "publisher": "The Motley Fool",
-     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQeHd3UnFJZnFPWTcxcFN2SEI2RjNYcXMyWE9VdEtiazdYLVQ1QTItOEoxbHlqZzJQOTBlMGZpZnIwYnhOYjdwa2Z6RUtxY1B4Yk1jeFR6SFNzQS13alktR25YdndMck94QW1iUmJVNWhtamVVT05BVUlzcFo1LVVFbDhOWTBXOG12YlRoY2JRQUZRNDBVZ1JrQzNxNzQtSm55Wnc?oc=5",
-     "time": "2026-11-02T09:34:00+00:00"
-    },
-    {
-     "title": "SoFi (SOFI) Stock May Trade At A Premium Following Raised Outlook",
-     "publisher": "Simply Wall St",
-     "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNal8tcHozX3pNVk9rNGRTLXpWRnM0R1JvU2x1c1k4TUtJODR2Mm5kWFFsd2tDWmVSTGNuWUlObUtsZzNxMzlXQ0dnaW1pSmw4UFQ0SjRDQk8tc3NpTU5RT0xlRE81MGtEV0FfMnkwWlZaWFU2eE8xWjRpQUk0cWYzb25BYzNKM1BlTkFKWWVKV3JncWpyaGtqdGQ4dGhObTVKQ2xsOE5WQ2VkMWNTNlMyLUtIX2NHWnRYdG9GbFJMZlFwRzg2bHU4a1dzSXNyeTlqandmWi1sUk1uOXFpQmNyekE0Y0fSAeoBQVVfeXFMTlhiYV8yRGJORzItMjZnbGtvZWVnMHUwZnYxakY0bVNEcEpwbTE2ZG1CcXpXQTE3azBrWUNlNnI4MUdudFhKWDM5Y1gtbVBGMDl5MzhkVFUxUnVWNlA4dkYzRUl3RkdtdV9wWjhBY2VlRWt4UHhJQ3N0azBiakJ0azRyczRkeGtpUGlRRUR1WWdFVlM4eldkMHdBalF6VVhkaDJaUXMzZ1EzOTRHSGdRMU9sc2Q4c1ZybkFRYmcxRFBSRzIyVTUtTG5CUk9zU20tak1ZOGRkRzB0RzhBYnBNdmVLQ2tCck5ueVln?oc=5",
-     "time": "2026-11-02T07:38:49+00:00"
-    },
-    {
-     "title": "SoFi Technologies: On The Brink Of A Major Profitability Breakout (NASDAQ:SOFI)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPeFpJRVFNNUY3dWROMlZ5b191VE9oUXN2UXBFU0xwNWtOZ0xqcy1CX3FLSl83WFVxak5jQVdGcmwzODdNTlNaVHFDQkxGS21QNVZsdHptUFVWdUxGdnM2bG9DaHFUOU9kSllYaXJ6UXkyUWxZb2hJR0pReUN2NUFCdmdaZ2tTTjcxQl9mUkpzQTBIXzhoYjEtVDQ0anEzUG1uT2hzclp2cFFlUQ?oc=5",
-     "time": "2026-11-02T03:32:37+00:00"
-    },
-    {
-     "title": "RILY,VCTR,ROAD,SPWH,SOFI,BBSI,IOT | Stock Prices | Quote Comparison - Yahoo Finance",
-     "publisher": "Yahoo! Finance Canada",
-     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9wdWFhT2Q3aU5EU0Vpb05HbWw5anlJNkRyMnhQU0FlYTJ4NUVpdm94T2w5Y19wbldxTDZHenFsV0l3N1ZpVmZRdXBobTNUYXVsY2VNTUhyb3J0Q2Z3WkNCZTdDTXBsSG1xR1psUWJBYWh5ZWs4QjRQOW5R?oc=5",
-     "time": "2026-11-02T01:11:30+00:00"
-    },
-    {
-     "title": "How Earnings Beat At SoFi Stock Has Changed Its Investment Story",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPMzNrUHl2RGJfVlRIS2J6akRtZHQ0aEpJMDltbW95TXM4VlRqT3hkSUJtVHh6ak9ya3pEbXBDQU1fNHZwcnc1cXFCamU3OEFPTGtfeHVlb0JqSkwtWDNuZ2VPTHBkODh4bkRSTTlyUGpEdGg4bzZaVTBaQklfOFdUZ2FsUWxtZkg0Mkc4WVJkUm5BeThWNllDQ1RYY2JMUQ?oc=5",
-     "time": "2026-11-01T23:20:51+00:00"
-    },
-    {
-     "title": "SoFi Technologies (SOFI) Shares Just Moved, So What Is Driving Attention Now?",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOcmZxYktXX093LWFqOUxGX09Dd3Vwajdyc3VreGlmaWE5LUhzdktzd0tfbVZFSENEcDZqLTdyX2sxdjJEQXg1VXQ4Q1c1MWtaQU82eUJ1OTh4ZDMtMGNjQkFQYkcxVUlzNk8ycGgzS3d2SXVUakNBOU40NU9RX2lyLUNpcE5vYlVnbWt6dVkzUFlBZ3p0VHdQNzJJbkhFOEZp?oc=5",
-     "time": "2026-11-01T22:07:49+00:00"
-    }
-   ],
-   "brief": null
-  },
-  {
    "symbol": "NOW",
    "name": "ServiceNow",
    "list": "portfolio",
-   "price": 108.93,
+   "price": 108.92,
    "prev_close": 105.12,
    "change_pct": 3.6,
    "trigger_change": 3.1,
-   "peak_change": 3.6,
+   "peak_change": 4.0,
    "first_seen": "2026-11-02T16:40:54+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 104.46,
-    "change_pct": 0.16
+    "price": 104.37,
+    "change_pct": 0.08
    },
    "chart": {
     "ema8": -15.4,
@@ -399,23 +324,23 @@
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 149.82,
+   "price": 148.69,
    "prev_close": 154.14,
-   "change_pct": -2.8,
+   "change_pct": -3.5,
    "trigger_change": -3.3,
-   "peak_change": -3.3,
+   "peak_change": -3.5,
    "first_seen": "2026-11-02T16:55:57+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 104.46,
-    "change_pct": 0.16
+    "price": 104.37,
+    "change_pct": 0.08
    },
    "chart": {
-    "ema8": -8.8,
-    "ema21": -17.5,
-    "sma50": -28.1,
-    "sma200": -15.7,
+    "ema8": -9.3,
+    "ema21": -18.1,
+    "sma50": -28.6,
+    "sma200": -16.3,
     "momentum": false
    },
    "headlines": [
@@ -466,6 +391,81 @@
      "publisher": "MarketBeat",
      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOX1plTDlNanFzNDQyUWlScWNkUlZhdzVfUzdfd0o2clZrMnh1NThkSmVwcWpqWDNUc2otSjRJQ0dBdGpWV1N2UXA4aW1pYVdqNWlLWXNCdUpWNUNNMTRTaHUxamhvcDdUOTkzV1BOcmlhemRVUjM5LVZTbXdEV3FpSzQ5d00yUnV3SmhWWF83aXQ2U1lOSnFqQXFsNzhPSGVVamh2M1FySUxxbDlyNHl3dzFuczhwUnZiRDdkTGhnR3FQS2c2cFFLdGNEM3llYVNoS1RJTkh6M0hkMDJVT1FjeFdZUXY4UlFKS0E?oc=5",
      "time": "2026-11-01T09:09:10+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
+   "symbol": "SOFI",
+   "name": "SoFi",
+   "list": "portfolio",
+   "price": 17.33,
+   "prev_close": 16.76,
+   "change_pct": 3.4,
+   "trigger_change": 4.0,
+   "peak_change": 4.1,
+   "first_seen": "2026-11-02T16:15:40+00:00",
+   "sector": {
+    "etf": "XLF",
+    "name": "Financials",
+    "price": 57.63,
+    "change_pct": 1.98
+   },
+   "chart": {
+    "ema8": 5.5,
+    "ema21": 8.6,
+    "sma50": 4.7,
+    "sma200": -2.3,
+    "momentum": true
+   },
+   "headlines": [
+    {
+     "title": "SoFi Technologies (NASDAQ: SOFI) Operating Margin Nearly Doubles As Record Loan Originations Fuel Massive Guidance Raise",
+     "publisher": "Foreign Policy Journal",
+     "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNamhjb3I3RnA5dDRSYUQ5Rl9sX3htaGZyZXVLUWxBdDhWRlNzSDVLUHljLXFKY0hoZFFiNTdveTVXdllBSmtOT1BNQXZ2ZmdRR2NDUkFxRmdSNWlqWnBXTmJMN1hhQ0EyQ0drcnd6WEJOdUI1a3VNOUxyUmIzWGROT0tsY3NUb1lKY3RjUFNOblNOc2VLbTIxYTJRZkhNRXBhZGt2X0dUZ0Q0Ny1GaC1jWV85YnM4eDFMaVhma21mRE9sOVhtRl96M2c0eTQ2cmp6UzdySmczSElNaG9KSFFYRk9OMGRUak5STW9jTVY4NU51d1h4QUxaUW5n?oc=5",
+     "time": "2026-11-02T13:03:00+00:00"
+    },
+    {
+     "title": "CME vs. SoFi Technologies: Which Financial Stock Is a Better Buy for 2027?",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQd0RxVjczdklVUUUxT1VtU01mTm5JYkR0UWY0Mjh3ZnEtZDFqTTA5VUpGT2lzY2NLWWZvcTJGeTlCWnJySlpVS3IxSjVYYkJEVDkxNVo4Zl9Sc1hHdVVrQkhtLXJJSWZQTUIwUVdlUHl0M0dqNzNSSWM2M0l4bFVDQ1czZEk0SGJ5NW1BMnhXZmRtR1pIT09BTGJQMG5TSS1YMjBlWllvRjZobVdoYXJNUURzUE96VVVEWm9yblo5QmJvZw?oc=5",
+     "time": "2026-11-02T12:23:00+00:00"
+    },
+    {
+     "title": "Is SoFi Stock a Buy After its Spectacular Investor Update?",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQeHd3UnFJZnFPWTcxcFN2SEI2RjNYcXMyWE9VdEtiazdYLVQ1QTItOEoxbHlqZzJQOTBlMGZpZnIwYnhOYjdwa2Z6RUtxY1B4Yk1jeFR6SFNzQS13alktR25YdndMck94QW1iUmJVNWhtamVVT05BVUlzcFo1LVVFbDhOWTBXOG12YlRoY2JRQUZRNDBVZ1JrQzNxNzQtSm55Wnc?oc=5",
+     "time": "2026-11-02T09:34:00+00:00"
+    },
+    {
+     "title": "SoFi (SOFI) Stock May Trade At A Premium Following Raised Outlook",
+     "publisher": "Simply Wall St",
+     "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNal8tcHozX3pNVk9rNGRTLXpWRnM0R1JvU2x1c1k4TUtJODR2Mm5kWFFsd2tDWmVSTGNuWUlObUtsZzNxMzlXQ0dnaW1pSmw4UFQ0SjRDQk8tc3NpTU5RT0xlRE81MGtEV0FfMnkwWlZaWFU2eE8xWjRpQUk0cWYzb25BYzNKM1BlTkFKWWVKV3JncWpyaGtqdGQ4dGhObTVKQ2xsOE5WQ2VkMWNTNlMyLUtIX2NHWnRYdG9GbFJMZlFwRzg2bHU4a1dzSXNyeTlqandmWi1sUk1uOXFpQmNyekE0Y0fSAeoBQVVfeXFMTlhiYV8yRGJORzItMjZnbGtvZWVnMHUwZnYxakY0bVNEcEpwbTE2ZG1CcXpXQTE3azBrWUNlNnI4MUdudFhKWDM5Y1gtbVBGMDl5MzhkVFUxUnVWNlA4dkYzRUl3RkdtdV9wWjhBY2VlRWt4UHhJQ3N0azBiakJ0azRyczRkeGtpUGlRRUR1WWdFVlM4eldkMHdBalF6VVhkaDJaUXMzZ1EzOTRHSGdRMU9sc2Q4c1ZybkFRYmcxRFBSRzIyVTUtTG5CUk9zU20tak1ZOGRkRzB0RzhBYnBNdmVLQ2tCck5ueVln?oc=5",
+     "time": "2026-11-02T07:38:49+00:00"
+    },
+    {
+     "title": "SoFi Technologies: On The Brink Of A Major Profitability Breakout (NASDAQ:SOFI)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPeFpJRVFNNUY3dWROMlZ5b191VE9oUXN2UXBFU0xwNWtOZ0xqcy1CX3FLSl83WFVxak5jQVdGcmwzODdNTlNaVHFDQkxGS21QNVZsdHptUFVWdUxGdnM2bG9DaHFUOU9kSllYaXJ6UXkyUWxZb2hJR0pReUN2NUFCdmdaZ2tTTjcxQl9mUkpzQTBIXzhoYjEtVDQ0anEzUG1uT2hzclp2cFFlUQ?oc=5",
+     "time": "2026-11-02T03:32:37+00:00"
+    },
+    {
+     "title": "RILY,VCTR,ROAD,SPWH,SOFI,BBSI,IOT | Stock Prices | Quote Comparison - Yahoo Finance",
+     "publisher": "Yahoo! Finance Canada",
+     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9wdWFhT2Q3aU5EU0Vpb05HbWw5anlJNkRyMnhQU0FlYTJ4NUVpdm94T2w5Y19wbldxTDZHenFsV0l3N1ZpVmZRdXBobTNUYXVsY2VNTUhyb3J0Q2Z3WkNCZTdDTXBsSG1xR1psUWJBYWh5ZWs4QjRQOW5R?oc=5",
+     "time": "2026-11-02T01:11:30+00:00"
+    },
+    {
+     "title": "How Earnings Beat At SoFi Stock Has Changed Its Investment Story",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPMzNrUHl2RGJfVlRIS2J6akRtZHQ0aEpJMDltbW95TXM4VlRqT3hkSUJtVHh6ak9ya3pEbXBDQU1fNHZwcnc1cXFCamU3OEFPTGtfeHVlb0JqSkwtWDNuZ2VPTHBkODh4bkRSTTlyUGpEdGg4bzZaVTBaQklfOFdUZ2FsUWxtZkg0Mkc4WVJkUm5BeThWNllDQ1RYY2JMUQ?oc=5",
+     "time": "2026-11-01T23:20:51+00:00"
+    },
+    {
+     "title": "SoFi Technologies (SOFI) Shares Just Moved, So What Is Driving Attention Now?",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOcmZxYktXX093LWFqOUxGX09Dd3Vwajdyc3VreGlmaWE5LUhzdktzd0tfbVZFSENEcDZqLTdyX2sxdjJEQXg1VXQ4Q1c1MWtaQU82eUJ1OTh4ZDMtMGNjQkFQYkcxVUlzNk8ycGgzS3d2SXVUakNBOU40NU9RX2lyLUNpcE5vYlVnbWt6dVkzUFlBZ3p0VHdQNzJJbkhFOEZp?oc=5",
+     "time": "2026-11-01T22:07:49+00:00"
     }
    ],
    "brief": null
