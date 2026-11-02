@@ -1,22 +1,22 @@
 {
  "date": "2026-11-02",
  "threshold": 3.0,
- "updated": "2026-11-02T16:40:54+00:00",
+ "updated": "2026-11-02T16:45:54+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 760.08,
+   "price": 760.11,
    "change_pct": 0.58
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 693.59,
-   "change_pct": 0.45
+   "price": 693.5,
+   "change_pct": 0.44
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 82.0,
-   "change_pct": 0.2
+   "price": 81.94,
+   "change_pct": 0.12
   }
  },
  "movers": [
@@ -24,7 +24,7 @@
    "symbol": "AMZN",
    "name": "Amazon",
    "list": "portfolio",
-   "price": 251.59,
+   "price": 251.54,
    "prev_close": 240.35,
    "change_pct": 4.7,
    "trigger_change": 5.3,
@@ -33,12 +33,12 @@
    "sector": {
     "etf": "XLY",
     "name": "Consumer discr.",
-    "price": 119.02,
-    "change_pct": 3.15
+    "price": 118.99,
+    "change_pct": 3.13
    },
    "chart": {
     "ema8": 0.8,
-    "ema21": -0.2,
+    "ema21": -0.3,
     "sma50": -1.0,
     "sma200": 3.3,
     "momentum": false
@@ -99,23 +99,23 @@
    "symbol": "APP",
    "name": "AppLovin",
    "list": "portfolio",
-   "price": 238.9,
+   "price": 238.53,
    "prev_close": 228.5,
-   "change_pct": 4.6,
+   "change_pct": 4.4,
    "trigger_change": 3.6,
    "peak_change": 4.8,
    "first_seen": "2026-11-02T16:15:40+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 104.64,
-    "change_pct": 0.34
+    "price": 104.67,
+    "change_pct": 0.36
    },
    "chart": {
-    "ema8": -4.9,
-    "ema21": -10.3,
-    "sma50": -18.4,
-    "sma200": -42.3,
+    "ema8": -5.0,
+    "ema21": -10.4,
+    "sma50": -18.6,
+    "sma200": -42.4,
     "momentum": false
    },
    "headlines": [
@@ -171,95 +171,20 @@
    "brief": null
   },
   {
-   "symbol": "MELI",
-   "name": "MercadoLibre",
-   "list": "watchlist",
-   "price": 1689.23,
-   "prev_close": 1624.53,
-   "change_pct": 4.0,
-   "trigger_change": 3.1,
-   "peak_change": 4.1,
-   "first_seen": "2026-11-02T16:15:40+00:00",
-   "sector": {
-    "etf": "XLY",
-    "name": "Consumer discr.",
-    "price": 119.02,
-    "change_pct": 3.15
-   },
-   "chart": {
-    "ema8": -0.8,
-    "ema21": -4.2,
-    "sma50": -8.0,
-    "sma200": -6.7,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "MercadoLibre stock gains 3.17% before November 4 results",
-     "publisher": "ad-hoc-news.de",
-     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQR19PTGlFbGVRSHdqcUNURUlFcWFCXzVWMFNkaXFBTVBjcE9WVXBlUUxrYjRSV1dWNFNXRnlPUHJEZmZZVDliTmt3anZJWmJzUVA1dEE1eTBKYmZSQUJOWndkMlJHQVJuVGJkNXp1SkQyMlMzbHc4bzhQN2RETWVYNWNEVnE1SlZxdUxoY3lkYjBPa0NjbTdnWkowZEpIWE5vUUk1cW1hc19JbkYzN21yTDR0S2RYVG1Uenc?oc=5",
-     "time": "2026-11-02T15:18:25+00:00"
-    },
-    {
-     "title": "MercadoLibre, Inc. $MELI Stock Purchased by ProShare Advisors LLC",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZUdVbGY0MzRBMTBYYTUwV3V3T2xlUVJLaVI1eU5kNHJKVFpLdFkxVGhJX2twWFdNMEx0ZjJwN29pc0ZqQjBMTFhva09XM1k5SnpRbHYzbkxrUWhNX0c0OWRPamZJbnpKMllCWWJzMDdhclJyemVTM2lXMEllMTc1WUs3Ym10UW11eVdsSFVWRGtlMUk3MWRRZXdCOU9OWkRXMDZ1UDZFOE5VbGdrMlBkVG1VS19fWm1RX0N0V19obGk?oc=5",
-     "time": "2026-11-02T12:44:27+00:00"
-    },
-    {
-     "title": "36,255 Shares in MercadoLibre, Inc. $MELI Purchased by Mirae Asset Global Investments Co. Ltd.",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNSlVDT2lXTWZHYklqNnViLW5oQ0JUR0ZjeERJZWJnaHJnUEZQWDl2NEUtVHNqMFpZSGZoN0hCaEctMWlwUHFPc21EZlpOTUw1SmF2b1N1aVZSaGxZMzZNNnhheVhoRzVQQXV6b1R5SUhhQy1HalBfcGwtZkdZM2wzWktMYXZ4U3ZPamFKUVlwZFlkcU5lbkc4MnZFVXZSRF9wZUthMUVRSl9vOFN1Qk82MlB1QWFWMy1LQ0xQSTdsVjNkeWFVMjdicEVkdXI2aG1QaVFpTDFZVW9MTllOWkxOY1FHQQ?oc=5",
-     "time": "2026-11-02T12:09:57+00:00"
-    },
-    {
-     "title": "Weekly Recap: Brazil-Mexico merchandise growth and $16B loan portfolio",
-     "publisher": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOcFF3RGZWVndwNUJyelV6b0xTVFZIUm9nclgxbHBYM3Nta2ViczBKQllwUm5SU0gzWkhJbjFsTmY1VUxCWlFXTXQzR3JyX0hucjZ6WFk4aVVrOHJlWDBXZHUzZHN3OGhSMkNDZDhVeVpqUEhUV1g3TjlWZlk1YnZqR2pjcjl1WUJiTVN2dm5CLU9zTzNQakFFSWNreU5ucUNCbjdETk8ya3NHRjNhZ1pNMmRkRFhYLXZjbHJSS09rV3ctSGRZeTRETk1R?oc=5",
-     "time": "2026-11-02T11:00:00+00:00"
-    },
-    {
-     "title": "MercadoLibre stock heads into November 4 earnings release",
-     "publisher": "ad-hoc-news.de",
-     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPN1dUcURWc1MySWp4aER3cExQZ1YtQVlraE9nemFzUlVsdk9pZTlRa3pkQklxeDl4d09nX29DUTlldTNGc19ublFETmREUTd0Q0tYa1ZLMkhiMmd2MjFwZnRfc3ZsM0lJcGZvTUFyUWlzMmJlenExTGJndllvWG0xZzJDQ1hPU3RZNVl6TDZZamFLWGFvakhZcEJ1aThmRHJjeU9memV5ZXhDcDljZEMxQmhHREk4MU1UeDAteg?oc=5",
-     "time": "2026-11-02T10:58:01+00:00"
-    },
-    {
-     "title": "Is MercadoLibre (MELI) Too Expensive After Its 30% Slide?",
-     "publisher": "Simply Wall St",
-     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNWHJVdjZRRW85VVVFOHhaSGpUTFd4SXF5ZlBSNjJBQXpKTS10aE9GR0pBdE9JRENWcW5wZ3RVZVpyQkRPRjVKOUY4UWJHalZQSk5RcFZsQWg4ZU1Vc3JRTmtsRE11S1hnR2JudnhSeDhmWDEyVzZ2N2gybmZfOEl3eGRIQ0Q2N29JSjhlaEV3VmFlWnltT29uUHZpb0RLaXBPQzZ1Q1p4SS02WlI5dVRNX1dkZ0tSTmRBSG1UUDh4a9IBxAFBVV95cUxNNi1TLWhGRXptRngtZ1JIU2Z0cnBKcDlLNzBUZkdJejMzbzZQRkR6MThuTVd0NFZDSjZEYjhRQTNJVWZNN3I0TXE3MzdxQlktZWlHRUFmUFBlcHlTMTV2UEhNZThyY3MtT0w3T3VTblpvc29BOTlmaXpYRV9jVm5GMXd3bXoyRGREaWFnaHBYN1p3SEM2Wm1oaTM2UFo1TGxRZC1aRU51ZlhNczhzZGVGWjN3aFhvcDJicTVMYXdTZVUxR1E2?oc=5",
-     "time": "2026-11-02T08:54:36+00:00"
-    },
-    {
-     "title": "MercadoLibre Fintech Chief Is \u201cNot Seeing Any Deceleration or Deterioration\u201d in Brazil Credit. November 4 Will Tell",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOOEtkaHAxbjVPcjZJSzZ6N242SXpTTlh6NUZBOWo3RUYyQUJwX0VTMS1aeG9VdHkwcVQ0WHZBX1dvRlhpYjgzclVVaF9GZS1SdjRGcWxnX2RzWURCWHRmTWxzX1ZKdkN6aUhXckh0UWFVbXhBOVRQRHctLWNOdVNiNHZGWU4yTnRQTm1iZUswMktuX2o0WExhVzFqR1hkLTl4MDZyeA?oc=5",
-     "time": "2026-11-01T23:26:41+00:00"
-    },
-    {
-     "title": "MercadoLibre, Inc. $MELI Position Trimmed by Sumitomo Mitsui Trust Group Inc.",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPNkY1YmdwT3BQSFlNWlFSYkNoanczbHFRTEFMemRQcl9fdmpPQ3E0QlFRd2Z0TF9KblI1UU9IWWd1Q0VhU2duRk0xN2FOWkN5aTZUT2tyT0FBYTZKLXQ4UUo2c0doS2hVd1VGTnZiYlVkR3ZRbE5FOEJWS3N5TTRDVW9KeHVNM0RWSXJSdTZhV0NTYi1FVm1QbnBRWHRYMVVmX1g2LWlXbVpqcHBDcGNYOURhRDR1bFhBajhfLXQ4VnFJblFYejVuOGViTUFIUG8?oc=5",
-     "time": "2026-11-01T11:47:21+00:00"
-    }
-   ],
-   "brief": null
-  },
-  {
    "symbol": "SOFI",
    "name": "SoFi",
    "list": "portfolio",
-   "price": 17.43,
+   "price": 17.44,
    "prev_close": 16.76,
-   "change_pct": 4.0,
+   "change_pct": 4.1,
    "trigger_change": 4.0,
    "peak_change": 4.1,
    "first_seen": "2026-11-02T16:15:40+00:00",
    "sector": {
     "etf": "XLF",
     "name": "Financials",
-    "price": 57.55,
-    "change_pct": 1.85
+    "price": 57.59,
+    "change_pct": 1.9
    },
    "chart": {
     "ema8": 6.0,
@@ -321,26 +246,101 @@
    "brief": null
   },
   {
+   "symbol": "MELI",
+   "name": "MercadoLibre",
+   "list": "watchlist",
+   "price": 1687.65,
+   "prev_close": 1624.53,
+   "change_pct": 3.9,
+   "trigger_change": 3.1,
+   "peak_change": 4.1,
+   "first_seen": "2026-11-02T16:15:40+00:00",
+   "sector": {
+    "etf": "XLY",
+    "name": "Consumer discr.",
+    "price": 118.99,
+    "change_pct": 3.13
+   },
+   "chart": {
+    "ema8": -0.9,
+    "ema21": -4.2,
+    "sma50": -8.1,
+    "sma200": -6.8,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "MercadoLibre stock gains 3.17% before November 4 results",
+     "publisher": "ad-hoc-news.de",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQR19PTGlFbGVRSHdqcUNURUlFcWFCXzVWMFNkaXFBTVBjcE9WVXBlUUxrYjRSV1dWNFNXRnlPUHJEZmZZVDliTmt3anZJWmJzUVA1dEE1eTBKYmZSQUJOWndkMlJHQVJuVGJkNXp1SkQyMlMzbHc4bzhQN2RETWVYNWNEVnE1SlZxdUxoY3lkYjBPa0NjbTdnWkowZEpIWE5vUUk1cW1hc19JbkYzN21yTDR0S2RYVG1Uenc?oc=5",
+     "time": "2026-11-02T15:18:25+00:00"
+    },
+    {
+     "title": "MercadoLibre, Inc. $MELI Stock Purchased by ProShare Advisors LLC",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZUdVbGY0MzRBMTBYYTUwV3V3T2xlUVJLaVI1eU5kNHJKVFpLdFkxVGhJX2twWFdNMEx0ZjJwN29pc0ZqQjBMTFhva09XM1k5SnpRbHYzbkxrUWhNX0c0OWRPamZJbnpKMllCWWJzMDdhclJyemVTM2lXMEllMTc1WUs3Ym10UW11eVdsSFVWRGtlMUk3MWRRZXdCOU9OWkRXMDZ1UDZFOE5VbGdrMlBkVG1VS19fWm1RX0N0V19obGk?oc=5",
+     "time": "2026-11-02T12:44:27+00:00"
+    },
+    {
+     "title": "36,255 Shares in MercadoLibre, Inc. $MELI Purchased by Mirae Asset Global Investments Co. Ltd.",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNSlVDT2lXTWZHYklqNnViLW5oQ0JUR0ZjeERJZWJnaHJnUEZQWDl2NEUtVHNqMFpZSGZoN0hCaEctMWlwUHFPc21EZlpOTUw1SmF2b1N1aVZSaGxZMzZNNnhheVhoRzVQQXV6b1R5SUhhQy1HalBfcGwtZkdZM2wzWktMYXZ4U3ZPamFKUVlwZFlkcU5lbkc4MnZFVXZSRF9wZUthMUVRSl9vOFN1Qk82MlB1QWFWMy1LQ0xQSTdsVjNkeWFVMjdicEVkdXI2aG1QaVFpTDFZVW9MTllOWkxOY1FHQQ?oc=5",
+     "time": "2026-11-02T12:09:57+00:00"
+    },
+    {
+     "title": "Weekly Recap: Brazil-Mexico merchandise growth and $16B loan portfolio",
+     "publisher": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOcFF3RGZWVndwNUJyelV6b0xTVFZIUm9nclgxbHBYM3Nta2ViczBKQllwUm5SU0gzWkhJbjFsTmY1VUxCWlFXTXQzR3JyX0hucjZ6WFk4aVVrOHJlWDBXZHUzZHN3OGhSMkNDZDhVeVpqUEhUV1g3TjlWZlk1YnZqR2pjcjl1WUJiTVN2dm5CLU9zTzNQakFFSWNreU5ucUNCbjdETk8ya3NHRjNhZ1pNMmRkRFhYLXZjbHJSS09rV3ctSGRZeTRETk1R?oc=5",
+     "time": "2026-11-02T11:00:00+00:00"
+    },
+    {
+     "title": "MercadoLibre stock heads into November 4 earnings release",
+     "publisher": "ad-hoc-news.de",
+     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPN1dUcURWc1MySWp4aER3cExQZ1YtQVlraE9nemFzUlVsdk9pZTlRa3pkQklxeDl4d09nX29DUTlldTNGc19ublFETmREUTd0Q0tYa1ZLMkhiMmd2MjFwZnRfc3ZsM0lJcGZvTUFyUWlzMmJlenExTGJndllvWG0xZzJDQ1hPU3RZNVl6TDZZamFLWGFvakhZcEJ1aThmRHJjeU9memV5ZXhDcDljZEMxQmhHREk4MU1UeDAteg?oc=5",
+     "time": "2026-11-02T10:58:01+00:00"
+    },
+    {
+     "title": "Is MercadoLibre (MELI) Too Expensive After Its 30% Slide?",
+     "publisher": "Simply Wall St",
+     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNWHJVdjZRRW85VVVFOHhaSGpUTFd4SXF5ZlBSNjJBQXpKTS10aE9GR0pBdE9JRENWcW5wZ3RVZVpyQkRPRjVKOUY4UWJHalZQSk5RcFZsQWg4ZU1Vc3JRTmtsRE11S1hnR2JudnhSeDhmWDEyVzZ2N2gybmZfOEl3eGRIQ0Q2N29JSjhlaEV3VmFlWnltT29uUHZpb0RLaXBPQzZ1Q1p4SS02WlI5dVRNX1dkZ0tSTmRBSG1UUDh4a9IBxAFBVV95cUxNNi1TLWhGRXptRngtZ1JIU2Z0cnBKcDlLNzBUZkdJejMzbzZQRkR6MThuTVd0NFZDSjZEYjhRQTNJVWZNN3I0TXE3MzdxQlktZWlHRUFmUFBlcHlTMTV2UEhNZThyY3MtT0w3T3VTblpvc29BOTlmaXpYRV9jVm5GMXd3bXoyRGREaWFnaHBYN1p3SEM2Wm1oaTM2UFo1TGxRZC1aRU51ZlhNczhzZGVGWjN3aFhvcDJicTVMYXdTZVUxR1E2?oc=5",
+     "time": "2026-11-02T08:54:36+00:00"
+    },
+    {
+     "title": "MercadoLibre Fintech Chief Is \u201cNot Seeing Any Deceleration or Deterioration\u201d in Brazil Credit. November 4 Will Tell",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOOEtkaHAxbjVPcjZJSzZ6N242SXpTTlh6NUZBOWo3RUYyQUJwX0VTMS1aeG9VdHkwcVQ0WHZBX1dvRlhpYjgzclVVaF9GZS1SdjRGcWxnX2RzWURCWHRmTWxzX1ZKdkN6aUhXckh0UWFVbXhBOVRQRHctLWNOdVNiNHZGWU4yTnRQTm1iZUswMktuX2o0WExhVzFqR1hkLTl4MDZyeA?oc=5",
+     "time": "2026-11-01T23:26:41+00:00"
+    },
+    {
+     "title": "MercadoLibre, Inc. $MELI Position Trimmed by Sumitomo Mitsui Trust Group Inc.",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPNkY1YmdwT3BQSFlNWlFSYkNoanczbHFRTEFMemRQcl9fdmpPQ3E0QlFRd2Z0TF9KblI1UU9IWWd1Q0VhU2duRk0xN2FOWkN5aTZUT2tyT0FBYTZKLXQ4UUo2c0doS2hVd1VGTnZiYlVkR3ZRbE5FOEJWS3N5TTRDVW9KeHVNM0RWSXJSdTZhV0NTYi1FVm1QbnBRWHRYMVVmX1g2LWlXbVpqcHBDcGNYOURhRDR1bFhBajhfLXQ4VnFJblFYejVuOGViTUFIUG8?oc=5",
+     "time": "2026-11-01T11:47:21+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
    "symbol": "NOW",
    "name": "ServiceNow",
    "list": "portfolio",
-   "price": 108.4,
+   "price": 108.55,
    "prev_close": 105.12,
-   "change_pct": 3.1,
+   "change_pct": 3.3,
    "trigger_change": 3.1,
-   "peak_change": 3.1,
+   "peak_change": 3.3,
    "first_seen": "2026-11-02T16:40:54+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 104.64,
-    "change_pct": 0.34
+    "price": 104.67,
+    "change_pct": 0.36
    },
    "chart": {
-    "ema8": -15.7,
-    "ema21": -20.9,
-    "sma50": -21.6,
-    "sma200": -5.6,
+    "ema8": -15.6,
+    "ema21": -20.8,
+    "sma50": -21.5,
+    "sma200": -5.5,
     "momentum": false
    },
    "headlines": [
