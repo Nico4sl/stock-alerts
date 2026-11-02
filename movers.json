@@ -1,121 +1,46 @@
 {
  "date": "2026-11-02",
  "threshold": 3.0,
- "updated": "2026-11-02T16:30:47+00:00",
+ "updated": "2026-11-02T16:35:49+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 760.42,
-   "change_pct": 0.62
+   "price": 760.31,
+   "change_pct": 0.61
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 694.42,
-   "change_pct": 0.57
+   "price": 694.0,
+   "change_pct": 0.51
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 82.0,
-   "change_pct": 0.19
+   "price": 82.02,
+   "change_pct": 0.21
   }
  },
  "movers": [
   {
-   "symbol": "AMZN",
-   "name": "Amazon",
-   "list": "portfolio",
-   "price": 251.53,
-   "prev_close": 240.35,
-   "change_pct": 4.6,
-   "trigger_change": 5.3,
-   "peak_change": 5.3,
-   "first_seen": "2026-11-02T16:15:40+00:00",
-   "sector": {
-    "etf": "XLY",
-    "name": "Consumer discr.",
-    "price": 119.02,
-    "change_pct": 3.15
-   },
-   "chart": {
-    "ema8": 0.8,
-    "ema21": -0.3,
-    "sma50": -1.0,
-    "sma200": 3.3,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Amazon: Don't Look At The Cash Flow (NASDAQ:AMZN)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBUejFDcXJiQ0NLMHd5alJ5Znp6N1h5X0ZqaFRDNHpTQ0cxenJOZHVBLS1ReDA0Rm5GMHg1NXRrOWVGYl8wUU9HZm13TUR0SmNqQU1PR3hMQTNYaC1oelJKUU55QnExUVVoV0hta204RG91VDZWUUhOVWZpT1FmNWs?oc=5",
-     "time": "2026-11-02T16:00:30+00:00"
-    },
-    {
-     "title": "Why is Amazon stock rallying today?",
-     "publisher": "Investing.com",
-     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZ0dJeHJIREdSVkxZYmI3dkFwTURUQnJYVTlkRnNreWV3OHc1ZWpObzVjeUhYQktCaUZ4RndxZVdJeGJuVEhPcE04NS1FVXVTdjBvaGlNRm54bUd5bUhlNG5adU02N3dNTWpFTXB1b0NYTWk4Rm9zNy04RzZ2MlBvRHhCbkdmdE82VjlKT2cxQ3JxaW5aTk9ydWxWcmI?oc=5",
-     "time": "2026-11-02T15:08:57+00:00"
-    },
-    {
-     "title": "Amazon Stock Price Target Raised To $330 By Phillip Securities",
-     "publisher": "TronWeekly",
-     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOaG5rcV9RY096VEd2OUxmNkNlejRyRWFhX0tPcW9qRmpOSDJfblRDZ05yWUlJcENkSWFZaVpnT091MWM3azRTOUx2N3BIVnh6c015bFVmc2pFcGh6djJ4dDk1YnhiQ2VaWUUwQjl0bW1vN3pHR080S1FobjJUUHpWLXllX0RieF96VDVMbnZ3SE9aYjQ?oc=5",
-     "time": "2026-11-02T14:48:35+00:00"
-    },
-    {
-     "title": "Amazon Stock Rises as Phillip Securities Upgrades to Buy, Raises Target to $330",
-     "publisher": "The Crypto Basic",
-     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOWVU3QnpMdURRVHpZYXhhX1Nyc0U2dUFzZi1iWjFkdVRySEdlb2RfQVdieEFvS1pXR3hiMm9aRFpHa2VxTF9MUXNzbElXbXRKbGdkS21Pckh6aGhrSWVNNjFLbENudEJWVHVHOWgzSlgyRnZFTHlTS2FBNXljTGU4Q2d1VkV6ODVLQ1Q4M2t6N1ZOM0hUb1ZFbVZsb01wTjdzdW8wcExvWHVJVENieklTNVJicDhpLUU?oc=5",
-     "time": "2026-11-02T13:53:49+00:00"
-    },
-    {
-     "title": "Amazon.com, Inc. $AMZN Stock Sold by Robinswood Financial LLC",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOWEVLWUcyNkhTcFZscjUyOWVUdXB0NVBRMmgxdU9BaW9saXZXUGhDUzhraXJkRmx4VWZUdV9vZ1JKRVVPRFh1YjBKT0FPQ19jRlZnRXhSekg0UjBRekRldmhvVUUzaDV6NnlhWHFtTW5ETEtneHl5OXROYmFUUVVwdDV1eVNzazM3M2lkZ2FfazUyd3BncUVOREJEM01kRUxGdFlZSGIzYzVNRXJ2R3ltbndNci1OV2hJZWc?oc=5",
-     "time": "2026-11-02T11:47:18+00:00"
-    },
-    {
-     "title": "Amazon.com, Inc. $AMZN Stock: Prime Capital Investment Advisors LLC Cuts Stake",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPZ2F1MW16SUlZTTUtSDFSbTFZc2tfZlg2UEhDQl8tckM4cGpnRTdCSl9iTHVwUFZaVlNocDBfcFhFeXJJZnFVdEpGZ015ODEybGZTZnRLMzNwb3ZvVzEtTjNSZVpKMlktQWV6emIxcXBsX3VpdXppeEpLUVFCckxjVXo0RV8wNElnRHlUbnpkRjZ4Umtzazk5NVdmUEJaNHdLNUVJSGI1OVdUV1NJZ3hycDgtLW5ibF9Tcl9VbXROdDFfX3NmbUZ2T3g1bkZSd2M?oc=5",
-     "time": "2026-11-02T11:41:04+00:00"
-    },
-    {
-     "title": "Phillip Securities Says Amazon\u2019s \u2018Strong Demand Visibility\u2019 Supports Aggressive Capex",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOTU11b201VGNET3J1SXBfbmJfekt0aWhyakdicUJkYXdoTDRvSk5ibjFUenM1N0ZjTU4yeDBoTlNIdmhSU3hOQ2ZEeWRhVUh0SUstSWtjMDh0ZHgtWFk4ZTU3WFpfcDBSS3NjVGpydXRRTnNZdzlINkN4eVh2dXJyQXF0bWlFRWpsdFRJM1dtNU0wcFR3MzQ2R0hVY1JOc1hxRWdTZA?oc=5",
-     "time": "2026-11-02T11:22:47+00:00"
-    },
-    {
-     "title": "Zacks Investment Ideas feature highlights: Amazon, Alphabet, Meta Platforms and Nvidia",
-     "publisher": "The Globe and Mail",
-     "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPT25kaFBEbW1teWE4dnV0bDZxWnktSDRxNmYyaXl5YVZfV1d0U2lZb29nWkg4Yi1QVTU5bTVwWFdUaUFNZndmNFZEU1pHWmpkNllaUk5zbEVMeEZyc3RlcXJjV01iY2ZLMG1ld2JxTzJFMGhmYUtic0ttX1ozVE8tU0syWmFLZmhnU01iSHBQMF9xZEx5SEtHclVibDR5eGg0LXVLc3VhazFfcF9UeEw4VHBPWTJ5S1RCR1AtbkdBSmh4aXlKZmhHRkZKcGcwMy1SLThjNGtzNVhMVW5OLUw2WjlBQmhvRWJtTHY1UWJGUnBHbjJNbmNCVTY4OVdHQQ?oc=5",
-     "time": "2026-11-02T11:21:19+00:00"
-    }
-   ],
-   "brief": null
-  },
-  {
    "symbol": "APP",
    "name": "AppLovin",
    "list": "portfolio",
-   "price": 238.26,
+   "price": 239.56,
    "prev_close": 228.5,
-   "change_pct": 4.3,
+   "change_pct": 4.8,
    "trigger_change": 3.6,
-   "peak_change": 4.3,
+   "peak_change": 4.8,
    "first_seen": "2026-11-02T16:15:40+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 104.51,
-    "change_pct": 0.21
+    "price": 104.61,
+    "change_pct": 0.31
    },
    "chart": {
-    "ema8": -5.1,
-    "ema21": -10.5,
-    "sma50": -18.6,
-    "sma200": -42.4,
+    "ema8": -4.7,
+    "ema21": -10.1,
+    "sma50": -18.2,
+    "sma200": -42.1,
     "momentum": false
    },
    "headlines": [
@@ -171,25 +96,100 @@
    "brief": null
   },
   {
-   "symbol": "MELI",
-   "name": "MercadoLibre",
-   "list": "watchlist",
-   "price": 1689.22,
-   "prev_close": 1624.53,
-   "change_pct": 4.0,
-   "trigger_change": 3.1,
-   "peak_change": 4.0,
+   "symbol": "AMZN",
+   "name": "Amazon",
+   "list": "portfolio",
+   "price": 251.69,
+   "prev_close": 240.35,
+   "change_pct": 4.7,
+   "trigger_change": 5.3,
+   "peak_change": 5.3,
    "first_seen": "2026-11-02T16:15:40+00:00",
    "sector": {
     "etf": "XLY",
     "name": "Consumer discr.",
-    "price": 119.02,
-    "change_pct": 3.15
+    "price": 119.0,
+    "change_pct": 3.14
+   },
+   "chart": {
+    "ema8": 0.8,
+    "ema21": -0.2,
+    "sma50": -1.0,
+    "sma200": 3.4,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Amazon: Don't Look At The Cash Flow (NASDAQ:AMZN)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBUejFDcXJiQ0NLMHd5alJ5Znp6N1h5X0ZqaFRDNHpTQ0cxenJOZHVBLS1ReDA0Rm5GMHg1NXRrOWVGYl8wUU9HZm13TUR0SmNqQU1PR3hMQTNYaC1oelJKUU55QnExUVVoV0hta204RG91VDZWUUhOVWZpT1FmNWs?oc=5",
+     "time": "2026-11-02T16:00:30+00:00"
+    },
+    {
+     "title": "Why is Amazon stock rallying today?",
+     "publisher": "Investing.com",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZ0dJeHJIREdSVkxZYmI3dkFwTURUQnJYVTlkRnNreWV3OHc1ZWpObzVjeUhYQktCaUZ4RndxZVdJeGJuVEhPcE04NS1FVXVTdjBvaGlNRm54bUd5bUhlNG5adU02N3dNTWpFTXB1b0NYTWk4Rm9zNy04RzZ2MlBvRHhCbkdmdE82VjlKT2cxQ3JxaW5aTk9ydWxWcmI?oc=5",
+     "time": "2026-11-02T15:08:57+00:00"
+    },
+    {
+     "title": "Amazon Stock Price Target Raised To $330 By Phillip Securities",
+     "publisher": "TronWeekly",
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOaG5rcV9RY096VEd2OUxmNkNlejRyRWFhX0tPcW9qRmpOSDJfblRDZ05yWUlJcENkSWFZaVpnT091MWM3azRTOUx2N3BIVnh6c015bFVmc2pFcGh6djJ4dDk1YnhiQ2VaWUUwQjl0bW1vN3pHR080S1FobjJUUHpWLXllX0RieF96VDVMbnZ3SE9aYjQ?oc=5",
+     "time": "2026-11-02T14:48:35+00:00"
+    },
+    {
+     "title": "Amazon Stock Rises as Phillip Securities Upgrades to Buy, Raises Target to $330",
+     "publisher": "The Crypto Basic",
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOWVU3QnpMdURRVHpZYXhhX1Nyc0U2dUFzZi1iWjFkdVRySEdlb2RfQVdieEFvS1pXR3hiMm9aRFpHa2VxTF9MUXNzbElXbXRKbGdkS21Pckh6aGhrSWVNNjFLbENudEJWVHVHOWgzSlgyRnZFTHlTS2FBNXljTGU4Q2d1VkV6ODVLQ1Q4M2t6N1ZOM0hUb1ZFbVZsb01wTjdzdW8wcExvWHVJVENieklTNVJicDhpLUU?oc=5",
+     "time": "2026-11-02T13:53:49+00:00"
+    },
+    {
+     "title": "Amazon.com, Inc. $AMZN Stock Sold by Robinswood Financial LLC",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOWEVLWUcyNkhTcFZscjUyOWVUdXB0NVBRMmgxdU9BaW9saXZXUGhDUzhraXJkRmx4VWZUdV9vZ1JKRVVPRFh1YjBKT0FPQ19jRlZnRXhSekg0UjBRekRldmhvVUUzaDV6NnlhWHFtTW5ETEtneHl5OXROYmFUUVVwdDV1eVNzazM3M2lkZ2FfazUyd3BncUVOREJEM01kRUxGdFlZSGIzYzVNRXJ2R3ltbndNci1OV2hJZWc?oc=5",
+     "time": "2026-11-02T11:47:18+00:00"
+    },
+    {
+     "title": "Amazon.com, Inc. $AMZN Stock: Prime Capital Investment Advisors LLC Cuts Stake",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPZ2F1MW16SUlZTTUtSDFSbTFZc2tfZlg2UEhDQl8tckM4cGpnRTdCSl9iTHVwUFZaVlNocDBfcFhFeXJJZnFVdEpGZ015ODEybGZTZnRLMzNwb3ZvVzEtTjNSZVpKMlktQWV6emIxcXBsX3VpdXppeEpLUVFCckxjVXo0RV8wNElnRHlUbnpkRjZ4Umtzazk5NVdmUEJaNHdLNUVJSGI1OVdUV1NJZ3hycDgtLW5ibF9Tcl9VbXROdDFfX3NmbUZ2T3g1bkZSd2M?oc=5",
+     "time": "2026-11-02T11:41:04+00:00"
+    },
+    {
+     "title": "Phillip Securities Says Amazon\u2019s \u2018Strong Demand Visibility\u2019 Supports Aggressive Capex",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOTU11b201VGNET3J1SXBfbmJfekt0aWhyakdicUJkYXdoTDRvSk5ibjFUenM1N0ZjTU4yeDBoTlNIdmhSU3hOQ2ZEeWRhVUh0SUstSWtjMDh0ZHgtWFk4ZTU3WFpfcDBSS3NjVGpydXRRTnNZdzlINkN4eVh2dXJyQXF0bWlFRWpsdFRJM1dtNU0wcFR3MzQ2R0hVY1JOc1hxRWdTZA?oc=5",
+     "time": "2026-11-02T11:22:47+00:00"
+    },
+    {
+     "title": "Zacks Investment Ideas feature highlights: Amazon, Alphabet, Meta Platforms and Nvidia",
+     "publisher": "The Globe and Mail",
+     "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPT25kaFBEbW1teWE4dnV0bDZxWnktSDRxNmYyaXl5YVZfV1d0U2lZb29nWkg4Yi1QVTU5bTVwWFdUaUFNZndmNFZEU1pHWmpkNllaUk5zbEVMeEZyc3RlcXJjV01iY2ZLMG1ld2JxTzJFMGhmYUtic0ttX1ozVE8tU0syWmFLZmhnU01iSHBQMF9xZEx5SEtHclVibDR5eGg0LXVLc3VhazFfcF9UeEw4VHBPWTJ5S1RCR1AtbkdBSmh4aXlKZmhHRkZKcGcwMy1SLThjNGtzNVhMVW5OLUw2WjlBQmhvRWJtTHY1UWJGUnBHbjJNbmNCVTY4OVdHQQ?oc=5",
+     "time": "2026-11-02T11:21:19+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
+   "symbol": "MELI",
+   "name": "MercadoLibre",
+   "list": "watchlist",
+   "price": 1690.78,
+   "prev_close": 1624.53,
+   "change_pct": 4.1,
+   "trigger_change": 3.1,
+   "peak_change": 4.1,
+   "first_seen": "2026-11-02T16:15:40+00:00",
+   "sector": {
+    "etf": "XLY",
+    "name": "Consumer discr.",
+    "price": 119.0,
+    "change_pct": 3.14
    },
    "chart": {
     "ema8": -0.8,
-    "ema21": -4.2,
-    "sma50": -8.0,
+    "ema21": -4.1,
+    "sma50": -7.9,
     "sma200": -6.7,
     "momentum": false
    },
@@ -249,21 +249,21 @@
    "symbol": "SOFI",
    "name": "SoFi",
    "list": "portfolio",
-   "price": 17.43,
+   "price": 17.42,
    "prev_close": 16.76,
-   "change_pct": 4.0,
+   "change_pct": 3.9,
    "trigger_change": 4.0,
    "peak_change": 4.1,
    "first_seen": "2026-11-02T16:15:40+00:00",
    "sector": {
     "etf": "XLF",
     "name": "Financials",
-    "price": 57.52,
-    "change_pct": 1.78
+    "price": 57.49,
+    "change_pct": 1.73
    },
    "chart": {
     "ema8": 5.9,
-    "ema21": 9.2,
+    "ema21": 9.1,
     "sma50": 5.3,
     "sma200": -1.8,
     "momentum": true
