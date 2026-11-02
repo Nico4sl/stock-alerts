@@ -1,22 +1,22 @@
 {
  "date": "2026-11-02",
  "threshold": 3.0,
- "updated": "2026-11-02T20:44:59+00:00",
+ "updated": "2026-11-02T20:50:03+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 752.73,
-   "change_pct": -0.4
+   "price": 752.65,
+   "change_pct": -0.41
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 682.04,
-   "change_pct": -1.22
+   "price": 681.23,
+   "change_pct": -1.34
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 81.73,
-   "change_pct": -0.13
+   "price": 81.81,
+   "change_pct": -0.04
   }
  },
  "movers": [
@@ -24,7 +24,7 @@
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 141.94,
+   "price": 141.9,
    "prev_close": 154.14,
    "change_pct": -7.9,
    "trigger_change": -3.3,
@@ -33,12 +33,12 @@
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 102.19,
-    "change_pct": -2.01
+    "price": 101.82,
+    "change_pct": -2.37
    },
    "chart": {
-    "ema8": -12.6,
-    "ema21": -21.5,
+    "ema8": -12.7,
+    "ema21": -21.6,
     "sma50": -31.8,
     "sma200": -20.1,
     "momentum": false
@@ -99,22 +99,22 @@
    "symbol": "AMAT",
    "name": "Applied Materials",
    "list": "portfolio",
-   "price": 376.06,
+   "price": 375.78,
    "prev_close": 390.09,
-   "change_pct": -3.6,
+   "change_pct": -3.7,
    "trigger_change": -3.0,
    "peak_change": -3.9,
    "first_seen": "2026-11-02T19:29:18+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 509.93,
-    "change_pct": -2.4
+    "price": 508.46,
+    "change_pct": -2.69
    },
    "chart": {
-    "ema8": -5.7,
+    "ema8": -5.8,
     "ema21": -11.5,
-    "sma50": -17.4,
+    "sma50": -17.5,
     "sma200": -15.5,
     "momentum": false
    },
@@ -183,8 +183,8 @@
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 102.19,
-    "change_pct": -2.01
+    "price": 101.82,
+    "change_pct": -2.37
    },
    "chart": {
     "ema8": -4.3,
@@ -249,7 +249,7 @@
    "symbol": "MELI",
    "name": "MercadoLibre",
    "list": "watchlist",
-   "price": 1681.99,
+   "price": 1681.52,
    "prev_close": 1624.53,
    "change_pct": 3.5,
    "trigger_change": 3.1,
@@ -258,14 +258,14 @@
    "sector": {
     "etf": "XLY",
     "name": "Consumer discr.",
-    "price": 118.16,
-    "change_pct": 2.41
+    "price": 118.05,
+    "change_pct": 2.31
    },
    "chart": {
     "ema8": -1.2,
-    "ema21": -4.5,
+    "ema21": -4.6,
     "sma50": -8.4,
-    "sma200": -7.1,
+    "sma200": -7.2,
     "momentum": false
    },
    "headlines": [
@@ -324,7 +324,7 @@
    "symbol": "AMZN",
    "name": "Amazon",
    "list": "portfolio",
-   "price": 246.65,
+   "price": 246.66,
    "prev_close": 240.35,
    "change_pct": 2.6,
    "trigger_change": 5.3,
@@ -333,11 +333,11 @@
    "sector": {
     "etf": "XLY",
     "name": "Consumer discr.",
-    "price": 118.16,
-    "change_pct": 2.41
+    "price": 118.05,
+    "change_pct": 2.31
    },
    "chart": {
-    "ema8": -0.8,
+    "ema8": -0.7,
     "ema21": -2.0,
     "sma50": -2.9,
     "sma200": 1.3,
@@ -396,26 +396,101 @@
    "brief": "2026-11-02-AMZN"
   },
   {
+   "symbol": "SOFI",
+   "name": "SoFi",
+   "list": "portfolio",
+   "price": 16.61,
+   "prev_close": 16.76,
+   "change_pct": -0.9,
+   "trigger_change": 4.0,
+   "peak_change": 4.1,
+   "first_seen": "2026-11-02T16:15:40+00:00",
+   "sector": {
+    "etf": "XLF",
+    "name": "Financials",
+    "price": 57.54,
+    "change_pct": 1.82
+   },
+   "chart": {
+    "ema8": 2.1,
+    "ema21": 4.5,
+    "sma50": 0.5,
+    "sma200": -6.4,
+    "momentum": true
+   },
+   "headlines": [
+    {
+     "title": "SoFi Added a Record 1.2 Million Members Last Quarter. Its Stock Is Still Down More Than 30% in 2026.",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOeW9mc3FzeE9kdDlRbDI2NVpyM1FPM0hmdWNCWW9VZWU5SS1aR0M2dzFheHl5MWpNUzNObmdaUDVjOUlMR21GS3p3cmxUR3JFeUpoYy0zX2ZhMzkwQUR6TmhuTHBVN3NhN3RLUm02ZlhNSWt0U1A4dy1JMG5wSnY4YXpJSUhFY3Noblhhb3ljZw?oc=5",
+     "time": "2026-11-02T19:20:00+00:00"
+    },
+    {
+     "title": "SoFi Stock Rises as Oil Prices Calm Inflation Fears",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWE9tMmYwYkFPOFpJVm80a0pNenhkeS1SUXFBRENJclR0Rk9UT2lNSi1oM0IwSlE1ZjF0aW5jbUI2Y3R2R2RrVGpqN1ZTNllGak9tbHNoT0hBSzdiOWNNOW5Qc09OTXhVSndCY3BIdml5NDNuT0I3Qks1YXhuWTZEWG9kdHh0clJyanZucUN1OHNZcnhOY0I4OXRwUWFHd2pWWm9TZmlEUmY4V29tMFU1VnZR?oc=5",
+     "time": "2026-11-02T19:03:33+00:00"
+    },
+    {
+     "title": "This Up-and-Coming Tech Company Just Delivered 44% Revenue Growth, and It Has Nothing to Do With AI.",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRmJiMjJ0WDV6c3R6SFNhVVBaVlBzc01Hc1NNdVY4aFk5SEpLSEhoNTFxaXcwbEsxTG1zYWZPMmk5MUFCenNpZ0dPdUNycF9mNUNwZkkyNmRsX19pWm5TczdpcmY4N1lXQ3U5OTBOdUxwYzdkTDV3V2dIRHJaVEdsTlhHeDdrZl9ISldpb0lKcmdaemRpdDFCeXhNRQ?oc=5",
+     "time": "2026-11-02T17:47:00+00:00"
+    },
+    {
+     "title": "Upstart stock falls 5% near 52-week low ahead o...",
+     "publisher": "Pluang",
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNeHQybVN1RXNXU0ZsdVRLUHRlbm9WWWdWdlBUc2o0OXBGbUo4YzhlZVFGd3ZmSUx1bEFDMG5xSy10dEhHWlgwNG5va0IxendLUnJPZkhueTExNk5IRDVCNU9qanIzN2JaVDNZdFpfbW5BY1NxTTNOYUNMcGlPcGwwMUMxZWs4Vnhtd0pZZkNLeFc0TzBuc2o3NTZVa3NiUjZrZE5USmt0a0lUUkpJdE1V?oc=5",
+     "time": "2026-11-02T17:14:03+00:00"
+    },
+    {
+     "title": "Upstart Drops 5% to Near 52-Week Low Ahead of Earnings; Affirm Advances 5%, SoFi Gains 4%",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPd2JMWXRqc3V0dGhBa05sbWVZREI1TFNrU2hyb0Zya0w4NDBIa3FnRmpKM1JTSHBldVJPaS1VQjhNS0hGM1VmV0FDRVdUbmxrcVVKZElDQmJPOXRwdDBvcWhxSUdEejY1b1luRG44NGluYjZ5T2hvWUhNSVdLZXhtLTdSODFQV201QXFjMnVxb2I3YS1lQkJSeWlsSXhGOTUxSDh2SFROMF91Wks5cjF6a2FTVXdqczhNU0FCTzNSenNCODBOcUNJ?oc=5",
+     "time": "2026-11-02T17:02:00+00:00"
+    },
+    {
+     "title": "SoFi Technologies Advances Over Three Percent in New York Trading : \uae30\uc5c5\uc8fc\uc2dd\uc815\ubcf4 : JKN",
+     "publisher": "\uc7ac\uacbd\uc77c\ubcf4",
+     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE15VFlPZkdHTElEQ2M0Wkl1OVBNZGNUM3pSVVhBclhIYUNFbHhFVlB0UGdUV0wtQWRJb3FrTmFXZk1ITjdhRzlVb0FtWWQtamdKc1hxYWFsNC1EdkVZY1BIMXF3?oc=5",
+     "time": "2026-11-02T15:58:00+00:00"
+    },
+    {
+     "title": "280,940 Shares of SoFi Technologies, Inc. $SOFI Purchased by Trek Financial LLC",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNWFM1dm5rbXlBY196ZHFZdUltSXRqUjMxczFkUV9VMFc4X1Y5WlRBa0E4SlBtdXN6LWJRblo4MHZucXpzVVZFeDhYeTliNzRtWFpiaGtJZXkxOENzNHBUZXpxZDBWeEFNa0VodUpUWWVGTzNManVxWGIySG5DQVhCdzdfdGtGcEh2Yl9YN0ZVTUxLNXdPTXp2bTk3b0lMeURya0Y5R3RDa1Vmd0xCUHFmd1JSTXRQcUtTc0tFdUVDdmlZSWwwZ2FNdE5tVDI2UE5mNHc?oc=5",
+     "time": "2026-11-02T13:29:39+00:00"
+    },
+    {
+     "title": "SOFI Nov 2026 19.500 put (SOFI261106P00019500) stock price, news, quote and history",
+     "publisher": "Yahoo Finance Australia",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1MQm13QktLakNKMVhyaGt2dHlwNmFrM2ZPeFRsdEQ5ZVBNY1hWeGlkZ2N2QlB6bWNjM05oNGJiU2U1aFM2NmM5bGNyLUJkOEpBU0E3ZXlrUUZ0RlZRdVByVGNjM1dMQQ?oc=5",
+     "time": "2026-11-02T13:28:00+00:00"
+    }
+   ],
+   "brief": "2026-11-02-SOFI"
+  },
+  {
    "symbol": "NOW",
    "name": "ServiceNow",
    "list": "portfolio",
-   "price": 105.97,
+   "price": 105.77,
    "prev_close": 105.12,
-   "change_pct": 0.8,
+   "change_pct": 0.6,
    "trigger_change": 3.1,
    "peak_change": 4.0,
    "first_seen": "2026-11-02T16:40:54+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 102.19,
-    "change_pct": -2.01
+    "price": 101.82,
+    "change_pct": -2.37
    },
    "chart": {
-    "ema8": -17.3,
-    "ema21": -22.5,
-    "sma50": -23.3,
-    "sma200": -7.7,
+    "ema8": -17.4,
+    "ema21": -22.7,
+    "sma50": -23.5,
+    "sma200": -7.9,
     "momentum": false
    },
    "headlines": [
@@ -474,23 +549,23 @@
    "symbol": "APP",
    "name": "AppLovin",
    "list": "portfolio",
-   "price": 228.96,
+   "price": 227.9,
    "prev_close": 228.5,
-   "change_pct": 0.2,
+   "change_pct": -0.3,
    "trigger_change": 3.6,
    "peak_change": 4.8,
    "first_seen": "2026-11-02T16:15:40+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 102.19,
-    "change_pct": -2.01
+    "price": 101.82,
+    "change_pct": -2.37
    },
    "chart": {
-    "ema8": -8.0,
-    "ema21": -13.7,
-    "sma50": -21.8,
-    "sma200": -44.7,
+    "ema8": -8.4,
+    "ema21": -14.1,
+    "sma50": -22.1,
+    "sma200": -44.9,
     "momentum": false
    },
    "headlines": [
@@ -544,81 +619,6 @@
     }
    ],
    "brief": "2026-11-02-APP"
-  },
-  {
-   "symbol": "SOFI",
-   "name": "SoFi",
-   "list": "portfolio",
-   "price": 16.72,
-   "prev_close": 16.76,
-   "change_pct": -0.2,
-   "trigger_change": 4.0,
-   "peak_change": 4.1,
-   "first_seen": "2026-11-02T16:15:40+00:00",
-   "sector": {
-    "etf": "XLF",
-    "name": "Financials",
-    "price": 57.55,
-    "change_pct": 1.83
-   },
-   "chart": {
-    "ema8": 2.6,
-    "ema21": 5.1,
-    "sma50": 1.1,
-    "sma200": -5.7,
-    "momentum": true
-   },
-   "headlines": [
-    {
-     "title": "SoFi Added a Record 1.2 Million Members Last Quarter. Its Stock Is Still Down More Than 30% in 2026.",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOeW9mc3FzeE9kdDlRbDI2NVpyM1FPM0hmdWNCWW9VZWU5SS1aR0M2dzFheHl5MWpNUzNObmdaUDVjOUlMR21GS3p3cmxUR3JFeUpoYy0zX2ZhMzkwQUR6TmhuTHBVN3NhN3RLUm02ZlhNSWt0U1A4dy1JMG5wSnY4YXpJSUhFY3Noblhhb3ljZw?oc=5",
-     "time": "2026-11-02T19:20:00+00:00"
-    },
-    {
-     "title": "SoFi Stock Rises as Oil Prices Calm Inflation Fears",
-     "publisher": "Benzinga",
-     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWE9tMmYwYkFPOFpJVm80a0pNenhkeS1SUXFBRENJclR0Rk9UT2lNSi1oM0IwSlE1ZjF0aW5jbUI2Y3R2R2RrVGpqN1ZTNllGak9tbHNoT0hBSzdiOWNNOW5Qc09OTXhVSndCY3BIdml5NDNuT0I3Qks1YXhuWTZEWG9kdHh0clJyanZucUN1OHNZcnhOY0I4OXRwUWFHd2pWWm9TZmlEUmY4V29tMFU1VnZR?oc=5",
-     "time": "2026-11-02T19:03:33+00:00"
-    },
-    {
-     "title": "This Up-and-Coming Tech Company Just Delivered 44% Revenue Growth, and It Has Nothing to Do With AI.",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRmJiMjJ0WDV6c3R6SFNhVVBaVlBzc01Hc1NNdVY4aFk5SEpLSEhoNTFxaXcwbEsxTG1zYWZPMmk5MUFCenNpZ0dPdUNycF9mNUNwZkkyNmRsX19pWm5TczdpcmY4N1lXQ3U5OTBOdUxwYzdkTDV3V2dIRHJaVEdsTlhHeDdrZl9ISldpb0lKcmdaemRpdDFCeXhNRQ?oc=5",
-     "time": "2026-11-02T17:47:00+00:00"
-    },
-    {
-     "title": "Upstart stock falls 5% near 52-week low ahead o...",
-     "publisher": "Pluang",
-     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNeHQybVN1RXNXU0ZsdVRLUHRlbm9WWWdWdlBUc2o0OXBGbUo4YzhlZVFGd3ZmSUx1bEFDMG5xSy10dEhHWlgwNG5va0IxendLUnJPZkhueTExNk5IRDVCNU9qanIzN2JaVDNZdFpfbW5BY1NxTTNOYUNMcGlPcGwwMUMxZWs4Vnhtd0pZZkNLeFc0TzBuc2o3NTZVa3NiUjZrZE5USmt0a0lUUkpJdE1V?oc=5",
-     "time": "2026-11-02T17:14:03+00:00"
-    },
-    {
-     "title": "Upstart Drops 5% to Near 52-Week Low Ahead of Earnings; Affirm Advances 5%, SoFi Gains 4%",
-     "publisher": "24/7 Wall St.",
-     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPd2JMWXRqc3V0dGhBa05sbWVZREI1TFNrU2hyb0Zya0w4NDBIa3FnRmpKM1JTSHBldVJPaS1VQjhNS0hGM1VmV0FDRVdUbmxrcVVKZElDQmJPOXRwdDBvcWhxSUdEejY1b1luRG44NGluYjZ5T2hvWUhNSVdLZXhtLTdSODFQV201QXFjMnVxb2I3YS1lQkJSeWlsSXhGOTUxSDh2SFROMF91Wks5cjF6a2FTVXdqczhNU0FCTzNSenNCODBOcUNJ?oc=5",
-     "time": "2026-11-02T17:02:00+00:00"
-    },
-    {
-     "title": "SoFi Technologies Advances Over Three Percent in New York Trading : \uae30\uc5c5\uc8fc\uc2dd\uc815\ubcf4 : JKN",
-     "publisher": "\uc7ac\uacbd\uc77c\ubcf4",
-     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE15VFlPZkdHTElEQ2M0Wkl1OVBNZGNUM3pSVVhBclhIYUNFbHhFVlB0UGdUV0wtQWRJb3FrTmFXZk1ITjdhRzlVb0FtWWQtamdKc1hxYWFsNC1EdkVZY1BIMXF3?oc=5",
-     "time": "2026-11-02T15:58:00+00:00"
-    },
-    {
-     "title": "280,940 Shares of SoFi Technologies, Inc. $SOFI Purchased by Trek Financial LLC",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNWFM1dm5rbXlBY196ZHFZdUltSXRqUjMxczFkUV9VMFc4X1Y5WlRBa0E4SlBtdXN6LWJRblo4MHZucXpzVVZFeDhYeTliNzRtWFpiaGtJZXkxOENzNHBUZXpxZDBWeEFNa0VodUpUWWVGTzNManVxWGIySG5DQVhCdzdfdGtGcEh2Yl9YN0ZVTUxLNXdPTXp2bTk3b0lMeURya0Y5R3RDa1Vmd0xCUHFmd1JSTXRQcUtTc0tFdUVDdmlZSWwwZ2FNdE5tVDI2UE5mNHc?oc=5",
-     "time": "2026-11-02T13:29:39+00:00"
-    },
-    {
-     "title": "SOFI Nov 2026 19.500 put (SOFI261106P00019500) stock price, news, quote and history",
-     "publisher": "Yahoo Finance Australia",
-     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1MQm13QktLakNKMVhyaGt2dHlwNmFrM2ZPeFRsdEQ5ZVBNY1hWeGlkZ2N2QlB6bWNjM05oNGJiU2U1aFM2NmM5bGNyLUJkOEpBU0E3ZXlrUUZ0RlZRdVByVGNjM1dMQQ?oc=5",
-     "time": "2026-11-02T13:28:00+00:00"
-    }
-   ],
-   "brief": "2026-11-02-SOFI"
   }
  ]
 }
