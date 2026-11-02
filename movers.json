@@ -1,22 +1,22 @@
 {
  "date": "2026-11-02",
  "threshold": 3.0,
- "updated": "2026-11-02T16:50:57+00:00",
+ "updated": "2026-11-02T16:55:57+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 760.1,
-   "change_pct": 0.58
+   "price": 760.02,
+   "change_pct": 0.57
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 693.62,
-   "change_pct": 0.45
+   "price": 693.46,
+   "change_pct": 0.43
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 81.99,
-   "change_pct": 0.18
+   "price": 82.06,
+   "change_pct": 0.27
   }
  },
  "movers": [
@@ -24,7 +24,7 @@
    "symbol": "AMZN",
    "name": "Amazon",
    "list": "portfolio",
-   "price": 251.54,
+   "price": 251.61,
    "prev_close": 240.35,
    "change_pct": 4.7,
    "trigger_change": 5.3,
@@ -33,12 +33,12 @@
    "sector": {
     "etf": "XLY",
     "name": "Consumer discr.",
-    "price": 119.06,
-    "change_pct": 3.19
+    "price": 119.02,
+    "change_pct": 3.15
    },
    "chart": {
     "ema8": 0.8,
-    "ema21": -0.3,
+    "ema21": -0.2,
     "sma50": -1.0,
     "sma200": 3.3,
     "momentum": false
@@ -99,22 +99,22 @@
    "symbol": "APP",
    "name": "AppLovin",
    "list": "portfolio",
-   "price": 238.3,
+   "price": 238.56,
    "prev_close": 228.5,
-   "change_pct": 4.3,
+   "change_pct": 4.4,
    "trigger_change": 3.6,
    "peak_change": 4.8,
    "first_seen": "2026-11-02T16:15:40+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 104.59,
-    "change_pct": 0.29
+    "price": 104.44,
+    "change_pct": 0.14
    },
    "chart": {
-    "ema8": -5.1,
-    "ema21": -10.5,
-    "sma50": -18.6,
+    "ema8": -5.0,
+    "ema21": -10.4,
+    "sma50": -18.5,
     "sma200": -42.4,
     "momentum": false
    },
@@ -174,7 +174,7 @@
    "symbol": "MELI",
    "name": "MercadoLibre",
    "list": "watchlist",
-   "price": 1692.9,
+   "price": 1692.08,
    "prev_close": 1624.53,
    "change_pct": 4.2,
    "trigger_change": 3.1,
@@ -183,14 +183,14 @@
    "sector": {
     "etf": "XLY",
     "name": "Consumer discr.",
-    "price": 119.06,
-    "change_pct": 3.19
+    "price": 119.02,
+    "change_pct": 3.15
    },
    "chart": {
     "ema8": -0.7,
     "ema21": -4.0,
     "sma50": -7.8,
-    "sma200": -6.5,
+    "sma200": -6.6,
     "momentum": false
    },
    "headlines": [
@@ -249,9 +249,9 @@
    "symbol": "SOFI",
    "name": "SoFi",
    "list": "portfolio",
-   "price": 17.42,
+   "price": 17.39,
    "prev_close": 16.76,
-   "change_pct": 3.9,
+   "change_pct": 3.7,
    "trigger_change": 4.0,
    "peak_change": 4.1,
    "first_seen": "2026-11-02T16:15:40+00:00",
@@ -259,13 +259,13 @@
     "etf": "XLF",
     "name": "Financials",
     "price": 57.59,
-    "change_pct": 1.91
+    "change_pct": 1.9
    },
    "chart": {
-    "ema8": 5.9,
-    "ema21": 9.1,
-    "sma50": 5.3,
-    "sma200": -1.8,
+    "ema8": 5.7,
+    "ema21": 8.9,
+    "sma50": 5.1,
+    "sma200": -2.0,
     "momentum": true
    },
    "headlines": [
@@ -324,23 +324,23 @@
    "symbol": "NOW",
    "name": "ServiceNow",
    "list": "portfolio",
-   "price": 108.67,
+   "price": 108.58,
    "prev_close": 105.12,
-   "change_pct": 3.4,
+   "change_pct": 3.3,
    "trigger_change": 3.1,
    "peak_change": 3.4,
    "first_seen": "2026-11-02T16:40:54+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 104.59,
-    "change_pct": 0.29
+    "price": 104.44,
+    "change_pct": 0.14
    },
    "chart": {
     "ema8": -15.6,
-    "ema21": -20.7,
-    "sma50": -21.4,
-    "sma200": -5.4,
+    "ema21": -20.8,
+    "sma50": -21.5,
+    "sma200": -5.5,
     "momentum": false
    },
    "headlines": [
@@ -391,6 +391,81 @@
      "publisher": "The Globe and Mail",
      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQaElLeEdZMVZSVHI2Y2lESkhHM3pnR3hNNFlvbFVFTU95TzNIdDVOTktJQXZLTHRXN0dfY0dqVkZNMktxZkluTmRYQXhoWVVaRWgtdmpERV9mb3JBdWw4WkdsX1ZtLWpKUXBZamR2cDlYbXZIRXB4Y0pQTmtybmVrR2p2V1JzcjBJRjhiX1ZaSVFzWmdHXzVFRTc0X2ljYjg5V1hWbE13V2d5S2dWQ3NIMlkyUURGRE96MkNLNGU3OE5CeHdEQkNCbzhVeGlyLXBkTVNjODRJT21PUUdROUN0MGxiOEhWY2hIVGlUT25xTzBMNVk?oc=5",
      "time": "2026-11-02T13:22:47+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
+   "symbol": "NBIS",
+   "name": "Nebius",
+   "list": "portfolio",
+   "price": 149.04,
+   "prev_close": 154.14,
+   "change_pct": -3.3,
+   "trigger_change": -3.3,
+   "peak_change": -3.3,
+   "first_seen": "2026-11-02T16:55:57+00:00",
+   "sector": {
+    "etf": "IGV",
+    "name": "Software",
+    "price": 104.44,
+    "change_pct": 0.14
+   },
+   "chart": {
+    "ema8": -9.2,
+    "ema21": -17.9,
+    "sma50": -28.4,
+    "sma200": -16.1,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Nebius Stock Drops: What's Going On?",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOekhLQWZPanBJcXlIWFJrZ2NIb0FEU1BiVnFqZWVhOVQzbFF1bHgyWlJ2SkJzVXBFSTVRN3ZXZzZyWkRGZmhyQlpmY2NsNjNaUERUTXlMMjJnNm5qUEZFVktHWktET1FUNGxaLUVwSjRhc25tOGxvVVQtMkFwRURRcDEyQklUREhvRVprLUdvTV9HN1B5QzhKdzZn?oc=5",
+     "time": "2026-11-02T15:58:36+00:00"
+    },
+    {
+     "title": "Nebius Group NV (NBIS) Director Boynton John Wilson IV Sells 333 Shares",
+     "publisher": "GuruFocus",
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMm92a1F2NnUyeVVJZ01PR3ROZTAxR0l4Z3dlczJHZ3AxRXRlRkNXNW1FY0llaGVWUTl4X1JWM2dodUx5Wjl6NEl5V1h2Ykh4RFVQR2tRc2k3SmNMRmUxa3lBMDhIWjdOQmlRZHppUWpNUzR0bWFWWXNnTGp4U2hiTFdFVjJ3SHJlUGFYNGlrMGVQUmk1NWxYOTBZVG1JNEg2QkNGdGtUemdseEZD?oc=5",
+     "time": "2026-11-02T14:45:37+00:00"
+    },
+    {
+     "title": "Nebius Group N.V. $NBIS Stock Bought by ProShare Advisors LLC",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQRzNyRHZWNnJackpLdzFUS2ExOEFmdEkwTFdLcnRmYWpsaUR2akh5dWFoSnNOTFpjZlRiU3QtWU45QlJ1ekVtTTlGT3dzSWw1TjJnU2Zic0s0Y3ByQk9PbEN6OG96QjJjYjcxUklzRTR3RVRMc1JqNVRDVTBwaUJFcjJfWTZreUpPRzBpUjhSX2dSZEhORFdLZlAzVDRQalRpY0RpdHk4aVZ4QVBjMTAwakc2MzBnVnM1MmVv?oc=5",
+     "time": "2026-11-02T13:19:04+00:00"
+    },
+    {
+     "title": "Insider Selling: Nebius Group (NASDAQ:NBIS) Director Sells 333 Shares of Stock",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNMGNmX1pHcHpJWG43Qjl2Q1FiSUVEcDQ4SUxMTlJxWFZNdjJhOUJ4cEowajJEaVM0VVlmQmE5bnZGckprY0tLUXBXbUpHU0hxSG83V3E3bHJRS25LTUVVa2lUbEZkTjRXNGZoNjRaUmpidUZVTl9NUllaUmlrSVh3ZFFibnVuM0o0TUtyUkVfT1VNWEc0aFAwakd6eldQa3pITWlRZWJkOU50RXpWVWNLUWl2YXBsMmgwU1FqWHZsOUNnNkdtMzg4MUFpS1VnZVVxeGNn?oc=5",
+     "time": "2026-11-02T13:19:03+00:00"
+    },
+    {
+     "title": "What Does the New Citi Facility Mean for Nebius (NASDAQ:NBIS) Stock?",
+     "publisher": "Kalkine Media",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOM2dCRk1sYWtHSU9TRDRFZXRFLXg3dVhFX0VkRHVzSmt6Nml5VlFCYno4Y3dRVjNUMHdsaGNwMlZScGpRQk9uT0JLTmNJSTRtVmtfdmRCNlNRbzgwTE1xS1VFd2dBOWlmdEN4Yk9jUE94eUdoNFJIY09sMURMSTlLeHBsS3JkYllFLUVJdzhQOVVsdUU2blBORlF2OHhhVHhySWVBZ3U2X0QwNWMzcW44YnZ3dnppdzE1UkxYQm4ySi0?oc=5",
+     "time": "2026-11-02T10:25:00+00:00"
+    },
+    {
+     "title": "Is Nebius Stock a Buy After Its 36% Pullback?",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPOHQxQ0VpdW8wb2RmSzBpUzBlaXRpVFJPYUFrVURoR0JQYWgzNDdwUjQxZm9FUldvdDN0RWxWT3hOSkVGNENaemhwZ2dJaU1oUXlXQWR6YVdXZ1o0Um5rZTNxTGtBQW1JTG4zclRZNkJwbTdwa3RzcFFCT2NvOEhXY29NYUVlT21lRDE2Rnd3anlQSU94N2hWZQ?oc=5",
+     "time": "2026-11-01T19:35:00+00:00"
+    },
+    {
+     "title": "Nebius after Microsoft spend cut: $255.14 bull, $73.42 bear",
+     "publisher": "FinanceFeeds",
+     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPcDhTVlVpYzdxOHFscVpJV25seW5hVVQteDhVMFVQZ1FEU3A2VWdtQ2FVT1VYaEhJLVRuRzhCSndxb2V2eHRFNEhtbER6NlpKQnpVZ0E4eFBsWENZd2o1TkYxaG1QamtONjBtZW5xdlp0SDA2ajBhcGV5Z0JoZDZqbHo5NmViOW54YjRrRXJpWjlMZw?oc=5",
+     "time": "2026-11-01T12:10:54+00:00"
+    },
+    {
+     "title": "International Assets Investment Management LLC Purchases 35,190 Shares of Nebius Group N.V. $NBIS",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOX1plTDlNanFzNDQyUWlScWNkUlZhdzVfUzdfd0o2clZrMnh1NThkSmVwcWpqWDNUc2otSjRJQ0dBdGpWV1N2UXA4aW1pYVdqNWlLWXNCdUpWNUNNMTRTaHUxamhvcDdUOTkzV1BOcmlhemRVUjM5LVZTbXdEV3FpSzQ5d00yUnV3SmhWWF83aXQ2U1lOSnFqQXFsNzhPSGVVamh2M1FySUxxbDlyNHl3dzFuczhwUnZiRDdkTGhnR3FQS2c2cFFLdGNEM3llYVNoS1RJTkh6M0hkMDJVT1FjeFdZUXY4UlFKS0E?oc=5",
+     "time": "2026-11-01T09:09:10+00:00"
     }
    ],
    "brief": null
