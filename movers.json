@@ -1,22 +1,22 @@
 {
  "date": "2026-11-02",
  "threshold": 3.0,
- "updated": "2026-11-02T19:29:18+00:00",
+ "updated": "2026-11-02T19:39:22+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 755.57,
-   "change_pct": -0.02
+   "price": 754.13,
+   "change_pct": -0.21
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 685.99,
-   "change_pct": -0.65
+   "price": 683.92,
+   "change_pct": -0.95
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 81.92,
-   "change_pct": 0.1
+   "price": 81.83,
+   "change_pct": -0.01
   }
  },
  "movers": [
@@ -24,23 +24,23 @@
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 142.77,
+   "price": 142.11,
    "prev_close": 154.14,
-   "change_pct": -7.4,
+   "change_pct": -7.8,
    "trigger_change": -3.3,
    "peak_change": -8.0,
    "first_seen": "2026-11-02T16:55:57+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 103.04,
-    "change_pct": -1.2
+    "price": 102.64,
+    "change_pct": -1.59
    },
    "chart": {
-    "ema8": -12.2,
-    "ema21": -21.1,
-    "sma50": -31.4,
-    "sma200": -19.7,
+    "ema8": -12.6,
+    "ema21": -21.5,
+    "sma50": -31.7,
+    "sma200": -20.0,
     "momentum": false
    },
    "headlines": [
@@ -99,7 +99,7 @@
    "symbol": "MELI",
    "name": "MercadoLibre",
    "list": "watchlist",
-   "price": 1691.31,
+   "price": 1691.74,
    "prev_close": 1624.53,
    "change_pct": 4.1,
    "trigger_change": 3.1,
@@ -108,8 +108,8 @@
    "sector": {
     "etf": "XLY",
     "name": "Consumer discr.",
-    "price": 118.33,
-    "change_pct": 2.56
+    "price": 118.17,
+    "change_pct": 2.41
    },
    "chart": {
     "ema8": -0.7,
@@ -171,101 +171,101 @@
    "brief": "2026-11-02-MELI"
   },
   {
-   "symbol": "AMZN",
-   "name": "Amazon",
+   "symbol": "CRWD",
+   "name": "CrowdStrike",
    "list": "portfolio",
-   "price": 248.73,
-   "prev_close": 240.35,
-   "change_pct": 3.5,
-   "trigger_change": 5.3,
-   "peak_change": 5.3,
-   "first_seen": "2026-11-02T16:15:40+00:00",
+   "price": 241.8,
+   "prev_close": 250.43,
+   "change_pct": -3.4,
+   "trigger_change": -3.4,
+   "peak_change": -3.4,
+   "first_seen": "2026-11-02T19:39:22+00:00",
    "sector": {
-    "etf": "XLY",
-    "name": "Consumer discr.",
-    "price": 118.33,
-    "change_pct": 2.56
+    "etf": "IGV",
+    "name": "Software",
+    "price": 102.64,
+    "change_pct": -1.59
    },
    "chart": {
-    "ema8": -0.1,
-    "ema21": -1.3,
-    "sma50": -2.1,
-    "sma200": 2.2,
-    "momentum": false
+    "ema8": -4.2,
+    "ema21": -3.9,
+    "sma50": 0.2,
+    "sma200": 44.0,
+    "momentum": true
    },
    "headlines": [
     {
-     "title": "Amazon Vs. Alphabet: The $420B AI Capex Squeeze Leaves Both At Hold (NASDAQ:AMZN)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQMTBOdW1vN1RWbkxOVXY0bl96c1U5R2hPbE12Y2VJdkJySDRfeDg5ZjRUOWpSb3c0WjdTWVdEME4tdkhjenlJOTlsa1ZFWE0tQVo5REtZRWZWOXBfeUtYaDVQSjFYZmFoTjgyZDdYejNXTFlQV21QWmtnRGhJVVVkNHhCSDR3VkxOX2xpdFJzbzZ3MkN6NE1OSlBMZGh1eFc3NlF1TTFIN1U?oc=5",
-     "time": "2026-11-02T19:02:53+00:00"
-    },
-    {
-     "title": "Amazon Stock Rises: What's Going On?",
-     "publisher": "Benzinga",
-     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQQlg2eVlHWDl0QUpwa3MtZ2JBVUVMOXd6Y0xzSlNSRTMyRGl2SmRRZEhQNTRsS01vellzQ3NvSm1GYUNNbmZiRUlaOTYwaHFuejRiajNOTmxLS2lJT1J1Sld6NXp2ajRMUlRheHcxckw1OHhHdVFHSW9fYnVXdkVWNmdFeGI5UFh5OS1CM2VUQ05KODhXZlhvSTJR?oc=5",
-     "time": "2026-11-02T17:28:25+00:00"
-    },
-    {
-     "title": "Why Wall Street Is Coming Back Around on Amazon Stock",
-     "publisher": "Barron's",
-     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPX3oyQ2tkVEFTaC1CMlhZSk5UYTAtUVUzdTRIN1JteTJFU3F4LWx2bnktV1VEVHMtdW80MzNmZjB2LWJOZHlnSFZacUxfSkpBQXM5anpZeWRXNS00azlsVGhoVW5WYXExdVBEUTRGZW1BTWdVV0FGZk1Mb2lkeHdlWEdR?oc=5",
-     "time": "2026-11-02T17:03:45+00:00"
-    },
-    {
-     "title": "Why Amazon Stock Rallied Monday Morning",
-     "publisher": "The Motley Fool",
-     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOdDBxcVFnZUY3UVczSkJGUFdIOXJweEg4NURlT09tRi12MThQQ1Y5Rl9CcUtzMWJUdDJHWnpHTWV6R015R194ZXE1cmtLZXprZGZnSWJFNndveUpBWU9sMTFwYkxPYTdib3JlOGVSSHVUalB6THFlOGFnckN4WWRLSmhYR1QzX0ROOHc?oc=5",
-     "time": "2026-11-02T17:00:00+00:00"
-    },
-    {
-     "title": "META_TITLE_QUOTE",
+     "title": "CrowdStrike Stocks Decline 2.7% With Upgrade Testing AI Security Revenue Conversion",
      "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5wLXdlSm5MT0hsWEI2RjNWUHB6R3FYWEYzbi0ydDM4NGFScjNIZmYwYlpGQzRVWmdrVHJHcnRJdFdrMkxFczJqYnE2VFNWQQ?oc=5",
-     "time": "2026-11-02T16:53:40+00:00"
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQLVRYS1d0QWttbWI1Vm9ydkRZcHJXemFNeXdITDdJVkJEaWVLYXhzZ25ScW9lX2c3YnRTQ3BCTXd3czlWM3FmWkg2SEJ5bGRHdjZQNlFBSE5qckJ4bWphbEZvcG9DNHZBblpybzktZHVzbjRUUEo3dmEtNWx4SnhaMWpMWHhGR09NM0tXblRObzBvbUlCYWVob3Q5RQ?oc=5",
+     "time": "2026-11-02T18:16:18+00:00"
     },
     {
-     "title": "Amazon Soars 5% as Phillip Securities Upgrades It to Buy After Earnings Sell-Off",
-     "publisher": "TIKR.com",
-     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOalpveHFxVk1mZG1TaXNDaXlrcHZzT2M5UmZuWWlHRHJIYUdCSTZfazdUZ0dBSGtDRkJNMnZMelV0WFJxNjVVeE9oaDRreloxRjk1VEpHbktVN1FOQnB1bzVwWTV3SDA2dWszZTVPNzRlY3ZiaTBtcWFEOUttQnFPSkhmWHNoVXQxRzFpbVMtalpSOC11UFJjVll5NnhaNFRCTmhnS1VWTWdqdw?oc=5",
-     "time": "2026-11-02T16:36:42+00:00"
+     "title": "CRWD Stock Has Doubled Year-To-Date, And Deutsche Bank Thinks There Is More Upside Left",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPd2Zjc2Rrd29Vd3pPVDdTcnNpR1JzcGcxVEFhV1hlV0gyWVpYaGJkaGlyUWRmWGM5SHhkNl90dWczWFBxNnJEM0pqX2xRR0hDdkdlR3NDSmFTd0E1YWZ6c3kzMlFEbUxqZVgxMUFIc0x5NTkwd1RZNnVLZDM0ZXZLbkotZVNCV2F6bzNYV29MTl9oVWZ1TXBXbFQ5d1cxZw?oc=5",
+     "time": "2026-11-02T17:25:50+00:00"
     },
     {
-     "title": "Amazon: Don't Look At The Cash Flow (NASDAQ:AMZN)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBUejFDcXJiQ0NLMHd5alJ5Znp6N1h5X0ZqaFRDNHpTQ0cxenJOZHVBLS1ReDA0Rm5GMHg1NXRrOWVGYl8wUU9HZm13TUR0SmNqQU1PR3hMQTNYaC1oelJKUU55QnExUVVoV0hta204RG91VDZWUUhOVWZpT1FmNWs?oc=5",
-     "time": "2026-11-02T16:00:30+00:00"
+     "title": "Dell's AI Factory with NVIDIA adds CrowdStrike protection for AI agents",
+     "publisher": "Stock Titan",
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNczM1WmNnaWVzdklDZ3VfeC1xdzd1RkFjOXlHaUdWSzEzY0JyOEt5TWxSV2hReUJZSnhfVTJGSmd2cDBYbHhGVmppSi1hc0JSOUNJWkRNT25TNzF1d3NHaF9PUWtxRkE4UVhLMVBsaHh1QUNpZE9WOUEtTk1MaUlyU0t0ZlRNTGx4ak5VLVpCR3VvMnVKY2t3RFNvenBRT3YxQ0k3UE1UUUdvS19jc1ZPM0h5TWxIRjhzc1FqcFBR?oc=5",
+     "time": "2026-11-02T17:05:00+00:00"
     },
     {
-     "title": "Why is Amazon stock rallying today?",
-     "publisher": "Investing.com",
-     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZ0dJeHJIREdSVkxZYmI3dkFwTURUQnJYVTlkRnNreWV3OHc1ZWpObzVjeUhYQktCaUZ4RndxZVdJeGJuVEhPcE04NS1FVXVTdjBvaGlNRm54bUd5bUhlNG5adU02N3dNTWpFTXB1b0NYTWk4Rm9zNy04RzZ2MlBvRHhCbkdmdE82VjlKT2cxQ3JxaW5aTk9ydWxWcmI?oc=5",
-     "time": "2026-11-02T15:08:57+00:00"
+     "title": "CrowdStrike Stock Gets Stunning Upgrade -- Bank Sees Years of 20%+ Growth",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOTDdHVWhDYy1zRUR1OThoOV9xN3dXd3Fkd2FyWG1iNE1aWW1PbXQ0ZmVpZlBmRFNwLUY4SzY2dm1kYW1PaVNiSVJlRldOeDRLbGZrMF9yWWhEbnpqNXZRclBnTTBQRGxrUlI3aGRXMk80ZUNIdWFzcl9pRlR2NjQ1YVowdEtFSTBPQ0U2eGtzeTM3Uy0yYVgxZVExY2tERTc1TWJPN1pB?oc=5",
+     "time": "2026-11-02T16:44:46+00:00"
+    },
+    {
+     "title": "What's Going On With CrowdStrike Stock Monday? - CrowdStrike Holdings (NASDAQ:CRWD)",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOYzBDR2RYX3JqT3J2OFBUNmVxR0ZXUGRVaG9waVpMbGFLZkpiMTFnRHozLWI2UXN5akVEelg4Y0xaOGNwM05VTE5aNWJ2eWlmR2RPYnFMMGtXWVVxUjM1LWZ5alVpOEF3UF9IbWJvc3BfeTBjZ25PQ0NuREVpRXNyUzVDcEtzUlgyeDNYVmtnT0loZl94NEJMMkVTeHAyX2hXLVdmR0dPUVg3NEw5eC0zMmdwSFhlb0FOV0k2c0ZPQ0psU3lPY083M0E1Z0VPREFvbzZBaWlEUkZZRjByUVZ0TURxUQ?oc=5",
+     "time": "2026-11-02T16:17:44+00:00"
+    },
+    {
+     "title": "CrowdStrike (CRWD) stock trades down, here is why",
+     "publisher": "Barchart.com",
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPeXhVTkdpYlZ4WDRUQ3h3YjExbzl3cXgwcDhQaG9LWGgwVjRjc1c2a3E2aWFnaFJDTkRuTXI4TzliTnltenN6eHF0OTlFLU40ZDEzT0owRzJ5bk1LblRIZWl6V3BjVXhWZ1ZnRUNMWVFDRzBfVXpZM2xRMlFuc0JUcTFOdnhtU1lCTHpWY1E3RWt4TnUx?oc=5",
+     "time": "2026-11-02T16:10:36+00:00"
+    },
+    {
+     "title": "Deutsche Bank Upgrades CrowdStrike Stock (CRWD) to Buy, Cites AI-Led Demand and Market Leadership",
+     "publisher": "TipRanks",
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPc1RNdy0wYjBHaWcwOGlxYWdaZC1qUkVnZUg5LWk1Z0s0N0YyM3h0a0EzMjJUaUxJb2Z3SmtVNjVnV0FfR2NvOEtPN2VtNHFmRjMyOUFaQ29hRnlLbUlyVkdmOXpXMkJJREpxMnRtYmlnR2xXNzhGZzVtbGZXYXY4VXE2QjhSRW9RcklSZlc2OVNVamtzQWRmbHV4cWNDY05kdmh3czFHbUxFNXJoa2pCMzFzQW1zNjBlVUhCSEV0TWdZUQ?oc=5",
+     "time": "2026-11-02T15:40:49+00:00"
+    },
+    {
+     "title": "CrowdStrike Upgraded On Expected AI Cybersecurity Leadership",
+     "publisher": "Investor's Business Daily",
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPRl9EbjhEVEtVaG1FRzZuVGJJcVpoV0NXZEY5M3NBZ002U0otM2NwdWtXR1RiZjBhT0NSaF9wcG9fYk9YS2JkbzljM0NVTzliYTBWWHVsczByX1NJekNla2lQcGdTTUdzV3BZbHc5Tmd4SHlBU2tIRUhZU3RRRDBfS3NTTTg2LTVaRUs4SzZJZlZVb0V4N2c?oc=5",
+     "time": "2026-11-02T14:59:00+00:00"
     }
    ],
-   "brief": "2026-11-02-AMZN"
+   "brief": null
   },
   {
    "symbol": "AMAT",
    "name": "Applied Materials",
    "list": "portfolio",
-   "price": 378.43,
+   "price": 377.07,
    "prev_close": 390.09,
-   "change_pct": -3.0,
+   "change_pct": -3.3,
    "trigger_change": -3.0,
-   "peak_change": -3.0,
+   "peak_change": -3.3,
    "first_seen": "2026-11-02T19:29:18+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 512.56,
-    "change_pct": -1.9
+    "price": 510.0,
+    "change_pct": -2.39
    },
    "chart": {
-    "ema8": -5.2,
-    "ema21": -11.0,
-    "sma50": -16.9,
-    "sma200": -14.9,
+    "ema8": -5.5,
+    "ema21": -11.3,
+    "sma50": -17.2,
+    "sma200": -15.2,
     "momentum": false
    },
    "headlines": [
@@ -321,26 +321,101 @@
    "brief": null
   },
   {
+   "symbol": "AMZN",
+   "name": "Amazon",
+   "list": "portfolio",
+   "price": 247.74,
+   "prev_close": 240.35,
+   "change_pct": 3.1,
+   "trigger_change": 5.3,
+   "peak_change": 5.3,
+   "first_seen": "2026-11-02T16:15:40+00:00",
+   "sector": {
+    "etf": "XLY",
+    "name": "Consumer discr.",
+    "price": 118.17,
+    "change_pct": 2.41
+   },
+   "chart": {
+    "ema8": -0.4,
+    "ema21": -1.6,
+    "sma50": -2.5,
+    "sma200": 1.8,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Amazon Vs. Alphabet: The $420B AI Capex Squeeze Leaves Both At Hold (NASDAQ:AMZN)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQMTBOdW1vN1RWbkxOVXY0bl96c1U5R2hPbE12Y2VJdkJySDRfeDg5ZjRUOWpSb3c0WjdTWVdEME4tdkhjenlJOTlsa1ZFWE0tQVo5REtZRWZWOXBfeUtYaDVQSjFYZmFoTjgyZDdYejNXTFlQV21QWmtnRGhJVVVkNHhCSDR3VkxOX2xpdFJzbzZ3MkN6NE1OSlBMZGh1eFc3NlF1TTFIN1U?oc=5",
+     "time": "2026-11-02T19:02:53+00:00"
+    },
+    {
+     "title": "Amazon Stock Rises: What's Going On?",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQQlg2eVlHWDl0QUpwa3MtZ2JBVUVMOXd6Y0xzSlNSRTMyRGl2SmRRZEhQNTRsS01vellzQ3NvSm1GYUNNbmZiRUlaOTYwaHFuejRiajNOTmxLS2lJT1J1Sld6NXp2ajRMUlRheHcxckw1OHhHdVFHSW9fYnVXdkVWNmdFeGI5UFh5OS1CM2VUQ05KODhXZlhvSTJR?oc=5",
+     "time": "2026-11-02T17:28:25+00:00"
+    },
+    {
+     "title": "Why Wall Street Is Coming Back Around on Amazon Stock",
+     "publisher": "Barron's",
+     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPX3oyQ2tkVEFTaC1CMlhZSk5UYTAtUVUzdTRIN1JteTJFU3F4LWx2bnktV1VEVHMtdW80MzNmZjB2LWJOZHlnSFZacUxfSkpBQXM5anpZeWRXNS00azlsVGhoVW5WYXExdVBEUTRGZW1BTWdVV0FGZk1Mb2lkeHdlWEdR?oc=5",
+     "time": "2026-11-02T17:03:45+00:00"
+    },
+    {
+     "title": "Why Amazon Stock Rallied Monday Morning",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOdDBxcVFnZUY3UVczSkJGUFdIOXJweEg4NURlT09tRi12MThQQ1Y5Rl9CcUtzMWJUdDJHWnpHTWV6R015R194ZXE1cmtLZXprZGZnSWJFNndveUpBWU9sMTFwYkxPYTdib3JlOGVSSHVUalB6THFlOGFnckN4WWRLSmhYR1QzX0ROOHc?oc=5",
+     "time": "2026-11-02T17:00:00+00:00"
+    },
+    {
+     "title": "META_TITLE_QUOTE",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5wLXdlSm5MT0hsWEI2RjNWUHB6R3FYWEYzbi0ydDM4NGFScjNIZmYwYlpGQzRVWmdrVHJHcnRJdFdrMkxFczJqYnE2VFNWQQ?oc=5",
+     "time": "2026-11-02T16:53:40+00:00"
+    },
+    {
+     "title": "Amazon Soars 5% as Phillip Securities Upgrades It to Buy After Earnings Sell-Off",
+     "publisher": "TIKR.com",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOalpveHFxVk1mZG1TaXNDaXlrcHZzT2M5UmZuWWlHRHJIYUdCSTZfazdUZ0dBSGtDRkJNMnZMelV0WFJxNjVVeE9oaDRreloxRjk1VEpHbktVN1FOQnB1bzVwWTV3SDA2dWszZTVPNzRlY3ZiaTBtcWFEOUttQnFPSkhmWHNoVXQxRzFpbVMtalpSOC11UFJjVll5NnhaNFRCTmhnS1VWTWdqdw?oc=5",
+     "time": "2026-11-02T16:36:42+00:00"
+    },
+    {
+     "title": "Amazon: Don't Look At The Cash Flow (NASDAQ:AMZN)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBUejFDcXJiQ0NLMHd5alJ5Znp6N1h5X0ZqaFRDNHpTQ0cxenJOZHVBLS1ReDA0Rm5GMHg1NXRrOWVGYl8wUU9HZm13TUR0SmNqQU1PR3hMQTNYaC1oelJKUU55QnExUVVoV0hta204RG91VDZWUUhOVWZpT1FmNWs?oc=5",
+     "time": "2026-11-02T16:00:30+00:00"
+    },
+    {
+     "title": "Why is Amazon stock rallying today?",
+     "publisher": "Investing.com",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZ0dJeHJIREdSVkxZYmI3dkFwTURUQnJYVTlkRnNreWV3OHc1ZWpObzVjeUhYQktCaUZ4RndxZVdJeGJuVEhPcE04NS1FVXVTdjBvaGlNRm54bUd5bUhlNG5adU02N3dNTWpFTXB1b0NYTWk4Rm9zNy04RzZ2MlBvRHhCbkdmdE82VjlKT2cxQ3JxaW5aTk9ydWxWcmI?oc=5",
+     "time": "2026-11-02T15:08:57+00:00"
+    }
+   ],
+   "brief": "2026-11-02-AMZN"
+  },
+  {
    "symbol": "NOW",
    "name": "ServiceNow",
    "list": "portfolio",
-   "price": 107.3,
+   "price": 106.8,
    "prev_close": 105.12,
-   "change_pct": 2.1,
+   "change_pct": 1.6,
    "trigger_change": 3.1,
    "peak_change": 4.0,
    "first_seen": "2026-11-02T16:40:54+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 103.04,
-    "change_pct": -1.2
+    "price": 102.64,
+    "change_pct": -1.59
    },
    "chart": {
-    "ema8": -16.4,
-    "ema21": -21.6,
-    "sma50": -22.4,
-    "sma200": -6.6,
+    "ema8": -16.8,
+    "ema21": -22.0,
+    "sma50": -22.7,
+    "sma200": -7.0,
     "momentum": false
    },
    "headlines": [
@@ -399,23 +474,23 @@
    "symbol": "APP",
    "name": "AppLovin",
    "list": "portfolio",
-   "price": 231.59,
+   "price": 229.68,
    "prev_close": 228.5,
-   "change_pct": 1.4,
+   "change_pct": 0.5,
    "trigger_change": 3.6,
    "peak_change": 4.8,
    "first_seen": "2026-11-02T16:15:40+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 103.04,
-    "change_pct": -1.2
+    "price": 102.64,
+    "change_pct": -1.59
    },
    "chart": {
-    "ema8": -7.2,
-    "ema21": -12.8,
-    "sma50": -20.9,
-    "sma200": -44.1,
+    "ema8": -7.8,
+    "ema21": -13.5,
+    "sma50": -21.5,
+    "sma200": -44.5,
     "momentum": false
    },
    "headlines": [
@@ -474,9 +549,9 @@
    "symbol": "SOFI",
    "name": "SoFi",
    "list": "portfolio",
-   "price": 16.86,
+   "price": 16.74,
    "prev_close": 16.76,
-   "change_pct": 0.6,
+   "change_pct": -0.1,
    "trigger_change": 4.0,
    "peak_change": 4.1,
    "first_seen": "2026-11-02T16:15:40+00:00",
@@ -487,10 +562,10 @@
     "change_pct": 1.78
    },
    "chart": {
-    "ema8": 3.3,
-    "ema21": 5.9,
-    "sma50": 2.0,
-    "sma200": -4.9,
+    "ema8": 2.7,
+    "ema21": 5.3,
+    "sma50": 1.3,
+    "sma200": -5.6,
     "momentum": true
    },
    "headlines": [
