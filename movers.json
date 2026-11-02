@@ -1,105 +1,30 @@
 {
  "date": "2026-11-02",
  "threshold": 3.0,
- "updated": "2026-11-02T16:35:49+00:00",
+ "updated": "2026-11-02T16:40:54+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 760.31,
-   "change_pct": 0.61
+   "price": 760.08,
+   "change_pct": 0.58
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 694.0,
-   "change_pct": 0.51
+   "price": 693.59,
+   "change_pct": 0.45
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 82.02,
-   "change_pct": 0.21
+   "price": 82.0,
+   "change_pct": 0.2
   }
  },
  "movers": [
   {
-   "symbol": "APP",
-   "name": "AppLovin",
-   "list": "portfolio",
-   "price": 239.56,
-   "prev_close": 228.5,
-   "change_pct": 4.8,
-   "trigger_change": 3.6,
-   "peak_change": 4.8,
-   "first_seen": "2026-11-02T16:15:40+00:00",
-   "sector": {
-    "etf": "IGV",
-    "name": "Software",
-    "price": 104.61,
-    "change_pct": 0.31
-   },
-   "chart": {
-    "ema8": -4.7,
-    "ema21": -10.1,
-    "sma50": -18.2,
-    "sma200": -42.1,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "APP Shareholder Alert: AppLovin Corporation Securities",
-     "publisher": "GlobeNewswire",
-     "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNM0NyYVI0cDlGT185VDM3YWEzb1k4bTMwZnRSRVVza2tpZUhPanR1cFpGdldLT0kyTnFBUlI3ZGtMc0ttNU5TZ2VPMDVNYXZxVUR2ZGgtd3g2a3YzUl8xNDQtZkFLeXJWNzJqUGNSNXA5ckNTYXRvcEtiYk5vS09RV25Cd09ZZjBMUm1wT1VrLW5MLXJPZFp4bHpqZXVUb1FnRDlOS3RkQkVhbk9NT3U0YnBpcVF3QWNYY2hHVkFxSTRXeVZhZjh3YVMtRktTNlFIaWFkSmpkZVhxT2h3dWFaUUdUNDhhUFJidnZuRE0zOXFJX2ZoTjR3ZVYybkRUa0V1aENNZmRYRDYwQWVVQk5IcUowcmZFMEhO?oc=5",
-     "time": "2026-11-02T15:15:00+00:00"
-    },
-    {
-     "title": "AppLovin stock approaches Nov. 4 results as ad growth faces test",
-     "publisher": "ad-hoc-news.de",
-     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNLW00bEZ3eGIxbzlzTXVXUXoyX2gySFE1LS1ZRGpaSVRaV3JoRWt4OVN4VFVTSVAyTVpQbHRiRzBCbmp6R3RmRUV6SjBIZ2x1TFRrbzhRVXAzb25iLVh6b2dhOVo5emZfandGVnlTNmVUTy1PZGpaNk9hclJtVnh5WDJnUkJSS1pVY21TeVJvMThUeE0wem45ZDJiejBObGRjdnNZckhCbmZUeWdzdlZ2M2VvS1NaSzZpVWNGOHN3aHRwaU5a?oc=5",
-     "time": "2026-11-02T15:09:41+00:00"
-    },
-    {
-     "title": "APP Stock Drops 10.36% on Friday, RSI Oversold",
-     "publisher": "JournalArta",
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQd0MtOWlHR0piVlRaYWs2SU1HcC1vT0ptRTg5cFp4cllPdEdHdUtFaEVpNWc0LUp1dWg1TFRUcFg5Y1oxYzNNRjQ3M0tTWjdPeDltZXl0ZG9FeGZlMVFXeGpxYS1LZjdJRV9CUHN3b2pvZ0MxN0gwUEZIZjNXTmtISlN2cjd6MUhqZTJz?oc=5",
-     "time": "2026-11-02T13:06:25+00:00"
-    },
-    {
-     "title": "ECARX and Arm sign MoU to co-develop next-gen A...",
-     "publisher": "Pluang",
-     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPeTJ0eG9KYkZtOUxvWGV3Rmtha0w2WERJdUNOWGV5VlhJck5UV01SaHNFancxeUs0dmJKNjFFNFp3SDB2UEdlODY5Z0ZqalFNTlJLRmxkYTlxa3BzMjVvb084WlUwM1dhLTBLNVBWYnphNEhWeC1tdFpDdE4yTXZ3MzNhb2RId2hL?oc=5",
-     "time": "2026-11-02T11:14:38+00:00"
-    },
-    {
-     "title": "AppLovin stock faces Unity competition concerns ahead of earnings",
-     "publisher": "Investing.com",
-     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQUEpGMF9xMXhVNWtnLXdLMmZsTm8wclFCMzBJRXpuTnlyLWxtb0tqRzcwUUMyTmZwclZhMldLSURtdGFPTHFDa0lJaHo2UDMtQTVlRFV0Vm8tLUVBdXM1WW5BWFpXdWRfdVVPUmJFMENlZWxtcFdjczN1bk5KTWFieEZMeUJoeVNQVDdObmtvQnVJNVZDVXEyX0JvNUk2c1V0bV9XR2tTRlBMVU5DbGVVSVFLRUxGZ1RFT0treEVZSGJDelphZUE?oc=5",
-     "time": "2026-11-02T10:47:23+00:00"
-    },
-    {
-     "title": "Applovin (APP) Stock Price, Chart & Analysis",
-     "publisher": "www.debelegger.nl",
-     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5EZ3lWcHZvUnAzU0ZMdGFQV3luRDJTTmpQZzJoWWNuYmVoYlRWLXpLR3gxNDd2VkdQSWtwMWtOV0xKZFpjWjZCS1lzQ19QZWd2T0Vj?oc=5",
-     "time": "2026-11-02T10:17:25+00:00"
-    },
-    {
-     "title": "AppLovin stock heads into November 4 earnings release",
-     "publisher": "ad-hoc-news.de",
-     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOeWpVc2ZydUx4UGZXV01Dc0hVN2VTYXVacENWS251Y1RUVVZHSXdPVTdsSlpxaG9EOVpWa1BnTWtmRGpMTnZwaFo3d182RzlWa0VZWmt0ZHNWT0ZQelI5Q01zbndjcFEtMENFSUNTLVB2OTRRNExVUUpJUktBay1mU2g0cVV3MVpiUl95ODktajFRU3ZNRl96WVNMbUZ6LUppNzlURndCLVRJSkw2cU80c3gtNnhKNlE?oc=5",
-     "time": "2026-11-02T10:02:39+00:00"
-    },
-    {
-     "title": "Axon Enterprise, Inc. (AXON) Stock Price, News, Quote & History",
-     "publisher": "Yahoo! Finance Canada",
-     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9FaFY2blB3Sm1pMS1PY0ZEYlVlaENiTHZ3UXB2YnZPUGhaQm40SHdVdFVzVEtPeXp0cTRGcVZMYTJrY2pvd0N1MWVYS3d0RDdnYnc?oc=5",
-     "time": "2026-11-02T09:25:21+00:00"
-    }
-   ],
-   "brief": null
-  },
-  {
    "symbol": "AMZN",
    "name": "Amazon",
    "list": "portfolio",
-   "price": 251.69,
+   "price": 251.59,
    "prev_close": 240.35,
    "change_pct": 4.7,
    "trigger_change": 5.3,
@@ -108,14 +33,14 @@
    "sector": {
     "etf": "XLY",
     "name": "Consumer discr.",
-    "price": 119.0,
-    "change_pct": 3.14
+    "price": 119.02,
+    "change_pct": 3.15
    },
    "chart": {
     "ema8": 0.8,
     "ema21": -0.2,
     "sma50": -1.0,
-    "sma200": 3.4,
+    "sma200": 3.3,
     "momentum": false
    },
    "headlines": [
@@ -171,25 +96,100 @@
    "brief": null
   },
   {
+   "symbol": "APP",
+   "name": "AppLovin",
+   "list": "portfolio",
+   "price": 238.9,
+   "prev_close": 228.5,
+   "change_pct": 4.6,
+   "trigger_change": 3.6,
+   "peak_change": 4.8,
+   "first_seen": "2026-11-02T16:15:40+00:00",
+   "sector": {
+    "etf": "IGV",
+    "name": "Software",
+    "price": 104.64,
+    "change_pct": 0.34
+   },
+   "chart": {
+    "ema8": -4.9,
+    "ema21": -10.3,
+    "sma50": -18.4,
+    "sma200": -42.3,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "APP Shareholder Alert: AppLovin Corporation Securities",
+     "publisher": "GlobeNewswire",
+     "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNM0NyYVI0cDlGT185VDM3YWEzb1k4bTMwZnRSRVVza2tpZUhPanR1cFpGdldLT0kyTnFBUlI3ZGtMc0ttNU5TZ2VPMDVNYXZxVUR2ZGgtd3g2a3YzUl8xNDQtZkFLeXJWNzJqUGNSNXA5ckNTYXRvcEtiYk5vS09RV25Cd09ZZjBMUm1wT1VrLW5MLXJPZFp4bHpqZXVUb1FnRDlOS3RkQkVhbk9NT3U0YnBpcVF3QWNYY2hHVkFxSTRXeVZhZjh3YVMtRktTNlFIaWFkSmpkZVhxT2h3dWFaUUdUNDhhUFJidnZuRE0zOXFJX2ZoTjR3ZVYybkRUa0V1aENNZmRYRDYwQWVVQk5IcUowcmZFMEhO?oc=5",
+     "time": "2026-11-02T15:15:00+00:00"
+    },
+    {
+     "title": "AppLovin stock approaches Nov. 4 results as ad growth faces test",
+     "publisher": "ad-hoc-news.de",
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNLW00bEZ3eGIxbzlzTXVXUXoyX2gySFE1LS1ZRGpaSVRaV3JoRWt4OVN4VFVTSVAyTVpQbHRiRzBCbmp6R3RmRUV6SjBIZ2x1TFRrbzhRVXAzb25iLVh6b2dhOVo5emZfandGVnlTNmVUTy1PZGpaNk9hclJtVnh5WDJnUkJSS1pVY21TeVJvMThUeE0wem45ZDJiejBObGRjdnNZckhCbmZUeWdzdlZ2M2VvS1NaSzZpVWNGOHN3aHRwaU5a?oc=5",
+     "time": "2026-11-02T15:09:41+00:00"
+    },
+    {
+     "title": "APP Stock Drops 10.36% on Friday, RSI Oversold",
+     "publisher": "JournalArta",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQd0MtOWlHR0piVlRaYWs2SU1HcC1vT0ptRTg5cFp4cllPdEdHdUtFaEVpNWc0LUp1dWg1TFRUcFg5Y1oxYzNNRjQ3M0tTWjdPeDltZXl0ZG9FeGZlMVFXeGpxYS1LZjdJRV9CUHN3b2pvZ0MxN0gwUEZIZjNXTmtISlN2cjd6MUhqZTJz?oc=5",
+     "time": "2026-11-02T13:06:25+00:00"
+    },
+    {
+     "title": "ECARX and Arm sign MoU to co-develop next-gen A...",
+     "publisher": "Pluang",
+     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPeTJ0eG9KYkZtOUxvWGV3Rmtha0w2WERJdUNOWGV5VlhJck5UV01SaHNFancxeUs0dmJKNjFFNFp3SDB2UEdlODY5Z0ZqalFNTlJLRmxkYTlxa3BzMjVvb084WlUwM1dhLTBLNVBWYnphNEhWeC1tdFpDdE4yTXZ3MzNhb2RId2hL?oc=5",
+     "time": "2026-11-02T11:14:38+00:00"
+    },
+    {
+     "title": "AppLovin stock faces Unity competition concerns ahead of earnings",
+     "publisher": "Investing.com",
+     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQUEpGMF9xMXhVNWtnLXdLMmZsTm8wclFCMzBJRXpuTnlyLWxtb0tqRzcwUUMyTmZwclZhMldLSURtdGFPTHFDa0lJaHo2UDMtQTVlRFV0Vm8tLUVBdXM1WW5BWFpXdWRfdVVPUmJFMENlZWxtcFdjczN1bk5KTWFieEZMeUJoeVNQVDdObmtvQnVJNVZDVXEyX0JvNUk2c1V0bV9XR2tTRlBMVU5DbGVVSVFLRUxGZ1RFT0treEVZSGJDelphZUE?oc=5",
+     "time": "2026-11-02T10:47:23+00:00"
+    },
+    {
+     "title": "Applovin (APP) Stock Price, Chart & Analysis",
+     "publisher": "www.debelegger.nl",
+     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5EZ3lWcHZvUnAzU0ZMdGFQV3luRDJTTmpQZzJoWWNuYmVoYlRWLXpLR3gxNDd2VkdQSWtwMWtOV0xKZFpjWjZCS1lzQ19QZWd2T0Vj?oc=5",
+     "time": "2026-11-02T10:17:25+00:00"
+    },
+    {
+     "title": "AppLovin stock heads into November 4 earnings release",
+     "publisher": "ad-hoc-news.de",
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOeWpVc2ZydUx4UGZXV01Dc0hVN2VTYXVacENWS251Y1RUVVZHSXdPVTdsSlpxaG9EOVpWa1BnTWtmRGpMTnZwaFo3d182RzlWa0VZWmt0ZHNWT0ZQelI5Q01zbndjcFEtMENFSUNTLVB2OTRRNExVUUpJUktBay1mU2g0cVV3MVpiUl95ODktajFRU3ZNRl96WVNMbUZ6LUppNzlURndCLVRJSkw2cU80c3gtNnhKNlE?oc=5",
+     "time": "2026-11-02T10:02:39+00:00"
+    },
+    {
+     "title": "Axon Enterprise, Inc. (AXON) Stock Price, News, Quote & History",
+     "publisher": "Yahoo! Finance Canada",
+     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9FaFY2blB3Sm1pMS1PY0ZEYlVlaENiTHZ3UXB2YnZPUGhaQm40SHdVdFVzVEtPeXp0cTRGcVZMYTJrY2pvd0N1MWVYS3d0RDdnYnc?oc=5",
+     "time": "2026-11-02T09:25:21+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
    "symbol": "MELI",
    "name": "MercadoLibre",
    "list": "watchlist",
-   "price": 1690.78,
+   "price": 1689.23,
    "prev_close": 1624.53,
-   "change_pct": 4.1,
+   "change_pct": 4.0,
    "trigger_change": 3.1,
    "peak_change": 4.1,
    "first_seen": "2026-11-02T16:15:40+00:00",
    "sector": {
     "etf": "XLY",
     "name": "Consumer discr.",
-    "price": 119.0,
-    "change_pct": 3.14
+    "price": 119.02,
+    "change_pct": 3.15
    },
    "chart": {
     "ema8": -0.8,
-    "ema21": -4.1,
-    "sma50": -7.9,
+    "ema21": -4.2,
+    "sma50": -8.0,
     "sma200": -6.7,
     "momentum": false
    },
@@ -249,23 +249,23 @@
    "symbol": "SOFI",
    "name": "SoFi",
    "list": "portfolio",
-   "price": 17.42,
+   "price": 17.43,
    "prev_close": 16.76,
-   "change_pct": 3.9,
+   "change_pct": 4.0,
    "trigger_change": 4.0,
    "peak_change": 4.1,
    "first_seen": "2026-11-02T16:15:40+00:00",
    "sector": {
     "etf": "XLF",
     "name": "Financials",
-    "price": 57.49,
-    "change_pct": 1.73
+    "price": 57.55,
+    "change_pct": 1.85
    },
    "chart": {
-    "ema8": 5.9,
-    "ema21": 9.1,
-    "sma50": 5.3,
-    "sma200": -1.8,
+    "ema8": 6.0,
+    "ema21": 9.2,
+    "sma50": 5.4,
+    "sma200": -1.7,
     "momentum": true
    },
    "headlines": [
@@ -316,6 +316,81 @@
      "publisher": "Simply Wall St",
      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNal8tcHozX3pNVk9rNGRTLXpWRnM0R1JvU2x1c1k4TUtJODR2Mm5kWFFsd2tDWmVSTGNuWUlObUtsZzNxMzlXQ0dnaW1pSmw4UFQ0SjRDQk8tc3NpTU5RT0xlRE81MGtEV0FfMnkwWlZaWFU2eE8xWjRpQUk0cWYzb25BYzNKM1BlTkFKWWVKV3JncWpyaGtqdGQ4dGhObTVKQ2xsOE5WQ2VkMWNTNlMyLUtIX2NHWnRYdG9GbFJMZlFwRzg2bHU4a1dzSXNyeTlqandmWi1sUk1uOXFpQmNyekE0Y0fSAeoBQVVfeXFMTlhiYV8yRGJORzItMjZnbGtvZWVnMHUwZnYxakY0bVNEcEpwbTE2ZG1CcXpXQTE3azBrWUNlNnI4MUdudFhKWDM5Y1gtbVBGMDl5MzhkVFUxUnVWNlA4dkYzRUl3RkdtdV9wWjhBY2VlRWt4UHhJQ3N0azBiakJ0azRyczRkeGtpUGlRRUR1WWdFVlM4eldkMHdBalF6VVhkaDJaUXMzZ1EzOTRHSGdRMU9sc2Q4c1ZybkFRYmcxRFBSRzIyVTUtTG5CUk9zU20tak1ZOGRkRzB0RzhBYnBNdmVLQ2tCck5ueVln?oc=5",
      "time": "2026-11-02T07:38:49+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
+   "symbol": "NOW",
+   "name": "ServiceNow",
+   "list": "portfolio",
+   "price": 108.4,
+   "prev_close": 105.12,
+   "change_pct": 3.1,
+   "trigger_change": 3.1,
+   "peak_change": 3.1,
+   "first_seen": "2026-11-02T16:40:54+00:00",
+   "sector": {
+    "etf": "IGV",
+    "name": "Software",
+    "price": 104.64,
+    "change_pct": 0.34
+   },
+   "chart": {
+    "ema8": -15.7,
+    "ema21": -20.9,
+    "sma50": -21.6,
+    "sma200": -5.6,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Yes, I'm Buying The Tech Crash",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1XRzBneGUtUmk2M1pGMWVXb0xKOHlldC0tY2ZKTVpqYXNZUEx0bXQ4dU55eFpZZS10dEFpczl6QXdVVllwNlNsX2tDSXZpQldOZ2dQemFwd1czbC1JVFhpVjVUanVYMjRLLUt3WktaUnJLYVhSWDcyRA?oc=5",
+     "time": "2026-11-02T16:35:13+00:00"
+    },
+    {
+     "title": "Nvidia (NVDA), Costco (COST), Nike (NKE) join OKX\u2013ICE tokenized stock objections, bringing total to 50",
+     "publisher": "CoinDesk",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNT2JRbThULWtaaVVVeGEyVlZPSTQ0alVKSk1Qc2VKRGppaHVtSFoyM3Uzam1jWE1iVXFsT0dTNmFuTWJhQ3d1ZXZ6dWc3X0RvaVBSeGV5MTNvNm9MdmtyYWVNcmlkRWNMbWttQ2JQTzdEVlZ2SW5UZDRQZnJpOWtsN0V3dmtXaVdTOEZWZm5MeGpoRXZ3NjFHOGZkWEZSc2FObEZFT2hWSk1iYmZJSWxDamlQbWxFN0ppTzRv?oc=5",
+     "time": "2026-11-02T15:26:43+00:00"
+    },
+    {
+     "title": "RSI Oversold, NOW Stock Drops 4.15% on Friday",
+     "publisher": "JournalArta",
+     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNY1FDX1hVbEtkM3pOMUhteVNvUmZzaTlxdUtqS3YweDRZV1Foc1ZnSXRadE9NOWhYZ2c1UlpvTTVQZFdnZ2hTd1RURGRVa0J2Q0V0QUtGb3lIaHpNOGZVTXBxQ1drOFBiby14eVVNOG9raW96blpBY3I0cjdhelptZ2NFWFVfTkxlOVE?oc=5",
+     "time": "2026-11-02T13:53:04+00:00"
+    },
+    {
+     "title": "Service Corporation International (NYSE:SCI) Stock Gets Price Target Trim from JPMorgan Chase & Co.",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPcDIxbGNpOHFoMGVwd0FTRXpMOVRxOTJMTWE1Q2k2QUZXbnFBTkJzWFV5Uk93TG5kZEIzaUdyOG5ILUphY3p5N0hNUEFORDBmVXBMclpTUEFKOVlic2xIZ3pOYVJvVUNZTnc3WjMyNW1aUENxVVRkY0VBWWt2Q3p1N0VxMVdzSjhZUFl2bGZ5b19kY1VSYTgxcGtPVnRpVUFhZDRJRE9qNXJBS3NnX2lpY0QyTHYtOHhBZHpjdXZ2M2NDZWtkSWlNdTJsa01zUVIwbl9pXzM2ZloydzhWN0hfdGxMdkc3RWJGU25Vbw?oc=5",
+     "time": "2026-11-02T13:42:09+00:00"
+    },
+    {
+     "title": "UBS Group Has Lowered Expectations for Service Corporation International (NYSE:SCI) Stock Price",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPZkhSbzNzUzNpU2dCUHlWOVpXdFRTc2E5TG8xVnhHUDd6M0FsNUxkUTFoME9HdlZYbjNacFJidVVNWHFveHlIRDhyUC1QOWcwTWZaalJCYkZESWsyZVZBZDh6YUJnbENKNW5Lb2w4SXNFOUswMHR0RE9DWUhCb0lac0swdFZXX2k4R19SaU0zc0ZDMV9VaG5nRWdXd3M1bGJadGtyTmdBb1V1NHcxN3JiTE1MaktGaDk3WnN4Sl92UjZObHpMTlJ3UDJUR1lKZWJpdmhtMmM3MzAxUENYYTN6YTcyY3BRQ1pWTmg0?oc=5",
+     "time": "2026-11-02T13:41:32+00:00"
+    },
+    {
+     "title": "ENGIE stock: India solar projects add 450 MW of capacity",
+     "publisher": "ad-hoc-news.de",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQTHdfMjRBaGNwXzlISndzZ1Exc3hhN2tvOHdLR3pTY01nb1FTcUgzS1g5V1VmNXdScEFKTWloQWVoaU85Z0EwNWhWeWUxYkg4Ry10c0lvOGgtR0VKNWxSZmxPU0c2aVhhblIzT1F1aGJKRDFQbUt6ZlBBWlF1TGRyb2NmNkxxZVBLMXh5TUxGRGhBWmlhSnFkNnJ6UmIxbXhKaVdXNlZMaTdVVElXVzMxamM1MjI3MmhuMlE?oc=5",
+     "time": "2026-11-02T13:34:11+00:00"
+    },
+    {
+     "title": "One Way Holdings LLC Acquires New Stake in United Parcel Service, Inc. $UPS",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNOTJ3LUhtQUpkc0lsMFotNWJEOFpGR1BOTjdwVDdXbkwzajZBZElWQlR1MHoyZ1hRRTRiaW5uVUhyT2VqZEhhTjhXZUkzNU1nakZBY1plYTlmYzZKZGpmZmhjZ056aDJKSjUxZzVrU2JtRHVycU44RWFSNXEyOC1rbXlQV2tfMHgtM0dQLXdJNHZISTIzZ2ZkMGdWSnJJU3kyWVg4QmUtWS1sRXlSNU5wbzlkWGwwQWxZejRSWXpkV0JKQ0JHczhVUU5rVDZ6dw?oc=5",
+     "time": "2026-11-02T13:29:43+00:00"
+    },
+    {
+     "title": "United Parcel Service's Earnings Declined in Q3. Is the Dividend Still Safe?",
+     "publisher": "The Globe and Mail",
+     "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQaElLeEdZMVZSVHI2Y2lESkhHM3pnR3hNNFlvbFVFTU95TzNIdDVOTktJQXZLTHRXN0dfY0dqVkZNMktxZkluTmRYQXhoWVVaRWgtdmpERV9mb3JBdWw4WkdsX1ZtLWpKUXBZamR2cDlYbXZIRXB4Y0pQTmtybmVrR2p2V1JzcjBJRjhiX1ZaSVFzWmdHXzVFRTc0X2ljYjg5V1hWbE13V2d5S2dWQ3NIMlkyUURGRE96MkNLNGU3OE5CeHdEQkNCbzhVeGlyLXBkTVNjODRJT21PUUdROUN0MGxiOEhWY2hIVGlUT25xTzBMNVk?oc=5",
+     "time": "2026-11-02T13:22:47+00:00"
     }
    ],
    "brief": null
