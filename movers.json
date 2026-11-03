@@ -1,17 +1,17 @@
 {
  "date": "2026-11-03",
  "threshold": 3.0,
- "updated": "2026-11-03T21:00:10+00:00",
+ "updated": "2026-11-03T21:05:12+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 754.13,
-   "change_pct": 0.27
+   "price": 754.17,
+   "change_pct": 0.28
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 685.3,
-   "change_pct": 0.62
+   "price": 685.5,
+   "change_pct": 0.65
   },
   "TLT": {
    "name": "Long Treasuries",
@@ -174,9 +174,9 @@
    "symbol": "ANET",
    "name": "Arista Networks",
    "list": "portfolio",
-   "price": 169.91,
+   "price": 170.16,
    "prev_close": 164.14,
-   "change_pct": 3.5,
+   "change_pct": 3.7,
    "trigger_change": 3.5,
    "peak_change": 3.7,
    "first_seen": "2026-11-03T14:56:24+00:00",
@@ -187,10 +187,10 @@
     "change_pct": 1.93
    },
    "chart": {
-    "ema8": -3.0,
-    "ema21": -7.7,
-    "sma50": -12.6,
-    "sma200": 2.6,
+    "ema8": -2.9,
+    "ema21": -7.6,
+    "sma50": -12.5,
+    "sma200": 2.8,
     "momentum": false
    },
    "headlines": [
@@ -246,12 +246,87 @@
    "brief": "2026-11-03-ANET"
   },
   {
+   "symbol": "NOW",
+   "name": "ServiceNow",
+   "list": "portfolio",
+   "price": 109.16,
+   "prev_close": 106.01,
+   "change_pct": 3.0,
+   "trigger_change": 3.0,
+   "peak_change": 3.0,
+   "first_seen": "2026-11-03T21:05:12+00:00",
+   "sector": {
+    "etf": "IGV",
+    "name": "Software",
+    "price": 102.66,
+    "change_pct": 0.75
+   },
+   "chart": {
+    "ema8": -11.9,
+    "ema21": -18.7,
+    "sma50": -20.8,
+    "sma200": -4.9,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "ServiceNow Stock: Buy the Dip?",
+     "publisher": "The Globe and Mail",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQZ0czdkZGRkZWNUVkWDQ0MkxRRlFrU0hlWC1DbnllZkkwSnhTOHhfQjVkVTlZTEpYRzJNeFlFbFQxcmVnTEtzNndMRTdxMjhCcTJqWkNxeWZXRTc2UGtQRUt6RDlXZFhLMEE0ZjBVbWo4ODhRVERYY2g0bHBOQnVEdy1NQ3lWZnNwZjE2M3BXdHZqb1pEZFhtc3MxM0cySVZwRVZtWW93RjFva284a3pqTzVB?oc=5",
+     "time": "2026-11-03T19:24:05+00:00"
+    },
+    {
+     "title": "ServiceNow Just Lost 34% in a Week. Are Wall Street\u2019s Price Target Cuts Really That Bad?",
+     "publisher": "TIKR.com",
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQVkxQUENITEJtM3M3X2ljNnJsWXlHMjJqcnFCVmhEa25LUl9aWFA2b2dtZWFVazNCckpZekVGdDNzUFR0V003RVIzbWZHQnpVRmxaVE1oc2ZpVkZUbmsxWVlBR3VkNzA2X3NZZEl4ZkxXQlM1cGxCYlF1a0VyeWlOVFlCdk5ZcE53UVF2VzZTS1JMcVNtSTZnN0phNnk3ek5PMnFiMS03NHVFNU1VUlJWMw?oc=5",
+     "time": "2026-11-03T17:15:00+00:00"
+    },
+    {
+     "title": "ServiceNow (NYSE:NOW) Stock Rating Reaffirmed as Buy by Argus",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxObVpoaXdCWEJCSU04Nng0NTc2emplZ1FMUkpuSk84N1NLQ3JrbElMUVJZWDROSklaeWhQUlY0cmRfSElyNy02eW0wa2xteC1ZdDBxZmtPRExaT0Z0b1NScVJNQWk0b2I4enNkcEJqaFdNcWEtU19TNkN0U1NWR1B2QlJWUXBTcmhTc0haV2VpU1VXZ2FnUG1vYTE3bTVmUTBzcXozUWhwRUVic3JuQ212a294d3Z1MGp1V21YYTh3?oc=5",
+     "time": "2026-11-03T14:37:26+00:00"
+    },
+    {
+     "title": "Why ServiceNow Stock Is a Buy Now",
+     "publisher": "Barchart.com",
+     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNN1Awd0FValUtNWloQUtpMG9FOEFHQ2VHTG5CcGlWd1owd1pWSmlIdDRYd29RcUdtOVdETGlnenNwYzM2NEhyeVZnbEE3Mk1HS2xQRl9GZWhKaE1JcjJENW9jd2FFcDJnODRKQXR5TnBGd2s0X1U2cjJBcEJXTFlaQVpxcw?oc=5",
+     "time": "2026-11-03T12:29:04+00:00"
+    },
+    {
+     "title": "Is ServiceNow Stock Really Expensive?",
+     "publisher": "Trefis",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPUHh1alV5R2Y2VVRmQ0lzNDZxVlAzQkVWdXZQcy1qTGdJSUZXeWZxbWYtN21hY1pOYXpWWWtyZmhhT1llc2FGeGo3OXdyVUhDRHFURUFwakVuamllbEVac1RyVXE2Tkt3cjZkNmFfaHliRmZaXzRNUlUyVnhXc3MzN19wOG9LMURzX09KdlRXeWtUUHMwRGFtcGsta0U?oc=5",
+     "time": "2026-11-03T11:39:06+00:00"
+    },
+    {
+     "title": "63,968 ServiceNow, Inc. $NOW Shares Purchased by GRIMES & Co WEALTH MANAGEMENT LLC",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOV2xxVjNMeDdsZ3RNc1NIc29KZC05cXRMMFVMcE1tVktRRmN6M2pIMTdYVi1nTXAtX0Jvd0FmaUhEY3dBNmlGR0NVV0JpeTRsVkp3SVNnNVZfcC1TMWtuU2RPWk5ka181dTdTd2UxWUlObElRQlk0OWZPeFlPaGxubVZLU09TenZQQ096aDlvaWpxZUJoeGczZTQtcW9TcEx4S0pjSE1uWVdJQTFpb0pYZFpIQW1BRlZPcTgyb1c3YmNEajdsV0lrWGRubk5KQ3R5bV9V?oc=5",
+     "time": "2026-11-03T09:20:10+00:00"
+    },
+    {
+     "title": "ServiceNow, Inc. $NOW Stock: BOCHK Asset Management Ltd Raises Holdings",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOM25fN0E1X2VPSlBPSEQtU0g1MEhzeWU0VWhtaVVaTWNKOHpuLWxiSWVtQUJxTERzbTRETGNKYzU4UlN1ZzdFcUdMT3JreEZRTmJtNjhjb3prUFBscEIwOGNldnhza2w2cVhqd29WcVZUQl82emVVdjRWTTJsVWk2cGh1cGQ4RFBXUWd3NVRoMHJRcl8zRWRWYmp4WkxCSGJWaUN0UFRQcUFZdkRnSVFmQXNWRHRwcVhTSFp5TDNNel9tbXExUS1J?oc=5",
+     "time": "2026-11-03T08:40:47+00:00"
+    },
+    {
+     "title": "ServiceNow: The Post-Earnings Dip Is A Major Opportunity (NYSE:NOW)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPMGdrZ2hVeXJLdWJTemV6OXQ3VEh1c001RkRHSWhOd25tUXVPSzdHWXNwcDgyRG1EeGZxOWhGMFptWmZkYW9aZUNmYkdxMW5fTGMtRHllMy12emNRcmhqX2JfR21wMnZ1dVZ1Ym1xcHp5MXRfT05ZcjBRNXNFcjBsZzEwQmcyUDlzTWRxMlR0by0yV2JYQmhmQnVkQXg?oc=5",
+     "time": "2026-11-03T04:47:03+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
    "symbol": "AVGO",
    "name": "Broadcom",
    "list": "portfolio",
-   "price": 332.13,
+   "price": 331.58,
    "prev_close": 322.23,
-   "change_pct": 3.1,
+   "change_pct": 2.9,
    "trigger_change": 3.2,
    "peak_change": 4.0,
    "first_seen": "2026-11-03T14:56:24+00:00",
@@ -262,10 +337,10 @@
     "change_pct": 1.93
    },
    "chart": {
-    "ema8": -0.4,
-    "ema21": -2.3,
-    "sma50": -5.5,
-    "sma200": -9.6,
+    "ema8": -0.5,
+    "ema21": -2.5,
+    "sma50": -5.6,
+    "sma200": -9.8,
     "momentum": false
    },
    "headlines": [
@@ -324,7 +399,7 @@
    "symbol": "NVDA",
    "name": "Nvidia",
    "list": "portfolio",
-   "price": 206.61,
+   "price": 206.65,
    "prev_close": 202.06,
    "change_pct": 2.3,
    "trigger_change": 3.0,
@@ -394,6 +469,81 @@
     }
    ],
    "brief": "2026-11-03-NVDA"
+  },
+  {
+   "symbol": "AMAT",
+   "name": "Applied Materials",
+   "list": "portfolio",
+   "price": 382.61,
+   "prev_close": 374.53,
+   "change_pct": 2.2,
+   "trigger_change": 3.0,
+   "peak_change": 3.0,
+   "first_seen": "2026-11-03T16:07:15+00:00",
+   "sector": {
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 518.14,
+    "change_pct": 1.93
+   },
+   "chart": {
+    "ema8": -3.1,
+    "ema21": -9.1,
+    "sma50": -15.6,
+    "sma200": -14.0,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Applied Materials Just Dropped 29% In a Month: Will November 12 Earnings Rescue or Break AMAT Stock?",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQXU1a3l3bFBJeDBwLVA5eVoxZHRZOEg4enhrcXI3MTdfSlpRR3U2Z1gyRy1XOFhmRkVCdlFHR3FmRUhWaWV5aGZQRzNwTDNwbmhTODI1WWtkak42SzRKempqdVBDSXRUWlk2bmRPWXBFeThSOExlNERjT3ZNVDdrLXlKZWp0aTBObF9KUFJSMVdTbFBsc0IxdmkyNEpFTDQ?oc=5",
+     "time": "2026-11-03T20:05:44+00:00"
+    },
+    {
+     "title": "What Does Applied Materials Stock\u2019s Winning Streak Really Prove?",
+     "publisher": "Trefis",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdmVFVTRBWXVsak9XZk5GTkpjTXI4dmZPSzZ4NWRkS2xaNHFKcmwtM0lCbzQ1TF9CdDF4eTBUemxtVXJPdXpPYmJKaXA5QldwNkMtMFNvLU5wRXAtdHM5anpoN280eDhpcjR4LXQ5bzRrYkNJT251U2FQQ3hLWUpqdXhJR1JfSFNtYkZUdE5UNnpvU2ZQQ3RrWGpYZFdqMDFHZjJiczZBZ0lEZGtsNVVHSG1uM0hPcy1Mc2tUdUtHajA?oc=5",
+     "time": "2026-11-03T12:02:01+00:00"
+    },
+    {
+     "title": "Testing Support Level, AMAT Stock Drops 3.99% on Monday",
+     "publisher": "JournalArta",
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPN1locHRtbzlndkIyU3FYb0EySVR3NVJBQjdPRnAtdW1yaWJoaFlKZThLSUEwUTl6M2dGWjROZHRESGQ1Z0oxaXF1cXVKdTVqLXdnMUZLNGR5dzFhdWxsT1ZtRWhxNGszVnY2QVJjejFPY3RxWGc5ZWZmSjR0RmNZb1JYU29oeWtmSDhJa3NnZUdnMWJkQ2VR?oc=5",
+     "time": "2026-11-03T11:07:38+00:00"
+    },
+    {
+     "title": "Did Earnings Growth Just Shift Applied Materials (AMAT) Investment Narrative?",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNcEJfcVUzMWNlUmVHdTlWVTNjRVBJTzV2TFBCWVRCU0hNSGRPMndxNExua1dEaUtlM3NSaG9CREZUUDdSNlY2RURkSXI0bFd4TjY3Y3pkN3dxUHZXblU4TVhINlR3UFhSd1hyVFAtSDBrWW5VSE9ITk91U3Y2RzFwVFkta0JscE9rTGFBUl9SSXZYbDZDbER4NUwtbw?oc=5",
+     "time": "2026-11-03T02:10:00+00:00"
+    },
+    {
+     "title": "Applied Materials (AMAT) Dips More Than Broader Market: What You Should Know",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNOFRXbGEtYVRGeVlxcU1DSlRaMGhsWEpYcGQ1dlFtRFc5ODBWWVRrdW1tZGJUcko5clN0Y3VWVE5yanl0bFNiT0h0aUVsMGtGV2lIU3diYVByeUQwXzN4VWR4UVhjaVd1S3Iwem44ZTdTWFpoNmlIMWJwQWVSUHktLVVwd2xNTGVTcnN1WW9QdGh5QTRNa3o4QVlsU1p5QQ?oc=5",
+     "time": "2026-11-02T21:45:02+00:00"
+    },
+    {
+     "title": "Applied Materials Inc Stock (AMAT) Moved Down by 3.12% on Nov 2: Key Drivers Unveiled",
+     "publisher": "TradingKey",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPc2pNVE9oNkgteVM4MVRNNk5oZGpHcXh3X0N2Q3NUeWlzNW0xZjJRRDRvQVRZN0FWSnU5M3RQLS0zVHpKMDZBeUplSnliSkdSdGY2U29nUHk5TmdoMjRXcnAzOUZ1b1dfMGYybWRvRXB0Zl9IZ1NZd01qR3JEVVQzRlJyamtoSHVuYnlV?oc=5",
+     "time": "2026-11-02T20:15:40+00:00"
+    },
+    {
+     "title": "Applied Materials (AMAT) Stock Could Be Above Fair Value As AI Packaging Bet Expands",
+     "publisher": "Simply Wall St",
+     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNQk14ekR4TnlWN0VGU01ZaFdjSzkyeXVzRXplMEhqTVN5akVDVkVEVUExTi1idTB5MzFWM1B1OWpRM2ppczUtamJWempCOU4tTE1sbGpTYTJ5dEFRR0pDQU5ENU1mLWMzbTBmc1FiaFotdXY4U043UTRSSlhqckw2ZVFEN01mVF9CTngtaFhqV3dJNFlqeC02U0hWdVlDdHZ5VmFGWTZlNXJsV2FCSVg0NFJkcnhmMmJtNTNuS0w0ZUhiQ0U0QmlHR01oQmxxd01TLUlTYnlhaTNqQdIB3wFBVV95cUxPa2w1NjJqOHB2QVFYNEU0M29DMlVzUE5IbkxzZndZY0FJcWdHYzNvSGM0MWxESE5ESjU5c0J6cWZwREZCTm1acWl5U210QnNUUU9wMXBwcVg3dnUwTGJ6ODRXejFkT3JIQWdDTDZEdmlTYlhhcXBzWmJMZ2tVSk01RVc2b3dpQUlJZ1BRZFg4bHdVYmpja1otb3kwekNVV3c0QTlLd0t1Qk5COE4xM1o3aE4zUnl5d3R6WDhRTDljR0lBdGR5aWdjSm1wZXJtVXJXb0tFQ0FlV3g1c2xUODBn?oc=5",
+     "time": "2026-11-02T16:54:35+00:00"
+    },
+    {
+     "title": "AMAT Stock Quote Price and Forecast",
+     "publisher": "CNN",
+     "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE01d0hqbmgzSUQxZDJmZ3RXaElXLUFtLVVBb1FOMnRtMnZwZ1YteUpybDhTWUhMY1NEV3FEeHBSQW9GQWMtakNkdnN4NUMzN043?oc=5",
+     "time": "2026-11-02T15:37:54+00:00"
+    }
+   ],
+   "brief": "2026-11-03-AMAT"
   },
   {
    "symbol": "AXON",
@@ -471,87 +621,12 @@
    "brief": "2026-11-03-AXON"
   },
   {
-   "symbol": "AMAT",
-   "name": "Applied Materials",
-   "list": "portfolio",
-   "price": 381.92,
-   "prev_close": 374.53,
-   "change_pct": 2.0,
-   "trigger_change": 3.0,
-   "peak_change": 3.0,
-   "first_seen": "2026-11-03T16:07:15+00:00",
-   "sector": {
-    "etf": "SMH",
-    "name": "Semiconductors",
-    "price": 518.14,
-    "change_pct": 1.93
-   },
-   "chart": {
-    "ema8": -3.3,
-    "ema21": -9.2,
-    "sma50": -15.7,
-    "sma200": -14.2,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Applied Materials Just Dropped 29% In a Month: Will November 12 Earnings Rescue or Break AMAT Stock?",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQXU1a3l3bFBJeDBwLVA5eVoxZHRZOEg4enhrcXI3MTdfSlpRR3U2Z1gyRy1XOFhmRkVCdlFHR3FmRUhWaWV5aGZQRzNwTDNwbmhTODI1WWtkak42SzRKempqdVBDSXRUWlk2bmRPWXBFeThSOExlNERjT3ZNVDdrLXlKZWp0aTBObF9KUFJSMVdTbFBsc0IxdmkyNEpFTDQ?oc=5",
-     "time": "2026-11-03T20:05:44+00:00"
-    },
-    {
-     "title": "What Does Applied Materials Stock\u2019s Winning Streak Really Prove?",
-     "publisher": "Trefis",
-     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdmVFVTRBWXVsak9XZk5GTkpjTXI4dmZPSzZ4NWRkS2xaNHFKcmwtM0lCbzQ1TF9CdDF4eTBUemxtVXJPdXpPYmJKaXA5QldwNkMtMFNvLU5wRXAtdHM5anpoN280eDhpcjR4LXQ5bzRrYkNJT251U2FQQ3hLWUpqdXhJR1JfSFNtYkZUdE5UNnpvU2ZQQ3RrWGpYZFdqMDFHZjJiczZBZ0lEZGtsNVVHSG1uM0hPcy1Mc2tUdUtHajA?oc=5",
-     "time": "2026-11-03T12:02:01+00:00"
-    },
-    {
-     "title": "Testing Support Level, AMAT Stock Drops 3.99% on Monday",
-     "publisher": "JournalArta",
-     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPN1locHRtbzlndkIyU3FYb0EySVR3NVJBQjdPRnAtdW1yaWJoaFlKZThLSUEwUTl6M2dGWjROZHRESGQ1Z0oxaXF1cXVKdTVqLXdnMUZLNGR5dzFhdWxsT1ZtRWhxNGszVnY2QVJjejFPY3RxWGc5ZWZmSjR0RmNZb1JYU29oeWtmSDhJa3NnZUdnMWJkQ2VR?oc=5",
-     "time": "2026-11-03T11:07:38+00:00"
-    },
-    {
-     "title": "Did Earnings Growth Just Shift Applied Materials (AMAT) Investment Narrative?",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNcEJfcVUzMWNlUmVHdTlWVTNjRVBJTzV2TFBCWVRCU0hNSGRPMndxNExua1dEaUtlM3NSaG9CREZUUDdSNlY2RURkSXI0bFd4TjY3Y3pkN3dxUHZXblU4TVhINlR3UFhSd1hyVFAtSDBrWW5VSE9ITk91U3Y2RzFwVFkta0JscE9rTGFBUl9SSXZYbDZDbER4NUwtbw?oc=5",
-     "time": "2026-11-03T02:10:00+00:00"
-    },
-    {
-     "title": "Applied Materials (AMAT) Dips More Than Broader Market: What You Should Know",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNOFRXbGEtYVRGeVlxcU1DSlRaMGhsWEpYcGQ1dlFtRFc5ODBWWVRrdW1tZGJUcko5clN0Y3VWVE5yanl0bFNiT0h0aUVsMGtGV2lIU3diYVByeUQwXzN4VWR4UVhjaVd1S3Iwem44ZTdTWFpoNmlIMWJwQWVSUHktLVVwd2xNTGVTcnN1WW9QdGh5QTRNa3o4QVlsU1p5QQ?oc=5",
-     "time": "2026-11-02T21:45:02+00:00"
-    },
-    {
-     "title": "Applied Materials Inc Stock (AMAT) Moved Down by 3.12% on Nov 2: Key Drivers Unveiled",
-     "publisher": "TradingKey",
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPc2pNVE9oNkgteVM4MVRNNk5oZGpHcXh3X0N2Q3NUeWlzNW0xZjJRRDRvQVRZN0FWSnU5M3RQLS0zVHpKMDZBeUplSnliSkdSdGY2U29nUHk5TmdoMjRXcnAzOUZ1b1dfMGYybWRvRXB0Zl9IZ1NZd01qR3JEVVQzRlJyamtoSHVuYnlV?oc=5",
-     "time": "2026-11-02T20:15:40+00:00"
-    },
-    {
-     "title": "Applied Materials (AMAT) Stock Could Be Above Fair Value As AI Packaging Bet Expands",
-     "publisher": "Simply Wall St",
-     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNQk14ekR4TnlWN0VGU01ZaFdjSzkyeXVzRXplMEhqTVN5akVDVkVEVUExTi1idTB5MzFWM1B1OWpRM2ppczUtamJWempCOU4tTE1sbGpTYTJ5dEFRR0pDQU5ENU1mLWMzbTBmc1FiaFotdXY4U043UTRSSlhqckw2ZVFEN01mVF9CTngtaFhqV3dJNFlqeC02U0hWdVlDdHZ5VmFGWTZlNXJsV2FCSVg0NFJkcnhmMmJtNTNuS0w0ZUhiQ0U0QmlHR01oQmxxd01TLUlTYnlhaTNqQdIB3wFBVV95cUxPa2w1NjJqOHB2QVFYNEU0M29DMlVzUE5IbkxzZndZY0FJcWdHYzNvSGM0MWxESE5ESjU5c0J6cWZwREZCTm1acWl5U210QnNUUU9wMXBwcVg3dnUwTGJ6ODRXejFkT3JIQWdDTDZEdmlTYlhhcXBzWmJMZ2tVSk01RVc2b3dpQUlJZ1BRZFg4bHdVYmpja1otb3kwekNVV3c0QTlLd0t1Qk5COE4xM1o3aE4zUnl5d3R6WDhRTDljR0lBdGR5aWdjSm1wZXJtVXJXb0tFQ0FlV3g1c2xUODBn?oc=5",
-     "time": "2026-11-02T16:54:35+00:00"
-    },
-    {
-     "title": "AMAT Stock Quote Price and Forecast",
-     "publisher": "CNN",
-     "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE01d0hqbmgzSUQxZDJmZ3RXaElXLUFtLVVBb1FOMnRtMnZwZ1YteUpybDhTWUhMY1NEV3FEeHBSQW9GQWMtakNkdnN4NUMzN043?oc=5",
-     "time": "2026-11-02T15:37:54+00:00"
-    }
-   ],
-   "brief": "2026-11-03-AMAT"
-  },
-  {
    "symbol": "CRWD",
    "name": "CrowdStrike",
    "list": "portfolio",
-   "price": 244.68,
+   "price": 244.55,
    "prev_close": 241.81,
-   "change_pct": 1.2,
+   "change_pct": 1.1,
    "trigger_change": 3.2,
    "peak_change": 3.4,
    "first_seen": "2026-11-03T15:31:50+00:00",
@@ -562,10 +637,10 @@
     "change_pct": 0.75
    },
    "chart": {
-    "ema8": -2.4,
+    "ema8": -2.5,
     "ema21": -2.5,
-    "sma50": 1.0,
-    "sma200": 45.2,
+    "sma50": 0.9,
+    "sma200": 45.1,
     "momentum": false
    },
    "headlines": [
