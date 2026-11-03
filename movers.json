@@ -1,22 +1,22 @@
 {
  "date": "2026-11-03",
  "threshold": 3.0,
- "updated": "2026-11-03T15:16:42+00:00",
+ "updated": "2026-11-03T15:26:46+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 754.51,
-   "change_pct": 0.32
+   "price": 754.31,
+   "change_pct": 0.29
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 686.2,
-   "change_pct": 0.75
+   "price": 685.72,
+   "change_pct": 0.68
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 81.03,
-   "change_pct": -0.86
+   "price": 81.1,
+   "change_pct": -0.77
   }
  },
  "movers": [
@@ -24,17 +24,17 @@
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 150.94,
+   "price": 150.87,
    "prev_close": 141.39,
-   "change_pct": 6.8,
+   "change_pct": 6.7,
    "trigger_change": 5.6,
-   "peak_change": 6.8,
+   "peak_change": 7.8,
    "first_seen": "2026-11-03T14:56:24+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 102.18,
-    "change_pct": 0.27
+    "price": 102.08,
+    "change_pct": 0.17
    },
    "chart": {
     "ema8": -5.6,
@@ -99,23 +99,23 @@
    "symbol": "APP",
    "name": "AppLovin",
    "list": "portfolio",
-   "price": 238.21,
+   "price": 237.52,
    "prev_close": 228.85,
-   "change_pct": 4.1,
+   "change_pct": 3.8,
    "trigger_change": 4.4,
    "peak_change": 4.4,
    "first_seen": "2026-11-03T14:56:24+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 102.18,
-    "change_pct": 0.27
+    "price": 102.08,
+    "change_pct": 0.17
    },
    "chart": {
-    "ema8": -3.4,
-    "ema21": -9.4,
-    "sma50": -18.3,
-    "sma200": -42.2,
+    "ema8": -3.6,
+    "ema21": -9.6,
+    "sma50": -18.5,
+    "sma200": -42.4,
     "momentum": false
    },
    "headlines": [
@@ -171,26 +171,101 @@
    "brief": null
   },
   {
+   "symbol": "ANET",
+   "name": "Arista Networks",
+   "list": "portfolio",
+   "price": 169.81,
+   "prev_close": 164.14,
+   "change_pct": 3.5,
+   "trigger_change": 3.5,
+   "peak_change": 3.7,
+   "first_seen": "2026-11-03T14:56:24+00:00",
+   "sector": {
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 519.87,
+    "change_pct": 2.27
+   },
+   "chart": {
+    "ema8": -3.1,
+    "ema21": -7.7,
+    "sma50": -12.6,
+    "sma200": 2.6,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Dear Arista Networks Stock Fans, Mark Your Calendars for November 3",
+     "publisher": "Barchart.com",
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOU0ZteTM5eHcwSm9pdDc5d1VpTVlCQUlBY0dvRWh5SWZ1d0dIVjY1NTdiVmI4bll2OE1jZGxYYmdQRVJQdmppMXlfTjZOMzVBUEJSUHNsanc2WEd0QzFZRG4xQy1Xa054eURVRmpjTXdxSGZSVjNrYVhoNmhTbndCdE1JSXN5c0taLUZRTmNpRTN6NE4tWEZVeTlQMWdIRjBxZGZFUmprRlg1MUdDM0Nz?oc=5",
+     "time": "2026-11-03T14:30:09+00:00"
+    },
+    {
+     "title": "Arista Networks (NYSE:ANET) Stock Breaks Below 200 Day Moving Average - Here's What Happened",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOY016bk01Q19zV3FHZUtaMkF3eDNZbDYtdDlxUy1wdWo1X0NXWlZFVVVGWXVBS3o2SVhsNmhiSGMwN1ZnaENIVVdtUFM1ekNVTUFtSkRNa0sweDZoSWY3TmtLRTh2S0F4QTByVklBYm16TFFYR0FEZ2NwOVZYNUlkekl1amFsV25VT0pXNzZ2dC1CbjNoTEdWY2NHaGVvbFFQcDA1MXFXaUxFa0o1eUtYejluZHFlaXBfaWVpNXZBSFJWZXFick9NLXF0ejBRamRTMHpNdTIwYVNuUDlUV0xlTA?oc=5",
+     "time": "2026-11-03T09:09:56+00:00"
+    },
+    {
+     "title": "BOCHK Asset Management Ltd Buys 13,800 Shares of Arista Networks, Inc. $ANET",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPbm5YU2l6b0MzQldWei1pOGd3TDBOZUVEOXhYUXRCZjdPaHRkcUFvUC02TENIbnh6YkNoYzd4YnA3RFhzSkZpRUtLTGZsT25Zb2VlRk1oY0k0OWpBbDB6dkRVaC1objNJc08xeXRmZFctX0Uzc0VnYS1yMjRXS0ZhX016cU1wY2xzaXhNSmFfcUh6bHpDekZWcXpjQ0xqRUZaU1ZERHBZbTBWMGFuUnJ1cEszaHo3WWFlbWxmRUxRdnlWOTJIZXZlQndVZVY3UQ?oc=5",
+     "time": "2026-11-03T08:20:11+00:00"
+    },
+    {
+     "title": "Arista Networks, Inc. $ANET Holdings Lessened by Aware Super Pty Ltd as trustee of Aware Super",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPRTU2WDNpUkJlTkpqOHo5a1VMbmxXNjB1QWluQ0hzSkQ3LUlPRy0wWkFUMklQakxmZXJNWk1ycG1kRjdFZGRrYXE0M05OQVp2Vmh0RUF3OVFsbVRzNVVWOS1GZ1VSRXhmazEycEM1d21pRHdEdFBidjV2cVFfcjlvVm8zU0FmeWk3d0I2c2s0dGNtWElnalExWFd3QmRlaWUwS1NsS3F3VW1wdFdibVEwaW1MZHhwdlhwQldpd28wMEJnUUFEMkRkYmhPRDl0Q05VbWpvTEJuMjVyczY3anVqT2U3dzlkRWc?oc=5",
+     "time": "2026-11-03T08:10:10+00:00"
+    },
+    {
+     "title": "Arista Networks Reports on November 3. The Number That Matters Is Gross Margin, Not Revenue",
+     "publisher": "TIKR.com",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOLXU0NDJVWlJYU3FCdFBkMFBCY0w3Nmt6amRJNUk2Umg4ZnNhbkhCVS1qSElWM0czZUl2MDIzNFI1SnNUMHRMQlBqQ3k0RmU5WUVjeTJtYXJSZmFvbENKSlBSa1BnNGlTRENiLVo4SjNNWkZ2enBlZWRFdVVrTDA3WnA0c01TUHlYcHJzamJqMEViWkhYM0NnMHRKRktady14VlhJRldhNnRqdjlWZHMyVHZYdkVnZw?oc=5",
+     "time": "2026-11-02T23:26:15+00:00"
+    },
+    {
+     "title": "Arista Networks (NYSE:ANET) Shares Down 2.9% - What's Next?",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPYVg2LTlOeHhyM2dRTTFjdnl6d1FMQzlsaXRBU01hWFZrSlp6T1N6TlJuTWhWN0FtMHQweGdTOG9mLXJKV3A1Skhsbi04QU5FdU1tVC01OV9IaDRwOFRzb0I1V0Q0OTRQQTFJSEUtTTZpRl9aN2VlNEFseVVMZ2U0UExmc20xWGpVX3JpQmJ4N19ZTWFUem1qRE1rMTEwdXdWTVJ1N2tJckhIZzlYWVpoOQ?oc=5",
+     "time": "2026-11-02T23:06:40+00:00"
+    },
+    {
+     "title": "Arista Networks Stocks Move Lower With Earnings Testing Growth Against Margin Guidance",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPQlhoUHFLZnFSRHNWRTZId1J5T2t5Q2xTMFRCVEE1TjBpdFlyZ3lJWnhIRkhDWnliUUJhVGU3SXZibWcwVDU5d0FoQnlaQnNzbjRXUHF1VEljZ1lmY1J3ckZKUHJPRk85OTJXR2pqSXh6WXMzRHJzSzR0V0Z5cTlXdkpEWVZQc1I0QmZ5TS1VV3htRVE2ZmN1WXJiUWNEdkk?oc=5",
+     "time": "2026-11-02T18:03:22+00:00"
+    },
+    {
+     "title": "Arista Networks' 8-quarter beat streak raises the bar for Q3: What to expect? (ANET:NYSE)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdWxIM25WSm5zZ2lVTzIzNHluc004M05JR2lCZzdOc3RsYWlROFhrVnJ0WDNKazBHbXdFVEk3elFNVkZVZ2M4MDdEeWFNYmtVYlNNVVFQVXNST1pLTlhyUWQ1TFoyaDNuOUpYMnVIdFlERVJVVEQ5YnJrbEdmZ1M1c0lEUEdpSVlCcGRvcVJJakxFZmswVVdVY2dNRS1tcmF2WWlFLWJSdzZ6WklDTTFoQlR3?oc=5",
+     "time": "2026-11-02T15:38:24+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
    "symbol": "AVGO",
    "name": "Broadcom",
    "list": "portfolio",
-   "price": 332.98,
+   "price": 333.28,
    "prev_close": 322.23,
-   "change_pct": 3.3,
+   "change_pct": 3.4,
    "trigger_change": 3.2,
    "peak_change": 3.4,
    "first_seen": "2026-11-03T14:56:24+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 520.7,
-    "change_pct": 2.44
+    "price": 519.87,
+    "change_pct": 2.27
    },
    "chart": {
-    "ema8": -0.2,
-    "ema21": -2.1,
+    "ema8": -0.1,
+    "ema21": -2.0,
     "sma50": -5.2,
-    "sma200": -9.4,
+    "sma200": -9.3,
     "momentum": false
    },
    "headlines": [
@@ -249,7 +324,7 @@
    "symbol": "NVDA",
    "name": "Nvidia",
    "list": "portfolio",
-   "price": 208.21,
+   "price": 208.17,
    "prev_close": 202.06,
    "change_pct": 3.0,
    "trigger_change": 3.0,
@@ -258,8 +333,8 @@
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 520.7,
-    "change_pct": 2.44
+    "price": 519.87,
+    "change_pct": 2.27
    },
    "chart": {
     "ema8": -1.0,
@@ -321,85 +396,10 @@
    "brief": null
   },
   {
-   "symbol": "ANET",
-   "name": "Arista Networks",
-   "list": "portfolio",
-   "price": 164.14,
-   "prev_close": 168.86,
-   "change_pct": -2.8,
-   "trigger_change": 3.5,
-   "peak_change": 3.7,
-   "first_seen": "2026-11-03T14:56:24+00:00",
-   "sector": {
-    "etf": "SMH",
-    "name": "Semiconductors",
-    "price": 520.7,
-    "change_pct": 2.44
-   },
-   "chart": {
-    "ema8": -7.1,
-    "ema21": -11.5,
-    "sma50": -15.7,
-    "sma200": -0.7,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Dear Arista Networks Stock Fans, Mark Your Calendars for November 3",
-     "publisher": "Barchart.com",
-     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOU0ZteTM5eHcwSm9pdDc5d1VpTVlCQUlBY0dvRWh5SWZ1d0dIVjY1NTdiVmI4bll2OE1jZGxYYmdQRVJQdmppMXlfTjZOMzVBUEJSUHNsanc2WEd0QzFZRG4xQy1Xa054eURVRmpjTXdxSGZSVjNrYVhoNmhTbndCdE1JSXN5c0taLUZRTmNpRTN6NE4tWEZVeTlQMWdIRjBxZGZFUmprRlg1MUdDM0Nz?oc=5",
-     "time": "2026-11-03T14:30:09+00:00"
-    },
-    {
-     "title": "Arista Networks (NYSE:ANET) Stock Breaks Below 200 Day Moving Average - Here's What Happened",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOY016bk01Q19zV3FHZUtaMkF3eDNZbDYtdDlxUy1wdWo1X0NXWlZFVVVGWXVBS3o2SVhsNmhiSGMwN1ZnaENIVVdtUFM1ekNVTUFtSkRNa0sweDZoSWY3TmtLRTh2S0F4QTByVklBYm16TFFYR0FEZ2NwOVZYNUlkekl1amFsV25VT0pXNzZ2dC1CbjNoTEdWY2NHaGVvbFFQcDA1MXFXaUxFa0o1eUtYejluZHFlaXBfaWVpNXZBSFJWZXFick9NLXF0ejBRamRTMHpNdTIwYVNuUDlUV0xlTA?oc=5",
-     "time": "2026-11-03T09:09:56+00:00"
-    },
-    {
-     "title": "BOCHK Asset Management Ltd Buys 13,800 Shares of Arista Networks, Inc. $ANET",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPbm5YU2l6b0MzQldWei1pOGd3TDBOZUVEOXhYUXRCZjdPaHRkcUFvUC02TENIbnh6YkNoYzd4YnA3RFhzSkZpRUtLTGZsT25Zb2VlRk1oY0k0OWpBbDB6dkRVaC1objNJc08xeXRmZFctX0Uzc0VnYS1yMjRXS0ZhX016cU1wY2xzaXhNSmFfcUh6bHpDekZWcXpjQ0xqRUZaU1ZERHBZbTBWMGFuUnJ1cEszaHo3WWFlbWxmRUxRdnlWOTJIZXZlQndVZVY3UQ?oc=5",
-     "time": "2026-11-03T08:20:11+00:00"
-    },
-    {
-     "title": "Arista Networks, Inc. $ANET Holdings Lessened by Aware Super Pty Ltd as trustee of Aware Super",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPRTU2WDNpUkJlTkpqOHo5a1VMbmxXNjB1QWluQ0hzSkQ3LUlPRy0wWkFUMklQakxmZXJNWk1ycG1kRjdFZGRrYXE0M05OQVp2Vmh0RUF3OVFsbVRzNVVWOS1GZ1VSRXhmazEycEM1d21pRHdEdFBidjV2cVFfcjlvVm8zU0FmeWk3d0I2c2s0dGNtWElnalExWFd3QmRlaWUwS1NsS3F3VW1wdFdibVEwaW1MZHhwdlhwQldpd28wMEJnUUFEMkRkYmhPRDl0Q05VbWpvTEJuMjVyczY3anVqT2U3dzlkRWc?oc=5",
-     "time": "2026-11-03T08:10:10+00:00"
-    },
-    {
-     "title": "Arista Networks Reports on November 3. The Number That Matters Is Gross Margin, Not Revenue",
-     "publisher": "TIKR.com",
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOLXU0NDJVWlJYU3FCdFBkMFBCY0w3Nmt6amRJNUk2Umg4ZnNhbkhCVS1qSElWM0czZUl2MDIzNFI1SnNUMHRMQlBqQ3k0RmU5WUVjeTJtYXJSZmFvbENKSlBSa1BnNGlTRENiLVo4SjNNWkZ2enBlZWRFdVVrTDA3WnA0c01TUHlYcHJzamJqMEViWkhYM0NnMHRKRktady14VlhJRldhNnRqdjlWZHMyVHZYdkVnZw?oc=5",
-     "time": "2026-11-02T23:26:15+00:00"
-    },
-    {
-     "title": "Arista Networks (NYSE:ANET) Shares Down 2.9% - What's Next?",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPYVg2LTlOeHhyM2dRTTFjdnl6d1FMQzlsaXRBU01hWFZrSlp6T1N6TlJuTWhWN0FtMHQweGdTOG9mLXJKV3A1Skhsbi04QU5FdU1tVC01OV9IaDRwOFRzb0I1V0Q0OTRQQTFJSEUtTTZpRl9aN2VlNEFseVVMZ2U0UExmc20xWGpVX3JpQmJ4N19ZTWFUem1qRE1rMTEwdXdWTVJ1N2tJckhIZzlYWVpoOQ?oc=5",
-     "time": "2026-11-02T23:06:40+00:00"
-    },
-    {
-     "title": "Arista Networks Stocks Move Lower With Earnings Testing Growth Against Margin Guidance",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPQlhoUHFLZnFSRHNWRTZId1J5T2t5Q2xTMFRCVEE1TjBpdFlyZ3lJWnhIRkhDWnliUUJhVGU3SXZibWcwVDU5d0FoQnlaQnNzbjRXUHF1VEljZ1lmY1J3ckZKUHJPRk85OTJXR2pqSXh6WXMzRHJzSzR0V0Z5cTlXdkpEWVZQc1I0QmZ5TS1VV3htRVE2ZmN1WXJiUWNEdkk?oc=5",
-     "time": "2026-11-02T18:03:22+00:00"
-    },
-    {
-     "title": "Arista Networks' 8-quarter beat streak raises the bar for Q3: What to expect? (ANET:NYSE)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdWxIM25WSm5zZ2lVTzIzNHluc004M05JR2lCZzdOc3RsYWlROFhrVnJ0WDNKazBHbXdFVEk3elFNVkZVZ2M4MDdEeWFNYmtVYlNNVVFQVXNST1pLTlhyUWQ1TFoyaDNuOUpYMnVIdFlERVJVVEQ5YnJrbEdmZ1M1c0lEUEdpSVlCcGRvcVJJakxFZmswVVdVY2dNRS1tcmF2WWlFLWJSdzZ6WklDTTFoQlR3?oc=5",
-     "time": "2026-11-02T15:38:24+00:00"
-    }
-   ],
-   "brief": null
-  },
-  {
    "symbol": "AXON",
    "name": "Axon",
    "list": "watchlist",
-   "price": 416.3,
+   "price": 416.33,
    "prev_close": 425.43,
    "change_pct": -2.1,
    "trigger_change": -3.1,
@@ -408,8 +408,8 @@
    "sector": {
     "etf": "XLI",
     "name": "Industrials",
-    "price": 171.09,
-    "change_pct": 0.81
+    "price": 171.48,
+    "change_pct": 1.04
    },
    "chart": {
     "ema8": -1.3,
