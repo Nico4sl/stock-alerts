@@ -1,17 +1,17 @@
 {
  "date": "2026-11-03",
  "threshold": 3.0,
- "updated": "2026-11-03T15:11:42+00:00",
+ "updated": "2026-11-03T15:16:42+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 754.37,
-   "change_pct": 0.3
+   "price": 754.51,
+   "change_pct": 0.32
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 685.77,
-   "change_pct": 0.69
+   "price": 686.2,
+   "change_pct": 0.75
   },
   "TLT": {
    "name": "Long Treasuries",
@@ -24,23 +24,23 @@
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 150.45,
+   "price": 150.94,
    "prev_close": 141.39,
-   "change_pct": 6.4,
+   "change_pct": 6.8,
    "trigger_change": 5.6,
-   "peak_change": 6.4,
+   "peak_change": 6.8,
    "first_seen": "2026-11-03T14:56:24+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 101.89,
-    "change_pct": -0.01
+    "price": 102.18,
+    "change_pct": 0.27
    },
    "chart": {
-    "ema8": -5.8,
-    "ema21": -15.5,
-    "sma50": -27.3,
-    "sma200": -15.4,
+    "ema8": -5.6,
+    "ema21": -15.3,
+    "sma50": -27.1,
+    "sma200": -15.2,
     "momentum": false
    },
    "headlines": [
@@ -96,176 +96,26 @@
    "brief": null
   },
   {
-   "symbol": "AVGO",
-   "name": "Broadcom",
-   "list": "portfolio",
-   "price": 332.43,
-   "prev_close": 322.23,
-   "change_pct": 3.2,
-   "trigger_change": 3.2,
-   "peak_change": 3.4,
-   "first_seen": "2026-11-03T14:56:24+00:00",
-   "sector": {
-    "etf": "SMH",
-    "name": "Semiconductors",
-    "price": 520.02,
-    "change_pct": 2.3
-   },
-   "chart": {
-    "ema8": -0.3,
-    "ema21": -2.2,
-    "sma50": -5.4,
-    "sma200": -9.5,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Broadcom (AVGO) Stock Could Be Cheap On a 7x Five Year Run",
-     "publisher": "Simply Wall St",
-     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNb0MzaDN4blhyNUxLcDJfRXhiUHptbU1fQXVzMXVzUWJwS1MzYXE3Z19TUldCaWJ5NHVPYXZybzZZM2txMkN4NTZEZW9TWE9BalgyVm92c2J3WktPNGdiWEtfaWdxSjZCNzFYTUZVLUs2WlRvUldVdUVtS2JRSkhyR2Q3eTU1TEh2Z3MtcVg4aVlRRF9ETGlfMG1zV0l5cmtxTHZ0NFRGeDBmUFNKdGdxM2hXQnBlV0ZvUk1VMlNBX04wdnFCOXk1UtIBzgFBVV95cUxQUWhnM20yTkYxRW5zekFpNzZGLXpmZ1ZaS242NjlwcnA1N2d1bEVXaXAzdzJoVmI0Qk1OZmI0NkJTbWF3V0xLbDJtaG8wNDNwSUdGUkF0cGtoeHlDRDNsYV9BdlJTUDlhX1FqVW9RVlZhajZ0ckVCSVF3eGpVbWhST3RDb3JoT1dRUzl0ZjhJajg1cEdkT2thUWtVNHZDY1JLM0FGZEhaMUdKdGxkWkJqZHVrN25YR3NHSS1ubTFRVjBPZ1NNU3ljdk94VjJKdw?oc=5",
-     "time": "2026-11-03T13:38:27+00:00"
-    },
-    {
-     "title": "RBC Launches Auto-Callable Contingent Coupon Notes Linked to Broadcom Stock, Maturing 2029",
-     "publisher": "Kalkine Media",
-     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxObmhOcmI4cWpFUDRPVTNNenpFZ3lUX3JvYmk1ekNfNjBoY3V0Q3pCSmw1X1NUdHU5ZEFPek9YZWhBbG01Z3lCdkVHNFZWd3NzUVBhWV9WVjFZQkk1Mmg5Wlp0UnVuRlF4S1hUVFl6aEFEaWRHVGFKaFhMT2t0UUxFTmkyRHI5eFM3SVhyaGREdW1VcTJTQ3YzR2stTjhjVXAzR1FuSktGc1dLV013d0VUYkNWank5Q0oweTlZYW1ic2h1UFhYTl82QTU0VmRTOXRUaWc?oc=5",
-     "time": "2026-11-03T13:25:55+00:00"
-    },
-    {
-     "title": "Broadcom stock draws AI demand focus from Anthropic leases",
-     "publisher": "ad-hoc-news.de",
-     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOS1ViMEV5V0IwNGxXRkk5b1UyN0FJRkc1MmdneEhrWUZKVE1wRUIwRWdydzE4cXJuMURLWG91V3RnMktza2duajBUV09RMXV4cFRsQWNDR004VTBUbkpBZlFxZnpweTBnOHQyV3Jnemt6UkhvelRQb0RXVDVKZTdOT3F3aEFrd2FSN0tuQWYyaldBNEtpOTNZMzkyWVBURkl1dEIwaVRoRmdVQnZ5bU1WelZUMFdNY1FqMFpYNmln?oc=5",
-     "time": "2026-11-03T11:53:09+00:00"
-    },
-    {
-     "title": "The Zacks Analyst Blog Highlights AMD, NVIDIA, Broadcom and Intel",
-     "publisher": "Yahoo! Finance Canada",
-     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOUTJwTmZGeE5IazRQQW1BV1lXSnM5NS1xWHpIb1hkQWEyZ0ZiLXcxUjE5RWoyTGhmYldmUmg3MDBBWER4Mld6RkhOTDN6NGhXQU8xd1JOSHpPdDhheUNwZnlwaEZXelZ2cm9UellodG5NNy1EQUd6N21fTS1FQXdPYXJuVTBieUd3akE?oc=5",
-     "time": "2026-11-03T11:30:00+00:00"
-    },
-    {
-     "title": "30,078 Broadcom Inc. $AVGO Shares Sold by VIRGINIA RETIREMENT SYSTEMS ET Al",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOUE5Lb05EbFM4Q1RZTmF2VVFueFBjRXA2M0NSbXlCU25ReFRoNGJJcGcyNWlHa2wwbUJ6OFN5RXdjTXVhUU1WMHlETTFIWkhPalBGa0h4RE9lOHB6bXpjOEt2NHBsNF9ONGhSc3dPWGh2MHFfY2dBYjVFZHZ5c1FaUTg5WFpxT3R3TEo2bTZtdnE0MzRvUlNCejhTU2Fnc1FaTFJVNy0tVmFLaVZpWmU4UlVVUkw1Yk5tUlVSMEI4MDBqdkVTdm03NFUya056UQ?oc=5",
-     "time": "2026-11-03T10:27:32+00:00"
-    },
-    {
-     "title": "Broadcom Inc. $AVGO Holdings Lessened by Renaissance Investment Group LLC",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQMmE5SU1vQUR5MGlBVDNuMVl5RW4xYnpfZTRQanY0bmc2eXVhLWVzMERHWXBmUmJrZHdPeWk0N0x2M3A1ZVR3dmw1TFlRMzY0QlVDei0yb25Lb2Y4VTA2NlhyOTBaMHJyZWM2bkdjc2ZfUzVtaFE4X0ppc0Y4eWZNcV95TkU4ZktSbWY5aFFMMlQxdlRCRVItWk0xcGo5ZlNlcnRjRjFlb0U2S1dXSDRadk9sbmlzcW5oM1VuandVZENvSjB1STVOMlNlWW4?oc=5",
-     "time": "2026-11-03T10:15:29+00:00"
-    },
-    {
-     "title": "Broadcom Inc. $AVGO Stock Acquired by Soltis Investment Advisors LLC",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPTmNhQ3FWYjNvQkdCYm1XYjQzZi05VlVQcXJISEhOUjN0Szh6ZWRlTU5RSzNSXzFUQkVKejZycThRd3drZHoxTkVYRXI2RU54MDUxWUE5TDloVklBTWtkU0tHeEdFZ2Z0ZERmbFpEUmZHM3FvTmViMVNPb0s4NE96TzU3YXpRbXUwNnFoTy1OTnZiZlRiMFFQS1NqcEt6d2xUSU95WFZGTnZTb2NiNjNxS29DbV9ZTnQ5X0ZBVmhtT3I3YkswcVE?oc=5",
-     "time": "2026-11-03T10:09:35+00:00"
-    },
-    {
-     "title": "8,842 Broadcom Inc. $AVGO Shares Purchased by Partners Wealth Management LLC",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPcXh1ZmlGcWZqeS1SaFZmd1ZyOTJpM3JDWkhsUTNkQXVmVXVudXcwQjViRDRQNUdxVmpBRnlfNmlxRDV5SFN4a0NYODk5ZlpTTFlFZWFHMTBTVjR0V3NnWE9JcXhIQy13aXl6TWM5UnBDTm1GdUdzeXk2QzctZGFxM05hd0xpcUctWWs1dTIyb0RLNmJBMHVpNDB0UGNsUDdEdUlkcUdNeDlwSU1UU3BlcmRUb3NPRURoR0pIcE5mZ3ZCdDBQeUhPUmYxSWtVVU0?oc=5",
-     "time": "2026-11-03T10:09:35+00:00"
-    }
-   ],
-   "brief": null
-  },
-  {
-   "symbol": "ANET",
-   "name": "Arista Networks",
-   "list": "portfolio",
-   "price": 169.18,
-   "prev_close": 164.14,
-   "change_pct": 3.1,
-   "trigger_change": 3.5,
-   "peak_change": 3.7,
-   "first_seen": "2026-11-03T14:56:24+00:00",
-   "sector": {
-    "etf": "SMH",
-    "name": "Semiconductors",
-    "price": 520.02,
-    "change_pct": 2.3
-   },
-   "chart": {
-    "ema8": -3.4,
-    "ema21": -8.1,
-    "sma50": -13.0,
-    "sma200": 2.2,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Dear Arista Networks Stock Fans, Mark Your Calendars for November 3",
-     "publisher": "Barchart.com",
-     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOU0ZteTM5eHcwSm9pdDc5d1VpTVlCQUlBY0dvRWh5SWZ1d0dIVjY1NTdiVmI4bll2OE1jZGxYYmdQRVJQdmppMXlfTjZOMzVBUEJSUHNsanc2WEd0QzFZRG4xQy1Xa054eURVRmpjTXdxSGZSVjNrYVhoNmhTbndCdE1JSXN5c0taLUZRTmNpRTN6NE4tWEZVeTlQMWdIRjBxZGZFUmprRlg1MUdDM0Nz?oc=5",
-     "time": "2026-11-03T14:30:09+00:00"
-    },
-    {
-     "title": "Arista Networks (NYSE:ANET) Stock Breaks Below 200 Day Moving Average - Here's What Happened",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOY016bk01Q19zV3FHZUtaMkF3eDNZbDYtdDlxUy1wdWo1X0NXWlZFVVVGWXVBS3o2SVhsNmhiSGMwN1ZnaENIVVdtUFM1ekNVTUFtSkRNa0sweDZoSWY3TmtLRTh2S0F4QTByVklBYm16TFFYR0FEZ2NwOVZYNUlkekl1amFsV25VT0pXNzZ2dC1CbjNoTEdWY2NHaGVvbFFQcDA1MXFXaUxFa0o1eUtYejluZHFlaXBfaWVpNXZBSFJWZXFick9NLXF0ejBRamRTMHpNdTIwYVNuUDlUV0xlTA?oc=5",
-     "time": "2026-11-03T09:09:56+00:00"
-    },
-    {
-     "title": "BOCHK Asset Management Ltd Buys 13,800 Shares of Arista Networks, Inc. $ANET",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPbm5YU2l6b0MzQldWei1pOGd3TDBOZUVEOXhYUXRCZjdPaHRkcUFvUC02TENIbnh6YkNoYzd4YnA3RFhzSkZpRUtLTGZsT25Zb2VlRk1oY0k0OWpBbDB6dkRVaC1objNJc08xeXRmZFctX0Uzc0VnYS1yMjRXS0ZhX016cU1wY2xzaXhNSmFfcUh6bHpDekZWcXpjQ0xqRUZaU1ZERHBZbTBWMGFuUnJ1cEszaHo3WWFlbWxmRUxRdnlWOTJIZXZlQndVZVY3UQ?oc=5",
-     "time": "2026-11-03T08:20:11+00:00"
-    },
-    {
-     "title": "Arista Networks, Inc. $ANET Holdings Lessened by Aware Super Pty Ltd as trustee of Aware Super",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPRTU2WDNpUkJlTkpqOHo5a1VMbmxXNjB1QWluQ0hzSkQ3LUlPRy0wWkFUMklQakxmZXJNWk1ycG1kRjdFZGRrYXE0M05OQVp2Vmh0RUF3OVFsbVRzNVVWOS1GZ1VSRXhmazEycEM1d21pRHdEdFBidjV2cVFfcjlvVm8zU0FmeWk3d0I2c2s0dGNtWElnalExWFd3QmRlaWUwS1NsS3F3VW1wdFdibVEwaW1MZHhwdlhwQldpd28wMEJnUUFEMkRkYmhPRDl0Q05VbWpvTEJuMjVyczY3anVqT2U3dzlkRWc?oc=5",
-     "time": "2026-11-03T08:10:10+00:00"
-    },
-    {
-     "title": "Arista Networks Reports on November 3. The Number That Matters Is Gross Margin, Not Revenue",
-     "publisher": "TIKR.com",
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOLXU0NDJVWlJYU3FCdFBkMFBCY0w3Nmt6amRJNUk2Umg4ZnNhbkhCVS1qSElWM0czZUl2MDIzNFI1SnNUMHRMQlBqQ3k0RmU5WUVjeTJtYXJSZmFvbENKSlBSa1BnNGlTRENiLVo4SjNNWkZ2enBlZWRFdVVrTDA3WnA0c01TUHlYcHJzamJqMEViWkhYM0NnMHRKRktady14VlhJRldhNnRqdjlWZHMyVHZYdkVnZw?oc=5",
-     "time": "2026-11-02T23:26:15+00:00"
-    },
-    {
-     "title": "Arista Networks (NYSE:ANET) Shares Down 2.9% - What's Next?",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPYVg2LTlOeHhyM2dRTTFjdnl6d1FMQzlsaXRBU01hWFZrSlp6T1N6TlJuTWhWN0FtMHQweGdTOG9mLXJKV3A1Skhsbi04QU5FdU1tVC01OV9IaDRwOFRzb0I1V0Q0OTRQQTFJSEUtTTZpRl9aN2VlNEFseVVMZ2U0UExmc20xWGpVX3JpQmJ4N19ZTWFUem1qRE1rMTEwdXdWTVJ1N2tJckhIZzlYWVpoOQ?oc=5",
-     "time": "2026-11-02T23:06:40+00:00"
-    },
-    {
-     "title": "Arista Networks Stocks Move Lower With Earnings Testing Growth Against Margin Guidance",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPQlhoUHFLZnFSRHNWRTZId1J5T2t5Q2xTMFRCVEE1TjBpdFlyZ3lJWnhIRkhDWnliUUJhVGU3SXZibWcwVDU5d0FoQnlaQnNzbjRXUHF1VEljZ1lmY1J3ckZKUHJPRk85OTJXR2pqSXh6WXMzRHJzSzR0V0Z5cTlXdkpEWVZQc1I0QmZ5TS1VV3htRVE2ZmN1WXJiUWNEdkk?oc=5",
-     "time": "2026-11-02T18:03:22+00:00"
-    },
-    {
-     "title": "Arista Networks' 8-quarter beat streak raises the bar for Q3: What to expect? (ANET:NYSE)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdWxIM25WSm5zZ2lVTzIzNHluc004M05JR2lCZzdOc3RsYWlROFhrVnJ0WDNKazBHbXdFVEk3elFNVkZVZ2M4MDdEeWFNYmtVYlNNVVFQVXNST1pLTlhyUWQ1TFoyaDNuOUpYMnVIdFlERVJVVEQ5YnJrbEdmZ1M1c0lEUEdpSVlCcGRvcVJJakxFZmswVVdVY2dNRS1tcmF2WWlFLWJSdzZ6WklDTTFoQlR3?oc=5",
-     "time": "2026-11-02T15:38:24+00:00"
-    }
-   ],
-   "brief": null
-  },
-  {
    "symbol": "APP",
    "name": "AppLovin",
    "list": "portfolio",
-   "price": 236.03,
+   "price": 238.21,
    "prev_close": 228.85,
-   "change_pct": 3.1,
+   "change_pct": 4.1,
    "trigger_change": 4.4,
    "peak_change": 4.4,
    "first_seen": "2026-11-03T14:56:24+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 101.89,
-    "change_pct": -0.01
+    "price": 102.18,
+    "change_pct": 0.27
    },
    "chart": {
-    "ema8": -4.1,
-    "ema21": -10.2,
-    "sma50": -19.0,
-    "sma200": -42.7,
+    "ema8": -3.4,
+    "ema21": -9.4,
+    "sma50": -18.3,
+    "sma200": -42.2,
     "momentum": false
    },
    "headlines": [
@@ -321,26 +171,251 @@
    "brief": null
   },
   {
+   "symbol": "AVGO",
+   "name": "Broadcom",
+   "list": "portfolio",
+   "price": 332.98,
+   "prev_close": 322.23,
+   "change_pct": 3.3,
+   "trigger_change": 3.2,
+   "peak_change": 3.4,
+   "first_seen": "2026-11-03T14:56:24+00:00",
+   "sector": {
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 520.7,
+    "change_pct": 2.44
+   },
+   "chart": {
+    "ema8": -0.2,
+    "ema21": -2.1,
+    "sma50": -5.2,
+    "sma200": -9.4,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Broadcom (AVGO) Stock Could Be Cheap On a 7x Five Year Run",
+     "publisher": "Simply Wall St",
+     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNb0MzaDN4blhyNUxLcDJfRXhiUHptbU1fQXVzMXVzUWJwS1MzYXE3Z19TUldCaWJ5NHVPYXZybzZZM2txMkN4NTZEZW9TWE9BalgyVm92c2J3WktPNGdiWEtfaWdxSjZCNzFYTUZVLUs2WlRvUldVdUVtS2JRSkhyR2Q3eTU1TEh2Z3MtcVg4aVlRRF9ETGlfMG1zV0l5cmtxTHZ0NFRGeDBmUFNKdGdxM2hXQnBlV0ZvUk1VMlNBX04wdnFCOXk1UtIBzgFBVV95cUxQUWhnM20yTkYxRW5zekFpNzZGLXpmZ1ZaS242NjlwcnA1N2d1bEVXaXAzdzJoVmI0Qk1OZmI0NkJTbWF3V0xLbDJtaG8wNDNwSUdGUkF0cGtoeHlDRDNsYV9BdlJTUDlhX1FqVW9RVlZhajZ0ckVCSVF3eGpVbWhST3RDb3JoT1dRUzl0ZjhJajg1cEdkT2thUWtVNHZDY1JLM0FGZEhaMUdKdGxkWkJqZHVrN25YR3NHSS1ubTFRVjBPZ1NNU3ljdk94VjJKdw?oc=5",
+     "time": "2026-11-03T13:38:27+00:00"
+    },
+    {
+     "title": "RBC Launches Auto-Callable Contingent Coupon Notes Linked to Broadcom Stock, Maturing 2029",
+     "publisher": "Kalkine Media",
+     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxObmhOcmI4cWpFUDRPVTNNenpFZ3lUX3JvYmk1ekNfNjBoY3V0Q3pCSmw1X1NUdHU5ZEFPek9YZWhBbG01Z3lCdkVHNFZWd3NzUVBhWV9WVjFZQkk1Mmg5Wlp0UnVuRlF4S1hUVFl6aEFEaWRHVGFKaFhMT2t0UUxFTmkyRHI5eFM3SVhyaGREdW1VcTJTQ3YzR2stTjhjVXAzR1FuSktGc1dLV013d0VUYkNWank5Q0oweTlZYW1ic2h1UFhYTl82QTU0VmRTOXRUaWc?oc=5",
+     "time": "2026-11-03T13:25:55+00:00"
+    },
+    {
+     "title": "Broadcom stock draws AI demand focus from Anthropic leases",
+     "publisher": "ad-hoc-news.de",
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOS1ViMEV5V0IwNGxXRkk5b1UyN0FJRkc1MmdneEhrWUZKVE1wRUIwRWdydzE4cXJuMURLWG91V3RnMktza2duajBUV09RMXV4cFRsQWNDR004VTBUbkpBZlFxZnpweTBnOHQyV3Jnemt6UkhvelRQb0RXVDVKZTdOT3F3aEFrd2FSN0tuQWYyaldBNEtpOTNZMzkyWVBURkl1dEIwaVRoRmdVQnZ5bU1WelZUMFdNY1FqMFpYNmln?oc=5",
+     "time": "2026-11-03T11:53:09+00:00"
+    },
+    {
+     "title": "The Zacks Analyst Blog Highlights AMD, NVIDIA, Broadcom and Intel",
+     "publisher": "Yahoo! Finance Canada",
+     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOUTJwTmZGeE5IazRQQW1BV1lXSnM5NS1xWHpIb1hkQWEyZ0ZiLXcxUjE5RWoyTGhmYldmUmg3MDBBWER4Mld6RkhOTDN6NGhXQU8xd1JOSHpPdDhheUNwZnlwaEZXelZ2cm9UellodG5NNy1EQUd6N21fTS1FQXdPYXJuVTBieUd3akE?oc=5",
+     "time": "2026-11-03T11:30:00+00:00"
+    },
+    {
+     "title": "30,078 Broadcom Inc. $AVGO Shares Sold by VIRGINIA RETIREMENT SYSTEMS ET Al",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOUE5Lb05EbFM4Q1RZTmF2VVFueFBjRXA2M0NSbXlCU25ReFRoNGJJcGcyNWlHa2wwbUJ6OFN5RXdjTXVhUU1WMHlETTFIWkhPalBGa0h4RE9lOHB6bXpjOEt2NHBsNF9ONGhSc3dPWGh2MHFfY2dBYjVFZHZ5c1FaUTg5WFpxT3R3TEo2bTZtdnE0MzRvUlNCejhTU2Fnc1FaTFJVNy0tVmFLaVZpWmU4UlVVUkw1Yk5tUlVSMEI4MDBqdkVTdm03NFUya056UQ?oc=5",
+     "time": "2026-11-03T10:27:32+00:00"
+    },
+    {
+     "title": "Broadcom Inc. $AVGO Holdings Lessened by Renaissance Investment Group LLC",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQMmE5SU1vQUR5MGlBVDNuMVl5RW4xYnpfZTRQanY0bmc2eXVhLWVzMERHWXBmUmJrZHdPeWk0N0x2M3A1ZVR3dmw1TFlRMzY0QlVDei0yb25Lb2Y4VTA2NlhyOTBaMHJyZWM2bkdjc2ZfUzVtaFE4X0ppc0Y4eWZNcV95TkU4ZktSbWY5aFFMMlQxdlRCRVItWk0xcGo5ZlNlcnRjRjFlb0U2S1dXSDRadk9sbmlzcW5oM1VuandVZENvSjB1STVOMlNlWW4?oc=5",
+     "time": "2026-11-03T10:15:29+00:00"
+    },
+    {
+     "title": "Broadcom Inc. $AVGO Stock Acquired by Soltis Investment Advisors LLC",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPTmNhQ3FWYjNvQkdCYm1XYjQzZi05VlVQcXJISEhOUjN0Szh6ZWRlTU5RSzNSXzFUQkVKejZycThRd3drZHoxTkVYRXI2RU54MDUxWUE5TDloVklBTWtkU0tHeEdFZ2Z0ZERmbFpEUmZHM3FvTmViMVNPb0s4NE96TzU3YXpRbXUwNnFoTy1OTnZiZlRiMFFQS1NqcEt6d2xUSU95WFZGTnZTb2NiNjNxS29DbV9ZTnQ5X0ZBVmhtT3I3YkswcVE?oc=5",
+     "time": "2026-11-03T10:09:35+00:00"
+    },
+    {
+     "title": "8,842 Broadcom Inc. $AVGO Shares Purchased by Partners Wealth Management LLC",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPcXh1ZmlGcWZqeS1SaFZmd1ZyOTJpM3JDWkhsUTNkQXVmVXVudXcwQjViRDRQNUdxVmpBRnlfNmlxRDV5SFN4a0NYODk5ZlpTTFlFZWFHMTBTVjR0V3NnWE9JcXhIQy13aXl6TWM5UnBDTm1GdUdzeXk2QzctZGFxM05hd0xpcUctWWs1dTIyb0RLNmJBMHVpNDB0UGNsUDdEdUlkcUdNeDlwSU1UU3BlcmRUb3NPRURoR0pIcE5mZ3ZCdDBQeUhPUmYxSWtVVU0?oc=5",
+     "time": "2026-11-03T10:09:35+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
+   "symbol": "NVDA",
+   "name": "Nvidia",
+   "list": "portfolio",
+   "price": 208.21,
+   "prev_close": 202.06,
+   "change_pct": 3.0,
+   "trigger_change": 3.0,
+   "peak_change": 3.0,
+   "first_seen": "2026-11-03T15:16:42+00:00",
+   "sector": {
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 520.7,
+    "change_pct": 2.44
+   },
+   "chart": {
+    "ema8": -1.0,
+    "ema21": -3.7,
+    "sma50": -6.0,
+    "sma200": 1.8,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Micron, Nvidia, and AMD lead chip stocks rebound",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOR241WmdKTExjbmZJcndhY3BOVG91eVFPT29xVzBLcVQ4NGQtUExYVDlray1hM1c5dENLekg3bkxyaHFramhTTVEwclZnci1uLWdvbi0zc21pbUMzazNZOFlRUEduSDF5al9jRjMxUG5FOGlTaTdTQVVKZVNRTWplRzh4UjdiYnNhZzBpTHlzS0Q4NzZLZmpfcjJLM1p3TlI3?oc=5",
+     "time": "2026-11-03T14:05:38+00:00"
+    },
+    {
+     "title": "How Big Could NVIDIA Stock\u2019s Next Fall Be?",
+     "publisher": "Trefis",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOUWFIWFBZRXhsVjdaeUNoY0FtWVMxRnAwZVJreVUxcVVud3FyRTRhZ2x0dVRlOTN4WnRtRnJMdnVUa1lQOWNsTkRBRnpNMzNTeGhPOWxRbklRTmxkeG5HTldQdFBEQ3l4T1doZUd0ZW1tUnlBTkhGc0hQZURrM3FPT2VFakRtbzJBUnNOTXo2ejFPaVBWdGhaR2ozS1htMEVjbkdn?oc=5",
+     "time": "2026-11-03T12:39:11+00:00"
+    },
+    {
+     "title": "Is NVIDIA's Cheap Valuation an Opportunity to Invest in the Stock?",
+     "publisher": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNeUhDeWpCU3FqUXJxOEExek1nVmZwU1N6NC0yaHp3bWpHU25oTFRyY2tRaFFpcHZISUZkc3RzX0tuZnVaN3FDUTkxODIwNUtwVTJnZW5zNXBrd244VG5IbEV5WktMWmJRdWRXSUN0ZkFIZzhqVlpJVHRpTkE4Z0hadDcxS3BmS1MtX1poTWtpUW9qNjhLQjByVWkwUm1ZMlpjNVNKQjlGTXNDY1A4YzBsNTJVUk9HTm4tSkVBeXp3?oc=5",
+     "time": "2026-11-03T12:32:00+00:00"
+    },
+    {
+     "title": "Nvidia\u2019s Dismal Run Might Be Coming to an End. Grab NVDA Stock While It\u2019s Still Around $200.",
+     "publisher": "Barchart.com",
+     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQaS1sOHNjaEtZdEY0aG9yTEZuRDVNU3M2a0EwckVaZG9HaE9MUVRNNkE0b1BlWlk2eEdVWkdzX0FGZHB5dGlpQ1kxU2ZoUkQxVHY5amFVNEdEaGRfTUpIMnhadHp0NXo2RDNLTFJ4aVVfZTVDc3I4RUpXdnpva1Nnc1J3TEJRUHQtUDhwUVA4N1N6bzQ0b3ZmUU91azFrSVp1ajcwZUM3X1BoM0JlQWpER1NnZzhRdWlaUWRLUG04UU9LSTJGQmdEc1Awdw?oc=5",
+     "time": "2026-11-03T12:24:25+00:00"
+    },
+    {
+     "title": "ChatGPT says Nvidia stock will hit this price by December 31, 2026",
+     "publisher": "Finbold",
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPTExtZk5ObVV5QmVnd1VWTkY3UUlZZWowNFdJT2o1TDZzSlRMX1dwNEgydHYyU19qSzhkRlhVRTNtSEN5aHlybE56b1ZFZk1pbDZGZzdQMllUR2tuR21XSmVkLXhpMWZvVVZYYS03R0dUN2FEVEljWTNzVThNNmluRkxNb08xQTNGU1A5T1ZqVQ?oc=5",
+     "time": "2026-11-03T12:18:47+00:00"
+    },
+    {
+     "title": "ETFs Bought $505.7 Million of NVIDIA (NVDA) on Friday",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOUzZ5XzJ3b29Ha0lwVWNYRDh0QnR2ZGRuZFVxQldKZjZxdDYwZmYtTl9rU3d2cF93U2tMYVdndzlpTHlQdmFaTDBJNG5EelkzS1JRRExaRnlWbVVnZzkxNEhyUFc0TDJHN1JadGV1eVlLaVlCd0g1dElpX19kVThET2ZIV2FGYmZzQnA5TDE1elRLYTNv?oc=5",
+     "time": "2026-11-03T11:00:45+00:00"
+    },
+    {
+     "title": "Nvidia: Trade The Fear With NVDL (NASDAQ:NVDA)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9NU1V6UmlhRnRlTWFMNmVsMFgzZ3BET1Bkdkk2eW5NLXBITGo0cnpVNnJkaUVzRmxlaERTRXlMbWZmVVF1dkxKSEJWMEc2M2JBak1lODZvcm5kczk1WlV5RzNoNzlaVXVrYkJ5NmlKazZpMDFaS1p6VTdMRVA?oc=5",
+     "time": "2026-11-03T10:13:25+00:00"
+    },
+    {
+     "title": "NVIDIA Corporation $NVDA Stock: Sherry Group Inc. Decreases Position",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQY01aQWRnc1QyMEpjQS1jRldhbS13NC1KV0JlYWJKVjBJUHVlcXhYVS1GM2Jua2VmWnJFQVVEMjBtNUM5OUZQaU11MTZUcjRIV0Y0WERkbjlSbWgtekU5OTlfNnlQN3F3X2V6RHZfRnplcjBjLXJUM21BQ0s0dTEzVW95UjBLTjg3My1tUHdickFjNmd5cjRsU255cXdEaUR0dnM2YW5mYldFUGY5S21rTDc3eEpFZWFqd1hrSWJFVEtQMUU1?oc=5",
+     "time": "2026-11-03T09:38:46+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
+   "symbol": "ANET",
+   "name": "Arista Networks",
+   "list": "portfolio",
+   "price": 164.14,
+   "prev_close": 168.86,
+   "change_pct": -2.8,
+   "trigger_change": 3.5,
+   "peak_change": 3.7,
+   "first_seen": "2026-11-03T14:56:24+00:00",
+   "sector": {
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 520.7,
+    "change_pct": 2.44
+   },
+   "chart": {
+    "ema8": -7.1,
+    "ema21": -11.5,
+    "sma50": -15.7,
+    "sma200": -0.7,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Dear Arista Networks Stock Fans, Mark Your Calendars for November 3",
+     "publisher": "Barchart.com",
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOU0ZteTM5eHcwSm9pdDc5d1VpTVlCQUlBY0dvRWh5SWZ1d0dIVjY1NTdiVmI4bll2OE1jZGxYYmdQRVJQdmppMXlfTjZOMzVBUEJSUHNsanc2WEd0QzFZRG4xQy1Xa054eURVRmpjTXdxSGZSVjNrYVhoNmhTbndCdE1JSXN5c0taLUZRTmNpRTN6NE4tWEZVeTlQMWdIRjBxZGZFUmprRlg1MUdDM0Nz?oc=5",
+     "time": "2026-11-03T14:30:09+00:00"
+    },
+    {
+     "title": "Arista Networks (NYSE:ANET) Stock Breaks Below 200 Day Moving Average - Here's What Happened",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOY016bk01Q19zV3FHZUtaMkF3eDNZbDYtdDlxUy1wdWo1X0NXWlZFVVVGWXVBS3o2SVhsNmhiSGMwN1ZnaENIVVdtUFM1ekNVTUFtSkRNa0sweDZoSWY3TmtLRTh2S0F4QTByVklBYm16TFFYR0FEZ2NwOVZYNUlkekl1amFsV25VT0pXNzZ2dC1CbjNoTEdWY2NHaGVvbFFQcDA1MXFXaUxFa0o1eUtYejluZHFlaXBfaWVpNXZBSFJWZXFick9NLXF0ejBRamRTMHpNdTIwYVNuUDlUV0xlTA?oc=5",
+     "time": "2026-11-03T09:09:56+00:00"
+    },
+    {
+     "title": "BOCHK Asset Management Ltd Buys 13,800 Shares of Arista Networks, Inc. $ANET",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPbm5YU2l6b0MzQldWei1pOGd3TDBOZUVEOXhYUXRCZjdPaHRkcUFvUC02TENIbnh6YkNoYzd4YnA3RFhzSkZpRUtLTGZsT25Zb2VlRk1oY0k0OWpBbDB6dkRVaC1objNJc08xeXRmZFctX0Uzc0VnYS1yMjRXS0ZhX016cU1wY2xzaXhNSmFfcUh6bHpDekZWcXpjQ0xqRUZaU1ZERHBZbTBWMGFuUnJ1cEszaHo3WWFlbWxmRUxRdnlWOTJIZXZlQndVZVY3UQ?oc=5",
+     "time": "2026-11-03T08:20:11+00:00"
+    },
+    {
+     "title": "Arista Networks, Inc. $ANET Holdings Lessened by Aware Super Pty Ltd as trustee of Aware Super",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPRTU2WDNpUkJlTkpqOHo5a1VMbmxXNjB1QWluQ0hzSkQ3LUlPRy0wWkFUMklQakxmZXJNWk1ycG1kRjdFZGRrYXE0M05OQVp2Vmh0RUF3OVFsbVRzNVVWOS1GZ1VSRXhmazEycEM1d21pRHdEdFBidjV2cVFfcjlvVm8zU0FmeWk3d0I2c2s0dGNtWElnalExWFd3QmRlaWUwS1NsS3F3VW1wdFdibVEwaW1MZHhwdlhwQldpd28wMEJnUUFEMkRkYmhPRDl0Q05VbWpvTEJuMjVyczY3anVqT2U3dzlkRWc?oc=5",
+     "time": "2026-11-03T08:10:10+00:00"
+    },
+    {
+     "title": "Arista Networks Reports on November 3. The Number That Matters Is Gross Margin, Not Revenue",
+     "publisher": "TIKR.com",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOLXU0NDJVWlJYU3FCdFBkMFBCY0w3Nmt6amRJNUk2Umg4ZnNhbkhCVS1qSElWM0czZUl2MDIzNFI1SnNUMHRMQlBqQ3k0RmU5WUVjeTJtYXJSZmFvbENKSlBSa1BnNGlTRENiLVo4SjNNWkZ2enBlZWRFdVVrTDA3WnA0c01TUHlYcHJzamJqMEViWkhYM0NnMHRKRktady14VlhJRldhNnRqdjlWZHMyVHZYdkVnZw?oc=5",
+     "time": "2026-11-02T23:26:15+00:00"
+    },
+    {
+     "title": "Arista Networks (NYSE:ANET) Shares Down 2.9% - What's Next?",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPYVg2LTlOeHhyM2dRTTFjdnl6d1FMQzlsaXRBU01hWFZrSlp6T1N6TlJuTWhWN0FtMHQweGdTOG9mLXJKV3A1Skhsbi04QU5FdU1tVC01OV9IaDRwOFRzb0I1V0Q0OTRQQTFJSEUtTTZpRl9aN2VlNEFseVVMZ2U0UExmc20xWGpVX3JpQmJ4N19ZTWFUem1qRE1rMTEwdXdWTVJ1N2tJckhIZzlYWVpoOQ?oc=5",
+     "time": "2026-11-02T23:06:40+00:00"
+    },
+    {
+     "title": "Arista Networks Stocks Move Lower With Earnings Testing Growth Against Margin Guidance",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPQlhoUHFLZnFSRHNWRTZId1J5T2t5Q2xTMFRCVEE1TjBpdFlyZ3lJWnhIRkhDWnliUUJhVGU3SXZibWcwVDU5d0FoQnlaQnNzbjRXUHF1VEljZ1lmY1J3ckZKUHJPRk85OTJXR2pqSXh6WXMzRHJzSzR0V0Z5cTlXdkpEWVZQc1I0QmZ5TS1VV3htRVE2ZmN1WXJiUWNEdkk?oc=5",
+     "time": "2026-11-02T18:03:22+00:00"
+    },
+    {
+     "title": "Arista Networks' 8-quarter beat streak raises the bar for Q3: What to expect? (ANET:NYSE)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdWxIM25WSm5zZ2lVTzIzNHluc004M05JR2lCZzdOc3RsYWlROFhrVnJ0WDNKazBHbXdFVEk3elFNVkZVZ2M4MDdEeWFNYmtVYlNNVVFQVXNST1pLTlhyUWQ1TFoyaDNuOUpYMnVIdFlERVJVVEQ5YnJrbEdmZ1M1c0lEUEdpSVlCcGRvcVJJakxFZmswVVdVY2dNRS1tcmF2WWlFLWJSdzZ6WklDTTFoQlR3?oc=5",
+     "time": "2026-11-02T15:38:24+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
    "symbol": "AXON",
    "name": "Axon",
    "list": "watchlist",
-   "price": 414.52,
+   "price": 416.3,
    "prev_close": 425.43,
-   "change_pct": -2.6,
+   "change_pct": -2.1,
    "trigger_change": -3.1,
    "peak_change": -3.1,
    "first_seen": "2026-11-03T15:06:39+00:00",
    "sector": {
     "etf": "XLI",
     "name": "Industrials",
-    "price": 171.1,
-    "change_pct": 0.82
+    "price": 171.09,
+    "change_pct": 0.81
    },
    "chart": {
-    "ema8": -1.7,
-    "ema21": -2.0,
-    "sma50": -9.0,
-    "sma200": -13.0,
+    "ema8": -1.3,
+    "ema21": -1.6,
+    "sma50": -8.7,
+    "sma200": -12.7,
     "momentum": false
    },
    "headlines": [
