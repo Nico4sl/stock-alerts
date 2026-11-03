@@ -1,22 +1,22 @@
 {
  "date": "2026-11-03",
  "threshold": 3.0,
- "updated": "2026-11-03T15:06:39+00:00",
+ "updated": "2026-11-03T15:11:42+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 754.05,
-   "change_pct": 0.26
+   "price": 754.37,
+   "change_pct": 0.3
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 685.92,
-   "change_pct": 0.71
+   "price": 685.77,
+   "change_pct": 0.69
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 80.99,
-   "change_pct": -0.91
+   "price": 81.03,
+   "change_pct": -0.86
   }
  },
  "movers": [
@@ -24,23 +24,23 @@
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 149.66,
+   "price": 150.45,
    "prev_close": 141.39,
-   "change_pct": 5.9,
+   "change_pct": 6.4,
    "trigger_change": 5.6,
-   "peak_change": 6.0,
+   "peak_change": 6.4,
    "first_seen": "2026-11-03T14:56:24+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 101.49,
-    "change_pct": -0.4
+    "price": 101.89,
+    "change_pct": -0.01
    },
    "chart": {
-    "ema8": -6.2,
-    "ema21": -15.9,
-    "sma50": -27.7,
-    "sma200": -15.9,
+    "ema8": -5.8,
+    "ema21": -15.5,
+    "sma50": -27.3,
+    "sma200": -15.4,
     "momentum": false
    },
    "headlines": [
@@ -96,176 +96,26 @@
    "brief": null
   },
   {
-   "symbol": "APP",
-   "name": "AppLovin",
-   "list": "portfolio",
-   "price": 237.63,
-   "prev_close": 228.85,
-   "change_pct": 3.8,
-   "trigger_change": 4.4,
-   "peak_change": 4.4,
-   "first_seen": "2026-11-03T14:56:24+00:00",
-   "sector": {
-    "etf": "IGV",
-    "name": "Software",
-    "price": 101.49,
-    "change_pct": -0.4
-   },
-   "chart": {
-    "ema8": -3.6,
-    "ema21": -9.6,
-    "sma50": -18.5,
-    "sma200": -42.4,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "AppLovin Corporation (NASDAQ:APP) SHAREHOLDER ALERT:",
-     "publisher": "GlobeNewswire",
-     "url": "https://news.google.com/rss/articles/CBMi4wJBVV95cUxQZjl1MHFqSFczTGtWXzIzTEZmd1dSVV9WMmtxZkdseTFGaWNqUHpqZTZHTHVwMEZIeUM5d0RJbUoyc0pCd2FmUXdoWGJDS0l0QmMzTVJyX0F6NkZOblNUMnJVdXFWdEhKV1BLdW9BTFY5bXc1VjFhSm1HRW5xQ2tWRUpyUENkdHhtSWhBVzdzLUw1alpYZi1zY3I3M3NOOUhRUDFIcmNkeVNKcExTT2l3TkpvX0FINDMxNF9XcXd4VEpkVjVVRkd5cmoxMVp6TkhtaFR4OHBONkU3TjY2U0hXNWYtM2s2QldkQm5ZLUt3LTcxNDYtWXpOeDBvTjhTMjBiMXdiTU9IaUltOWM1ZGRvb2FpUGFlZGRXTTVDZlZwVWc1Y2tZMVpUWEtIUDZCMHczT2FjYVRHcjJrMjAweExqMVlmYjJUaU9wcXZIdmdMZ2dWZTZVR1hGMFA1anJtXzBWRm1R?oc=5",
-     "time": "2026-11-03T14:00:00+00:00"
-    },
-    {
-     "title": "AppLovin Corporation (6RV.F) Stock Price, News, Quote & History",
-     "publisher": "Yahoo! Finance Canada",
-     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFA0OTE4ejVuUG5oSmE5VVhRcGRhbDAyUmp6MlgySm9HU2JySjB0cGhkZWgzcGxhYkFHb3pzbXI3UGtOTllyRlhZeG50bExjM21iallj?oc=5",
-     "time": "2026-11-03T12:23:27+00:00"
-    },
-    {
-     "title": "Bear Call Spread Ideas for Applovin Earnings",
-     "publisher": "Barchart.com",
-     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNYWN1cEJISmpqT010ZHNCYWo1YU1DdlQ0N2xiOHA4b3JrSGZpa0NoSkIzUEhhb0lmajRtWXBtSldoMXoxMlRDREFVTm1qSzZYSE5waGdWdTIwN21KRDc3YWFCVVZEUUJwLXhvQnd3S1NZdVhDV3RMRWN0M25zNWZBYkstVU43RGRpSGNMYkl1ZnB3Zw?oc=5",
-     "time": "2026-11-03T12:00:04+00:00"
-    },
-    {
-     "title": "APPLOVIN CORP (APPS.NE) Stock Price, News, Quote & History",
-     "publisher": "Yahoo! Finance Canada",
-     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5kVEJVUjJ6d1FrbkpqUVhhZEFOWmU3czVXd1o1UHpXV0cxcTFLbFpZUV9famlvUHFmemo1eEhGdjU2YWZmQ1VxOUtHcEMyU0FXVjhHSW93?oc=5",
-     "time": "2026-11-03T09:50:31+00:00"
-    },
-    {
-     "title": "Down 69% from its high: Is this 84% margin ad-tech stock a bargain?",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQSFlwWERBOUNzZUdIZFJteXRsVGVfNFgzM2xNNm5LMnQ5WTFtVHhjSlF6UU9MNTAtazlGLXVTVDJIQWdROXdCUl9NRVhJTlBuYXBFeWFraDR1TzdGM01kUW0ySXFNY19QekUtZENZU3k5djI3THdDZGdRUUhCWVVWc1ZjdTZoelk2ekhQZFJETUVmNmVI?oc=5",
-     "time": "2026-11-03T08:14:07+00:00"
-    },
-    {
-     "title": "AppLovin Corporation (APP) Stock Price, News, Quote & History",
-     "publisher": "Yahoo! Finance Canada",
-     "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1fUE8zMTBFRFRnQW1RSDJjM0p4R0Ixdzc5MDBDWnlqTjNpekJHU21nLUFHSWliMGxtR2hfajFEZ2hITHVkSGp5QVRrQlppWFYy?oc=5",
-     "time": "2026-11-03T03:25:21+00:00"
-    },
-    {
-     "title": "AppLovin earnings: what to look for from APP",
-     "publisher": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQSnc4SW9UbHNaTGJyX0wxcDhsY1BIWmNHc1YxeG5DZHRWYVJYQWtOLUw1LUJJOUFPNVRIYk4zdGR2YjE2VzBBWkFtZVZUVEZBaUhRTmZqam5xNXFUc0JSTFVZVVZqbW9VQUV3R0tjZWlCWFN1ZWExWFBQek1fWUhlTDE2ZmFoSUhnX1R3bnM3MDRpbUZiaVJNVkluRVBXRExkakthUXFLRQ?oc=5",
-     "time": "2026-11-03T03:23:00+00:00"
-    },
-    {
-     "title": "AppLovin Corporation Class Action Reminder - Robbins LLP",
-     "publisher": "GlobeNewswire",
-     "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxQcUhDUHloVUQySUJQRDdCTm1yWGNnRFR1Z25qcHpSSlB6UmxnT0RPOVRDTEN0eFU2c2J1NGlJaklxMzhDY2JoRE1PRWdQZkdoMGczUjhLNUlqNGpKdG03SWJMY3FnVVVfdjhGNFpsQmN2SkJJNGRUUG9IZ2QwOFhCQkV6V0hVVGhSNHItYWVYQXpoYmJwaDM5emdwTy1UY3FaRlhpRHU4eWluZGVwcnNLaDhmX090dS1icEhhaHhsbUNPUXA1czF2N01NcTJ3QkwyQm1OODhLejhsdTVjLWlGNE0wU0FoUkZQanhlNUhsZ1hZVHdzWTJ6aWVYSlhTd2tTVVEyYTJ6MFBNOURxTDN5eEVwalFyVEM4bEQwcFhVMnZ5YW8tN2ZXR3hVMDc1TmM?oc=5",
-     "time": "2026-11-03T01:22:00+00:00"
-    }
-   ],
-   "brief": null
-  },
-  {
-   "symbol": "ANET",
-   "name": "Arista Networks",
-   "list": "portfolio",
-   "price": 170.16,
-   "prev_close": 164.14,
-   "change_pct": 3.7,
-   "trigger_change": 3.5,
-   "peak_change": 3.7,
-   "first_seen": "2026-11-03T14:56:24+00:00",
-   "sector": {
-    "etf": "SMH",
-    "name": "Semiconductors",
-    "price": 520.13,
-    "change_pct": 2.33
-   },
-   "chart": {
-    "ema8": -2.9,
-    "ema21": -7.6,
-    "sma50": -12.5,
-    "sma200": 2.8,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Dear Arista Networks Stock Fans, Mark Your Calendars for November 3",
-     "publisher": "Barchart.com",
-     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOU0ZteTM5eHcwSm9pdDc5d1VpTVlCQUlBY0dvRWh5SWZ1d0dIVjY1NTdiVmI4bll2OE1jZGxYYmdQRVJQdmppMXlfTjZOMzVBUEJSUHNsanc2WEd0QzFZRG4xQy1Xa054eURVRmpjTXdxSGZSVjNrYVhoNmhTbndCdE1JSXN5c0taLUZRTmNpRTN6NE4tWEZVeTlQMWdIRjBxZGZFUmprRlg1MUdDM0Nz?oc=5",
-     "time": "2026-11-03T14:30:09+00:00"
-    },
-    {
-     "title": "Arista Networks (NYSE:ANET) Stock Breaks Below 200 Day Moving Average - Here's What Happened",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOY016bk01Q19zV3FHZUtaMkF3eDNZbDYtdDlxUy1wdWo1X0NXWlZFVVVGWXVBS3o2SVhsNmhiSGMwN1ZnaENIVVdtUFM1ekNVTUFtSkRNa0sweDZoSWY3TmtLRTh2S0F4QTByVklBYm16TFFYR0FEZ2NwOVZYNUlkekl1amFsV25VT0pXNzZ2dC1CbjNoTEdWY2NHaGVvbFFQcDA1MXFXaUxFa0o1eUtYejluZHFlaXBfaWVpNXZBSFJWZXFick9NLXF0ejBRamRTMHpNdTIwYVNuUDlUV0xlTA?oc=5",
-     "time": "2026-11-03T09:09:56+00:00"
-    },
-    {
-     "title": "BOCHK Asset Management Ltd Buys 13,800 Shares of Arista Networks, Inc. $ANET",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPbm5YU2l6b0MzQldWei1pOGd3TDBOZUVEOXhYUXRCZjdPaHRkcUFvUC02TENIbnh6YkNoYzd4YnA3RFhzSkZpRUtLTGZsT25Zb2VlRk1oY0k0OWpBbDB6dkRVaC1objNJc08xeXRmZFctX0Uzc0VnYS1yMjRXS0ZhX016cU1wY2xzaXhNSmFfcUh6bHpDekZWcXpjQ0xqRUZaU1ZERHBZbTBWMGFuUnJ1cEszaHo3WWFlbWxmRUxRdnlWOTJIZXZlQndVZVY3UQ?oc=5",
-     "time": "2026-11-03T08:20:11+00:00"
-    },
-    {
-     "title": "Arista Networks, Inc. $ANET Holdings Lessened by Aware Super Pty Ltd as trustee of Aware Super",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPRTU2WDNpUkJlTkpqOHo5a1VMbmxXNjB1QWluQ0hzSkQ3LUlPRy0wWkFUMklQakxmZXJNWk1ycG1kRjdFZGRrYXE0M05OQVp2Vmh0RUF3OVFsbVRzNVVWOS1GZ1VSRXhmazEycEM1d21pRHdEdFBidjV2cVFfcjlvVm8zU0FmeWk3d0I2c2s0dGNtWElnalExWFd3QmRlaWUwS1NsS3F3VW1wdFdibVEwaW1MZHhwdlhwQldpd28wMEJnUUFEMkRkYmhPRDl0Q05VbWpvTEJuMjVyczY3anVqT2U3dzlkRWc?oc=5",
-     "time": "2026-11-03T08:10:10+00:00"
-    },
-    {
-     "title": "Arista Networks Reports on November 3. The Number That Matters Is Gross Margin, Not Revenue",
-     "publisher": "TIKR.com",
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOLXU0NDJVWlJYU3FCdFBkMFBCY0w3Nmt6amRJNUk2Umg4ZnNhbkhCVS1qSElWM0czZUl2MDIzNFI1SnNUMHRMQlBqQ3k0RmU5WUVjeTJtYXJSZmFvbENKSlBSa1BnNGlTRENiLVo4SjNNWkZ2enBlZWRFdVVrTDA3WnA0c01TUHlYcHJzamJqMEViWkhYM0NnMHRKRktady14VlhJRldhNnRqdjlWZHMyVHZYdkVnZw?oc=5",
-     "time": "2026-11-02T23:26:15+00:00"
-    },
-    {
-     "title": "Arista Networks (NYSE:ANET) Shares Down 2.9% - What's Next?",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPYVg2LTlOeHhyM2dRTTFjdnl6d1FMQzlsaXRBU01hWFZrSlp6T1N6TlJuTWhWN0FtMHQweGdTOG9mLXJKV3A1Skhsbi04QU5FdU1tVC01OV9IaDRwOFRzb0I1V0Q0OTRQQTFJSEUtTTZpRl9aN2VlNEFseVVMZ2U0UExmc20xWGpVX3JpQmJ4N19ZTWFUem1qRE1rMTEwdXdWTVJ1N2tJckhIZzlYWVpoOQ?oc=5",
-     "time": "2026-11-02T23:06:40+00:00"
-    },
-    {
-     "title": "Arista Networks Stocks Move Lower With Earnings Testing Growth Against Margin Guidance",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPQlhoUHFLZnFSRHNWRTZId1J5T2t5Q2xTMFRCVEE1TjBpdFlyZ3lJWnhIRkhDWnliUUJhVGU3SXZibWcwVDU5d0FoQnlaQnNzbjRXUHF1VEljZ1lmY1J3ckZKUHJPRk85OTJXR2pqSXh6WXMzRHJzSzR0V0Z5cTlXdkpEWVZQc1I0QmZ5TS1VV3htRVE2ZmN1WXJiUWNEdkk?oc=5",
-     "time": "2026-11-02T18:03:22+00:00"
-    },
-    {
-     "title": "Arista Networks' 8-quarter beat streak raises the bar for Q3: What to expect? (ANET:NYSE)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdWxIM25WSm5zZ2lVTzIzNHluc004M05JR2lCZzdOc3RsYWlROFhrVnJ0WDNKazBHbXdFVEk3elFNVkZVZ2M4MDdEeWFNYmtVYlNNVVFQVXNST1pLTlhyUWQ1TFoyaDNuOUpYMnVIdFlERVJVVEQ5YnJrbEdmZ1M1c0lEUEdpSVlCcGRvcVJJakxFZmswVVdVY2dNRS1tcmF2WWlFLWJSdzZ6WklDTTFoQlR3?oc=5",
-     "time": "2026-11-02T15:38:24+00:00"
-    }
-   ],
-   "brief": null
-  },
-  {
    "symbol": "AVGO",
    "name": "Broadcom",
    "list": "portfolio",
-   "price": 333.28,
+   "price": 332.43,
    "prev_close": 322.23,
-   "change_pct": 3.4,
+   "change_pct": 3.2,
    "trigger_change": 3.2,
    "peak_change": 3.4,
    "first_seen": "2026-11-03T14:56:24+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 520.13,
-    "change_pct": 2.33
+    "price": 520.02,
+    "change_pct": 2.3
    },
    "chart": {
-    "ema8": -0.1,
-    "ema21": -2.0,
-    "sma50": -5.1,
-    "sma200": -9.3,
+    "ema8": -0.3,
+    "ema21": -2.2,
+    "sma50": -5.4,
+    "sma200": -9.5,
     "momentum": false
    },
    "headlines": [
@@ -321,26 +171,176 @@
    "brief": null
   },
   {
+   "symbol": "ANET",
+   "name": "Arista Networks",
+   "list": "portfolio",
+   "price": 169.18,
+   "prev_close": 164.14,
+   "change_pct": 3.1,
+   "trigger_change": 3.5,
+   "peak_change": 3.7,
+   "first_seen": "2026-11-03T14:56:24+00:00",
+   "sector": {
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 520.02,
+    "change_pct": 2.3
+   },
+   "chart": {
+    "ema8": -3.4,
+    "ema21": -8.1,
+    "sma50": -13.0,
+    "sma200": 2.2,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Dear Arista Networks Stock Fans, Mark Your Calendars for November 3",
+     "publisher": "Barchart.com",
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOU0ZteTM5eHcwSm9pdDc5d1VpTVlCQUlBY0dvRWh5SWZ1d0dIVjY1NTdiVmI4bll2OE1jZGxYYmdQRVJQdmppMXlfTjZOMzVBUEJSUHNsanc2WEd0QzFZRG4xQy1Xa054eURVRmpjTXdxSGZSVjNrYVhoNmhTbndCdE1JSXN5c0taLUZRTmNpRTN6NE4tWEZVeTlQMWdIRjBxZGZFUmprRlg1MUdDM0Nz?oc=5",
+     "time": "2026-11-03T14:30:09+00:00"
+    },
+    {
+     "title": "Arista Networks (NYSE:ANET) Stock Breaks Below 200 Day Moving Average - Here's What Happened",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOY016bk01Q19zV3FHZUtaMkF3eDNZbDYtdDlxUy1wdWo1X0NXWlZFVVVGWXVBS3o2SVhsNmhiSGMwN1ZnaENIVVdtUFM1ekNVTUFtSkRNa0sweDZoSWY3TmtLRTh2S0F4QTByVklBYm16TFFYR0FEZ2NwOVZYNUlkekl1amFsV25VT0pXNzZ2dC1CbjNoTEdWY2NHaGVvbFFQcDA1MXFXaUxFa0o1eUtYejluZHFlaXBfaWVpNXZBSFJWZXFick9NLXF0ejBRamRTMHpNdTIwYVNuUDlUV0xlTA?oc=5",
+     "time": "2026-11-03T09:09:56+00:00"
+    },
+    {
+     "title": "BOCHK Asset Management Ltd Buys 13,800 Shares of Arista Networks, Inc. $ANET",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPbm5YU2l6b0MzQldWei1pOGd3TDBOZUVEOXhYUXRCZjdPaHRkcUFvUC02TENIbnh6YkNoYzd4YnA3RFhzSkZpRUtLTGZsT25Zb2VlRk1oY0k0OWpBbDB6dkRVaC1objNJc08xeXRmZFctX0Uzc0VnYS1yMjRXS0ZhX016cU1wY2xzaXhNSmFfcUh6bHpDekZWcXpjQ0xqRUZaU1ZERHBZbTBWMGFuUnJ1cEszaHo3WWFlbWxmRUxRdnlWOTJIZXZlQndVZVY3UQ?oc=5",
+     "time": "2026-11-03T08:20:11+00:00"
+    },
+    {
+     "title": "Arista Networks, Inc. $ANET Holdings Lessened by Aware Super Pty Ltd as trustee of Aware Super",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPRTU2WDNpUkJlTkpqOHo5a1VMbmxXNjB1QWluQ0hzSkQ3LUlPRy0wWkFUMklQakxmZXJNWk1ycG1kRjdFZGRrYXE0M05OQVp2Vmh0RUF3OVFsbVRzNVVWOS1GZ1VSRXhmazEycEM1d21pRHdEdFBidjV2cVFfcjlvVm8zU0FmeWk3d0I2c2s0dGNtWElnalExWFd3QmRlaWUwS1NsS3F3VW1wdFdibVEwaW1MZHhwdlhwQldpd28wMEJnUUFEMkRkYmhPRDl0Q05VbWpvTEJuMjVyczY3anVqT2U3dzlkRWc?oc=5",
+     "time": "2026-11-03T08:10:10+00:00"
+    },
+    {
+     "title": "Arista Networks Reports on November 3. The Number That Matters Is Gross Margin, Not Revenue",
+     "publisher": "TIKR.com",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOLXU0NDJVWlJYU3FCdFBkMFBCY0w3Nmt6amRJNUk2Umg4ZnNhbkhCVS1qSElWM0czZUl2MDIzNFI1SnNUMHRMQlBqQ3k0RmU5WUVjeTJtYXJSZmFvbENKSlBSa1BnNGlTRENiLVo4SjNNWkZ2enBlZWRFdVVrTDA3WnA0c01TUHlYcHJzamJqMEViWkhYM0NnMHRKRktady14VlhJRldhNnRqdjlWZHMyVHZYdkVnZw?oc=5",
+     "time": "2026-11-02T23:26:15+00:00"
+    },
+    {
+     "title": "Arista Networks (NYSE:ANET) Shares Down 2.9% - What's Next?",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPYVg2LTlOeHhyM2dRTTFjdnl6d1FMQzlsaXRBU01hWFZrSlp6T1N6TlJuTWhWN0FtMHQweGdTOG9mLXJKV3A1Skhsbi04QU5FdU1tVC01OV9IaDRwOFRzb0I1V0Q0OTRQQTFJSEUtTTZpRl9aN2VlNEFseVVMZ2U0UExmc20xWGpVX3JpQmJ4N19ZTWFUem1qRE1rMTEwdXdWTVJ1N2tJckhIZzlYWVpoOQ?oc=5",
+     "time": "2026-11-02T23:06:40+00:00"
+    },
+    {
+     "title": "Arista Networks Stocks Move Lower With Earnings Testing Growth Against Margin Guidance",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPQlhoUHFLZnFSRHNWRTZId1J5T2t5Q2xTMFRCVEE1TjBpdFlyZ3lJWnhIRkhDWnliUUJhVGU3SXZibWcwVDU5d0FoQnlaQnNzbjRXUHF1VEljZ1lmY1J3ckZKUHJPRk85OTJXR2pqSXh6WXMzRHJzSzR0V0Z5cTlXdkpEWVZQc1I0QmZ5TS1VV3htRVE2ZmN1WXJiUWNEdkk?oc=5",
+     "time": "2026-11-02T18:03:22+00:00"
+    },
+    {
+     "title": "Arista Networks' 8-quarter beat streak raises the bar for Q3: What to expect? (ANET:NYSE)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdWxIM25WSm5zZ2lVTzIzNHluc004M05JR2lCZzdOc3RsYWlROFhrVnJ0WDNKazBHbXdFVEk3elFNVkZVZ2M4MDdEeWFNYmtVYlNNVVFQVXNST1pLTlhyUWQ1TFoyaDNuOUpYMnVIdFlERVJVVEQ5YnJrbEdmZ1M1c0lEUEdpSVlCcGRvcVJJakxFZmswVVdVY2dNRS1tcmF2WWlFLWJSdzZ6WklDTTFoQlR3?oc=5",
+     "time": "2026-11-02T15:38:24+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
+   "symbol": "APP",
+   "name": "AppLovin",
+   "list": "portfolio",
+   "price": 236.03,
+   "prev_close": 228.85,
+   "change_pct": 3.1,
+   "trigger_change": 4.4,
+   "peak_change": 4.4,
+   "first_seen": "2026-11-03T14:56:24+00:00",
+   "sector": {
+    "etf": "IGV",
+    "name": "Software",
+    "price": 101.89,
+    "change_pct": -0.01
+   },
+   "chart": {
+    "ema8": -4.1,
+    "ema21": -10.2,
+    "sma50": -19.0,
+    "sma200": -42.7,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "AppLovin Corporation (NASDAQ:APP) SHAREHOLDER ALERT:",
+     "publisher": "GlobeNewswire",
+     "url": "https://news.google.com/rss/articles/CBMi4wJBVV95cUxQZjl1MHFqSFczTGtWXzIzTEZmd1dSVV9WMmtxZkdseTFGaWNqUHpqZTZHTHVwMEZIeUM5d0RJbUoyc0pCd2FmUXdoWGJDS0l0QmMzTVJyX0F6NkZOblNUMnJVdXFWdEhKV1BLdW9BTFY5bXc1VjFhSm1HRW5xQ2tWRUpyUENkdHhtSWhBVzdzLUw1alpYZi1zY3I3M3NOOUhRUDFIcmNkeVNKcExTT2l3TkpvX0FINDMxNF9XcXd4VEpkVjVVRkd5cmoxMVp6TkhtaFR4OHBONkU3TjY2U0hXNWYtM2s2QldkQm5ZLUt3LTcxNDYtWXpOeDBvTjhTMjBiMXdiTU9IaUltOWM1ZGRvb2FpUGFlZGRXTTVDZlZwVWc1Y2tZMVpUWEtIUDZCMHczT2FjYVRHcjJrMjAweExqMVlmYjJUaU9wcXZIdmdMZ2dWZTZVR1hGMFA1anJtXzBWRm1R?oc=5",
+     "time": "2026-11-03T14:00:00+00:00"
+    },
+    {
+     "title": "AppLovin Corporation (6RV.F) Stock Price, News, Quote & History",
+     "publisher": "Yahoo! Finance Canada",
+     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFA0OTE4ejVuUG5oSmE5VVhRcGRhbDAyUmp6MlgySm9HU2JySjB0cGhkZWgzcGxhYkFHb3pzbXI3UGtOTllyRlhZeG50bExjM21iallj?oc=5",
+     "time": "2026-11-03T12:23:27+00:00"
+    },
+    {
+     "title": "Bear Call Spread Ideas for Applovin Earnings",
+     "publisher": "Barchart.com",
+     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNYWN1cEJISmpqT010ZHNCYWo1YU1DdlQ0N2xiOHA4b3JrSGZpa0NoSkIzUEhhb0lmajRtWXBtSldoMXoxMlRDREFVTm1qSzZYSE5waGdWdTIwN21KRDc3YWFCVVZEUUJwLXhvQnd3S1NZdVhDV3RMRWN0M25zNWZBYkstVU43RGRpSGNMYkl1ZnB3Zw?oc=5",
+     "time": "2026-11-03T12:00:04+00:00"
+    },
+    {
+     "title": "APPLOVIN CORP (APPS.NE) Stock Price, News, Quote & History",
+     "publisher": "Yahoo! Finance Canada",
+     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5kVEJVUjJ6d1FrbkpqUVhhZEFOWmU3czVXd1o1UHpXV0cxcTFLbFpZUV9famlvUHFmemo1eEhGdjU2YWZmQ1VxOUtHcEMyU0FXVjhHSW93?oc=5",
+     "time": "2026-11-03T09:50:31+00:00"
+    },
+    {
+     "title": "Down 69% from its high: Is this 84% margin ad-tech stock a bargain?",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQSFlwWERBOUNzZUdIZFJteXRsVGVfNFgzM2xNNm5LMnQ5WTFtVHhjSlF6UU9MNTAtazlGLXVTVDJIQWdROXdCUl9NRVhJTlBuYXBFeWFraDR1TzdGM01kUW0ySXFNY19QekUtZENZU3k5djI3THdDZGdRUUhCWVVWc1ZjdTZoelk2ekhQZFJETUVmNmVI?oc=5",
+     "time": "2026-11-03T08:14:07+00:00"
+    },
+    {
+     "title": "AppLovin Corporation (APP) Stock Price, News, Quote & History",
+     "publisher": "Yahoo! Finance Canada",
+     "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1fUE8zMTBFRFRnQW1RSDJjM0p4R0Ixdzc5MDBDWnlqTjNpekJHU21nLUFHSWliMGxtR2hfajFEZ2hITHVkSGp5QVRrQlppWFYy?oc=5",
+     "time": "2026-11-03T03:25:21+00:00"
+    },
+    {
+     "title": "AppLovin earnings: what to look for from APP",
+     "publisher": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQSnc4SW9UbHNaTGJyX0wxcDhsY1BIWmNHc1YxeG5DZHRWYVJYQWtOLUw1LUJJOUFPNVRIYk4zdGR2YjE2VzBBWkFtZVZUVEZBaUhRTmZqam5xNXFUc0JSTFVZVVZqbW9VQUV3R0tjZWlCWFN1ZWExWFBQek1fWUhlTDE2ZmFoSUhnX1R3bnM3MDRpbUZiaVJNVkluRVBXRExkakthUXFLRQ?oc=5",
+     "time": "2026-11-03T03:23:00+00:00"
+    },
+    {
+     "title": "AppLovin Corporation Class Action Reminder - Robbins LLP",
+     "publisher": "GlobeNewswire",
+     "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxQcUhDUHloVUQySUJQRDdCTm1yWGNnRFR1Z25qcHpSSlB6UmxnT0RPOVRDTEN0eFU2c2J1NGlJaklxMzhDY2JoRE1PRWdQZkdoMGczUjhLNUlqNGpKdG03SWJMY3FnVVVfdjhGNFpsQmN2SkJJNGRUUG9IZ2QwOFhCQkV6V0hVVGhSNHItYWVYQXpoYmJwaDM5emdwTy1UY3FaRlhpRHU4eWluZGVwcnNLaDhmX090dS1icEhhaHhsbUNPUXA1czF2N01NcTJ3QkwyQm1OODhLejhsdTVjLWlGNE0wU0FoUkZQanhlNUhsZ1hZVHdzWTJ6aWVYSlhTd2tTVVEyYTJ6MFBNOURxTDN5eEVwalFyVEM4bEQwcFhVMnZ5YW8tN2ZXR3hVMDc1TmM?oc=5",
+     "time": "2026-11-03T01:22:00+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
    "symbol": "AXON",
    "name": "Axon",
    "list": "watchlist",
-   "price": 412.09,
+   "price": 414.52,
    "prev_close": 425.43,
-   "change_pct": -3.1,
+   "change_pct": -2.6,
    "trigger_change": -3.1,
    "peak_change": -3.1,
    "first_seen": "2026-11-03T15:06:39+00:00",
    "sector": {
     "etf": "XLI",
     "name": "Industrials",
-    "price": 170.84,
-    "change_pct": 0.67
+    "price": 171.1,
+    "change_pct": 0.82
    },
    "chart": {
-    "ema8": -2.1,
-    "ema21": -2.5,
-    "sma50": -9.6,
-    "sma200": -13.5,
+    "ema8": -1.7,
+    "ema21": -2.0,
+    "sma50": -9.0,
+    "sma200": -13.0,
     "momentum": false
    },
    "headlines": [
