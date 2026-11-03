@@ -1,22 +1,22 @@
 {
  "date": "2026-11-03",
  "threshold": 3.0,
- "updated": "2026-11-03T20:45:13+00:00",
+ "updated": "2026-11-03T20:55:13+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 754.52,
-   "change_pct": 0.32
+   "price": 754.41,
+   "change_pct": 0.31
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 686.19,
-   "change_pct": 0.75
+   "price": 685.67,
+   "change_pct": 0.67
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 81.16,
-   "change_pct": -0.7
+   "price": 81.1,
+   "change_pct": -0.77
   }
  },
  "movers": [
@@ -24,9 +24,9 @@
    "symbol": "APP",
    "name": "AppLovin",
    "list": "portfolio",
-   "price": 246.26,
+   "price": 245.73,
    "prev_close": 228.85,
-   "change_pct": 7.6,
+   "change_pct": 7.4,
    "trigger_change": 4.4,
    "peak_change": 8.3,
    "first_seen": "2026-11-03T14:56:24+00:00",
@@ -37,10 +37,10 @@
     "change_pct": 0.87
    },
    "chart": {
-    "ema8": -0.8,
-    "ema21": -6.6,
-    "sma50": -15.6,
-    "sma200": -40.3,
+    "ema8": -1.0,
+    "ema21": -6.8,
+    "sma50": -15.7,
+    "sma200": -40.4,
     "momentum": false
    },
    "headlines": [
@@ -171,101 +171,26 @@
    "brief": "2026-11-03-NBIS"
   },
   {
-   "symbol": "AVGO",
-   "name": "Broadcom",
-   "list": "portfolio",
-   "price": 332.51,
-   "prev_close": 322.23,
-   "change_pct": 3.2,
-   "trigger_change": 3.2,
-   "peak_change": 4.0,
-   "first_seen": "2026-11-03T14:56:24+00:00",
-   "sector": {
-    "etf": "SMH",
-    "name": "Semiconductors",
-    "price": 520.3,
-    "change_pct": 2.36
-   },
-   "chart": {
-    "ema8": -0.3,
-    "ema21": -2.2,
-    "sma50": -5.4,
-    "sma200": -9.5,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Why Broadcom (AVGO) Anchors Our 10 Best Tech Stocks for the Next 5 Years",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOMmJoR2E3U1ZVcXpfclNEaGUyYWVjeXdYTFNkRDV4VUYwTEZUeFY0ZGN0M0Z4QjFvRHNoclNqTGdBaDE2NXJiWldkRVJZeDhkQWdsTFlPRklOQk0xSEdvMzRlWmxtT1ZaZTM4dldVNGZLRVlYODhIMWFueUxmcEg2bWhFMjZkdHA5aFRjTW1DbWNLLW04Y0wwWg?oc=5",
-     "time": "2026-11-03T19:33:27+00:00"
-    },
-    {
-     "title": "NVIDIA stock rises 3% despite warnings of Chine...",
-     "publisher": "Pluang",
-     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNUml0VzN6NkM5bFBvXzZ1SHlqRDg4ZlJIT0ZZMFc1OVAzaGZUU3BXTUYzaUgwaUxhaGZ1NFRHeTdTYmRldkNwREN2T3hqbGEtdUxCUkNNdzZmQXhRX1ZGeFQ3eUk0Y05ZRDB3WmFCbFhIWHlHbmwzVnBVVXQyZ0s5UWdBUFRRYTZkc05lVUtGaThnYmJBSEJ1SW13WVRfRHdh?oc=5",
-     "time": "2026-11-03T19:05:25+00:00"
-    },
-    {
-     "title": "NVIDIA Rises 3% Despite AI CEO's Warning on Chinese Chip Competition; AMD Climbs 5%, Broadcom Gains 3%",
-     "publisher": "24/7 Wall St.",
-     "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOUzM5WElEdldxcTYzbFdta1VBUmsyUWlPX25saldDQ3ctZFZjWVJVR25YX1d4QWxtYld3YzZnaEMwbEtsMko0QkdTNkNfQzl2c1BxVFdXOE1FOVN5ekhfdWVVeHVOcGJFbS1nSGx1NlpUQm5ZWHVBTmtGUzJSLUN2Y3hoUmRaV1pUSXkxZ3AxR082bjcxZW44ZTFpNkw4d0hJcV92REFlQUZodXoydmxXRXlOSU9JQnp1TWhqaW95Z1MzeDVxcDBNN2Y0bWxqZGxMYVJCNjVfcw?oc=5",
-     "time": "2026-11-03T18:48:00+00:00"
-    },
-    {
-     "title": "Marvell\u2019s Lumentum Buy Threatens Broadcom\u2019s AI Optics Lead, Says TrendForce",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQWUNINjlCS2FGYjB4Y0RkUWh0X0k2REVXZE1XQmpXVWlCNVhpYng1bzV3YVRWVFlKRmdqYTZwRnZlTHpQWjRpenNKX0NBbVJLY0VwWk5BRGxKMjM4dktLWDF6TS1DOFNScjYtM21xQmVEdW9tRFNVZmdqbmZpOS01cUxPNDlKNkp0RjlXWks1RlE2dnkxTk1GN1k0NzZGelk2UWc?oc=5",
-     "time": "2026-11-03T18:43:11+00:00"
-    },
-    {
-     "title": "Broadcom Stocks Gain 3.72% as Anthropic Leases Reveal $161.2 Billion Payment Scale",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOUUUyYmNSOVMwRTFwQzBLQVV0OVQ3VW1rZHhSU05iZXg0MEh5b3NKX1VhVUlIVkIxVV9kaUJHc0E0b1QyQ0JRMm04RnJ3bTljT0R6emRFNk51V3hWdkhvbXVFV2FVSmcwenRNYV9sakJmRk5wMldMdG1pdnoydUZwSHRCNEQwRlVmUEQydFBVaFFBdGhp?oc=5",
-     "time": "2026-11-03T18:12:04+00:00"
-    },
-    {
-     "title": "Broadcom stock rose 2,500% in 10 years; AI chip growth could boost future gains.",
-     "publisher": "Pluang",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQTWgxQVgwWjVxTFB2aU1ERV9OcXVLTF9MdEdIUEwwUWFkSGRNNkVYV284M2ptWDd5WUFiSGctcndnN1BldnNWR3FrSHZtN1VYMUstVTQ3ODh5TFV4dDlLMlRNQTlfaV9oZUVPd3hvMlVfeEg4d1d5b01nbkpXaDJVNXhZcmF1dHhGdmdxWWt5U2Rjc0JZcG00cmd4NzNwQQ?oc=5",
-     "time": "2026-11-03T18:06:59+00:00"
-    },
-    {
-     "title": "Broadcom Stock Is Up 2,500% in 10 Years. Can the AI Boom Keep It Going?",
-     "publisher": "24/7 Wall St.",
-     "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOYjFqTDEwSE5taF91VVBlZEtyUG5wQmU0VGJraGtfU1RUVnJEUW5fSTd2U2NSb1RlN2FpREZ3ckNmcHR2WnJHbDQ4RTRFdDJFdUFwSkhwMzRkc0ZjWm5vdjRVYVRLUGxSTWs2Z1BuaHpnanRRakFMN05XMzhUN3hwYlcxRlUzRUVKM0w0T0Jyb1RpX1ViTUgxU1hFREdfX0ZGRzFnR2djaW9iVTdJRnVXQTRMb25scDV6b2c4c0lmcmpnOHBCSmNQcWJpcnhnRlhvbU1GTk5LM0FtaEVyVG5j?oc=5",
-     "time": "2026-11-03T17:33:00+00:00"
-    },
-    {
-     "title": "Broadcom shares surge more than 3% after securing major chip financing for AI infrastructure",
-     "publisher": "Traders Union",
-     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNWXd3akMyaGV5ekF3UWJwXzdxMjBQazUwQVlhNkJ1LXpSanBrVzdQelZzTWxOSi1YM2ViQWEzSDdFZklPemRMTWtZUkVUcjhWMWNpMW0ybFlHN041cUd6ZFdWVGQzQUxlbjlZcFB3b3hZUElLY2drWk9WS0tkdFRrdUZtSVp0Y1BGdkQ1TW50MEExRU4x?oc=5",
-     "time": "2026-11-03T16:21:30+00:00"
-    }
-   ],
-   "brief": "2026-11-03-AVGO"
-  },
-  {
    "symbol": "ANET",
    "name": "Arista Networks",
    "list": "portfolio",
-   "price": 168.86,
+   "price": 169.05,
    "prev_close": 164.14,
-   "change_pct": 2.9,
+   "change_pct": 3.0,
    "trigger_change": 3.5,
    "peak_change": 3.7,
    "first_seen": "2026-11-03T14:56:24+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 520.3,
-    "change_pct": 2.36
+    "price": 518.22,
+    "change_pct": 1.95
    },
    "chart": {
-    "ema8": -3.5,
-    "ema21": -8.2,
-    "sma50": -13.1,
-    "sma200": 2.0,
+    "ema8": -3.4,
+    "ema21": -8.1,
+    "sma50": -13.0,
+    "sma200": 2.1,
     "momentum": false
    },
    "headlines": [
@@ -321,26 +246,101 @@
    "brief": "2026-11-03-ANET"
   },
   {
+   "symbol": "AVGO",
+   "name": "Broadcom",
+   "list": "portfolio",
+   "price": 331.63,
+   "prev_close": 322.23,
+   "change_pct": 2.9,
+   "trigger_change": 3.2,
+   "peak_change": 4.0,
+   "first_seen": "2026-11-03T14:56:24+00:00",
+   "sector": {
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 518.22,
+    "change_pct": 1.95
+   },
+   "chart": {
+    "ema8": -0.5,
+    "ema21": -2.5,
+    "sma50": -5.6,
+    "sma200": -9.8,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Why Broadcom (AVGO) Anchors Our 10 Best Tech Stocks for the Next 5 Years",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOMmJoR2E3U1ZVcXpfclNEaGUyYWVjeXdYTFNkRDV4VUYwTEZUeFY0ZGN0M0Z4QjFvRHNoclNqTGdBaDE2NXJiWldkRVJZeDhkQWdsTFlPRklOQk0xSEdvMzRlWmxtT1ZaZTM4dldVNGZLRVlYODhIMWFueUxmcEg2bWhFMjZkdHA5aFRjTW1DbWNLLW04Y0wwWg?oc=5",
+     "time": "2026-11-03T19:33:27+00:00"
+    },
+    {
+     "title": "NVIDIA stock rises 3% despite warnings of Chine...",
+     "publisher": "Pluang",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNUml0VzN6NkM5bFBvXzZ1SHlqRDg4ZlJIT0ZZMFc1OVAzaGZUU3BXTUYzaUgwaUxhaGZ1NFRHeTdTYmRldkNwREN2T3hqbGEtdUxCUkNNdzZmQXhRX1ZGeFQ3eUk0Y05ZRDB3WmFCbFhIWHlHbmwzVnBVVXQyZ0s5UWdBUFRRYTZkc05lVUtGaThnYmJBSEJ1SW13WVRfRHdh?oc=5",
+     "time": "2026-11-03T19:05:25+00:00"
+    },
+    {
+     "title": "NVIDIA Rises 3% Despite AI CEO's Warning on Chinese Chip Competition; AMD Climbs 5%, Broadcom Gains 3%",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOUzM5WElEdldxcTYzbFdta1VBUmsyUWlPX25saldDQ3ctZFZjWVJVR25YX1d4QWxtYld3YzZnaEMwbEtsMko0QkdTNkNfQzl2c1BxVFdXOE1FOVN5ekhfdWVVeHVOcGJFbS1nSGx1NlpUQm5ZWHVBTmtGUzJSLUN2Y3hoUmRaV1pUSXkxZ3AxR082bjcxZW44ZTFpNkw4d0hJcV92REFlQUZodXoydmxXRXlOSU9JQnp1TWhqaW95Z1MzeDVxcDBNN2Y0bWxqZGxMYVJCNjVfcw?oc=5",
+     "time": "2026-11-03T18:48:00+00:00"
+    },
+    {
+     "title": "Marvell\u2019s Lumentum Buy Threatens Broadcom\u2019s AI Optics Lead, Says TrendForce",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQWUNINjlCS2FGYjB4Y0RkUWh0X0k2REVXZE1XQmpXVWlCNVhpYng1bzV3YVRWVFlKRmdqYTZwRnZlTHpQWjRpenNKX0NBbVJLY0VwWk5BRGxKMjM4dktLWDF6TS1DOFNScjYtM21xQmVEdW9tRFNVZmdqbmZpOS01cUxPNDlKNkp0RjlXWks1RlE2dnkxTk1GN1k0NzZGelk2UWc?oc=5",
+     "time": "2026-11-03T18:43:11+00:00"
+    },
+    {
+     "title": "Broadcom Stocks Gain 3.72% as Anthropic Leases Reveal $161.2 Billion Payment Scale",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOUUUyYmNSOVMwRTFwQzBLQVV0OVQ3VW1rZHhSU05iZXg0MEh5b3NKX1VhVUlIVkIxVV9kaUJHc0E0b1QyQ0JRMm04RnJ3bTljT0R6emRFNk51V3hWdkhvbXVFV2FVSmcwenRNYV9sakJmRk5wMldMdG1pdnoydUZwSHRCNEQwRlVmUEQydFBVaFFBdGhp?oc=5",
+     "time": "2026-11-03T18:12:04+00:00"
+    },
+    {
+     "title": "Broadcom stock rose 2,500% in 10 years; AI chip growth could boost future gains.",
+     "publisher": "Pluang",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQTWgxQVgwWjVxTFB2aU1ERV9OcXVLTF9MdEdIUEwwUWFkSGRNNkVYV284M2ptWDd5WUFiSGctcndnN1BldnNWR3FrSHZtN1VYMUstVTQ3ODh5TFV4dDlLMlRNQTlfaV9oZUVPd3hvMlVfeEg4d1d5b01nbkpXaDJVNXhZcmF1dHhGdmdxWWt5U2Rjc0JZcG00cmd4NzNwQQ?oc=5",
+     "time": "2026-11-03T18:06:59+00:00"
+    },
+    {
+     "title": "Broadcom Stock Is Up 2,500% in 10 Years. Can the AI Boom Keep It Going?",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOYjFqTDEwSE5taF91VVBlZEtyUG5wQmU0VGJraGtfU1RUVnJEUW5fSTd2U2NSb1RlN2FpREZ3ckNmcHR2WnJHbDQ4RTRFdDJFdUFwSkhwMzRkc0ZjWm5vdjRVYVRLUGxSTWs2Z1BuaHpnanRRakFMN05XMzhUN3hwYlcxRlUzRUVKM0w0T0Jyb1RpX1ViTUgxU1hFREdfX0ZGRzFnR2djaW9iVTdJRnVXQTRMb25scDV6b2c4c0lmcmpnOHBCSmNQcWJpcnhnRlhvbU1GTk5LM0FtaEVyVG5j?oc=5",
+     "time": "2026-11-03T17:33:00+00:00"
+    },
+    {
+     "title": "Broadcom shares surge more than 3% after securing major chip financing for AI infrastructure",
+     "publisher": "Traders Union",
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNWXd3akMyaGV5ekF3UWJwXzdxMjBQazUwQVlhNkJ1LXpSanBrVzdQelZzTWxOSi1YM2ViQWEzSDdFZklPemRMTWtZUkVUcjhWMWNpMW0ybFlHN041cUd6ZFdWVGQzQUxlbjlZcFB3b3hZUElLY2drWk9WS0tkdFRrdUZtSVp0Y1BGdkQ1TW50MEExRU4x?oc=5",
+     "time": "2026-11-03T16:21:30+00:00"
+    }
+   ],
+   "brief": "2026-11-03-AVGO"
+  },
+  {
    "symbol": "NVDA",
    "name": "Nvidia",
    "list": "portfolio",
-   "price": 207.22,
+   "price": 206.96,
    "prev_close": 202.06,
-   "change_pct": 2.6,
+   "change_pct": 2.4,
    "trigger_change": 3.0,
    "peak_change": 3.3,
    "first_seen": "2026-11-03T15:16:42+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 520.3,
-    "change_pct": 2.36
+    "price": 518.22,
+    "change_pct": 1.95
    },
    "chart": {
-    "ema8": -1.4,
-    "ema21": -4.1,
-    "sma50": -6.4,
-    "sma200": 1.3,
+    "ema8": -1.5,
+    "ema21": -4.2,
+    "sma50": -6.5,
+    "sma200": 1.2,
     "momentum": false
    },
    "headlines": [
@@ -399,23 +399,23 @@
    "symbol": "AXON",
    "name": "Axon",
    "list": "watchlist",
-   "price": 417.07,
+   "price": 416.19,
    "prev_close": 425.43,
-   "change_pct": -2.0,
+   "change_pct": -2.2,
    "trigger_change": -3.1,
    "peak_change": -3.1,
    "first_seen": "2026-11-03T15:06:39+00:00",
    "sector": {
     "etf": "XLI",
     "name": "Industrials",
-    "price": 171.51,
-    "change_pct": 1.06
+    "price": 171.24,
+    "change_pct": 0.9
    },
    "chart": {
-    "ema8": -1.2,
-    "ema21": -1.4,
-    "sma50": -8.5,
-    "sma200": -12.5,
+    "ema8": -1.3,
+    "ema21": -1.6,
+    "sma50": -8.7,
+    "sma200": -12.7,
     "momentum": false
    },
    "headlines": [
@@ -474,23 +474,23 @@
    "symbol": "AMAT",
    "name": "Applied Materials",
    "list": "portfolio",
-   "price": 381.91,
+   "price": 381.62,
    "prev_close": 374.53,
-   "change_pct": 2.0,
+   "change_pct": 1.9,
    "trigger_change": 3.0,
    "peak_change": 3.0,
    "first_seen": "2026-11-03T16:07:15+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 520.3,
-    "change_pct": 2.36
+    "price": 518.22,
+    "change_pct": 1.95
    },
    "chart": {
     "ema8": -3.3,
-    "ema21": -9.2,
-    "sma50": -15.7,
-    "sma200": -14.2,
+    "ema21": -9.3,
+    "sma50": -15.8,
+    "sma200": -14.3,
     "momentum": false
    },
    "headlines": [
@@ -549,7 +549,7 @@
    "symbol": "CRWD",
    "name": "CrowdStrike",
    "list": "portfolio",
-   "price": 244.66,
+   "price": 244.74,
    "prev_close": 241.81,
    "change_pct": 1.2,
    "trigger_change": 3.2,
