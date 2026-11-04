@@ -1,22 +1,22 @@
 {
  "date": "2026-11-04",
  "threshold": 3.0,
- "updated": "2026-11-04T19:19:15+00:00",
+ "updated": "2026-11-04T19:24:16+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 768.39,
-   "change_pct": 1.86
+   "price": 768.03,
+   "change_pct": 1.81
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 694.32,
-   "change_pct": 1.32
+   "price": 693.67,
+   "change_pct": 1.22
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 81.7,
-   "change_pct": 0.73
+   "price": 81.71,
+   "change_pct": 0.74
   }
  },
  "movers": [
@@ -24,23 +24,23 @@
    "symbol": "APP",
    "name": "AppLovin",
    "list": "portfolio",
-   "price": 272.33,
+   "price": 273.19,
    "prev_close": 245.51,
-   "change_pct": 10.9,
+   "change_pct": 11.3,
    "trigger_change": 5.7,
    "peak_change": 12.2,
    "first_seen": "2026-11-04T14:55:55+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 103.86,
-    "change_pct": 1.17
+    "price": 103.77,
+    "change_pct": 1.08
    },
    "chart": {
-    "ema8": 7.4,
-    "ema21": 3.0,
-    "sma50": -6.4,
-    "sma200": -33.7,
+    "ema8": 7.7,
+    "ema21": 3.3,
+    "sma50": -6.1,
+    "sma200": -33.5,
     "momentum": false
    },
    "headlines": [
@@ -99,7 +99,7 @@
    "symbol": "AMZN",
    "name": "Amazon",
    "list": "portfolio",
-   "price": 268.73,
+   "price": 268.62,
    "prev_close": 250.69,
    "change_pct": 7.2,
    "trigger_change": 7.7,
@@ -108,14 +108,14 @@
    "sector": {
     "etf": "XLY",
     "name": "Consumer discr.",
-    "price": 122.83,
-    "change_pct": 4.69
+    "price": 122.78,
+    "change_pct": 4.65
    },
    "chart": {
     "ema8": 6.1,
-    "ema21": 6.2,
+    "ema21": 6.1,
     "sma50": 5.8,
-    "sma200": 10.3,
+    "sma200": 10.2,
     "momentum": true
    },
    "headlines": [
@@ -174,23 +174,23 @@
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 141.78,
+   "price": 141.22,
    "prev_close": 151.64,
-   "change_pct": -6.5,
+   "change_pct": -6.9,
    "trigger_change": -4.1,
    "peak_change": -7.3,
    "first_seen": "2026-11-04T15:31:22+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 103.86,
-    "change_pct": 1.17
+    "price": 103.77,
+    "change_pct": 1.08
    },
    "chart": {
-    "ema8": -9.1,
-    "ema21": -18.9,
-    "sma50": -31.0,
-    "sma200": -20.4,
+    "ema8": -9.4,
+    "ema21": -19.2,
+    "sma50": -31.2,
+    "sma200": -20.7,
     "momentum": false
    },
    "headlines": [
@@ -246,26 +246,71 @@
    "brief": "2026-11-04-NBIS"
   },
   {
+   "symbol": "NVO",
+   "name": "Novo Nordisk (ADR)",
+   "list": "portfolio",
+   "price": 42.67,
+   "prev_close": 40.19,
+   "change_pct": 6.2,
+   "trigger_change": 6.6,
+   "peak_change": 7.2,
+   "first_seen": "2026-11-04T14:55:55+00:00",
+   "sector": {
+    "etf": "XLV",
+    "name": "Health care",
+    "price": 189.19,
+    "change_pct": 2.81
+   },
+   "chart": {
+    "ema8": 6.0,
+    "ema21": 7.6,
+    "sma50": 4.5,
+    "sma200": -2.8,
+    "momentum": true
+   },
+   "headlines": [
+    {
+     "title": "NVO Q3 Earnings Beat Estimates on Wegovy Pill Growth, Outlook Raised",
+     "publisher": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZm45MnZTQVRnMU5wWGxvRnVRVWp4NEd0MHV4Y1dTWUVNRkF6QWlTNlpId0c3bGpYOWp5aTl6aTZUX1F6ZHpUdHExcHYzOUQxcWFtTnZtdUhYN1ozNG1SVVZhWTd4b1pzbVJ5U19WcGVtQXpoTEQyNkdOWE5oWmVqSjVPS1lueWVZMHFnMFdTSXdhczRxanFHN2k0azNxX3I2Q2YyTzMwQXltbTFadC1mY1BZb0xYSDdCSV9Ob21Bb3E?oc=5",
+     "time": "2026-11-04T13:35:00+00:00"
+    },
+    {
+     "title": "Earnings call transcript: Novo Nordisk rises on Q3 2026 growth outlook",
+     "publisher": "Investing.com",
+     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPZkwwRVBzZ3RRNDdKdTlkUmExM0p5V0NEZXJscEFXN2FiNE43U0k5S1k5UTNTb0dyTEk2V1d2N3FRY3BLQ19IaTJLeHZLVlBEWGZsUW1HaXZtd085M0dNSTMyZFdRckFwVkp2dHpISzVFZmFXLUVBSXk3THF3eTIwMkJ5QkdRSmJ5R21XTHZKSVRtUE1DQVF4X2Zib1N3STMyV0tUeHhWQkFuWE1UUktSTmJLWmxTMG53MFVjUUJaa2pPeUE?oc=5",
+     "time": "2026-11-04T13:24:16+00:00"
+    },
+    {
+     "title": "Novo Nordisk ADR earnings missed by $3.74, revenue fell short of estimates",
+     "publisher": "Investing.com Australia",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNVjNzbi02Z1FXRi1EQ1RobFhmVDF6OVoxNGRVbVdVTWo5Ukxqb1ltQTdEVzF2SUFsZjZzNURnWURlVjhmbndjZlBmSjZuRWFHLUhUM0ExdENvbnU1LVRPd1dvX3lMeVNMX0IyRHBFbWxObzlPYXZJSTNQa2E3MFRRaTZIWFJxVE5OOW1rUjg5UGJUSmpVNGVLbHRZV3BXQ2p3czZWNFlTSUt3SDI5U2lFZUYtbUEtVWt1aEE?oc=5",
+     "time": "2026-11-04T08:44:42+00:00"
+    }
+   ],
+   "brief": "2026-11-04-NVO"
+  },
+  {
    "symbol": "ANET",
    "name": "Arista Networks",
    "list": "portfolio",
-   "price": 180.63,
+   "price": 180.27,
    "prev_close": 169.91,
-   "change_pct": 6.3,
+   "change_pct": 6.1,
    "trigger_change": 10.3,
    "peak_change": 10.3,
    "first_seen": "2026-11-04T14:55:55+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 505.02,
-    "change_pct": -2.6
+    "price": 503.94,
+    "change_pct": -2.81
    },
    "chart": {
-    "ema8": 2.4,
-    "ema21": -1.7,
-    "sma50": -7.0,
-    "sma200": 8.9,
+    "ema8": 2.2,
+    "ema21": -1.9,
+    "sma50": -7.1,
+    "sma200": 8.7,
     "momentum": false
    },
    "headlines": [
@@ -321,71 +366,26 @@
    "brief": "2026-11-04-ANET"
   },
   {
-   "symbol": "NVO",
-   "name": "Novo Nordisk (ADR)",
-   "list": "portfolio",
-   "price": 42.72,
-   "prev_close": 40.19,
-   "change_pct": 6.3,
-   "trigger_change": 6.6,
-   "peak_change": 7.2,
-   "first_seen": "2026-11-04T14:55:55+00:00",
-   "sector": {
-    "etf": "XLV",
-    "name": "Health care",
-    "price": 189.34,
-    "change_pct": 2.89
-   },
-   "chart": {
-    "ema8": 6.0,
-    "ema21": 7.7,
-    "sma50": 4.6,
-    "sma200": -2.7,
-    "momentum": true
-   },
-   "headlines": [
-    {
-     "title": "NVO Q3 Earnings Beat Estimates on Wegovy Pill Growth, Outlook Raised",
-     "publisher": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZm45MnZTQVRnMU5wWGxvRnVRVWp4NEd0MHV4Y1dTWUVNRkF6QWlTNlpId0c3bGpYOWp5aTl6aTZUX1F6ZHpUdHExcHYzOUQxcWFtTnZtdUhYN1ozNG1SVVZhWTd4b1pzbVJ5U19WcGVtQXpoTEQyNkdOWE5oWmVqSjVPS1lueWVZMHFnMFdTSXdhczRxanFHN2k0azNxX3I2Q2YyTzMwQXltbTFadC1mY1BZb0xYSDdCSV9Ob21Bb3E?oc=5",
-     "time": "2026-11-04T13:35:00+00:00"
-    },
-    {
-     "title": "Earnings call transcript: Novo Nordisk rises on Q3 2026 growth outlook",
-     "publisher": "Investing.com",
-     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPZkwwRVBzZ3RRNDdKdTlkUmExM0p5V0NEZXJscEFXN2FiNE43U0k5S1k5UTNTb0dyTEk2V1d2N3FRY3BLQ19IaTJLeHZLVlBEWGZsUW1HaXZtd085M0dNSTMyZFdRckFwVkp2dHpISzVFZmFXLUVBSXk3THF3eTIwMkJ5QkdRSmJ5R21XTHZKSVRtUE1DQVF4X2Zib1N3STMyV0tUeHhWQkFuWE1UUktSTmJLWmxTMG53MFVjUUJaa2pPeUE?oc=5",
-     "time": "2026-11-04T13:24:16+00:00"
-    },
-    {
-     "title": "Novo Nordisk ADR earnings missed by $3.74, revenue fell short of estimates",
-     "publisher": "Investing.com Australia",
-     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNVjNzbi02Z1FXRi1EQ1RobFhmVDF6OVoxNGRVbVdVTWo5Ukxqb1ltQTdEVzF2SUFsZjZzNURnWURlVjhmbndjZlBmSjZuRWFHLUhUM0ExdENvbnU1LVRPd1dvX3lMeVNMX0IyRHBFbWxObzlPYXZJSTNQa2E3MFRRaTZIWFJxVE5OOW1rUjg5UGJUSmpVNGVLbHRZV3BXQ2p3czZWNFlTSUt3SDI5U2lFZUYtbUEtVWt1aEE?oc=5",
-     "time": "2026-11-04T08:44:42+00:00"
-    }
-   ],
-   "brief": "2026-11-04-NVO"
-  },
-  {
    "symbol": "MELI",
    "name": "MercadoLibre",
    "list": "watchlist",
-   "price": 1751.13,
+   "price": 1753.74,
    "prev_close": 1662.16,
-   "change_pct": 5.4,
+   "change_pct": 5.5,
    "trigger_change": 4.9,
    "peak_change": 6.2,
    "first_seen": "2026-11-04T14:55:55+00:00",
    "sector": {
     "etf": "XLY",
     "name": "Consumer discr.",
-    "price": 122.83,
-    "change_pct": 4.69
+    "price": 122.78,
+    "change_pct": 4.65
    },
    "chart": {
-    "ema8": 2.7,
-    "ema21": -0.1,
-    "sma50": -4.1,
-    "sma200": -3.1,
+    "ema8": 2.8,
+    "ema21": 0.1,
+    "sma50": -3.9,
+    "sma200": -3.0,
     "momentum": false
    },
    "headlines": [
@@ -441,10 +441,85 @@
    "brief": "2026-11-04-MELI"
   },
   {
+   "symbol": "AMAT",
+   "name": "Applied Materials",
+   "list": "portfolio",
+   "price": 365.68,
+   "prev_close": 381.92,
+   "change_pct": -4.3,
+   "trigger_change": -3.4,
+   "peak_change": -4.4,
+   "first_seen": "2026-11-04T16:33:19+00:00",
+   "sector": {
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 503.94,
+    "change_pct": -2.81
+   },
+   "chart": {
+    "ema8": -5.8,
+    "ema21": -12.1,
+    "sma50": -18.9,
+    "sma200": -17.9,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "ETFs Bought $237.0 Million of Applied Materials (AMAT) on Nov. 2",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZmlMWHBnWVE1MHZnZC1heHFyekNLbkxVWWEzUzlrRWRZQmhRWDRLYU1OODBHRS1MQUJEemVCeWQ3UEdKNHhtSXIxUG55N09HaDR4T2I0b3ZsazNuRjJtOUtmaXRSeGlYbENOMVRzbV9UVFN1NU1QVzZ0ZUJqRUlvdWtPVnR5ajBlcDI3Qjd1SHM4dDFk?oc=5",
+     "time": "2026-11-04T11:01:35+00:00"
+    },
+    {
+     "title": "Applied Materials Just Dropped 29% In a Month: Will November 12 Earnings Rescue or Break AMAT Stock?",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQNl95S09KZ0pxX0loMm12cFIzRHhZNm13RU1kdUpCc2FfeHM1QTA2QjdGUDBFZlBCaVhIbWk3bUhRT0pQTncxSEpwekhBXzVoNFcxTG9pTXBzUFFxSGU1N2l6TnB5eldJYXAxTGMxRk1rOElNeUVXYmZKeG04bFlFQm5YOU5ZUVhjcm1KU0FIaDdpNmR5cEhySzUzMWQzRHRGNEVRdmNac000WVU0emItZks1WHhCXzhaaXNxVXEwVm01UmZkaVdxbnB6cG1taDBDbFQzaVhFX2w?oc=5",
+     "time": "2026-11-03T20:05:00+00:00"
+    },
+    {
+     "title": "What Does Applied Materials Stock\u2019s Winning Streak Really Prove?",
+     "publisher": "Trefis",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdmVFVTRBWXVsak9XZk5GTkpjTXI4dmZPSzZ4NWRkS2xaNHFKcmwtM0lCbzQ1TF9CdDF4eTBUemxtVXJPdXpPYmJKaXA5QldwNkMtMFNvLU5wRXAtdHM5anpoN280eDhpcjR4LXQ5bzRrYkNJT251U2FQQ3hLWUpqdXhJR1JfSFNtYkZUdE5UNnpvU2ZQQ3RrWGpYZFdqMDFHZjJiczZBZ0lEZGtsNVVHSG1uM0hPcy1Mc2tUdUtHajA?oc=5",
+     "time": "2026-11-03T12:02:01+00:00"
+    },
+    {
+     "title": "Testing Support Level, AMAT Stock Drops 3.99% on Monday",
+     "publisher": "JournalArta",
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPN1locHRtbzlndkIyU3FYb0EySVR3NVJBQjdPRnAtdW1yaWJoaFlKZThLSUEwUTl6M2dGWjROZHRESGQ1Z0oxaXF1cXVKdTVqLXdnMUZLNGR5dzFhdWxsT1ZtRWhxNGszVnY2QVJjejFPY3RxWGc5ZWZmSjR0RmNZb1JYU29oeWtmSDhJa3NnZUdnMWJkQ2VR?oc=5",
+     "time": "2026-11-03T11:07:38+00:00"
+    },
+    {
+     "title": "Did Earnings Growth Just Shift Applied Materials (AMAT) Investment Narrative?",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNcEJfcVUzMWNlUmVHdTlWVTNjRVBJTzV2TFBCWVRCU0hNSGRPMndxNExua1dEaUtlM3NSaG9CREZUUDdSNlY2RURkSXI0bFd4TjY3Y3pkN3dxUHZXblU4TVhINlR3UFhSd1hyVFAtSDBrWW5VSE9ITk91U3Y2RzFwVFkta0JscE9rTGFBUl9SSXZYbDZDbER4NUwtbw?oc=5",
+     "time": "2026-11-03T02:33:49+00:00"
+    },
+    {
+     "title": "Applied Materials (AMAT) Dips More Than Broader Market: What You Should Know",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNOFRXbGEtYVRGeVlxcU1DSlRaMGhsWEpYcGQ1dlFtRFc5ODBWWVRrdW1tZGJUcko5clN0Y3VWVE5yanl0bFNiT0h0aUVsMGtGV2lIU3diYVByeUQwXzN4VWR4UVhjaVd1S3Iwem44ZTdTWFpoNmlIMWJwQWVSUHktLVVwd2xNTGVTcnN1WW9QdGh5QTRNa3o4QVlsU1p5QQ?oc=5",
+     "time": "2026-11-02T21:45:02+00:00"
+    },
+    {
+     "title": "Applied Materials Inc. stock underperforms Monday when compared to competitors",
+     "publisher": "MarketWatch",
+     "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPYnlHSDVlQkxwTjJNN19GempkOXFVVTg2aS1iX2lOSnJXZDM5cHhmZjlQdTVKVGVrUDROUzlDTHNjVUJsVzJKeGdzYlU2LVFUUTBzRFJUQUVZMkY5aC1PQ2VXZzhwZ1NWMEZRTTgtSXZmandrV3NRa3dlU05mcFNyZ1B0ZktBRDJhbm00YUxXNFVhRVJWNzVTcm05RnVMaDZKRzZrSGZBYzNXcDR0bXNIQWRrZ1NtcWpxYU9wQWdYRGV0czhPRFZLR3REeExCZUcxaHFYUnRBUDFkV1lscXdWMGJOTFFKNzhSQWpZ?oc=5",
+     "time": "2026-11-02T21:32:00+00:00"
+    },
+    {
+     "title": "Applied Materials Inc Stock (AMAT) Moved Down by 3.12% on Nov 2: Key Drivers Unveiled",
+     "publisher": "TradingKey",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPc2pNVE9oNkgteVM4MVRNNk5oZGpHcXh3X0N2Q3NUeWlzNW0xZjJRRDRvQVRZN0FWSnU5M3RQLS0zVHpKMDZBeUplSnliSkdSdGY2U29nUHk5TmdoMjRXcnAzOUZ1b1dfMGYybWRvRXB0Zl9IZ1NZd01qR3JEVVQzRlJyamtoSHVuYnlV?oc=5",
+     "time": "2026-11-02T20:15:40+00:00"
+    }
+   ],
+   "brief": "2026-11-04-AMAT"
+  },
+  {
    "symbol": "GOOG",
    "name": "Alphabet",
    "list": "portfolio",
-   "price": 289.95,
+   "price": 289.86,
    "prev_close": 278.27,
    "change_pct": 4.2,
    "trigger_change": 3.9,
@@ -453,8 +528,8 @@
    "sector": {
     "etf": "XLC",
     "name": "Communication",
-    "price": 104.97,
-    "change_pct": 3.47
+    "price": 105.0,
+    "change_pct": 3.51
    },
    "chart": {
     "ema8": -1.5,
@@ -516,100 +591,25 @@
    "brief": "2026-11-04-GOOG"
   },
   {
-   "symbol": "SOFI",
-   "name": "SoFi",
-   "list": "portfolio",
-   "price": 17.47,
-   "prev_close": 16.77,
-   "change_pct": 4.1,
-   "trigger_change": 4.1,
-   "peak_change": 5.4,
-   "first_seen": "2026-11-04T14:55:55+00:00",
-   "sector": {
-    "etf": "XLF",
-    "name": "Financials",
-    "price": 58.98,
-    "change_pct": 3.12
-   },
-   "chart": {
-    "ema8": 5.1,
-    "ema21": 8.4,
-    "sma50": 6.0,
-    "sma200": -1.0,
-    "momentum": true
-   },
-   "headlines": [
-    {
-     "title": "SoFi Technologies (SOFI) Tests Valuation Following Strong Q3 Results And Higher Outlook",
-     "publisher": "Simply Wall St",
-     "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOZHQ2eWxUMS05bnJlNHBRNEE2azdIQnVyQ01Ca0FCRkk4VVdialNvUGF6QzhwSUhRN0F1SGlkM1diZWhHUVM5bURweC1tNVRGRmhjUlFYc2dwcGdtcGZkS3B5b3JlRDN6OGxrMUZOWGhpZGJlV3Bub1JTaEtxUS1BcGZfaGp0Zmt2Uk85TU1rSkZwTFM4QTVZakJRV1UwWFk1cDhHMEdJV3BSMHJjcDJzZUMtNnRxOFNUdzcyV01rdGdDcnQ3OWZ2REI1Yk1LOG1hZ0NzalRLc2ZhMm92aEVDNk44dDDSAeoBQVVfeXFMUG02aHdIelZzTUptNmw3OUdFNkhmVmE0UWZpZFFvZjdtNXdRdlhaUDJHRDBYN01oOFpNXzlya291dDhGcjVzR0VWWHY3cTNzZWRvcWJHRlNDUDJtaHFtLXNENDR1YUpKWEI3UVl5ZEpDUXVkd0pWWWxIUnJDVlptYjhLZUVrY1J3a2V4dGhtRTJ4OWZxTjFvX2JVVGhDU3J5dWdfeVNJX091eGpIQU4xMU1VZEViZTRDLW5INVFxZ0NRTUtGbVBvWmFSVjRLS2FBdDNGRG1yNnhaQzNOS1dMWlRkT1dJWVBLR0Zn?oc=5",
-     "time": "2026-11-04T13:16:25+00:00"
-    },
-    {
-     "title": "SoFi Technologies, Inc. (SOFI) Interactive Stock Chart - Yahoo Finance",
-     "publisher": "Yahoo! Finance Canada",
-     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5FU3FmaWdwQm0tM2tLVkZQRS1GQnV2Z081bkVnSjFfVzdKWmFlVE4ySUtpZVlZUlhzN3poOUVsYzlja0tJT2x5dlVTSFRyVXRtRTJvVEVZQVQ4dw?oc=5",
-     "time": "2026-11-04T13:13:25+00:00"
-    },
-    {
-     "title": "SoFi Technologies, Inc. (SOFI) Is a Trending Stock: Facts to Know Before Betting on It",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQejJILW8taktnaWJsT1FuV09zYWxBZHI1dHNHdmJYVXNzSzgteC02NmxoUVFhM2o4aU54OG5KcUtBUGNIREE3S3lra0V6cVNfOWZZTjZLXzBFVVc4VWYyV2JoVjg0dG1neDVTdnZlYjhYMm5pcTgwaFdoN1lIWmZFYm9QcFktcXhfQldSSWh6ZF9ocUhlVEsxeDBweDBGazA4RFE?oc=5",
-     "time": "2026-11-04T13:00:03+00:00"
-    },
-    {
-     "title": "Prediction: These Will Be 3 of the Best-Performing Financial Stocks of 2027",
-     "publisher": "The Motley Fool",
-     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQb0c5NENYRGZlVE02SU1mZ1BrWWtvcjJRc29qSEE5M0dEOU5wSW1FUnRiVl9Nd1YxUy04d3RDOFpfakhveW1adUtrSkNLbEcyVzdNdFJYYjM3LTlsZWI5bWxtMzFta3pSZ0RWd3JMWWJkZ0Z0UWtYSlZIZ0dYSEJZX3I4NEo5SW5KOS1lT01ubmZjai1TNllQUA?oc=5",
-     "time": "2026-11-04T11:15:00+00:00"
-    },
-    {
-     "title": "SoFi Grants Director John C.R. Hele 15,880 Restricted Stock Units",
-     "publisher": "VZ Verm\u00f6gensZentrum",
-     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNZ0lreWkwRnR6V1cxYm9OQ3k5VVBUY1c0SF85OGxYeDJVUXAzVVluNkdyLU1MTUw0TWkwWVFFLUM1ZGRKWU1PNHd2T2lfeUQ2a2k3WFVFbTBWSGVBX05oV3dfWG5ETTdrZ1ZQXzItRjh4d1BnbDBiZ2VJZk4xSTRIa2puRm44OUxfeFJLU1Z1UG82RGxVV0pZeWlzdFc0U3JJUE52aTFKXzhlX3hpNHppbFA2Zk44OU5CdFhmN24yWHZhaEJud2ZYamp3?oc=5",
-     "time": "2026-11-04T01:12:58+00:00"
-    },
-    {
-     "title": "A 15,880-unit stock grant for SoFi (SOFI) director John C.R. Hele vests over 12 months.",
-     "publisher": "Stock Titan",
-     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPcU1VQ1N4QzlST1lqeGozVHZqVktNSXQ1X2NWaTRqdDhlczdrTHJMN28xZjdMSjhqNHRWdEZEQ0NfTlN1ZXBSZUlNQzhLT1dLSXhSeUVoT3BxRlFTWWc4bEwwb09BTFFUR0w2VGtRLUNxdm9jb0xBT1Byd01RWWEwSWE3ZjQ3b2xBYWFXdGdKUmEyeEpRMTY1ZkpPSmhJOWdVTVlrMlBzbjN3UGpIOS1uaUZpNHBrSHM?oc=5",
-     "time": "2026-11-04T01:04:00+00:00"
-    },
-    {
-     "title": "Why Now Could Be the Right Time to Buy SoFi Stock",
-     "publisher": "Barchart.com",
-     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxONmpwQlM5RndrbW5jcUV6QmUxQVRvYms1X3FzLUplNXVEOGM2enJ4YWxoRjRMeEFzSXZEYkluVmNsc1ZXSWVJNDZEZXF2dWpJYVdHN2VUUVI4WnlVMGZ0TnYwdEdfLW5PdjJTZDBSNVRkT3V6QzFGX3RVWjFSV3VuUFFKUlFFcTdBdXI3cGRsRzJGZUQzQjU1WA?oc=5",
-     "time": "2026-11-03T19:53:39+00:00"
-    },
-    {
-     "title": "SoFi added 1.2M members last quarter but its st...",
-     "publisher": "Pluang",
-     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQVzA4M3hGMEtfN0dIRnhOWWRSbEVGU1RzZ1VuV1luMkZLdHE0VTJWWUo5d2F5aDJGbHA3TzRoWlBmUnFtTk1ubHRrQUtsRXZmeWdzSzhJdTUzck1mdkwtU28yVG1TSldRbldCUFFfLUlLZFRJVVA1MlV5ZndMb3JQWXlQOFVYUkVzSUE?oc=5",
-     "time": "2026-11-03T18:47:19+00:00"
-    }
-   ],
-   "brief": "2026-11-04-SOFI"
-  },
-  {
    "symbol": "NFLX",
    "name": "Netflix",
    "list": "portfolio",
-   "price": 66.05,
+   "price": 66.08,
    "prev_close": 63.42,
-   "change_pct": 4.1,
+   "change_pct": 4.2,
    "trigger_change": 3.9,
    "peak_change": 4.4,
    "first_seen": "2026-11-04T15:00:57+00:00",
    "sector": {
     "etf": "XLC",
     "name": "Communication",
-    "price": 104.97,
-    "change_pct": 3.47
+    "price": 105.0,
+    "change_pct": 3.51
    },
    "chart": {
-    "ema8": 3.0,
+    "ema8": 3.1,
     "ema21": -0.3,
-    "sma50": -7.9,
+    "sma50": -7.8,
     "sma200": -18.7,
     "momentum": false
    },
@@ -666,96 +666,96 @@
    "brief": "2026-11-04-NFLX"
   },
   {
-   "symbol": "AMAT",
-   "name": "Applied Materials",
+   "symbol": "SOFI",
+   "name": "SoFi",
    "list": "portfolio",
-   "price": 366.85,
-   "prev_close": 381.92,
-   "change_pct": -3.9,
-   "trigger_change": -3.4,
-   "peak_change": -4.4,
-   "first_seen": "2026-11-04T16:33:19+00:00",
+   "price": 17.41,
+   "prev_close": 16.77,
+   "change_pct": 3.8,
+   "trigger_change": 4.1,
+   "peak_change": 5.4,
+   "first_seen": "2026-11-04T14:55:55+00:00",
    "sector": {
-    "etf": "SMH",
-    "name": "Semiconductors",
-    "price": 505.02,
-    "change_pct": -2.6
+    "etf": "XLF",
+    "name": "Financials",
+    "price": 58.95,
+    "change_pct": 3.07
    },
    "chart": {
-    "ema8": -5.6,
-    "ema21": -11.8,
-    "sma50": -18.7,
-    "sma200": -17.6,
-    "momentum": false
+    "ema8": 4.8,
+    "ema21": 8.2,
+    "sma50": 5.7,
+    "sma200": -1.3,
+    "momentum": true
    },
    "headlines": [
     {
-     "title": "ETFs Bought $237.0 Million of Applied Materials (AMAT) on Nov. 2",
+     "title": "SoFi Technologies (SOFI) Tests Valuation Following Strong Q3 Results And Higher Outlook",
+     "publisher": "Simply Wall St",
+     "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOZHQ2eWxUMS05bnJlNHBRNEE2azdIQnVyQ01Ca0FCRkk4VVdialNvUGF6QzhwSUhRN0F1SGlkM1diZWhHUVM5bURweC1tNVRGRmhjUlFYc2dwcGdtcGZkS3B5b3JlRDN6OGxrMUZOWGhpZGJlV3Bub1JTaEtxUS1BcGZfaGp0Zmt2Uk85TU1rSkZwTFM4QTVZakJRV1UwWFk1cDhHMEdJV3BSMHJjcDJzZUMtNnRxOFNUdzcyV01rdGdDcnQ3OWZ2REI1Yk1LOG1hZ0NzalRLc2ZhMm92aEVDNk44dDDSAeoBQVVfeXFMUG02aHdIelZzTUptNmw3OUdFNkhmVmE0UWZpZFFvZjdtNXdRdlhaUDJHRDBYN01oOFpNXzlya291dDhGcjVzR0VWWHY3cTNzZWRvcWJHRlNDUDJtaHFtLXNENDR1YUpKWEI3UVl5ZEpDUXVkd0pWWWxIUnJDVlptYjhLZUVrY1J3a2V4dGhtRTJ4OWZxTjFvX2JVVGhDU3J5dWdfeVNJX091eGpIQU4xMU1VZEViZTRDLW5INVFxZ0NRTUtGbVBvWmFSVjRLS2FBdDNGRG1yNnhaQzNOS1dMWlRkT1dJWVBLR0Zn?oc=5",
+     "time": "2026-11-04T13:16:25+00:00"
+    },
+    {
+     "title": "SoFi Technologies, Inc. (SOFI) Interactive Stock Chart - Yahoo Finance",
+     "publisher": "Yahoo! Finance Canada",
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5FU3FmaWdwQm0tM2tLVkZQRS1GQnV2Z081bkVnSjFfVzdKWmFlVE4ySUtpZVlZUlhzN3poOUVsYzlja0tJT2x5dlVTSFRyVXRtRTJvVEVZQVQ4dw?oc=5",
+     "time": "2026-11-04T13:13:25+00:00"
+    },
+    {
+     "title": "SoFi Technologies, Inc. (SOFI) Is a Trending Stock: Facts to Know Before Betting on It",
      "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZmlMWHBnWVE1MHZnZC1heHFyekNLbkxVWWEzUzlrRWRZQmhRWDRLYU1OODBHRS1MQUJEemVCeWQ3UEdKNHhtSXIxUG55N09HaDR4T2I0b3ZsazNuRjJtOUtmaXRSeGlYbENOMVRzbV9UVFN1NU1QVzZ0ZUJqRUlvdWtPVnR5ajBlcDI3Qjd1SHM4dDFk?oc=5",
-     "time": "2026-11-04T11:01:35+00:00"
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQejJILW8taktnaWJsT1FuV09zYWxBZHI1dHNHdmJYVXNzSzgteC02NmxoUVFhM2o4aU54OG5KcUtBUGNIREE3S3lra0V6cVNfOWZZTjZLXzBFVVc4VWYyV2JoVjg0dG1neDVTdnZlYjhYMm5pcTgwaFdoN1lIWmZFYm9QcFktcXhfQldSSWh6ZF9ocUhlVEsxeDBweDBGazA4RFE?oc=5",
+     "time": "2026-11-04T13:00:03+00:00"
     },
     {
-     "title": "Applied Materials Just Dropped 29% In a Month: Will November 12 Earnings Rescue or Break AMAT Stock?",
-     "publisher": "24/7 Wall St.",
-     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQNl95S09KZ0pxX0loMm12cFIzRHhZNm13RU1kdUpCc2FfeHM1QTA2QjdGUDBFZlBCaVhIbWk3bUhRT0pQTncxSEpwekhBXzVoNFcxTG9pTXBzUFFxSGU1N2l6TnB5eldJYXAxTGMxRk1rOElNeUVXYmZKeG04bFlFQm5YOU5ZUVhjcm1KU0FIaDdpNmR5cEhySzUzMWQzRHRGNEVRdmNac000WVU0emItZks1WHhCXzhaaXNxVXEwVm01UmZkaVdxbnB6cG1taDBDbFQzaVhFX2w?oc=5",
-     "time": "2026-11-03T20:05:00+00:00"
+     "title": "Prediction: These Will Be 3 of the Best-Performing Financial Stocks of 2027",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQb0c5NENYRGZlVE02SU1mZ1BrWWtvcjJRc29qSEE5M0dEOU5wSW1FUnRiVl9Nd1YxUy04d3RDOFpfakhveW1adUtrSkNLbEcyVzdNdFJYYjM3LTlsZWI5bWxtMzFta3pSZ0RWd3JMWWJkZ0Z0UWtYSlZIZ0dYSEJZX3I4NEo5SW5KOS1lT01ubmZjai1TNllQUA?oc=5",
+     "time": "2026-11-04T11:15:00+00:00"
     },
     {
-     "title": "What Does Applied Materials Stock\u2019s Winning Streak Really Prove?",
-     "publisher": "Trefis",
-     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdmVFVTRBWXVsak9XZk5GTkpjTXI4dmZPSzZ4NWRkS2xaNHFKcmwtM0lCbzQ1TF9CdDF4eTBUemxtVXJPdXpPYmJKaXA5QldwNkMtMFNvLU5wRXAtdHM5anpoN280eDhpcjR4LXQ5bzRrYkNJT251U2FQQ3hLWUpqdXhJR1JfSFNtYkZUdE5UNnpvU2ZQQ3RrWGpYZFdqMDFHZjJiczZBZ0lEZGtsNVVHSG1uM0hPcy1Mc2tUdUtHajA?oc=5",
-     "time": "2026-11-03T12:02:01+00:00"
+     "title": "SoFi Grants Director John C.R. Hele 15,880 Restricted Stock Units",
+     "publisher": "VZ Verm\u00f6gensZentrum",
+     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNZ0lreWkwRnR6V1cxYm9OQ3k5VVBUY1c0SF85OGxYeDJVUXAzVVluNkdyLU1MTUw0TWkwWVFFLUM1ZGRKWU1PNHd2T2lfeUQ2a2k3WFVFbTBWSGVBX05oV3dfWG5ETTdrZ1ZQXzItRjh4d1BnbDBiZ2VJZk4xSTRIa2puRm44OUxfeFJLU1Z1UG82RGxVV0pZeWlzdFc0U3JJUE52aTFKXzhlX3hpNHppbFA2Zk44OU5CdFhmN24yWHZhaEJud2ZYamp3?oc=5",
+     "time": "2026-11-04T01:12:58+00:00"
     },
     {
-     "title": "Testing Support Level, AMAT Stock Drops 3.99% on Monday",
-     "publisher": "JournalArta",
-     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPN1locHRtbzlndkIyU3FYb0EySVR3NVJBQjdPRnAtdW1yaWJoaFlKZThLSUEwUTl6M2dGWjROZHRESGQ1Z0oxaXF1cXVKdTVqLXdnMUZLNGR5dzFhdWxsT1ZtRWhxNGszVnY2QVJjejFPY3RxWGc5ZWZmSjR0RmNZb1JYU29oeWtmSDhJa3NnZUdnMWJkQ2VR?oc=5",
-     "time": "2026-11-03T11:07:38+00:00"
+     "title": "A 15,880-unit stock grant for SoFi (SOFI) director John C.R. Hele vests over 12 months.",
+     "publisher": "Stock Titan",
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPcU1VQ1N4QzlST1lqeGozVHZqVktNSXQ1X2NWaTRqdDhlczdrTHJMN28xZjdMSjhqNHRWdEZEQ0NfTlN1ZXBSZUlNQzhLT1dLSXhSeUVoT3BxRlFTWWc4bEwwb09BTFFUR0w2VGtRLUNxdm9jb0xBT1Byd01RWWEwSWE3ZjQ3b2xBYWFXdGdKUmEyeEpRMTY1ZkpPSmhJOWdVTVlrMlBzbjN3UGpIOS1uaUZpNHBrSHM?oc=5",
+     "time": "2026-11-04T01:04:00+00:00"
     },
     {
-     "title": "Did Earnings Growth Just Shift Applied Materials (AMAT) Investment Narrative?",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNcEJfcVUzMWNlUmVHdTlWVTNjRVBJTzV2TFBCWVRCU0hNSGRPMndxNExua1dEaUtlM3NSaG9CREZUUDdSNlY2RURkSXI0bFd4TjY3Y3pkN3dxUHZXblU4TVhINlR3UFhSd1hyVFAtSDBrWW5VSE9ITk91U3Y2RzFwVFkta0JscE9rTGFBUl9SSXZYbDZDbER4NUwtbw?oc=5",
-     "time": "2026-11-03T02:33:49+00:00"
+     "title": "Why Now Could Be the Right Time to Buy SoFi Stock",
+     "publisher": "Barchart.com",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxONmpwQlM5RndrbW5jcUV6QmUxQVRvYms1X3FzLUplNXVEOGM2enJ4YWxoRjRMeEFzSXZEYkluVmNsc1ZXSWVJNDZEZXF2dWpJYVdHN2VUUVI4WnlVMGZ0TnYwdEdfLW5PdjJTZDBSNVRkT3V6QzFGX3RVWjFSV3VuUFFKUlFFcTdBdXI3cGRsRzJGZUQzQjU1WA?oc=5",
+     "time": "2026-11-03T19:53:39+00:00"
     },
     {
-     "title": "Applied Materials (AMAT) Dips More Than Broader Market: What You Should Know",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNOFRXbGEtYVRGeVlxcU1DSlRaMGhsWEpYcGQ1dlFtRFc5ODBWWVRrdW1tZGJUcko5clN0Y3VWVE5yanl0bFNiT0h0aUVsMGtGV2lIU3diYVByeUQwXzN4VWR4UVhjaVd1S3Iwem44ZTdTWFpoNmlIMWJwQWVSUHktLVVwd2xNTGVTcnN1WW9QdGh5QTRNa3o4QVlsU1p5QQ?oc=5",
-     "time": "2026-11-02T21:45:02+00:00"
-    },
-    {
-     "title": "Applied Materials Inc. stock underperforms Monday when compared to competitors",
-     "publisher": "MarketWatch",
-     "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPYnlHSDVlQkxwTjJNN19GempkOXFVVTg2aS1iX2lOSnJXZDM5cHhmZjlQdTVKVGVrUDROUzlDTHNjVUJsVzJKeGdzYlU2LVFUUTBzRFJUQUVZMkY5aC1PQ2VXZzhwZ1NWMEZRTTgtSXZmandrV3NRa3dlU05mcFNyZ1B0ZktBRDJhbm00YUxXNFVhRVJWNzVTcm05RnVMaDZKRzZrSGZBYzNXcDR0bXNIQWRrZ1NtcWpxYU9wQWdYRGV0czhPRFZLR3REeExCZUcxaHFYUnRBUDFkV1lscXdWMGJOTFFKNzhSQWpZ?oc=5",
-     "time": "2026-11-02T21:32:00+00:00"
-    },
-    {
-     "title": "Applied Materials Inc Stock (AMAT) Moved Down by 3.12% on Nov 2: Key Drivers Unveiled",
-     "publisher": "TradingKey",
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPc2pNVE9oNkgteVM4MVRNNk5oZGpHcXh3X0N2Q3NUeWlzNW0xZjJRRDRvQVRZN0FWSnU5M3RQLS0zVHpKMDZBeUplSnliSkdSdGY2U29nUHk5TmdoMjRXcnAzOUZ1b1dfMGYybWRvRXB0Zl9IZ1NZd01qR3JEVVQzRlJyamtoSHVuYnlV?oc=5",
-     "time": "2026-11-02T20:15:40+00:00"
+     "title": "SoFi added 1.2M members last quarter but its st...",
+     "publisher": "Pluang",
+     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQVzA4M3hGMEtfN0dIRnhOWWRSbEVGU1RzZ1VuV1luMkZLdHE0VTJWWUo5d2F5aDJGbHA3TzRoWlBmUnFtTk1ubHRrQUtsRXZmeWdzSzhJdTUzck1mdkwtU28yVG1TSldRbldCUFFfLUlLZFRJVVA1MlV5ZndMb3JQWXlQOFVYUkVzSUE?oc=5",
+     "time": "2026-11-03T18:47:19+00:00"
     }
    ],
-   "brief": "2026-11-04-AMAT"
+   "brief": "2026-11-04-SOFI"
   },
   {
    "symbol": "BTC-USD",
    "name": "Bitcoin",
    "list": "watchlist",
-   "price": 80186.6,
+   "price": 80142.5,
    "prev_close": 77331.7,
-   "change_pct": 3.7,
+   "change_pct": 3.6,
    "trigger_change": 4.0,
    "peak_change": 4.7,
    "first_seen": "2026-11-04T15:11:03+00:00",
    "sector": null,
    "chart": {
-    "ema8": 2.0,
-    "ema21": 0.4,
+    "ema8": 1.9,
+    "ema21": 0.3,
     "sma50": -2.2,
-    "sma200": 9.6,
+    "sma200": 9.5,
     "momentum": false
    },
    "headlines": [
@@ -814,23 +814,23 @@
    "symbol": "META",
    "name": "Meta",
    "list": "portfolio",
-   "price": 628.28,
+   "price": 627.25,
    "prev_close": 621.03,
-   "change_pct": 1.2,
+   "change_pct": 1.0,
    "trigger_change": 3.2,
    "peak_change": 3.2,
    "first_seen": "2026-11-04T17:48:16+00:00",
    "sector": {
     "etf": "XLC",
     "name": "Communication",
-    "price": 104.97,
-    "change_pct": 3.47
+    "price": 105.0,
+    "change_pct": 3.51
    },
    "chart": {
-    "ema8": -0.1,
-    "ema21": -4.5,
-    "sma50": -6.7,
-    "sma200": -0.6,
+    "ema8": -0.2,
+    "ema21": -4.6,
+    "sma50": -6.9,
+    "sma200": -0.8,
     "momentum": false
    },
    "headlines": [
@@ -889,23 +889,23 @@
    "symbol": "CRWD",
    "name": "CrowdStrike",
    "list": "portfolio",
-   "price": 243.5,
+   "price": 242.49,
    "prev_close": 244.68,
-   "change_pct": -0.5,
+   "change_pct": -0.9,
    "trigger_change": 3.1,
    "peak_change": 3.1,
    "first_seen": "2026-11-04T15:21:14+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 103.86,
-    "change_pct": 1.17
+    "price": 103.77,
+    "change_pct": 1.08
    },
    "chart": {
-    "ema8": -2.3,
-    "ema21": -2.7,
-    "sma50": 0.0,
-    "sma200": 43.9,
+    "ema8": -2.6,
+    "ema21": -3.1,
+    "sma50": -0.4,
+    "sma200": 43.3,
     "momentum": false
    },
    "headlines": [
