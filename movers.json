@@ -1,22 +1,22 @@
 {
  "date": "2026-11-04",
  "threshold": 3.0,
- "updated": "2026-11-04T19:24:16+00:00",
+ "updated": "2026-11-04T19:39:19+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 768.03,
-   "change_pct": 1.81
+   "price": 768.05,
+   "change_pct": 1.82
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 693.67,
-   "change_pct": 1.22
+   "price": 693.37,
+   "change_pct": 1.18
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 81.71,
-   "change_pct": 0.74
+   "price": 81.67,
+   "change_pct": 0.69
   }
  },
  "movers": [
@@ -24,23 +24,23 @@
    "symbol": "APP",
    "name": "AppLovin",
    "list": "portfolio",
-   "price": 273.19,
+   "price": 271.27,
    "prev_close": 245.51,
-   "change_pct": 11.3,
+   "change_pct": 10.5,
    "trigger_change": 5.7,
    "peak_change": 12.2,
    "first_seen": "2026-11-04T14:55:55+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 103.77,
-    "change_pct": 1.08
+    "price": 103.83,
+    "change_pct": 1.13
    },
    "chart": {
-    "ema8": 7.7,
-    "ema21": 3.3,
-    "sma50": -6.1,
-    "sma200": -33.5,
+    "ema8": 7.1,
+    "ema21": 2.7,
+    "sma50": -6.7,
+    "sma200": -34.0,
     "momentum": false
    },
    "headlines": [
@@ -99,23 +99,23 @@
    "symbol": "AMZN",
    "name": "Amazon",
    "list": "portfolio",
-   "price": 268.62,
+   "price": 268.0,
    "prev_close": 250.69,
-   "change_pct": 7.2,
+   "change_pct": 6.9,
    "trigger_change": 7.7,
    "peak_change": 8.0,
    "first_seen": "2026-11-04T14:55:55+00:00",
    "sector": {
     "etf": "XLY",
     "name": "Consumer discr.",
-    "price": 122.78,
-    "change_pct": 4.65
+    "price": 122.67,
+    "change_pct": 4.56
    },
    "chart": {
-    "ema8": 6.1,
-    "ema21": 6.1,
-    "sma50": 5.8,
-    "sma200": 10.2,
+    "ema8": 5.9,
+    "ema21": 5.9,
+    "sma50": 5.5,
+    "sma200": 10.0,
     "momentum": true
    },
    "headlines": [
@@ -174,23 +174,23 @@
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 141.22,
+   "price": 141.94,
    "prev_close": 151.64,
-   "change_pct": -6.9,
+   "change_pct": -6.4,
    "trigger_change": -4.1,
    "peak_change": -7.3,
    "first_seen": "2026-11-04T15:31:22+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 103.77,
-    "change_pct": 1.08
+    "price": 103.83,
+    "change_pct": 1.13
    },
    "chart": {
-    "ema8": -9.4,
-    "ema21": -19.2,
-    "sma50": -31.2,
-    "sma200": -20.7,
+    "ema8": -9.0,
+    "ema21": -18.8,
+    "sma50": -30.9,
+    "sma200": -20.3,
     "momentum": false
    },
    "headlines": [
@@ -249,9 +249,9 @@
    "symbol": "NVO",
    "name": "Novo Nordisk (ADR)",
    "list": "portfolio",
-   "price": 42.67,
+   "price": 42.61,
    "prev_close": 40.19,
-   "change_pct": 6.2,
+   "change_pct": 6.0,
    "trigger_change": 6.6,
    "peak_change": 7.2,
    "first_seen": "2026-11-04T14:55:55+00:00",
@@ -262,10 +262,10 @@
     "change_pct": 2.81
    },
    "chart": {
-    "ema8": 6.0,
-    "ema21": 7.6,
-    "sma50": 4.5,
-    "sma200": -2.8,
+    "ema8": 5.8,
+    "ema21": 7.4,
+    "sma50": 4.3,
+    "sma200": -3.0,
     "momentum": true
    },
    "headlines": [
@@ -291,101 +291,26 @@
    "brief": "2026-11-04-NVO"
   },
   {
-   "symbol": "ANET",
-   "name": "Arista Networks",
-   "list": "portfolio",
-   "price": 180.27,
-   "prev_close": 169.91,
-   "change_pct": 6.1,
-   "trigger_change": 10.3,
-   "peak_change": 10.3,
-   "first_seen": "2026-11-04T14:55:55+00:00",
-   "sector": {
-    "etf": "SMH",
-    "name": "Semiconductors",
-    "price": 503.94,
-    "change_pct": -2.81
-   },
-   "chart": {
-    "ema8": 2.2,
-    "ema21": -1.9,
-    "sma50": -7.1,
-    "sma200": 8.7,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Chart of the Day: Arista Networks Tries to Break Downtrend",
-     "publisher": "RealMoney Pro",
-     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZWl2Z2xSRF9VZ1o1YVFRWHF5aFk2NUtUdmNieGdZTVQ3Wmdsc3FQZlVrdTZRczRCbWM0UTBXYVhJajBwRUtZaWpLSmRvZldJQ1hUQS0wbzJidW9oN1ljVl81UTQtMERIUWRxTEZsTXUyN25JdFJ2YmNXeERacmJHajl2MW5TdlY3bUJ5NEh6dGpUdnFPWmNBOQ?oc=5",
-     "time": "2026-11-04T18:45:00+00:00"
-    },
-    {
-     "title": "New Arista Networks Price Target After Beat-And-Raise Quarter",
-     "publisher": "RealMoney Pro",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPTmoxTGhtNXJaX2VVcTBUUXFnTzZoZEZDa2NwYk14UWZUTk1WZXdjVzhGYmwyelVyOGZmWWJ6S2tOd3dtdFVFbU5TWlVUOUdKR0NieHRPUkZlaGw4Sl9OTmk0WmJBMXhSRWVYQUVHWEpJYVFzUExxMTBtNG0yUy0xM2pKeDNWaGlNakFVVmk2Q1JSaEpfQjFLUllROXVJdw?oc=5",
-     "time": "2026-11-04T17:45:00+00:00"
-    },
-    {
-     "title": "Arista Networks (NYSE:ANET) Stock Price Target Lowered at Barclays",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOXzhQSUhhcmpqUEN2QXhIVTIxV2RFV1UzamplbzJBNkdFYjhOVGs1RERPejVYZnhwNFl5ZFdTQlVBSnU3cVpsZWxZY3FaQ3dPdUQ1aGlJS3FPMWFJR1BBd19pb2RiWjF0akNncmFhVUhDYi1ISGZQSWtTajJxLU9sWU1KRUxfdWFDUTBQUlh2R0hBUlJwbzByX0VwR09pQ3IwYU5OUmZzenZEUVpVMlk2ZHZjU1I5a0hhRjk2RkllYnh6SERQ?oc=5",
-     "time": "2026-11-04T17:35:43+00:00"
-    },
-    {
-     "title": "Piper Sandler Issues Positive Forecast for Arista Networks (NYSE:ANET) Stock Price",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNNFFyTkFvMUNTeTF3UGpORnM4UjMxNHkzTzcwR245dS04SHdpeWZkRndhWVlkemFFY2sxWnRuTlZuUHFmTXNhNkktRERaX09POUJ6eHhrLXlrZ0RPd2loVmducUtacWlkbU1KTkxCVmFVMlhTQkcwQjlVU2NWdzNZS1BDTldyZVJvU3E1WDdLT1lNZXltSXJ4WnpEaDBKMlNGY1ZMcXZRcVdLV3BwUDd5ZU4yX1laTmlNNWZPZ2JPSzRsa01yNm9pdjBiNXpSY3FIOEpZZmltUWotQQ?oc=5",
-     "time": "2026-11-04T17:35:43+00:00"
-    },
-    {
-     "title": "Arista Stocks Rise 5.10% as Revenue Guide Raises the AI Networking Bar",
-     "publisher": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxObGdpeDJFeHdyRUhpWFptU0djOG02NHV3M2ZKYUVqeWNISXpTb2NZOXh4WDczT25TWHpYOEJXdmpSU1lnaURaTVloaTlaSkJGVGVoTkRiVkhCU0o3Um5XRks5YVJraXZWOFRqbWZYMklmYkp1dklpNWVwZFR6b0xiU2V6dkNSQlNWVzE3emMxVXBpVFFQdld2RzFkVmluYUFTTXhfdVRXQTRaSVkxWjNTN3RNSXdnU3lZMXd2TnRRdzZGRktSd1FvQw?oc=5",
-     "time": "2026-11-04T17:15:14+00:00"
-    },
-    {
-     "title": "Arista Networks (NYSE:ANET) Given New $240.00 Price Target at Truist Financial",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOa0k1ckRSMlo5b2dXd3o3c2d5LWpQX2x3LVdScjRwbTFyTERKMjdCWjF1bUNaYk5ocGtBeFpIZXJROGZrNmQ1dXB4cWJvb1h6UGRYUDVEckJzRmljYUJqUU15RjYyTGMwQUF6eVgzQ0hUSXhVQ0RXX3dqTHRCYnk0LTI0cXFlWENWaDVhZnhueWVkUzhPZzIyTzQ5NEp6Yk5wcVlXU0VCcm5HckJWaS1hR1Brd0puNE0xbGFuZlh0dFZJMmxndnpjb3NVbDB4azdpRlE?oc=5",
-     "time": "2026-11-04T16:05:19+00:00"
-    },
-    {
-     "title": "ANET Q3 Earnings Beat Estimates on Strong AI and Enterprise Demand",
-     "publisher": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNRzJra052d3BHT29BSTByZ1lMVDk5eGR2LXNTbGpKZ2JWTjJ6dkJLQ3o3LU1aTi1ETHJvNUJFLXhxZGtlUFpvdEw2clBtdjQ5STRWb0EzQ1Zfd29ZR0ZDeDYyUnlHaHo5OTlLOE1Ja09FT1B3SWRZWmgzQ01Ma0R2a2k1QVdVcFlISnlZYnlTVjFTOXh6Y3REdXUtUVA4NW12cjlpMGVLWWdUajk1bXZydWs5U1Nqc3RzX3YwMEdaQQ?oc=5",
-     "time": "2026-11-04T15:19:00+00:00"
-    },
-    {
-     "title": "Arista Networks price target raised to $240 from $234 at Truist",
-     "publisher": "TipRanks",
-     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdEVoNmxveWlzd3k4aERkbkNQRmktU3VFelpZSGxocjdaM2JIajlTWW1sN3lFTHBBRWFSejJtMHVCOVBOajdPWFVmOFFYZDd5eEdQWnVWNzYtcE53R0s1U1VsSTJqekFKN2ZhNGFWc3BmeGdtbWF0OVNhYmc0a1dVOU1zN2Facnl1WnpaMk1DZVJEQVhJSWZYYk16M0FLUkZXa1hvNktXbGpyUW1BSEcxUw?oc=5",
-     "time": "2026-11-04T14:35:33+00:00"
-    }
-   ],
-   "brief": "2026-11-04-ANET"
-  },
-  {
    "symbol": "MELI",
    "name": "MercadoLibre",
    "list": "watchlist",
-   "price": 1753.74,
+   "price": 1758.55,
    "prev_close": 1662.16,
-   "change_pct": 5.5,
+   "change_pct": 5.8,
    "trigger_change": 4.9,
    "peak_change": 6.2,
    "first_seen": "2026-11-04T14:55:55+00:00",
    "sector": {
     "etf": "XLY",
     "name": "Consumer discr.",
-    "price": 122.78,
-    "change_pct": 4.65
+    "price": 122.67,
+    "change_pct": 4.56
    },
    "chart": {
-    "ema8": 2.8,
-    "ema21": 0.1,
-    "sma50": -3.9,
-    "sma200": -3.0,
+    "ema8": 3.0,
+    "ema21": 0.3,
+    "sma50": -3.7,
+    "sma200": -2.7,
     "momentum": false
    },
    "headlines": [
@@ -441,176 +366,101 @@
    "brief": "2026-11-04-MELI"
   },
   {
-   "symbol": "AMAT",
-   "name": "Applied Materials",
+   "symbol": "ANET",
+   "name": "Arista Networks",
    "list": "portfolio",
-   "price": 365.68,
-   "prev_close": 381.92,
-   "change_pct": -4.3,
-   "trigger_change": -3.4,
-   "peak_change": -4.4,
-   "first_seen": "2026-11-04T16:33:19+00:00",
+   "price": 179.74,
+   "prev_close": 169.91,
+   "change_pct": 5.8,
+   "trigger_change": 10.3,
+   "peak_change": 10.3,
+   "first_seen": "2026-11-04T14:55:55+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 503.94,
-    "change_pct": -2.81
+    "price": 503.9,
+    "change_pct": -2.82
    },
    "chart": {
-    "ema8": -5.8,
-    "ema21": -12.1,
-    "sma50": -18.9,
-    "sma200": -17.9,
+    "ema8": 2.0,
+    "ema21": -2.1,
+    "sma50": -7.4,
+    "sma200": 8.4,
     "momentum": false
    },
    "headlines": [
     {
-     "title": "ETFs Bought $237.0 Million of Applied Materials (AMAT) on Nov. 2",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZmlMWHBnWVE1MHZnZC1heHFyekNLbkxVWWEzUzlrRWRZQmhRWDRLYU1OODBHRS1MQUJEemVCeWQ3UEdKNHhtSXIxUG55N09HaDR4T2I0b3ZsazNuRjJtOUtmaXRSeGlYbENOMVRzbV9UVFN1NU1QVzZ0ZUJqRUlvdWtPVnR5ajBlcDI3Qjd1SHM4dDFk?oc=5",
-     "time": "2026-11-04T11:01:35+00:00"
+     "title": "Chart of the Day: Arista Networks Tries to Break Downtrend",
+     "publisher": "RealMoney Pro",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZWl2Z2xSRF9VZ1o1YVFRWHF5aFk2NUtUdmNieGdZTVQ3Wmdsc3FQZlVrdTZRczRCbWM0UTBXYVhJajBwRUtZaWpLSmRvZldJQ1hUQS0wbzJidW9oN1ljVl81UTQtMERIUWRxTEZsTXUyN25JdFJ2YmNXeERacmJHajl2MW5TdlY3bUJ5NEh6dGpUdnFPWmNBOQ?oc=5",
+     "time": "2026-11-04T18:45:00+00:00"
     },
     {
-     "title": "Applied Materials Just Dropped 29% In a Month: Will November 12 Earnings Rescue or Break AMAT Stock?",
-     "publisher": "24/7 Wall St.",
-     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQNl95S09KZ0pxX0loMm12cFIzRHhZNm13RU1kdUpCc2FfeHM1QTA2QjdGUDBFZlBCaVhIbWk3bUhRT0pQTncxSEpwekhBXzVoNFcxTG9pTXBzUFFxSGU1N2l6TnB5eldJYXAxTGMxRk1rOElNeUVXYmZKeG04bFlFQm5YOU5ZUVhjcm1KU0FIaDdpNmR5cEhySzUzMWQzRHRGNEVRdmNac000WVU0emItZks1WHhCXzhaaXNxVXEwVm01UmZkaVdxbnB6cG1taDBDbFQzaVhFX2w?oc=5",
-     "time": "2026-11-03T20:05:00+00:00"
+     "title": "New Arista Networks Price Target After Beat-And-Raise Quarter",
+     "publisher": "RealMoney Pro",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPTmoxTGhtNXJaX2VVcTBUUXFnTzZoZEZDa2NwYk14UWZUTk1WZXdjVzhGYmwyelVyOGZmWWJ6S2tOd3dtdFVFbU5TWlVUOUdKR0NieHRPUkZlaGw4Sl9OTmk0WmJBMXhSRWVYQUVHWEpJYVFzUExxMTBtNG0yUy0xM2pKeDNWaGlNakFVVmk2Q1JSaEpfQjFLUllROXVJdw?oc=5",
+     "time": "2026-11-04T17:45:00+00:00"
     },
     {
-     "title": "What Does Applied Materials Stock\u2019s Winning Streak Really Prove?",
-     "publisher": "Trefis",
-     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdmVFVTRBWXVsak9XZk5GTkpjTXI4dmZPSzZ4NWRkS2xaNHFKcmwtM0lCbzQ1TF9CdDF4eTBUemxtVXJPdXpPYmJKaXA5QldwNkMtMFNvLU5wRXAtdHM5anpoN280eDhpcjR4LXQ5bzRrYkNJT251U2FQQ3hLWUpqdXhJR1JfSFNtYkZUdE5UNnpvU2ZQQ3RrWGpYZFdqMDFHZjJiczZBZ0lEZGtsNVVHSG1uM0hPcy1Mc2tUdUtHajA?oc=5",
-     "time": "2026-11-03T12:02:01+00:00"
+     "title": "Arista Networks (NYSE:ANET) Stock Price Target Lowered at Barclays",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOXzhQSUhhcmpqUEN2QXhIVTIxV2RFV1UzamplbzJBNkdFYjhOVGs1RERPejVYZnhwNFl5ZFdTQlVBSnU3cVpsZWxZY3FaQ3dPdUQ1aGlJS3FPMWFJR1BBd19pb2RiWjF0akNncmFhVUhDYi1ISGZQSWtTajJxLU9sWU1KRUxfdWFDUTBQUlh2R0hBUlJwbzByX0VwR09pQ3IwYU5OUmZzenZEUVpVMlk2ZHZjU1I5a0hhRjk2RkllYnh6SERQ?oc=5",
+     "time": "2026-11-04T17:35:43+00:00"
     },
     {
-     "title": "Testing Support Level, AMAT Stock Drops 3.99% on Monday",
-     "publisher": "JournalArta",
-     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPN1locHRtbzlndkIyU3FYb0EySVR3NVJBQjdPRnAtdW1yaWJoaFlKZThLSUEwUTl6M2dGWjROZHRESGQ1Z0oxaXF1cXVKdTVqLXdnMUZLNGR5dzFhdWxsT1ZtRWhxNGszVnY2QVJjejFPY3RxWGc5ZWZmSjR0RmNZb1JYU29oeWtmSDhJa3NnZUdnMWJkQ2VR?oc=5",
-     "time": "2026-11-03T11:07:38+00:00"
+     "title": "Piper Sandler Issues Positive Forecast for Arista Networks (NYSE:ANET) Stock Price",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNNFFyTkFvMUNTeTF3UGpORnM4UjMxNHkzTzcwR245dS04SHdpeWZkRndhWVlkemFFY2sxWnRuTlZuUHFmTXNhNkktRERaX09POUJ6eHhrLXlrZ0RPd2loVmducUtacWlkbU1KTkxCVmFVMlhTQkcwQjlVU2NWdzNZS1BDTldyZVJvU3E1WDdLT1lNZXltSXJ4WnpEaDBKMlNGY1ZMcXZRcVdLV3BwUDd5ZU4yX1laTmlNNWZPZ2JPSzRsa01yNm9pdjBiNXpSY3FIOEpZZmltUWotQQ?oc=5",
+     "time": "2026-11-04T17:35:43+00:00"
     },
     {
-     "title": "Did Earnings Growth Just Shift Applied Materials (AMAT) Investment Narrative?",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNcEJfcVUzMWNlUmVHdTlWVTNjRVBJTzV2TFBCWVRCU0hNSGRPMndxNExua1dEaUtlM3NSaG9CREZUUDdSNlY2RURkSXI0bFd4TjY3Y3pkN3dxUHZXblU4TVhINlR3UFhSd1hyVFAtSDBrWW5VSE9ITk91U3Y2RzFwVFkta0JscE9rTGFBUl9SSXZYbDZDbER4NUwtbw?oc=5",
-     "time": "2026-11-03T02:33:49+00:00"
+     "title": "Arista Stocks Rise 5.10% as Revenue Guide Raises the AI Networking Bar",
+     "publisher": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxObGdpeDJFeHdyRUhpWFptU0djOG02NHV3M2ZKYUVqeWNISXpTb2NZOXh4WDczT25TWHpYOEJXdmpSU1lnaURaTVloaTlaSkJGVGVoTkRiVkhCU0o3Um5XRks5YVJraXZWOFRqbWZYMklmYkp1dklpNWVwZFR6b0xiU2V6dkNSQlNWVzE3emMxVXBpVFFQdld2RzFkVmluYUFTTXhfdVRXQTRaSVkxWjNTN3RNSXdnU3lZMXd2TnRRdzZGRktSd1FvQw?oc=5",
+     "time": "2026-11-04T17:15:14+00:00"
     },
     {
-     "title": "Applied Materials (AMAT) Dips More Than Broader Market: What You Should Know",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNOFRXbGEtYVRGeVlxcU1DSlRaMGhsWEpYcGQ1dlFtRFc5ODBWWVRrdW1tZGJUcko5clN0Y3VWVE5yanl0bFNiT0h0aUVsMGtGV2lIU3diYVByeUQwXzN4VWR4UVhjaVd1S3Iwem44ZTdTWFpoNmlIMWJwQWVSUHktLVVwd2xNTGVTcnN1WW9QdGh5QTRNa3o4QVlsU1p5QQ?oc=5",
-     "time": "2026-11-02T21:45:02+00:00"
+     "title": "Arista Networks (NYSE:ANET) Given New $240.00 Price Target at Truist Financial",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOa0k1ckRSMlo5b2dXd3o3c2d5LWpQX2x3LVdScjRwbTFyTERKMjdCWjF1bUNaYk5ocGtBeFpIZXJROGZrNmQ1dXB4cWJvb1h6UGRYUDVEckJzRmljYUJqUU15RjYyTGMwQUF6eVgzQ0hUSXhVQ0RXX3dqTHRCYnk0LTI0cXFlWENWaDVhZnhueWVkUzhPZzIyTzQ5NEp6Yk5wcVlXU0VCcm5HckJWaS1hR1Brd0puNE0xbGFuZlh0dFZJMmxndnpjb3NVbDB4azdpRlE?oc=5",
+     "time": "2026-11-04T16:05:19+00:00"
     },
     {
-     "title": "Applied Materials Inc. stock underperforms Monday when compared to competitors",
-     "publisher": "MarketWatch",
-     "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPYnlHSDVlQkxwTjJNN19GempkOXFVVTg2aS1iX2lOSnJXZDM5cHhmZjlQdTVKVGVrUDROUzlDTHNjVUJsVzJKeGdzYlU2LVFUUTBzRFJUQUVZMkY5aC1PQ2VXZzhwZ1NWMEZRTTgtSXZmandrV3NRa3dlU05mcFNyZ1B0ZktBRDJhbm00YUxXNFVhRVJWNzVTcm05RnVMaDZKRzZrSGZBYzNXcDR0bXNIQWRrZ1NtcWpxYU9wQWdYRGV0czhPRFZLR3REeExCZUcxaHFYUnRBUDFkV1lscXdWMGJOTFFKNzhSQWpZ?oc=5",
-     "time": "2026-11-02T21:32:00+00:00"
+     "title": "ANET Q3 Earnings Beat Estimates on Strong AI and Enterprise Demand",
+     "publisher": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNRzJra052d3BHT29BSTByZ1lMVDk5eGR2LXNTbGpKZ2JWTjJ6dkJLQ3o3LU1aTi1ETHJvNUJFLXhxZGtlUFpvdEw2clBtdjQ5STRWb0EzQ1Zfd29ZR0ZDeDYyUnlHaHo5OTlLOE1Ja09FT1B3SWRZWmgzQ01Ma0R2a2k1QVdVcFlISnlZYnlTVjFTOXh6Y3REdXUtUVA4NW12cjlpMGVLWWdUajk1bXZydWs5U1Nqc3RzX3YwMEdaQQ?oc=5",
+     "time": "2026-11-04T15:19:00+00:00"
     },
     {
-     "title": "Applied Materials Inc Stock (AMAT) Moved Down by 3.12% on Nov 2: Key Drivers Unveiled",
-     "publisher": "TradingKey",
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPc2pNVE9oNkgteVM4MVRNNk5oZGpHcXh3X0N2Q3NUeWlzNW0xZjJRRDRvQVRZN0FWSnU5M3RQLS0zVHpKMDZBeUplSnliSkdSdGY2U29nUHk5TmdoMjRXcnAzOUZ1b1dfMGYybWRvRXB0Zl9IZ1NZd01qR3JEVVQzRlJyamtoSHVuYnlV?oc=5",
-     "time": "2026-11-02T20:15:40+00:00"
+     "title": "Arista Networks price target raised to $240 from $234 at Truist",
+     "publisher": "TipRanks",
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdEVoNmxveWlzd3k4aERkbkNQRmktU3VFelpZSGxocjdaM2JIajlTWW1sN3lFTHBBRWFSejJtMHVCOVBOajdPWFVmOFFYZDd5eEdQWnVWNzYtcE53R0s1U1VsSTJqekFKN2ZhNGFWc3BmeGdtbWF0OVNhYmc0a1dVOU1zN2Facnl1WnpaMk1DZVJEQVhJSWZYYk16M0FLUkZXa1hvNktXbGpyUW1BSEcxUw?oc=5",
+     "time": "2026-11-04T14:35:33+00:00"
     }
    ],
-   "brief": "2026-11-04-AMAT"
-  },
-  {
-   "symbol": "GOOG",
-   "name": "Alphabet",
-   "list": "portfolio",
-   "price": 289.86,
-   "prev_close": 278.27,
-   "change_pct": 4.2,
-   "trigger_change": 3.9,
-   "peak_change": 5.4,
-   "first_seen": "2026-11-04T14:55:55+00:00",
-   "sector": {
-    "etf": "XLC",
-    "name": "Communication",
-    "price": 105.0,
-    "change_pct": 3.51
-   },
-   "chart": {
-    "ema8": -1.5,
-    "ema21": -7.4,
-    "sma50": -12.7,
-    "sma200": -14.2,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Google Stock Eyes $400 as Alphabet Bets $15B on Malaysia AI Boom",
-     "publisher": "The Market Periodical",
-     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPalZPUFBUcXBrbVhkb3E5Q2ktSUxWa2RraG9MckQtbmMwbk9NWEtiY1VKdGZtYnVlZno2VWFYREtKSDVHRm9Pc0FFTVg4clZOLVp3SmpRWUxDUEJIMkU2SUpxU3N0cmtRVzhNTl9vZUg1Qk9jMU01UVQwVXY3NkFTZU0tQVJfYnNOZkd4WGtZc3Y2NXpwYkR6MlRrU2RpWXJHX25CQ3plNXlaQQ?oc=5",
-     "time": "2026-11-04T18:26:53+00:00"
-    },
-    {
-     "title": "Alphabet Stock Jumps: What's Going On?",
-     "publisher": "Benzinga",
-     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQRlpqeXNUcHV2aWNSZk8wMnRGUnBxLWZwbEs5SVY4Y01taVBrRTI4Z0U3NERQdUxUUFlYYW05NVROTmhQdTFiV2NsSUlKdWZNTmdmMzBVY3dCQnVzWUpoUXFYVE5RZnlzdEFTU1dnWEJJMF9TbU1OY19xZGZVVHk5clFZYURyODdHX3FpM3E3OE0yakVJMU1RbHk4YTc?oc=5",
-     "time": "2026-11-04T18:08:34+00:00"
-    },
-    {
-     "title": "Google Stock (GOOG) Rebounds Toward $300 as Midterm Results Shift Big Tech Market Sentiment",
-     "publisher": "FXLeaders",
-     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPTkhmQjVqOWpRVm1qT1lNVDVqVHFzcnBveWU2U2hGNHRxSVQ0aHlBOFV2LWdrOGR6R3Z2MGFMSDA1MHJmcm9QZFBqSXdBMHQzX0dBb29LTzdyWjRoaTVQSDNEWlRiZUVTOS1ZU0lYSG8tRTJtRktRdjhJclJqZUQ2a2U0U0dmcko3QzYyNXNZa05PODZ3UGsyMHJLbEZzM0lIUHgtYlExTVNxMGoxc1F6LWtCU3JESkhJYi1OeG5sVHhndFZ2RTdtT1ptUQ?oc=5",
-     "time": "2026-11-04T16:38:56+00:00"
-    },
-    {
-     "title": "Why is Alphabet stock surging today?",
-     "publisher": "Investing.com",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPNnFRbTVXZml1dGQzbEEtVTB0M1haTzU2UHZvSlJWdDNhWjNGQm9XeXptdkV1VkFzMEk5cjhibDNrNDRhcHAwV3N6N3h6VEZ4ZU1PZXU3QnN2aER4RVFLUXV0ckdmeVV5aUU2cUFqY3p1SmFuTmY0Y3JUdWlady1ZQXhEcUlMaWVNOUhmTGRJWHUybXAyalI5UmFqbjNidw?oc=5",
-     "time": "2026-11-04T15:16:12+00:00"
-    },
-    {
-     "title": "Alphabet Inc Class C Stock (GOOG) Opened Up by 3.43% on Nov 4: What Signal Does It Send?",
-     "publisher": "TradingKey",
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPdnJYZGQtNzFzbnZpX3J0SGVkWDQ4aWFKdWh0Y3ptUHp4RTI4TkRYS2lkMlh3ajEyQ3hXMURER2VRcWpubEpXbU43S3U1WjVjOV9EbHp4RE1JWF9yem02Q2ZhbHZBenJjdE5MZGQzV1RXSW9kaUx3b1VtTkFDRHJoa3hXdld3TzVPZjhV?oc=5",
-     "time": "2026-11-04T14:47:52+00:00"
-    },
-    {
-     "title": "Alphabet Inc. (GOOG) Stock Price, News, Quote & History",
-     "publisher": "Yahoo! Finance Canada",
-     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1jeVJwZF93cGNFbUJ0QWJOUHJQeFAyc3BiRFpLbWJPdUdwc0RBQURzeDJDRlZXOEhGclUzTV9RM21kdVdENTYyd2hPS3VXZWtPa3c?oc=5",
-     "time": "2026-11-04T13:49:57+00:00"
-    },
-    {
-     "title": "Alphabet's Search Scare Is A Buying Chance - Amazon's Cash Problem Isn't (NASDAQ:GOOG)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTXpFTmZ3OTdVdHJzNTZDcnBBVDZzcjJESmxrOElFYTE1NEU3OVNzcWdTNWVlRkxRMzFmbW1CajJQSGpxMW9tQ2h4dWRSVDhKX2tra1ZfTEtGZHpMQjExUlJpdXRjQVVsVkRLT2M0eVhGcnp3bEI1NkJhcmhtODBmQm5jajcwOEkwMGU4cUI0Rk9mMENTMmktSHNUbE1XeTlzTnNaNzJ4QWtzdw?oc=5",
-     "time": "2026-11-04T12:52:01+00:00"
-    },
-    {
-     "title": "ETFs Are Buying Alphabet (GOOG) on Nov. 2",
-     "publisher": "Yahoo! Finance Canada",
-     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPYjRYUFU0dDhlUEhBd1hGQ0NfaEVRelppTmVYdDR5V1hYcUEzWWN2Zll0ZzZROFhHV0N1UERpbUVSQkctby1lU2p1SjVKQnU1WE1sZTRwQkJzcWpqUzRCZC1kajVWamFzeWtkc0ZrX09henk2bC1tNGJsb0NsV21JWjBrVWs?oc=5",
-     "time": "2026-11-04T11:01:41+00:00"
-    }
-   ],
-   "brief": "2026-11-04-GOOG"
+   "brief": "2026-11-04-ANET"
   },
   {
    "symbol": "NFLX",
    "name": "Netflix",
    "list": "portfolio",
-   "price": 66.08,
+   "price": 66.18,
    "prev_close": 63.42,
-   "change_pct": 4.2,
+   "change_pct": 4.4,
    "trigger_change": 3.9,
    "peak_change": 4.4,
    "first_seen": "2026-11-04T15:00:57+00:00",
    "sector": {
     "etf": "XLC",
     "name": "Communication",
-    "price": 105.0,
-    "change_pct": 3.51
+    "price": 104.97,
+    "change_pct": 3.47
    },
    "chart": {
-    "ema8": 3.1,
-    "ema21": -0.3,
-    "sma50": -7.8,
-    "sma200": -18.7,
+    "ema8": 3.2,
+    "ema21": -0.1,
+    "sma50": -7.7,
+    "sma200": -18.5,
     "momentum": false
    },
    "headlines": [
@@ -666,26 +516,101 @@
    "brief": "2026-11-04-NFLX"
   },
   {
+   "symbol": "GOOG",
+   "name": "Alphabet",
+   "list": "portfolio",
+   "price": 289.84,
+   "prev_close": 278.27,
+   "change_pct": 4.2,
+   "trigger_change": 3.9,
+   "peak_change": 5.4,
+   "first_seen": "2026-11-04T14:55:55+00:00",
+   "sector": {
+    "etf": "XLC",
+    "name": "Communication",
+    "price": 104.97,
+    "change_pct": 3.47
+   },
+   "chart": {
+    "ema8": -1.5,
+    "ema21": -7.5,
+    "sma50": -12.7,
+    "sma200": -14.3,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Google Stock Eyes $400 as Alphabet Bets $15B on Malaysia AI Boom",
+     "publisher": "The Market Periodical",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPalZPUFBUcXBrbVhkb3E5Q2ktSUxWa2RraG9MckQtbmMwbk9NWEtiY1VKdGZtYnVlZno2VWFYREtKSDVHRm9Pc0FFTVg4clZOLVp3SmpRWUxDUEJIMkU2SUpxU3N0cmtRVzhNTl9vZUg1Qk9jMU01UVQwVXY3NkFTZU0tQVJfYnNOZkd4WGtZc3Y2NXpwYkR6MlRrU2RpWXJHX25CQ3plNXlaQQ?oc=5",
+     "time": "2026-11-04T18:26:53+00:00"
+    },
+    {
+     "title": "Alphabet Stock Jumps: What's Going On?",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQRlpqeXNUcHV2aWNSZk8wMnRGUnBxLWZwbEs5SVY4Y01taVBrRTI4Z0U3NERQdUxUUFlYYW05NVROTmhQdTFiV2NsSUlKdWZNTmdmMzBVY3dCQnVzWUpoUXFYVE5RZnlzdEFTU1dnWEJJMF9TbU1OY19xZGZVVHk5clFZYURyODdHX3FpM3E3OE0yakVJMU1RbHk4YTc?oc=5",
+     "time": "2026-11-04T18:08:34+00:00"
+    },
+    {
+     "title": "Google Stock (GOOG) Rebounds Toward $300 as Midterm Results Shift Big Tech Market Sentiment",
+     "publisher": "FXLeaders",
+     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPTkhmQjVqOWpRVm1qT1lNVDVqVHFzcnBveWU2U2hGNHRxSVQ0aHlBOFV2LWdrOGR6R3Z2MGFMSDA1MHJmcm9QZFBqSXdBMHQzX0dBb29LTzdyWjRoaTVQSDNEWlRiZUVTOS1ZU0lYSG8tRTJtRktRdjhJclJqZUQ2a2U0U0dmcko3QzYyNXNZa05PODZ3UGsyMHJLbEZzM0lIUHgtYlExTVNxMGoxc1F6LWtCU3JESkhJYi1OeG5sVHhndFZ2RTdtT1ptUQ?oc=5",
+     "time": "2026-11-04T16:38:56+00:00"
+    },
+    {
+     "title": "Why is Alphabet stock surging today?",
+     "publisher": "Investing.com",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPNnFRbTVXZml1dGQzbEEtVTB0M1haTzU2UHZvSlJWdDNhWjNGQm9XeXptdkV1VkFzMEk5cjhibDNrNDRhcHAwV3N6N3h6VEZ4ZU1PZXU3QnN2aER4RVFLUXV0ckdmeVV5aUU2cUFqY3p1SmFuTmY0Y3JUdWlady1ZQXhEcUlMaWVNOUhmTGRJWHUybXAyalI5UmFqbjNidw?oc=5",
+     "time": "2026-11-04T15:16:12+00:00"
+    },
+    {
+     "title": "Alphabet Inc Class C Stock (GOOG) Opened Up by 3.43% on Nov 4: What Signal Does It Send?",
+     "publisher": "TradingKey",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPdnJYZGQtNzFzbnZpX3J0SGVkWDQ4aWFKdWh0Y3ptUHp4RTI4TkRYS2lkMlh3ajEyQ3hXMURER2VRcWpubEpXbU43S3U1WjVjOV9EbHp4RE1JWF9yem02Q2ZhbHZBenJjdE5MZGQzV1RXSW9kaUx3b1VtTkFDRHJoa3hXdld3TzVPZjhV?oc=5",
+     "time": "2026-11-04T14:47:52+00:00"
+    },
+    {
+     "title": "Alphabet Inc. (GOOG) Stock Price, News, Quote & History",
+     "publisher": "Yahoo! Finance Canada",
+     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1jeVJwZF93cGNFbUJ0QWJOUHJQeFAyc3BiRFpLbWJPdUdwc0RBQURzeDJDRlZXOEhGclUzTV9RM21kdVdENTYyd2hPS3VXZWtPa3c?oc=5",
+     "time": "2026-11-04T13:49:57+00:00"
+    },
+    {
+     "title": "Alphabet's Search Scare Is A Buying Chance - Amazon's Cash Problem Isn't (NASDAQ:GOOG)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTXpFTmZ3OTdVdHJzNTZDcnBBVDZzcjJESmxrOElFYTE1NEU3OVNzcWdTNWVlRkxRMzFmbW1CajJQSGpxMW9tQ2h4dWRSVDhKX2tra1ZfTEtGZHpMQjExUlJpdXRjQVVsVkRLT2M0eVhGcnp3bEI1NkJhcmhtODBmQm5jajcwOEkwMGU4cUI0Rk9mMENTMmktSHNUbE1XeTlzTnNaNzJ4QWtzdw?oc=5",
+     "time": "2026-11-04T12:52:01+00:00"
+    },
+    {
+     "title": "ETFs Are Buying Alphabet (GOOG) on Nov. 2",
+     "publisher": "Yahoo! Finance Canada",
+     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPYjRYUFU0dDhlUEhBd1hGQ0NfaEVRelppTmVYdDR5V1hYcUEzWWN2Zll0ZzZROFhHV0N1UERpbUVSQkctby1lU2p1SjVKQnU1WE1sZTRwQkJzcWpqUzRCZC1kajVWamFzeWtkc0ZrX09henk2bC1tNGJsb0NsV21JWjBrVWs?oc=5",
+     "time": "2026-11-04T11:01:41+00:00"
+    }
+   ],
+   "brief": "2026-11-04-GOOG"
+  },
+  {
    "symbol": "SOFI",
    "name": "SoFi",
    "list": "portfolio",
-   "price": 17.41,
+   "price": 17.47,
    "prev_close": 16.77,
-   "change_pct": 3.8,
+   "change_pct": 4.2,
    "trigger_change": 4.1,
    "peak_change": 5.4,
    "first_seen": "2026-11-04T14:55:55+00:00",
    "sector": {
     "etf": "XLF",
     "name": "Financials",
-    "price": 58.95,
-    "change_pct": 3.07
+    "price": 58.98,
+    "change_pct": 3.13
    },
    "chart": {
-    "ema8": 4.8,
-    "ema21": 8.2,
-    "sma50": 5.7,
-    "sma200": -1.3,
+    "ema8": 5.1,
+    "ema21": 8.4,
+    "sma50": 6.1,
+    "sma200": -1.0,
     "momentum": true
    },
    "headlines": [
@@ -741,10 +666,85 @@
    "brief": "2026-11-04-SOFI"
   },
   {
+   "symbol": "AMAT",
+   "name": "Applied Materials",
+   "list": "portfolio",
+   "price": 365.86,
+   "prev_close": 381.92,
+   "change_pct": -4.2,
+   "trigger_change": -3.4,
+   "peak_change": -4.4,
+   "first_seen": "2026-11-04T16:33:19+00:00",
+   "sector": {
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 503.9,
+    "change_pct": -2.82
+   },
+   "chart": {
+    "ema8": -5.8,
+    "ema21": -12.0,
+    "sma50": -18.9,
+    "sma200": -17.8,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "ETFs Bought $237.0 Million of Applied Materials (AMAT) on Nov. 2",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZmlMWHBnWVE1MHZnZC1heHFyekNLbkxVWWEzUzlrRWRZQmhRWDRLYU1OODBHRS1MQUJEemVCeWQ3UEdKNHhtSXIxUG55N09HaDR4T2I0b3ZsazNuRjJtOUtmaXRSeGlYbENOMVRzbV9UVFN1NU1QVzZ0ZUJqRUlvdWtPVnR5ajBlcDI3Qjd1SHM4dDFk?oc=5",
+     "time": "2026-11-04T11:01:35+00:00"
+    },
+    {
+     "title": "Applied Materials Just Dropped 29% In a Month: Will November 12 Earnings Rescue or Break AMAT Stock?",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQNl95S09KZ0pxX0loMm12cFIzRHhZNm13RU1kdUpCc2FfeHM1QTA2QjdGUDBFZlBCaVhIbWk3bUhRT0pQTncxSEpwekhBXzVoNFcxTG9pTXBzUFFxSGU1N2l6TnB5eldJYXAxTGMxRk1rOElNeUVXYmZKeG04bFlFQm5YOU5ZUVhjcm1KU0FIaDdpNmR5cEhySzUzMWQzRHRGNEVRdmNac000WVU0emItZks1WHhCXzhaaXNxVXEwVm01UmZkaVdxbnB6cG1taDBDbFQzaVhFX2w?oc=5",
+     "time": "2026-11-03T20:05:00+00:00"
+    },
+    {
+     "title": "What Does Applied Materials Stock\u2019s Winning Streak Really Prove?",
+     "publisher": "Trefis",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdmVFVTRBWXVsak9XZk5GTkpjTXI4dmZPSzZ4NWRkS2xaNHFKcmwtM0lCbzQ1TF9CdDF4eTBUemxtVXJPdXpPYmJKaXA5QldwNkMtMFNvLU5wRXAtdHM5anpoN280eDhpcjR4LXQ5bzRrYkNJT251U2FQQ3hLWUpqdXhJR1JfSFNtYkZUdE5UNnpvU2ZQQ3RrWGpYZFdqMDFHZjJiczZBZ0lEZGtsNVVHSG1uM0hPcy1Mc2tUdUtHajA?oc=5",
+     "time": "2026-11-03T12:02:01+00:00"
+    },
+    {
+     "title": "Testing Support Level, AMAT Stock Drops 3.99% on Monday",
+     "publisher": "JournalArta",
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPN1locHRtbzlndkIyU3FYb0EySVR3NVJBQjdPRnAtdW1yaWJoaFlKZThLSUEwUTl6M2dGWjROZHRESGQ1Z0oxaXF1cXVKdTVqLXdnMUZLNGR5dzFhdWxsT1ZtRWhxNGszVnY2QVJjejFPY3RxWGc5ZWZmSjR0RmNZb1JYU29oeWtmSDhJa3NnZUdnMWJkQ2VR?oc=5",
+     "time": "2026-11-03T11:07:38+00:00"
+    },
+    {
+     "title": "Did Earnings Growth Just Shift Applied Materials (AMAT) Investment Narrative?",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNcEJfcVUzMWNlUmVHdTlWVTNjRVBJTzV2TFBCWVRCU0hNSGRPMndxNExua1dEaUtlM3NSaG9CREZUUDdSNlY2RURkSXI0bFd4TjY3Y3pkN3dxUHZXblU4TVhINlR3UFhSd1hyVFAtSDBrWW5VSE9ITk91U3Y2RzFwVFkta0JscE9rTGFBUl9SSXZYbDZDbER4NUwtbw?oc=5",
+     "time": "2026-11-03T02:33:49+00:00"
+    },
+    {
+     "title": "Applied Materials (AMAT) Dips More Than Broader Market: What You Should Know",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNOFRXbGEtYVRGeVlxcU1DSlRaMGhsWEpYcGQ1dlFtRFc5ODBWWVRrdW1tZGJUcko5clN0Y3VWVE5yanl0bFNiT0h0aUVsMGtGV2lIU3diYVByeUQwXzN4VWR4UVhjaVd1S3Iwem44ZTdTWFpoNmlIMWJwQWVSUHktLVVwd2xNTGVTcnN1WW9QdGh5QTRNa3o4QVlsU1p5QQ?oc=5",
+     "time": "2026-11-02T21:45:02+00:00"
+    },
+    {
+     "title": "Applied Materials Inc. stock underperforms Monday when compared to competitors",
+     "publisher": "MarketWatch",
+     "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPYnlHSDVlQkxwTjJNN19GempkOXFVVTg2aS1iX2lOSnJXZDM5cHhmZjlQdTVKVGVrUDROUzlDTHNjVUJsVzJKeGdzYlU2LVFUUTBzRFJUQUVZMkY5aC1PQ2VXZzhwZ1NWMEZRTTgtSXZmandrV3NRa3dlU05mcFNyZ1B0ZktBRDJhbm00YUxXNFVhRVJWNzVTcm05RnVMaDZKRzZrSGZBYzNXcDR0bXNIQWRrZ1NtcWpxYU9wQWdYRGV0czhPRFZLR3REeExCZUcxaHFYUnRBUDFkV1lscXdWMGJOTFFKNzhSQWpZ?oc=5",
+     "time": "2026-11-02T21:32:00+00:00"
+    },
+    {
+     "title": "Applied Materials Inc Stock (AMAT) Moved Down by 3.12% on Nov 2: Key Drivers Unveiled",
+     "publisher": "TradingKey",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPc2pNVE9oNkgteVM4MVRNNk5oZGpHcXh3X0N2Q3NUeWlzNW0xZjJRRDRvQVRZN0FWSnU5M3RQLS0zVHpKMDZBeUplSnliSkdSdGY2U29nUHk5TmdoMjRXcnAzOUZ1b1dfMGYybWRvRXB0Zl9IZ1NZd01qR3JEVVQzRlJyamtoSHVuYnlV?oc=5",
+     "time": "2026-11-02T20:15:40+00:00"
+    }
+   ],
+   "brief": "2026-11-04-AMAT"
+  },
+  {
    "symbol": "BTC-USD",
    "name": "Bitcoin",
    "list": "watchlist",
-   "price": 80142.5,
+   "price": 80085.0,
    "prev_close": 77331.7,
    "change_pct": 3.6,
    "trigger_change": 4.0,
@@ -754,8 +754,8 @@
    "chart": {
     "ema8": 1.9,
     "ema21": 0.3,
-    "sma50": -2.2,
-    "sma200": 9.5,
+    "sma50": -2.3,
+    "sma200": 9.4,
     "momentum": false
    },
    "headlines": [
@@ -814,23 +814,23 @@
    "symbol": "META",
    "name": "Meta",
    "list": "portfolio",
-   "price": 627.25,
+   "price": 628.3,
    "prev_close": 621.03,
-   "change_pct": 1.0,
+   "change_pct": 1.2,
    "trigger_change": 3.2,
    "peak_change": 3.2,
    "first_seen": "2026-11-04T17:48:16+00:00",
    "sector": {
     "etf": "XLC",
     "name": "Communication",
-    "price": 105.0,
-    "change_pct": 3.51
+    "price": 104.97,
+    "change_pct": 3.47
    },
    "chart": {
-    "ema8": -0.2,
-    "ema21": -4.6,
-    "sma50": -6.9,
-    "sma200": -0.8,
+    "ema8": -0.1,
+    "ema21": -4.5,
+    "sma50": -6.7,
+    "sma200": -0.6,
     "momentum": false
    },
    "headlines": [
@@ -889,23 +889,23 @@
    "symbol": "CRWD",
    "name": "CrowdStrike",
    "list": "portfolio",
-   "price": 242.49,
+   "price": 243.63,
    "prev_close": 244.68,
-   "change_pct": -0.9,
+   "change_pct": -0.4,
    "trigger_change": 3.1,
    "peak_change": 3.1,
    "first_seen": "2026-11-04T15:21:14+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 103.77,
-    "change_pct": 1.08
+    "price": 103.83,
+    "change_pct": 1.13
    },
    "chart": {
-    "ema8": -2.6,
-    "ema21": -3.1,
-    "sma50": -0.4,
-    "sma200": 43.3,
+    "ema8": -2.2,
+    "ema21": -2.6,
+    "sma50": 0.1,
+    "sma200": 44.0,
     "momentum": false
    },
    "headlines": [
