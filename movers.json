@@ -1,22 +1,22 @@
 {
  "date": "2026-11-04",
  "threshold": 3.0,
- "updated": "2026-11-04T15:16:05+00:00",
+ "updated": "2026-11-04T15:21:14+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 768.13,
-   "change_pct": 1.83
+   "price": 767.1,
+   "change_pct": 1.69
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 700.87,
-   "change_pct": 2.27
+   "price": 698.8,
+   "change_pct": 1.97
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 81.02,
-   "change_pct": -0.11
+   "price": 80.94,
+   "change_pct": -0.21
   }
  },
  "movers": [
@@ -24,23 +24,23 @@
    "symbol": "ANET",
    "name": "Arista Networks",
    "list": "portfolio",
-   "price": 187.09,
+   "price": 186.43,
    "prev_close": 169.91,
-   "change_pct": 10.1,
+   "change_pct": 9.7,
    "trigger_change": 10.3,
    "peak_change": 10.3,
    "first_seen": "2026-11-04T14:55:55+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 517.48,
-    "change_pct": -0.2
+    "price": 513.48,
+    "change_pct": -0.97
    },
    "chart": {
-    "ema8": 5.2,
-    "ema21": 1.5,
-    "sma50": -3.7,
-    "sma200": 12.8,
+    "ema8": 4.9,
+    "ema21": 1.2,
+    "sma50": -4.0,
+    "sma200": 12.4,
     "momentum": false
    },
    "headlines": [
@@ -99,22 +99,22 @@
    "symbol": "APP",
    "name": "AppLovin",
    "list": "portfolio",
-   "price": 267.99,
+   "price": 267.88,
    "prev_close": 245.51,
-   "change_pct": 9.2,
+   "change_pct": 9.1,
    "trigger_change": 5.7,
    "peak_change": 9.2,
    "first_seen": "2026-11-04T14:55:55+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 105.71,
-    "change_pct": 2.97
+    "price": 105.45,
+    "change_pct": 2.72
    },
    "chart": {
     "ema8": 6.1,
     "ema21": 1.5,
-    "sma50": -7.8,
+    "sma50": -7.9,
     "sma200": -34.8,
     "momentum": false
    },
@@ -174,23 +174,23 @@
    "symbol": "AMZN",
    "name": "Amazon",
    "list": "portfolio",
-   "price": 270.39,
+   "price": 269.03,
    "prev_close": 250.69,
-   "change_pct": 7.9,
+   "change_pct": 7.3,
    "trigger_change": 7.7,
    "peak_change": 8.0,
    "first_seen": "2026-11-04T14:55:55+00:00",
    "sector": {
     "etf": "XLY",
     "name": "Consumer discr.",
-    "price": 121.72,
-    "change_pct": 3.74
+    "price": 121.5,
+    "change_pct": 3.55
    },
    "chart": {
-    "ema8": 6.6,
-    "ema21": 6.8,
-    "sma50": 6.5,
-    "sma200": 11.0,
+    "ema8": 6.2,
+    "ema21": 6.3,
+    "sma50": 5.9,
+    "sma200": 10.4,
     "momentum": true
    },
    "headlines": [
@@ -249,23 +249,23 @@
    "symbol": "NVO",
    "name": "Novo Nordisk (ADR)",
    "list": "portfolio",
-   "price": 42.76,
+   "price": 42.71,
    "prev_close": 40.19,
-   "change_pct": 6.4,
+   "change_pct": 6.3,
    "trigger_change": 6.6,
    "peak_change": 6.6,
    "first_seen": "2026-11-04T14:55:55+00:00",
    "sector": {
     "etf": "XLV",
     "name": "Health care",
-    "price": 186.16,
-    "change_pct": 1.16
+    "price": 185.92,
+    "change_pct": 1.03
    },
    "chart": {
-    "ema8": 6.1,
-    "ema21": 7.8,
-    "sma50": 4.7,
-    "sma200": -2.6,
+    "ema8": 6.0,
+    "ema21": 7.7,
+    "sma50": 4.5,
+    "sma200": -2.7,
     "momentum": true
    },
    "headlines": [
@@ -288,23 +288,23 @@
    "symbol": "MELI",
    "name": "MercadoLibre",
    "list": "watchlist",
-   "price": 1765.64,
+   "price": 1762.15,
    "prev_close": 1662.16,
-   "change_pct": 6.2,
+   "change_pct": 6.0,
    "trigger_change": 4.9,
    "peak_change": 6.2,
    "first_seen": "2026-11-04T14:55:55+00:00",
    "sector": {
     "etf": "XLY",
     "name": "Consumer discr.",
-    "price": 121.72,
-    "change_pct": 3.74
+    "price": 121.5,
+    "change_pct": 3.55
    },
    "chart": {
-    "ema8": 3.3,
-    "ema21": 0.7,
-    "sma50": -3.3,
-    "sma200": -2.3,
+    "ema8": 3.2,
+    "ema21": 0.5,
+    "sma50": -3.5,
+    "sma200": -2.5,
     "momentum": false
    },
    "headlines": [
@@ -372,8 +372,8 @@
    "sector": {
     "etf": "XLC",
     "name": "Communication",
-    "price": 105.42,
-    "change_pct": 3.92
+    "price": 105.27,
+    "change_pct": 3.78
    },
    "chart": {
     "ema8": -0.5,
@@ -438,23 +438,23 @@
    "symbol": "SOFI",
    "name": "SoFi",
    "list": "portfolio",
-   "price": 17.67,
+   "price": 17.52,
    "prev_close": 16.77,
-   "change_pct": 5.4,
+   "change_pct": 4.5,
    "trigger_change": 4.1,
    "peak_change": 5.4,
    "first_seen": "2026-11-04T14:55:55+00:00",
    "sector": {
     "etf": "XLF",
     "name": "Financials",
-    "price": 58.13,
-    "change_pct": 1.64
+    "price": 58.09,
+    "change_pct": 1.57
    },
    "chart": {
-    "ema8": 6.0,
-    "ema21": 9.6,
-    "sma50": 7.3,
-    "sma200": 0.1,
+    "ema8": 5.4,
+    "ema21": 8.8,
+    "sma50": 6.4,
+    "sma200": -0.7,
     "momentum": true
    },
    "headlines": [
@@ -513,18 +513,18 @@
    "symbol": "BTC-USD",
    "name": "Bitcoin",
    "list": "watchlist",
-   "price": 80941.2,
+   "price": 80558.5,
    "prev_close": 77331.7,
-   "change_pct": 4.7,
+   "change_pct": 4.2,
    "trigger_change": 4.0,
    "peak_change": 4.7,
    "first_seen": "2026-11-04T15:11:03+00:00",
    "sector": null,
    "chart": {
-    "ema8": 2.7,
-    "ema21": 1.2,
-    "sma50": -1.3,
-    "sma200": 10.6,
+    "ema8": 2.3,
+    "ema21": 0.8,
+    "sma50": -1.8,
+    "sma200": 10.1,
     "momentum": false
    },
    "headlines": [
@@ -583,23 +583,23 @@
    "symbol": "NFLX",
    "name": "Netflix",
    "list": "portfolio",
-   "price": 65.94,
+   "price": 66.02,
    "prev_close": 63.42,
-   "change_pct": 4.0,
+   "change_pct": 4.1,
    "trigger_change": 3.9,
    "peak_change": 4.1,
    "first_seen": "2026-11-04T15:00:57+00:00",
    "sector": {
     "etf": "XLC",
     "name": "Communication",
-    "price": 105.42,
-    "change_pct": 3.92
+    "price": 105.27,
+    "change_pct": 3.78
    },
    "chart": {
-    "ema8": 2.9,
-    "ema21": -0.5,
-    "sma50": -8.0,
-    "sma200": -18.8,
+    "ema8": 3.0,
+    "ema21": -0.4,
+    "sma50": -7.9,
+    "sma200": -18.7,
     "momentum": false
    },
    "headlines": [
@@ -650,6 +650,81 @@
      "publisher": "Stock Titan",
      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQT0tuMkE4RVh5NjNmY0ROX0otLW9SR3c1djVSb0c2b1lpa3NrbDBENmNtTjE1VnRfRVRNQ0ZUc0hURWV2SXRaOFBsY1ZyNWFLdHFQU19XT1FHbDdJTFFkRnFjc21TNjR3bEFSbmFhdHZ6T3EyZmRJaTRxLUdwc0hDRG1oT01kLU54ZzBuUVZjWWpLbGxaMEJrSXVwcWNEUDZILThrY2dJR00?oc=5",
      "time": "2026-11-04T00:19:00+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
+   "symbol": "CRWD",
+   "name": "CrowdStrike",
+   "list": "portfolio",
+   "price": 252.21,
+   "prev_close": 244.68,
+   "change_pct": 3.1,
+   "trigger_change": 3.1,
+   "peak_change": 3.1,
+   "first_seen": "2026-11-04T15:21:14+00:00",
+   "sector": {
+    "etf": "IGV",
+    "name": "Software",
+    "price": 105.45,
+    "change_pct": 2.72
+   },
+   "chart": {
+    "ema8": 0.5,
+    "ema21": 0.5,
+    "sma50": 3.5,
+    "sma200": 49.0,
+    "momentum": true
+   },
+   "headlines": [
+    {
+     "title": "CrowdStrike Holdings (CRWD) Outperforms After Delivering Record Net New ARR",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOWUNoNXh6akFnWTVRNTV4NzZQeWlwZkdrb2VVeWlBMXEwMUxhbEZzODVTeWtWUnR1X2FtcnRfQWlxQ3JmWEpTWDczQldvUUFaSG9MRlFrNGp2clMxYUtheHo3cUdOeW9Wb0t4ek9LVmh0ZXdZVHdST0s3QVBHZXAtTTZtTWpraGJjcG00NGRDc1I1NVVJa0Q0NlFESnQ2UVg2bTFvb1lpQW9wU2oxbjVMb01vYw?oc=5",
+     "time": "2026-11-04T14:37:59+00:00"
+    },
+    {
+     "title": "CrowdStrike: Valuation Implies They Will Be A Sole Market Leader, But That Won\u2019t Happen",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOaU1oU2Q4eGpmNE5IM19GUVlYdWFKMUZqdkxYVzlxSDRoLTBXUmlsMWNsUE5QcVNJYWpRNmVJMTB6M3d5bGtvUTM3YXlCTnpxVjNLaFQ2UThTZU9GLUJxaU00OUpETXhRTzRaNE5zR3Z0dUZNZm5NanJ3Wng5YkEyRWZBNmU2WFU0OUlHTzVYeTVtM3dXYTRuWm8tN2hoa2xSNnpDaldDSGRiRHVjOVpNYm9pNGhuNFA2LW1CX2kyTzc0VUV5?oc=5",
+     "time": "2026-11-04T14:31:17+00:00"
+    },
+    {
+     "title": "Wall Street Analysts Think CrowdStrike (CRWD) Is a Good Investment: Is It?",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWDZ1OXdaRW81RWtwRFRZR2tMMk9IRi1odzItbHIzd1RtcnBuX0hhdFFNMEFYdHV4OU9WX0kySGExVjFRcElmdWVHcTk4MjZWVktsX1FpNlNrVGNGY1ZmWjNkUmNZQmRyb1RwZmthWERhQ00yRzdVRjBfb3ZXVnBTdHNJUndDQkcxbGRjcTZNLUR3NHI3ak9IRmkyeGRCQ0pwTU5ibkVn?oc=5",
+     "time": "2026-11-04T13:30:03+00:00"
+    },
+    {
+     "title": "AI agents can act abnormally without breaking a rule. CrowdStrike's new tool is due in Q4.",
+     "publisher": "Stock Titan",
+     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNb0NIQWtONHFGeTFUT3p1bXAtdW8yWm5tMG54WkZyc2lEU2ZIRC1KZDRtOFRIRTliMFJ2TTV0V2dEcGQyN3E1M2JiVGgyVFM5VDJ4T1FjV2o5dU1ibWxvSVZMdFZJWEFVcXQ3QmdHT28yQncydkV6TkZwN2V3Nk56Q0s1S0RYUDQ4aW9KaWQ0LWNxa2NicmVLWTVONWt5UDhWYUlXbFdvWk92Rk94S01kdDlSbTRjSlhGa0toQQ?oc=5",
+     "time": "2026-11-04T09:00:00+00:00"
+    },
+    {
+     "title": "CrowdStrike (CRWD) Receives Buy Rating with $240 Target from Jef",
+     "publisher": "GuruFocus",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOa1VkbDFzYlM5OEtHWXFsUUQ5RTVEQWdTMDVqSGZ2MkdKSzd5a0Z0T0xZd2NBcEtBNnp4Y0ZxNWN0SVJRMWc3cFU5U0pDbkRtd28xSU43MG9uQzd6bEtudF93U1NRRDhNN21rSGFvZTM1bkhDRy01V0lhdXFjYk1KUUxGdnVvYTl0VVpTWjE1Q1JCYW8xS2JpTjVhWWppM3B4ZXNWdVZqWWJ3Zw?oc=5",
+     "time": "2026-11-04T07:27:51+00:00"
+    },
+    {
+     "title": "CrowdStrike CRWD stock trades down as software shares slide",
+     "publisher": "JournalArta",
+     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5yblk5VzFZZ05kOHFfblNFM0d4cjRUZHRNeWo3WThUUm50Q0d5dHVZRG5LaEhidnhyc0E0cGxfMjZjYXlldVZFVmppNEhTRnZ2cDJyeVNoU1JCS0ExN3JMdHdqRGpYVG9pTXE5S2xYMzl3NmR1cmNqY0pqSF9SZw?oc=5",
+     "time": "2026-11-04T01:51:02+00:00"
+    },
+    {
+     "title": "CrowdStrike (CRWD) stock trades down, here is why",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPQ0ZwcE9CVFdJU1gwcExIbF9xZThKZE9ORUR5NUdkSmRYbURSVmxVQWRYa3dRWlV6ZXc4MFhFMmNRLTBWdzdKVHZ5a1gyNnhvc1JLOGdESGw4dHkxNHlINmd5akxCLUNQYVREbTU2MVM0MzM5YW1oeEFNOFdpNHppSTk1c2hXVE1ENXVDVlN4bWRrSy1lQnM3Wm1rMHJPYWwx?oc=5",
+     "time": "2026-11-03T23:49:36+00:00"
+    },
+    {
+     "title": "Jim Cramer Turns Bullish on a Cybersecurity Stock That Created an AI Kill Switch",
+     "publisher": "BeInCrypto",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE01R0FFal9pWFNsQ1JkWFIxT2VEM2k3VVV4b0lSRUlWZ25nbTJvRHlHZS1XVjRuM0FGaFVqSHJBYUJGYUZ3ZXNLZG9FVTFJQ0diVXo1cV9ULXIycEpqYnNha1kwY0NDTUVSMGdVa2xn?oc=5",
+     "time": "2026-11-03T21:11:00+00:00"
     }
    ],
    "brief": null
