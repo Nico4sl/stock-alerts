@@ -1,22 +1,22 @@
 {
  "date": "2026-11-04",
  "threshold": 3.0,
- "updated": "2026-11-04T15:11:03+00:00",
+ "updated": "2026-11-04T15:16:05+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 767.14,
-   "change_pct": 1.7
+   "price": 768.13,
+   "change_pct": 1.83
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 699.39,
-   "change_pct": 2.06
+   "price": 700.87,
+   "change_pct": 2.27
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 81.08,
-   "change_pct": -0.04
+   "price": 81.02,
+   "change_pct": -0.11
   }
  },
  "movers": [
@@ -24,9 +24,9 @@
    "symbol": "ANET",
    "name": "Arista Networks",
    "list": "portfolio",
-   "price": 186.13,
+   "price": 187.09,
    "prev_close": 169.91,
-   "change_pct": 9.5,
+   "change_pct": 10.1,
    "trigger_change": 10.3,
    "peak_change": 10.3,
    "first_seen": "2026-11-04T14:55:55+00:00",
@@ -37,10 +37,10 @@
     "change_pct": -0.2
    },
    "chart": {
-    "ema8": 4.8,
-    "ema21": 1.0,
-    "sma50": -4.2,
-    "sma200": 12.2,
+    "ema8": 5.2,
+    "ema21": 1.5,
+    "sma50": -3.7,
+    "sma200": 12.8,
     "momentum": false
    },
    "headlines": [
@@ -96,101 +96,26 @@
    "brief": null
   },
   {
-   "symbol": "AMZN",
-   "name": "Amazon",
-   "list": "portfolio",
-   "price": 270.32,
-   "prev_close": 250.69,
-   "change_pct": 7.8,
-   "trigger_change": 7.7,
-   "peak_change": 8.0,
-   "first_seen": "2026-11-04T14:55:55+00:00",
-   "sector": {
-    "etf": "XLY",
-    "name": "Consumer discr.",
-    "price": 121.54,
-    "change_pct": 3.59
-   },
-   "chart": {
-    "ema8": 6.6,
-    "ema21": 6.7,
-    "sma50": 6.4,
-    "sma200": 10.9,
-    "momentum": true
-   },
-   "headlines": [
-    {
-     "title": "Retail Stocks Rally Post-U.S. Election; Amazon (AMZN) Shares Ris",
-     "publisher": "GuruFocus",
-     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQODVobXhqUDVuTzhKdXRjN2p2ZGhqbDE1VWt0MG1FVGwwTEU3Sll2bVhLb3czZU5KOVFGM09wU3FlZlNzaTBlRGV0T1hyX3RkVTlVT1dFRzc5RlhKNHhsd3dSUWg5MEdnWUJnTmszd2xzRGtqOTlLdzBuWTdfQWpFV2xYN0RodHotYlRYdTdmYmVGZ3FOOENsRnpDaFYzamluZW5N?oc=5",
-     "time": "2026-11-04T14:16:37+00:00"
-    },
-    {
-     "title": "Forget The Short-Term Noise: This is Where Amazon Will Be in 2028",
-     "publisher": "24/7 Wall St.",
-     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQRVVYemxVQ25ZWmJLVDBlSjVqYXgyTkVtS1FuOGJlNmRMWDM5NWtTRU41cVN6UFhocV9UMTJCQno3ZVFzc1FxZDJjUWtVQ2V5TXlEQUJtd3F3amV2eFhwcG1Val84d0psTXNnZS00RG9RWUdMNlpubVZpVm11TDFMcVAzRUxPSlVmTWFvUWFHdDFUOFRScXpMSWtNVVlmWjNzNWRtNDU5UG42U1Qt?oc=5",
-     "time": "2026-11-04T14:03:00+00:00"
-    },
-    {
-     "title": "Amazon.com, Inc. (AMZN) Stock Forecasts",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxONENQbGVzWm4xbkM1ZWx2VnRhbXJnQWlwOXJxV2s0WWdfUW52c05PRHY0RjN6QUpqV0hZTWkzR2V2NFRDNGFpd3dPaG1IclIzb0xhek1fdnBpblJoTkRQbUxlUmdFaFhIS1Rpa3FQOXVFNTZSYTJDRnFpUDFqYk9JWG0zd3ZOekZLVGc?oc=5",
-     "time": "2026-11-04T13:39:43+00:00"
-    },
-    {
-     "title": "Alphabet's Search Scare Is A Buying Chance - Amazon's Cash Problem Isn't (NASDAQ:GOOG)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTXpFTmZ3OTdVdHJzNTZDcnBBVDZzcjJESmxrOElFYTE1NEU3OVNzcWdTNWVlRkxRMzFmbW1CajJQSGpxMW9tQ2h4dWRSVDhKX2tra1ZfTEtGZHpMQjExUlJpdXRjQVVsVkRLT2M0eVhGcnp3bEI1NkJhcmhtODBmQm5jajcwOEkwMGU4cUI0Rk9mMENTMmktSHNUbE1XeTlzTnNaNzJ4QWtzdw?oc=5",
-     "time": "2026-11-04T12:52:01+00:00"
-    },
-    {
-     "title": "Andy Jassy Just Delivered Magnificent News for Amazon Investors",
-     "publisher": "The Motley Fool",
-     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQelVMSUtLR01QSHNWZUkzd0pLY0lKcTlOUnhia2xSLXIxZnhJSzhaVXNJV0ltaTBaMERGZFBKRlhWQV9adG5LNUt1MUVPMXZnMzZiUGo1MlpYSmdOeVVfYXd6OUx5SHgxYzJZdHVkVVNpcDdxVlBGZnNBZ25WOE9JN2RyS1g3RTg4SHIxaDlYWUhTdWRj?oc=5",
-     "time": "2026-11-04T11:12:00+00:00"
-    },
-    {
-     "title": "Amazon: AWS Is On Track To Outperform Today's Entire Company By 2028 (NASDAQ:AMZN)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQWZGOW5QYVQ4U1p3TkxrUDVRNFVoazhYYVJPLUdUNFh5d3lvR0hvaHJTSmxvQXlEbDZpeUtaODZOUXM0djViU2J4NlI5Zy1hQ0xxWVNCZFhnMWRZT29UcU54OTlwajdaYjBrN1ZpTTZYV0dfRldZbm1WVVlIZXNOMEdld01EYm9lUFkxaGlLVmlzT0NVOFhZU28zZ2JKMzA0QWpFN0p5RlRHclk?oc=5",
-     "time": "2026-11-04T09:58:53+00:00"
-    },
-    {
-     "title": "178,724 Amazon.com, Inc. $AMZN Shares Sold by Axxcess Wealth Management LLC",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNWl9RcDk5Rzg5QTRkM2RYUkFvczl4RnlMNEJTc0tNWlIwNEhCMzVGa3QtUEJqZWZndTZVNkNMN25fclBJa1EwSDVhMlRyY3BtcnNhRm1veW5BVmY0bHF4OU9NVlRaMDM1TWRHd3l0dllGNmNCMjBrakJmbjJmYjJNeUFPeFgyZElkaV81U0VNUzFLc05aUWJrcWdGY0ZoSEJZWXNhTVBFQXNsa05WdXVqb0R3c0NXNk1yMlo4b0s3c1ZOR2ROZ01aR3Zraw?oc=5",
-     "time": "2026-11-04T08:47:16+00:00"
-    },
-    {
-     "title": "Amazon.com, Inc. $AMZN Shares Purchased by Guardian Partners Inc.",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZnp6eDBkbkNQWGtreTNQMHkzRGFWMTUybnE4QXNsYkNLLVJJWi1RWS15WVNmOXYwYUVwV0RKYXlCWTViY1dtMHBqcXlnMVE0ajdMU2RaUnlRdnJqM1h5N3pwalZSVnBJQklKMVM4OEJqeHJIZ0FwWUZZcWtralFvVERfTlhZMzVtaFR0SUhpdUFfaHJSdE0zcDk0dVpERUMzaW13b01IT2VtSnBiZF9ER3NBWTdJN2JVNXFyMHd3?oc=5",
-     "time": "2026-11-04T08:41:10+00:00"
-    }
-   ],
-   "brief": null
-  },
-  {
    "symbol": "APP",
    "name": "AppLovin",
    "list": "portfolio",
-   "price": 264.67,
+   "price": 267.99,
    "prev_close": 245.51,
-   "change_pct": 7.8,
+   "change_pct": 9.2,
    "trigger_change": 5.7,
-   "peak_change": 7.8,
+   "peak_change": 9.2,
    "first_seen": "2026-11-04T14:55:55+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 104.92,
-    "change_pct": 2.2
+    "price": 105.71,
+    "change_pct": 2.97
    },
    "chart": {
-    "ema8": 5.1,
-    "ema21": 0.4,
-    "sma50": -8.9,
-    "sma200": -35.6,
+    "ema8": 6.1,
+    "ema21": 1.5,
+    "sma50": -7.8,
+    "sma200": -34.8,
     "momentum": false
    },
    "headlines": [
@@ -246,26 +171,140 @@
    "brief": null
   },
   {
-   "symbol": "MELI",
-   "name": "MercadoLibre",
-   "list": "watchlist",
-   "price": 1761.62,
-   "prev_close": 1662.16,
-   "change_pct": 6.0,
-   "trigger_change": 4.9,
-   "peak_change": 6.0,
+   "symbol": "AMZN",
+   "name": "Amazon",
+   "list": "portfolio",
+   "price": 270.39,
+   "prev_close": 250.69,
+   "change_pct": 7.9,
+   "trigger_change": 7.7,
+   "peak_change": 8.0,
    "first_seen": "2026-11-04T14:55:55+00:00",
    "sector": {
     "etf": "XLY",
     "name": "Consumer discr.",
-    "price": 121.54,
-    "change_pct": 3.59
+    "price": 121.72,
+    "change_pct": 3.74
    },
    "chart": {
-    "ema8": 3.2,
-    "ema21": 0.5,
-    "sma50": -3.5,
+    "ema8": 6.6,
+    "ema21": 6.8,
+    "sma50": 6.5,
+    "sma200": 11.0,
+    "momentum": true
+   },
+   "headlines": [
+    {
+     "title": "Retail Stocks Rally Post-U.S. Election; Amazon (AMZN) Shares Ris",
+     "publisher": "GuruFocus",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQODVobXhqUDVuTzhKdXRjN2p2ZGhqbDE1VWt0MG1FVGwwTEU3Sll2bVhLb3czZU5KOVFGM09wU3FlZlNzaTBlRGV0T1hyX3RkVTlVT1dFRzc5RlhKNHhsd3dSUWg5MEdnWUJnTmszd2xzRGtqOTlLdzBuWTdfQWpFV2xYN0RodHotYlRYdTdmYmVGZ3FOOENsRnpDaFYzamluZW5N?oc=5",
+     "time": "2026-11-04T14:16:37+00:00"
+    },
+    {
+     "title": "Forget The Short-Term Noise: This is Where Amazon Will Be in 2028",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQRVVYemxVQ25ZWmJLVDBlSjVqYXgyTkVtS1FuOGJlNmRMWDM5NWtTRU41cVN6UFhocV9UMTJCQno3ZVFzc1FxZDJjUWtVQ2V5TXlEQUJtd3F3amV2eFhwcG1Val84d0psTXNnZS00RG9RWUdMNlpubVZpVm11TDFMcVAzRUxPSlVmTWFvUWFHdDFUOFRScXpMSWtNVVlmWjNzNWRtNDU5UG42U1Qt?oc=5",
+     "time": "2026-11-04T14:03:00+00:00"
+    },
+    {
+     "title": "Amazon.com, Inc. (AMZN) Stock Forecasts",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxONENQbGVzWm4xbkM1ZWx2VnRhbXJnQWlwOXJxV2s0WWdfUW52c05PRHY0RjN6QUpqV0hZTWkzR2V2NFRDNGFpd3dPaG1IclIzb0xhek1fdnBpblJoTkRQbUxlUmdFaFhIS1Rpa3FQOXVFNTZSYTJDRnFpUDFqYk9JWG0zd3ZOekZLVGc?oc=5",
+     "time": "2026-11-04T13:39:43+00:00"
+    },
+    {
+     "title": "Alphabet's Search Scare Is A Buying Chance - Amazon's Cash Problem Isn't (NASDAQ:GOOG)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTXpFTmZ3OTdVdHJzNTZDcnBBVDZzcjJESmxrOElFYTE1NEU3OVNzcWdTNWVlRkxRMzFmbW1CajJQSGpxMW9tQ2h4dWRSVDhKX2tra1ZfTEtGZHpMQjExUlJpdXRjQVVsVkRLT2M0eVhGcnp3bEI1NkJhcmhtODBmQm5jajcwOEkwMGU4cUI0Rk9mMENTMmktSHNUbE1XeTlzTnNaNzJ4QWtzdw?oc=5",
+     "time": "2026-11-04T12:52:01+00:00"
+    },
+    {
+     "title": "Andy Jassy Just Delivered Magnificent News for Amazon Investors",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQelVMSUtLR01QSHNWZUkzd0pLY0lKcTlOUnhia2xSLXIxZnhJSzhaVXNJV0ltaTBaMERGZFBKRlhWQV9adG5LNUt1MUVPMXZnMzZiUGo1MlpYSmdOeVVfYXd6OUx5SHgxYzJZdHVkVVNpcDdxVlBGZnNBZ25WOE9JN2RyS1g3RTg4SHIxaDlYWUhTdWRj?oc=5",
+     "time": "2026-11-04T11:12:00+00:00"
+    },
+    {
+     "title": "Amazon: AWS Is On Track To Outperform Today's Entire Company By 2028 (NASDAQ:AMZN)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQWZGOW5QYVQ4U1p3TkxrUDVRNFVoazhYYVJPLUdUNFh5d3lvR0hvaHJTSmxvQXlEbDZpeUtaODZOUXM0djViU2J4NlI5Zy1hQ0xxWVNCZFhnMWRZT29UcU54OTlwajdaYjBrN1ZpTTZYV0dfRldZbm1WVVlIZXNOMEdld01EYm9lUFkxaGlLVmlzT0NVOFhZU28zZ2JKMzA0QWpFN0p5RlRHclk?oc=5",
+     "time": "2026-11-04T09:58:53+00:00"
+    },
+    {
+     "title": "178,724 Amazon.com, Inc. $AMZN Shares Sold by Axxcess Wealth Management LLC",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNWl9RcDk5Rzg5QTRkM2RYUkFvczl4RnlMNEJTc0tNWlIwNEhCMzVGa3QtUEJqZWZndTZVNkNMN25fclBJa1EwSDVhMlRyY3BtcnNhRm1veW5BVmY0bHF4OU9NVlRaMDM1TWRHd3l0dllGNmNCMjBrakJmbjJmYjJNeUFPeFgyZElkaV81U0VNUzFLc05aUWJrcWdGY0ZoSEJZWXNhTVBFQXNsa05WdXVqb0R3c0NXNk1yMlo4b0s3c1ZOR2ROZ01aR3Zraw?oc=5",
+     "time": "2026-11-04T08:47:16+00:00"
+    },
+    {
+     "title": "Amazon.com, Inc. $AMZN Shares Purchased by Guardian Partners Inc.",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZnp6eDBkbkNQWGtreTNQMHkzRGFWMTUybnE4QXNsYkNLLVJJWi1RWS15WVNmOXYwYUVwV0RKYXlCWTViY1dtMHBqcXlnMVE0ajdMU2RaUnlRdnJqM1h5N3pwalZSVnBJQklKMVM4OEJqeHJIZ0FwWUZZcWtralFvVERfTlhZMzVtaFR0SUhpdUFfaHJSdE0zcDk0dVpERUMzaW13b01IT2VtSnBiZF9ER3NBWTdJN2JVNXFyMHd3?oc=5",
+     "time": "2026-11-04T08:41:10+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
+   "symbol": "NVO",
+   "name": "Novo Nordisk (ADR)",
+   "list": "portfolio",
+   "price": 42.76,
+   "prev_close": 40.19,
+   "change_pct": 6.4,
+   "trigger_change": 6.6,
+   "peak_change": 6.6,
+   "first_seen": "2026-11-04T14:55:55+00:00",
+   "sector": {
+    "etf": "XLV",
+    "name": "Health care",
+    "price": 186.16,
+    "change_pct": 1.16
+   },
+   "chart": {
+    "ema8": 6.1,
+    "ema21": 7.8,
+    "sma50": 4.7,
     "sma200": -2.6,
+    "momentum": true
+   },
+   "headlines": [
+    {
+     "title": "Earnings call transcript: Novo Nordisk rises on Q3 2026 growth outlook",
+     "publisher": "Investing.com Canada",
+     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOV0F0dUhpV29uSzJJLUdsOGJHSXAyTTRaMk5NOTV3ZTJRc3EzMGZ3cE5OeWYtN3o1T1EzZnRrX1c4YXhOUTNTUVhiTDNrLUFnazJCWlFKRG0tc3Z6UWhZYkxtTlMxM1dsQ1ZDdmZkVjlDbi1Nbzd6VHFtV0stMHlWSzlxVDVWLTlaNG5TeXNQTmtWT3ZqcHdFdWg4OVlBcXQ0d0s2Rm9IRUpjT2RlaTIxNHFDQmlYOXh2UlItbjdMbWFRRFZfOUNaaE93?oc=5",
+     "time": "2026-11-04T13:34:19+00:00"
+    },
+    {
+     "title": "Novo Nordisk ADR earnings missed by $3.74, revenue fell short of estimates",
+     "publisher": "Investing.com Canada",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQdWlwaWQzdzFVamZjOXJ6clAxRGNINU9jb20zTDNJLTNLS1dGejliY1psYVM1b1FBUVphNWVXXzlFdXc0RWExMnl0cFV1U0V1RnF0VFdtaUVSbXlkZXhPVHRJUUhBRjIzZER4T3lQcDREOHRCRWllQWxBY3ZMdnotMHBad2N3TUx2WjVHamw1S2lYQ1kyX0FUTkJQQmtDd204a1JHY01CdFBfVE0xeDFlOGtMWWpSNEgtV2c?oc=5",
+     "time": "2026-11-04T09:06:27+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
+   "symbol": "MELI",
+   "name": "MercadoLibre",
+   "list": "watchlist",
+   "price": 1765.64,
+   "prev_close": 1662.16,
+   "change_pct": 6.2,
+   "trigger_change": 4.9,
+   "peak_change": 6.2,
+   "first_seen": "2026-11-04T14:55:55+00:00",
+   "sector": {
+    "etf": "XLY",
+    "name": "Consumer discr.",
+    "price": 121.72,
+    "change_pct": 3.74
+   },
+   "chart": {
+    "ema8": 3.3,
+    "ema21": 0.7,
+    "sma50": -3.3,
+    "sma200": -2.3,
     "momentum": false
    },
    "headlines": [
@@ -324,23 +363,23 @@
    "symbol": "GOOG",
    "name": "Alphabet",
    "list": "portfolio",
-   "price": 292.0,
+   "price": 293.43,
    "prev_close": 278.27,
-   "change_pct": 4.9,
+   "change_pct": 5.4,
    "trigger_change": 3.9,
-   "peak_change": 5.0,
+   "peak_change": 5.4,
    "first_seen": "2026-11-04T14:55:55+00:00",
    "sector": {
     "etf": "XLC",
     "name": "Communication",
-    "price": 105.24,
-    "change_pct": 3.75
+    "price": 105.42,
+    "change_pct": 3.92
    },
    "chart": {
-    "ema8": -0.9,
-    "ema21": -6.8,
-    "sma50": -12.1,
-    "sma200": -13.6,
+    "ema8": -0.5,
+    "ema21": -6.4,
+    "sma50": -11.7,
+    "sma200": -13.2,
     "momentum": false
    },
    "headlines": [
@@ -396,65 +435,26 @@
    "brief": null
   },
   {
-   "symbol": "NVO",
-   "name": "Novo Nordisk (ADR)",
-   "list": "portfolio",
-   "price": 42.17,
-   "prev_close": 40.19,
-   "change_pct": 4.9,
-   "trigger_change": 6.6,
-   "peak_change": 6.6,
-   "first_seen": "2026-11-04T14:55:55+00:00",
-   "sector": {
-    "etf": "XLV",
-    "name": "Health care",
-    "price": 186.0,
-    "change_pct": 1.08
-   },
-   "chart": {
-    "ema8": 5.0,
-    "ema21": 6.4,
-    "sma50": 3.3,
-    "sma200": -3.9,
-    "momentum": true
-   },
-   "headlines": [
-    {
-     "title": "Earnings call transcript: Novo Nordisk rises on Q3 2026 growth outlook",
-     "publisher": "Investing.com Canada",
-     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOV0F0dUhpV29uSzJJLUdsOGJHSXAyTTRaMk5NOTV3ZTJRc3EzMGZ3cE5OeWYtN3o1T1EzZnRrX1c4YXhOUTNTUVhiTDNrLUFnazJCWlFKRG0tc3Z6UWhZYkxtTlMxM1dsQ1ZDdmZkVjlDbi1Nbzd6VHFtV0stMHlWSzlxVDVWLTlaNG5TeXNQTmtWT3ZqcHdFdWg4OVlBcXQ0d0s2Rm9IRUpjT2RlaTIxNHFDQmlYOXh2UlItbjdMbWFRRFZfOUNaaE93?oc=5",
-     "time": "2026-11-04T13:34:19+00:00"
-    },
-    {
-     "title": "Novo Nordisk ADR earnings missed by $3.74, revenue fell short of estimates",
-     "publisher": "Investing.com Canada",
-     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQdWlwaWQzdzFVamZjOXJ6clAxRGNINU9jb20zTDNJLTNLS1dGejliY1psYVM1b1FBUVphNWVXXzlFdXc0RWExMnl0cFV1U0V1RnF0VFdtaUVSbXlkZXhPVHRJUUhBRjIzZER4T3lQcDREOHRCRWllQWxBY3ZMdnotMHBad2N3TUx2WjVHamw1S2lYQ1kyX0FUTkJQQmtDd204a1JHY01CdFBfVE0xeDFlOGtMWWpSNEgtV2c?oc=5",
-     "time": "2026-11-04T09:06:27+00:00"
-    }
-   ],
-   "brief": null
-  },
-  {
    "symbol": "SOFI",
    "name": "SoFi",
    "list": "portfolio",
-   "price": 17.59,
+   "price": 17.67,
    "prev_close": 16.77,
-   "change_pct": 4.9,
+   "change_pct": 5.4,
    "trigger_change": 4.1,
-   "peak_change": 4.9,
+   "peak_change": 5.4,
    "first_seen": "2026-11-04T14:55:55+00:00",
    "sector": {
     "etf": "XLF",
     "name": "Financials",
-    "price": 58.06,
-    "change_pct": 1.52
+    "price": 58.13,
+    "change_pct": 1.64
    },
    "chart": {
-    "ema8": 5.7,
-    "ema21": 9.2,
-    "sma50": 6.8,
-    "sma200": -0.3,
+    "ema8": 6.0,
+    "ema21": 9.6,
+    "sma50": 7.3,
+    "sma200": 0.1,
     "momentum": true
    },
    "headlines": [
@@ -510,6 +510,76 @@
    "brief": null
   },
   {
+   "symbol": "BTC-USD",
+   "name": "Bitcoin",
+   "list": "watchlist",
+   "price": 80941.2,
+   "prev_close": 77331.7,
+   "change_pct": 4.7,
+   "trigger_change": 4.0,
+   "peak_change": 4.7,
+   "first_seen": "2026-11-04T15:11:03+00:00",
+   "sector": null,
+   "chart": {
+    "ema8": 2.7,
+    "ema21": 1.2,
+    "sma50": -1.3,
+    "sma200": 10.6,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Bitcoin Reclaims $79,000 After 5% Rebound From Election-Night Low",
+     "publisher": "The Defiant",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZWVvZEVKZk1mMWpFQ0ZJYXQ4bUlPb2IzUUlCODNCd3c1SGdCUVZzU1poeTFtZzI5dklLdEtycWNNVHI4M1N3U3BjTDNCbXpnSkhURzNYVWZtMDZ6NEozZ3B4N2tIN1JaSzJpWjVuRWZPNnNpd3JmVF9MS2tTTElENEd2MHBTYlFoWldpVURVeDNxT3U5bVluUnZfYmlsT28?oc=5",
+     "time": "2026-11-04T15:08:17+00:00"
+    },
+    {
+     "title": "JUST IN: Bitcoin jumps past $79,000 \ud83d\ude80",
+     "publisher": "Moomoo",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNbW52aHVCQVJIN1dSTDhFOV9UMnpnQUZoaFB1OUtsZjVGQUdwNVhjQWczWThmRGd5M1JxUlo3OXFkVXFBYlktQXM4RkdFc0RxODE3VVlraFR0c0dlQmRoamprWlp1bzFmUXc4ZUpWeEF1S2VyMnVVQlRFT0RlczBLRUc2X2xuWUNPUUQ0c1l3NC0?oc=5",
+     "time": "2026-11-04T14:57:41+00:00"
+    },
+    {
+     "title": "Metaplanet Raises Planned Bitcoin Purchases to \u00a533.42 Billion After Early Bond Redemption",
+     "publisher": "bloomingbit",
+     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE94YkxaamttRy1ZeG0yY2xzZGJqcnFlWGxCSzdBZlZ2N2ZQcGYyOXVLQzZrSmt2cXBscWRGakszZEFkaW9VcUJ0TE5fZ1prbXZZem43Yg?oc=5",
+     "time": "2026-11-04T14:55:38+00:00"
+    },
+    {
+     "title": "Mercado Bitcoin Hack: $46M Drained, Withdrawals Frozen",
+     "publisher": "Memeburn",
+     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1SLTlKVkpuODJUNWNNVFZZdU81dEQ1dW1ZcnczYXJWZmQwMEtKbE0wbXlJSzA0ZGdNeUtqNGxsTXlCbURwSGlhX1Q5Vlg3QUJRR3c1Qw?oc=5",
+     "time": "2026-11-04T14:52:48+00:00"
+    },
+    {
+     "title": "Mercado Bitcoin Attacker Swaps Tokens for $10.55 Million in ETH, Arkham Says",
+     "publisher": "The Defiant",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQNllYMzM1TXR2ZkZFSEpyQUVYdzFSdVRWbFpodGh3RDdzQVVYVFl3eFBwNjVfSUxfNHJLSVBINFNUT081bVdqNnRHSTdQR0RTN0NzSWZ1QkpBUUpHaWpleVhrTENZNlFJT0dKYUphRExZTFR4YWxYbjFHT2lraHZFQTNubER6bnZTckpHQ2V1NXJQZ21SQ20ydF9yYXA0ZEZGSjRuMktFY1pJRWc?oc=5",
+     "time": "2026-11-04T14:49:57+00:00"
+    },
+    {
+     "title": "Bitcoin Tops $79,000; Kimchi Premium at 0.14%",
+     "publisher": "bloomingbit",
+     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5ycFJCbF9pSFpKWU83RU9Zd2lpbkRkLTdPVW1oZ0NremhrSzdCRTVqeDNpNm82Z2d6TVp3bC1hSWRLMUFNTGdPYWRCSXpFQUJaZk41bQ?oc=5",
+     "time": "2026-11-04T14:47:58+00:00"
+    },
+    {
+     "title": "The news is almost always in the chart. $Bitcoin (BTC.CC)$ perfectly retested the 50 MA on the weekly on the election drop, right before bouncing. This is the bear/bull market line. Crazy.",
+     "publisher": "Moomoo",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPaXRjTWc2OWJJVllKVElTb2lRdk0xMWxWN1I2akZDeVJER2dQa0gyV0V2WkJhZXJSdl9WenJ5b1dCVXlDYVVTNEIwWFAxUmh4Z2NSd1c2TUNVbzVUZWdCZmxXV21WVDJ0MHg3eUVZTndQZzlHQ3N2bDBoWGFGa0FtMlg0NDdpMUxFNlF5cE5EemZadWszRHpQTVlHZjR1LWVINlk2NV9sWQ?oc=5",
+     "time": "2026-11-04T14:33:13+00:00"
+    },
+    {
+     "title": "Liquid Capital Founder Says Bitcoin Has Shown More Resilience Than U.S. Stocks",
+     "publisher": "www.tokenpost.com",
+     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE80N2VZOC1OcXdpYV9rNFozVUJoaGJzLWEtN1E3NDFxU3R4Rk1wTWl2NWQzZEhpcEZDYnAzX0t3NnBoYnRHZ2l5UkgtWGVNY0dlMnZvbTl2TE0?oc=5",
+     "time": "2026-11-04T14:29:07+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
    "symbol": "NFLX",
    "name": "Netflix",
    "list": "portfolio",
@@ -522,8 +592,8 @@
    "sector": {
     "etf": "XLC",
     "name": "Communication",
-    "price": 105.24,
-    "change_pct": 3.75
+    "price": 105.42,
+    "change_pct": 3.92
    },
    "chart": {
     "ema8": 2.9,
@@ -580,76 +650,6 @@
      "publisher": "Stock Titan",
      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQT0tuMkE4RVh5NjNmY0ROX0otLW9SR3c1djVSb0c2b1lpa3NrbDBENmNtTjE1VnRfRVRNQ0ZUc0hURWV2SXRaOFBsY1ZyNWFLdHFQU19XT1FHbDdJTFFkRnFjc21TNjR3bEFSbmFhdHZ6T3EyZmRJaTRxLUdwc0hDRG1oT01kLU54ZzBuUVZjWWpLbGxaMEJrSXVwcWNEUDZILThrY2dJR00?oc=5",
      "time": "2026-11-04T00:19:00+00:00"
-    }
-   ],
-   "brief": null
-  },
-  {
-   "symbol": "BTC-USD",
-   "name": "Bitcoin",
-   "list": "watchlist",
-   "price": 80443.5,
-   "prev_close": 77331.7,
-   "change_pct": 4.0,
-   "trigger_change": 4.0,
-   "peak_change": 4.0,
-   "first_seen": "2026-11-04T15:11:03+00:00",
-   "sector": null,
-   "chart": {
-    "ema8": 2.2,
-    "ema21": 0.7,
-    "sma50": -1.9,
-    "sma200": 9.9,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Bitcoin Reclaims $79,000 After 5% Rebound From Election-Night Low",
-     "publisher": "The Defiant",
-     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZWVvZEVKZk1mMWpFQ0ZJYXQ4bUlPb2IzUUlCODNCd3c1SGdCUVZzU1poeTFtZzI5dklLdEtycWNNVHI4M1N3U3BjTDNCbXpnSkhURzNYVWZtMDZ6NEozZ3B4N2tIN1JaSzJpWjVuRWZPNnNpd3JmVF9MS2tTTElENEd2MHBTYlFoWldpVURVeDNxT3U5bVluUnZfYmlsT28?oc=5",
-     "time": "2026-11-04T15:08:17+00:00"
-    },
-    {
-     "title": "JUST IN: Bitcoin jumps past $79,000 \ud83d\ude80",
-     "publisher": "Moomoo",
-     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNbW52aHVCQVJIN1dSTDhFOV9UMnpnQUZoaFB1OUtsZjVGQUdwNVhjQWczWThmRGd5M1JxUlo3OXFkVXFBYlktQXM4RkdFc0RxODE3VVlraFR0c0dlQmRoamprWlp1bzFmUXc4ZUpWeEF1S2VyMnVVQlRFT0RlczBLRUc2X2xuWUNPUUQ0c1l3NC0?oc=5",
-     "time": "2026-11-04T14:57:41+00:00"
-    },
-    {
-     "title": "Metaplanet Raises Planned Bitcoin Purchases to \u00a533.42 Billion After Early Bond Redemption",
-     "publisher": "bloomingbit",
-     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE94YkxaamttRy1ZeG0yY2xzZGJqcnFlWGxCSzdBZlZ2N2ZQcGYyOXVLQzZrSmt2cXBscWRGakszZEFkaW9VcUJ0TE5fZ1prbXZZem43Yg?oc=5",
-     "time": "2026-11-04T14:55:38+00:00"
-    },
-    {
-     "title": "Mercado Bitcoin Hack: $46M Drained, Withdrawals Frozen",
-     "publisher": "Memeburn",
-     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1SLTlKVkpuODJUNWNNVFZZdU81dEQ1dW1ZcnczYXJWZmQwMEtKbE0wbXlJSzA0ZGdNeUtqNGxsTXlCbURwSGlhX1Q5Vlg3QUJRR3c1Qw?oc=5",
-     "time": "2026-11-04T14:52:48+00:00"
-    },
-    {
-     "title": "Mercado Bitcoin Attacker Swaps Tokens for $10.55 Million in ETH, Arkham Says",
-     "publisher": "The Defiant",
-     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQNllYMzM1TXR2ZkZFSEpyQUVYdzFSdVRWbFpodGh3RDdzQVVYVFl3eFBwNjVfSUxfNHJLSVBINFNUT081bVdqNnRHSTdQR0RTN0NzSWZ1QkpBUUpHaWpleVhrTENZNlFJT0dKYUphRExZTFR4YWxYbjFHT2lraHZFQTNubER6bnZTckpHQ2V1NXJQZ21SQ20ydF9yYXA0ZEZGSjRuMktFY1pJRWc?oc=5",
-     "time": "2026-11-04T14:49:57+00:00"
-    },
-    {
-     "title": "Bitcoin Tops $79,000; Kimchi Premium at 0.14%",
-     "publisher": "bloomingbit",
-     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5ycFJCbF9pSFpKWU83RU9Zd2lpbkRkLTdPVW1oZ0NremhrSzdCRTVqeDNpNm82Z2d6TVp3bC1hSWRLMUFNTGdPYWRCSXpFQUJaZk41bQ?oc=5",
-     "time": "2026-11-04T14:47:58+00:00"
-    },
-    {
-     "title": "The news is almost always in the chart. $Bitcoin (BTC.CC)$ perfectly retested the 50 MA on the weekly on the election drop, right before bouncing. This is the bear/bull market line. Crazy.",
-     "publisher": "Moomoo",
-     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPaXRjTWc2OWJJVllKVElTb2lRdk0xMWxWN1I2akZDeVJER2dQa0gyV0V2WkJhZXJSdl9WenJ5b1dCVXlDYVVTNEIwWFAxUmh4Z2NSd1c2TUNVbzVUZWdCZmxXV21WVDJ0MHg3eUVZTndQZzlHQ3N2bDBoWGFGa0FtMlg0NDdpMUxFNlF5cE5EemZadWszRHpQTVlHZjR1LWVINlk2NV9sWQ?oc=5",
-     "time": "2026-11-04T14:33:13+00:00"
-    },
-    {
-     "title": "Liquid Capital Founder Says Bitcoin Has Shown More Resilience Than U.S. Stocks",
-     "publisher": "www.tokenpost.com",
-     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE80N2VZOC1OcXdpYV9rNFozVUJoaGJzLWEtN1E3NDFxU3R4Rk1wTWl2NWQzZEhpcEZDYnAzX0t3NnBoYnRHZ2l5UkgtWGVNY0dlMnZvbTl2TE0?oc=5",
-     "time": "2026-11-04T14:29:07+00:00"
     }
    ],
    "brief": null
