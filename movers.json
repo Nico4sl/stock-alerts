@@ -1,22 +1,22 @@
 {
  "date": "2026-11-04",
  "threshold": 3.0,
- "updated": "2026-11-04T16:28:17+00:00",
+ "updated": "2026-11-04T16:33:19+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 764.17,
-   "change_pct": 1.3
+   "price": 765.19,
+   "change_pct": 1.44
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 690.6,
-   "change_pct": 0.78
+   "price": 692.36,
+   "change_pct": 1.03
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 81.39,
-   "change_pct": 0.35
+   "price": 81.44,
+   "change_pct": 0.41
   }
  },
  "movers": [
@@ -24,22 +24,22 @@
    "symbol": "APP",
    "name": "AppLovin",
    "list": "portfolio",
-   "price": 270.91,
+   "price": 270.66,
    "prev_close": 245.51,
-   "change_pct": 10.3,
+   "change_pct": 10.2,
    "trigger_change": 5.7,
    "peak_change": 10.3,
    "first_seen": "2026-11-04T14:55:55+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 103.4,
-    "change_pct": 0.72
+    "price": 103.62,
+    "change_pct": 0.94
    },
    "chart": {
-    "ema8": 7.0,
-    "ema21": 2.5,
-    "sma50": -6.8,
+    "ema8": 6.9,
+    "ema21": 2.4,
+    "sma50": -6.9,
     "sma200": -34.1,
     "momentum": false
    },
@@ -96,26 +96,71 @@
    "brief": "2026-11-04-APP"
   },
   {
+   "symbol": "NVO",
+   "name": "Novo Nordisk (ADR)",
+   "list": "portfolio",
+   "price": 42.73,
+   "prev_close": 40.19,
+   "change_pct": 6.3,
+   "trigger_change": 6.6,
+   "peak_change": 6.6,
+   "first_seen": "2026-11-04T14:55:55+00:00",
+   "sector": {
+    "etf": "XLV",
+    "name": "Health care",
+    "price": 188.21,
+    "change_pct": 2.28
+   },
+   "chart": {
+    "ema8": 6.1,
+    "ema21": 7.7,
+    "sma50": 4.6,
+    "sma200": -2.7,
+    "momentum": true
+   },
+   "headlines": [
+    {
+     "title": "NVO Q3 Earnings Beat Estimates on Wegovy Pill Growth, Outlook Raised",
+     "publisher": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZm45MnZTQVRnMU5wWGxvRnVRVWp4NEd0MHV4Y1dTWUVNRkF6QWlTNlpId0c3bGpYOWp5aTl6aTZUX1F6ZHpUdHExcHYzOUQxcWFtTnZtdUhYN1ozNG1SVVZhWTd4b1pzbVJ5U19WcGVtQXpoTEQyNkdOWE5oWmVqSjVPS1lueWVZMHFnMFdTSXdhczRxanFHN2k0azNxX3I2Q2YyTzMwQXltbTFadC1mY1BZb0xYSDdCSV9Ob21Bb3E?oc=5",
+     "time": "2026-11-04T13:35:00+00:00"
+    },
+    {
+     "title": "Earnings call transcript: Novo Nordisk rises on Q3 2026 growth outlook",
+     "publisher": "Investing.com Canada",
+     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOV0F0dUhpV29uSzJJLUdsOGJHSXAyTTRaMk5NOTV3ZTJRc3EzMGZ3cE5OeWYtN3o1T1EzZnRrX1c4YXhOUTNTUVhiTDNrLUFnazJCWlFKRG0tc3Z6UWhZYkxtTlMxM1dsQ1ZDdmZkVjlDbi1Nbzd6VHFtV0stMHlWSzlxVDVWLTlaNG5TeXNQTmtWT3ZqcHdFdWg4OVlBcXQ0d0s2Rm9IRUpjT2RlaTIxNHFDQmlYOXh2UlItbjdMbWFRRFZfOUNaaE93?oc=5",
+     "time": "2026-11-04T13:34:19+00:00"
+    },
+    {
+     "title": "Novo Nordisk ADR earnings missed by $3.74, revenue fell short of estimates",
+     "publisher": "Investing.com",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNOHFKQnJsWnZFX2JOV0h2OVgxWkFwQUJERk8yNHd3bjZUMWhSTF9HREphNnEtZHBBOFkyOENRcGFGeml5ZXRGa0l5azlGMnFhRVYxSEVBaFZkODVGYnkxMnN2dkN1dUVKcW9VbzNIbGptZ2gyNXpGTDI5Unp0bXM0UjBtWUNFS0MyUHZqcTY2VnNmVnQxSG1iM1RxcG0yQTdLMV80el9ZanZHcTFCT0sxY3ZENUo2dWcyUFVB?oc=5",
+     "time": "2026-11-04T08:04:17+00:00"
+    }
+   ],
+   "brief": "2026-11-04-NVO"
+  },
+  {
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 140.56,
+   "price": 142.09,
    "prev_close": 151.64,
-   "change_pct": -7.3,
+   "change_pct": -6.3,
    "trigger_change": -4.1,
    "peak_change": -7.3,
    "first_seen": "2026-11-04T15:31:22+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 103.4,
-    "change_pct": 0.72
+    "price": 103.62,
+    "change_pct": 0.94
    },
    "chart": {
-    "ema8": -9.7,
-    "ema21": -19.6,
-    "sma50": -31.5,
-    "sma200": -21.1,
+    "ema8": -8.9,
+    "ema21": -18.8,
+    "sma50": -30.8,
+    "sma200": -20.2,
     "momentum": false
    },
    "headlines": [
@@ -171,71 +216,26 @@
    "brief": "2026-11-04-NBIS"
   },
   {
-   "symbol": "NVO",
-   "name": "Novo Nordisk (ADR)",
-   "list": "portfolio",
-   "price": 42.66,
-   "prev_close": 40.19,
-   "change_pct": 6.1,
-   "trigger_change": 6.6,
-   "peak_change": 6.6,
-   "first_seen": "2026-11-04T14:55:55+00:00",
-   "sector": {
-    "etf": "XLV",
-    "name": "Health care",
-    "price": 188.07,
-    "change_pct": 2.2
-   },
-   "chart": {
-    "ema8": 5.9,
-    "ema21": 7.5,
-    "sma50": 4.4,
-    "sma200": -2.8,
-    "momentum": true
-   },
-   "headlines": [
-    {
-     "title": "NVO Q3 Earnings Beat Estimates on Wegovy Pill Growth, Outlook Raised",
-     "publisher": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZm45MnZTQVRnMU5wWGxvRnVRVWp4NEd0MHV4Y1dTWUVNRkF6QWlTNlpId0c3bGpYOWp5aTl6aTZUX1F6ZHpUdHExcHYzOUQxcWFtTnZtdUhYN1ozNG1SVVZhWTd4b1pzbVJ5U19WcGVtQXpoTEQyNkdOWE5oWmVqSjVPS1lueWVZMHFnMFdTSXdhczRxanFHN2k0azNxX3I2Q2YyTzMwQXltbTFadC1mY1BZb0xYSDdCSV9Ob21Bb3E?oc=5",
-     "time": "2026-11-04T13:35:00+00:00"
-    },
-    {
-     "title": "Earnings call transcript: Novo Nordisk rises on Q3 2026 growth outlook",
-     "publisher": "Investing.com Canada",
-     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOV0F0dUhpV29uSzJJLUdsOGJHSXAyTTRaMk5NOTV3ZTJRc3EzMGZ3cE5OeWYtN3o1T1EzZnRrX1c4YXhOUTNTUVhiTDNrLUFnazJCWlFKRG0tc3Z6UWhZYkxtTlMxM1dsQ1ZDdmZkVjlDbi1Nbzd6VHFtV0stMHlWSzlxVDVWLTlaNG5TeXNQTmtWT3ZqcHdFdWg4OVlBcXQ0d0s2Rm9IRUpjT2RlaTIxNHFDQmlYOXh2UlItbjdMbWFRRFZfOUNaaE93?oc=5",
-     "time": "2026-11-04T13:34:19+00:00"
-    },
-    {
-     "title": "Novo Nordisk ADR earnings missed by $3.74, revenue fell short of estimates",
-     "publisher": "Investing.com",
-     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNOHFKQnJsWnZFX2JOV0h2OVgxWkFwQUJERk8yNHd3bjZUMWhSTF9HREphNnEtZHBBOFkyOENRcGFGeml5ZXRGa0l5azlGMnFhRVYxSEVBaFZkODVGYnkxMnN2dkN1dUVKcW9VbzNIbGptZ2gyNXpGTDI5Unp0bXM0UjBtWUNFS0MyUHZqcTY2VnNmVnQxSG1iM1RxcG0yQTdLMV80el9ZanZHcTFCT0sxY3ZENUo2dWcyUFVB?oc=5",
-     "time": "2026-11-04T08:04:17+00:00"
-    }
-   ],
-   "brief": "2026-11-04-NVO"
-  },
-  {
    "symbol": "AMZN",
    "name": "Amazon",
    "list": "portfolio",
-   "price": 265.53,
+   "price": 265.9,
    "prev_close": 250.69,
-   "change_pct": 5.9,
+   "change_pct": 6.1,
    "trigger_change": 7.7,
    "peak_change": 8.0,
    "first_seen": "2026-11-04T14:55:55+00:00",
    "sector": {
     "etf": "XLY",
     "name": "Consumer discr.",
-    "price": 121.57,
-    "change_pct": 3.61
+    "price": 121.75,
+    "change_pct": 3.77
    },
    "chart": {
-    "ema8": 5.1,
-    "ema21": 5.0,
-    "sma50": 4.6,
-    "sma200": 9.0,
+    "ema8": 5.3,
+    "ema21": 5.2,
+    "sma50": 4.7,
+    "sma200": 9.1,
     "momentum": false
    },
    "headlines": [
@@ -291,101 +291,26 @@
    "brief": "2026-11-04-AMZN"
   },
   {
-   "symbol": "MELI",
-   "name": "MercadoLibre",
-   "list": "watchlist",
-   "price": 1748.92,
-   "prev_close": 1662.16,
-   "change_pct": 5.2,
-   "trigger_change": 4.9,
-   "peak_change": 6.2,
-   "first_seen": "2026-11-04T14:55:55+00:00",
-   "sector": {
-    "etf": "XLY",
-    "name": "Consumer discr.",
-    "price": 121.57,
-    "change_pct": 3.61
-   },
-   "chart": {
-    "ema8": 2.6,
-    "ema21": -0.2,
-    "sma50": -4.2,
-    "sma200": -3.3,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "MercadoLibre stock faces earnings test as margins take center stage",
-     "publisher": "ad-hoc-news.de",
-     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPUWdqOHBmV29pUGFfLTJwNGxMekdULW1JX3Q3cHhKeUZ2NGtOZ29BQjlsVG95TmZWV1podHhHbW5MNlE1Z1hCME1HOU1iLTJ1UjhWNzUwT2pCQWZJbUFYQXZjYkQ3R0JCc1o4UlpUYXRCbzI3T2Noc3JLOFdOSWw2eFhPaEE5SUlydE1yNS1MNzZuaVVMU055VENJT3NMNlMxamFuUWRxNDN4YzFVWFlQQm1seW80RThZSEk4cjFRMnZKU2ZKN2VqemV3?oc=5",
-     "time": "2026-11-04T15:41:32+00:00"
-    },
-    {
-     "title": "MercadoLibre\u2019s Bulls Are Counting on Profit Growth. Here\u2019s What We Learn Tonight",
-     "publisher": "TIKR.com",
-     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQR3Z2Z2lkRTJxSE1HdW5kTmJobWhxckFsVElld3hYTkJ0OW9OYk1TcXNyZEtKVC1Td2hFc1k3X3JYVkJxbDN3aElNT0JLS05YNTFXaC0zak4yY3FkODgxZDVrZkRRNm5uTmxPMGRfeExYakluTVlMM2xKQVNmSXFkN3hacHppc0JlbENQQkdWRnVkZ2FRQ3hkUVVaNUp4MkJjUC1YbWl3?oc=5",
-     "time": "2026-11-04T14:49:39+00:00"
-    },
-    {
-     "title": "MercadoLibre stock faces November 4 earnings test after strong growth",
-     "publisher": "ad-hoc-news.de",
-     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNUUtJLWRUM2pkdXBoZ2xBU2pRQjdhY0VNcW4xWkk3M1hxS3BlaXJOZjI1WmhkaFVaalFmd3B0SzQxeXRfMnRFREVHcE1DbW5Tbl9TVkQxYkRWMkRMMzVaSGFFMXRCbTNnYkFmWC1IVGRJMTdQRFlJV1lBZHZKbkVvWTcxRk1xRkhEYXhtZWZoYWE1WWkyQ0pSc0l4b0Vhc1dCa2RnSEMzQ2Q2Y2hsXzVETDRrVjh4cVV3bk1pNXJfWnBCUmhONG9Ua05QbDU?oc=5",
-     "time": "2026-11-04T12:24:54+00:00"
-    },
-    {
-     "title": "MercadoLibre Q3 2026 Earnings Date and Estimates",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPYU5QNlcwR2RzYmM2NF9RT0dESmtWZmYxRkQzVGlZUHJTb2tUNmdlMjlNLXE3UlV3MURSNUVIVzJPVEoxVVliNTU3bExDTGZUZENYbnFQUEt2VDFWUVBOVlBLejZ1SG5GTFZob0xKZi1DMHBCaTcyeEh4Qzlrd0l3NWRhTQ?oc=5",
-     "time": "2026-11-04T11:43:45+00:00"
-    },
-    {
-     "title": "MercadoLibre, Inc. $MELI Stock Purchased by TrinityBridge Ltd",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQX1ZqV0gxY0tQY3NJN3VObmlvV2ZNUHRMVFRtMVFEM3ZLMy1raU91Y3J4eWtMcEZQUDBuRGtmbU9EVHBDRHVvQjRFLVV6Q1VHWGtNZVhPNWMwemRxMzhEQlRWSmV1NkRvMjNTc3FQMFVIS1pBaUVRZTcxWFV1aDMyWjVZa2ZXbWg3bXAtZ1A1WjNHazExckFRQmsxaUMtNHpQU0ItRVdRZmlZNm1ZUEw0dGc0U1hobE1ndV9N?oc=5",
-     "time": "2026-11-04T11:21:57+00:00"
-    },
-    {
-     "title": "MercadoLibre, Inc. $MELI Stock Acquired by TT International Asset Management LTD",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPYnBZV0JueW1waHZDeFcwU0lidXlVZWVmV1hnbkp5TjMtWHpXeWlWR0F0VzJtWUFDNEtJTW1PUy1WX0V1b1h5clZoUzdrV0xnNVc1OTRrOFVzS0dPU28zaEI4SXNVYzN0VVVaWl8xZjRwUnVZWjZ0dEg0aGpLb19fWk5kZU1WQjBRZTZJNGJBc3ZsRERfYUI1ZFVSLTBnN2hONHZzYnRPQjU5SENQQXZHMDJ3Ul9oSDdvTkpNV2w1YzU5Q0tJcV9xUkEzQVo5c0ZtSk53eQ?oc=5",
-     "time": "2026-11-04T11:15:42+00:00"
-    },
-    {
-     "title": "Down 38%, Is MercadoLibre Stock a Better Buy than SpaceX and the \"Magnificent Seven\" Stocks in November?",
-     "publisher": "The Motley Fool",
-     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQbGR0SHFNVW9qdWR2YS1HcmlDcE1rYmh3Zk1yVmpuOWgwQzFXZTJ4b0RhdHpVODMzLTVrTlNYUzNfMl8tZ05keVozR0hsSWRyeXFKc2RGbjdsTGhaVlJSWm42eHA0bnFwb28waGFSNWRuWmdESjhYNmRkaVA1MU85Zk80dmxoMDFiT1VlMGpqb183N2VNa0U1Zg?oc=5",
-     "time": "2026-11-04T09:15:00+00:00"
-    },
-    {
-     "title": "MercadoLibre (MELI) Holds Firm Following Brazil Election Shock, Is The Valuation Still Compelling?",
-     "publisher": "Simply Wall St",
-     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPLVYwdHNjTTFXU19lMFNLemltQm9yR3kzNW1PZENJWWNhY2FCMURoSm1leUpLckJ3eGR3TmRfSjV3RDBrTTVPNzhJamd1dmtXcV9GTTJBWnlIdU5kbmNqZWJueElmS3NyVG9HRS1FcXJSbGM5ME5WM2ZTZkpWMGMwSlhzODNvVW00SmY4QWtGanhscFlibUVKRHRRZTMzR3QzNExiRjNfNUJ5UWEwQXpneVBxVk5DY1RZVFpGS1hNSjhLOTliOHBUMtIBzgFBVV95cUxNZVlzTnhQN3JkQ1NrOHdkeDVJVEExc2dEVWhUV0dNOEltUTV6RXM0dFBSVE83cV90Y3JzaVo3b3pRbHFQTHV6T1MzRW1SODY0d0U3aGZUNUYta2lmUjhlS0lhWXplYWU1dE5Vc3hvZXF0MWVkb3c0YWVIdG1jbXdLN0NJczVnbWNVcnBpTnhVblFXU3VEa2p2WHVrS2ZvM2I5Vkh2NTF6SDlIZ2M2U0F0RmQ0YTZrT2htRk9rNmtYNXo1cjNoNkttcUhSMWM1Zw?oc=5",
-     "time": "2026-11-03T20:30:43+00:00"
-    }
-   ],
-   "brief": "2026-11-04-MELI"
-  },
-  {
    "symbol": "ANET",
    "name": "Arista Networks",
    "list": "portfolio",
-   "price": 178.77,
+   "price": 179.54,
    "prev_close": 169.91,
-   "change_pct": 5.2,
+   "change_pct": 5.7,
    "trigger_change": 10.3,
    "peak_change": 10.3,
    "first_seen": "2026-11-04T14:55:55+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 503.06,
-    "change_pct": -2.98
+    "price": 504.97,
+    "change_pct": -2.61
    },
    "chart": {
-    "ema8": 1.6,
-    "ema21": -2.6,
-    "sma50": -7.9,
-    "sma200": 7.8,
+    "ema8": 1.9,
+    "ema21": -2.2,
+    "sma50": -7.5,
+    "sma200": 8.3,
     "momentum": false
    },
    "headlines": [
@@ -441,26 +366,101 @@
    "brief": "2026-11-04-ANET"
   },
   {
+   "symbol": "MELI",
+   "name": "MercadoLibre",
+   "list": "watchlist",
+   "price": 1749.07,
+   "prev_close": 1662.16,
+   "change_pct": 5.2,
+   "trigger_change": 4.9,
+   "peak_change": 6.2,
+   "first_seen": "2026-11-04T14:55:55+00:00",
+   "sector": {
+    "etf": "XLY",
+    "name": "Consumer discr.",
+    "price": 121.75,
+    "change_pct": 3.77
+   },
+   "chart": {
+    "ema8": 2.6,
+    "ema21": -0.2,
+    "sma50": -4.2,
+    "sma200": -3.2,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "MercadoLibre stock faces earnings test as margins take center stage",
+     "publisher": "ad-hoc-news.de",
+     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPUWdqOHBmV29pUGFfLTJwNGxMekdULW1JX3Q3cHhKeUZ2NGtOZ29BQjlsVG95TmZWV1podHhHbW5MNlE1Z1hCME1HOU1iLTJ1UjhWNzUwT2pCQWZJbUFYQXZjYkQ3R0JCc1o4UlpUYXRCbzI3T2Noc3JLOFdOSWw2eFhPaEE5SUlydE1yNS1MNzZuaVVMU055VENJT3NMNlMxamFuUWRxNDN4YzFVWFlQQm1seW80RThZSEk4cjFRMnZKU2ZKN2VqemV3?oc=5",
+     "time": "2026-11-04T15:41:32+00:00"
+    },
+    {
+     "title": "MercadoLibre\u2019s Bulls Are Counting on Profit Growth. Here\u2019s What We Learn Tonight",
+     "publisher": "TIKR.com",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQR3Z2Z2lkRTJxSE1HdW5kTmJobWhxckFsVElld3hYTkJ0OW9OYk1TcXNyZEtKVC1Td2hFc1k3X3JYVkJxbDN3aElNT0JLS05YNTFXaC0zak4yY3FkODgxZDVrZkRRNm5uTmxPMGRfeExYakluTVlMM2xKQVNmSXFkN3hacHppc0JlbENQQkdWRnVkZ2FRQ3hkUVVaNUp4MkJjUC1YbWl3?oc=5",
+     "time": "2026-11-04T14:49:39+00:00"
+    },
+    {
+     "title": "MercadoLibre stock faces November 4 earnings test after strong growth",
+     "publisher": "ad-hoc-news.de",
+     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNUUtJLWRUM2pkdXBoZ2xBU2pRQjdhY0VNcW4xWkk3M1hxS3BlaXJOZjI1WmhkaFVaalFmd3B0SzQxeXRfMnRFREVHcE1DbW5Tbl9TVkQxYkRWMkRMMzVaSGFFMXRCbTNnYkFmWC1IVGRJMTdQRFlJV1lBZHZKbkVvWTcxRk1xRkhEYXhtZWZoYWE1WWkyQ0pSc0l4b0Vhc1dCa2RnSEMzQ2Q2Y2hsXzVETDRrVjh4cVV3bk1pNXJfWnBCUmhONG9Ua05QbDU?oc=5",
+     "time": "2026-11-04T12:24:54+00:00"
+    },
+    {
+     "title": "MercadoLibre Q3 2026 Earnings Date and Estimates",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPYU5QNlcwR2RzYmM2NF9RT0dESmtWZmYxRkQzVGlZUHJTb2tUNmdlMjlNLXE3UlV3MURSNUVIVzJPVEoxVVliNTU3bExDTGZUZENYbnFQUEt2VDFWUVBOVlBLejZ1SG5GTFZob0xKZi1DMHBCaTcyeEh4Qzlrd0l3NWRhTQ?oc=5",
+     "time": "2026-11-04T11:43:45+00:00"
+    },
+    {
+     "title": "MercadoLibre, Inc. $MELI Stock Purchased by TrinityBridge Ltd",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQX1ZqV0gxY0tQY3NJN3VObmlvV2ZNUHRMVFRtMVFEM3ZLMy1raU91Y3J4eWtMcEZQUDBuRGtmbU9EVHBDRHVvQjRFLVV6Q1VHWGtNZVhPNWMwemRxMzhEQlRWSmV1NkRvMjNTc3FQMFVIS1pBaUVRZTcxWFV1aDMyWjVZa2ZXbWg3bXAtZ1A1WjNHazExckFRQmsxaUMtNHpQU0ItRVdRZmlZNm1ZUEw0dGc0U1hobE1ndV9N?oc=5",
+     "time": "2026-11-04T11:21:57+00:00"
+    },
+    {
+     "title": "MercadoLibre, Inc. $MELI Stock Acquired by TT International Asset Management LTD",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPYnBZV0JueW1waHZDeFcwU0lidXlVZWVmV1hnbkp5TjMtWHpXeWlWR0F0VzJtWUFDNEtJTW1PUy1WX0V1b1h5clZoUzdrV0xnNVc1OTRrOFVzS0dPU28zaEI4SXNVYzN0VVVaWl8xZjRwUnVZWjZ0dEg0aGpLb19fWk5kZU1WQjBRZTZJNGJBc3ZsRERfYUI1ZFVSLTBnN2hONHZzYnRPQjU5SENQQXZHMDJ3Ul9oSDdvTkpNV2w1YzU5Q0tJcV9xUkEzQVo5c0ZtSk53eQ?oc=5",
+     "time": "2026-11-04T11:15:42+00:00"
+    },
+    {
+     "title": "Down 38%, Is MercadoLibre Stock a Better Buy than SpaceX and the \"Magnificent Seven\" Stocks in November?",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQbGR0SHFNVW9qdWR2YS1HcmlDcE1rYmh3Zk1yVmpuOWgwQzFXZTJ4b0RhdHpVODMzLTVrTlNYUzNfMl8tZ05keVozR0hsSWRyeXFKc2RGbjdsTGhaVlJSWm42eHA0bnFwb28waGFSNWRuWmdESjhYNmRkaVA1MU85Zk80dmxoMDFiT1VlMGpqb183N2VNa0U1Zg?oc=5",
+     "time": "2026-11-04T09:15:00+00:00"
+    },
+    {
+     "title": "MercadoLibre (MELI) Holds Firm Following Brazil Election Shock, Is The Valuation Still Compelling?",
+     "publisher": "Simply Wall St",
+     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPLVYwdHNjTTFXU19lMFNLemltQm9yR3kzNW1PZENJWWNhY2FCMURoSm1leUpLckJ3eGR3TmRfSjV3RDBrTTVPNzhJamd1dmtXcV9GTTJBWnlIdU5kbmNqZWJueElmS3NyVG9HRS1FcXJSbGM5ME5WM2ZTZkpWMGMwSlhzODNvVW00SmY4QWtGanhscFlibUVKRHRRZTMzR3QzNExiRjNfNUJ5UWEwQXpneVBxVk5DY1RZVFpGS1hNSjhLOTliOHBUMtIBzgFBVV95cUxNZVlzTnhQN3JkQ1NrOHdkeDVJVEExc2dEVWhUV0dNOEltUTV6RXM0dFBSVE83cV90Y3JzaVo3b3pRbHFQTHV6T1MzRW1SODY0d0U3aGZUNUYta2lmUjhlS0lhWXplYWU1dE5Vc3hvZXF0MWVkb3c0YWVIdG1jbXdLN0NJczVnbWNVcnBpTnhVblFXU3VEa2p2WHVrS2ZvM2I5Vkh2NTF6SDlIZ2M2U0F0RmQ0YTZrT2htRk9rNmtYNXo1cjNoNkttcUhSMWM1Zw?oc=5",
+     "time": "2026-11-03T20:30:43+00:00"
+    }
+   ],
+   "brief": "2026-11-04-MELI"
+  },
+  {
    "symbol": "NFLX",
    "name": "Netflix",
    "list": "portfolio",
-   "price": 66.01,
+   "price": 66.12,
    "prev_close": 63.42,
-   "change_pct": 4.1,
+   "change_pct": 4.3,
    "trigger_change": 3.9,
    "peak_change": 4.4,
    "first_seen": "2026-11-04T15:00:57+00:00",
    "sector": {
     "etf": "XLC",
     "name": "Communication",
-    "price": 104.8,
-    "change_pct": 3.31
+    "price": 105.03,
+    "change_pct": 3.54
    },
    "chart": {
-    "ema8": 3.0,
-    "ema21": -0.4,
-    "sma50": -7.9,
-    "sma200": -18.7,
+    "ema8": 3.1,
+    "ema21": -0.2,
+    "sma50": -7.7,
+    "sma200": -18.6,
     "momentum": false
    },
    "headlines": [
@@ -519,7 +519,7 @@
    "symbol": "BTC-USD",
    "name": "Bitcoin",
    "list": "watchlist",
-   "price": 80504.6,
+   "price": 80499.9,
    "prev_close": 77331.7,
    "change_pct": 4.1,
    "trigger_change": 4.0,
@@ -586,6 +586,81 @@
    "brief": null
   },
   {
+   "symbol": "GOOG",
+   "name": "Alphabet",
+   "list": "portfolio",
+   "price": 288.51,
+   "prev_close": 278.27,
+   "change_pct": 3.7,
+   "trigger_change": 3.9,
+   "peak_change": 5.4,
+   "first_seen": "2026-11-04T14:55:55+00:00",
+   "sector": {
+    "etf": "XLC",
+    "name": "Communication",
+    "price": 105.03,
+    "change_pct": 3.54
+   },
+   "chart": {
+    "ema8": -1.8,
+    "ema21": -7.8,
+    "sma50": -13.1,
+    "sma200": -14.6,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Why is Alphabet stock surging today?",
+     "publisher": "Investing.com",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPNnFRbTVXZml1dGQzbEEtVTB0M1haTzU2UHZvSlJWdDNhWjNGQm9XeXptdkV1VkFzMEk5cjhibDNrNDRhcHAwV3N6N3h6VEZ4ZU1PZXU3QnN2aER4RVFLUXV0ckdmeVV5aUU2cUFqY3p1SmFuTmY0Y3JUdWlady1ZQXhEcUlMaWVNOUhmTGRJWHUybXAyalI5UmFqbjNidw?oc=5",
+     "time": "2026-11-04T15:16:12+00:00"
+    },
+    {
+     "title": "Alphabet Inc Class C Stock (GOOG) Opened Up by 3.43% on Nov 4: What Signal Does It Send?",
+     "publisher": "TradingKey",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPdnJYZGQtNzFzbnZpX3J0SGVkWDQ4aWFKdWh0Y3ptUHp4RTI4TkRYS2lkMlh3ajEyQ3hXMURER2VRcWpubEpXbU43S3U1WjVjOV9EbHp4RE1JWF9yem02Q2ZhbHZBenJjdE5MZGQzV1RXSW9kaUx3b1VtTkFDRHJoa3hXdld3TzVPZjhV?oc=5",
+     "time": "2026-11-04T14:47:52+00:00"
+    },
+    {
+     "title": "Alphabet's Search Scare Is A Buying Chance - Amazon's Cash Problem Isn't (NASDAQ:GOOG)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTXpFTmZ3OTdVdHJzNTZDcnBBVDZzcjJESmxrOElFYTE1NEU3OVNzcWdTNWVlRkxRMzFmbW1CajJQSGpxMW9tQ2h4dWRSVDhKX2tra1ZfTEtGZHpMQjExUlJpdXRjQVVsVkRLT2M0eVhGcnp3bEI1NkJhcmhtODBmQm5jajcwOEkwMGU4cUI0Rk9mMENTMmktSHNUbE1XeTlzTnNaNzJ4QWtzdw?oc=5",
+     "time": "2026-11-04T12:52:01+00:00"
+    },
+    {
+     "title": "ETFs Are Buying Alphabet (GOOG) on Nov. 2",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQaHBSWDh4M216ekdRaURqV1l4aVZOTEQwUEo2Wkg1ZGhfaXhVVFg4THIzdmZQbnFZOGpQQ3FvRXNUdTBqVkFtaXJ1T2RYTmw3elhMeHhUM2FGQ05Lb2dFOGUzY0VNbTNPQzNCOUQ2UHRfN2tGUEJfck1zZHlSb09XUlVKRkdxLUZGeHFxRVNVbUQzaVY1ZF9QR2ZB?oc=5",
+     "time": "2026-11-04T11:01:41+00:00"
+    },
+    {
+     "title": "Alphabet: Q3 Selloff Overlooks Its Growing AI Payoff (NASDAQ:GOOG)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOektDdFIta1cwT3cxYm1UTkJFT2ZTdDBNMk5nR19mbVp3TE1xSkYtMHp5cC1DVWYwd1hxZ1lIR0J0ZWc1bEN4SkRDOEZlSzZwTjhJZnlhbmV3WTY5VnVTSDFrYTVaejBYYVdTdldvWFMtbmpzclYxVlRPYXNIR0s2MkU0eHo5czl1NDBQRFdNdEJIblpvelRj?oc=5",
+     "time": "2026-11-04T09:56:36+00:00"
+    },
+    {
+     "title": "Alphabet's Free Cash Flow Is Declining Faster Than Analysts Expected. Is This AI Stock Still a Buy?",
+     "publisher": "AOL.com",
+     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOTExYckNXQ3RrRl9UMDF5Z1JDVXdQVVlJQWlQcW9oZXF5dFdxRGNjRlY4VERhSmtLR05TOHpza3NRSnVOSzJQOXVfUEN5ZFhQczJhQ3d2NC13UXhYUTljQ1Jvdm82VWlBa2hsSGhQaV9vYmstSlN2TzdSbXFJMGg0amt3blI?oc=5",
+     "time": "2026-11-04T05:20:00+00:00"
+    },
+    {
+     "title": "Should You Buy Alphabet Stock After Anthropic Raised Its Google Commitment to $121 Billion?",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQY3ZXVFE4MElyUkJnUy1BejRYZkxlVFJyQ0ZyTE5wUFQ0TTZCT25iN1ZFZTZxSFpLN3dGNTBfLWVLMWp4X0M3M2VZQUd1REhzQkw2MXhCVVFqVldUcUtnRE1MM0RDV1MxWTdIc1A1R05mWGxPZEdOWDF6dlYtTWxUdnhjbF9yUHJKTjZLMklvZXFUMFBCNnpXMGxidEFzcFFNTkFJMFM3Szh6ODdHWHYtYjZHbTF5TWpsY3pCSERKenE5Q0dGZzRGQktlbndZa0ZX?oc=5",
+     "time": "2026-11-04T01:23:00+00:00"
+    },
+    {
+     "title": "Alphabet's Free Cash Flow Just Turned Negative. Should Investors Sell the Stock Now?",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOblQtLVJTcUsya2hmb0pVNDlpQldMMDhOQXYyRm9GSkI4VkREbTU4QlhWVjNtcmIwWWxyeTA0NjlHZFhrTzFxemxZQmtRSXZ2NkFGSnM3YTBjMWN4cG9Jb1hwS2JwT1Y2aGxISHlFcjR1OHhCRy1MaWhqcGpGazk0aVpoZ04zQzRxTHExOXBQbUxQZw?oc=5",
+     "time": "2026-11-03T21:09:00+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
    "symbol": "SOFI",
    "name": "SoFi",
    "list": "portfolio",
@@ -598,8 +673,8 @@
    "sector": {
     "etf": "XLF",
     "name": "Financials",
-    "price": 58.7,
-    "change_pct": 2.64
+    "price": 58.66,
+    "change_pct": 2.56
    },
    "chart": {
     "ema8": 4.6,
@@ -661,76 +736,76 @@
    "brief": null
   },
   {
-   "symbol": "GOOG",
-   "name": "Alphabet",
+   "symbol": "AMAT",
+   "name": "Applied Materials",
    "list": "portfolio",
-   "price": 287.83,
-   "prev_close": 278.27,
-   "change_pct": 3.4,
-   "trigger_change": 3.9,
-   "peak_change": 5.4,
-   "first_seen": "2026-11-04T14:55:55+00:00",
+   "price": 368.93,
+   "prev_close": 381.92,
+   "change_pct": -3.4,
+   "trigger_change": -3.4,
+   "peak_change": -3.4,
+   "first_seen": "2026-11-04T16:33:19+00:00",
    "sector": {
-    "etf": "XLC",
-    "name": "Communication",
-    "price": 104.8,
-    "change_pct": 3.31
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 504.97,
+    "change_pct": -2.61
    },
    "chart": {
-    "ema8": -2.0,
-    "ema21": -8.0,
-    "sma50": -13.3,
-    "sma200": -14.8,
+    "ema8": -5.2,
+    "ema21": -11.3,
+    "sma50": -18.2,
+    "sma200": -17.2,
     "momentum": false
    },
    "headlines": [
     {
-     "title": "Why is Alphabet stock surging today?",
-     "publisher": "Investing.com",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPNnFRbTVXZml1dGQzbEEtVTB0M1haTzU2UHZvSlJWdDNhWjNGQm9XeXptdkV1VkFzMEk5cjhibDNrNDRhcHAwV3N6N3h6VEZ4ZU1PZXU3QnN2aER4RVFLUXV0ckdmeVV5aUU2cUFqY3p1SmFuTmY0Y3JUdWlady1ZQXhEcUlMaWVNOUhmTGRJWHUybXAyalI5UmFqbjNidw?oc=5",
-     "time": "2026-11-04T15:16:12+00:00"
-    },
-    {
-     "title": "Alphabet Inc Class C Stock (GOOG) Opened Up by 3.43% on Nov 4: What Signal Does It Send?",
-     "publisher": "TradingKey",
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPdnJYZGQtNzFzbnZpX3J0SGVkWDQ4aWFKdWh0Y3ptUHp4RTI4TkRYS2lkMlh3ajEyQ3hXMURER2VRcWpubEpXbU43S3U1WjVjOV9EbHp4RE1JWF9yem02Q2ZhbHZBenJjdE5MZGQzV1RXSW9kaUx3b1VtTkFDRHJoa3hXdld3TzVPZjhV?oc=5",
-     "time": "2026-11-04T14:47:52+00:00"
-    },
-    {
-     "title": "Alphabet's Search Scare Is A Buying Chance - Amazon's Cash Problem Isn't (NASDAQ:GOOG)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTXpFTmZ3OTdVdHJzNTZDcnBBVDZzcjJESmxrOElFYTE1NEU3OVNzcWdTNWVlRkxRMzFmbW1CajJQSGpxMW9tQ2h4dWRSVDhKX2tra1ZfTEtGZHpMQjExUlJpdXRjQVVsVkRLT2M0eVhGcnp3bEI1NkJhcmhtODBmQm5jajcwOEkwMGU4cUI0Rk9mMENTMmktSHNUbE1XeTlzTnNaNzJ4QWtzdw?oc=5",
-     "time": "2026-11-04T12:52:01+00:00"
-    },
-    {
-     "title": "ETFs Are Buying Alphabet (GOOG) on Nov. 2",
+     "title": "ETFs Bought $237.0 Million of Applied Materials (AMAT) on Nov. 2",
      "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQaHBSWDh4M216ekdRaURqV1l4aVZOTEQwUEo2Wkg1ZGhfaXhVVFg4THIzdmZQbnFZOGpQQ3FvRXNUdTBqVkFtaXJ1T2RYTmw3elhMeHhUM2FGQ05Lb2dFOGUzY0VNbTNPQzNCOUQ2UHRfN2tGUEJfck1zZHlSb09XUlVKRkdxLUZGeHFxRVNVbUQzaVY1ZF9QR2ZB?oc=5",
-     "time": "2026-11-04T11:01:41+00:00"
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZmlMWHBnWVE1MHZnZC1heHFyekNLbkxVWWEzUzlrRWRZQmhRWDRLYU1OODBHRS1MQUJEemVCeWQ3UEdKNHhtSXIxUG55N09HaDR4T2I0b3ZsazNuRjJtOUtmaXRSeGlYbENOMVRzbV9UVFN1NU1QVzZ0ZUJqRUlvdWtPVnR5ajBlcDI3Qjd1SHM4dDFk?oc=5",
+     "time": "2026-11-04T11:01:35+00:00"
     },
     {
-     "title": "Alphabet: Q3 Selloff Overlooks Its Growing AI Payoff (NASDAQ:GOOG)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOektDdFIta1cwT3cxYm1UTkJFT2ZTdDBNMk5nR19mbVp3TE1xSkYtMHp5cC1DVWYwd1hxZ1lIR0J0ZWc1bEN4SkRDOEZlSzZwTjhJZnlhbmV3WTY5VnVTSDFrYTVaejBYYVdTdldvWFMtbmpzclYxVlRPYXNIR0s2MkU0eHo5czl1NDBQRFdNdEJIblpvelRj?oc=5",
-     "time": "2026-11-04T09:56:36+00:00"
+     "title": "Applied Materials Just Dropped 29% In a Month: Will November 12 Earnings Rescue or Break AMAT Stock?",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQNl95S09KZ0pxX0loMm12cFIzRHhZNm13RU1kdUpCc2FfeHM1QTA2QjdGUDBFZlBCaVhIbWk3bUhRT0pQTncxSEpwekhBXzVoNFcxTG9pTXBzUFFxSGU1N2l6TnB5eldJYXAxTGMxRk1rOElNeUVXYmZKeG04bFlFQm5YOU5ZUVhjcm1KU0FIaDdpNmR5cEhySzUzMWQzRHRGNEVRdmNac000WVU0emItZks1WHhCXzhaaXNxVXEwVm01UmZkaVdxbnB6cG1taDBDbFQzaVhFX2w?oc=5",
+     "time": "2026-11-03T20:05:00+00:00"
     },
     {
-     "title": "Alphabet's Free Cash Flow Is Declining Faster Than Analysts Expected. Is This AI Stock Still a Buy?",
-     "publisher": "AOL.com",
-     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOTExYckNXQ3RrRl9UMDF5Z1JDVXdQVVlJQWlQcW9oZXF5dFdxRGNjRlY4VERhSmtLR05TOHpza3NRSnVOSzJQOXVfUEN5ZFhQczJhQ3d2NC13UXhYUTljQ1Jvdm82VWlBa2hsSGhQaV9vYmstSlN2TzdSbXFJMGg0amt3blI?oc=5",
-     "time": "2026-11-04T05:20:00+00:00"
+     "title": "What Does Applied Materials Stock\u2019s Winning Streak Really Prove?",
+     "publisher": "Trefis",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdmVFVTRBWXVsak9XZk5GTkpjTXI4dmZPSzZ4NWRkS2xaNHFKcmwtM0lCbzQ1TF9CdDF4eTBUemxtVXJPdXpPYmJKaXA5QldwNkMtMFNvLU5wRXAtdHM5anpoN280eDhpcjR4LXQ5bzRrYkNJT251U2FQQ3hLWUpqdXhJR1JfSFNtYkZUdE5UNnpvU2ZQQ3RrWGpYZFdqMDFHZjJiczZBZ0lEZGtsNVVHSG1uM0hPcy1Mc2tUdUtHajA?oc=5",
+     "time": "2026-11-03T12:02:01+00:00"
     },
     {
-     "title": "Should You Buy Alphabet Stock After Anthropic Raised Its Google Commitment to $121 Billion?",
-     "publisher": "The Motley Fool",
-     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQY3ZXVFE4MElyUkJnUy1BejRYZkxlVFJyQ0ZyTE5wUFQ0TTZCT25iN1ZFZTZxSFpLN3dGNTBfLWVLMWp4X0M3M2VZQUd1REhzQkw2MXhCVVFqVldUcUtnRE1MM0RDV1MxWTdIc1A1R05mWGxPZEdOWDF6dlYtTWxUdnhjbF9yUHJKTjZLMklvZXFUMFBCNnpXMGxidEFzcFFNTkFJMFM3Szh6ODdHWHYtYjZHbTF5TWpsY3pCSERKenE5Q0dGZzRGQktlbndZa0ZX?oc=5",
-     "time": "2026-11-04T01:23:00+00:00"
+     "title": "Testing Support Level, AMAT Stock Drops 3.99% on Monday",
+     "publisher": "JournalArta",
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPN1locHRtbzlndkIyU3FYb0EySVR3NVJBQjdPRnAtdW1yaWJoaFlKZThLSUEwUTl6M2dGWjROZHRESGQ1Z0oxaXF1cXVKdTVqLXdnMUZLNGR5dzFhdWxsT1ZtRWhxNGszVnY2QVJjejFPY3RxWGc5ZWZmSjR0RmNZb1JYU29oeWtmSDhJa3NnZUdnMWJkQ2VR?oc=5",
+     "time": "2026-11-03T11:07:38+00:00"
     },
     {
-     "title": "Alphabet's Free Cash Flow Just Turned Negative. Should Investors Sell the Stock Now?",
-     "publisher": "The Motley Fool",
-     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOblQtLVJTcUsya2hmb0pVNDlpQldMMDhOQXYyRm9GSkI4VkREbTU4QlhWVjNtcmIwWWxyeTA0NjlHZFhrTzFxemxZQmtRSXZ2NkFGSnM3YTBjMWN4cG9Jb1hwS2JwT1Y2aGxISHlFcjR1OHhCRy1MaWhqcGpGazk0aVpoZ04zQzRxTHExOXBQbUxQZw?oc=5",
-     "time": "2026-11-03T21:09:00+00:00"
+     "title": "Did Earnings Growth Just Shift Applied Materials (AMAT) Investment Narrative?",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNcEJfcVUzMWNlUmVHdTlWVTNjRVBJTzV2TFBCWVRCU0hNSGRPMndxNExua1dEaUtlM3NSaG9CREZUUDdSNlY2RURkSXI0bFd4TjY3Y3pkN3dxUHZXblU4TVhINlR3UFhSd1hyVFAtSDBrWW5VSE9ITk91U3Y2RzFwVFkta0JscE9rTGFBUl9SSXZYbDZDbER4NUwtbw?oc=5",
+     "time": "2026-11-03T02:33:49+00:00"
+    },
+    {
+     "title": "Applied Materials (AMAT) Dips More Than Broader Market: What You Should Know",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNOFRXbGEtYVRGeVlxcU1DSlRaMGhsWEpYcGQ1dlFtRFc5ODBWWVRrdW1tZGJUcko5clN0Y3VWVE5yanl0bFNiT0h0aUVsMGtGV2lIU3diYVByeUQwXzN4VWR4UVhjaVd1S3Iwem44ZTdTWFpoNmlIMWJwQWVSUHktLVVwd2xNTGVTcnN1WW9QdGh5QTRNa3o4QVlsU1p5QQ?oc=5",
+     "time": "2026-11-02T21:45:02+00:00"
+    },
+    {
+     "title": "Applied Materials Inc Stock (AMAT) Moved Down by 3.12% on Nov 2: Key Drivers Unveiled",
+     "publisher": "TradingKey",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPc2pNVE9oNkgteVM4MVRNNk5oZGpHcXh3X0N2Q3NUeWlzNW0xZjJRRDRvQVRZN0FWSnU5M3RQLS0zVHpKMDZBeUplSnliSkdSdGY2U29nUHk5TmdoMjRXcnAzOUZ1b1dfMGYybWRvRXB0Zl9IZ1NZd01qR3JEVVQzRlJyamtoSHVuYnlV?oc=5",
+     "time": "2026-11-02T20:15:40+00:00"
+    },
+    {
+     "title": "Applied Materials (AMAT) Stock Could Be Above Fair Value As AI Packaging Bet Expands",
+     "publisher": "Simply Wall St",
+     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNQk14ekR4TnlWN0VGU01ZaFdjSzkyeXVzRXplMEhqTVN5akVDVkVEVUExTi1idTB5MzFWM1B1OWpRM2ppczUtamJWempCOU4tTE1sbGpTYTJ5dEFRR0pDQU5ENU1mLWMzbTBmc1FiaFotdXY4U043UTRSSlhqckw2ZVFEN01mVF9CTngtaFhqV3dJNFlqeC02U0hWdVlDdHZ5VmFGWTZlNXJsV2FCSVg0NFJkcnhmMmJtNTNuS0w0ZUhiQ0U0QmlHR01oQmxxd01TLUlTYnlhaTNqQdIB3wFBVV95cUxPa2w1NjJqOHB2QVFYNEU0M29DMlVzUE5IbkxzZndZY0FJcWdHYzNvSGM0MWxESE5ESjU5c0J6cWZwREZCTm1acWl5U210QnNUUU9wMXBwcVg3dnUwTGJ6ODRXejFkT3JIQWdDTDZEdmlTYlhhcXBzWmJMZ2tVSk01RVc2b3dpQUlJZ1BRZFg4bHdVYmpja1otb3kwekNVV3c0QTlLd0t1Qk5COE4xM1o3aE4zUnl5d3R6WDhRTDljR0lBdGR5aWdjSm1wZXJtVXJXb0tFQ0FlV3g1c2xUODBn?oc=5",
+     "time": "2026-11-02T16:54:35+00:00"
     }
    ],
    "brief": null
@@ -739,23 +814,23 @@
    "symbol": "CRWD",
    "name": "CrowdStrike",
    "list": "portfolio",
-   "price": 239.96,
+   "price": 241.11,
    "prev_close": 244.68,
-   "change_pct": -1.9,
+   "change_pct": -1.5,
    "trigger_change": 3.1,
    "peak_change": 3.1,
    "first_seen": "2026-11-04T15:21:14+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 103.4,
-    "change_pct": 0.72
+    "price": 103.62,
+    "change_pct": 0.94
    },
    "chart": {
-    "ema8": -3.4,
-    "ema21": -4.0,
-    "sma50": -1.4,
-    "sma200": 41.8,
+    "ema8": -3.0,
+    "ema21": -3.6,
+    "sma50": -1.0,
+    "sma200": 42.5,
     "momentum": false
    },
    "headlines": [
