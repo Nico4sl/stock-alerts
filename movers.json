@@ -1,22 +1,22 @@
 {
  "date": "2026-11-04",
  "threshold": 3.0,
- "updated": "2026-11-04T20:39:35+00:00",
+ "updated": "2026-11-04T20:44:33+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 767.44,
-   "change_pct": 1.74
+   "price": 767.25,
+   "change_pct": 1.71
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 691.99,
-   "change_pct": 0.98
+   "price": 691.69,
+   "change_pct": 0.94
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 81.67,
-   "change_pct": 0.69
+   "price": 81.69,
+   "change_pct": 0.72
   }
  },
  "movers": [
@@ -24,23 +24,23 @@
    "symbol": "APP",
    "name": "AppLovin",
    "list": "portfolio",
-   "price": 273.12,
+   "price": 273.44,
    "prev_close": 245.51,
-   "change_pct": 11.2,
+   "change_pct": 11.4,
    "trigger_change": 5.7,
    "peak_change": 12.2,
    "first_seen": "2026-11-04T14:55:55+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 103.95,
-    "change_pct": 1.26
+    "price": 103.81,
+    "change_pct": 1.12
    },
    "chart": {
-    "ema8": 7.6,
-    "ema21": 3.3,
-    "sma50": -6.1,
-    "sma200": -33.5,
+    "ema8": 7.7,
+    "ema21": 3.4,
+    "sma50": -6.0,
+    "sma200": -33.4,
     "momentum": false
    },
    "headlines": [
@@ -99,23 +99,23 @@
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 140.89,
+   "price": 140.97,
    "prev_close": 151.64,
-   "change_pct": -7.1,
+   "change_pct": -7.0,
    "trigger_change": -4.1,
    "peak_change": -7.3,
    "first_seen": "2026-11-04T15:31:22+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 103.95,
-    "change_pct": 1.26
+    "price": 103.81,
+    "change_pct": 1.12
    },
    "chart": {
     "ema8": -9.5,
     "ema21": -19.4,
-    "sma50": -31.4,
-    "sma200": -20.9,
+    "sma50": -31.3,
+    "sma200": -20.8,
     "momentum": false
    },
    "headlines": [
@@ -174,23 +174,23 @@
    "symbol": "AMZN",
    "name": "Amazon",
    "list": "portfolio",
-   "price": 268.33,
+   "price": 267.9,
    "prev_close": 250.69,
-   "change_pct": 7.0,
+   "change_pct": 6.9,
    "trigger_change": 7.7,
    "peak_change": 8.0,
    "first_seen": "2026-11-04T14:55:55+00:00",
    "sector": {
     "etf": "XLY",
     "name": "Consumer discr.",
-    "price": 122.51,
-    "change_pct": 4.41
+    "price": 122.46,
+    "change_pct": 4.37
    },
    "chart": {
-    "ema8": 6.0,
-    "ema21": 6.0,
-    "sma50": 5.7,
-    "sma200": 10.1,
+    "ema8": 5.9,
+    "ema21": 5.9,
+    "sma50": 5.5,
+    "sma200": 9.9,
     "momentum": true
    },
    "headlines": [
@@ -246,10 +246,85 @@
    "brief": "2026-11-04-AMZN"
   },
   {
+   "symbol": "ANET",
+   "name": "Arista Networks",
+   "list": "portfolio",
+   "price": 178.74,
+   "prev_close": 169.91,
+   "change_pct": 5.2,
+   "trigger_change": 10.3,
+   "peak_change": 10.3,
+   "first_seen": "2026-11-04T14:55:55+00:00",
+   "sector": {
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 501.24,
+    "change_pct": -3.33
+   },
+   "chart": {
+    "ema8": 1.6,
+    "ema21": -2.6,
+    "sma50": -7.9,
+    "sma200": 7.8,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Arista Networks (NYSE:ANET) Price Target Raised to $270.00",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQVFdvQm9PLXJBX3ltMTc5Y0ticHdXUkFfSmRsVFVKeUdRWm1RMUZad0ZuOG90WWFpeF93bEI2MGNHeFBCMUtfMDdaeHh0bDVLTTREdzU3MWdydkhtcWxsV1AwcHJfY0xTc3hlc3BIUEhMZTJJTXk2UFB3Zk1hQmlhR3FNY0xuMGN0R2NDVGxFb2ZMR0pNbWFENU5zZjdjRm1rN0VLN0pPcjhHMW1wUmIybWcwazhQUms?oc=5",
+     "time": "2026-11-04T19:54:46+00:00"
+    },
+    {
+     "title": "Chart of the Day: Arista Networks Tries to Break Downtrend",
+     "publisher": "RealMoney Pro",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZWl2Z2xSRF9VZ1o1YVFRWHF5aFk2NUtUdmNieGdZTVQ3Wmdsc3FQZlVrdTZRczRCbWM0UTBXYVhJajBwRUtZaWpLSmRvZldJQ1hUQS0wbzJidW9oN1ljVl81UTQtMERIUWRxTEZsTXUyN25JdFJ2YmNXeERacmJHajl2MW5TdlY3bUJ5NEh6dGpUdnFPWmNBOQ?oc=5",
+     "time": "2026-11-04T18:45:00+00:00"
+    },
+    {
+     "title": "New Arista Networks Price Target After Beat-And-Raise Quarter",
+     "publisher": "RealMoney Pro",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPTmoxTGhtNXJaX2VVcTBUUXFnTzZoZEZDa2NwYk14UWZUTk1WZXdjVzhGYmwyelVyOGZmWWJ6S2tOd3dtdFVFbU5TWlVUOUdKR0NieHRPUkZlaGw4Sl9OTmk0WmJBMXhSRWVYQUVHWEpJYVFzUExxMTBtNG0yUy0xM2pKeDNWaGlNakFVVmk2Q1JSaEpfQjFLUllROXVJdw?oc=5",
+     "time": "2026-11-04T17:45:00+00:00"
+    },
+    {
+     "title": "Arista Networks (NYSE:ANET) Stock Price Target Lowered at Barclays",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOXzhQSUhhcmpqUEN2QXhIVTIxV2RFV1UzamplbzJBNkdFYjhOVGs1RERPejVYZnhwNFl5ZFdTQlVBSnU3cVpsZWxZY3FaQ3dPdUQ1aGlJS3FPMWFJR1BBd19pb2RiWjF0akNncmFhVUhDYi1ISGZQSWtTajJxLU9sWU1KRUxfdWFDUTBQUlh2R0hBUlJwbzByX0VwR09pQ3IwYU5OUmZzenZEUVpVMlk2ZHZjU1I5a0hhRjk2RkllYnh6SERQ?oc=5",
+     "time": "2026-11-04T17:35:43+00:00"
+    },
+    {
+     "title": "Piper Sandler Issues Positive Forecast for Arista Networks (NYSE:ANET) Stock Price",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNNFFyTkFvMUNTeTF3UGpORnM4UjMxNHkzTzcwR245dS04SHdpeWZkRndhWVlkemFFY2sxWnRuTlZuUHFmTXNhNkktRERaX09POUJ6eHhrLXlrZ0RPd2loVmducUtacWlkbU1KTkxCVmFVMlhTQkcwQjlVU2NWdzNZS1BDTldyZVJvU3E1WDdLT1lNZXltSXJ4WnpEaDBKMlNGY1ZMcXZRcVdLV3BwUDd5ZU4yX1laTmlNNWZPZ2JPSzRsa01yNm9pdjBiNXpSY3FIOEpZZmltUWotQQ?oc=5",
+     "time": "2026-11-04T17:35:43+00:00"
+    },
+    {
+     "title": "Arista Stocks Rise 5.10% as Revenue Guide Raises the AI Networking Bar",
+     "publisher": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxObGdpeDJFeHdyRUhpWFptU0djOG02NHV3M2ZKYUVqeWNISXpTb2NZOXh4WDczT25TWHpYOEJXdmpSU1lnaURaTVloaTlaSkJGVGVoTkRiVkhCU0o3Um5XRks5YVJraXZWOFRqbWZYMklmYkp1dklpNWVwZFR6b0xiU2V6dkNSQlNWVzE3emMxVXBpVFFQdld2RzFkVmluYUFTTXhfdVRXQTRaSVkxWjNTN3RNSXdnU3lZMXd2TnRRdzZGRktSd1FvQw?oc=5",
+     "time": "2026-11-04T17:15:14+00:00"
+    },
+    {
+     "title": "Arista Networks (NYSE:ANET) Given New $240.00 Price Target at Truist Financial",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOa0k1ckRSMlo5b2dXd3o3c2d5LWpQX2x3LVdScjRwbTFyTERKMjdCWjF1bUNaYk5ocGtBeFpIZXJROGZrNmQ1dXB4cWJvb1h6UGRYUDVEckJzRmljYUJqUU15RjYyTGMwQUF6eVgzQ0hUSXhVQ0RXX3dqTHRCYnk0LTI0cXFlWENWaDVhZnhueWVkUzhPZzIyTzQ5NEp6Yk5wcVlXU0VCcm5HckJWaS1hR1Brd0puNE0xbGFuZlh0dFZJMmxndnpjb3NVbDB4azdpRlE?oc=5",
+     "time": "2026-11-04T16:05:19+00:00"
+    },
+    {
+     "title": "ANET Q3 Earnings Beat Estimates on Strong AI and Enterprise Demand",
+     "publisher": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNRzJra052d3BHT29BSTByZ1lMVDk5eGR2LXNTbGpKZ2JWTjJ6dkJLQ3o3LU1aTi1ETHJvNUJFLXhxZGtlUFpvdEw2clBtdjQ5STRWb0EzQ1Zfd29ZR0ZDeDYyUnlHaHo5OTlLOE1Ja09FT1B3SWRZWmgzQ01Ma0R2a2k1QVdVcFlISnlZYnlTVjFTOXh6Y3REdXUtUVA4NW12cjlpMGVLWWdUajk1bXZydWs5U1Nqc3RzX3YwMEdaQQ?oc=5",
+     "time": "2026-11-04T15:19:00+00:00"
+    }
+   ],
+   "brief": "2026-11-04-ANET"
+  },
+  {
    "symbol": "NVO",
    "name": "Novo Nordisk (ADR)",
    "list": "portfolio",
-   "price": 42.28,
+   "price": 42.26,
    "prev_close": 40.19,
    "change_pct": 5.2,
    "trigger_change": 6.6,
@@ -258,12 +333,12 @@
    "sector": {
     "etf": "XLV",
     "name": "Health care",
-    "price": 190.08,
-    "change_pct": 3.29
+    "price": 189.99,
+    "change_pct": 3.24
    },
    "chart": {
     "ema8": 5.2,
-    "ema21": 6.7,
+    "ema21": 6.6,
     "sma50": 3.5,
     "sma200": -3.7,
     "momentum": true
@@ -294,7 +369,7 @@
    "symbol": "NFLX",
    "name": "Netflix",
    "list": "portfolio",
-   "price": 66.72,
+   "price": 66.69,
    "prev_close": 63.42,
    "change_pct": 5.2,
    "trigger_change": 3.9,
@@ -303,13 +378,13 @@
    "sector": {
     "etf": "XLC",
     "name": "Communication",
-    "price": 105.25,
-    "change_pct": 3.75
+    "price": 105.14,
+    "change_pct": 3.65
    },
    "chart": {
-    "ema8": 3.9,
+    "ema8": 3.8,
     "ema21": 0.6,
-    "sma50": -6.9,
+    "sma50": -7.0,
     "sma200": -17.9,
     "momentum": false
    },
@@ -369,23 +444,23 @@
    "symbol": "AMAT",
    "name": "Applied Materials",
    "list": "portfolio",
-   "price": 363.27,
+   "price": 363.96,
    "prev_close": 381.92,
-   "change_pct": -4.9,
+   "change_pct": -4.7,
    "trigger_change": -3.4,
    "peak_change": -4.9,
    "first_seen": "2026-11-04T16:33:19+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 501.55,
-    "change_pct": -3.27
+    "price": 501.24,
+    "change_pct": -3.33
    },
    "chart": {
-    "ema8": -6.3,
-    "ema21": -12.6,
-    "sma50": -19.4,
-    "sma200": -18.4,
+    "ema8": -6.2,
+    "ema21": -12.4,
+    "sma50": -19.3,
+    "sma200": -18.3,
     "momentum": false
    },
    "headlines": [
@@ -441,85 +516,10 @@
    "brief": "2026-11-04-AMAT"
   },
   {
-   "symbol": "ANET",
-   "name": "Arista Networks",
-   "list": "portfolio",
-   "price": 177.99,
-   "prev_close": 169.91,
-   "change_pct": 4.8,
-   "trigger_change": 10.3,
-   "peak_change": 10.3,
-   "first_seen": "2026-11-04T14:55:55+00:00",
-   "sector": {
-    "etf": "SMH",
-    "name": "Semiconductors",
-    "price": 501.55,
-    "change_pct": -3.27
-   },
-   "chart": {
-    "ema8": 1.2,
-    "ema21": -3.0,
-    "sma50": -8.3,
-    "sma200": 7.4,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Arista Networks (NYSE:ANET) Price Target Raised to $270.00",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQVFdvQm9PLXJBX3ltMTc5Y0ticHdXUkFfSmRsVFVKeUdRWm1RMUZad0ZuOG90WWFpeF93bEI2MGNHeFBCMUtfMDdaeHh0bDVLTTREdzU3MWdydkhtcWxsV1AwcHJfY0xTc3hlc3BIUEhMZTJJTXk2UFB3Zk1hQmlhR3FNY0xuMGN0R2NDVGxFb2ZMR0pNbWFENU5zZjdjRm1rN0VLN0pPcjhHMW1wUmIybWcwazhQUms?oc=5",
-     "time": "2026-11-04T19:54:46+00:00"
-    },
-    {
-     "title": "Chart of the Day: Arista Networks Tries to Break Downtrend",
-     "publisher": "RealMoney Pro",
-     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZWl2Z2xSRF9VZ1o1YVFRWHF5aFk2NUtUdmNieGdZTVQ3Wmdsc3FQZlVrdTZRczRCbWM0UTBXYVhJajBwRUtZaWpLSmRvZldJQ1hUQS0wbzJidW9oN1ljVl81UTQtMERIUWRxTEZsTXUyN25JdFJ2YmNXeERacmJHajl2MW5TdlY3bUJ5NEh6dGpUdnFPWmNBOQ?oc=5",
-     "time": "2026-11-04T18:45:00+00:00"
-    },
-    {
-     "title": "New Arista Networks Price Target After Beat-And-Raise Quarter",
-     "publisher": "RealMoney Pro",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPTmoxTGhtNXJaX2VVcTBUUXFnTzZoZEZDa2NwYk14UWZUTk1WZXdjVzhGYmwyelVyOGZmWWJ6S2tOd3dtdFVFbU5TWlVUOUdKR0NieHRPUkZlaGw4Sl9OTmk0WmJBMXhSRWVYQUVHWEpJYVFzUExxMTBtNG0yUy0xM2pKeDNWaGlNakFVVmk2Q1JSaEpfQjFLUllROXVJdw?oc=5",
-     "time": "2026-11-04T17:45:00+00:00"
-    },
-    {
-     "title": "Arista Networks (NYSE:ANET) Stock Price Target Lowered at Barclays",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOXzhQSUhhcmpqUEN2QXhIVTIxV2RFV1UzamplbzJBNkdFYjhOVGs1RERPejVYZnhwNFl5ZFdTQlVBSnU3cVpsZWxZY3FaQ3dPdUQ1aGlJS3FPMWFJR1BBd19pb2RiWjF0akNncmFhVUhDYi1ISGZQSWtTajJxLU9sWU1KRUxfdWFDUTBQUlh2R0hBUlJwbzByX0VwR09pQ3IwYU5OUmZzenZEUVpVMlk2ZHZjU1I5a0hhRjk2RkllYnh6SERQ?oc=5",
-     "time": "2026-11-04T17:35:43+00:00"
-    },
-    {
-     "title": "Piper Sandler Issues Positive Forecast for Arista Networks (NYSE:ANET) Stock Price",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNNFFyTkFvMUNTeTF3UGpORnM4UjMxNHkzTzcwR245dS04SHdpeWZkRndhWVlkemFFY2sxWnRuTlZuUHFmTXNhNkktRERaX09POUJ6eHhrLXlrZ0RPd2loVmducUtacWlkbU1KTkxCVmFVMlhTQkcwQjlVU2NWdzNZS1BDTldyZVJvU3E1WDdLT1lNZXltSXJ4WnpEaDBKMlNGY1ZMcXZRcVdLV3BwUDd5ZU4yX1laTmlNNWZPZ2JPSzRsa01yNm9pdjBiNXpSY3FIOEpZZmltUWotQQ?oc=5",
-     "time": "2026-11-04T17:35:43+00:00"
-    },
-    {
-     "title": "Arista Stocks Rise 5.10% as Revenue Guide Raises the AI Networking Bar",
-     "publisher": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxObGdpeDJFeHdyRUhpWFptU0djOG02NHV3M2ZKYUVqeWNISXpTb2NZOXh4WDczT25TWHpYOEJXdmpSU1lnaURaTVloaTlaSkJGVGVoTkRiVkhCU0o3Um5XRks5YVJraXZWOFRqbWZYMklmYkp1dklpNWVwZFR6b0xiU2V6dkNSQlNWVzE3emMxVXBpVFFQdld2RzFkVmluYUFTTXhfdVRXQTRaSVkxWjNTN3RNSXdnU3lZMXd2TnRRdzZGRktSd1FvQw?oc=5",
-     "time": "2026-11-04T17:15:14+00:00"
-    },
-    {
-     "title": "Arista Networks (NYSE:ANET) Given New $240.00 Price Target at Truist Financial",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOa0k1ckRSMlo5b2dXd3o3c2d5LWpQX2x3LVdScjRwbTFyTERKMjdCWjF1bUNaYk5ocGtBeFpIZXJROGZrNmQ1dXB4cWJvb1h6UGRYUDVEckJzRmljYUJqUU15RjYyTGMwQUF6eVgzQ0hUSXhVQ0RXX3dqTHRCYnk0LTI0cXFlWENWaDVhZnhueWVkUzhPZzIyTzQ5NEp6Yk5wcVlXU0VCcm5HckJWaS1hR1Brd0puNE0xbGFuZlh0dFZJMmxndnpjb3NVbDB4azdpRlE?oc=5",
-     "time": "2026-11-04T16:05:19+00:00"
-    },
-    {
-     "title": "ANET Q3 Earnings Beat Estimates on Strong AI and Enterprise Demand",
-     "publisher": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNRzJra052d3BHT29BSTByZ1lMVDk5eGR2LXNTbGpKZ2JWTjJ6dkJLQ3o3LU1aTi1ETHJvNUJFLXhxZGtlUFpvdEw2clBtdjQ5STRWb0EzQ1Zfd29ZR0ZDeDYyUnlHaHo5OTlLOE1Ja09FT1B3SWRZWmgzQ01Ma0R2a2k1QVdVcFlISnlZYnlTVjFTOXh6Y3REdXUtUVA4NW12cjlpMGVLWWdUajk1bXZydWs5U1Nqc3RzX3YwMEdaQQ?oc=5",
-     "time": "2026-11-04T15:19:00+00:00"
-    }
-   ],
-   "brief": "2026-11-04-ANET"
-  },
-  {
    "symbol": "MELI",
    "name": "MercadoLibre",
    "list": "watchlist",
-   "price": 1739.04,
+   "price": 1738.53,
    "prev_close": 1662.16,
    "change_pct": 4.6,
    "trigger_change": 4.9,
@@ -528,8 +528,8 @@
    "sector": {
     "etf": "XLY",
     "name": "Consumer discr.",
-    "price": 122.51,
-    "change_pct": 4.41
+    "price": 122.46,
+    "change_pct": 4.37
    },
    "chart": {
     "ema8": 2.1,
@@ -594,23 +594,23 @@
    "symbol": "GOOG",
    "name": "Alphabet",
    "list": "portfolio",
-   "price": 289.54,
+   "price": 289.18,
    "prev_close": 278.27,
-   "change_pct": 4.1,
+   "change_pct": 3.9,
    "trigger_change": 3.9,
    "peak_change": 5.4,
    "first_seen": "2026-11-04T14:55:55+00:00",
    "sector": {
     "etf": "XLC",
     "name": "Communication",
-    "price": 105.25,
-    "change_pct": 3.75
+    "price": 105.14,
+    "change_pct": 3.65
    },
    "chart": {
-    "ema8": -1.6,
-    "ema21": -7.5,
-    "sma50": -12.8,
-    "sma200": -14.3,
+    "ema8": -1.7,
+    "ema21": -7.6,
+    "sma50": -12.9,
+    "sma200": -14.4,
     "momentum": false
    },
    "headlines": [
@@ -669,23 +669,23 @@
    "symbol": "SOFI",
    "name": "SoFi",
    "list": "portfolio",
-   "price": 17.43,
+   "price": 17.38,
    "prev_close": 16.77,
-   "change_pct": 4.0,
+   "change_pct": 3.6,
    "trigger_change": 4.1,
    "peak_change": 5.4,
    "first_seen": "2026-11-04T14:55:55+00:00",
    "sector": {
     "etf": "XLF",
     "name": "Financials",
-    "price": 59.16,
-    "change_pct": 3.44
+    "price": 59.1,
+    "change_pct": 3.34
    },
    "chart": {
-    "ema8": 4.9,
-    "ema21": 8.3,
-    "sma50": 5.9,
-    "sma200": -1.2,
+    "ema8": 4.7,
+    "ema21": 7.9,
+    "sma50": 5.5,
+    "sma200": -1.6,
     "momentum": true
    },
    "headlines": [
@@ -744,18 +744,18 @@
    "symbol": "BTC-USD",
    "name": "Bitcoin",
    "list": "watchlist",
-   "price": 80110.5,
+   "price": 80014.8,
    "prev_close": 77331.7,
-   "change_pct": 3.6,
+   "change_pct": 3.5,
    "trigger_change": 4.0,
    "peak_change": 4.7,
    "first_seen": "2026-11-04T15:11:03+00:00",
    "sector": null,
    "chart": {
-    "ema8": 1.9,
-    "ema21": 0.3,
-    "sma50": -2.3,
-    "sma200": 9.5,
+    "ema8": 1.8,
+    "ema21": 0.2,
+    "sma50": -2.4,
+    "sma200": 9.3,
     "momentum": false
    },
    "headlines": [
@@ -814,23 +814,23 @@
    "symbol": "META",
    "name": "Meta",
    "list": "portfolio",
-   "price": 632.37,
+   "price": 630.55,
    "prev_close": 621.03,
-   "change_pct": 1.8,
+   "change_pct": 1.5,
    "trigger_change": 3.2,
    "peak_change": 3.2,
    "first_seen": "2026-11-04T17:48:16+00:00",
    "sector": {
     "etf": "XLC",
     "name": "Communication",
-    "price": 105.25,
-    "change_pct": 3.75
+    "price": 105.14,
+    "change_pct": 3.65
    },
    "chart": {
-    "ema8": 0.4,
-    "ema21": -3.9,
-    "sma50": -6.1,
-    "sma200": 0.0,
+    "ema8": 0.2,
+    "ema21": -4.2,
+    "sma50": -6.4,
+    "sma200": -0.3,
     "momentum": false
    },
    "headlines": [
@@ -889,23 +889,23 @@
    "symbol": "CRWD",
    "name": "CrowdStrike",
    "list": "portfolio",
-   "price": 243.3,
+   "price": 243.0,
    "prev_close": 244.68,
-   "change_pct": -0.6,
+   "change_pct": -0.7,
    "trigger_change": 3.1,
    "peak_change": 3.1,
    "first_seen": "2026-11-04T15:21:14+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 103.95,
-    "change_pct": 1.26
+    "price": 103.81,
+    "change_pct": 1.12
    },
    "chart": {
-    "ema8": -2.3,
-    "ema21": -2.8,
-    "sma50": -0.1,
-    "sma200": 43.8,
+    "ema8": -2.4,
+    "ema21": -2.9,
+    "sma50": -0.2,
+    "sma200": 43.6,
     "momentum": false
    },
    "headlines": [
