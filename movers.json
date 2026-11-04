@@ -1,22 +1,22 @@
 {
  "date": "2026-11-04",
  "threshold": 3.0,
- "updated": "2026-11-04T15:21:14+00:00",
+ "updated": "2026-11-04T15:26:08+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 767.1,
-   "change_pct": 1.69
+   "price": 766.04,
+   "change_pct": 1.55
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 698.8,
-   "change_pct": 1.97
+   "price": 696.83,
+   "change_pct": 1.69
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 80.94,
-   "change_pct": -0.21
+   "price": 81.0,
+   "change_pct": -0.13
   }
  },
  "movers": [
@@ -24,23 +24,23 @@
    "symbol": "ANET",
    "name": "Arista Networks",
    "list": "portfolio",
-   "price": 186.43,
+   "price": 186.56,
    "prev_close": 169.91,
-   "change_pct": 9.7,
+   "change_pct": 9.8,
    "trigger_change": 10.3,
    "peak_change": 10.3,
    "first_seen": "2026-11-04T14:55:55+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 513.48,
-    "change_pct": -0.97
+    "price": 512.58,
+    "change_pct": -1.15
    },
    "chart": {
-    "ema8": 4.9,
+    "ema8": 5.0,
     "ema21": 1.2,
     "sma50": -4.0,
-    "sma200": 12.4,
+    "sma200": 12.5,
     "momentum": false
    },
    "headlines": [
@@ -99,23 +99,23 @@
    "symbol": "APP",
    "name": "AppLovin",
    "list": "portfolio",
-   "price": 267.88,
+   "price": 267.12,
    "prev_close": 245.51,
-   "change_pct": 9.1,
+   "change_pct": 8.8,
    "trigger_change": 5.7,
    "peak_change": 9.2,
    "first_seen": "2026-11-04T14:55:55+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 105.45,
-    "change_pct": 2.72
+    "price": 105.36,
+    "change_pct": 2.63
    },
    "chart": {
-    "ema8": 6.1,
-    "ema21": 1.5,
-    "sma50": -7.9,
-    "sma200": -34.8,
+    "ema8": 5.8,
+    "ema21": 1.2,
+    "sma50": -8.1,
+    "sma200": -35.0,
     "momentum": false
    },
    "headlines": [
@@ -174,7 +174,7 @@
    "symbol": "AMZN",
    "name": "Amazon",
    "list": "portfolio",
-   "price": 269.03,
+   "price": 269.11,
    "prev_close": 250.69,
    "change_pct": 7.3,
    "trigger_change": 7.7,
@@ -183,13 +183,13 @@
    "sector": {
     "etf": "XLY",
     "name": "Consumer discr.",
-    "price": 121.5,
-    "change_pct": 3.55
+    "price": 121.48,
+    "change_pct": 3.54
    },
    "chart": {
     "ema8": 6.2,
     "ema21": 6.3,
-    "sma50": 5.9,
+    "sma50": 6.0,
     "sma200": 10.4,
     "momentum": true
    },
@@ -246,65 +246,26 @@
    "brief": null
   },
   {
-   "symbol": "NVO",
-   "name": "Novo Nordisk (ADR)",
-   "list": "portfolio",
-   "price": 42.71,
-   "prev_close": 40.19,
-   "change_pct": 6.3,
-   "trigger_change": 6.6,
-   "peak_change": 6.6,
-   "first_seen": "2026-11-04T14:55:55+00:00",
-   "sector": {
-    "etf": "XLV",
-    "name": "Health care",
-    "price": 185.92,
-    "change_pct": 1.03
-   },
-   "chart": {
-    "ema8": 6.0,
-    "ema21": 7.7,
-    "sma50": 4.5,
-    "sma200": -2.7,
-    "momentum": true
-   },
-   "headlines": [
-    {
-     "title": "Earnings call transcript: Novo Nordisk rises on Q3 2026 growth outlook",
-     "publisher": "Investing.com Canada",
-     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOV0F0dUhpV29uSzJJLUdsOGJHSXAyTTRaMk5NOTV3ZTJRc3EzMGZ3cE5OeWYtN3o1T1EzZnRrX1c4YXhOUTNTUVhiTDNrLUFnazJCWlFKRG0tc3Z6UWhZYkxtTlMxM1dsQ1ZDdmZkVjlDbi1Nbzd6VHFtV0stMHlWSzlxVDVWLTlaNG5TeXNQTmtWT3ZqcHdFdWg4OVlBcXQ0d0s2Rm9IRUpjT2RlaTIxNHFDQmlYOXh2UlItbjdMbWFRRFZfOUNaaE93?oc=5",
-     "time": "2026-11-04T13:34:19+00:00"
-    },
-    {
-     "title": "Novo Nordisk ADR earnings missed by $3.74, revenue fell short of estimates",
-     "publisher": "Investing.com Canada",
-     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQdWlwaWQzdzFVamZjOXJ6clAxRGNINU9jb20zTDNJLTNLS1dGejliY1psYVM1b1FBUVphNWVXXzlFdXc0RWExMnl0cFV1U0V1RnF0VFdtaUVSbXlkZXhPVHRJUUhBRjIzZER4T3lQcDREOHRCRWllQWxBY3ZMdnotMHBad2N3TUx2WjVHamw1S2lYQ1kyX0FUTkJQQmtDd204a1JHY01CdFBfVE0xeDFlOGtMWWpSNEgtV2c?oc=5",
-     "time": "2026-11-04T09:06:27+00:00"
-    }
-   ],
-   "brief": null
-  },
-  {
    "symbol": "MELI",
    "name": "MercadoLibre",
    "list": "watchlist",
-   "price": 1762.15,
+   "price": 1759.99,
    "prev_close": 1662.16,
-   "change_pct": 6.0,
+   "change_pct": 5.9,
    "trigger_change": 4.9,
    "peak_change": 6.2,
    "first_seen": "2026-11-04T14:55:55+00:00",
    "sector": {
     "etf": "XLY",
     "name": "Consumer discr.",
-    "price": 121.5,
-    "change_pct": 3.55
+    "price": 121.48,
+    "change_pct": 3.54
    },
    "chart": {
-    "ema8": 3.2,
-    "ema21": 0.5,
-    "sma50": -3.5,
-    "sma200": -2.5,
+    "ema8": 3.1,
+    "ema21": 0.4,
+    "sma50": -3.6,
+    "sma200": -2.6,
     "momentum": false
    },
    "headlines": [
@@ -360,26 +321,65 @@
    "brief": null
   },
   {
+   "symbol": "NVO",
+   "name": "Novo Nordisk (ADR)",
+   "list": "portfolio",
+   "price": 42.42,
+   "prev_close": 40.19,
+   "change_pct": 5.6,
+   "trigger_change": 6.6,
+   "peak_change": 6.6,
+   "first_seen": "2026-11-04T14:55:55+00:00",
+   "sector": {
+    "etf": "XLV",
+    "name": "Health care",
+    "price": 185.53,
+    "change_pct": 0.82
+   },
+   "chart": {
+    "ema8": 5.5,
+    "ema21": 7.0,
+    "sma50": 3.9,
+    "sma200": -3.4,
+    "momentum": true
+   },
+   "headlines": [
+    {
+     "title": "Earnings call transcript: Novo Nordisk rises on Q3 2026 growth outlook",
+     "publisher": "Investing.com Canada",
+     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOV0F0dUhpV29uSzJJLUdsOGJHSXAyTTRaMk5NOTV3ZTJRc3EzMGZ3cE5OeWYtN3o1T1EzZnRrX1c4YXhOUTNTUVhiTDNrLUFnazJCWlFKRG0tc3Z6UWhZYkxtTlMxM1dsQ1ZDdmZkVjlDbi1Nbzd6VHFtV0stMHlWSzlxVDVWLTlaNG5TeXNQTmtWT3ZqcHdFdWg4OVlBcXQ0d0s2Rm9IRUpjT2RlaTIxNHFDQmlYOXh2UlItbjdMbWFRRFZfOUNaaE93?oc=5",
+     "time": "2026-11-04T13:34:19+00:00"
+    },
+    {
+     "title": "Novo Nordisk ADR earnings missed by $3.74, revenue fell short of estimates",
+     "publisher": "Investing.com Canada",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQdWlwaWQzdzFVamZjOXJ6clAxRGNINU9jb20zTDNJLTNLS1dGejliY1psYVM1b1FBUVphNWVXXzlFdXc0RWExMnl0cFV1U0V1RnF0VFdtaUVSbXlkZXhPVHRJUUhBRjIzZER4T3lQcDREOHRCRWllQWxBY3ZMdnotMHBad2N3TUx2WjVHamw1S2lYQ1kyX0FUTkJQQmtDd204a1JHY01CdFBfVE0xeDFlOGtMWWpSNEgtV2c?oc=5",
+     "time": "2026-11-04T09:06:27+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
    "symbol": "GOOG",
    "name": "Alphabet",
    "list": "portfolio",
-   "price": 293.43,
+   "price": 292.51,
    "prev_close": 278.27,
-   "change_pct": 5.4,
+   "change_pct": 5.1,
    "trigger_change": 3.9,
    "peak_change": 5.4,
    "first_seen": "2026-11-04T14:55:55+00:00",
    "sector": {
     "etf": "XLC",
     "name": "Communication",
-    "price": 105.27,
-    "change_pct": 3.78
+    "price": 105.06,
+    "change_pct": 3.56
    },
    "chart": {
-    "ema8": -0.5,
-    "ema21": -6.4,
-    "sma50": -11.7,
-    "sma200": -13.2,
+    "ema8": -0.8,
+    "ema21": -6.7,
+    "sma50": -11.9,
+    "sma200": -13.5,
     "momentum": false
    },
    "headlines": [
@@ -438,23 +438,23 @@
    "symbol": "SOFI",
    "name": "SoFi",
    "list": "portfolio",
-   "price": 17.52,
+   "price": 17.46,
    "prev_close": 16.77,
-   "change_pct": 4.5,
+   "change_pct": 4.1,
    "trigger_change": 4.1,
    "peak_change": 5.4,
    "first_seen": "2026-11-04T14:55:55+00:00",
    "sector": {
     "etf": "XLF",
     "name": "Financials",
-    "price": 58.09,
-    "change_pct": 1.57
+    "price": 58.16,
+    "change_pct": 1.7
    },
    "chart": {
-    "ema8": 5.4,
-    "ema21": 8.8,
-    "sma50": 6.4,
-    "sma200": -0.7,
+    "ema8": 5.1,
+    "ema21": 8.4,
+    "sma50": 6.0,
+    "sma200": -1.0,
     "momentum": true
    },
    "headlines": [
@@ -510,80 +510,10 @@
    "brief": null
   },
   {
-   "symbol": "BTC-USD",
-   "name": "Bitcoin",
-   "list": "watchlist",
-   "price": 80558.5,
-   "prev_close": 77331.7,
-   "change_pct": 4.2,
-   "trigger_change": 4.0,
-   "peak_change": 4.7,
-   "first_seen": "2026-11-04T15:11:03+00:00",
-   "sector": null,
-   "chart": {
-    "ema8": 2.3,
-    "ema21": 0.8,
-    "sma50": -1.8,
-    "sma200": 10.1,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Bitcoin Reclaims $79,000 After 5% Rebound From Election-Night Low",
-     "publisher": "The Defiant",
-     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZWVvZEVKZk1mMWpFQ0ZJYXQ4bUlPb2IzUUlCODNCd3c1SGdCUVZzU1poeTFtZzI5dklLdEtycWNNVHI4M1N3U3BjTDNCbXpnSkhURzNYVWZtMDZ6NEozZ3B4N2tIN1JaSzJpWjVuRWZPNnNpd3JmVF9MS2tTTElENEd2MHBTYlFoWldpVURVeDNxT3U5bVluUnZfYmlsT28?oc=5",
-     "time": "2026-11-04T15:08:17+00:00"
-    },
-    {
-     "title": "JUST IN: Bitcoin jumps past $79,000 \ud83d\ude80",
-     "publisher": "Moomoo",
-     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNbW52aHVCQVJIN1dSTDhFOV9UMnpnQUZoaFB1OUtsZjVGQUdwNVhjQWczWThmRGd5M1JxUlo3OXFkVXFBYlktQXM4RkdFc0RxODE3VVlraFR0c0dlQmRoamprWlp1bzFmUXc4ZUpWeEF1S2VyMnVVQlRFT0RlczBLRUc2X2xuWUNPUUQ0c1l3NC0?oc=5",
-     "time": "2026-11-04T14:57:41+00:00"
-    },
-    {
-     "title": "Metaplanet Raises Planned Bitcoin Purchases to \u00a533.42 Billion After Early Bond Redemption",
-     "publisher": "bloomingbit",
-     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE94YkxaamttRy1ZeG0yY2xzZGJqcnFlWGxCSzdBZlZ2N2ZQcGYyOXVLQzZrSmt2cXBscWRGakszZEFkaW9VcUJ0TE5fZ1prbXZZem43Yg?oc=5",
-     "time": "2026-11-04T14:55:38+00:00"
-    },
-    {
-     "title": "Mercado Bitcoin Hack: $46M Drained, Withdrawals Frozen",
-     "publisher": "Memeburn",
-     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1SLTlKVkpuODJUNWNNVFZZdU81dEQ1dW1ZcnczYXJWZmQwMEtKbE0wbXlJSzA0ZGdNeUtqNGxsTXlCbURwSGlhX1Q5Vlg3QUJRR3c1Qw?oc=5",
-     "time": "2026-11-04T14:52:48+00:00"
-    },
-    {
-     "title": "Mercado Bitcoin Attacker Swaps Tokens for $10.55 Million in ETH, Arkham Says",
-     "publisher": "The Defiant",
-     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQNllYMzM1TXR2ZkZFSEpyQUVYdzFSdVRWbFpodGh3RDdzQVVYVFl3eFBwNjVfSUxfNHJLSVBINFNUT081bVdqNnRHSTdQR0RTN0NzSWZ1QkpBUUpHaWpleVhrTENZNlFJT0dKYUphRExZTFR4YWxYbjFHT2lraHZFQTNubER6bnZTckpHQ2V1NXJQZ21SQ20ydF9yYXA0ZEZGSjRuMktFY1pJRWc?oc=5",
-     "time": "2026-11-04T14:49:57+00:00"
-    },
-    {
-     "title": "Bitcoin Tops $79,000; Kimchi Premium at 0.14%",
-     "publisher": "bloomingbit",
-     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5ycFJCbF9pSFpKWU83RU9Zd2lpbkRkLTdPVW1oZ0NremhrSzdCRTVqeDNpNm82Z2d6TVp3bC1hSWRLMUFNTGdPYWRCSXpFQUJaZk41bQ?oc=5",
-     "time": "2026-11-04T14:47:58+00:00"
-    },
-    {
-     "title": "The news is almost always in the chart. $Bitcoin (BTC.CC)$ perfectly retested the 50 MA on the weekly on the election drop, right before bouncing. This is the bear/bull market line. Crazy.",
-     "publisher": "Moomoo",
-     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPaXRjTWc2OWJJVllKVElTb2lRdk0xMWxWN1I2akZDeVJER2dQa0gyV0V2WkJhZXJSdl9WenJ5b1dCVXlDYVVTNEIwWFAxUmh4Z2NSd1c2TUNVbzVUZWdCZmxXV21WVDJ0MHg3eUVZTndQZzlHQ3N2bDBoWGFGa0FtMlg0NDdpMUxFNlF5cE5EemZadWszRHpQTVlHZjR1LWVINlk2NV9sWQ?oc=5",
-     "time": "2026-11-04T14:33:13+00:00"
-    },
-    {
-     "title": "Liquid Capital Founder Says Bitcoin Has Shown More Resilience Than U.S. Stocks",
-     "publisher": "www.tokenpost.com",
-     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE80N2VZOC1OcXdpYV9rNFozVUJoaGJzLWEtN1E3NDFxU3R4Rk1wTWl2NWQzZEhpcEZDYnAzX0t3NnBoYnRHZ2l5UkgtWGVNY0dlMnZvbTl2TE0?oc=5",
-     "time": "2026-11-04T14:29:07+00:00"
-    }
-   ],
-   "brief": null
-  },
-  {
    "symbol": "NFLX",
    "name": "Netflix",
    "list": "portfolio",
-   "price": 66.02,
+   "price": 66.01,
    "prev_close": 63.42,
    "change_pct": 4.1,
    "trigger_change": 3.9,
@@ -592,8 +522,8 @@
    "sector": {
     "etf": "XLC",
     "name": "Communication",
-    "price": 105.27,
-    "change_pct": 3.78
+    "price": 105.06,
+    "change_pct": 3.56
    },
    "chart": {
     "ema8": 3.0,
@@ -655,27 +585,97 @@
    "brief": null
   },
   {
+   "symbol": "BTC-USD",
+   "name": "Bitcoin",
+   "list": "watchlist",
+   "price": 80391.4,
+   "prev_close": 77331.7,
+   "change_pct": 4.0,
+   "trigger_change": 4.0,
+   "peak_change": 4.7,
+   "first_seen": "2026-11-04T15:11:03+00:00",
+   "sector": null,
+   "chart": {
+    "ema8": 2.2,
+    "ema21": 0.6,
+    "sma50": -2.0,
+    "sma200": 9.9,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Bitcoin Reclaims $79,000 After 5% Rebound From Election-Night Low",
+     "publisher": "The Defiant",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZWVvZEVKZk1mMWpFQ0ZJYXQ4bUlPb2IzUUlCODNCd3c1SGdCUVZzU1poeTFtZzI5dklLdEtycWNNVHI4M1N3U3BjTDNCbXpnSkhURzNYVWZtMDZ6NEozZ3B4N2tIN1JaSzJpWjVuRWZPNnNpd3JmVF9MS2tTTElENEd2MHBTYlFoWldpVURVeDNxT3U5bVluUnZfYmlsT28?oc=5",
+     "time": "2026-11-04T15:08:17+00:00"
+    },
+    {
+     "title": "JUST IN: Bitcoin jumps past $79,000 \ud83d\ude80",
+     "publisher": "Moomoo",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNbW52aHVCQVJIN1dSTDhFOV9UMnpnQUZoaFB1OUtsZjVGQUdwNVhjQWczWThmRGd5M1JxUlo3OXFkVXFBYlktQXM4RkdFc0RxODE3VVlraFR0c0dlQmRoamprWlp1bzFmUXc4ZUpWeEF1S2VyMnVVQlRFT0RlczBLRUc2X2xuWUNPUUQ0c1l3NC0?oc=5",
+     "time": "2026-11-04T14:57:41+00:00"
+    },
+    {
+     "title": "Metaplanet Raises Planned Bitcoin Purchases to \u00a533.42 Billion After Early Bond Redemption",
+     "publisher": "bloomingbit",
+     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE94YkxaamttRy1ZeG0yY2xzZGJqcnFlWGxCSzdBZlZ2N2ZQcGYyOXVLQzZrSmt2cXBscWRGakszZEFkaW9VcUJ0TE5fZ1prbXZZem43Yg?oc=5",
+     "time": "2026-11-04T14:55:38+00:00"
+    },
+    {
+     "title": "Mercado Bitcoin Hack: $46M Drained, Withdrawals Frozen",
+     "publisher": "Memeburn",
+     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1SLTlKVkpuODJUNWNNVFZZdU81dEQ1dW1ZcnczYXJWZmQwMEtKbE0wbXlJSzA0ZGdNeUtqNGxsTXlCbURwSGlhX1Q5Vlg3QUJRR3c1Qw?oc=5",
+     "time": "2026-11-04T14:52:48+00:00"
+    },
+    {
+     "title": "Mercado Bitcoin Attacker Swaps Tokens for $10.55 Million in ETH, Arkham Says",
+     "publisher": "The Defiant",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQNllYMzM1TXR2ZkZFSEpyQUVYdzFSdVRWbFpodGh3RDdzQVVYVFl3eFBwNjVfSUxfNHJLSVBINFNUT081bVdqNnRHSTdQR0RTN0NzSWZ1QkpBUUpHaWpleVhrTENZNlFJT0dKYUphRExZTFR4YWxYbjFHT2lraHZFQTNubER6bnZTckpHQ2V1NXJQZ21SQ20ydF9yYXA0ZEZGSjRuMktFY1pJRWc?oc=5",
+     "time": "2026-11-04T14:49:57+00:00"
+    },
+    {
+     "title": "Bitcoin Tops $79,000; Kimchi Premium at 0.14%",
+     "publisher": "bloomingbit",
+     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5ycFJCbF9pSFpKWU83RU9Zd2lpbkRkLTdPVW1oZ0NremhrSzdCRTVqeDNpNm82Z2d6TVp3bC1hSWRLMUFNTGdPYWRCSXpFQUJaZk41bQ?oc=5",
+     "time": "2026-11-04T14:47:58+00:00"
+    },
+    {
+     "title": "The news is almost always in the chart. $Bitcoin (BTC.CC)$ perfectly retested the 50 MA on the weekly on the election drop, right before bouncing. This is the bear/bull market line. Crazy.",
+     "publisher": "Moomoo",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPaXRjTWc2OWJJVllKVElTb2lRdk0xMWxWN1I2akZDeVJER2dQa0gyV0V2WkJhZXJSdl9WenJ5b1dCVXlDYVVTNEIwWFAxUmh4Z2NSd1c2TUNVbzVUZWdCZmxXV21WVDJ0MHg3eUVZTndQZzlHQ3N2bDBoWGFGa0FtMlg0NDdpMUxFNlF5cE5EemZadWszRHpQTVlHZjR1LWVINlk2NV9sWQ?oc=5",
+     "time": "2026-11-04T14:33:13+00:00"
+    },
+    {
+     "title": "Liquid Capital Founder Says Bitcoin Has Shown More Resilience Than U.S. Stocks",
+     "publisher": "www.tokenpost.com",
+     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE80N2VZOC1OcXdpYV9rNFozVUJoaGJzLWEtN1E3NDFxU3R4Rk1wTWl2NWQzZEhpcEZDYnAzX0t3NnBoYnRHZ2l5UkgtWGVNY0dlMnZvbTl2TE0?oc=5",
+     "time": "2026-11-04T14:29:07+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
    "symbol": "CRWD",
    "name": "CrowdStrike",
    "list": "portfolio",
-   "price": 252.21,
+   "price": 250.97,
    "prev_close": 244.68,
-   "change_pct": 3.1,
+   "change_pct": 2.6,
    "trigger_change": 3.1,
    "peak_change": 3.1,
    "first_seen": "2026-11-04T15:21:14+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 105.45,
-    "change_pct": 2.72
+    "price": 105.36,
+    "change_pct": 2.63
    },
    "chart": {
-    "ema8": 0.5,
-    "ema21": 0.5,
-    "sma50": 3.5,
-    "sma200": 49.0,
-    "momentum": true
+    "ema8": 0.1,
+    "ema21": 0.0,
+    "sma50": 3.0,
+    "sma200": 48.3,
+    "momentum": false
    },
    "headlines": [
     {
