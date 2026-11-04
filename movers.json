@@ -1,22 +1,22 @@
 {
  "date": "2026-11-04",
  "threshold": 3.0,
- "updated": "2026-11-04T17:48:16+00:00",
+ "updated": "2026-11-04T17:53:24+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 768.68,
-   "change_pct": 1.9
+   "price": 768.82,
+   "change_pct": 1.92
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 696.51,
-   "change_pct": 1.64
+   "price": 696.6,
+   "change_pct": 1.65
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 81.58,
-   "change_pct": 0.57
+   "price": 81.55,
+   "change_pct": 0.54
   }
  },
  "movers": [
@@ -24,23 +24,23 @@
    "symbol": "APP",
    "name": "AppLovin",
    "list": "portfolio",
-   "price": 272.56,
+   "price": 273.34,
    "prev_close": 245.51,
-   "change_pct": 11.0,
+   "change_pct": 11.3,
    "trigger_change": 5.7,
    "peak_change": 11.4,
    "first_seen": "2026-11-04T14:55:55+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 103.98,
-    "change_pct": 1.29
+    "price": 103.9,
+    "change_pct": 1.21
    },
    "chart": {
-    "ema8": 7.5,
-    "ema21": 3.1,
-    "sma50": -6.3,
-    "sma200": -33.7,
+    "ema8": 7.7,
+    "ema21": 3.4,
+    "sma50": -6.0,
+    "sma200": -33.5,
     "momentum": false
    },
    "headlines": [
@@ -99,23 +99,23 @@
    "symbol": "AMZN",
    "name": "Amazon",
    "list": "portfolio",
-   "price": 269.12,
+   "price": 269.56,
    "prev_close": 250.69,
-   "change_pct": 7.4,
+   "change_pct": 7.5,
    "trigger_change": 7.7,
    "peak_change": 8.0,
    "first_seen": "2026-11-04T14:55:55+00:00",
    "sector": {
     "etf": "XLY",
     "name": "Consumer discr.",
-    "price": 122.77,
-    "change_pct": 4.63
+    "price": 122.83,
+    "change_pct": 4.68
    },
    "chart": {
-    "ema8": 6.2,
-    "ema21": 6.3,
-    "sma50": 6.0,
-    "sma200": 10.4,
+    "ema8": 6.4,
+    "ema21": 6.5,
+    "sma50": 6.1,
+    "sma200": 10.6,
     "momentum": true
    },
    "headlines": [
@@ -174,23 +174,23 @@
    "symbol": "NVO",
    "name": "Novo Nordisk (ADR)",
    "list": "portfolio",
-   "price": 42.9,
+   "price": 42.98,
    "prev_close": 40.19,
-   "change_pct": 6.7,
+   "change_pct": 6.9,
    "trigger_change": 6.6,
    "peak_change": 7.2,
    "first_seen": "2026-11-04T14:55:55+00:00",
    "sector": {
     "etf": "XLV",
     "name": "Health care",
-    "price": 188.96,
-    "change_pct": 2.68
+    "price": 189.02,
+    "change_pct": 2.72
    },
    "chart": {
-    "ema8": 6.4,
-    "ema21": 8.1,
-    "sma50": 5.0,
-    "sma200": -2.3,
+    "ema8": 6.5,
+    "ema21": 8.3,
+    "sma50": 5.2,
+    "sma200": -2.1,
     "momentum": true
    },
    "headlines": [
@@ -216,101 +216,26 @@
    "brief": "2026-11-04-NVO"
   },
   {
-   "symbol": "NBIS",
-   "name": "Nebius",
-   "list": "portfolio",
-   "price": 141.87,
-   "prev_close": 151.64,
-   "change_pct": -6.4,
-   "trigger_change": -4.1,
-   "peak_change": -7.3,
-   "first_seen": "2026-11-04T15:31:22+00:00",
-   "sector": {
-    "etf": "IGV",
-    "name": "Software",
-    "price": 103.98,
-    "change_pct": 1.29
-   },
-   "chart": {
-    "ema8": -9.0,
-    "ema21": -18.9,
-    "sma50": -30.9,
-    "sma200": -20.3,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Texas Blue Wave Could Threaten 27% Of Planned U.S. Data Center Power. Here's What It Means For CoreWeave, Iren, Nebius And Other Neocloud Stocks",
-     "publisher": "24/7 Wall St.",
-     "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOYS04UzRTMEdzYmkwc000VFhrQ082VkRLOGZ4MFgwdWNkU3Z3SnNUV2F4TkxDSnJkMmx0Z2JJNE9CUnVSVXdiZnB1U2tjM1ZQZnVySGE4VmtTSTU2eGI2MEN0b19fQVBaTE5wZDZlUDBRV3llR3lSQ2dNeFBzaVJHZ3VvOU9uOFZ6OG5pblphU3ViU2k3YS1SbFJZRW9zUGdWUVhYZWw0eUI2Tks3SVdkRlF6OFpMYklTQlhIX1pwaDZJRXlPWmNJME16a09OTW9MS2RULW5ZLW9JeVZqQjJkaEZRV1lsOFk0bm14Nk01Q2lmUVpxR01qSDJiLUFfSHZiVVVPRFFkeG5BZ3dXeDA4?oc=5",
-     "time": "2026-11-04T15:39:00+00:00"
-    },
-    {
-     "title": "A Deep Correction in Nebius Stock Presents an Accumulation Opportunity as Financial Metrics Improve",
-     "publisher": "Barchart.com",
-     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOUVU1LTA5TWZlMkdyTFFhWC1PQS1GWGtKTmZqS1pTRGsySXE0d0FpeUNaazJIVGk2cGRwQnQxR19rRE1CQTVxeEpOeG1YdXJHX1k2ZzdwZXNsME01YlltVWYxN1ZZVGpjNk1ib1Qyb0N4N1JaTzN4RHkyOEk3czlzX21nQ3V3T1JWZmRVWHdKWlc5M3pQZ0Y1TmJuSXNScjZiU1lEOUVwbXFOMFNtQXptaWxzNHVKS3Z5OF84TmxrWnc2T1pJUlczTlpRN1poVDV2bzdsQzItNUJ5TTQ?oc=5",
-     "time": "2026-11-04T14:59:11+00:00"
-    },
-    {
-     "title": "Why CoreWeave, IREN, and Nebius Stocks Are Plunging Today \u2014 and Why Jim Cramer Sees More Downside Ahead",
-     "publisher": "TipRanks",
-     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxONC12b0syOHpXQVExbEU5OE1FS2JIbHRLR0dKZHZMdXRZQlk2QUdxZTFkcVRpZTlVN05ETHN1elN4RjhKLVhNcXBZWHNRT2o0T3VabXBOME1JRC12MVRkblNRZmNYNElUT256SWZ3M1FEVDR6Wk5wS25jNVNUcmotLV9RdmdQNFF0OEFnMEF5MlFhcFFGUFJPRFlnOGRwOVItYXhXX0lUT2k3aTI1ZTN5QnQydVR4MjV3Ykc4c2FHNldkdUl3Rkhuaw?oc=5",
-     "time": "2026-11-04T14:14:33+00:00"
-    },
-    {
-     "title": "CoreWeave, Nebius Slide As Blue Wave Clouds AI Boom",
-     "publisher": "Investor's Business Daily",
-     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZzVrZy02WTdPcUFxZVFBY3EwOXBZNkFtZENXZm1qWng0Y0R0QmNNZFplVFZyMGxHTGpVa1ZucW5jMlVtWEdTOHVyeHVjN1RmVno2S1daN0hXNDc1aTgtc3Z2eHc3S1FRa0c0aHBWSEZIa3F4N0szckoxcWhOSlU0WlVkREhrYjhPTzQ1N0FtdzFyU2tFc01Ebg?oc=5",
-     "time": "2026-11-04T14:09:00+00:00"
-    },
-    {
-     "title": "Nebius Group NBIS Stock Whipsaws As AI Data Center Hype Meets Funding Fears",
-     "publisher": "Timothy Sykes",
-     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBCMnZWTDV3d2J0T2hLeDU0VDhEZVRhT0FTZ29ScGNVS0Jab3VJTUpuU19yMTBrVWxEOUJSdklsUVdWdDNJQkgtTE1xWnVSOEZPVkdPZllIUE4yOUgxMXZiVHhKUG45cE05OFJmMWdXaWhBRFFGMjBHY1hTOA?oc=5",
-     "time": "2026-11-04T12:33:00+00:00"
-    },
-    {
-     "title": "CoreWeave, Nebius, and IREN Stocks Drop in Pre-Market, Nov. 4 \u2014 Here\u2019s Why",
-     "publisher": "TipRanks",
-     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNUk1OUXFDUmxOZU9CaUhjbzREdGIwM2d0NkVmMkZIX2xWazdvTWg0eW04QU93a3dCVU1nejVTeFlZd0xLSzBCWXp5cF9BQTdQOGpUNkNFNTFVbmFxMk0zQUV5X3Nrb2ZxOUkxVkl0aEF2dFN5ejUyWVpZelVHeGxzb3RhOGRRUl9tOFhrZEgyamtyMmkwMmJNZXlIS05YaUJFdERV?oc=5",
-     "time": "2026-11-04T12:20:01+00:00"
-    },
-    {
-     "title": "CoreWeave IREN and Nebius Stocks Sink as Election Results Spark AI Data Center Fears",
-     "publisher": "Yahoo Finance Singapore",
-     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNaG96WUkyOHNoRjRuMGx3cE5lemdQclpkRVNJY1M1STdKWWVRLU5PaURaVks4WDY3WEx0WlVla3JDN2xVVmxUakFfa0pEQkxxRm1YYU9vNE83OWFmZ1lWYUc0TTVzdXplT3BlRVQ4ZmhrUTdjTlAyWWx5YkZQM0xzV2ZUQ3lfeVFmemc?oc=5",
-     "time": "2026-11-04T12:07:51+00:00"
-    },
-    {
-     "title": "CoreWeave, IREN, and Nebius Stocks Are Tumbling Overnight After Tuesday\u2019s Rally \u2014 What Spooked Investors and What Wall Street Sees Next",
-     "publisher": "TipRanks",
-     "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxONDRacEhRRGtfSlhTMkZENkQyZE1Ed3lweGVBTkUyNjgzbk5PRHFQV2ZwMkpVSEFCVEhRV3Itc2tfeGxPa0VXdlBnTW1Vb0VKQjliUTR3cFBuSTNnOUhZT2tjdllUWDd4dlNibm81RnlZMlVxWlZPOXhERnMtbFB3eW9Rb2J6aVBJcDVjZTUtZDBYNFZNdHpmR0VuUkx1SkVFRURBenZGNGZ2UkpvTmN0WnNLRzdaVk9RSm1PeVlGRFpyZmsyZHpqVGdQdFFxWU5WeEZJSk1iZGR3ZkgxdmxpM0loV3h1ejFXcnBzTXJOakdIZw?oc=5",
-     "time": "2026-11-04T04:46:03+00:00"
-    }
-   ],
-   "brief": "2026-11-04-NBIS"
-  },
-  {
    "symbol": "MELI",
    "name": "MercadoLibre",
    "list": "watchlist",
-   "price": 1750.47,
+   "price": 1756.51,
    "prev_close": 1662.16,
-   "change_pct": 5.3,
+   "change_pct": 5.7,
    "trigger_change": 4.9,
    "peak_change": 6.2,
    "first_seen": "2026-11-04T14:55:55+00:00",
    "sector": {
     "etf": "XLY",
     "name": "Consumer discr.",
-    "price": 122.77,
-    "change_pct": 4.63
+    "price": 122.83,
+    "change_pct": 4.68
    },
    "chart": {
-    "ema8": 2.7,
-    "ema21": -0.1,
-    "sma50": -4.1,
-    "sma200": -3.2,
+    "ema8": 2.9,
+    "ema21": 0.2,
+    "sma50": -3.8,
+    "sma200": -2.8,
     "momentum": false
    },
    "headlines": [
@@ -369,23 +294,23 @@
    "symbol": "ANET",
    "name": "Arista Networks",
    "list": "portfolio",
-   "price": 178.76,
+   "price": 179.38,
    "prev_close": 169.91,
-   "change_pct": 5.2,
+   "change_pct": 5.6,
    "trigger_change": 10.3,
    "peak_change": 10.3,
    "first_seen": "2026-11-04T14:55:55+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 507.43,
-    "change_pct": -2.14
+    "price": 507.9,
+    "change_pct": -2.05
    },
    "chart": {
-    "ema8": 1.6,
-    "ema21": -2.6,
-    "sma50": -7.9,
-    "sma200": 7.8,
+    "ema8": 1.8,
+    "ema21": -2.3,
+    "sma50": -7.6,
+    "sma200": 8.2,
     "momentum": false
    },
    "headlines": [
@@ -441,10 +366,160 @@
    "brief": "2026-11-04-ANET"
   },
   {
+   "symbol": "NBIS",
+   "name": "Nebius",
+   "list": "portfolio",
+   "price": 143.3,
+   "prev_close": 151.64,
+   "change_pct": -5.5,
+   "trigger_change": -4.1,
+   "peak_change": -7.3,
+   "first_seen": "2026-11-04T15:31:22+00:00",
+   "sector": {
+    "etf": "IGV",
+    "name": "Software",
+    "price": 103.9,
+    "change_pct": 1.21
+   },
+   "chart": {
+    "ema8": -8.3,
+    "ema21": -18.1,
+    "sma50": -30.2,
+    "sma200": -19.5,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Texas Blue Wave Could Threaten 27% Of Planned U.S. Data Center Power. Here's What It Means For CoreWeave, Iren, Nebius And Other Neocloud Stocks",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOYS04UzRTMEdzYmkwc000VFhrQ082VkRLOGZ4MFgwdWNkU3Z3SnNUV2F4TkxDSnJkMmx0Z2JJNE9CUnVSVXdiZnB1U2tjM1ZQZnVySGE4VmtTSTU2eGI2MEN0b19fQVBaTE5wZDZlUDBRV3llR3lSQ2dNeFBzaVJHZ3VvOU9uOFZ6OG5pblphU3ViU2k3YS1SbFJZRW9zUGdWUVhYZWw0eUI2Tks3SVdkRlF6OFpMYklTQlhIX1pwaDZJRXlPWmNJME16a09OTW9MS2RULW5ZLW9JeVZqQjJkaEZRV1lsOFk0bm14Nk01Q2lmUVpxR01qSDJiLUFfSHZiVVVPRFFkeG5BZ3dXeDA4?oc=5",
+     "time": "2026-11-04T15:39:00+00:00"
+    },
+    {
+     "title": "A Deep Correction in Nebius Stock Presents an Accumulation Opportunity as Financial Metrics Improve",
+     "publisher": "Barchart.com",
+     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOUVU1LTA5TWZlMkdyTFFhWC1PQS1GWGtKTmZqS1pTRGsySXE0d0FpeUNaazJIVGk2cGRwQnQxR19rRE1CQTVxeEpOeG1YdXJHX1k2ZzdwZXNsME01YlltVWYxN1ZZVGpjNk1ib1Qyb0N4N1JaTzN4RHkyOEk3czlzX21nQ3V3T1JWZmRVWHdKWlc5M3pQZ0Y1TmJuSXNScjZiU1lEOUVwbXFOMFNtQXptaWxzNHVKS3Z5OF84TmxrWnc2T1pJUlczTlpRN1poVDV2bzdsQzItNUJ5TTQ?oc=5",
+     "time": "2026-11-04T14:59:11+00:00"
+    },
+    {
+     "title": "Why CoreWeave, IREN, and Nebius Stocks Are Plunging Today \u2014 and Why Jim Cramer Sees More Downside Ahead",
+     "publisher": "TipRanks",
+     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxONC12b0syOHpXQVExbEU5OE1FS2JIbHRLR0dKZHZMdXRZQlk2QUdxZTFkcVRpZTlVN05ETHN1elN4RjhKLVhNcXBZWHNRT2o0T3VabXBOME1JRC12MVRkblNRZmNYNElUT256SWZ3M1FEVDR6Wk5wS25jNVNUcmotLV9RdmdQNFF0OEFnMEF5MlFhcFFGUFJPRFlnOGRwOVItYXhXX0lUT2k3aTI1ZTN5QnQydVR4MjV3Ykc4c2FHNldkdUl3Rkhuaw?oc=5",
+     "time": "2026-11-04T14:14:33+00:00"
+    },
+    {
+     "title": "CoreWeave, Nebius Slide As Blue Wave Clouds AI Boom",
+     "publisher": "Investor's Business Daily",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZzVrZy02WTdPcUFxZVFBY3EwOXBZNkFtZENXZm1qWng0Y0R0QmNNZFplVFZyMGxHTGpVa1ZucW5jMlVtWEdTOHVyeHVjN1RmVno2S1daN0hXNDc1aTgtc3Z2eHc3S1FRa0c0aHBWSEZIa3F4N0szckoxcWhOSlU0WlVkREhrYjhPTzQ1N0FtdzFyU2tFc01Ebg?oc=5",
+     "time": "2026-11-04T14:09:00+00:00"
+    },
+    {
+     "title": "Nebius Group NBIS Stock Whipsaws As AI Data Center Hype Meets Funding Fears",
+     "publisher": "Timothy Sykes",
+     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBCMnZWTDV3d2J0T2hLeDU0VDhEZVRhT0FTZ29ScGNVS0Jab3VJTUpuU19yMTBrVWxEOUJSdklsUVdWdDNJQkgtTE1xWnVSOEZPVkdPZllIUE4yOUgxMXZiVHhKUG45cE05OFJmMWdXaWhBRFFGMjBHY1hTOA?oc=5",
+     "time": "2026-11-04T12:33:00+00:00"
+    },
+    {
+     "title": "CoreWeave, Nebius, and IREN Stocks Drop in Pre-Market, Nov. 4 \u2014 Here\u2019s Why",
+     "publisher": "TipRanks",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNUk1OUXFDUmxOZU9CaUhjbzREdGIwM2d0NkVmMkZIX2xWazdvTWg0eW04QU93a3dCVU1nejVTeFlZd0xLSzBCWXp5cF9BQTdQOGpUNkNFNTFVbmFxMk0zQUV5X3Nrb2ZxOUkxVkl0aEF2dFN5ejUyWVpZelVHeGxzb3RhOGRRUl9tOFhrZEgyamtyMmkwMmJNZXlIS05YaUJFdERV?oc=5",
+     "time": "2026-11-04T12:20:01+00:00"
+    },
+    {
+     "title": "CoreWeave IREN and Nebius Stocks Sink as Election Results Spark AI Data Center Fears",
+     "publisher": "Yahoo Finance Singapore",
+     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNaG96WUkyOHNoRjRuMGx3cE5lemdQclpkRVNJY1M1STdKWWVRLU5PaURaVks4WDY3WEx0WlVla3JDN2xVVmxUakFfa0pEQkxxRm1YYU9vNE83OWFmZ1lWYUc0TTVzdXplT3BlRVQ4ZmhrUTdjTlAyWWx5YkZQM0xzV2ZUQ3lfeVFmemc?oc=5",
+     "time": "2026-11-04T12:07:51+00:00"
+    },
+    {
+     "title": "CoreWeave, IREN, and Nebius Stocks Are Tumbling Overnight After Tuesday\u2019s Rally \u2014 What Spooked Investors and What Wall Street Sees Next",
+     "publisher": "TipRanks",
+     "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxONDRacEhRRGtfSlhTMkZENkQyZE1Ed3lweGVBTkUyNjgzbk5PRHFQV2ZwMkpVSEFCVEhRV3Itc2tfeGxPa0VXdlBnTW1Vb0VKQjliUTR3cFBuSTNnOUhZT2tjdllUWDd4dlNibm81RnlZMlVxWlZPOXhERnMtbFB3eW9Rb2J6aVBJcDVjZTUtZDBYNFZNdHpmR0VuUkx1SkVFRURBenZGNGZ2UkpvTmN0WnNLRzdaVk9RSm1PeVlGRFpyZmsyZHpqVGdQdFFxWU5WeEZJSk1iZGR3ZkgxdmxpM0loV3h1ejFXcnBzTXJOakdIZw?oc=5",
+     "time": "2026-11-04T04:46:03+00:00"
+    }
+   ],
+   "brief": "2026-11-04-NBIS"
+  },
+  {
+   "symbol": "SOFI",
+   "name": "SoFi",
+   "list": "portfolio",
+   "price": 17.52,
+   "prev_close": 16.77,
+   "change_pct": 4.5,
+   "trigger_change": 4.1,
+   "peak_change": 5.4,
+   "first_seen": "2026-11-04T14:55:55+00:00",
+   "sector": {
+    "etf": "XLF",
+    "name": "Financials",
+    "price": 58.89,
+    "change_pct": 2.97
+   },
+   "chart": {
+    "ema8": 5.3,
+    "ema21": 8.7,
+    "sma50": 6.4,
+    "sma200": -0.7,
+    "momentum": true
+   },
+   "headlines": [
+    {
+     "title": "SoFi Technologies (SOFI) Tests Valuation Following Strong Q3 Results And Higher Outlook",
+     "publisher": "Simply Wall St",
+     "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOZHQ2eWxUMS05bnJlNHBRNEE2azdIQnVyQ01Ca0FCRkk4VVdialNvUGF6QzhwSUhRN0F1SGlkM1diZWhHUVM5bURweC1tNVRGRmhjUlFYc2dwcGdtcGZkS3B5b3JlRDN6OGxrMUZOWGhpZGJlV3Bub1JTaEtxUS1BcGZfaGp0Zmt2Uk85TU1rSkZwTFM4QTVZakJRV1UwWFk1cDhHMEdJV3BSMHJjcDJzZUMtNnRxOFNUdzcyV01rdGdDcnQ3OWZ2REI1Yk1LOG1hZ0NzalRLc2ZhMm92aEVDNk44dDDSAeoBQVVfeXFMUG02aHdIelZzTUptNmw3OUdFNkhmVmE0UWZpZFFvZjdtNXdRdlhaUDJHRDBYN01oOFpNXzlya291dDhGcjVzR0VWWHY3cTNzZWRvcWJHRlNDUDJtaHFtLXNENDR1YUpKWEI3UVl5ZEpDUXVkd0pWWWxIUnJDVlptYjhLZUVrY1J3a2V4dGhtRTJ4OWZxTjFvX2JVVGhDU3J5dWdfeVNJX091eGpIQU4xMU1VZEViZTRDLW5INVFxZ0NRTUtGbVBvWmFSVjRLS2FBdDNGRG1yNnhaQzNOS1dMWlRkT1dJWVBLR0Zn?oc=5",
+     "time": "2026-11-04T13:16:25+00:00"
+    },
+    {
+     "title": "SoFi Technologies, Inc. (SOFI) Is a Trending Stock: Facts to Know Before Betting on It",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQejJILW8taktnaWJsT1FuV09zYWxBZHI1dHNHdmJYVXNzSzgteC02NmxoUVFhM2o4aU54OG5KcUtBUGNIREE3S3lra0V6cVNfOWZZTjZLXzBFVVc4VWYyV2JoVjg0dG1neDVTdnZlYjhYMm5pcTgwaFdoN1lIWmZFYm9QcFktcXhfQldSSWh6ZF9ocUhlVEsxeDBweDBGazA4RFE?oc=5",
+     "time": "2026-11-04T13:00:03+00:00"
+    },
+    {
+     "title": "Prediction: These Will Be 3 of the Best-Performing Financial Stocks of 2027",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQb0c5NENYRGZlVE02SU1mZ1BrWWtvcjJRc29qSEE5M0dEOU5wSW1FUnRiVl9Nd1YxUy04d3RDOFpfakhveW1adUtrSkNLbEcyVzdNdFJYYjM3LTlsZWI5bWxtMzFta3pSZ0RWd3JMWWJkZ0Z0UWtYSlZIZ0dYSEJZX3I4NEo5SW5KOS1lT01ubmZjai1TNllQUA?oc=5",
+     "time": "2026-11-04T11:15:00+00:00"
+    },
+    {
+     "title": "SoFi Grants Director John C.R. Hele 15,880 Restricted Stock Units",
+     "publisher": "VZ Verm\u00f6gensZentrum",
+     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNZ0lreWkwRnR6V1cxYm9OQ3k5VVBUY1c0SF85OGxYeDJVUXAzVVluNkdyLU1MTUw0TWkwWVFFLUM1ZGRKWU1PNHd2T2lfeUQ2a2k3WFVFbTBWSGVBX05oV3dfWG5ETTdrZ1ZQXzItRjh4d1BnbDBiZ2VJZk4xSTRIa2puRm44OUxfeFJLU1Z1UG82RGxVV0pZeWlzdFc0U3JJUE52aTFKXzhlX3hpNHppbFA2Zk44OU5CdFhmN24yWHZhaEJud2ZYamp3?oc=5",
+     "time": "2026-11-04T01:12:58+00:00"
+    },
+    {
+     "title": "A 15,880-unit stock grant for SoFi (SOFI) director John C.R. Hele vests over 12 months.",
+     "publisher": "Stock Titan",
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPcU1VQ1N4QzlST1lqeGozVHZqVktNSXQ1X2NWaTRqdDhlczdrTHJMN28xZjdMSjhqNHRWdEZEQ0NfTlN1ZXBSZUlNQzhLT1dLSXhSeUVoT3BxRlFTWWc4bEwwb09BTFFUR0w2VGtRLUNxdm9jb0xBT1Byd01RWWEwSWE3ZjQ3b2xBYWFXdGdKUmEyeEpRMTY1ZkpPSmhJOWdVTVlrMlBzbjN3UGpIOS1uaUZpNHBrSHM?oc=5",
+     "time": "2026-11-04T01:04:00+00:00"
+    },
+    {
+     "title": "Why Now Could Be the Right Time to Buy SoFi Stock",
+     "publisher": "Barchart.com",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxONmpwQlM5RndrbW5jcUV6QmUxQVRvYms1X3FzLUplNXVEOGM2enJ4YWxoRjRMeEFzSXZEYkluVmNsc1ZXSWVJNDZEZXF2dWpJYVdHN2VUUVI4WnlVMGZ0TnYwdEdfLW5PdjJTZDBSNVRkT3V6QzFGX3RVWjFSV3VuUFFKUlFFcTdBdXI3cGRsRzJGZUQzQjU1WA?oc=5",
+     "time": "2026-11-03T19:53:39+00:00"
+    },
+    {
+     "title": "SoFi added 1.2M members last quarter but its st...",
+     "publisher": "Pluang",
+     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQVzA4M3hGMEtfN0dIRnhOWWRSbEVGU1RzZ1VuV1luMkZLdHE0VTJWWUo5d2F5aDJGbHA3TzRoWlBmUnFtTk1ubHRrQUtsRXZmeWdzSzhJdTUzck1mdkwtU28yVG1TSldRbldCUFFfLUlLZFRJVVA1MlV5ZndMb3JQWXlQOFVYUkVzSUE?oc=5",
+     "time": "2026-11-03T18:47:19+00:00"
+    },
+    {
+     "title": "Is SoFi Stock a Buy in November 2026?",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPT1lKMFE3MlEwRGFRSDVmeG0weTBBZHpqVXdHLXMyMGhBOFZQdi1TUTA1Q2RSRWNiZVlzdFJEVGY5N1NxN0RyRjM3ZXpkMjBKem5xS0tDTERGVGdlejh2OWFoTXdTMWg0OWdUT01LNmFzM1RxUURUY1F4TTV4RnZYcVREeXRFdw?oc=5",
+     "time": "2026-11-03T18:23:00+00:00"
+    }
+   ],
+   "brief": "2026-11-04-SOFI"
+  },
+  {
    "symbol": "NFLX",
    "name": "Netflix",
    "list": "portfolio",
-   "price": 66.23,
+   "price": 66.2,
    "prev_close": 63.42,
    "change_pct": 4.4,
    "trigger_change": 3.9,
@@ -453,11 +528,11 @@
    "sector": {
     "etf": "XLC",
     "name": "Communication",
-    "price": 105.83,
-    "change_pct": 4.33
+    "price": 105.81,
+    "change_pct": 4.31
    },
    "chart": {
-    "ema8": 3.3,
+    "ema8": 3.2,
     "ema21": -0.1,
     "sma50": -7.6,
     "sma200": -18.5,
@@ -519,7 +594,7 @@
    "symbol": "GOOG",
    "name": "Alphabet",
    "list": "portfolio",
-   "price": 290.25,
+   "price": 290.32,
    "prev_close": 278.27,
    "change_pct": 4.3,
    "trigger_change": 3.9,
@@ -528,8 +603,8 @@
    "sector": {
     "etf": "XLC",
     "name": "Communication",
-    "price": 105.83,
-    "change_pct": 4.33
+    "price": 105.81,
+    "change_pct": 4.31
    },
    "chart": {
     "ema8": -1.4,
@@ -591,85 +666,10 @@
    "brief": "2026-11-04-GOOG"
   },
   {
-   "symbol": "SOFI",
-   "name": "SoFi",
-   "list": "portfolio",
-   "price": 17.49,
-   "prev_close": 16.77,
-   "change_pct": 4.3,
-   "trigger_change": 4.1,
-   "peak_change": 5.4,
-   "first_seen": "2026-11-04T14:55:55+00:00",
-   "sector": {
-    "etf": "XLF",
-    "name": "Financials",
-    "price": 58.87,
-    "change_pct": 2.93
-   },
-   "chart": {
-    "ema8": 5.2,
-    "ema21": 8.6,
-    "sma50": 6.2,
-    "sma200": -0.9,
-    "momentum": true
-   },
-   "headlines": [
-    {
-     "title": "SoFi Technologies (SOFI) Tests Valuation Following Strong Q3 Results And Higher Outlook",
-     "publisher": "Simply Wall St",
-     "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOZHQ2eWxUMS05bnJlNHBRNEE2azdIQnVyQ01Ca0FCRkk4VVdialNvUGF6QzhwSUhRN0F1SGlkM1diZWhHUVM5bURweC1tNVRGRmhjUlFYc2dwcGdtcGZkS3B5b3JlRDN6OGxrMUZOWGhpZGJlV3Bub1JTaEtxUS1BcGZfaGp0Zmt2Uk85TU1rSkZwTFM4QTVZakJRV1UwWFk1cDhHMEdJV3BSMHJjcDJzZUMtNnRxOFNUdzcyV01rdGdDcnQ3OWZ2REI1Yk1LOG1hZ0NzalRLc2ZhMm92aEVDNk44dDDSAeoBQVVfeXFMUG02aHdIelZzTUptNmw3OUdFNkhmVmE0UWZpZFFvZjdtNXdRdlhaUDJHRDBYN01oOFpNXzlya291dDhGcjVzR0VWWHY3cTNzZWRvcWJHRlNDUDJtaHFtLXNENDR1YUpKWEI3UVl5ZEpDUXVkd0pWWWxIUnJDVlptYjhLZUVrY1J3a2V4dGhtRTJ4OWZxTjFvX2JVVGhDU3J5dWdfeVNJX091eGpIQU4xMU1VZEViZTRDLW5INVFxZ0NRTUtGbVBvWmFSVjRLS2FBdDNGRG1yNnhaQzNOS1dMWlRkT1dJWVBLR0Zn?oc=5",
-     "time": "2026-11-04T13:16:25+00:00"
-    },
-    {
-     "title": "SoFi Technologies, Inc. (SOFI) Is a Trending Stock: Facts to Know Before Betting on It",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQejJILW8taktnaWJsT1FuV09zYWxBZHI1dHNHdmJYVXNzSzgteC02NmxoUVFhM2o4aU54OG5KcUtBUGNIREE3S3lra0V6cVNfOWZZTjZLXzBFVVc4VWYyV2JoVjg0dG1neDVTdnZlYjhYMm5pcTgwaFdoN1lIWmZFYm9QcFktcXhfQldSSWh6ZF9ocUhlVEsxeDBweDBGazA4RFE?oc=5",
-     "time": "2026-11-04T13:00:03+00:00"
-    },
-    {
-     "title": "Prediction: These Will Be 3 of the Best-Performing Financial Stocks of 2027",
-     "publisher": "The Motley Fool",
-     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQb0c5NENYRGZlVE02SU1mZ1BrWWtvcjJRc29qSEE5M0dEOU5wSW1FUnRiVl9Nd1YxUy04d3RDOFpfakhveW1adUtrSkNLbEcyVzdNdFJYYjM3LTlsZWI5bWxtMzFta3pSZ0RWd3JMWWJkZ0Z0UWtYSlZIZ0dYSEJZX3I4NEo5SW5KOS1lT01ubmZjai1TNllQUA?oc=5",
-     "time": "2026-11-04T11:15:00+00:00"
-    },
-    {
-     "title": "SoFi Grants Director John C.R. Hele 15,880 Restricted Stock Units",
-     "publisher": "VZ Verm\u00f6gensZentrum",
-     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNZ0lreWkwRnR6V1cxYm9OQ3k5VVBUY1c0SF85OGxYeDJVUXAzVVluNkdyLU1MTUw0TWkwWVFFLUM1ZGRKWU1PNHd2T2lfeUQ2a2k3WFVFbTBWSGVBX05oV3dfWG5ETTdrZ1ZQXzItRjh4d1BnbDBiZ2VJZk4xSTRIa2puRm44OUxfeFJLU1Z1UG82RGxVV0pZeWlzdFc0U3JJUE52aTFKXzhlX3hpNHppbFA2Zk44OU5CdFhmN24yWHZhaEJud2ZYamp3?oc=5",
-     "time": "2026-11-04T01:12:58+00:00"
-    },
-    {
-     "title": "A 15,880-unit stock grant for SoFi (SOFI) director John C.R. Hele vests over 12 months.",
-     "publisher": "Stock Titan",
-     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPcU1VQ1N4QzlST1lqeGozVHZqVktNSXQ1X2NWaTRqdDhlczdrTHJMN28xZjdMSjhqNHRWdEZEQ0NfTlN1ZXBSZUlNQzhLT1dLSXhSeUVoT3BxRlFTWWc4bEwwb09BTFFUR0w2VGtRLUNxdm9jb0xBT1Byd01RWWEwSWE3ZjQ3b2xBYWFXdGdKUmEyeEpRMTY1ZkpPSmhJOWdVTVlrMlBzbjN3UGpIOS1uaUZpNHBrSHM?oc=5",
-     "time": "2026-11-04T01:04:00+00:00"
-    },
-    {
-     "title": "Why Now Could Be the Right Time to Buy SoFi Stock",
-     "publisher": "Barchart.com",
-     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxONmpwQlM5RndrbW5jcUV6QmUxQVRvYms1X3FzLUplNXVEOGM2enJ4YWxoRjRMeEFzSXZEYkluVmNsc1ZXSWVJNDZEZXF2dWpJYVdHN2VUUVI4WnlVMGZ0TnYwdEdfLW5PdjJTZDBSNVRkT3V6QzFGX3RVWjFSV3VuUFFKUlFFcTdBdXI3cGRsRzJGZUQzQjU1WA?oc=5",
-     "time": "2026-11-03T19:53:39+00:00"
-    },
-    {
-     "title": "SoFi added 1.2M members last quarter but its st...",
-     "publisher": "Pluang",
-     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQVzA4M3hGMEtfN0dIRnhOWWRSbEVGU1RzZ1VuV1luMkZLdHE0VTJWWUo5d2F5aDJGbHA3TzRoWlBmUnFtTk1ubHRrQUtsRXZmeWdzSzhJdTUzck1mdkwtU28yVG1TSldRbldCUFFfLUlLZFRJVVA1MlV5ZndMb3JQWXlQOFVYUkVzSUE?oc=5",
-     "time": "2026-11-03T18:47:19+00:00"
-    },
-    {
-     "title": "Is SoFi Stock a Buy in November 2026?",
-     "publisher": "The Motley Fool",
-     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPT1lKMFE3MlEwRGFRSDVmeG0weTBBZHpqVXdHLXMyMGhBOFZQdi1TUTA1Q2RSRWNiZVlzdFJEVGY5N1NxN0RyRjM3ZXpkMjBKem5xS0tDTERGVGdlejh2OWFoTXdTMWg0OWdUT01LNmFzM1RxUURUY1F4TTV4RnZYcVREeXRFdw?oc=5",
-     "time": "2026-11-03T18:23:00+00:00"
-    }
-   ],
-   "brief": "2026-11-04-SOFI"
-  },
-  {
    "symbol": "BTC-USD",
    "name": "Bitcoin",
    "list": "watchlist",
-   "price": 80357.7,
+   "price": 80351.0,
    "prev_close": 77331.7,
    "change_pct": 3.9,
    "trigger_change": 4.0,
@@ -739,23 +739,23 @@
    "symbol": "AMAT",
    "name": "Applied Materials",
    "list": "portfolio",
-   "price": 367.7,
+   "price": 369.57,
    "prev_close": 381.92,
-   "change_pct": -3.7,
+   "change_pct": -3.2,
    "trigger_change": -3.4,
    "peak_change": -4.0,
    "first_seen": "2026-11-04T16:33:19+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 507.43,
-    "change_pct": -2.14
+    "price": 507.9,
+    "change_pct": -2.05
    },
    "chart": {
-    "ema8": -5.4,
-    "ema21": -11.6,
-    "sma50": -18.5,
-    "sma200": -17.4,
+    "ema8": -5.0,
+    "ema21": -11.2,
+    "sma50": -18.1,
+    "sma200": -17.0,
     "momentum": false
    },
    "headlines": [
@@ -814,7 +814,7 @@
    "symbol": "META",
    "name": "Meta",
    "list": "portfolio",
-   "price": 640.89,
+   "price": 640.75,
    "prev_close": 621.03,
    "change_pct": 3.2,
    "trigger_change": 3.2,
@@ -823,14 +823,14 @@
    "sector": {
     "etf": "XLC",
     "name": "Communication",
-    "price": 105.83,
-    "change_pct": 4.33
+    "price": 105.81,
+    "change_pct": 4.31
    },
    "chart": {
     "ema8": 1.4,
-    "ema21": -2.7,
+    "ema21": -2.8,
     "sma50": -4.9,
-    "sma200": 1.4,
+    "sma200": 1.3,
     "momentum": false
    },
    "headlines": [
@@ -883,29 +883,29 @@
      "time": "2026-11-03T22:41:09+00:00"
     }
    ],
-   "brief": null
+   "brief": "2026-11-04-META"
   },
   {
    "symbol": "CRWD",
    "name": "CrowdStrike",
    "list": "portfolio",
-   "price": 242.1,
+   "price": 242.81,
    "prev_close": 244.68,
-   "change_pct": -1.1,
+   "change_pct": -0.8,
    "trigger_change": 3.1,
    "peak_change": 3.1,
    "first_seen": "2026-11-04T15:21:14+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 103.98,
-    "change_pct": 1.29
+    "price": 103.9,
+    "change_pct": 1.21
    },
    "chart": {
-    "ema8": -2.7,
-    "ema21": -3.2,
-    "sma50": -0.6,
-    "sma200": 43.1,
+    "ema8": -2.5,
+    "ema21": -2.9,
+    "sma50": -0.3,
+    "sma200": 43.5,
     "momentum": false
    },
    "headlines": [
