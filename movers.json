@@ -1,22 +1,22 @@
 {
  "date": "2026-11-04",
  "threshold": 3.0,
- "updated": "2026-11-04T19:44:22+00:00",
+ "updated": "2026-11-04T19:49:25+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 767.71,
+   "price": 767.7,
    "change_pct": 1.77
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 692.85,
-   "change_pct": 1.1
+   "price": 692.93,
+   "change_pct": 1.12
   },
   "TLT": {
    "name": "Long Treasuries",
    "price": 81.67,
-   "change_pct": 0.68
+   "change_pct": 0.69
   }
  },
  "movers": [
@@ -24,22 +24,22 @@
    "symbol": "APP",
    "name": "AppLovin",
    "list": "portfolio",
-   "price": 270.93,
+   "price": 270.87,
    "prev_close": 245.51,
-   "change_pct": 10.4,
+   "change_pct": 10.3,
    "trigger_change": 5.7,
    "peak_change": 12.2,
    "first_seen": "2026-11-04T14:55:55+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 103.84,
-    "change_pct": 1.15
+    "price": 103.83,
+    "change_pct": 1.14
    },
    "chart": {
     "ema8": 7.0,
     "ema21": 2.5,
-    "sma50": -6.8,
+    "sma50": -6.9,
     "sma200": -34.1,
     "momentum": false
    },
@@ -99,7 +99,7 @@
    "symbol": "AMZN",
    "name": "Amazon",
    "list": "portfolio",
-   "price": 268.38,
+   "price": 268.48,
    "prev_close": 250.69,
    "change_pct": 7.1,
    "trigger_change": 7.7,
@@ -108,14 +108,14 @@
    "sector": {
     "etf": "XLY",
     "name": "Consumer discr.",
-    "price": 122.73,
-    "change_pct": 4.6
+    "price": 122.7,
+    "change_pct": 4.58
    },
    "chart": {
     "ema8": 6.0,
-    "ema21": 6.0,
+    "ema21": 6.1,
     "sma50": 5.7,
-    "sma200": 10.1,
+    "sma200": 10.2,
     "momentum": true
    },
    "headlines": [
@@ -174,23 +174,23 @@
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 141.5,
+   "price": 141.22,
    "prev_close": 151.64,
-   "change_pct": -6.7,
+   "change_pct": -6.9,
    "trigger_change": -4.1,
    "peak_change": -7.3,
    "first_seen": "2026-11-04T15:31:22+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 103.84,
-    "change_pct": 1.15
+    "price": 103.83,
+    "change_pct": 1.14
    },
    "chart": {
-    "ema8": -9.2,
-    "ema21": -19.1,
-    "sma50": -31.1,
-    "sma200": -20.6,
+    "ema8": -9.4,
+    "ema21": -19.2,
+    "sma50": -31.2,
+    "sma200": -20.7,
     "momentum": false
    },
    "headlines": [
@@ -246,26 +246,71 @@
    "brief": "2026-11-04-NBIS"
   },
   {
+   "symbol": "NVO",
+   "name": "Novo Nordisk (ADR)",
+   "list": "portfolio",
+   "price": 42.4,
+   "prev_close": 40.19,
+   "change_pct": 5.5,
+   "trigger_change": 6.6,
+   "peak_change": 7.2,
+   "first_seen": "2026-11-04T14:55:55+00:00",
+   "sector": {
+    "etf": "XLV",
+    "name": "Health care",
+    "price": 189.07,
+    "change_pct": 2.74
+   },
+   "chart": {
+    "ema8": 5.4,
+    "ema21": 6.9,
+    "sma50": 3.8,
+    "sma200": -3.4,
+    "momentum": true
+   },
+   "headlines": [
+    {
+     "title": "NVO Q3 Earnings Beat Estimates on Wegovy Pill Growth, Outlook Raised",
+     "publisher": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZm45MnZTQVRnMU5wWGxvRnVRVWp4NEd0MHV4Y1dTWUVNRkF6QWlTNlpId0c3bGpYOWp5aTl6aTZUX1F6ZHpUdHExcHYzOUQxcWFtTnZtdUhYN1ozNG1SVVZhWTd4b1pzbVJ5U19WcGVtQXpoTEQyNkdOWE5oWmVqSjVPS1lueWVZMHFnMFdTSXdhczRxanFHN2k0azNxX3I2Q2YyTzMwQXltbTFadC1mY1BZb0xYSDdCSV9Ob21Bb3E?oc=5",
+     "time": "2026-11-04T13:35:00+00:00"
+    },
+    {
+     "title": "Earnings call transcript: Novo Nordisk rises on Q3 2026 growth outlook",
+     "publisher": "Investing.com",
+     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPZkwwRVBzZ3RRNDdKdTlkUmExM0p5V0NEZXJscEFXN2FiNE43U0k5S1k5UTNTb0dyTEk2V1d2N3FRY3BLQ19IaTJLeHZLVlBEWGZsUW1HaXZtd085M0dNSTMyZFdRckFwVkp2dHpISzVFZmFXLUVBSXk3THF3eTIwMkJ5QkdRSmJ5R21XTHZKSVRtUE1DQVF4X2Zib1N3STMyV0tUeHhWQkFuWE1UUktSTmJLWmxTMG53MFVjUUJaa2pPeUE?oc=5",
+     "time": "2026-11-04T13:24:16+00:00"
+    },
+    {
+     "title": "Novo Nordisk ADR earnings missed by $3.74, revenue fell short of estimates",
+     "publisher": "Investing.com Australia",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNVjNzbi02Z1FXRi1EQ1RobFhmVDF6OVoxNGRVbVdVTWo5Ukxqb1ltQTdEVzF2SUFsZjZzNURnWURlVjhmbndjZlBmSjZuRWFHLUhUM0ExdENvbnU1LVRPd1dvX3lMeVNMX0IyRHBFbWxObzlPYXZJSTNQa2E3MFRRaTZIWFJxVE5OOW1rUjg5UGJUSmpVNGVLbHRZV3BXQ2p3czZWNFlTSUt3SDI5U2lFZUYtbUEtVWt1aEE?oc=5",
+     "time": "2026-11-04T08:44:42+00:00"
+    }
+   ],
+   "brief": "2026-11-04-NVO"
+  },
+  {
    "symbol": "ANET",
    "name": "Arista Networks",
    "list": "portfolio",
-   "price": 179.53,
+   "price": 179.09,
    "prev_close": 169.91,
-   "change_pct": 5.7,
+   "change_pct": 5.4,
    "trigger_change": 10.3,
    "peak_change": 10.3,
    "first_seen": "2026-11-04T14:55:55+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 502.35,
-    "change_pct": -3.12
+    "price": 502.74,
+    "change_pct": -3.04
    },
    "chart": {
-    "ema8": 1.9,
-    "ema21": -2.2,
-    "sma50": -7.5,
-    "sma200": 8.3,
+    "ema8": 1.7,
+    "ema21": -2.5,
+    "sma50": -7.7,
+    "sma200": 8.0,
     "momentum": false
    },
    "headlines": [
@@ -321,55 +366,10 @@
    "brief": "2026-11-04-ANET"
   },
   {
-   "symbol": "NVO",
-   "name": "Novo Nordisk (ADR)",
-   "list": "portfolio",
-   "price": 42.47,
-   "prev_close": 40.19,
-   "change_pct": 5.7,
-   "trigger_change": 6.6,
-   "peak_change": 7.2,
-   "first_seen": "2026-11-04T14:55:55+00:00",
-   "sector": {
-    "etf": "XLV",
-    "name": "Health care",
-    "price": 189.2,
-    "change_pct": 2.81
-   },
-   "chart": {
-    "ema8": 5.6,
-    "ema21": 7.1,
-    "sma50": 4.0,
-    "sma200": -3.3,
-    "momentum": true
-   },
-   "headlines": [
-    {
-     "title": "NVO Q3 Earnings Beat Estimates on Wegovy Pill Growth, Outlook Raised",
-     "publisher": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZm45MnZTQVRnMU5wWGxvRnVRVWp4NEd0MHV4Y1dTWUVNRkF6QWlTNlpId0c3bGpYOWp5aTl6aTZUX1F6ZHpUdHExcHYzOUQxcWFtTnZtdUhYN1ozNG1SVVZhWTd4b1pzbVJ5U19WcGVtQXpoTEQyNkdOWE5oWmVqSjVPS1lueWVZMHFnMFdTSXdhczRxanFHN2k0azNxX3I2Q2YyTzMwQXltbTFadC1mY1BZb0xYSDdCSV9Ob21Bb3E?oc=5",
-     "time": "2026-11-04T13:35:00+00:00"
-    },
-    {
-     "title": "Earnings call transcript: Novo Nordisk rises on Q3 2026 growth outlook",
-     "publisher": "Investing.com",
-     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPZkwwRVBzZ3RRNDdKdTlkUmExM0p5V0NEZXJscEFXN2FiNE43U0k5S1k5UTNTb0dyTEk2V1d2N3FRY3BLQ19IaTJLeHZLVlBEWGZsUW1HaXZtd085M0dNSTMyZFdRckFwVkp2dHpISzVFZmFXLUVBSXk3THF3eTIwMkJ5QkdRSmJ5R21XTHZKSVRtUE1DQVF4X2Zib1N3STMyV0tUeHhWQkFuWE1UUktSTmJLWmxTMG53MFVjUUJaa2pPeUE?oc=5",
-     "time": "2026-11-04T13:24:16+00:00"
-    },
-    {
-     "title": "Novo Nordisk ADR earnings missed by $3.74, revenue fell short of estimates",
-     "publisher": "Investing.com Australia",
-     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNVjNzbi02Z1FXRi1EQ1RobFhmVDF6OVoxNGRVbVdVTWo5Ukxqb1ltQTdEVzF2SUFsZjZzNURnWURlVjhmbndjZlBmSjZuRWFHLUhUM0ExdENvbnU1LVRPd1dvX3lMeVNMX0IyRHBFbWxObzlPYXZJSTNQa2E3MFRRaTZIWFJxVE5OOW1rUjg5UGJUSmpVNGVLbHRZV3BXQ2p3czZWNFlTSUt3SDI5U2lFZUYtbUEtVWt1aEE?oc=5",
-     "time": "2026-11-04T08:44:42+00:00"
-    }
-   ],
-   "brief": "2026-11-04-NVO"
-  },
-  {
    "symbol": "MELI",
    "name": "MercadoLibre",
    "list": "watchlist",
-   "price": 1749.86,
+   "price": 1749.51,
    "prev_close": 1662.16,
    "change_pct": 5.3,
    "trigger_change": 4.9,
@@ -378,8 +378,8 @@
    "sector": {
     "etf": "XLY",
     "name": "Consumer discr.",
-    "price": 122.73,
-    "change_pct": 4.6
+    "price": 122.7,
+    "change_pct": 4.58
    },
    "chart": {
     "ema8": 2.6,
@@ -444,23 +444,23 @@
    "symbol": "NFLX",
    "name": "Netflix",
    "list": "portfolio",
-   "price": 66.3,
+   "price": 66.39,
    "prev_close": 63.42,
-   "change_pct": 4.5,
+   "change_pct": 4.7,
    "trigger_change": 3.9,
-   "peak_change": 4.5,
+   "peak_change": 4.7,
    "first_seen": "2026-11-04T15:00:57+00:00",
    "sector": {
     "etf": "XLC",
     "name": "Communication",
-    "price": 104.94,
-    "change_pct": 3.46
+    "price": 104.97,
+    "change_pct": 3.47
    },
    "chart": {
-    "ema8": 3.3,
-    "ema21": 0.0,
-    "sma50": -7.5,
-    "sma200": -18.4,
+    "ema8": 3.4,
+    "ema21": 0.1,
+    "sma50": -7.4,
+    "sma200": -18.3,
     "momentum": false
    },
    "headlines": [
@@ -519,7 +519,7 @@
    "symbol": "AMAT",
    "name": "Applied Materials",
    "list": "portfolio",
-   "price": 365.18,
+   "price": 365.22,
    "prev_close": 381.92,
    "change_pct": -4.4,
    "trigger_change": -3.4,
@@ -528,8 +528,8 @@
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 502.35,
-    "change_pct": -3.12
+    "price": 502.74,
+    "change_pct": -3.04
    },
    "chart": {
     "ema8": -5.9,
@@ -594,7 +594,7 @@
    "symbol": "GOOG",
    "name": "Alphabet",
    "list": "portfolio",
-   "price": 289.64,
+   "price": 289.76,
    "prev_close": 278.27,
    "change_pct": 4.1,
    "trigger_change": 3.9,
@@ -603,13 +603,13 @@
    "sector": {
     "etf": "XLC",
     "name": "Communication",
-    "price": 104.94,
-    "change_pct": 3.46
+    "price": 104.97,
+    "change_pct": 3.47
    },
    "chart": {
     "ema8": -1.5,
     "ema21": -7.5,
-    "sma50": -12.8,
+    "sma50": -12.7,
     "sma200": -14.3,
     "momentum": false
    },
@@ -669,9 +669,9 @@
    "symbol": "SOFI",
    "name": "SoFi",
    "list": "portfolio",
-   "price": 17.39,
+   "price": 17.38,
    "prev_close": 16.77,
-   "change_pct": 3.7,
+   "change_pct": 3.6,
    "trigger_change": 4.1,
    "peak_change": 5.4,
    "first_seen": "2026-11-04T14:55:55+00:00",
@@ -682,10 +682,10 @@
     "change_pct": 3.03
    },
    "chart": {
-    "ema8": 4.8,
+    "ema8": 4.7,
     "ema21": 8.0,
-    "sma50": 5.6,
-    "sma200": -1.4,
+    "sma50": 5.5,
+    "sma200": -1.5,
     "momentum": true
    },
    "headlines": [
@@ -744,18 +744,18 @@
    "symbol": "BTC-USD",
    "name": "Bitcoin",
    "list": "watchlist",
-   "price": 80019.4,
+   "price": 79936.2,
    "prev_close": 77331.7,
-   "change_pct": 3.5,
+   "change_pct": 3.4,
    "trigger_change": 4.0,
    "peak_change": 4.7,
    "first_seen": "2026-11-04T15:11:03+00:00",
    "sector": null,
    "chart": {
-    "ema8": 1.8,
-    "ema21": 0.2,
-    "sma50": -2.4,
-    "sma200": 9.3,
+    "ema8": 1.7,
+    "ema21": 0.1,
+    "sma50": -2.5,
+    "sma200": 9.2,
     "momentum": false
    },
    "headlines": [
@@ -814,23 +814,23 @@
    "symbol": "META",
    "name": "Meta",
    "list": "portfolio",
-   "price": 628.43,
+   "price": 628.88,
    "prev_close": 621.03,
-   "change_pct": 1.2,
+   "change_pct": 1.3,
    "trigger_change": 3.2,
    "peak_change": 3.2,
    "first_seen": "2026-11-04T17:48:16+00:00",
    "sector": {
     "etf": "XLC",
     "name": "Communication",
-    "price": 104.94,
-    "change_pct": 3.46
+    "price": 104.97,
+    "change_pct": 3.47
    },
    "chart": {
-    "ema8": -0.1,
-    "ema21": -4.5,
-    "sma50": -6.7,
-    "sma200": -0.6,
+    "ema8": -0.0,
+    "ema21": -4.4,
+    "sma50": -6.6,
+    "sma200": -0.5,
     "momentum": false
    },
    "headlines": [
@@ -889,7 +889,7 @@
    "symbol": "CRWD",
    "name": "CrowdStrike",
    "list": "portfolio",
-   "price": 243.12,
+   "price": 243.32,
    "prev_close": 244.68,
    "change_pct": -0.6,
    "trigger_change": 3.1,
@@ -898,14 +898,14 @@
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 103.84,
-    "change_pct": 1.15
+    "price": 103.83,
+    "change_pct": 1.14
    },
    "chart": {
-    "ema8": -2.4,
+    "ema8": -2.3,
     "ema21": -2.8,
     "sma50": -0.1,
-    "sma200": 43.7,
+    "sma200": 43.8,
     "momentum": false
    },
    "headlines": [
