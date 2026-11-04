@@ -1,121 +1,46 @@
 {
  "date": "2026-11-04",
  "threshold": 3.0,
- "updated": "2026-11-04T15:31:22+00:00",
+ "updated": "2026-11-04T15:36:23+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 765.94,
-   "change_pct": 1.54
+   "price": 766.86,
+   "change_pct": 1.66
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 696.41,
-   "change_pct": 1.62
+   "price": 697.07,
+   "change_pct": 1.72
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 81.17,
-   "change_pct": 0.07
+   "price": 81.18,
+   "change_pct": 0.08
   }
  },
  "movers": [
   {
-   "symbol": "ANET",
-   "name": "Arista Networks",
-   "list": "portfolio",
-   "price": 186.42,
-   "prev_close": 169.91,
-   "change_pct": 9.7,
-   "trigger_change": 10.3,
-   "peak_change": 10.3,
-   "first_seen": "2026-11-04T14:55:55+00:00",
-   "sector": {
-    "etf": "SMH",
-    "name": "Semiconductors",
-    "price": 510.54,
-    "change_pct": -1.54
-   },
-   "chart": {
-    "ema8": 4.9,
-    "ema21": 1.2,
-    "sma50": -4.0,
-    "sma200": 12.4,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Arista Says Its AI Business Will Double to $7 Billion",
-     "publisher": "24/7 Wall St.",
-     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNXzludldWc3lxRjZjS3R6Y0JKZU52RjNSQS11ZEhiSFN3aVJ1anJ6elh5bk4yRkpuQlBVQXQtMml2R1JoYXl1N2RoZXotLXdXdjZiS1FxYmRjU2hQOUg5bFM4SWpTTnZjY25zN25uOExrZHdfLXZfb0lodEZVRDVJbE5HaXlVSVM0eFF2WEE0VG14clRadXI4TENXcGI?oc=5",
-     "time": "2026-11-04T14:29:00+00:00"
-    },
-    {
-     "title": "Arista Networks issues historic guidance beat as catalysts appear ahead: analysts",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQWmJqTFIxbEZ3b1JmaTBqMjBsdU93aHM5UzFoTWpUeUt4WGNfWFQ1eDRMSmtkNThqbEd3U0U5X1dsdGVaZFB4Z29WWmxUdURtdFpmREk2Q1o3Mmo4YWdWRVNOaVhoSmJVTnVvUUVvNTVvNHJuUjR2cGFfVFRVV0JwUHVSZWxwblpEdWdxZWRyc1VzSlUzczIxdUtUamh3alUxeU1iQlN5UzF0Vk0yQkVwajBXYWQzNzZfQlE?oc=5",
-     "time": "2026-11-04T14:05:47+00:00"
-    },
-    {
-     "title": "Arista Networks' Demand Strength, Supply Efficiency Help Lift Revenue Outlook",
-     "publisher": "Yahoo! Finance Canada",
-     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPb0lSaDNvR294ZE1MNENWVV9PUVlXRHctMnNkOExmcEZuWk9HRVB4ZGl6bVdnSkNFVmdfajlGaDAyQ290T01Ta0VIS3YyZlVyY1duamZvbG12cnZDN1RRQ3FMRmV5RmdtaTRhcXl5eS1EMjM2Q2ZKSWdqSjdMajhEVkhTWldsVVNveW5ndTVR?oc=5",
-     "time": "2026-11-04T13:29:08+00:00"
-    },
-    {
-     "title": "Rosenblatt Securities Reaffirms \"Buy\" Rating for Arista Networks (NYSE:ANET)",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOQjYzUGVhcFI5cVROU2ZyZ0lCYy16M19tWWFpTS12NHZ6MmdnVGd5YkxoWmRhaF9uU2tlMWlIZXRHaW9ZQUZLTWYwOU9qZlFWbWpQYk9EOVg2cTI4NzRDNE5fcUMxd1Q0SkU0YnpFNkJBWjV6MzJhSlZ1NEU3RzlVZDE1V3JxVGZ1Sll1UnE2bU9DRjhkUUJSd0hPVXdXN1RXR05uUkluTDN2ckg0cUxyUEp0dVplLUtmR0hmQnprR1dDSzlaZ0lJVDVSalNxNm8?oc=5",
-     "time": "2026-11-04T13:20:30+00:00"
-    },
-    {
-     "title": "Arista\u2019s AI Growth Story Builds, but Scale-Up Revenue May Have to Wait",
-     "publisher": "Benzinga",
-     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNcExTQzhLSkhESDBWejZXUGNuS2NtQzh1QXhqNUFMSVUwQlM1SjVSOU9jRXViZldUaUJicmx4RzNzUV9qSzF1VjNrR3dWRHF6UzdQOEhZREdmVXNMNkxvX0hFZFM5NFdpb1FkdEJiYlp4UWFIWjFMQU1laTAtYkJ3RUxKcUNISUxTcnpqeWNlTjlZamVaeFpYaWRBakZiQk02OHZnZUVNY1o0d1F3UlJhRzl0ekpVdlUtN0ZlTWxaTHVuZ3M?oc=5",
-     "time": "2026-11-04T12:59:09+00:00"
-    },
-    {
-     "title": "Provenance Wealth Advisors LLC Buys 14,591 Shares of Arista Networks, Inc. $ANET",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxORWRZZWw4VHc2N3BtVk9jSjdpT3ZmWEV0bjFYVUlBY0dwT1I4WUZrYWZOeVUycmJGSjdtT0kxYk9hN1ZueGxsOUxNOWhNeFl2cGVVd1RHSWd3OW5ZWnJqcTFHT25qblpjQ09GMnlSaGNVenVWeEl6SHQwZEx0RlR4ZEJHME9XQWU0a2VnZ09PbU5KVWVOU3hjb0VSbGQ0dEgyd2ZjbXdpaHl2V1FOU0x3SDZncGg3T2dJUVFiNjJ4Q0pxbElMV241ZzJLTFRBcnJsVFVJ?oc=5",
-     "time": "2026-11-04T11:43:51+00:00"
-    },
-    {
-     "title": "Rakuten Investment Management Inc. Purchases New Stake in Arista Networks, Inc. $ANET",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPeXdULTVaWG1TSDF5Qk9LZVd4UHhSYl9xTG9keWFWZVRqMTBGQzFWRUkwdmozTHJsa3JaRXE0b1MzOTJ5MDU5dFdrNEFNbXpZcENod2ZaTnpjTGMzSV8xR2lYend6cWVicXcwdlNjbHBIWjBJZWV1NG5LMnBINkJtZVF3RzBwcWpKX2JwYi00ckpObzRDOUxpQnhLTDNwRmhuT2dvWDVyMjRYS21mZjdpRlV4TE45d1daTHlNb1NLZVlvMi1rcS1HTy1KbFNyQkdFbVZVQWNvRjNCdw?oc=5",
-     "time": "2026-11-04T11:34:57+00:00"
-    },
-    {
-     "title": "Revenue reaches $3.66B at Arista Networks (ANET), with quarterly profit also climbing.",
-     "publisher": "Stock Titan",
-     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQMG5uQmdZR1ptVDJzekJ0cjdDSTQ1Mnp3bWpPTzlUeXNIQ2NzckpuQjVGSTlySHZxa0lTSkhCWWYxWkhHYzJHcm1UdXVWTk45WnNUVi14S194d2RqSFlHcEVXN3A5Z2x4OXRLVk0wTm44eE5MNDUweHdSUGRkU0NFRElLSnIwR2k0TWl0dFREQlRLaWEzSUx6a2ZGenkwZ3I1bFNaZ3l6RUlhMHNOM0pqR05R?oc=5",
-     "time": "2026-11-04T11:03:30+00:00"
-    }
-   ],
-   "brief": null
-  },
-  {
    "symbol": "APP",
    "name": "AppLovin",
    "list": "portfolio",
-   "price": 269.38,
+   "price": 269.14,
    "prev_close": 245.51,
-   "change_pct": 9.7,
+   "change_pct": 9.6,
    "trigger_change": 5.7,
    "peak_change": 9.7,
    "first_seen": "2026-11-04T14:55:55+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 105.14,
-    "change_pct": 2.42
+    "price": 105.27,
+    "change_pct": 2.54
    },
    "chart": {
-    "ema8": 6.5,
-    "ema21": 2.0,
+    "ema8": 6.4,
+    "ema21": 1.9,
     "sma50": -7.4,
-    "sma200": -34.4,
+    "sma200": -34.5,
     "momentum": false
    },
    "headlines": [
@@ -171,26 +96,101 @@
    "brief": null
   },
   {
+   "symbol": "ANET",
+   "name": "Arista Networks",
+   "list": "portfolio",
+   "price": 185.59,
+   "prev_close": 169.91,
+   "change_pct": 9.2,
+   "trigger_change": 10.3,
+   "peak_change": 10.3,
+   "first_seen": "2026-11-04T14:55:55+00:00",
+   "sector": {
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 512.47,
+    "change_pct": -1.17
+   },
+   "chart": {
+    "ema8": 4.5,
+    "ema21": 0.7,
+    "sma50": -4.5,
+    "sma200": 11.9,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Arista Says Its AI Business Will Double to $7 Billion",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNXzludldWc3lxRjZjS3R6Y0JKZU52RjNSQS11ZEhiSFN3aVJ1anJ6elh5bk4yRkpuQlBVQXQtMml2R1JoYXl1N2RoZXotLXdXdjZiS1FxYmRjU2hQOUg5bFM4SWpTTnZjY25zN25uOExrZHdfLXZfb0lodEZVRDVJbE5HaXlVSVM0eFF2WEE0VG14clRadXI4TENXcGI?oc=5",
+     "time": "2026-11-04T14:29:00+00:00"
+    },
+    {
+     "title": "Arista Networks issues historic guidance beat as catalysts appear ahead: analysts",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQWmJqTFIxbEZ3b1JmaTBqMjBsdU93aHM5UzFoTWpUeUt4WGNfWFQ1eDRMSmtkNThqbEd3U0U5X1dsdGVaZFB4Z29WWmxUdURtdFpmREk2Q1o3Mmo4YWdWRVNOaVhoSmJVTnVvUUVvNTVvNHJuUjR2cGFfVFRVV0JwUHVSZWxwblpEdWdxZWRyc1VzSlUzczIxdUtUamh3alUxeU1iQlN5UzF0Vk0yQkVwajBXYWQzNzZfQlE?oc=5",
+     "time": "2026-11-04T14:05:47+00:00"
+    },
+    {
+     "title": "Arista Networks' Demand Strength, Supply Efficiency Help Lift Revenue Outlook",
+     "publisher": "Yahoo! Finance Canada",
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPb0lSaDNvR294ZE1MNENWVV9PUVlXRHctMnNkOExmcEZuWk9HRVB4ZGl6bVdnSkNFVmdfajlGaDAyQ290T01Ta0VIS3YyZlVyY1duamZvbG12cnZDN1RRQ3FMRmV5RmdtaTRhcXl5eS1EMjM2Q2ZKSWdqSjdMajhEVkhTWldsVVNveW5ndTVR?oc=5",
+     "time": "2026-11-04T13:29:08+00:00"
+    },
+    {
+     "title": "Rosenblatt Securities Reaffirms \"Buy\" Rating for Arista Networks (NYSE:ANET)",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOQjYzUGVhcFI5cVROU2ZyZ0lCYy16M19tWWFpTS12NHZ6MmdnVGd5YkxoWmRhaF9uU2tlMWlIZXRHaW9ZQUZLTWYwOU9qZlFWbWpQYk9EOVg2cTI4NzRDNE5fcUMxd1Q0SkU0YnpFNkJBWjV6MzJhSlZ1NEU3RzlVZDE1V3JxVGZ1Sll1UnE2bU9DRjhkUUJSd0hPVXdXN1RXR05uUkluTDN2ckg0cUxyUEp0dVplLUtmR0hmQnprR1dDSzlaZ0lJVDVSalNxNm8?oc=5",
+     "time": "2026-11-04T13:20:30+00:00"
+    },
+    {
+     "title": "Arista\u2019s AI Growth Story Builds, but Scale-Up Revenue May Have to Wait",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNcExTQzhLSkhESDBWejZXUGNuS2NtQzh1QXhqNUFMSVUwQlM1SjVSOU9jRXViZldUaUJicmx4RzNzUV9qSzF1VjNrR3dWRHF6UzdQOEhZREdmVXNMNkxvX0hFZFM5NFdpb1FkdEJiYlp4UWFIWjFMQU1laTAtYkJ3RUxKcUNISUxTcnpqeWNlTjlZamVaeFpYaWRBakZiQk02OHZnZUVNY1o0d1F3UlJhRzl0ekpVdlUtN0ZlTWxaTHVuZ3M?oc=5",
+     "time": "2026-11-04T12:59:09+00:00"
+    },
+    {
+     "title": "Provenance Wealth Advisors LLC Buys 14,591 Shares of Arista Networks, Inc. $ANET",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxORWRZZWw4VHc2N3BtVk9jSjdpT3ZmWEV0bjFYVUlBY0dwT1I4WUZrYWZOeVUycmJGSjdtT0kxYk9hN1ZueGxsOUxNOWhNeFl2cGVVd1RHSWd3OW5ZWnJqcTFHT25qblpjQ09GMnlSaGNVenVWeEl6SHQwZEx0RlR4ZEJHME9XQWU0a2VnZ09PbU5KVWVOU3hjb0VSbGQ0dEgyd2ZjbXdpaHl2V1FOU0x3SDZncGg3T2dJUVFiNjJ4Q0pxbElMV241ZzJLTFRBcnJsVFVJ?oc=5",
+     "time": "2026-11-04T11:43:51+00:00"
+    },
+    {
+     "title": "Rakuten Investment Management Inc. Purchases New Stake in Arista Networks, Inc. $ANET",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPeXdULTVaWG1TSDF5Qk9LZVd4UHhSYl9xTG9keWFWZVRqMTBGQzFWRUkwdmozTHJsa3JaRXE0b1MzOTJ5MDU5dFdrNEFNbXpZcENod2ZaTnpjTGMzSV8xR2lYend6cWVicXcwdlNjbHBIWjBJZWV1NG5LMnBINkJtZVF3RzBwcWpKX2JwYi00ckpObzRDOUxpQnhLTDNwRmhuT2dvWDVyMjRYS21mZjdpRlV4TE45d1daTHlNb1NLZVlvMi1rcS1HTy1KbFNyQkdFbVZVQWNvRjNCdw?oc=5",
+     "time": "2026-11-04T11:34:57+00:00"
+    },
+    {
+     "title": "Revenue reaches $3.66B at Arista Networks (ANET), with quarterly profit also climbing.",
+     "publisher": "Stock Titan",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQMG5uQmdZR1ptVDJzekJ0cjdDSTQ1Mnp3bWpPTzlUeXNIQ2NzckpuQjVGSTlySHZxa0lTSkhCWWYxWkhHYzJHcm1UdXVWTk45WnNUVi14S194d2RqSFlHcEVXN3A5Z2x4OXRLVk0wTm44eE5MNDUweHdSUGRkU0NFRElLSnIwR2k0TWl0dFREQlRLaWEzSUx6a2ZGenkwZ3I1bFNaZ3l6RUlhMHNOM0pqR05R?oc=5",
+     "time": "2026-11-04T11:03:30+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
    "symbol": "AMZN",
    "name": "Amazon",
    "list": "portfolio",
-   "price": 268.97,
+   "price": 268.12,
    "prev_close": 250.69,
-   "change_pct": 7.3,
+   "change_pct": 7.0,
    "trigger_change": 7.7,
    "peak_change": 8.0,
    "first_seen": "2026-11-04T14:55:55+00:00",
    "sector": {
     "etf": "XLY",
     "name": "Consumer discr.",
-    "price": 121.77,
-    "change_pct": 3.78
+    "price": 121.83,
+    "change_pct": 3.84
    },
    "chart": {
-    "ema8": 6.2,
-    "ema21": 6.2,
-    "sma50": 5.9,
-    "sma200": 10.4,
+    "ema8": 5.9,
+    "ema21": 5.9,
+    "sma50": 5.6,
+    "sma200": 10.0,
     "momentum": true
    },
    "headlines": [
@@ -249,23 +249,23 @@
    "symbol": "MELI",
    "name": "MercadoLibre",
    "list": "watchlist",
-   "price": 1760.51,
+   "price": 1758.24,
    "prev_close": 1662.16,
-   "change_pct": 5.9,
+   "change_pct": 5.8,
    "trigger_change": 4.9,
    "peak_change": 6.2,
    "first_seen": "2026-11-04T14:55:55+00:00",
    "sector": {
     "etf": "XLY",
     "name": "Consumer discr.",
-    "price": 121.77,
-    "change_pct": 3.78
+    "price": 121.83,
+    "change_pct": 3.84
    },
    "chart": {
-    "ema8": 3.1,
-    "ema21": 0.4,
-    "sma50": -3.5,
-    "sma200": -2.6,
+    "ema8": 3.0,
+    "ema21": 0.3,
+    "sma50": -3.7,
+    "sma200": -2.7,
     "momentum": false
    },
    "headlines": [
@@ -324,23 +324,23 @@
    "symbol": "NVO",
    "name": "Novo Nordisk (ADR)",
    "list": "portfolio",
-   "price": 42.46,
+   "price": 42.49,
    "prev_close": 40.19,
-   "change_pct": 5.6,
+   "change_pct": 5.7,
    "trigger_change": 6.6,
    "peak_change": 6.6,
    "first_seen": "2026-11-04T14:55:55+00:00",
    "sector": {
     "etf": "XLV",
     "name": "Health care",
-    "price": 185.74,
-    "change_pct": 0.93
+    "price": 186.54,
+    "change_pct": 1.37
    },
    "chart": {
     "ema8": 5.6,
-    "ema21": 7.1,
-    "sma50": 3.9,
-    "sma200": -3.3,
+    "ema21": 7.2,
+    "sma50": 4.0,
+    "sma200": -3.2,
     "momentum": true
    },
    "headlines": [
@@ -363,23 +363,23 @@
    "symbol": "GOOG",
    "name": "Alphabet",
    "list": "portfolio",
-   "price": 291.55,
+   "price": 291.39,
    "prev_close": 278.27,
-   "change_pct": 4.8,
+   "change_pct": 4.7,
    "trigger_change": 3.9,
    "peak_change": 5.4,
    "first_seen": "2026-11-04T14:55:55+00:00",
    "sector": {
     "etf": "XLC",
     "name": "Communication",
-    "price": 104.98,
-    "change_pct": 3.49
+    "price": 105.18,
+    "change_pct": 3.69
    },
    "chart": {
-    "ema8": -1.0,
+    "ema8": -1.1,
     "ema21": -7.0,
-    "sma50": -12.2,
-    "sma200": -13.7,
+    "sma50": -12.3,
+    "sma200": -13.8,
     "momentum": false
    },
    "headlines": [
@@ -435,171 +435,26 @@
    "brief": null
   },
   {
-   "symbol": "NFLX",
-   "name": "Netflix",
-   "list": "portfolio",
-   "price": 66.02,
-   "prev_close": 63.42,
-   "change_pct": 4.1,
-   "trigger_change": 3.9,
-   "peak_change": 4.1,
-   "first_seen": "2026-11-04T15:00:57+00:00",
-   "sector": {
-    "etf": "XLC",
-    "name": "Communication",
-    "price": 104.98,
-    "change_pct": 3.49
-   },
-   "chart": {
-    "ema8": 3.0,
-    "ema21": -0.4,
-    "sma50": -7.9,
-    "sma200": -18.7,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Netflix, Inc. $NFLX Stock Acquired by Provenance Wealth Advisors LLC",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPTHJ2Z29EV3htXzNqRjFCTUM0THRBeDlPSmtqUzRtMUFURFJCTU04RzU2ODVIcHNLbXFHWTdYVkNUaDJUVzlVaHhWM3NCMXFmbmhMaTZqZVgzcXJFel9ubmtfSHVfdVY3VHB5ejkteVItNGoxSXhSYldZZ0RHRnNSdUdSTlRtUlBvd2lQZk8xZE1xVHJlRkw4NjRtR2E3eUtJdUZtRDR5T2JVTXJnYlR3UW9jc2F5SHZVaXBYcnNfMkExNmJt?oc=5",
-     "time": "2026-11-04T11:43:48+00:00"
-    },
-    {
-     "title": "Netflix, Inc. $NFLX Stock Bought by Markel Group Inc.",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQRzh4YkdwZG9XakQ2bmxidTJicUg3TmhzbFkxRHNkUzhVaFd4SHdOblEtWUtjaWtINmxMUWFKXzNnOTk3V29CVjJybFBuaG9VMExFRWtJOXRETlZHd1RRTjRYckE5OEd6SGhVNTV2SFo3VTJtTkpHME1kcEhWb2pWWll0dnB6SFpranVqSk5vQ1FoWE55alJRUDVyal9CVG01S1VqZjVVRmdfSHJxME9Z?oc=5",
-     "time": "2026-11-04T09:46:05+00:00"
-    },
-    {
-     "title": "Netflix, Inc. $NFLX Shares Newly Bought by Associated Banc Corp",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQUzNRS0Vnalk5UjQ5RUVyTWtyWXVqTk9KTkwzRmhHZm1TWklZT0tjRi1iWkNoc3djeHRBcy1rc1RuM3hqaWlBNEN5V0V4TG9vWktOd3RibXdtaF9XR2hnU2pxMURSYjdlLUJ1aDdRaDhobm9hM2pZNHhUeFJ0Y2dRSWdNRmFETTljUUNpRTBNZVRaemNCMWx4YnBUZVZ2RndRanh6SEdELVk1Z0otQnhiZkg1aThDVXNxZGtCMllR?oc=5",
-     "time": "2026-11-04T08:47:21+00:00"
-    },
-    {
-     "title": "Netflix (NFLX) awards Elinor Mertz 1,002 stock options with a $62.34 exercise price.",
-     "publisher": "Stock Titan",
-     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNckoyM2xxekdER1JSdnVxR0ZkdWNzQVZOWVZ2SnRXN3R1ajExZjY4MXh3bV8wNmN5bjd3dkY4SEgyWm53VkY2Tl94aWhiR0FFMFN3UDJFQWJYcUduUDczeElPQ1NpbTZkMjBjczV6TUJUMFdubUlqSm91emx1endBSG5iWTlvaWdNNkZXMXRobk55YUxMQkw2U2YyZGJfYklxUVllREhFZmo?oc=5",
-     "time": "2026-11-04T00:47:00+00:00"
-    },
-    {
-     "title": "Netflix (NFLX) director Strive Masiyiwa receives options with a $62.34 exercise price.",
-     "publisher": "Stock Titan",
-     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQR1JJT2J3ajhuUFdIQ1ktWGFuN3JBb1laWnRGUERRNmdha3pwMzE0T0xkUHNIR2xaZGtLYVNNTHVybkZmZWZPeUpXNTA2MjZxWXFBRWZDWVBYb1p1VGdaUS0zdG9KRFFIWGFaaE5XaDlPRjVyRS1pUTN6dE1PYVh4dG9VeUZpVzExQTRtOFBHQml5dGItaGVVdUdDSXR0YXRfS2JRLXpDQ2w?oc=5",
-     "time": "2026-11-04T00:46:00+00:00"
-    },
-    {
-     "title": "Netflix (NFLX) director Mathias Dopfner receives 1,002 options with a $62.34 exercise price.",
-     "publisher": "Stock Titan",
-     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQeXVPV0FvanhVTU5jd1VpcEtRZ1AxLUtpVmJKbmhZaThQM2hETHdEamp2dFVRNXEtT1dKbk41d3A3azQxWWFtQkZCeXp4ZDdpSWZMTElLZ2Y4elRra3FheWhPXzRWZUZhR0szMHJSQ2JMWmFRbk1ZdlBWSUctUFp6dlZJSDdVdUpmVHI2NU9HOEhNVVBBYzUtZnUzTk83NWZqMVpXSVpPd3E?oc=5",
-     "time": "2026-11-04T00:45:00+00:00"
-    },
-    {
-     "title": "Netflix (NFLX) awards Susan E. Rice 1,003 options with a $62.34 exercise price.",
-     "publisher": "Stock Titan",
-     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNQjk2bkFtQnJtUE5aZ0RobUdlUjFzZy1UTFpBM1BnRXplTUxQa1RSUnE2RHJRSUlhVFhTRHZiUGlWMFUwS0kyb1JRelVhampOTVlYczJzcERYbGFjQVFxd0lHSjFRYUs4RFV4V2I0dktRQm9DdVY5RE5OUzB2NUhKNnJCdlh0OXhTZnRNYWdUenhKN0kwdFJnZGpLa3BHNW91QzFiTndIMXE?oc=5",
-     "time": "2026-11-04T00:41:00+00:00"
-    },
-    {
-     "title": "Netflix (NFLX) grants its accounting chief 1,170 options with a $62.34 exercise price.",
-     "publisher": "Stock Titan",
-     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQT0tuMkE4RVh5NjNmY0ROX0otLW9SR3c1djVSb0c2b1lpa3NrbDBENmNtTjE1VnRfRVRNQ0ZUc0hURWV2SXRaOFBsY1ZyNWFLdHFQU19XT1FHbDdJTFFkRnFjc21TNjR3bEFSbmFhdHZ6T3EyZmRJaTRxLUdwc0hDRG1oT01kLU54ZzBuUVZjWWpLbGxaMEJrSXVwcWNEUDZILThrY2dJR00?oc=5",
-     "time": "2026-11-04T00:19:00+00:00"
-    }
-   ],
-   "brief": null
-  },
-  {
-   "symbol": "BTC-USD",
-   "name": "Bitcoin",
-   "list": "watchlist",
-   "price": 80500.0,
-   "prev_close": 77331.7,
-   "change_pct": 4.1,
-   "trigger_change": 4.0,
-   "peak_change": 4.7,
-   "first_seen": "2026-11-04T15:11:03+00:00",
-   "sector": null,
-   "chart": {
-    "ema8": 2.3,
-    "ema21": 0.7,
-    "sma50": -1.8,
-    "sma200": 10.0,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Bitcoin Reclaims $79,000 After 5% Rebound From Election-Night Low",
-     "publisher": "The Defiant",
-     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZWVvZEVKZk1mMWpFQ0ZJYXQ4bUlPb2IzUUlCODNCd3c1SGdCUVZzU1poeTFtZzI5dklLdEtycWNNVHI4M1N3U3BjTDNCbXpnSkhURzNYVWZtMDZ6NEozZ3B4N2tIN1JaSzJpWjVuRWZPNnNpd3JmVF9MS2tTTElENEd2MHBTYlFoWldpVURVeDNxT3U5bVluUnZfYmlsT28?oc=5",
-     "time": "2026-11-04T15:08:17+00:00"
-    },
-    {
-     "title": "JUST IN: Bitcoin jumps past $79,000 \ud83d\ude80",
-     "publisher": "Moomoo",
-     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNbW52aHVCQVJIN1dSTDhFOV9UMnpnQUZoaFB1OUtsZjVGQUdwNVhjQWczWThmRGd5M1JxUlo3OXFkVXFBYlktQXM4RkdFc0RxODE3VVlraFR0c0dlQmRoamprWlp1bzFmUXc4ZUpWeEF1S2VyMnVVQlRFT0RlczBLRUc2X2xuWUNPUUQ0c1l3NC0?oc=5",
-     "time": "2026-11-04T14:57:41+00:00"
-    },
-    {
-     "title": "Metaplanet Raises Planned Bitcoin Purchases to \u00a533.42 Billion After Early Bond Redemption",
-     "publisher": "bloomingbit",
-     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE94YkxaamttRy1ZeG0yY2xzZGJqcnFlWGxCSzdBZlZ2N2ZQcGYyOXVLQzZrSmt2cXBscWRGakszZEFkaW9VcUJ0TE5fZ1prbXZZem43Yg?oc=5",
-     "time": "2026-11-04T14:55:38+00:00"
-    },
-    {
-     "title": "Mercado Bitcoin Hack: $46M Drained, Withdrawals Frozen",
-     "publisher": "Memeburn",
-     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1SLTlKVkpuODJUNWNNVFZZdU81dEQ1dW1ZcnczYXJWZmQwMEtKbE0wbXlJSzA0ZGdNeUtqNGxsTXlCbURwSGlhX1Q5Vlg3QUJRR3c1Qw?oc=5",
-     "time": "2026-11-04T14:52:48+00:00"
-    },
-    {
-     "title": "Mercado Bitcoin Attacker Swaps Tokens for $10.55 Million in ETH, Arkham Says",
-     "publisher": "The Defiant",
-     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQNllYMzM1TXR2ZkZFSEpyQUVYdzFSdVRWbFpodGh3RDdzQVVYVFl3eFBwNjVfSUxfNHJLSVBINFNUT081bVdqNnRHSTdQR0RTN0NzSWZ1QkpBUUpHaWpleVhrTENZNlFJT0dKYUphRExZTFR4YWxYbjFHT2lraHZFQTNubER6bnZTckpHQ2V1NXJQZ21SQ20ydF9yYXA0ZEZGSjRuMktFY1pJRWc?oc=5",
-     "time": "2026-11-04T14:49:57+00:00"
-    },
-    {
-     "title": "Bitcoin Tops $79,000; Kimchi Premium at 0.14%",
-     "publisher": "bloomingbit",
-     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5ycFJCbF9pSFpKWU83RU9Zd2lpbkRkLTdPVW1oZ0NremhrSzdCRTVqeDNpNm82Z2d6TVp3bC1hSWRLMUFNTGdPYWRCSXpFQUJaZk41bQ?oc=5",
-     "time": "2026-11-04T14:47:58+00:00"
-    },
-    {
-     "title": "The news is almost always in the chart. $Bitcoin (BTC.CC)$ perfectly retested the 50 MA on the weekly on the election drop, right before bouncing. This is the bear/bull market line. Crazy.",
-     "publisher": "Moomoo",
-     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPaXRjTWc2OWJJVllKVElTb2lRdk0xMWxWN1I2akZDeVJER2dQa0gyV0V2WkJhZXJSdl9WenJ5b1dCVXlDYVVTNEIwWFAxUmh4Z2NSd1c2TUNVbzVUZWdCZmxXV21WVDJ0MHg3eUVZTndQZzlHQ3N2bDBoWGFGa0FtMlg0NDdpMUxFNlF5cE5EemZadWszRHpQTVlHZjR1LWVINlk2NV9sWQ?oc=5",
-     "time": "2026-11-04T14:33:13+00:00"
-    },
-    {
-     "title": "Liquid Capital Founder Says Bitcoin Has Shown More Resilience Than U.S. Stocks",
-     "publisher": "www.tokenpost.com",
-     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE80N2VZOC1OcXdpYV9rNFozVUJoaGJzLWEtN1E3NDFxU3R4Rk1wTWl2NWQzZEhpcEZDYnAzX0t3NnBoYnRHZ2l5UkgtWGVNY0dlMnZvbTl2TE0?oc=5",
-     "time": "2026-11-04T14:29:07+00:00"
-    }
-   ],
-   "brief": null
-  },
-  {
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 145.44,
+   "price": 144.54,
    "prev_close": 151.64,
-   "change_pct": -4.1,
+   "change_pct": -4.7,
    "trigger_change": -4.1,
-   "peak_change": -4.1,
+   "peak_change": -4.7,
    "first_seen": "2026-11-04T15:31:22+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 105.14,
-    "change_pct": 2.42
+    "price": 105.27,
+    "change_pct": 2.54
    },
    "chart": {
-    "ema8": -7.2,
-    "ema21": -17.0,
-    "sma50": -29.2,
-    "sma200": -18.4,
+    "ema8": -7.7,
+    "ema21": -17.5,
+    "sma50": -29.6,
+    "sma200": -18.9,
     "momentum": false
    },
    "headlines": [
@@ -658,23 +513,23 @@
    "symbol": "SOFI",
    "name": "SoFi",
    "list": "portfolio",
-   "price": 17.44,
+   "price": 17.52,
    "prev_close": 16.77,
-   "change_pct": 4.0,
+   "change_pct": 4.5,
    "trigger_change": 4.1,
    "peak_change": 5.4,
    "first_seen": "2026-11-04T14:55:55+00:00",
    "sector": {
     "etf": "XLF",
     "name": "Financials",
-    "price": 58.33,
-    "change_pct": 1.98
+    "price": 58.3,
+    "change_pct": 1.95
    },
    "chart": {
-    "ema8": 5.0,
-    "ema21": 8.3,
-    "sma50": 5.9,
-    "sma200": -1.2,
+    "ema8": 5.4,
+    "ema21": 8.8,
+    "sma50": 6.4,
+    "sma200": -0.7,
     "momentum": true
    },
    "headlines": [
@@ -730,26 +585,171 @@
    "brief": null
   },
   {
+   "symbol": "BTC-USD",
+   "name": "Bitcoin",
+   "list": "watchlist",
+   "price": 80670.8,
+   "prev_close": 77331.7,
+   "change_pct": 4.3,
+   "trigger_change": 4.0,
+   "peak_change": 4.7,
+   "first_seen": "2026-11-04T15:11:03+00:00",
+   "sector": null,
+   "chart": {
+    "ema8": 2.4,
+    "ema21": 0.9,
+    "sma50": -1.6,
+    "sma200": 10.2,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Bitcoin Reclaims $79,000 After 5% Rebound From Election-Night Low",
+     "publisher": "The Defiant",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZWVvZEVKZk1mMWpFQ0ZJYXQ4bUlPb2IzUUlCODNCd3c1SGdCUVZzU1poeTFtZzI5dklLdEtycWNNVHI4M1N3U3BjTDNCbXpnSkhURzNYVWZtMDZ6NEozZ3B4N2tIN1JaSzJpWjVuRWZPNnNpd3JmVF9MS2tTTElENEd2MHBTYlFoWldpVURVeDNxT3U5bVluUnZfYmlsT28?oc=5",
+     "time": "2026-11-04T15:08:17+00:00"
+    },
+    {
+     "title": "JUST IN: Bitcoin jumps past $79,000 \ud83d\ude80",
+     "publisher": "Moomoo",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNbW52aHVCQVJIN1dSTDhFOV9UMnpnQUZoaFB1OUtsZjVGQUdwNVhjQWczWThmRGd5M1JxUlo3OXFkVXFBYlktQXM4RkdFc0RxODE3VVlraFR0c0dlQmRoamprWlp1bzFmUXc4ZUpWeEF1S2VyMnVVQlRFT0RlczBLRUc2X2xuWUNPUUQ0c1l3NC0?oc=5",
+     "time": "2026-11-04T14:57:41+00:00"
+    },
+    {
+     "title": "Metaplanet Raises Planned Bitcoin Purchases to \u00a533.42 Billion After Early Bond Redemption",
+     "publisher": "bloomingbit",
+     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE94YkxaamttRy1ZeG0yY2xzZGJqcnFlWGxCSzdBZlZ2N2ZQcGYyOXVLQzZrSmt2cXBscWRGakszZEFkaW9VcUJ0TE5fZ1prbXZZem43Yg?oc=5",
+     "time": "2026-11-04T14:55:38+00:00"
+    },
+    {
+     "title": "Mercado Bitcoin Hack: $46M Drained, Withdrawals Frozen",
+     "publisher": "Memeburn",
+     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1SLTlKVkpuODJUNWNNVFZZdU81dEQ1dW1ZcnczYXJWZmQwMEtKbE0wbXlJSzA0ZGdNeUtqNGxsTXlCbURwSGlhX1Q5Vlg3QUJRR3c1Qw?oc=5",
+     "time": "2026-11-04T14:52:48+00:00"
+    },
+    {
+     "title": "Mercado Bitcoin Attacker Swaps Tokens for $10.55 Million in ETH, Arkham Says",
+     "publisher": "The Defiant",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQNllYMzM1TXR2ZkZFSEpyQUVYdzFSdVRWbFpodGh3RDdzQVVYVFl3eFBwNjVfSUxfNHJLSVBINFNUT081bVdqNnRHSTdQR0RTN0NzSWZ1QkpBUUpHaWpleVhrTENZNlFJT0dKYUphRExZTFR4YWxYbjFHT2lraHZFQTNubER6bnZTckpHQ2V1NXJQZ21SQ20ydF9yYXA0ZEZGSjRuMktFY1pJRWc?oc=5",
+     "time": "2026-11-04T14:49:57+00:00"
+    },
+    {
+     "title": "Bitcoin Tops $79,000; Kimchi Premium at 0.14%",
+     "publisher": "bloomingbit",
+     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5ycFJCbF9pSFpKWU83RU9Zd2lpbkRkLTdPVW1oZ0NremhrSzdCRTVqeDNpNm82Z2d6TVp3bC1hSWRLMUFNTGdPYWRCSXpFQUJaZk41bQ?oc=5",
+     "time": "2026-11-04T14:47:58+00:00"
+    },
+    {
+     "title": "The news is almost always in the chart. $Bitcoin (BTC.CC)$ perfectly retested the 50 MA on the weekly on the election drop, right before bouncing. This is the bear/bull market line. Crazy.",
+     "publisher": "Moomoo",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPaXRjTWc2OWJJVllKVElTb2lRdk0xMWxWN1I2akZDeVJER2dQa0gyV0V2WkJhZXJSdl9WenJ5b1dCVXlDYVVTNEIwWFAxUmh4Z2NSd1c2TUNVbzVUZWdCZmxXV21WVDJ0MHg3eUVZTndQZzlHQ3N2bDBoWGFGa0FtMlg0NDdpMUxFNlF5cE5EemZadWszRHpQTVlHZjR1LWVINlk2NV9sWQ?oc=5",
+     "time": "2026-11-04T14:33:13+00:00"
+    },
+    {
+     "title": "Liquid Capital Founder Says Bitcoin Has Shown More Resilience Than U.S. Stocks",
+     "publisher": "www.tokenpost.com",
+     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE80N2VZOC1OcXdpYV9rNFozVUJoaGJzLWEtN1E3NDFxU3R4Rk1wTWl2NWQzZEhpcEZDYnAzX0t3NnBoYnRHZ2l5UkgtWGVNY0dlMnZvbTl2TE0?oc=5",
+     "time": "2026-11-04T14:29:07+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
+   "symbol": "NFLX",
+   "name": "Netflix",
+   "list": "portfolio",
+   "price": 65.91,
+   "prev_close": 63.42,
+   "change_pct": 3.9,
+   "trigger_change": 3.9,
+   "peak_change": 4.1,
+   "first_seen": "2026-11-04T15:00:57+00:00",
+   "sector": {
+    "etf": "XLC",
+    "name": "Communication",
+    "price": 105.18,
+    "change_pct": 3.69
+   },
+   "chart": {
+    "ema8": 2.9,
+    "ema21": -0.5,
+    "sma50": -8.0,
+    "sma200": -18.9,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Netflix, Inc. $NFLX Stock Acquired by Provenance Wealth Advisors LLC",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPTHJ2Z29EV3htXzNqRjFCTUM0THRBeDlPSmtqUzRtMUFURFJCTU04RzU2ODVIcHNLbXFHWTdYVkNUaDJUVzlVaHhWM3NCMXFmbmhMaTZqZVgzcXJFel9ubmtfSHVfdVY3VHB5ejkteVItNGoxSXhSYldZZ0RHRnNSdUdSTlRtUlBvd2lQZk8xZE1xVHJlRkw4NjRtR2E3eUtJdUZtRDR5T2JVTXJnYlR3UW9jc2F5SHZVaXBYcnNfMkExNmJt?oc=5",
+     "time": "2026-11-04T11:43:48+00:00"
+    },
+    {
+     "title": "Netflix, Inc. $NFLX Stock Bought by Markel Group Inc.",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQRzh4YkdwZG9XakQ2bmxidTJicUg3TmhzbFkxRHNkUzhVaFd4SHdOblEtWUtjaWtINmxMUWFKXzNnOTk3V29CVjJybFBuaG9VMExFRWtJOXRETlZHd1RRTjRYckE5OEd6SGhVNTV2SFo3VTJtTkpHME1kcEhWb2pWWll0dnB6SFpranVqSk5vQ1FoWE55alJRUDVyal9CVG01S1VqZjVVRmdfSHJxME9Z?oc=5",
+     "time": "2026-11-04T09:46:05+00:00"
+    },
+    {
+     "title": "Netflix, Inc. $NFLX Shares Newly Bought by Associated Banc Corp",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQUzNRS0Vnalk5UjQ5RUVyTWtyWXVqTk9KTkwzRmhHZm1TWklZT0tjRi1iWkNoc3djeHRBcy1rc1RuM3hqaWlBNEN5V0V4TG9vWktOd3RibXdtaF9XR2hnU2pxMURSYjdlLUJ1aDdRaDhobm9hM2pZNHhUeFJ0Y2dRSWdNRmFETTljUUNpRTBNZVRaemNCMWx4YnBUZVZ2RndRanh6SEdELVk1Z0otQnhiZkg1aThDVXNxZGtCMllR?oc=5",
+     "time": "2026-11-04T08:47:21+00:00"
+    },
+    {
+     "title": "Netflix (NFLX) awards Elinor Mertz 1,002 stock options with a $62.34 exercise price.",
+     "publisher": "Stock Titan",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNckoyM2xxekdER1JSdnVxR0ZkdWNzQVZOWVZ2SnRXN3R1ajExZjY4MXh3bV8wNmN5bjd3dkY4SEgyWm53VkY2Tl94aWhiR0FFMFN3UDJFQWJYcUduUDczeElPQ1NpbTZkMjBjczV6TUJUMFdubUlqSm91emx1endBSG5iWTlvaWdNNkZXMXRobk55YUxMQkw2U2YyZGJfYklxUVllREhFZmo?oc=5",
+     "time": "2026-11-04T00:47:00+00:00"
+    },
+    {
+     "title": "Netflix (NFLX) director Strive Masiyiwa receives options with a $62.34 exercise price.",
+     "publisher": "Stock Titan",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQR1JJT2J3ajhuUFdIQ1ktWGFuN3JBb1laWnRGUERRNmdha3pwMzE0T0xkUHNIR2xaZGtLYVNNTHVybkZmZWZPeUpXNTA2MjZxWXFBRWZDWVBYb1p1VGdaUS0zdG9KRFFIWGFaaE5XaDlPRjVyRS1pUTN6dE1PYVh4dG9VeUZpVzExQTRtOFBHQml5dGItaGVVdUdDSXR0YXRfS2JRLXpDQ2w?oc=5",
+     "time": "2026-11-04T00:46:00+00:00"
+    },
+    {
+     "title": "Netflix (NFLX) director Mathias Dopfner receives 1,002 options with a $62.34 exercise price.",
+     "publisher": "Stock Titan",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQeXVPV0FvanhVTU5jd1VpcEtRZ1AxLUtpVmJKbmhZaThQM2hETHdEamp2dFVRNXEtT1dKbk41d3A3azQxWWFtQkZCeXp4ZDdpSWZMTElLZ2Y4elRra3FheWhPXzRWZUZhR0szMHJSQ2JMWmFRbk1ZdlBWSUctUFp6dlZJSDdVdUpmVHI2NU9HOEhNVVBBYzUtZnUzTk83NWZqMVpXSVpPd3E?oc=5",
+     "time": "2026-11-04T00:45:00+00:00"
+    },
+    {
+     "title": "Netflix (NFLX) awards Susan E. Rice 1,003 options with a $62.34 exercise price.",
+     "publisher": "Stock Titan",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNQjk2bkFtQnJtUE5aZ0RobUdlUjFzZy1UTFpBM1BnRXplTUxQa1RSUnE2RHJRSUlhVFhTRHZiUGlWMFUwS0kyb1JRelVhampOTVlYczJzcERYbGFjQVFxd0lHSjFRYUs4RFV4V2I0dktRQm9DdVY5RE5OUzB2NUhKNnJCdlh0OXhTZnRNYWdUenhKN0kwdFJnZGpLa3BHNW91QzFiTndIMXE?oc=5",
+     "time": "2026-11-04T00:41:00+00:00"
+    },
+    {
+     "title": "Netflix (NFLX) grants its accounting chief 1,170 options with a $62.34 exercise price.",
+     "publisher": "Stock Titan",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQT0tuMkE4RVh5NjNmY0ROX0otLW9SR3c1djVSb0c2b1lpa3NrbDBENmNtTjE1VnRfRVRNQ0ZUc0hURWV2SXRaOFBsY1ZyNWFLdHFQU19XT1FHbDdJTFFkRnFjc21TNjR3bEFSbmFhdHZ6T3EyZmRJaTRxLUdwc0hDRG1oT01kLU54ZzBuUVZjWWpLbGxaMEJrSXVwcWNEUDZILThrY2dJR00?oc=5",
+     "time": "2026-11-04T00:19:00+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
    "symbol": "CRWD",
    "name": "CrowdStrike",
    "list": "portfolio",
-   "price": 249.58,
+   "price": 247.88,
    "prev_close": 244.68,
-   "change_pct": 2.0,
+   "change_pct": 1.3,
    "trigger_change": 3.1,
    "peak_change": 3.1,
    "first_seen": "2026-11-04T15:21:14+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 105.14,
-    "change_pct": 2.42
+    "price": 105.27,
+    "change_pct": 2.54
    },
    "chart": {
-    "ema8": -0.4,
-    "ema21": -0.5,
-    "sma50": 2.4,
-    "sma200": 47.5,
+    "ema8": -0.9,
+    "ema21": -1.1,
+    "sma50": 1.8,
+    "sma200": 46.5,
     "momentum": false
    },
    "headlines": [
