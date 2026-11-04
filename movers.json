@@ -1,12 +1,12 @@
 {
  "date": "2026-11-04",
  "threshold": 3.0,
- "updated": "2026-11-04T16:43:37+00:00",
+ "updated": "2026-11-04T16:48:39+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 767.18,
-   "change_pct": 1.7
+   "price": 767.57,
+   "change_pct": 1.75
   },
   "QQQ": {
    "name": "Nasdaq 100",
@@ -15,8 +15,8 @@
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 81.58,
-   "change_pct": 0.57
+   "price": 81.55,
+   "change_pct": 0.54
   }
  },
  "movers": [
@@ -24,7 +24,7 @@
    "symbol": "APP",
    "name": "AppLovin",
    "list": "portfolio",
-   "price": 272.55,
+   "price": 272.44,
    "prev_close": 245.51,
    "change_pct": 11.0,
    "trigger_change": 5.7,
@@ -33,11 +33,11 @@
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 103.88,
-    "change_pct": 1.19
+    "price": 103.73,
+    "change_pct": 1.04
    },
    "chart": {
-    "ema8": 7.5,
+    "ema8": 7.4,
     "ema21": 3.1,
     "sma50": -6.3,
     "sma200": -33.7,
@@ -96,146 +96,26 @@
    "brief": "2026-11-04-APP"
   },
   {
-   "symbol": "NVO",
-   "name": "Novo Nordisk (ADR)",
-   "list": "portfolio",
-   "price": 42.88,
-   "prev_close": 40.19,
-   "change_pct": 6.7,
-   "trigger_change": 6.6,
-   "peak_change": 6.7,
-   "first_seen": "2026-11-04T14:55:55+00:00",
-   "sector": {
-    "etf": "XLV",
-    "name": "Health care",
-    "price": 188.58,
-    "change_pct": 2.48
-   },
-   "chart": {
-    "ema8": 6.4,
-    "ema21": 8.0,
-    "sma50": 4.9,
-    "sma200": -2.4,
-    "momentum": true
-   },
-   "headlines": [
-    {
-     "title": "NVO Q3 Earnings Beat Estimates on Wegovy Pill Growth, Outlook Raised",
-     "publisher": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZm45MnZTQVRnMU5wWGxvRnVRVWp4NEd0MHV4Y1dTWUVNRkF6QWlTNlpId0c3bGpYOWp5aTl6aTZUX1F6ZHpUdHExcHYzOUQxcWFtTnZtdUhYN1ozNG1SVVZhWTd4b1pzbVJ5U19WcGVtQXpoTEQyNkdOWE5oWmVqSjVPS1lueWVZMHFnMFdTSXdhczRxanFHN2k0azNxX3I2Q2YyTzMwQXltbTFadC1mY1BZb0xYSDdCSV9Ob21Bb3E?oc=5",
-     "time": "2026-11-04T13:35:00+00:00"
-    },
-    {
-     "title": "Earnings call transcript: Novo Nordisk rises on Q3 2026 growth outlook",
-     "publisher": "Investing.com Canada",
-     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOV0F0dUhpV29uSzJJLUdsOGJHSXAyTTRaMk5NOTV3ZTJRc3EzMGZ3cE5OeWYtN3o1T1EzZnRrX1c4YXhOUTNTUVhiTDNrLUFnazJCWlFKRG0tc3Z6UWhZYkxtTlMxM1dsQ1ZDdmZkVjlDbi1Nbzd6VHFtV0stMHlWSzlxVDVWLTlaNG5TeXNQTmtWT3ZqcHdFdWg4OVlBcXQ0d0s2Rm9IRUpjT2RlaTIxNHFDQmlYOXh2UlItbjdMbWFRRFZfOUNaaE93?oc=5",
-     "time": "2026-11-04T13:34:19+00:00"
-    },
-    {
-     "title": "Novo Nordisk ADR earnings missed by $3.74, revenue fell short of estimates",
-     "publisher": "Investing.com",
-     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNOHFKQnJsWnZFX2JOV0h2OVgxWkFwQUJERk8yNHd3bjZUMWhSTF9HREphNnEtZHBBOFkyOENRcGFGeml5ZXRGa0l5azlGMnFhRVYxSEVBaFZkODVGYnkxMnN2dkN1dUVKcW9VbzNIbGptZ2gyNXpGTDI5Unp0bXM0UjBtWUNFS0MyUHZqcTY2VnNmVnQxSG1iM1RxcG0yQTdLMV80el9ZanZHcTFCT0sxY3ZENUo2dWcyUFVB?oc=5",
-     "time": "2026-11-04T08:04:17+00:00"
-    }
-   ],
-   "brief": "2026-11-04-NVO"
-  },
-  {
-   "symbol": "ANET",
-   "name": "Arista Networks",
-   "list": "portfolio",
-   "price": 180.72,
-   "prev_close": 169.91,
-   "change_pct": 6.4,
-   "trigger_change": 10.3,
-   "peak_change": 10.3,
-   "first_seen": "2026-11-04T14:55:55+00:00",
-   "sector": {
-    "etf": "SMH",
-    "name": "Semiconductors",
-    "price": 507.17,
-    "change_pct": -2.19
-   },
-   "chart": {
-    "ema8": 2.4,
-    "ema21": -1.7,
-    "sma50": -6.9,
-    "sma200": 9.0,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Arista Networks (NYSE:ANET) Given New $240.00 Price Target at Truist Financial",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOa0k1ckRSMlo5b2dXd3o3c2d5LWpQX2x3LVdScjRwbTFyTERKMjdCWjF1bUNaYk5ocGtBeFpIZXJROGZrNmQ1dXB4cWJvb1h6UGRYUDVEckJzRmljYUJqUU15RjYyTGMwQUF6eVgzQ0hUSXhVQ0RXX3dqTHRCYnk0LTI0cXFlWENWaDVhZnhueWVkUzhPZzIyTzQ5NEp6Yk5wcVlXU0VCcm5HckJWaS1hR1Brd0puNE0xbGFuZlh0dFZJMmxndnpjb3NVbDB4azdpRlE?oc=5",
-     "time": "2026-11-04T16:05:19+00:00"
-    },
-    {
-     "title": "Arista Networks price target raised to $240 from $234 at Truist",
-     "publisher": "TipRanks",
-     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdEVoNmxveWlzd3k4aERkbkNQRmktU3VFelpZSGxocjdaM2JIajlTWW1sN3lFTHBBRWFSejJtMHVCOVBOajdPWFVmOFFYZDd5eEdQWnVWNzYtcE53R0s1U1VsSTJqekFKN2ZhNGFWc3BmeGdtbWF0OVNhYmc0a1dVOU1zN2Facnl1WnpaMk1DZVJEQVhJSWZYYk16M0FLUkZXa1hvNktXbGpyUW1BSEcxUw?oc=5",
-     "time": "2026-11-04T14:35:33+00:00"
-    },
-    {
-     "title": "Arista Says Its AI Business Will Double to $7 Billion",
-     "publisher": "24/7 Wall St.",
-     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNXzludldWc3lxRjZjS3R6Y0JKZU52RjNSQS11ZEhiSFN3aVJ1anJ6elh5bk4yRkpuQlBVQXQtMml2R1JoYXl1N2RoZXotLXdXdjZiS1FxYmRjU2hQOUg5bFM4SWpTTnZjY25zN25uOExrZHdfLXZfb0lodEZVRDVJbE5HaXlVSVM0eFF2WEE0VG14clRadXI4TENXcGI?oc=5",
-     "time": "2026-11-04T14:29:00+00:00"
-    },
-    {
-     "title": "Arista Networks issues historic guidance beat as catalysts appear ahead: analysts",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQWmJqTFIxbEZ3b1JmaTBqMjBsdU93aHM5UzFoTWpUeUt4WGNfWFQ1eDRMSmtkNThqbEd3U0U5X1dsdGVaZFB4Z29WWmxUdURtdFpmREk2Q1o3Mmo4YWdWRVNOaVhoSmJVTnVvUUVvNTVvNHJuUjR2cGFfVFRVV0JwUHVSZWxwblpEdWdxZWRyc1VzSlUzczIxdUtUamh3alUxeU1iQlN5UzF0Vk0yQkVwajBXYWQzNzZfQlE?oc=5",
-     "time": "2026-11-04T14:05:47+00:00"
-    },
-    {
-     "title": "Arista Networks' Demand Strength, Supply Efficiency Help Lift Revenue Outlook",
-     "publisher": "Yahoo! Finance Canada",
-     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPb0lSaDNvR294ZE1MNENWVV9PUVlXRHctMnNkOExmcEZuWk9HRVB4ZGl6bVdnSkNFVmdfajlGaDAyQ290T01Ta0VIS3YyZlVyY1duamZvbG12cnZDN1RRQ3FMRmV5RmdtaTRhcXl5eS1EMjM2Q2ZKSWdqSjdMajhEVkhTWldsVVNveW5ndTVR?oc=5",
-     "time": "2026-11-04T13:29:08+00:00"
-    },
-    {
-     "title": "Rosenblatt Securities Reaffirms \"Buy\" Rating for Arista Networks (NYSE:ANET)",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOQjYzUGVhcFI5cVROU2ZyZ0lCYy16M19tWWFpTS12NHZ6MmdnVGd5YkxoWmRhaF9uU2tlMWlIZXRHaW9ZQUZLTWYwOU9qZlFWbWpQYk9EOVg2cTI4NzRDNE5fcUMxd1Q0SkU0YnpFNkJBWjV6MzJhSlZ1NEU3RzlVZDE1V3JxVGZ1Sll1UnE2bU9DRjhkUUJSd0hPVXdXN1RXR05uUkluTDN2ckg0cUxyUEp0dVplLUtmR0hmQnprR1dDSzlaZ0lJVDVSalNxNm8?oc=5",
-     "time": "2026-11-04T13:20:30+00:00"
-    },
-    {
-     "title": "Arista\u2019s AI Growth Story Builds, but Scale-Up Revenue May Have to Wait",
-     "publisher": "Benzinga",
-     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNcExTQzhLSkhESDBWejZXUGNuS2NtQzh1QXhqNUFMSVUwQlM1SjVSOU9jRXViZldUaUJicmx4RzNzUV9qSzF1VjNrR3dWRHF6UzdQOEhZREdmVXNMNkxvX0hFZFM5NFdpb1FkdEJiYlp4UWFIWjFMQU1laTAtYkJ3RUxKcUNISUxTcnpqeWNlTjlZamVaeFpYaWRBakZiQk02OHZnZUVNY1o0d1F3UlJhRzl0ekpVdlUtN0ZlTWxaTHVuZ3M?oc=5",
-     "time": "2026-11-04T12:59:09+00:00"
-    },
-    {
-     "title": "Arista Networks price target raised to $261 from $240 at Piper Sandler",
-     "publisher": "TipRanks",
-     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNTzhmcEc0alVzRWF0VnFEbHMyWHpNRWIwOHl4UHY3d2tTRlFscElUNlJqZGRsNUQzTHZfb2lTWEJ3NzJkano2dXVSVXRtNU5xN0l2bE80bDhBdUczbS1wcE1LT01qeEYtNHZ2QXBxRU85eE5pcUx6dVIxRUt4Yno3SDV1LUpLSDBOMHB2b05UY1lISVRPM1YyMVBUY0VQbC1FRUdMeGdlZmRhakdXZVNPOWQ0S3lLOVhTS2c?oc=5",
-     "time": "2026-11-04T11:55:15+00:00"
-    }
-   ],
-   "brief": "2026-11-04-ANET"
-  },
-  {
    "symbol": "AMZN",
    "name": "Amazon",
    "list": "portfolio",
-   "price": 266.55,
+   "price": 267.71,
    "prev_close": 250.69,
-   "change_pct": 6.3,
+   "change_pct": 6.8,
    "trigger_change": 7.7,
    "peak_change": 8.0,
    "first_seen": "2026-11-04T14:55:55+00:00",
    "sector": {
     "etf": "XLY",
     "name": "Consumer discr.",
-    "price": 122.34,
-    "change_pct": 4.27
+    "price": 122.39,
+    "change_pct": 4.32
    },
    "chart": {
-    "ema8": 5.5,
-    "ema21": 5.4,
-    "sma50": 5.0,
-    "sma200": 9.4,
+    "ema8": 5.8,
+    "ema21": 5.8,
+    "sma50": 5.4,
+    "sma200": 9.9,
     "momentum": false
    },
    "headlines": [
@@ -291,26 +171,146 @@
    "brief": "2026-11-04-AMZN"
   },
   {
+   "symbol": "NVO",
+   "name": "Novo Nordisk (ADR)",
+   "list": "portfolio",
+   "price": 42.88,
+   "prev_close": 40.19,
+   "change_pct": 6.7,
+   "trigger_change": 6.6,
+   "peak_change": 6.7,
+   "first_seen": "2026-11-04T14:55:55+00:00",
+   "sector": {
+    "etf": "XLV",
+    "name": "Health care",
+    "price": 188.49,
+    "change_pct": 2.43
+   },
+   "chart": {
+    "ema8": 6.4,
+    "ema21": 8.0,
+    "sma50": 5.0,
+    "sma200": -2.3,
+    "momentum": true
+   },
+   "headlines": [
+    {
+     "title": "NVO Q3 Earnings Beat Estimates on Wegovy Pill Growth, Outlook Raised",
+     "publisher": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZm45MnZTQVRnMU5wWGxvRnVRVWp4NEd0MHV4Y1dTWUVNRkF6QWlTNlpId0c3bGpYOWp5aTl6aTZUX1F6ZHpUdHExcHYzOUQxcWFtTnZtdUhYN1ozNG1SVVZhWTd4b1pzbVJ5U19WcGVtQXpoTEQyNkdOWE5oWmVqSjVPS1lueWVZMHFnMFdTSXdhczRxanFHN2k0azNxX3I2Q2YyTzMwQXltbTFadC1mY1BZb0xYSDdCSV9Ob21Bb3E?oc=5",
+     "time": "2026-11-04T13:35:00+00:00"
+    },
+    {
+     "title": "Earnings call transcript: Novo Nordisk rises on Q3 2026 growth outlook",
+     "publisher": "Investing.com Canada",
+     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOV0F0dUhpV29uSzJJLUdsOGJHSXAyTTRaMk5NOTV3ZTJRc3EzMGZ3cE5OeWYtN3o1T1EzZnRrX1c4YXhOUTNTUVhiTDNrLUFnazJCWlFKRG0tc3Z6UWhZYkxtTlMxM1dsQ1ZDdmZkVjlDbi1Nbzd6VHFtV0stMHlWSzlxVDVWLTlaNG5TeXNQTmtWT3ZqcHdFdWg4OVlBcXQ0d0s2Rm9IRUpjT2RlaTIxNHFDQmlYOXh2UlItbjdMbWFRRFZfOUNaaE93?oc=5",
+     "time": "2026-11-04T13:34:19+00:00"
+    },
+    {
+     "title": "Novo Nordisk ADR earnings missed by $3.74, revenue fell short of estimates",
+     "publisher": "Investing.com",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNOHFKQnJsWnZFX2JOV0h2OVgxWkFwQUJERk8yNHd3bjZUMWhSTF9HREphNnEtZHBBOFkyOENRcGFGeml5ZXRGa0l5azlGMnFhRVYxSEVBaFZkODVGYnkxMnN2dkN1dUVKcW9VbzNIbGptZ2gyNXpGTDI5Unp0bXM0UjBtWUNFS0MyUHZqcTY2VnNmVnQxSG1iM1RxcG0yQTdLMV80el9ZanZHcTFCT0sxY3ZENUo2dWcyUFVB?oc=5",
+     "time": "2026-11-04T08:04:17+00:00"
+    }
+   ],
+   "brief": "2026-11-04-NVO"
+  },
+  {
+   "symbol": "ANET",
+   "name": "Arista Networks",
+   "list": "portfolio",
+   "price": 180.62,
+   "prev_close": 169.91,
+   "change_pct": 6.3,
+   "trigger_change": 10.3,
+   "peak_change": 10.3,
+   "first_seen": "2026-11-04T14:55:55+00:00",
+   "sector": {
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 505.67,
+    "change_pct": -2.48
+   },
+   "chart": {
+    "ema8": 2.4,
+    "ema21": -1.7,
+    "sma50": -7.0,
+    "sma200": 8.9,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Arista Networks (NYSE:ANET) Given New $240.00 Price Target at Truist Financial",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOa0k1ckRSMlo5b2dXd3o3c2d5LWpQX2x3LVdScjRwbTFyTERKMjdCWjF1bUNaYk5ocGtBeFpIZXJROGZrNmQ1dXB4cWJvb1h6UGRYUDVEckJzRmljYUJqUU15RjYyTGMwQUF6eVgzQ0hUSXhVQ0RXX3dqTHRCYnk0LTI0cXFlWENWaDVhZnhueWVkUzhPZzIyTzQ5NEp6Yk5wcVlXU0VCcm5HckJWaS1hR1Brd0puNE0xbGFuZlh0dFZJMmxndnpjb3NVbDB4azdpRlE?oc=5",
+     "time": "2026-11-04T16:05:19+00:00"
+    },
+    {
+     "title": "Arista Networks price target raised to $240 from $234 at Truist",
+     "publisher": "TipRanks",
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdEVoNmxveWlzd3k4aERkbkNQRmktU3VFelpZSGxocjdaM2JIajlTWW1sN3lFTHBBRWFSejJtMHVCOVBOajdPWFVmOFFYZDd5eEdQWnVWNzYtcE53R0s1U1VsSTJqekFKN2ZhNGFWc3BmeGdtbWF0OVNhYmc0a1dVOU1zN2Facnl1WnpaMk1DZVJEQVhJSWZYYk16M0FLUkZXa1hvNktXbGpyUW1BSEcxUw?oc=5",
+     "time": "2026-11-04T14:35:33+00:00"
+    },
+    {
+     "title": "Arista Says Its AI Business Will Double to $7 Billion",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNXzludldWc3lxRjZjS3R6Y0JKZU52RjNSQS11ZEhiSFN3aVJ1anJ6elh5bk4yRkpuQlBVQXQtMml2R1JoYXl1N2RoZXotLXdXdjZiS1FxYmRjU2hQOUg5bFM4SWpTTnZjY25zN25uOExrZHdfLXZfb0lodEZVRDVJbE5HaXlVSVM0eFF2WEE0VG14clRadXI4TENXcGI?oc=5",
+     "time": "2026-11-04T14:29:00+00:00"
+    },
+    {
+     "title": "Arista Networks issues historic guidance beat as catalysts appear ahead: analysts",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQWmJqTFIxbEZ3b1JmaTBqMjBsdU93aHM5UzFoTWpUeUt4WGNfWFQ1eDRMSmtkNThqbEd3U0U5X1dsdGVaZFB4Z29WWmxUdURtdFpmREk2Q1o3Mmo4YWdWRVNOaVhoSmJVTnVvUUVvNTVvNHJuUjR2cGFfVFRVV0JwUHVSZWxwblpEdWdxZWRyc1VzSlUzczIxdUtUamh3alUxeU1iQlN5UzF0Vk0yQkVwajBXYWQzNzZfQlE?oc=5",
+     "time": "2026-11-04T14:05:47+00:00"
+    },
+    {
+     "title": "Arista Networks' Demand Strength, Supply Efficiency Help Lift Revenue Outlook",
+     "publisher": "Yahoo! Finance Canada",
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPb0lSaDNvR294ZE1MNENWVV9PUVlXRHctMnNkOExmcEZuWk9HRVB4ZGl6bVdnSkNFVmdfajlGaDAyQ290T01Ta0VIS3YyZlVyY1duamZvbG12cnZDN1RRQ3FMRmV5RmdtaTRhcXl5eS1EMjM2Q2ZKSWdqSjdMajhEVkhTWldsVVNveW5ndTVR?oc=5",
+     "time": "2026-11-04T13:29:08+00:00"
+    },
+    {
+     "title": "Rosenblatt Securities Reaffirms \"Buy\" Rating for Arista Networks (NYSE:ANET)",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOQjYzUGVhcFI5cVROU2ZyZ0lCYy16M19tWWFpTS12NHZ6MmdnVGd5YkxoWmRhaF9uU2tlMWlIZXRHaW9ZQUZLTWYwOU9qZlFWbWpQYk9EOVg2cTI4NzRDNE5fcUMxd1Q0SkU0YnpFNkJBWjV6MzJhSlZ1NEU3RzlVZDE1V3JxVGZ1Sll1UnE2bU9DRjhkUUJSd0hPVXdXN1RXR05uUkluTDN2ckg0cUxyUEp0dVplLUtmR0hmQnprR1dDSzlaZ0lJVDVSalNxNm8?oc=5",
+     "time": "2026-11-04T13:20:30+00:00"
+    },
+    {
+     "title": "Arista\u2019s AI Growth Story Builds, but Scale-Up Revenue May Have to Wait",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNcExTQzhLSkhESDBWejZXUGNuS2NtQzh1QXhqNUFMSVUwQlM1SjVSOU9jRXViZldUaUJicmx4RzNzUV9qSzF1VjNrR3dWRHF6UzdQOEhZREdmVXNMNkxvX0hFZFM5NFdpb1FkdEJiYlp4UWFIWjFMQU1laTAtYkJ3RUxKcUNISUxTcnpqeWNlTjlZamVaeFpYaWRBakZiQk02OHZnZUVNY1o0d1F3UlJhRzl0ekpVdlUtN0ZlTWxaTHVuZ3M?oc=5",
+     "time": "2026-11-04T12:59:09+00:00"
+    },
+    {
+     "title": "Arista Networks price target raised to $261 from $240 at Piper Sandler",
+     "publisher": "TipRanks",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNTzhmcEc0alVzRWF0VnFEbHMyWHpNRWIwOHl4UHY3d2tTRlFscElUNlJqZGRsNUQzTHZfb2lTWEJ3NzJkano2dXVSVXRtNU5xN0l2bE80bDhBdUczbS1wcE1LT01qeEYtNHZ2QXBxRU85eE5pcUx6dVIxRUt4Yno3SDV1LUpLSDBOMHB2b05UY1lISVRPM1YyMVBUY0VQbC1FRUdMeGdlZmRhakdXZVNPOWQ0S3lLOVhTS2c?oc=5",
+     "time": "2026-11-04T11:55:15+00:00"
+    }
+   ],
+   "brief": "2026-11-04-ANET"
+  },
+  {
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 143.15,
+   "price": 142.59,
    "prev_close": 151.64,
-   "change_pct": -5.6,
+   "change_pct": -6.0,
    "trigger_change": -4.1,
    "peak_change": -7.3,
    "first_seen": "2026-11-04T15:31:22+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 103.88,
-    "change_pct": 1.19
+    "price": 103.73,
+    "change_pct": 1.04
    },
    "chart": {
-    "ema8": -8.4,
-    "ema21": -18.2,
-    "sma50": -30.3,
-    "sma200": -19.6,
+    "ema8": -8.7,
+    "ema21": -18.5,
+    "sma50": -30.6,
+    "sma200": -19.9,
     "momentum": false
    },
    "headlines": [
@@ -369,23 +369,23 @@
    "symbol": "MELI",
    "name": "MercadoLibre",
    "list": "watchlist",
-   "price": 1754.32,
+   "price": 1756.68,
    "prev_close": 1662.16,
-   "change_pct": 5.5,
+   "change_pct": 5.7,
    "trigger_change": 4.9,
    "peak_change": 6.2,
    "first_seen": "2026-11-04T14:55:55+00:00",
    "sector": {
     "etf": "XLY",
     "name": "Consumer discr.",
-    "price": 122.34,
-    "change_pct": 4.27
+    "price": 122.39,
+    "change_pct": 4.32
    },
    "chart": {
-    "ema8": 2.8,
-    "ema21": 0.1,
-    "sma50": -3.9,
-    "sma200": -3.0,
+    "ema8": 2.9,
+    "ema21": 0.2,
+    "sma50": -3.8,
+    "sma200": -2.8,
     "momentum": false
    },
    "headlines": [
@@ -441,25 +441,100 @@
    "brief": "2026-11-04-MELI"
   },
   {
+   "symbol": "GOOG",
+   "name": "Alphabet",
+   "list": "portfolio",
+   "price": 290.3,
+   "prev_close": 278.27,
+   "change_pct": 4.3,
+   "trigger_change": 3.9,
+   "peak_change": 5.4,
+   "first_seen": "2026-11-04T14:55:55+00:00",
+   "sector": {
+    "etf": "XLC",
+    "name": "Communication",
+    "price": 105.53,
+    "change_pct": 4.04
+   },
+   "chart": {
+    "ema8": -1.4,
+    "ema21": -7.3,
+    "sma50": -12.6,
+    "sma200": -14.1,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Why is Alphabet stock surging today?",
+     "publisher": "Investing.com",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPNnFRbTVXZml1dGQzbEEtVTB0M1haTzU2UHZvSlJWdDNhWjNGQm9XeXptdkV1VkFzMEk5cjhibDNrNDRhcHAwV3N6N3h6VEZ4ZU1PZXU3QnN2aER4RVFLUXV0ckdmeVV5aUU2cUFqY3p1SmFuTmY0Y3JUdWlady1ZQXhEcUlMaWVNOUhmTGRJWHUybXAyalI5UmFqbjNidw?oc=5",
+     "time": "2026-11-04T15:16:12+00:00"
+    },
+    {
+     "title": "Alphabet Inc Class C Stock (GOOG) Opened Up by 3.43% on Nov 4: What Signal Does It Send?",
+     "publisher": "TradingKey",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPdnJYZGQtNzFzbnZpX3J0SGVkWDQ4aWFKdWh0Y3ptUHp4RTI4TkRYS2lkMlh3ajEyQ3hXMURER2VRcWpubEpXbU43S3U1WjVjOV9EbHp4RE1JWF9yem02Q2ZhbHZBenJjdE5MZGQzV1RXSW9kaUx3b1VtTkFDRHJoa3hXdld3TzVPZjhV?oc=5",
+     "time": "2026-11-04T14:47:52+00:00"
+    },
+    {
+     "title": "Alphabet's Search Scare Is A Buying Chance - Amazon's Cash Problem Isn't (NASDAQ:GOOG)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTXpFTmZ3OTdVdHJzNTZDcnBBVDZzcjJESmxrOElFYTE1NEU3OVNzcWdTNWVlRkxRMzFmbW1CajJQSGpxMW9tQ2h4dWRSVDhKX2tra1ZfTEtGZHpMQjExUlJpdXRjQVVsVkRLT2M0eVhGcnp3bEI1NkJhcmhtODBmQm5jajcwOEkwMGU4cUI0Rk9mMENTMmktSHNUbE1XeTlzTnNaNzJ4QWtzdw?oc=5",
+     "time": "2026-11-04T12:52:01+00:00"
+    },
+    {
+     "title": "ETFs Are Buying Alphabet (GOOG) on Nov. 2",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQaHBSWDh4M216ekdRaURqV1l4aVZOTEQwUEo2Wkg1ZGhfaXhVVFg4THIzdmZQbnFZOGpQQ3FvRXNUdTBqVkFtaXJ1T2RYTmw3elhMeHhUM2FGQ05Lb2dFOGUzY0VNbTNPQzNCOUQ2UHRfN2tGUEJfck1zZHlSb09XUlVKRkdxLUZGeHFxRVNVbUQzaVY1ZF9QR2ZB?oc=5",
+     "time": "2026-11-04T11:01:41+00:00"
+    },
+    {
+     "title": "Alphabet: Q3 Selloff Overlooks Its Growing AI Payoff (NASDAQ:GOOG)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOektDdFIta1cwT3cxYm1UTkJFT2ZTdDBNMk5nR19mbVp3TE1xSkYtMHp5cC1DVWYwd1hxZ1lIR0J0ZWc1bEN4SkRDOEZlSzZwTjhJZnlhbmV3WTY5VnVTSDFrYTVaejBYYVdTdldvWFMtbmpzclYxVlRPYXNIR0s2MkU0eHo5czl1NDBQRFdNdEJIblpvelRj?oc=5",
+     "time": "2026-11-04T09:56:36+00:00"
+    },
+    {
+     "title": "Alphabet's Free Cash Flow Is Declining Faster Than Analysts Expected. Is This AI Stock Still a Buy?",
+     "publisher": "AOL.com",
+     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOTExYckNXQ3RrRl9UMDF5Z1JDVXdQVVlJQWlQcW9oZXF5dFdxRGNjRlY4VERhSmtLR05TOHpza3NRSnVOSzJQOXVfUEN5ZFhQczJhQ3d2NC13UXhYUTljQ1Jvdm82VWlBa2hsSGhQaV9vYmstSlN2TzdSbXFJMGg0amt3blI?oc=5",
+     "time": "2026-11-04T05:20:00+00:00"
+    },
+    {
+     "title": "Should You Buy Alphabet Stock After Anthropic Raised Its Google Commitment to $121 Billion?",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQY3ZXVFE4MElyUkJnUy1BejRYZkxlVFJyQ0ZyTE5wUFQ0TTZCT25iN1ZFZTZxSFpLN3dGNTBfLWVLMWp4X0M3M2VZQUd1REhzQkw2MXhCVVFqVldUcUtnRE1MM0RDV1MxWTdIc1A1R05mWGxPZEdOWDF6dlYtTWxUdnhjbF9yUHJKTjZLMklvZXFUMFBCNnpXMGxidEFzcFFNTkFJMFM3Szh6ODdHWHYtYjZHbTF5TWpsY3pCSERKenE5Q0dGZzRGQktlbndZa0ZX?oc=5",
+     "time": "2026-11-04T01:23:00+00:00"
+    },
+    {
+     "title": "Alphabet's Free Cash Flow Just Turned Negative. Should Investors Sell the Stock Now?",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOblQtLVJTcUsya2hmb0pVNDlpQldMMDhOQXYyRm9GSkI4VkREbTU4QlhWVjNtcmIwWWxyeTA0NjlHZFhrTzFxemxZQmtRSXZ2NkFGSnM3YTBjMWN4cG9Jb1hwS2JwT1Y2aGxISHlFcjR1OHhCRy1MaWhqcGpGazk0aVpoZ04zQzRxTHExOXBQbUxQZw?oc=5",
+     "time": "2026-11-03T21:09:00+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
    "symbol": "NFLX",
    "name": "Netflix",
    "list": "portfolio",
-   "price": 66.19,
+   "price": 66.17,
    "prev_close": 63.42,
-   "change_pct": 4.4,
+   "change_pct": 4.3,
    "trigger_change": 3.9,
    "peak_change": 4.4,
    "first_seen": "2026-11-04T15:00:57+00:00",
    "sector": {
     "etf": "XLC",
     "name": "Communication",
-    "price": 105.42,
-    "change_pct": 3.92
+    "price": 105.53,
+    "change_pct": 4.04
    },
    "chart": {
     "ema8": 3.2,
     "ema21": -0.1,
-    "sma50": -7.6,
+    "sma50": -7.7,
     "sma200": -18.5,
     "momentum": false
    },
@@ -519,18 +594,18 @@
    "symbol": "BTC-USD",
    "name": "Bitcoin",
    "list": "watchlist",
-   "price": 80622.9,
+   "price": 80600.2,
    "prev_close": 77331.7,
-   "change_pct": 4.3,
+   "change_pct": 4.2,
    "trigger_change": 4.0,
    "peak_change": 4.7,
    "first_seen": "2026-11-04T15:11:03+00:00",
    "sector": null,
    "chart": {
     "ema8": 2.4,
-    "ema21": 0.9,
+    "ema21": 0.8,
     "sma50": -1.7,
-    "sma200": 10.2,
+    "sma200": 10.1,
     "momentum": false
    },
    "headlines": [
@@ -586,81 +661,6 @@
    "brief": null
   },
   {
-   "symbol": "GOOG",
-   "name": "Alphabet",
-   "list": "portfolio",
-   "price": 289.11,
-   "prev_close": 278.27,
-   "change_pct": 3.9,
-   "trigger_change": 3.9,
-   "peak_change": 5.4,
-   "first_seen": "2026-11-04T14:55:55+00:00",
-   "sector": {
-    "etf": "XLC",
-    "name": "Communication",
-    "price": 105.42,
-    "change_pct": 3.92
-   },
-   "chart": {
-    "ema8": -1.7,
-    "ema21": -7.7,
-    "sma50": -12.9,
-    "sma200": -14.5,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Why is Alphabet stock surging today?",
-     "publisher": "Investing.com",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPNnFRbTVXZml1dGQzbEEtVTB0M1haTzU2UHZvSlJWdDNhWjNGQm9XeXptdkV1VkFzMEk5cjhibDNrNDRhcHAwV3N6N3h6VEZ4ZU1PZXU3QnN2aER4RVFLUXV0ckdmeVV5aUU2cUFqY3p1SmFuTmY0Y3JUdWlady1ZQXhEcUlMaWVNOUhmTGRJWHUybXAyalI5UmFqbjNidw?oc=5",
-     "time": "2026-11-04T15:16:12+00:00"
-    },
-    {
-     "title": "Alphabet Inc Class C Stock (GOOG) Opened Up by 3.43% on Nov 4: What Signal Does It Send?",
-     "publisher": "TradingKey",
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPdnJYZGQtNzFzbnZpX3J0SGVkWDQ4aWFKdWh0Y3ptUHp4RTI4TkRYS2lkMlh3ajEyQ3hXMURER2VRcWpubEpXbU43S3U1WjVjOV9EbHp4RE1JWF9yem02Q2ZhbHZBenJjdE5MZGQzV1RXSW9kaUx3b1VtTkFDRHJoa3hXdld3TzVPZjhV?oc=5",
-     "time": "2026-11-04T14:47:52+00:00"
-    },
-    {
-     "title": "Alphabet's Search Scare Is A Buying Chance - Amazon's Cash Problem Isn't (NASDAQ:GOOG)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTXpFTmZ3OTdVdHJzNTZDcnBBVDZzcjJESmxrOElFYTE1NEU3OVNzcWdTNWVlRkxRMzFmbW1CajJQSGpxMW9tQ2h4dWRSVDhKX2tra1ZfTEtGZHpMQjExUlJpdXRjQVVsVkRLT2M0eVhGcnp3bEI1NkJhcmhtODBmQm5jajcwOEkwMGU4cUI0Rk9mMENTMmktSHNUbE1XeTlzTnNaNzJ4QWtzdw?oc=5",
-     "time": "2026-11-04T12:52:01+00:00"
-    },
-    {
-     "title": "ETFs Are Buying Alphabet (GOOG) on Nov. 2",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQaHBSWDh4M216ekdRaURqV1l4aVZOTEQwUEo2Wkg1ZGhfaXhVVFg4THIzdmZQbnFZOGpQQ3FvRXNUdTBqVkFtaXJ1T2RYTmw3elhMeHhUM2FGQ05Lb2dFOGUzY0VNbTNPQzNCOUQ2UHRfN2tGUEJfck1zZHlSb09XUlVKRkdxLUZGeHFxRVNVbUQzaVY1ZF9QR2ZB?oc=5",
-     "time": "2026-11-04T11:01:41+00:00"
-    },
-    {
-     "title": "Alphabet: Q3 Selloff Overlooks Its Growing AI Payoff (NASDAQ:GOOG)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOektDdFIta1cwT3cxYm1UTkJFT2ZTdDBNMk5nR19mbVp3TE1xSkYtMHp5cC1DVWYwd1hxZ1lIR0J0ZWc1bEN4SkRDOEZlSzZwTjhJZnlhbmV3WTY5VnVTSDFrYTVaejBYYVdTdldvWFMtbmpzclYxVlRPYXNIR0s2MkU0eHo5czl1NDBQRFdNdEJIblpvelRj?oc=5",
-     "time": "2026-11-04T09:56:36+00:00"
-    },
-    {
-     "title": "Alphabet's Free Cash Flow Is Declining Faster Than Analysts Expected. Is This AI Stock Still a Buy?",
-     "publisher": "AOL.com",
-     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOTExYckNXQ3RrRl9UMDF5Z1JDVXdQVVlJQWlQcW9oZXF5dFdxRGNjRlY4VERhSmtLR05TOHpza3NRSnVOSzJQOXVfUEN5ZFhQczJhQ3d2NC13UXhYUTljQ1Jvdm82VWlBa2hsSGhQaV9vYmstSlN2TzdSbXFJMGg0amt3blI?oc=5",
-     "time": "2026-11-04T05:20:00+00:00"
-    },
-    {
-     "title": "Should You Buy Alphabet Stock After Anthropic Raised Its Google Commitment to $121 Billion?",
-     "publisher": "The Motley Fool",
-     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQY3ZXVFE4MElyUkJnUy1BejRYZkxlVFJyQ0ZyTE5wUFQ0TTZCT25iN1ZFZTZxSFpLN3dGNTBfLWVLMWp4X0M3M2VZQUd1REhzQkw2MXhCVVFqVldUcUtnRE1MM0RDV1MxWTdIc1A1R05mWGxPZEdOWDF6dlYtTWxUdnhjbF9yUHJKTjZLMklvZXFUMFBCNnpXMGxidEFzcFFNTkFJMFM3Szh6ODdHWHYtYjZHbTF5TWpsY3pCSERKenE5Q0dGZzRGQktlbndZa0ZX?oc=5",
-     "time": "2026-11-04T01:23:00+00:00"
-    },
-    {
-     "title": "Alphabet's Free Cash Flow Just Turned Negative. Should Investors Sell the Stock Now?",
-     "publisher": "The Motley Fool",
-     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOblQtLVJTcUsya2hmb0pVNDlpQldMMDhOQXYyRm9GSkI4VkREbTU4QlhWVjNtcmIwWWxyeTA0NjlHZFhrTzFxemxZQmtRSXZ2NkFGSnM3YTBjMWN4cG9Jb1hwS2JwT1Y2aGxISHlFcjR1OHhCRy1MaWhqcGpGazk0aVpoZ04zQzRxTHExOXBQbUxQZw?oc=5",
-     "time": "2026-11-03T21:09:00+00:00"
-    }
-   ],
-   "brief": null
-  },
-  {
    "symbol": "SOFI",
    "name": "SoFi",
    "list": "portfolio",
@@ -673,8 +673,8 @@
    "sector": {
     "etf": "XLF",
     "name": "Financials",
-    "price": 58.81,
-    "change_pct": 2.83
+    "price": 58.86,
+    "change_pct": 2.92
    },
    "chart": {
     "ema8": 4.9,
@@ -739,23 +739,23 @@
    "symbol": "AMAT",
    "name": "Applied Materials",
    "list": "portfolio",
-   "price": 368.1,
+   "price": 367.56,
    "prev_close": 381.92,
-   "change_pct": -3.6,
+   "change_pct": -3.8,
    "trigger_change": -3.4,
    "peak_change": -4.0,
    "first_seen": "2026-11-04T16:33:19+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 507.17,
-    "change_pct": -2.19
+    "price": 505.67,
+    "change_pct": -2.48
    },
    "chart": {
-    "ema8": -5.3,
-    "ema21": -11.5,
-    "sma50": -18.4,
-    "sma200": -17.3,
+    "ema8": -5.5,
+    "ema21": -11.6,
+    "sma50": -18.5,
+    "sma200": -17.5,
     "momentum": false
    },
    "headlines": [
@@ -814,23 +814,23 @@
    "symbol": "CRWD",
    "name": "CrowdStrike",
    "list": "portfolio",
-   "price": 242.28,
+   "price": 241.46,
    "prev_close": 244.68,
-   "change_pct": -1.0,
+   "change_pct": -1.3,
    "trigger_change": 3.1,
    "peak_change": 3.1,
    "first_seen": "2026-11-04T15:21:14+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 103.88,
-    "change_pct": 1.19
+    "price": 103.73,
+    "change_pct": 1.04
    },
    "chart": {
-    "ema8": -2.6,
-    "ema21": -3.1,
-    "sma50": -0.5,
-    "sma200": 43.2,
+    "ema8": -2.9,
+    "ema21": -3.4,
+    "sma50": -0.8,
+    "sma200": 42.7,
     "momentum": false
    },
    "headlines": [
