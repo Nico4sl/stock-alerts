@@ -1,22 +1,22 @@
 {
  "date": "2026-11-04",
  "threshold": 3.0,
- "updated": "2026-11-04T16:16:30+00:00",
+ "updated": "2026-11-04T16:28:17+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 765.77,
-   "change_pct": 1.51
+   "price": 764.17,
+   "change_pct": 1.3
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 692.71,
-   "change_pct": 1.08
+   "price": 690.6,
+   "change_pct": 0.78
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 81.37,
-   "change_pct": 0.32
+   "price": 81.39,
+   "change_pct": 0.35
   }
  },
  "movers": [
@@ -24,23 +24,23 @@
    "symbol": "APP",
    "name": "AppLovin",
    "list": "portfolio",
-   "price": 270.26,
+   "price": 270.91,
    "prev_close": 245.51,
-   "change_pct": 10.1,
+   "change_pct": 10.3,
    "trigger_change": 5.7,
-   "peak_change": 10.1,
+   "peak_change": 10.3,
    "first_seen": "2026-11-04T14:55:55+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 103.85,
-    "change_pct": 1.16
+    "price": 103.4,
+    "change_pct": 0.72
    },
    "chart": {
-    "ema8": 6.8,
-    "ema21": 2.3,
-    "sma50": -7.1,
-    "sma200": -34.2,
+    "ema8": 7.0,
+    "ema21": 2.5,
+    "sma50": -6.8,
+    "sma200": -34.1,
     "momentum": false
    },
    "headlines": [
@@ -93,224 +93,29 @@
      "time": "2026-11-03T19:16:31+00:00"
     }
    ],
-   "brief": null
-  },
-  {
-   "symbol": "AMZN",
-   "name": "Amazon",
-   "list": "portfolio",
-   "price": 266.57,
-   "prev_close": 250.69,
-   "change_pct": 6.3,
-   "trigger_change": 7.7,
-   "peak_change": 8.0,
-   "first_seen": "2026-11-04T14:55:55+00:00",
-   "sector": {
-    "etf": "XLY",
-    "name": "Consumer discr.",
-    "price": 121.75,
-    "change_pct": 3.77
-   },
-   "chart": {
-    "ema8": 5.5,
-    "ema21": 5.4,
-    "sma50": 5.0,
-    "sma200": 9.4,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Democratic Sweep Raises Data Center CapX Concerns; Amazon (AMZN) Shares Jump 7%",
-     "publisher": "GuruFocus",
-     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQUjZwOFFReVZtZGNjNVVUZk5qMHVzV1RZMUEtcGFheUNNWTcxSmRxU1dLV0lfbl9ESGxwSEFrejJUdVhDN3kxc1poMkVwUHBGSEVwU2tnLUZzc0JFMUlSVlY0aDRGYjZkeTdzbTljZ1JfeVZMZE5vS2F1V1dwRzdJNlhDcHBpQmRpdlNDUnZHMDJUZGxlWExISDZWNi15N1NjWTRmOU1jS21WTjBtZ29CYlQyN1o?oc=5",
-     "time": "2026-11-04T16:14:27+00:00"
-    },
-    {
-     "title": "Amazon Leads Cloud Hyperscaler Stocks Higher. What 'Blue Tsunami' Means For Big Tech.",
-     "publisher": "Investor's Business Daily",
-     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOc0YzaXo0b2JIcXlEM25sejBneVBlQi1EazRyR0NoVTM5REJ4NjR0WkdKM1k1ckVsZzRTTEFVQ1pSTTJmSDFvWlFERGRDVWp2a1hsRld4dnhjbURqRnJiRENYSzJxM2JuejdFNHVVUnhRLXBnYzdOSm8zSmlTX3pkczlES1hVTnZtZG5vOWYtMTRkWTNDTEE?oc=5",
-     "time": "2026-11-04T15:24:00+00:00"
-    },
-    {
-     "title": "Amazon.com Inc Stock (AMZN) Opened Up by 7.24% on Nov 4: Drivers Behind the Movement",
-     "publisher": "TradingKey",
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNekVXSnRhT25EdEFIeUV5VEM4aWktZ0RES2QzNzZmTTlpZTBBUTJoRy1BZ3ZXb01WVFFhZjRZWk5qS1VCR2t5dENzSU1CSWdwSWM4VVNKcjZJU2JEOWZ5U1p4cGhMV2ZvUlBFNnJNdDVzenRtNU1lYTlTbmo2QTZHX0RRanRxa3JxbTBV?oc=5",
-     "time": "2026-11-04T14:47:57+00:00"
-    },
-    {
-     "title": "Why is Amazon stock surging today?",
-     "publisher": "Investing.com",
-     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQaU0yZjExc2txWjA4RkRuQ2h3MEJpaUs3b1NXRDN2NGdYY25KcDh2MnNDX255MHFZY211Y05fNzAzNTVVVkNaNkF0VDdzMmxzMHE3RGIyTjE1X3RHNHYxWDdBSzMxenZjTm5qYk1kcmJHQlB5M3o3cWpwU0dCOEx0Qkl4MGN3SV9RWW9XMTNTTTlybTRGbU51UE9ibw?oc=5",
-     "time": "2026-11-04T14:39:01+00:00"
-    },
-    {
-     "title": "Retail Stocks Rally Post-U.S. Election; Amazon (AMZN) Shares Ris",
-     "publisher": "GuruFocus",
-     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQODVobXhqUDVuTzhKdXRjN2p2ZGhqbDE1VWt0MG1FVGwwTEU3Sll2bVhLb3czZU5KOVFGM09wU3FlZlNzaTBlRGV0T1hyX3RkVTlVT1dFRzc5RlhKNHhsd3dSUWg5MEdnWUJnTmszd2xzRGtqOTlLdzBuWTdfQWpFV2xYN0RodHotYlRYdTdmYmVGZ3FOOENsRnpDaFYzamluZW5N?oc=5",
-     "time": "2026-11-04T14:16:37+00:00"
-    },
-    {
-     "title": "Forget The Short-Term Noise: This is Where Amazon Will Be in 2028",
-     "publisher": "24/7 Wall St.",
-     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQRVVYemxVQ25ZWmJLVDBlSjVqYXgyTkVtS1FuOGJlNmRMWDM5NWtTRU41cVN6UFhocV9UMTJCQno3ZVFzc1FxZDJjUWtVQ2V5TXlEQUJtd3F3amV2eFhwcG1Val84d0psTXNnZS00RG9RWUdMNlpubVZpVm11TDFMcVAzRUxPSlVmTWFvUWFHdDFUOFRScXpMSWtNVVlmWjNzNWRtNDU5UG42U1Qt?oc=5",
-     "time": "2026-11-04T14:03:00+00:00"
-    },
-    {
-     "title": "Amazon.com, Inc. (AMZN) Stock Forecasts",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxONENQbGVzWm4xbkM1ZWx2VnRhbXJnQWlwOXJxV2s0WWdfUW52c05PRHY0RjN6QUpqV0hZTWkzR2V2NFRDNGFpd3dPaG1IclIzb0xhek1fdnBpblJoTkRQbUxlUmdFaFhIS1Rpa3FQOXVFNTZSYTJDRnFpUDFqYk9JWG0zd3ZOekZLVGc?oc=5",
-     "time": "2026-11-04T13:39:43+00:00"
-    },
-    {
-     "title": "Alphabet's Search Scare Is A Buying Chance - Amazon's Cash Problem Isn't (NASDAQ:GOOG)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTXpFTmZ3OTdVdHJzNTZDcnBBVDZzcjJESmxrOElFYTE1NEU3OVNzcWdTNWVlRkxRMzFmbW1CajJQSGpxMW9tQ2h4dWRSVDhKX2tra1ZfTEtGZHpMQjExUlJpdXRjQVVsVkRLT2M0eVhGcnp3bEI1NkJhcmhtODBmQm5jajcwOEkwMGU4cUI0Rk9mMENTMmktSHNUbE1XeTlzTnNaNzJ4QWtzdw?oc=5",
-     "time": "2026-11-04T12:52:01+00:00"
-    }
-   ],
-   "brief": null
-  },
-  {
-   "symbol": "ANET",
-   "name": "Arista Networks",
-   "list": "portfolio",
-   "price": 180.59,
-   "prev_close": 169.91,
-   "change_pct": 6.3,
-   "trigger_change": 10.3,
-   "peak_change": 10.3,
-   "first_seen": "2026-11-04T14:55:55+00:00",
-   "sector": {
-    "etf": "SMH",
-    "name": "Semiconductors",
-    "price": 504.98,
-    "change_pct": -2.61
-   },
-   "chart": {
-    "ema8": 2.4,
-    "ema21": -1.7,
-    "sma50": -7.0,
-    "sma200": 8.9,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Arista Networks (NYSE:ANET) Given New $240.00 Price Target at Truist Financial",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOa0k1ckRSMlo5b2dXd3o3c2d5LWpQX2x3LVdScjRwbTFyTERKMjdCWjF1bUNaYk5ocGtBeFpIZXJROGZrNmQ1dXB4cWJvb1h6UGRYUDVEckJzRmljYUJqUU15RjYyTGMwQUF6eVgzQ0hUSXhVQ0RXX3dqTHRCYnk0LTI0cXFlWENWaDVhZnhueWVkUzhPZzIyTzQ5NEp6Yk5wcVlXU0VCcm5HckJWaS1hR1Brd0puNE0xbGFuZlh0dFZJMmxndnpjb3NVbDB4azdpRlE?oc=5",
-     "time": "2026-11-04T16:05:19+00:00"
-    },
-    {
-     "title": "Arista Networks price target raised to $240 from $234 at Truist",
-     "publisher": "TipRanks",
-     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdEVoNmxveWlzd3k4aERkbkNQRmktU3VFelpZSGxocjdaM2JIajlTWW1sN3lFTHBBRWFSejJtMHVCOVBOajdPWFVmOFFYZDd5eEdQWnVWNzYtcE53R0s1U1VsSTJqekFKN2ZhNGFWc3BmeGdtbWF0OVNhYmc0a1dVOU1zN2Facnl1WnpaMk1DZVJEQVhJSWZYYk16M0FLUkZXa1hvNktXbGpyUW1BSEcxUw?oc=5",
-     "time": "2026-11-04T14:35:33+00:00"
-    },
-    {
-     "title": "Arista Says Its AI Business Will Double to $7 Billion",
-     "publisher": "24/7 Wall St.",
-     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNXzludldWc3lxRjZjS3R6Y0JKZU52RjNSQS11ZEhiSFN3aVJ1anJ6elh5bk4yRkpuQlBVQXQtMml2R1JoYXl1N2RoZXotLXdXdjZiS1FxYmRjU2hQOUg5bFM4SWpTTnZjY25zN25uOExrZHdfLXZfb0lodEZVRDVJbE5HaXlVSVM0eFF2WEE0VG14clRadXI4TENXcGI?oc=5",
-     "time": "2026-11-04T14:29:00+00:00"
-    },
-    {
-     "title": "Arista Networks issues historic guidance beat as catalysts appear ahead: analysts",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQWmJqTFIxbEZ3b1JmaTBqMjBsdU93aHM5UzFoTWpUeUt4WGNfWFQ1eDRMSmtkNThqbEd3U0U5X1dsdGVaZFB4Z29WWmxUdURtdFpmREk2Q1o3Mmo4YWdWRVNOaVhoSmJVTnVvUUVvNTVvNHJuUjR2cGFfVFRVV0JwUHVSZWxwblpEdWdxZWRyc1VzSlUzczIxdUtUamh3alUxeU1iQlN5UzF0Vk0yQkVwajBXYWQzNzZfQlE?oc=5",
-     "time": "2026-11-04T14:05:47+00:00"
-    },
-    {
-     "title": "Arista Networks' Demand Strength, Supply Efficiency Help Lift Revenue Outlook",
-     "publisher": "Yahoo! Finance Canada",
-     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPb0lSaDNvR294ZE1MNENWVV9PUVlXRHctMnNkOExmcEZuWk9HRVB4ZGl6bVdnSkNFVmdfajlGaDAyQ290T01Ta0VIS3YyZlVyY1duamZvbG12cnZDN1RRQ3FMRmV5RmdtaTRhcXl5eS1EMjM2Q2ZKSWdqSjdMajhEVkhTWldsVVNveW5ndTVR?oc=5",
-     "time": "2026-11-04T13:29:08+00:00"
-    },
-    {
-     "title": "Rosenblatt Securities Reaffirms \"Buy\" Rating for Arista Networks (NYSE:ANET)",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOQjYzUGVhcFI5cVROU2ZyZ0lCYy16M19tWWFpTS12NHZ6MmdnVGd5YkxoWmRhaF9uU2tlMWlIZXRHaW9ZQUZLTWYwOU9qZlFWbWpQYk9EOVg2cTI4NzRDNE5fcUMxd1Q0SkU0YnpFNkJBWjV6MzJhSlZ1NEU3RzlVZDE1V3JxVGZ1Sll1UnE2bU9DRjhkUUJSd0hPVXdXN1RXR05uUkluTDN2ckg0cUxyUEp0dVplLUtmR0hmQnprR1dDSzlaZ0lJVDVSalNxNm8?oc=5",
-     "time": "2026-11-04T13:20:30+00:00"
-    },
-    {
-     "title": "Arista\u2019s AI Growth Story Builds, but Scale-Up Revenue May Have to Wait",
-     "publisher": "Benzinga",
-     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNcExTQzhLSkhESDBWejZXUGNuS2NtQzh1QXhqNUFMSVUwQlM1SjVSOU9jRXViZldUaUJicmx4RzNzUV9qSzF1VjNrR3dWRHF6UzdQOEhZREdmVXNMNkxvX0hFZFM5NFdpb1FkdEJiYlp4UWFIWjFMQU1laTAtYkJ3RUxKcUNISUxTcnpqeWNlTjlZamVaeFpYaWRBakZiQk02OHZnZUVNY1o0d1F3UlJhRzl0ekpVdlUtN0ZlTWxaTHVuZ3M?oc=5",
-     "time": "2026-11-04T12:59:09+00:00"
-    },
-    {
-     "title": "Arista Networks price target raised to $261 from $240 at Piper Sandler",
-     "publisher": "TipRanks",
-     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNTzhmcEc0alVzRWF0VnFEbHMyWHpNRWIwOHl4UHY3d2tTRlFscElUNlJqZGRsNUQzTHZfb2lTWEJ3NzJkano2dXVSVXRtNU5xN0l2bE80bDhBdUczbS1wcE1LT01qeEYtNHZ2QXBxRU85eE5pcUx6dVIxRUt4Yno3SDV1LUpLSDBOMHB2b05UY1lISVRPM1YyMVBUY0VQbC1FRUdMeGdlZmRhakdXZVNPOWQ0S3lLOVhTS2c?oc=5",
-     "time": "2026-11-04T11:55:15+00:00"
-    }
-   ],
-   "brief": null
-  },
-  {
-   "symbol": "NVO",
-   "name": "Novo Nordisk (ADR)",
-   "list": "portfolio",
-   "price": 42.74,
-   "prev_close": 40.19,
-   "change_pct": 6.3,
-   "trigger_change": 6.6,
-   "peak_change": 6.6,
-   "first_seen": "2026-11-04T14:55:55+00:00",
-   "sector": {
-    "etf": "XLV",
-    "name": "Health care",
-    "price": 188.15,
-    "change_pct": 2.24
-   },
-   "chart": {
-    "ema8": 6.1,
-    "ema21": 7.7,
-    "sma50": 4.6,
-    "sma200": -2.7,
-    "momentum": true
-   },
-   "headlines": [
-    {
-     "title": "NVO Q3 Earnings Beat Estimates on Wegovy Pill Growth, Outlook Raised",
-     "publisher": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZm45MnZTQVRnMU5wWGxvRnVRVWp4NEd0MHV4Y1dTWUVNRkF6QWlTNlpId0c3bGpYOWp5aTl6aTZUX1F6ZHpUdHExcHYzOUQxcWFtTnZtdUhYN1ozNG1SVVZhWTd4b1pzbVJ5U19WcGVtQXpoTEQyNkdOWE5oWmVqSjVPS1lueWVZMHFnMFdTSXdhczRxanFHN2k0azNxX3I2Q2YyTzMwQXltbTFadC1mY1BZb0xYSDdCSV9Ob21Bb3E?oc=5",
-     "time": "2026-11-04T13:35:00+00:00"
-    },
-    {
-     "title": "Earnings call transcript: Novo Nordisk rises on Q3 2026 growth outlook",
-     "publisher": "Investing.com Canada",
-     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOV0F0dUhpV29uSzJJLUdsOGJHSXAyTTRaMk5NOTV3ZTJRc3EzMGZ3cE5OeWYtN3o1T1EzZnRrX1c4YXhOUTNTUVhiTDNrLUFnazJCWlFKRG0tc3Z6UWhZYkxtTlMxM1dsQ1ZDdmZkVjlDbi1Nbzd6VHFtV0stMHlWSzlxVDVWLTlaNG5TeXNQTmtWT3ZqcHdFdWg4OVlBcXQ0d0s2Rm9IRUpjT2RlaTIxNHFDQmlYOXh2UlItbjdMbWFRRFZfOUNaaE93?oc=5",
-     "time": "2026-11-04T13:34:19+00:00"
-    },
-    {
-     "title": "Novo Nordisk ADR earnings missed by $3.74, revenue fell short of estimates",
-     "publisher": "Investing.com",
-     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNOHFKQnJsWnZFX2JOV0h2OVgxWkFwQUJERk8yNHd3bjZUMWhSTF9HREphNnEtZHBBOFkyOENRcGFGeml5ZXRGa0l5azlGMnFhRVYxSEVBaFZkODVGYnkxMnN2dkN1dUVKcW9VbzNIbGptZ2gyNXpGTDI5Unp0bXM0UjBtWUNFS0MyUHZqcTY2VnNmVnQxSG1iM1RxcG0yQTdLMV80el9ZanZHcTFCT0sxY3ZENUo2dWcyUFVB?oc=5",
-     "time": "2026-11-04T08:04:17+00:00"
-    }
-   ],
-   "brief": null
+   "brief": "2026-11-04-APP"
   },
   {
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 142.88,
+   "price": 140.56,
    "prev_close": 151.64,
-   "change_pct": -5.8,
+   "change_pct": -7.3,
    "trigger_change": -4.1,
-   "peak_change": -6.4,
+   "peak_change": -7.3,
    "first_seen": "2026-11-04T15:31:22+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 103.85,
-    "change_pct": 1.16
+    "price": 103.4,
+    "change_pct": 0.72
    },
    "chart": {
-    "ema8": -8.5,
-    "ema21": -18.3,
-    "sma50": -30.4,
-    "sma200": -19.8,
+    "ema8": -9.7,
+    "ema21": -19.6,
+    "sma50": -31.5,
+    "sma200": -21.1,
     "momentum": false
    },
    "headlines": [
@@ -363,13 +168,133 @@
      "time": "2026-11-04T04:46:03+00:00"
     }
    ],
-   "brief": null
+   "brief": "2026-11-04-NBIS"
+  },
+  {
+   "symbol": "NVO",
+   "name": "Novo Nordisk (ADR)",
+   "list": "portfolio",
+   "price": 42.66,
+   "prev_close": 40.19,
+   "change_pct": 6.1,
+   "trigger_change": 6.6,
+   "peak_change": 6.6,
+   "first_seen": "2026-11-04T14:55:55+00:00",
+   "sector": {
+    "etf": "XLV",
+    "name": "Health care",
+    "price": 188.07,
+    "change_pct": 2.2
+   },
+   "chart": {
+    "ema8": 5.9,
+    "ema21": 7.5,
+    "sma50": 4.4,
+    "sma200": -2.8,
+    "momentum": true
+   },
+   "headlines": [
+    {
+     "title": "NVO Q3 Earnings Beat Estimates on Wegovy Pill Growth, Outlook Raised",
+     "publisher": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZm45MnZTQVRnMU5wWGxvRnVRVWp4NEd0MHV4Y1dTWUVNRkF6QWlTNlpId0c3bGpYOWp5aTl6aTZUX1F6ZHpUdHExcHYzOUQxcWFtTnZtdUhYN1ozNG1SVVZhWTd4b1pzbVJ5U19WcGVtQXpoTEQyNkdOWE5oWmVqSjVPS1lueWVZMHFnMFdTSXdhczRxanFHN2k0azNxX3I2Q2YyTzMwQXltbTFadC1mY1BZb0xYSDdCSV9Ob21Bb3E?oc=5",
+     "time": "2026-11-04T13:35:00+00:00"
+    },
+    {
+     "title": "Earnings call transcript: Novo Nordisk rises on Q3 2026 growth outlook",
+     "publisher": "Investing.com Canada",
+     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOV0F0dUhpV29uSzJJLUdsOGJHSXAyTTRaMk5NOTV3ZTJRc3EzMGZ3cE5OeWYtN3o1T1EzZnRrX1c4YXhOUTNTUVhiTDNrLUFnazJCWlFKRG0tc3Z6UWhZYkxtTlMxM1dsQ1ZDdmZkVjlDbi1Nbzd6VHFtV0stMHlWSzlxVDVWLTlaNG5TeXNQTmtWT3ZqcHdFdWg4OVlBcXQ0d0s2Rm9IRUpjT2RlaTIxNHFDQmlYOXh2UlItbjdMbWFRRFZfOUNaaE93?oc=5",
+     "time": "2026-11-04T13:34:19+00:00"
+    },
+    {
+     "title": "Novo Nordisk ADR earnings missed by $3.74, revenue fell short of estimates",
+     "publisher": "Investing.com",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNOHFKQnJsWnZFX2JOV0h2OVgxWkFwQUJERk8yNHd3bjZUMWhSTF9HREphNnEtZHBBOFkyOENRcGFGeml5ZXRGa0l5azlGMnFhRVYxSEVBaFZkODVGYnkxMnN2dkN1dUVKcW9VbzNIbGptZ2gyNXpGTDI5Unp0bXM0UjBtWUNFS0MyUHZqcTY2VnNmVnQxSG1iM1RxcG0yQTdLMV80el9ZanZHcTFCT0sxY3ZENUo2dWcyUFVB?oc=5",
+     "time": "2026-11-04T08:04:17+00:00"
+    }
+   ],
+   "brief": "2026-11-04-NVO"
+  },
+  {
+   "symbol": "AMZN",
+   "name": "Amazon",
+   "list": "portfolio",
+   "price": 265.53,
+   "prev_close": 250.69,
+   "change_pct": 5.9,
+   "trigger_change": 7.7,
+   "peak_change": 8.0,
+   "first_seen": "2026-11-04T14:55:55+00:00",
+   "sector": {
+    "etf": "XLY",
+    "name": "Consumer discr.",
+    "price": 121.57,
+    "change_pct": 3.61
+   },
+   "chart": {
+    "ema8": 5.1,
+    "ema21": 5.0,
+    "sma50": 4.6,
+    "sma200": 9.0,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Democratic Sweep Raises Data Center CapX Concerns; Amazon (AMZN) Shares Jump 7%",
+     "publisher": "GuruFocus",
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQUjZwOFFReVZtZGNjNVVUZk5qMHVzV1RZMUEtcGFheUNNWTcxSmRxU1dLV0lfbl9ESGxwSEFrejJUdVhDN3kxc1poMkVwUHBGSEVwU2tnLUZzc0JFMUlSVlY0aDRGYjZkeTdzbTljZ1JfeVZMZE5vS2F1V1dwRzdJNlhDcHBpQmRpdlNDUnZHMDJUZGxlWExISDZWNi15N1NjWTRmOU1jS21WTjBtZ29CYlQyN1o?oc=5",
+     "time": "2026-11-04T16:14:27+00:00"
+    },
+    {
+     "title": "Amazon Leads Cloud Hyperscaler Stocks Higher. What 'Blue Tsunami' Means For Big Tech.",
+     "publisher": "Investor's Business Daily",
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOc0YzaXo0b2JIcXlEM25sejBneVBlQi1EazRyR0NoVTM5REJ4NjR0WkdKM1k1ckVsZzRTTEFVQ1pSTTJmSDFvWlFERGRDVWp2a1hsRld4dnhjbURqRnJiRENYSzJxM2JuejdFNHVVUnhRLXBnYzdOSm8zSmlTX3pkczlES1hVTnZtZG5vOWYtMTRkWTNDTEE?oc=5",
+     "time": "2026-11-04T15:24:00+00:00"
+    },
+    {
+     "title": "Amazon.com Inc Stock (AMZN) Opened Up by 7.24% on Nov 4: Drivers Behind the Movement",
+     "publisher": "TradingKey",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNekVXSnRhT25EdEFIeUV5VEM4aWktZ0RES2QzNzZmTTlpZTBBUTJoRy1BZ3ZXb01WVFFhZjRZWk5qS1VCR2t5dENzSU1CSWdwSWM4VVNKcjZJU2JEOWZ5U1p4cGhMV2ZvUlBFNnJNdDVzenRtNU1lYTlTbmo2QTZHX0RRanRxa3JxbTBV?oc=5",
+     "time": "2026-11-04T14:47:57+00:00"
+    },
+    {
+     "title": "Why is Amazon stock surging today?",
+     "publisher": "Investing.com",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQaU0yZjExc2txWjA4RkRuQ2h3MEJpaUs3b1NXRDN2NGdYY25KcDh2MnNDX255MHFZY211Y05fNzAzNTVVVkNaNkF0VDdzMmxzMHE3RGIyTjE1X3RHNHYxWDdBSzMxenZjTm5qYk1kcmJHQlB5M3o3cWpwU0dCOEx0Qkl4MGN3SV9RWW9XMTNTTTlybTRGbU51UE9ibw?oc=5",
+     "time": "2026-11-04T14:39:01+00:00"
+    },
+    {
+     "title": "Retail Stocks Rally Post-U.S. Election; Amazon (AMZN) Shares Ris",
+     "publisher": "GuruFocus",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQODVobXhqUDVuTzhKdXRjN2p2ZGhqbDE1VWt0MG1FVGwwTEU3Sll2bVhLb3czZU5KOVFGM09wU3FlZlNzaTBlRGV0T1hyX3RkVTlVT1dFRzc5RlhKNHhsd3dSUWg5MEdnWUJnTmszd2xzRGtqOTlLdzBuWTdfQWpFV2xYN0RodHotYlRYdTdmYmVGZ3FOOENsRnpDaFYzamluZW5N?oc=5",
+     "time": "2026-11-04T14:16:37+00:00"
+    },
+    {
+     "title": "Forget The Short-Term Noise: This is Where Amazon Will Be in 2028",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQRVVYemxVQ25ZWmJLVDBlSjVqYXgyTkVtS1FuOGJlNmRMWDM5NWtTRU41cVN6UFhocV9UMTJCQno3ZVFzc1FxZDJjUWtVQ2V5TXlEQUJtd3F3amV2eFhwcG1Val84d0psTXNnZS00RG9RWUdMNlpubVZpVm11TDFMcVAzRUxPSlVmTWFvUWFHdDFUOFRScXpMSWtNVVlmWjNzNWRtNDU5UG42U1Qt?oc=5",
+     "time": "2026-11-04T14:03:00+00:00"
+    },
+    {
+     "title": "Amazon.com, Inc. (AMZN) Stock Forecasts",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxONENQbGVzWm4xbkM1ZWx2VnRhbXJnQWlwOXJxV2s0WWdfUW52c05PRHY0RjN6QUpqV0hZTWkzR2V2NFRDNGFpd3dPaG1IclIzb0xhek1fdnBpblJoTkRQbUxlUmdFaFhIS1Rpa3FQOXVFNTZSYTJDRnFpUDFqYk9JWG0zd3ZOekZLVGc?oc=5",
+     "time": "2026-11-04T13:39:43+00:00"
+    },
+    {
+     "title": "Alphabet's Search Scare Is A Buying Chance - Amazon's Cash Problem Isn't (NASDAQ:GOOG)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTXpFTmZ3OTdVdHJzNTZDcnBBVDZzcjJESmxrOElFYTE1NEU3OVNzcWdTNWVlRkxRMzFmbW1CajJQSGpxMW9tQ2h4dWRSVDhKX2tra1ZfTEtGZHpMQjExUlJpdXRjQVVsVkRLT2M0eVhGcnp3bEI1NkJhcmhtODBmQm5jajcwOEkwMGU4cUI0Rk9mMENTMmktSHNUbE1XeTlzTnNaNzJ4QWtzdw?oc=5",
+     "time": "2026-11-04T12:52:01+00:00"
+    }
+   ],
+   "brief": "2026-11-04-AMZN"
   },
   {
    "symbol": "MELI",
    "name": "MercadoLibre",
    "list": "watchlist",
-   "price": 1748.95,
+   "price": 1748.92,
    "prev_close": 1662.16,
    "change_pct": 5.2,
    "trigger_change": 4.9,
@@ -378,8 +303,8 @@
    "sector": {
     "etf": "XLY",
     "name": "Consumer discr.",
-    "price": 121.75,
-    "change_pct": 3.77
+    "price": 121.57,
+    "change_pct": 3.61
    },
    "chart": {
     "ema8": 2.6,
@@ -438,29 +363,104 @@
      "time": "2026-11-03T20:30:43+00:00"
     }
    ],
-   "brief": null
+   "brief": "2026-11-04-MELI"
+  },
+  {
+   "symbol": "ANET",
+   "name": "Arista Networks",
+   "list": "portfolio",
+   "price": 178.77,
+   "prev_close": 169.91,
+   "change_pct": 5.2,
+   "trigger_change": 10.3,
+   "peak_change": 10.3,
+   "first_seen": "2026-11-04T14:55:55+00:00",
+   "sector": {
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 503.06,
+    "change_pct": -2.98
+   },
+   "chart": {
+    "ema8": 1.6,
+    "ema21": -2.6,
+    "sma50": -7.9,
+    "sma200": 7.8,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Arista Networks (NYSE:ANET) Given New $240.00 Price Target at Truist Financial",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOa0k1ckRSMlo5b2dXd3o3c2d5LWpQX2x3LVdScjRwbTFyTERKMjdCWjF1bUNaYk5ocGtBeFpIZXJROGZrNmQ1dXB4cWJvb1h6UGRYUDVEckJzRmljYUJqUU15RjYyTGMwQUF6eVgzQ0hUSXhVQ0RXX3dqTHRCYnk0LTI0cXFlWENWaDVhZnhueWVkUzhPZzIyTzQ5NEp6Yk5wcVlXU0VCcm5HckJWaS1hR1Brd0puNE0xbGFuZlh0dFZJMmxndnpjb3NVbDB4azdpRlE?oc=5",
+     "time": "2026-11-04T16:05:19+00:00"
+    },
+    {
+     "title": "Arista Networks price target raised to $240 from $234 at Truist",
+     "publisher": "TipRanks",
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdEVoNmxveWlzd3k4aERkbkNQRmktU3VFelpZSGxocjdaM2JIajlTWW1sN3lFTHBBRWFSejJtMHVCOVBOajdPWFVmOFFYZDd5eEdQWnVWNzYtcE53R0s1U1VsSTJqekFKN2ZhNGFWc3BmeGdtbWF0OVNhYmc0a1dVOU1zN2Facnl1WnpaMk1DZVJEQVhJSWZYYk16M0FLUkZXa1hvNktXbGpyUW1BSEcxUw?oc=5",
+     "time": "2026-11-04T14:35:33+00:00"
+    },
+    {
+     "title": "Arista Says Its AI Business Will Double to $7 Billion",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNXzludldWc3lxRjZjS3R6Y0JKZU52RjNSQS11ZEhiSFN3aVJ1anJ6elh5bk4yRkpuQlBVQXQtMml2R1JoYXl1N2RoZXotLXdXdjZiS1FxYmRjU2hQOUg5bFM4SWpTTnZjY25zN25uOExrZHdfLXZfb0lodEZVRDVJbE5HaXlVSVM0eFF2WEE0VG14clRadXI4TENXcGI?oc=5",
+     "time": "2026-11-04T14:29:00+00:00"
+    },
+    {
+     "title": "Arista Networks issues historic guidance beat as catalysts appear ahead: analysts",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQWmJqTFIxbEZ3b1JmaTBqMjBsdU93aHM5UzFoTWpUeUt4WGNfWFQ1eDRMSmtkNThqbEd3U0U5X1dsdGVaZFB4Z29WWmxUdURtdFpmREk2Q1o3Mmo4YWdWRVNOaVhoSmJVTnVvUUVvNTVvNHJuUjR2cGFfVFRVV0JwUHVSZWxwblpEdWdxZWRyc1VzSlUzczIxdUtUamh3alUxeU1iQlN5UzF0Vk0yQkVwajBXYWQzNzZfQlE?oc=5",
+     "time": "2026-11-04T14:05:47+00:00"
+    },
+    {
+     "title": "Arista Networks' Demand Strength, Supply Efficiency Help Lift Revenue Outlook",
+     "publisher": "Yahoo! Finance Canada",
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPb0lSaDNvR294ZE1MNENWVV9PUVlXRHctMnNkOExmcEZuWk9HRVB4ZGl6bVdnSkNFVmdfajlGaDAyQ290T01Ta0VIS3YyZlVyY1duamZvbG12cnZDN1RRQ3FMRmV5RmdtaTRhcXl5eS1EMjM2Q2ZKSWdqSjdMajhEVkhTWldsVVNveW5ndTVR?oc=5",
+     "time": "2026-11-04T13:29:08+00:00"
+    },
+    {
+     "title": "Rosenblatt Securities Reaffirms \"Buy\" Rating for Arista Networks (NYSE:ANET)",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOQjYzUGVhcFI5cVROU2ZyZ0lCYy16M19tWWFpTS12NHZ6MmdnVGd5YkxoWmRhaF9uU2tlMWlIZXRHaW9ZQUZLTWYwOU9qZlFWbWpQYk9EOVg2cTI4NzRDNE5fcUMxd1Q0SkU0YnpFNkJBWjV6MzJhSlZ1NEU3RzlVZDE1V3JxVGZ1Sll1UnE2bU9DRjhkUUJSd0hPVXdXN1RXR05uUkluTDN2ckg0cUxyUEp0dVplLUtmR0hmQnprR1dDSzlaZ0lJVDVSalNxNm8?oc=5",
+     "time": "2026-11-04T13:20:30+00:00"
+    },
+    {
+     "title": "Arista\u2019s AI Growth Story Builds, but Scale-Up Revenue May Have to Wait",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNcExTQzhLSkhESDBWejZXUGNuS2NtQzh1QXhqNUFMSVUwQlM1SjVSOU9jRXViZldUaUJicmx4RzNzUV9qSzF1VjNrR3dWRHF6UzdQOEhZREdmVXNMNkxvX0hFZFM5NFdpb1FkdEJiYlp4UWFIWjFMQU1laTAtYkJ3RUxKcUNISUxTcnpqeWNlTjlZamVaeFpYaWRBakZiQk02OHZnZUVNY1o0d1F3UlJhRzl0ekpVdlUtN0ZlTWxaTHVuZ3M?oc=5",
+     "time": "2026-11-04T12:59:09+00:00"
+    },
+    {
+     "title": "Arista Networks price target raised to $261 from $240 at Piper Sandler",
+     "publisher": "TipRanks",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNTzhmcEc0alVzRWF0VnFEbHMyWHpNRWIwOHl4UHY3d2tTRlFscElUNlJqZGRsNUQzTHZfb2lTWEJ3NzJkano2dXVSVXRtNU5xN0l2bE80bDhBdUczbS1wcE1LT01qeEYtNHZ2QXBxRU85eE5pcUx6dVIxRUt4Yno3SDV1LUpLSDBOMHB2b05UY1lISVRPM1YyMVBUY0VQbC1FRUdMeGdlZmRhakdXZVNPOWQ0S3lLOVhTS2c?oc=5",
+     "time": "2026-11-04T11:55:15+00:00"
+    }
+   ],
+   "brief": "2026-11-04-ANET"
   },
   {
    "symbol": "NFLX",
    "name": "Netflix",
    "list": "portfolio",
-   "price": 66.19,
+   "price": 66.01,
    "prev_close": 63.42,
-   "change_pct": 4.4,
+   "change_pct": 4.1,
    "trigger_change": 3.9,
    "peak_change": 4.4,
    "first_seen": "2026-11-04T15:00:57+00:00",
    "sector": {
     "etf": "XLC",
     "name": "Communication",
-    "price": 105.22,
-    "change_pct": 3.73
+    "price": 104.8,
+    "change_pct": 3.31
    },
    "chart": {
-    "ema8": 3.2,
-    "ema21": -0.1,
-    "sma50": -7.6,
-    "sma200": -18.5,
+    "ema8": 3.0,
+    "ema21": -0.4,
+    "sma50": -7.9,
+    "sma200": -18.7,
     "momentum": false
    },
    "headlines": [
@@ -516,160 +516,10 @@
    "brief": null
   },
   {
-   "symbol": "SOFI",
-   "name": "SoFi",
-   "list": "portfolio",
-   "price": 17.47,
-   "prev_close": 16.77,
-   "change_pct": 4.2,
-   "trigger_change": 4.1,
-   "peak_change": 5.4,
-   "first_seen": "2026-11-04T14:55:55+00:00",
-   "sector": {
-    "etf": "XLF",
-    "name": "Financials",
-    "price": 58.78,
-    "change_pct": 2.78
-   },
-   "chart": {
-    "ema8": 5.1,
-    "ema21": 8.5,
-    "sma50": 6.1,
-    "sma200": -1.0,
-    "momentum": true
-   },
-   "headlines": [
-    {
-     "title": "SoFi Technologies (SOFI) Tests Valuation Following Strong Q3 Results And Higher Outlook",
-     "publisher": "Simply Wall St",
-     "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOZHQ2eWxUMS05bnJlNHBRNEE2azdIQnVyQ01Ca0FCRkk4VVdialNvUGF6QzhwSUhRN0F1SGlkM1diZWhHUVM5bURweC1tNVRGRmhjUlFYc2dwcGdtcGZkS3B5b3JlRDN6OGxrMUZOWGhpZGJlV3Bub1JTaEtxUS1BcGZfaGp0Zmt2Uk85TU1rSkZwTFM4QTVZakJRV1UwWFk1cDhHMEdJV3BSMHJjcDJzZUMtNnRxOFNUdzcyV01rdGdDcnQ3OWZ2REI1Yk1LOG1hZ0NzalRLc2ZhMm92aEVDNk44dDDSAeoBQVVfeXFMUG02aHdIelZzTUptNmw3OUdFNkhmVmE0UWZpZFFvZjdtNXdRdlhaUDJHRDBYN01oOFpNXzlya291dDhGcjVzR0VWWHY3cTNzZWRvcWJHRlNDUDJtaHFtLXNENDR1YUpKWEI3UVl5ZEpDUXVkd0pWWWxIUnJDVlptYjhLZUVrY1J3a2V4dGhtRTJ4OWZxTjFvX2JVVGhDU3J5dWdfeVNJX091eGpIQU4xMU1VZEViZTRDLW5INVFxZ0NRTUtGbVBvWmFSVjRLS2FBdDNGRG1yNnhaQzNOS1dMWlRkT1dJWVBLR0Zn?oc=5",
-     "time": "2026-11-04T13:16:25+00:00"
-    },
-    {
-     "title": "SoFi Technologies, Inc. (SOFI) Is a Trending Stock: Facts to Know Before Betting on It",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQejJILW8taktnaWJsT1FuV09zYWxBZHI1dHNHdmJYVXNzSzgteC02NmxoUVFhM2o4aU54OG5KcUtBUGNIREE3S3lra0V6cVNfOWZZTjZLXzBFVVc4VWYyV2JoVjg0dG1neDVTdnZlYjhYMm5pcTgwaFdoN1lIWmZFYm9QcFktcXhfQldSSWh6ZF9ocUhlVEsxeDBweDBGazA4RFE?oc=5",
-     "time": "2026-11-04T13:00:03+00:00"
-    },
-    {
-     "title": "Prediction: These Will Be 3 of the Best-Performing Financial Stocks of 2027",
-     "publisher": "The Globe and Mail",
-     "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQVjV1SVhxS0ZLbmFxLTl4ZEJQbVFGWmxXWEZqRmMyNWdxY1pzM2otd0dIVnhkUHFlWUtWSWdIb1hCYnlFdjd3M2o5d2o1a1oxd19xSGJYREhIaDhLWUNZeko5NTVlcHBscTFKWHF0OEpVbDI0WEFQYlhVQXN5NmoxNkRQR0h6cjNHNVp3TXQxdnpiUVNEVDB2eW5LNzQ1M3hTRm5FTzEwdUE4MDVmQ2kySHhBTFpnOTNtU1hPQUFOSElQOHRsaHliT1B6WXlFSXE2czhFWjdwcmlWU1dBalRYWHVHVEFTSWxWdEQ3LWJ3Sjg?oc=5",
-     "time": "2026-11-04T11:39:40+00:00"
-    },
-    {
-     "title": "SoFi Grants Director John C.R. Hele 15,880 Restricted Stock Units",
-     "publisher": "VZ Verm\u00f6gensZentrum",
-     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNZ0lreWkwRnR6V1cxYm9OQ3k5VVBUY1c0SF85OGxYeDJVUXAzVVluNkdyLU1MTUw0TWkwWVFFLUM1ZGRKWU1PNHd2T2lfeUQ2a2k3WFVFbTBWSGVBX05oV3dfWG5ETTdrZ1ZQXzItRjh4d1BnbDBiZ2VJZk4xSTRIa2puRm44OUxfeFJLU1Z1UG82RGxVV0pZeWlzdFc0U3JJUE52aTFKXzhlX3hpNHppbFA2Zk44OU5CdFhmN24yWHZhaEJud2ZYamp3?oc=5",
-     "time": "2026-11-04T01:12:58+00:00"
-    },
-    {
-     "title": "A 15,880-unit stock grant for SoFi (SOFI) director John C.R. Hele vests over 12 months.",
-     "publisher": "Stock Titan",
-     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPcU1VQ1N4QzlST1lqeGozVHZqVktNSXQ1X2NWaTRqdDhlczdrTHJMN28xZjdMSjhqNHRWdEZEQ0NfTlN1ZXBSZUlNQzhLT1dLSXhSeUVoT3BxRlFTWWc4bEwwb09BTFFUR0w2VGtRLUNxdm9jb0xBT1Byd01RWWEwSWE3ZjQ3b2xBYWFXdGdKUmEyeEpRMTY1ZkpPSmhJOWdVTVlrMlBzbjN3UGpIOS1uaUZpNHBrSHM?oc=5",
-     "time": "2026-11-04T01:04:00+00:00"
-    },
-    {
-     "title": "Why Now Could Be the Right Time to Buy SoFi Stock",
-     "publisher": "Barchart.com",
-     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxONmpwQlM5RndrbW5jcUV6QmUxQVRvYms1X3FzLUplNXVEOGM2enJ4YWxoRjRMeEFzSXZEYkluVmNsc1ZXSWVJNDZEZXF2dWpJYVdHN2VUUVI4WnlVMGZ0TnYwdEdfLW5PdjJTZDBSNVRkT3V6QzFGX3RVWjFSV3VuUFFKUlFFcTdBdXI3cGRsRzJGZUQzQjU1WA?oc=5",
-     "time": "2026-11-03T19:53:39+00:00"
-    },
-    {
-     "title": "SoFi added 1.2M members last quarter but its st...",
-     "publisher": "Pluang",
-     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQVzA4M3hGMEtfN0dIRnhOWWRSbEVGU1RzZ1VuV1luMkZLdHE0VTJWWUo5d2F5aDJGbHA3TzRoWlBmUnFtTk1ubHRrQUtsRXZmeWdzSzhJdTUzck1mdkwtU28yVG1TSldRbldCUFFfLUlLZFRJVVA1MlV5ZndMb3JQWXlQOFVYUkVzSUE?oc=5",
-     "time": "2026-11-03T18:47:19+00:00"
-    },
-    {
-     "title": "Is SoFi Stock a Buy in November 2026?",
-     "publisher": "The Motley Fool",
-     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPT1lKMFE3MlEwRGFRSDVmeG0weTBBZHpqVXdHLXMyMGhBOFZQdi1TUTA1Q2RSRWNiZVlzdFJEVGY5N1NxN0RyRjM3ZXpkMjBKem5xS0tDTERGVGdlejh2OWFoTXdTMWg0OWdUT01LNmFzM1RxUURUY1F4TTV4RnZYcVREeXRFdw?oc=5",
-     "time": "2026-11-03T18:23:00+00:00"
-    }
-   ],
-   "brief": null
-  },
-  {
-   "symbol": "GOOG",
-   "name": "Alphabet",
-   "list": "portfolio",
-   "price": 289.66,
-   "prev_close": 278.27,
-   "change_pct": 4.1,
-   "trigger_change": 3.9,
-   "peak_change": 5.4,
-   "first_seen": "2026-11-04T14:55:55+00:00",
-   "sector": {
-    "etf": "XLC",
-    "name": "Communication",
-    "price": 105.22,
-    "change_pct": 3.73
-   },
-   "chart": {
-    "ema8": -1.5,
-    "ema21": -7.5,
-    "sma50": -12.8,
-    "sma200": -14.3,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Why is Alphabet stock surging today?",
-     "publisher": "Investing.com",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPNnFRbTVXZml1dGQzbEEtVTB0M1haTzU2UHZvSlJWdDNhWjNGQm9XeXptdkV1VkFzMEk5cjhibDNrNDRhcHAwV3N6N3h6VEZ4ZU1PZXU3QnN2aER4RVFLUXV0ckdmeVV5aUU2cUFqY3p1SmFuTmY0Y3JUdWlady1ZQXhEcUlMaWVNOUhmTGRJWHUybXAyalI5UmFqbjNidw?oc=5",
-     "time": "2026-11-04T15:16:12+00:00"
-    },
-    {
-     "title": "Alphabet Inc Class C Stock (GOOG) Opened Up by 3.43% on Nov 4: What Signal Does It Send?",
-     "publisher": "TradingKey",
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPdnJYZGQtNzFzbnZpX3J0SGVkWDQ4aWFKdWh0Y3ptUHp4RTI4TkRYS2lkMlh3ajEyQ3hXMURER2VRcWpubEpXbU43S3U1WjVjOV9EbHp4RE1JWF9yem02Q2ZhbHZBenJjdE5MZGQzV1RXSW9kaUx3b1VtTkFDRHJoa3hXdld3TzVPZjhV?oc=5",
-     "time": "2026-11-04T14:47:52+00:00"
-    },
-    {
-     "title": "Alphabet's Search Scare Is A Buying Chance - Amazon's Cash Problem Isn't (NASDAQ:GOOG)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTXpFTmZ3OTdVdHJzNTZDcnBBVDZzcjJESmxrOElFYTE1NEU3OVNzcWdTNWVlRkxRMzFmbW1CajJQSGpxMW9tQ2h4dWRSVDhKX2tra1ZfTEtGZHpMQjExUlJpdXRjQVVsVkRLT2M0eVhGcnp3bEI1NkJhcmhtODBmQm5jajcwOEkwMGU4cUI0Rk9mMENTMmktSHNUbE1XeTlzTnNaNzJ4QWtzdw?oc=5",
-     "time": "2026-11-04T12:52:01+00:00"
-    },
-    {
-     "title": "ETFs Are Buying Alphabet (GOOG) on Nov. 2",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQaHBSWDh4M216ekdRaURqV1l4aVZOTEQwUEo2Wkg1ZGhfaXhVVFg4THIzdmZQbnFZOGpQQ3FvRXNUdTBqVkFtaXJ1T2RYTmw3elhMeHhUM2FGQ05Lb2dFOGUzY0VNbTNPQzNCOUQ2UHRfN2tGUEJfck1zZHlSb09XUlVKRkdxLUZGeHFxRVNVbUQzaVY1ZF9QR2ZB?oc=5",
-     "time": "2026-11-04T11:01:41+00:00"
-    },
-    {
-     "title": "Alphabet: Q3 Selloff Overlooks Its Growing AI Payoff (NASDAQ:GOOG)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOektDdFIta1cwT3cxYm1UTkJFT2ZTdDBNMk5nR19mbVp3TE1xSkYtMHp5cC1DVWYwd1hxZ1lIR0J0ZWc1bEN4SkRDOEZlSzZwTjhJZnlhbmV3WTY5VnVTSDFrYTVaejBYYVdTdldvWFMtbmpzclYxVlRPYXNIR0s2MkU0eHo5czl1NDBQRFdNdEJIblpvelRj?oc=5",
-     "time": "2026-11-04T09:56:36+00:00"
-    },
-    {
-     "title": "Alphabet's Free Cash Flow Is Declining Faster Than Analysts Expected. Is This AI Stock Still a Buy?",
-     "publisher": "AOL.com",
-     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOTExYckNXQ3RrRl9UMDF5Z1JDVXdQVVlJQWlQcW9oZXF5dFdxRGNjRlY4VERhSmtLR05TOHpza3NRSnVOSzJQOXVfUEN5ZFhQczJhQ3d2NC13UXhYUTljQ1Jvdm82VWlBa2hsSGhQaV9vYmstSlN2TzdSbXFJMGg0amt3blI?oc=5",
-     "time": "2026-11-04T05:20:00+00:00"
-    },
-    {
-     "title": "Should You Buy Alphabet Stock After Anthropic Raised Its Google Commitment to $121 Billion?",
-     "publisher": "The Motley Fool",
-     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQY3ZXVFE4MElyUkJnUy1BejRYZkxlVFJyQ0ZyTE5wUFQ0TTZCT25iN1ZFZTZxSFpLN3dGNTBfLWVLMWp4X0M3M2VZQUd1REhzQkw2MXhCVVFqVldUcUtnRE1MM0RDV1MxWTdIc1A1R05mWGxPZEdOWDF6dlYtTWxUdnhjbF9yUHJKTjZLMklvZXFUMFBCNnpXMGxidEFzcFFNTkFJMFM3Szh6ODdHWHYtYjZHbTF5TWpsY3pCSERKenE5Q0dGZzRGQktlbndZa0ZX?oc=5",
-     "time": "2026-11-04T01:23:00+00:00"
-    },
-    {
-     "title": "Alphabet's Free Cash Flow Just Turned Negative. Should Investors Sell the Stock Now?",
-     "publisher": "The Motley Fool",
-     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOblQtLVJTcUsya2hmb0pVNDlpQldMMDhOQXYyRm9GSkI4VkREbTU4QlhWVjNtcmIwWWxyeTA0NjlHZFhrTzFxemxZQmtRSXZ2NkFGSnM3YTBjMWN4cG9Jb1hwS2JwT1Y2aGxISHlFcjR1OHhCRy1MaWhqcGpGazk0aVpoZ04zQzRxTHExOXBQbUxQZw?oc=5",
-     "time": "2026-11-03T21:09:00+00:00"
-    }
-   ],
-   "brief": null
-  },
-  {
    "symbol": "BTC-USD",
    "name": "Bitcoin",
    "list": "watchlist",
-   "price": 80500.7,
+   "price": 80504.6,
    "prev_close": 77331.7,
    "change_pct": 4.1,
    "trigger_change": 4.0,
@@ -736,26 +586,176 @@
    "brief": null
   },
   {
+   "symbol": "SOFI",
+   "name": "SoFi",
+   "list": "portfolio",
+   "price": 17.37,
+   "prev_close": 16.77,
+   "change_pct": 3.6,
+   "trigger_change": 4.1,
+   "peak_change": 5.4,
+   "first_seen": "2026-11-04T14:55:55+00:00",
+   "sector": {
+    "etf": "XLF",
+    "name": "Financials",
+    "price": 58.7,
+    "change_pct": 2.64
+   },
+   "chart": {
+    "ema8": 4.6,
+    "ema21": 7.9,
+    "sma50": 5.5,
+    "sma200": -1.6,
+    "momentum": true
+   },
+   "headlines": [
+    {
+     "title": "SoFi Technologies (SOFI) Tests Valuation Following Strong Q3 Results And Higher Outlook",
+     "publisher": "Simply Wall St",
+     "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOZHQ2eWxUMS05bnJlNHBRNEE2azdIQnVyQ01Ca0FCRkk4VVdialNvUGF6QzhwSUhRN0F1SGlkM1diZWhHUVM5bURweC1tNVRGRmhjUlFYc2dwcGdtcGZkS3B5b3JlRDN6OGxrMUZOWGhpZGJlV3Bub1JTaEtxUS1BcGZfaGp0Zmt2Uk85TU1rSkZwTFM4QTVZakJRV1UwWFk1cDhHMEdJV3BSMHJjcDJzZUMtNnRxOFNUdzcyV01rdGdDcnQ3OWZ2REI1Yk1LOG1hZ0NzalRLc2ZhMm92aEVDNk44dDDSAeoBQVVfeXFMUG02aHdIelZzTUptNmw3OUdFNkhmVmE0UWZpZFFvZjdtNXdRdlhaUDJHRDBYN01oOFpNXzlya291dDhGcjVzR0VWWHY3cTNzZWRvcWJHRlNDUDJtaHFtLXNENDR1YUpKWEI3UVl5ZEpDUXVkd0pWWWxIUnJDVlptYjhLZUVrY1J3a2V4dGhtRTJ4OWZxTjFvX2JVVGhDU3J5dWdfeVNJX091eGpIQU4xMU1VZEViZTRDLW5INVFxZ0NRTUtGbVBvWmFSVjRLS2FBdDNGRG1yNnhaQzNOS1dMWlRkT1dJWVBLR0Zn?oc=5",
+     "time": "2026-11-04T13:16:25+00:00"
+    },
+    {
+     "title": "SoFi Technologies, Inc. (SOFI) Is a Trending Stock: Facts to Know Before Betting on It",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQejJILW8taktnaWJsT1FuV09zYWxBZHI1dHNHdmJYVXNzSzgteC02NmxoUVFhM2o4aU54OG5KcUtBUGNIREE3S3lra0V6cVNfOWZZTjZLXzBFVVc4VWYyV2JoVjg0dG1neDVTdnZlYjhYMm5pcTgwaFdoN1lIWmZFYm9QcFktcXhfQldSSWh6ZF9ocUhlVEsxeDBweDBGazA4RFE?oc=5",
+     "time": "2026-11-04T13:00:03+00:00"
+    },
+    {
+     "title": "Prediction: These Will Be 3 of the Best-Performing Financial Stocks of 2027",
+     "publisher": "The Globe and Mail",
+     "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQVjV1SVhxS0ZLbmFxLTl4ZEJQbVFGWmxXWEZqRmMyNWdxY1pzM2otd0dIVnhkUHFlWUtWSWdIb1hCYnlFdjd3M2o5d2o1a1oxd19xSGJYREhIaDhLWUNZeko5NTVlcHBscTFKWHF0OEpVbDI0WEFQYlhVQXN5NmoxNkRQR0h6cjNHNVp3TXQxdnpiUVNEVDB2eW5LNzQ1M3hTRm5FTzEwdUE4MDVmQ2kySHhBTFpnOTNtU1hPQUFOSElQOHRsaHliT1B6WXlFSXE2czhFWjdwcmlWU1dBalRYWHVHVEFTSWxWdEQ3LWJ3Sjg?oc=5",
+     "time": "2026-11-04T11:39:40+00:00"
+    },
+    {
+     "title": "SoFi Grants Director John C.R. Hele 15,880 Restricted Stock Units",
+     "publisher": "VZ Verm\u00f6gensZentrum",
+     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNZ0lreWkwRnR6V1cxYm9OQ3k5VVBUY1c0SF85OGxYeDJVUXAzVVluNkdyLU1MTUw0TWkwWVFFLUM1ZGRKWU1PNHd2T2lfeUQ2a2k3WFVFbTBWSGVBX05oV3dfWG5ETTdrZ1ZQXzItRjh4d1BnbDBiZ2VJZk4xSTRIa2puRm44OUxfeFJLU1Z1UG82RGxVV0pZeWlzdFc0U3JJUE52aTFKXzhlX3hpNHppbFA2Zk44OU5CdFhmN24yWHZhaEJud2ZYamp3?oc=5",
+     "time": "2026-11-04T01:12:58+00:00"
+    },
+    {
+     "title": "A 15,880-unit stock grant for SoFi (SOFI) director John C.R. Hele vests over 12 months.",
+     "publisher": "Stock Titan",
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPcU1VQ1N4QzlST1lqeGozVHZqVktNSXQ1X2NWaTRqdDhlczdrTHJMN28xZjdMSjhqNHRWdEZEQ0NfTlN1ZXBSZUlNQzhLT1dLSXhSeUVoT3BxRlFTWWc4bEwwb09BTFFUR0w2VGtRLUNxdm9jb0xBT1Byd01RWWEwSWE3ZjQ3b2xBYWFXdGdKUmEyeEpRMTY1ZkpPSmhJOWdVTVlrMlBzbjN3UGpIOS1uaUZpNHBrSHM?oc=5",
+     "time": "2026-11-04T01:04:00+00:00"
+    },
+    {
+     "title": "Why Now Could Be the Right Time to Buy SoFi Stock",
+     "publisher": "Barchart.com",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxONmpwQlM5RndrbW5jcUV6QmUxQVRvYms1X3FzLUplNXVEOGM2enJ4YWxoRjRMeEFzSXZEYkluVmNsc1ZXSWVJNDZEZXF2dWpJYVdHN2VUUVI4WnlVMGZ0TnYwdEdfLW5PdjJTZDBSNVRkT3V6QzFGX3RVWjFSV3VuUFFKUlFFcTdBdXI3cGRsRzJGZUQzQjU1WA?oc=5",
+     "time": "2026-11-03T19:53:39+00:00"
+    },
+    {
+     "title": "SoFi added 1.2M members last quarter but its st...",
+     "publisher": "Pluang",
+     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQVzA4M3hGMEtfN0dIRnhOWWRSbEVGU1RzZ1VuV1luMkZLdHE0VTJWWUo5d2F5aDJGbHA3TzRoWlBmUnFtTk1ubHRrQUtsRXZmeWdzSzhJdTUzck1mdkwtU28yVG1TSldRbldCUFFfLUlLZFRJVVA1MlV5ZndMb3JQWXlQOFVYUkVzSUE?oc=5",
+     "time": "2026-11-03T18:47:19+00:00"
+    },
+    {
+     "title": "Is SoFi Stock a Buy in November 2026?",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPT1lKMFE3MlEwRGFRSDVmeG0weTBBZHpqVXdHLXMyMGhBOFZQdi1TUTA1Q2RSRWNiZVlzdFJEVGY5N1NxN0RyRjM3ZXpkMjBKem5xS0tDTERGVGdlejh2OWFoTXdTMWg0OWdUT01LNmFzM1RxUURUY1F4TTV4RnZYcVREeXRFdw?oc=5",
+     "time": "2026-11-03T18:23:00+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
+   "symbol": "GOOG",
+   "name": "Alphabet",
+   "list": "portfolio",
+   "price": 287.83,
+   "prev_close": 278.27,
+   "change_pct": 3.4,
+   "trigger_change": 3.9,
+   "peak_change": 5.4,
+   "first_seen": "2026-11-04T14:55:55+00:00",
+   "sector": {
+    "etf": "XLC",
+    "name": "Communication",
+    "price": 104.8,
+    "change_pct": 3.31
+   },
+   "chart": {
+    "ema8": -2.0,
+    "ema21": -8.0,
+    "sma50": -13.3,
+    "sma200": -14.8,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Why is Alphabet stock surging today?",
+     "publisher": "Investing.com",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPNnFRbTVXZml1dGQzbEEtVTB0M1haTzU2UHZvSlJWdDNhWjNGQm9XeXptdkV1VkFzMEk5cjhibDNrNDRhcHAwV3N6N3h6VEZ4ZU1PZXU3QnN2aER4RVFLUXV0ckdmeVV5aUU2cUFqY3p1SmFuTmY0Y3JUdWlady1ZQXhEcUlMaWVNOUhmTGRJWHUybXAyalI5UmFqbjNidw?oc=5",
+     "time": "2026-11-04T15:16:12+00:00"
+    },
+    {
+     "title": "Alphabet Inc Class C Stock (GOOG) Opened Up by 3.43% on Nov 4: What Signal Does It Send?",
+     "publisher": "TradingKey",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPdnJYZGQtNzFzbnZpX3J0SGVkWDQ4aWFKdWh0Y3ptUHp4RTI4TkRYS2lkMlh3ajEyQ3hXMURER2VRcWpubEpXbU43S3U1WjVjOV9EbHp4RE1JWF9yem02Q2ZhbHZBenJjdE5MZGQzV1RXSW9kaUx3b1VtTkFDRHJoa3hXdld3TzVPZjhV?oc=5",
+     "time": "2026-11-04T14:47:52+00:00"
+    },
+    {
+     "title": "Alphabet's Search Scare Is A Buying Chance - Amazon's Cash Problem Isn't (NASDAQ:GOOG)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTXpFTmZ3OTdVdHJzNTZDcnBBVDZzcjJESmxrOElFYTE1NEU3OVNzcWdTNWVlRkxRMzFmbW1CajJQSGpxMW9tQ2h4dWRSVDhKX2tra1ZfTEtGZHpMQjExUlJpdXRjQVVsVkRLT2M0eVhGcnp3bEI1NkJhcmhtODBmQm5jajcwOEkwMGU4cUI0Rk9mMENTMmktSHNUbE1XeTlzTnNaNzJ4QWtzdw?oc=5",
+     "time": "2026-11-04T12:52:01+00:00"
+    },
+    {
+     "title": "ETFs Are Buying Alphabet (GOOG) on Nov. 2",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQaHBSWDh4M216ekdRaURqV1l4aVZOTEQwUEo2Wkg1ZGhfaXhVVFg4THIzdmZQbnFZOGpQQ3FvRXNUdTBqVkFtaXJ1T2RYTmw3elhMeHhUM2FGQ05Lb2dFOGUzY0VNbTNPQzNCOUQ2UHRfN2tGUEJfck1zZHlSb09XUlVKRkdxLUZGeHFxRVNVbUQzaVY1ZF9QR2ZB?oc=5",
+     "time": "2026-11-04T11:01:41+00:00"
+    },
+    {
+     "title": "Alphabet: Q3 Selloff Overlooks Its Growing AI Payoff (NASDAQ:GOOG)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOektDdFIta1cwT3cxYm1UTkJFT2ZTdDBNMk5nR19mbVp3TE1xSkYtMHp5cC1DVWYwd1hxZ1lIR0J0ZWc1bEN4SkRDOEZlSzZwTjhJZnlhbmV3WTY5VnVTSDFrYTVaejBYYVdTdldvWFMtbmpzclYxVlRPYXNIR0s2MkU0eHo5czl1NDBQRFdNdEJIblpvelRj?oc=5",
+     "time": "2026-11-04T09:56:36+00:00"
+    },
+    {
+     "title": "Alphabet's Free Cash Flow Is Declining Faster Than Analysts Expected. Is This AI Stock Still a Buy?",
+     "publisher": "AOL.com",
+     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOTExYckNXQ3RrRl9UMDF5Z1JDVXdQVVlJQWlQcW9oZXF5dFdxRGNjRlY4VERhSmtLR05TOHpza3NRSnVOSzJQOXVfUEN5ZFhQczJhQ3d2NC13UXhYUTljQ1Jvdm82VWlBa2hsSGhQaV9vYmstSlN2TzdSbXFJMGg0amt3blI?oc=5",
+     "time": "2026-11-04T05:20:00+00:00"
+    },
+    {
+     "title": "Should You Buy Alphabet Stock After Anthropic Raised Its Google Commitment to $121 Billion?",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQY3ZXVFE4MElyUkJnUy1BejRYZkxlVFJyQ0ZyTE5wUFQ0TTZCT25iN1ZFZTZxSFpLN3dGNTBfLWVLMWp4X0M3M2VZQUd1REhzQkw2MXhCVVFqVldUcUtnRE1MM0RDV1MxWTdIc1A1R05mWGxPZEdOWDF6dlYtTWxUdnhjbF9yUHJKTjZLMklvZXFUMFBCNnpXMGxidEFzcFFNTkFJMFM3Szh6ODdHWHYtYjZHbTF5TWpsY3pCSERKenE5Q0dGZzRGQktlbndZa0ZX?oc=5",
+     "time": "2026-11-04T01:23:00+00:00"
+    },
+    {
+     "title": "Alphabet's Free Cash Flow Just Turned Negative. Should Investors Sell the Stock Now?",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOblQtLVJTcUsya2hmb0pVNDlpQldMMDhOQXYyRm9GSkI4VkREbTU4QlhWVjNtcmIwWWxyeTA0NjlHZFhrTzFxemxZQmtRSXZ2NkFGSnM3YTBjMWN4cG9Jb1hwS2JwT1Y2aGxISHlFcjR1OHhCRy1MaWhqcGpGazk0aVpoZ04zQzRxTHExOXBQbUxQZw?oc=5",
+     "time": "2026-11-03T21:09:00+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
    "symbol": "CRWD",
    "name": "CrowdStrike",
    "list": "portfolio",
-   "price": 242.3,
+   "price": 239.96,
    "prev_close": 244.68,
-   "change_pct": -1.0,
+   "change_pct": -1.9,
    "trigger_change": 3.1,
    "peak_change": 3.1,
    "first_seen": "2026-11-04T15:21:14+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 103.85,
-    "change_pct": 1.16
+    "price": 103.4,
+    "change_pct": 0.72
    },
    "chart": {
-    "ema8": -2.6,
-    "ema21": -3.1,
-    "sma50": -0.5,
-    "sma200": 43.2,
+    "ema8": -3.4,
+    "ema21": -4.0,
+    "sma50": -1.4,
+    "sma200": 41.8,
     "momentum": false
    },
    "headlines": [
