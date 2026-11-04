@@ -1,22 +1,22 @@
 {
  "date": "2026-11-04",
  "threshold": 3.0,
- "updated": "2026-11-04T17:03:56+00:00",
+ "updated": "2026-11-04T17:41:00+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 767.41,
-   "change_pct": 1.73
+   "price": 768.05,
+   "change_pct": 1.82
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 694.41,
-   "change_pct": 1.33
+   "price": 695.47,
+   "change_pct": 1.49
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 81.45,
-   "change_pct": 0.42
+   "price": 81.56,
+   "change_pct": 0.55
   }
  },
  "movers": [
@@ -24,23 +24,23 @@
    "symbol": "APP",
    "name": "AppLovin",
    "list": "portfolio",
-   "price": 271.0,
+   "price": 272.55,
    "prev_close": 245.51,
-   "change_pct": 10.4,
+   "change_pct": 11.0,
    "trigger_change": 5.7,
-   "peak_change": 11.0,
+   "peak_change": 11.4,
    "first_seen": "2026-11-04T14:55:55+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 103.63,
-    "change_pct": 0.94
+    "price": 103.69,
+    "change_pct": 1.0
    },
    "chart": {
-    "ema8": 7.0,
-    "ema21": 2.6,
-    "sma50": -6.8,
-    "sma200": -34.0,
+    "ema8": 7.5,
+    "ema21": 3.1,
+    "sma50": -6.3,
+    "sma200": -33.7,
     "momentum": false
    },
    "headlines": [
@@ -96,72 +96,27 @@
    "brief": "2026-11-04-APP"
   },
   {
-   "symbol": "NVO",
-   "name": "Novo Nordisk (ADR)",
-   "list": "portfolio",
-   "price": 42.99,
-   "prev_close": 40.19,
-   "change_pct": 7.0,
-   "trigger_change": 6.6,
-   "peak_change": 7.0,
-   "first_seen": "2026-11-04T14:55:55+00:00",
-   "sector": {
-    "etf": "XLV",
-    "name": "Health care",
-    "price": 188.38,
-    "change_pct": 2.37
-   },
-   "chart": {
-    "ema8": 6.6,
-    "ema21": 8.3,
-    "sma50": 5.2,
-    "sma200": -2.1,
-    "momentum": true
-   },
-   "headlines": [
-    {
-     "title": "NVO Q3 Earnings Beat Estimates on Wegovy Pill Growth, Outlook Raised",
-     "publisher": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZm45MnZTQVRnMU5wWGxvRnVRVWp4NEd0MHV4Y1dTWUVNRkF6QWlTNlpId0c3bGpYOWp5aTl6aTZUX1F6ZHpUdHExcHYzOUQxcWFtTnZtdUhYN1ozNG1SVVZhWTd4b1pzbVJ5U19WcGVtQXpoTEQyNkdOWE5oWmVqSjVPS1lueWVZMHFnMFdTSXdhczRxanFHN2k0azNxX3I2Q2YyTzMwQXltbTFadC1mY1BZb0xYSDdCSV9Ob21Bb3E?oc=5",
-     "time": "2026-11-04T13:35:00+00:00"
-    },
-    {
-     "title": "Earnings call transcript: Novo Nordisk rises on Q3 2026 growth outlook",
-     "publisher": "Investing.com UK",
-     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQS3dBdE92dHMyS21xR0o3djdESzJRX3ZTU0g5bEFDalktY1p5YkJOUkI4S1hMSV9wX3lqVlNrVEZMdXA2MmpuZ1VhMEpQSjBCMVRsVlYtLUN1bXVEVlpHRndsRllxWko3Ql9PUnd2VFcyMEdkMi1QMlVnR2p6QmE4SFdyNFNWOV90WXk4dVRtMjVXc3FsQ3VjLU1WTEExRUdhWFFpUEd2Mlk2dW1xQ3FuclJTZTZkT1BucmlHSFk3U2VoZER6dHJ5M0tn?oc=5",
-     "time": "2026-11-04T13:18:00+00:00"
-    },
-    {
-     "title": "Novo Nordisk ADR earnings missed by $3.74, revenue fell short of estimates",
-     "publisher": "Investing.com",
-     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNOHFKQnJsWnZFX2JOV0h2OVgxWkFwQUJERk8yNHd3bjZUMWhSTF9HREphNnEtZHBBOFkyOENRcGFGeml5ZXRGa0l5azlGMnFhRVYxSEVBaFZkODVGYnkxMnN2dkN1dUVKcW9VbzNIbGptZ2gyNXpGTDI5Unp0bXM0UjBtWUNFS0MyUHZqcTY2VnNmVnQxSG1iM1RxcG0yQTdLMV80el9ZanZHcTFCT0sxY3ZENUo2dWcyUFVB?oc=5",
-     "time": "2026-11-04T08:04:17+00:00"
-    }
-   ],
-   "brief": "2026-11-04-NVO"
-  },
-  {
    "symbol": "AMZN",
    "name": "Amazon",
    "list": "portfolio",
-   "price": 267.6,
+   "price": 269.0,
    "prev_close": 250.69,
-   "change_pct": 6.7,
+   "change_pct": 7.3,
    "trigger_change": 7.7,
    "peak_change": 8.0,
    "first_seen": "2026-11-04T14:55:55+00:00",
    "sector": {
     "etf": "XLY",
     "name": "Consumer discr.",
-    "price": 122.3,
-    "change_pct": 4.24
+    "price": 122.8,
+    "change_pct": 4.66
    },
    "chart": {
-    "ema8": 5.8,
-    "ema21": 5.8,
-    "sma50": 5.4,
-    "sma200": 9.8,
-    "momentum": false
+    "ema8": 6.2,
+    "ema21": 6.3,
+    "sma50": 5.9,
+    "sma200": 10.4,
+    "momentum": true
    },
    "headlines": [
     {
@@ -216,26 +171,146 @@
    "brief": "2026-11-04-AMZN"
   },
   {
+   "symbol": "NVO",
+   "name": "Novo Nordisk (ADR)",
+   "list": "portfolio",
+   "price": 42.94,
+   "prev_close": 40.19,
+   "change_pct": 6.8,
+   "trigger_change": 6.6,
+   "peak_change": 7.2,
+   "first_seen": "2026-11-04T14:55:55+00:00",
+   "sector": {
+    "etf": "XLV",
+    "name": "Health care",
+    "price": 189.13,
+    "change_pct": 2.78
+   },
+   "chart": {
+    "ema8": 6.5,
+    "ema21": 8.2,
+    "sma50": 5.1,
+    "sma200": -2.2,
+    "momentum": true
+   },
+   "headlines": [
+    {
+     "title": "NVO Q3 Earnings Beat Estimates on Wegovy Pill Growth, Outlook Raised",
+     "publisher": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZm45MnZTQVRnMU5wWGxvRnVRVWp4NEd0MHV4Y1dTWUVNRkF6QWlTNlpId0c3bGpYOWp5aTl6aTZUX1F6ZHpUdHExcHYzOUQxcWFtTnZtdUhYN1ozNG1SVVZhWTd4b1pzbVJ5U19WcGVtQXpoTEQyNkdOWE5oWmVqSjVPS1lueWVZMHFnMFdTSXdhczRxanFHN2k0azNxX3I2Q2YyTzMwQXltbTFadC1mY1BZb0xYSDdCSV9Ob21Bb3E?oc=5",
+     "time": "2026-11-04T13:35:00+00:00"
+    },
+    {
+     "title": "Earnings call transcript: Novo Nordisk rises on Q3 2026 growth outlook",
+     "publisher": "Investing.com UK",
+     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQS3dBdE92dHMyS21xR0o3djdESzJRX3ZTU0g5bEFDalktY1p5YkJOUkI4S1hMSV9wX3lqVlNrVEZMdXA2MmpuZ1VhMEpQSjBCMVRsVlYtLUN1bXVEVlpHRndsRllxWko3Ql9PUnd2VFcyMEdkMi1QMlVnR2p6QmE4SFdyNFNWOV90WXk4dVRtMjVXc3FsQ3VjLU1WTEExRUdhWFFpUEd2Mlk2dW1xQ3FuclJTZTZkT1BucmlHSFk3U2VoZER6dHJ5M0tn?oc=5",
+     "time": "2026-11-04T13:18:00+00:00"
+    },
+    {
+     "title": "Novo Nordisk ADR earnings missed by $3.74, revenue fell short of estimates",
+     "publisher": "Investing.com",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNOHFKQnJsWnZFX2JOV0h2OVgxWkFwQUJERk8yNHd3bjZUMWhSTF9HREphNnEtZHBBOFkyOENRcGFGeml5ZXRGa0l5azlGMnFhRVYxSEVBaFZkODVGYnkxMnN2dkN1dUVKcW9VbzNIbGptZ2gyNXpGTDI5Unp0bXM0UjBtWUNFS0MyUHZqcTY2VnNmVnQxSG1iM1RxcG0yQTdLMV80el9ZanZHcTFCT0sxY3ZENUo2dWcyUFVB?oc=5",
+     "time": "2026-11-04T08:04:17+00:00"
+    }
+   ],
+   "brief": "2026-11-04-NVO"
+  },
+  {
+   "symbol": "NBIS",
+   "name": "Nebius",
+   "list": "portfolio",
+   "price": 142.44,
+   "prev_close": 151.64,
+   "change_pct": -6.1,
+   "trigger_change": -4.1,
+   "peak_change": -7.3,
+   "first_seen": "2026-11-04T15:31:22+00:00",
+   "sector": {
+    "etf": "IGV",
+    "name": "Software",
+    "price": 103.69,
+    "change_pct": 1.0
+   },
+   "chart": {
+    "ema8": -8.7,
+    "ema21": -18.6,
+    "sma50": -30.6,
+    "sma200": -20.0,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Texas Blue Wave Could Threaten 27% Of Planned U.S. Data Center Power. Here's What It Means For CoreWeave, Iren, Nebius And Other Neocloud Stocks",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOYS04UzRTMEdzYmkwc000VFhrQ082VkRLOGZ4MFgwdWNkU3Z3SnNUV2F4TkxDSnJkMmx0Z2JJNE9CUnVSVXdiZnB1U2tjM1ZQZnVySGE4VmtTSTU2eGI2MEN0b19fQVBaTE5wZDZlUDBRV3llR3lSQ2dNeFBzaVJHZ3VvOU9uOFZ6OG5pblphU3ViU2k3YS1SbFJZRW9zUGdWUVhYZWw0eUI2Tks3SVdkRlF6OFpMYklTQlhIX1pwaDZJRXlPWmNJME16a09OTW9MS2RULW5ZLW9JeVZqQjJkaEZRV1lsOFk0bm14Nk01Q2lmUVpxR01qSDJiLUFfSHZiVVVPRFFkeG5BZ3dXeDA4?oc=5",
+     "time": "2026-11-04T15:39:00+00:00"
+    },
+    {
+     "title": "A Deep Correction in Nebius Stock Presents an Accumulation Opportunity as Financial Metrics Improve",
+     "publisher": "Barchart.com",
+     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOUVU1LTA5TWZlMkdyTFFhWC1PQS1GWGtKTmZqS1pTRGsySXE0d0FpeUNaazJIVGk2cGRwQnQxR19rRE1CQTVxeEpOeG1YdXJHX1k2ZzdwZXNsME01YlltVWYxN1ZZVGpjNk1ib1Qyb0N4N1JaTzN4RHkyOEk3czlzX21nQ3V3T1JWZmRVWHdKWlc5M3pQZ0Y1TmJuSXNScjZiU1lEOUVwbXFOMFNtQXptaWxzNHVKS3Z5OF84TmxrWnc2T1pJUlczTlpRN1poVDV2bzdsQzItNUJ5TTQ?oc=5",
+     "time": "2026-11-04T14:59:11+00:00"
+    },
+    {
+     "title": "Why CoreWeave, IREN, and Nebius Stocks Are Plunging Today \u2014 and Why Jim Cramer Sees More Downside Ahead",
+     "publisher": "TipRanks",
+     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxONC12b0syOHpXQVExbEU5OE1FS2JIbHRLR0dKZHZMdXRZQlk2QUdxZTFkcVRpZTlVN05ETHN1elN4RjhKLVhNcXBZWHNRT2o0T3VabXBOME1JRC12MVRkblNRZmNYNElUT256SWZ3M1FEVDR6Wk5wS25jNVNUcmotLV9RdmdQNFF0OEFnMEF5MlFhcFFGUFJPRFlnOGRwOVItYXhXX0lUT2k3aTI1ZTN5QnQydVR4MjV3Ykc4c2FHNldkdUl3Rkhuaw?oc=5",
+     "time": "2026-11-04T14:14:33+00:00"
+    },
+    {
+     "title": "CoreWeave, Nebius Slide As Blue Wave Clouds AI Boom",
+     "publisher": "Investor's Business Daily",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZzVrZy02WTdPcUFxZVFBY3EwOXBZNkFtZENXZm1qWng0Y0R0QmNNZFplVFZyMGxHTGpVa1ZucW5jMlVtWEdTOHVyeHVjN1RmVno2S1daN0hXNDc1aTgtc3Z2eHc3S1FRa0c0aHBWSEZIa3F4N0szckoxcWhOSlU0WlVkREhrYjhPTzQ1N0FtdzFyU2tFc01Ebg?oc=5",
+     "time": "2026-11-04T14:09:00+00:00"
+    },
+    {
+     "title": "Nebius Group NBIS Stock Whipsaws As AI Data Center Hype Meets Funding Fears",
+     "publisher": "Timothy Sykes",
+     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBCMnZWTDV3d2J0T2hLeDU0VDhEZVRhT0FTZ29ScGNVS0Jab3VJTUpuU19yMTBrVWxEOUJSdklsUVdWdDNJQkgtTE1xWnVSOEZPVkdPZllIUE4yOUgxMXZiVHhKUG45cE05OFJmMWdXaWhBRFFGMjBHY1hTOA?oc=5",
+     "time": "2026-11-04T12:33:00+00:00"
+    },
+    {
+     "title": "CoreWeave, Nebius, and IREN Stocks Drop in Pre-Market, Nov. 4 \u2014 Here\u2019s Why",
+     "publisher": "TipRanks",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNUk1OUXFDUmxOZU9CaUhjbzREdGIwM2d0NkVmMkZIX2xWazdvTWg0eW04QU93a3dCVU1nejVTeFlZd0xLSzBCWXp5cF9BQTdQOGpUNkNFNTFVbmFxMk0zQUV5X3Nrb2ZxOUkxVkl0aEF2dFN5ejUyWVpZelVHeGxzb3RhOGRRUl9tOFhrZEgyamtyMmkwMmJNZXlIS05YaUJFdERV?oc=5",
+     "time": "2026-11-04T12:20:01+00:00"
+    },
+    {
+     "title": "CoreWeave IREN and Nebius Stocks Sink as Election Results Spark AI Data Center Fears",
+     "publisher": "Yahoo Finance Singapore",
+     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNaG96WUkyOHNoRjRuMGx3cE5lemdQclpkRVNJY1M1STdKWWVRLU5PaURaVks4WDY3WEx0WlVla3JDN2xVVmxUakFfa0pEQkxxRm1YYU9vNE83OWFmZ1lWYUc0TTVzdXplT3BlRVQ4ZmhrUTdjTlAyWWx5YkZQM0xzV2ZUQ3lfeVFmemc?oc=5",
+     "time": "2026-11-04T12:07:51+00:00"
+    },
+    {
+     "title": "CoreWeave, IREN, and Nebius Stocks Are Tumbling Overnight After Tuesday\u2019s Rally \u2014 What Spooked Investors and What Wall Street Sees Next",
+     "publisher": "TipRanks",
+     "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxONDRacEhRRGtfSlhTMkZENkQyZE1Ed3lweGVBTkUyNjgzbk5PRHFQV2ZwMkpVSEFCVEhRV3Itc2tfeGxPa0VXdlBnTW1Vb0VKQjliUTR3cFBuSTNnOUhZT2tjdllUWDd4dlNibm81RnlZMlVxWlZPOXhERnMtbFB3eW9Rb2J6aVBJcDVjZTUtZDBYNFZNdHpmR0VuUkx1SkVFRURBenZGNGZ2UkpvTmN0WnNLRzdaVk9RSm1PeVlGRFpyZmsyZHpqVGdQdFFxWU5WeEZJSk1iZGR3ZkgxdmxpM0loV3h1ejFXcnBzTXJOakdIZw?oc=5",
+     "time": "2026-11-04T04:46:03+00:00"
+    }
+   ],
+   "brief": "2026-11-04-NBIS"
+  },
+  {
    "symbol": "MELI",
    "name": "MercadoLibre",
    "list": "watchlist",
-   "price": 1759.19,
+   "price": 1755.4,
    "prev_close": 1662.16,
-   "change_pct": 5.8,
+   "change_pct": 5.6,
    "trigger_change": 4.9,
    "peak_change": 6.2,
    "first_seen": "2026-11-04T14:55:55+00:00",
    "sector": {
     "etf": "XLY",
     "name": "Consumer discr.",
-    "price": 122.3,
-    "change_pct": 4.24
+    "price": 122.8,
+    "change_pct": 4.66
    },
    "chart": {
-    "ema8": 3.1,
-    "ema21": 0.4,
-    "sma50": -3.6,
-    "sma200": -2.7,
+    "ema8": 2.9,
+    "ema21": 0.2,
+    "sma50": -3.8,
+    "sma200": -2.9,
     "momentum": false
    },
    "headlines": [
@@ -294,23 +369,23 @@
    "symbol": "ANET",
    "name": "Arista Networks",
    "list": "portfolio",
-   "price": 179.24,
+   "price": 178.55,
    "prev_close": 169.91,
-   "change_pct": 5.5,
+   "change_pct": 5.1,
    "trigger_change": 10.3,
    "peak_change": 10.3,
    "first_seen": "2026-11-04T14:55:55+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 505.8,
-    "change_pct": -2.45
+    "price": 507.42,
+    "change_pct": -2.14
    },
    "chart": {
-    "ema8": 1.8,
-    "ema21": -2.4,
-    "sma50": -7.7,
-    "sma200": 8.1,
+    "ema8": 1.5,
+    "ema21": -2.7,
+    "sma50": -8.0,
+    "sma200": 7.7,
     "momentum": false
    },
    "headlines": [
@@ -366,160 +441,10 @@
    "brief": "2026-11-04-ANET"
   },
   {
-   "symbol": "NBIS",
-   "name": "Nebius",
-   "list": "portfolio",
-   "price": 143.59,
-   "prev_close": 151.64,
-   "change_pct": -5.3,
-   "trigger_change": -4.1,
-   "peak_change": -7.3,
-   "first_seen": "2026-11-04T15:31:22+00:00",
-   "sector": {
-    "etf": "IGV",
-    "name": "Software",
-    "price": 103.63,
-    "change_pct": 0.94
-   },
-   "chart": {
-    "ema8": -8.2,
-    "ema21": -18.0,
-    "sma50": -30.1,
-    "sma200": -19.4,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Texas Blue Wave Could Threaten 27% Of Planned U.S. Data Center Power. Here's What It Means For CoreWeave, Iren, Nebius And Other Neocloud Stocks",
-     "publisher": "24/7 Wall St.",
-     "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOYS04UzRTMEdzYmkwc000VFhrQ082VkRLOGZ4MFgwdWNkU3Z3SnNUV2F4TkxDSnJkMmx0Z2JJNE9CUnVSVXdiZnB1U2tjM1ZQZnVySGE4VmtTSTU2eGI2MEN0b19fQVBaTE5wZDZlUDBRV3llR3lSQ2dNeFBzaVJHZ3VvOU9uOFZ6OG5pblphU3ViU2k3YS1SbFJZRW9zUGdWUVhYZWw0eUI2Tks3SVdkRlF6OFpMYklTQlhIX1pwaDZJRXlPWmNJME16a09OTW9MS2RULW5ZLW9JeVZqQjJkaEZRV1lsOFk0bm14Nk01Q2lmUVpxR01qSDJiLUFfSHZiVVVPRFFkeG5BZ3dXeDA4?oc=5",
-     "time": "2026-11-04T15:39:00+00:00"
-    },
-    {
-     "title": "A Deep Correction in Nebius Stock Presents an Accumulation Opportunity as Financial Metrics Improve",
-     "publisher": "Barchart.com",
-     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOUVU1LTA5TWZlMkdyTFFhWC1PQS1GWGtKTmZqS1pTRGsySXE0d0FpeUNaazJIVGk2cGRwQnQxR19rRE1CQTVxeEpOeG1YdXJHX1k2ZzdwZXNsME01YlltVWYxN1ZZVGpjNk1ib1Qyb0N4N1JaTzN4RHkyOEk3czlzX21nQ3V3T1JWZmRVWHdKWlc5M3pQZ0Y1TmJuSXNScjZiU1lEOUVwbXFOMFNtQXptaWxzNHVKS3Z5OF84TmxrWnc2T1pJUlczTlpRN1poVDV2bzdsQzItNUJ5TTQ?oc=5",
-     "time": "2026-11-04T14:59:11+00:00"
-    },
-    {
-     "title": "Why CoreWeave, IREN, and Nebius Stocks Are Plunging Today \u2014 and Why Jim Cramer Sees More Downside Ahead",
-     "publisher": "TipRanks",
-     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxONC12b0syOHpXQVExbEU5OE1FS2JIbHRLR0dKZHZMdXRZQlk2QUdxZTFkcVRpZTlVN05ETHN1elN4RjhKLVhNcXBZWHNRT2o0T3VabXBOME1JRC12MVRkblNRZmNYNElUT256SWZ3M1FEVDR6Wk5wS25jNVNUcmotLV9RdmdQNFF0OEFnMEF5MlFhcFFGUFJPRFlnOGRwOVItYXhXX0lUT2k3aTI1ZTN5QnQydVR4MjV3Ykc4c2FHNldkdUl3Rkhuaw?oc=5",
-     "time": "2026-11-04T14:14:33+00:00"
-    },
-    {
-     "title": "CoreWeave, Nebius Slide As Blue Wave Clouds AI Boom",
-     "publisher": "Investor's Business Daily",
-     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZzVrZy02WTdPcUFxZVFBY3EwOXBZNkFtZENXZm1qWng0Y0R0QmNNZFplVFZyMGxHTGpVa1ZucW5jMlVtWEdTOHVyeHVjN1RmVno2S1daN0hXNDc1aTgtc3Z2eHc3S1FRa0c0aHBWSEZIa3F4N0szckoxcWhOSlU0WlVkREhrYjhPTzQ1N0FtdzFyU2tFc01Ebg?oc=5",
-     "time": "2026-11-04T14:09:00+00:00"
-    },
-    {
-     "title": "Nebius Group NBIS Stock Whipsaws As AI Data Center Hype Meets Funding Fears",
-     "publisher": "Timothy Sykes",
-     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBCMnZWTDV3d2J0T2hLeDU0VDhEZVRhT0FTZ29ScGNVS0Jab3VJTUpuU19yMTBrVWxEOUJSdklsUVdWdDNJQkgtTE1xWnVSOEZPVkdPZllIUE4yOUgxMXZiVHhKUG45cE05OFJmMWdXaWhBRFFGMjBHY1hTOA?oc=5",
-     "time": "2026-11-04T12:33:00+00:00"
-    },
-    {
-     "title": "CoreWeave, Nebius, and IREN Stocks Drop in Pre-Market, Nov. 4 \u2014 Here\u2019s Why",
-     "publisher": "TipRanks",
-     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNUk1OUXFDUmxOZU9CaUhjbzREdGIwM2d0NkVmMkZIX2xWazdvTWg0eW04QU93a3dCVU1nejVTeFlZd0xLSzBCWXp5cF9BQTdQOGpUNkNFNTFVbmFxMk0zQUV5X3Nrb2ZxOUkxVkl0aEF2dFN5ejUyWVpZelVHeGxzb3RhOGRRUl9tOFhrZEgyamtyMmkwMmJNZXlIS05YaUJFdERV?oc=5",
-     "time": "2026-11-04T12:20:01+00:00"
-    },
-    {
-     "title": "CoreWeave IREN and Nebius Stocks Sink as Election Results Spark AI Data Center Fears",
-     "publisher": "Yahoo Finance Singapore",
-     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNaG96WUkyOHNoRjRuMGx3cE5lemdQclpkRVNJY1M1STdKWWVRLU5PaURaVks4WDY3WEx0WlVla3JDN2xVVmxUakFfa0pEQkxxRm1YYU9vNE83OWFmZ1lWYUc0TTVzdXplT3BlRVQ4ZmhrUTdjTlAyWWx5YkZQM0xzV2ZUQ3lfeVFmemc?oc=5",
-     "time": "2026-11-04T12:07:51+00:00"
-    },
-    {
-     "title": "CoreWeave, IREN, and Nebius Stocks Are Tumbling Overnight After Tuesday\u2019s Rally \u2014 What Spooked Investors and What Wall Street Sees Next",
-     "publisher": "TipRanks",
-     "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxONDRacEhRRGtfSlhTMkZENkQyZE1Ed3lweGVBTkUyNjgzbk5PRHFQV2ZwMkpVSEFCVEhRV3Itc2tfeGxPa0VXdlBnTW1Vb0VKQjliUTR3cFBuSTNnOUhZT2tjdllUWDd4dlNibm81RnlZMlVxWlZPOXhERnMtbFB3eW9Rb2J6aVBJcDVjZTUtZDBYNFZNdHpmR0VuUkx1SkVFRURBenZGNGZ2UkpvTmN0WnNLRzdaVk9RSm1PeVlGRFpyZmsyZHpqVGdQdFFxWU5WeEZJSk1iZGR3ZkgxdmxpM0loV3h1ejFXcnBzTXJOakdIZw?oc=5",
-     "time": "2026-11-04T04:46:03+00:00"
-    }
-   ],
-   "brief": "2026-11-04-NBIS"
-  },
-  {
-   "symbol": "NFLX",
-   "name": "Netflix",
-   "list": "portfolio",
-   "price": 66.15,
-   "prev_close": 63.42,
-   "change_pct": 4.3,
-   "trigger_change": 3.9,
-   "peak_change": 4.4,
-   "first_seen": "2026-11-04T15:00:57+00:00",
-   "sector": {
-    "etf": "XLC",
-    "name": "Communication",
-    "price": 105.48,
-    "change_pct": 3.98
-   },
-   "chart": {
-    "ema8": 3.2,
-    "ema21": -0.2,
-    "sma50": -7.7,
-    "sma200": -18.6,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Netflix, Inc. (NFLX) Continues to Defy Expectations: Is There Still Upside Ahead?",
-     "publisher": "Yahoo Finance Australia",
-     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNc3JLU19qNndULXFrQ19jWkVfeHgxbUx0b081aG9KX01LMUI5SXp2ZVBEVTdnTnZGN0JRY0NMNHdfUUNYRjhxc0JWQ1BHS3c3NHJ5VTBTVWZkNWhhdmg4QWJpeENON3MyZW1CNDEwaWtTcjVsSTlkUWFrRWVBQzNuNVR6N29xYzg?oc=5",
-     "time": "2026-11-04T14:58:01+00:00"
-    },
-    {
-     "title": "Netflix, Inc. $NFLX Stock Acquired by Provenance Wealth Advisors LLC",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPTHJ2Z29EV3htXzNqRjFCTUM0THRBeDlPSmtqUzRtMUFURFJCTU04RzU2ODVIcHNLbXFHWTdYVkNUaDJUVzlVaHhWM3NCMXFmbmhMaTZqZVgzcXJFel9ubmtfSHVfdVY3VHB5ejkteVItNGoxSXhSYldZZ0RHRnNSdUdSTlRtUlBvd2lQZk8xZE1xVHJlRkw4NjRtR2E3eUtJdUZtRDR5T2JVTXJnYlR3UW9jc2F5SHZVaXBYcnNfMkExNmJt?oc=5",
-     "time": "2026-11-04T11:43:48+00:00"
-    },
-    {
-     "title": "Netflix, Inc. $NFLX Stock Bought by Markel Group Inc.",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQRzh4YkdwZG9XakQ2bmxidTJicUg3TmhzbFkxRHNkUzhVaFd4SHdOblEtWUtjaWtINmxMUWFKXzNnOTk3V29CVjJybFBuaG9VMExFRWtJOXRETlZHd1RRTjRYckE5OEd6SGhVNTV2SFo3VTJtTkpHME1kcEhWb2pWWll0dnB6SFpranVqSk5vQ1FoWE55alJRUDVyal9CVG01S1VqZjVVRmdfSHJxME9Z?oc=5",
-     "time": "2026-11-04T09:46:05+00:00"
-    },
-    {
-     "title": "Netflix, Inc. $NFLX Shares Newly Bought by Associated Banc Corp",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQUzNRS0Vnalk5UjQ5RUVyTWtyWXVqTk9KTkwzRmhHZm1TWklZT0tjRi1iWkNoc3djeHRBcy1rc1RuM3hqaWlBNEN5V0V4TG9vWktOd3RibXdtaF9XR2hnU2pxMURSYjdlLUJ1aDdRaDhobm9hM2pZNHhUeFJ0Y2dRSWdNRmFETTljUUNpRTBNZVRaemNCMWx4YnBUZVZ2RndRanh6SEdELVk1Z0otQnhiZkg1aThDVXNxZGtCMllR?oc=5",
-     "time": "2026-11-04T08:47:21+00:00"
-    },
-    {
-     "title": "Netflix (NFLX) awards Elinor Mertz 1,002 stock options with a $62.34 exercise price.",
-     "publisher": "Stock Titan",
-     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNckoyM2xxekdER1JSdnVxR0ZkdWNzQVZOWVZ2SnRXN3R1ajExZjY4MXh3bV8wNmN5bjd3dkY4SEgyWm53VkY2Tl94aWhiR0FFMFN3UDJFQWJYcUduUDczeElPQ1NpbTZkMjBjczV6TUJUMFdubUlqSm91emx1endBSG5iWTlvaWdNNkZXMXRobk55YUxMQkw2U2YyZGJfYklxUVllREhFZmo?oc=5",
-     "time": "2026-11-04T00:47:00+00:00"
-    },
-    {
-     "title": "Netflix (NFLX) director Strive Masiyiwa receives options with a $62.34 exercise price.",
-     "publisher": "Stock Titan",
-     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQR1JJT2J3ajhuUFdIQ1ktWGFuN3JBb1laWnRGUERRNmdha3pwMzE0T0xkUHNIR2xaZGtLYVNNTHVybkZmZWZPeUpXNTA2MjZxWXFBRWZDWVBYb1p1VGdaUS0zdG9KRFFIWGFaaE5XaDlPRjVyRS1pUTN6dE1PYVh4dG9VeUZpVzExQTRtOFBHQml5dGItaGVVdUdDSXR0YXRfS2JRLXpDQ2w?oc=5",
-     "time": "2026-11-04T00:46:00+00:00"
-    },
-    {
-     "title": "Netflix (NFLX) director Mathias Dopfner receives 1,002 options with a $62.34 exercise price.",
-     "publisher": "Stock Titan",
-     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQeXVPV0FvanhVTU5jd1VpcEtRZ1AxLUtpVmJKbmhZaThQM2hETHdEamp2dFVRNXEtT1dKbk41d3A3azQxWWFtQkZCeXp4ZDdpSWZMTElLZ2Y4elRra3FheWhPXzRWZUZhR0szMHJSQ2JMWmFRbk1ZdlBWSUctUFp6dlZJSDdVdUpmVHI2NU9HOEhNVVBBYzUtZnUzTk83NWZqMVpXSVpPd3E?oc=5",
-     "time": "2026-11-04T00:45:00+00:00"
-    },
-    {
-     "title": "Netflix (NFLX) awards Susan E. Rice 1,003 options with a $62.34 exercise price.",
-     "publisher": "Stock Titan",
-     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNQjk2bkFtQnJtUE5aZ0RobUdlUjFzZy1UTFpBM1BnRXplTUxQa1RSUnE2RHJRSUlhVFhTRHZiUGlWMFUwS0kyb1JRelVhampOTVlYczJzcERYbGFjQVFxd0lHSjFRYUs4RFV4V2I0dktRQm9DdVY5RE5OUzB2NUhKNnJCdlh0OXhTZnRNYWdUenhKN0kwdFJnZGpLa3BHNW91QzFiTndIMXE?oc=5",
-     "time": "2026-11-04T00:41:00+00:00"
-    }
-   ],
-   "brief": "2026-11-04-NFLX"
-  },
-  {
    "symbol": "GOOG",
    "name": "Alphabet",
    "list": "portfolio",
-   "price": 289.93,
+   "price": 289.98,
    "prev_close": 278.27,
    "change_pct": 4.2,
    "trigger_change": 3.9,
@@ -528,8 +453,8 @@
    "sector": {
     "etf": "XLC",
     "name": "Communication",
-    "price": 105.48,
-    "change_pct": 3.98
+    "price": 105.77,
+    "change_pct": 4.27
    },
    "chart": {
     "ema8": -1.5,
@@ -591,96 +516,26 @@
    "brief": "2026-11-04-GOOG"
   },
   {
-   "symbol": "BTC-USD",
-   "name": "Bitcoin",
-   "list": "watchlist",
-   "price": 80334.4,
-   "prev_close": 77331.7,
-   "change_pct": 3.9,
-   "trigger_change": 4.0,
-   "peak_change": 4.7,
-   "first_seen": "2026-11-04T15:11:03+00:00",
-   "sector": null,
-   "chart": {
-    "ema8": 2.1,
-    "ema21": 0.5,
-    "sma50": -2.0,
-    "sma200": 9.8,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Bitcoin miners\u2019 daily revenue per unit of computing power falls 8.7%",
-     "publisher": "CryptoSlate",
-     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNVHlYTkxMM014OG1YWEFDY284a3RFSU5tQkNRS3NtckNlWnJqOC1zckxVRzRwUk1MRTZremRzLXZoLU8xekhibEpJWTJDOU1vMEZpMXJ4aExQc3pOWGx0ZnVLRjRXaHBQZ3F4elBrVmV0U0VobkRxLU83bWE0QWtDWUtkVFdDdDU5ZDNpR185VDgxVXRxRnRvVFE3WHZJenBWNDBOdVpDNA?oc=5",
-     "time": "2026-11-04T16:50:39+00:00"
-    },
-    {
-     "title": "Bitcoin Rebounds After Democratic Midterm Sweep, But Crypto Faces Tougher Fight in Washington",
-     "publisher": "Decrypt",
-     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNbXY5a3dBOGRVWTg0YzRRdlllRGZOTXVFRVJlX1pnNlpob1Bfb0xiZl9wQXB0SjZYLVZmM1E0MmRDakhxazZYZWZpdXFpRUJqSHAtMk50UnU1V25RMXhLS3QzYUNtSzd3c3Fuc2o2N01kNGh6OUdLdnFzZXN6QnZxbGlUSmcyODltY1FpT2RR?oc=5",
-     "time": "2026-11-04T16:49:31+00:00"
-    },
-    {
-     "title": "Why is Bitcoin rallying while Gold recovers?",
-     "publisher": "FXStreet",
-     "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOcF9GVWRnSEloTDl4cmVVc1JQb283NmVDWHppd1RTdE9TSHRBeUdlYjczazM0QV81N3RkVmNFdnNTc1ppWXV0OXpESzRXQVJIUDUySFV0TzVKWldUZGI5elZFVmY4OUctRFc2X1NFbUJUQXpwT1F4ZExCQjI1NE1xYWpXRHFsWlR1OG85Y3I2cFd3TG9SUEFEVHh0Y2JoNVNRVUY3NzdLMFAyM002c29UVUpuV2lxQjFUZ0p2dDdlMFpZZllHZzB4RjVFWnB3WnQ4QVBkaWZpZXNBNzYxcGk2Wk5JSmJ6eFlUMlE?oc=5",
-     "time": "2026-11-04T16:34:51+00:00"
-    },
-    {
-     "title": "Riot Platforms Sold 79% of Its Bitcoin Last Quarter. Does Mining Bitcoin Still Pay?",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPSkExNEhuWUhBSE82Zk03UWY0MURmTWhwZHlaTW1zelU4UDZlREtHak9pb2hlN1QzYXlmQ2xzUFA1dW02Y2NXZEN4MF8tcEYwY002OU92MUUtLW9fSUhSTVNHNzNYMHYzUkhBQV9qM1YweWQ2UWxiNTI1eGNmcFIyVFRPcDlRNFNMWmltcFZGcjhJVEJibHdGVl9lcw?oc=5",
-     "time": "2026-11-04T16:31:34+00:00"
-    },
-    {
-     "title": "Bitcoin Price Dips Under $76K Then Recovers as Blue Wave Hits Washington",
-     "publisher": "Cryptonews.net",
-     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9oUFZzTzRZaTZ0d3MwN21LeGxtYm04UFNsMVV6MjNwNlg4ZHFPdEVUamZhZkV4RTRzTDNYdDFoNFAxNDdheGs1YW51SWRlR2lmTHZTbjIxeWs?oc=5",
-     "time": "2026-11-04T16:28:12+00:00"
-    },
-    {
-     "title": "JUST IN: Pro-Bitcoin candidates win elections in Florida and Texas \ud83d\udc40",
-     "publisher": "Moomoo",
-     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNdGptREZJdHFuQmhjNENlUDI2WnpEWG04LVlBNGpfanE2ZllTdC1CQmZMN3pEOTN3eW91RHcyTWNRVU9ES1NHRnlIRFI2UkxRVUdMYklYd3UyenFZcGJFUFFtOG5MdVhSQ0twX0Z1NTd0aTZucVg2M2prU3c5dTl0X2Z5U1ZUNUR5NkxRYW9MLVNCa3VGek5QWXN1M2JRV0tIV0JBTVJaUzduZ3poeTNnTmVUdw?oc=5",
-     "time": "2026-11-04T16:22:26+00:00"
-    },
-    {
-     "title": "Bitcoin Long Liquidations Reach $31.86 Million in One Hour",
-     "publisher": "www.tokenpost.com",
-     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4zeGk3NEZfdS14WG9mSW1Rc05Zdm9pZUZWbHBwcFJnMy1zZTZaeHlWQ3FNYUVNY1B6R19KMjkzRFJXdlA4Y2VxbE1URE5lNDFOVFg5SzU4ZHRTUQ?oc=5",
-     "time": "2026-11-04T16:13:55+00:00"
-    },
-    {
-     "title": "VBVIT Held $104 Million Bitcoin Short on Hyperliquid With $4.89 Million Gain.",
-     "publisher": "www.tokenpost.com",
-     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9TTTNHc0dHemZZVWhXRHRpUWZzOFRsbXNLUmU0OWhnNUd3Q1M0N1duN0M1M0VhVmV0emtSLTNta3FQRkNDOVpLLWJXX1liemk2OVVZQnBiYS1FQQ?oc=5",
-     "time": "2026-11-04T16:11:45+00:00"
-    }
-   ],
-   "brief": "2026-11-04-BTC-USD"
-  },
-  {
    "symbol": "SOFI",
    "name": "SoFi",
    "list": "portfolio",
-   "price": 17.39,
+   "price": 17.46,
    "prev_close": 16.77,
-   "change_pct": 3.7,
+   "change_pct": 4.1,
    "trigger_change": 4.1,
    "peak_change": 5.4,
    "first_seen": "2026-11-04T14:55:55+00:00",
    "sector": {
     "etf": "XLF",
     "name": "Financials",
-    "price": 58.77,
-    "change_pct": 2.77
+    "price": 58.85,
+    "change_pct": 2.9
    },
    "chart": {
-    "ema8": 4.7,
-    "ema21": 8.0,
-    "sma50": 5.6,
-    "sma200": -1.5,
+    "ema8": 5.1,
+    "ema21": 8.4,
+    "sma50": 6.0,
+    "sma200": -1.1,
     "momentum": true
    },
    "headlines": [
@@ -736,10 +591,155 @@
    "brief": "2026-11-04-SOFI"
   },
   {
+   "symbol": "NFLX",
+   "name": "Netflix",
+   "list": "portfolio",
+   "price": 65.94,
+   "prev_close": 63.42,
+   "change_pct": 4.0,
+   "trigger_change": 3.9,
+   "peak_change": 4.4,
+   "first_seen": "2026-11-04T15:00:57+00:00",
+   "sector": {
+    "etf": "XLC",
+    "name": "Communication",
+    "price": 105.77,
+    "change_pct": 4.27
+   },
+   "chart": {
+    "ema8": 2.9,
+    "ema21": -0.5,
+    "sma50": -8.0,
+    "sma200": -18.8,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Netflix, Inc. (NFLX) Continues to Defy Expectations: Is There Still Upside Ahead?",
+     "publisher": "Yahoo Finance Australia",
+     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNc3JLU19qNndULXFrQ19jWkVfeHgxbUx0b081aG9KX01LMUI5SXp2ZVBEVTdnTnZGN0JRY0NMNHdfUUNYRjhxc0JWQ1BHS3c3NHJ5VTBTVWZkNWhhdmg4QWJpeENON3MyZW1CNDEwaWtTcjVsSTlkUWFrRWVBQzNuNVR6N29xYzg?oc=5",
+     "time": "2026-11-04T14:58:01+00:00"
+    },
+    {
+     "title": "Netflix, Inc. $NFLX Stock Acquired by Provenance Wealth Advisors LLC",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPTHJ2Z29EV3htXzNqRjFCTUM0THRBeDlPSmtqUzRtMUFURFJCTU04RzU2ODVIcHNLbXFHWTdYVkNUaDJUVzlVaHhWM3NCMXFmbmhMaTZqZVgzcXJFel9ubmtfSHVfdVY3VHB5ejkteVItNGoxSXhSYldZZ0RHRnNSdUdSTlRtUlBvd2lQZk8xZE1xVHJlRkw4NjRtR2E3eUtJdUZtRDR5T2JVTXJnYlR3UW9jc2F5SHZVaXBYcnNfMkExNmJt?oc=5",
+     "time": "2026-11-04T11:43:48+00:00"
+    },
+    {
+     "title": "Netflix, Inc. $NFLX Stock Bought by Markel Group Inc.",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQRzh4YkdwZG9XakQ2bmxidTJicUg3TmhzbFkxRHNkUzhVaFd4SHdOblEtWUtjaWtINmxMUWFKXzNnOTk3V29CVjJybFBuaG9VMExFRWtJOXRETlZHd1RRTjRYckE5OEd6SGhVNTV2SFo3VTJtTkpHME1kcEhWb2pWWll0dnB6SFpranVqSk5vQ1FoWE55alJRUDVyal9CVG01S1VqZjVVRmdfSHJxME9Z?oc=5",
+     "time": "2026-11-04T09:46:05+00:00"
+    },
+    {
+     "title": "Netflix, Inc. $NFLX Shares Newly Bought by Associated Banc Corp",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQUzNRS0Vnalk5UjQ5RUVyTWtyWXVqTk9KTkwzRmhHZm1TWklZT0tjRi1iWkNoc3djeHRBcy1rc1RuM3hqaWlBNEN5V0V4TG9vWktOd3RibXdtaF9XR2hnU2pxMURSYjdlLUJ1aDdRaDhobm9hM2pZNHhUeFJ0Y2dRSWdNRmFETTljUUNpRTBNZVRaemNCMWx4YnBUZVZ2RndRanh6SEdELVk1Z0otQnhiZkg1aThDVXNxZGtCMllR?oc=5",
+     "time": "2026-11-04T08:47:21+00:00"
+    },
+    {
+     "title": "Netflix (NFLX) awards Elinor Mertz 1,002 stock options with a $62.34 exercise price.",
+     "publisher": "Stock Titan",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNckoyM2xxekdER1JSdnVxR0ZkdWNzQVZOWVZ2SnRXN3R1ajExZjY4MXh3bV8wNmN5bjd3dkY4SEgyWm53VkY2Tl94aWhiR0FFMFN3UDJFQWJYcUduUDczeElPQ1NpbTZkMjBjczV6TUJUMFdubUlqSm91emx1endBSG5iWTlvaWdNNkZXMXRobk55YUxMQkw2U2YyZGJfYklxUVllREhFZmo?oc=5",
+     "time": "2026-11-04T00:47:00+00:00"
+    },
+    {
+     "title": "Netflix (NFLX) director Strive Masiyiwa receives options with a $62.34 exercise price.",
+     "publisher": "Stock Titan",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQR1JJT2J3ajhuUFdIQ1ktWGFuN3JBb1laWnRGUERRNmdha3pwMzE0T0xkUHNIR2xaZGtLYVNNTHVybkZmZWZPeUpXNTA2MjZxWXFBRWZDWVBYb1p1VGdaUS0zdG9KRFFIWGFaaE5XaDlPRjVyRS1pUTN6dE1PYVh4dG9VeUZpVzExQTRtOFBHQml5dGItaGVVdUdDSXR0YXRfS2JRLXpDQ2w?oc=5",
+     "time": "2026-11-04T00:46:00+00:00"
+    },
+    {
+     "title": "Netflix (NFLX) director Mathias Dopfner receives 1,002 options with a $62.34 exercise price.",
+     "publisher": "Stock Titan",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQeXVPV0FvanhVTU5jd1VpcEtRZ1AxLUtpVmJKbmhZaThQM2hETHdEamp2dFVRNXEtT1dKbk41d3A3azQxWWFtQkZCeXp4ZDdpSWZMTElLZ2Y4elRra3FheWhPXzRWZUZhR0szMHJSQ2JMWmFRbk1ZdlBWSUctUFp6dlZJSDdVdUpmVHI2NU9HOEhNVVBBYzUtZnUzTk83NWZqMVpXSVpPd3E?oc=5",
+     "time": "2026-11-04T00:45:00+00:00"
+    },
+    {
+     "title": "Netflix (NFLX) awards Susan E. Rice 1,003 options with a $62.34 exercise price.",
+     "publisher": "Stock Titan",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNQjk2bkFtQnJtUE5aZ0RobUdlUjFzZy1UTFpBM1BnRXplTUxQa1RSUnE2RHJRSUlhVFhTRHZiUGlWMFUwS0kyb1JRelVhampOTVlYczJzcERYbGFjQVFxd0lHSjFRYUs4RFV4V2I0dktRQm9DdVY5RE5OUzB2NUhKNnJCdlh0OXhTZnRNYWdUenhKN0kwdFJnZGpLa3BHNW91QzFiTndIMXE?oc=5",
+     "time": "2026-11-04T00:41:00+00:00"
+    }
+   ],
+   "brief": "2026-11-04-NFLX"
+  },
+  {
+   "symbol": "BTC-USD",
+   "name": "Bitcoin",
+   "list": "watchlist",
+   "price": 80215.7,
+   "prev_close": 77331.7,
+   "change_pct": 3.7,
+   "trigger_change": 4.0,
+   "peak_change": 4.7,
+   "first_seen": "2026-11-04T15:11:03+00:00",
+   "sector": null,
+   "chart": {
+    "ema8": 2.0,
+    "ema21": 0.4,
+    "sma50": -2.2,
+    "sma200": 9.6,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Bitcoin miners\u2019 daily revenue per unit of computing power falls 8.7%",
+     "publisher": "CryptoSlate",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNVHlYTkxMM014OG1YWEFDY284a3RFSU5tQkNRS3NtckNlWnJqOC1zckxVRzRwUk1MRTZremRzLXZoLU8xekhibEpJWTJDOU1vMEZpMXJ4aExQc3pOWGx0ZnVLRjRXaHBQZ3F4elBrVmV0U0VobkRxLU83bWE0QWtDWUtkVFdDdDU5ZDNpR185VDgxVXRxRnRvVFE3WHZJenBWNDBOdVpDNA?oc=5",
+     "time": "2026-11-04T16:50:39+00:00"
+    },
+    {
+     "title": "Bitcoin Rebounds After Democratic Midterm Sweep, But Crypto Faces Tougher Fight in Washington",
+     "publisher": "Decrypt",
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNbXY5a3dBOGRVWTg0YzRRdlllRGZOTXVFRVJlX1pnNlpob1Bfb0xiZl9wQXB0SjZYLVZmM1E0MmRDakhxazZYZWZpdXFpRUJqSHAtMk50UnU1V25RMXhLS3QzYUNtSzd3c3Fuc2o2N01kNGh6OUdLdnFzZXN6QnZxbGlUSmcyODltY1FpT2RR?oc=5",
+     "time": "2026-11-04T16:49:31+00:00"
+    },
+    {
+     "title": "Why is Bitcoin rallying while Gold recovers?",
+     "publisher": "FXStreet",
+     "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOcF9GVWRnSEloTDl4cmVVc1JQb283NmVDWHppd1RTdE9TSHRBeUdlYjczazM0QV81N3RkVmNFdnNTc1ppWXV0OXpESzRXQVJIUDUySFV0TzVKWldUZGI5elZFVmY4OUctRFc2X1NFbUJUQXpwT1F4ZExCQjI1NE1xYWpXRHFsWlR1OG85Y3I2cFd3TG9SUEFEVHh0Y2JoNVNRVUY3NzdLMFAyM002c29UVUpuV2lxQjFUZ0p2dDdlMFpZZllHZzB4RjVFWnB3WnQ4QVBkaWZpZXNBNzYxcGk2Wk5JSmJ6eFlUMlE?oc=5",
+     "time": "2026-11-04T16:34:51+00:00"
+    },
+    {
+     "title": "Riot Platforms Sold 79% of Its Bitcoin Last Quarter. Does Mining Bitcoin Still Pay?",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPSkExNEhuWUhBSE82Zk03UWY0MURmTWhwZHlaTW1zelU4UDZlREtHak9pb2hlN1QzYXlmQ2xzUFA1dW02Y2NXZEN4MF8tcEYwY002OU92MUUtLW9fSUhSTVNHNzNYMHYzUkhBQV9qM1YweWQ2UWxiNTI1eGNmcFIyVFRPcDlRNFNMWmltcFZGcjhJVEJibHdGVl9lcw?oc=5",
+     "time": "2026-11-04T16:31:34+00:00"
+    },
+    {
+     "title": "Bitcoin Price Dips Under $76K Then Recovers as Blue Wave Hits Washington",
+     "publisher": "Cryptonews.net",
+     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9oUFZzTzRZaTZ0d3MwN21LeGxtYm04UFNsMVV6MjNwNlg4ZHFPdEVUamZhZkV4RTRzTDNYdDFoNFAxNDdheGs1YW51SWRlR2lmTHZTbjIxeWs?oc=5",
+     "time": "2026-11-04T16:28:12+00:00"
+    },
+    {
+     "title": "JUST IN: Pro-Bitcoin candidates win elections in Florida and Texas \ud83d\udc40",
+     "publisher": "Moomoo",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNdGptREZJdHFuQmhjNENlUDI2WnpEWG04LVlBNGpfanE2ZllTdC1CQmZMN3pEOTN3eW91RHcyTWNRVU9ES1NHRnlIRFI2UkxRVUdMYklYd3UyenFZcGJFUFFtOG5MdVhSQ0twX0Z1NTd0aTZucVg2M2prU3c5dTl0X2Z5U1ZUNUR5NkxRYW9MLVNCa3VGek5QWXN1M2JRV0tIV0JBTVJaUzduZ3poeTNnTmVUdw?oc=5",
+     "time": "2026-11-04T16:22:26+00:00"
+    },
+    {
+     "title": "Bitcoin Long Liquidations Reach $31.86 Million in One Hour",
+     "publisher": "www.tokenpost.com",
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4zeGk3NEZfdS14WG9mSW1Rc05Zdm9pZUZWbHBwcFJnMy1zZTZaeHlWQ3FNYUVNY1B6R19KMjkzRFJXdlA4Y2VxbE1URE5lNDFOVFg5SzU4ZHRTUQ?oc=5",
+     "time": "2026-11-04T16:13:55+00:00"
+    },
+    {
+     "title": "VBVIT Held $104 Million Bitcoin Short on Hyperliquid With $4.89 Million Gain.",
+     "publisher": "www.tokenpost.com",
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9TTTNHc0dHemZZVWhXRHRpUWZzOFRsbXNLUmU0OWhnNUd3Q1M0N1duN0M1M0VhVmV0emtSLTNta3FQRkNDOVpLLWJXX1liemk2OVVZQnBiYS1FQQ?oc=5",
+     "time": "2026-11-04T16:11:45+00:00"
+    }
+   ],
+   "brief": "2026-11-04-BTC-USD"
+  },
+  {
    "symbol": "AMAT",
    "name": "Applied Materials",
    "list": "portfolio",
-   "price": 368.12,
+   "price": 368.02,
    "prev_close": 381.92,
    "change_pct": -3.6,
    "trigger_change": -3.4,
@@ -748,14 +748,14 @@
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 505.8,
-    "change_pct": -2.45
+    "price": 507.42,
+    "change_pct": -2.14
    },
    "chart": {
-    "ema8": -5.3,
+    "ema8": -5.4,
     "ema21": -11.5,
     "sma50": -18.4,
-    "sma200": -17.3,
+    "sma200": -17.4,
     "momentum": false
    },
    "headlines": [
@@ -814,23 +814,23 @@
    "symbol": "CRWD",
    "name": "CrowdStrike",
    "list": "portfolio",
-   "price": 241.2,
+   "price": 242.58,
    "prev_close": 244.68,
-   "change_pct": -1.4,
+   "change_pct": -0.9,
    "trigger_change": 3.1,
    "peak_change": 3.1,
    "first_seen": "2026-11-04T15:21:14+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 103.63,
-    "change_pct": 0.94
+    "price": 103.69,
+    "change_pct": 1.0
    },
    "chart": {
-    "ema8": -3.0,
-    "ema21": -3.5,
-    "sma50": -0.9,
-    "sma200": 42.6,
+    "ema8": -2.5,
+    "ema21": -3.0,
+    "sma50": -0.4,
+    "sma200": 43.4,
     "momentum": false
    },
    "headlines": [
