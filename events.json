@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-29",
+  "as_of": "2026-11-05",
   "updated_by": "Claude",
   "about": "Upcoming dates for the app's 'Upcoming dates' card. Earnings and ex-dividend dates come from Nasdaq automatically and FOMC dates from fed.json – list only macro releases and company events here. Kept current by the brief task (BRIEF_TASK.md step 6).",
   "macro": [
@@ -107,6 +107,13 @@
       "kind": "pce",
       "title": "PCE inflation (February) + GDP Q4 3rd estimate",
       "title_de": "PCE-Inflation (Februar) + BIP Q4, 3. Schätzung"
+    },
+    {
+      "date": "2027-04-02",
+      "time": "08:30 ET",
+      "kind": "jobs",
+      "title": "US jobs report (March)",
+      "title_de": "US-Arbeitsmarktbericht (März)"
     }
   ],
   "companies": {
@@ -125,7 +132,7 @@
     "https://www.bls.gov/schedule/news_release/cpi.htm",
     "https://www.bls.gov/schedule/news_release/empsit.htm",
     "https://www.bea.gov/news/schedule/full",
-    "https://www.bea.gov/news/schedule/next-year",
-    "https://aws.amazon.com/events/reinvent/"
+    "https://aws.amazon.com/events/reinvent/",
+    "https://www.bea.gov/news/schedule"
   ]
 }
