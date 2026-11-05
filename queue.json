@@ -1,5 +1,86 @@
 {
  "date": "2026-11-05",
  "threshold": 3.0,
- "movers": []
+ "movers": [
+  {
+   "id": "2026-11-05-APP",
+   "symbol": "APP",
+   "name": "AppLovin",
+   "list": "portfolio",
+   "trigger_change": 31.5,
+   "first_seen": "2026-11-05T15:05:31+00:00"
+  },
+  {
+   "id": "2026-11-05-MELI",
+   "symbol": "MELI",
+   "name": "MercadoLibre",
+   "list": "watchlist",
+   "trigger_change": -13.5,
+   "first_seen": "2026-11-05T15:05:31+00:00"
+  },
+  {
+   "id": "2026-11-05-NBIS",
+   "symbol": "NBIS",
+   "name": "Nebius",
+   "list": "portfolio",
+   "trigger_change": -12.1,
+   "first_seen": "2026-11-05T15:05:31+00:00"
+  },
+  {
+   "id": "2026-11-05-CRWD",
+   "symbol": "CRWD",
+   "name": "CrowdStrike",
+   "list": "portfolio",
+   "trigger_change": -8.4,
+   "first_seen": "2026-11-05T15:05:31+00:00"
+  },
+  {
+   "id": "2026-11-05-AMAT",
+   "symbol": "AMAT",
+   "name": "Applied Materials",
+   "list": "portfolio",
+   "trigger_change": -7.6,
+   "first_seen": "2026-11-05T15:05:31+00:00"
+  },
+  {
+   "id": "2026-11-05-SOFI",
+   "symbol": "SOFI",
+   "name": "SoFi",
+   "list": "portfolio",
+   "trigger_change": -6.7,
+   "first_seen": "2026-11-05T15:05:31+00:00"
+  },
+  {
+   "id": "2026-11-05-ANET",
+   "symbol": "ANET",
+   "name": "Arista Networks",
+   "list": "portfolio",
+   "trigger_change": -6.5,
+   "first_seen": "2026-11-05T15:05:31+00:00"
+  },
+  {
+   "id": "2026-11-05-AVGO",
+   "symbol": "AVGO",
+   "name": "Broadcom",
+   "list": "portfolio",
+   "trigger_change": -5.8,
+   "first_seen": "2026-11-05T15:05:31+00:00"
+  },
+  {
+   "id": "2026-11-05-NVDA",
+   "symbol": "NVDA",
+   "name": "Nvidia",
+   "list": "portfolio",
+   "trigger_change": -5.7,
+   "first_seen": "2026-11-05T15:05:31+00:00"
+  },
+  {
+   "id": "2026-11-05-NOW",
+   "symbol": "NOW",
+   "name": "ServiceNow",
+   "list": "portfolio",
+   "trigger_change": -3.5,
+   "first_seen": "2026-11-05T15:05:31+00:00"
+  }
+ ]
 }
