@@ -1,22 +1,22 @@
 {
  "date": "2026-11-05",
  "threshold": 3.0,
- "updated": "2026-11-05T15:46:02+00:00",
+ "updated": "2026-11-05T15:56:06+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 742.41,
-   "change_pct": -3.18
+   "price": 741.76,
+   "change_pct": -3.27
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 653.95,
-   "change_pct": -5.49
+   "price": 654.81,
+   "change_pct": -5.37
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 81.91,
-   "change_pct": 0.18
+   "price": 82.0,
+   "change_pct": 0.29
   }
  },
  "movers": [
@@ -24,23 +24,23 @@
    "symbol": "APP",
    "name": "AppLovin",
    "list": "portfolio",
-   "price": 354.82,
+   "price": 351.6,
    "prev_close": 271.75,
-   "change_pct": 30.6,
+   "change_pct": 29.4,
    "trigger_change": 31.5,
    "peak_change": 33.8,
    "first_seen": "2026-11-05T15:05:31+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 99.66,
-    "change_pct": -3.77
+    "price": 99.7,
+    "change_pct": -3.73
    },
    "chart": {
-    "ema8": 28.6,
-    "ema21": 30.2,
-    "sma50": 21.6,
-    "sma200": -13.4,
+    "ema8": 27.7,
+    "ema21": 29.2,
+    "sma50": 20.5,
+    "sma200": -14.2,
     "momentum": true
    },
    "headlines": [
@@ -99,23 +99,23 @@
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 117.48,
+   "price": 115.2,
    "prev_close": 141.52,
-   "change_pct": -17.0,
+   "change_pct": -18.6,
    "trigger_change": -12.1,
-   "peak_change": -17.0,
+   "peak_change": -18.6,
    "first_seen": "2026-11-05T15:05:31+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 99.66,
-    "change_pct": -3.77
+    "price": 99.7,
+    "change_pct": -3.73
    },
    "chart": {
-    "ema8": -20.3,
-    "ema21": -30.7,
-    "sma50": -42.2,
-    "sma200": -34.1,
+    "ema8": -21.5,
+    "ema21": -32.0,
+    "sma50": -43.4,
+    "sma200": -35.3,
     "momentum": false
    },
    "headlines": [
@@ -174,23 +174,23 @@
    "symbol": "MELI",
    "name": "MercadoLibre",
    "list": "watchlist",
-   "price": 1479.29,
+   "price": 1481.39,
    "prev_close": 1739.88,
-   "change_pct": -15.0,
+   "change_pct": -14.9,
    "trigger_change": -13.5,
-   "peak_change": -15.0,
+   "peak_change": -15.1,
    "first_seen": "2026-11-05T15:05:31+00:00",
    "sector": {
     "etf": "XLY",
     "name": "Consumer discr.",
-    "price": 117.68,
-    "change_pct": -3.8
+    "price": 117.66,
+    "change_pct": -3.82
    },
    "chart": {
-    "ema8": -10.5,
-    "ema21": -14.3,
-    "sma50": -18.5,
-    "sma200": -18.0,
+    "ema8": -10.4,
+    "ema21": -14.2,
+    "sma50": -18.4,
+    "sma200": -17.9,
     "momentum": false
    },
    "headlines": [
@@ -249,23 +249,23 @@
    "symbol": "AMAT",
    "name": "Applied Materials",
    "list": "portfolio",
-   "price": 330.41,
+   "price": 328.09,
    "prev_close": 369.4,
-   "change_pct": -10.6,
+   "change_pct": -11.2,
    "trigger_change": -7.6,
-   "peak_change": -10.6,
+   "peak_change": -11.3,
    "first_seen": "2026-11-05T15:05:31+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 455.71,
-    "change_pct": -9.63
+    "price": 453.65,
+    "change_pct": -10.04
    },
    "chart": {
-    "ema8": -12.1,
-    "ema21": -19.1,
-    "sma50": -26.3,
-    "sma200": -25.8,
+    "ema8": -12.6,
+    "ema21": -19.6,
+    "sma50": -26.8,
+    "sma200": -26.3,
     "momentum": false
    },
    "headlines": [
@@ -321,176 +321,26 @@
    "brief": null
   },
   {
-   "symbol": "CRWD",
-   "name": "CrowdStrike",
-   "list": "portfolio",
-   "price": 216.0,
-   "prev_close": 241.0,
-   "change_pct": -10.4,
-   "trigger_change": -8.4,
-   "peak_change": -10.4,
-   "first_seen": "2026-11-05T15:05:31+00:00",
-   "sector": {
-    "etf": "IGV",
-    "name": "Software",
-    "price": 99.66,
-    "change_pct": -3.77
-   },
-   "chart": {
-    "ema8": -10.5,
-    "ema21": -12.5,
-    "sma50": -11.5,
-    "sma200": 27.3,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Too Late to Buy CrowdStrike Stock? Here's the 1 Thing to Watch.",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZXV6cVByNS0zMXBzNEFDcFZiejVtZU5Ma0pMdmFOeTdQUmFKaGNCd2JubTI4Zk9NdG5jaVkxcDFENkRZd1k1bU9DQ2xUZThQb3g3WFREWmxNVV9kaC0taU9TbkxMUkhfYXc1bkc3SHJsVGZ0bElqbmNYYXBDa1JfTUJ6eXpJRVAzb3lrZHU0MlgyWWl5RVNCTVpzUU8?oc=5",
-     "time": "2026-11-05T12:30:00+00:00"
-    },
-    {
-     "title": "Can CrowdStrike Stock Rally 50% After This Dip?",
-     "publisher": "Trefis",
-     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTFNVbmFUa2tKLUNfMVdGUDhoN1R6Z25SX2lWanRnR1BTaFhBZW5VeGVVYUNpOHU4dmJFOEZmeGRnUVhlWnVxdWhVT3FOMXVVbFpRTnFvQnAxSGloZGhXUzBsZGZmRUxXWmZxSnBGaXo1X1FRMEZoR2paNkpnUHQ1OEVxMW1oYnplU2RRdUUwbkk4dDBCNVJWWDZtNUJNbFozYlFFRkFDaXVsZw?oc=5",
-     "time": "2026-11-05T09:41:39+00:00"
-    },
-    {
-     "title": "CrowdStrike (CRWD) President and CEO George Kurtz Sells 45,395 S",
-     "publisher": "GuruFocus",
-     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQaXpZYW5xaEZtV1lWWXlxZHFoMUI1alR0Rl9WdGtTWU5QMnhXc0tMX3k0Vk1SUm91eWNxTHBUS2x4UnpjR1FoWm5hSUU3NHAzQXNrSFMtYXltQ0xqSXN3aWF0a0dJRkQ1aHVTMkpwLXdlOExFbWlISlJOZkNuTmY5WE0taVRFM1FTR3FNSjRVNXpfVDVDdkt4MGM5SDZpNkVyUUVUMlJvZUc?oc=5",
-     "time": "2026-11-05T06:50:37+00:00"
-    },
-    {
-     "title": "CrowdStrike(CRWD.US) Officer Sells US$11.99 Million in Common Stock",
-     "publisher": "Moomoo",
-     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPRnRCOHgtOGJMZHU2RWZ5TUFHQ3lab2RySkJ6cW4yakJ5d21SMlFUU08zMnhMVEJZQzhCTl9UQmJZdnFoQTU0Z1pZOEZSNTRHUW5YQ0RqckQ2RDdXTWllTjhLU191TTR3UEx4RTVIWlNmZDY3d2d1Y2w1N0R2LXdSeUpoY25nNnJJQ1BTSkRaYXlUS1FSbWdKaENzYWZhTEk3QmxQWGpB?oc=5",
-     "time": "2026-11-05T02:04:19+00:00"
-    },
-    {
-     "title": "To cover vesting taxes, CrowdStrike (CRWD) CFO sells 7,710 shares.",
-     "publisher": "Stock Titan",
-     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPZ0N0OEhSakhVNnRIVWtLRHBQT3RsbTU1Z3ZyVHRaWEdISV84VzVvd2MxcEZFU05IdnhWYzRNcmVIMldPSTcyTXJoVko5TFpiVU9WeUdpcVpNVlNJQXBJVXpkMTBCRVZzb2tQSlNfUDlRNkM0dTVjRl9peXh0N3E0TlkzNlRkejROSFEwY1ZuVVVmUUhpc1NaWFZNOFd6RWlDblpiN2RzNWZaSWs1Y0VZZmItOGUyaWVLaUN3?oc=5",
-     "time": "2026-11-05T01:00:00+00:00"
-    },
-    {
-     "title": "14,000 CrowdStrike (CRWD) shares were sold under a trading plan adopted June 25, 2026.",
-     "publisher": "Stock Titan",
-     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxORUt5dnlKbURqZEJQdk1RUElmOWNtM1JOZkpjZHRRSUZqLXNkakRFSFp0NmROUV84dDN5S3UycjZsNlpmOWFhY3l2S3o1Z0pOTjh4eWloRkdfVzJoS0FQdHBhZEcwbmR0Q0RYcE5WY1daaE5YbnVnX09JYmZpclMzcmhVcE15X2lhb3Nwc252MTlmSEg1aGhBRndTOUNJMTJ0YURLTXpKbnliUWpiSUdjUjNTdWxBb3F2dUhv?oc=5",
-     "time": "2026-11-05T01:00:00+00:00"
-    },
-    {
-     "title": "CrowdStrike Stock Price Forecast \u2014 CRWD ($243.43) Dips as Software Selloff Meets AI Kill Switch Launch and $495M in Deals \u2014 $275 Target",
-     "publisher": "TradingNEWS",
-     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNTzhMUTV3TlZmOTRJMXhOSmMtWmlRNVRvWjU4MWxOR1ZGYWNUcFRyYU5hbUZCd1ZZV0lQbUl4bFFPR1Y1VmJSZTFwdTdkTEphallKN0tTaHlXWFR6X1NJV05rWnNYMXU5Qk5hRzZyN0drblpYM3F5NUo1dllLS2U3LUFLRVNUWWk1TU5sZWxsTFhQWEgyUWZJ?oc=5",
-     "time": "2026-11-04T21:35:21+00:00"
-    },
-    {
-     "title": "Organizations in Saudi Arabia can keep cybersecurity data local with CrowdStrike's new cloud",
-     "publisher": "Stock Titan",
-     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNQ09ZUXBQQjkwSnlTLWVvdW0xT2VpOUlWMTNOMnRjQjlWdlN5dGhkeUd3ektXQWxMZ1BYQkdLcVlTZGRIYjBWMEtYVVZDWElpZVZrR0JfRURrdG5ZdVh1MmRyalJZQnllam9DcG5hMG96U2FSZVFER2xrbnNja1Bzc3JkNlR3X2dYbFU2eDF4QXpYbEJiVjZGTlZVMThBYi1nbXRpbG50NEd2WjBaOFl3ZkozM05FcU15b1RYMQ?oc=5",
-     "time": "2026-11-04T17:28:00+00:00"
-    }
-   ],
-   "brief": null
-  },
-  {
-   "symbol": "SOFI",
-   "name": "SoFi",
-   "list": "portfolio",
-   "price": 15.68,
-   "prev_close": 17.38,
-   "change_pct": -9.8,
-   "trigger_change": -6.7,
-   "peak_change": -9.8,
-   "first_seen": "2026-11-05T15:05:31+00:00",
-   "sector": {
-    "etf": "XLF",
-    "name": "Financials",
-    "price": 58.27,
-    "change_pct": -1.57
-   },
-   "chart": {
-    "ema8": -4.4,
-    "ema21": -2.4,
-    "sma50": -4.4,
-    "sma200": -10.9,
-    "momentum": true
-   },
-   "headlines": [
-    {
-     "title": "SoFi Technologies stock trades at 15.33 euros Thursday afternoon",
-     "publisher": "ad-hoc-news.de",
-     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPd1poeTcxejFUT2NGcUQ4bld0dHBVVVM0VVRPQ2hkc1lBRktvR3g4WENCc3poTXhxRXZzUngxYklKTV9vYV84cWtCNnlWX2F4MU1jX0xiRkVwSFEwXzdyOU9kNHZNY2ZWWElTZjhrTWNFMm8wVS04V1h4Uk5NMVVpc3N1WEJiUkNoenRKLVJQb3ZpazYzcjlYWTRhWmp1TTJNNHFNUENmME9fMm9IandnUHozdXRCU0h5UzE0V2NDTU9WOWJ2VkE?oc=5",
-     "time": "2026-11-05T13:26:26+00:00"
-    },
-    {
-     "title": "2 Fintech Stocks to Buy After They Raised Their 2026 Forecasts in October",
-     "publisher": "The Globe and Mail",
-     "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOTnNDLVNCMFRQSVhrVmtudG4wLUtLWXp1QlFkQ2g4ME51V3I4Y1FwdU1fdUxtTU5nUG9xckJMTFRhYUpYa3RIdHd1WjkydE1qV3N1N2lKMHdyX3hTUVVOR1BGOGFHYk9OLThPX2tZMXFYRkx4Q2xldGNyMGJEU2VoTU1mVmdkR0xuOVhvQmtaMTM3ZV9abjJxaHNBNWVBOVlIRWw4RVM3bmZUVm5mb3g3TTByNXdXYnNpZm10VXItamxXeEVhVlJobmRwM2F6OFFJMDVZMUpJZEdCejF4eUNSanNxRGxBT19Hb0p0TUNCcw?oc=5",
-     "time": "2026-11-05T10:59:17+00:00"
-    },
-    {
-     "title": "Vise Technologies Inc. Buys 126,164 Shares of SoFi Technologies, Inc. $SOFI",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPb1pKMFJTRlRPdDRna2F3LTVCd2t3WmNWemVVQ1R1TE5mOFc4cm55V2Z4SDZ4dmsyalQwaGpZOHBMdWp1U3F2WFRZNnhtS1hhQk0tR1ZOUW5DbzVCczl2X3ktLXAyZjEtaHJ6ZzB0VThKX09JQWxydEVieXAyLV9Gdk9iRHR4c0QzV3hIN2xlOFJjNUE3MFZkdGx5amIySDZObmwzQzNod2ZTZEJJMzgxaDA5VE00WlJxbno5ajZZQWdwT0tMY2R4UE1wQQ?oc=5",
-     "time": "2026-11-05T10:15:29+00:00"
-    },
-    {
-     "title": "A Look at SoFi Technologies Inc (SOFI) After 3.6% Gain -- GF Val",
-     "publisher": "GuruFocus",
-     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUnF4dXNwei1uMm4wWnpKUk1DMFNKLVZ1WTNVUTZHRGVNUXh0cDlCOUZSLXhTTEp6ekZoT19FQkdaNHRiVVJtTDU3S0tYN3B1MGlpTWhZMWFpckZoQnF2VEZSOXc2aXF2bk5nMmJwajFKU182azZFdXVvYjMteC04THZ0V0J5MlNlUzUwVko2NFVLMzk2b3VWTU1ocEs4alY5cjVpRk9GLU5nQkduVll6bmZfTHpXU2E2?oc=5",
-     "time": "2026-11-05T01:02:14+00:00"
-    },
-    {
-     "title": "SoFi Technologies (NASDAQ:SOFI) Stock Jumps 3.6% on Analyst Upgrade",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZW9kQ2RhWlp6Z2Z0ZWUtSEJzdGtGQmxoNzBWR21VYVgtUnBib25yTGVVV2tNNzBvWGRwN0dMWXE0VmtZMFFEcWdPUXd6WTdmel92cG8wTzlPUklNVmdHS04wVEc0Y29XNnhMU2Y1ck5qc0pFWWN1VTFINmtjUW1iUHVNTzhpQWJNWm5BV0xiNlNQM3pBdG1MYTY4UzZVaFZvQVcySG1yYUlwWEJPTU02QVFISkFhb3J2dzZfQ0REZGE?oc=5",
-     "time": "2026-11-04T22:03:20+00:00"
-    },
-    {
-     "title": "SOFI Stock Extends Rally As Earnings Beat And Guidance Reset Expectations",
-     "publisher": "Timothy Sykes",
-     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBjUE45ejZScllEYU1BdEdkdzdZUlRUSUdQbEVJQzl0Q2tuTUNiRFc0V3hyZkVCZE1wQVVWUU5nVDZwTE5JSWhWRWZSNnBrWEdybE51bnUzSm5TX3pXM0NGa3lVYTNzQk9qODNhZE5nVDI1SzVIelpHV2ROS3NFZw?oc=5",
-     "time": "2026-11-04T20:47:00+00:00"
-    },
-    {
-     "title": "Upstart Is Still Down 46% This Year: Did Today Just Mark the Bottom for UPST Stock?",
-     "publisher": "24/7 Wall St.",
-     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQUUtUVGU2em5SaXpvbE9sUlEydFM5ME1FVkZIeEJaSjlwaXRhdGwyc1NpT1pKdWVndGlxRWFmaTBpZmtTSmgxaTJJbDc5LVgyV0NUb2tKMHh6MkRaVmw3WFVuSXF1OWpiLWp1ekZkOTZvcm1MeTFDc1RhRW5wbFVzLUlYanRpV2lhdl91SnlSZjNmWFdKLXJ0UVFuZGRwUjJaZVNkM0tUWDRjMHdxZWRpZGNPakdBNjc1ZnE3SEh4WEFMUQ?oc=5",
-     "time": "2026-11-04T20:02:00+00:00"
-    },
-    {
-     "title": "SoFi Shares Jump 13% as Noto Sees No Slowdown in Borrowers",
-     "publisher": "Startup Fortune",
-     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPQldMTFdoeFpZbl92cFktZF82eDhUMzFTRlNWdXVTRmZUWlBpT3lJSGR3Z0NNRjE0YUZ6M29vR3IxNUVReTRxOUltSTFtbUpqSWxHQ1NTVkp4b1k3bFpHc3BNVlZuaGxaWkkyNTNYME9JclQxYzhWZlZpc1VZaktNWk81dG5xYkYwcDdyb2VB?oc=5",
-     "time": "2026-11-04T19:38:43+00:00"
-    }
-   ],
-   "brief": null
-  },
-  {
    "symbol": "ANET",
    "name": "Arista Networks",
    "list": "portfolio",
-   "price": 161.48,
+   "price": 161.15,
    "prev_close": 178.48,
-   "change_pct": -9.5,
+   "change_pct": -9.7,
    "trigger_change": -6.5,
-   "peak_change": -9.5,
+   "peak_change": -10.2,
    "first_seen": "2026-11-05T15:05:31+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 455.71,
-    "change_pct": -9.63
+    "price": 453.65,
+    "change_pct": -10.04
    },
    "chart": {
-    "ema8": -6.5,
-    "ema21": -11.1,
-    "sma50": -16.5,
-    "sma200": -2.7,
+    "ema8": -6.7,
+    "ema21": -11.2,
+    "sma50": -16.6,
+    "sma200": -2.9,
     "momentum": false
    },
    "headlines": [
@@ -546,26 +396,176 @@
    "brief": null
   },
   {
+   "symbol": "SOFI",
+   "name": "SoFi",
+   "list": "portfolio",
+   "price": 15.7,
+   "prev_close": 17.38,
+   "change_pct": -9.7,
+   "trigger_change": -6.7,
+   "peak_change": -10.8,
+   "first_seen": "2026-11-05T15:05:31+00:00",
+   "sector": {
+    "etf": "XLF",
+    "name": "Financials",
+    "price": 58.31,
+    "change_pct": -1.5
+   },
+   "chart": {
+    "ema8": -4.3,
+    "ema21": -2.3,
+    "sma50": -4.3,
+    "sma200": -10.8,
+    "momentum": true
+   },
+   "headlines": [
+    {
+     "title": "SoFi Technologies stock trades at 15.33 euros Thursday afternoon",
+     "publisher": "ad-hoc-news.de",
+     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPd1poeTcxejFUT2NGcUQ4bld0dHBVVVM0VVRPQ2hkc1lBRktvR3g4WENCc3poTXhxRXZzUngxYklKTV9vYV84cWtCNnlWX2F4MU1jX0xiRkVwSFEwXzdyOU9kNHZNY2ZWWElTZjhrTWNFMm8wVS04V1h4Uk5NMVVpc3N1WEJiUkNoenRKLVJQb3ZpazYzcjlYWTRhWmp1TTJNNHFNUENmME9fMm9IandnUHozdXRCU0h5UzE0V2NDTU9WOWJ2VkE?oc=5",
+     "time": "2026-11-05T13:26:26+00:00"
+    },
+    {
+     "title": "2 Fintech Stocks to Buy After They Raised Their 2026 Forecasts in October",
+     "publisher": "The Globe and Mail",
+     "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOTnNDLVNCMFRQSVhrVmtudG4wLUtLWXp1QlFkQ2g4ME51V3I4Y1FwdU1fdUxtTU5nUG9xckJMTFRhYUpYa3RIdHd1WjkydE1qV3N1N2lKMHdyX3hTUVVOR1BGOGFHYk9OLThPX2tZMXFYRkx4Q2xldGNyMGJEU2VoTU1mVmdkR0xuOVhvQmtaMTM3ZV9abjJxaHNBNWVBOVlIRWw4RVM3bmZUVm5mb3g3TTByNXdXYnNpZm10VXItamxXeEVhVlJobmRwM2F6OFFJMDVZMUpJZEdCejF4eUNSanNxRGxBT19Hb0p0TUNCcw?oc=5",
+     "time": "2026-11-05T10:59:17+00:00"
+    },
+    {
+     "title": "Vise Technologies Inc. Buys 126,164 Shares of SoFi Technologies, Inc. $SOFI",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPb1pKMFJTRlRPdDRna2F3LTVCd2t3WmNWemVVQ1R1TE5mOFc4cm55V2Z4SDZ4dmsyalQwaGpZOHBMdWp1U3F2WFRZNnhtS1hhQk0tR1ZOUW5DbzVCczl2X3ktLXAyZjEtaHJ6ZzB0VThKX09JQWxydEVieXAyLV9Gdk9iRHR4c0QzV3hIN2xlOFJjNUE3MFZkdGx5amIySDZObmwzQzNod2ZTZEJJMzgxaDA5VE00WlJxbno5ajZZQWdwT0tMY2R4UE1wQQ?oc=5",
+     "time": "2026-11-05T10:15:29+00:00"
+    },
+    {
+     "title": "A Look at SoFi Technologies Inc (SOFI) After 3.6% Gain -- GF Val",
+     "publisher": "GuruFocus",
+     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUnF4dXNwei1uMm4wWnpKUk1DMFNKLVZ1WTNVUTZHRGVNUXh0cDlCOUZSLXhTTEp6ekZoT19FQkdaNHRiVVJtTDU3S0tYN3B1MGlpTWhZMWFpckZoQnF2VEZSOXc2aXF2bk5nMmJwajFKU182azZFdXVvYjMteC04THZ0V0J5MlNlUzUwVko2NFVLMzk2b3VWTU1ocEs4alY5cjVpRk9GLU5nQkduVll6bmZfTHpXU2E2?oc=5",
+     "time": "2026-11-05T01:02:14+00:00"
+    },
+    {
+     "title": "SoFi Technologies (NASDAQ:SOFI) Stock Jumps 3.6% on Analyst Upgrade",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZW9kQ2RhWlp6Z2Z0ZWUtSEJzdGtGQmxoNzBWR21VYVgtUnBib25yTGVVV2tNNzBvWGRwN0dMWXE0VmtZMFFEcWdPUXd6WTdmel92cG8wTzlPUklNVmdHS04wVEc0Y29XNnhMU2Y1ck5qc0pFWWN1VTFINmtjUW1iUHVNTzhpQWJNWm5BV0xiNlNQM3pBdG1MYTY4UzZVaFZvQVcySG1yYUlwWEJPTU02QVFISkFhb3J2dzZfQ0REZGE?oc=5",
+     "time": "2026-11-04T22:03:20+00:00"
+    },
+    {
+     "title": "SOFI Stock Extends Rally As Earnings Beat And Guidance Reset Expectations",
+     "publisher": "Timothy Sykes",
+     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBjUE45ejZScllEYU1BdEdkdzdZUlRUSUdQbEVJQzl0Q2tuTUNiRFc0V3hyZkVCZE1wQVVWUU5nVDZwTE5JSWhWRWZSNnBrWEdybE51bnUzSm5TX3pXM0NGa3lVYTNzQk9qODNhZE5nVDI1SzVIelpHV2ROS3NFZw?oc=5",
+     "time": "2026-11-04T20:47:00+00:00"
+    },
+    {
+     "title": "Upstart Is Still Down 46% This Year: Did Today Just Mark the Bottom for UPST Stock?",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQUUtUVGU2em5SaXpvbE9sUlEydFM5ME1FVkZIeEJaSjlwaXRhdGwyc1NpT1pKdWVndGlxRWFmaTBpZmtTSmgxaTJJbDc5LVgyV0NUb2tKMHh6MkRaVmw3WFVuSXF1OWpiLWp1ekZkOTZvcm1MeTFDc1RhRW5wbFVzLUlYanRpV2lhdl91SnlSZjNmWFdKLXJ0UVFuZGRwUjJaZVNkM0tUWDRjMHdxZWRpZGNPakdBNjc1ZnE3SEh4WEFMUQ?oc=5",
+     "time": "2026-11-04T20:02:00+00:00"
+    },
+    {
+     "title": "SoFi Shares Jump 13% as Noto Sees No Slowdown in Borrowers",
+     "publisher": "Startup Fortune",
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPQldMTFdoeFpZbl92cFktZF82eDhUMzFTRlNWdXVTRmZUWlBpT3lJSGR3Z0NNRjE0YUZ6M29vR3IxNUVReTRxOUltSTFtbUpqSWxHQ1NTVkp4b1k3bFpHc3BNVlZuaGxaWkkyNTNYME9JclQxYzhWZlZpc1VZaktNWk81dG5xYkYwcDdyb2VB?oc=5",
+     "time": "2026-11-04T19:38:43+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
+   "symbol": "CRWD",
+   "name": "CrowdStrike",
+   "list": "portfolio",
+   "price": 217.8,
+   "prev_close": 241.0,
+   "change_pct": -9.6,
+   "trigger_change": -8.4,
+   "peak_change": -10.8,
+   "first_seen": "2026-11-05T15:05:31+00:00",
+   "sector": {
+    "etf": "IGV",
+    "name": "Software",
+    "price": 99.7,
+    "change_pct": -3.73
+   },
+   "chart": {
+    "ema8": -9.9,
+    "ema21": -11.9,
+    "sma50": -10.7,
+    "sma200": 28.3,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Too Late to Buy CrowdStrike Stock? Here's the 1 Thing to Watch.",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZXV6cVByNS0zMXBzNEFDcFZiejVtZU5Ma0pMdmFOeTdQUmFKaGNCd2JubTI4Zk9NdG5jaVkxcDFENkRZd1k1bU9DQ2xUZThQb3g3WFREWmxNVV9kaC0taU9TbkxMUkhfYXc1bkc3SHJsVGZ0bElqbmNYYXBDa1JfTUJ6eXpJRVAzb3lrZHU0MlgyWWl5RVNCTVpzUU8?oc=5",
+     "time": "2026-11-05T12:30:00+00:00"
+    },
+    {
+     "title": "Can CrowdStrike Stock Rally 50% After This Dip?",
+     "publisher": "Trefis",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTFNVbmFUa2tKLUNfMVdGUDhoN1R6Z25SX2lWanRnR1BTaFhBZW5VeGVVYUNpOHU4dmJFOEZmeGRnUVhlWnVxdWhVT3FOMXVVbFpRTnFvQnAxSGloZGhXUzBsZGZmRUxXWmZxSnBGaXo1X1FRMEZoR2paNkpnUHQ1OEVxMW1oYnplU2RRdUUwbkk4dDBCNVJWWDZtNUJNbFozYlFFRkFDaXVsZw?oc=5",
+     "time": "2026-11-05T09:41:39+00:00"
+    },
+    {
+     "title": "CrowdStrike (CRWD) President and CEO George Kurtz Sells 45,395 S",
+     "publisher": "GuruFocus",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQaXpZYW5xaEZtV1lWWXlxZHFoMUI1alR0Rl9WdGtTWU5QMnhXc0tMX3k0Vk1SUm91eWNxTHBUS2x4UnpjR1FoWm5hSUU3NHAzQXNrSFMtYXltQ0xqSXN3aWF0a0dJRkQ1aHVTMkpwLXdlOExFbWlISlJOZkNuTmY5WE0taVRFM1FTR3FNSjRVNXpfVDVDdkt4MGM5SDZpNkVyUUVUMlJvZUc?oc=5",
+     "time": "2026-11-05T06:50:37+00:00"
+    },
+    {
+     "title": "CrowdStrike(CRWD.US) Officer Sells US$11.99 Million in Common Stock",
+     "publisher": "Moomoo",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPRnRCOHgtOGJMZHU2RWZ5TUFHQ3lab2RySkJ6cW4yakJ5d21SMlFUU08zMnhMVEJZQzhCTl9UQmJZdnFoQTU0Z1pZOEZSNTRHUW5YQ0RqckQ2RDdXTWllTjhLU191TTR3UEx4RTVIWlNmZDY3d2d1Y2w1N0R2LXdSeUpoY25nNnJJQ1BTSkRaYXlUS1FSbWdKaENzYWZhTEk3QmxQWGpB?oc=5",
+     "time": "2026-11-05T02:04:19+00:00"
+    },
+    {
+     "title": "To cover vesting taxes, CrowdStrike (CRWD) CFO sells 7,710 shares.",
+     "publisher": "Stock Titan",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPZ0N0OEhSakhVNnRIVWtLRHBQT3RsbTU1Z3ZyVHRaWEdISV84VzVvd2MxcEZFU05IdnhWYzRNcmVIMldPSTcyTXJoVko5TFpiVU9WeUdpcVpNVlNJQXBJVXpkMTBCRVZzb2tQSlNfUDlRNkM0dTVjRl9peXh0N3E0TlkzNlRkejROSFEwY1ZuVVVmUUhpc1NaWFZNOFd6RWlDblpiN2RzNWZaSWs1Y0VZZmItOGUyaWVLaUN3?oc=5",
+     "time": "2026-11-05T01:00:00+00:00"
+    },
+    {
+     "title": "14,000 CrowdStrike (CRWD) shares were sold under a trading plan adopted June 25, 2026.",
+     "publisher": "Stock Titan",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxORUt5dnlKbURqZEJQdk1RUElmOWNtM1JOZkpjZHRRSUZqLXNkakRFSFp0NmROUV84dDN5S3UycjZsNlpmOWFhY3l2S3o1Z0pOTjh4eWloRkdfVzJoS0FQdHBhZEcwbmR0Q0RYcE5WY1daaE5YbnVnX09JYmZpclMzcmhVcE15X2lhb3Nwc252MTlmSEg1aGhBRndTOUNJMTJ0YURLTXpKbnliUWpiSUdjUjNTdWxBb3F2dUhv?oc=5",
+     "time": "2026-11-05T01:00:00+00:00"
+    },
+    {
+     "title": "CrowdStrike Stock Price Forecast \u2014 CRWD ($243.43) Dips as Software Selloff Meets AI Kill Switch Launch and $495M in Deals \u2014 $275 Target",
+     "publisher": "TradingNEWS",
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNTzhMUTV3TlZmOTRJMXhOSmMtWmlRNVRvWjU4MWxOR1ZGYWNUcFRyYU5hbUZCd1ZZV0lQbUl4bFFPR1Y1VmJSZTFwdTdkTEphallKN0tTaHlXWFR6X1NJV05rWnNYMXU5Qk5hRzZyN0drblpYM3F5NUo1dllLS2U3LUFLRVNUWWk1TU5sZWxsTFhQWEgyUWZJ?oc=5",
+     "time": "2026-11-04T21:35:21+00:00"
+    },
+    {
+     "title": "Organizations in Saudi Arabia can keep cybersecurity data local with CrowdStrike's new cloud",
+     "publisher": "Stock Titan",
+     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNQ09ZUXBQQjkwSnlTLWVvdW0xT2VpOUlWMTNOMnRjQjlWdlN5dGhkeUd3ektXQWxMZ1BYQkdLcVlTZGRIYjBWMEtYVVZDWElpZVZrR0JfRURrdG5ZdVh1MmRyalJZQnllam9DcG5hMG96U2FSZVFER2xrbnNja1Bzc3JkNlR3X2dYbFU2eDF4QXpYbEJiVjZGTlZVMThBYi1nbXRpbG50NEd2WjBaOFl3ZkozM05FcU15b1RYMQ?oc=5",
+     "time": "2026-11-04T17:28:00+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
    "symbol": "AVGO",
    "name": "Broadcom",
    "list": "portfolio",
-   "price": 298.81,
+   "price": 295.51,
    "prev_close": 325.48,
-   "change_pct": -8.2,
+   "change_pct": -9.2,
    "trigger_change": -5.8,
-   "peak_change": -8.2,
+   "peak_change": -9.2,
    "first_seen": "2026-11-05T15:05:31+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 455.71,
-    "change_pct": -9.63
+    "price": 453.65,
+    "change_pct": -10.04
    },
    "chart": {
-    "ema8": -7.9,
-    "ema21": -10.8,
-    "sma50": -14.5,
-    "sma200": -18.6,
+    "ema8": -8.7,
+    "ema21": -11.7,
+    "sma50": -15.5,
+    "sma200": -19.5,
     "momentum": false
    },
    "headlines": [
@@ -624,23 +624,23 @@
    "symbol": "NVDA",
    "name": "Nvidia",
    "list": "portfolio",
-   "price": 184.32,
+   "price": 183.52,
    "prev_close": 200.13,
-   "change_pct": -7.9,
+   "change_pct": -8.3,
    "trigger_change": -5.7,
-   "peak_change": -7.9,
+   "peak_change": -8.3,
    "first_seen": "2026-11-05T15:05:31+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 455.71,
-    "change_pct": -9.63
+    "price": 453.65,
+    "change_pct": -10.04
    },
    "chart": {
-    "ema8": -9.0,
-    "ema21": -13.0,
-    "sma50": -16.5,
-    "sma200": -9.9,
+    "ema8": -9.3,
+    "ema21": -13.3,
+    "sma50": -16.8,
+    "sma200": -10.3,
     "momentum": false
    },
    "headlines": [
@@ -699,23 +699,23 @@
    "symbol": "META",
    "name": "Meta",
    "list": "portfolio",
-   "price": 588.91,
+   "price": 593.97,
    "prev_close": 630.0,
-   "change_pct": -6.5,
+   "change_pct": -5.7,
    "trigger_change": -4.7,
-   "peak_change": -6.5,
+   "peak_change": -7.1,
    "first_seen": "2026-11-05T15:10:30+00:00",
    "sector": {
     "etf": "XLC",
     "name": "Communication",
-    "price": 103.71,
-    "change_pct": -1.19
+    "price": 104.08,
+    "change_pct": -0.84
    },
    "chart": {
-    "ema8": -5.1,
-    "ema21": -9.6,
-    "sma50": -12.6,
-    "sma200": -6.8,
+    "ema8": -4.4,
+    "ema21": -8.9,
+    "sma50": -11.9,
+    "sma200": -6.0,
     "momentum": false
    },
    "headlines": [
@@ -774,18 +774,18 @@
    "symbol": "BTC-USD",
    "name": "Bitcoin",
    "list": "watchlist",
-   "price": 76175.7,
+   "price": 75920.0,
    "prev_close": 80440.8,
-   "change_pct": -5.3,
+   "change_pct": -5.6,
    "trigger_change": -4.4,
-   "peak_change": -5.3,
+   "peak_change": -6.0,
    "first_seen": "2026-11-05T15:10:30+00:00",
    "sector": null,
    "chart": {
-    "ema8": -2.5,
-    "ema21": -4.3,
-    "sma50": -7.1,
-    "sma200": 4.1,
+    "ema8": -2.8,
+    "ema21": -4.6,
+    "sma50": -7.4,
+    "sma200": 3.7,
     "momentum": false
    },
    "headlines": [
@@ -841,83 +841,26 @@
    "brief": null
   },
   {
-   "symbol": "NVO",
-   "name": "Novo Nordisk (ADR)",
-   "list": "portfolio",
-   "price": 40.43,
-   "prev_close": 42.18,
-   "change_pct": -4.1,
-   "trigger_change": -3.4,
-   "peak_change": -4.1,
-   "first_seen": "2026-11-05T15:15:33+00:00",
-   "sector": {
-    "etf": "XLV",
-    "name": "Health care",
-    "price": 190.22,
-    "change_pct": 0.3
-   },
-   "chart": {
-    "ema8": 0.5,
-    "ema21": 1.8,
-    "sma50": -0.7,
-    "sma200": -7.7,
-    "momentum": true
-   },
-   "headlines": [
-    {
-     "title": "Novo Nordisk A/S (NVO) Stock Price, News, Quote & History",
-     "publisher": "Yahoo! Finance Canada",
-     "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBBLTdiVW8tdTZVMXc5Mm1CRDFVSlhCVEozYlV0VTdENHZyYkFCejRqR1NnWUZib0licm1uRTdoTFFPWlRuMW14OEpYY25reTlO?oc=5",
-     "time": "2026-11-05T02:44:17+00:00"
-    },
-    {
-     "title": "NVO Q3 Earnings Beat Estimates on Wegovy Pill Growth, Outlook Raised",
-     "publisher": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZm45MnZTQVRnMU5wWGxvRnVRVWp4NEd0MHV4Y1dTWUVNRkF6QWlTNlpId0c3bGpYOWp5aTl6aTZUX1F6ZHpUdHExcHYzOUQxcWFtTnZtdUhYN1ozNG1SVVZhWTd4b1pzbVJ5U19WcGVtQXpoTEQyNkdOWE5oWmVqSjVPS1lueWVZMHFnMFdTSXdhczRxanFHN2k0azNxX3I2Q2YyTzMwQXltbTFadC1mY1BZb0xYSDdCSV9Ob21Bb3E?oc=5",
-     "time": "2026-11-04T13:35:00+00:00"
-    },
-    {
-     "title": "Earnings call transcript: Novo Nordisk rises on Q3 2026 growth outlook",
-     "publisher": "Investing.com UK",
-     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQS3dBdE92dHMyS21xR0o3djdESzJRX3ZTU0g5bEFDalktY1p5YkJOUkI4S1hMSV9wX3lqVlNrVEZMdXA2MmpuZ1VhMEpQSjBCMVRsVlYtLUN1bXVEVlpHRndsRllxWko3Ql9PUnd2VFcyMEdkMi1QMlVnR2p6QmE4SFdyNFNWOV90WXk4dVRtMjVXc3FsQ3VjLU1WTEExRUdhWFFpUEd2Mlk2dW1xQ3FuclJTZTZkT1BucmlHSFk3U2VoZER6dHJ5M0tn?oc=5",
-     "time": "2026-11-04T13:18:00+00:00"
-    },
-    {
-     "title": "Novo Nordisk ADR earnings beat by $0.07, revenue topped estimates",
-     "publisher": "Investing.com Canada",
-     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQdWlwaWQzdzFVamZjOXJ6clAxRGNINU9jb20zTDNJLTNLS1dGejliY1psYVM1b1FBUVphNWVXXzlFdXc0RWExMnl0cFV1U0V1RnF0VFdtaUVSbXlkZXhPVHRJUUhBRjIzZER4T3lQcDREOHRCRWllQWxBY3ZMdnotMHBad2N3TUx2WjVHamw1S2lYQ1kyX0FUTkJQQmtDd204a1JHY01CdFBfVE0xeDFlOGtMWWpSNEgtV2c?oc=5",
-     "time": "2026-11-04T09:06:27+00:00"
-    },
-    {
-     "title": "Novo Nordisk ADR earnings missed by $3.74, revenue fell short of estimates",
-     "publisher": "Investing.com",
-     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNOHFKQnJsWnZFX2JOV0h2OVgxWkFwQUJERk8yNHd3bjZUMWhSTF9HREphNnEtZHBBOFkyOENRcGFGeml5ZXRGa0l5azlGMnFhRVYxSEVBaFZkODVGYnkxMnN2dkN1dUVKcW9VbzNIbGptZ2gyNXpGTDI5Unp0bXM0UjBtWUNFS0MyUHZqcTY2VnNmVnQxSG1iM1RxcG0yQTdLMV80el9ZanZHcTFCT0sxY3ZENUo2dWcyUFVB?oc=5",
-     "time": "2026-11-04T08:04:17+00:00"
-    }
-   ],
-   "brief": null
-  },
-  {
    "symbol": "AMZN",
    "name": "Amazon",
    "list": "portfolio",
-   "price": 255.93,
+   "price": 254.65,
    "prev_close": 266.03,
-   "change_pct": -3.8,
+   "change_pct": -4.3,
    "trigger_change": -3.4,
-   "peak_change": -3.8,
+   "peak_change": -4.5,
    "first_seen": "2026-11-05T15:25:37+00:00",
    "sector": {
     "etf": "XLY",
     "name": "Consumer discr.",
-    "price": 117.68,
-    "change_pct": -3.8
+    "price": 117.66,
+    "change_pct": -3.82
    },
    "chart": {
-    "ema8": 1.0,
-    "ema21": 1.1,
-    "sma50": 0.8,
-    "sma200": 5.0,
+    "ema8": 0.6,
+    "ema21": 0.6,
+    "sma50": 0.3,
+    "sma200": 4.5,
     "momentum": true
    },
    "headlines": [
@@ -973,26 +916,83 @@
    "brief": null
   },
   {
+   "symbol": "NVO",
+   "name": "Novo Nordisk (ADR)",
+   "list": "portfolio",
+   "price": 40.57,
+   "prev_close": 42.18,
+   "change_pct": -3.8,
+   "trigger_change": -3.4,
+   "peak_change": -4.1,
+   "first_seen": "2026-11-05T15:15:33+00:00",
+   "sector": {
+    "etf": "XLV",
+    "name": "Health care",
+    "price": 190.21,
+    "change_pct": 0.29
+   },
+   "chart": {
+    "ema8": 0.8,
+    "ema21": 2.2,
+    "sma50": -0.3,
+    "sma200": -7.4,
+    "momentum": true
+   },
+   "headlines": [
+    {
+     "title": "Novo Nordisk A/S (NVO) Stock Price, News, Quote & History",
+     "publisher": "Yahoo! Finance Canada",
+     "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBBLTdiVW8tdTZVMXc5Mm1CRDFVSlhCVEozYlV0VTdENHZyYkFCejRqR1NnWUZib0licm1uRTdoTFFPWlRuMW14OEpYY25reTlO?oc=5",
+     "time": "2026-11-05T02:44:17+00:00"
+    },
+    {
+     "title": "NVO Q3 Earnings Beat Estimates on Wegovy Pill Growth, Outlook Raised",
+     "publisher": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZm45MnZTQVRnMU5wWGxvRnVRVWp4NEd0MHV4Y1dTWUVNRkF6QWlTNlpId0c3bGpYOWp5aTl6aTZUX1F6ZHpUdHExcHYzOUQxcWFtTnZtdUhYN1ozNG1SVVZhWTd4b1pzbVJ5U19WcGVtQXpoTEQyNkdOWE5oWmVqSjVPS1lueWVZMHFnMFdTSXdhczRxanFHN2k0azNxX3I2Q2YyTzMwQXltbTFadC1mY1BZb0xYSDdCSV9Ob21Bb3E?oc=5",
+     "time": "2026-11-04T13:35:00+00:00"
+    },
+    {
+     "title": "Earnings call transcript: Novo Nordisk rises on Q3 2026 growth outlook",
+     "publisher": "Investing.com UK",
+     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQS3dBdE92dHMyS21xR0o3djdESzJRX3ZTU0g5bEFDalktY1p5YkJOUkI4S1hMSV9wX3lqVlNrVEZMdXA2MmpuZ1VhMEpQSjBCMVRsVlYtLUN1bXVEVlpHRndsRllxWko3Ql9PUnd2VFcyMEdkMi1QMlVnR2p6QmE4SFdyNFNWOV90WXk4dVRtMjVXc3FsQ3VjLU1WTEExRUdhWFFpUEd2Mlk2dW1xQ3FuclJTZTZkT1BucmlHSFk3U2VoZER6dHJ5M0tn?oc=5",
+     "time": "2026-11-04T13:18:00+00:00"
+    },
+    {
+     "title": "Novo Nordisk ADR earnings beat by $0.07, revenue topped estimates",
+     "publisher": "Investing.com Canada",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQdWlwaWQzdzFVamZjOXJ6clAxRGNINU9jb20zTDNJLTNLS1dGejliY1psYVM1b1FBUVphNWVXXzlFdXc0RWExMnl0cFV1U0V1RnF0VFdtaUVSbXlkZXhPVHRJUUhBRjIzZER4T3lQcDREOHRCRWllQWxBY3ZMdnotMHBad2N3TUx2WjVHamw1S2lYQ1kyX0FUTkJQQmtDd204a1JHY01CdFBfVE0xeDFlOGtMWWpSNEgtV2c?oc=5",
+     "time": "2026-11-04T09:06:27+00:00"
+    },
+    {
+     "title": "Novo Nordisk ADR earnings missed by $3.74, revenue fell short of estimates",
+     "publisher": "Investing.com",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNOHFKQnJsWnZFX2JOV0h2OVgxWkFwQUJERk8yNHd3bjZUMWhSTF9HREphNnEtZHBBOFkyOENRcGFGeml5ZXRGa0l5azlGMnFhRVYxSEVBaFZkODVGYnkxMnN2dkN1dUVKcW9VbzNIbGptZ2gyNXpGTDI5Unp0bXM0UjBtWUNFS0MyUHZqcTY2VnNmVnQxSG1iM1RxcG0yQTdLMV80el9ZanZHcTFCT0sxY3ZENUo2dWcyUFVB?oc=5",
+     "time": "2026-11-04T08:04:17+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
    "symbol": "NOW",
    "name": "ServiceNow",
    "list": "portfolio",
-   "price": 104.8,
+   "price": 105.12,
    "prev_close": 108.81,
-   "change_pct": -3.7,
+   "change_pct": -3.4,
    "trigger_change": -3.5,
    "peak_change": -4.1,
    "first_seen": "2026-11-05T15:05:31+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 99.66,
-    "change_pct": -3.77
+    "price": 99.7,
+    "change_pct": -3.73
    },
    "chart": {
-    "ema8": -10.5,
-    "ema21": -19.1,
-    "sma50": -23.5,
-    "sma200": -8.5,
+    "ema8": -10.2,
+    "ema21": -18.8,
+    "sma50": -23.3,
+    "sma200": -8.3,
     "momentum": false
    },
    "headlines": [
@@ -1043,6 +1043,81 @@
      "publisher": "Simply Wall St",
      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPZ21kZmFfMnB2VWtoWmYwbFgwOXpROFdsdy10bHhXV3k5MXdpd1RCbWp2Nm1sekY5ZkdmcXFtS01TUTJXUGlsUzQ0NXlaOHVoeXpLdlUza2pfcDdfck9ESmJfdmUtMG5IUmFRSnJidkRDbmtHOWJxZVNLaDBfcXh6anJqNFRLRTF4ZHQ0Y2MydzFsYXMwTm1GS2VFRkxQQUJzYnVMX3pCd3dIWmdHZjdFY1Fya3FHVUM5UVJDRHJrWmFYQWdq0gHKAUFVX3lxTE9rcjFPZExzcmIxWmE3MDNCU1NaajNSTGJRbGRyc0t3aHp5aHZmV01pbUJnTUlaSE9wN3lOdkdPUC1DMWV3X1RPZmxpTFh6Z2NtLU9STVVPUTZUUUo2WEpIcDZsWThlZUxvSDMyUWhmZzA0cXFqMUdVTERtU1U4dW1IdlJtVEM2YWFMeEgteVBIdHRHNnhwOHZTRDA5Z3lTTDBVVmpBdjRpWl9KdzhJSDlxa2h0VEl5R0JfbW1wbGVScFlCbnlhVDJGVnc?oc=5",
      "time": "2026-11-05T01:31:36+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
+   "symbol": "AXON",
+   "name": "Axon",
+   "list": "watchlist",
+   "price": 409.97,
+   "prev_close": 424.18,
+   "change_pct": -3.3,
+   "trigger_change": -3.3,
+   "peak_change": -3.3,
+   "first_seen": "2026-11-05T15:56:06+00:00",
+   "sector": {
+    "etf": "XLI",
+    "name": "Industrials",
+    "price": 165.08,
+    "change_pct": -2.58
+   },
+   "chart": {
+    "ema8": -2.3,
+    "ema21": -2.8,
+    "sma50": -8.5,
+    "sma200": -13.6,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Cybersecurity Names Won\u2019t Stay Down for Long: 8 Key Items Shaping the Stock Market Thursday",
+     "publisher": "RealMoney Pro",
+     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQMndFM1BPNnUwV1hGUE1uVzcyYlBjTjRRenhxT3F6UkpGRXIyRHBVcjI0WkZmdXQwdFVZZFdhbjlkM2F2cEltZGRhVUxFSXY0bXJQZGVGQ1BPWXZKei05SUx6cHVjdTQtdzJOSlptc3h2UDlrYXlNOFRfTmp6Wm93N0RkS0F3RjNfbWo1Rno5NGZ0bFlQd2lpbl9zbjdHZVVuc2xxVC1vaFpPclkyb29OZ1ZLYTFiUHVPa0U0LWVvYmRhUHM?oc=5",
+     "time": "2026-11-05T13:42:00+00:00"
+    },
+    {
+     "title": "Axon Enterprise (NASDAQ:AXON) Downgraded by Zacks Research to \"Hold\"",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNazA0T1JONTBENmNTMEpnQ0NoRXd6QWl3dVlhMEJuQjJkNjdCVEotQVRwODNhRGZtRmcyOEJkNGItbVZtYXRIUmNsdWZuLS0zeVk2bTlsakVtRWFEdHNweF83MWNOLTZJdjRKenBybmpCc2RDN1c1U3RCeEdKc1pTNDRWbFdOeE9QVWpDTF9XZ2toVUU4eHBTaHZfMHdlMFdlUTFOUVZPSDhPZGk3NVBWZEloZGkwYzZXX1NxSEhjeTJNX3Zu?oc=5",
+     "time": "2026-11-05T11:55:41+00:00"
+    },
+    {
+     "title": "Axon Enterprise Q3 2026 Earnings Date and Estimates",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNN2hKWU1BczA3VWRmMzNaVDZSX3phRGZaMnllTk40U2lLQ2lsZmVRWUhjcU5XaHZaaUNldk4zZE1sa19XSjBxQ3VUMndyZDZlM1BYdzR6WkpwTmhEaklnVFBEcUJiTUlWUi1jVlU0WGxxUFJWOVV5TkR4WXVYR1d0R0xySm9iRjdj?oc=5",
+     "time": "2026-11-05T09:59:12+00:00"
+    },
+    {
+     "title": "Stocks expected to have increasing option volume: COP SONY PH CNQ SO DUK NET EOG SPG CI TRGP CAH SRE NTRA BDX AXON IRM MTD PBA",
+     "publisher": "StreetInsider",
+     "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOVG1KQnZpanZWaWwyVGJLbWt4Q2lHY2pZTEp1QjlJNW81ZzFuOHVPWWdpSklERkZISnZ1NkxIeWNoclVjWG5pbWFDVHhBa09GRDMwTHU2anVnS0s4RFhJMm5KREtHelAzVXhWWmtTNlZqOEtHOE93d3UyNlVwa0NoWVpDNGtYb2hjc0dFeFBrUVZ2UlV2OUJMUG5PSlgycnJJaHB0d1YzZUNLeURfT1gxR0FBQ3kwUFhKX2p4LWFtbHFLYzdJeFgxNGFiSkdwWnNZZ21oZlNHNUlCcExEX3lHQ0phMloyY2dPS1FBOW5lTl9mdDNWT1lHZ1IwcC01NzlNX2hvenJCYjBMMElE?oc=5",
+     "time": "2026-11-05T09:40:41+00:00"
+    },
+    {
+     "title": "Axon Enterprise (AXON) Set to Report Q3 Earnings Amid Strong Und",
+     "publisher": "GuruFocus",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPLVZfdllISEdhTW11Rk9fb2hZRmtlRUl3TlpjbF9UQk9EdjROV0dIWkdORXlHNzBxdUxmaXNwU3JBSWJuNWxDMkpSeW95emxhRXlyYkx6UUNHbHZfZ3NoOVFVTG5YUGdZVElfSS1DekdiR0VaNUxZMGFPVjVaWnBIUElnN0h1TzhjV2FUWGdqOXl2WGU2SHd2XzN3REh6Y19ZY1BmZ0hBMHp2S2lKdVZ3akl2TW8tVzRRb1Bv?oc=5",
+     "time": "2026-11-04T23:02:22+00:00"
+    },
+    {
+     "title": "Axon Enterprise Inc. stock outperforms competitors on strong trading day",
+     "publisher": "MarketWatch",
+     "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxORWxKWnl0R0cwQ3ZoNTZiSG9idzBTempUS2xYWS1Yc082bXZhb09OdWhnaWZWRDBUbWIxYktyYlpfdFA2aG5RU1lJbmtjWFdoamlwTzZfcHd3S2hCVnJDR1FEQ2xRY1lLYmg5aDVtZ29HZm5qSVRDSFJRVWpzN2YzRDlTdG1WRVB1YUU1STFEa092a2kySzlUbHVERHpPUDZFcFdjNGZBa0Z0YUN1M01vbzA2LWhSM2RPdGlIek1LSUNHOUl1UVhHR3VWb1J2U3BPYmk2d3ZtMkJuUHBobVhpZGFvUQ?oc=5",
+     "time": "2026-11-04T21:55:00+00:00"
+    },
+    {
+     "title": "Axon Trades on Its 2027 Growth. Here\u2019s What the November 5 Report Has to Prove",
+     "publisher": "TIKR.com",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQNGF3TVBGR3JKbGdZbUZldExVdWZuWmRLNFhTOHBqVDJsZmZYWFpPRjRyRG91R3cwTWxKUEpQa0wxZ3ZKWHRkSVZKRlhkZ2ZKQUZsQVpjZ2o3Z2RIUk5nN1k0dEN2SjhuTUQ1bG5IdWM3eGpGMGFPTE5GLS05b1YwMFJia0FaS2JWZGV3Mk9hdl9sOS15NzdfT1ZnQVNpQ3Y2RTdCXw?oc=5",
+     "time": "2026-11-04T20:48:50+00:00"
+    },
+    {
+     "title": "Should Axon Enterprise Stock be in Your Portfolio Pre-Q3 Earnings?",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNb0JLM3dUVU9CUURRc2RSYnBjU2R2WEtyVEFxcXM2Q2c1NUlURGtaR2I2MjNDbmxUVlg3N2JCY2h6WkQ1V0dhaEtIZkNmMmpSZkZvS0llOTlOaXJRMDhCNGdjNzJpeTEzSVUzTmZwcUJrcnZuZE9rSmNVSFRCOVd6Wkd2N0tVWGc5YzhMQTBTcXVMcFp3VlNnT3RBdEh2cXZlalE?oc=5",
+     "time": "2026-11-04T15:21:00+00:00"
     }
    ],
    "brief": null
