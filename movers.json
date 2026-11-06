@@ -1,22 +1,22 @@
 {
  "date": "2026-11-06",
  "threshold": 3.0,
- "updated": "2026-11-06T16:38:17+00:00",
+ "updated": "2026-11-06T16:43:17+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 740.39,
-   "change_pct": 1.01
+   "price": 739.87,
+   "change_pct": 0.94
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 661.07,
-   "change_pct": 2.17
+   "price": 660.27,
+   "change_pct": 2.04
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 81.94,
-   "change_pct": 0.01
+   "price": 82.05,
+   "change_pct": 0.14
   }
  },
  "movers": [
@@ -24,23 +24,23 @@
    "symbol": "AXON",
    "name": "Axon",
    "list": "watchlist",
-   "price": 315.42,
+   "price": 314.97,
    "prev_close": 382.56,
-   "change_pct": -17.5,
+   "change_pct": -17.7,
    "trigger_change": -15.9,
    "peak_change": -18.4,
    "first_seen": "2026-11-06T14:58:21+00:00",
    "sector": {
     "etf": "XLI",
     "name": "Industrials",
-    "price": 163.3,
-    "change_pct": 0.51
+    "price": 163.16,
+    "change_pct": 0.42
    },
    "chart": {
-    "ema8": -19.5,
-    "ema21": -23.1,
-    "sma50": -28.6,
-    "sma200": -33.3,
+    "ema8": -19.6,
+    "ema21": -23.2,
+    "sma50": -28.7,
+    "sma200": -33.4,
     "momentum": false
    },
    "headlines": [
@@ -96,101 +96,26 @@
    "brief": "2026-11-06-AXON"
   },
   {
-   "symbol": "APP",
-   "name": "AppLovin",
-   "list": "portfolio",
-   "price": 385.1,
-   "prev_close": 356.1,
-   "change_pct": 8.1,
-   "trigger_change": 4.0,
-   "peak_change": 8.3,
-   "first_seen": "2026-11-06T14:58:21+00:00",
-   "sector": {
-    "etf": "IGV",
-    "name": "Software",
-    "price": 99.68,
-    "change_pct": 0.68
-   },
-   "chart": {
-    "ema8": 28.2,
-    "ema21": 36.1,
-    "sma50": 31.3,
-    "sma200": -5.9,
-    "momentum": true
-   },
-   "headlines": [
-    {
-     "title": "APP Stock Jumps 31% to $356.10 After AppLovin Q3 Earnings Beat",
-     "publisher": "FXLeaders",
-     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOb094a2FMeUMyTmZ6RV9BUXROSDY1Y1pVR3BFZmJTNFptYlRpc1NZZE9XNkdHR2RfaTRMYUNXYnRUbnVCaTM3cWtMSVQ2bFpfdlA1YV80bmFrVkl4NTdjTHhqYlFHQ3I2S0w1SzdsM1BXM2Z4NmhXVHBFUzVTT0lzd0VWSWF2M2luanpsVExKWVBxU01rbG9oYmhTamR2ZTFFVDczR3pB?oc=5",
-     "time": "2026-11-06T14:10:40+00:00"
-    },
-    {
-     "title": "AppLovin Surges on Strong Q3 Results, Upbeat Guidance: ETFs in Focus",
-     "publisher": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPem1GV29RMWNNSXdOQ0psTmhjc1JlVk9BY2lqelRMdkctQ3hYa2kybWl6X0EyMGYyYmNEdUZRTk12c0Y5NGstWFFaM1JBZndTSU5mZl9IclJmTW5NRFZnVTVkZ1FCUkxPNXYtc2JHYng5bUV1NVl3UUhubXJZcGtBTmNvWHZTNTlRTU5wMUlIZ1d3WlNRazlLcUt4dlV5RHRmeTZDRjhaQWNpTVAwTFgwSk9aWkpOZy1QTGpyRzVqQQ?oc=5",
-     "time": "2026-11-06T13:00:00+00:00"
-    },
-    {
-     "title": "AppLovin (APP) Stock: $356.10, Up 31.04% Nov 5",
-     "publisher": "JournalArta",
-     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOUVl4NHJiWUtCZ3MxNngyWXFhdDgyZl9LMHBQU1ZtVE9RcF91dWNQcHRfYTYzMFdpdkNCSnhwd3ZWSEo3c2RQbHM1dTlhVEhkNG5Hb3Ywb1RxalI4UG9RcGdiSk5IdWdUejlndmdRTkNYa3BhaEJIUEJGeThHQXhKVDJ6NG5LMFpkeFpYeC1Mb3Uxdjh6SnFSbUtMeUs?oc=5",
-     "time": "2026-11-06T11:09:18+00:00"
-    },
-    {
-     "title": "AppLovin Corporation (APP) Stock Price, News, Quote & History",
-     "publisher": "Yahoo! Finance Canada",
-     "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1fUE8zMTBFRFRnQW1RSDJjM0p4R0Ixdzc5MDBDWnlqTjNpekJHU21nLUFHSWliMGxtR2hfajFEZ2hITHVkSGp5QVRrQlppWFYy?oc=5",
-     "time": "2026-11-06T10:48:29+00:00"
-    },
-    {
-     "title": "Applovin Corporation (APP) Stock Price Today: $348.37",
-     "publisher": "Pluang",
-     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5NdUlrdlJEb2pQcC10Z1h2ZWdmcXlDV0lkNzZaSjZPZXRJZWFERW5YVVRoUHc2bXhkS21WcWY2ckg5Y0RzWWdHR3FsR0s3dGxYMmhyZHN3ZzI?oc=5",
-     "time": "2026-11-06T09:29:20+00:00"
-    },
-    {
-     "title": "AppLovin Just Posted Record Cash Flow. The Stock Jumped 31%.",
-     "publisher": "Money Morning",
-     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQMFhVbVFsV2NMZjRDbHVWSThFWUxHWXRiQjF1TjRseUV4aHNQcG5ER0JDbWVKU0E0OWhoS2xoTjZGZVFSb2dLdXMxOTJxYkNWVHVLTm5XRUN5aS00WWhlN2l4bTBua214V29ZU2x1UFpJbUN3M3MzMVQ0RC1LM0p5czY0cEJBT3lUY1IxQ1lqNEk?oc=5",
-     "time": "2026-11-06T05:03:57+00:00"
-    },
-    {
-     "title": "Analysts rethink AppLovin stock price targets after earnings",
-     "publisher": "TheStreet",
-     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNYXlIZFByQVFyeWtEcXVXMGcyRURJRHRSV2NqTl9wc3JxOFVTc3Z1d0U5NDJfZmNGTFljTmJTb29PTUJWemRqTm1nM1d1WW1SRVB6LVZNWjRCdW9WbEYxdFpKNXRuRjFFN2daREV5Q1BoOER2MXgwTldldWRpcWtoQWs3X2Rwekt0QnVOWUFlNkwyc19USjVUX3lwTTZYVF9NbzJ6dVZ3?oc=5",
-     "time": "2026-11-06T04:27:00+00:00"
-    },
-    {
-     "title": "AppLovin (APP) Stock Price Jumps On Q3 Earnings Margin Surge",
-     "publisher": "Simply Wall St",
-     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxORno2ODExbXRPNHJMNktLend6Q1ZpZV9lVEphRm5mMHJWcmExQkhaRkZIVVU2RVRqbE9LZTZ1bVBPeFZiV1NDQnk1VFFBTzEyVVIwNlVfWUFNTVJUMVVlQl9kNEdVR3lHa2JWaWtKV0FYN2xERHlvNGZ5OXYwY2taNXhEVE9rNmhqcC1YYnlUMzcwbTZOTTJ4S2tIQktISXhvbUdKaHNMejVfUnpXc1FZeTNZdkR0MXNuNHJ4V3ZB0gHDAUFVX3lxTFBKYXU4eWdQVTJpYzJqZ3BQcnFxY1U5OTdxVGJTSHV3dnliMVpGZjhTUmJSbXZtVnlKazBuTmo4YTZvQjNQZFpTanc1VU1rTWdBT015UElwcGlxdTd4U2R6Q2hVbWVDWVN1Q1ZFbWQ2VnJleXE1R2pBNlpWdHItSmUxMHQ5U2RSTWhYNVN6REgtZ3NJeFFrQ1NQQnk0TFFnaWdsSjEzMEgxUE1IRUFtV0lveWdDLUpzNmc5YWlVcHF0dVQ5Zw?oc=5",
-     "time": "2026-11-06T00:36:20+00:00"
-    }
-   ],
-   "brief": "2026-11-06-APP"
-  },
-  {
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 129.79,
+   "price": 129.54,
    "prev_close": 120.37,
-   "change_pct": 7.8,
+   "change_pct": 7.6,
    "trigger_change": 9.7,
    "peak_change": 9.7,
    "first_seen": "2026-11-06T14:58:21+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 99.68,
-    "change_pct": 0.68
+    "price": 99.48,
+    "change_pct": 0.48
    },
    "chart": {
-    "ema8": -9.8,
-    "ema21": -21.9,
-    "sma50": -35.7,
-    "sma200": -27.2,
+    "ema8": -10.0,
+    "ema21": -22.1,
+    "sma50": -35.8,
+    "sma200": -27.4,
     "momentum": false
    },
    "headlines": [
@@ -246,26 +171,101 @@
    "brief": "2026-11-06-NBIS"
   },
   {
+   "symbol": "APP",
+   "name": "AppLovin",
+   "list": "portfolio",
+   "price": 383.34,
+   "prev_close": 356.1,
+   "change_pct": 7.6,
+   "trigger_change": 4.0,
+   "peak_change": 8.3,
+   "first_seen": "2026-11-06T14:58:21+00:00",
+   "sector": {
+    "etf": "IGV",
+    "name": "Software",
+    "price": 99.48,
+    "change_pct": 0.48
+   },
+   "chart": {
+    "ema8": 27.8,
+    "ema21": 35.6,
+    "sma50": 30.7,
+    "sma200": -6.3,
+    "momentum": true
+   },
+   "headlines": [
+    {
+     "title": "APP Stock Jumps 31% to $356.10 After AppLovin Q3 Earnings Beat",
+     "publisher": "FXLeaders",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOb094a2FMeUMyTmZ6RV9BUXROSDY1Y1pVR3BFZmJTNFptYlRpc1NZZE9XNkdHR2RfaTRMYUNXYnRUbnVCaTM3cWtMSVQ2bFpfdlA1YV80bmFrVkl4NTdjTHhqYlFHQ3I2S0w1SzdsM1BXM2Z4NmhXVHBFUzVTT0lzd0VWSWF2M2luanpsVExKWVBxU01rbG9oYmhTamR2ZTFFVDczR3pB?oc=5",
+     "time": "2026-11-06T14:10:40+00:00"
+    },
+    {
+     "title": "AppLovin Surges on Strong Q3 Results, Upbeat Guidance: ETFs in Focus",
+     "publisher": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPem1GV29RMWNNSXdOQ0psTmhjc1JlVk9BY2lqelRMdkctQ3hYa2kybWl6X0EyMGYyYmNEdUZRTk12c0Y5NGstWFFaM1JBZndTSU5mZl9IclJmTW5NRFZnVTVkZ1FCUkxPNXYtc2JHYng5bUV1NVl3UUhubXJZcGtBTmNvWHZTNTlRTU5wMUlIZ1d3WlNRazlLcUt4dlV5RHRmeTZDRjhaQWNpTVAwTFgwSk9aWkpOZy1QTGpyRzVqQQ?oc=5",
+     "time": "2026-11-06T13:00:00+00:00"
+    },
+    {
+     "title": "AppLovin (APP) Stock: $356.10, Up 31.04% Nov 5",
+     "publisher": "JournalArta",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOUVl4NHJiWUtCZ3MxNngyWXFhdDgyZl9LMHBQU1ZtVE9RcF91dWNQcHRfYTYzMFdpdkNCSnhwd3ZWSEo3c2RQbHM1dTlhVEhkNG5Hb3Ywb1RxalI4UG9RcGdiSk5IdWdUejlndmdRTkNYa3BhaEJIUEJGeThHQXhKVDJ6NG5LMFpkeFpYeC1Mb3Uxdjh6SnFSbUtMeUs?oc=5",
+     "time": "2026-11-06T11:09:18+00:00"
+    },
+    {
+     "title": "AppLovin Corporation (APP) Stock Price, News, Quote & History",
+     "publisher": "Yahoo! Finance Canada",
+     "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1fUE8zMTBFRFRnQW1RSDJjM0p4R0Ixdzc5MDBDWnlqTjNpekJHU21nLUFHSWliMGxtR2hfajFEZ2hITHVkSGp5QVRrQlppWFYy?oc=5",
+     "time": "2026-11-06T10:48:29+00:00"
+    },
+    {
+     "title": "Applovin Corporation (APP) Stock Price Today: $348.37",
+     "publisher": "Pluang",
+     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5NdUlrdlJEb2pQcC10Z1h2ZWdmcXlDV0lkNzZaSjZPZXRJZWFERW5YVVRoUHc2bXhkS21WcWY2ckg5Y0RzWWdHR3FsR0s3dGxYMmhyZHN3ZzI?oc=5",
+     "time": "2026-11-06T09:29:20+00:00"
+    },
+    {
+     "title": "AppLovin Just Posted Record Cash Flow. The Stock Jumped 31%.",
+     "publisher": "Money Morning",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQMFhVbVFsV2NMZjRDbHVWSThFWUxHWXRiQjF1TjRseUV4aHNQcG5ER0JDbWVKU0E0OWhoS2xoTjZGZVFSb2dLdXMxOTJxYkNWVHVLTm5XRUN5aS00WWhlN2l4bTBua214V29ZU2x1UFpJbUN3M3MzMVQ0RC1LM0p5czY0cEJBT3lUY1IxQ1lqNEk?oc=5",
+     "time": "2026-11-06T05:03:57+00:00"
+    },
+    {
+     "title": "Analysts rethink AppLovin stock price targets after earnings",
+     "publisher": "TheStreet",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNYXlIZFByQVFyeWtEcXVXMGcyRURJRHRSV2NqTl9wc3JxOFVTc3Z1d0U5NDJfZmNGTFljTmJTb29PTUJWemRqTm1nM1d1WW1SRVB6LVZNWjRCdW9WbEYxdFpKNXRuRjFFN2daREV5Q1BoOER2MXgwTldldWRpcWtoQWs3X2Rwekt0QnVOWUFlNkwyc19USjVUX3lwTTZYVF9NbzJ6dVZ3?oc=5",
+     "time": "2026-11-06T04:27:00+00:00"
+    },
+    {
+     "title": "AppLovin (APP) Stock Price Jumps On Q3 Earnings Margin Surge",
+     "publisher": "Simply Wall St",
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxORno2ODExbXRPNHJMNktLend6Q1ZpZV9lVEphRm5mMHJWcmExQkhaRkZIVVU2RVRqbE9LZTZ1bVBPeFZiV1NDQnk1VFFBTzEyVVIwNlVfWUFNTVJUMVVlQl9kNEdVR3lHa2JWaWtKV0FYN2xERHlvNGZ5OXYwY2taNXhEVE9rNmhqcC1YYnlUMzcwbTZOTTJ4S2tIQktISXhvbUdKaHNMejVfUnpXc1FZeTNZdkR0MXNuNHJ4V3ZB0gHDAUFVX3lxTFBKYXU4eWdQVTJpYzJqZ3BQcnFxY1U5OTdxVGJTSHV3dnliMVpGZjhTUmJSbXZtVnlKazBuTmo4YTZvQjNQZFpTanc1VU1rTWdBT015UElwcGlxdTd4U2R6Q2hVbWVDWVN1Q1ZFbWQ2VnJleXE1R2pBNlpWdHItSmUxMHQ5U2RSTWhYNVN6REgtZ3NJeFFrQ1NQQnk0TFFnaWdsSjEzMEgxUE1IRUFtV0lveWdDLUpzNmc5YWlVcHF0dVQ5Zw?oc=5",
+     "time": "2026-11-06T00:36:20+00:00"
+    }
+   ],
+   "brief": "2026-11-06-APP"
+  },
+  {
    "symbol": "ANET",
    "name": "Arista Networks",
    "list": "portfolio",
-   "price": 170.32,
+   "price": 169.79,
    "prev_close": 159.16,
-   "change_pct": 7.0,
+   "change_pct": 6.7,
    "trigger_change": 7.7,
    "peak_change": 7.7,
    "first_seen": "2026-11-06T14:58:21+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 466.0,
-    "change_pct": 4.08
+    "price": 464.52,
+    "change_pct": 3.75
    },
    "chart": {
-    "ema8": -0.9,
-    "ema21": -5.6,
-    "sma50": -11.6,
-    "sma200": 2.5,
+    "ema8": -1.1,
+    "ema21": -5.8,
+    "sma50": -11.9,
+    "sma200": 2.2,
     "momentum": false
    },
    "headlines": [
@@ -324,23 +324,23 @@
    "symbol": "AMAT",
    "name": "Applied Materials",
    "list": "portfolio",
-   "price": 335.93,
+   "price": 335.19,
    "prev_close": 319.25,
-   "change_pct": 5.2,
+   "change_pct": 5.0,
    "trigger_change": 7.8,
    "peak_change": 7.8,
    "first_seen": "2026-11-06T14:58:21+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 466.0,
-    "change_pct": 4.08
+    "price": 464.52,
+    "change_pct": 3.75
    },
    "chart": {
-    "ema8": -8.0,
-    "ema21": -16.2,
-    "sma50": -24.5,
-    "sma200": -24.6,
+    "ema8": -8.2,
+    "ema21": -16.4,
+    "sma50": -24.7,
+    "sma200": -24.7,
     "momentum": false
    },
    "headlines": [
@@ -399,23 +399,23 @@
    "symbol": "NVDA",
    "name": "Nvidia",
    "list": "portfolio",
-   "price": 188.88,
+   "price": 188.5,
    "prev_close": 181.6,
-   "change_pct": 4.0,
+   "change_pct": 3.8,
    "trigger_change": 6.2,
    "peak_change": 6.3,
    "first_seen": "2026-11-06T14:58:21+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 466.0,
-    "change_pct": 4.08
+    "price": 464.52,
+    "change_pct": 3.75
    },
    "chart": {
-    "ema8": -5.1,
-    "ema21": -9.8,
-    "sma50": -14.1,
-    "sma200": -7.7,
+    "ema8": -5.3,
+    "ema21": -10.0,
+    "sma50": -14.3,
+    "sma200": -7.9,
     "momentum": false
    },
    "headlines": [
@@ -474,7 +474,7 @@
    "symbol": "META",
    "name": "Meta",
    "list": "portfolio",
-   "price": 621.0,
+   "price": 620.87,
    "prev_close": 605.08,
    "change_pct": 2.6,
    "trigger_change": 3.0,
@@ -490,7 +490,7 @@
     "ema8": -0.4,
     "ema21": -4.5,
     "sma50": -8.0,
-    "sma200": -1.7,
+    "sma200": -1.8,
     "momentum": false
    },
    "headlines": [
@@ -549,23 +549,23 @@
    "symbol": "CRWD",
    "name": "CrowdStrike",
    "list": "portfolio",
-   "price": 222.26,
+   "price": 221.47,
    "prev_close": 217.2,
-   "change_pct": 2.3,
+   "change_pct": 2.0,
    "trigger_change": 3.8,
    "peak_change": 3.8,
    "first_seen": "2026-11-06T14:58:21+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 99.68,
-    "change_pct": 0.68
+    "price": 99.48,
+    "change_pct": 0.48
    },
    "chart": {
-    "ema8": -6.3,
-    "ema21": -9.2,
-    "sma50": -8.9,
-    "sma200": 30.5,
+    "ema8": -6.6,
+    "ema21": -9.5,
+    "sma50": -9.2,
+    "sma200": 30.1,
     "momentum": false
    },
    "headlines": [
@@ -624,23 +624,23 @@
    "symbol": "AVGO",
    "name": "Broadcom",
    "list": "portfolio",
-   "price": 297.12,
+   "price": 296.26,
    "prev_close": 291.53,
-   "change_pct": 1.9,
+   "change_pct": 1.6,
    "trigger_change": 3.9,
    "peak_change": 3.9,
    "first_seen": "2026-11-06T14:58:21+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 466.0,
-    "change_pct": 4.08
+    "price": 464.52,
+    "change_pct": 3.75
    },
    "chart": {
-    "ema8": -6.3,
-    "ema21": -10.2,
-    "sma50": -14.6,
-    "sma200": -19.1,
+    "ema8": -6.5,
+    "ema21": -10.5,
+    "sma50": -14.9,
+    "sma200": -19.3,
     "momentum": false
    },
    "headlines": [
