@@ -1,22 +1,22 @@
 {
  "date": "2026-11-06",
  "threshold": 3.0,
- "updated": "2026-11-06T17:38:32+00:00",
+ "updated": "2026-11-06T17:48:32+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 736.19,
-   "change_pct": 0.44
+   "price": 736.12,
+   "change_pct": 0.43
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 655.4,
-   "change_pct": 1.29
+   "price": 655.06,
+   "change_pct": 1.24
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 82.21,
-   "change_pct": 0.34
+   "price": 82.22,
+   "change_pct": 0.36
   }
  },
  "movers": [
@@ -24,23 +24,23 @@
    "symbol": "AXON",
    "name": "Axon",
    "list": "watchlist",
-   "price": 310.06,
+   "price": 310.86,
    "prev_close": 382.56,
-   "change_pct": -19.0,
+   "change_pct": -18.7,
    "trigger_change": -15.9,
-   "peak_change": -19.0,
+   "peak_change": -19.2,
    "first_seen": "2026-11-06T14:58:21+00:00",
    "sector": {
     "etf": "XLI",
     "name": "Industrials",
-    "price": 162.79,
-    "change_pct": 0.2
+    "price": 162.5,
+    "change_pct": 0.02
    },
    "chart": {
-    "ema8": -20.6,
-    "ema21": -24.3,
-    "sma50": -29.8,
-    "sma200": -34.5,
+    "ema8": -20.4,
+    "ema21": -24.1,
+    "sma50": -29.6,
+    "sma200": -34.3,
     "momentum": false
    },
    "headlines": [
@@ -99,23 +99,23 @@
    "symbol": "APP",
    "name": "AppLovin",
    "list": "portfolio",
-   "price": 385.69,
+   "price": 386.86,
    "prev_close": 356.1,
-   "change_pct": 8.3,
+   "change_pct": 8.6,
    "trigger_change": 4.0,
-   "peak_change": 8.6,
+   "peak_change": 8.9,
    "first_seen": "2026-11-06T14:58:21+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 98.8,
-    "change_pct": -0.21
+    "price": 98.6,
+    "change_pct": -0.41
    },
    "chart": {
-    "ema8": 28.3,
-    "ema21": 36.3,
-    "sma50": 31.5,
-    "sma200": -5.8,
+    "ema8": 28.6,
+    "ema21": 36.7,
+    "sma50": 31.9,
+    "sma200": -5.5,
     "momentum": true
    },
    "headlines": [
@@ -174,23 +174,23 @@
    "symbol": "ANET",
    "name": "Arista Networks",
    "list": "portfolio",
-   "price": 168.54,
+   "price": 168.46,
    "prev_close": 159.16,
-   "change_pct": 5.9,
+   "change_pct": 5.8,
    "trigger_change": 7.7,
    "peak_change": 7.7,
    "first_seen": "2026-11-06T14:58:21+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 459.67,
-    "change_pct": 2.67
+    "price": 457.71,
+    "change_pct": 2.23
    },
    "chart": {
     "ema8": -1.7,
     "ema21": -6.5,
     "sma50": -12.5,
-    "sma200": 1.5,
+    "sma200": 1.4,
     "momentum": false
    },
    "headlines": [
@@ -246,98 +246,23 @@
    "brief": "2026-11-06-ANET"
   },
   {
-   "symbol": "NBIS",
-   "name": "Nebius",
-   "list": "portfolio",
-   "price": 126.8,
-   "prev_close": 120.37,
-   "change_pct": 5.3,
-   "trigger_change": 9.7,
-   "peak_change": 9.7,
-   "first_seen": "2026-11-06T14:58:21+00:00",
-   "sector": {
-    "etf": "IGV",
-    "name": "Software",
-    "price": 98.8,
-    "change_pct": -0.21
-   },
-   "chart": {
-    "ema8": -11.5,
-    "ema21": -23.6,
-    "sma50": -37.1,
-    "sma200": -28.9,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Nebius: Why The Real Risk Isn't In Washington (NASDAQ:NBIS)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNc25WVG00Y2sxY0syTWNLX1NHYzZOLVNGLUlsYU1KNzFNMzRaYnl4Nmx5VUJEdUkzUUljSUJRdWp3SG1jZ1JSYjUweVdvT2lmb1dSc0p2eHB5enhnYldvM2pmNGlPVG1BMS1OelZhdVZLNDVXeEM4Sld6cjA0cFZUWU9rUEZMUk5pdVB1Mg?oc=5",
-     "time": "2026-11-06T15:37:42+00:00"
-    },
-    {
-     "title": "Nebius Vs. CoreWeave: Only 1 Dip Wins (NASDAQ:NBIS)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOcVVqdzBSZFdfSjVzRTJQSlYxajEteVc0Qkhsejl2OG5HWFBGQnFYVDJRZFJSYXJQdm03RmwtamQ3SXdCbkNOY1lVVHNDNmxpVF83SVMyUEdfSUtHbnl6a0JpOHVCM3Jkbm1TUEhILTRpYXN6V19xakppNDlIaGd2NkxB?oc=5",
-     "time": "2026-11-06T15:19:55+00:00"
-    },
-    {
-     "title": "Nebius Group (NBIS) Loses 45.2% in 4 Weeks, Here's Why a Trend Reversal May be Around the Corner",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNSU5IcGo1LUN5YWFHNGl3OE10dHR2ZEtlcW1sRmlHbUUwRmRaNC1EX3pGMzhaSDBTa3BDWHNWUU9VSy1zdkRCTFR1Q0s1czFkTXU3MkdELWRyWXcxSUN3MnhqRXZoZ0lINDgzb08wSWJGYkNrX2xjV09uR3UxczhvdnFuVTNBWDlZQTJOdTBTSFV1YzVsZnc?oc=5",
-     "time": "2026-11-06T13:35:02+00:00"
-    },
-    {
-     "title": "Nebius: The Selloff Is Testing More Than Its Valuation",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNakN2ZzhaYnRIZkhsZW8xYU5DdGxRWU1NcXFLaFZMM3ZzOHIwaVRtUldxejdzLW5SbHJGRlJuX3hEa1V2ZGhHVW1IRTFrREFOSjBuSmplNkE1ME1HVk1HSGdJRFZVdGRLWUtZWVNkYmtVUVhiVUVQNUlOSDNHbGNKNzNYTEdSRFozUG16a1F0SFY3emdyVDNCQ3dR?oc=5",
-     "time": "2026-11-06T12:38:15+00:00"
-    },
-    {
-     "title": "Prediction: Nebius Stock Will Surge 95% in a Year, According to Wall Street. Should You Buy It Before Nov. 12?",
-     "publisher": "The Globe and Mail",
-     "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxQWDFWLXFnQlBoRDE3bGxVLTFQcFg5c0xKdXF6VFdjakRaYl95aHVGNU5nOG45S0Y2TW1OQmNPU0M2VEhVSVFmVGxwTVQ2Vk5KMHpPQlRiUnFTWU9MVmVxd0toSXpGOWlobU1NLWpsR2Fock1kZVNjMGhEaDhmN21VZmlHdWZPdUdIN1dRMWYtS3YtRnZkR2VZZWVnczFFOWliZ1F6M2tZOGI0WG5WVDc5OTFoNEp3TUhNdGh3ZGs3d0phUFU0RnQ4N3VYeW55cHA4WjAxNnVtcG5WYjA1OFRvWm54dEtJOGk4VVJmR19EMUtjdkYxLVc2dmNFNkt6OU5Gdzc2MlotNzY4X2lwbF8xUThieVpiSHhk?oc=5",
-     "time": "2026-11-06T11:11:26+00:00"
-    },
-    {
-     "title": "Why Are Data Center Stocks CoreWeave, Nebius, and IREN Rallying After Thursday\u2019s Steep Selloff, November 6?",
-     "publisher": "TipRanks",
-     "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOZTI5MzlUNHFxOTFaZHdXRVhJdThLY1pnaVRDMzh1R1VuS1JyaWRPY2FINERYLW9YV0d6ZVlUdy0tZ0NiWVN1TkFrYnhNTGFja0lRV1JTTU03S0hYM3pybzFXWVV2eTN1ZFZuODZxQnZfYzUyLXI3QWZCT3dpNjNRb1JGRU1URXJuT2QyX3k4dFFET0o0OXRFdjFQRVlFYm9FMGNWdjUtYUJfRDRlOEd1dVJNMW83YkJJNE5zaUVLbXc0VG1nTmRXYWpXZ0ZpSzB1bnRfeGlfaEpuYjQ3?oc=5",
-     "time": "2026-11-06T11:08:39+00:00"
-    },
-    {
-     "title": "Yandex Stock Price Today | NASDAQ: NBIS Live",
-     "publisher": "Investing.com",
-     "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1MSkZCQnM3TlZTeXQxSzNob3d2UlRHLWo0dWRjT2RJV2ViLUhVZWhfc0diOUdqUXZHbkVVU1ltdEVfRDZLTG9ueXZkcWJkdWd2eTl1WGlWZw?oc=5",
-     "time": "2026-11-06T10:52:23+00:00"
-    },
-    {
-     "title": "Nebius Group N.V. $NBIS Shares Newly Acquired by Rakuten Investment Management Inc.",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQNkZYc2xfWEwwYWU2XzAwVDVMSGNYRTJoNmszU01XUzBfZlE5dkJhMlN6dWNySGJNUE1ORlpCQ0JtOE81aV9FaHEteXpvVzBlcmdZQXB0c1dQMll2WDRfblNENDZWY0RVU1g1NDMzNkVISnhibEFYUExxb1lJMk1ZQzlSUTdkNVNEUUFWNmM3aDlDbFN1RUJyRnpVYUFxbnN0bmJrUzU3X1k0QWZOOHN0cUNRSGhxT3lpUUNERnBRWUNzMEtMNGMwdkJEMEcwT3YxLVdlY1Rxaw?oc=5",
-     "time": "2026-11-06T10:27:18+00:00"
-    }
-   ],
-   "brief": "2026-11-06-NBIS"
-  },
-  {
    "symbol": "AMAT",
    "name": "Applied Materials",
    "list": "portfolio",
-   "price": 331.22,
+   "price": 331.33,
    "prev_close": 319.25,
-   "change_pct": 3.7,
+   "change_pct": 3.8,
    "trigger_change": 7.8,
    "peak_change": 7.8,
    "first_seen": "2026-11-06T14:58:21+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 459.67,
-    "change_pct": 2.67
+    "price": 457.71,
+    "change_pct": 2.23
    },
    "chart": {
-    "ema8": -9.1,
+    "ema8": -9.0,
     "ema21": -17.3,
     "sma50": -25.5,
     "sma200": -25.6,
@@ -396,25 +321,100 @@
    "brief": "2026-11-06-AMAT"
   },
   {
+   "symbol": "NBIS",
+   "name": "Nebius",
+   "list": "portfolio",
+   "price": 123.42,
+   "prev_close": 120.37,
+   "change_pct": 2.5,
+   "trigger_change": 9.7,
+   "peak_change": 9.7,
+   "first_seen": "2026-11-06T14:58:21+00:00",
+   "sector": {
+    "etf": "IGV",
+    "name": "Software",
+    "price": 98.6,
+    "change_pct": -0.41
+   },
+   "chart": {
+    "ema8": -13.4,
+    "ema21": -25.5,
+    "sma50": -38.8,
+    "sma200": -30.8,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Nebius: Why The Real Risk Isn't In Washington (NASDAQ:NBIS)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNc25WVG00Y2sxY0syTWNLX1NHYzZOLVNGLUlsYU1KNzFNMzRaYnl4Nmx5VUJEdUkzUUljSUJRdWp3SG1jZ1JSYjUweVdvT2lmb1dSc0p2eHB5enhnYldvM2pmNGlPVG1BMS1OelZhdVZLNDVXeEM4Sld6cjA0cFZUWU9rUEZMUk5pdVB1Mg?oc=5",
+     "time": "2026-11-06T15:37:42+00:00"
+    },
+    {
+     "title": "Nebius Vs. CoreWeave: Only 1 Dip Wins (NASDAQ:NBIS)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOcVVqdzBSZFdfSjVzRTJQSlYxajEteVc0Qkhsejl2OG5HWFBGQnFYVDJRZFJSYXJQdm03RmwtamQ3SXdCbkNOY1lVVHNDNmxpVF83SVMyUEdfSUtHbnl6a0JpOHVCM3Jkbm1TUEhILTRpYXN6V19xakppNDlIaGd2NkxB?oc=5",
+     "time": "2026-11-06T15:19:55+00:00"
+    },
+    {
+     "title": "Nebius Group (NBIS) Loses 45.2% in 4 Weeks, Here's Why a Trend Reversal May be Around the Corner",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNSU5IcGo1LUN5YWFHNGl3OE10dHR2ZEtlcW1sRmlHbUUwRmRaNC1EX3pGMzhaSDBTa3BDWHNWUU9VSy1zdkRCTFR1Q0s1czFkTXU3MkdELWRyWXcxSUN3MnhqRXZoZ0lINDgzb08wSWJGYkNrX2xjV09uR3UxczhvdnFuVTNBWDlZQTJOdTBTSFV1YzVsZnc?oc=5",
+     "time": "2026-11-06T13:35:02+00:00"
+    },
+    {
+     "title": "Nebius: The Selloff Is Testing More Than Its Valuation",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNakN2ZzhaYnRIZkhsZW8xYU5DdGxRWU1NcXFLaFZMM3ZzOHIwaVRtUldxejdzLW5SbHJGRlJuX3hEa1V2ZGhHVW1IRTFrREFOSjBuSmplNkE1ME1HVk1HSGdJRFZVdGRLWUtZWVNkYmtVUVhiVUVQNUlOSDNHbGNKNzNYTEdSRFozUG16a1F0SFY3emdyVDNCQ3dR?oc=5",
+     "time": "2026-11-06T12:38:15+00:00"
+    },
+    {
+     "title": "Prediction: Nebius Stock Will Surge 95% in a Year, According to Wall Street. Should You Buy It Before Nov. 12?",
+     "publisher": "The Globe and Mail",
+     "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxQWDFWLXFnQlBoRDE3bGxVLTFQcFg5c0xKdXF6VFdjakRaYl95aHVGNU5nOG45S0Y2TW1OQmNPU0M2VEhVSVFmVGxwTVQ2Vk5KMHpPQlRiUnFTWU9MVmVxd0toSXpGOWlobU1NLWpsR2Fock1kZVNjMGhEaDhmN21VZmlHdWZPdUdIN1dRMWYtS3YtRnZkR2VZZWVnczFFOWliZ1F6M2tZOGI0WG5WVDc5OTFoNEp3TUhNdGh3ZGs3d0phUFU0RnQ4N3VYeW55cHA4WjAxNnVtcG5WYjA1OFRvWm54dEtJOGk4VVJmR19EMUtjdkYxLVc2dmNFNkt6OU5Gdzc2MlotNzY4X2lwbF8xUThieVpiSHhk?oc=5",
+     "time": "2026-11-06T11:11:26+00:00"
+    },
+    {
+     "title": "Why Are Data Center Stocks CoreWeave, Nebius, and IREN Rallying After Thursday\u2019s Steep Selloff, November 6?",
+     "publisher": "TipRanks",
+     "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOZTI5MzlUNHFxOTFaZHdXRVhJdThLY1pnaVRDMzh1R1VuS1JyaWRPY2FINERYLW9YV0d6ZVlUdy0tZ0NiWVN1TkFrYnhNTGFja0lRV1JTTU03S0hYM3pybzFXWVV2eTN1ZFZuODZxQnZfYzUyLXI3QWZCT3dpNjNRb1JGRU1URXJuT2QyX3k4dFFET0o0OXRFdjFQRVlFYm9FMGNWdjUtYUJfRDRlOEd1dVJNMW83YkJJNE5zaUVLbXc0VG1nTmRXYWpXZ0ZpSzB1bnRfeGlfaEpuYjQ3?oc=5",
+     "time": "2026-11-06T11:08:39+00:00"
+    },
+    {
+     "title": "Yandex Stock Price Today | NASDAQ: NBIS Live",
+     "publisher": "Investing.com",
+     "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1MSkZCQnM3TlZTeXQxSzNob3d2UlRHLWo0dWRjT2RJV2ViLUhVZWhfc0diOUdqUXZHbkVVU1ltdEVfRDZLTG9ueXZkcWJkdWd2eTl1WGlWZw?oc=5",
+     "time": "2026-11-06T10:52:23+00:00"
+    },
+    {
+     "title": "Nebius Group N.V. $NBIS Shares Newly Acquired by Rakuten Investment Management Inc.",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQNkZYc2xfWEwwYWU2XzAwVDVMSGNYRTJoNmszU01XUzBfZlE5dkJhMlN6dWNySGJNUE1ORlpCQ0JtOE81aV9FaHEteXpvVzBlcmdZQXB0c1dQMll2WDRfblNENDZWY0RVU1g1NDMzNkVISnhibEFYUExxb1lJMk1ZQzlSUTdkNVNEUUFWNmM3aDlDbFN1RUJyRnpVYUFxbnN0bmJrUzU3X1k0QWZOOHN0cUNRSGhxT3lpUUNERnBRWUNzMEtMNGMwdkJEMEcwT3YxLVdlY1Rxaw?oc=5",
+     "time": "2026-11-06T10:27:18+00:00"
+    }
+   ],
+   "brief": "2026-11-06-NBIS"
+  },
+  {
    "symbol": "NVDA",
    "name": "Nvidia",
    "list": "portfolio",
-   "price": 185.87,
+   "price": 185.81,
    "prev_close": 181.6,
-   "change_pct": 2.4,
+   "change_pct": 2.3,
    "trigger_change": 6.2,
    "peak_change": 6.3,
    "first_seen": "2026-11-06T14:58:21+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 459.67,
-    "change_pct": 2.67
+    "price": 457.71,
+    "change_pct": 2.23
    },
    "chart": {
     "ema8": -6.3,
     "ema21": -11.2,
-    "sma50": -15.4,
+    "sma50": -15.5,
     "sma200": -9.2,
     "momentum": false
    },
@@ -474,23 +474,23 @@
    "symbol": "META",
    "name": "Meta",
    "list": "portfolio",
-   "price": 615.8,
+   "price": 617.45,
    "prev_close": 605.08,
-   "change_pct": 1.8,
+   "change_pct": 2.0,
    "trigger_change": 3.0,
    "peak_change": 3.0,
    "first_seen": "2026-11-06T15:58:32+00:00",
    "sector": {
     "etf": "XLC",
     "name": "Communication",
-    "price": 105.15,
-    "change_pct": 0.78
+    "price": 105.11,
+    "change_pct": 0.74
    },
    "chart": {
-    "ema8": -1.0,
-    "ema21": -5.2,
-    "sma50": -8.8,
-    "sma200": -2.6,
+    "ema8": -0.8,
+    "ema21": -5.0,
+    "sma50": -8.5,
+    "sma200": -2.3,
     "momentum": false
    },
    "headlines": [
@@ -549,23 +549,23 @@
    "symbol": "CRWD",
    "name": "CrowdStrike",
    "list": "portfolio",
-   "price": 218.87,
+   "price": 219.14,
    "prev_close": 217.2,
-   "change_pct": 0.8,
+   "change_pct": 0.9,
    "trigger_change": 3.8,
    "peak_change": 3.8,
    "first_seen": "2026-11-06T14:58:21+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 98.8,
-    "change_pct": -0.21
+    "price": 98.6,
+    "change_pct": -0.41
    },
    "chart": {
-    "ema8": -7.5,
-    "ema21": -10.5,
-    "sma50": -10.2,
-    "sma200": 28.6,
+    "ema8": -7.4,
+    "ema21": -10.4,
+    "sma50": -10.1,
+    "sma200": 28.7,
     "momentum": false
    },
    "headlines": [
@@ -624,7 +624,7 @@
    "symbol": "AVGO",
    "name": "Broadcom",
    "list": "portfolio",
-   "price": 291.95,
+   "price": 291.79,
    "prev_close": 291.53,
    "change_pct": 0.1,
    "trigger_change": 3.9,
@@ -633,8 +633,8 @@
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 459.67,
-    "change_pct": 2.67
+    "price": 457.71,
+    "change_pct": 2.23
    },
    "chart": {
     "ema8": -7.6,
