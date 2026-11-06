@@ -1,22 +1,22 @@
 {
  "date": "2026-11-06",
  "threshold": 3.0,
- "updated": "2026-11-06T15:43:29+00:00",
+ "updated": "2026-11-06T15:48:30+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 738.73,
-   "change_pct": 0.78
+   "price": 739.7,
+   "change_pct": 0.91
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 657.7,
-   "change_pct": 1.65
+   "price": 659.8,
+   "change_pct": 1.97
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 82.03,
-   "change_pct": 0.12
+   "price": 82.0,
+   "change_pct": 0.09
   }
  },
  "movers": [
@@ -24,7 +24,7 @@
    "symbol": "AXON",
    "name": "Axon",
    "list": "watchlist",
-   "price": 315.74,
+   "price": 315.75,
    "prev_close": 382.56,
    "change_pct": -17.5,
    "trigger_change": -15.9,
@@ -33,8 +33,8 @@
    "sector": {
     "etf": "XLI",
     "name": "Industrials",
-    "price": 162.66,
-    "change_pct": 0.12
+    "price": 163.23,
+    "change_pct": 0.47
    },
    "chart": {
     "ema8": -19.4,
@@ -96,101 +96,26 @@
    "brief": null
   },
   {
-   "symbol": "ANET",
-   "name": "Arista Networks",
-   "list": "portfolio",
-   "price": 169.65,
-   "prev_close": 159.16,
-   "change_pct": 6.6,
-   "trigger_change": 7.7,
-   "peak_change": 7.7,
-   "first_seen": "2026-11-06T14:58:21+00:00",
-   "sector": {
-    "etf": "SMH",
-    "name": "Semiconductors",
-    "price": 462.27,
-    "change_pct": 3.25
-   },
-   "chart": {
-    "ema8": -1.2,
-    "ema21": -5.9,
-    "sma50": -11.9,
-    "sma200": 2.1,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Melius Research Begins Coverage on Arista Networks (NYSE:ANET)",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOYUpEZC1iS25LQVIwWTg1VXBGQVZBTGFJdUdRanFTWVNEcEs1UXNUeG9TVk54YXA0VkVMR2o5azdyanRLdmNFT0FKb2hVX0hHckQ4bVlqdVUyM0FHUTlDeWdxd3J1ZG9OZFF5MXQ4NVNydTFkaWdrODNTVDctVzZEaTBJcDRkWlhEajFvVldSa2hYTEFFRkpxaUVQZW5PQ3dGcF9XMjhITUhFNm9OTFFzQi1SdkJsWmNGYUw3Y3pWRQ?oc=5",
-     "time": "2026-11-06T12:38:05+00:00"
-    },
-    {
-     "title": "6,461 Shares in Arista Networks, Inc. $ANET Acquired by Legacy Financial Independent Advisors LLC",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOc1RXcnV3Tk9uemRvUkh6NHR2R3JrMEVqbEhieTh0bkt4Z1N0QjdvWUJLQUYxWkRhMVRlWDRUV0xWc212em0zM0JMQ0Rxczd5NGt5bVVvMlRRVS03SURBUUNoUDhaaW1Ic2h1aXh5YVhNeWhDc3ByUklyNXRvRGxBcHZYN2RMajY2UE80aVZlb0V3SkR2OUpCcTN4MFpNTV9GalpGT0NkQ2pxamtpcTlDSWl3Z3V0UVV4TUhzZDUxMXc5SV9kYW9RN2FOdG5JclBRTEdLUF90cjR3X19GX0xYQUxVQVN4VXhZVmc?oc=5",
-     "time": "2026-11-06T11:03:38+00:00"
-    },
-    {
-     "title": "Arista Networks (ANET) Q1 2026 Earnings Call Transcript",
-     "publisher": "Fortune",
-     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBnd0lra00wYUNPUjJiSnNuMThXcnpUTnFybDZqRHh2a2FySHU2S0tKdm81MXlRbEJaWEZPVFF0eXJ5N3Qzak5ZNF9mQ0tHd05ObEstRE85Nm4xQW13LUp1OS1zNmdCek85R0l6YXB3?oc=5",
-     "time": "2026-11-06T08:51:02+00:00"
-    },
-    {
-     "title": "Is Arista Networks (ANET) Undervalued On Record Q3 Results And Q4 Guidance?",
-     "publisher": "Simply Wall St",
-     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNYkxvUHQ2ei1pT29Nd3JFUkRrQ0tjSFp5Zk91NUlBNU9Obm1nN1BPU0VGelZoM0pNRjRydnJJX1VTRGZpYUljbXdYaXJFcUZEM2t2WWFnWlkyeU92U2VLa09RbEVlbThONXV0LUNReFpfWlNmamI3Q0NTOWdhTVZVMmxkRlFBc1pfVlZaZkJUalV6a0lpX2haQ3Zva09lcVRoWFRRZWZ4QlpJVkJNQzJlc3AxRGZlVGd1RVdvQndUWXNqNkpqTlVr0gHMAUFVX3lxTE5Vc3dvTG9nWVNhUml6MkV4TUtEUEdFb2JuUFBXTWxSRVI3bnFGMi1LamE1ejFvM0VuTTh0c1ROOG9kTGhfaGlPalk4TnoyYjVSaFowZ1JLUXdRS2JDZERVYkg1SUFGLWF3MDZJRE5ydEdBR3hBazZsZWp6WmVwNTBJdVZrZHFCcXpzNWlIb00zU1JmSzl4eVpmSE5qeTB5bWRWZWdpRkllWWU1OFFmYjRZX0x6bHdJb3dDZTl5UXNjc3A1QlUzbF9HTzdMdw?oc=5",
-     "time": "2026-11-06T05:23:25+00:00"
-    },
-    {
-     "title": "Arista Sinks 11%, Ciena Down 15% as AI Selloff Deepens After Democratic Sweep",
-     "publisher": "TIKR.com",
-     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNODBsUzdCU3FPZjZ1Ynk2N1hSYmFLYzRYajZGSzNFdXNsc3A2SVM1czh0a0tRWG1qREFhTkhTMFdqVWpsMGlQMEY0cTBCRUFvQjhsak93Q3pDUEwxZHhjMzkyUEhLQmVLdkFKR1FMVGFWUEphemtOMG1nZTc2S2ZqRXc0LWRVTDByYkdaWlVDZU9TRXNhUDNWMTFsNEVmdzByTlE?oc=5",
-     "time": "2026-11-05T22:16:53+00:00"
-    },
-    {
-     "title": "Arista Networks (NYSE:ANET) Shares Down 10.8% After Insider Selling",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPUTFhWHVSOV80ZE1TWjJKeDBPQzhQeF9OeldPOWZoYTdGUDN3SnN4ak9jZDhaMTV3ZXdVR3BieHVZQWc3V3lfVXlhWWpIWlVvRERjLUJYNnBDT0NweUgyNVNpRFo4QXBTTC00M1F4TnVjOXI2YTRPOWpQemQ5TXFkV2dBUkpjZWdjSkt0dG5jODF3emNnbWkzc0xVY1M0YkViOVFYMG1YMU1VSDhEazFMUkFoZ3dzSVJrN041d2JLRjQ?oc=5",
-     "time": "2026-11-05T22:05:41+00:00"
-    },
-    {
-     "title": "Arista Networks vs. ServiceNow: Which Technology Stock Is a Better Buy for 2027?",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOcElRS293ZEsxN0dxMldNZUo4NjZ0WDVxcHA4QllxVXlIREhvNERzTXJZaTB2UnlsOExDdUJ2V2xldXNKMVZxZkZYbGRqaDJiN0dYZEloYV9saTFtQ1NvOTN5STZrVTdsUW1CdGU2OHhjbVJ0WU5rYTF5UG4yWDF6UjhrLUZySTZMZ1gzR2dteE00eHJrSjl1R2tueXpObEd6OUQw?oc=5",
-     "time": "2026-11-05T21:03:02+00:00"
-    },
-    {
-     "title": "Analysts Offer Insights on Technology Companies: Arista Networks (ANET), Skyworks Solutions (SWKS) and Toast Inc (TOST)",
-     "publisher": "The Globe and Mail",
-     "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxNWS1nY2Zkck9seFE1enBuc3hnRk84RnVfQmlDVC03M2N3bExmbHAtQ1JqOGhDN0NFanQtaWNicUI0SmlYZHZvOHdzUnpTcHZsRWctSEVwc0hJZ0ZiY0lxYTlVRVlFVTNnSU81T0w1VnBlSXVFc2RGdXp2WWVGX3YxTXJ4RW9KS3NNTnNpaFpvcFFpb2gyTW9md0lvUE5SSUhCSFZOZ1ZhdnE5Vm55WGZsbVJoRjRLS0ozT1lqVVd1dzh4dkRjelNWbXRabTN2b1FLYnJmckg4NkI2emY0VTQzWUZPVzRaUk93Yy1QNlVGdmpSMFRwbGFxdzJ6Wmh5Q3dDRDBPMjAtMlFQYWVVb0NOVmdpUG1QMGFGcmhkNnRSdkVPZw?oc=5",
-     "time": "2026-11-05T19:52:30+00:00"
-    }
-   ],
-   "brief": null
-  },
-  {
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 128.04,
+   "price": 128.9,
    "prev_close": 120.37,
-   "change_pct": 6.4,
+   "change_pct": 7.1,
    "trigger_change": 9.7,
    "peak_change": 9.7,
    "first_seen": "2026-11-06T14:58:21+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 98.64,
-    "change_pct": -0.37
+    "price": 98.98,
+    "change_pct": -0.03
    },
    "chart": {
-    "ema8": -10.8,
-    "ema21": -22.9,
-    "sma50": -36.5,
-    "sma200": -28.2,
+    "ema8": -10.3,
+    "ema21": -22.4,
+    "sma50": -36.1,
+    "sma200": -27.7,
     "momentum": false
    },
    "headlines": [
@@ -246,10 +171,85 @@
    "brief": null
   },
   {
+   "symbol": "ANET",
+   "name": "Arista Networks",
+   "list": "portfolio",
+   "price": 170.05,
+   "prev_close": 159.16,
+   "change_pct": 6.8,
+   "trigger_change": 7.7,
+   "peak_change": 7.7,
+   "first_seen": "2026-11-06T14:58:21+00:00",
+   "sector": {
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 465.85,
+    "change_pct": 4.05
+   },
+   "chart": {
+    "ema8": -1.0,
+    "ema21": -5.7,
+    "sma50": -11.7,
+    "sma200": 2.4,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Melius Research Begins Coverage on Arista Networks (NYSE:ANET)",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOYUpEZC1iS25LQVIwWTg1VXBGQVZBTGFJdUdRanFTWVNEcEs1UXNUeG9TVk54YXA0VkVMR2o5azdyanRLdmNFT0FKb2hVX0hHckQ4bVlqdVUyM0FHUTlDeWdxd3J1ZG9OZFF5MXQ4NVNydTFkaWdrODNTVDctVzZEaTBJcDRkWlhEajFvVldSa2hYTEFFRkpxaUVQZW5PQ3dGcF9XMjhITUhFNm9OTFFzQi1SdkJsWmNGYUw3Y3pWRQ?oc=5",
+     "time": "2026-11-06T12:38:05+00:00"
+    },
+    {
+     "title": "6,461 Shares in Arista Networks, Inc. $ANET Acquired by Legacy Financial Independent Advisors LLC",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOc1RXcnV3Tk9uemRvUkh6NHR2R3JrMEVqbEhieTh0bkt4Z1N0QjdvWUJLQUYxWkRhMVRlWDRUV0xWc212em0zM0JMQ0Rxczd5NGt5bVVvMlRRVS03SURBUUNoUDhaaW1Ic2h1aXh5YVhNeWhDc3ByUklyNXRvRGxBcHZYN2RMajY2UE80aVZlb0V3SkR2OUpCcTN4MFpNTV9GalpGT0NkQ2pxamtpcTlDSWl3Z3V0UVV4TUhzZDUxMXc5SV9kYW9RN2FOdG5JclBRTEdLUF90cjR3X19GX0xYQUxVQVN4VXhZVmc?oc=5",
+     "time": "2026-11-06T11:03:38+00:00"
+    },
+    {
+     "title": "Arista Networks (ANET) Q1 2026 Earnings Call Transcript",
+     "publisher": "Fortune",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBnd0lra00wYUNPUjJiSnNuMThXcnpUTnFybDZqRHh2a2FySHU2S0tKdm81MXlRbEJaWEZPVFF0eXJ5N3Qzak5ZNF9mQ0tHd05ObEstRE85Nm4xQW13LUp1OS1zNmdCek85R0l6YXB3?oc=5",
+     "time": "2026-11-06T08:51:02+00:00"
+    },
+    {
+     "title": "Is Arista Networks (ANET) Undervalued On Record Q3 Results And Q4 Guidance?",
+     "publisher": "Simply Wall St",
+     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNYkxvUHQ2ei1pT29Nd3JFUkRrQ0tjSFp5Zk91NUlBNU9Obm1nN1BPU0VGelZoM0pNRjRydnJJX1VTRGZpYUljbXdYaXJFcUZEM2t2WWFnWlkyeU92U2VLa09RbEVlbThONXV0LUNReFpfWlNmamI3Q0NTOWdhTVZVMmxkRlFBc1pfVlZaZkJUalV6a0lpX2haQ3Zva09lcVRoWFRRZWZ4QlpJVkJNQzJlc3AxRGZlVGd1RVdvQndUWXNqNkpqTlVr0gHMAUFVX3lxTE5Vc3dvTG9nWVNhUml6MkV4TUtEUEdFb2JuUFBXTWxSRVI3bnFGMi1LamE1ejFvM0VuTTh0c1ROOG9kTGhfaGlPalk4TnoyYjVSaFowZ1JLUXdRS2JDZERVYkg1SUFGLWF3MDZJRE5ydEdBR3hBazZsZWp6WmVwNTBJdVZrZHFCcXpzNWlIb00zU1JmSzl4eVpmSE5qeTB5bWRWZWdpRkllWWU1OFFmYjRZX0x6bHdJb3dDZTl5UXNjc3A1QlUzbF9HTzdMdw?oc=5",
+     "time": "2026-11-06T05:23:25+00:00"
+    },
+    {
+     "title": "Arista Sinks 11%, Ciena Down 15% as AI Selloff Deepens After Democratic Sweep",
+     "publisher": "TIKR.com",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNODBsUzdCU3FPZjZ1Ynk2N1hSYmFLYzRYajZGSzNFdXNsc3A2SVM1czh0a0tRWG1qREFhTkhTMFdqVWpsMGlQMEY0cTBCRUFvQjhsak93Q3pDUEwxZHhjMzkyUEhLQmVLdkFKR1FMVGFWUEphemtOMG1nZTc2S2ZqRXc0LWRVTDByYkdaWlVDZU9TRXNhUDNWMTFsNEVmdzByTlE?oc=5",
+     "time": "2026-11-05T22:16:53+00:00"
+    },
+    {
+     "title": "Arista Networks (NYSE:ANET) Shares Down 10.8% After Insider Selling",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPUTFhWHVSOV80ZE1TWjJKeDBPQzhQeF9OeldPOWZoYTdGUDN3SnN4ak9jZDhaMTV3ZXdVR3BieHVZQWc3V3lfVXlhWWpIWlVvRERjLUJYNnBDT0NweUgyNVNpRFo4QXBTTC00M1F4TnVjOXI2YTRPOWpQemQ5TXFkV2dBUkpjZWdjSkt0dG5jODF3emNnbWkzc0xVY1M0YkViOVFYMG1YMU1VSDhEazFMUkFoZ3dzSVJrN041d2JLRjQ?oc=5",
+     "time": "2026-11-05T22:05:41+00:00"
+    },
+    {
+     "title": "Arista Networks vs. ServiceNow: Which Technology Stock Is a Better Buy for 2027?",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOcElRS293ZEsxN0dxMldNZUo4NjZ0WDVxcHA4QllxVXlIREhvNERzTXJZaTB2UnlsOExDdUJ2V2xldXNKMVZxZkZYbGRqaDJiN0dYZEloYV9saTFtQ1NvOTN5STZrVTdsUW1CdGU2OHhjbVJ0WU5rYTF5UG4yWDF6UjhrLUZySTZMZ1gzR2dteE00eHJrSjl1R2tueXpObEd6OUQw?oc=5",
+     "time": "2026-11-05T21:03:02+00:00"
+    },
+    {
+     "title": "Analysts Offer Insights on Technology Companies: Arista Networks (ANET), Skyworks Solutions (SWKS) and Toast Inc (TOST)",
+     "publisher": "The Globe and Mail",
+     "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxNWS1nY2Zkck9seFE1enBuc3hnRk84RnVfQmlDVC03M2N3bExmbHAtQ1JqOGhDN0NFanQtaWNicUI0SmlYZHZvOHdzUnpTcHZsRWctSEVwc0hJZ0ZiY0lxYTlVRVlFVTNnSU81T0w1VnBlSXVFc2RGdXp2WWVGX3YxTXJ4RW9KS3NNTnNpaFpvcFFpb2gyTW9md0lvUE5SSUhCSFZOZ1ZhdnE5Vm55WGZsbVJoRjRLS0ozT1lqVVd1dzh4dkRjelNWbXRabTN2b1FLYnJmckg4NkI2emY0VTQzWUZPVzRaUk93Yy1QNlVGdmpSMFRwbGFxdzJ6Wmh5Q3dDRDBPMjAtMlFQYWVVb0NOVmdpUG1QMGFGcmhkNnRSdkVPZw?oc=5",
+     "time": "2026-11-05T19:52:30+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
    "symbol": "APP",
    "name": "AppLovin",
    "list": "portfolio",
-   "price": 378.69,
+   "price": 378.38,
    "prev_close": 356.1,
    "change_pct": 6.3,
    "trigger_change": 4.0,
@@ -258,13 +258,13 @@
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 98.64,
-    "change_pct": -0.37
+    "price": 98.98,
+    "change_pct": -0.03
    },
    "chart": {
     "ema8": 26.6,
-    "ema21": 34.2,
-    "sma50": 29.2,
+    "ema21": 34.1,
+    "sma50": 29.1,
     "sma200": -7.5,
     "momentum": true
    },
@@ -324,23 +324,23 @@
    "symbol": "AMAT",
    "name": "Applied Materials",
    "list": "portfolio",
-   "price": 333.36,
+   "price": 335.0,
    "prev_close": 319.25,
-   "change_pct": 4.4,
+   "change_pct": 4.9,
    "trigger_change": 7.8,
    "peak_change": 7.8,
    "first_seen": "2026-11-06T14:58:21+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 462.27,
-    "change_pct": 3.25
+    "price": 465.85,
+    "change_pct": 4.05
    },
    "chart": {
-    "ema8": -8.6,
-    "ema21": -16.8,
-    "sma50": -25.1,
-    "sma200": -25.1,
+    "ema8": -8.2,
+    "ema21": -16.4,
+    "sma50": -24.7,
+    "sma200": -24.8,
     "momentum": false
    },
    "headlines": [
@@ -399,23 +399,23 @@
    "symbol": "NVDA",
    "name": "Nvidia",
    "list": "portfolio",
-   "price": 188.69,
+   "price": 189.45,
    "prev_close": 181.6,
-   "change_pct": 3.9,
+   "change_pct": 4.3,
    "trigger_change": 6.2,
    "peak_change": 6.3,
    "first_seen": "2026-11-06T14:58:21+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 462.27,
-    "change_pct": 3.25
+    "price": 465.85,
+    "change_pct": 4.05
    },
    "chart": {
-    "ema8": -5.2,
-    "ema21": -9.9,
-    "sma50": -14.2,
-    "sma200": -7.8,
+    "ema8": -4.9,
+    "ema21": -9.6,
+    "sma50": -13.8,
+    "sma200": -7.4,
     "momentum": false
    },
    "headlines": [
@@ -474,23 +474,23 @@
    "symbol": "AVGO",
    "name": "Broadcom",
    "list": "portfolio",
-   "price": 296.56,
+   "price": 297.29,
    "prev_close": 291.53,
-   "change_pct": 1.7,
+   "change_pct": 2.0,
    "trigger_change": 3.9,
    "peak_change": 3.9,
    "first_seen": "2026-11-06T14:58:21+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 462.27,
-    "change_pct": 3.25
+    "price": 465.85,
+    "change_pct": 4.05
    },
    "chart": {
-    "ema8": -6.4,
-    "ema21": -10.4,
-    "sma50": -14.8,
-    "sma200": -19.2,
+    "ema8": -6.2,
+    "ema21": -10.2,
+    "sma50": -14.6,
+    "sma200": -19.0,
     "momentum": false
    },
    "headlines": [
@@ -549,7 +549,7 @@
    "symbol": "CRWD",
    "name": "CrowdStrike",
    "list": "portfolio",
-   "price": 220.5,
+   "price": 220.39,
    "prev_close": 217.2,
    "change_pct": 1.5,
    "trigger_change": 3.8,
@@ -558,14 +558,14 @@
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 98.64,
-    "change_pct": -0.37
+    "price": 98.98,
+    "change_pct": -0.03
    },
    "chart": {
-    "ema8": -6.9,
+    "ema8": -7.0,
     "ema21": -9.9,
     "sma50": -9.6,
-    "sma200": 29.5,
+    "sma200": 29.4,
     "momentum": false
    },
    "headlines": [
