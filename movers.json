@@ -1,22 +1,22 @@
 {
  "date": "2026-11-06",
  "threshold": 3.0,
- "updated": "2026-11-06T15:18:28+00:00",
+ "updated": "2026-11-06T15:23:28+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 740.42,
+   "price": 740.4,
    "change_pct": 1.01
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 660.66,
-   "change_pct": 2.1
+   "price": 660.28,
+   "change_pct": 2.04
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 81.89,
-   "change_pct": -0.05
+   "price": 81.88,
+   "change_pct": -0.07
   }
  },
  "movers": [
@@ -24,23 +24,23 @@
    "symbol": "AXON",
    "name": "Axon",
    "list": "watchlist",
-   "price": 321.35,
+   "price": 319.3,
    "prev_close": 382.56,
-   "change_pct": -16.0,
+   "change_pct": -16.5,
    "trigger_change": -15.9,
    "peak_change": -17.3,
    "first_seen": "2026-11-06T14:58:21+00:00",
    "sector": {
     "etf": "XLI",
     "name": "Industrials",
-    "price": 163.49,
+    "price": 163.5,
     "change_pct": 0.63
    },
    "chart": {
-    "ema8": -18.2,
-    "ema21": -21.7,
-    "sma50": -27.2,
-    "sma200": -32.1,
+    "ema8": -18.7,
+    "ema21": -22.2,
+    "sma50": -27.7,
+    "sma200": -32.5,
     "momentum": false
    },
    "headlines": [
@@ -99,23 +99,23 @@
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 128.8,
+   "price": 130.53,
    "prev_close": 120.37,
-   "change_pct": 7.0,
+   "change_pct": 8.4,
    "trigger_change": 9.7,
    "peak_change": 9.7,
    "first_seen": "2026-11-06T14:58:21+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 99.16,
-    "change_pct": 0.15
+    "price": 98.81,
+    "change_pct": -0.2
    },
    "chart": {
-    "ema8": -10.4,
-    "ema21": -22.5,
-    "sma50": -36.1,
-    "sma200": -27.8,
+    "ema8": -9.4,
+    "ema21": -21.5,
+    "sma50": -35.3,
+    "sma200": -26.8,
     "momentum": false
    },
    "headlines": [
@@ -174,22 +174,22 @@
    "symbol": "ANET",
    "name": "Arista Networks",
    "list": "portfolio",
-   "price": 170.19,
+   "price": 170.29,
    "prev_close": 159.16,
-   "change_pct": 6.9,
+   "change_pct": 7.0,
    "trigger_change": 7.7,
    "peak_change": 7.7,
    "first_seen": "2026-11-06T14:58:21+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 467.16,
-    "change_pct": 4.34
+    "price": 464.91,
+    "change_pct": 3.84
    },
    "chart": {
     "ema8": -0.9,
     "ema21": -5.6,
-    "sma50": -11.7,
+    "sma50": -11.6,
     "sma200": 2.5,
     "momentum": false
    },
@@ -246,101 +246,26 @@
    "brief": null
   },
   {
-   "symbol": "NVDA",
-   "name": "Nvidia",
-   "list": "portfolio",
-   "price": 191.62,
-   "prev_close": 181.6,
-   "change_pct": 5.5,
-   "trigger_change": 6.2,
-   "peak_change": 6.3,
-   "first_seen": "2026-11-06T14:58:21+00:00",
-   "sector": {
-    "etf": "SMH",
-    "name": "Semiconductors",
-    "price": 467.16,
-    "change_pct": 4.34
-   },
-   "chart": {
-    "ema8": -4.0,
-    "ema21": -8.6,
-    "sma50": -12.9,
-    "sma200": -6.4,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Nvidia: Competitive Moat Widening; Buy (NASDAQ:NVDA)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPZ3JjdG55eXd4UHpTU0FsNkw5Szl3MVgzckZGM2dUN1l3bmxiVENVdGhaV2hfcmRIbW9zWUVLTEZZX3FlS0U0WmprUW5lRHZ6a09GM3E1WXRuWUphVVJMT3ludVFnblZoN2ZENVRmS0MxSnpuYnc2N3hnQ1p0dU1nZW5vTQ?oc=5",
-     "time": "2026-11-06T13:54:53+00:00"
-    },
-    {
-     "title": "Cathie Wood Is Buying The Dip In Nvidia As She Adds $45.9 Million Of NVDA And Sells $119.7 Million Of Broadcom",
-     "publisher": "24/7 Wall St.",
-     "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPMDBWUTJBTnJyc0tCeHIxVTR2eldGeWtvSUZrT29CX1hvZXZkc013ZTB2Mmo0bUw4dmEzUGRWUTdDTWxmRFR2ZjMyMTFPOUI3X20ydjhnbVRVMzNqYUxabTMtNlJfOFU3NTZDeHcxLUxtbDhuWlZSRmM5NkFLMkJ4VXdCcVY3ejBZZlhaRjRHdTFOMFlhQ1kxZUZpbEh5MVhPbWZRM3MwbEpYUEVyLUpEZ1loS3UyZFlDUFREaW5hdE1oYURRQXEzLUNPbkR5NkQ0THlPZ2w1SUFfb3paY3NfZ3NNc084NDg?oc=5",
-     "time": "2026-11-06T13:43:00+00:00"
-    },
-    {
-     "title": "What Sent NVIDIA Stock Lower?",
-     "publisher": "Trefis",
-     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxONUlEREwxZEE1QjhqTlcxN20yYjV2LUdnV2t6d2M4VGpKRVN1QUZVR0V6V2RnMFJRaHlFRXh3N2Z1YXlNR04xWGc3TzY4X0NkZGZFZC0zNDNzcHRPUm1vclpORU92N3pKY1JWdlhSLTQweGFlS1RhWFJxMTU0OUJmS1dXQVRubklEaUMwczRUdWhXckE?oc=5",
-     "time": "2026-11-06T13:20:34+00:00"
-    },
-    {
-     "title": "NVDA stock crash: Nvidia\u2019s worst day since the DeepSeek shock - The AI giant fell 9% and is now down for t",
-     "publisher": "The Economic Times",
-     "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxNMzc4Q0NzV21tUG5oVFJXanN0S0oteHltTW1Cd3BuV2MxanA0aFhXVFBGZVhmR0xaS3ZVZXFlZGJEajF5RVBUcWthMml6Qy1UT1l1aUVYcDJhQ3RmdndmNEN1QW9ZcVhKcHNOUmlob29Tc3ZmZ19QVWkxVmpnYmlCWXllQWVrYVZhYWo4V3ZnODQtemJkS0xJTldzc1FMZWMtSTNOMlBJYXVPOVY2Wkc5enp3d0wtcVktdEstRlZOMWRuaUZoYTJxOXVUeVhWeVBhdGJFQkY5cTdSQXZ6NldLLUNDcUstcmlhTlgwSnhWRTBsZWJ6b3R0T0pEM2JCTjd5cmduVDRnNUdjczJESEkybmxB0gGXAkFVX3lxTE85d2dNZWNDMk5wQVdIQnJDV1ZaV3YzLTBpV0MwWjQtQ2xnZ3FjZHdfcU9hVXVCMmhXSzZJME1COHk1MzNiX245dGNZY25PbFY3QjVmdEtYekcxOFJuSWtpeXBadW9kTmxBNE1NUENlWnB0Y0RIRDhNeVZaYXkzZmROQ2gwMy1sOWpRWDMycnlrSlRxMm9HMGpwTUtLb2tPTWdJMGFROFRvWFhweEFBVlVMSFJaVXBJRFhYa2xCcnFCcVhueUV4N3VSZGNIdXowR2c2eEhVY205RmJoM0pHSG5NVVdsaDNIZUUySEYzcVFlU0tDbFd3dm9DRy15ZUhjWkpCcmdtX1lwSUcxb2t6UDFSV3VTMEh2UQ?oc=5",
-     "time": "2026-11-06T13:01:28+00:00"
-    },
-    {
-     "title": "NVDA Price Prediction: Bearish pressure tests support as the stock loses trend support",
-     "publisher": "Blockchain News",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOTFVadEw0blhzSWtYUlJpbFVPcm9pdHMxenRsRHc1MXFzQktON2VacHVwMUlyWTlMRXFiX3lWNlFucGl3TGhmVkhvb1hET3RHLXNHX0hNM3N1eEFsZ3IzdmFQSUs2YjBUejRtNzhjdVpRbEtXR0FNa2x6d3E5VnA5SlNvaDdvV2hHYU5kMEVTQ0t4bzQ5VXhQR2QzRWk3QQ?oc=5",
-     "time": "2026-11-06T11:50:00+00:00"
-    },
-    {
-     "title": "Nvidia Stock Forecast: China Shipment Delays Put $173.69 in Focus",
-     "publisher": "TradingKey",
-     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOczhYWFR1YnE3VXBBNUpyZld3eFlvSzBzTXZZZzBkWUtyd1dzcGpZVVYtdk1VVFRTMkVxUzNTcmN5UEdiYnRYQmFpRnA1V1ZyZjMxcmZ5YzVuYmNibUJ1X1BnbEV1QkQ1UUFRdy16SHliUVVvUmhGT2MxZEFuTmxkVG5EQ013Tkg0S1hCZk9SVDAwQTN0WXB5cWd3WjVvR0pKQVlsWV9xYTFZc2dMakpjcy16M0pDdm1HVzBYSFdBUks?oc=5",
-     "time": "2026-11-06T11:32:29+00:00"
-    },
-    {
-     "title": "Nvidia (NVDA) Stock: $181.60, Down 9.26% Nov 5",
-     "publisher": "JournalArta",
-     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOMXhQT0JNXzg3eURlaVdMbFBkWE14d3N4cjZneUVuaFEydXRWSTJvcVNFOFZvRGdqbkV2ZHc0WGxVMlVhVFlSa1N1MnA0YmRFVzVWdlREYTNuYnlDNDg1S1h4UVV5aHA5Zms5UHhvT3VJcXFEZnJ2ZkNPcEltM2o0c05SRURiNGs2c1hYUldPUHJhUHFDZWlR?oc=5",
-     "time": "2026-11-06T11:09:18+00:00"
-    },
-    {
-     "title": "NVIDIA (NVDA) Sees $118.8 Million in Net ETF Selling on Wednesday",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQSTdnQXgtU1BZMzltUWNzOUZ3X01XU0lPY2dVVjBUOE1tVFg1enVVSzlORzZxMGhlcnZ4QmZqRFhQSmFNSUpmNEdwcm5ZQjY3SUQ5NFFxLTRUSUQxUDNYN1dtUEJTYkMySEtfYTZlQ280eWtsMGZkYlpnUVdhVTAyNDQxLTlrTEItTUhoaGQtS0k?oc=5",
-     "time": "2026-11-06T11:02:20+00:00"
-    }
-   ],
-   "brief": null
-  },
-  {
    "symbol": "APP",
    "name": "AppLovin",
    "list": "portfolio",
-   "price": 375.72,
+   "price": 377.31,
    "prev_close": 356.1,
-   "change_pct": 5.5,
+   "change_pct": 6.0,
    "trigger_change": 4.0,
-   "peak_change": 5.5,
+   "peak_change": 6.0,
    "first_seen": "2026-11-06T14:58:21+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 99.16,
-    "change_pct": 0.15
+    "price": 98.81,
+    "change_pct": -0.2
    },
    "chart": {
-    "ema8": 25.9,
-    "ema21": 33.2,
-    "sma50": 28.2,
-    "sma200": -8.2,
+    "ema8": 26.3,
+    "ema21": 33.7,
+    "sma50": 28.7,
+    "sma200": -7.8,
     "momentum": true
    },
    "headlines": [
@@ -396,26 +321,101 @@
    "brief": null
   },
   {
+   "symbol": "NVDA",
+   "name": "Nvidia",
+   "list": "portfolio",
+   "price": 191.36,
+   "prev_close": 181.6,
+   "change_pct": 5.4,
+   "trigger_change": 6.2,
+   "peak_change": 6.3,
+   "first_seen": "2026-11-06T14:58:21+00:00",
+   "sector": {
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 464.91,
+    "change_pct": 3.84
+   },
+   "chart": {
+    "ema8": -4.1,
+    "ema21": -8.8,
+    "sma50": -13.0,
+    "sma200": -6.5,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Nvidia: Competitive Moat Widening; Buy (NASDAQ:NVDA)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPZ3JjdG55eXd4UHpTU0FsNkw5Szl3MVgzckZGM2dUN1l3bmxiVENVdGhaV2hfcmRIbW9zWUVLTEZZX3FlS0U0WmprUW5lRHZ6a09GM3E1WXRuWUphVVJMT3ludVFnblZoN2ZENVRmS0MxSnpuYnc2N3hnQ1p0dU1nZW5vTQ?oc=5",
+     "time": "2026-11-06T13:54:53+00:00"
+    },
+    {
+     "title": "Cathie Wood Is Buying The Dip In Nvidia As She Adds $45.9 Million Of NVDA And Sells $119.7 Million Of Broadcom",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPMDBWUTJBTnJyc0tCeHIxVTR2eldGeWtvSUZrT29CX1hvZXZkc013ZTB2Mmo0bUw4dmEzUGRWUTdDTWxmRFR2ZjMyMTFPOUI3X20ydjhnbVRVMzNqYUxabTMtNlJfOFU3NTZDeHcxLUxtbDhuWlZSRmM5NkFLMkJ4VXdCcVY3ejBZZlhaRjRHdTFOMFlhQ1kxZUZpbEh5MVhPbWZRM3MwbEpYUEVyLUpEZ1loS3UyZFlDUFREaW5hdE1oYURRQXEzLUNPbkR5NkQ0THlPZ2w1SUFfb3paY3NfZ3NNc084NDg?oc=5",
+     "time": "2026-11-06T13:43:00+00:00"
+    },
+    {
+     "title": "What Sent NVIDIA Stock Lower?",
+     "publisher": "Trefis",
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxONUlEREwxZEE1QjhqTlcxN20yYjV2LUdnV2t6d2M4VGpKRVN1QUZVR0V6V2RnMFJRaHlFRXh3N2Z1YXlNR04xWGc3TzY4X0NkZGZFZC0zNDNzcHRPUm1vclpORU92N3pKY1JWdlhSLTQweGFlS1RhWFJxMTU0OUJmS1dXQVRubklEaUMwczRUdWhXckE?oc=5",
+     "time": "2026-11-06T13:20:34+00:00"
+    },
+    {
+     "title": "NVDA stock crash: Nvidia\u2019s worst day since the DeepSeek shock - The AI giant fell 9% and is now down for t",
+     "publisher": "The Economic Times",
+     "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxNMzc4Q0NzV21tUG5oVFJXanN0S0oteHltTW1Cd3BuV2MxanA0aFhXVFBGZVhmR0xaS3ZVZXFlZGJEajF5RVBUcWthMml6Qy1UT1l1aUVYcDJhQ3RmdndmNEN1QW9ZcVhKcHNOUmlob29Tc3ZmZ19QVWkxVmpnYmlCWXllQWVrYVZhYWo4V3ZnODQtemJkS0xJTldzc1FMZWMtSTNOMlBJYXVPOVY2Wkc5enp3d0wtcVktdEstRlZOMWRuaUZoYTJxOXVUeVhWeVBhdGJFQkY5cTdSQXZ6NldLLUNDcUstcmlhTlgwSnhWRTBsZWJ6b3R0T0pEM2JCTjd5cmduVDRnNUdjczJESEkybmxB0gGXAkFVX3lxTE85d2dNZWNDMk5wQVdIQnJDV1ZaV3YzLTBpV0MwWjQtQ2xnZ3FjZHdfcU9hVXVCMmhXSzZJME1COHk1MzNiX245dGNZY25PbFY3QjVmdEtYekcxOFJuSWtpeXBadW9kTmxBNE1NUENlWnB0Y0RIRDhNeVZaYXkzZmROQ2gwMy1sOWpRWDMycnlrSlRxMm9HMGpwTUtLb2tPTWdJMGFROFRvWFhweEFBVlVMSFJaVXBJRFhYa2xCcnFCcVhueUV4N3VSZGNIdXowR2c2eEhVY205RmJoM0pHSG5NVVdsaDNIZUUySEYzcVFlU0tDbFd3dm9DRy15ZUhjWkpCcmdtX1lwSUcxb2t6UDFSV3VTMEh2UQ?oc=5",
+     "time": "2026-11-06T13:01:28+00:00"
+    },
+    {
+     "title": "NVDA Price Prediction: Bearish pressure tests support as the stock loses trend support",
+     "publisher": "Blockchain News",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOTFVadEw0blhzSWtYUlJpbFVPcm9pdHMxenRsRHc1MXFzQktON2VacHVwMUlyWTlMRXFiX3lWNlFucGl3TGhmVkhvb1hET3RHLXNHX0hNM3N1eEFsZ3IzdmFQSUs2YjBUejRtNzhjdVpRbEtXR0FNa2x6d3E5VnA5SlNvaDdvV2hHYU5kMEVTQ0t4bzQ5VXhQR2QzRWk3QQ?oc=5",
+     "time": "2026-11-06T11:50:00+00:00"
+    },
+    {
+     "title": "Nvidia Stock Forecast: China Shipment Delays Put $173.69 in Focus",
+     "publisher": "TradingKey",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOczhYWFR1YnE3VXBBNUpyZld3eFlvSzBzTXZZZzBkWUtyd1dzcGpZVVYtdk1VVFRTMkVxUzNTcmN5UEdiYnRYQmFpRnA1V1ZyZjMxcmZ5YzVuYmNibUJ1X1BnbEV1QkQ1UUFRdy16SHliUVVvUmhGT2MxZEFuTmxkVG5EQ013Tkg0S1hCZk9SVDAwQTN0WXB5cWd3WjVvR0pKQVlsWV9xYTFZc2dMakpjcy16M0pDdm1HVzBYSFdBUks?oc=5",
+     "time": "2026-11-06T11:32:29+00:00"
+    },
+    {
+     "title": "Nvidia (NVDA) Stock: $181.60, Down 9.26% Nov 5",
+     "publisher": "JournalArta",
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOMXhQT0JNXzg3eURlaVdMbFBkWE14d3N4cjZneUVuaFEydXRWSTJvcVNFOFZvRGdqbkV2ZHc0WGxVMlVhVFlSa1N1MnA0YmRFVzVWdlREYTNuYnlDNDg1S1h4UVV5aHA5Zms5UHhvT3VJcXFEZnJ2ZkNPcEltM2o0c05SRURiNGs2c1hYUldPUHJhUHFDZWlR?oc=5",
+     "time": "2026-11-06T11:09:18+00:00"
+    },
+    {
+     "title": "NVIDIA (NVDA) Sees $118.8 Million in Net ETF Selling on Wednesday",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQSTdnQXgtU1BZMzltUWNzOUZ3X01XU0lPY2dVVjBUOE1tVFg1enVVSzlORzZxMGhlcnZ4QmZqRFhQSmFNSUpmNEdwcm5ZQjY3SUQ5NFFxLTRUSUQxUDNYN1dtUEJTYkMySEtfYTZlQ280eWtsMGZkYlpnUVdhVTAyNDQxLTlrTEItTUhoaGQtS0k?oc=5",
+     "time": "2026-11-06T11:02:20+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
    "symbol": "AMAT",
    "name": "Applied Materials",
    "list": "portfolio",
-   "price": 334.62,
+   "price": 336.15,
    "prev_close": 319.25,
-   "change_pct": 4.8,
+   "change_pct": 5.3,
    "trigger_change": 7.8,
    "peak_change": 7.8,
    "first_seen": "2026-11-06T14:58:21+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 467.16,
-    "change_pct": 4.34
+    "price": 464.91,
+    "change_pct": 3.84
    },
    "chart": {
-    "ema8": -8.3,
-    "ema21": -16.5,
-    "sma50": -24.8,
-    "sma200": -24.9,
+    "ema8": -8.0,
+    "ema21": -16.1,
+    "sma50": -24.4,
+    "sma200": -24.5,
     "momentum": false
    },
    "headlines": [
@@ -474,23 +474,23 @@
    "symbol": "AVGO",
    "name": "Broadcom",
    "list": "portfolio",
-   "price": 299.51,
+   "price": 300.32,
    "prev_close": 291.53,
-   "change_pct": 2.7,
+   "change_pct": 3.0,
    "trigger_change": 3.9,
    "peak_change": 3.9,
    "first_seen": "2026-11-06T14:58:21+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 467.16,
-    "change_pct": 4.34
+    "price": 464.91,
+    "change_pct": 3.84
    },
    "chart": {
-    "ema8": -5.7,
-    "ema21": -9.6,
-    "sma50": -13.9,
-    "sma200": -18.4,
+    "ema8": -5.5,
+    "ema21": -9.4,
+    "sma50": -13.7,
+    "sma200": -18.2,
     "momentum": false
    },
    "headlines": [
@@ -549,23 +549,23 @@
    "symbol": "CRWD",
    "name": "CrowdStrike",
    "list": "portfolio",
-   "price": 222.65,
+   "price": 221.36,
    "prev_close": 217.2,
-   "change_pct": 2.5,
+   "change_pct": 1.9,
    "trigger_change": 3.8,
    "peak_change": 3.8,
    "first_seen": "2026-11-06T14:58:21+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 99.16,
-    "change_pct": 0.15
+    "price": 98.81,
+    "change_pct": -0.2
    },
    "chart": {
-    "ema8": -6.2,
-    "ema21": -9.1,
-    "sma50": -8.7,
-    "sma200": 30.8,
+    "ema8": -6.6,
+    "ema21": -9.5,
+    "sma50": -9.2,
+    "sma200": 30.0,
     "momentum": false
    },
    "headlines": [
