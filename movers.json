@@ -1,22 +1,22 @@
 {
  "date": "2026-11-06",
  "threshold": 3.0,
- "updated": "2026-11-06T17:48:32+00:00",
+ "updated": "2026-11-06T18:03:33+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 736.12,
+   "price": 736.18,
    "change_pct": 0.43
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 655.06,
-   "change_pct": 1.24
+   "price": 655.75,
+   "change_pct": 1.34
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 82.22,
-   "change_pct": 0.36
+   "price": 82.26,
+   "change_pct": 0.4
   }
  },
  "movers": [
@@ -24,23 +24,23 @@
    "symbol": "AXON",
    "name": "Axon",
    "list": "watchlist",
-   "price": 310.86,
+   "price": 311.87,
    "prev_close": 382.56,
-   "change_pct": -18.7,
+   "change_pct": -18.5,
    "trigger_change": -15.9,
    "peak_change": -19.2,
    "first_seen": "2026-11-06T14:58:21+00:00",
    "sector": {
     "etf": "XLI",
     "name": "Industrials",
-    "price": 162.5,
-    "change_pct": 0.02
+    "price": 162.65,
+    "change_pct": 0.11
    },
    "chart": {
-    "ema8": -20.4,
-    "ema21": -24.1,
-    "sma50": -29.6,
-    "sma200": -34.3,
+    "ema8": -20.2,
+    "ema21": -23.9,
+    "sma50": -29.4,
+    "sma200": -34.1,
     "momentum": false
    },
    "headlines": [
@@ -99,26 +99,32 @@
    "symbol": "APP",
    "name": "AppLovin",
    "list": "portfolio",
-   "price": 386.86,
+   "price": 390.4,
    "prev_close": 356.1,
-   "change_pct": 8.6,
+   "change_pct": 9.6,
    "trigger_change": 4.0,
-   "peak_change": 8.9,
+   "peak_change": 9.9,
    "first_seen": "2026-11-06T14:58:21+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 98.6,
-    "change_pct": -0.41
+    "price": 98.88,
+    "change_pct": -0.13
    },
    "chart": {
-    "ema8": 28.6,
-    "ema21": 36.7,
-    "sma50": 31.9,
-    "sma200": -5.5,
+    "ema8": 29.4,
+    "ema21": 37.8,
+    "sma50": 33.1,
+    "sma200": -4.6,
     "momentum": true
    },
    "headlines": [
+    {
+     "title": "AppLovin: Lovin' The Clicks, Not The AI Hysterics (NASDAQ:APP)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQZzhqY2FxYWdoeElia3BHQUxXczlzNEtJYUdSZFZnck43Wlg3NnJycERSRGtnVHd5NHdJaGcxeXJHRUphWkRJXzgwTDNWOGdHblk2WkFCcVFoMDVhYk0wQW5MdHlfcFVpZDRUMXhXT1o4RDZSUnRWa0FoZzRnU3dEeTUwUlRlcXdvNWp4S1doUEU?oc=5",
+     "time": "2026-11-06T16:57:59+00:00"
+    },
     {
      "title": "APP Stock Jumps 31% to $356.10 After AppLovin Q3 Earnings Beat",
      "publisher": "FXLeaders",
@@ -136,12 +142,6 @@
      "publisher": "JournalArta",
      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOUVl4NHJiWUtCZ3MxNngyWXFhdDgyZl9LMHBQU1ZtVE9RcF91dWNQcHRfYTYzMFdpdkNCSnhwd3ZWSEo3c2RQbHM1dTlhVEhkNG5Hb3Ywb1RxalI4UG9RcGdiSk5IdWdUejlndmdRTkNYa3BhaEJIUEJGeThHQXhKVDJ6NG5LMFpkeFpYeC1Mb3Uxdjh6SnFSbUtMeUs?oc=5",
      "time": "2026-11-06T11:09:18+00:00"
-    },
-    {
-     "title": "AppLovin Corporation (APP) Stock Price, News, Quote & History",
-     "publisher": "Yahoo! Finance Canada",
-     "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1fUE8zMTBFRFRnQW1RSDJjM0p4R0Ixdzc5MDBDWnlqTjNpekJHU21nLUFHSWliMGxtR2hfajFEZ2hITHVkSGp5QVRrQlppWFYy?oc=5",
-     "time": "2026-11-06T10:48:29+00:00"
     },
     {
      "title": "Applovin Corporation (APP) Stock Price Today: $348.37",
@@ -174,26 +174,32 @@
    "symbol": "ANET",
    "name": "Arista Networks",
    "list": "portfolio",
-   "price": 168.46,
+   "price": 168.6,
    "prev_close": 159.16,
-   "change_pct": 5.8,
+   "change_pct": 5.9,
    "trigger_change": 7.7,
    "peak_change": 7.7,
    "first_seen": "2026-11-06T14:58:21+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 457.71,
-    "change_pct": 2.23
+    "price": 458.69,
+    "change_pct": 2.45
    },
    "chart": {
-    "ema8": -1.7,
-    "ema21": -6.5,
+    "ema8": -1.6,
+    "ema21": -6.4,
     "sma50": -12.5,
-    "sma200": 1.4,
+    "sma200": 1.5,
     "momentum": false
    },
    "headlines": [
+    {
+     "title": "Arista Networks Going From Strength To Strength (NYSE:ANET)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNRVBCUW5XS3RtekNoRWxBTW5uSmgyaGpLME4xZjFvNnZmbkpwT1BwZUFsME1BRWZYdHFKdEllRUZpam4yQkRMUzNMSkFNeUd2SVBFLTlNdTRXU2ZJUXAyeUN1dUZVOVpNMHozRjMxaVpqTFBKaGZiRjMteUtBeTRkMGxWNHJVWUt3azdYLS1LcFJBdw?oc=5",
+     "time": "2026-11-06T17:07:50+00:00"
+    },
     {
      "title": "Why Is Arista Stock Falling?",
      "publisher": "Trefis",
@@ -235,37 +241,106 @@
      "publisher": "Simply Wall St",
      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNYkxvUHQ2ei1pT29Nd3JFUkRrQ0tjSFp5Zk91NUlBNU9Obm1nN1BPU0VGelZoM0pNRjRydnJJX1VTRGZpYUljbXdYaXJFcUZEM2t2WWFnWlkyeU92U2VLa09RbEVlbThONXV0LUNReFpfWlNmamI3Q0NTOWdhTVZVMmxkRlFBc1pfVlZaZkJUalV6a0lpX2haQ3Zva09lcVRoWFRRZWZ4QlpJVkJNQzJlc3AxRGZlVGd1RVdvQndUWXNqNkpqTlVr0gHMAUFVX3lxTE5Vc3dvTG9nWVNhUml6MkV4TUtEUEdFb2JuUFBXTWxSRVI3bnFGMi1LamE1ejFvM0VuTTh0c1ROOG9kTGhfaGlPalk4TnoyYjVSaFowZ1JLUXdRS2JDZERVYkg1SUFGLWF3MDZJRE5ydEdBR3hBazZsZWp6WmVwNTBJdVZrZHFCcXpzNWlIb00zU1JmSzl4eVpmSE5qeTB5bWRWZWdpRkllWWU1OFFmYjRZX0x6bHdJb3dDZTl5UXNjc3A1QlUzbF9HTzdMdw?oc=5",
      "time": "2026-11-06T05:23:25+00:00"
-    },
-    {
-     "title": "Arista Sinks 11%, Ciena Down 15% as AI Selloff Deepens After Democratic Sweep",
-     "publisher": "TIKR.com",
-     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNODBsUzdCU3FPZjZ1Ynk2N1hSYmFLYzRYajZGSzNFdXNsc3A2SVM1czh0a0tRWG1qREFhTkhTMFdqVWpsMGlQMEY0cTBCRUFvQjhsak93Q3pDUEwxZHhjMzkyUEhLQmVLdkFKR1FMVGFWUEphemtOMG1nZTc2S2ZqRXc0LWRVTDByYkdaWlVDZU9TRXNhUDNWMTFsNEVmdzByTlE?oc=5",
-     "time": "2026-11-05T22:16:53+00:00"
     }
    ],
    "brief": "2026-11-06-ANET"
   },
   {
+   "symbol": "NBIS",
+   "name": "Nebius",
+   "list": "portfolio",
+   "price": 125.37,
+   "prev_close": 120.37,
+   "change_pct": 4.2,
+   "trigger_change": 9.7,
+   "peak_change": 9.7,
+   "first_seen": "2026-11-06T14:58:21+00:00",
+   "sector": {
+    "etf": "IGV",
+    "name": "Software",
+    "price": 98.88,
+    "change_pct": -0.13
+   },
+   "chart": {
+    "ema8": -12.3,
+    "ema21": -24.4,
+    "sma50": -37.8,
+    "sma200": -29.7,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Why Is Nebius Stock Surging on Friday?",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOOFBuS2g2NDVHOW02ak5WNFpienJNR2gzS1RQU1daWTNTS2I2THlBaGw5dGg0Z1BFQ1dETHdRT0d5bmJPcHFKaXY5MFBUbHQwVThlYWN6amJVcndwMnZtcGZ3Y0JEVEJkcXRIdkg1cm9icW0yelhpbWRWMWhJS0liTE41UmFveFMzT0JUd1ZpM0UybDJUbXBiZVp6bXRTWHl6WkE?oc=5",
+     "time": "2026-11-06T17:22:20+00:00"
+    },
+    {
+     "title": "Nebius: Why The Real Risk Isn't In Washington (NASDAQ:NBIS)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNc25WVG00Y2sxY0syTWNLX1NHYzZOLVNGLUlsYU1KNzFNMzRaYnl4Nmx5VUJEdUkzUUljSUJRdWp3SG1jZ1JSYjUweVdvT2lmb1dSc0p2eHB5enhnYldvM2pmNGlPVG1BMS1OelZhdVZLNDVXeEM4Sld6cjA0cFZUWU9rUEZMUk5pdVB1Mg?oc=5",
+     "time": "2026-11-06T15:37:42+00:00"
+    },
+    {
+     "title": "Nebius Vs. CoreWeave: Only 1 Dip Wins (NASDAQ:NBIS)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOcVVqdzBSZFdfSjVzRTJQSlYxajEteVc0Qkhsejl2OG5HWFBGQnFYVDJRZFJSYXJQdm03RmwtamQ3SXdCbkNOY1lVVHNDNmxpVF83SVMyUEdfSUtHbnl6a0JpOHVCM3Jkbm1TUEhILTRpYXN6V19xakppNDlIaGd2NkxB?oc=5",
+     "time": "2026-11-06T15:19:55+00:00"
+    },
+    {
+     "title": "Nebius Group (NBIS) Loses 45.2% in 4 Weeks, Here's Why a Trend Reversal May be Around the Corner",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNSU5IcGo1LUN5YWFHNGl3OE10dHR2ZEtlcW1sRmlHbUUwRmRaNC1EX3pGMzhaSDBTa3BDWHNWUU9VSy1zdkRCTFR1Q0s1czFkTXU3MkdELWRyWXcxSUN3MnhqRXZoZ0lINDgzb08wSWJGYkNrX2xjV09uR3UxczhvdnFuVTNBWDlZQTJOdTBTSFV1YzVsZnc?oc=5",
+     "time": "2026-11-06T13:35:02+00:00"
+    },
+    {
+     "title": "Nebius: The Selloff Is Testing More Than Its Valuation",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNakN2ZzhaYnRIZkhsZW8xYU5DdGxRWU1NcXFLaFZMM3ZzOHIwaVRtUldxejdzLW5SbHJGRlJuX3hEa1V2ZGhHVW1IRTFrREFOSjBuSmplNkE1ME1HVk1HSGdJRFZVdGRLWUtZWVNkYmtVUVhiVUVQNUlOSDNHbGNKNzNYTEdSRFozUG16a1F0SFY3emdyVDNCQ3dR?oc=5",
+     "time": "2026-11-06T12:38:15+00:00"
+    },
+    {
+     "title": "Nebius Stock Falls 15% to $120.37 as Microsoft Tightens Neocloud Oversight",
+     "publisher": "FinanceFeeds",
+     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBhQ3V0bmwwaVZYRk5FeXhfS3BIVFhsZW0tNlY2Zzd2VEtvOWpiMmFfeGQ1dkVsXzdxakN1OHZKbzhTNVFjY0l2VGxCRTB4OWZ2c0dIR2h2aE9hdXlfWW02bXZuZVVKY2JBeS1XZFR3VTc2OFNvMjdpcENhUkYwa00?oc=5",
+     "time": "2026-11-06T11:40:29+00:00"
+    },
+    {
+     "title": "Why Are Data Center Stocks CoreWeave, Nebius, and IREN Rallying After Thursday\u2019s Steep Selloff, November 6?",
+     "publisher": "TipRanks",
+     "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOZTI5MzlUNHFxOTFaZHdXRVhJdThLY1pnaVRDMzh1R1VuS1JyaWRPY2FINERYLW9YV0d6ZVlUdy0tZ0NiWVN1TkFrYnhNTGFja0lRV1JTTU03S0hYM3pybzFXWVV2eTN1ZFZuODZxQnZfYzUyLXI3QWZCT3dpNjNRb1JGRU1URXJuT2QyX3k4dFFET0o0OXRFdjFQRVlFYm9FMGNWdjUtYUJfRDRlOEd1dVJNMW83YkJJNE5zaUVLbXc0VG1nTmRXYWpXZ0ZpSzB1bnRfeGlfaEpuYjQ3?oc=5",
+     "time": "2026-11-06T11:08:39+00:00"
+    },
+    {
+     "title": "Yandex Stock Price Today | NASDAQ: NBIS Live",
+     "publisher": "Investing.com",
+     "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1MSkZCQnM3TlZTeXQxSzNob3d2UlRHLWo0dWRjT2RJV2ViLUhVZWhfc0diOUdqUXZHbkVVU1ltdEVfRDZLTG9ueXZkcWJkdWd2eTl1WGlWZw?oc=5",
+     "time": "2026-11-06T10:52:23+00:00"
+    }
+   ],
+   "brief": "2026-11-06-NBIS"
+  },
+  {
    "symbol": "AMAT",
    "name": "Applied Materials",
    "list": "portfolio",
-   "price": 331.33,
+   "price": 331.04,
    "prev_close": 319.25,
-   "change_pct": 3.8,
+   "change_pct": 3.7,
    "trigger_change": 7.8,
    "peak_change": 7.8,
    "first_seen": "2026-11-06T14:58:21+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 457.71,
-    "change_pct": 2.23
+    "price": 458.69,
+    "change_pct": 2.45
    },
    "chart": {
-    "ema8": -9.0,
+    "ema8": -9.1,
     "ema21": -17.3,
-    "sma50": -25.5,
-    "sma200": -25.6,
+    "sma50": -25.6,
+    "sma200": -25.7,
     "momentum": false
    },
    "headlines": [
@@ -306,119 +381,62 @@
      "time": "2026-11-05T22:51:58+00:00"
     },
     {
+     "title": "AMAT Stock Price and Chart \u2014 NASDAQ:AMAT",
+     "publisher": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5qVFZwT0xxUUdlRHJWVlFoLTl0Tk55dEVDQ3FxN3NaUUV2NHZoV01WdnY3NDMzMzlvTng2YWpSeHp2VjVNcGNTcjkzd3pVQkdLVmdHckNyaHZBeHQw?oc=5",
+     "time": "2026-11-05T21:37:08+00:00"
+    },
+    {
      "title": "Applied Materials Stocks Fall 12% Before a $10.25 Billion Revenue Test",
      "publisher": "Yahoo! Finance Canada",
      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQbnJsRjJqWmxfZlJFVDNNWW5tTExseW1ud2RkckhWekJvc2hldjF0SmJkSTBFM2xWM3J6UFV2MXFOOWE5TjBCNzBJeGF5ODZocW5XOUlIYURxYXQ1S09NdENhODlyRlJCc0p6aGt6OGRjUFdySkNyZlpWT2hYM25FLVk0QzYwZHNk?oc=5",
      "time": "2026-11-05T19:31:28+00:00"
-    },
-    {
-     "title": "Applied Materials Sinks 12%, Lam Research Down 14% as Chip Stock Rout Deepens After Midterms",
-     "publisher": "TIKR.com",
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPdnJTdkRLWU10YzZxR2phV2ZYSmg0VUJKejRpSVJmV0hTNW1hTlE0aTBLNVQ3dTBDd1hSbU03Q1NnSnNZbUhDNDY2SjJDZXlHWnVzdFk1eHFZT1VOMko3ZFRDM09NUUFvcHhubWttTjl1WFVkZHNndnZXVGpYaVgyaGo1aEIwX09hbGdzOGtIajJhNzQ2ZzN2STdfOUZ5ckxMVDl6R1ByU2tucG4yU0NLbU9FNWxwQQ?oc=5",
-     "time": "2026-11-05T19:05:42+00:00"
     }
    ],
    "brief": "2026-11-06-AMAT"
   },
   {
-   "symbol": "NBIS",
-   "name": "Nebius",
-   "list": "portfolio",
-   "price": 123.42,
-   "prev_close": 120.37,
-   "change_pct": 2.5,
-   "trigger_change": 9.7,
-   "peak_change": 9.7,
-   "first_seen": "2026-11-06T14:58:21+00:00",
-   "sector": {
-    "etf": "IGV",
-    "name": "Software",
-    "price": 98.6,
-    "change_pct": -0.41
-   },
-   "chart": {
-    "ema8": -13.4,
-    "ema21": -25.5,
-    "sma50": -38.8,
-    "sma200": -30.8,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Nebius: Why The Real Risk Isn't In Washington (NASDAQ:NBIS)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNc25WVG00Y2sxY0syTWNLX1NHYzZOLVNGLUlsYU1KNzFNMzRaYnl4Nmx5VUJEdUkzUUljSUJRdWp3SG1jZ1JSYjUweVdvT2lmb1dSc0p2eHB5enhnYldvM2pmNGlPVG1BMS1OelZhdVZLNDVXeEM4Sld6cjA0cFZUWU9rUEZMUk5pdVB1Mg?oc=5",
-     "time": "2026-11-06T15:37:42+00:00"
-    },
-    {
-     "title": "Nebius Vs. CoreWeave: Only 1 Dip Wins (NASDAQ:NBIS)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOcVVqdzBSZFdfSjVzRTJQSlYxajEteVc0Qkhsejl2OG5HWFBGQnFYVDJRZFJSYXJQdm03RmwtamQ3SXdCbkNOY1lVVHNDNmxpVF83SVMyUEdfSUtHbnl6a0JpOHVCM3Jkbm1TUEhILTRpYXN6V19xakppNDlIaGd2NkxB?oc=5",
-     "time": "2026-11-06T15:19:55+00:00"
-    },
-    {
-     "title": "Nebius Group (NBIS) Loses 45.2% in 4 Weeks, Here's Why a Trend Reversal May be Around the Corner",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNSU5IcGo1LUN5YWFHNGl3OE10dHR2ZEtlcW1sRmlHbUUwRmRaNC1EX3pGMzhaSDBTa3BDWHNWUU9VSy1zdkRCTFR1Q0s1czFkTXU3MkdELWRyWXcxSUN3MnhqRXZoZ0lINDgzb08wSWJGYkNrX2xjV09uR3UxczhvdnFuVTNBWDlZQTJOdTBTSFV1YzVsZnc?oc=5",
-     "time": "2026-11-06T13:35:02+00:00"
-    },
-    {
-     "title": "Nebius: The Selloff Is Testing More Than Its Valuation",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNakN2ZzhaYnRIZkhsZW8xYU5DdGxRWU1NcXFLaFZMM3ZzOHIwaVRtUldxejdzLW5SbHJGRlJuX3hEa1V2ZGhHVW1IRTFrREFOSjBuSmplNkE1ME1HVk1HSGdJRFZVdGRLWUtZWVNkYmtVUVhiVUVQNUlOSDNHbGNKNzNYTEdSRFozUG16a1F0SFY3emdyVDNCQ3dR?oc=5",
-     "time": "2026-11-06T12:38:15+00:00"
-    },
-    {
-     "title": "Prediction: Nebius Stock Will Surge 95% in a Year, According to Wall Street. Should You Buy It Before Nov. 12?",
-     "publisher": "The Globe and Mail",
-     "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxQWDFWLXFnQlBoRDE3bGxVLTFQcFg5c0xKdXF6VFdjakRaYl95aHVGNU5nOG45S0Y2TW1OQmNPU0M2VEhVSVFmVGxwTVQ2Vk5KMHpPQlRiUnFTWU9MVmVxd0toSXpGOWlobU1NLWpsR2Fock1kZVNjMGhEaDhmN21VZmlHdWZPdUdIN1dRMWYtS3YtRnZkR2VZZWVnczFFOWliZ1F6M2tZOGI0WG5WVDc5OTFoNEp3TUhNdGh3ZGs3d0phUFU0RnQ4N3VYeW55cHA4WjAxNnVtcG5WYjA1OFRvWm54dEtJOGk4VVJmR19EMUtjdkYxLVc2dmNFNkt6OU5Gdzc2MlotNzY4X2lwbF8xUThieVpiSHhk?oc=5",
-     "time": "2026-11-06T11:11:26+00:00"
-    },
-    {
-     "title": "Why Are Data Center Stocks CoreWeave, Nebius, and IREN Rallying After Thursday\u2019s Steep Selloff, November 6?",
-     "publisher": "TipRanks",
-     "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOZTI5MzlUNHFxOTFaZHdXRVhJdThLY1pnaVRDMzh1R1VuS1JyaWRPY2FINERYLW9YV0d6ZVlUdy0tZ0NiWVN1TkFrYnhNTGFja0lRV1JTTU03S0hYM3pybzFXWVV2eTN1ZFZuODZxQnZfYzUyLXI3QWZCT3dpNjNRb1JGRU1URXJuT2QyX3k4dFFET0o0OXRFdjFQRVlFYm9FMGNWdjUtYUJfRDRlOEd1dVJNMW83YkJJNE5zaUVLbXc0VG1nTmRXYWpXZ0ZpSzB1bnRfeGlfaEpuYjQ3?oc=5",
-     "time": "2026-11-06T11:08:39+00:00"
-    },
-    {
-     "title": "Yandex Stock Price Today | NASDAQ: NBIS Live",
-     "publisher": "Investing.com",
-     "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1MSkZCQnM3TlZTeXQxSzNob3d2UlRHLWo0dWRjT2RJV2ViLUhVZWhfc0diOUdqUXZHbkVVU1ltdEVfRDZLTG9ueXZkcWJkdWd2eTl1WGlWZw?oc=5",
-     "time": "2026-11-06T10:52:23+00:00"
-    },
-    {
-     "title": "Nebius Group N.V. $NBIS Shares Newly Acquired by Rakuten Investment Management Inc.",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQNkZYc2xfWEwwYWU2XzAwVDVMSGNYRTJoNmszU01XUzBfZlE5dkJhMlN6dWNySGJNUE1ORlpCQ0JtOE81aV9FaHEteXpvVzBlcmdZQXB0c1dQMll2WDRfblNENDZWY0RVU1g1NDMzNkVISnhibEFYUExxb1lJMk1ZQzlSUTdkNVNEUUFWNmM3aDlDbFN1RUJyRnpVYUFxbnN0bmJrUzU3X1k0QWZOOHN0cUNRSGhxT3lpUUNERnBRWUNzMEtMNGMwdkJEMEcwT3YxLVdlY1Rxaw?oc=5",
-     "time": "2026-11-06T10:27:18+00:00"
-    }
-   ],
-   "brief": "2026-11-06-NBIS"
-  },
-  {
    "symbol": "NVDA",
    "name": "Nvidia",
    "list": "portfolio",
-   "price": 185.81,
+   "price": 185.91,
    "prev_close": 181.6,
-   "change_pct": 2.3,
+   "change_pct": 2.4,
    "trigger_change": 6.2,
    "peak_change": 6.3,
    "first_seen": "2026-11-06T14:58:21+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 457.71,
-    "change_pct": 2.23
+    "price": 458.69,
+    "change_pct": 2.45
    },
    "chart": {
     "ema8": -6.3,
-    "ema21": -11.2,
-    "sma50": -15.5,
+    "ema21": -11.1,
+    "sma50": -15.4,
     "sma200": -9.2,
     "momentum": false
    },
    "headlines": [
+    {
+     "title": "NVIDIA Corporation (NVDA) Is Taking AI Beyond Chips: Here\u2019s What Could Drive Its Next Growth Phase",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPdmpqcXRlT01RYVBscm5kLUFlWVFDbWNua3J1RG5JNFNhUTJLZUpXU3VNQlhyOTBQdE1GRHladUJTX0hzcHVHSUFHR2ZZNk1rX2JzdUNiRE9rR1F6VDBLR1M2dXR2QWdtbTg1QWhXM29RdTA3QjNpdEhBb2lyMkJ5RU1hY2VFM0hhWmNsa3RYUnNEeGlaNG45cG44ZGFaQQ?oc=5",
+     "time": "2026-11-06T17:33:07+00:00"
+    },
+    {
+     "title": "Forget Nvidia. Here\u2019s the Company Behind the Chips",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPWmxmYzB1b1JfZmM3c01KbGFpTFpxUGxsX29HTlF5X2ZWLXBaLVY5M1dXQVVSaUJfOXRaZmhsUWFjTXNSSUs2UUpoYy1HYUJRVllkbjhTQnRHWHBJSUlNWXduY0VYUVdsSmNnODk5UlBSZ29BTTZWdWlBcF94dFpwRjVFTnFidDhKSlNyb3N3TXpzVUUycEtj?oc=5",
+     "time": "2026-11-06T17:03:00+00:00"
+    },
+    {
+     "title": "NVIDIA Stocks Rebound 6.78% as Lawmakers Call Jensen Huang to Closed-Door Briefing",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQRnZ2Y1c3VTFIcmJCY2kwcjBRdFBzcWMzV1UyaXJzWDN5YkhRWXJweVdpQlF4dXRpRmRaSTZDbk9PeUtUR2tjbjFMYTBVMG9hM1E4ZEgxZVM2TVBYSlMxcEVoaDlxMWFpQkJfS0RKbDB5YXRRaTVYZWdoSmxNSXlxUjRFbW83ajdhcEhRRXpTUHhIVHhuWlE?oc=5",
+     "time": "2026-11-06T16:52:11+00:00"
+    },
     {
      "title": "Nvidia, AMD and other chip stocks rebound. Is the \u2018violent\u2019 AI selloff over?",
      "publisher": "MarketWatch",
@@ -448,24 +466,6 @@
      "publisher": "Benzinga",
      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOOUowT0RQY0FRckRnRXJtNktISWdJMm5ZY1JNZ3VoMDBrZV96d2Uya0c2akEtbzBMLXNuRVBFTWVubnRSbmNiTDg1NDF4T1ZIUHlWb0hjMERKVVBJSmJvRlhOc05aZmV5NUVYLVczUGU2a09BWUg5NFRPT3k4X0lIeHowWmpnaDNxNTNlVEFTMWhkYm9kOFhqbXFzengzeVRyS0FtTVF1WVktMFMyV0E?oc=5",
      "time": "2026-11-06T15:00:11+00:00"
-    },
-    {
-     "title": "U.S. Stock Market Movements | NVIDIA (NVDA.US) Surges Over 6% as It Plans Data Center Retrofitting Projects with Capacity Reaching 1 Gigawatt",
-     "publisher": "Moomoo",
-     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNSGs5d3lFcWd5WEVwZlBvelNFUWdkUFpJeEgwNGhxckJ1aVdHTmlEVHpmbnZyUEZFMHJnbnZ3c1JVUE1zZmx6eXFhUG04dnp4RzBrRF9Xa3RjVjA3ektfYmZhb0NEaFR3MVFMOUU2QTJDeGZuR2owUTJoYTVYWWdOTnZJRmkzaHhqYlBJMWlHTlZfWWpXTng2V3BzSWFPa2kzWlE?oc=5",
-     "time": "2026-11-06T14:54:37+00:00"
-    },
-    {
-     "title": "Nvidia: Competitive Moat Widening; Buy (NASDAQ:NVDA)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPZ3JjdG55eXd4UHpTU0FsNkw5Szl3MVgzckZGM2dUN1l3bmxiVENVdGhaV2hfcmRIbW9zWUVLTEZZX3FlS0U0WmprUW5lRHZ6a09GM3E1WXRuWUphVVJMT3ludVFnblZoN2ZENVRmS0MxSnpuYnc2N3hnQ1p0dU1nZW5vTQ?oc=5",
-     "time": "2026-11-06T13:54:53+00:00"
-    },
-    {
-     "title": "Cathie Wood Is Buying The Dip In Nvidia As She Adds $45.9 Million Of NVDA And Sells $119.7 Million Of Broadcom",
-     "publisher": "24/7 Wall St.",
-     "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPMDBWUTJBTnJyc0tCeHIxVTR2eldGeWtvSUZrT29CX1hvZXZkc013ZTB2Mmo0bUw4dmEzUGRWUTdDTWxmRFR2ZjMyMTFPOUI3X20ydjhnbVRVMzNqYUxabTMtNlJfOFU3NTZDeHcxLUxtbDhuWlZSRmM5NkFLMkJ4VXdCcVY3ejBZZlhaRjRHdTFOMFlhQ1kxZUZpbEh5MVhPbWZRM3MwbEpYUEVyLUpEZ1loS3UyZFlDUFREaW5hdE1oYURRQXEzLUNPbkR5NkQ0THlPZ2w1SUFfb3paY3NfZ3NNc084NDg?oc=5",
-     "time": "2026-11-06T13:43:00+00:00"
     }
    ],
    "brief": "2026-11-06-NVDA"
@@ -474,7 +474,7 @@
    "symbol": "META",
    "name": "Meta",
    "list": "portfolio",
-   "price": 617.45,
+   "price": 616.88,
    "prev_close": 605.08,
    "change_pct": 2.0,
    "trigger_change": 3.0,
@@ -487,13 +487,25 @@
     "change_pct": 0.74
    },
    "chart": {
-    "ema8": -0.8,
-    "ema21": -5.0,
-    "sma50": -8.5,
-    "sma200": -2.3,
+    "ema8": -0.9,
+    "ema21": -5.1,
+    "sma50": -8.6,
+    "sma200": -2.4,
     "momentum": false
    },
    "headlines": [
+    {
+     "title": "If Meta Reaches $700, Your $1,000 Investment Would Be Worth This Much",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOT0FvWmMyOGNpOHhEcUpZNm02SWI5amc2NnVJamFKTWFpeGRhcTdNTEZKZWNFSmxIRVdvbWh5SGRzeDd3eWlUUlY4YzBxLUlhc0t5eWhkbFVBLWhOYmxyaU1jVUZRdWRyYm1jU05ObEpDbVBTNjFKNXh3N3NiTVN3cHhYR2ZsWXFSRkoyNFMtckhwbkZudmpfYnVxWjEtc0tGdWRKdkFYYjdXTk91c2c?oc=5",
+     "time": "2026-11-06T17:33:00+00:00"
+    },
+    {
+     "title": "Meta Platforms (META) Stock: Rises 2.68% as Company Closes $15 Billion Bond Sale",
+     "publisher": "Blockonomi",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQTl9YSHlyTUNaU3FFbmEyNFBXb0dGNVdWVExFTWM4NEhLVElwamhJSzNvWkZIa3B1MXlwUlVxN0gtRTkwRnlTRHJvaGNTWW9hZmdvSjQ2alJTRTVjT2xuVmV6NGNuS0ZWZ1dvQ21lNktvTkJ2b2ZVWlh1eHRWUXotOGY2Ym9Ld1FaaWppTUl1b3BLRVI0UHpaQWJxUTVBYnRh?oc=5",
+     "time": "2026-11-06T17:32:52+00:00"
+    },
     {
      "title": "Meta (META) Stock May Be A Bargain After Huge AI Fundraising",
      "publisher": "Yahoo Finance",
@@ -508,9 +520,15 @@
     },
     {
      "title": "Rethinking Meta Following The Blue Wave and It Isn\u2019t Just Lawsuits",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOcFpKbldISHkyTTBXcWhMaHpWWW1JTVFEVEZaaG0tSlo4TzNkLXVoWUJFM1l3V1pXcVFqNTFLZkF6V3ZIX3BqTjdWT2JPclpEWlBKMllqTEd0eEJETDEtcGlQUUdBSmhRQnZZZVZHeXRKZWNCZHZSX2hUeGJ0b21JS2FoMlhOd3h0UTQ1Y0M5WDVWT2xWVnQyRTBFLTd3ajFKT1E?oc=5",
-     "time": "2026-11-06T15:45:51+00:00"
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNVzRsajR6X1JTRklXRURsVzdudHkxeFJGUFQ4b1FKbVphR2p6bDUwZlVDcHRfcjZOSmNmUERDOExJRHhGbmhXQ0NJME4zVHZueEMwc0hGOWF3ZFp1b0VuQVVVc0ZieTRobm1kX240YmppWFlOMVRJekluVVk3cWVJaU9UeGtrU3g4ZC1LUzR4ekQwWFdkMzdiRUkyRF9EY2VrbkJpWWNJRGk3aDVHd1E?oc=5",
+     "time": "2026-11-06T15:45:00+00:00"
+    },
+    {
+     "title": "Meta: The Price Of Staying Ahead Of Its Ambitions (NASDAQ:META)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQTWw1ZUZrYldFTGl4cGJFQW4tTHFKQldfcmxleHZEVGcyMWxjbkNfdTBxbjhJQjhmemFqTW90TDlaaklvQkFNckdiMXNnSFlPaUMwektNUnZhYW4xLXdpREh3UjI3TkFvVHp3SFF6MFhpTE1ycm1wRnpEQlZGQzhxSU45aTBWM3l0WFNVNUsydzNSWE0?oc=5",
+     "time": "2026-11-06T15:22:04+00:00"
     },
     {
      "title": "Meta Platforms stock falls amid increased AI investments and delayed business terms",
@@ -523,24 +541,6 @@
      "publisher": "TipRanks",
      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQN2JnZ2RCZlBsVDNmcUhQaWdtMDJSSVhIS3dObjg3RFRFYjZFc1JrRDFDQVAwZnhTMTZDQllLd1JSU0JoeGJsX1FkZDZ4QlVGay1FY05vdjFuQ18zR1BpSHljMnZfNzVzSkVlOGE0MEVVVU01ZU1iMUJ3U2g1V2d0MDJZRjJ0TVJFQmdPeHlJNTF4RzJf?oc=5",
      "time": "2026-11-06T13:34:53+00:00"
-    },
-    {
-     "title": "Meta stock Analysis: closes at $605.08, down 3.96%",
-     "publisher": "The Cryptonomist",
-     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBnWTRtRXVLV1VCZ0M4QU1JaGpFZ243eENjODZ5YVVqRS1SdGdnVlR5LWNLZVBaMkFaRVJmelJTV3FkOHNwN090MTZTSGxYN1AwM3hvR1M3YUFNcVN2d1VoTU9QYWxENUY3dFhJQV8xdU1IZEVPdzJoRm9kRGk?oc=5",
-     "time": "2026-11-06T13:22:43+00:00"
-    },
-    {
-     "title": "Democrats prepare corporate probe wave targeting Apple, Meta, Musk cos.: report (AAPL:NASDAQ)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPd0ZVTEtKOVdYNkNoaklzcVFaSEt3cmpKV2pBWkVrYWhhbHBrbDU3YVN5cUFwMGxVRzNGVmtrQnNXZWF4TFU4RGVJejFGUDU2T3NBRVNoNGtQaWRZOGc5WWM0UXI2Q040anN0cFl4S3JfZWMtWHBYYWF2SUN0bjVza1JfMWJDajkyTjBHZ0h5V3ZSRl9jckxIakgyQzVUVzI2aWR6MV94MTM5c3liRTF2YWdNWQ?oc=5",
-     "time": "2026-11-06T11:08:58+00:00"
-    },
-    {
-     "title": "Meta Platforms: Record Ad Growth, But There's A Costly Catch (NASDAQ:META)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOV0NjcEN4WWM2LXBockRnR1pQSEdsVnVOWTJQOVZ4eUFoWFlmNzVZb3dXRFlJODVQWjRfak83RlYzeFg2Zk83MzZlbHZoYlhSdS1NR1BST2JQUkl4TDZYaHVqQlRYOFlfYVRKbGNmZzVUMEZGY3FreC1DeHEyc05tY3NreV9FalV6YVAtMHhlaWI4X0JyaHhSNGx1dm10Tjg?oc=5",
-     "time": "2026-11-06T10:25:44+00:00"
     }
    ],
    "brief": "2026-11-06-META"
@@ -549,23 +549,23 @@
    "symbol": "CRWD",
    "name": "CrowdStrike",
    "list": "portfolio",
-   "price": 219.14,
+   "price": 219.72,
    "prev_close": 217.2,
-   "change_pct": 0.9,
+   "change_pct": 1.2,
    "trigger_change": 3.8,
    "peak_change": 3.8,
    "first_seen": "2026-11-06T14:58:21+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 98.6,
-    "change_pct": -0.41
+    "price": 98.88,
+    "change_pct": -0.13
    },
    "chart": {
-    "ema8": -7.4,
-    "ema21": -10.4,
-    "sma50": -10.1,
-    "sma200": 28.7,
+    "ema8": -7.2,
+    "ema21": -10.2,
+    "sma50": -9.9,
+    "sma200": 29.1,
     "momentum": false
    },
    "headlines": [
@@ -573,7 +573,7 @@
      "title": "Will CRWD's Acquisitions of Fiddler and Dreadnode Boost its AI Growth?",
      "publisher": "TradingView",
      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNS2tLNm50MWR4QVV2MkpTZ0ZlajlGWmpMRmxCUnB1TEhBTXVTX2M3ZkFyR1pmZTMtVzEzY1BCVXQ3Yk1nSlhZZGhrY3ZDQkd1U2dhSDUxSFpFdnVDQW1JUmN6eEJWeEJIZ0M0VjhxUjlZTEhRQ0J2bndLdndyUGN2c1BlTUE2bzg4Wjg3M2N3UEx2Z0lUejF5WDk3REhyU0xxcjhwYkRBVW5BbHoxalpPQmUzNHljcWtROHkzOGFnekNCcUk?oc=5",
-     "time": "2026-11-06T16:51:18+00:00"
+     "time": "2026-11-06T14:33:00+00:00"
     },
     {
      "title": "\u2018You Should Just Go Buy CrowdStrike,\u2019 Says Jim Cramer. But His Own Club Rates CRWD Stock a \u2018Hold.\u2019",
@@ -600,12 +600,6 @@
      "time": "2026-11-05T22:41:57+00:00"
     },
     {
-     "title": "Why CrowdStrike and cybersecurity stocks got crunched in Thursday\u2019s rout",
-     "publisher": "MarketWatch",
-     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWllBU0hJMHVLSmk4RTFvNzNNYnluTTZfMkNHanh3LWg0UXFqMm5nWGdSS3F1bGZibmQ0YkhKWWw5Ml8tZFdsNW1mNXJId2VJLUl0ZndsOFB0cnBEMU9QYTFGNzJmNk02bUhvUWk3YmQyYi1Hbk9KakdDYzROT0pCMGVmQXUwRThuUWpRVFVSLUR3NjlUam9MWFRKaVplazhiZmp4QjZ5bmFjTW15aGFLaUJvZVc?oc=5",
-     "time": "2026-11-05T21:12:00+00:00"
-    },
-    {
      "title": "Palantir (NASDAQ:PLTR) and CrowdStrike (NASDAQ:CRWD) Stocks Plunge as AI Selloff Spreads Beyond Chips",
      "publisher": "Stocks Down Under",
      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBkbXVZWU43dTZmanVUZGY0R1RoMTJhTFN3a3oxQlZ0TDUyZmc4RG1iNHFSUzdMdEowcWNKbUcyWWxDZjdZamk4QXJhTFcycTB6VFU5R2VCdmZmMkRTTzZLRTlzZEp1S0hNYzlrbDdCNUFMTXhYQmc?oc=5",
@@ -616,6 +610,12 @@
      "publisher": "TradingKey",
      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOWGZMbHp2RHBmd2dKYmk4aEhQMmVocktoTzBKcmNLeWhXMFZUX3lwV0lPN0FRSEhIb2xxSFgzSlNOVFM1NC1yMVpFaHkzUDFGLVBUSFhHVlltX1JmaUlEQlNEUzJFVlgwUGlwZWJmUnY4TDZ6RnJkWTlDaFVjWk5IX2dUVTduTVNMdlpB?oc=5",
      "time": "2026-11-05T20:28:32+00:00"
+    },
+    {
+     "title": "CrowdStrike Is Buying 2 AI Security Startups for Roughly $500 Million. What This Means for CRWD Stock.",
+     "publisher": "Barchart.com",
+     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQNkNVSlVDQmdYaDl2THMxam5RanZHMVVSRjVnNzBVTmROaUkwUjB2WkNwZFpxMURlMlJWUU5tV1JDeWlNUWFKa0dEN1V5akgtSXNQZnNXbkR0MW1oYk5hb3R1RW1Wc3dkQnBvaFN5cVBHOThHYmJXOGlONW9fUUdOV2N4UGlwSmZGeGhuRnk3S0lDc3lNZ0dSa3liSldsbGZHcjhiQlRZdnloR0NJRUxIdG8xNjdPaGxacVBNRTBQUDFvaWt4REd1eDdsVTloTFBYd1lGTkhQZlppb2s?oc=5",
+     "time": "2026-11-05T20:03:23+00:00"
     }
    ],
    "brief": "2026-11-06-CRWD"
@@ -624,26 +624,32 @@
    "symbol": "AVGO",
    "name": "Broadcom",
    "list": "portfolio",
-   "price": 291.79,
+   "price": 291.38,
    "prev_close": 291.53,
-   "change_pct": 0.1,
+   "change_pct": -0.1,
    "trigger_change": 3.9,
    "peak_change": 3.9,
    "first_seen": "2026-11-06T14:58:21+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 457.71,
-    "change_pct": 2.23
+    "price": 458.69,
+    "change_pct": 2.45
    },
    "chart": {
-    "ema8": -7.6,
-    "ema21": -11.7,
-    "sma50": -16.1,
-    "sma200": -20.5,
+    "ema8": -7.7,
+    "ema21": -11.8,
+    "sma50": -16.2,
+    "sma200": -20.6,
     "momentum": false
    },
    "headlines": [
+    {
+     "title": "Broadcom remains a strong buy with $430 fair va...",
+     "publisher": "Pluang",
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOX2NqWUZfQnFKTk1tMEI4aTV4MkJ5T0U1SHk3a1ZDa3hWVUhQaEYyeTBPdXJ2WnZRcGlGbVZmdW9kRlk0cF85S1o4NjFxNmtiYnFKNWxaRDFoMDFTdk85VmpHSEQ2UHIzTFk1UElzUkZGVWhhcVFWODg2WDR0YU4taE5sM1VxS3JFRVZJR2NJWTNEV0k?oc=5",
+     "time": "2026-11-06T17:55:14+00:00"
+    },
     {
      "title": "Broadcom Stocks Rise 3.56% as AI Chip Rebound Lifts Custom Silicon Leader",
      "publisher": "Yahoo Finance",
@@ -685,12 +691,6 @@
      "publisher": "TradingKey",
      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNQ2J3UTJmaVE0WmZPX180NWlVNVdabEhEa1BXbDlwYVZfTjRVYnVDcWVGT0lWQlM4RmtxNml2cEtmVDVEa0lmcjlWWGw0X2Q4czVlUG5tYTZ3UE9ueWN3TEJkWTJNOGxuZnJYaXJ5R01OZnJ5QjRVVEtKVDNrcVBrb1lFbnpJV2hIXy1R?oc=5",
      "time": "2026-11-06T14:47:34+00:00"
-    },
-    {
-     "title": "Broadcom shares fall on AI selloff, but valuati...",
-     "publisher": "Pluang",
-     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQUVvVWZzaDNuTTd4WHAwY3RiWVJrb1J2Vmx4M1UyRUZCSTc2Y0s1RHQwaVJrbEhubURxNnBTdkJCbzhfeF9sZVRiQ2FtUXhqakRLdnprdkltdVYtOXJMQy1iM0tFZWVGUVprenY0dnpRT21xUHJVZUs2U19MdkZBdWtGR2U4aWZnYTVJYVhFTzJZRWNDMTFMclZ5dXk?oc=5",
-     "time": "2026-11-06T14:42:23+00:00"
     }
    ],
    "brief": "2026-11-06-AVGO"
