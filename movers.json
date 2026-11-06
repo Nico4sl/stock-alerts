@@ -1,22 +1,22 @@
 {
  "date": "2026-11-06",
  "threshold": 3.0,
- "updated": "2026-11-06T17:13:24+00:00",
+ "updated": "2026-11-06T17:18:25+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 739.07,
-   "change_pct": 0.83
+   "price": 739.35,
+   "change_pct": 0.87
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 659.31,
-   "change_pct": 1.89
+   "price": 659.68,
+   "change_pct": 1.95
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 82.1,
-   "change_pct": 0.21
+   "price": 82.08,
+   "change_pct": 0.18
   }
  },
  "movers": [
@@ -24,23 +24,23 @@
    "symbol": "AXON",
    "name": "Axon",
    "list": "watchlist",
-   "price": 314.83,
+   "price": 314.23,
    "prev_close": 382.56,
-   "change_pct": -17.7,
+   "change_pct": -17.9,
    "trigger_change": -15.9,
    "peak_change": -18.4,
    "first_seen": "2026-11-06T14:58:21+00:00",
    "sector": {
     "etf": "XLI",
     "name": "Industrials",
-    "price": 163.2,
-    "change_pct": 0.45
+    "price": 163.27,
+    "change_pct": 0.49
    },
    "chart": {
-    "ema8": -19.6,
-    "ema21": -23.2,
-    "sma50": -28.7,
-    "sma200": -33.5,
+    "ema8": -19.7,
+    "ema21": -23.3,
+    "sma50": -28.8,
+    "sma200": -33.6,
     "momentum": false
    },
    "headlines": [
@@ -99,23 +99,23 @@
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 130.07,
+   "price": 130.32,
    "prev_close": 120.37,
-   "change_pct": 8.1,
+   "change_pct": 8.3,
    "trigger_change": 9.7,
    "peak_change": 9.7,
    "first_seen": "2026-11-06T14:58:21+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 99.29,
-    "change_pct": 0.28
+    "price": 99.38,
+    "change_pct": 0.37
    },
    "chart": {
-    "ema8": -9.7,
-    "ema21": -21.8,
-    "sma50": -35.5,
-    "sma200": -27.1,
+    "ema8": -9.5,
+    "ema21": -21.6,
+    "sma50": -35.4,
+    "sma200": -26.9,
     "momentum": false
    },
    "headlines": [
@@ -174,7 +174,7 @@
    "symbol": "APP",
    "name": "AppLovin",
    "list": "portfolio",
-   "price": 384.01,
+   "price": 383.85,
    "prev_close": 356.1,
    "change_pct": 7.8,
    "trigger_change": 4.0,
@@ -183,13 +183,13 @@
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 99.29,
-    "change_pct": 0.28
+    "price": 99.38,
+    "change_pct": 0.37
    },
    "chart": {
     "ema8": 27.9,
     "ema21": 35.8,
-    "sma50": 31.0,
+    "sma50": 30.9,
     "sma200": -6.2,
     "momentum": true
    },
@@ -249,7 +249,7 @@
    "symbol": "ANET",
    "name": "Arista Networks",
    "list": "portfolio",
-   "price": 170.7,
+   "price": 170.77,
    "prev_close": 159.16,
    "change_pct": 7.3,
    "trigger_change": 7.7,
@@ -258,12 +258,12 @@
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 463.92,
-    "change_pct": 3.62
+    "price": 464.37,
+    "change_pct": 3.72
    },
    "chart": {
     "ema8": -0.7,
-    "ema21": -5.4,
+    "ema21": -5.3,
     "sma50": -11.4,
     "sma200": 2.8,
     "momentum": false
@@ -324,23 +324,23 @@
    "symbol": "AMAT",
    "name": "Applied Materials",
    "list": "portfolio",
-   "price": 335.26,
+   "price": 336.0,
    "prev_close": 319.25,
-   "change_pct": 5.0,
+   "change_pct": 5.2,
    "trigger_change": 7.8,
    "peak_change": 7.8,
    "first_seen": "2026-11-06T14:58:21+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 463.92,
-    "change_pct": 3.62
+    "price": 464.37,
+    "change_pct": 3.72
    },
    "chart": {
-    "ema8": -8.2,
-    "ema21": -16.4,
-    "sma50": -24.6,
-    "sma200": -24.7,
+    "ema8": -8.0,
+    "ema21": -16.2,
+    "sma50": -24.5,
+    "sma200": -24.6,
     "momentum": false
    },
    "headlines": [
@@ -399,7 +399,7 @@
    "symbol": "NVDA",
    "name": "Nvidia",
    "list": "portfolio",
-   "price": 188.2,
+   "price": 188.21,
    "prev_close": 181.6,
    "change_pct": 3.6,
    "trigger_change": 6.2,
@@ -408,14 +408,14 @@
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 463.92,
-    "change_pct": 3.62
+    "price": 464.37,
+    "change_pct": 3.72
    },
    "chart": {
     "ema8": -5.4,
     "ema21": -10.1,
     "sma50": -14.4,
-    "sma200": -8.1,
+    "sma200": -8.0,
     "momentum": false
    },
    "headlines": [
@@ -474,23 +474,23 @@
    "symbol": "META",
    "name": "Meta",
    "list": "portfolio",
-   "price": 620.15,
+   "price": 620.55,
    "prev_close": 605.08,
-   "change_pct": 2.5,
+   "change_pct": 2.6,
    "trigger_change": 3.0,
    "peak_change": 3.0,
    "first_seen": "2026-11-06T15:58:32+00:00",
    "sector": {
     "etf": "XLC",
     "name": "Communication",
-    "price": 105.27,
-    "change_pct": 0.89
+    "price": 105.31,
+    "change_pct": 0.92
    },
    "chart": {
-    "ema8": -0.5,
+    "ema8": -0.4,
     "ema21": -4.6,
     "sma50": -8.1,
-    "sma200": -1.9,
+    "sma200": -1.8,
     "momentum": false
    },
    "headlines": [
@@ -546,101 +546,26 @@
    "brief": "2026-11-06-META"
   },
   {
-   "symbol": "AVGO",
-   "name": "Broadcom",
-   "list": "portfolio",
-   "price": 295.86,
-   "prev_close": 291.53,
-   "change_pct": 1.5,
-   "trigger_change": 3.9,
-   "peak_change": 3.9,
-   "first_seen": "2026-11-06T14:58:21+00:00",
-   "sector": {
-    "etf": "SMH",
-    "name": "Semiconductors",
-    "price": 463.92,
-    "change_pct": 3.62
-   },
-   "chart": {
-    "ema8": -6.6,
-    "ema21": -10.6,
-    "sma50": -15.0,
-    "sma200": -19.4,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Broadcom Stocks Rise 3.56% as AI Chip Rebound Lifts Custom Silicon Leader",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQUGM0R3prVFhYekZVQUhTaVN0OTVsZjhNUmtqaEhxMktRUEc1RDA5bDFnX0R4WExodXJjakVhTEI0M1pITnNQX3k5UU16VGYwQTAwTFhaalV4SDNpNWdZMFN6dkt5QUVVQnV4M0paMGJZUGZULTNYSDg2M3pkcjZOLXMzejF5RGljM1VPUHByNlRQRk0?oc=5",
-     "time": "2026-11-06T16:07:59+00:00"
-    },
-    {
-     "title": "Why is Broadcom stock climbing today? By Investing.com",
-     "publisher": "Investing.com South Africa",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNNjQ4ZnI4QTZHaHRhU1Y1TTh4UmRQSmFwSFM2ZjZqajRCUzdGd3M1ZDc4T3VHTTNXYmlFNmdjbE5MYi1Ra1dabFVIc3V4TFA1WU8teWl0eDN6VGNhbWhnU1BFMmw5cjRKOTRPVm00emxpYTI4SE5YNllhbzMyb1dnNTV3dDlQd3F2V05MQ28xVFdoSDlHcmZMb1lxdDRQQQ?oc=5",
-     "time": "2026-11-06T16:01:42+00:00"
-    },
-    {
-     "title": "Allegro MicroSystems, IPG Photonics, Lattice Semiconductor, Entegris, and Broadcom shares skyrocket, what you need to know",
-     "publisher": "The Globe and Mail",
-     "url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxObHhoSGRsQXVrQkc1UzBUcWhtYklEMk00d3RuMExfQkZ0dldvRHhzSmZ3eUhPdDJlMWJVem1oRzA0dnFOeEc3cDFMOW1TbThwMzd5NktYXzJSTVJiWFU1S1UxLUpIRjRsZHdTMWYxSkhFU1E1am5KLUJmeVR0b3RCRGstS3plWGhHMG9ySmlaS3doSkhkNUZHbkk4VU9qZjY0UHV3QTV1QU9HaTdfcjJhWEd5dVE0WFZoNjY4NzRTa1VVTFZLc2JyWlQ4aFZNWnhtYmVUUGNUdlBTb0ItZUI5OF8xNmxkUUVuME80X242QlljdnpscG1kdWlmR0dnVWk1V0RsX1pUU3FzZUFwM2xvNENiWjNaNmlFZG1YQ1NISWVzMlJqZnlmNTBn?oc=5",
-     "time": "2026-11-06T15:51:03+00:00"
-    },
-    {
-     "title": "Broadcom stock faces tougher AI build-out test",
-     "publisher": "ad-hoc-news.de",
-     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPMEZyeXpBeVJwNUZIVGpjanJkZHRlUHdOUE9qRWxSdmxuRWVHMVRsNVZFVFVMLXk3NjY1RG9DQWZtZzlTOTIzNnVVbV9NaTZrdFk4T191M0ZwVTUwNi1FdWtfYnp2X2ZiZTZyM1hoOUZVRXliclNQX0Y4dFFPZUZwSFZQeVJTbkJjUlZ0eEIwaHVYVEhnNGg0Nm1HR2FWdGRPUmJhdlEybGltaGhyN0E?oc=5",
-     "time": "2026-11-06T15:19:26+00:00"
-    },
-    {
-     "title": "The AI Boom Is Creating a New Set of Winners. These Stocks Stand Out",
-     "publisher": "AOL.com",
-     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1HS0tycW1UZy1BcjZBWDZ2LW1vOVlkd25UNThWaG9tQU0wdExOOHlsR25kMDRZZmpIR2k2MWt5R3FKMzdkN2UwaV9hOXVMMGdabHh4TEp1aG8zUVdvZWRZQjByUGdySTFYN2JiM0p6aGI5X1lfZXU5SGNXZ2Y?oc=5",
-     "time": "2026-11-06T15:03:57+00:00"
-    },
-    {
-     "title": "Congressman Swaps One Chip Stock for Another: Here Are the Moves",
-     "publisher": "Benzinga",
-     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOVDk2bmI4Ui1sRTVTcVdfY1JEVmVyODBqRjZ1YlFDYkJGQU9maHVyVGhvaWE4Z2JUal9ZSXlwb1JFUC16aWNIbXVwa1ZlRDNQYTdsczZSdjFvYVpBWGxmNEtDVS0wVG9JUmhKT2JwQUdNekk1VUJ5V0d5YnB3ZnhzVDBkYzYwYXJoMmNST3h4aGxtMFJLckRJRjZ6UWZvYi1iekxETmRpVldFQjdqU2tmUndHOXhYaVNl?oc=5",
-     "time": "2026-11-06T14:49:10+00:00"
-    },
-    {
-     "title": "Broadcom Inc Stock (AVGO) Opened Up by 4.58% on Nov 6: What Investors Need To Know",
-     "publisher": "TradingKey",
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNQ2J3UTJmaVE0WmZPX180NWlVNVdabEhEa1BXbDlwYVZfTjRVYnVDcWVGT0lWQlM4RmtxNml2cEtmVDVEa0lmcjlWWGw0X2Q4czVlUG5tYTZ3UE9ueWN3TEJkWTJNOGxuZnJYaXJ5R01OZnJ5QjRVVEtKVDNrcVBrb1lFbnpJV2hIXy1R?oc=5",
-     "time": "2026-11-06T14:47:34+00:00"
-    },
-    {
-     "title": "Broadcom shares fall on AI selloff, but valuati...",
-     "publisher": "Pluang",
-     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQUVvVWZzaDNuTTd4WHAwY3RiWVJrb1J2Vmx4M1UyRUZCSTc2Y0s1RHQwaVJrbEhubURxNnBTdkJCbzhfeF9sZVRiQ2FtUXhqakRLdnprdkltdVYtOXJMQy1iM0tFZWVGUVprenY0dnpRT21xUHJVZUs2U19MdkZBdWtGR2U4aWZnYTVJYVhFTzJZRWNDMTFMclZ5dXk?oc=5",
-     "time": "2026-11-06T14:42:23+00:00"
-    }
-   ],
-   "brief": "2026-11-06-AVGO"
-  },
-  {
    "symbol": "CRWD",
    "name": "CrowdStrike",
    "list": "portfolio",
-   "price": 220.2,
+   "price": 220.67,
    "prev_close": 217.2,
-   "change_pct": 1.4,
+   "change_pct": 1.6,
    "trigger_change": 3.8,
    "peak_change": 3.8,
    "first_seen": "2026-11-06T14:58:21+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 99.29,
-    "change_pct": 0.28
+    "price": 99.38,
+    "change_pct": 0.37
    },
    "chart": {
-    "ema8": -7.0,
-    "ema21": -10.0,
-    "sma50": -9.7,
-    "sma200": 29.3,
+    "ema8": -6.9,
+    "ema21": -9.8,
+    "sma50": -9.5,
+    "sma200": 29.6,
     "momentum": false
    },
    "headlines": [
@@ -694,6 +619,81 @@
     }
    ],
    "brief": "2026-11-06-CRWD"
+  },
+  {
+   "symbol": "AVGO",
+   "name": "Broadcom",
+   "list": "portfolio",
+   "price": 294.95,
+   "prev_close": 291.53,
+   "change_pct": 1.2,
+   "trigger_change": 3.9,
+   "peak_change": 3.9,
+   "first_seen": "2026-11-06T14:58:21+00:00",
+   "sector": {
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 464.37,
+    "change_pct": 3.72
+   },
+   "chart": {
+    "ema8": -6.8,
+    "ema21": -10.8,
+    "sma50": -15.2,
+    "sma200": -19.7,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Broadcom Stocks Rise 3.56% as AI Chip Rebound Lifts Custom Silicon Leader",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQUGM0R3prVFhYekZVQUhTaVN0OTVsZjhNUmtqaEhxMktRUEc1RDA5bDFnX0R4WExodXJjakVhTEI0M1pITnNQX3k5UU16VGYwQTAwTFhaalV4SDNpNWdZMFN6dkt5QUVVQnV4M0paMGJZUGZULTNYSDg2M3pkcjZOLXMzejF5RGljM1VPUHByNlRQRk0?oc=5",
+     "time": "2026-11-06T16:07:59+00:00"
+    },
+    {
+     "title": "Why is Broadcom stock climbing today? By Investing.com",
+     "publisher": "Investing.com South Africa",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNNjQ4ZnI4QTZHaHRhU1Y1TTh4UmRQSmFwSFM2ZjZqajRCUzdGd3M1ZDc4T3VHTTNXYmlFNmdjbE5MYi1Ra1dabFVIc3V4TFA1WU8teWl0eDN6VGNhbWhnU1BFMmw5cjRKOTRPVm00emxpYTI4SE5YNllhbzMyb1dnNTV3dDlQd3F2V05MQ28xVFdoSDlHcmZMb1lxdDRQQQ?oc=5",
+     "time": "2026-11-06T16:01:42+00:00"
+    },
+    {
+     "title": "Allegro MicroSystems, IPG Photonics, Lattice Semiconductor, Entegris, and Broadcom shares skyrocket, what you need to know",
+     "publisher": "The Globe and Mail",
+     "url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxObHhoSGRsQXVrQkc1UzBUcWhtYklEMk00d3RuMExfQkZ0dldvRHhzSmZ3eUhPdDJlMWJVem1oRzA0dnFOeEc3cDFMOW1TbThwMzd5NktYXzJSTVJiWFU1S1UxLUpIRjRsZHdTMWYxSkhFU1E1am5KLUJmeVR0b3RCRGstS3plWGhHMG9ySmlaS3doSkhkNUZHbkk4VU9qZjY0UHV3QTV1QU9HaTdfcjJhWEd5dVE0WFZoNjY4NzRTa1VVTFZLc2JyWlQ4aFZNWnhtYmVUUGNUdlBTb0ItZUI5OF8xNmxkUUVuME80X242QlljdnpscG1kdWlmR0dnVWk1V0RsX1pUU3FzZUFwM2xvNENiWjNaNmlFZG1YQ1NISWVzMlJqZnlmNTBn?oc=5",
+     "time": "2026-11-06T15:51:03+00:00"
+    },
+    {
+     "title": "Broadcom stock faces tougher AI build-out test",
+     "publisher": "ad-hoc-news.de",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPMEZyeXpBeVJwNUZIVGpjanJkZHRlUHdOUE9qRWxSdmxuRWVHMVRsNVZFVFVMLXk3NjY1RG9DQWZtZzlTOTIzNnVVbV9NaTZrdFk4T191M0ZwVTUwNi1FdWtfYnp2X2ZiZTZyM1hoOUZVRXliclNQX0Y4dFFPZUZwSFZQeVJTbkJjUlZ0eEIwaHVYVEhnNGg0Nm1HR2FWdGRPUmJhdlEybGltaGhyN0E?oc=5",
+     "time": "2026-11-06T15:19:26+00:00"
+    },
+    {
+     "title": "The AI Boom Is Creating a New Set of Winners. These Stocks Stand Out",
+     "publisher": "AOL.com",
+     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1HS0tycW1UZy1BcjZBWDZ2LW1vOVlkd25UNThWaG9tQU0wdExOOHlsR25kMDRZZmpIR2k2MWt5R3FKMzdkN2UwaV9hOXVMMGdabHh4TEp1aG8zUVdvZWRZQjByUGdySTFYN2JiM0p6aGI5X1lfZXU5SGNXZ2Y?oc=5",
+     "time": "2026-11-06T15:03:57+00:00"
+    },
+    {
+     "title": "Congressman Swaps One Chip Stock for Another: Here Are the Moves",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOVDk2bmI4Ui1sRTVTcVdfY1JEVmVyODBqRjZ1YlFDYkJGQU9maHVyVGhvaWE4Z2JUal9ZSXlwb1JFUC16aWNIbXVwa1ZlRDNQYTdsczZSdjFvYVpBWGxmNEtDVS0wVG9JUmhKT2JwQUdNekk1VUJ5V0d5YnB3ZnhzVDBkYzYwYXJoMmNST3h4aGxtMFJLckRJRjZ6UWZvYi1iekxETmRpVldFQjdqU2tmUndHOXhYaVNl?oc=5",
+     "time": "2026-11-06T14:49:10+00:00"
+    },
+    {
+     "title": "Broadcom Inc Stock (AVGO) Opened Up by 4.58% on Nov 6: What Investors Need To Know",
+     "publisher": "TradingKey",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNQ2J3UTJmaVE0WmZPX180NWlVNVdabEhEa1BXbDlwYVZfTjRVYnVDcWVGT0lWQlM4RmtxNml2cEtmVDVEa0lmcjlWWGw0X2Q4czVlUG5tYTZ3UE9ueWN3TEJkWTJNOGxuZnJYaXJ5R01OZnJ5QjRVVEtKVDNrcVBrb1lFbnpJV2hIXy1R?oc=5",
+     "time": "2026-11-06T14:47:34+00:00"
+    },
+    {
+     "title": "Broadcom shares fall on AI selloff, but valuati...",
+     "publisher": "Pluang",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQUVvVWZzaDNuTTd4WHAwY3RiWVJrb1J2Vmx4M1UyRUZCSTc2Y0s1RHQwaVJrbEhubURxNnBTdkJCbzhfeF9sZVRiQ2FtUXhqakRLdnprdkltdVYtOXJMQy1iM0tFZWVGUVprenY0dnpRT21xUHJVZUs2U19MdkZBdWtGR2U4aWZnYTVJYVhFTzJZRWNDMTFMclZ5dXk?oc=5",
+     "time": "2026-11-06T14:42:23+00:00"
+    }
+   ],
+   "brief": "2026-11-06-AVGO"
   }
  ]
 }
