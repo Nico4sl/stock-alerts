@@ -1,22 +1,22 @@
 {
  "date": "2026-11-06",
  "threshold": 3.0,
- "updated": "2026-11-06T16:03:32+00:00",
+ "updated": "2026-11-06T16:20:52+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 739.24,
-   "change_pct": 0.85
+   "price": 738.77,
+   "change_pct": 0.79
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 659.32,
-   "change_pct": 1.9
+   "price": 658.41,
+   "change_pct": 1.76
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 82.11,
-   "change_pct": 0.21
+   "price": 82.09,
+   "change_pct": 0.2
   }
  },
  "movers": [
@@ -24,23 +24,23 @@
    "symbol": "AXON",
    "name": "Axon",
    "list": "watchlist",
-   "price": 318.82,
+   "price": 315.77,
    "prev_close": 382.56,
-   "change_pct": -16.7,
+   "change_pct": -17.5,
    "trigger_change": -15.9,
    "peak_change": -18.4,
    "first_seen": "2026-11-06T14:58:21+00:00",
    "sector": {
     "etf": "XLI",
     "name": "Industrials",
-    "price": 162.69,
-    "change_pct": 0.14
+    "price": 162.73,
+    "change_pct": 0.16
    },
    "chart": {
-    "ema8": -18.8,
-    "ema21": -22.3,
-    "sma50": -27.8,
-    "sma200": -32.6,
+    "ema8": -19.4,
+    "ema21": -23.0,
+    "sma50": -28.5,
+    "sma200": -33.3,
     "momentum": false
    },
    "headlines": [
@@ -99,23 +99,23 @@
    "symbol": "APP",
    "name": "AppLovin",
    "list": "portfolio",
-   "price": 383.34,
+   "price": 383.25,
    "prev_close": 356.1,
-   "change_pct": 7.7,
+   "change_pct": 7.6,
    "trigger_change": 4.0,
    "peak_change": 7.7,
    "first_seen": "2026-11-06T14:58:21+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 99.19,
-    "change_pct": 0.18
+    "price": 99.0,
+    "change_pct": -0.01
    },
    "chart": {
-    "ema8": 27.8,
+    "ema8": 27.7,
     "ema21": 35.6,
     "sma50": 30.7,
-    "sma200": -6.3,
+    "sma200": -6.4,
     "momentum": true
    },
    "headlines": [
@@ -171,101 +171,26 @@
    "brief": "2026-11-06-APP"
   },
   {
-   "symbol": "NBIS",
-   "name": "Nebius",
-   "list": "portfolio",
-   "price": 129.15,
-   "prev_close": 120.37,
-   "change_pct": 7.3,
-   "trigger_change": 9.7,
-   "peak_change": 9.7,
-   "first_seen": "2026-11-06T14:58:21+00:00",
-   "sector": {
-    "etf": "IGV",
-    "name": "Software",
-    "price": 99.19,
-    "change_pct": 0.18
-   },
-   "chart": {
-    "ema8": -10.2,
-    "ema21": -22.3,
-    "sma50": -36.0,
-    "sma200": -27.6,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Nebius: Why The Real Risk Isn't In Washington (NASDAQ:NBIS)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNc25WVG00Y2sxY0syTWNLX1NHYzZOLVNGLUlsYU1KNzFNMzRaYnl4Nmx5VUJEdUkzUUljSUJRdWp3SG1jZ1JSYjUweVdvT2lmb1dSc0p2eHB5enhnYldvM2pmNGlPVG1BMS1OelZhdVZLNDVXeEM4Sld6cjA0cFZUWU9rUEZMUk5pdVB1Mg?oc=5",
-     "time": "2026-11-06T15:37:42+00:00"
-    },
-    {
-     "title": "Nebius Vs. CoreWeave: Only 1 Dip Wins (NASDAQ:NBIS)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOcVVqdzBSZFdfSjVzRTJQSlYxajEteVc0Qkhsejl2OG5HWFBGQnFYVDJRZFJSYXJQdm03RmwtamQ3SXdCbkNOY1lVVHNDNmxpVF83SVMyUEdfSUtHbnl6a0JpOHVCM3Jkbm1TUEhILTRpYXN6V19xakppNDlIaGd2NkxB?oc=5",
-     "time": "2026-11-06T15:19:55+00:00"
-    },
-    {
-     "title": "Nebius Group (NBIS) Loses 45.2% in 4 Weeks, Here's Why a Trend Reversal May be Around the Corner",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNSU5IcGo1LUN5YWFHNGl3OE10dHR2ZEtlcW1sRmlHbUUwRmRaNC1EX3pGMzhaSDBTa3BDWHNWUU9VSy1zdkRCTFR1Q0s1czFkTXU3MkdELWRyWXcxSUN3MnhqRXZoZ0lINDgzb08wSWJGYkNrX2xjV09uR3UxczhvdnFuVTNBWDlZQTJOdTBTSFV1YzVsZnc?oc=5",
-     "time": "2026-11-06T13:35:02+00:00"
-    },
-    {
-     "title": "Nebius: The Selloff Is Testing More Than Its Valuation",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNakN2ZzhaYnRIZkhsZW8xYU5DdGxRWU1NcXFLaFZMM3ZzOHIwaVRtUldxejdzLW5SbHJGRlJuX3hEa1V2ZGhHVW1IRTFrREFOSjBuSmplNkE1ME1HVk1HSGdJRFZVdGRLWUtZWVNkYmtVUVhiVUVQNUlOSDNHbGNKNzNYTEdSRFozUG16a1F0SFY3emdyVDNCQ3dR?oc=5",
-     "time": "2026-11-06T12:38:15+00:00"
-    },
-    {
-     "title": "Prediction: Nebius Stock Will Surge 95% in a Year, According to Wall Street. Should You Buy It Before Nov. 12?",
-     "publisher": "The Globe and Mail",
-     "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxQWDFWLXFnQlBoRDE3bGxVLTFQcFg5c0xKdXF6VFdjakRaYl95aHVGNU5nOG45S0Y2TW1OQmNPU0M2VEhVSVFmVGxwTVQ2Vk5KMHpPQlRiUnFTWU9MVmVxd0toSXpGOWlobU1NLWpsR2Fock1kZVNjMGhEaDhmN21VZmlHdWZPdUdIN1dRMWYtS3YtRnZkR2VZZWVnczFFOWliZ1F6M2tZOGI0WG5WVDc5OTFoNEp3TUhNdGh3ZGs3d0phUFU0RnQ4N3VYeW55cHA4WjAxNnVtcG5WYjA1OFRvWm54dEtJOGk4VVJmR19EMUtjdkYxLVc2dmNFNkt6OU5Gdzc2MlotNzY4X2lwbF8xUThieVpiSHhk?oc=5",
-     "time": "2026-11-06T11:11:26+00:00"
-    },
-    {
-     "title": "Why Are Data Center Stocks CoreWeave, Nebius, and IREN Rallying After Thursday\u2019s Steep Selloff, November 6?",
-     "publisher": "TipRanks",
-     "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOZTI5MzlUNHFxOTFaZHdXRVhJdThLY1pnaVRDMzh1R1VuS1JyaWRPY2FINERYLW9YV0d6ZVlUdy0tZ0NiWVN1TkFrYnhNTGFja0lRV1JTTU03S0hYM3pybzFXWVV2eTN1ZFZuODZxQnZfYzUyLXI3QWZCT3dpNjNRb1JGRU1URXJuT2QyX3k4dFFET0o0OXRFdjFQRVlFYm9FMGNWdjUtYUJfRDRlOEd1dVJNMW83YkJJNE5zaUVLbXc0VG1nTmRXYWpXZ0ZpSzB1bnRfeGlfaEpuYjQ3?oc=5",
-     "time": "2026-11-06T11:08:39+00:00"
-    },
-    {
-     "title": "Yandex Stock Price Today | NASDAQ: NBIS Live",
-     "publisher": "Investing.com",
-     "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1MSkZCQnM3TlZTeXQxSzNob3d2UlRHLWo0dWRjT2RJV2ViLUhVZWhfc0diOUdqUXZHbkVVU1ltdEVfRDZLTG9ueXZkcWJkdWd2eTl1WGlWZw?oc=5",
-     "time": "2026-11-06T10:52:23+00:00"
-    },
-    {
-     "title": "Nebius Group N.V. $NBIS Shares Newly Acquired by Rakuten Investment Management Inc.",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQNkZYc2xfWEwwYWU2XzAwVDVMSGNYRTJoNmszU01XUzBfZlE5dkJhMlN6dWNySGJNUE1ORlpCQ0JtOE81aV9FaHEteXpvVzBlcmdZQXB0c1dQMll2WDRfblNENDZWY0RVU1g1NDMzNkVISnhibEFYUExxb1lJMk1ZQzlSUTdkNVNEUUFWNmM3aDlDbFN1RUJyRnpVYUFxbnN0bmJrUzU3X1k0QWZOOHN0cUNRSGhxT3lpUUNERnBRWUNzMEtMNGMwdkJEMEcwT3YxLVdlY1Rxaw?oc=5",
-     "time": "2026-11-06T10:27:18+00:00"
-    }
-   ],
-   "brief": "2026-11-06-NBIS"
-  },
-  {
    "symbol": "ANET",
    "name": "Arista Networks",
    "list": "portfolio",
-   "price": 168.85,
+   "price": 168.78,
    "prev_close": 159.16,
-   "change_pct": 6.1,
+   "change_pct": 6.0,
    "trigger_change": 7.7,
    "peak_change": 7.7,
    "first_seen": "2026-11-06T14:58:21+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 462.51,
+    "price": 462.49,
     "change_pct": 3.3
    },
    "chart": {
-    "ema8": -1.5,
+    "ema8": -1.6,
     "ema21": -6.3,
-    "sma50": -12.3,
-    "sma200": 1.7,
+    "sma50": -12.4,
+    "sma200": 1.6,
     "momentum": false
    },
    "headlines": [
@@ -321,26 +246,101 @@
    "brief": "2026-11-06-ANET"
   },
   {
+   "symbol": "NBIS",
+   "name": "Nebius",
+   "list": "portfolio",
+   "price": 127.52,
+   "prev_close": 120.37,
+   "change_pct": 5.9,
+   "trigger_change": 9.7,
+   "peak_change": 9.7,
+   "first_seen": "2026-11-06T14:58:21+00:00",
+   "sector": {
+    "etf": "IGV",
+    "name": "Software",
+    "price": 99.0,
+    "change_pct": -0.01
+   },
+   "chart": {
+    "ema8": -11.1,
+    "ema21": -23.2,
+    "sma50": -36.8,
+    "sma200": -28.5,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Nebius: Why The Real Risk Isn't In Washington (NASDAQ:NBIS)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNc25WVG00Y2sxY0syTWNLX1NHYzZOLVNGLUlsYU1KNzFNMzRaYnl4Nmx5VUJEdUkzUUljSUJRdWp3SG1jZ1JSYjUweVdvT2lmb1dSc0p2eHB5enhnYldvM2pmNGlPVG1BMS1OelZhdVZLNDVXeEM4Sld6cjA0cFZUWU9rUEZMUk5pdVB1Mg?oc=5",
+     "time": "2026-11-06T15:37:42+00:00"
+    },
+    {
+     "title": "Nebius Vs. CoreWeave: Only 1 Dip Wins (NASDAQ:NBIS)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOcVVqdzBSZFdfSjVzRTJQSlYxajEteVc0Qkhsejl2OG5HWFBGQnFYVDJRZFJSYXJQdm03RmwtamQ3SXdCbkNOY1lVVHNDNmxpVF83SVMyUEdfSUtHbnl6a0JpOHVCM3Jkbm1TUEhILTRpYXN6V19xakppNDlIaGd2NkxB?oc=5",
+     "time": "2026-11-06T15:19:55+00:00"
+    },
+    {
+     "title": "Nebius Group (NBIS) Loses 45.2% in 4 Weeks, Here's Why a Trend Reversal May be Around the Corner",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNSU5IcGo1LUN5YWFHNGl3OE10dHR2ZEtlcW1sRmlHbUUwRmRaNC1EX3pGMzhaSDBTa3BDWHNWUU9VSy1zdkRCTFR1Q0s1czFkTXU3MkdELWRyWXcxSUN3MnhqRXZoZ0lINDgzb08wSWJGYkNrX2xjV09uR3UxczhvdnFuVTNBWDlZQTJOdTBTSFV1YzVsZnc?oc=5",
+     "time": "2026-11-06T13:35:02+00:00"
+    },
+    {
+     "title": "Nebius: The Selloff Is Testing More Than Its Valuation",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNakN2ZzhaYnRIZkhsZW8xYU5DdGxRWU1NcXFLaFZMM3ZzOHIwaVRtUldxejdzLW5SbHJGRlJuX3hEa1V2ZGhHVW1IRTFrREFOSjBuSmplNkE1ME1HVk1HSGdJRFZVdGRLWUtZWVNkYmtVUVhiVUVQNUlOSDNHbGNKNzNYTEdSRFozUG16a1F0SFY3emdyVDNCQ3dR?oc=5",
+     "time": "2026-11-06T12:38:15+00:00"
+    },
+    {
+     "title": "Prediction: Nebius Stock Will Surge 95% in a Year, According to Wall Street. Should You Buy It Before Nov. 12?",
+     "publisher": "The Globe and Mail",
+     "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxQWDFWLXFnQlBoRDE3bGxVLTFQcFg5c0xKdXF6VFdjakRaYl95aHVGNU5nOG45S0Y2TW1OQmNPU0M2VEhVSVFmVGxwTVQ2Vk5KMHpPQlRiUnFTWU9MVmVxd0toSXpGOWlobU1NLWpsR2Fock1kZVNjMGhEaDhmN21VZmlHdWZPdUdIN1dRMWYtS3YtRnZkR2VZZWVnczFFOWliZ1F6M2tZOGI0WG5WVDc5OTFoNEp3TUhNdGh3ZGs3d0phUFU0RnQ4N3VYeW55cHA4WjAxNnVtcG5WYjA1OFRvWm54dEtJOGk4VVJmR19EMUtjdkYxLVc2dmNFNkt6OU5Gdzc2MlotNzY4X2lwbF8xUThieVpiSHhk?oc=5",
+     "time": "2026-11-06T11:11:26+00:00"
+    },
+    {
+     "title": "Why Are Data Center Stocks CoreWeave, Nebius, and IREN Rallying After Thursday\u2019s Steep Selloff, November 6?",
+     "publisher": "TipRanks",
+     "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOZTI5MzlUNHFxOTFaZHdXRVhJdThLY1pnaVRDMzh1R1VuS1JyaWRPY2FINERYLW9YV0d6ZVlUdy0tZ0NiWVN1TkFrYnhNTGFja0lRV1JTTU03S0hYM3pybzFXWVV2eTN1ZFZuODZxQnZfYzUyLXI3QWZCT3dpNjNRb1JGRU1URXJuT2QyX3k4dFFET0o0OXRFdjFQRVlFYm9FMGNWdjUtYUJfRDRlOEd1dVJNMW83YkJJNE5zaUVLbXc0VG1nTmRXYWpXZ0ZpSzB1bnRfeGlfaEpuYjQ3?oc=5",
+     "time": "2026-11-06T11:08:39+00:00"
+    },
+    {
+     "title": "Yandex Stock Price Today | NASDAQ: NBIS Live",
+     "publisher": "Investing.com",
+     "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1MSkZCQnM3TlZTeXQxSzNob3d2UlRHLWo0dWRjT2RJV2ViLUhVZWhfc0diOUdqUXZHbkVVU1ltdEVfRDZLTG9ueXZkcWJkdWd2eTl1WGlWZw?oc=5",
+     "time": "2026-11-06T10:52:23+00:00"
+    },
+    {
+     "title": "Nebius Group N.V. $NBIS Shares Newly Acquired by Rakuten Investment Management Inc.",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQNkZYc2xfWEwwYWU2XzAwVDVMSGNYRTJoNmszU01XUzBfZlE5dkJhMlN6dWNySGJNUE1ORlpCQ0JtOE81aV9FaHEteXpvVzBlcmdZQXB0c1dQMll2WDRfblNENDZWY0RVU1g1NDMzNkVISnhibEFYUExxb1lJMk1ZQzlSUTdkNVNEUUFWNmM3aDlDbFN1RUJyRnpVYUFxbnN0bmJrUzU3X1k0QWZOOHN0cUNRSGhxT3lpUUNERnBRWUNzMEtMNGMwdkJEMEcwT3YxLVdlY1Rxaw?oc=5",
+     "time": "2026-11-06T10:27:18+00:00"
+    }
+   ],
+   "brief": "2026-11-06-NBIS"
+  },
+  {
    "symbol": "AMAT",
    "name": "Applied Materials",
    "list": "portfolio",
-   "price": 332.81,
+   "price": 331.25,
    "prev_close": 319.25,
-   "change_pct": 4.2,
+   "change_pct": 3.8,
    "trigger_change": 7.8,
    "peak_change": 7.8,
    "first_seen": "2026-11-06T14:58:21+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 462.51,
+    "price": 462.49,
     "change_pct": 3.3
    },
    "chart": {
-    "ema8": -8.7,
-    "ema21": -16.9,
-    "sma50": -25.2,
-    "sma200": -25.3,
+    "ema8": -9.0,
+    "ema21": -17.3,
+    "sma50": -25.5,
+    "sma200": -25.6,
     "momentum": false
    },
    "headlines": [
@@ -399,23 +399,23 @@
    "symbol": "NVDA",
    "name": "Nvidia",
    "list": "portfolio",
-   "price": 188.68,
+   "price": 187.58,
    "prev_close": 181.6,
-   "change_pct": 3.9,
+   "change_pct": 3.3,
    "trigger_change": 6.2,
    "peak_change": 6.3,
    "first_seen": "2026-11-06T14:58:21+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 462.51,
+    "price": 462.49,
     "change_pct": 3.3
    },
    "chart": {
-    "ema8": -5.2,
-    "ema21": -9.9,
-    "sma50": -14.2,
-    "sma200": -7.8,
+    "ema8": -5.6,
+    "ema21": -10.4,
+    "sma50": -14.7,
+    "sma200": -8.4,
     "momentum": false
    },
    "headlines": [
@@ -474,23 +474,23 @@
    "symbol": "META",
    "name": "Meta",
    "list": "portfolio",
-   "price": 623.23,
+   "price": 617.88,
    "prev_close": 605.08,
-   "change_pct": 3.0,
+   "change_pct": 2.1,
    "trigger_change": 3.0,
    "peak_change": 3.0,
    "first_seen": "2026-11-06T15:58:32+00:00",
    "sector": {
     "etf": "XLC",
     "name": "Communication",
-    "price": 105.37,
-    "change_pct": 0.99
+    "price": 105.07,
+    "change_pct": 0.7
    },
    "chart": {
-    "ema8": -0.1,
-    "ema21": -4.2,
-    "sma50": -7.7,
-    "sma200": -1.4,
+    "ema8": -0.8,
+    "ema21": -4.9,
+    "sma50": -8.5,
+    "sma200": -2.2,
     "momentum": false
    },
    "headlines": [
@@ -546,85 +546,10 @@
    "brief": null
   },
   {
-   "symbol": "AVGO",
-   "name": "Broadcom",
-   "list": "portfolio",
-   "price": 297.1,
-   "prev_close": 291.53,
-   "change_pct": 1.9,
-   "trigger_change": 3.9,
-   "peak_change": 3.9,
-   "first_seen": "2026-11-06T14:58:21+00:00",
-   "sector": {
-    "etf": "SMH",
-    "name": "Semiconductors",
-    "price": 462.51,
-    "change_pct": 3.3
-   },
-   "chart": {
-    "ema8": -6.3,
-    "ema21": -10.2,
-    "sma50": -14.6,
-    "sma200": -19.1,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Why is Broadcom stock climbing today? By Investing.com",
-     "publisher": "Investing.com UK",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxONGdndFA0NjZHX0lEQnFvVmpTUmxuMGdmNjFxWDVrRDhFYzJYbXdWcWZvSGNMZV9IRmdxQ3p2YUM2dXdjSjF2UnZTcXhWdVVkNTZoendsbEhjWlJ6eEpZYXQ0TERHTjZkcTVpaEtXdC1Vek5JXzVSS01LaTY5OXJjZGVfVk1kY01wLWFLTGhwV3drOUhNTzFySFZ4RURVdw?oc=5",
-     "time": "2026-11-06T15:36:00+00:00"
-    },
-    {
-     "title": "Broadcom stock faces tougher AI build-out test",
-     "publisher": "ad-hoc-news.de",
-     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPMEZyeXpBeVJwNUZIVGpjanJkZHRlUHdOUE9qRWxSdmxuRWVHMVRsNVZFVFVMLXk3NjY1RG9DQWZtZzlTOTIzNnVVbV9NaTZrdFk4T191M0ZwVTUwNi1FdWtfYnp2X2ZiZTZyM1hoOUZVRXliclNQX0Y4dFFPZUZwSFZQeVJTbkJjUlZ0eEIwaHVYVEhnNGg0Nm1HR2FWdGRPUmJhdlEybGltaGhyN0E?oc=5",
-     "time": "2026-11-06T15:19:26+00:00"
-    },
-    {
-     "title": "The AI Boom Is Creating a New Set of Winners. These Stocks Stand Out",
-     "publisher": "AOL.com",
-     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1HS0tycW1UZy1BcjZBWDZ2LW1vOVlkd25UNThWaG9tQU0wdExOOHlsR25kMDRZZmpIR2k2MWt5R3FKMzdkN2UwaV9hOXVMMGdabHh4TEp1aG8zUVdvZWRZQjByUGdySTFYN2JiM0p6aGI5X1lfZXU5SGNXZ2Y?oc=5",
-     "time": "2026-11-06T15:03:57+00:00"
-    },
-    {
-     "title": "Congressman Swaps One Chip Stock for Another: Here Are the Moves",
-     "publisher": "Benzinga",
-     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOVDk2bmI4Ui1sRTVTcVdfY1JEVmVyODBqRjZ1YlFDYkJGQU9maHVyVGhvaWE4Z2JUal9ZSXlwb1JFUC16aWNIbXVwa1ZlRDNQYTdsczZSdjFvYVpBWGxmNEtDVS0wVG9JUmhKT2JwQUdNekk1VUJ5V0d5YnB3ZnhzVDBkYzYwYXJoMmNST3h4aGxtMFJLckRJRjZ6UWZvYi1iekxETmRpVldFQjdqU2tmUndHOXhYaVNl?oc=5",
-     "time": "2026-11-06T14:49:10+00:00"
-    },
-    {
-     "title": "Broadcom Inc Stock (AVGO) Opened Up by 4.58% on Nov 6: What Investors Need To Know",
-     "publisher": "TradingKey",
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNQ2J3UTJmaVE0WmZPX180NWlVNVdabEhEa1BXbDlwYVZfTjRVYnVDcWVGT0lWQlM4RmtxNml2cEtmVDVEa0lmcjlWWGw0X2Q4czVlUG5tYTZ3UE9ueWN3TEJkWTJNOGxuZnJYaXJ5R01OZnJ5QjRVVEtKVDNrcVBrb1lFbnpJV2hIXy1R?oc=5",
-     "time": "2026-11-06T14:47:34+00:00"
-    },
-    {
-     "title": "Broadcom shares fall on AI selloff, but valuati...",
-     "publisher": "Pluang",
-     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQUVvVWZzaDNuTTd4WHAwY3RiWVJrb1J2Vmx4M1UyRUZCSTc2Y0s1RHQwaVJrbEhubURxNnBTdkJCbzhfeF9sZVRiQ2FtUXhqakRLdnprdkltdVYtOXJMQy1iM0tFZWVGUVprenY0dnpRT21xUHJVZUs2U19MdkZBdWtGR2U4aWZnYTVJYVhFTzJZRWNDMTFMclZ5dXk?oc=5",
-     "time": "2026-11-06T14:42:23+00:00"
-    },
-    {
-     "title": "Broadcom Stock Is Surging Friday: What's Going On?",
-     "publisher": "Benzinga",
-     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRWJuSWtPLWQ1LTdiX1hUbDY1TXM1UXJKRnpOMDhBTldfV1F4dmFjOHVzamdBRnF3RVBLY0ZCeXRsQWtQWlE2NThERWNEV2JIaDlzMldPQVlFYnd0Z2ljUERkSkxKZWdTM2VkcHlJbXU0Y1pFakxWS3NadEw5V3JpUGpwcUJMOWpBMUN5S3luc0QyWEdJWmx0WVFIZGpVei1IV1E?oc=5",
-     "time": "2026-11-06T14:17:38+00:00"
-    },
-    {
-     "title": "Broadcom And The AI Panic: The Market Has Lost Its Mind (NASDAQ:AVGO)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNdkhNVFdtRjd0Q29MQ3hRbmdzSkFCaEhveFFCMjFyT3hsLXdva1cyNGx0cE1RSEptZ1ZGVHA1VmZTQm1Yd0lMbTl5dHg2WG9QQlVxSG5zdzZyS0JuVldiUFVfcFVLUDFRUjRCdnJwNHVPQmxfQkVjWjhobzgyOUhCaGlpTUtqd2ZieVlmbnpiV3BBT0NFV01udE4zOA?oc=5",
-     "time": "2026-11-06T14:15:53+00:00"
-    }
-   ],
-   "brief": null
-  },
-  {
    "symbol": "CRWD",
    "name": "CrowdStrike",
    "list": "portfolio",
-   "price": 219.82,
+   "price": 219.79,
    "prev_close": 217.2,
    "change_pct": 1.2,
    "trigger_change": 3.8,
@@ -633,13 +558,13 @@
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 99.19,
-    "change_pct": 0.18
+    "price": 99.0,
+    "change_pct": -0.01
    },
    "chart": {
     "ema8": -7.2,
     "ema21": -10.1,
-    "sma50": -9.8,
+    "sma50": -9.9,
     "sma200": 29.1,
     "momentum": false
    },
@@ -691,6 +616,81 @@
      "publisher": "TradingKey",
      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOWGZMbHp2RHBmd2dKYmk4aEhQMmVocktoTzBKcmNLeWhXMFZUX3lwV0lPN0FRSEhIb2xxSFgzSlNOVFM1NC1yMVpFaHkzUDFGLVBUSFhHVlltX1JmaUlEQlNEUzJFVlgwUGlwZWJmUnY4TDZ6RnJkWTlDaFVjWk5IX2dUVTduTVNMdlpB?oc=5",
      "time": "2026-11-05T20:28:32+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
+   "symbol": "AVGO",
+   "name": "Broadcom",
+   "list": "portfolio",
+   "price": 294.87,
+   "prev_close": 291.53,
+   "change_pct": 1.1,
+   "trigger_change": 3.9,
+   "peak_change": 3.9,
+   "first_seen": "2026-11-06T14:58:21+00:00",
+   "sector": {
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 462.49,
+    "change_pct": 3.3
+   },
+   "chart": {
+    "ema8": -6.8,
+    "ema21": -10.9,
+    "sma50": -15.2,
+    "sma200": -19.7,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Why is Broadcom stock climbing today? By Investing.com",
+     "publisher": "Investing.com UK",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxONGdndFA0NjZHX0lEQnFvVmpTUmxuMGdmNjFxWDVrRDhFYzJYbXdWcWZvSGNMZV9IRmdxQ3p2YUM2dXdjSjF2UnZTcXhWdVVkNTZoendsbEhjWlJ6eEpZYXQ0TERHTjZkcTVpaEtXdC1Vek5JXzVSS01LaTY5OXJjZGVfVk1kY01wLWFLTGhwV3drOUhNTzFySFZ4RURVdw?oc=5",
+     "time": "2026-11-06T15:36:00+00:00"
+    },
+    {
+     "title": "Broadcom stock faces tougher AI build-out test",
+     "publisher": "ad-hoc-news.de",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPMEZyeXpBeVJwNUZIVGpjanJkZHRlUHdOUE9qRWxSdmxuRWVHMVRsNVZFVFVMLXk3NjY1RG9DQWZtZzlTOTIzNnVVbV9NaTZrdFk4T191M0ZwVTUwNi1FdWtfYnp2X2ZiZTZyM1hoOUZVRXliclNQX0Y4dFFPZUZwSFZQeVJTbkJjUlZ0eEIwaHVYVEhnNGg0Nm1HR2FWdGRPUmJhdlEybGltaGhyN0E?oc=5",
+     "time": "2026-11-06T15:19:26+00:00"
+    },
+    {
+     "title": "The AI Boom Is Creating a New Set of Winners. These Stocks Stand Out",
+     "publisher": "AOL.com",
+     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1HS0tycW1UZy1BcjZBWDZ2LW1vOVlkd25UNThWaG9tQU0wdExOOHlsR25kMDRZZmpIR2k2MWt5R3FKMzdkN2UwaV9hOXVMMGdabHh4TEp1aG8zUVdvZWRZQjByUGdySTFYN2JiM0p6aGI5X1lfZXU5SGNXZ2Y?oc=5",
+     "time": "2026-11-06T15:03:57+00:00"
+    },
+    {
+     "title": "Congressman Swaps One Chip Stock for Another: Here Are the Moves",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOVDk2bmI4Ui1sRTVTcVdfY1JEVmVyODBqRjZ1YlFDYkJGQU9maHVyVGhvaWE4Z2JUal9ZSXlwb1JFUC16aWNIbXVwa1ZlRDNQYTdsczZSdjFvYVpBWGxmNEtDVS0wVG9JUmhKT2JwQUdNekk1VUJ5V0d5YnB3ZnhzVDBkYzYwYXJoMmNST3h4aGxtMFJLckRJRjZ6UWZvYi1iekxETmRpVldFQjdqU2tmUndHOXhYaVNl?oc=5",
+     "time": "2026-11-06T14:49:10+00:00"
+    },
+    {
+     "title": "Broadcom Inc Stock (AVGO) Opened Up by 4.58% on Nov 6: What Investors Need To Know",
+     "publisher": "TradingKey",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNQ2J3UTJmaVE0WmZPX180NWlVNVdabEhEa1BXbDlwYVZfTjRVYnVDcWVGT0lWQlM4RmtxNml2cEtmVDVEa0lmcjlWWGw0X2Q4czVlUG5tYTZ3UE9ueWN3TEJkWTJNOGxuZnJYaXJ5R01OZnJ5QjRVVEtKVDNrcVBrb1lFbnpJV2hIXy1R?oc=5",
+     "time": "2026-11-06T14:47:34+00:00"
+    },
+    {
+     "title": "Broadcom shares fall on AI selloff, but valuati...",
+     "publisher": "Pluang",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQUVvVWZzaDNuTTd4WHAwY3RiWVJrb1J2Vmx4M1UyRUZCSTc2Y0s1RHQwaVJrbEhubURxNnBTdkJCbzhfeF9sZVRiQ2FtUXhqakRLdnprdkltdVYtOXJMQy1iM0tFZWVGUVprenY0dnpRT21xUHJVZUs2U19MdkZBdWtGR2U4aWZnYTVJYVhFTzJZRWNDMTFMclZ5dXk?oc=5",
+     "time": "2026-11-06T14:42:23+00:00"
+    },
+    {
+     "title": "Broadcom Stock Is Surging Friday: What's Going On?",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRWJuSWtPLWQ1LTdiX1hUbDY1TXM1UXJKRnpOMDhBTldfV1F4dmFjOHVzamdBRnF3RVBLY0ZCeXRsQWtQWlE2NThERWNEV2JIaDlzMldPQVlFYnd0Z2ljUERkSkxKZWdTM2VkcHlJbXU0Y1pFakxWS3NadEw5V3JpUGpwcUJMOWpBMUN5S3luc0QyWEdJWmx0WVFIZGpVei1IV1E?oc=5",
+     "time": "2026-11-06T14:17:38+00:00"
+    },
+    {
+     "title": "Broadcom And The AI Panic: The Market Has Lost Its Mind (NASDAQ:AVGO)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNdkhNVFdtRjd0Q29MQ3hRbmdzSkFCaEhveFFCMjFyT3hsLXdva1cyNGx0cE1RSEptZ1ZGVHA1VmZTQm1Yd0lMbTl5dHg2WG9QQlVxSG5zdzZyS0JuVldiUFVfcFVLUDFRUjRCdnJwNHVPQmxfQkVjWjhobzgyOUhCaGlpTUtqd2ZieVlmbnpiV3BBT0NFV01udE4zOA?oc=5",
+     "time": "2026-11-06T14:15:53+00:00"
     }
    ],
    "brief": null
