@@ -1,22 +1,22 @@
 {
  "date": "2026-11-09",
  "threshold": 3.0,
- "updated": "2026-11-09T20:11:39+00:00",
+ "updated": "2026-11-09T20:16:42+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 754.38,
-   "change_pct": 2.6
+   "price": 754.77,
+   "change_pct": 2.65
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 679.88,
-   "change_pct": 3.62
+   "price": 680.75,
+   "change_pct": 3.76
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 81.98,
-   "change_pct": 0.07
+   "price": 81.96,
+   "change_pct": 0.05
   }
  },
  "movers": [
@@ -24,23 +24,23 @@
    "symbol": "AMAT",
    "name": "Applied Materials",
    "list": "portfolio",
-   "price": 373.29,
+   "price": 374.44,
    "prev_close": 332.71,
-   "change_pct": 12.2,
+   "change_pct": 12.5,
    "trigger_change": 8.7,
-   "peak_change": 12.3,
+   "peak_change": 12.5,
    "first_seen": "2026-11-09T14:57:33+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 487.95,
-    "change_pct": 5.17
+    "price": 488.65,
+    "change_pct": 5.32
    },
    "chart": {
-    "ema8": 1.9,
-    "ema21": -6.2,
-    "sma50": -15.8,
-    "sma200": -16.2,
+    "ema8": 2.1,
+    "ema21": -6.0,
+    "sma50": -15.5,
+    "sma200": -16.0,
     "momentum": false
    },
    "headlines": [
@@ -96,26 +96,101 @@
    "brief": "2026-11-09-AMAT"
   },
   {
+   "symbol": "NBIS",
+   "name": "Nebius",
+   "list": "portfolio",
+   "price": 142.56,
+   "prev_close": 129.49,
+   "change_pct": 10.1,
+   "trigger_change": 6.5,
+   "peak_change": 10.1,
+   "first_seen": "2026-11-09T14:57:33+00:00",
+   "sector": {
+    "etf": "IGV",
+    "name": "Software",
+    "price": 101.81,
+    "change_pct": 2.96
+   },
+   "chart": {
+    "ema8": -0.7,
+    "ema21": -13.1,
+    "sma50": -28.8,
+    "sma200": -20.2,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Not Revenue. Not Growth. Here\u2019s What I\u2019ll Be Watching When CoreWeave and Nebius Report This Week.",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPaGpfek03T2p4N3FuZ3czX2twSnhrNGVYdERlaVN3bGJXVnZKa1Q5WWZGaXBWQk5fdEo5Uzd5VEkzSllPcmNiaUlRM0d5Mk9keUJ4ek81RnNSLWVlU2Z5RUdfYU9henRWemtBWmtqdmYwUlFwNkY5TnFGZ2RwTXNWWnBDVk5nMzRZekhka1gxN1cwaTk0R2JnZ2xLYmtqUzhHZnlGdk53Q3NmTDBsZWU2SnJ0bm5ybUJBU2h6c0ZKTlJaWk5fcUpzWE9kOTdKSTRoZHFN?oc=5",
+     "time": "2026-11-09T19:02:00+00:00"
+    },
+    {
+     "title": "CoreWeave Rises 5%, Nebius Up 7% as AI Stocks Rebound Ahead of Earnings: \u201cLevered Trades to AI\u201d",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNbklTenlNX0t3WjZfenBzQVItb0M5T3BkaXpIWTRXbUVhM20teUN2Z1NTT2pZN2xZSXlXd0xoTnNXT0w0ajVFN0JXSWNVanR1RXVFY1JLa2JPb2VERV9CMW54WVN4UkpwVmRrSlNpREZ0dWpzMGJkX2tkdVMtOUdRdVg2SjQxdmhGenltYTIzRlMxR0owQmc?oc=5",
+     "time": "2026-11-09T18:28:25+00:00"
+    },
+    {
+     "title": "Cloudflare Jumps 11%, Nebius Surges 9% as AI Cloud Stocks Defy NVIDIA's Slide; CoreWeave Rallies 6% on Wayve Deal",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOZGlxYy1RZEJRY2lINGhCZDBvajBVaEZLV1Y5QzhudzdTWVVhWXZ4bXUzMVNhWXNEUGdBYVFfcWJLbk1kYUQ4NVFnZmJoaUNrbzZocXRZUVBkQTdoOVJZM1o1YTBXdUs4VWlrM05Tb1pKQ3ZwSEdyd09EMkVQaVEyRl9jaENLbWgxM2M1WklZVEIwTTR1dmplTGI0YVNjd3B0XzdzeVo5T3BoeVdYNDRtd042dnVqVnV5dVhSblo5TGtOZHJmemRiZ0J4b0J3RkRIRlZiNy1nYUJNa0txaU5BU19DMi1LZw?oc=5",
+     "time": "2026-11-09T17:55:00+00:00"
+    },
+    {
+     "title": "Jensen Huang\u2019s Scandal Could Hit CoreWeave, Nebius Where It Hurts",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOckR4UTlScHh1aWd5RE5IaUJPRjhNUFl1czUzWVkzd2ZOUTBHOW5YTlY2THVvczBhWU14UkZnUEpGZXBjdjA5dU9McVU5dFRMdVcyYkZqQmo1alotWFBtWXYxLTlrU04wSXRRRVRXZm1KUy1CcHNRcjV1TzJmTjNuWmhIQmJpZ19tMVNFNVlHUVNVY3FDZEh1NF80RnNQMVZ2Vmtpa0w0MU84WkVKTjFELS0yQTRXSzV3SGU2dy1EamJsUQ?oc=5",
+     "time": "2026-11-09T17:20:12+00:00"
+    },
+    {
+     "title": "Nebius Stock (NBIS) Set for 17% Move After Q3 Earnings This Week, Say Options Traders",
+     "publisher": "TipRanks",
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPWU9nRUhPcGc3eXFiSHNLMWEtaFctWXdJb0ZueS0yOEtCSDVrdm1VRXdGMU1rbkFNTVhoQ2swTXlmUTlYb3U1QXZhdF9VVDZfQnZIM3VzODllSk1XYXItMDZtNlFQYVFvbEJrVENJekZlTEhzNTFYWm9iMEpaQ0tfMEw0b29tVHI1MTF1bF82TVJMZHdXbnhPOF84Um9PQTRVdFBsNFlibDZEOXlkcVFuYg?oc=5",
+     "time": "2026-11-09T16:52:40+00:00"
+    },
+    {
+     "title": "Nebius Group stock drops despite no impact from...",
+     "publisher": "Pluang",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5WM0ZybzNJOG5YY1I3QUJUWDhJWTM1WTZIZVZ2djhheWtCRnc2ZWNOcFdoYXIzZ3lKMEdXbzhIQ0gtTkRzZTVPX3BqZkFYN2FSTUZrb0k4QWY2aldIR3IwcDk3UjdZSU5razEtaW1HNWh6Zw?oc=5",
+     "time": "2026-11-09T16:15:56+00:00"
+    },
+    {
+     "title": "Nebius: AI Panic Round Trip Gift (NASDAQ:NBIS)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5ueGFXb1c0cmItR0xRVEZ2MDNZY2pvUlgwQ044TGN4cnFFb08xVnh6UkNpMTYwRUxlTWpMSFoxcVRXc2hWVmdjNWhRZjRwNWR2d08zSGd2NFA1QWE5Y0w4VExLSEFKelNTWl9ad00yV0k0azB5SFQ2R21fWmM?oc=5",
+     "time": "2026-11-09T16:00:00+00:00"
+    },
+    {
+     "title": "NBIS Price Prediction: Bearish momentum meets a crowded analyst reset",
+     "publisher": "Blockchain News",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQU1QzT2xCSmEwa1BvOElaeUZsZDBfSDVQbHlEWHhQdENhVkhCdm4wMXdoa0E2MEhKZXFXcnBqX01uSDJ3ZjE1REc3b2NYVEtWdnd2R1JwSGpaSW9SZjB2YlN3VzRrb1RSV1VDdnkxMDNsWV80UV9MeVFNRUxLMVFMTFBMQXNXZVZpTFZ2V0g3V1hfUGxndjctNm1QazJsU3R3ZWc?oc=5",
+     "time": "2026-11-09T13:28:00+00:00"
+    }
+   ],
+   "brief": "2026-11-09-NBIS"
+  },
+  {
    "symbol": "ANET",
    "name": "Arista Networks",
    "list": "portfolio",
-   "price": 187.24,
+   "price": 187.49,
    "prev_close": 170.8,
-   "change_pct": 9.6,
+   "change_pct": 9.8,
    "trigger_change": 8.1,
    "peak_change": 9.9,
    "first_seen": "2026-11-09T14:57:33+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 487.95,
-    "change_pct": 5.17
+    "price": 488.65,
+    "change_pct": 5.32
    },
    "chart": {
-    "ema8": 6.8,
-    "ema21": 3.4,
-    "sma50": -2.7,
-    "sma200": 12.5,
+    "ema8": 6.9,
+    "ema21": 3.6,
+    "sma50": -2.6,
+    "sma200": 12.7,
     "momentum": false
    },
    "headlines": [
@@ -174,23 +249,23 @@
    "symbol": "AVGO",
    "name": "Broadcom",
    "list": "portfolio",
-   "price": 320.92,
+   "price": 322.22,
    "prev_close": 293.69,
-   "change_pct": 9.3,
+   "change_pct": 9.7,
    "trigger_change": 7.0,
-   "peak_change": 9.3,
+   "peak_change": 9.7,
    "first_seen": "2026-11-09T14:57:33+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 487.95,
-    "change_pct": 5.17
+    "price": 488.65,
+    "change_pct": 5.32
    },
    "chart": {
-    "ema8": 1.1,
-    "ema21": -2.7,
-    "sma50": -7.5,
-    "sma200": -12.6,
+    "ema8": 1.5,
+    "ema21": -2.3,
+    "sma50": -7.1,
+    "sma200": -12.2,
     "momentum": false
    },
    "headlines": [
@@ -246,95 +321,20 @@
    "brief": "2026-11-09-AVGO"
   },
   {
-   "symbol": "NBIS",
-   "name": "Nebius",
-   "list": "portfolio",
-   "price": 141.37,
-   "prev_close": 129.49,
-   "change_pct": 9.2,
-   "trigger_change": 6.5,
-   "peak_change": 9.6,
-   "first_seen": "2026-11-09T14:57:33+00:00",
-   "sector": {
-    "etf": "IGV",
-    "name": "Software",
-    "price": 101.82,
-    "change_pct": 2.97
-   },
-   "chart": {
-    "ema8": -1.4,
-    "ema21": -13.8,
-    "sma50": -29.4,
-    "sma200": -20.9,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Not Revenue. Not Growth. Here\u2019s What I\u2019ll Be Watching When CoreWeave and Nebius Report This Week.",
-     "publisher": "The Motley Fool",
-     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPaGpfek03T2p4N3FuZ3czX2twSnhrNGVYdERlaVN3bGJXVnZKa1Q5WWZGaXBWQk5fdEo5Uzd5VEkzSllPcmNiaUlRM0d5Mk9keUJ4ek81RnNSLWVlU2Z5RUdfYU9henRWemtBWmtqdmYwUlFwNkY5TnFGZ2RwTXNWWnBDVk5nMzRZekhka1gxN1cwaTk0R2JnZ2xLYmtqUzhHZnlGdk53Q3NmTDBsZWU2SnJ0bm5ybUJBU2h6c0ZKTlJaWk5fcUpzWE9kOTdKSTRoZHFN?oc=5",
-     "time": "2026-11-09T19:02:00+00:00"
-    },
-    {
-     "title": "CoreWeave Rises 5%, Nebius Up 7% as AI Stocks Rebound Ahead of Earnings: \u201cLevered Trades to AI\u201d",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNbklTenlNX0t3WjZfenBzQVItb0M5T3BkaXpIWTRXbUVhM20teUN2Z1NTT2pZN2xZSXlXd0xoTnNXT0w0ajVFN0JXSWNVanR1RXVFY1JLa2JPb2VERV9CMW54WVN4UkpwVmRrSlNpREZ0dWpzMGJkX2tkdVMtOUdRdVg2SjQxdmhGenltYTIzRlMxR0owQmc?oc=5",
-     "time": "2026-11-09T18:28:25+00:00"
-    },
-    {
-     "title": "Cloudflare Jumps 11%, Nebius Surges 9% as AI Cloud Stocks Defy NVIDIA's Slide; CoreWeave Rallies 6% on Wayve Deal",
-     "publisher": "24/7 Wall St.",
-     "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOZGlxYy1RZEJRY2lINGhCZDBvajBVaEZLV1Y5QzhudzdTWVVhWXZ4bXUzMVNhWXNEUGdBYVFfcWJLbk1kYUQ4NVFnZmJoaUNrbzZocXRZUVBkQTdoOVJZM1o1YTBXdUs4VWlrM05Tb1pKQ3ZwSEdyd09EMkVQaVEyRl9jaENLbWgxM2M1WklZVEIwTTR1dmplTGI0YVNjd3B0XzdzeVo5T3BoeVdYNDRtd042dnVqVnV5dVhSblo5TGtOZHJmemRiZ0J4b0J3RkRIRlZiNy1nYUJNa0txaU5BU19DMi1LZw?oc=5",
-     "time": "2026-11-09T17:55:00+00:00"
-    },
-    {
-     "title": "Jensen Huang\u2019s Scandal Could Hit CoreWeave, Nebius Where It Hurts",
-     "publisher": "Benzinga",
-     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOckR4UTlScHh1aWd5RE5IaUJPRjhNUFl1czUzWVkzd2ZOUTBHOW5YTlY2THVvczBhWU14UkZnUEpGZXBjdjA5dU9McVU5dFRMdVcyYkZqQmo1alotWFBtWXYxLTlrU04wSXRRRVRXZm1KUy1CcHNRcjV1TzJmTjNuWmhIQmJpZ19tMVNFNVlHUVNVY3FDZEh1NF80RnNQMVZ2Vmtpa0w0MU84WkVKTjFELS0yQTRXSzV3SGU2dy1EamJsUQ?oc=5",
-     "time": "2026-11-09T17:20:12+00:00"
-    },
-    {
-     "title": "Nebius Stock (NBIS) Set for 17% Move After Q3 Earnings This Week, Say Options Traders",
-     "publisher": "TipRanks",
-     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPWU9nRUhPcGc3eXFiSHNLMWEtaFctWXdJb0ZueS0yOEtCSDVrdm1VRXdGMU1rbkFNTVhoQ2swTXlmUTlYb3U1QXZhdF9VVDZfQnZIM3VzODllSk1XYXItMDZtNlFQYVFvbEJrVENJekZlTEhzNTFYWm9iMEpaQ0tfMEw0b29tVHI1MTF1bF82TVJMZHdXbnhPOF84Um9PQTRVdFBsNFlibDZEOXlkcVFuYg?oc=5",
-     "time": "2026-11-09T16:52:40+00:00"
-    },
-    {
-     "title": "Nebius Group stock drops despite no impact from...",
-     "publisher": "Pluang",
-     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5WM0ZybzNJOG5YY1I3QUJUWDhJWTM1WTZIZVZ2djhheWtCRnc2ZWNOcFdoYXIzZ3lKMEdXbzhIQ0gtTkRzZTVPX3BqZkFYN2FSTUZrb0k4QWY2aldIR3IwcDk3UjdZSU5razEtaW1HNWh6Zw?oc=5",
-     "time": "2026-11-09T16:15:56+00:00"
-    },
-    {
-     "title": "Nebius: AI Panic Round Trip Gift (NASDAQ:NBIS)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5ueGFXb1c0cmItR0xRVEZ2MDNZY2pvUlgwQ044TGN4cnFFb08xVnh6UkNpMTYwRUxlTWpMSFoxcVRXc2hWVmdjNWhRZjRwNWR2d08zSGd2NFA1QWE5Y0w4VExLSEFKelNTWl9ad00yV0k0azB5SFQ2R21fWmM?oc=5",
-     "time": "2026-11-09T16:00:00+00:00"
-    },
-    {
-     "title": "NBIS Price Prediction: Bearish momentum meets a crowded analyst reset",
-     "publisher": "Blockchain News",
-     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQU1QzT2xCSmEwa1BvOElaeUZsZDBfSDVQbHlEWHhQdENhVkhCdm4wMXdoa0E2MEhKZXFXcnBqX01uSDJ3ZjE1REc3b2NYVEtWdnd2R1JwSGpaSW9SZjB2YlN3VzRrb1RSV1VDdnkxMDNsWV80UV9MeVFNRUxLMVFMTFBMQXNXZVZpTFZ2V0g3V1hfUGxndjctNm1QazJsU3R3ZWc?oc=5",
-     "time": "2026-11-09T13:28:00+00:00"
-    }
-   ],
-   "brief": "2026-11-09-NBIS"
-  },
-  {
    "symbol": "META",
    "name": "Meta",
    "list": "portfolio",
-   "price": 645.09,
+   "price": 645.3,
    "prev_close": 610.15,
-   "change_pct": 5.7,
+   "change_pct": 5.8,
    "trigger_change": 5.0,
-   "peak_change": 5.7,
+   "peak_change": 5.8,
    "first_seen": "2026-11-09T14:57:33+00:00",
    "sector": {
     "etf": "XLC",
     "name": "Communication",
-    "price": 107.59,
-    "change_pct": 2.67
+    "price": 107.68,
+    "change_pct": 2.76
    },
    "chart": {
     "ema8": 3.0,
@@ -399,23 +399,23 @@
    "symbol": "CRWD",
    "name": "CrowdStrike",
    "list": "portfolio",
-   "price": 229.03,
+   "price": 229.18,
    "prev_close": 216.9,
-   "change_pct": 5.6,
+   "change_pct": 5.7,
    "trigger_change": 3.7,
    "peak_change": 6.2,
    "first_seen": "2026-11-09T16:04:16+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 101.82,
-    "change_pct": 2.97
+    "price": 101.81,
+    "change_pct": 2.96
    },
    "chart": {
     "ema8": -2.3,
     "ema21": -5.7,
     "sma50": -6.1,
-    "sma200": 34.1,
+    "sma200": 34.2,
     "momentum": false
    },
    "headlines": [
@@ -462,7 +462,7 @@
    "symbol": "APP",
    "name": "AppLovin",
    "list": "portfolio",
-   "price": 411.68,
+   "price": 411.6,
    "prev_close": 391.22,
    "change_pct": 5.2,
    "trigger_change": 3.8,
@@ -471,8 +471,8 @@
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 101.82,
-    "change_pct": 2.97
+    "price": 101.81,
+    "change_pct": 2.96
    },
    "chart": {
     "ema8": 26.2,
@@ -534,101 +534,26 @@
    "brief": "2026-11-09-APP"
   },
   {
-   "symbol": "NVDA",
-   "name": "Nvidia",
-   "list": "portfolio",
-   "price": 177.32,
-   "prev_close": 186.64,
-   "change_pct": -5.0,
-   "trigger_change": -4.9,
-   "peak_change": -6.4,
-   "first_seen": "2026-11-09T14:57:33+00:00",
-   "sector": {
-    "etf": "SMH",
-    "name": "Semiconductors",
-    "price": 487.95,
-    "change_pct": 5.17
-   },
-   "chart": {
-    "ema8": -8.5,
-    "ema21": -14.1,
-    "sma50": -19.0,
-    "sma200": -13.3,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "NVDA Stock Attempts Recovery after Breakdown on Nvidia Board CEO Jensen Huang Investigation Over Alleged Espionage Target",
-     "publisher": "FXLeaders",
-     "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOMjZMQ2ZDVGNGeFZCblVUWjdZNktzcjJWeGtZb21vNFpsLWFlWUZVUDlhcGZQZEl1QzJKQnBVbFduNnRSWVFpXzdDeEw0TlRUNmpUTzViemJGb0M0RHozZW96RkE1UnNZWkNOa3lBYzlKUmV3U25rRXlkLTdFZ0g1dVROOS1IT05sN3dRQ3htVnQ5U0JaaUpfVUlhY3BTQnFVZ2pvU0pyNnhlejA5bW5MSUlPY3VaQjBtZ3BPckNyU3h1TVpJNmdIb0lBdkxSNnJkQ3IyVWwyazlmcmhmdFFmcW9HcUJYNXlJdXlFMV92NUt3cFdnNDNGaDBn?oc=5",
-     "time": "2026-11-09T19:48:21+00:00"
-    },
-    {
-     "title": "Jensen Huang Might Be the Biggest Wild Card for Nvidia Stock. Here's What to Watch During Earnings on Nov. 17",
-     "publisher": "The Motley Fool",
-     "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOc0wxT21VclI2YXUxYXFKUWZuLTEzUjJJM01ncTFiTUFwWVN6c3A0N2dPdkVGb1pVYjFmZDlrR0NWUURhQ1RoS292STN4UGRrOE5yMGVxZXJaeE9uX3R1WWdITGQyYVJ1RFQyZGpiTnN2RVVzSGw2WmlTcE5GbmJleHlwZFpmaE1FdWJaQW01SDE2TktFZHJkaVl1aWpGeEdhclNVYTFzLWJsX0tkbTNFREJLSHdZQkZjZlhZS2JQbmVwM2M1S2E1b091WUhaNW9JZ3czWUNrVnJCRmxGUEt3Vkl0Zlg?oc=5",
-     "time": "2026-11-09T19:09:00+00:00"
-    },
-    {
-     "title": "Unless Nvidia Removes Jensen Huang, the Stock Is Worth Holding",
-     "publisher": "Barron's",
-     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOaU81WE5tUkk1dXpGTVRCRk0yMnVleVVkYXFwaEhockRXNnF6R1l6WHo4Ym9HajVJVHZRS25ydHNEUkZMbXNfMGtkVVY5TnplRnJMWEZhYnQyTlk0dWstYkk5V3hvTzdHWWFWV0haa00teER6TW92MnFQYlJEcHpWOERnaWNLSXVR?oc=5",
-     "time": "2026-11-09T19:08:00+00:00"
-    },
-    {
-     "title": "Dow rallies over 1,000 points and Nasdaq gains 2.5% as stocks rebound",
-     "publisher": "Quartz",
-     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE0xeUlWR2tPT1d3MDdQMWllUElRTGlzWWZNV1VtVmZsMFB2a2djVmVtbEJzVkl5cS1hcTZQN1BZM294VWVZdTNvVTRMZUhMdi00d0ZyVW51cVQ3YXNqOGRJWWowd2kteE5xcWt4N2pFYnhSdG82?oc=5",
-     "time": "2026-11-09T19:03:11+00:00"
-    },
-    {
-     "title": "Nvidia: The Jensen Affair Saga Is Just Noise (NASDAQ:NVDA)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPbG5yLXZZd1NjVVZSSDVRamVSNUt4OVpfbmxNNWowWG0zM09EY18tc3pFenI2UUdUcFducW5zcGlEakhlcDZGbkxmaFBaWm1pNUNFYlUxTDRNN3lZTm5qYmg0UGpYS2k1XzNFbjZxNk5WZUMyQTVzVWF1VGFtbVhaXzZNSkVEeWRYa1hNZg?oc=5",
-     "time": "2026-11-09T19:00:00+00:00"
-    },
-    {
-     "title": "Nvidia stock falls as board probe exposes succession void for Jensen Huang",
-     "publisher": "Quartz",
-     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBrRjh2SldCZ3ZselkzSGNkSXE0MlVsb3lhNmhmRGx3TG9Ba1FrWHZobU11UVVrNk4wQUpsWElYdTBsR2E5SEZmal91NkJUNXFsQ2pjVDhTbGpZXzFWeEUyUGxBWkdnLTJtU09iNXc0eXJsdjA4NHhFdEJR?oc=5",
-     "time": "2026-11-09T18:49:09+00:00"
-    },
-    {
-     "title": "A massive trade in Nvidia just went off \u2013 here are the details",
-     "publisher": "CNBC",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOcTZiNlRvdFdDOEZEcWtaQV9NZU94U1A0RU9qZXVXV3MtbDZtcmxlQ01oS1ZhVEpZQmVvcGx5N212aFIxM215UEZiRjBzeGpQUkc2aThiSVY4M0J1NE5ra0NIcDBxY3JieTlfdUVhZlJnSC03Z1huWmF0ZUdlUjhGQmVDYk1lTjduMkJNVjZzd0EzdzRzbWdzYmpocThuZw?oc=5",
-     "time": "2026-11-09T18:37:59+00:00"
-    },
-    {
-     "title": "Nvidia: China Spy Saga Not Enough To Shake Me Off (NASDAQ:NVDA)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQVGxkMTZQYmFCYjRWeC00MnlDV1FXVjRDM3p6NHQzWnhWN1hxZm5MeDJwQWFKTXRxS2lRUjNTdGlWSllRYlBiQXNnc3dTV09oY1dVS3dzUGVnTlh6Q24zRmgtOWMzVkpyRzJHNE4xUWZKOTNjWE9JdUNJQXFfbXY1MV9VclVNbFYyakFBOW5ET3BtNTA?oc=5",
-     "time": "2026-11-09T18:30:00+00:00"
-    }
-   ],
-   "brief": "2026-11-09-NVDA"
-  },
-  {
    "symbol": "SOFI",
    "name": "SoFi",
    "list": "portfolio",
-   "price": 16.95,
+   "price": 17.0,
    "prev_close": 16.21,
-   "change_pct": 4.6,
+   "change_pct": 4.9,
    "trigger_change": 3.1,
-   "peak_change": 4.8,
+   "peak_change": 4.9,
    "first_seen": "2026-11-09T15:02:33+00:00",
    "sector": {
     "etf": "XLF",
     "name": "Financials",
-    "price": 58.2,
-    "change_pct": 1.83
+    "price": 58.18,
+    "change_pct": 1.78
    },
    "chart": {
-    "ema8": 2.5,
-    "ema21": 4.8,
-    "sma50": 3.8,
-    "sma200": -3.2,
+    "ema8": 2.7,
+    "ema21": 5.0,
+    "sma50": 4.1,
+    "sma200": -2.9,
     "momentum": true
    },
    "headlines": [
@@ -684,26 +609,101 @@
    "brief": "2026-11-09-SOFI"
   },
   {
+   "symbol": "NVDA",
+   "name": "Nvidia",
+   "list": "portfolio",
+   "price": 177.93,
+   "prev_close": 186.64,
+   "change_pct": -4.7,
+   "trigger_change": -4.9,
+   "peak_change": -6.4,
+   "first_seen": "2026-11-09T14:57:33+00:00",
+   "sector": {
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 488.65,
+    "change_pct": 5.32
+   },
+   "chart": {
+    "ema8": -8.3,
+    "ema21": -13.8,
+    "sma50": -18.8,
+    "sma200": -13.0,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "NVDA Stock Attempts Recovery after Breakdown on Nvidia Board CEO Jensen Huang Investigation Over Alleged Espionage Target",
+     "publisher": "FXLeaders",
+     "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOMjZMQ2ZDVGNGeFZCblVUWjdZNktzcjJWeGtZb21vNFpsLWFlWUZVUDlhcGZQZEl1QzJKQnBVbFduNnRSWVFpXzdDeEw0TlRUNmpUTzViemJGb0M0RHozZW96RkE1UnNZWkNOa3lBYzlKUmV3U25rRXlkLTdFZ0g1dVROOS1IT05sN3dRQ3htVnQ5U0JaaUpfVUlhY3BTQnFVZ2pvU0pyNnhlejA5bW5MSUlPY3VaQjBtZ3BPckNyU3h1TVpJNmdIb0lBdkxSNnJkQ3IyVWwyazlmcmhmdFFmcW9HcUJYNXlJdXlFMV92NUt3cFdnNDNGaDBn?oc=5",
+     "time": "2026-11-09T19:48:21+00:00"
+    },
+    {
+     "title": "Jensen Huang Might Be the Biggest Wild Card for Nvidia Stock. Here's What to Watch During Earnings on Nov. 17",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOc0wxT21VclI2YXUxYXFKUWZuLTEzUjJJM01ncTFiTUFwWVN6c3A0N2dPdkVGb1pVYjFmZDlrR0NWUURhQ1RoS292STN4UGRrOE5yMGVxZXJaeE9uX3R1WWdITGQyYVJ1RFQyZGpiTnN2RVVzSGw2WmlTcE5GbmJleHlwZFpmaE1FdWJaQW01SDE2TktFZHJkaVl1aWpGeEdhclNVYTFzLWJsX0tkbTNFREJLSHdZQkZjZlhZS2JQbmVwM2M1S2E1b091WUhaNW9JZ3czWUNrVnJCRmxGUEt3Vkl0Zlg?oc=5",
+     "time": "2026-11-09T19:09:00+00:00"
+    },
+    {
+     "title": "Unless Nvidia Removes Jensen Huang, the Stock Is Worth Holding",
+     "publisher": "Barron's",
+     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOaU81WE5tUkk1dXpGTVRCRk0yMnVleVVkYXFwaEhockRXNnF6R1l6WHo4Ym9HajVJVHZRS25ydHNEUkZMbXNfMGtkVVY5TnplRnJMWEZhYnQyTlk0dWstYkk5V3hvTzdHWWFWV0haa00teER6TW92MnFQYlJEcHpWOERnaWNLSXVR?oc=5",
+     "time": "2026-11-09T19:08:00+00:00"
+    },
+    {
+     "title": "Dow rallies over 1,000 points and Nasdaq gains 2.5% as stocks rebound",
+     "publisher": "Quartz",
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE0xeUlWR2tPT1d3MDdQMWllUElRTGlzWWZNV1VtVmZsMFB2a2djVmVtbEJzVkl5cS1hcTZQN1BZM294VWVZdTNvVTRMZUhMdi00d0ZyVW51cVQ3YXNqOGRJWWowd2kteE5xcWt4N2pFYnhSdG82?oc=5",
+     "time": "2026-11-09T19:03:11+00:00"
+    },
+    {
+     "title": "Nvidia: The Jensen Affair Saga Is Just Noise (NASDAQ:NVDA)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPbG5yLXZZd1NjVVZSSDVRamVSNUt4OVpfbmxNNWowWG0zM09EY18tc3pFenI2UUdUcFducW5zcGlEakhlcDZGbkxmaFBaWm1pNUNFYlUxTDRNN3lZTm5qYmg0UGpYS2k1XzNFbjZxNk5WZUMyQTVzVWF1VGFtbVhaXzZNSkVEeWRYa1hNZg?oc=5",
+     "time": "2026-11-09T19:00:00+00:00"
+    },
+    {
+     "title": "Nvidia stock falls as board probe exposes succession void for Jensen Huang",
+     "publisher": "Quartz",
+     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBrRjh2SldCZ3ZselkzSGNkSXE0MlVsb3lhNmhmRGx3TG9Ba1FrWHZobU11UVVrNk4wQUpsWElYdTBsR2E5SEZmal91NkJUNXFsQ2pjVDhTbGpZXzFWeEUyUGxBWkdnLTJtU09iNXc0eXJsdjA4NHhFdEJR?oc=5",
+     "time": "2026-11-09T18:49:09+00:00"
+    },
+    {
+     "title": "A massive trade in Nvidia just went off \u2013 here are the details",
+     "publisher": "CNBC",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOcTZiNlRvdFdDOEZEcWtaQV9NZU94U1A0RU9qZXVXV3MtbDZtcmxlQ01oS1ZhVEpZQmVvcGx5N212aFIxM215UEZiRjBzeGpQUkc2aThiSVY4M0J1NE5ra0NIcDBxY3JieTlfdUVhZlJnSC03Z1huWmF0ZUdlUjhGQmVDYk1lTjduMkJNVjZzd0EzdzRzbWdzYmpocThuZw?oc=5",
+     "time": "2026-11-09T18:37:59+00:00"
+    },
+    {
+     "title": "Nvidia: China Spy Saga Not Enough To Shake Me Off (NASDAQ:NVDA)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQVGxkMTZQYmFCYjRWeC00MnlDV1FXVjRDM3p6NHQzWnhWN1hxZm5MeDJwQWFKTXRxS2lRUjNTdGlWSllRYlBiQXNnc3dTV09oY1dVS3dzUGVnTlh6Q24zRmgtOWMzVkpyRzJHNE4xUWZKOTNjWE9JdUNJQXFfbXY1MV9VclVNbFYyakFBOW5ET3BtNTA?oc=5",
+     "time": "2026-11-09T18:30:00+00:00"
+    }
+   ],
+   "brief": "2026-11-09-NVDA"
+  },
+  {
    "symbol": "AMZN",
    "name": "Amazon",
    "list": "portfolio",
-   "price": 268.31,
+   "price": 268.96,
    "prev_close": 259.3,
-   "change_pct": 3.5,
+   "change_pct": 3.7,
    "trigger_change": 5.3,
    "peak_change": 5.3,
    "first_seen": "2026-11-09T14:57:33+00:00",
    "sector": {
     "etf": "XLY",
     "name": "Consumer discr.",
-    "price": 121.73,
-    "change_pct": 3.53
+    "price": 121.71,
+    "change_pct": 3.51
    },
    "chart": {
-    "ema8": 3.9,
-    "ema21": 5.1,
-    "sma50": 5.6,
-    "sma200": 9.9,
+    "ema8": 4.1,
+    "ema21": 5.3,
+    "sma50": 5.9,
+    "sma200": 10.2,
     "momentum": true
    },
    "headlines": [
@@ -762,23 +762,23 @@
    "symbol": "NVO",
    "name": "Novo Nordisk (ADR)",
    "list": "portfolio",
-   "price": 41.56,
+   "price": 41.59,
    "prev_close": 40.31,
-   "change_pct": 3.1,
+   "change_pct": 3.2,
    "trigger_change": 3.0,
    "peak_change": 3.2,
    "first_seen": "2026-11-09T19:46:27+00:00",
    "sector": {
     "etf": "XLV",
     "name": "Health care",
-    "price": 188.69,
-    "change_pct": 2.1
+    "price": 188.57,
+    "change_pct": 2.04
    },
    "chart": {
     "ema8": 2.6,
-    "ema21": 4.1,
-    "sma50": 2.6,
-    "sma200": -4.7,
+    "ema21": 4.2,
+    "sma50": 2.7,
+    "sma200": -4.6,
     "momentum": true
    },
    "headlines": [
@@ -813,22 +813,22 @@
    "symbol": "AXON",
    "name": "Axon",
    "list": "watchlist",
-   "price": 303.58,
+   "price": 303.86,
    "prev_close": 313.0,
-   "change_pct": -3.0,
+   "change_pct": -2.9,
    "trigger_change": -3.4,
    "peak_change": -5.1,
    "first_seen": "2026-11-09T18:56:02+00:00",
    "sector": {
     "etf": "XLI",
     "name": "Industrials",
-    "price": 169.55,
-    "change_pct": 4.23
+    "price": 169.5,
+    "change_pct": 4.2
    },
    "chart": {
     "ema8": -18.3,
     "ema21": -24.1,
-    "sma50": -30.3,
+    "sma50": -30.2,
     "sma200": -35.6,
     "momentum": false
    },
@@ -888,23 +888,23 @@
    "symbol": "GOOG",
    "name": "Alphabet",
    "list": "portfolio",
-   "price": 287.38,
+   "price": 287.83,
    "prev_close": 283.93,
-   "change_pct": 1.2,
+   "change_pct": 1.4,
    "trigger_change": 3.1,
    "peak_change": 3.1,
    "first_seen": "2026-11-09T15:27:36+00:00",
    "sector": {
     "etf": "XLC",
     "name": "Communication",
-    "price": 107.59,
-    "change_pct": 2.67
+    "price": 107.68,
+    "change_pct": 2.76
    },
    "chart": {
-    "ema8": -0.6,
-    "ema21": -6.0,
-    "sma50": -12.6,
-    "sma200": -14.8,
+    "ema8": -0.4,
+    "ema21": -5.9,
+    "sma50": -12.4,
+    "sma200": -14.7,
     "momentum": false
    },
    "headlines": [
