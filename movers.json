@@ -1,121 +1,46 @@
 {
  "date": "2026-11-09",
  "threshold": 3.0,
- "updated": "2026-11-09T15:42:47+00:00",
+ "updated": "2026-11-09T15:52:50+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 750.12,
-   "change_pct": 2.02
+   "price": 751.1,
+   "change_pct": 2.15
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 675.29,
-   "change_pct": 2.93
+   "price": 677.19,
+   "change_pct": 3.21
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 81.92,
-   "change_pct": 0.01
+   "price": 81.89,
+   "change_pct": -0.04
   }
  },
  "movers": [
   {
-   "symbol": "ANET",
-   "name": "Arista Networks",
-   "list": "portfolio",
-   "price": 186.17,
-   "prev_close": 170.8,
-   "change_pct": 9.0,
-   "trigger_change": 8.1,
-   "peak_change": 9.3,
-   "first_seen": "2026-11-09T14:57:33+00:00",
-   "sector": {
-    "etf": "SMH",
-    "name": "Semiconductors",
-    "price": 482.36,
-    "change_pct": 3.97
-   },
-   "chart": {
-    "ema8": 6.3,
-    "ema21": 2.9,
-    "sma50": -3.3,
-    "sma200": 11.9,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Arista Sinks 14% in a Week Despite an $18.55 Billion 2027 Outlook",
-     "publisher": "TIKR.com",
-     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQeFJXRmZEUDJZVkhaRlBVN0hLN0w1Z2sxM1dlSHdWeDhpMThkbW1OdkRxRndGY0dzaG1nVExHNlNaT2ZWR2p1RDF0WEVqcDVQZFd3Ulg4R2M0VmtPX1FOTGwwVnhrODNMajFvZ2pHUE5JZUZOUGo1VERvSElvY1lFWjBwekJ4YVdLOVE?oc=5",
-     "time": "2026-11-09T14:00:51+00:00"
-    },
-    {
-     "title": "Wall Street Analysts Think Arista Networks (ANET) Is a Good Investment: Is It?",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNWmZScXl6Q0FPekJOelo1WEtzck1Nb1FHRFNsN0dpbEd5aUlOSUs0TnlPcHlZcEdSNnFncDAwaFA0VFdrSG5ZX3BsZEU2SmFoZXp5R2hfb1dZUkpodFFld1RjeGNjb0ctVEJNYWx5SzJnY1l6dFp3WkUyQTRMQWFGMDBkckllby1PR1BYTWNlSHpwSkQxZHdIcF9hQU1GTTA?oc=5",
-     "time": "2026-11-09T13:30:03+00:00"
-    },
-    {
-     "title": "Investors Heavily Search Arista Networks, Inc. (ANET): Here is What You Need to Know",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPT0dNSTNPdWdUejExVjRRdHpkU1lUSUNHUVNyZEZ2RS1LbW9iZDFnRVFQb1NiRTRoTURYaFkwOTJvZ0hHS0lPcF81VE1uWndCNHREYUp5RWk2RnRVSGZHdG0takFpdF9jWF91d09UV1ZPVnpDODRPbzA0SmMxaUdfcUpJcVNZZXREVU55VFVWSHFGVXMzNnVmNGlvbDRUbGlwTFZHVzNGN2M?oc=5",
-     "time": "2026-11-09T13:00:05+00:00"
-    },
-    {
-     "title": "Arista Networks, Inc. $ANET Position Increased by Fulcrum Asset Management LLP",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNOGJRb2xOTGZQTmFQempKSmFpemt0U3NaVUg1NkRWZWRKelB3ZGFjemVVVU0ySWNQczVPM3hsaEU1czZlMjMzSUU1VXo3Tm1qdGRoWVdBc0pOYWJkNGY4REJ5SnFQZHhFSjFjSWF2VFgtRGE5c1BySm1mbVo0SVp0QkRHT2lIMjcxdVNWd1V2ZkFVeUlEbVdESzZzUjByUHZGcWUxMWFsQ0NzWUFkV0EzeXJaUnlxYkNBRFRZM0hNcWRUSFl2U0hzQ2phRkpYN3BSX1E?oc=5",
-     "time": "2026-11-09T11:45:00+00:00"
-    },
-    {
-     "title": "14,335 Shares in Arista Networks, Inc. $ANET Bought by M Holdings Securities Inc.",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOUWNPRldtU3VpN2lYcmhvV3lXd0d0a2dNaXBMeUNHRFpoRGx4SmpHel9Nc2hqS3NkS2YwTHhnWXBBYy1XTkV5dEp0U2dsN0ptclAxWWdNX2o3OUpzdnUtMEpib2E0YlhDNkZ4YzVIdGZvcThfWnFOTk5WdDk5cjRQRG9mQnZ4djg5d05DM3JuUDBXLTV5NXk5SjN2dTkzdXNCRDdMcG5IcWhtdWQ2bVN4S2VNU3NnX00tZ1NvSUtnSkVlUktZQ1B6cXlmSjRZSkxpVXV3?oc=5",
-     "time": "2026-11-09T11:00:37+00:00"
-    },
-    {
-     "title": "Arista Networks, Inc. $ANET Stock: Verus Capital Partners LLC Trims Holdings",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOYlBjVlAyWGU1bUJUUi1wLXpZeFdDa3g0YWpnYlBSV2lkLVJPMGgwaDVLaXY5YjhrYkJ0cS1RalVPMW5pMWRMX1VFa1cwdlg5N3JKLTFURmdZc0Q5Q1BVUGZkZTlIdC1nN2NWMWxvOHVvd0VtTFA2X1RtWmw5UjJxaE8tdWI2T29jOUk3SzE3WmlCaEREYkwyeVRUYjlwRFI4bnAtRUZFWDdfdXQwREZ3TFFVQkVvcU00WVJHNm9FOGRvRkN2X1dPU0RyNFR0UQ?oc=5",
-     "time": "2026-11-09T10:40:08+00:00"
-    },
-    {
-     "title": "Allspring Global Investments Holdings LLC Sells 42,373 Shares of Arista Networks, Inc. $ANET",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOaUdHdUhyazc4ejhGSHVKX2IwcnBIUS1aOFdyU1djUWJnRHdjeGdwSVA1QlZVZTE3MXlKMDg2QThTc0xXYXg3Xzk0SXBiRk50dkcwZ3hRUmlBTVRLWEZDX0xMcVIzWlM3SGVmdllLZHNXamJUekRIWXd5SmxCS3pnU2JCcG1jV0p2bUhmY2pGeExIRTRXY0Y4UmNKdmpWc0JVN3JoT0pRNXZIY3lJMzVWX3M4dWMzNTh0MlpvZWN5T1J3Z3NpNENrT3A0VFhZeDllY3BvS1ctdzRUTENGVHRSTEx0SQ?oc=5",
-     "time": "2026-11-09T08:25:46+00:00"
-    },
-    {
-     "title": "Arista Networks Inc (ANET) Stock News Today",
-     "publisher": "TradingKey",
-     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5iY21FNTYzZ0pKMDV1WVN1VGpYamRiWmI1RVk3cFFpU29FQjBFS3I2LWV6MkJBaENUNWRVdXdzQUhGU0xfVWg5Q2tsZ2VnZVBXd0dETjd3R2IxRXhPQUxBcmV5STVfX0g3TmZaOXZNZEkzblJt?oc=5",
-     "time": "2026-11-08T15:39:54+00:00"
-    }
-   ],
-   "brief": null
-  },
-  {
    "symbol": "AMAT",
    "name": "Applied Materials",
    "list": "portfolio",
-   "price": 362.01,
+   "price": 366.18,
    "prev_close": 332.71,
-   "change_pct": 8.8,
+   "change_pct": 10.1,
    "trigger_change": 8.7,
-   "peak_change": 9.0,
+   "peak_change": 10.1,
    "first_seen": "2026-11-09T14:57:33+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 482.36,
-    "change_pct": 3.97
+    "price": 485.68,
+    "change_pct": 4.68
    },
    "chart": {
-    "ema8": -0.5,
-    "ema21": -8.8,
-    "sma50": -18.3,
-    "sma200": -18.8,
+    "ema8": 0.4,
+    "ema21": -7.9,
+    "sma50": -17.3,
+    "sma200": -17.8,
     "momentum": false
    },
    "headlines": [
@@ -171,26 +96,101 @@
    "brief": null
   },
   {
-   "symbol": "AVGO",
-   "name": "Broadcom",
+   "symbol": "ANET",
+   "name": "Arista Networks",
    "list": "portfolio",
-   "price": 317.01,
-   "prev_close": 293.69,
-   "change_pct": 7.9,
-   "trigger_change": 7.0,
-   "peak_change": 8.0,
+   "price": 187.12,
+   "prev_close": 170.8,
+   "change_pct": 9.6,
+   "trigger_change": 8.1,
+   "peak_change": 9.6,
    "first_seen": "2026-11-09T14:57:33+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 482.36,
-    "change_pct": 3.97
+    "price": 485.68,
+    "change_pct": 4.68
    },
    "chart": {
-    "ema8": 0.2,
-    "ema21": -3.8,
-    "sma50": -8.6,
-    "sma200": -13.6,
+    "ema8": 6.8,
+    "ema21": 3.4,
+    "sma50": -2.8,
+    "sma200": 12.5,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Arista Sinks 14% in a Week Despite an $18.55 Billion 2027 Outlook",
+     "publisher": "TIKR.com",
+     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQeFJXRmZEUDJZVkhaRlBVN0hLN0w1Z2sxM1dlSHdWeDhpMThkbW1OdkRxRndGY0dzaG1nVExHNlNaT2ZWR2p1RDF0WEVqcDVQZFd3Ulg4R2M0VmtPX1FOTGwwVnhrODNMajFvZ2pHUE5JZUZOUGo1VERvSElvY1lFWjBwekJ4YVdLOVE?oc=5",
+     "time": "2026-11-09T14:00:51+00:00"
+    },
+    {
+     "title": "Wall Street Analysts Think Arista Networks (ANET) Is a Good Investment: Is It?",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNWmZScXl6Q0FPekJOelo1WEtzck1Nb1FHRFNsN0dpbEd5aUlOSUs0TnlPcHlZcEdSNnFncDAwaFA0VFdrSG5ZX3BsZEU2SmFoZXp5R2hfb1dZUkpodFFld1RjeGNjb0ctVEJNYWx5SzJnY1l6dFp3WkUyQTRMQWFGMDBkckllby1PR1BYTWNlSHpwSkQxZHdIcF9hQU1GTTA?oc=5",
+     "time": "2026-11-09T13:30:03+00:00"
+    },
+    {
+     "title": "Investors Heavily Search Arista Networks, Inc. (ANET): Here is What You Need to Know",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPT0dNSTNPdWdUejExVjRRdHpkU1lUSUNHUVNyZEZ2RS1LbW9iZDFnRVFQb1NiRTRoTURYaFkwOTJvZ0hHS0lPcF81VE1uWndCNHREYUp5RWk2RnRVSGZHdG0takFpdF9jWF91d09UV1ZPVnpDODRPbzA0SmMxaUdfcUpJcVNZZXREVU55VFVWSHFGVXMzNnVmNGlvbDRUbGlwTFZHVzNGN2M?oc=5",
+     "time": "2026-11-09T13:00:05+00:00"
+    },
+    {
+     "title": "Arista Networks, Inc. $ANET Position Increased by Fulcrum Asset Management LLP",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNOGJRb2xOTGZQTmFQempKSmFpemt0U3NaVUg1NkRWZWRKelB3ZGFjemVVVU0ySWNQczVPM3hsaEU1czZlMjMzSUU1VXo3Tm1qdGRoWVdBc0pOYWJkNGY4REJ5SnFQZHhFSjFjSWF2VFgtRGE5c1BySm1mbVo0SVp0QkRHT2lIMjcxdVNWd1V2ZkFVeUlEbVdESzZzUjByUHZGcWUxMWFsQ0NzWUFkV0EzeXJaUnlxYkNBRFRZM0hNcWRUSFl2U0hzQ2phRkpYN3BSX1E?oc=5",
+     "time": "2026-11-09T11:45:00+00:00"
+    },
+    {
+     "title": "14,335 Shares in Arista Networks, Inc. $ANET Bought by M Holdings Securities Inc.",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOUWNPRldtU3VpN2lYcmhvV3lXd0d0a2dNaXBMeUNHRFpoRGx4SmpHel9Nc2hqS3NkS2YwTHhnWXBBYy1XTkV5dEp0U2dsN0ptclAxWWdNX2o3OUpzdnUtMEpib2E0YlhDNkZ4YzVIdGZvcThfWnFOTk5WdDk5cjRQRG9mQnZ4djg5d05DM3JuUDBXLTV5NXk5SjN2dTkzdXNCRDdMcG5IcWhtdWQ2bVN4S2VNU3NnX00tZ1NvSUtnSkVlUktZQ1B6cXlmSjRZSkxpVXV3?oc=5",
+     "time": "2026-11-09T11:00:37+00:00"
+    },
+    {
+     "title": "Arista Networks, Inc. $ANET Stock: Verus Capital Partners LLC Trims Holdings",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOYlBjVlAyWGU1bUJUUi1wLXpZeFdDa3g0YWpnYlBSV2lkLVJPMGgwaDVLaXY5YjhrYkJ0cS1RalVPMW5pMWRMX1VFa1cwdlg5N3JKLTFURmdZc0Q5Q1BVUGZkZTlIdC1nN2NWMWxvOHVvd0VtTFA2X1RtWmw5UjJxaE8tdWI2T29jOUk3SzE3WmlCaEREYkwyeVRUYjlwRFI4bnAtRUZFWDdfdXQwREZ3TFFVQkVvcU00WVJHNm9FOGRvRkN2X1dPU0RyNFR0UQ?oc=5",
+     "time": "2026-11-09T10:40:08+00:00"
+    },
+    {
+     "title": "Allspring Global Investments Holdings LLC Sells 42,373 Shares of Arista Networks, Inc. $ANET",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOaUdHdUhyazc4ejhGSHVKX2IwcnBIUS1aOFdyU1djUWJnRHdjeGdwSVA1QlZVZTE3MXlKMDg2QThTc0xXYXg3Xzk0SXBiRk50dkcwZ3hRUmlBTVRLWEZDX0xMcVIzWlM3SGVmdllLZHNXamJUekRIWXd5SmxCS3pnU2JCcG1jV0p2bUhmY2pGeExIRTRXY0Y4UmNKdmpWc0JVN3JoT0pRNXZIY3lJMzVWX3M4dWMzNTh0MlpvZWN5T1J3Z3NpNENrT3A0VFhZeDllY3BvS1ctdzRUTENGVHRSTEx0SQ?oc=5",
+     "time": "2026-11-09T08:25:46+00:00"
+    },
+    {
+     "title": "Arista Networks Inc (ANET) Stock News Today",
+     "publisher": "TradingKey",
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5iY21FNTYzZ0pKMDV1WVN1VGpYamRiWmI1RVk3cFFpU29FQjBFS3I2LWV6MkJBaENUNWRVdXdzQUhGU0xfVWg5Q2tsZ2VnZVBXd0dETjd3R2IxRXhPQUxBcmV5STVfX0g3TmZaOXZNZEkzblJt?oc=5",
+     "time": "2026-11-08T15:39:54+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
+   "symbol": "AVGO",
+   "name": "Broadcom",
+   "list": "portfolio",
+   "price": 319.12,
+   "prev_close": 293.69,
+   "change_pct": 8.7,
+   "trigger_change": 7.0,
+   "peak_change": 8.7,
+   "first_seen": "2026-11-09T14:57:33+00:00",
+   "sector": {
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 485.68,
+    "change_pct": 4.68
+   },
+   "chart": {
+    "ema8": 0.7,
+    "ema21": -3.2,
+    "sma50": -8.0,
+    "sma200": -13.1,
     "momentum": false
    },
    "headlines": [
@@ -249,23 +249,23 @@
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 137.87,
+   "price": 140.36,
    "prev_close": 129.49,
-   "change_pct": 6.5,
+   "change_pct": 8.4,
    "trigger_change": 6.5,
-   "peak_change": 7.4,
+   "peak_change": 8.4,
    "first_seen": "2026-11-09T14:57:33+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 100.62,
-    "change_pct": 1.76
+    "price": 101.04,
+    "change_pct": 2.18
    },
    "chart": {
-    "ema8": -3.3,
-    "ema21": -15.8,
-    "sma50": -31.2,
-    "sma200": -22.8,
+    "ema8": -1.9,
+    "ema21": -14.4,
+    "sma50": -29.9,
+    "sma200": -21.4,
     "momentum": false
    },
    "headlines": [
@@ -324,7 +324,7 @@
    "symbol": "META",
    "name": "Meta",
    "list": "portfolio",
-   "price": 638.6,
+   "price": 639.09,
    "prev_close": 610.15,
    "change_pct": 4.7,
    "trigger_change": 5.0,
@@ -333,13 +333,13 @@
    "sector": {
     "etf": "XLC",
     "name": "Communication",
-    "price": 107.05,
-    "change_pct": 2.16
+    "price": 107.12,
+    "change_pct": 2.22
    },
    "chart": {
-    "ema8": 2.2,
-    "ema21": -1.5,
-    "sma50": -5.6,
+    "ema8": 2.3,
+    "ema21": -1.4,
+    "sma50": -5.5,
     "sma200": 1.1,
     "momentum": false
    },
@@ -396,176 +396,26 @@
    "brief": null
   },
   {
-   "symbol": "NVDA",
-   "name": "Nvidia",
-   "list": "portfolio",
-   "price": 178.32,
-   "prev_close": 186.64,
-   "change_pct": -4.5,
-   "trigger_change": -4.9,
-   "peak_change": -4.9,
-   "first_seen": "2026-11-09T14:57:33+00:00",
-   "sector": {
-    "etf": "SMH",
-    "name": "Semiconductors",
-    "price": 482.36,
-    "change_pct": 3.97
-   },
-   "chart": {
-    "ema8": -8.1,
-    "ema21": -13.6,
-    "sma50": -18.6,
-    "sma200": -12.9,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Nvidia Sinks 8% as Board Probes Reports Huang Was \u201cTarget of a Foreign Intelligence Effort\u201d",
-     "publisher": "TIKR.com",
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdlo0S0FPWDJkTUFhYUVON0xIZWRXSTROaGtyNm5WcUcyNGxfRmhvNkNzYmsyWnlLZ3l1bEd2S3B1S0pVWkl2U05PZElvSXR4WnNjWDQ2NGljUF9fS2UtLVBRcVRoVlRsLVd3amtNUW12VmVMdVp6OVB3ZzJfVE9jTTV3cXZSdkk0V0tvbFA0VW43eWNrelpSUlhkalRzUXBRNzNiNXFHeEtqSmxEdno0TktqOWxidw?oc=5",
-     "time": "2026-11-09T15:00:11+00:00"
-    },
-    {
-     "title": "Dow jumps more than 600 points as oil slides and Nvidia stock falls",
-     "publisher": "Quartz",
-     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE0xeUlWR2tPT1d3MDdQMWllUElRTGlzWWZNV1VtVmZsMFB2a2djVmVtbEJzVkl5cS1hcTZQN1BZM294VWVZdTNvVTRMZUhMdi00d0ZyVW51cVQ3YXNqOGRJWWowd2kteE5xcWt4N2pFYnhSdG82?oc=5",
-     "time": "2026-11-09T14:42:26+00:00"
-    },
-    {
-     "title": "Nvidia announces GR00T 2 robotics model, Isaac Lab 3.0 tools (NVDA:NASDAQ)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMlJab092T0xkQ09lYkRIVG5hYkhIOVU2VEg3dXFtWlpTWnBXSlZxN05vTU53R1dGZndGdGdZQkt1VkV3VndhbGJQUHB3Vm1hUVVPVXBtZERxWTh4OEdWMXdzUjFSelA5cF9wYUxPUEtmSVNrWTVvWmoxZVNoS082MnVoWWI1SzRkd2FlMnBxbzU5dTRyeFpjUDh1ZHFUZw?oc=5",
-     "time": "2026-11-09T14:30:00+00:00"
-    },
-    {
-     "title": "Nvidia Stock Could Shed Up to $225 Billion Over Jensen Huang Probe, But Rival AMD's Rally Shows It's Not an AI Demand Problem",
-     "publisher": "Barchart.com",
-     "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNbUsxcXAzd2FHOGUtRU0zcDJxay05NTItVE5NTjRvZTRsQnFmYS1GeHdDNl93T0h2My1EbkROZE5BaHV3WkdXNXh2alRJYTBld0ZYejRIRDI0ZF9lYVNRZ20tQUtlSG5PV256ei1ic25qZGZVYVFad2pzSi05akgtd01JVmNTRzYySFY4R0VjbEwxM3RmMjVUTG52cThJdGlJSUNQSG5GR2R4YnVfQnBQSEk5X0FWWG12SXpRVWVMNm8xSERaVDQzbldaZ2F1OHpPd19fQm1JY3V1V3VVWEZVX0p2Z01vODdMb2xha25Ha0VwYVQwM3hwRUEtbw?oc=5",
-     "time": "2026-11-09T14:27:59+00:00"
-    },
-    {
-     "title": "Nvidia stock sinks 5% as chipmaker investigates CEO Jensen Huang's relationship with alleged Chinese spy",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxObWVFY2cxQURmMnJ2aWFxSlRfeFJzeGJDOEhxbjVqUWVpMU96Mm4wcFNBVG5BaVdBZUIwYnN3WXNsWEZld000V1ZrMl9SR0pVZFB0a21rTUV1U3NJajhTUTN6bjBmVmtIQmhtRWxyV1dyemhvcDFrT1J5TmItcGJyVmt6VGY0VW9nZVBVZ2RIalNEOUhKRGRybVgtdzBPMkpzRTBicXpTaGw3c29vUXhiR21hVmVlWk10NzgySGJwbV9MSWpLeXVpT2hJT1FqU05XTXlZMGQwS285QlhudnBJdkhrMGlRbVJsX0h5alBn?oc=5",
-     "time": "2026-11-09T14:09:06+00:00"
-    },
-    {
-     "title": "Nvidia Stock Drops On Spy Scandal, CEO Probe",
-     "publisher": "Investor's Business Daily",
-     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNcE1Rd0c4cHFCMlB1UWJ5bkduMEFFbFFSVG04QjBvWWN1QlJrM2xQMVdzWlF5NEFvMW1FWDZoVm9jVEQ4YTd2WlNMOENWM0w1OU5qOFU5TEtQeU1xWEdpOUpZbU5nZlVzVVJPM0xXeThZWjVYWWw0LXFyYWI3Y0xaX0FuOW1SV3licGtjejdmcw?oc=5",
-     "time": "2026-11-09T14:06:00+00:00"
-    },
-    {
-     "title": "Nvidia: Allegation-Driven Dip Creates A Buying Opportunity (NASDAQ:NVDA)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZnZWSUlXZDlCY0o2NmNMLU9XVEstdVBIclVnSnN2cTZiNlMxU011eTF2S2NQRWJsQkUtWnltb1AxOTgtbVpHTERTZlhjZlp2N2RMLUc5cFQ4eGVuc3ZGU1dCN1dNM1p4Wk1UYTQxeVYwYmo4SEk3Z3Bpa3I5NE9DeXRkaTh6OXYwU2ZRMHdmTmZULS1ISWxvb2hraVRaWUk?oc=5",
-     "time": "2026-11-09T14:00:00+00:00"
-    },
-    {
-     "title": "Nvidia Stock Downgraded Today \u2014 The $165 Billion Risk Behind the Call",
-     "publisher": "TipRanks",
-     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQWU1hY3ViVERuODd4QzMzalFfa2p1bnltakNjUzJLOTNOU1laREdYMGM3M3IyaGZac3VjVHlnbW95eUFPOFp5VWtfbXFUenI5Uk94SWhCUS1sOHFoLXk4cHVNQzVpc2ZqVVBsdGRKdnVPZFc4dzk1akJ1MmFuWmRoc2JoY0pCMm5FZ1pfRm12T0wxWTU2M01XV2hkdE5HOUlNUFA5VDBURQ?oc=5",
-     "time": "2026-11-09T13:57:37+00:00"
-    }
-   ],
-   "brief": null
-  },
-  {
-   "symbol": "AMZN",
-   "name": "Amazon",
-   "list": "portfolio",
-   "price": 269.89,
-   "prev_close": 259.3,
-   "change_pct": 4.1,
-   "trigger_change": 5.3,
-   "peak_change": 5.3,
-   "first_seen": "2026-11-09T14:57:33+00:00",
-   "sector": {
-    "etf": "XLY",
-    "name": "Consumer discr.",
-    "price": 120.79,
-    "change_pct": 2.73
-   },
-   "chart": {
-    "ema8": 4.3,
-    "ema21": 5.6,
-    "sma50": 6.2,
-    "sma200": 10.6,
-    "momentum": true
-   },
-   "headlines": [
-    {
-     "title": "Amazon Stock (AMZN) Climbs on New Home Robot Hiring Plans",
-     "publisher": "TipRanks",
-     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxONjAzV2EzNWpLUDJDVzhrSV9pT0o3UXpsVzNyTU5kZ3d1SjNVdGRsajJpRE5KcGNJQU9QNkVwRkFvYllfLW95SzhGVHk4UXk3NDlQWmdjU2ZUVklrMm9OMDhncWpGZUxqX2llM0dsWVNBQ1NWekh1MW1CNWVsbU1iS3BRSFJ5Z0FIRm16Tnpn?oc=5",
-     "time": "2026-11-09T14:15:34+00:00"
-    },
-    {
-     "title": "Amazon\u2019s (AMZN) Post-Earnings Rebound Creates an Interesting Buying Opportunity",
-     "publisher": "TipRanks",
-     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQVV1Ujg3ZGVSQmRaczJqbmwzUzhMT2RTdWk0ZDhUWXM5c3hEVWtBSldQM3dlMTZkX2VqMjZlYVVGblQxSTk3MnNmTWhZOWdWeTI0M3lSMjBlTW13b0h1aFVrbTE3aVJPMmpNNXRIRzUwNlY2MHYtMHlhY1RpakpLZ3NhVnJTTXJMYVRuRm5JQW5qSW5TR3RLbUJScXUyb3FzbktPbE5RTXY1cnk4X2lxelBXcU8?oc=5",
-     "time": "2026-11-09T13:55:11+00:00"
-    },
-    {
-     "title": "Amazon Stock: The Rings Of Power Show Why The Big Capex Bet Can Pay Off (NASDAQ:AMZN)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQaWcxMWJrWnpYSjZxWmVLV05SN0QtUjZxZ1NjaWFWRGZZU3VUM1gzMk9GT0VZLWRwLWRjdEhLaW5RY09vM3ZIWkViMUQwTGw5Q0xIeGxvNUsxWVZUQU5XRnF5ZDgwWHlrOEg2aHRncE9NU09MX0dfSFo3NW5XeGFhMUY4YTFLcFl3ODlVVDFsa1dRdGlLYUE1NVBMVEtUR3Nmdl9Ib0FQZlk?oc=5",
-     "time": "2026-11-09T13:30:00+00:00"
-    },
-    {
-     "title": "Amazon (AMZN) Partners with Uber Eats to Boost Prime Delivery Ex",
-     "publisher": "GuruFocus",
-     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQM19uaG83TkJRT3RDajZ0RjdHenRTTnB5UmZRZGo0OUNDaGpmUy1DZlhucG81WlA4SVNyZFRQb05HQllQNnRuSUpZZURpbFVoVWNQczFNdnRzcExrYks2OUJIRWxPRUwwNVZYbEpsbG9sZEktY2VjS0E4WHVyYmtMTE4tREFrektFRG5OYkYxSzdwR05lUUNuMzdFM1EtTVJ2MVB4bVRSdmNDM3JWMUE?oc=5",
-     "time": "2026-11-09T12:15:23+00:00"
-    },
-    {
-     "title": "ETFs Are Net Sellers of Amazon (AMZN) on Nov. 5",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPR3d3NnppVXdHcWI3dWhCU2V4RHBjdVhKNGYzXzFkYTdncXJpWDdhVVZ5UUJCbmtBajkzd0Z6ZVdPaEhWRFdpOWs2bTVjYkMzYkdkMVktMTUyZkNjU3RpUTZPcVU5Tlo3bHJoRTNrcTQyLVRJS1R5Y0FWS1NTV3JIU1pjdWk5Rm1Ody14Q0h2S1lyTEgzNHhfRw?oc=5",
-     "time": "2026-11-09T11:03:04+00:00"
-    },
-    {
-     "title": "Amazon.com, Inc. $AMZN Stock Purchased by Gibbs Wealth Management",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQOWMyNk9tQVpPZDlUUHhzSjdFOEpuVzJsbU9PSm9VbmpnXzItNU1RQ21STVJuaXUxdjZtNXowanZIZXZvRWVXQlhZS3BpLWdHYjBpOFRvUG5fQ0hSOVBrQWI1eHlqbHdFaURhU0kyMnZ6RTBrQWY1Q2ZuOUtDVkJBT1JSenIwM0FiZUszT2NScXJjV0JWcjUyeGJFUzVuSDh4ZkIwRFBIZkZJdFBxTl9LMkNxZkdJeVV2Ul9wYUxnTQ?oc=5",
-     "time": "2026-11-09T09:48:04+00:00"
-    },
-    {
-     "title": "Amazon.com, Inc. $AMZN Stock: One Wealth Capital Management LLC Reduces Stake",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOZUQtR2FubE5zb1ZmUWVoUDNfMl9XclVoWFJ5WmdMc1JMeUYzT2xvMEZYRTE5NFlQSE54cmNJZjZlclIwbHlZYlk2dG11czNXRDNUQnh2ZGM5UU5kXzNUZTVCMUJ1TE9jbnNxTFhUNV9MOVZyeWpKeWxOVVBrLXhtZ2x0dlNxN3N2R0ZJdjM4TTVRX3k3X2pEcWdwSFctTWRnWXBFRUREdUQwaWJnVkdpV252ZUU2UmNVZ3p1OVgxbTk4OTdHZ0EwSDBuMDFJdw?oc=5",
-     "time": "2026-11-09T09:48:03+00:00"
-    },
-    {
-     "title": "7,442 Amazon.com, Inc. $AMZN Shares Acquired by Farmers & Merchants Investments Inc.",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNRG45QUl0LTRYXzkzeDJncnA4RGE0VFZHYkJOanVDLUd4ZXphNHpLMzZoV0ZxcHZCWG5YR0NJYlZ1RHF6WWs1STBRSHE5S2h2clJ1VXJJQVFjT2FhTVRJbDZjbEgzNU1IeHNMZmpFaUI4enFGaDBKSGZ4ZjZGbkw4V0otczJ2Ml9HZV9zWW5Zdk1NV3RnR0tya2dvczlOUXJmazFiNFhRX3F4NXUtS1hrbXhiLVZLcE9vWkpLeFVxaGdNcWN0b0xaMVhrSmlTS3JHRGFz?oc=5",
-     "time": "2026-11-09T09:40:08+00:00"
-    }
-   ],
-   "brief": null
-  },
-  {
    "symbol": "SOFI",
    "name": "SoFi",
    "list": "portfolio",
-   "price": 16.8,
+   "price": 16.87,
    "prev_close": 16.21,
-   "change_pct": 3.6,
+   "change_pct": 4.1,
    "trigger_change": 3.1,
-   "peak_change": 3.7,
+   "peak_change": 4.1,
    "first_seen": "2026-11-09T15:02:33+00:00",
    "sector": {
     "etf": "XLF",
     "name": "Financials",
-    "price": 57.72,
-    "change_pct": 0.97
+    "price": 57.78,
+    "change_pct": 1.09
    },
    "chart": {
-    "ema8": 1.8,
-    "ema21": 3.9,
-    "sma50": 2.9,
-    "sma200": -4.1,
+    "ema8": 2.1,
+    "ema21": 4.3,
+    "sma50": 3.3,
+    "sma200": -3.6,
     "momentum": true
    },
    "headlines": [
@@ -621,26 +471,101 @@
    "brief": null
   },
   {
+   "symbol": "NVDA",
+   "name": "Nvidia",
+   "list": "portfolio",
+   "price": 179.34,
+   "prev_close": 186.64,
+   "change_pct": -3.9,
+   "trigger_change": -4.9,
+   "peak_change": -4.9,
+   "first_seen": "2026-11-09T14:57:33+00:00",
+   "sector": {
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 485.68,
+    "change_pct": 4.68
+   },
+   "chart": {
+    "ema8": -7.7,
+    "ema21": -13.2,
+    "sma50": -18.1,
+    "sma200": -12.4,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Nvidia Sinks 8% as Board Probes Reports Huang Was \u201cTarget of a Foreign Intelligence Effort\u201d",
+     "publisher": "TIKR.com",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdlo0S0FPWDJkTUFhYUVON0xIZWRXSTROaGtyNm5WcUcyNGxfRmhvNkNzYmsyWnlLZ3l1bEd2S3B1S0pVWkl2U05PZElvSXR4WnNjWDQ2NGljUF9fS2UtLVBRcVRoVlRsLVd3amtNUW12VmVMdVp6OVB3ZzJfVE9jTTV3cXZSdkk0V0tvbFA0VW43eWNrelpSUlhkalRzUXBRNzNiNXFHeEtqSmxEdno0TktqOWxidw?oc=5",
+     "time": "2026-11-09T15:00:11+00:00"
+    },
+    {
+     "title": "Dow jumps more than 600 points as oil slides and Nvidia stock falls",
+     "publisher": "Quartz",
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE0xeUlWR2tPT1d3MDdQMWllUElRTGlzWWZNV1VtVmZsMFB2a2djVmVtbEJzVkl5cS1hcTZQN1BZM294VWVZdTNvVTRMZUhMdi00d0ZyVW51cVQ3YXNqOGRJWWowd2kteE5xcWt4N2pFYnhSdG82?oc=5",
+     "time": "2026-11-09T14:42:26+00:00"
+    },
+    {
+     "title": "Nvidia announces GR00T 2 robotics model, Isaac Lab 3.0 tools (NVDA:NASDAQ)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMlJab092T0xkQ09lYkRIVG5hYkhIOVU2VEg3dXFtWlpTWnBXSlZxN05vTU53R1dGZndGdGdZQkt1VkV3VndhbGJQUHB3Vm1hUVVPVXBtZERxWTh4OEdWMXdzUjFSelA5cF9wYUxPUEtmSVNrWTVvWmoxZVNoS082MnVoWWI1SzRkd2FlMnBxbzU5dTRyeFpjUDh1ZHFUZw?oc=5",
+     "time": "2026-11-09T14:30:00+00:00"
+    },
+    {
+     "title": "Nvidia Stock Could Shed Up to $225 Billion Over Jensen Huang Probe, But Rival AMD's Rally Shows It's Not an AI Demand Problem",
+     "publisher": "Barchart.com",
+     "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNbUsxcXAzd2FHOGUtRU0zcDJxay05NTItVE5NTjRvZTRsQnFmYS1GeHdDNl93T0h2My1EbkROZE5BaHV3WkdXNXh2alRJYTBld0ZYejRIRDI0ZF9lYVNRZ20tQUtlSG5PV256ei1ic25qZGZVYVFad2pzSi05akgtd01JVmNTRzYySFY4R0VjbEwxM3RmMjVUTG52cThJdGlJSUNQSG5GR2R4YnVfQnBQSEk5X0FWWG12SXpRVWVMNm8xSERaVDQzbldaZ2F1OHpPd19fQm1JY3V1V3VVWEZVX0p2Z01vODdMb2xha25Ha0VwYVQwM3hwRUEtbw?oc=5",
+     "time": "2026-11-09T14:27:59+00:00"
+    },
+    {
+     "title": "Nvidia stock sinks 5% as chipmaker investigates CEO Jensen Huang's relationship with alleged Chinese spy",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxObWVFY2cxQURmMnJ2aWFxSlRfeFJzeGJDOEhxbjVqUWVpMU96Mm4wcFNBVG5BaVdBZUIwYnN3WXNsWEZld000V1ZrMl9SR0pVZFB0a21rTUV1U3NJajhTUTN6bjBmVmtIQmhtRWxyV1dyemhvcDFrT1J5TmItcGJyVmt6VGY0VW9nZVBVZ2RIalNEOUhKRGRybVgtdzBPMkpzRTBicXpTaGw3c29vUXhiR21hVmVlWk10NzgySGJwbV9MSWpLeXVpT2hJT1FqU05XTXlZMGQwS285QlhudnBJdkhrMGlRbVJsX0h5alBn?oc=5",
+     "time": "2026-11-09T14:09:06+00:00"
+    },
+    {
+     "title": "Nvidia Stock Drops On Spy Scandal, CEO Probe",
+     "publisher": "Investor's Business Daily",
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNcE1Rd0c4cHFCMlB1UWJ5bkduMEFFbFFSVG04QjBvWWN1QlJrM2xQMVdzWlF5NEFvMW1FWDZoVm9jVEQ4YTd2WlNMOENWM0w1OU5qOFU5TEtQeU1xWEdpOUpZbU5nZlVzVVJPM0xXeThZWjVYWWw0LXFyYWI3Y0xaX0FuOW1SV3licGtjejdmcw?oc=5",
+     "time": "2026-11-09T14:06:00+00:00"
+    },
+    {
+     "title": "Nvidia: Allegation-Driven Dip Creates A Buying Opportunity (NASDAQ:NVDA)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZnZWSUlXZDlCY0o2NmNMLU9XVEstdVBIclVnSnN2cTZiNlMxU011eTF2S2NQRWJsQkUtWnltb1AxOTgtbVpHTERTZlhjZlp2N2RMLUc5cFQ4eGVuc3ZGU1dCN1dNM1p4Wk1UYTQxeVYwYmo4SEk3Z3Bpa3I5NE9DeXRkaTh6OXYwU2ZRMHdmTmZULS1ISWxvb2hraVRaWUk?oc=5",
+     "time": "2026-11-09T14:00:00+00:00"
+    },
+    {
+     "title": "Nvidia Stock Downgraded Today \u2014 The $165 Billion Risk Behind the Call",
+     "publisher": "TipRanks",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQWU1hY3ViVERuODd4QzMzalFfa2p1bnltakNjUzJLOTNOU1laREdYMGM3M3IyaGZac3VjVHlnbW95eUFPOFp5VWtfbXFUenI5Uk94SWhCUS1sOHFoLXk4cHVNQzVpc2ZqVVBsdGRKdnVPZFc4dzk1akJ1MmFuWmRoc2JoY0pCMm5FZ1pfRm12T0wxWTU2M01XV2hkdE5HOUlNUFA5VDBURQ?oc=5",
+     "time": "2026-11-09T13:57:37+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
    "symbol": "APP",
    "name": "AppLovin",
    "list": "portfolio",
-   "price": 405.18,
+   "price": 406.48,
    "prev_close": 391.22,
-   "change_pct": 3.6,
+   "change_pct": 3.9,
    "trigger_change": 3.8,
    "peak_change": 4.2,
    "first_seen": "2026-11-09T15:12:35+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 100.62,
-    "change_pct": 1.76
+    "price": 101.04,
+    "change_pct": 2.18
    },
    "chart": {
-    "ema8": 24.8,
-    "ema21": 37.6,
-    "sma50": 37.3,
-    "sma200": -0.9,
+    "ema8": 25.0,
+    "ema21": 38.0,
+    "sma50": 37.7,
+    "sma200": -0.5,
     "momentum": true
    },
    "headlines": [
@@ -696,26 +621,101 @@
    "brief": null
   },
   {
+   "symbol": "AMZN",
+   "name": "Amazon",
+   "list": "portfolio",
+   "price": 269.22,
+   "prev_close": 259.3,
+   "change_pct": 3.8,
+   "trigger_change": 5.3,
+   "peak_change": 5.3,
+   "first_seen": "2026-11-09T14:57:33+00:00",
+   "sector": {
+    "etf": "XLY",
+    "name": "Consumer discr.",
+    "price": 120.93,
+    "change_pct": 2.85
+   },
+   "chart": {
+    "ema8": 4.1,
+    "ema21": 5.4,
+    "sma50": 6.0,
+    "sma200": 10.3,
+    "momentum": true
+   },
+   "headlines": [
+    {
+     "title": "Amazon Stock (AMZN) Climbs on New Home Robot Hiring Plans",
+     "publisher": "TipRanks",
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxONjAzV2EzNWpLUDJDVzhrSV9pT0o3UXpsVzNyTU5kZ3d1SjNVdGRsajJpRE5KcGNJQU9QNkVwRkFvYllfLW95SzhGVHk4UXk3NDlQWmdjU2ZUVklrMm9OMDhncWpGZUxqX2llM0dsWVNBQ1NWekh1MW1CNWVsbU1iS3BRSFJ5Z0FIRm16Tnpn?oc=5",
+     "time": "2026-11-09T14:15:34+00:00"
+    },
+    {
+     "title": "Amazon\u2019s (AMZN) Post-Earnings Rebound Creates an Interesting Buying Opportunity",
+     "publisher": "TipRanks",
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQVV1Ujg3ZGVSQmRaczJqbmwzUzhMT2RTdWk0ZDhUWXM5c3hEVWtBSldQM3dlMTZkX2VqMjZlYVVGblQxSTk3MnNmTWhZOWdWeTI0M3lSMjBlTW13b0h1aFVrbTE3aVJPMmpNNXRIRzUwNlY2MHYtMHlhY1RpakpLZ3NhVnJTTXJMYVRuRm5JQW5qSW5TR3RLbUJScXUyb3FzbktPbE5RTXY1cnk4X2lxelBXcU8?oc=5",
+     "time": "2026-11-09T13:55:11+00:00"
+    },
+    {
+     "title": "Amazon Stock: The Rings Of Power Show Why The Big Capex Bet Can Pay Off (NASDAQ:AMZN)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQaWcxMWJrWnpYSjZxWmVLV05SN0QtUjZxZ1NjaWFWRGZZU3VUM1gzMk9GT0VZLWRwLWRjdEhLaW5RY09vM3ZIWkViMUQwTGw5Q0xIeGxvNUsxWVZUQU5XRnF5ZDgwWHlrOEg2aHRncE9NU09MX0dfSFo3NW5XeGFhMUY4YTFLcFl3ODlVVDFsa1dRdGlLYUE1NVBMVEtUR3Nmdl9Ib0FQZlk?oc=5",
+     "time": "2026-11-09T13:30:00+00:00"
+    },
+    {
+     "title": "Amazon (AMZN) Partners with Uber Eats to Boost Prime Delivery Ex",
+     "publisher": "GuruFocus",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQM19uaG83TkJRT3RDajZ0RjdHenRTTnB5UmZRZGo0OUNDaGpmUy1DZlhucG81WlA4SVNyZFRQb05HQllQNnRuSUpZZURpbFVoVWNQczFNdnRzcExrYks2OUJIRWxPRUwwNVZYbEpsbG9sZEktY2VjS0E4WHVyYmtMTE4tREFrektFRG5OYkYxSzdwR05lUUNuMzdFM1EtTVJ2MVB4bVRSdmNDM3JWMUE?oc=5",
+     "time": "2026-11-09T12:15:23+00:00"
+    },
+    {
+     "title": "ETFs Are Net Sellers of Amazon (AMZN) on Nov. 5",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPR3d3NnppVXdHcWI3dWhCU2V4RHBjdVhKNGYzXzFkYTdncXJpWDdhVVZ5UUJCbmtBajkzd0Z6ZVdPaEhWRFdpOWs2bTVjYkMzYkdkMVktMTUyZkNjU3RpUTZPcVU5Tlo3bHJoRTNrcTQyLVRJS1R5Y0FWS1NTV3JIU1pjdWk5Rm1Ody14Q0h2S1lyTEgzNHhfRw?oc=5",
+     "time": "2026-11-09T11:03:04+00:00"
+    },
+    {
+     "title": "Amazon.com, Inc. $AMZN Stock Purchased by Gibbs Wealth Management",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQOWMyNk9tQVpPZDlUUHhzSjdFOEpuVzJsbU9PSm9VbmpnXzItNU1RQ21STVJuaXUxdjZtNXowanZIZXZvRWVXQlhZS3BpLWdHYjBpOFRvUG5fQ0hSOVBrQWI1eHlqbHdFaURhU0kyMnZ6RTBrQWY1Q2ZuOUtDVkJBT1JSenIwM0FiZUszT2NScXJjV0JWcjUyeGJFUzVuSDh4ZkIwRFBIZkZJdFBxTl9LMkNxZkdJeVV2Ul9wYUxnTQ?oc=5",
+     "time": "2026-11-09T09:48:04+00:00"
+    },
+    {
+     "title": "Amazon.com, Inc. $AMZN Stock: One Wealth Capital Management LLC Reduces Stake",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOZUQtR2FubE5zb1ZmUWVoUDNfMl9XclVoWFJ5WmdMc1JMeUYzT2xvMEZYRTE5NFlQSE54cmNJZjZlclIwbHlZYlk2dG11czNXRDNUQnh2ZGM5UU5kXzNUZTVCMUJ1TE9jbnNxTFhUNV9MOVZyeWpKeWxOVVBrLXhtZ2x0dlNxN3N2R0ZJdjM4TTVRX3k3X2pEcWdwSFctTWRnWXBFRUREdUQwaWJnVkdpV252ZUU2UmNVZ3p1OVgxbTk4OTdHZ0EwSDBuMDFJdw?oc=5",
+     "time": "2026-11-09T09:48:03+00:00"
+    },
+    {
+     "title": "7,442 Amazon.com, Inc. $AMZN Shares Acquired by Farmers & Merchants Investments Inc.",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNRG45QUl0LTRYXzkzeDJncnA4RGE0VFZHYkJOanVDLUd4ZXphNHpLMzZoV0ZxcHZCWG5YR0NJYlZ1RHF6WWs1STBRSHE5S2h2clJ1VXJJQVFjT2FhTVRJbDZjbEgzNU1IeHNMZmpFaUI4enFGaDBKSGZ4ZjZGbkw4V0otczJ2Ml9HZV9zWW5Zdk1NV3RnR0tya2dvczlOUXJmazFiNFhRX3F4NXUtS1hrbXhiLVZLcE9vWkpLeFVxaGdNcWN0b0xaMVhrSmlTS3JHRGFz?oc=5",
+     "time": "2026-11-09T09:40:08+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
    "symbol": "GOOG",
    "name": "Alphabet",
    "list": "portfolio",
-   "price": 291.77,
+   "price": 291.2,
    "prev_close": 283.93,
-   "change_pct": 2.8,
+   "change_pct": 2.6,
    "trigger_change": 3.1,
    "peak_change": 3.1,
    "first_seen": "2026-11-09T15:27:36+00:00",
    "sector": {
     "etf": "XLC",
     "name": "Communication",
-    "price": 107.05,
-    "change_pct": 2.16
+    "price": 107.12,
+    "change_pct": 2.22
    },
    "chart": {
-    "ema8": 0.6,
-    "ema21": -4.7,
-    "sma50": -11.3,
-    "sma200": -13.5,
+    "ema8": 0.5,
+    "ema21": -4.9,
+    "sma50": -11.4,
+    "sma200": -13.7,
     "momentum": false
    },
    "headlines": [
