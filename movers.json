@@ -1,22 +1,22 @@
 {
  "date": "2026-11-09",
  "threshold": 3.0,
- "updated": "2026-11-09T16:54:49+00:00",
+ "updated": "2026-11-09T16:59:54+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 750.88,
-   "change_pct": 2.12
+   "price": 735.29,
+   "change_pct": 0.31
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 676.7,
-   "change_pct": 3.14
+   "price": 656.1,
+   "change_pct": 1.4
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 81.89,
-   "change_pct": -0.03
+   "price": 81.9,
+   "change_pct": -0.02
   }
  },
  "movers": [
@@ -24,22 +24,22 @@
    "symbol": "AMAT",
    "name": "Applied Materials",
    "list": "portfolio",
-   "price": 370.12,
+   "price": 370.41,
    "prev_close": 332.71,
-   "change_pct": 11.2,
+   "change_pct": 11.3,
    "trigger_change": 8.7,
-   "peak_change": 11.2,
+   "peak_change": 11.3,
    "first_seen": "2026-11-09T14:57:33+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 484.63,
-    "change_pct": 4.46
+    "price": 464.0,
+    "change_pct": 3.63
    },
    "chart": {
     "ema8": 1.2,
-    "ema21": -7.0,
-    "sma50": -16.5,
+    "ema21": -6.9,
+    "sma50": -16.4,
     "sma200": -16.9,
     "momentum": false
    },
@@ -96,26 +96,101 @@
    "brief": "2026-11-09-AMAT"
   },
   {
+   "symbol": "AVGO",
+   "name": "Broadcom",
+   "list": "portfolio",
+   "price": 318.52,
+   "prev_close": 293.69,
+   "change_pct": 8.5,
+   "trigger_change": 7.0,
+   "peak_change": 9.2,
+   "first_seen": "2026-11-09T14:57:33+00:00",
+   "sector": {
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 464.0,
+    "change_pct": 3.63
+   },
+   "chart": {
+    "ema8": 0.6,
+    "ema21": -3.4,
+    "sma50": -8.2,
+    "sma200": -13.2,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Broadcom Faltered for a Year, Dropping Nearly 20%: This Wall Street Analyst Team Says 140% Gains Materialize Within 12 Months",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQcHFZNkRsZE85anFCUUpMeHhjbmNNYVVoTDIwcVQ2dkRnV1dwNHNuSmVQOWZzOFlZRlZHZURGZklVZU9PZGlxX3BnNDRsVkhXbVFKSmhLdTI4SDlZRGxkdXVQaHpRRlZpS3QweEdubnhvVkRja2FXaGY3QW1CMTM2bjJBa29uVU5NLVNsVDliQWJWcDZoREhqNTkxdk1HNW1lQm5J?oc=5",
+     "time": "2026-11-09T15:45:27+00:00"
+    },
+    {
+     "title": "What Is Going on With Broadcom Stock on Monday?",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOS0N5UlM5Mi05cjJJMHZ0aU1qVkM1d05hM1REejBWNml1b0FUX2k1Z21SX09fT2dKZVN4VS1uZkFKVEk4YlhyUjd5NmtxREdwZUJSMkJmOGtZbTFXQzhsT1NKTDNSbHFtdl9EdHREXzFrbVpreEpBMzdnVEVWanAzR0tJV2Qtak9lNHlxYTJUQTRqNFRTbXBYblpDZ0JaZEZR?oc=5",
+     "time": "2026-11-09T15:43:42+00:00"
+    },
+    {
+     "title": "Broadcom stock faces security test as AI valuation resets",
+     "publisher": "ad-hoc-news.de",
+     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOaENSTWtVQjRjQXRQZGNTeHlQbW9DQXRpcTFzbWVnRlIwanhKV20tdEdpOURnbE0wanpHLVRocUZpWmxSb3pDYVNOTzhYWW4xbVdqZVpyMnNXZm5GXzd5TDNLUGQ4NFRZWEtycVIwb2R5QXB4SWJfWWc2emlTeXVKaGJvbmVZT2dsWlhDQ1owSmlWa21RT0k3YWZCS3F6NG5DaU1hNmUxNzVYUFJ3dXFiM2Ztckl2STczcVFvRQ?oc=5",
+     "time": "2026-11-09T15:39:38+00:00"
+    },
+    {
+     "title": "Nvidia, AMD In; Broadcom Out: Cathie Wood\u2019s Latest AI ETF Shuffle - ARK Innovation ETF (BATS:ARKK)",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNemlLVHJKV0pEcVRmTmNQdWRBNFZodE1CX2JSWnM0MExrZWhYb1V6VEI4a0NSc0VjS19mYS1rajFUamV1S3FfN0xyWkc3MWZETzFBNXpFRjRWV3RMdzJaQmhnRzJtT2FvbHZGVkJBcmhFYlRuWlFvU2NOeUhvcTBwR3VHUktaRkRYTWpzTnNrNjVCcl9iLUlNR3NkeTRrRldhWTJQMHBRanoyZTBRcjVMSDRTejdac2N2UFl1dllRTDZvTnNSd2pPcw?oc=5",
+     "time": "2026-11-09T15:35:08+00:00"
+    },
+    {
+     "title": "AMD jumps 10% in morning trading as chip stocks win back three-fifths of last week's rout",
+     "publisher": "Quantisnow",
+     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPaThMYVB6eFZndmxhTkFHYk1LcTQyZEJqRXBqTzBIcXVKVFZka0hvaGc0Y2RkTXNKaG5VNUxWWWliS21KdmFaTXJwWm9RWEQ3MjU5WHVpTm1ubGdPVDFOSjNoT0c4TURxWWZMRFBabzF1NmYxVTZobkVRcTdpem95UzQtRGlyMjBFT2ZLYTBxY19CLV9VV0pORVRjcXBGMFFrdTN4aFpyT2xlMW1jdjdhVDFLNlA2TGpo?oc=5",
+     "time": "2026-11-09T15:32:46+00:00"
+    },
+    {
+     "title": "Broadcom: Despite Two Fearful Narratives, Big Healthy Upside (NASDAQ:AVGO)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNZnF4bHpDTF9EY1htTVItQVJfX3JqV2JudEtXaUkwcXlSNk5jMzJEc2Z3MVZmZGI1ZG1SRU9yYTB2VGtxYUdMNF90d18tV01HbUVkSzJObzFiTnFOVXNFZGJsdExhNldXMlFvVmtRcjdDVmY3ZGllUE1iWm9lN3d4dkpVZjA4VzBlSEszV0hrS1RHekdLNVBZNHlrQ1djQ2RL?oc=5",
+     "time": "2026-11-09T15:25:00+00:00"
+    },
+    {
+     "title": "Fund Update: 421,470 BROADCOM (AVGO) shares added to COMGEST GLOBAL INVESTORS S.A.S. portfolio",
+     "publisher": "Quiver Quantitative",
+     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPSnhFV240ZFFZQ01iTFI0TldjRnNXSm9IN3dYNHRrYXhmSVhlc3g5WFROS1huR09EamNqVmVBUjFPaTU1cDh3Tlh3WkU3dUZXOWlYVnIxM2FQanRLUFJPZFRhZWRIaDdGZXlwVkMwcHhiTG9CazF3cjVDSkVIdGZHeUVGY01nbDFMdmFqY0JkRERGTmp5aDRsY1UtemJfdk9qZGphMlJsdFVoODRuOG1nTzVfMjBpVDRxR09veUFYWWRic0ZSdERyNkliZnA1aFBZ?oc=5",
+     "time": "2026-11-09T15:22:00+00:00"
+    },
+    {
+     "title": "Broadcom Inc Stock (AVGO) Moved Up by 7.70% on Nov 9: Facts Behind the Movement",
+     "publisher": "TradingKey",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOc2JYbkVWb3N3Z0pOTXd0akpNZkhBWGlQRHF0Q21IZ0RLa21qWFIyMFBla3lOMXBjWUF0bHNnbS1LNmY5UTd2eEFmeUhZRW8yeGtpZ3BSVkpvUmRaMjJVYjE3Zm9FWW1mZlVGSkotNG1nclcyNkp2MW1YM2xpeVNFR0hITWZCbWh0VlRz?oc=5",
+     "time": "2026-11-09T15:15:50+00:00"
+    }
+   ],
+   "brief": "2026-11-09-AVGO"
+  },
+  {
    "symbol": "ANET",
    "name": "Arista Networks",
    "list": "portfolio",
-   "price": 186.22,
+   "price": 184.95,
    "prev_close": 170.8,
-   "change_pct": 9.0,
+   "change_pct": 8.3,
    "trigger_change": 8.1,
    "peak_change": 9.7,
    "first_seen": "2026-11-09T14:57:33+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 484.63,
-    "change_pct": 4.46
+    "price": 464.0,
+    "change_pct": 3.63
    },
    "chart": {
-    "ema8": 6.4,
-    "ema21": 2.9,
-    "sma50": -3.2,
-    "sma200": 11.9,
+    "ema8": 5.8,
+    "ema21": 2.3,
+    "sma50": -3.9,
+    "sma200": 11.2,
     "momentum": false
    },
    "headlines": [
@@ -174,23 +249,23 @@
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 140.52,
+   "price": 138.57,
    "prev_close": 129.49,
-   "change_pct": 8.5,
+   "change_pct": 7.0,
    "trigger_change": 6.5,
    "peak_change": 9.1,
    "first_seen": "2026-11-09T14:57:33+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 98.88,
-    "change_pct": -0.13
+    "price": 100.7,
+    "change_pct": 1.84
    },
    "chart": {
-    "ema8": -1.8,
-    "ema21": -14.3,
-    "sma50": -29.9,
-    "sma200": -21.3,
+    "ema8": -2.9,
+    "ema21": -15.4,
+    "sma50": -30.8,
+    "sma200": -22.4,
     "momentum": false
    },
    "headlines": [
@@ -246,101 +321,26 @@
    "brief": "2026-11-09-NBIS"
   },
   {
-   "symbol": "AVGO",
-   "name": "Broadcom",
-   "list": "portfolio",
-   "price": 318.39,
-   "prev_close": 293.69,
-   "change_pct": 8.4,
-   "trigger_change": 7.0,
-   "peak_change": 9.2,
-   "first_seen": "2026-11-09T14:57:33+00:00",
-   "sector": {
-    "etf": "SMH",
-    "name": "Semiconductors",
-    "price": 484.63,
-    "change_pct": 4.46
-   },
-   "chart": {
-    "ema8": 0.5,
-    "ema21": -3.4,
-    "sma50": -8.2,
-    "sma200": -13.3,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Broadcom Faltered for a Year, Dropping Nearly 20%: This Wall Street Analyst Team Says 140% Gains Materialize Within 12 Months",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQcHFZNkRsZE85anFCUUpMeHhjbmNNYVVoTDIwcVQ2dkRnV1dwNHNuSmVQOWZzOFlZRlZHZURGZklVZU9PZGlxX3BnNDRsVkhXbVFKSmhLdTI4SDlZRGxkdXVQaHpRRlZpS3QweEdubnhvVkRja2FXaGY3QW1CMTM2bjJBa29uVU5NLVNsVDliQWJWcDZoREhqNTkxdk1HNW1lQm5J?oc=5",
-     "time": "2026-11-09T15:45:27+00:00"
-    },
-    {
-     "title": "What Is Going on With Broadcom Stock on Monday?",
-     "publisher": "Benzinga",
-     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOS0N5UlM5Mi05cjJJMHZ0aU1qVkM1d05hM1REejBWNml1b0FUX2k1Z21SX09fT2dKZVN4VS1uZkFKVEk4YlhyUjd5NmtxREdwZUJSMkJmOGtZbTFXQzhsT1NKTDNSbHFtdl9EdHREXzFrbVpreEpBMzdnVEVWanAzR0tJV2Qtak9lNHlxYTJUQTRqNFRTbXBYblpDZ0JaZEZR?oc=5",
-     "time": "2026-11-09T15:43:42+00:00"
-    },
-    {
-     "title": "Broadcom stock faces security test as AI valuation resets",
-     "publisher": "ad-hoc-news.de",
-     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOaENSTWtVQjRjQXRQZGNTeHlQbW9DQXRpcTFzbWVnRlIwanhKV20tdEdpOURnbE0wanpHLVRocUZpWmxSb3pDYVNOTzhYWW4xbVdqZVpyMnNXZm5GXzd5TDNLUGQ4NFRZWEtycVIwb2R5QXB4SWJfWWc2emlTeXVKaGJvbmVZT2dsWlhDQ1owSmlWa21RT0k3YWZCS3F6NG5DaU1hNmUxNzVYUFJ3dXFiM2Ztckl2STczcVFvRQ?oc=5",
-     "time": "2026-11-09T15:39:38+00:00"
-    },
-    {
-     "title": "Nvidia, AMD In; Broadcom Out: Cathie Wood\u2019s Latest AI ETF Shuffle - ARK Innovation ETF (BATS:ARKK)",
-     "publisher": "Benzinga",
-     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNemlLVHJKV0pEcVRmTmNQdWRBNFZodE1CX2JSWnM0MExrZWhYb1V6VEI4a0NSc0VjS19mYS1rajFUamV1S3FfN0xyWkc3MWZETzFBNXpFRjRWV3RMdzJaQmhnRzJtT2FvbHZGVkJBcmhFYlRuWlFvU2NOeUhvcTBwR3VHUktaRkRYTWpzTnNrNjVCcl9iLUlNR3NkeTRrRldhWTJQMHBRanoyZTBRcjVMSDRTejdac2N2UFl1dllRTDZvTnNSd2pPcw?oc=5",
-     "time": "2026-11-09T15:35:08+00:00"
-    },
-    {
-     "title": "AMD jumps 10% in morning trading as chip stocks win back three-fifths of last week's rout",
-     "publisher": "Quantisnow",
-     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPaThMYVB6eFZndmxhTkFHYk1LcTQyZEJqRXBqTzBIcXVKVFZka0hvaGc0Y2RkTXNKaG5VNUxWWWliS21KdmFaTXJwWm9RWEQ3MjU5WHVpTm1ubGdPVDFOSjNoT0c4TURxWWZMRFBabzF1NmYxVTZobkVRcTdpem95UzQtRGlyMjBFT2ZLYTBxY19CLV9VV0pORVRjcXBGMFFrdTN4aFpyT2xlMW1jdjdhVDFLNlA2TGpo?oc=5",
-     "time": "2026-11-09T15:32:46+00:00"
-    },
-    {
-     "title": "Broadcom: Despite Two Fearful Narratives, Big Healthy Upside (NASDAQ:AVGO)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNZnF4bHpDTF9EY1htTVItQVJfX3JqV2JudEtXaUkwcXlSNk5jMzJEc2Z3MVZmZGI1ZG1SRU9yYTB2VGtxYUdMNF90d18tV01HbUVkSzJObzFiTnFOVXNFZGJsdExhNldXMlFvVmtRcjdDVmY3ZGllUE1iWm9lN3d4dkpVZjA4VzBlSEszV0hrS1RHekdLNVBZNHlrQ1djQ2RL?oc=5",
-     "time": "2026-11-09T15:25:00+00:00"
-    },
-    {
-     "title": "Fund Update: 421,470 BROADCOM (AVGO) shares added to COMGEST GLOBAL INVESTORS S.A.S. portfolio",
-     "publisher": "Quiver Quantitative",
-     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPSnhFV240ZFFZQ01iTFI0TldjRnNXSm9IN3dYNHRrYXhmSVhlc3g5WFROS1huR09EamNqVmVBUjFPaTU1cDh3Tlh3WkU3dUZXOWlYVnIxM2FQanRLUFJPZFRhZWRIaDdGZXlwVkMwcHhiTG9CazF3cjVDSkVIdGZHeUVGY01nbDFMdmFqY0JkRERGTmp5aDRsY1UtemJfdk9qZGphMlJsdFVoODRuOG1nTzVfMjBpVDRxR09veUFYWWRic0ZSdERyNkliZnA1aFBZ?oc=5",
-     "time": "2026-11-09T15:22:00+00:00"
-    },
-    {
-     "title": "Broadcom Inc Stock (AVGO) Moved Up by 7.70% on Nov 9: Facts Behind the Movement",
-     "publisher": "TradingKey",
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOc2JYbkVWb3N3Z0pOTXd0akpNZkhBWGlQRHF0Q21IZ0RLa21qWFIyMFBla3lOMXBjWUF0bHNnbS1LNmY5UTd2eEFmeUhZRW8yeGtpZ3BSVkpvUmRaMjJVYjE3Zm9FWW1mZlVGSkotNG1nclcyNkp2MW1YM2xpeVNFR0hITWZCbWh0VlRz?oc=5",
-     "time": "2026-11-09T15:15:50+00:00"
-    }
-   ],
-   "brief": "2026-11-09-AVGO"
-  },
-  {
    "symbol": "NVDA",
    "name": "Nvidia",
    "list": "portfolio",
-   "price": 176.73,
+   "price": 176.41,
    "prev_close": 186.64,
-   "change_pct": -5.3,
+   "change_pct": -5.5,
    "trigger_change": -4.9,
    "peak_change": -6.4,
    "first_seen": "2026-11-09T14:57:33+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 484.63,
-    "change_pct": 4.46
+    "price": 464.0,
+    "change_pct": 3.63
    },
    "chart": {
-    "ema8": -8.8,
-    "ema21": -14.3,
-    "sma50": -19.3,
-    "sma200": -13.6,
+    "ema8": -8.9,
+    "ema21": -14.5,
+    "sma50": -19.4,
+    "sma200": -13.8,
     "momentum": false
    },
    "headlines": [
@@ -399,23 +399,23 @@
    "symbol": "META",
    "name": "Meta",
    "list": "portfolio",
-   "price": 641.53,
+   "price": 641.66,
    "prev_close": 610.15,
-   "change_pct": 5.1,
+   "change_pct": 5.2,
    "trigger_change": 5.0,
    "peak_change": 5.4,
    "first_seen": "2026-11-09T14:57:33+00:00",
    "sector": {
     "etf": "XLC",
     "name": "Communication",
-    "price": 106.94,
-    "change_pct": 2.05
+    "price": 104.79,
+    "change_pct": 0.43
    },
    "chart": {
     "ema8": 2.6,
     "ema21": -1.1,
     "sma50": -5.1,
-    "sma200": 1.5,
+    "sma200": 1.6,
     "momentum": false
    },
    "headlines": [
@@ -471,10 +471,85 @@
    "brief": "2026-11-09-META"
   },
   {
+   "symbol": "SOFI",
+   "name": "SoFi",
+   "list": "portfolio",
+   "price": 16.84,
+   "prev_close": 16.21,
+   "change_pct": 3.9,
+   "trigger_change": 3.1,
+   "peak_change": 4.6,
+   "first_seen": "2026-11-09T15:02:33+00:00",
+   "sector": {
+    "etf": "XLF",
+    "name": "Financials",
+    "price": 57.98,
+    "change_pct": 1.43
+   },
+   "chart": {
+    "ema8": 2.0,
+    "ema21": 4.2,
+    "sma50": 3.2,
+    "sma200": -3.8,
+    "momentum": true
+   },
+   "headlines": [
+    {
+     "title": "SoFi Technologies (NASDAQ: SOFI) Needs Just 13% Member Growth To Cross 20 Million Users In 2027",
+     "publisher": "Foreign Policy Journal",
+     "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOMUFnMWxTendGVGRBaVUzUjNaci10VmlVS1Zvd3FPbWg2cmlwQ1luOGw5MldxYzAwZHkza09ubXJEMlhUVFVTdnRjWkNVcklyaXcwTDlzc3ZCNWFWbGtpMVA5b3Z5TzZLeDRQU3RNcWMzbk9saEduNWtJaW14VDlXR2h0TldETUZFbEloVms2d0hRelNlRXYxRmwzc3NXUWl5Z2V2djZ1eVpZWDJyRi1Kcm02bWZYLVN6ZXhtUWltdTlIRlFOTFFRdU5jQWRQXzR2ZzNraGUtTQ?oc=5",
+     "time": "2026-11-09T14:55:00+00:00"
+    },
+    {
+     "title": "SOFI Dec 2026 15.500 put (SOFI261211P00015500) interactive stock chart",
+     "publisher": "Yahoo Finance UK",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5yWHN5TlJucXB6X2NsWGZBbExJRDU2SHA4SE1FR0JqcVM2M0xTWE1TTzNKTGZyR0x6YlQ2TmVTb05GX1BHUUxUOWt1eHNaTWFEY3pTSmF2TEx1bG1aejJfeERTbDFDSERUTFZTRnF3?oc=5",
+     "time": "2026-11-09T11:12:50+00:00"
+    },
+    {
+     "title": "SOFI Dec 2026 17.000 call (SOFI261224C00017000) Interactive Stock Chart - Yahoo Finance",
+     "publisher": "Yahoo! Finance Canada",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE0ybE1scThSSTFyVkpKRzBaUXFFYzEzTjhUenBEOHRpRjdFelBUVHBRU25VNjRDZHAxNkcyd19IaFNOWkVpMFF4VFFTY1liMXhOSWIxZGxvVU5NN3pqUUNXRWh6M2RkZ1U0ckF5dWNB?oc=5",
+     "time": "2026-11-09T08:21:20+00:00"
+    },
+    {
+     "title": "SOFI Dec 2026 17.000 call (SOFI261224C00017000) Stock Price, News, Quote & History",
+     "publisher": "Yahoo! Finance Canada",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1wRzYtaFE1RnNRMkFSbExXRHV1ay1DMUYzMkxfa1ZuT2pvT2hHQWY3RUdmWEp5UG1EQ0c4ZnNJd21TTVJPVmRSaWEzZnlvVkszaUxmbUI3ei1Yd21qLXg0eDc3eTZadw?oc=5",
+     "time": "2026-11-09T07:39:14+00:00"
+    },
+    {
+     "title": "SoFi Has 17.1 Million Members. Prediction: It Tops 20 Million in 2027.",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOYTQ1b3ZKSHd5ZXRseHROeklFbHl1Tnh3Znc5UFRLMjBiRlh2Y2JlVjZlOVRGdVAxZE4tTWdfUGI0RVVWVWxKbmotZmRubHlPUHF1bUMxRTNTSmlUYm4tT0JDRjdnSnZ4N0J3OFFBRFYxdXoyLWtBbHVWaVdnVDYzckRCZmZJTGU4bEIzbWxDOG0tZ2xS?oc=5",
+     "time": "2026-11-08T16:50:00+00:00"
+    },
+    {
+     "title": "SOFI Stock Surges To Its Best Day Of 2026 After Record Q2 Revenue \u2014 Why Is Wall Street Slashing Price Targets?",
+     "publisher": "Stocktwits",
+     "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOajYtRUZfa21vd3NLSzlUcTJKbzFOZnZKeEpxZFhaRmpadGhQbzVnTmduc1hVbWdmWWE4amY4WlVWcFBSSXNBTVdoa2xRU2sxSDFFWTI1UEVQV2t2bUhYQXFEdUl2Y0YtQlNIMUVXbEZ0Q3V4SlNkT1gxeEQ4VVFGaHhEU3k2YXJ0M3l6Nm5GcU9IeDRhTVBHMXNLOWNkQXpxeVZhVVhGdERfSmdKRmJvU0xOSkpDY3RfX0RZbFp6ZjhRSDhMNHZqMHMzS3NXRnhMZkI5YzNGUEZVR3ZsOVRTbFNWWGl0c0hvX1NSTjBhb2dpaURFdUJGWXN1UHd3eWlH?oc=5",
+     "time": "2026-11-08T13:29:19+00:00"
+    },
+    {
+     "title": "SoFi Technologies stock: Lang & Schwarz quote at 14.53 euros",
+     "publisher": "ad-hoc-news.de",
+     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNRFp1Mk5YOW9LblRTODUwekV1by00amp2TTFXZDhwMW1VOXQ1YlpLaXpXbUxSSlY4RnZjVm5VUXkyby00S0wwYXVSN3k5YVVZQVg5VnFHN3pFSzh6elF1Yk5BbDBuejJzbEEzN1Z5d0x5Wk1vV3c0VkxJT1hDbUVQZE5rSWxSLS1fb19hN2pJXzZhWGU4T3NUeUxLU1JkTUdZZDdYY2xTUm1DM2I2WkhYTlV0eDdIYTRrQ2wzRw?oc=5",
+     "time": "2026-11-08T12:33:52+00:00"
+    },
+    {
+     "title": "SoFi Technologies, Inc. $SOFI Stock: Brighton Jones LLC Reduces Stake",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQcFl6dl8tcGdsdnFxVEZURVQtdDVlV3dpM0U3M1hqTkN2dEo0Tm91b2FqVXd2QjYzaWlfRVVYb3lXbm5rbVUzeFJGY0MtSGhDUm5sZmpWSzd1R0pneGVXVXN1bkg3aXNSWWxWS21YVThVSU9IUjd5NnNVMktCVV83Szd5c2hiRUJyQTR1eFJiZUhjbTdKT1RJenhCandLa04wUEg3d0xnMkJld1pIMWdLUFctZ2lXVTJIU29IMzl5LTVOdGZq?oc=5",
+     "time": "2026-11-08T09:39:55+00:00"
+    }
+   ],
+   "brief": "2026-11-09-SOFI"
+  },
+  {
    "symbol": "AMZN",
    "name": "Amazon",
    "list": "portfolio",
-   "price": 268.34,
+   "price": 268.33,
    "prev_close": 259.3,
    "change_pct": 3.5,
    "trigger_change": 5.3,
@@ -483,13 +558,13 @@
    "sector": {
     "etf": "XLY",
     "name": "Consumer discr.",
-    "price": 120.91,
-    "change_pct": 2.83
+    "price": 120.92,
+    "change_pct": 2.84
    },
    "chart": {
     "ema8": 3.9,
     "ema21": 5.1,
-    "sma50": 5.7,
+    "sma50": 5.6,
     "sma200": 9.9,
     "momentum": true
    },
@@ -546,95 +621,26 @@
    "brief": "2026-11-09-AMZN"
   },
   {
-   "symbol": "CRWD",
-   "name": "CrowdStrike",
-   "list": "portfolio",
-   "price": 224.13,
-   "prev_close": 216.9,
-   "change_pct": 3.3,
-   "trigger_change": 3.7,
-   "peak_change": 3.7,
-   "first_seen": "2026-11-09T16:04:16+00:00",
-   "sector": {
-    "etf": "IGV",
-    "name": "Software",
-    "price": 98.88,
-    "change_pct": -0.13
-   },
-   "chart": {
-    "ema8": -4.0,
-    "ema21": -7.6,
-    "sma50": -8.1,
-    "sma200": 31.2,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Can CrowdStrike's Latest AI Integrations Drive Security Growth?",
-     "publisher": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOX3NvU1l3WTFpQ3MzYS1GZkhfMjhyTC1aN2xRa1V3b0N4M3JyajRKNGVWcGJDc3hKT2U2WGtiQlJfM2o3SXdLTmVlZ1l5S2haaUJ4TWlFMTJ4UTY3WENwMEdRTDl4LWF5RnR3bDZfajB0RmE1N1pqV2NDRnZPcjlxNnV5M2hjOE1VLTVSTmgtVWZtMDJVYWtFclNZUE80WXVVQWE3U09hY3VQNG1YQ1ptVTF3TEtMWnlOSUE?oc=5",
-     "time": "2026-11-09T15:20:53+00:00"
-    },
-    {
-     "title": "Top Funds Aren't Fooling Around. Witness Massive Bets On CrowdStrike And Beyond.",
-     "publisher": "Investor's Business Daily",
-     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNTmhoQUF3QnJ1RDFXWGdyMWg3T0FWWW1ldXNQRVpUZkJqc0dXa3pob1JjbVJ4YmJwSTBSc0NLUkV6akZjTUlBUnd2UjF4RHNoSVd4WmRSc2JGMUFLdHBlb2tVOEVGb0RGU2p4QUZZajJlWFlPalJQbkU0enE4cmIzejBCUzRGRF9waVA3MG84RVlVSXNYclN3THRrQk95Y1NmS2xMczU5b05laUkteGVnTktRcTlCMmdQZlRmeENoSDRreEdqOGgyYUo5WjJXOGlnLWNqMHJBbXp6ZUk?oc=5",
-     "time": "2026-11-09T13:29:15+00:00"
-    },
-    {
-     "title": "CrowdStrike Stock Breaks $233.88 as AI-Security Revaluation Puts $239.46 in Focus",
-     "publisher": "TradingKey",
-     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOX3d0X21JVkxJY0hCcENKSmROREJHaWlEY2pEWUhGaEMxRDQ5Zm9vNlF4TGhZRnY0RkdkcExwaktMSWVLQTNhVlJOUFBsRVpIMWdyN3FfUldwRWJrc0hWMjFyR29PTlRJOHdHV3lhVjJ5YjVOQUJGcy1YS3p4SG1Ndl8xVUdnWjZBcFFzSXNvMEEzY1c2aEdyQm1OOTdwdlZvdmptLVo3UnlYQnd4TUZmU1BTTGY1QUtlczIyOGRB?oc=5",
-     "time": "2026-11-08T20:14:12+00:00"
-    },
-    {
-     "title": "CrowdStrike (CRWD) Stock Eyes $229 After $1.17B Q2 Revenue, Falcon Flex Growth",
-     "publisher": "TradingKey",
-     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQU1A3cjdwV0IySHlVSGg3QUpISWhVZG5WdVkxNDdfNXcyMy1BQjhrZ3FtOUJJcWh1UXdQMU5ockxNb09WbVZBcmE2cmxLLUR2RzExdmc0T0d6T1lOcEIzSzgyMGZhZndwbXBCdlkzcWhDcEl5Rm0tZEdtZGR5QlFqNHloVk43N1gyMFBGTUdTeS1CYkFSRXMzYnhtbkhyZVlJY3BmRTdJRDJsUkc1NGJsZ3NuUk9iVVVpZncycEFB?oc=5",
-     "time": "2026-11-08T17:37:42+00:00"
-    },
-    {
-     "title": "Why Did NVDA, HPE, CRWD Stocks Rise To 52-Week Highs Last Week?",
-     "publisher": "Stocktwits",
-     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPYzRYTGRZX3dXUEJLNnoxUTVVaVpFTWQ4c08zeThHWXpLMV9CU0JGbm05U21Mc3Q5YTd6ajlObkplZjByQmh2MExDNHR1bVpmR0hSdmpRdGhqY3FFUmh1MUpUTXhoaGNwRDB3MjIwZGtDOWx5a1l0Umx3X0FIZjl5c2xPWkhaaXlOQi1PLUY1ZVJlRVhPbVZaWEFIQVNmSEJieHdrdzJSR0xvX3lXdDc0RHdncEFxYzdLTVJwN2JIekNMdw?oc=5",
-     "time": "2026-11-08T13:31:27+00:00"
-    },
-    {
-     "title": "CrowdStrike Holdings, Inc. (CRWD) latest stock news and headlines",
-     "publisher": "Yahoo Finance Singapore",
-     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9IX2lUZGhLM01sWnFISFlQRzJSM3FrMTZnV04zTXBpN3JDZzJ4TzlzdXE5UjFmN1p2RkVYV0kyTmMxdTJaT2ctbmZsZlRDUnAtNGdlaERVWGU?oc=5",
-     "time": "2026-11-07T22:39:21+00:00"
-    },
-    {
-     "title": "CrowdStrike Stock Holds $214 as Fal.Con AI Push Tests CRWD Momentum",
-     "publisher": "TradingKey",
-     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQUjNaNjhBSnZTSl9qSl9mQXFiNlBYeVNvUUNxRW5tdnhENEV6SUZVNk9qNGNNQW53U2ozVXdSRVdSNGlDRmk0cXRPWDNRM2JSQmZYZUR0eXdCYWc5eGRhTTFQdlR1SXpHQ3BqZy1sZUVndnZmOUtNOUUtZ2ZTeE5QeHIza1lGNG9NeU5kSnRSenZOZzU4NG9LQVh0UEJHWTRMaUZrUFRyMl9FaUppb1UxZ1haZlJKamFndV9QUFpqVzVFd2xJN3c?oc=5",
-     "time": "2026-11-07T16:12:06+00:00"
-    }
-   ],
-   "brief": "2026-11-09-CRWD"
-  },
-  {
    "symbol": "APP",
    "name": "AppLovin",
    "list": "portfolio",
-   "price": 403.76,
+   "price": 404.7,
    "prev_close": 391.22,
-   "change_pct": 3.2,
+   "change_pct": 3.4,
    "trigger_change": 3.8,
    "peak_change": 4.5,
    "first_seen": "2026-11-09T15:12:35+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 98.88,
-    "change_pct": -0.13
+    "price": 100.7,
+    "change_pct": 1.84
    },
    "chart": {
-    "ema8": 24.4,
-    "ema21": 37.2,
-    "sma50": 36.8,
-    "sma200": -1.2,
+    "ema8": 24.7,
+    "ema21": 37.4,
+    "sma50": 37.1,
+    "sma200": -1.0,
     "momentum": true
    },
    "headlines": [
@@ -690,26 +696,95 @@
    "brief": "2026-11-09-APP"
   },
   {
+   "symbol": "CRWD",
+   "name": "CrowdStrike",
+   "list": "portfolio",
+   "price": 224.12,
+   "prev_close": 216.9,
+   "change_pct": 3.3,
+   "trigger_change": 3.7,
+   "peak_change": 3.7,
+   "first_seen": "2026-11-09T16:04:16+00:00",
+   "sector": {
+    "etf": "IGV",
+    "name": "Software",
+    "price": 100.7,
+    "change_pct": 1.84
+   },
+   "chart": {
+    "ema8": -4.0,
+    "ema21": -7.6,
+    "sma50": -8.1,
+    "sma200": 31.2,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Can CrowdStrike's Latest AI Integrations Drive Security Growth?",
+     "publisher": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOX3NvU1l3WTFpQ3MzYS1GZkhfMjhyTC1aN2xRa1V3b0N4M3JyajRKNGVWcGJDc3hKT2U2WGtiQlJfM2o3SXdLTmVlZ1l5S2haaUJ4TWlFMTJ4UTY3WENwMEdRTDl4LWF5RnR3bDZfajB0RmE1N1pqV2NDRnZPcjlxNnV5M2hjOE1VLTVSTmgtVWZtMDJVYWtFclNZUE80WXVVQWE3U09hY3VQNG1YQ1ptVTF3TEtMWnlOSUE?oc=5",
+     "time": "2026-11-09T15:20:53+00:00"
+    },
+    {
+     "title": "Top Funds Aren't Fooling Around. Witness Massive Bets On CrowdStrike And Beyond.",
+     "publisher": "Investor's Business Daily",
+     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNTmhoQUF3QnJ1RDFXWGdyMWg3T0FWWW1ldXNQRVpUZkJqc0dXa3pob1JjbVJ4YmJwSTBSc0NLUkV6akZjTUlBUnd2UjF4RHNoSVd4WmRSc2JGMUFLdHBlb2tVOEVGb0RGU2p4QUZZajJlWFlPalJQbkU0enE4cmIzejBCUzRGRF9waVA3MG84RVlVSXNYclN3THRrQk95Y1NmS2xMczU5b05laUkteGVnTktRcTlCMmdQZlRmeENoSDRreEdqOGgyYUo5WjJXOGlnLWNqMHJBbXp6ZUk?oc=5",
+     "time": "2026-11-09T13:29:15+00:00"
+    },
+    {
+     "title": "CrowdStrike Stock Breaks $233.88 as AI-Security Revaluation Puts $239.46 in Focus",
+     "publisher": "TradingKey",
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOX3d0X21JVkxJY0hCcENKSmROREJHaWlEY2pEWUhGaEMxRDQ5Zm9vNlF4TGhZRnY0RkdkcExwaktMSWVLQTNhVlJOUFBsRVpIMWdyN3FfUldwRWJrc0hWMjFyR29PTlRJOHdHV3lhVjJ5YjVOQUJGcy1YS3p4SG1Ndl8xVUdnWjZBcFFzSXNvMEEzY1c2aEdyQm1OOTdwdlZvdmptLVo3UnlYQnd4TUZmU1BTTGY1QUtlczIyOGRB?oc=5",
+     "time": "2026-11-08T20:14:12+00:00"
+    },
+    {
+     "title": "CrowdStrike (CRWD) Stock Eyes $229 After $1.17B Q2 Revenue, Falcon Flex Growth",
+     "publisher": "TradingKey",
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQU1A3cjdwV0IySHlVSGg3QUpISWhVZG5WdVkxNDdfNXcyMy1BQjhrZ3FtOUJJcWh1UXdQMU5ockxNb09WbVZBcmE2cmxLLUR2RzExdmc0T0d6T1lOcEIzSzgyMGZhZndwbXBCdlkzcWhDcEl5Rm0tZEdtZGR5QlFqNHloVk43N1gyMFBGTUdTeS1CYkFSRXMzYnhtbkhyZVlJY3BmRTdJRDJsUkc1NGJsZ3NuUk9iVVVpZncycEFB?oc=5",
+     "time": "2026-11-08T17:37:42+00:00"
+    },
+    {
+     "title": "Why Did NVDA, HPE, CRWD Stocks Rise To 52-Week Highs Last Week?",
+     "publisher": "Stocktwits",
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPYzRYTGRZX3dXUEJLNnoxUTVVaVpFTWQ4c08zeThHWXpLMV9CU0JGbm05U21Mc3Q5YTd6ajlObkplZjByQmh2MExDNHR1bVpmR0hSdmpRdGhqY3FFUmh1MUpUTXhoaGNwRDB3MjIwZGtDOWx5a1l0Umx3X0FIZjl5c2xPWkhaaXlOQi1PLUY1ZVJlRVhPbVZaWEFIQVNmSEJieHdrdzJSR0xvX3lXdDc0RHdncEFxYzdLTVJwN2JIekNMdw?oc=5",
+     "time": "2026-11-08T13:31:27+00:00"
+    },
+    {
+     "title": "CrowdStrike Holdings, Inc. (CRWD) latest stock news and headlines",
+     "publisher": "Yahoo Finance Singapore",
+     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9IX2lUZGhLM01sWnFISFlQRzJSM3FrMTZnV04zTXBpN3JDZzJ4TzlzdXE5UjFmN1p2RkVYV0kyTmMxdTJaT2ctbmZsZlRDUnAtNGdlaERVWGU?oc=5",
+     "time": "2026-11-07T22:39:21+00:00"
+    },
+    {
+     "title": "CrowdStrike Stock Holds $214 as Fal.Con AI Push Tests CRWD Momentum",
+     "publisher": "TradingKey",
+     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQUjNaNjhBSnZTSl9qSl9mQXFiNlBYeVNvUUNxRW5tdnhENEV6SUZVNk9qNGNNQW53U2ozVXdSRVdSNGlDRmk0cXRPWDNRM2JSQmZYZUR0eXdCYWc5eGRhTTFQdlR1SXpHQ3BqZy1sZUVndnZmOUtNOUUtZ2ZTeE5QeHIza1lGNG9NeU5kSnRSenZOZzU4NG9LQVh0UEJHWTRMaUZrUFRyMl9FaUppb1UxZ1haZlJKamFndV9QUFpqVzVFd2xJN3c?oc=5",
+     "time": "2026-11-07T16:12:06+00:00"
+    }
+   ],
+   "brief": "2026-11-09-CRWD"
+  },
+  {
    "symbol": "GOOG",
    "name": "Alphabet",
    "list": "portfolio",
-   "price": 289.09,
+   "price": 290.43,
    "prev_close": 283.93,
-   "change_pct": 1.8,
+   "change_pct": 2.3,
    "trigger_change": 3.1,
    "peak_change": 3.1,
    "first_seen": "2026-11-09T15:27:36+00:00",
    "sector": {
     "etf": "XLC",
     "name": "Communication",
-    "price": 106.94,
-    "change_pct": 2.05
+    "price": 104.79,
+    "change_pct": 0.43
    },
    "chart": {
-    "ema8": -0.1,
-    "ema21": -5.5,
-    "sma50": -12.1,
-    "sma200": -14.3,
+    "ema8": 0.3,
+    "ema21": -5.1,
+    "sma50": -11.7,
+    "sma200": -13.9,
     "momentum": false
    },
    "headlines": [
@@ -763,81 +838,6 @@
     }
    ],
    "brief": "2026-11-09-GOOG"
-  },
-  {
-   "symbol": "SOFI",
-   "name": "SoFi",
-   "list": "portfolio",
-   "price": 16.21,
-   "prev_close": 16.04,
-   "change_pct": 1.1,
-   "trigger_change": 3.1,
-   "peak_change": 4.6,
-   "first_seen": "2026-11-09T15:02:33+00:00",
-   "sector": {
-    "etf": "XLF",
-    "name": "Financials",
-    "price": 57.94,
-    "change_pct": 1.36
-   },
-   "chart": {
-    "ema8": -1.3,
-    "ema21": 0.7,
-    "sma50": -0.9,
-    "sma200": -7.6,
-    "momentum": true
-   },
-   "headlines": [
-    {
-     "title": "SoFi Technologies (NASDAQ: SOFI) Needs Just 13% Member Growth To Cross 20 Million Users In 2027",
-     "publisher": "Foreign Policy Journal",
-     "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOMUFnMWxTendGVGRBaVUzUjNaci10VmlVS1Zvd3FPbWg2cmlwQ1luOGw5MldxYzAwZHkza09ubXJEMlhUVFVTdnRjWkNVcklyaXcwTDlzc3ZCNWFWbGtpMVA5b3Z5TzZLeDRQU3RNcWMzbk9saEduNWtJaW14VDlXR2h0TldETUZFbEloVms2d0hRelNlRXYxRmwzc3NXUWl5Z2V2djZ1eVpZWDJyRi1Kcm02bWZYLVN6ZXhtUWltdTlIRlFOTFFRdU5jQWRQXzR2ZzNraGUtTQ?oc=5",
-     "time": "2026-11-09T14:55:00+00:00"
-    },
-    {
-     "title": "SOFI Dec 2026 15.500 put (SOFI261211P00015500) interactive stock chart",
-     "publisher": "Yahoo Finance UK",
-     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5yWHN5TlJucXB6X2NsWGZBbExJRDU2SHA4SE1FR0JqcVM2M0xTWE1TTzNKTGZyR0x6YlQ2TmVTb05GX1BHUUxUOWt1eHNaTWFEY3pTSmF2TEx1bG1aejJfeERTbDFDSERUTFZTRnF3?oc=5",
-     "time": "2026-11-09T11:12:50+00:00"
-    },
-    {
-     "title": "SOFI Dec 2026 17.000 call (SOFI261224C00017000) Interactive Stock Chart - Yahoo Finance",
-     "publisher": "Yahoo! Finance Canada",
-     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE0ybE1scThSSTFyVkpKRzBaUXFFYzEzTjhUenBEOHRpRjdFelBUVHBRU25VNjRDZHAxNkcyd19IaFNOWkVpMFF4VFFTY1liMXhOSWIxZGxvVU5NN3pqUUNXRWh6M2RkZ1U0ckF5dWNB?oc=5",
-     "time": "2026-11-09T08:21:20+00:00"
-    },
-    {
-     "title": "SOFI Dec 2026 17.000 call (SOFI261224C00017000) Stock Price, News, Quote & History",
-     "publisher": "Yahoo! Finance Canada",
-     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1wRzYtaFE1RnNRMkFSbExXRHV1ay1DMUYzMkxfa1ZuT2pvT2hHQWY3RUdmWEp5UG1EQ0c4ZnNJd21TTVJPVmRSaWEzZnlvVkszaUxmbUI3ei1Yd21qLXg0eDc3eTZadw?oc=5",
-     "time": "2026-11-09T07:39:14+00:00"
-    },
-    {
-     "title": "SoFi Has 17.1 Million Members. Prediction: It Tops 20 Million in 2027.",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOYTQ1b3ZKSHd5ZXRseHROeklFbHl1Tnh3Znc5UFRLMjBiRlh2Y2JlVjZlOVRGdVAxZE4tTWdfUGI0RVVWVWxKbmotZmRubHlPUHF1bUMxRTNTSmlUYm4tT0JDRjdnSnZ4N0J3OFFBRFYxdXoyLWtBbHVWaVdnVDYzckRCZmZJTGU4bEIzbWxDOG0tZ2xS?oc=5",
-     "time": "2026-11-08T16:50:00+00:00"
-    },
-    {
-     "title": "SOFI Stock Surges To Its Best Day Of 2026 After Record Q2 Revenue \u2014 Why Is Wall Street Slashing Price Targets?",
-     "publisher": "Stocktwits",
-     "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOajYtRUZfa21vd3NLSzlUcTJKbzFOZnZKeEpxZFhaRmpadGhQbzVnTmduc1hVbWdmWWE4amY4WlVWcFBSSXNBTVdoa2xRU2sxSDFFWTI1UEVQV2t2bUhYQXFEdUl2Y0YtQlNIMUVXbEZ0Q3V4SlNkT1gxeEQ4VVFGaHhEU3k2YXJ0M3l6Nm5GcU9IeDRhTVBHMXNLOWNkQXpxeVZhVVhGdERfSmdKRmJvU0xOSkpDY3RfX0RZbFp6ZjhRSDhMNHZqMHMzS3NXRnhMZkI5YzNGUEZVR3ZsOVRTbFNWWGl0c0hvX1NSTjBhb2dpaURFdUJGWXN1UHd3eWlH?oc=5",
-     "time": "2026-11-08T13:29:19+00:00"
-    },
-    {
-     "title": "SoFi Technologies stock: Lang & Schwarz quote at 14.53 euros",
-     "publisher": "ad-hoc-news.de",
-     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNRFp1Mk5YOW9LblRTODUwekV1by00amp2TTFXZDhwMW1VOXQ1YlpLaXpXbUxSSlY4RnZjVm5VUXkyby00S0wwYXVSN3k5YVVZQVg5VnFHN3pFSzh6elF1Yk5BbDBuejJzbEEzN1Z5d0x5Wk1vV3c0VkxJT1hDbUVQZE5rSWxSLS1fb19hN2pJXzZhWGU4T3NUeUxLU1JkTUdZZDdYY2xTUm1DM2I2WkhYTlV0eDdIYTRrQ2wzRw?oc=5",
-     "time": "2026-11-08T12:33:52+00:00"
-    },
-    {
-     "title": "SoFi Technologies, Inc. $SOFI Stock: Brighton Jones LLC Reduces Stake",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQcFl6dl8tcGdsdnFxVEZURVQtdDVlV3dpM0U3M1hqTkN2dEo0Tm91b2FqVXd2QjYzaWlfRVVYb3lXbm5rbVUzeFJGY0MtSGhDUm5sZmpWSzd1R0pneGVXVXN1bkg3aXNSWWxWS21YVThVSU9IUjd5NnNVMktCVV83Szd5c2hiRUJyQTR1eFJiZUhjbTdKT1RJenhCandLa04wUEg3d0xnMkJld1pIMWdLUFctZ2lXVTJIU29IMzl5LTVOdGZq?oc=5",
-     "time": "2026-11-08T09:39:55+00:00"
-    }
-   ],
-   "brief": "2026-11-09-SOFI"
   }
  ]
 }
