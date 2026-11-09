@@ -1,121 +1,46 @@
 {
  "date": "2026-11-09",
  "threshold": 3.0,
- "updated": "2026-11-09T16:09:16+00:00",
+ "updated": "2026-11-09T16:49:48+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 750.56,
-   "change_pct": 2.08
+   "price": 750.97,
+   "change_pct": 2.13
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 676.39,
-   "change_pct": 3.09
+   "price": 675.44,
+   "change_pct": 2.95
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 81.91,
-   "change_pct": -0.01
+   "price": 81.85,
+   "change_pct": -0.08
   }
  },
  "movers": [
   {
-   "symbol": "AMAT",
-   "name": "Applied Materials",
-   "list": "portfolio",
-   "price": 365.65,
-   "prev_close": 332.71,
-   "change_pct": 9.9,
-   "trigger_change": 8.7,
-   "peak_change": 10.5,
-   "first_seen": "2026-11-09T14:57:33+00:00",
-   "sector": {
-    "etf": "SMH",
-    "name": "Semiconductors",
-    "price": 484.82,
-    "change_pct": 4.5
-   },
-   "chart": {
-    "ema8": 0.2,
-    "ema21": -8.0,
-    "sma50": -17.4,
-    "sma200": -17.9,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "AI Chatbots' Stock Pick Showdown: CEG, AMAT, TTWO - Take-Two Interactive (NASDAQ:TTWO), Constellation Ene",
-     "publisher": "Benzinga",
-     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPYWpaZW9CVEMtbWJqRnlOWFJFUEFLcm53LTUtdWxwUzd4LTR1Y1FUXzd1TDdCeEVjVnAzSmlrenpmR3dsSENIOFJmZXA3YXFqaW5wZUo4WHo0b1doWGlsejZXeVp0VDRHX2R3a3d5cEVNdnJGaVlhOW14QWJ5VnRBQVNiS1hFY2hFUGY5eXduQm9vRGRzS2JTdXB1SURCUGwxSUR3WFlRbXNkazN0b2hKeElCU1l4Q3RxWHJhU0xMbE8wampYd2hPZDY2b3lQcHpfOGhz?oc=5",
-     "time": "2026-11-09T14:52:25+00:00"
-    },
-    {
-     "title": "A Fund With $4.4 Billion in US Equities Bought These 3 Stocks",
-     "publisher": "TIKR.com",
-     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNekVTN0lhYkJ6OFZpd2ZIRGJXN1NlWTZWWnJnTjVyMVgwQ0xiZzJYUDhrYUJVbmR4TzRhMWpoMlZSRFhvWmt3REw0NjB4QVNZYkl2RmZoaEZYVVRyb3dtVUhhWnYtMnM4NzV4bDlUMmFRUVBhSk1BLTdGdXpKWUZQSHlwSi1XQ1I0QVBHT09tamtZMElLN1hMWDN1d2dHMHpaYXpzS3k3Smt2VU5mT09tM2lfOURySEVubzVHbTVyMzVKQ1B6Znl2M2RYTQ?oc=5",
-     "time": "2026-11-09T14:27:19+00:00"
-    },
-    {
-     "title": "Top US stocks to watch this week: Cisco, Applied Materials, Rocket Lab",
-     "publisher": "Invezz",
-     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQVW9IUmpLNHNqVlNCWU9pMFRvaWhObEZ5eFUzd0NWQnBHNk00MTRDc2g2N0pmNHNBXzlaX1E3dWtGa2FJa0FVUGVROEsyOTJVTVlpZkhHRGJ5c3BuNm5FemtJMEhQNkMwSHZKN1BZazhtWWJKTEY3ZEF5b0Izd296ZHc3eW81TEFiNEdRUnljU1ZPMzVHZm5pS2owSG9jSkg1anhkX3hEelhndw?oc=5",
-     "time": "2026-11-09T13:50:31+00:00"
-    },
-    {
-     "title": "Applied Materials Stock (AMAT) Is Rising in Premarket Today Ahead of Q4 Earnings. Who Owns the Chipmaker?",
-     "publisher": "TipRanks",
-     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNZXRCQ0xfb2ROYThnbVFWaExCakpxY1BxY1BoQWc5Ml9UWEZtMVhfRUhOUmxyWG10VW5EcXZWR2RhVkJZcXh4N0xicU9MVnJUcWVYV3pOTk9NdGs2WjhlVEhsTU1URl9EYk5ndlVDXzEwTUJEcEppdk5xRnh4VHNsWjVHelI3UXc3UnBjZ1RVb041T1RIaHEzUVY4LVF1VU84TDRjREVsR2E5YnAtdjJZejJqc0thUVJGdzhrNmh0MGNfdWRWTlJTYjc1SQ?oc=5",
-     "time": "2026-11-09T13:45:17+00:00"
-    },
-    {
-     "title": "Applied Materials (AMAT) Stock Looks Above Fair Value After Its 127% Run",
-     "publisher": "Yahoo Finance Singapore",
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQZkZab1AxRnMxVkhacElPR2FQS3RlSTFhQWRCZjJZS1AzN2wwbW9lNDhRbjVNclk5WEtYRWR2VFR1YnZscVRKbWJlZnd2cmduQTJQTnRaMllmb285b3hQQi1QaUNRaEpGbGxvRVp2aWVqdGtVVm01QmtPem1uR2dHbTU0cnlLQk5RNEdZ?oc=5",
-     "time": "2026-11-09T13:10:21+00:00"
-    },
-    {
-     "title": "AMAT to Post Q4 Earnings: Time to Buy, Sell or Hold the Stock?",
-     "publisher": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQRkFPQ1ZXaVAzdW93VHBmdlkzMW82ZEItRUZ5UVQwcC1SbjhNVTFyTHUtRFRmaHh2ckxManlHMTJGRUQ5d2tZcVhpWXpra3kzNEVQUVJSWGp3Y0VMSjMxV2oxR0hnYXlhanJmSU5hNXI5S0p6RGdzZGFTYWVfZ0F3TzhzdDdzd3lkMFBKclRsZFpuZlQ0NUQtOGtOOEl2LXJXdklXQnNYOWh6ckZXNW1odHR1aU1Wdw?oc=5",
-     "time": "2026-11-09T12:48:00+00:00"
-    },
-    {
-     "title": "Can Applied Materials Stock Jump 50%?",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNT2NTTDRabW5NdUF3M2JzYVZRQV92TjlmRWhDdXNIUDZGZUZJV1BaaGdiNUdTdktHNlI4eGVnRlh0clVjbVk0eDRTa0x4M3ZocU5ZM2x1c3kzekFTZFJ2OVdmeFpoeDNndVM5QzdOWThTWjRKWXNHcURFa0ZXSXRsUUU3aFp6R2ZfNzNTQmdyU181V3k0dUZ5TUROTUI?oc=5",
-     "time": "2026-11-09T12:45:59+00:00"
-    },
-    {
-     "title": "Analysts Are Bullish on These Technology Stocks: Epam Systems (EPAM), Applied Materials (AMAT)",
-     "publisher": "The Globe and Mail",
-     "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPbGxGSm1wMjdpdFE0S0FIbnVMeHpoU3ZZc3o3VWFfdVp0c2Fab0dGeVNXWjJJN3Q4LWhsajEwRXkyMmZCQk9wblJQTzB2bnlPNjNBMndrSFh4Z2VNYkhyOFhLRWxZS29uZHJwWmtNajExWVU3czEyNGxMYlRTZUtuaUMwX0ZrTllBMzQ5V2dKaGVKMWZsNW9YRG9sVmhIVFE3QjJ1dEFlb2VYZTkxZmJYRjNvMjQ3eldnTEstbFdkMlYzNUFjTDNiREpwT0NOWnpwYTRtU29icXVDbTcwZ2VzaUc0azI3cFlzelVPLUlXMzRsMzBDRVhSMHBsQUh4cUJaRmp5X1VR?oc=5",
-     "time": "2026-11-09T12:39:00+00:00"
-    }
-   ],
-   "brief": "2026-11-09-AMAT"
-  },
-  {
    "symbol": "ANET",
    "name": "Arista Networks",
    "list": "portfolio",
-   "price": 186.55,
+   "price": 186.2,
    "prev_close": 170.8,
-   "change_pct": 9.2,
+   "change_pct": 9.0,
    "trigger_change": 8.1,
    "peak_change": 9.7,
    "first_seen": "2026-11-09T14:57:33+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 484.82,
-    "change_pct": 4.5
+    "price": 484.73,
+    "change_pct": 4.48
    },
    "chart": {
-    "ema8": 6.5,
-    "ema21": 3.1,
-    "sma50": -3.1,
-    "sma200": 12.1,
+    "ema8": 6.4,
+    "ema21": 2.9,
+    "sma50": -3.3,
+    "sma200": 11.9,
     "momentum": false
    },
    "headlines": [
@@ -171,87 +96,12 @@
    "brief": "2026-11-09-ANET"
   },
   {
-   "symbol": "AVGO",
-   "name": "Broadcom",
-   "list": "portfolio",
-   "price": 319.72,
-   "prev_close": 293.69,
-   "change_pct": 8.9,
-   "trigger_change": 7.0,
-   "peak_change": 9.2,
-   "first_seen": "2026-11-09T14:57:33+00:00",
-   "sector": {
-    "etf": "SMH",
-    "name": "Semiconductors",
-    "price": 484.82,
-    "change_pct": 4.5
-   },
-   "chart": {
-    "ema8": 0.8,
-    "ema21": -3.0,
-    "sma50": -7.8,
-    "sma200": -12.9,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Broadcom Faltered for a Year, Dropping Nearly 20%: This Wall Street Analyst Team Says 140% Gains Materialize Within 12 Months",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQcHFZNkRsZE85anFCUUpMeHhjbmNNYVVoTDIwcVQ2dkRnV1dwNHNuSmVQOWZzOFlZRlZHZURGZklVZU9PZGlxX3BnNDRsVkhXbVFKSmhLdTI4SDlZRGxkdXVQaHpRRlZpS3QweEdubnhvVkRja2FXaGY3QW1CMTM2bjJBa29uVU5NLVNsVDliQWJWcDZoREhqNTkxdk1HNW1lQm5J?oc=5",
-     "time": "2026-11-09T15:45:27+00:00"
-    },
-    {
-     "title": "What Is Going on With Broadcom Stock on Monday?",
-     "publisher": "Benzinga",
-     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOS0N5UlM5Mi05cjJJMHZ0aU1qVkM1d05hM1REejBWNml1b0FUX2k1Z21SX09fT2dKZVN4VS1uZkFKVEk4YlhyUjd5NmtxREdwZUJSMkJmOGtZbTFXQzhsT1NKTDNSbHFtdl9EdHREXzFrbVpreEpBMzdnVEVWanAzR0tJV2Qtak9lNHlxYTJUQTRqNFRTbXBYblpDZ0JaZEZR?oc=5",
-     "time": "2026-11-09T15:43:42+00:00"
-    },
-    {
-     "title": "Broadcom stock faces security test as AI valuation resets",
-     "publisher": "ad-hoc-news.de",
-     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOaENSTWtVQjRjQXRQZGNTeHlQbW9DQXRpcTFzbWVnRlIwanhKV20tdEdpOURnbE0wanpHLVRocUZpWmxSb3pDYVNOTzhYWW4xbVdqZVpyMnNXZm5GXzd5TDNLUGQ4NFRZWEtycVIwb2R5QXB4SWJfWWc2emlTeXVKaGJvbmVZT2dsWlhDQ1owSmlWa21RT0k3YWZCS3F6NG5DaU1hNmUxNzVYUFJ3dXFiM2Ztckl2STczcVFvRQ?oc=5",
-     "time": "2026-11-09T15:39:38+00:00"
-    },
-    {
-     "title": "Nvidia, AMD In; Broadcom Out: Cathie Wood\u2019s Latest AI ETF Shuffle - ARK Innovation ETF (BATS:ARKK)",
-     "publisher": "Benzinga",
-     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNemlLVHJKV0pEcVRmTmNQdWRBNFZodE1CX2JSWnM0MExrZWhYb1V6VEI4a0NSc0VjS19mYS1rajFUamV1S3FfN0xyWkc3MWZETzFBNXpFRjRWV3RMdzJaQmhnRzJtT2FvbHZGVkJBcmhFYlRuWlFvU2NOeUhvcTBwR3VHUktaRkRYTWpzTnNrNjVCcl9iLUlNR3NkeTRrRldhWTJQMHBRanoyZTBRcjVMSDRTejdac2N2UFl1dllRTDZvTnNSd2pPcw?oc=5",
-     "time": "2026-11-09T15:35:08+00:00"
-    },
-    {
-     "title": "AMD jumps 10% in morning trading as chip stocks win back three-fifths of last week's rout",
-     "publisher": "Quantisnow",
-     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPaThMYVB6eFZndmxhTkFHYk1LcTQyZEJqRXBqTzBIcXVKVFZka0hvaGc0Y2RkTXNKaG5VNUxWWWliS21KdmFaTXJwWm9RWEQ3MjU5WHVpTm1ubGdPVDFOSjNoT0c4TURxWWZMRFBabzF1NmYxVTZobkVRcTdpem95UzQtRGlyMjBFT2ZLYTBxY19CLV9VV0pORVRjcXBGMFFrdTN4aFpyT2xlMW1jdjdhVDFLNlA2TGpo?oc=5",
-     "time": "2026-11-09T15:32:46+00:00"
-    },
-    {
-     "title": "Broadcom: Despite Two Fearful Narratives, Big Healthy Upside (NASDAQ:AVGO)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNZnF4bHpDTF9EY1htTVItQVJfX3JqV2JudEtXaUkwcXlSNk5jMzJEc2Z3MVZmZGI1ZG1SRU9yYTB2VGtxYUdMNF90d18tV01HbUVkSzJObzFiTnFOVXNFZGJsdExhNldXMlFvVmtRcjdDVmY3ZGllUE1iWm9lN3d4dkpVZjA4VzBlSEszV0hrS1RHekdLNVBZNHlrQ1djQ2RL?oc=5",
-     "time": "2026-11-09T15:25:00+00:00"
-    },
-    {
-     "title": "Fund Update: 421,470 BROADCOM (AVGO) shares added to COMGEST GLOBAL INVESTORS S.A.S. portfolio",
-     "publisher": "Quiver Quantitative",
-     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPSnhFV240ZFFZQ01iTFI0TldjRnNXSm9IN3dYNHRrYXhmSVhlc3g5WFROS1huR09EamNqVmVBUjFPaTU1cDh3Tlh3WkU3dUZXOWlYVnIxM2FQanRLUFJPZFRhZWRIaDdGZXlwVkMwcHhiTG9CazF3cjVDSkVIdGZHeUVGY01nbDFMdmFqY0JkRERGTmp5aDRsY1UtemJfdk9qZGphMlJsdFVoODRuOG1nTzVfMjBpVDRxR09veUFYWWRic0ZSdERyNkliZnA1aFBZ?oc=5",
-     "time": "2026-11-09T15:22:00+00:00"
-    },
-    {
-     "title": "Broadcom Inc Stock (AVGO) Moved Up by 7.70% on Nov 9: Facts Behind the Movement",
-     "publisher": "TradingKey",
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOc2JYbkVWb3N3Z0pOTXd0akpNZkhBWGlQRHF0Q21IZ0RLa21qWFIyMFBla3lOMXBjWUF0bHNnbS1LNmY5UTd2eEFmeUhZRW8yeGtpZ3BSVkpvUmRaMjJVYjE3Zm9FWW1mZlVGSkotNG1nclcyNkp2MW1YM2xpeVNFR0hITWZCbWh0VlRz?oc=5",
-     "time": "2026-11-09T15:15:50+00:00"
-    }
-   ],
-   "brief": "2026-11-09-AVGO"
-  },
-  {
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 140.32,
+   "price": 140.52,
    "prev_close": 129.49,
-   "change_pct": 8.4,
+   "change_pct": 8.5,
    "trigger_change": 6.5,
    "peak_change": 9.1,
    "first_seen": "2026-11-09T14:57:33+00:00",
@@ -262,10 +112,10 @@
     "change_pct": 2.16
    },
    "chart": {
-    "ema8": -1.9,
-    "ema21": -14.4,
-    "sma50": -30.0,
-    "sma200": -21.4,
+    "ema8": -1.8,
+    "ema21": -14.3,
+    "sma50": -29.9,
+    "sma200": -21.3,
     "momentum": false
    },
    "headlines": [
@@ -321,26 +171,101 @@
    "brief": "2026-11-09-NBIS"
   },
   {
-   "symbol": "NVDA",
-   "name": "Nvidia",
+   "symbol": "AVGO",
+   "name": "Broadcom",
    "list": "portfolio",
-   "price": 176.78,
-   "prev_close": 186.64,
-   "change_pct": -5.3,
-   "trigger_change": -4.9,
-   "peak_change": -5.3,
+   "price": 317.95,
+   "prev_close": 293.69,
+   "change_pct": 8.3,
+   "trigger_change": 7.0,
+   "peak_change": 9.2,
    "first_seen": "2026-11-09T14:57:33+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 484.82,
-    "change_pct": 4.5
+    "price": 484.73,
+    "change_pct": 4.48
    },
    "chart": {
-    "ema8": -8.8,
-    "ema21": -14.3,
-    "sma50": -19.3,
-    "sma200": -13.6,
+    "ema8": 0.4,
+    "ema21": -3.5,
+    "sma50": -8.3,
+    "sma200": -13.4,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Broadcom Faltered for a Year, Dropping Nearly 20%: This Wall Street Analyst Team Says 140% Gains Materialize Within 12 Months",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQcHFZNkRsZE85anFCUUpMeHhjbmNNYVVoTDIwcVQ2dkRnV1dwNHNuSmVQOWZzOFlZRlZHZURGZklVZU9PZGlxX3BnNDRsVkhXbVFKSmhLdTI4SDlZRGxkdXVQaHpRRlZpS3QweEdubnhvVkRja2FXaGY3QW1CMTM2bjJBa29uVU5NLVNsVDliQWJWcDZoREhqNTkxdk1HNW1lQm5J?oc=5",
+     "time": "2026-11-09T15:45:27+00:00"
+    },
+    {
+     "title": "What Is Going on With Broadcom Stock on Monday?",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOS0N5UlM5Mi05cjJJMHZ0aU1qVkM1d05hM1REejBWNml1b0FUX2k1Z21SX09fT2dKZVN4VS1uZkFKVEk4YlhyUjd5NmtxREdwZUJSMkJmOGtZbTFXQzhsT1NKTDNSbHFtdl9EdHREXzFrbVpreEpBMzdnVEVWanAzR0tJV2Qtak9lNHlxYTJUQTRqNFRTbXBYblpDZ0JaZEZR?oc=5",
+     "time": "2026-11-09T15:43:42+00:00"
+    },
+    {
+     "title": "Broadcom stock faces security test as AI valuation resets",
+     "publisher": "ad-hoc-news.de",
+     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOaENSTWtVQjRjQXRQZGNTeHlQbW9DQXRpcTFzbWVnRlIwanhKV20tdEdpOURnbE0wanpHLVRocUZpWmxSb3pDYVNOTzhYWW4xbVdqZVpyMnNXZm5GXzd5TDNLUGQ4NFRZWEtycVIwb2R5QXB4SWJfWWc2emlTeXVKaGJvbmVZT2dsWlhDQ1owSmlWa21RT0k3YWZCS3F6NG5DaU1hNmUxNzVYUFJ3dXFiM2Ztckl2STczcVFvRQ?oc=5",
+     "time": "2026-11-09T15:39:38+00:00"
+    },
+    {
+     "title": "Nvidia, AMD In; Broadcom Out: Cathie Wood\u2019s Latest AI ETF Shuffle - ARK Innovation ETF (BATS:ARKK)",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNemlLVHJKV0pEcVRmTmNQdWRBNFZodE1CX2JSWnM0MExrZWhYb1V6VEI4a0NSc0VjS19mYS1rajFUamV1S3FfN0xyWkc3MWZETzFBNXpFRjRWV3RMdzJaQmhnRzJtT2FvbHZGVkJBcmhFYlRuWlFvU2NOeUhvcTBwR3VHUktaRkRYTWpzTnNrNjVCcl9iLUlNR3NkeTRrRldhWTJQMHBRanoyZTBRcjVMSDRTejdac2N2UFl1dllRTDZvTnNSd2pPcw?oc=5",
+     "time": "2026-11-09T15:35:08+00:00"
+    },
+    {
+     "title": "AMD jumps 10% in morning trading as chip stocks win back three-fifths of last week's rout",
+     "publisher": "Quantisnow",
+     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPaThMYVB6eFZndmxhTkFHYk1LcTQyZEJqRXBqTzBIcXVKVFZka0hvaGc0Y2RkTXNKaG5VNUxWWWliS21KdmFaTXJwWm9RWEQ3MjU5WHVpTm1ubGdPVDFOSjNoT0c4TURxWWZMRFBabzF1NmYxVTZobkVRcTdpem95UzQtRGlyMjBFT2ZLYTBxY19CLV9VV0pORVRjcXBGMFFrdTN4aFpyT2xlMW1jdjdhVDFLNlA2TGpo?oc=5",
+     "time": "2026-11-09T15:32:46+00:00"
+    },
+    {
+     "title": "Broadcom: Despite Two Fearful Narratives, Big Healthy Upside (NASDAQ:AVGO)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNZnF4bHpDTF9EY1htTVItQVJfX3JqV2JudEtXaUkwcXlSNk5jMzJEc2Z3MVZmZGI1ZG1SRU9yYTB2VGtxYUdMNF90d18tV01HbUVkSzJObzFiTnFOVXNFZGJsdExhNldXMlFvVmtRcjdDVmY3ZGllUE1iWm9lN3d4dkpVZjA4VzBlSEszV0hrS1RHekdLNVBZNHlrQ1djQ2RL?oc=5",
+     "time": "2026-11-09T15:25:00+00:00"
+    },
+    {
+     "title": "Fund Update: 421,470 BROADCOM (AVGO) shares added to COMGEST GLOBAL INVESTORS S.A.S. portfolio",
+     "publisher": "Quiver Quantitative",
+     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPSnhFV240ZFFZQ01iTFI0TldjRnNXSm9IN3dYNHRrYXhmSVhlc3g5WFROS1huR09EamNqVmVBUjFPaTU1cDh3Tlh3WkU3dUZXOWlYVnIxM2FQanRLUFJPZFRhZWRIaDdGZXlwVkMwcHhiTG9CazF3cjVDSkVIdGZHeUVGY01nbDFMdmFqY0JkRERGTmp5aDRsY1UtemJfdk9qZGphMlJsdFVoODRuOG1nTzVfMjBpVDRxR09veUFYWWRic0ZSdERyNkliZnA1aFBZ?oc=5",
+     "time": "2026-11-09T15:22:00+00:00"
+    },
+    {
+     "title": "Broadcom Inc Stock (AVGO) Moved Up by 7.70% on Nov 9: Facts Behind the Movement",
+     "publisher": "TradingKey",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOc2JYbkVWb3N3Z0pOTXd0akpNZkhBWGlQRHF0Q21IZ0RLa21qWFIyMFBla3lOMXBjWUF0bHNnbS1LNmY5UTd2eEFmeUhZRW8yeGtpZ3BSVkpvUmRaMjJVYjE3Zm9FWW1mZlVGSkotNG1nclcyNkp2MW1YM2xpeVNFR0hITWZCbWh0VlRz?oc=5",
+     "time": "2026-11-09T15:15:50+00:00"
+    }
+   ],
+   "brief": "2026-11-09-AVGO"
+  },
+  {
+   "symbol": "NVDA",
+   "name": "Nvidia",
+   "list": "portfolio",
+   "price": 176.31,
+   "prev_close": 186.64,
+   "change_pct": -5.5,
+   "trigger_change": -4.9,
+   "peak_change": -6.4,
+   "first_seen": "2026-11-09T14:57:33+00:00",
+   "sector": {
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 484.73,
+    "change_pct": 4.48
+   },
+   "chart": {
+    "ema8": -8.9,
+    "ema21": -14.5,
+    "sma50": -19.5,
+    "sma200": -13.8,
     "momentum": false
    },
    "headlines": [
@@ -399,23 +324,23 @@
    "symbol": "META",
    "name": "Meta",
    "list": "portfolio",
-   "price": 641.08,
+   "price": 640.95,
    "prev_close": 610.15,
-   "change_pct": 5.1,
+   "change_pct": 5.0,
    "trigger_change": 5.0,
    "peak_change": 5.4,
    "first_seen": "2026-11-09T14:57:33+00:00",
    "sector": {
     "etf": "XLC",
     "name": "Communication",
-    "price": 107.11,
-    "change_pct": 2.21
+    "price": 106.95,
+    "change_pct": 2.06
    },
    "chart": {
     "ema8": 2.5,
     "ema21": -1.2,
     "sma50": -5.2,
-    "sma200": 1.5,
+    "sma200": 1.4,
     "momentum": false
    },
    "headlines": [
@@ -474,23 +399,23 @@
    "symbol": "SOFI",
    "name": "SoFi",
    "list": "portfolio",
-   "price": 16.86,
+   "price": 16.93,
    "prev_close": 16.21,
-   "change_pct": 4.0,
+   "change_pct": 4.5,
    "trigger_change": 3.1,
    "peak_change": 4.6,
    "first_seen": "2026-11-09T15:02:33+00:00",
    "sector": {
     "etf": "XLF",
     "name": "Financials",
-    "price": 57.85,
-    "change_pct": 1.22
+    "price": 57.94,
+    "change_pct": 1.36
    },
    "chart": {
-    "ema8": 2.1,
-    "ema21": 4.2,
-    "sma50": 3.2,
-    "sma200": -3.7,
+    "ema8": 2.4,
+    "ema21": 4.7,
+    "sma50": 3.7,
+    "sma200": -3.3,
     "momentum": true
    },
    "headlines": [
@@ -546,87 +471,87 @@
    "brief": null
   },
   {
-   "symbol": "AMZN",
-   "name": "Amazon",
+   "symbol": "AMAT",
+   "name": "Applied Materials",
    "list": "portfolio",
-   "price": 268.28,
-   "prev_close": 259.3,
-   "change_pct": 3.5,
-   "trigger_change": 5.3,
-   "peak_change": 5.3,
+   "price": 332.71,
+   "prev_close": 319.25,
+   "change_pct": 4.2,
+   "trigger_change": 8.7,
+   "peak_change": 10.8,
    "first_seen": "2026-11-09T14:57:33+00:00",
    "sector": {
-    "etf": "XLY",
-    "name": "Consumer discr.",
-    "price": 120.81,
-    "change_pct": 2.75
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 484.73,
+    "change_pct": 4.48
    },
    "chart": {
-    "ema8": 3.9,
-    "ema21": 5.1,
-    "sma50": 5.6,
-    "sma200": 9.9,
-    "momentum": true
+    "ema8": -8.7,
+    "ema21": -16.9,
+    "sma50": -25.2,
+    "sma200": -25.3,
+    "momentum": false
    },
    "headlines": [
     {
-     "title": "Why Amazon (AMZN) stock is up today",
-     "publisher": "FinancialContent",
-     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPSmtpSlppcWtONkZFU2NsbkpzU1RzUXFDMzAzNDBnelNLc1ZadnoxMUpSemNvN1phamhHTnJIUzBDLWw4TzAwWFdpOG0xX2tCWTBaTzBUay1GMkdSRFRvU0RBcFRSc1BqVVJJV2ZDLU5SdUdCckd5TUo4XzBVVGQtLVp3U2NwRVpQbE5PMklUbTdZWjViZThEOXpkdmZGWjlkdkN6QVRqQ2xrUQ?oc=5",
-     "time": "2026-11-09T15:50:00+00:00"
+     "title": "AI Chatbots' Stock Pick Showdown: CEG, AMAT, TTWO - Take-Two Interactive (NASDAQ:TTWO), Constellation Ene",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPYWpaZW9CVEMtbWJqRnlOWFJFUEFLcm53LTUtdWxwUzd4LTR1Y1FUXzd1TDdCeEVjVnAzSmlrenpmR3dsSENIOFJmZXA3YXFqaW5wZUo4WHo0b1doWGlsejZXeVp0VDRHX2R3a3d5cEVNdnJGaVlhOW14QWJ5VnRBQVNiS1hFY2hFUGY5eXduQm9vRGRzS2JTdXB1SURCUGwxSUR3WFlRbXNkazN0b2hKeElCU1l4Q3RxWHJhU0xMbE8wampYd2hPZDY2b3lQcHpfOGhz?oc=5",
+     "time": "2026-11-09T14:52:25+00:00"
     },
     {
-     "title": "Amazon Generated $202 Billion in Quarterly Sales. Most of Its Operating Profit Came From Just 1 Business.",
-     "publisher": "The Motley Fool",
-     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQSkRvdFM5aDBCaE1MZFZXNWhhdTU0NDAxQzA3YzBGZlVseE12Sjk3NGRfUDRsU193bk1aWk5FckdONXhnRHhjbHhRSjQtd2M1LVF0V0RaVm1hMXBGX1FCTWJyTlNiYW1XVGtxdmQ4clBuQWVqUzlxQUxhUlNJb1RsV3Nsa2lxWWx5cEVlX09Wb3J1MWo4?oc=5",
-     "time": "2026-11-09T15:30:00+00:00"
+     "title": "A Fund With $4.4 Billion in US Equities Bought These 3 Stocks",
+     "publisher": "TIKR.com",
+     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNekVTN0lhYkJ6OFZpd2ZIRGJXN1NlWTZWWnJnTjVyMVgwQ0xiZzJYUDhrYUJVbmR4TzRhMWpoMlZSRFhvWmt3REw0NjB4QVNZYkl2RmZoaEZYVVRyb3dtVUhhWnYtMnM4NzV4bDlUMmFRUVBhSk1BLTdGdXpKWUZQSHlwSi1XQ1I0QVBHT09tamtZMElLN1hMWDN1d2dHMHpaYXpzS3k3Smt2VU5mT09tM2lfOURySEVubzVHbTVyMzVKQ1B6Znl2M2RYTQ?oc=5",
+     "time": "2026-11-09T14:27:19+00:00"
     },
     {
-     "title": "Amazon.com Inc Stock (AMZN) Opened Up by 5.67% on Nov 9: What Signal Does It Send?",
-     "publisher": "TradingKey",
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNc01Mak9YeUt2ZkhBSkotOW81Nkx3eUptS1dFb3FiRHNfVUVQX3J2dzl2VXhnZDRUNkxVcXI1SWNvWEgtel8tMDFMQUZpeHVCd29JZFdWRkd0VUoxQVFtOE5WaTUzbldmOFQwdDE1YjFHSVNMcmZFZ1NkWC1hZ1ZMcnBOaVlDb2NQYk44?oc=5",
-     "time": "2026-11-09T14:47:33+00:00"
+     "title": "Top US stocks to watch this week: Cisco, Applied Materials, Rocket Lab",
+     "publisher": "Invezz",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQVW9IUmpLNHNqVlNCWU9pMFRvaWhObEZ5eFUzd0NWQnBHNk00MTRDc2g2N0pmNHNBXzlaX1E3dWtGa2FJa0FVUGVROEsyOTJVTVlpZkhHRGJ5c3BuNm5FemtJMEhQNkMwSHZKN1BZazhtWWJKTEY3ZEF5b0Izd296ZHc3eW81TEFiNEdRUnljU1ZPMzVHZm5pS2owSG9jSkg1anhkX3hEelhndw?oc=5",
+     "time": "2026-11-09T13:50:31+00:00"
     },
     {
-     "title": "Amazon Stock (AMZN) Climbs on New Home Robot Hiring Plans",
+     "title": "Applied Materials Stock (AMAT) Is Rising in Premarket Today Ahead of Q4 Earnings. Who Owns the Chipmaker?",
      "publisher": "TipRanks",
-     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxONjAzV2EzNWpLUDJDVzhrSV9pT0o3UXpsVzNyTU5kZ3d1SjNVdGRsajJpRE5KcGNJQU9QNkVwRkFvYllfLW95SzhGVHk4UXk3NDlQWmdjU2ZUVklrMm9OMDhncWpGZUxqX2llM0dsWVNBQ1NWekh1MW1CNWVsbU1iS3BRSFJ5Z0FIRm16Tnpn?oc=5",
-     "time": "2026-11-09T14:15:34+00:00"
+     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNZXRCQ0xfb2ROYThnbVFWaExCakpxY1BxY1BoQWc5Ml9UWEZtMVhfRUhOUmxyWG10VW5EcXZWR2RhVkJZcXh4N0xicU9MVnJUcWVYV3pOTk9NdGs2WjhlVEhsTU1URl9EYk5ndlVDXzEwTUJEcEppdk5xRnh4VHNsWjVHelI3UXc3UnBjZ1RVb041T1RIaHEzUVY4LVF1VU84TDRjREVsR2E5YnAtdjJZejJqc0thUVJGdzhrNmh0MGNfdWRWTlJTYjc1SQ?oc=5",
+     "time": "2026-11-09T13:45:17+00:00"
     },
     {
-     "title": "Amazon\u2019s (AMZN) Post-Earnings Rebound Creates an Interesting Buying Opportunity",
-     "publisher": "TipRanks",
-     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQVV1Ujg3ZGVSQmRaczJqbmwzUzhMT2RTdWk0ZDhUWXM5c3hEVWtBSldQM3dlMTZkX2VqMjZlYVVGblQxSTk3MnNmTWhZOWdWeTI0M3lSMjBlTW13b0h1aFVrbTE3aVJPMmpNNXRIRzUwNlY2MHYtMHlhY1RpakpLZ3NhVnJTTXJMYVRuRm5JQW5qSW5TR3RLbUJScXUyb3FzbktPbE5RTXY1cnk4X2lxelBXcU8?oc=5",
-     "time": "2026-11-09T13:55:11+00:00"
+     "title": "Applied Materials (AMAT) Stock Looks Above Fair Value After Its 127% Run",
+     "publisher": "Yahoo Finance Singapore",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQZkZab1AxRnMxVkhacElPR2FQS3RlSTFhQWRCZjJZS1AzN2wwbW9lNDhRbjVNclk5WEtYRWR2VFR1YnZscVRKbWJlZnd2cmduQTJQTnRaMllmb285b3hQQi1QaUNRaEpGbGxvRVp2aWVqdGtVVm01QmtPem1uR2dHbTU0cnlLQk5RNEdZ?oc=5",
+     "time": "2026-11-09T13:10:21+00:00"
     },
     {
-     "title": "Amazon Stock: The Rings Of Power Show Why The Big Capex Bet Can Pay Off (NASDAQ:AMZN)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQaWcxMWJrWnpYSjZxWmVLV05SN0QtUjZxZ1NjaWFWRGZZU3VUM1gzMk9GT0VZLWRwLWRjdEhLaW5RY09vM3ZIWkViMUQwTGw5Q0xIeGxvNUsxWVZUQU5XRnF5ZDgwWHlrOEg2aHRncE9NU09MX0dfSFo3NW5XeGFhMUY4YTFLcFl3ODlVVDFsa1dRdGlLYUE1NVBMVEtUR3Nmdl9Ib0FQZlk?oc=5",
-     "time": "2026-11-09T13:30:00+00:00"
+     "title": "AMAT to Post Q4 Earnings: Time to Buy, Sell or Hold the Stock?",
+     "publisher": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQRkFPQ1ZXaVAzdW93VHBmdlkzMW82ZEItRUZ5UVQwcC1SbjhNVTFyTHUtRFRmaHh2ckxManlHMTJGRUQ5d2tZcVhpWXpra3kzNEVQUVJSWGp3Y0VMSjMxV2oxR0hnYXlhanJmSU5hNXI5S0p6RGdzZGFTYWVfZ0F3TzhzdDdzd3lkMFBKclRsZFpuZlQ0NUQtOGtOOEl2LXJXdklXQnNYOWh6ckZXNW1odHR1aU1Wdw?oc=5",
+     "time": "2026-11-09T12:48:00+00:00"
     },
     {
-     "title": "META, AMZN Stocks Jump As JPMorgan Picks Pair Over Alphabet \u2014 Sees Stronger AI Returns, Cloud Growth",
-     "publisher": "Stocktwits",
-     "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOMGlFOUVyTm9vUG5ZSlM0eFdFcmR5OTY4VE54VWFxYUZLa2NsdUxaOG5waTY0X0NVZUlQNVhqeUtRX00tZkhiYVdEX0RyYmVueXF5Q2t0Z0RFY1JtYVR2ZWR1aFdWLTBab3NlWEx3ekJVbjFuWWFydzlQdTJFV0xNMUQ5VVpaeE1PQ2owTjNFTXh4em9QVDJVR3ZsTE1LT3NhSVZwLUJlT0VfV3paXzRQOXhZY2dXMGJDRlAyaDU3OGtuUTlVVXJGRm1GVktrLUZ3UkliOHNUN3c4RENQaW0wTVRpVVJnTWdzczB1Zy1Fc21keWM?oc=5",
-     "time": "2026-11-09T13:12:05+00:00"
-    },
-    {
-     "title": "ETFs Are Net Sellers of Amazon (AMZN) on Nov. 5",
+     "title": "Can Applied Materials Stock Jump 50%?",
      "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPR3d3NnppVXdHcWI3dWhCU2V4RHBjdVhKNGYzXzFkYTdncXJpWDdhVVZ5UUJCbmtBajkzd0Z6ZVdPaEhWRFdpOWs2bTVjYkMzYkdkMVktMTUyZkNjU3RpUTZPcVU5Tlo3bHJoRTNrcTQyLVRJS1R5Y0FWS1NTV3JIU1pjdWk5Rm1Ody14Q0h2S1lyTEgzNHhfRw?oc=5",
-     "time": "2026-11-09T11:03:04+00:00"
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNT2NTTDRabW5NdUF3M2JzYVZRQV92TjlmRWhDdXNIUDZGZUZJV1BaaGdiNUdTdktHNlI4eGVnRlh0clVjbVk0eDRTa0x4M3ZocU5ZM2x1c3kzekFTZFJ2OVdmeFpoeDNndVM5QzdOWThTWjRKWXNHcURFa0ZXSXRsUUU3aFp6R2ZfNzNTQmdyU181V3k0dUZ5TUROTUI?oc=5",
+     "time": "2026-11-09T12:45:59+00:00"
+    },
+    {
+     "title": "Analysts Are Bullish on These Technology Stocks: Epam Systems (EPAM), Applied Materials (AMAT)",
+     "publisher": "The Globe and Mail",
+     "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPbGxGSm1wMjdpdFE0S0FIbnVMeHpoU3ZZc3o3VWFfdVp0c2Fab0dGeVNXWjJJN3Q4LWhsajEwRXkyMmZCQk9wblJQTzB2bnlPNjNBMndrSFh4Z2VNYkhyOFhLRWxZS29uZHJwWmtNajExWVU3czEyNGxMYlRTZUtuaUMwX0ZrTllBMzQ5V2dKaGVKMWZsNW9YRG9sVmhIVFE3QjJ1dEFlb2VYZTkxZmJYRjNvMjQ3eldnTEstbFdkMlYzNUFjTDNiREpwT0NOWnpwYTRtU29icXVDbTcwZ2VzaUc0azI3cFlzelVPLUlXMzRsMzBDRVhSMHBsQUh4cUJaRmp5X1VR?oc=5",
+     "time": "2026-11-09T12:39:00+00:00"
     }
    ],
-   "brief": "2026-11-09-AMZN"
+   "brief": "2026-11-09-AMAT"
   },
   {
    "symbol": "APP",
    "name": "AppLovin",
    "list": "portfolio",
-   "price": 405.08,
+   "price": 405.84,
    "prev_close": 391.22,
-   "change_pct": 3.5,
+   "change_pct": 3.7,
    "trigger_change": 3.8,
    "peak_change": 4.5,
    "first_seen": "2026-11-09T15:12:35+00:00",
@@ -637,10 +562,10 @@
     "change_pct": 2.16
    },
    "chart": {
-    "ema8": 24.7,
-    "ema21": 37.6,
-    "sma50": 37.3,
-    "sma200": -0.9,
+    "ema8": 24.9,
+    "ema21": 37.8,
+    "sma50": 37.5,
+    "sma200": -0.7,
     "momentum": true
    },
    "headlines": [
@@ -696,12 +621,87 @@
    "brief": null
   },
   {
+   "symbol": "AMZN",
+   "name": "Amazon",
+   "list": "portfolio",
+   "price": 268.44,
+   "prev_close": 259.3,
+   "change_pct": 3.5,
+   "trigger_change": 5.3,
+   "peak_change": 5.3,
+   "first_seen": "2026-11-09T14:57:33+00:00",
+   "sector": {
+    "etf": "XLY",
+    "name": "Consumer discr.",
+    "price": 120.91,
+    "change_pct": 2.83
+   },
+   "chart": {
+    "ema8": 3.9,
+    "ema21": 5.1,
+    "sma50": 5.7,
+    "sma200": 10.0,
+    "momentum": true
+   },
+   "headlines": [
+    {
+     "title": "Why Amazon (AMZN) stock is up today",
+     "publisher": "FinancialContent",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPSmtpSlppcWtONkZFU2NsbkpzU1RzUXFDMzAzNDBnelNLc1ZadnoxMUpSemNvN1phamhHTnJIUzBDLWw4TzAwWFdpOG0xX2tCWTBaTzBUay1GMkdSRFRvU0RBcFRSc1BqVVJJV2ZDLU5SdUdCckd5TUo4XzBVVGQtLVp3U2NwRVpQbE5PMklUbTdZWjViZThEOXpkdmZGWjlkdkN6QVRqQ2xrUQ?oc=5",
+     "time": "2026-11-09T15:50:00+00:00"
+    },
+    {
+     "title": "Amazon Generated $202 Billion in Quarterly Sales. Most of Its Operating Profit Came From Just 1 Business.",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQSkRvdFM5aDBCaE1MZFZXNWhhdTU0NDAxQzA3YzBGZlVseE12Sjk3NGRfUDRsU193bk1aWk5FckdONXhnRHhjbHhRSjQtd2M1LVF0V0RaVm1hMXBGX1FCTWJyTlNiYW1XVGtxdmQ4clBuQWVqUzlxQUxhUlNJb1RsV3Nsa2lxWWx5cEVlX09Wb3J1MWo4?oc=5",
+     "time": "2026-11-09T15:30:00+00:00"
+    },
+    {
+     "title": "Amazon.com Inc Stock (AMZN) Opened Up by 5.67% on Nov 9: What Signal Does It Send?",
+     "publisher": "TradingKey",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNc01Mak9YeUt2ZkhBSkotOW81Nkx3eUptS1dFb3FiRHNfVUVQX3J2dzl2VXhnZDRUNkxVcXI1SWNvWEgtel8tMDFMQUZpeHVCd29JZFdWRkd0VUoxQVFtOE5WaTUzbldmOFQwdDE1YjFHSVNMcmZFZ1NkWC1hZ1ZMcnBOaVlDb2NQYk44?oc=5",
+     "time": "2026-11-09T14:47:33+00:00"
+    },
+    {
+     "title": "Amazon Stock (AMZN) Climbs on New Home Robot Hiring Plans",
+     "publisher": "TipRanks",
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxONjAzV2EzNWpLUDJDVzhrSV9pT0o3UXpsVzNyTU5kZ3d1SjNVdGRsajJpRE5KcGNJQU9QNkVwRkFvYllfLW95SzhGVHk4UXk3NDlQWmdjU2ZUVklrMm9OMDhncWpGZUxqX2llM0dsWVNBQ1NWekh1MW1CNWVsbU1iS3BRSFJ5Z0FIRm16Tnpn?oc=5",
+     "time": "2026-11-09T14:15:34+00:00"
+    },
+    {
+     "title": "Amazon\u2019s (AMZN) Post-Earnings Rebound Creates an Interesting Buying Opportunity",
+     "publisher": "TipRanks",
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQVV1Ujg3ZGVSQmRaczJqbmwzUzhMT2RTdWk0ZDhUWXM5c3hEVWtBSldQM3dlMTZkX2VqMjZlYVVGblQxSTk3MnNmTWhZOWdWeTI0M3lSMjBlTW13b0h1aFVrbTE3aVJPMmpNNXRIRzUwNlY2MHYtMHlhY1RpakpLZ3NhVnJTTXJMYVRuRm5JQW5qSW5TR3RLbUJScXUyb3FzbktPbE5RTXY1cnk4X2lxelBXcU8?oc=5",
+     "time": "2026-11-09T13:55:11+00:00"
+    },
+    {
+     "title": "Amazon Stock: The Rings Of Power Show Why The Big Capex Bet Can Pay Off (NASDAQ:AMZN)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQaWcxMWJrWnpYSjZxWmVLV05SN0QtUjZxZ1NjaWFWRGZZU3VUM1gzMk9GT0VZLWRwLWRjdEhLaW5RY09vM3ZIWkViMUQwTGw5Q0xIeGxvNUsxWVZUQU5XRnF5ZDgwWHlrOEg2aHRncE9NU09MX0dfSFo3NW5XeGFhMUY4YTFLcFl3ODlVVDFsa1dRdGlLYUE1NVBMVEtUR3Nmdl9Ib0FQZlk?oc=5",
+     "time": "2026-11-09T13:30:00+00:00"
+    },
+    {
+     "title": "META, AMZN Stocks Jump As JPMorgan Picks Pair Over Alphabet \u2014 Sees Stronger AI Returns, Cloud Growth",
+     "publisher": "Stocktwits",
+     "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOMGlFOUVyTm9vUG5ZSlM0eFdFcmR5OTY4VE54VWFxYUZLa2NsdUxaOG5waTY0X0NVZUlQNVhqeUtRX00tZkhiYVdEX0RyYmVueXF5Q2t0Z0RFY1JtYVR2ZWR1aFdWLTBab3NlWEx3ekJVbjFuWWFydzlQdTJFV0xNMUQ5VVpaeE1PQ2owTjNFTXh4em9QVDJVR3ZsTE1LT3NhSVZwLUJlT0VfV3paXzRQOXhZY2dXMGJDRlAyaDU3OGtuUTlVVXJGRm1GVktrLUZ3UkliOHNUN3c4RENQaW0wTVRpVVJnTWdzczB1Zy1Fc21keWM?oc=5",
+     "time": "2026-11-09T13:12:05+00:00"
+    },
+    {
+     "title": "ETFs Are Net Sellers of Amazon (AMZN) on Nov. 5",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPR3d3NnppVXdHcWI3dWhCU2V4RHBjdVhKNGYzXzFkYTdncXJpWDdhVVZ5UUJCbmtBajkzd0Z6ZVdPaEhWRFdpOWs2bTVjYkMzYkdkMVktMTUyZkNjU3RpUTZPcVU5Tlo3bHJoRTNrcTQyLVRJS1R5Y0FWS1NTV3JIU1pjdWk5Rm1Ody14Q0h2S1lyTEgzNHhfRw?oc=5",
+     "time": "2026-11-09T11:03:04+00:00"
+    }
+   ],
+   "brief": "2026-11-09-AMZN"
+  },
+  {
    "symbol": "CRWD",
    "name": "CrowdStrike",
    "list": "portfolio",
-   "price": 224.3,
+   "price": 223.97,
    "prev_close": 216.9,
-   "change_pct": 3.4,
+   "change_pct": 3.3,
    "trigger_change": 3.7,
    "peak_change": 3.7,
    "first_seen": "2026-11-09T16:04:16+00:00",
@@ -712,10 +712,10 @@
     "change_pct": 2.16
    },
    "chart": {
-    "ema8": -3.9,
-    "ema21": -7.5,
-    "sma50": -8.0,
-    "sma200": 31.3,
+    "ema8": -4.0,
+    "ema21": -7.6,
+    "sma50": -8.2,
+    "sma200": 31.1,
     "momentum": false
    },
    "headlines": [
@@ -768,23 +768,23 @@
    "symbol": "GOOG",
    "name": "Alphabet",
    "list": "portfolio",
-   "price": 290.71,
+   "price": 289.25,
    "prev_close": 283.93,
-   "change_pct": 2.4,
+   "change_pct": 1.9,
    "trigger_change": 3.1,
    "peak_change": 3.1,
    "first_seen": "2026-11-09T15:27:36+00:00",
    "sector": {
     "etf": "XLC",
     "name": "Communication",
-    "price": 107.11,
-    "change_pct": 2.21
+    "price": 106.95,
+    "change_pct": 2.06
    },
    "chart": {
-    "ema8": 0.3,
-    "ema21": -5.1,
-    "sma50": -11.6,
-    "sma200": -13.8,
+    "ema8": -0.1,
+    "ema21": -5.5,
+    "sma50": -12.0,
+    "sma200": -14.3,
     "momentum": false
    },
    "headlines": [
