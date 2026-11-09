@@ -1,22 +1,22 @@
 {
  "date": "2026-11-09",
  "threshold": 3.0,
- "updated": "2026-11-09T19:21:11+00:00",
+ "updated": "2026-11-09T19:41:24+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 752.37,
-   "change_pct": 2.32
+   "price": 755.0,
+   "change_pct": 2.68
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 677.25,
-   "change_pct": 3.22
+   "price": 681.08,
+   "change_pct": 3.81
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 81.92,
-   "change_pct": -0.01
+   "price": 82.09,
+   "change_pct": 0.21
   }
  },
  "movers": [
@@ -24,23 +24,23 @@
    "symbol": "AMAT",
    "name": "Applied Materials",
    "list": "portfolio",
-   "price": 369.91,
+   "price": 373.68,
    "prev_close": 332.71,
-   "change_pct": 11.2,
+   "change_pct": 12.3,
    "trigger_change": 8.7,
-   "peak_change": 11.7,
+   "peak_change": 12.3,
    "first_seen": "2026-11-09T14:57:33+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 483.66,
-    "change_pct": 4.25
+    "price": 487.36,
+    "change_pct": 5.04
    },
    "chart": {
-    "ema8": 1.1,
-    "ema21": -7.0,
-    "sma50": -16.5,
-    "sma200": -17.0,
+    "ema8": 1.9,
+    "ema21": -6.1,
+    "sma50": -15.7,
+    "sma200": -16.1,
     "momentum": false
    },
    "headlines": [
@@ -99,23 +99,23 @@
    "symbol": "AVGO",
    "name": "Broadcom",
    "list": "portfolio",
-   "price": 318.71,
+   "price": 321.03,
    "prev_close": 293.69,
-   "change_pct": 8.5,
+   "change_pct": 9.3,
    "trigger_change": 7.0,
    "peak_change": 9.3,
    "first_seen": "2026-11-09T14:57:33+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 483.66,
-    "change_pct": 4.25
+    "price": 487.36,
+    "change_pct": 5.04
    },
    "chart": {
-    "ema8": 0.6,
-    "ema21": -3.3,
-    "sma50": -8.1,
-    "sma200": -13.2,
+    "ema8": 1.2,
+    "ema21": -2.7,
+    "sma50": -7.5,
+    "sma200": -12.5,
     "momentum": false
    },
    "headlines": [
@@ -171,101 +171,26 @@
    "brief": "2026-11-09-AVGO"
   },
   {
-   "symbol": "ANET",
-   "name": "Arista Networks",
-   "list": "portfolio",
-   "price": 185.15,
-   "prev_close": 170.8,
-   "change_pct": 8.4,
-   "trigger_change": 8.1,
-   "peak_change": 9.9,
-   "first_seen": "2026-11-09T14:57:33+00:00",
-   "sector": {
-    "etf": "SMH",
-    "name": "Semiconductors",
-    "price": 483.66,
-    "change_pct": 4.25
-   },
-   "chart": {
-    "ema8": 5.9,
-    "ema21": 2.4,
-    "sma50": -3.8,
-    "sma200": 11.3,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Arista Sinks 14% in a Week Despite an $18.55 Billion 2027 Outlook",
-     "publisher": "TIKR.com",
-     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQeFJXRmZEUDJZVkhaRlBVN0hLN0w1Z2sxM1dlSHdWeDhpMThkbW1OdkRxRndGY0dzaG1nVExHNlNaT2ZWR2p1RDF0WEVqcDVQZFd3Ulg4R2M0VmtPX1FOTGwwVnhrODNMajFvZ2pHUE5JZUZOUGo1VERvSElvY1lFWjBwekJ4YVdLOVE?oc=5",
-     "time": "2026-11-09T14:00:51+00:00"
-    },
-    {
-     "title": "Wall Street Analysts Think Arista Networks (ANET) Is a Good Investment: Is It?",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNWmZScXl6Q0FPekJOelo1WEtzck1Nb1FHRFNsN0dpbEd5aUlOSUs0TnlPcHlZcEdSNnFncDAwaFA0VFdrSG5ZX3BsZEU2SmFoZXp5R2hfb1dZUkpodFFld1RjeGNjb0ctVEJNYWx5SzJnY1l6dFp3WkUyQTRMQWFGMDBkckllby1PR1BYTWNlSHpwSkQxZHdIcF9hQU1GTTA?oc=5",
-     "time": "2026-11-09T13:30:03+00:00"
-    },
-    {
-     "title": "Investors Heavily Search Arista Networks, Inc. (ANET): Here is What You Need to Know",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPT0dNSTNPdWdUejExVjRRdHpkU1lUSUNHUVNyZEZ2RS1LbW9iZDFnRVFQb1NiRTRoTURYaFkwOTJvZ0hHS0lPcF81VE1uWndCNHREYUp5RWk2RnRVSGZHdG0takFpdF9jWF91d09UV1ZPVnpDODRPbzA0SmMxaUdfcUpJcVNZZXREVU55VFVWSHFGVXMzNnVmNGlvbDRUbGlwTFZHVzNGN2M?oc=5",
-     "time": "2026-11-09T13:00:05+00:00"
-    },
-    {
-     "title": "Arista Networks, Inc. $ANET Position Increased by Fulcrum Asset Management LLP",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNOGJRb2xOTGZQTmFQempKSmFpemt0U3NaVUg1NkRWZWRKelB3ZGFjemVVVU0ySWNQczVPM3hsaEU1czZlMjMzSUU1VXo3Tm1qdGRoWVdBc0pOYWJkNGY4REJ5SnFQZHhFSjFjSWF2VFgtRGE5c1BySm1mbVo0SVp0QkRHT2lIMjcxdVNWd1V2ZkFVeUlEbVdESzZzUjByUHZGcWUxMWFsQ0NzWUFkV0EzeXJaUnlxYkNBRFRZM0hNcWRUSFl2U0hzQ2phRkpYN3BSX1E?oc=5",
-     "time": "2026-11-09T11:45:00+00:00"
-    },
-    {
-     "title": "14,335 Shares in Arista Networks, Inc. $ANET Bought by M Holdings Securities Inc.",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOUWNPRldtU3VpN2lYcmhvV3lXd0d0a2dNaXBMeUNHRFpoRGx4SmpHel9Nc2hqS3NkS2YwTHhnWXBBYy1XTkV5dEp0U2dsN0ptclAxWWdNX2o3OUpzdnUtMEpib2E0YlhDNkZ4YzVIdGZvcThfWnFOTk5WdDk5cjRQRG9mQnZ4djg5d05DM3JuUDBXLTV5NXk5SjN2dTkzdXNCRDdMcG5IcWhtdWQ2bVN4S2VNU3NnX00tZ1NvSUtnSkVlUktZQ1B6cXlmSjRZSkxpVXV3?oc=5",
-     "time": "2026-11-09T11:00:37+00:00"
-    },
-    {
-     "title": "Weekly Recap: Etherlink tops 100 customers and revenue grows 44.3%",
-     "publisher": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNaXhaaUxiSXhQNGVfWUlNUnprYS1US1BYSlVoQXpWXzEzNVNQa25EbVhDUnpQQ0xPNWxwUTRfYVdyREVTcVR0Nm55c21leUZpUi1rbGVaUTZvVExJSmVNOVk1MUpnWUVPZ004anYtazJQU0FUbVlXR3FnV2FIcDJwMDVtdTNyRi1ZcWdnWVoza25nVmxPY0dlZHFTU2RDMG9MYmRMOF9QdDVBaDRrVTZfMUt5NkxIeWNOc0cwQ19Ob1lKYjVm?oc=5",
-     "time": "2026-11-09T11:00:00+00:00"
-    },
-    {
-     "title": "Arista Networks, Inc. $ANET Stock: Verus Capital Partners LLC Trims Holdings",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOYlBjVlAyWGU1bUJUUi1wLXpZeFdDa3g0YWpnYlBSV2lkLVJPMGgwaDVLaXY5YjhrYkJ0cS1RalVPMW5pMWRMX1VFa1cwdlg5N3JKLTFURmdZc0Q5Q1BVUGZkZTlIdC1nN2NWMWxvOHVvd0VtTFA2X1RtWmw5UjJxaE8tdWI2T29jOUk3SzE3WmlCaEREYkwyeVRUYjlwRFI4bnAtRUZFWDdfdXQwREZ3TFFVQkVvcU00WVJHNm9FOGRvRkN2X1dPU0RyNFR0UQ?oc=5",
-     "time": "2026-11-09T10:40:08+00:00"
-    },
-    {
-     "title": "Allspring Global Investments Holdings LLC Sells 42,373 Shares of Arista Networks, Inc. $ANET",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOaUdHdUhyazc4ejhGSHVKX2IwcnBIUS1aOFdyU1djUWJnRHdjeGdwSVA1QlZVZTE3MXlKMDg2QThTc0xXYXg3Xzk0SXBiRk50dkcwZ3hRUmlBTVRLWEZDX0xMcVIzWlM3SGVmdllLZHNXamJUekRIWXd5SmxCS3pnU2JCcG1jV0p2bUhmY2pGeExIRTRXY0Y4UmNKdmpWc0JVN3JoT0pRNXZIY3lJMzVWX3M4dWMzNTh0MlpvZWN5T1J3Z3NpNENrT3A0VFhZeDllY3BvS1ctdzRUTENGVHRSTEx0SQ?oc=5",
-     "time": "2026-11-09T08:25:46+00:00"
-    }
-   ],
-   "brief": "2026-11-09-ANET"
-  },
-  {
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 139.49,
+   "price": 141.58,
    "prev_close": 129.49,
-   "change_pct": 7.7,
+   "change_pct": 9.3,
    "trigger_change": 6.5,
-   "peak_change": 9.1,
+   "peak_change": 9.3,
    "first_seen": "2026-11-09T14:57:33+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 101.12,
-    "change_pct": 2.27
+    "price": 101.83,
+    "change_pct": 2.98
    },
    "chart": {
-    "ema8": -2.4,
-    "ema21": -14.8,
-    "sma50": -30.4,
-    "sma200": -21.9,
+    "ema8": -1.2,
+    "ema21": -13.7,
+    "sma50": -29.3,
+    "sma200": -20.7,
     "momentum": false
    },
    "headlines": [
@@ -321,101 +246,170 @@
    "brief": "2026-11-09-NBIS"
   },
   {
-   "symbol": "NVDA",
-   "name": "Nvidia",
+   "symbol": "ANET",
+   "name": "Arista Networks",
    "list": "portfolio",
-   "price": 176.26,
-   "prev_close": 186.64,
-   "change_pct": -5.6,
-   "trigger_change": -4.9,
-   "peak_change": -6.4,
+   "price": 186.38,
+   "prev_close": 170.8,
+   "change_pct": 9.1,
+   "trigger_change": 8.1,
+   "peak_change": 9.9,
    "first_seen": "2026-11-09T14:57:33+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 483.66,
-    "change_pct": 4.25
+    "price": 487.36,
+    "change_pct": 5.04
    },
    "chart": {
-    "ema8": -9.0,
-    "ema21": -14.6,
-    "sma50": -19.5,
-    "sma200": -13.9,
+    "ema8": 6.4,
+    "ema21": 3.0,
+    "sma50": -3.2,
+    "sma200": 12.0,
     "momentum": false
    },
    "headlines": [
     {
-     "title": "Nvidia stock falls as board probe exposes succession void for Jensen Huang",
-     "publisher": "Quartz",
-     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBrRjh2SldCZ3ZselkzSGNkSXE0MlVsb3lhNmhmRGx3TG9Ba1FrWHZobU11UVVrNk4wQUpsWElYdTBsR2E5SEZmal91NkJUNXFsQ2pjVDhTbGpZXzFWeEUyUGxBWkdnLTJtU09iNXc0eXJsdjA4NHhFdEJR?oc=5",
-     "time": "2026-11-09T18:49:09+00:00"
+     "title": "Arista Sinks 14% in a Week Despite an $18.55 Billion 2027 Outlook",
+     "publisher": "TIKR.com",
+     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQeFJXRmZEUDJZVkhaRlBVN0hLN0w1Z2sxM1dlSHdWeDhpMThkbW1OdkRxRndGY0dzaG1nVExHNlNaT2ZWR2p1RDF0WEVqcDVQZFd3Ulg4R2M0VmtPX1FOTGwwVnhrODNMajFvZ2pHUE5JZUZOUGo1VERvSElvY1lFWjBwekJ4YVdLOVE?oc=5",
+     "time": "2026-11-09T14:00:51+00:00"
     },
     {
-     "title": "Nvidia: China Spy Saga Not Enough To Shake Me Off (NASDAQ:NVDA)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQVGxkMTZQYmFCYjRWeC00MnlDV1FXVjRDM3p6NHQzWnhWN1hxZm5MeDJwQWFKTXRxS2lRUjNTdGlWSllRYlBiQXNnc3dTV09oY1dVS3dzUGVnTlh6Q24zRmgtOWMzVkpyRzJHNE4xUWZKOTNjWE9JdUNJQXFfbXY1MV9VclVNbFYyakFBOW5ET3BtNTA?oc=5",
-     "time": "2026-11-09T18:30:00+00:00"
-    },
-    {
-     "title": "Yikes! CEO Jensen Huang Just Delivered Shocking News That Could Serve as an 'Overhang' on the Stock",
-     "publisher": "The Motley Fool",
-     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQM0VUeHNIa0w4V0xJU2k5YzJ4OGNFSUFiOTBVMXZweTRkQ3pselVaU0o5QlVMTzFqbTdMWEhWRnNHb3ZWaGRWOUE0azJBTzNuQUJLYlBpa1RtLXhVRGVocmJfV3Rpb1lXR280NmtfXzhHZ1BJTXluZEZVQ0dpTTFfSFpWanpqY2J0blBTMzZwTFFLbDUzZ3F5eU85VGtuRWQyOG84bF9XdGNyaFN3LTM5OTVDZURESGlIS25XMzdXdnUtQ1ZRd0VVbkpSRUw3Z01WSzR1ZGpR?oc=5",
-     "time": "2026-11-09T18:19:00+00:00"
-    },
-    {
-     "title": "Nvidia: Attractive Even Under Cautious Assumptions, Especially With This Strategy (NVDA)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOdi04aGZtWl9yeWxvQXFfcFoyMk13RTRIbUxhQWJfbWxoTW1XVksyaWZ1SkpjRXNOdW0wOFlwWlRxSWg2Nm1EVDNxY1JYOVV1VjNOTVJmRjZaQVNjME93QUdueHQzNk40Z1oyc3VNR1dpM1BEeUp4ekZaSjZCem9kQVh4bWNqNXcxeHNycWxXYklNcENmc1NRN2s2Y1RibVYxWnpTZk16RGJmNE1aa2RIN0ZScEFyX01wWkpvag?oc=5",
-     "time": "2026-11-09T18:00:00+00:00"
-    },
-    {
-     "title": "NVDA Stock Attempts Recovery after Breakdown on Nvidia Board CEO Jensen Huang Investigation Over Relationship with Alleged Spy",
-     "publisher": "FXLeaders",
-     "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPNHpUVVlOM1huM2VpZVh2ZnV6R0NOWjloaU5iUnVCS0k4d0ZzdlJlaGlvRlJBRlJCaDEyNDIwaHVkUkVQOE51eG5Ld2VNZ0w5WTZ4MVRoWjd0UWZwOXFpclkyeUVmY2JFX09TeGJUbWVPQS11OWNhOVpxcldTOXdkVy1xT3VPaVI4Z1RCVG5VUWVaNXpaQk9xTjI4VWdSZDFpOERzLV9GWndnWnZnNkZDSDViMm9kNEhtdE84cjI0TFlWUVFxVXY3dkZmbEl6dUI2R0dua3NPdlh2LU96VHdFemw2S1JCYjdiRjhfTEVrRUVBZzZOOTRHU2NzZHlQcUNC?oc=5",
-     "time": "2026-11-09T17:38:03+00:00"
-    },
-    {
-     "title": "Nvidia Stock\u2014Is the Huang Controversy a Long-Term Risk?",
-     "publisher": "Benzinga",
-     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPSDUzQlBCdGRPaFJiZU80ZDVvd1F4d3REUTA2STA2Y1pqVzhLbUFhc2gtSDBERENJTXgtdnlZb1ItTnNaTFRSRTJfNk9UaGxVSWNCLUx4a2tvN0FqcUV6eS1jYzV3N1JybHNjWGNXM1N0MTRoR0FwRExMMGhaVGJDTzBZVjdSazVjWUk0Q0ZlZFoxWTlRcnU2WWtyUGIwbV8tRkt6MA?oc=5",
-     "time": "2026-11-09T17:20:03+00:00"
-    },
-    {
-     "title": "Jensen Huang's fortune: how Nvidia stock built it and what could erode it",
-     "publisher": "qz.com",
-     "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5rNkxyT2ZjY0l0REdKSHhtR2VXVThvelZrYmlwVGwtM20wcnJNZDFmMlFGbDgzLUJzY0pxcTZyRVZpNnlGMnZ6VkNNMElMSjJjeFhXc2daajA0MWh3LThV?oc=5",
-     "time": "2026-11-09T17:11:16+00:00"
-    },
-    {
-     "title": "Analysts say Nvidia CEO unlikely to be ousted over affair, but raise questions about company's future",
+     "title": "Wall Street Analysts Think Arista Networks (ANET) Is a Good Investment: Is It?",
      "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNRGc4bGk1cml4YmljVW9CYWVkb1RKQ1pBbTNWWWozcXF3QmhjU1hfTEgtQWQ2NXNIb0xjVE1BOHYyWDlpX1N2eW9qR1ozNnpzVVpXSVYxdHlpLTJrWXJOaXpDaHVJRFNWcU9ZYUR0YU1fYTB6eDg3Q3hNZTN5alFXOXhNblZtUFNYSkhFU2Z6cXZYTkJZZ2xCYTBaNEpUVE9xUzRZNDhZdk51T2V3X0x0Y1M2RndUQWR3MjFramdVeGI1bFp2NnU2R1NBaGNsV0V4ZFh1STBaNkI2Qi1FcklOT3VJYjhhMzE3NjZUOG9vWmc?oc=5",
-     "time": "2026-11-09T16:48:23+00:00"
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNWmZScXl6Q0FPekJOelo1WEtzck1Nb1FHRFNsN0dpbEd5aUlOSUs0TnlPcHlZcEdSNnFncDAwaFA0VFdrSG5ZX3BsZEU2SmFoZXp5R2hfb1dZUkpodFFld1RjeGNjb0ctVEJNYWx5SzJnY1l6dFp3WkUyQTRMQWFGMDBkckllby1PR1BYTWNlSHpwSkQxZHdIcF9hQU1GTTA?oc=5",
+     "time": "2026-11-09T13:30:03+00:00"
+    },
+    {
+     "title": "Investors Heavily Search Arista Networks, Inc. (ANET): Here is What You Need to Know",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPT0dNSTNPdWdUejExVjRRdHpkU1lUSUNHUVNyZEZ2RS1LbW9iZDFnRVFQb1NiRTRoTURYaFkwOTJvZ0hHS0lPcF81VE1uWndCNHREYUp5RWk2RnRVSGZHdG0takFpdF9jWF91d09UV1ZPVnpDODRPbzA0SmMxaUdfcUpJcVNZZXREVU55VFVWSHFGVXMzNnVmNGlvbDRUbGlwTFZHVzNGN2M?oc=5",
+     "time": "2026-11-09T13:00:05+00:00"
+    },
+    {
+     "title": "Arista Networks, Inc. $ANET Position Increased by Fulcrum Asset Management LLP",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNOGJRb2xOTGZQTmFQempKSmFpemt0U3NaVUg1NkRWZWRKelB3ZGFjemVVVU0ySWNQczVPM3hsaEU1czZlMjMzSUU1VXo3Tm1qdGRoWVdBc0pOYWJkNGY4REJ5SnFQZHhFSjFjSWF2VFgtRGE5c1BySm1mbVo0SVp0QkRHT2lIMjcxdVNWd1V2ZkFVeUlEbVdESzZzUjByUHZGcWUxMWFsQ0NzWUFkV0EzeXJaUnlxYkNBRFRZM0hNcWRUSFl2U0hzQ2phRkpYN3BSX1E?oc=5",
+     "time": "2026-11-09T11:45:00+00:00"
+    },
+    {
+     "title": "14,335 Shares in Arista Networks, Inc. $ANET Bought by M Holdings Securities Inc.",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOUWNPRldtU3VpN2lYcmhvV3lXd0d0a2dNaXBMeUNHRFpoRGx4SmpHel9Nc2hqS3NkS2YwTHhnWXBBYy1XTkV5dEp0U2dsN0ptclAxWWdNX2o3OUpzdnUtMEpib2E0YlhDNkZ4YzVIdGZvcThfWnFOTk5WdDk5cjRQRG9mQnZ4djg5d05DM3JuUDBXLTV5NXk5SjN2dTkzdXNCRDdMcG5IcWhtdWQ2bVN4S2VNU3NnX00tZ1NvSUtnSkVlUktZQ1B6cXlmSjRZSkxpVXV3?oc=5",
+     "time": "2026-11-09T11:00:37+00:00"
+    },
+    {
+     "title": "Weekly Recap: Etherlink tops 100 customers and revenue grows 44.3%",
+     "publisher": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNaXhaaUxiSXhQNGVfWUlNUnprYS1US1BYSlVoQXpWXzEzNVNQa25EbVhDUnpQQ0xPNWxwUTRfYVdyREVTcVR0Nm55c21leUZpUi1rbGVaUTZvVExJSmVNOVk1MUpnWUVPZ004anYtazJQU0FUbVlXR3FnV2FIcDJwMDVtdTNyRi1ZcWdnWVoza25nVmxPY0dlZHFTU2RDMG9MYmRMOF9QdDVBaDRrVTZfMUt5NkxIeWNOc0cwQ19Ob1lKYjVm?oc=5",
+     "time": "2026-11-09T11:00:00+00:00"
+    },
+    {
+     "title": "Arista Networks, Inc. $ANET Stock: Verus Capital Partners LLC Trims Holdings",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOYlBjVlAyWGU1bUJUUi1wLXpZeFdDa3g0YWpnYlBSV2lkLVJPMGgwaDVLaXY5YjhrYkJ0cS1RalVPMW5pMWRMX1VFa1cwdlg5N3JKLTFURmdZc0Q5Q1BVUGZkZTlIdC1nN2NWMWxvOHVvd0VtTFA2X1RtWmw5UjJxaE8tdWI2T29jOUk3SzE3WmlCaEREYkwyeVRUYjlwRFI4bnAtRUZFWDdfdXQwREZ3TFFVQkVvcU00WVJHNm9FOGRvRkN2X1dPU0RyNFR0UQ?oc=5",
+     "time": "2026-11-09T10:40:08+00:00"
+    },
+    {
+     "title": "Allspring Global Investments Holdings LLC Sells 42,373 Shares of Arista Networks, Inc. $ANET",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOaUdHdUhyazc4ejhGSHVKX2IwcnBIUS1aOFdyU1djUWJnRHdjeGdwSVA1QlZVZTE3MXlKMDg2QThTc0xXYXg3Xzk0SXBiRk50dkcwZ3hRUmlBTVRLWEZDX0xMcVIzWlM3SGVmdllLZHNXamJUekRIWXd5SmxCS3pnU2JCcG1jV0p2bUhmY2pGeExIRTRXY0Y4UmNKdmpWc0JVN3JoT0pRNXZIY3lJMzVWX3M4dWMzNTh0MlpvZWN5T1J3Z3NpNENrT3A0VFhZeDllY3BvS1ctdzRUTENGVHRSTEx0SQ?oc=5",
+     "time": "2026-11-09T08:25:46+00:00"
     }
    ],
-   "brief": "2026-11-09-NVDA"
+   "brief": "2026-11-09-ANET"
+  },
+  {
+   "symbol": "CRWD",
+   "name": "CrowdStrike",
+   "list": "portfolio",
+   "price": 229.45,
+   "prev_close": 216.9,
+   "change_pct": 5.8,
+   "trigger_change": 3.7,
+   "peak_change": 5.8,
+   "first_seen": "2026-11-09T16:04:16+00:00",
+   "sector": {
+    "etf": "IGV",
+    "name": "Software",
+    "price": 101.83,
+    "change_pct": 2.98
+   },
+   "chart": {
+    "ema8": -2.2,
+    "ema21": -5.6,
+    "sma50": -6.0,
+    "sma200": 34.3,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Can CrowdStrike's Latest AI Integrations Drive Security Growth?",
+     "publisher": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOX3NvU1l3WTFpQ3MzYS1GZkhfMjhyTC1aN2xRa1V3b0N4M3JyajRKNGVWcGJDc3hKT2U2WGtiQlJfM2o3SXdLTmVlZ1l5S2haaUJ4TWlFMTJ4UTY3WENwMEdRTDl4LWF5RnR3bDZfajB0RmE1N1pqV2NDRnZPcjlxNnV5M2hjOE1VLTVSTmgtVWZtMDJVYWtFclNZUE80WXVVQWE3U09hY3VQNG1YQ1ptVTF3TEtMWnlOSUE?oc=5",
+     "time": "2026-11-09T15:20:53+00:00"
+    },
+    {
+     "title": "Top Funds Aren't Fooling Around. Witness Massive Bets On CrowdStrike And Beyond.",
+     "publisher": "Investor's Business Daily",
+     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNTmhoQUF3QnJ1RDFXWGdyMWg3T0FWWW1ldXNQRVpUZkJqc0dXa3pob1JjbVJ4YmJwSTBSc0NLUkV6akZjTUlBUnd2UjF4RHNoSVd4WmRSc2JGMUFLdHBlb2tVOEVGb0RGU2p4QUZZajJlWFlPalJQbkU0enE4cmIzejBCUzRGRF9waVA3MG84RVlVSXNYclN3THRrQk95Y1NmS2xMczU5b05laUkteGVnTktRcTlCMmdQZlRmeENoSDRreEdqOGgyYUo5WjJXOGlnLWNqMHJBbXp6ZUk?oc=5",
+     "time": "2026-11-09T13:29:15+00:00"
+    },
+    {
+     "title": "CrowdStrike Stock Breaks $233.88 as AI-Security Revaluation Puts $239.46 in Focus",
+     "publisher": "TradingKey",
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOX3d0X21JVkxJY0hCcENKSmROREJHaWlEY2pEWUhGaEMxRDQ5Zm9vNlF4TGhZRnY0RkdkcExwaktMSWVLQTNhVlJOUFBsRVpIMWdyN3FfUldwRWJrc0hWMjFyR29PTlRJOHdHV3lhVjJ5YjVOQUJGcy1YS3p4SG1Ndl8xVUdnWjZBcFFzSXNvMEEzY1c2aEdyQm1OOTdwdlZvdmptLVo3UnlYQnd4TUZmU1BTTGY1QUtlczIyOGRB?oc=5",
+     "time": "2026-11-08T20:14:12+00:00"
+    },
+    {
+     "title": "CrowdStrike Surges Nearly 20% After Earnings - Can CRWD Break Above $230?",
+     "publisher": "TradingKey",
+     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQT1h6MHJSSVc2UmZBaXhXSmRmNS04WTFVa29Jb0VpOU5ZU3c2SURDUHg3ZzJDS1V4UlVQSVdWR01yS1htQTVlSzJJclpSS2JiaGloQy1TOFdkNDF4Mk5uc185ZE93WXZLeHNPcVVqbWlwc1p0d1kyYUxVaXEtLWxYVE9ySDQ5eGtZRFB0RlFVQ3h1eFJxVWtqRWRLYWlMNlJuVWdwS2c4ZV9IbEhZM2E1UGxqNEYyb3hHMDZSWGQ5U2tuNEVsaHc?oc=5",
+     "time": "2026-11-08T18:17:11+00:00"
+    },
+    {
+     "title": "Why Did NVDA, HPE, CRWD Stocks Rise To 52-Week Highs Last Week?",
+     "publisher": "Stocktwits",
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPYzRYTGRZX3dXUEJLNnoxUTVVaVpFTWQ4c08zeThHWXpLMV9CU0JGbm05U21Mc3Q5YTd6ajlObkplZjByQmh2MExDNHR1bVpmR0hSdmpRdGhqY3FFUmh1MUpUTXhoaGNwRDB3MjIwZGtDOWx5a1l0Umx3X0FIZjl5c2xPWkhaaXlOQi1PLUY1ZVJlRVhPbVZaWEFIQVNmSEJieHdrdzJSR0xvX3lXdDc0RHdncEFxYzdLTVJwN2JIekNMdw?oc=5",
+     "time": "2026-11-08T13:31:27+00:00"
+    },
+    {
+     "title": "Why Did CRWD, OKTA, ZETA Stocks Jump To 52-Week Highs?",
+     "publisher": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPY2wwWENYLUU0NmZRRVFsVlZXYXVJWFh0SnFZS2tqNkZmR29MVDVHcXpjLTFpNEd4WUV1N2pqWDdaakxscllfZ2NERnpvMGk4R3BaSWUtOGQyN1RCWXdydzJNMU1HbVRqOTB4MmZwb0xCbkhkNzFaekk1VHNDV2RxZEplS1ZnRGdaeEFvUWdpMzJxMWFzOExLMWNiYWpGb20zU3A4eEtQbGIzdDBuSUpJNA?oc=5",
+     "time": "2026-11-07T23:01:00+00:00"
+    },
+    {
+     "title": "CrowdStrike Holdings, Inc. (CRWD) latest stock news and headlines",
+     "publisher": "Yahoo Finance Singapore",
+     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9IX2lUZGhLM01sWnFISFlQRzJSM3FrMTZnV04zTXBpN3JDZzJ4TzlzdXE5UjFmN1p2RkVYV0kyTmMxdTJaT2ctbmZsZlRDUnAtNGdlaERVWGU?oc=5",
+     "time": "2026-11-07T22:39:21+00:00"
+    }
+   ],
+   "brief": "2026-11-09-CRWD"
   },
   {
    "symbol": "META",
    "name": "Meta",
    "list": "portfolio",
-   "price": 641.43,
+   "price": 644.65,
    "prev_close": 610.15,
-   "change_pct": 5.1,
+   "change_pct": 5.7,
    "trigger_change": 5.0,
-   "peak_change": 5.4,
+   "peak_change": 5.7,
    "first_seen": "2026-11-09T14:57:33+00:00",
    "sector": {
     "etf": "XLC",
     "name": "Communication",
-    "price": 107.22,
-    "change_pct": 2.32
+    "price": 107.49,
+    "change_pct": 2.58
    },
    "chart": {
-    "ema8": 2.6,
-    "ema21": -1.1,
-    "sma50": -5.1,
-    "sma200": 1.5,
+    "ema8": 3.0,
+    "ema21": -0.7,
+    "sma50": -4.7,
+    "sma200": 2.0,
     "momentum": false
    },
    "headlines": [
@@ -471,101 +465,26 @@
    "brief": "2026-11-09-META"
   },
   {
-   "symbol": "AXON",
-   "name": "Axon",
-   "list": "watchlist",
-   "price": 297.17,
-   "prev_close": 313.0,
-   "change_pct": -5.1,
-   "trigger_change": -3.4,
-   "peak_change": -5.1,
-   "first_seen": "2026-11-09T18:56:02+00:00",
-   "sector": {
-    "etf": "XLI",
-    "name": "Industrials",
-    "price": 168.68,
-    "change_pct": 3.69
-   },
-   "chart": {
-    "ema8": -19.8,
-    "ema21": -25.6,
-    "sma50": -31.8,
-    "sma200": -37.0,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Axon's Growth Story Faces a Double Test: Execution Costs and Disclosure Scrutiny",
-     "publisher": "ad-hoc-news.de",
-     "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPNnhuNWR6Mm9oemF0dzh1STkzX3lIQUM0WGNBRDlZRVk1dmRUeHoySUZLWWJ1UVQ3Y21nWjV5Q1RXV1VHUkQ4dGlUeVVtbEJKTnVrQXF1a0JjMWxXMXp1dURWUTNQR2R3ZFRVYUJYMFNwTjAtSzJXSy13Y3hhN1hUazBTU2ZwcENkX1JjUDFyYjdWOFZRbjJJeE12X1luTlVIM2drYnlMQ254ZUJKV0tNQWhxZmJ6QVg5MkNUbUh0RTN5Wmg2bDNlbmYtN2dTLUJTSmNFV3NwSENxVU55WXB3aGRadlNJZw?oc=5",
-     "time": "2026-11-09T17:41:48+00:00"
-    },
-    {
-     "title": "Axon's Connected Devices Unit Gains Momentum: Can It Sustain?",
-     "publisher": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQRV9WbmdFM0VmcEtYMXJiRFhlODQ1LTJ6MTVnM0k3NS1IN3VTeTN4cC01ekN3MmZjZThKRVFSNURtZ0R6c3NUZHQzVHRZeG42amFuTmZDOUhzT3ZpdzFCdW10X3oxLVFZbXI5WG80VFhnYk1jOHAyNEE3X3RNX3ZBMUZSeGtXeXE0cHhPZUFNeDBKM0tUQVo0QnJwMnVfVTJYRlFhbFdXWWc4SmIza3BIUHFlazRwUQ?oc=5",
-     "time": "2026-11-09T17:17:50+00:00"
-    },
-    {
-     "title": "Axon Enterprise (NASDAQ:AXON) Stock Price Target Lowered at Barclays",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQOWxjbktRSWl6NTc0UXZMeDRVcFc5T0w3M3ZfM2NEdVpYTlptNzlzTV91aHBwZG5Qa0J0cVp4NWdSQlVaaGw0VHRXMHJ1elJ2am5LZ2dOaDg0Wk14cHl0ZGFMQTZaZkhlNmN1NHV2S2dpMGRfZGpFTUozN1ZHVDgtcGNJTnd5UWhxc0RORWxFSTBtM0hQTjdpa3N1Q0JBazdJVXdweGZGdkdRVjdKVUQ5NVR2Si0zSnBfMVFXTjBlV2kwRmJ2TWJN?oc=5",
-     "time": "2026-11-09T15:46:59+00:00"
-    },
-    {
-     "title": "Axon Q3 revenue and EPS miss estimates; investi...",
-     "publisher": "Pluang",
-     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZnFtRTVnM0pPaHFvWG94S3lqSHpxN01JcFg3S3luUEg4ZW4wTWpyOWxPeGVHQUE2Szh6WnV2WHBLNVNsTHVZYWh3Wm1IQVFZZkZJMUhCeGJKdFhGOU11RmVMWWJvTFNucVhzMVQzLWxmTXpfc1Vla3BlQXhwRnpaTnp0bFJPSVJfelNCZUtOeXp4b19L?oc=5",
-     "time": "2026-11-09T15:35:36+00:00"
-    },
-    {
-     "title": "AXON SHAREHOLDER INVESTIGATION: SueWallSt Notifies Investors of Potential Securities Claims Involving AXON",
-     "publisher": "PR Newswire",
-     "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPcS1FaDRDcWFWSG81M1VhNkxqMG9XSDVFcUZadFg5S1hFVDF1d0pnTHllM0lHRUgzZXZUZmIxVzY0Y2gxV0lqRmJyZEdCeFlPdU4tX2RQR0NCMXRBeWNtNlFFMUppb0FTZGRjTGRkZ0JadEUxeDlIV0xqRzJGaTNMUjZEbDlBVjlyMW43SzZxak1HNm1qMzl2YnJubHRkMjNtZUZDLW44X2Q4OEdyWm95NW5wX195Z1NTNGJ1cXhfTG93c3g3U1NuQmhwZkNsNktlWmVNY1hjeHp5WVN5cHRSS0hPcXB5MUQ4VzlBSkY4Wl94RG8?oc=5",
-     "time": "2026-11-09T15:17:00+00:00"
-    },
-    {
-     "title": "Axon Shares Stabilize as Analysts Reaffirm Long-Term Outlook",
-     "publisher": "TradingPedia",
-     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOOUk0dmsteklmYXUtYVEzMkw4ZFRvZFdBdU1NTVo5ZXlrSVA1aU9nSXVkUnpiVHQ1bFQtaU1hZUpsVkdwNm5YOGhOc2Mya0lwY1haaDNNSFJoeGJxX1hncF9WRFdaSTRZRFZwVXhyaGo3cm1EMEttVkJGV2F2VU5YMFZEeWFvS2trNFNkR2VUN0Z1OG9KSkFHa1JIV19RV2RpQ3hV?oc=5",
-     "time": "2026-11-09T13:59:38+00:00"
-    },
-    {
-     "title": "JPMorgan Chase & Co. Issues Pessimistic Forecast for Axon Enterprise (NASDAQ:AXON) Stock Price",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQamNwUkxiZV9CaVhjWEZ4ZmJIWjRwMkhzM0FaM2IxcXNia1F5d2tsVXV5RjNWaXBRTGFjSkpyX2RvaDdIZDJ5OHotN2dMNEw3aDhPaXM0M3VtRmktT0RnMHNoc19IX21XeEFsQ3VaOWRoeWctTDZ0MjlObEw2V1pKQmZ2SnVQNHNEMXpTN2ljWDdCNnI2eVBsazloaGdiM0RLTHNNY0UwMHV1SzF3S2QtR3NNSmdHTkZPWjMtc2RrcGxBQldEa1M5dGZpUE1Ta1lYVk5lRzRha2g0ajRDMjRzdXVpRjd5Zw?oc=5",
-     "time": "2026-11-09T13:15:01+00:00"
-    },
-    {
-     "title": "Why is Axon Enterprise stock rebounding today?",
-     "publisher": "Investing.com",
-     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQekhrNUFURFJuQ1YzcmtfcW1fVVFwekpTT0ZFd19xcGppUk9qNGdsSzdHQ01ETGJ3VzFaREZrdjJXUlFhbzZuTXZmelRmcFhWLWtEVFdpNE45SHdtNmFrSlo0UjNFUEQtejFxMzNGZzllalZVQkw5U1hTdFNWY1ZXNHBTT3NYcW16aEtla3ptUkZScm5wZEg0Vll5M2UxTmxMVlZIY0lRR2ZOVFE?oc=5",
-     "time": "2026-11-09T12:00:45+00:00"
-    }
-   ],
-   "brief": null
-  },
-  {
    "symbol": "APP",
    "name": "AppLovin",
    "list": "portfolio",
-   "price": 409.4,
+   "price": 411.67,
    "prev_close": 391.22,
-   "change_pct": 4.6,
+   "change_pct": 5.2,
    "trigger_change": 3.8,
    "peak_change": 9.9,
    "first_seen": "2026-11-09T15:12:35+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 101.12,
-    "change_pct": 2.27
+    "price": 101.83,
+    "change_pct": 2.98
    },
    "chart": {
-    "ema8": 25.7,
-    "ema21": 38.8,
-    "sma50": 38.7,
-    "sma200": 0.2,
+    "ema8": 26.2,
+    "ema21": 39.5,
+    "sma50": 39.4,
+    "sma200": 0.7,
     "momentum": true
    },
    "headlines": [
@@ -621,26 +540,101 @@
    "brief": "2026-11-09-APP"
   },
   {
+   "symbol": "NVDA",
+   "name": "Nvidia",
+   "list": "portfolio",
+   "price": 177.13,
+   "prev_close": 186.64,
+   "change_pct": -5.1,
+   "trigger_change": -4.9,
+   "peak_change": -6.4,
+   "first_seen": "2026-11-09T14:57:33+00:00",
+   "sector": {
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 487.36,
+    "change_pct": 5.04
+   },
+   "chart": {
+    "ema8": -8.6,
+    "ema21": -14.2,
+    "sma50": -19.1,
+    "sma200": -13.4,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Nvidia stock falls as board probe exposes succession void for Jensen Huang",
+     "publisher": "Quartz",
+     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBrRjh2SldCZ3ZselkzSGNkSXE0MlVsb3lhNmhmRGx3TG9Ba1FrWHZobU11UVVrNk4wQUpsWElYdTBsR2E5SEZmal91NkJUNXFsQ2pjVDhTbGpZXzFWeEUyUGxBWkdnLTJtU09iNXc0eXJsdjA4NHhFdEJR?oc=5",
+     "time": "2026-11-09T18:49:09+00:00"
+    },
+    {
+     "title": "Nvidia: China Spy Saga Not Enough To Shake Me Off (NASDAQ:NVDA)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQVGxkMTZQYmFCYjRWeC00MnlDV1FXVjRDM3p6NHQzWnhWN1hxZm5MeDJwQWFKTXRxS2lRUjNTdGlWSllRYlBiQXNnc3dTV09oY1dVS3dzUGVnTlh6Q24zRmgtOWMzVkpyRzJHNE4xUWZKOTNjWE9JdUNJQXFfbXY1MV9VclVNbFYyakFBOW5ET3BtNTA?oc=5",
+     "time": "2026-11-09T18:30:00+00:00"
+    },
+    {
+     "title": "Yikes! CEO Jensen Huang Just Delivered Shocking News That Could Serve as an 'Overhang' on the Stock",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQM0VUeHNIa0w4V0xJU2k5YzJ4OGNFSUFiOTBVMXZweTRkQ3pselVaU0o5QlVMTzFqbTdMWEhWRnNHb3ZWaGRWOUE0azJBTzNuQUJLYlBpa1RtLXhVRGVocmJfV3Rpb1lXR280NmtfXzhHZ1BJTXluZEZVQ0dpTTFfSFpWanpqY2J0blBTMzZwTFFLbDUzZ3F5eU85VGtuRWQyOG84bF9XdGNyaFN3LTM5OTVDZURESGlIS25XMzdXdnUtQ1ZRd0VVbkpSRUw3Z01WSzR1ZGpR?oc=5",
+     "time": "2026-11-09T18:19:00+00:00"
+    },
+    {
+     "title": "Nvidia: Attractive Even Under Cautious Assumptions, Especially With This Strategy (NVDA)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOdi04aGZtWl9yeWxvQXFfcFoyMk13RTRIbUxhQWJfbWxoTW1XVksyaWZ1SkpjRXNOdW0wOFlwWlRxSWg2Nm1EVDNxY1JYOVV1VjNOTVJmRjZaQVNjME93QUdueHQzNk40Z1oyc3VNR1dpM1BEeUp4ekZaSjZCem9kQVh4bWNqNXcxeHNycWxXYklNcENmc1NRN2s2Y1RibVYxWnpTZk16RGJmNE1aa2RIN0ZScEFyX01wWkpvag?oc=5",
+     "time": "2026-11-09T18:00:00+00:00"
+    },
+    {
+     "title": "NVDA Stock Attempts Recovery after Breakdown on Nvidia Board CEO Jensen Huang Investigation Over Relationship with Alleged Spy",
+     "publisher": "FXLeaders",
+     "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPNHpUVVlOM1huM2VpZVh2ZnV6R0NOWjloaU5iUnVCS0k4d0ZzdlJlaGlvRlJBRlJCaDEyNDIwaHVkUkVQOE51eG5Ld2VNZ0w5WTZ4MVRoWjd0UWZwOXFpclkyeUVmY2JFX09TeGJUbWVPQS11OWNhOVpxcldTOXdkVy1xT3VPaVI4Z1RCVG5VUWVaNXpaQk9xTjI4VWdSZDFpOERzLV9GWndnWnZnNkZDSDViMm9kNEhtdE84cjI0TFlWUVFxVXY3dkZmbEl6dUI2R0dua3NPdlh2LU96VHdFemw2S1JCYjdiRjhfTEVrRUVBZzZOOTRHU2NzZHlQcUNC?oc=5",
+     "time": "2026-11-09T17:38:03+00:00"
+    },
+    {
+     "title": "Nvidia Stock\u2014Is the Huang Controversy a Long-Term Risk?",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPSDUzQlBCdGRPaFJiZU80ZDVvd1F4d3REUTA2STA2Y1pqVzhLbUFhc2gtSDBERENJTXgtdnlZb1ItTnNaTFRSRTJfNk9UaGxVSWNCLUx4a2tvN0FqcUV6eS1jYzV3N1JybHNjWGNXM1N0MTRoR0FwRExMMGhaVGJDTzBZVjdSazVjWUk0Q0ZlZFoxWTlRcnU2WWtyUGIwbV8tRkt6MA?oc=5",
+     "time": "2026-11-09T17:20:03+00:00"
+    },
+    {
+     "title": "Jensen Huang's fortune: how Nvidia stock built it and what could erode it",
+     "publisher": "qz.com",
+     "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5rNkxyT2ZjY0l0REdKSHhtR2VXVThvelZrYmlwVGwtM20wcnJNZDFmMlFGbDgzLUJzY0pxcTZyRVZpNnlGMnZ6VkNNMElMSjJjeFhXc2daajA0MWh3LThV?oc=5",
+     "time": "2026-11-09T17:11:16+00:00"
+    },
+    {
+     "title": "Analysts say Nvidia CEO unlikely to be ousted over affair, but raise questions about company's future",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNRGc4bGk1cml4YmljVW9CYWVkb1RKQ1pBbTNWWWozcXF3QmhjU1hfTEgtQWQ2NXNIb0xjVE1BOHYyWDlpX1N2eW9qR1ozNnpzVVpXSVYxdHlpLTJrWXJOaXpDaHVJRFNWcU9ZYUR0YU1fYTB6eDg3Q3hNZTN5alFXOXhNblZtUFNYSkhFU2Z6cXZYTkJZZ2xCYTBaNEpUVE9xUzRZNDhZdk51T2V3X0x0Y1M2RndUQWR3MjFramdVeGI1bFp2NnU2R1NBaGNsV0V4ZFh1STBaNkI2Qi1FcklOT3VJYjhhMzE3NjZUOG9vWmc?oc=5",
+     "time": "2026-11-09T16:48:23+00:00"
+    }
+   ],
+   "brief": "2026-11-09-NVDA"
+  },
+  {
    "symbol": "SOFI",
    "name": "SoFi",
    "list": "portfolio",
-   "price": 16.82,
+   "price": 16.98,
    "prev_close": 16.21,
-   "change_pct": 3.7,
+   "change_pct": 4.8,
    "trigger_change": 3.1,
-   "peak_change": 4.6,
+   "peak_change": 4.8,
    "first_seen": "2026-11-09T15:02:33+00:00",
    "sector": {
     "etf": "XLF",
     "name": "Financials",
-    "price": 58.09,
-    "change_pct": 1.64
+    "price": 58.23,
+    "change_pct": 1.87
    },
    "chart": {
-    "ema8": 1.9,
-    "ema21": 4.0,
-    "sma50": 3.0,
-    "sma200": -4.0,
+    "ema8": 2.7,
+    "ema21": 4.9,
+    "sma50": 4.0,
+    "sma200": -3.0,
     "momentum": true
    },
    "headlines": [
@@ -696,95 +690,101 @@
    "brief": "2026-11-09-SOFI"
   },
   {
-   "symbol": "CRWD",
-   "name": "CrowdStrike",
-   "list": "portfolio",
-   "price": 224.61,
-   "prev_close": 216.9,
-   "change_pct": 3.6,
-   "trigger_change": 3.7,
-   "peak_change": 3.7,
-   "first_seen": "2026-11-09T16:04:16+00:00",
+   "symbol": "AXON",
+   "name": "Axon",
+   "list": "watchlist",
+   "price": 300.17,
+   "prev_close": 313.0,
+   "change_pct": -4.1,
+   "trigger_change": -3.4,
+   "peak_change": -5.1,
+   "first_seen": "2026-11-09T18:56:02+00:00",
    "sector": {
-    "etf": "IGV",
-    "name": "Software",
-    "price": 101.12,
-    "change_pct": 2.27
+    "etf": "XLI",
+    "name": "Industrials",
+    "price": 169.33,
+    "change_pct": 4.09
    },
    "chart": {
-    "ema8": -3.8,
-    "ema21": -7.4,
-    "sma50": -7.9,
-    "sma200": 31.5,
+    "ema8": -19.1,
+    "ema21": -24.9,
+    "sma50": -31.1,
+    "sma200": -36.3,
     "momentum": false
    },
    "headlines": [
     {
-     "title": "Can CrowdStrike's Latest AI Integrations Drive Security Growth?",
+     "title": "Axon's Growth Story Faces a Double Test: Execution Costs and Disclosure Scrutiny",
+     "publisher": "ad-hoc-news.de",
+     "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPNnhuNWR6Mm9oemF0dzh1STkzX3lIQUM0WGNBRDlZRVk1dmRUeHoySUZLWWJ1UVQ3Y21nWjV5Q1RXV1VHUkQ4dGlUeVVtbEJKTnVrQXF1a0JjMWxXMXp1dURWUTNQR2R3ZFRVYUJYMFNwTjAtSzJXSy13Y3hhN1hUazBTU2ZwcENkX1JjUDFyYjdWOFZRbjJJeE12X1luTlVIM2drYnlMQ254ZUJKV0tNQWhxZmJ6QVg5MkNUbUh0RTN5Wmg2bDNlbmYtN2dTLUJTSmNFV3NwSENxVU55WXB3aGRadlNJZw?oc=5",
+     "time": "2026-11-09T17:41:48+00:00"
+    },
+    {
+     "title": "Axon's Connected Devices Unit Gains Momentum: Can It Sustain?",
      "publisher": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOX3NvU1l3WTFpQ3MzYS1GZkhfMjhyTC1aN2xRa1V3b0N4M3JyajRKNGVWcGJDc3hKT2U2WGtiQlJfM2o3SXdLTmVlZ1l5S2haaUJ4TWlFMTJ4UTY3WENwMEdRTDl4LWF5RnR3bDZfajB0RmE1N1pqV2NDRnZPcjlxNnV5M2hjOE1VLTVSTmgtVWZtMDJVYWtFclNZUE80WXVVQWE3U09hY3VQNG1YQ1ptVTF3TEtMWnlOSUE?oc=5",
-     "time": "2026-11-09T15:20:53+00:00"
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQRV9WbmdFM0VmcEtYMXJiRFhlODQ1LTJ6MTVnM0k3NS1IN3VTeTN4cC01ekN3MmZjZThKRVFSNURtZ0R6c3NUZHQzVHRZeG42amFuTmZDOUhzT3ZpdzFCdW10X3oxLVFZbXI5WG80VFhnYk1jOHAyNEE3X3RNX3ZBMUZSeGtXeXE0cHhPZUFNeDBKM0tUQVo0QnJwMnVfVTJYRlFhbFdXWWc4SmIza3BIUHFlazRwUQ?oc=5",
+     "time": "2026-11-09T17:17:50+00:00"
     },
     {
-     "title": "Top Funds Aren't Fooling Around. Witness Massive Bets On CrowdStrike And Beyond.",
-     "publisher": "Investor's Business Daily",
-     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNTmhoQUF3QnJ1RDFXWGdyMWg3T0FWWW1ldXNQRVpUZkJqc0dXa3pob1JjbVJ4YmJwSTBSc0NLUkV6akZjTUlBUnd2UjF4RHNoSVd4WmRSc2JGMUFLdHBlb2tVOEVGb0RGU2p4QUZZajJlWFlPalJQbkU0enE4cmIzejBCUzRGRF9waVA3MG84RVlVSXNYclN3THRrQk95Y1NmS2xMczU5b05laUkteGVnTktRcTlCMmdQZlRmeENoSDRreEdqOGgyYUo5WjJXOGlnLWNqMHJBbXp6ZUk?oc=5",
-     "time": "2026-11-09T13:29:15+00:00"
+     "title": "Axon Enterprise (NASDAQ:AXON) Stock Price Target Lowered at Barclays",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQOWxjbktRSWl6NTc0UXZMeDRVcFc5T0w3M3ZfM2NEdVpYTlptNzlzTV91aHBwZG5Qa0J0cVp4NWdSQlVaaGw0VHRXMHJ1elJ2am5LZ2dOaDg0Wk14cHl0ZGFMQTZaZkhlNmN1NHV2S2dpMGRfZGpFTUozN1ZHVDgtcGNJTnd5UWhxc0RORWxFSTBtM0hQTjdpa3N1Q0JBazdJVXdweGZGdkdRVjdKVUQ5NVR2Si0zSnBfMVFXTjBlV2kwRmJ2TWJN?oc=5",
+     "time": "2026-11-09T15:46:59+00:00"
     },
     {
-     "title": "CrowdStrike Stock Breaks $233.88 as AI-Security Revaluation Puts $239.46 in Focus",
-     "publisher": "TradingKey",
-     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOX3d0X21JVkxJY0hCcENKSmROREJHaWlEY2pEWUhGaEMxRDQ5Zm9vNlF4TGhZRnY0RkdkcExwaktMSWVLQTNhVlJOUFBsRVpIMWdyN3FfUldwRWJrc0hWMjFyR29PTlRJOHdHV3lhVjJ5YjVOQUJGcy1YS3p4SG1Ndl8xVUdnWjZBcFFzSXNvMEEzY1c2aEdyQm1OOTdwdlZvdmptLVo3UnlYQnd4TUZmU1BTTGY1QUtlczIyOGRB?oc=5",
-     "time": "2026-11-08T20:14:12+00:00"
+     "title": "Axon Q3 revenue and EPS miss estimates; investi...",
+     "publisher": "Pluang",
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZnFtRTVnM0pPaHFvWG94S3lqSHpxN01JcFg3S3luUEg4ZW4wTWpyOWxPeGVHQUE2Szh6WnV2WHBLNVNsTHVZYWh3Wm1IQVFZZkZJMUhCeGJKdFhGOU11RmVMWWJvTFNucVhzMVQzLWxmTXpfc1Vla3BlQXhwRnpaTnp0bFJPSVJfelNCZUtOeXp4b19L?oc=5",
+     "time": "2026-11-09T15:35:36+00:00"
     },
     {
-     "title": "CrowdStrike Surges Nearly 20% After Earnings - Can CRWD Break Above $230?",
-     "publisher": "TradingKey",
-     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQT1h6MHJSSVc2UmZBaXhXSmRmNS04WTFVa29Jb0VpOU5ZU3c2SURDUHg3ZzJDS1V4UlVQSVdWR01yS1htQTVlSzJJclpSS2JiaGloQy1TOFdkNDF4Mk5uc185ZE93WXZLeHNPcVVqbWlwc1p0d1kyYUxVaXEtLWxYVE9ySDQ5eGtZRFB0RlFVQ3h1eFJxVWtqRWRLYWlMNlJuVWdwS2c4ZV9IbEhZM2E1UGxqNEYyb3hHMDZSWGQ5U2tuNEVsaHc?oc=5",
-     "time": "2026-11-08T18:17:11+00:00"
+     "title": "AXON SHAREHOLDER INVESTIGATION: SueWallSt Notifies Investors of Potential Securities Claims Involving AXON",
+     "publisher": "PR Newswire",
+     "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPcS1FaDRDcWFWSG81M1VhNkxqMG9XSDVFcUZadFg5S1hFVDF1d0pnTHllM0lHRUgzZXZUZmIxVzY0Y2gxV0lqRmJyZEdCeFlPdU4tX2RQR0NCMXRBeWNtNlFFMUppb0FTZGRjTGRkZ0JadEUxeDlIV0xqRzJGaTNMUjZEbDlBVjlyMW43SzZxak1HNm1qMzl2YnJubHRkMjNtZUZDLW44X2Q4OEdyWm95NW5wX195Z1NTNGJ1cXhfTG93c3g3U1NuQmhwZkNsNktlWmVNY1hjeHp5WVN5cHRSS0hPcXB5MUQ4VzlBSkY4Wl94RG8?oc=5",
+     "time": "2026-11-09T15:17:00+00:00"
     },
     {
-     "title": "Why Did NVDA, HPE, CRWD Stocks Rise To 52-Week Highs Last Week?",
-     "publisher": "Stocktwits",
-     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPYzRYTGRZX3dXUEJLNnoxUTVVaVpFTWQ4c08zeThHWXpLMV9CU0JGbm05U21Mc3Q5YTd6ajlObkplZjByQmh2MExDNHR1bVpmR0hSdmpRdGhqY3FFUmh1MUpUTXhoaGNwRDB3MjIwZGtDOWx5a1l0Umx3X0FIZjl5c2xPWkhaaXlOQi1PLUY1ZVJlRVhPbVZaWEFIQVNmSEJieHdrdzJSR0xvX3lXdDc0RHdncEFxYzdLTVJwN2JIekNMdw?oc=5",
-     "time": "2026-11-08T13:31:27+00:00"
+     "title": "Axon Shares Stabilize as Analysts Reaffirm Long-Term Outlook",
+     "publisher": "TradingPedia",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOOUk0dmsteklmYXUtYVEzMkw4ZFRvZFdBdU1NTVo5ZXlrSVA1aU9nSXVkUnpiVHQ1bFQtaU1hZUpsVkdwNm5YOGhOc2Mya0lwY1haaDNNSFJoeGJxX1hncF9WRFdaSTRZRFZwVXhyaGo3cm1EMEttVkJGV2F2VU5YMFZEeWFvS2trNFNkR2VUN0Z1OG9KSkFHa1JIV19RV2RpQ3hV?oc=5",
+     "time": "2026-11-09T13:59:38+00:00"
     },
     {
-     "title": "Why Did CRWD, OKTA, ZETA Stocks Jump To 52-Week Highs?",
-     "publisher": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPY2wwWENYLUU0NmZRRVFsVlZXYXVJWFh0SnFZS2tqNkZmR29MVDVHcXpjLTFpNEd4WUV1N2pqWDdaakxscllfZ2NERnpvMGk4R3BaSWUtOGQyN1RCWXdydzJNMU1HbVRqOTB4MmZwb0xCbkhkNzFaekk1VHNDV2RxZEplS1ZnRGdaeEFvUWdpMzJxMWFzOExLMWNiYWpGb20zU3A4eEtQbGIzdDBuSUpJNA?oc=5",
-     "time": "2026-11-07T23:01:00+00:00"
+     "title": "JPMorgan Chase & Co. Issues Pessimistic Forecast for Axon Enterprise (NASDAQ:AXON) Stock Price",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQamNwUkxiZV9CaVhjWEZ4ZmJIWjRwMkhzM0FaM2IxcXNia1F5d2tsVXV5RjNWaXBRTGFjSkpyX2RvaDdIZDJ5OHotN2dMNEw3aDhPaXM0M3VtRmktT0RnMHNoc19IX21XeEFsQ3VaOWRoeWctTDZ0MjlObEw2V1pKQmZ2SnVQNHNEMXpTN2ljWDdCNnI2eVBsazloaGdiM0RLTHNNY0UwMHV1SzF3S2QtR3NNSmdHTkZPWjMtc2RrcGxBQldEa1M5dGZpUE1Ta1lYVk5lRzRha2g0ajRDMjRzdXVpRjd5Zw?oc=5",
+     "time": "2026-11-09T13:15:01+00:00"
     },
     {
-     "title": "CrowdStrike Holdings, Inc. (CRWD) latest stock news and headlines",
-     "publisher": "Yahoo Finance Singapore",
-     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9IX2lUZGhLM01sWnFISFlQRzJSM3FrMTZnV04zTXBpN3JDZzJ4TzlzdXE5UjFmN1p2RkVYV0kyTmMxdTJaT2ctbmZsZlRDUnAtNGdlaERVWGU?oc=5",
-     "time": "2026-11-07T22:39:21+00:00"
+     "title": "Why is Axon Enterprise stock rebounding today?",
+     "publisher": "Investing.com",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQekhrNUFURFJuQ1YzcmtfcW1fVVFwekpTT0ZFd19xcGppUk9qNGdsSzdHQ01ETGJ3VzFaREZrdjJXUlFhbzZuTXZmelRmcFhWLWtEVFdpNE45SHdtNmFrSlo0UjNFUEQtejFxMzNGZzllalZVQkw5U1hTdFNWY1ZXNHBTT3NYcW16aEtla3ptUkZScm5wZEg0Vll5M2UxTmxMVlZIY0lRR2ZOVFE?oc=5",
+     "time": "2026-11-09T12:00:45+00:00"
     }
    ],
-   "brief": "2026-11-09-CRWD"
+   "brief": null
   },
   {
    "symbol": "AMZN",
    "name": "Amazon",
    "list": "portfolio",
-   "price": 267.84,
+   "price": 268.98,
    "prev_close": 259.3,
-   "change_pct": 3.3,
+   "change_pct": 3.7,
    "trigger_change": 5.3,
    "peak_change": 5.3,
    "first_seen": "2026-11-09T14:57:33+00:00",
    "sector": {
     "etf": "XLY",
     "name": "Consumer discr.",
-    "price": 121.17,
-    "change_pct": 3.06
+    "price": 121.68,
+    "change_pct": 3.49
    },
    "chart": {
-    "ema8": 3.7,
-    "ema21": 4.9,
-    "sma50": 5.5,
-    "sma200": 9.7,
+    "ema8": 4.1,
+    "ema21": 5.3,
+    "sma50": 5.9,
+    "sma200": 10.2,
     "momentum": true
    },
    "headlines": [
@@ -843,23 +843,23 @@
    "symbol": "GOOG",
    "name": "Alphabet",
    "list": "portfolio",
-   "price": 287.66,
+   "price": 288.25,
    "prev_close": 283.93,
-   "change_pct": 1.3,
+   "change_pct": 1.5,
    "trigger_change": 3.1,
    "peak_change": 3.1,
    "first_seen": "2026-11-09T15:27:36+00:00",
    "sector": {
     "etf": "XLC",
     "name": "Communication",
-    "price": 107.22,
-    "change_pct": 2.32
+    "price": 107.49,
+    "change_pct": 2.58
    },
    "chart": {
-    "ema8": -0.5,
-    "ema21": -6.0,
-    "sma50": -12.5,
-    "sma200": -14.7,
+    "ema8": -0.3,
+    "ema21": -5.8,
+    "sma50": -12.3,
+    "sma200": -14.5,
     "momentum": false
    },
    "headlines": [
