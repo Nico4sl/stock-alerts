@@ -1,22 +1,22 @@
 {
  "date": "2026-11-09",
  "threshold": 3.0,
- "updated": "2026-11-09T17:09:58+00:00",
+ "updated": "2026-11-09T17:14:59+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 752.08,
-   "change_pct": 2.28
+   "price": 735.29,
+   "change_pct": 0.31
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 677.75,
-   "change_pct": 3.3
+   "price": 656.1,
+   "change_pct": 1.4
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 81.88,
-   "change_pct": -0.05
+   "price": 81.83,
+   "change_pct": -0.1
   }
  },
  "movers": [
@@ -24,23 +24,23 @@
    "symbol": "AMAT",
    "name": "Applied Materials",
    "list": "portfolio",
-   "price": 371.66,
+   "price": 370.88,
    "prev_close": 332.71,
-   "change_pct": 11.7,
+   "change_pct": 11.5,
    "trigger_change": 8.7,
    "peak_change": 11.7,
    "first_seen": "2026-11-09T14:57:33+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 463.96,
-    "change_pct": 3.62
+    "price": 486.38,
+    "change_pct": 4.83
    },
    "chart": {
-    "ema8": 1.5,
-    "ema21": -6.6,
-    "sma50": -16.1,
-    "sma200": -16.6,
+    "ema8": 1.3,
+    "ema21": -6.8,
+    "sma50": -16.3,
+    "sma200": -16.8,
     "momentum": false
    },
    "headlines": [
@@ -96,26 +96,101 @@
    "brief": "2026-11-09-AMAT"
   },
   {
+   "symbol": "APP",
+   "name": "AppLovin",
+   "list": "portfolio",
+   "price": 391.22,
+   "prev_close": 356.1,
+   "change_pct": 9.9,
+   "trigger_change": 3.8,
+   "peak_change": 9.9,
+   "first_seen": "2026-11-09T15:12:35+00:00",
+   "sector": {
+    "etf": "IGV",
+    "name": "Software",
+    "price": 101.38,
+    "change_pct": 2.53
+   },
+   "chart": {
+    "ema8": 29.6,
+    "ema21": 38.0,
+    "sma50": 33.4,
+    "sma200": -4.4,
+    "momentum": true
+   },
+   "headlines": [
+    {
+     "title": "APP Shareholder Alert: November 16, 2026 Lead Plaintiff",
+     "publisher": "GlobeNewswire",
+     "url": "https://news.google.com/rss/articles/CBMisgJBVV95cUxNNUt0emV2LWhXc2t6OGkySGtPbWJtbkpTNUFnSHpreVd3Q3pOeFUydXVWWUg5MkxpS2hqWjRDSlZERkNOM1Eza2xyNExkYnE2a1lRNXotS3JhaXFlQk1tMnFXckVoWjVqOE9hQTM5dUpLbkQ4SEdFbkpBUFpaNFhZUEQxcnF2S0RVaDc4TEkydWo5TFU4VU5ROHBfWkYxRDlmVGMweDlVdnBwalZDaDNQWkV5OUZJUGlkaE96NzZZNFlWM0dza3U4MnBvd0RiLWFqVkhVVFBieGY2U3gtZVFUWnpkbUxEWDd4d3B0eW9NV3FnNW5aRGJtV0hwQTYtYUI2ZThvMFFWSTNEQTREbl9JTEVXOWxPb2JwWVpzajNaMHdXSXB1ejdIb2xDdjJuaVAtbFE?oc=5",
+     "time": "2026-11-09T15:09:00+00:00"
+    },
+    {
+     "title": "The Trade Desk Jumps 8% Ahead of Earnings; Magnite Gains 2%, AppLovin Dips",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPWDIwUUQ4SFgxUjJka0ZkZlhja29BdjEyVlRzbWI3UUxzY1p3UUEybUtFVXhjV18wTjZ3ZEhhOXBJOUQ3ZF9yRmxFUEZBUW9yT3N0bXdpRnd2aGRxa09RME05T1ZZOF9PQldUMkN1NUlMbmwxY0Y5UWpjZk80aTVORndUbmVra3lpUVQxb0xnV1ZaeWNsMGRfc1M0VFQ0SVBCTmIxbHJGSnRTWjhXU3dnZEtzSVZ1UQ?oc=5",
+     "time": "2026-11-09T13:46:00+00:00"
+    },
+    {
+     "title": "APP Price Prediction: AppLovin\u2019s blowout quarter lifts the stock, but momentum is stretched",
+     "publisher": "Blockchain News",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQRUFPeDFQX3BNeDdUOWgxYlB5Z2Y3MG5jV2pjUG5uWndza2ZYX1J3LWhITGowN05xM3hFY3l6a1VXWDVzMjZSMmRfMS1hTk1QYmtzMWhheXNBVHF2NVNTc1puRGdOVm9jbHBwRjJDT1BwVHRiVFQ2X3phTlNLUEI1MUZBOVU0d3I5NWVfUHE4Mk5rc0tsX1FvYkdsSmtqNlZzN0E?oc=5",
+     "time": "2026-11-09T13:12:00+00:00"
+    },
+    {
+     "title": "AppLovin Corporation (6RV.F) Stock Price, News, Quote & History",
+     "publisher": "Yahoo! Finance Canada",
+     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFA0OTE4ejVuUG5oSmE5VVhRcGRhbDAyUmp6MlgySm9HU2JySjB0cGhkZWgzcGxhYkFHb3pzbXI3UGtOTllyRlhZeG50bExjM21iallj?oc=5",
+     "time": "2026-11-09T12:49:25+00:00"
+    },
+    {
+     "title": "AppLovin Corporation (NASDAQ: APP) Stock Analysis: A P/E of 30.07 After a 9.86% Advance",
+     "publisher": "Kalkine India",
+     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNU1BKSzM1eTRGcGIxV1VtT3ZjQTJmUkwyZW1GRUtJdFA2X2NJcmJxNHhDbkxSYVE2dGNtWkFCcjcxemhRRTFTOEhMb3JSTS1pQUp5dkZWOGF2SF8tUFpfdGdzUGJCcnlTVFJnR19OWG50R29TZ2ZtTWkzUnE2UEcyRjl4NlpMc1lkSXBjbFZFbkhCY2plUTRhaU1LczJTVzZZWjJkazNBRHNYN3NKUzFQMTZlNEtJM0VwclB1bUE1ZkpNRDg2MnJRd211eW0yRkIx?oc=5",
+     "time": "2026-11-09T10:42:00+00:00"
+    },
+    {
+     "title": "Why Is APP Stock Skyrocketing Over 20% Overnight Today?",
+     "publisher": "Stocktwits",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxONXdWX1ltMzlfWG5oYW5WNWZYajJXM0ZXa1ZYSWlJelhuZjZDMVRZZDBTWF9GSW93V2p2aU1ob1FlUVZya2g4Q09aYmppbndZdGZYVzZtLWlWZUFfcWVZejNuN25WSkFvckxwM3JoY3FhSWZ0VkJ2Sjh2MUpzTldUc0RvSGhXc1FQaFpMWFR0ZmhxYnVtSjY2dFhFcXZ0MksxNE45TkhyVkZPRXNyV2d1bWVwcjVacXJnZXc?oc=5",
+     "time": "2026-11-09T08:35:58+00:00"
+    },
+    {
+     "title": "APPLOVIN CORP.A -,00003 (APP-USD.SW) Stock Price, News, Quote & History",
+     "publisher": "Yahoo! Finance Canada",
+     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0tdXlUaXdNeU1LVGdkTXFZQTlBMUpvSDc2cTBuZjJGb0c3dXFZYWh0a0hxYXY3WTU5eXVIWUgxTDZ0UkNYZmV2eFZubzFFc2FlV3FaVUE1M01YR0Q0T2FpUENwQmQwYUE1?oc=5",
+     "time": "2026-11-08T22:18:28+00:00"
+    },
+    {
+     "title": "AppLovin Shares Surge as Revenue Continues to Soar. Is It Too Late to Buy the Stock?",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQbl8wc1lwS1YzenBQOGpQUzVSX1pWX3ZEcjJjR0RvY3NOVDRINkhKNVJNNkpOcWRjeDZfRWhoMlY1Ni1OblFBVTFWQmp5NnVRNlZKcEduUjV3ZWw2R2FaR0FxQjNzc0EwMTRJZlcweWpHNkg5SE90MVZFRURaWGFvQ3pjZkVQRjBiU1NTQmFMN1k?oc=5",
+     "time": "2026-11-08T18:35:00+00:00"
+    }
+   ],
+   "brief": "2026-11-09-APP"
+  },
+  {
    "symbol": "ANET",
    "name": "Arista Networks",
    "list": "portfolio",
-   "price": 186.66,
+   "price": 186.97,
    "prev_close": 170.8,
-   "change_pct": 9.3,
+   "change_pct": 9.5,
    "trigger_change": 8.1,
    "peak_change": 9.7,
    "first_seen": "2026-11-09T14:57:33+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 463.96,
-    "change_pct": 3.62
+    "price": 486.38,
+    "change_pct": 4.83
    },
    "chart": {
-    "ema8": 6.6,
-    "ema21": 3.2,
-    "sma50": -3.0,
-    "sma200": 12.2,
+    "ema8": 6.7,
+    "ema21": 3.3,
+    "sma50": -2.9,
+    "sma200": 12.4,
     "momentum": false
    },
    "headlines": [
@@ -174,23 +249,23 @@
    "symbol": "AVGO",
    "name": "Broadcom",
    "list": "portfolio",
-   "price": 320.16,
+   "price": 320.36,
    "prev_close": 293.69,
-   "change_pct": 9.0,
+   "change_pct": 9.1,
    "trigger_change": 7.0,
    "peak_change": 9.2,
    "first_seen": "2026-11-09T14:57:33+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 463.96,
-    "change_pct": 3.62
+    "price": 486.38,
+    "change_pct": 4.83
    },
    "chart": {
     "ema8": 1.0,
     "ema21": -2.9,
     "sma50": -7.7,
-    "sma200": -12.8,
+    "sma200": -12.7,
     "momentum": false
    },
    "headlines": [
@@ -249,23 +324,23 @@
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 141.0,
+   "price": 140.68,
    "prev_close": 129.49,
-   "change_pct": 8.9,
+   "change_pct": 8.6,
    "trigger_change": 6.5,
    "peak_change": 9.1,
    "first_seen": "2026-11-09T14:57:33+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 101.25,
-    "change_pct": 2.4
+    "price": 101.38,
+    "change_pct": 2.53
    },
    "chart": {
-    "ema8": -1.6,
-    "ema21": -14.0,
-    "sma50": -29.6,
-    "sma200": -21.1,
+    "ema8": -1.7,
+    "ema21": -14.2,
+    "sma50": -29.8,
+    "sma200": -21.2,
     "momentum": false
    },
    "headlines": [
@@ -324,23 +399,23 @@
    "symbol": "META",
    "name": "Meta",
    "list": "portfolio",
-   "price": 642.43,
+   "price": 642.12,
    "prev_close": 610.15,
-   "change_pct": 5.3,
+   "change_pct": 5.2,
    "trigger_change": 5.0,
    "peak_change": 5.4,
    "first_seen": "2026-11-09T14:57:33+00:00",
    "sector": {
     "etf": "XLC",
     "name": "Communication",
-    "price": 107.09,
-    "change_pct": 2.19
+    "price": 107.12,
+    "change_pct": 2.23
    },
    "chart": {
-    "ema8": 2.7,
+    "ema8": 2.6,
     "ema21": -1.0,
     "sma50": -5.0,
-    "sma200": 1.7,
+    "sma200": 1.6,
     "momentum": false
    },
    "headlines": [
@@ -396,12 +471,87 @@
    "brief": "2026-11-09-META"
   },
   {
+   "symbol": "NVDA",
+   "name": "Nvidia",
+   "list": "portfolio",
+   "price": 177.48,
+   "prev_close": 186.64,
+   "change_pct": -4.9,
+   "trigger_change": -4.9,
+   "peak_change": -6.4,
+   "first_seen": "2026-11-09T14:57:33+00:00",
+   "sector": {
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 486.38,
+    "change_pct": 4.83
+   },
+   "chart": {
+    "ema8": -8.5,
+    "ema21": -14.0,
+    "sma50": -19.0,
+    "sma200": -13.3,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "NVIDIA (NASDAQ:NVDA) Shares Gap Down - What's Next?",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQVmNuX0gzQ29vR1ByZW9ycThsQWdUY2dZUE9ERFY3VUVJOHpXcmlmbF9SbTM4VGxzWHZEOGlvNGdYVlBCRDFZUjBsRWF4R2FUUWpmZjJUekhSS081T3BHbmZJOW9nRTBPM1pGQ1IwMXpCWlhLb2U5dm5KMVNKZjJIcmR0Y1I1WHZtaUNNa1NaaUpLZndmbUNydUxzQXlqS0NqbnlEWW5jaGY?oc=5",
+     "time": "2026-11-09T16:45:11+00:00"
+    },
+    {
+     "title": "NVDA Stock Attempts Recovery after Breakdown on Nvidia CEO Jensen Huang Investigation Over Relationship with Alleged Spy",
+     "publisher": "FXLeaders",
+     "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQWGR3R2NDSURSa0dEb0podFQ3Z0x2aWpac0ZkWTVObllnR1c1NnNKZ21ua2o2Qjc0NlJqNEJiOWxxWHFtSW0xckNnU29yQTZHVTV4ZVRnVWZfeG43Z2xwcTZGSEliVkFwNEVmcDdESDRVRkRnVEp0c2U5MlFELXd4SjVEa2tDRHYtdUtSZDE4aXg2VURwcjYwU1RaZWdfQXFIT2lUb0YwN3QtdENueEp0ZWFCN21PQjB1Zkh2WFBHQWVZazBRN3phSUREWVR6M2xBVm1Ta2E4c1NZUEt3Z0FYcDN4Y2FQQnBuZVVvVUQtUkVOWlF3aXc?oc=5",
+     "time": "2026-11-09T16:37:52+00:00"
+    },
+    {
+     "title": "Nvidia Gets the Spotlight, but This AI Stock Could Steal the Show in 2027",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxObHI5THF0T0tkbHpXWHQ0Zk5WSEhrSmszQWZRYzVJWENpRTh6RDFHR3FwRWMyZ3hhQ205S0E1azlVYXRjYlc5cS1Lb1dDTEp3WVVmT3dHSy1mVFo0MUpWTm84WmlkcFdnNFlTOXhGWlp4Q2dpYTR6ODU1SzRvdHhnVlJzRUh3bW1kTXp6Mmxfdko3dThXOFYtblU4ZnRzZVZQR3dvWmV2MzRWbnBEb3RqemxYUDFhdG8?oc=5",
+     "time": "2026-11-09T16:33:00+00:00"
+    },
+    {
+     "title": "Jensen Huang Has \u201cNo Natural Successor\u201d at Nvidia, Warns Gary Black as the Board Investigates",
+     "publisher": "TIKR.com",
+     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOOG9IbXQ5NGdvTDE2cDIweVFLRXRjOTJEZmp1X245eFh6eVh5Z1Q0RHJDakk5cC1sOXE3R0NtT1FLTmJKQXhlWjJZSU5TVzAwaVVxRVNmMTJaZlZqOFNpZzhBMWU2d1RZTTNKbGtWazl5R2RLYVh6bnBaQUVLQ1ZBSlBROTF5NlhuQnhEMXFNby1VNFd2VGw1TkZJcmd4Rlh5TEVRZGttRW9XWFl1d1BqNDFiX05kVy1i?oc=5",
+     "time": "2026-11-09T16:27:46+00:00"
+    },
+    {
+     "title": "Why Nvidia Stock Was Falling Today",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOYlZqNUxmQzlnN3lHb21CczIxWUF3cVl5SXhuTFNTMXpheWVYYW9UdDZOdjY5SUFjZWxpaWdIRDE3blF4RDhHMUhZcFRKZkxDOG8xUU9uVXQ0R2R2RlNGaERSeXp3OGdZU09VNDhMMlRmN2hBQ3FHV1dxY0VzUGhTOS16RQ?oc=5",
+     "time": "2026-11-09T16:23:00+00:00"
+    },
+    {
+     "title": "Commerce Dept. inquiry into chips transferred to DOJ after Nvidia intervention: report (NVDA:NASDAQ)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZEotNU5qTU40VXB1ZFZBUjBySXp5VHJ6czczQ0QyMnlkaV9yLWNYcmxNb2x4QXJaZUp5a2hoTW9HSjZORDFrMU40dkxhQ1liSy1YSFZMMXNxSXlObEctMExjUXFGV3JpYkZyMTNQT1BCXzBxVW1nM3IyRTZFbGRILThKRFdZTmlQR1J4QjVpVExVN1FQWjllekQ0WVZnU1E2S0NiUnRMYXpPT0VuNkxsbmJpWVNRZ25VY1dRckxnZw?oc=5",
+     "time": "2026-11-09T16:20:00+00:00"
+    },
+    {
+     "title": "Why Nvidia (NVDA) shares are trading lower today",
+     "publisher": "The Globe and Mail",
+     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNMHA3QzlzVlo5NThIWWgtRGVNenM1Tm4yYmstdzJDMFlTaHJJUUxOaVlFUS16VGFXdU84TlRjejl0b2VsbmgzN0JuNEhwQnY3c2t6THIweGZrMHR1VEVncEtNLVU4Nmt3WTVlSDNZNXdqZjhwdE0zbURYaTFHeWZJSU5HVDlLSHRRTXNaREJCSjl6WUU1ZFJzczNpN2NKSklMZVNtZlpKTFgwc1EtU1JhenVrX3VFcW16RzMyUUd2Z2E5WkFZdVgzbE5oVQ?oc=5",
+     "time": "2026-11-09T16:06:03+00:00"
+    },
+    {
+     "title": "CEO Investigation Triggers Nvidia Stock Slide",
+     "publisher": "Schaeffer's Investment Research",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQNnZjT01tbTRyQ3ppOGRZc3NmZmE2YUxLbGctb0dRWmh2VXdlYnlSQ3pLM3JnMjhSdTJ0eFpvYkwwTFpjbkZ4QzE3YUtVMHhXZW0tZVdaMHJiMFJQT2hvNzBfUEpJQXdoRDBfVHh2ZTZ3T1VjZHpISnVJUGF1REFRMEpFbjEtUDA5VW92VVNCLVpPUFpnamU0WHF6UGJzbEQ4bXZtamFQaw?oc=5",
+     "time": "2026-11-09T16:02:51+00:00"
+    }
+   ],
+   "brief": "2026-11-09-NVDA"
+  },
+  {
    "symbol": "SOFI",
    "name": "SoFi",
    "list": "portfolio",
-   "price": 16.88,
+   "price": 16.91,
    "prev_close": 16.21,
-   "change_pct": 4.1,
+   "change_pct": 4.3,
    "trigger_change": 3.1,
    "peak_change": 4.6,
    "first_seen": "2026-11-09T15:02:33+00:00",
@@ -412,10 +562,10 @@
     "change_pct": 1.53
    },
    "chart": {
-    "ema8": 2.2,
-    "ema21": 4.4,
-    "sma50": 3.4,
-    "sma200": -3.6,
+    "ema8": 2.3,
+    "ema21": 4.5,
+    "sma50": 3.6,
+    "sma200": -3.4,
     "momentum": true
    },
    "headlines": [
@@ -471,85 +621,10 @@
    "brief": "2026-11-09-SOFI"
   },
   {
-   "symbol": "APP",
-   "name": "AppLovin",
-   "list": "portfolio",
-   "price": 405.74,
-   "prev_close": 391.22,
-   "change_pct": 3.7,
-   "trigger_change": 3.8,
-   "peak_change": 4.5,
-   "first_seen": "2026-11-09T15:12:35+00:00",
-   "sector": {
-    "etf": "IGV",
-    "name": "Software",
-    "price": 101.25,
-    "change_pct": 2.4
-   },
-   "chart": {
-    "ema8": 24.9,
-    "ema21": 37.7,
-    "sma50": 37.5,
-    "sma200": -0.7,
-    "momentum": true
-   },
-   "headlines": [
-    {
-     "title": "APP Shareholder Alert: November 16, 2026 Lead Plaintiff",
-     "publisher": "GlobeNewswire",
-     "url": "https://news.google.com/rss/articles/CBMisgJBVV95cUxNNUt0emV2LWhXc2t6OGkySGtPbWJtbkpTNUFnSHpreVd3Q3pOeFUydXVWWUg5MkxpS2hqWjRDSlZERkNOM1Eza2xyNExkYnE2a1lRNXotS3JhaXFlQk1tMnFXckVoWjVqOE9hQTM5dUpLbkQ4SEdFbkpBUFpaNFhZUEQxcnF2S0RVaDc4TEkydWo5TFU4VU5ROHBfWkYxRDlmVGMweDlVdnBwalZDaDNQWkV5OUZJUGlkaE96NzZZNFlWM0dza3U4MnBvd0RiLWFqVkhVVFBieGY2U3gtZVFUWnpkbUxEWDd4d3B0eW9NV3FnNW5aRGJtV0hwQTYtYUI2ZThvMFFWSTNEQTREbl9JTEVXOWxPb2JwWVpzajNaMHdXSXB1ejdIb2xDdjJuaVAtbFE?oc=5",
-     "time": "2026-11-09T15:09:00+00:00"
-    },
-    {
-     "title": "The Trade Desk Jumps 8% Ahead of Earnings; Magnite Gains 2%, AppLovin Dips",
-     "publisher": "24/7 Wall St.",
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPWDIwUUQ4SFgxUjJka0ZkZlhja29BdjEyVlRzbWI3UUxzY1p3UUEybUtFVXhjV18wTjZ3ZEhhOXBJOUQ3ZF9yRmxFUEZBUW9yT3N0bXdpRnd2aGRxa09RME05T1ZZOF9PQldUMkN1NUlMbmwxY0Y5UWpjZk80aTVORndUbmVra3lpUVQxb0xnV1ZaeWNsMGRfc1M0VFQ0SVBCTmIxbHJGSnRTWjhXU3dnZEtzSVZ1UQ?oc=5",
-     "time": "2026-11-09T13:46:00+00:00"
-    },
-    {
-     "title": "APP Price Prediction: AppLovin\u2019s blowout quarter lifts the stock, but momentum is stretched",
-     "publisher": "Blockchain News",
-     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQRUFPeDFQX3BNeDdUOWgxYlB5Z2Y3MG5jV2pjUG5uWndza2ZYX1J3LWhITGowN05xM3hFY3l6a1VXWDVzMjZSMmRfMS1hTk1QYmtzMWhheXNBVHF2NVNTc1puRGdOVm9jbHBwRjJDT1BwVHRiVFQ2X3phTlNLUEI1MUZBOVU0d3I5NWVfUHE4Mk5rc0tsX1FvYkdsSmtqNlZzN0E?oc=5",
-     "time": "2026-11-09T13:12:00+00:00"
-    },
-    {
-     "title": "AppLovin Corporation (6RV.F) Stock Price, News, Quote & History",
-     "publisher": "Yahoo! Finance Canada",
-     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFA0OTE4ejVuUG5oSmE5VVhRcGRhbDAyUmp6MlgySm9HU2JySjB0cGhkZWgzcGxhYkFHb3pzbXI3UGtOTllyRlhZeG50bExjM21iallj?oc=5",
-     "time": "2026-11-09T12:49:25+00:00"
-    },
-    {
-     "title": "AppLovin Corporation (NASDAQ: APP) Stock Analysis: A P/E of 30.07 After a 9.86% Advance",
-     "publisher": "Kalkine India",
-     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNU1BKSzM1eTRGcGIxV1VtT3ZjQTJmUkwyZW1GRUtJdFA2X2NJcmJxNHhDbkxSYVE2dGNtWkFCcjcxemhRRTFTOEhMb3JSTS1pQUp5dkZWOGF2SF8tUFpfdGdzUGJCcnlTVFJnR19OWG50R29TZ2ZtTWkzUnE2UEcyRjl4NlpMc1lkSXBjbFZFbkhCY2plUTRhaU1LczJTVzZZWjJkazNBRHNYN3NKUzFQMTZlNEtJM0VwclB1bUE1ZkpNRDg2MnJRd211eW0yRkIx?oc=5",
-     "time": "2026-11-09T10:42:00+00:00"
-    },
-    {
-     "title": "Why Is APP Stock Skyrocketing Over 20% Overnight Today?",
-     "publisher": "Stocktwits",
-     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxONXdWX1ltMzlfWG5oYW5WNWZYajJXM0ZXa1ZYSWlJelhuZjZDMVRZZDBTWF9GSW93V2p2aU1ob1FlUVZya2g4Q09aYmppbndZdGZYVzZtLWlWZUFfcWVZejNuN25WSkFvckxwM3JoY3FhSWZ0VkJ2Sjh2MUpzTldUc0RvSGhXc1FQaFpMWFR0ZmhxYnVtSjY2dFhFcXZ0MksxNE45TkhyVkZPRXNyV2d1bWVwcjVacXJnZXc?oc=5",
-     "time": "2026-11-09T08:35:58+00:00"
-    },
-    {
-     "title": "APPLOVIN CORP.A -,00003 (APP-USD.SW) Stock Price, News, Quote & History",
-     "publisher": "Yahoo! Finance Canada",
-     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0tdXlUaXdNeU1LVGdkTXFZQTlBMUpvSDc2cTBuZjJGb0c3dXFZYWh0a0hxYXY3WTU5eXVIWUgxTDZ0UkNYZmV2eFZubzFFc2FlV3FaVUE1M01YR0Q0T2FpUENwQmQwYUE1?oc=5",
-     "time": "2026-11-08T22:18:28+00:00"
-    },
-    {
-     "title": "AppLovin Shares Surge as Revenue Continues to Soar. Is It Too Late to Buy the Stock?",
-     "publisher": "The Motley Fool",
-     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQbl8wc1lwS1YzenBQOGpQUzVSX1pWX3ZEcjJjR0RvY3NOVDRINkhKNVJNNkpOcWRjeDZfRWhoMlY1Ni1OblFBVTFWQmp5NnVRNlZKcEduUjV3ZWw2R2FaR0FxQjNzc0EwMTRJZlcweWpHNkg5SE90MVZFRURaWGFvQ3pjZkVQRjBiU1NTQmFMN1k?oc=5",
-     "time": "2026-11-08T18:35:00+00:00"
-    }
-   ],
-   "brief": "2026-11-09-APP"
-  },
-  {
    "symbol": "AMZN",
    "name": "Amazon",
    "list": "portfolio",
-   "price": 268.57,
+   "price": 268.58,
    "prev_close": 259.3,
    "change_pct": 3.6,
    "trigger_change": 5.3,
@@ -558,8 +633,8 @@
    "sector": {
     "etf": "XLY",
     "name": "Consumer discr.",
-    "price": 121.1,
-    "change_pct": 2.99
+    "price": 121.08,
+    "change_pct": 2.98
    },
    "chart": {
     "ema8": 4.0,
@@ -624,7 +699,7 @@
    "symbol": "CRWD",
    "name": "CrowdStrike",
    "list": "portfolio",
-   "price": 224.33,
+   "price": 224.37,
    "prev_close": 216.9,
    "change_pct": 3.4,
    "trigger_change": 3.7,
@@ -633,14 +708,14 @@
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 101.25,
-    "change_pct": 2.4
+    "price": 101.38,
+    "change_pct": 2.53
    },
    "chart": {
     "ema8": -3.9,
     "ema21": -7.5,
     "sma50": -8.0,
-    "sma200": 31.3,
+    "sma200": 31.4,
     "momentum": false
    },
    "headlines": [
@@ -690,101 +765,26 @@
    "brief": "2026-11-09-CRWD"
   },
   {
-   "symbol": "NVDA",
-   "name": "Nvidia",
-   "list": "portfolio",
-   "price": 186.64,
-   "prev_close": 181.6,
-   "change_pct": 2.8,
-   "trigger_change": -4.9,
-   "peak_change": -6.4,
-   "first_seen": "2026-11-09T14:57:33+00:00",
-   "sector": {
-    "etf": "SMH",
-    "name": "Semiconductors",
-    "price": 463.96,
-    "change_pct": 3.62
-   },
-   "chart": {
-    "ema8": -6.0,
-    "ema21": -10.8,
-    "sma50": -15.1,
-    "sma200": -8.8,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "NVIDIA (NASDAQ:NVDA) Shares Gap Down - What's Next?",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQVmNuX0gzQ29vR1ByZW9ycThsQWdUY2dZUE9ERFY3VUVJOHpXcmlmbF9SbTM4VGxzWHZEOGlvNGdYVlBCRDFZUjBsRWF4R2FUUWpmZjJUekhSS081T3BHbmZJOW9nRTBPM1pGQ1IwMXpCWlhLb2U5dm5KMVNKZjJIcmR0Y1I1WHZtaUNNa1NaaUpLZndmbUNydUxzQXlqS0NqbnlEWW5jaGY?oc=5",
-     "time": "2026-11-09T16:45:11+00:00"
-    },
-    {
-     "title": "NVDA Stock Attempts Recovery after Breakdown on Nvidia CEO Jensen Huang Investigation Over Relationship with Alleged Spy",
-     "publisher": "FXLeaders",
-     "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQWGR3R2NDSURSa0dEb0podFQ3Z0x2aWpac0ZkWTVObllnR1c1NnNKZ21ua2o2Qjc0NlJqNEJiOWxxWHFtSW0xckNnU29yQTZHVTV4ZVRnVWZfeG43Z2xwcTZGSEliVkFwNEVmcDdESDRVRkRnVEp0c2U5MlFELXd4SjVEa2tDRHYtdUtSZDE4aXg2VURwcjYwU1RaZWdfQXFIT2lUb0YwN3QtdENueEp0ZWFCN21PQjB1Zkh2WFBHQWVZazBRN3phSUREWVR6M2xBVm1Ta2E4c1NZUEt3Z0FYcDN4Y2FQQnBuZVVvVUQtUkVOWlF3aXc?oc=5",
-     "time": "2026-11-09T16:37:52+00:00"
-    },
-    {
-     "title": "Nvidia Gets the Spotlight, but This AI Stock Could Steal the Show in 2027",
-     "publisher": "24/7 Wall St.",
-     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxObHI5THF0T0tkbHpXWHQ0Zk5WSEhrSmszQWZRYzVJWENpRTh6RDFHR3FwRWMyZ3hhQ205S0E1azlVYXRjYlc5cS1Lb1dDTEp3WVVmT3dHSy1mVFo0MUpWTm84WmlkcFdnNFlTOXhGWlp4Q2dpYTR6ODU1SzRvdHhnVlJzRUh3bW1kTXp6Mmxfdko3dThXOFYtblU4ZnRzZVZQR3dvWmV2MzRWbnBEb3RqemxYUDFhdG8?oc=5",
-     "time": "2026-11-09T16:33:00+00:00"
-    },
-    {
-     "title": "Jensen Huang Has \u201cNo Natural Successor\u201d at Nvidia, Warns Gary Black as the Board Investigates",
-     "publisher": "TIKR.com",
-     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOOG9IbXQ5NGdvTDE2cDIweVFLRXRjOTJEZmp1X245eFh6eVh5Z1Q0RHJDakk5cC1sOXE3R0NtT1FLTmJKQXhlWjJZSU5TVzAwaVVxRVNmMTJaZlZqOFNpZzhBMWU2d1RZTTNKbGtWazl5R2RLYVh6bnBaQUVLQ1ZBSlBROTF5NlhuQnhEMXFNby1VNFd2VGw1TkZJcmd4Rlh5TEVRZGttRW9XWFl1d1BqNDFiX05kVy1i?oc=5",
-     "time": "2026-11-09T16:27:46+00:00"
-    },
-    {
-     "title": "Why Nvidia Stock Was Falling Today",
-     "publisher": "The Motley Fool",
-     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOYlZqNUxmQzlnN3lHb21CczIxWUF3cVl5SXhuTFNTMXpheWVYYW9UdDZOdjY5SUFjZWxpaWdIRDE3blF4RDhHMUhZcFRKZkxDOG8xUU9uVXQ0R2R2RlNGaERSeXp3OGdZU09VNDhMMlRmN2hBQ3FHV1dxY0VzUGhTOS16RQ?oc=5",
-     "time": "2026-11-09T16:23:00+00:00"
-    },
-    {
-     "title": "Commerce Dept. inquiry into chips transferred to DOJ after Nvidia intervention: report (NVDA:NASDAQ)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZEotNU5qTU40VXB1ZFZBUjBySXp5VHJ6czczQ0QyMnlkaV9yLWNYcmxNb2x4QXJaZUp5a2hoTW9HSjZORDFrMU40dkxhQ1liSy1YSFZMMXNxSXlObEctMExjUXFGV3JpYkZyMTNQT1BCXzBxVW1nM3IyRTZFbGRILThKRFdZTmlQR1J4QjVpVExVN1FQWjllekQ0WVZnU1E2S0NiUnRMYXpPT0VuNkxsbmJpWVNRZ25VY1dRckxnZw?oc=5",
-     "time": "2026-11-09T16:20:00+00:00"
-    },
-    {
-     "title": "Why Nvidia (NVDA) shares are trading lower today",
-     "publisher": "The Globe and Mail",
-     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNMHA3QzlzVlo5NThIWWgtRGVNenM1Tm4yYmstdzJDMFlTaHJJUUxOaVlFUS16VGFXdU84TlRjejl0b2VsbmgzN0JuNEhwQnY3c2t6THIweGZrMHR1VEVncEtNLVU4Nmt3WTVlSDNZNXdqZjhwdE0zbURYaTFHeWZJSU5HVDlLSHRRTXNaREJCSjl6WUU1ZFJzczNpN2NKSklMZVNtZlpKTFgwc1EtU1JhenVrX3VFcW16RzMyUUd2Z2E5WkFZdVgzbE5oVQ?oc=5",
-     "time": "2026-11-09T16:06:03+00:00"
-    },
-    {
-     "title": "CEO Investigation Triggers Nvidia Stock Slide",
-     "publisher": "Schaeffer's Investment Research",
-     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQNnZjT01tbTRyQ3ppOGRZc3NmZmE2YUxLbGctb0dRWmh2VXdlYnlSQ3pLM3JnMjhSdTJ0eFpvYkwwTFpjbkZ4QzE3YUtVMHhXZW0tZVdaMHJiMFJQT2hvNzBfUEpJQXdoRDBfVHh2ZTZ3T1VjZHpISnVJUGF1REFRMEpFbjEtUDA5VW92VVNCLVpPUFpnamU0WHF6UGJzbEQ4bXZtamFQaw?oc=5",
-     "time": "2026-11-09T16:02:51+00:00"
-    }
-   ],
-   "brief": "2026-11-09-NVDA"
-  },
-  {
    "symbol": "GOOG",
    "name": "Alphabet",
    "list": "portfolio",
-   "price": 289.24,
+   "price": 289.74,
    "prev_close": 283.93,
-   "change_pct": 1.9,
+   "change_pct": 2.0,
    "trigger_change": 3.1,
    "peak_change": 3.1,
    "first_seen": "2026-11-09T15:27:36+00:00",
    "sector": {
     "etf": "XLC",
     "name": "Communication",
-    "price": 107.09,
-    "change_pct": 2.19
+    "price": 107.12,
+    "change_pct": 2.23
    },
    "chart": {
-    "ema8": -0.1,
-    "ema21": -5.5,
-    "sma50": -12.0,
-    "sma200": -14.3,
+    "ema8": 0.1,
+    "ema21": -5.3,
+    "sma50": -11.9,
+    "sma200": -14.1,
     "momentum": false
    },
    "headlines": [
