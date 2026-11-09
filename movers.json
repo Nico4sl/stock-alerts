@@ -1,22 +1,22 @@
 {
  "date": "2026-11-09",
  "threshold": 3.0,
- "updated": "2026-11-09T18:05:43+00:00",
+ "updated": "2026-11-09T18:51:02+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 752.47,
-   "change_pct": 2.34
+   "price": 753.16,
+   "change_pct": 2.43
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 676.89,
-   "change_pct": 3.17
+   "price": 678.08,
+   "change_pct": 3.35
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 81.98,
-   "change_pct": 0.07
+   "price": 81.92,
+   "change_pct": 0.01
   }
  },
  "movers": [
@@ -24,23 +24,23 @@
    "symbol": "AMAT",
    "name": "Applied Materials",
    "list": "portfolio",
-   "price": 369.67,
+   "price": 371.51,
    "prev_close": 332.71,
-   "change_pct": 11.1,
+   "change_pct": 11.7,
    "trigger_change": 8.7,
    "peak_change": 11.7,
    "first_seen": "2026-11-09T14:57:33+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 483.91,
-    "change_pct": 4.3
+    "price": 485.48,
+    "change_pct": 4.64
    },
    "chart": {
-    "ema8": 1.1,
-    "ema21": -7.1,
-    "sma50": -16.6,
-    "sma200": -17.0,
+    "ema8": 1.5,
+    "ema21": -6.6,
+    "sma50": -16.1,
+    "sma200": -16.6,
     "momentum": false
    },
    "headlines": [
@@ -96,100 +96,25 @@
    "brief": "2026-11-09-AMAT"
   },
   {
-   "symbol": "ANET",
-   "name": "Arista Networks",
-   "list": "portfolio",
-   "price": 187.43,
-   "prev_close": 170.8,
-   "change_pct": 9.7,
-   "trigger_change": 8.1,
-   "peak_change": 9.9,
-   "first_seen": "2026-11-09T14:57:33+00:00",
-   "sector": {
-    "etf": "SMH",
-    "name": "Semiconductors",
-    "price": 483.91,
-    "change_pct": 4.3
-   },
-   "chart": {
-    "ema8": 6.9,
-    "ema21": 3.5,
-    "sma50": -2.6,
-    "sma200": 12.7,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Arista Sinks 14% in a Week Despite an $18.55 Billion 2027 Outlook",
-     "publisher": "TIKR.com",
-     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQeFJXRmZEUDJZVkhaRlBVN0hLN0w1Z2sxM1dlSHdWeDhpMThkbW1OdkRxRndGY0dzaG1nVExHNlNaT2ZWR2p1RDF0WEVqcDVQZFd3Ulg4R2M0VmtPX1FOTGwwVnhrODNMajFvZ2pHUE5JZUZOUGo1VERvSElvY1lFWjBwekJ4YVdLOVE?oc=5",
-     "time": "2026-11-09T14:00:51+00:00"
-    },
-    {
-     "title": "Wall Street Analysts Think Arista Networks (ANET) Is a Good Investment: Is It?",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNWmZScXl6Q0FPekJOelo1WEtzck1Nb1FHRFNsN0dpbEd5aUlOSUs0TnlPcHlZcEdSNnFncDAwaFA0VFdrSG5ZX3BsZEU2SmFoZXp5R2hfb1dZUkpodFFld1RjeGNjb0ctVEJNYWx5SzJnY1l6dFp3WkUyQTRMQWFGMDBkckllby1PR1BYTWNlSHpwSkQxZHdIcF9hQU1GTTA?oc=5",
-     "time": "2026-11-09T13:30:03+00:00"
-    },
-    {
-     "title": "Investors Heavily Search Arista Networks, Inc. (ANET): Here is What You Need to Know",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPT0dNSTNPdWdUejExVjRRdHpkU1lUSUNHUVNyZEZ2RS1LbW9iZDFnRVFQb1NiRTRoTURYaFkwOTJvZ0hHS0lPcF81VE1uWndCNHREYUp5RWk2RnRVSGZHdG0takFpdF9jWF91d09UV1ZPVnpDODRPbzA0SmMxaUdfcUpJcVNZZXREVU55VFVWSHFGVXMzNnVmNGlvbDRUbGlwTFZHVzNGN2M?oc=5",
-     "time": "2026-11-09T13:00:05+00:00"
-    },
-    {
-     "title": "Arista Networks, Inc. $ANET Position Increased by Fulcrum Asset Management LLP",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNOGJRb2xOTGZQTmFQempKSmFpemt0U3NaVUg1NkRWZWRKelB3ZGFjemVVVU0ySWNQczVPM3hsaEU1czZlMjMzSUU1VXo3Tm1qdGRoWVdBc0pOYWJkNGY4REJ5SnFQZHhFSjFjSWF2VFgtRGE5c1BySm1mbVo0SVp0QkRHT2lIMjcxdVNWd1V2ZkFVeUlEbVdESzZzUjByUHZGcWUxMWFsQ0NzWUFkV0EzeXJaUnlxYkNBRFRZM0hNcWRUSFl2U0hzQ2phRkpYN3BSX1E?oc=5",
-     "time": "2026-11-09T11:45:00+00:00"
-    },
-    {
-     "title": "14,335 Shares in Arista Networks, Inc. $ANET Bought by M Holdings Securities Inc.",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOUWNPRldtU3VpN2lYcmhvV3lXd0d0a2dNaXBMeUNHRFpoRGx4SmpHel9Nc2hqS3NkS2YwTHhnWXBBYy1XTkV5dEp0U2dsN0ptclAxWWdNX2o3OUpzdnUtMEpib2E0YlhDNkZ4YzVIdGZvcThfWnFOTk5WdDk5cjRQRG9mQnZ4djg5d05DM3JuUDBXLTV5NXk5SjN2dTkzdXNCRDdMcG5IcWhtdWQ2bVN4S2VNU3NnX00tZ1NvSUtnSkVlUktZQ1B6cXlmSjRZSkxpVXV3?oc=5",
-     "time": "2026-11-09T11:00:37+00:00"
-    },
-    {
-     "title": "Weekly Recap: Etherlink tops 100 customers and revenue grows 44.3%",
-     "publisher": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNaXhaaUxiSXhQNGVfWUlNUnprYS1US1BYSlVoQXpWXzEzNVNQa25EbVhDUnpQQ0xPNWxwUTRfYVdyREVTcVR0Nm55c21leUZpUi1rbGVaUTZvVExJSmVNOVk1MUpnWUVPZ004anYtazJQU0FUbVlXR3FnV2FIcDJwMDVtdTNyRi1ZcWdnWVoza25nVmxPY0dlZHFTU2RDMG9MYmRMOF9QdDVBaDRrVTZfMUt5NkxIeWNOc0cwQ19Ob1lKYjVm?oc=5",
-     "time": "2026-11-09T11:00:00+00:00"
-    },
-    {
-     "title": "Arista Networks, Inc. $ANET Stock: Verus Capital Partners LLC Trims Holdings",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOYlBjVlAyWGU1bUJUUi1wLXpZeFdDa3g0YWpnYlBSV2lkLVJPMGgwaDVLaXY5YjhrYkJ0cS1RalVPMW5pMWRMX1VFa1cwdlg5N3JKLTFURmdZc0Q5Q1BVUGZkZTlIdC1nN2NWMWxvOHVvd0VtTFA2X1RtWmw5UjJxaE8tdWI2T29jOUk3SzE3WmlCaEREYkwyeVRUYjlwRFI4bnAtRUZFWDdfdXQwREZ3TFFVQkVvcU00WVJHNm9FOGRvRkN2X1dPU0RyNFR0UQ?oc=5",
-     "time": "2026-11-09T10:40:08+00:00"
-    },
-    {
-     "title": "Allspring Global Investments Holdings LLC Sells 42,373 Shares of Arista Networks, Inc. $ANET",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOaUdHdUhyazc4ejhGSHVKX2IwcnBIUS1aOFdyU1djUWJnRHdjeGdwSVA1QlZVZTE3MXlKMDg2QThTc0xXYXg3Xzk0SXBiRk50dkcwZ3hRUmlBTVRLWEZDX0xMcVIzWlM3SGVmdllLZHNXamJUekRIWXd5SmxCS3pnU2JCcG1jV0p2bUhmY2pGeExIRTRXY0Y4UmNKdmpWc0JVN3JoT0pRNXZIY3lJMzVWX3M4dWMzNTh0MlpvZWN5T1J3Z3NpNENrT3A0VFhZeDllY3BvS1ctdzRUTENGVHRSTEx0SQ?oc=5",
-     "time": "2026-11-09T08:25:46+00:00"
-    }
-   ],
-   "brief": "2026-11-09-ANET"
-  },
-  {
    "symbol": "AVGO",
    "name": "Broadcom",
    "list": "portfolio",
-   "price": 319.6,
+   "price": 319.74,
    "prev_close": 293.69,
-   "change_pct": 8.8,
+   "change_pct": 8.9,
    "trigger_change": 7.0,
    "peak_change": 9.3,
    "first_seen": "2026-11-09T14:57:33+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 483.91,
-    "change_pct": 4.3
+    "price": 485.48,
+    "change_pct": 4.64
    },
    "chart": {
-    "ema8": 0.8,
-    "ema21": -3.1,
-    "sma50": -7.9,
+    "ema8": 0.9,
+    "ema21": -3.0,
+    "sma50": -7.8,
     "sma200": -12.9,
     "momentum": false
    },
@@ -246,26 +171,101 @@
    "brief": "2026-11-09-AVGO"
   },
   {
+   "symbol": "ANET",
+   "name": "Arista Networks",
+   "list": "portfolio",
+   "price": 185.45,
+   "prev_close": 170.8,
+   "change_pct": 8.6,
+   "trigger_change": 8.1,
+   "peak_change": 9.9,
+   "first_seen": "2026-11-09T14:57:33+00:00",
+   "sector": {
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 485.48,
+    "change_pct": 4.64
+   },
+   "chart": {
+    "ema8": 6.0,
+    "ema21": 2.5,
+    "sma50": -3.6,
+    "sma200": 11.5,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Arista Sinks 14% in a Week Despite an $18.55 Billion 2027 Outlook",
+     "publisher": "TIKR.com",
+     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQeFJXRmZEUDJZVkhaRlBVN0hLN0w1Z2sxM1dlSHdWeDhpMThkbW1OdkRxRndGY0dzaG1nVExHNlNaT2ZWR2p1RDF0WEVqcDVQZFd3Ulg4R2M0VmtPX1FOTGwwVnhrODNMajFvZ2pHUE5JZUZOUGo1VERvSElvY1lFWjBwekJ4YVdLOVE?oc=5",
+     "time": "2026-11-09T14:00:51+00:00"
+    },
+    {
+     "title": "Wall Street Analysts Think Arista Networks (ANET) Is a Good Investment: Is It?",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNWmZScXl6Q0FPekJOelo1WEtzck1Nb1FHRFNsN0dpbEd5aUlOSUs0TnlPcHlZcEdSNnFncDAwaFA0VFdrSG5ZX3BsZEU2SmFoZXp5R2hfb1dZUkpodFFld1RjeGNjb0ctVEJNYWx5SzJnY1l6dFp3WkUyQTRMQWFGMDBkckllby1PR1BYTWNlSHpwSkQxZHdIcF9hQU1GTTA?oc=5",
+     "time": "2026-11-09T13:30:03+00:00"
+    },
+    {
+     "title": "Investors Heavily Search Arista Networks, Inc. (ANET): Here is What You Need to Know",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPT0dNSTNPdWdUejExVjRRdHpkU1lUSUNHUVNyZEZ2RS1LbW9iZDFnRVFQb1NiRTRoTURYaFkwOTJvZ0hHS0lPcF81VE1uWndCNHREYUp5RWk2RnRVSGZHdG0takFpdF9jWF91d09UV1ZPVnpDODRPbzA0SmMxaUdfcUpJcVNZZXREVU55VFVWSHFGVXMzNnVmNGlvbDRUbGlwTFZHVzNGN2M?oc=5",
+     "time": "2026-11-09T13:00:05+00:00"
+    },
+    {
+     "title": "Arista Networks, Inc. $ANET Position Increased by Fulcrum Asset Management LLP",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNOGJRb2xOTGZQTmFQempKSmFpemt0U3NaVUg1NkRWZWRKelB3ZGFjemVVVU0ySWNQczVPM3hsaEU1czZlMjMzSUU1VXo3Tm1qdGRoWVdBc0pOYWJkNGY4REJ5SnFQZHhFSjFjSWF2VFgtRGE5c1BySm1mbVo0SVp0QkRHT2lIMjcxdVNWd1V2ZkFVeUlEbVdESzZzUjByUHZGcWUxMWFsQ0NzWUFkV0EzeXJaUnlxYkNBRFRZM0hNcWRUSFl2U0hzQ2phRkpYN3BSX1E?oc=5",
+     "time": "2026-11-09T11:45:00+00:00"
+    },
+    {
+     "title": "14,335 Shares in Arista Networks, Inc. $ANET Bought by M Holdings Securities Inc.",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOUWNPRldtU3VpN2lYcmhvV3lXd0d0a2dNaXBMeUNHRFpoRGx4SmpHel9Nc2hqS3NkS2YwTHhnWXBBYy1XTkV5dEp0U2dsN0ptclAxWWdNX2o3OUpzdnUtMEpib2E0YlhDNkZ4YzVIdGZvcThfWnFOTk5WdDk5cjRQRG9mQnZ4djg5d05DM3JuUDBXLTV5NXk5SjN2dTkzdXNCRDdMcG5IcWhtdWQ2bVN4S2VNU3NnX00tZ1NvSUtnSkVlUktZQ1B6cXlmSjRZSkxpVXV3?oc=5",
+     "time": "2026-11-09T11:00:37+00:00"
+    },
+    {
+     "title": "Weekly Recap: Etherlink tops 100 customers and revenue grows 44.3%",
+     "publisher": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNaXhaaUxiSXhQNGVfWUlNUnprYS1US1BYSlVoQXpWXzEzNVNQa25EbVhDUnpQQ0xPNWxwUTRfYVdyREVTcVR0Nm55c21leUZpUi1rbGVaUTZvVExJSmVNOVk1MUpnWUVPZ004anYtazJQU0FUbVlXR3FnV2FIcDJwMDVtdTNyRi1ZcWdnWVoza25nVmxPY0dlZHFTU2RDMG9MYmRMOF9QdDVBaDRrVTZfMUt5NkxIeWNOc0cwQ19Ob1lKYjVm?oc=5",
+     "time": "2026-11-09T11:00:00+00:00"
+    },
+    {
+     "title": "Arista Networks, Inc. $ANET Stock: Verus Capital Partners LLC Trims Holdings",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOYlBjVlAyWGU1bUJUUi1wLXpZeFdDa3g0YWpnYlBSV2lkLVJPMGgwaDVLaXY5YjhrYkJ0cS1RalVPMW5pMWRMX1VFa1cwdlg5N3JKLTFURmdZc0Q5Q1BVUGZkZTlIdC1nN2NWMWxvOHVvd0VtTFA2X1RtWmw5UjJxaE8tdWI2T29jOUk3SzE3WmlCaEREYkwyeVRUYjlwRFI4bnAtRUZFWDdfdXQwREZ3TFFVQkVvcU00WVJHNm9FOGRvRkN2X1dPU0RyNFR0UQ?oc=5",
+     "time": "2026-11-09T10:40:08+00:00"
+    },
+    {
+     "title": "Allspring Global Investments Holdings LLC Sells 42,373 Shares of Arista Networks, Inc. $ANET",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOaUdHdUhyazc4ejhGSHVKX2IwcnBIUS1aOFdyU1djUWJnRHdjeGdwSVA1QlZVZTE3MXlKMDg2QThTc0xXYXg3Xzk0SXBiRk50dkcwZ3hRUmlBTVRLWEZDX0xMcVIzWlM3SGVmdllLZHNXamJUekRIWXd5SmxCS3pnU2JCcG1jV0p2bUhmY2pGeExIRTRXY0Y4UmNKdmpWc0JVN3JoT0pRNXZIY3lJMzVWX3M4dWMzNTh0MlpvZWN5T1J3Z3NpNENrT3A0VFhZeDllY3BvS1ctdzRUTENGVHRSTEx0SQ?oc=5",
+     "time": "2026-11-09T08:25:46+00:00"
+    }
+   ],
+   "brief": "2026-11-09-ANET"
+  },
+  {
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 139.48,
+   "price": 139.61,
    "prev_close": 129.49,
-   "change_pct": 7.7,
+   "change_pct": 7.8,
    "trigger_change": 6.5,
    "peak_change": 9.1,
    "first_seen": "2026-11-09T14:57:33+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 101.09,
-    "change_pct": 2.24
+    "price": 101.25,
+    "change_pct": 2.4
    },
    "chart": {
-    "ema8": -2.4,
+    "ema8": -2.3,
     "ema21": -14.8,
-    "sma50": -30.4,
-    "sma200": -21.9,
+    "sma50": -30.3,
+    "sma200": -21.8,
     "momentum": false
    },
    "headlines": [
@@ -321,101 +321,26 @@
    "brief": "2026-11-09-NBIS"
   },
   {
-   "symbol": "NVDA",
-   "name": "Nvidia",
-   "list": "portfolio",
-   "price": 176.64,
-   "prev_close": 186.64,
-   "change_pct": -5.4,
-   "trigger_change": -4.9,
-   "peak_change": -6.4,
-   "first_seen": "2026-11-09T14:57:33+00:00",
-   "sector": {
-    "etf": "SMH",
-    "name": "Semiconductors",
-    "price": 483.91,
-    "change_pct": 4.3
-   },
-   "chart": {
-    "ema8": -8.8,
-    "ema21": -14.4,
-    "sma50": -19.3,
-    "sma200": -13.7,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Nvidia Stock\u2014Is the Huang Controversy a Long-Term Risk?",
-     "publisher": "Benzinga",
-     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPSDUzQlBCdGRPaFJiZU80ZDVvd1F4d3REUTA2STA2Y1pqVzhLbUFhc2gtSDBERENJTXgtdnlZb1ItTnNaTFRSRTJfNk9UaGxVSWNCLUx4a2tvN0FqcUV6eS1jYzV3N1JybHNjWGNXM1N0MTRoR0FwRExMMGhaVGJDTzBZVjdSazVjWUk0Q0ZlZFoxWTlRcnU2WWtyUGIwbV8tRkt6MA?oc=5",
-     "time": "2026-11-09T17:20:03+00:00"
-    },
-    {
-     "title": "NVDA Stock Attempts Recovery after Breakdown on Nvidia Board CEO Jensen Huang Investigation Over Relationship with Alleged Spy",
-     "publisher": "FXLeaders",
-     "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPRDNZM0ZmYWVLeFdaemNNd1AtbXlZOUdlREtySXB5cmttZW94TVV3OFpFVUVZWDJmN0VYZE1ZazdFYmVEUlNSTm1vd1U0VWVUTzk4UGZTX3ZtR0tPcXAwMDRCMVI1V0twY3g3SnBEWHl6Y29HSlFCcVhYOGNkdUNXa2h3NEtrMGFncnRFWnhqeVVjRUhlTHl5RUZ6cmN6SG9kNi0yWHl3dDVnT2d2WW1vVERJSVprUDV6MGo3S1dFZWNqcnpodlY4UXJKVm5MWktoV0Qxd25BQ04tV0tnUkNCa1EyQXhJUTFORGJPM2ktWHlFZmZQblhlNU02clRkUQ?oc=5",
-     "time": "2026-11-09T17:13:00+00:00"
-    },
-    {
-     "title": "Jensen Huang's fortune: how Nvidia stock built it and what could erode it",
-     "publisher": "qz.com",
-     "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5rNkxyT2ZjY0l0REdKSHhtR2VXVThvelZrYmlwVGwtM20wcnJNZDFmMlFGbDgzLUJzY0pxcTZyRVZpNnlGMnZ6VkNNMElMSjJjeFhXc2daajA0MWh3LThV?oc=5",
-     "time": "2026-11-09T17:11:16+00:00"
-    },
-    {
-     "title": "Why Ousting Nvidia\u2019s CEO May Be Worse Than the Scandal Itself",
-     "publisher": "Barron's",
-     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1HRXFMT2pzMTR2MGUybjNiVm5aYUhrX0VPZGxUVmMteGIzNmFNZHgzNDRRMHFfb1pNSmxLT1d2a1dPSHlaTGpFdG84c0x4N2FMY2NtYk92M1hZLV9jQi1kQVJIM29rM0pOeFRwUTJCelpHNGpSck55UkZMUld2QQ?oc=5",
-     "time": "2026-11-09T16:51:00+00:00"
-    },
-    {
-     "title": "NVIDIA (NASDAQ:NVDA) Shares Gap Down - What's Next?",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQVmNuX0gzQ29vR1ByZW9ycThsQWdUY2dZUE9ERFY3VUVJOHpXcmlmbF9SbTM4VGxzWHZEOGlvNGdYVlBCRDFZUjBsRWF4R2FUUWpmZjJUekhSS081T3BHbmZJOW9nRTBPM1pGQ1IwMXpCWlhLb2U5dm5KMVNKZjJIcmR0Y1I1WHZtaUNNa1NaaUpLZndmbUNydUxzQXlqS0NqbnlEWW5jaGY?oc=5",
-     "time": "2026-11-09T16:45:11+00:00"
-    },
-    {
-     "title": "Nvidia Gets the Spotlight, but This AI Stock Could Steal the Show in 2027",
-     "publisher": "24/7 Wall St.",
-     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxObHI5THF0T0tkbHpXWHQ0Zk5WSEhrSmszQWZRYzVJWENpRTh6RDFHR3FwRWMyZ3hhQ205S0E1azlVYXRjYlc5cS1Lb1dDTEp3WVVmT3dHSy1mVFo0MUpWTm84WmlkcFdnNFlTOXhGWlp4Q2dpYTR6ODU1SzRvdHhnVlJzRUh3bW1kTXp6Mmxfdko3dThXOFYtblU4ZnRzZVZQR3dvWmV2MzRWbnBEb3RqemxYUDFhdG8?oc=5",
-     "time": "2026-11-09T16:33:00+00:00"
-    },
-    {
-     "title": "Nvidia: Jensen Huang's Crisis Puts $5.5 Trillion To The Test (NASDAQ:NVDA)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNOEdwUGRKekxGYnZZVlFLLUNfQU1LeEg1ZTg2ZXhlVEZ1N0trVTBMak5JWGN4YkNoQ3l1Nmk3SC02YkpqNXd6c2Z1c2dzNmVVdExHVnlnOFZxc3dXNXNicjlGUmIyZFNJQVREQ0JtT014NGd2SkhoN2J2XzRnV3hCYWY2SnRKYjgtdVlSTGotejdyWHFYdWdHQlNzR3dBdw?oc=5",
-     "time": "2026-11-09T16:30:00+00:00"
-    },
-    {
-     "title": "Jensen Huang Has \u201cNo Natural Successor\u201d at Nvidia, Warns Gary Black as the Board Investigates",
-     "publisher": "TIKR.com",
-     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOOG9IbXQ5NGdvTDE2cDIweVFLRXRjOTJEZmp1X245eFh6eVh5Z1Q0RHJDakk5cC1sOXE3R0NtT1FLTmJKQXhlWjJZSU5TVzAwaVVxRVNmMTJaZlZqOFNpZzhBMWU2d1RZTTNKbGtWazl5R2RLYVh6bnBaQUVLQ1ZBSlBROTF5NlhuQnhEMXFNby1VNFd2VGw1TkZJcmd4Rlh5TEVRZGttRW9XWFl1d1BqNDFiX05kVy1i?oc=5",
-     "time": "2026-11-09T16:27:46+00:00"
-    }
-   ],
-   "brief": "2026-11-09-NVDA"
-  },
-  {
    "symbol": "META",
    "name": "Meta",
    "list": "portfolio",
-   "price": 643.2,
+   "price": 641.81,
    "prev_close": 610.15,
-   "change_pct": 5.4,
+   "change_pct": 5.2,
    "trigger_change": 5.0,
    "peak_change": 5.4,
    "first_seen": "2026-11-09T14:57:33+00:00",
    "sector": {
     "etf": "XLC",
     "name": "Communication",
-    "price": 107.2,
-    "change_pct": 2.3
+    "price": 107.11,
+    "change_pct": 2.22
    },
    "chart": {
-    "ema8": 2.8,
-    "ema21": -0.9,
-    "sma50": -4.9,
-    "sma200": 1.8,
+    "ema8": 2.6,
+    "ema21": -1.0,
+    "sma50": -5.1,
+    "sma200": 1.6,
     "momentum": false
    },
    "headlines": [
@@ -471,6 +396,81 @@
    "brief": "2026-11-09-META"
   },
   {
+   "symbol": "NVDA",
+   "name": "Nvidia",
+   "list": "portfolio",
+   "price": 177.17,
+   "prev_close": 186.64,
+   "change_pct": -5.1,
+   "trigger_change": -4.9,
+   "peak_change": -6.4,
+   "first_seen": "2026-11-09T14:57:33+00:00",
+   "sector": {
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 485.48,
+    "change_pct": 4.64
+   },
+   "chart": {
+    "ema8": -8.6,
+    "ema21": -14.1,
+    "sma50": -19.1,
+    "sma200": -13.4,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Nvidia Stock\u2014Is the Huang Controversy a Long-Term Risk?",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPSDUzQlBCdGRPaFJiZU80ZDVvd1F4d3REUTA2STA2Y1pqVzhLbUFhc2gtSDBERENJTXgtdnlZb1ItTnNaTFRSRTJfNk9UaGxVSWNCLUx4a2tvN0FqcUV6eS1jYzV3N1JybHNjWGNXM1N0MTRoR0FwRExMMGhaVGJDTzBZVjdSazVjWUk0Q0ZlZFoxWTlRcnU2WWtyUGIwbV8tRkt6MA?oc=5",
+     "time": "2026-11-09T17:20:03+00:00"
+    },
+    {
+     "title": "NVDA Stock Attempts Recovery after Breakdown on Nvidia Board CEO Jensen Huang Investigation Over Relationship with Alleged Spy",
+     "publisher": "FXLeaders",
+     "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPRDNZM0ZmYWVLeFdaemNNd1AtbXlZOUdlREtySXB5cmttZW94TVV3OFpFVUVZWDJmN0VYZE1ZazdFYmVEUlNSTm1vd1U0VWVUTzk4UGZTX3ZtR0tPcXAwMDRCMVI1V0twY3g3SnBEWHl6Y29HSlFCcVhYOGNkdUNXa2h3NEtrMGFncnRFWnhqeVVjRUhlTHl5RUZ6cmN6SG9kNi0yWHl3dDVnT2d2WW1vVERJSVprUDV6MGo3S1dFZWNqcnpodlY4UXJKVm5MWktoV0Qxd25BQ04tV0tnUkNCa1EyQXhJUTFORGJPM2ktWHlFZmZQblhlNU02clRkUQ?oc=5",
+     "time": "2026-11-09T17:13:00+00:00"
+    },
+    {
+     "title": "Jensen Huang's fortune: how Nvidia stock built it and what could erode it",
+     "publisher": "qz.com",
+     "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5rNkxyT2ZjY0l0REdKSHhtR2VXVThvelZrYmlwVGwtM20wcnJNZDFmMlFGbDgzLUJzY0pxcTZyRVZpNnlGMnZ6VkNNMElMSjJjeFhXc2daajA0MWh3LThV?oc=5",
+     "time": "2026-11-09T17:11:16+00:00"
+    },
+    {
+     "title": "Why Ousting Nvidia\u2019s CEO May Be Worse Than the Scandal Itself",
+     "publisher": "Barron's",
+     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1HRXFMT2pzMTR2MGUybjNiVm5aYUhrX0VPZGxUVmMteGIzNmFNZHgzNDRRMHFfb1pNSmxLT1d2a1dPSHlaTGpFdG84c0x4N2FMY2NtYk92M1hZLV9jQi1kQVJIM29rM0pOeFRwUTJCelpHNGpSck55UkZMUld2QQ?oc=5",
+     "time": "2026-11-09T16:51:00+00:00"
+    },
+    {
+     "title": "NVIDIA (NASDAQ:NVDA) Shares Gap Down - What's Next?",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQVmNuX0gzQ29vR1ByZW9ycThsQWdUY2dZUE9ERFY3VUVJOHpXcmlmbF9SbTM4VGxzWHZEOGlvNGdYVlBCRDFZUjBsRWF4R2FUUWpmZjJUekhSS081T3BHbmZJOW9nRTBPM1pGQ1IwMXpCWlhLb2U5dm5KMVNKZjJIcmR0Y1I1WHZtaUNNa1NaaUpLZndmbUNydUxzQXlqS0NqbnlEWW5jaGY?oc=5",
+     "time": "2026-11-09T16:45:11+00:00"
+    },
+    {
+     "title": "Nvidia Gets the Spotlight, but This AI Stock Could Steal the Show in 2027",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxObHI5THF0T0tkbHpXWHQ0Zk5WSEhrSmszQWZRYzVJWENpRTh6RDFHR3FwRWMyZ3hhQ205S0E1azlVYXRjYlc5cS1Lb1dDTEp3WVVmT3dHSy1mVFo0MUpWTm84WmlkcFdnNFlTOXhGWlp4Q2dpYTR6ODU1SzRvdHhnVlJzRUh3bW1kTXp6Mmxfdko3dThXOFYtblU4ZnRzZVZQR3dvWmV2MzRWbnBEb3RqemxYUDFhdG8?oc=5",
+     "time": "2026-11-09T16:33:00+00:00"
+    },
+    {
+     "title": "Nvidia: Jensen Huang's Crisis Puts $5.5 Trillion To The Test (NASDAQ:NVDA)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNOEdwUGRKekxGYnZZVlFLLUNfQU1LeEg1ZTg2ZXhlVEZ1N0trVTBMak5JWGN4YkNoQ3l1Nmk3SC02YkpqNXd6c2Z1c2dzNmVVdExHVnlnOFZxc3dXNXNicjlGUmIyZFNJQVREQ0JtT014NGd2SkhoN2J2XzRnV3hCYWY2SnRKYjgtdVlSTGotejdyWHFYdWdHQlNzR3dBdw?oc=5",
+     "time": "2026-11-09T16:30:00+00:00"
+    },
+    {
+     "title": "Jensen Huang Has \u201cNo Natural Successor\u201d at Nvidia, Warns Gary Black as the Board Investigates",
+     "publisher": "TIKR.com",
+     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOOG9IbXQ5NGdvTDE2cDIweVFLRXRjOTJEZmp1X245eFh6eVh5Z1Q0RHJDakk5cC1sOXE3R0NtT1FLTmJKQXhlWjJZSU5TVzAwaVVxRVNmMTJaZlZqOFNpZzhBMWU2d1RZTTNKbGtWazl5R2RLYVh6bnBaQUVLQ1ZBSlBROTF5NlhuQnhEMXFNby1VNFd2VGw1TkZJcmd4Rlh5TEVRZGttRW9XWFl1d1BqNDFiX05kVy1i?oc=5",
+     "time": "2026-11-09T16:27:46+00:00"
+    }
+   ],
+   "brief": "2026-11-09-NVDA"
+  },
+  {
    "symbol": "SOFI",
    "name": "SoFi",
    "list": "portfolio",
@@ -483,8 +483,8 @@
    "sector": {
     "etf": "XLF",
     "name": "Financials",
-    "price": 58.2,
-    "change_pct": 1.81
+    "price": 58.23,
+    "change_pct": 1.86
    },
    "chart": {
     "ema8": 1.9,
@@ -549,23 +549,23 @@
    "symbol": "APP",
    "name": "AppLovin",
    "list": "portfolio",
-   "price": 405.44,
+   "price": 405.87,
    "prev_close": 391.22,
-   "change_pct": 3.6,
+   "change_pct": 3.7,
    "trigger_change": 3.8,
    "peak_change": 9.9,
    "first_seen": "2026-11-09T15:12:35+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 101.09,
-    "change_pct": 2.24
+    "price": 101.25,
+    "change_pct": 2.4
    },
    "chart": {
-    "ema8": 24.8,
-    "ema21": 37.7,
-    "sma50": 37.4,
-    "sma200": -0.8,
+    "ema8": 24.9,
+    "ema21": 37.8,
+    "sma50": 37.5,
+    "sma200": -0.7,
     "momentum": true
    },
    "headlines": [
@@ -624,23 +624,23 @@
    "symbol": "AMZN",
    "name": "Amazon",
    "list": "portfolio",
-   "price": 268.35,
+   "price": 268.57,
    "prev_close": 259.3,
-   "change_pct": 3.5,
+   "change_pct": 3.6,
    "trigger_change": 5.3,
    "peak_change": 5.3,
    "first_seen": "2026-11-09T14:57:33+00:00",
    "sector": {
     "etf": "XLY",
     "name": "Consumer discr.",
-    "price": 121.29,
-    "change_pct": 3.16
+    "price": 121.38,
+    "change_pct": 3.23
    },
    "chart": {
-    "ema8": 3.9,
-    "ema21": 5.1,
+    "ema8": 4.0,
+    "ema21": 5.2,
     "sma50": 5.7,
-    "sma200": 9.9,
+    "sma200": 10.0,
     "momentum": true
    },
    "headlines": [
@@ -699,23 +699,23 @@
    "symbol": "CRWD",
    "name": "CrowdStrike",
    "list": "portfolio",
-   "price": 223.47,
+   "price": 224.49,
    "prev_close": 216.9,
-   "change_pct": 3.0,
+   "change_pct": 3.5,
    "trigger_change": 3.7,
    "peak_change": 3.7,
    "first_seen": "2026-11-09T16:04:16+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 101.09,
-    "change_pct": 2.24
+    "price": 101.25,
+    "change_pct": 2.4
    },
    "chart": {
-    "ema8": -4.2,
-    "ema21": -7.8,
-    "sma50": -8.4,
-    "sma200": 30.8,
+    "ema8": -3.9,
+    "ema21": -7.4,
+    "sma50": -8.0,
+    "sma200": 31.4,
     "momentum": false
    },
    "headlines": [
@@ -762,23 +762,23 @@
    "symbol": "GOOG",
    "name": "Alphabet",
    "list": "portfolio",
-   "price": 288.7,
+   "price": 287.93,
    "prev_close": 283.93,
-   "change_pct": 1.7,
+   "change_pct": 1.4,
    "trigger_change": 3.1,
    "peak_change": 3.1,
    "first_seen": "2026-11-09T15:27:36+00:00",
    "sector": {
     "etf": "XLC",
     "name": "Communication",
-    "price": 107.2,
-    "change_pct": 2.3
+    "price": 107.11,
+    "change_pct": 2.22
    },
    "chart": {
-    "ema8": -0.2,
-    "ema21": -5.7,
-    "sma50": -12.2,
-    "sma200": -14.4,
+    "ema8": -0.4,
+    "ema21": -5.9,
+    "sma50": -12.4,
+    "sma200": -14.6,
     "momentum": false
    },
    "headlines": [
