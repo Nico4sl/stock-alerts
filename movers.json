@@ -1,121 +1,46 @@
 {
  "date": "2026-11-10",
  "threshold": 3.0,
- "updated": "2026-11-10T15:04:06+00:00",
+ "updated": "2026-11-10T15:39:27+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 751.57,
-   "change_pct": -0.15
+   "price": 748.88,
+   "change_pct": -0.51
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 680.21,
-   "change_pct": 0.13
+   "price": 675.38,
+   "change_pct": -0.58
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 80.89,
-   "change_pct": -1.31
+   "price": 80.83,
+   "change_pct": -1.37
   }
  },
  "movers": [
   {
-   "symbol": "AVGO",
-   "name": "Broadcom",
-   "list": "portfolio",
-   "price": 331.75,
-   "prev_close": 319.48,
-   "change_pct": 3.8,
-   "trigger_change": 3.8,
-   "peak_change": 3.8,
-   "first_seen": "2026-11-10T15:04:06+00:00",
-   "sector": {
-    "etf": "SMH",
-    "name": "Semiconductors",
-    "price": 490.75,
-    "change_pct": 0.69
-   },
-   "chart": {
-    "ema8": 3.6,
-    "ema21": 0.6,
-    "sma50": -4.2,
-    "sma200": -9.6,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "NVIDIA Falls 4% as Board Probe of Jensen Huang Weighs on Shares; AMD and Broadcom Gain 3%",
-     "publisher": "24/7 Wall St.",
-     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQb2s1ekxJVnk0YTFNZ3lIU3VXUk5ScGNGSzVtU2tZRWZkWUdEVVlWV3BDZGdPMy1GZG0tdjdpSUg2bXJReWtrNzkwdWNVM2ZuTEpoMDFURlRyYWRseXI5SGJtakZseVVxekdoRGlidGp3cTlkUEp3MndZSnFVcHp6YWJmaTg1NGQ3SU9YcVFpbEZoWmZrREpZYnNYR2tWMGJQT0syYUlnWGJHcUt4NDdfX24xVHFTc3Q3YjhxSFFwNUswOWFxbU44V053?oc=5",
-     "time": "2026-11-10T14:56:00+00:00"
-    },
-    {
-     "title": "Nvidia and Broadcom Are Scaling AI Data Centers With This Growth Stock. Here's Why It Could Soar.",
-     "publisher": "The Motley Fool",
-     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPUU9IbmVoczhsRnBpMm04b0FBaWdCX0dpcXAwbDJtcGJwV2xqbTVPcDFKbkh5N0E4ZUVjak9vMUlrSTRsSW1VSWswcWI2cXVTaXEydWZiZmFQU2E5U3RHSVoyZ1paekI3b3FSV3pZWWZsZk1GSUczMDhBdVUtaFgwLVB4cmtlOHJJc3BIei1IekEyNUct?oc=5",
-     "time": "2026-11-10T14:15:00+00:00"
-    },
-    {
-     "title": "Broadcom Just Had Its Best Day in Nearly a Year, Back Above $1.5 Trillion",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxONzdtNnUxQllkOGl5bktYQkdsekhTeXlyMl9zWmEtazJ0dk9YODZTSk1aaTB5aHpsNEIwOUZBVGduX3EwT3dUakZDeGdhN1VyalVfeTVHY1pXMWhtZ0R5R0s1SmZCUXJnRW9QTm1iYjM5U0NUcnBFME9tX0FTVklxVEJadVU3cmduazdHRkxoWDVldnQ3TUE?oc=5",
-     "time": "2026-11-10T13:53:50+00:00"
-    },
-    {
-     "title": "J.P. Morgan Maintains Broadcom(AVGO.US) With Buy Rating",
-     "publisher": "Moomoo",
-     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxORVIya0dDcXlPMlBkUC0wZS1pSUhVdFRRTGFwc0F1cGktMmZCeXN5M2g4THBDalVjTGFWWHptM01kblNLdGowU0VNTENvOFN6VmFHMk9pczZuclBtZVFiaWw0ampIOUI3X1poV054N3dudWhqZ2ZmOGVtYVM1ZU9oM1J3SDctNTBmSmV3aFFaYW8tcl9TazJKeVJuaw?oc=5",
-     "time": "2026-11-10T13:48:50+00:00"
-    },
-    {
-     "title": "Google\u2019s New AI System Doubles Compute in the Same Space. JPMorgan Sees a Broadcom Win",
-     "publisher": "Benzinga",
-     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOVkt3ZXV0ZXY3V3lSZFIyUVVxTFdSOWwwbGRYTC10VVpXaHM0TTl0YUJEVV9CUXdUZkZHc1dMek5uS0loQUw1YkV1NWJwOURaMVhZalE1eVdITTE2NmxCVk1ERUxHczVvUzVaUHFpMmNDbW5wTFk3QzZYQUV5RjQ2SkdBcnB1d1NiSlZMZXNOUzBsZGc?oc=5",
-     "time": "2026-11-10T13:35:18+00:00"
-    },
-    {
-     "title": "Broadcom stock faces an AI growth test as valuation resets",
-     "publisher": "ad-hoc-news.de",
-     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNQ0JrcGltTUNXSnphX0ZvZVVVZUljZVhlMDVaN3BDclF3UlY0eXcyNmljNE9KMFN3SC1maWdkYVZKc3lPcmExU21rMHdoTGJ5S1ZNSU9iZW5naThxdDVWcy1oaVVFZkJLdl9CaHhZNmh0aWRjSjRpMjBNR3NaeFdVaXl5SFA3MXhfQlJkRU1pMXRnUWVvamdJUTQ4XzZWc3pONGRmRkV0SzZ2dVMyWFJ1Zlc4djBOaFQ3MWZGd29R?oc=5",
-     "time": "2026-11-10T12:32:21+00:00"
-    },
-    {
-     "title": "Broadcom And 2 More Undervalued Stocks To Improve Your Portfolio",
-     "publisher": "Simply Wall St",
-     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOeHNzUEkwOHNMV0REN3F3bWVldy1jUm9xNTFSNlo3bEswNS1KYjhuZGRIa0F0aHZUN2JLRlRzNExiTFlJNENmV3hVRG5CNTZWRjVYcnBZSGxFR1ZTRWpacDJuSnFVdE8tcWFnaXJTSjhoZXpOQ0FhMW5MQTMwSFlSakgzUHZGUG5yd3B2Vks3SmpBc1JkNmJDNnlabUFwU2F0ZmZkNWZuX0llSXhEMnJ0Q2ZYZTY3WUZIQzNQZ0FpalJJaEJUT2J4UFVCU2J4d9IB0wFBVV95cUxOc0VlWDRzbFdhLTJxZUkwR2k0M2JNTEhuaW9xeGJhWDdWSVV3VnJGcE14VnUta2lORWxEMzFFUzVKdlJ5Uk84ZUNJbjFGZXNZajdXRHB2WHVBRmdESXRoSzJweFMzX3lrOTlxdjBOT1Juank1M1VPTktuYXV5U2RKb0hZUGV3c2ZrekFVRG5SYmlJc2pJVWJYWVVoRExZZHBTOGRsOFNLbHhzY0lSWmhoeTNQMXFNTUVHN25lc2dsRDVUZll0V2dad1ZSNHpzVkVyZnNv?oc=5",
-     "time": "2026-11-10T12:31:58+00:00"
-    },
-    {
-     "title": "Why Is Broadcom (AVGO) Open Sourcing VM API And Shaping Kubernetes Standards?",
-     "publisher": "Simply Wall St",
-     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQa0xuM3k2UnpmWE5IQmpTeEVvS0pldlBlOVRvbkliRnI2eU1RYktndTFBX0syM1o0bTJ0M1BOWW9hRzlKZGktTEw4aTgyVzY5NUVaQ2ZCWjNxcmpaY0JrWkFORjV1R05iX05vTktIM1g0WUFXWl9LZm1Cb3dXT0ZqWVpJX2xOZE96eXo5WXkxYjVTeWQ3UWlCbURsR0FHWW82ZE1KMU4td1ZsR01tNWhjN0UzS0tqVlprZjhFQnN2b1BGZWYzRG9yTUhsaTVDUdIB0wFBVV95cUxNT09BcUxVVzR4dWRpR1FGMEJTZjhGNVRUY0Zwai1GekU1WlN2SndDcnFQdVhmQ3JOck9SZVJqLWZsaVA4ZUFJUG93U2hKMFVSZlZyazhaWXVBYTRsN01DNnU5dUtVZjVnWGtpMm9PVHZTbkx4Z2I1UVJZSm5fajVic0ZkSnh4YXZQdlZrckJhdlRCaE5BcXVLZzlNdGVsZXZnYllMdDY3SHZEdW5WUlZkdnI3VDZoYTE5bDBVWnk5dng0VmhxanpURGxBWnFMNE9NOUhJ?oc=5",
-     "time": "2026-11-10T12:27:22+00:00"
-    }
-   ],
-   "brief": null
-  },
-  {
    "symbol": "APP",
    "name": "AppLovin",
    "list": "portfolio",
-   "price": 395.93,
+   "price": 392.21,
    "prev_close": 410.0,
-   "change_pct": -3.4,
+   "change_pct": -4.3,
    "trigger_change": -3.0,
-   "peak_change": -3.4,
+   "peak_change": -4.6,
    "first_seen": "2026-11-10T14:58:50+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 100.96,
-    "change_pct": -0.49
+    "price": 100.37,
+    "change_pct": -1.07
    },
    "chart": {
-    "ema8": 16.0,
-    "ema21": 30.2,
-    "sma50": 33.4,
-    "sma200": -3.0,
+    "ema8": 15.2,
+    "ema21": 29.1,
+    "sma50": 32.1,
+    "sma200": -3.9,
     "momentum": true
    },
    "headlines": [
@@ -174,23 +99,23 @@
    "symbol": "NVDA",
    "name": "Nvidia",
    "list": "portfolio",
-   "price": 173.42,
+   "price": 171.3,
    "prev_close": 178.67,
-   "change_pct": -2.9,
+   "change_pct": -4.1,
    "trigger_change": -3.3,
-   "peak_change": -3.3,
+   "peak_change": -4.1,
    "first_seen": "2026-11-10T14:58:50+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 490.75,
-    "change_pct": 0.69
+    "price": 484.95,
+    "change_pct": -0.5
    },
    "chart": {
-    "ema8": -8.5,
-    "ema21": -14.8,
-    "sma50": -20.5,
-    "sma200": -15.2,
+    "ema8": -9.4,
+    "ema21": -15.7,
+    "sma50": -21.4,
+    "sma200": -16.3,
     "momentum": false
    },
    "headlines": [
@@ -241,6 +166,156 @@
      "publisher": "Seeking Alpha",
      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNeUl1Z2d6M0I2T1VLRXhaMnk1eG4ybERlb3ZFbkRwd2duRG1LSnEyVDl3eWh4UnYxa3M4SXRTeFVXU280VjdBdEVzNVdKTXQwWFdBOWl3OFZQYnY0djEwSFF2T1h6dmxqVE1VSk9NMU9jcDBQRUNqTnhpY2c3Vk1FcjhsTDBfb3hHancyc1NoVUc0RTRWVWpSbS04T2IwRjZCRE9Nc3R0X1JKMEVZZWxMTFkyMnRoMXRaUnc?oc=5",
      "time": "2026-11-10T13:57:00+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
+   "symbol": "SOFI",
+   "name": "SoFi",
+   "list": "portfolio",
+   "price": 16.13,
+   "prev_close": 16.75,
+   "change_pct": -3.7,
+   "trigger_change": -3.1,
+   "peak_change": -3.7,
+   "first_seen": "2026-11-10T15:34:25+00:00",
+   "sector": {
+    "etf": "XLF",
+    "name": "Financials",
+    "price": 57.91,
+    "change_pct": -0.13
+   },
+   "chart": {
+    "ema8": -1.7,
+    "ema21": -0.2,
+    "sma50": -1.0,
+    "sma200": -7.6,
+    "momentum": true
+   },
+   "headlines": [
+    {
+     "title": "SoFi (SOFI) Stock Could Be 16% Overvalued As Revenue Outlook Rises",
+     "publisher": "Simply Wall St",
+     "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQcWJmSXdHTjZ5U1lIOXQ0TU5OSE9BcmJTMUhRTHBUVjdyS1FnSk9NZFY2UVI2S05YeVREVzVuOC1EZllpSXlVOVMyY1lHZlYxMkp1SEhRSk5yUEJNQ24tbmxDV0IwVFJMR2xYc3NuTjhHSWRrMXM3c0NKaF9rTDNRYmVETTA3RU96cWV0eEtDUXBYZGUyS2dPMDB1ZS14aldaSHdyNW5TQ2VwOU1MaU1SLWRLUHdzdVBlYXBSdmFZd2oyVEZEd0gyTWRiVmVkdEhzSHptUFdhWUFqREhpei12UjVlM1jSAeoBQVVfeXFMT1M3UDlMN2VJTF9tdTRjb2JMdXhPTFJLMnBsNWZPYzUwQ1hxcEVYOVVqMTB1b0FoZF96NWM1U3ZtNHllNDBETENmVGpkbG9vbG0xbXdrRTFfVVNmemhHbWE4R2NSV3NqTmR2cHdCNGtZTU5jQmdOQnpRZF9oZGNqeWV6dGxlclczX0RGUGNvd0MyNTFGYm5iMTIyQ3lpZ3BGMVp6NWNuTjRVeVBDZGR0OFZRekxwRGtTQi1zUTBFUlU1blJ5cllpLVFvMkdWUEhwVlZQZ1BpV212NXVoU21vT1hEb3BxYUNCM1Bn?oc=5",
+     "time": "2026-11-10T14:21:38+00:00"
+    },
+    {
+     "title": "Why Did SoFi Shares Surge After Record Members and a Raised Outlook?",
+     "publisher": "Kalkine Media",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTWQ2dktyblYyejBvM3N2bzByd2ZOd2NuM2lISHlGY3VjSXFIYnJqWHJ5WTMwdGN4dlA4VWhFYlpoMVBHcmdwTVhJZlpkVEZKb0h0Z1ZIanppMVNkUE1vNkM5NGlfYWZSVUxfTU4xajdvNjN2VDEwREtScjFsNnRlMjlqeGNtU1pVRFpxSWdyNnB2TEYxYmxQdmVDVGU5UE1DTTU5X0I1SGFrWW9fRlJuUV9n?oc=5",
+     "time": "2026-11-10T13:37:00+00:00"
+    },
+    {
+     "title": "SoFi Technologies stock gains fresh backing from ARK purchase",
+     "publisher": "ad-hoc-news.de",
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPRmRwLWJ2bjdlR0ttUGxteGNsRy1aWlFGeTYxakFvOXFuNjl6SmFXczBfV1dJTzBMUmZfNWFCQmNUemdYNlphbzMyQ1FHZzdqNXY0V2RWYjNXWnBYYWJiRjZxSnNGTTBLbjJpekRhcWg3TWt0SFVXUHl0bkZ6VzduNGpjVXJNakhhYjRYQzY5c25FdENxUFo5SGFSekFzd3dBMjJFdW5IajNHMTZEdl8tSTVFMXpqTUp6XzRORjhDVXlTdw?oc=5",
+     "time": "2026-11-10T12:57:40+00:00"
+    },
+    {
+     "title": "Ark Invest trims Block, Bullish and its own bitcoin ETF holdings while buying Nvidia, SoFi",
+     "publisher": "The Block",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOekNpUGtDdFNHcDVxZ3Fxd3Zoc3hjRFZZWldYYmxsUk9PVkx6WU5INHpBUk1sY3BNTHYwNUpIRmZHWVdJa3ZSbkx3Z1RHS3lsNzNsb0Z0ZndOYzNQVWNQbXE2NENSaEdGXzFlbmlQRWpDTUVJaDRzcVBOVjNTRkZpelNEb3poNGwtd2NMRDNIVU1QNlpxRjhzaDZSYw?oc=5",
+     "time": "2026-11-10T10:36:00+00:00"
+    },
+    {
+     "title": "Cathie Wood Bought Just 3 Stocks On Monday; Here They Are",
+     "publisher": "The Globe and Mail",
+     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNcmxkVG5BYW04d1NiUUpwOUk0dmlkallFa21NUU1uTTZxdkhXSVBMdTczUWRBdlBzWHNpaEVmNnlPYVc3ZGZ4OE9UamswRFM3NVlDZjFVWUNkdXRwdW56blNOSEkwaUNBMXdxRGxxZkdNajFFYWRUbE5iZnBNcE1XY3lHRXZmdDlKbThqVlhnSlV2dlF1RF95NkNLVFF0S1RNU2JySFc3U094LWpNbXUtQjhRY28wQnRjX1E4WXpsNjVZY0l6NlV1VUFHbG5BaWFnckJodjNoQ3A?oc=5",
+     "time": "2026-11-10T09:01:16+00:00"
+    },
+    {
+     "title": "SoFi Technologies, Inc. (NASDAQ:SOFI) Stock Has Consensus Price Target of $21.27",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPcG9BTk5uV2JldV8zT29abW54eWdwMFNoV3hfb1BTeDR2N1FLdVFUMzlWVFZXbGxkS2d1eHhuRkltbk1Wa2RmVnZLYjQ5cVliQWhMQW9vbFdaZjNva2REdnJGLVRROUR4a3pYWW9TV2U3anpTa2U2cG4wdW5SczdmVWdyOEM2LXF3emo3N0I1eHI5R25SRGNmWUFORW1PZzdySTJrT2J5SDlycFBhaGpXLWk0enRqTERHaHdLQTdjWDdiMzY4Z0VPNXN0VVd0MUhOdExMYg?oc=5",
+     "time": "2026-11-10T07:41:14+00:00"
+    },
+    {
+     "title": "AI Trading Technology Targets Fintech and Digital Infrastructure Stock Opportunities (SQ, HOOD, COIN, SOFI, AFRM)",
+     "publisher": "PRLog",
+     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOckQ5MjJPVF9LRnhRcElBeHdNRjdsT3VzUUh1WGFKY0EwbDVPYkp3WFMzdy01Y0ZmOElmLUFCa0FRYUFxdF9Ra0JRblRzMXM4ZmctSUhmY2VsemV2WEZPMGhVYUJtZzRFS3VWTGk4OEoyN2V5YlFobTBwWnhkR1BDOXVMTHl2VUJEc25qVWZWMjRaUkp2OVZvNE9mcVJpenNlLVhJbzFFcmJTVlNEVDNlRm5yS3VIaFI4RzROc1BlbUJhSElkc0xyT2tDZlBGcEdYb2pxQXR0cll4dUU?oc=5",
+     "time": "2026-11-10T06:01:39+00:00"
+    },
+    {
+     "title": "SoFi Technologies : The $0.90 EPS Guide Hides A Capital-Efficiency Test",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNUlJ6OHBQdkZlcnBYdmZZeGNkRnAxWW4wdWoyRk51akJsTE9hRk5MdGJnOHg3MmhYYWpiWExnWnV3aUcxZ09pZExHaW9FTjlkVWJEdUc2aVdMNVRXX0pCenFXQUlXNmdncm5EcFpBTkpkdWhHUXYzOGtsM25LTXEybXNleXRybGdpX2p4ZjMtNVpQZF9pUnc?oc=5",
+     "time": "2026-11-10T05:50:00+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
+   "symbol": "AVGO",
+   "name": "Broadcom",
+   "list": "portfolio",
+   "price": 330.29,
+   "prev_close": 319.48,
+   "change_pct": 3.4,
+   "trigger_change": 3.8,
+   "peak_change": 4.5,
+   "first_seen": "2026-11-10T15:04:06+00:00",
+   "sector": {
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 484.95,
+    "change_pct": -0.5
+   },
+   "chart": {
+    "ema8": 3.2,
+    "ema21": 0.2,
+    "sma50": -4.6,
+    "sma200": -10.0,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "NVIDIA Falls 4% as Board Probe of Jensen Huang Weighs on Shares; AMD and Broadcom Gain 3%",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQb2s1ekxJVnk0YTFNZ3lIU3VXUk5ScGNGSzVtU2tZRWZkWUdEVVlWV3BDZGdPMy1GZG0tdjdpSUg2bXJReWtrNzkwdWNVM2ZuTEpoMDFURlRyYWRseXI5SGJtakZseVVxekdoRGlidGp3cTlkUEp3MndZSnFVcHp6YWJmaTg1NGQ3SU9YcVFpbEZoWmZrREpZYnNYR2tWMGJQT0syYUlnWGJHcUt4NDdfX24xVHFTc3Q3YjhxSFFwNUswOWFxbU44V053?oc=5",
+     "time": "2026-11-10T14:56:00+00:00"
+    },
+    {
+     "title": "Nvidia and Broadcom Are Scaling AI Data Centers With This Growth Stock. Here's Why It Could Soar.",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPUU9IbmVoczhsRnBpMm04b0FBaWdCX0dpcXAwbDJtcGJwV2xqbTVPcDFKbkh5N0E4ZUVjak9vMUlrSTRsSW1VSWswcWI2cXVTaXEydWZiZmFQU2E5U3RHSVoyZ1paekI3b3FSV3pZWWZsZk1GSUczMDhBdVUtaFgwLVB4cmtlOHJJc3BIei1IekEyNUct?oc=5",
+     "time": "2026-11-10T14:15:00+00:00"
+    },
+    {
+     "title": "Broadcom Just Had Its Best Day in Nearly a Year, Back Above $1.5 Trillion",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxONzdtNnUxQllkOGl5bktYQkdsekhTeXlyMl9zWmEtazJ0dk9YODZTSk1aaTB5aHpsNEIwOUZBVGduX3EwT3dUakZDeGdhN1VyalVfeTVHY1pXMWhtZ0R5R0s1SmZCUXJnRW9QTm1iYjM5U0NUcnBFME9tX0FTVklxVEJadVU3cmduazdHRkxoWDVldnQ3TUE?oc=5",
+     "time": "2026-11-10T13:53:50+00:00"
+    },
+    {
+     "title": "J.P. Morgan Maintains Broadcom(AVGO.US) With Buy Rating",
+     "publisher": "Moomoo",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxORVIya0dDcXlPMlBkUC0wZS1pSUhVdFRRTGFwc0F1cGktMmZCeXN5M2g4THBDalVjTGFWWHptM01kblNLdGowU0VNTENvOFN6VmFHMk9pczZuclBtZVFiaWw0ampIOUI3X1poV054N3dudWhqZ2ZmOGVtYVM1ZU9oM1J3SDctNTBmSmV3aFFaYW8tcl9TazJKeVJuaw?oc=5",
+     "time": "2026-11-10T13:48:50+00:00"
+    },
+    {
+     "title": "Google\u2019s New AI System Doubles Compute in the Same Space. JPMorgan Sees a Broadcom Win",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOVkt3ZXV0ZXY3V3lSZFIyUVVxTFdSOWwwbGRYTC10VVpXaHM0TTl0YUJEVV9CUXdUZkZHc1dMek5uS0loQUw1YkV1NWJwOURaMVhZalE1eVdITTE2NmxCVk1ERUxHczVvUzVaUHFpMmNDbW5wTFk3QzZYQUV5RjQ2SkdBcnB1d1NiSlZMZXNOUzBsZGc?oc=5",
+     "time": "2026-11-10T13:35:18+00:00"
+    },
+    {
+     "title": "Broadcom stock faces an AI growth test as valuation resets",
+     "publisher": "ad-hoc-news.de",
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNQ0JrcGltTUNXSnphX0ZvZVVVZUljZVhlMDVaN3BDclF3UlY0eXcyNmljNE9KMFN3SC1maWdkYVZKc3lPcmExU21rMHdoTGJ5S1ZNSU9iZW5naThxdDVWcy1oaVVFZkJLdl9CaHhZNmh0aWRjSjRpMjBNR3NaeFdVaXl5SFA3MXhfQlJkRU1pMXRnUWVvamdJUTQ4XzZWc3pONGRmRkV0SzZ2dVMyWFJ1Zlc4djBOaFQ3MWZGd29R?oc=5",
+     "time": "2026-11-10T12:32:21+00:00"
+    },
+    {
+     "title": "Broadcom And 2 More Undervalued Stocks To Improve Your Portfolio",
+     "publisher": "Simply Wall St",
+     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOeHNzUEkwOHNMV0REN3F3bWVldy1jUm9xNTFSNlo3bEswNS1KYjhuZGRIa0F0aHZUN2JLRlRzNExiTFlJNENmV3hVRG5CNTZWRjVYcnBZSGxFR1ZTRWpacDJuSnFVdE8tcWFnaXJTSjhoZXpOQ0FhMW5MQTMwSFlSakgzUHZGUG5yd3B2Vks3SmpBc1JkNmJDNnlabUFwU2F0ZmZkNWZuX0llSXhEMnJ0Q2ZYZTY3WUZIQzNQZ0FpalJJaEJUT2J4UFVCU2J4d9IB0wFBVV95cUxOc0VlWDRzbFdhLTJxZUkwR2k0M2JNTEhuaW9xeGJhWDdWSVV3VnJGcE14VnUta2lORWxEMzFFUzVKdlJ5Uk84ZUNJbjFGZXNZajdXRHB2WHVBRmdESXRoSzJweFMzX3lrOTlxdjBOT1Juank1M1VPTktuYXV5U2RKb0hZUGV3c2ZrekFVRG5SYmlJc2pJVWJYWVVoRExZZHBTOGRsOFNLbHhzY0lSWmhoeTNQMXFNTUVHN25lc2dsRDVUZll0V2dad1ZSNHpzVkVyZnNv?oc=5",
+     "time": "2026-11-10T12:31:58+00:00"
+    },
+    {
+     "title": "Why Is Broadcom (AVGO) Open Sourcing VM API And Shaping Kubernetes Standards?",
+     "publisher": "Simply Wall St",
+     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQa0xuM3k2UnpmWE5IQmpTeEVvS0pldlBlOVRvbkliRnI2eU1RYktndTFBX0syM1o0bTJ0M1BOWW9hRzlKZGktTEw4aTgyVzY5NUVaQ2ZCWjNxcmpaY0JrWkFORjV1R05iX05vTktIM1g0WUFXWl9LZm1Cb3dXT0ZqWVpJX2xOZE96eXo5WXkxYjVTeWQ3UWlCbURsR0FHWW82ZE1KMU4td1ZsR01tNWhjN0UzS0tqVlprZjhFQnN2b1BGZWYzRG9yTUhsaTVDUdIB0wFBVV95cUxNT09BcUxVVzR4dWRpR1FGMEJTZjhGNVRUY0Zwai1GekU1WlN2SndDcnFQdVhmQ3JOck9SZVJqLWZsaVA4ZUFJUG93U2hKMFVSZlZyazhaWXVBYTRsN01DNnU5dUtVZjVnWGtpMm9PVHZTbkx4Z2I1UVJZSm5fajVic0ZkSnh4YXZQdlZrckJhdlRCaE5BcXVLZzlNdGVsZXZnYllMdDY3SHZEdW5WUlZkdnI3VDZoYTE5bDBVWnk5dng0VmhxanpURGxBWnFMNE9NOUhJ?oc=5",
+     "time": "2026-11-10T12:27:22+00:00"
     }
    ],
    "brief": null
