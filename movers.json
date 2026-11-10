@@ -1,22 +1,22 @@
 {
  "date": "2026-11-10",
  "threshold": 3.0,
- "updated": "2026-11-10T19:21:18+00:00",
+ "updated": "2026-11-10T19:32:10+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 748.22,
-   "change_pct": -0.59
+   "price": 748.63,
+   "change_pct": -0.54
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 671.85,
-   "change_pct": -1.1
+   "price": 672.23,
+   "change_pct": -1.05
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 80.81,
-   "change_pct": -1.41
+   "price": 80.86,
+   "change_pct": -1.35
   }
  },
  "movers": [
@@ -24,23 +24,23 @@
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 132.15,
+   "price": 131.35,
    "prev_close": 141.45,
-   "change_pct": -6.6,
+   "change_pct": -7.1,
    "trigger_change": -3.6,
-   "peak_change": -7.0,
+   "peak_change": -7.2,
    "first_seen": "2026-11-10T16:40:04+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 99.53,
-    "change_pct": -1.9
+    "price": 99.57,
+    "change_pct": -1.86
    },
    "chart": {
-    "ema8": -6.2,
-    "ema21": -18.0,
-    "sma50": -33.5,
-    "sma200": -26.1,
+    "ema8": -6.6,
+    "ema21": -18.4,
+    "sma50": -33.9,
+    "sma200": -26.5,
     "momentum": false
    },
    "headlines": [
@@ -96,101 +96,26 @@
    "brief": "2026-11-10-NBIS"
   },
   {
-   "symbol": "APP",
-   "name": "AppLovin",
-   "list": "portfolio",
-   "price": 384.0,
-   "prev_close": 410.0,
-   "change_pct": -6.3,
-   "trigger_change": -3.0,
-   "peak_change": -6.4,
-   "first_seen": "2026-11-10T14:58:50+00:00",
-   "sector": {
-    "etf": "IGV",
-    "name": "Software",
-    "price": 99.53,
-    "change_pct": -1.9
-   },
-   "chart": {
-    "ema8": 13.4,
-    "ema21": 26.7,
-    "sma50": 29.5,
-    "sma200": -5.9,
-    "momentum": true
-   },
-   "headlines": [
-    {
-     "title": "AppLovin (APP) Stock Could Be Undervalued On Future Cash Flow",
-     "publisher": "Simply Wall St",
-     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNUGcxdmRTaDRTS2hxNjZzTmdTekpYMGJBVmZxcC0zcnl1aHNIOFNBcVFOd0x1ZF92VmowbTBsRHZDU3htNkJaMkJDZzVNZnlDRGVCOGp1d1dDVXBNd0hoR24xM1BLOGpGUTJpUVRYdEs4RDFycmYzZ2t4NHlscjNZMDh1bmNqbDZEZ3pXZ0l4SHJJTkxpVlFCUWlrbE5scTMzelJGSnZlVExuZFl6bXJ3eUxZSGhYbEY0UU44T0VBMNIBxAFBVV95cUxQU1pxLXltLXRRV2FrSk5PT2E5LWprS0VIWlBxZE9qWFFMaXpGWWtBRUpRczBzR0daMVlmRE5XcnctQkxGdmw4NnVUb0Nsa3VBb2NLNGF1a2V1UDR0SnYxZXZLZ1h2YVhmNldNTXpkWjZVdGFnWWpKMmxaSHBxRFhDV1p6ZHAwQmtmV0FTQTh0ZFRhVjRHMndvblN6dU5XaFFBLUJqc3g4UUZLem80TU5GTXlraGFWMm10NFpmcUZFRjFsZkhX?oc=5",
-     "time": "2026-11-10T17:30:13+00:00"
-    },
-    {
-     "title": "AppLovin Vs. Unity: Room For Two, But I Prefer Unity (NASDAQ:APP)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPaVJUMGowWWpLSzJsT0x6WjViTVpCdXNoSXByVzkzNjFPWWJlTEZJVWpGcDR3UmNwc01xaGhiUUUzcU81NFkwU2MtbHFCeXJBRHZMVGV4WjNpd0toNVVEelFac3J6ZXVhOURYSy0tRDFRMURDc0dDWWp1Y01BRTM3eWxVS0tLR2ROYnRhRlQzU0ZVU3Rw?oc=5",
-     "time": "2026-11-10T15:34:00+00:00"
-    },
-    {
-     "title": "Why AppLovin (APP) Stock Is Down Today",
-     "publisher": "Quiver Quantitative",
-     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNTjlCQ0lpSXotbjVVSE81T1RicVNzdzIyRU1VaTVPc2tFSHRwSElNUHZVUFkxRkhRaVJLQlFOWC1vV1d1bWV4M0phXzAzd0F1QnZCandVN0ZNMWZwUGlka254YjJnVmxKSVBnQl9mLWJ6NV9iMkxNQTMtMGRWSk9LaQ?oc=5",
-     "time": "2026-11-10T15:33:00+00:00"
-    },
-    {
-     "title": "Applovin Corp Stock (APP) Opened Down by 3.23% on Nov 10: Drivers Behind the Movement",
-     "publisher": "TradingKey",
-     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQb0hZTTM5MVJNb3BCbl8xQ0NJSG1NOGVFamlSUUV0dEloWXZtNDRTSW5SNVNmWUg4YmxVcTE3Y1dueUhNSGtDWEpaZDJXYlJ2dnVjQURaRjFTNEdOZWlFMzlkZGJ6YmFlQmo0RTZLRncxUm9ZeDJWQ25PSmN4a08ydS0wbU1fVm5GaEE?oc=5",
-     "time": "2026-11-10T14:47:23+00:00"
-    },
-    {
-     "title": "AppLovin: 3 Key Takeaways for Long-Term Investors",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNMlhFcGVMQmJpZFFNRjNQbmllTE0yQ1l4Tk5YTExrejJRaWIwR3d6U1VfSDhBUnRLek5GWkZGSU9jUkprajllcWlxVnpScUYzWnNQOXNJZldlQlVlaGpVX3BiZmJDSjRBTWdCQXhURTlEZ3RwdXJFYzlBR2xXZTdEZGlrc21Pb1FJSW1BZDVDb2h2WkFnWkFNdldR?oc=5",
-     "time": "2026-11-10T14:43:20+00:00"
-    },
-    {
-     "title": "APP Stock Surges 51% After Q3 Earnings: Is it Still a Buy?",
-     "publisher": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNa2t4SjBtR3M4dXJjS1k5bmpVSkhsc0pQa0YzemFPbll3UWFYYXRFbkQ5dklxYWRBN3VKSGRNVmg0dVFuMC1HLXZ5ZGVQU0xhRndjMnFiTnpyb0pkOGN2QldlMDZMSDBEVDdrV05mSEZYVDl4VW5SYi1wQWM2d2FBNnJUMjgtdEtLWEJSZG9tdlRTWEZSa3FnTno3ODdGdFFyM1g5UDk2VTZOTjYzbVBXOQ?oc=5",
-     "time": "2026-11-10T14:24:00+00:00"
-    },
-    {
-     "title": "APPLOVIN CORPORATION (APP) SHAREHOLDER ALERT Bernstein",
-     "publisher": "GlobeNewswire",
-     "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxOcDItbmtUN0dndlEzRUg2U3ktUl81c1MybW9GTUZDM1dRQ0M2d0NxbGxzT2dQMVB5c01McmFoM0VKU2FsU2RhXzRqVUpQZkxOa3lvUFVfX3Jpek4wUWhwVDk4ZGx0cGllQmJkTzhJT2dSMkE5TlEwb1NxN1dyTTV1bDhQeWhNUVdKY3Y4SVdJQVRFRE5KUHNyRm9YUnVkREZTdS1fbE91MjhkZ1M4TVpYRHliX1ExbWRpdUpyYUlzM2FXUTE4REpMd2c0R082YkFQQ1VwVjVTNkRkNG9zaFR3cUMweDhIUkhLQTd4YWZjVERCX291TUlTODRmTDc5LWZWTDNLM2NFVE9HUEtMbmhJalhzbWg4R1hwZVdWMjNyczdWc0U?oc=5",
-     "time": "2026-11-10T14:10:00+00:00"
-    },
-    {
-     "title": "AppLovin Corporation (NASDAQ:APP) SHAREHOLDER ALERT:",
-     "publisher": "GlobeNewswire",
-     "url": "https://news.google.com/rss/articles/CBMi4wJBVV95cUxNSDlvbG5YODNWWW51SFhqMllGaWdIbktUUmlFQUJJSEZ5SGdKRzI3enZVaENoZThRTmZmVzZMWHlabllZVmd4WkZESmdWMjE1Y0s2dTVIVjhaTkVjZEJDdkdiazM4MEJKeHhyZWxmcUZuTGdmU3lsWXZ3TDZuTXU3d0FzVWdvekJrY3ZWX2hQMTZiWjN3VVF6QzFSREV3RVlLRDZoVUkzT0N2YkF1NHBuRTM0X0c0SDQ4UDV4Tl8xdHA2ZVYta2U4WjB5WXVpcWVFUTV6ZGE2cEZhRDlqMlJEM1JZNEM2TXdSZjZfQWJpRWN3OUlfMGI2ZWU2bnJCSnkwcFVNYlNhWDc4LVg4RTN1eTBqeG5SUnFleTBxU0lpc2RhNUJ5Tm4xTmVNMXdydUxjVm1DN24zZ2tseVZqZHNSYVZwejZKRl92VFdFZFBOclczb3hiS2Y5Z0tzMHhnbXBSc1Zn?oc=5",
-     "time": "2026-11-10T14:00:00+00:00"
-    }
-   ],
-   "brief": "2026-11-10-APP"
-  },
-  {
    "symbol": "NVDA",
    "name": "Nvidia",
    "list": "portfolio",
-   "price": 168.31,
+   "price": 167.66,
    "prev_close": 178.67,
-   "change_pct": -5.8,
+   "change_pct": -6.2,
    "trigger_change": -3.3,
    "peak_change": -6.9,
    "first_seen": "2026-11-10T14:58:50+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 480.71,
-    "change_pct": -1.37
+    "price": 480.59,
+    "change_pct": -1.4
    },
    "chart": {
-    "ema8": -10.7,
-    "ema21": -17.1,
-    "sma50": -22.8,
-    "sma200": -17.7,
+    "ema8": -10.9,
+    "ema21": -17.4,
+    "sma50": -23.1,
+    "sma200": -18.0,
     "momentum": false
    },
    "headlines": [
@@ -246,6 +171,81 @@
    "brief": "2026-11-10-NVDA"
   },
   {
+   "symbol": "APP",
+   "name": "AppLovin",
+   "list": "portfolio",
+   "price": 385.34,
+   "prev_close": 410.0,
+   "change_pct": -6.0,
+   "trigger_change": -3.0,
+   "peak_change": -6.4,
+   "first_seen": "2026-11-10T14:58:50+00:00",
+   "sector": {
+    "etf": "IGV",
+    "name": "Software",
+    "price": 99.57,
+    "change_pct": -1.86
+   },
+   "chart": {
+    "ema8": 13.6,
+    "ema21": 27.1,
+    "sma50": 29.9,
+    "sma200": -5.5,
+    "momentum": true
+   },
+   "headlines": [
+    {
+     "title": "AppLovin (APP) Stock Could Be Undervalued On Future Cash Flow",
+     "publisher": "Simply Wall St",
+     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNUGcxdmRTaDRTS2hxNjZzTmdTekpYMGJBVmZxcC0zcnl1aHNIOFNBcVFOd0x1ZF92VmowbTBsRHZDU3htNkJaMkJDZzVNZnlDRGVCOGp1d1dDVXBNd0hoR24xM1BLOGpGUTJpUVRYdEs4RDFycmYzZ2t4NHlscjNZMDh1bmNqbDZEZ3pXZ0l4SHJJTkxpVlFCUWlrbE5scTMzelJGSnZlVExuZFl6bXJ3eUxZSGhYbEY0UU44T0VBMNIBxAFBVV95cUxQU1pxLXltLXRRV2FrSk5PT2E5LWprS0VIWlBxZE9qWFFMaXpGWWtBRUpRczBzR0daMVlmRE5XcnctQkxGdmw4NnVUb0Nsa3VBb2NLNGF1a2V1UDR0SnYxZXZLZ1h2YVhmNldNTXpkWjZVdGFnWWpKMmxaSHBxRFhDV1p6ZHAwQmtmV0FTQTh0ZFRhVjRHMndvblN6dU5XaFFBLUJqc3g4UUZLem80TU5GTXlraGFWMm10NFpmcUZFRjFsZkhX?oc=5",
+     "time": "2026-11-10T17:30:13+00:00"
+    },
+    {
+     "title": "AppLovin Vs. Unity: Room For Two, But I Prefer Unity (NASDAQ:APP)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPaVJUMGowWWpLSzJsT0x6WjViTVpCdXNoSXByVzkzNjFPWWJlTEZJVWpGcDR3UmNwc01xaGhiUUUzcU81NFkwU2MtbHFCeXJBRHZMVGV4WjNpd0toNVVEelFac3J6ZXVhOURYSy0tRDFRMURDc0dDWWp1Y01BRTM3eWxVS0tLR2ROYnRhRlQzU0ZVU3Rw?oc=5",
+     "time": "2026-11-10T15:34:00+00:00"
+    },
+    {
+     "title": "Why AppLovin (APP) Stock Is Down Today",
+     "publisher": "Quiver Quantitative",
+     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNTjlCQ0lpSXotbjVVSE81T1RicVNzdzIyRU1VaTVPc2tFSHRwSElNUHZVUFkxRkhRaVJLQlFOWC1vV1d1bWV4M0phXzAzd0F1QnZCandVN0ZNMWZwUGlka254YjJnVmxKSVBnQl9mLWJ6NV9iMkxNQTMtMGRWSk9LaQ?oc=5",
+     "time": "2026-11-10T15:33:00+00:00"
+    },
+    {
+     "title": "Applovin Corp Stock (APP) Opened Down by 3.23% on Nov 10: Drivers Behind the Movement",
+     "publisher": "TradingKey",
+     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQb0hZTTM5MVJNb3BCbl8xQ0NJSG1NOGVFamlSUUV0dEloWXZtNDRTSW5SNVNmWUg4YmxVcTE3Y1dueUhNSGtDWEpaZDJXYlJ2dnVjQURaRjFTNEdOZWlFMzlkZGJ6YmFlQmo0RTZLRncxUm9ZeDJWQ25PSmN4a08ydS0wbU1fVm5GaEE?oc=5",
+     "time": "2026-11-10T14:47:23+00:00"
+    },
+    {
+     "title": "AppLovin: 3 Key Takeaways for Long-Term Investors",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNMlhFcGVMQmJpZFFNRjNQbmllTE0yQ1l4Tk5YTExrejJRaWIwR3d6U1VfSDhBUnRLek5GWkZGSU9jUkprajllcWlxVnpScUYzWnNQOXNJZldlQlVlaGpVX3BiZmJDSjRBTWdCQXhURTlEZ3RwdXJFYzlBR2xXZTdEZGlrc21Pb1FJSW1BZDVDb2h2WkFnWkFNdldR?oc=5",
+     "time": "2026-11-10T14:43:20+00:00"
+    },
+    {
+     "title": "APP Stock Surges 51% After Q3 Earnings: Is it Still a Buy?",
+     "publisher": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNa2t4SjBtR3M4dXJjS1k5bmpVSkhsc0pQa0YzemFPbll3UWFYYXRFbkQ5dklxYWRBN3VKSGRNVmg0dVFuMC1HLXZ5ZGVQU0xhRndjMnFiTnpyb0pkOGN2QldlMDZMSDBEVDdrV05mSEZYVDl4VW5SYi1wQWM2d2FBNnJUMjgtdEtLWEJSZG9tdlRTWEZSa3FnTno3ODdGdFFyM1g5UDk2VTZOTjYzbVBXOQ?oc=5",
+     "time": "2026-11-10T14:24:00+00:00"
+    },
+    {
+     "title": "APPLOVIN CORPORATION (APP) SHAREHOLDER ALERT Bernstein",
+     "publisher": "GlobeNewswire",
+     "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxOcDItbmtUN0dndlEzRUg2U3ktUl81c1MybW9GTUZDM1dRQ0M2d0NxbGxzT2dQMVB5c01McmFoM0VKU2FsU2RhXzRqVUpQZkxOa3lvUFVfX3Jpek4wUWhwVDk4ZGx0cGllQmJkTzhJT2dSMkE5TlEwb1NxN1dyTTV1bDhQeWhNUVdKY3Y4SVdJQVRFRE5KUHNyRm9YUnVkREZTdS1fbE91MjhkZ1M4TVpYRHliX1ExbWRpdUpyYUlzM2FXUTE4REpMd2c0R082YkFQQ1VwVjVTNkRkNG9zaFR3cUMweDhIUkhLQTd4YWZjVERCX291TUlTODRmTDc5LWZWTDNLM2NFVE9HUEtMbmhJalhzbWg4R1hwZVdWMjNyczdWc0U?oc=5",
+     "time": "2026-11-10T14:10:00+00:00"
+    },
+    {
+     "title": "AppLovin Corporation (NASDAQ:APP) SHAREHOLDER ALERT:",
+     "publisher": "GlobeNewswire",
+     "url": "https://news.google.com/rss/articles/CBMi4wJBVV95cUxNSDlvbG5YODNWWW51SFhqMllGaWdIbktUUmlFQUJJSEZ5SGdKRzI3enZVaENoZThRTmZmVzZMWHlabllZVmd4WkZESmdWMjE1Y0s2dTVIVjhaTkVjZEJDdkdiazM4MEJKeHhyZWxmcUZuTGdmU3lsWXZ3TDZuTXU3d0FzVWdvekJrY3ZWX2hQMTZiWjN3VVF6QzFSREV3RVlLRDZoVUkzT0N2YkF1NHBuRTM0X0c0SDQ4UDV4Tl8xdHA2ZVYta2U4WjB5WXVpcWVFUTV6ZGE2cEZhRDlqMlJEM1JZNEM2TXdSZjZfQWJpRWN3OUlfMGI2ZWU2bnJCSnkwcFVNYlNhWDc4LVg4RTN1eTBqeG5SUnFleTBxU0lpc2RhNUJ5Tm4xTmVNMXdydUxjVm1DN24zZ2tseVZqZHNSYVZwejZKRl92VFdFZFBOclczb3hiS2Y5Z0tzMHhnbXBSc1Zn?oc=5",
+     "time": "2026-11-10T14:00:00+00:00"
+    }
+   ],
+   "brief": "2026-11-10-APP"
+  },
+  {
    "symbol": "SOFI",
    "name": "SoFi",
    "list": "portfolio",
@@ -259,7 +259,7 @@
     "etf": "XLF",
     "name": "Financials",
     "price": 58.38,
-    "change_pct": 0.67
+    "change_pct": 0.68
    },
    "chart": {
     "ema8": -2.6,
@@ -324,23 +324,23 @@
    "symbol": "NOW",
    "name": "ServiceNow",
    "list": "portfolio",
-   "price": 98.08,
+   "price": 97.95,
    "prev_close": 102.76,
-   "change_pct": -4.5,
+   "change_pct": -4.7,
    "trigger_change": -3.0,
    "peak_change": -5.1,
    "first_seen": "2026-11-10T16:45:06+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 99.53,
-    "change_pct": -1.9
+    "price": 99.57,
+    "change_pct": -1.86
    },
    "chart": {
     "ema8": -9.3,
-    "ema21": -19.7,
+    "ema21": -19.8,
     "sma50": -27.1,
-    "sma200": -14.0,
+    "sma200": -14.1,
     "momentum": false
    },
    "headlines": [
@@ -399,22 +399,22 @@
    "symbol": "AVGO",
    "name": "Broadcom",
    "list": "portfolio",
-   "price": 330.27,
+   "price": 330.56,
    "prev_close": 319.48,
-   "change_pct": 3.4,
+   "change_pct": 3.5,
    "trigger_change": 3.8,
    "peak_change": 4.5,
    "first_seen": "2026-11-10T15:04:06+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 480.71,
-    "change_pct": -1.37
+    "price": 480.59,
+    "change_pct": -1.4
    },
    "chart": {
-    "ema8": 3.2,
+    "ema8": 3.3,
     "ema21": 0.2,
-    "sma50": -4.6,
+    "sma50": -4.5,
     "sma200": -10.0,
     "momentum": false
    },
@@ -471,26 +471,101 @@
    "brief": "2026-11-10-AVGO"
   },
   {
+   "symbol": "AXON",
+   "name": "Axon",
+   "list": "watchlist",
+   "price": 293.86,
+   "prev_close": 303.18,
+   "change_pct": -3.1,
+   "trigger_change": -3.1,
+   "peak_change": -3.7,
+   "first_seen": "2026-11-10T15:49:34+00:00",
+   "sector": {
+    "etf": "XLI",
+    "name": "Industrials",
+    "price": 168.41,
+    "change_pct": -0.29
+   },
+   "chart": {
+    "ema8": -17.1,
+    "ema21": -24.7,
+    "sma50": -31.7,
+    "sma200": -37.5,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Axon vs. Motorola: Which Public Safety Stock Has More Upside After Q3 Earnings?",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOa1Y2VWh3QlowOGV1b0xOSFg5M3Fucno5ZTlBdTVKWUwxR0FjN25iWnBJeXM2WmdtWHdaTWowdXZtenM2RDFFeFJFSVh4NWxRSFFBTmdtNWxnZUV3aExpQk1CdzVyeThfc3hnM2M5eXgzSjFXM3ZLbDJwYTdJXzNURW1rZ2dWdm94cURlOTRyVXRHdnZ0S1FkWHFBX213emlDYXZ4bzdOdEdnMFBTOXBMVDVXcw?oc=5",
+     "time": "2026-11-10T15:04:13+00:00"
+    },
+    {
+     "title": "Axon Enterprise, Inc. (AXON) Stock Forecasts",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQZHI2cF9aRkMzaWpjejBCOEJydGdMWGl0MEhTejRkaE9DeGV3T2NoZmJrNjJXVXYwOXhQTGIwVEMzS2dpN0pNeDRqeTJHa2hiZnNLTXdvUzhkbUZIQ01fdFB3VFRsakRGaHJtMU1GakFCbXpFVUR3RTlEOU1GMUZmams5T0Y2RUtF?oc=5",
+     "time": "2026-11-10T13:39:25+00:00"
+    },
+    {
+     "title": "Axon Is Down 52% From Its August High. Northland Still Sees $540",
+     "publisher": "TIKR.com",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNUFhVajRmbEZWTTlGNE5naXBYWHZjeWVaYmtTNlZBaEFuS2x0MkJGN2RLWEJNanpzUGttUzlXZDh4OXRXcTZNdzh6d0NOYnpQekQyU1RCcE13VFBqWHJWRUhDbDNUdnVIWXMwLVlSYjcwTUFpc0hrYTRjVklEb05kM1lHdlJZTGlNV1NzWm5EdjM?oc=5",
+     "time": "2026-11-10T13:30:00+00:00"
+    },
+    {
+     "title": "5,948 Axon Enterprise, Inc $AXON Shares Purchased by Pinion Investment Advisors LLC",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPN054RDBscTFfRXdxS21RbUFjRGNGaW10YjQ5cGFPNVhUZE00TnBucmRITERia3RYd3Vnalk3R3lySnlrZ0VoRVpjekpwTFdPcmljTE1PaklMY0xlNDlVWUhBWVVUQ3NZeU13dG9OZjZhVDhEeDdTa0dnTnFtUkZOM05SLUVfQ19LalU3bVVUQkNwcWk3aHJOcFJrYk1EUzlKV2lkSnVFTG9CUEhlSmQ5TlY1THp1MGlidTJ4aDZDUmxDa0FQXy0zNy11blpwdHd3ZGtnYmFsNmk?oc=5",
+     "time": "2026-11-10T11:34:26+00:00"
+    },
+    {
+     "title": "Axon Enterprise (AXON) Stock: $303.18, Down 3.14% Nov 9",
+     "publisher": "JournalArta",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOREJYV3F4NDhiMlVjYmZoVzVrbW1NY0l4RDZMSzJ6SGNIdHVkN3ZLOG0ybE56SVNEVUZtSENtcFN2MFR3ZDlWZHBUbGN0eDg2REhCRWRMOUlEblNzMFQtSi1qOTFPUXJkdjdqRHE1dlpnN25FSXgzdjBrTFZ5QnZleEVxYnoxeDNUMDkzcmJWV3g4R0ZMYnIzRFBkYS0?oc=5",
+     "time": "2026-11-10T10:46:01+00:00"
+    },
+    {
+     "title": "Axon Enterprise, Inc $AXON Shares Purchased by Retirement Systems of Alabama",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPdDBDYUVwWjZqV05LQTdOVlQtT25uQ3RmTmpCbVdfa1M0eVJWanM2SVNJeUNzNE9NQkZOd1FiUjNqTXFqZG9BS3ZjS2VhbURrUWd3cjFXTDcyQjQ3NHZ0ejhDTDlHRTB0RjB3SXdNcDdVWjAyb0NHTmF6bWhaejVRN0xtU0pnaG5UaWZEVno0Sk5wQzBxeXczWW5YZ1hMRzhiZG9VRnlxLUZTbmVqeUtpYm04VFhIWFFUM3VIbVN2dnVGb1NLRnA3QUZ1czU2dHpn?oc=5",
+     "time": "2026-11-10T10:44:54+00:00"
+    },
+    {
+     "title": "Fairscale Capital LLC Buys 7,374 Shares of Axon Enterprise, Inc $AXON",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPdE1tQ2RRUHRjUVNYTWMxdGV5Q3g2bURwcGdsY3dRUkdBaEhKU1dZZHRJM2Q1aU9VbjdZdjNQSVpDMDhrUkxQSTltVHVZRTFfRmxPREN4WmkxQjhuRDRUN2hRNFBDZk9FaHA0LUJJN1lXbl9CaEI5aUZ5blhqRDlEVTFYRkxUeWNCek1fWkZtMENCQk5ZUVRTZnB0UXZwZm5QZ2ZXWFBqVWQ2WG1kbVhvUUNpVkp1dDdVUWxXcVlQaDlvRFVpbXc?oc=5",
+     "time": "2026-11-10T09:20:34+00:00"
+    },
+    {
+     "title": "Should Axon Stock\u2019s Drop After Earnings Worry You?",
+     "publisher": "Trefis",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQNFFoeE40Sl9LWk83Wk9ZYWdZVUhJTWF0c3N2MEYyWTVvZk9rWUpNeU0xc3QtMldSN0t2MnV1alJkZG9sdFZSTjFwaElHcTljQlA2ZDQwend0T3FwSXRxS3gycVpRdjN4QXRlMEkxMGVIcl9IYzJTdlZMb3o2czVHVnhxTlRQUTRVM292R1dlSnF4WGtmZUNTOGpqaERSdWdzVVlsNVF5ZUs0STdHMHc?oc=5",
+     "time": "2026-11-10T08:54:10+00:00"
+    }
+   ],
+   "brief": "2026-11-10-AXON"
+  },
+  {
    "symbol": "MELI",
    "name": "MercadoLibre",
    "list": "watchlist",
-   "price": 1485.73,
+   "price": 1487.53,
    "prev_close": 1532.68,
-   "change_pct": -3.1,
+   "change_pct": -2.9,
    "trigger_change": -3.1,
    "peak_change": -3.1,
    "first_seen": "2026-11-10T19:21:18+00:00",
    "sector": {
     "etf": "XLY",
     "name": "Consumer discr.",
-    "price": 120.77,
-    "change_pct": -0.2
+    "price": 120.91,
+    "change_pct": -0.09
    },
    "chart": {
-    "ema8": -6.0,
-    "ema21": -11.3,
-    "sma50": -17.0,
-    "sma200": -17.2,
+    "ema8": -5.9,
+    "ema21": -11.2,
+    "sma50": -16.9,
+    "sma200": -17.1,
     "momentum": false
    },
    "headlines": [
@@ -549,18 +624,18 @@
    "symbol": "BTC-USD",
    "name": "Bitcoin",
    "list": "watchlist",
-   "price": 73252.8,
+   "price": 73420.2,
    "prev_close": 75253.1,
-   "change_pct": -2.7,
+   "change_pct": -2.4,
    "trigger_change": -3.1,
    "peak_change": -3.3,
    "first_seen": "2026-11-10T16:40:04+00:00",
    "sector": null,
    "chart": {
-    "ema8": -3.2,
-    "ema21": -5.8,
-    "sma50": -10.0,
-    "sma200": 0.2,
+    "ema8": -3.0,
+    "ema21": -5.6,
+    "sma50": -9.8,
+    "sma200": 0.4,
     "momentum": false
    },
    "headlines": [
@@ -616,101 +691,26 @@
    "brief": "2026-11-10-BTC-USD"
   },
   {
-   "symbol": "AXON",
-   "name": "Axon",
-   "list": "watchlist",
-   "price": 297.14,
-   "prev_close": 303.18,
-   "change_pct": -2.0,
-   "trigger_change": -3.1,
-   "peak_change": -3.7,
-   "first_seen": "2026-11-10T15:49:34+00:00",
-   "sector": {
-    "etf": "XLI",
-    "name": "Industrials",
-    "price": 168.4,
-    "change_pct": -0.29
-   },
-   "chart": {
-    "ema8": -16.3,
-    "ema21": -24.0,
-    "sma50": -30.9,
-    "sma200": -36.8,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Axon vs. Motorola: Which Public Safety Stock Has More Upside After Q3 Earnings?",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOa1Y2VWh3QlowOGV1b0xOSFg5M3Fucno5ZTlBdTVKWUwxR0FjN25iWnBJeXM2WmdtWHdaTWowdXZtenM2RDFFeFJFSVh4NWxRSFFBTmdtNWxnZUV3aExpQk1CdzVyeThfc3hnM2M5eXgzSjFXM3ZLbDJwYTdJXzNURW1rZ2dWdm94cURlOTRyVXRHdnZ0S1FkWHFBX213emlDYXZ4bzdOdEdnMFBTOXBMVDVXcw?oc=5",
-     "time": "2026-11-10T15:04:13+00:00"
-    },
-    {
-     "title": "Axon Enterprise, Inc. (AXON) Stock Forecasts",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQZHI2cF9aRkMzaWpjejBCOEJydGdMWGl0MEhTejRkaE9DeGV3T2NoZmJrNjJXVXYwOXhQTGIwVEMzS2dpN0pNeDRqeTJHa2hiZnNLTXdvUzhkbUZIQ01fdFB3VFRsakRGaHJtMU1GakFCbXpFVUR3RTlEOU1GMUZmams5T0Y2RUtF?oc=5",
-     "time": "2026-11-10T13:39:25+00:00"
-    },
-    {
-     "title": "Axon Is Down 52% From Its August High. Northland Still Sees $540",
-     "publisher": "TIKR.com",
-     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNUFhVajRmbEZWTTlGNE5naXBYWHZjeWVaYmtTNlZBaEFuS2x0MkJGN2RLWEJNanpzUGttUzlXZDh4OXRXcTZNdzh6d0NOYnpQekQyU1RCcE13VFBqWHJWRUhDbDNUdnVIWXMwLVlSYjcwTUFpc0hrYTRjVklEb05kM1lHdlJZTGlNV1NzWm5EdjM?oc=5",
-     "time": "2026-11-10T13:30:00+00:00"
-    },
-    {
-     "title": "5,948 Axon Enterprise, Inc $AXON Shares Purchased by Pinion Investment Advisors LLC",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPN054RDBscTFfRXdxS21RbUFjRGNGaW10YjQ5cGFPNVhUZE00TnBucmRITERia3RYd3Vnalk3R3lySnlrZ0VoRVpjekpwTFdPcmljTE1PaklMY0xlNDlVWUhBWVVUQ3NZeU13dG9OZjZhVDhEeDdTa0dnTnFtUkZOM05SLUVfQ19LalU3bVVUQkNwcWk3aHJOcFJrYk1EUzlKV2lkSnVFTG9CUEhlSmQ5TlY1THp1MGlidTJ4aDZDUmxDa0FQXy0zNy11blpwdHd3ZGtnYmFsNmk?oc=5",
-     "time": "2026-11-10T11:34:26+00:00"
-    },
-    {
-     "title": "Axon Enterprise (AXON) Stock: $303.18, Down 3.14% Nov 9",
-     "publisher": "JournalArta",
-     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOREJYV3F4NDhiMlVjYmZoVzVrbW1NY0l4RDZMSzJ6SGNIdHVkN3ZLOG0ybE56SVNEVUZtSENtcFN2MFR3ZDlWZHBUbGN0eDg2REhCRWRMOUlEblNzMFQtSi1qOTFPUXJkdjdqRHE1dlpnN25FSXgzdjBrTFZ5QnZleEVxYnoxeDNUMDkzcmJWV3g4R0ZMYnIzRFBkYS0?oc=5",
-     "time": "2026-11-10T10:46:01+00:00"
-    },
-    {
-     "title": "Axon Enterprise, Inc $AXON Shares Purchased by Retirement Systems of Alabama",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPdDBDYUVwWjZqV05LQTdOVlQtT25uQ3RmTmpCbVdfa1M0eVJWanM2SVNJeUNzNE9NQkZOd1FiUjNqTXFqZG9BS3ZjS2VhbURrUWd3cjFXTDcyQjQ3NHZ0ejhDTDlHRTB0RjB3SXdNcDdVWjAyb0NHTmF6bWhaejVRN0xtU0pnaG5UaWZEVno0Sk5wQzBxeXczWW5YZ1hMRzhiZG9VRnlxLUZTbmVqeUtpYm04VFhIWFFUM3VIbVN2dnVGb1NLRnA3QUZ1czU2dHpn?oc=5",
-     "time": "2026-11-10T10:44:54+00:00"
-    },
-    {
-     "title": "Fairscale Capital LLC Buys 7,374 Shares of Axon Enterprise, Inc $AXON",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPdE1tQ2RRUHRjUVNYTWMxdGV5Q3g2bURwcGdsY3dRUkdBaEhKU1dZZHRJM2Q1aU9VbjdZdjNQSVpDMDhrUkxQSTltVHVZRTFfRmxPREN4WmkxQjhuRDRUN2hRNFBDZk9FaHA0LUJJN1lXbl9CaEI5aUZ5blhqRDlEVTFYRkxUeWNCek1fWkZtMENCQk5ZUVRTZnB0UXZwZm5QZ2ZXWFBqVWQ2WG1kbVhvUUNpVkp1dDdVUWxXcVlQaDlvRFVpbXc?oc=5",
-     "time": "2026-11-10T09:20:34+00:00"
-    },
-    {
-     "title": "Should Axon Stock\u2019s Drop After Earnings Worry You?",
-     "publisher": "Trefis",
-     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQNFFoeE40Sl9LWk83Wk9ZYWdZVUhJTWF0c3N2MEYyWTVvZk9rWUpNeU0xc3QtMldSN0t2MnV1alJkZG9sdFZSTjFwaElHcTljQlA2ZDQwend0T3FwSXRxS3gycVpRdjN4QXRlMEkxMGVIcl9IYzJTdlZMb3o2czVHVnhxTlRQUTRVM292R1dlSnF4WGtmZUNTOGpqaERSdWdzVVlsNVF5ZUs0STdHMHc?oc=5",
-     "time": "2026-11-10T08:54:10+00:00"
-    }
-   ],
-   "brief": "2026-11-10-AXON"
-  },
-  {
    "symbol": "CRWD",
    "name": "CrowdStrike",
    "list": "portfolio",
-   "price": 224.73,
+   "price": 224.56,
    "prev_close": 228.58,
-   "change_pct": -1.7,
+   "change_pct": -1.8,
    "trigger_change": -3.7,
    "peak_change": -3.7,
    "first_seen": "2026-11-10T17:40:30+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 99.53,
-    "change_pct": -1.9
+    "price": 99.57,
+    "change_pct": -1.86
    },
    "chart": {
     "ema8": -3.3,
-    "ema21": -6.8,
-    "sma50": -7.8,
-    "sma200": 31.2,
+    "ema21": -6.9,
+    "sma50": -7.9,
+    "sma200": 31.1,
     "momentum": false
    },
    "headlines": [
