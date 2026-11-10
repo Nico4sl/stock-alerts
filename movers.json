@@ -1,121 +1,46 @@
 {
  "date": "2026-11-10",
  "threshold": 3.0,
- "updated": "2026-11-10T16:40:04+00:00",
+ "updated": "2026-11-10T16:45:06+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 747.04,
-   "change_pct": -0.75
+   "price": 746.87,
+   "change_pct": -0.77
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 671.84,
-   "change_pct": -1.11
+   "price": 671.49,
+   "change_pct": -1.16
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 80.67,
-   "change_pct": -1.57
+   "price": 80.64,
+   "change_pct": -1.62
   }
  },
  "movers": [
   {
-   "symbol": "APP",
-   "name": "AppLovin",
-   "list": "portfolio",
-   "price": 385.82,
-   "prev_close": 410.0,
-   "change_pct": -5.9,
-   "trigger_change": -3.0,
-   "peak_change": -5.9,
-   "first_seen": "2026-11-10T14:58:50+00:00",
-   "sector": {
-    "etf": "IGV",
-    "name": "Software",
-    "price": 100.17,
-    "change_pct": -1.27
-   },
-   "chart": {
-    "ema8": 13.8,
-    "ema21": 27.3,
-    "sma50": 30.0,
-    "sma200": -5.4,
-    "momentum": true
-   },
-   "headlines": [
-    {
-     "title": "AppLovin Vs. Unity: Room For Two, But I Prefer Unity (NASDAQ:APP)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPaVJUMGowWWpLSzJsT0x6WjViTVpCdXNoSXByVzkzNjFPWWJlTEZJVWpGcDR3UmNwc01xaGhiUUUzcU81NFkwU2MtbHFCeXJBRHZMVGV4WjNpd0toNVVEelFac3J6ZXVhOURYSy0tRDFRMURDc0dDWWp1Y01BRTM3eWxVS0tLR2ROYnRhRlQzU0ZVU3Rw?oc=5",
-     "time": "2026-11-10T15:34:00+00:00"
-    },
-    {
-     "title": "Applovin Corp Stock (APP) Opened Down by 3.23% on Nov 10: Drivers Behind the Movement",
-     "publisher": "TradingKey",
-     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQb0hZTTM5MVJNb3BCbl8xQ0NJSG1NOGVFamlSUUV0dEloWXZtNDRTSW5SNVNmWUg4YmxVcTE3Y1dueUhNSGtDWEpaZDJXYlJ2dnVjQURaRjFTNEdOZWlFMzlkZGJ6YmFlQmo0RTZLRncxUm9ZeDJWQ25PSmN4a08ydS0wbU1fVm5GaEE?oc=5",
-     "time": "2026-11-10T14:47:23+00:00"
-    },
-    {
-     "title": "AppLovin: 3 Key Takeaways for Long-Term Investors",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNMlhFcGVMQmJpZFFNRjNQbmllTE0yQ1l4Tk5YTExrejJRaWIwR3d6U1VfSDhBUnRLek5GWkZGSU9jUkprajllcWlxVnpScUYzWnNQOXNJZldlQlVlaGpVX3BiZmJDSjRBTWdCQXhURTlEZ3RwdXJFYzlBR2xXZTdEZGlrc21Pb1FJSW1BZDVDb2h2WkFnWkFNdldR?oc=5",
-     "time": "2026-11-10T14:43:20+00:00"
-    },
-    {
-     "title": "APPLOVIN CORPORATION (APP) SHAREHOLDER ALERT Bernstein",
-     "publisher": "GlobeNewswire",
-     "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxOcDItbmtUN0dndlEzRUg2U3ktUl81c1MybW9GTUZDM1dRQ0M2d0NxbGxzT2dQMVB5c01McmFoM0VKU2FsU2RhXzRqVUpQZkxOa3lvUFVfX3Jpek4wUWhwVDk4ZGx0cGllQmJkTzhJT2dSMkE5TlEwb1NxN1dyTTV1bDhQeWhNUVdKY3Y4SVdJQVRFRE5KUHNyRm9YUnVkREZTdS1fbE91MjhkZ1M4TVpYRHliX1ExbWRpdUpyYUlzM2FXUTE4REpMd2c0R082YkFQQ1VwVjVTNkRkNG9zaFR3cUMweDhIUkhLQTd4YWZjVERCX291TUlTODRmTDc5LWZWTDNLM2NFVE9HUEtMbmhJalhzbWg4R1hwZVdWMjNyczdWc0U?oc=5",
-     "time": "2026-11-10T14:10:00+00:00"
-    },
-    {
-     "title": "AppLovin Corporation (NASDAQ:APP) SHAREHOLDER ALERT:",
-     "publisher": "GlobeNewswire",
-     "url": "https://news.google.com/rss/articles/CBMi4wJBVV95cUxNSDlvbG5YODNWWW51SFhqMllGaWdIbktUUmlFQUJJSEZ5SGdKRzI3enZVaENoZThRTmZmVzZMWHlabllZVmd4WkZESmdWMjE1Y0s2dTVIVjhaTkVjZEJDdkdiazM4MEJKeHhyZWxmcUZuTGdmU3lsWXZ3TDZuTXU3d0FzVWdvekJrY3ZWX2hQMTZiWjN3VVF6QzFSREV3RVlLRDZoVUkzT0N2YkF1NHBuRTM0X0c0SDQ4UDV4Tl8xdHA2ZVYta2U4WjB5WXVpcWVFUTV6ZGE2cEZhRDlqMlJEM1JZNEM2TXdSZjZfQWJpRWN3OUlfMGI2ZWU2bnJCSnkwcFVNYlNhWDc4LVg4RTN1eTBqeG5SUnFleTBxU0lpc2RhNUJ5Tm4xTmVNMXdydUxjVm1DN24zZ2tseVZqZHNSYVZwejZKRl92VFdFZFBOclczb3hiS2Y5Z0tzMHhnbXBSc1Zn?oc=5",
-     "time": "2026-11-10T14:00:00+00:00"
-    },
-    {
-     "title": "Digital Turbine Plunges 23% Despite Revenue Beat as Margins Shrink and Profit Outlook Stays Put; Unity Slides 2%, AppLovin Dips",
-     "publisher": "24/7 Wall St.",
-     "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxORjBTOWJzaG5TMkhEb1NSNXhLMEV4X3V6OXdWdUJXUjY2Sm5XUHZ4RG9POU93ekd6cEZsd3NHRll4dEJ4bE9La3lrVGM1cVBXeWhEVGhQLTh6SGxhTmZfUTVPM3djRll2dW82OXhmRW1qZHJteXVKa2hRV3JwYzVES2pVZWR1ajJrOTN3VzUwTWVlTVJQR09qb0kwOFJEdmg2alF2ZF9OVEVZV1A5TlRLRFhWMHV0cjZ6dUhHc0Yyd3dyWDc1Z2d0SGJxWXQyLTNtUU9mcGI5blNRRnA4ajBhMUFrbDN4VnMwcV9JYmxWcjBQTllaVEVZdXg2aw?oc=5",
-     "time": "2026-11-10T13:52:00+00:00"
-    },
-    {
-     "title": "Here is What to Know Beyond Why AppLovin Corporation (APP) is a Trending Stock",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPRENPQ1NrLUtscVpJUm96MnkzYllFcHM1NVVzTkI0aTVVamVQejZtNjBYS0kxbHJ4U3BtOGFhV19jVGg0dmdSVmlwSVFwZk9oUk16bUxraTItbjNWcHBrZHNOcXViZHZkN00xclhyRnZBNU5tdDBoR0NXVGU1OXBnbkF0dXVhejgzN25hUmM5dWFSbGZIMHUzOEJsVFhvV0cxLXlF?oc=5",
-     "time": "2026-11-10T13:00:06+00:00"
-    },
-    {
-     "title": "Shareholders Sue AppLovin (APP) over AI Video Tool Delays",
-     "publisher": "TipRanks",
-     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOTGxfSGhQSGRpSjBNMGZBSDlmRS1UU1l4aERUNDJEWGRSd3BfZ0pNaHFMVklETFFpTnQxdzZsUnM2RVBCUWozdnFFX3FKTmRjNEQ1Yk4tbnJsZUgzVmtwaEgzb3VzSnIxZG01NTJ3b1dMcVAyWFNxY0Q4SjU4ekhZRmFzWl9Kal84aEVMd3ZR?oc=5",
-     "time": "2026-11-10T10:32:08+00:00"
-    }
-   ],
-   "brief": "2026-11-10-APP"
-  },
-  {
    "symbol": "NVDA",
    "name": "Nvidia",
    "list": "portfolio",
-   "price": 168.24,
+   "price": 167.97,
    "prev_close": 178.67,
-   "change_pct": -5.8,
+   "change_pct": -6.0,
    "trigger_change": -3.3,
    "peak_change": -6.1,
    "first_seen": "2026-11-10T14:58:50+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 480.05,
-    "change_pct": -1.51
+    "price": 478.31,
+    "change_pct": -1.87
    },
    "chart": {
-    "ema8": -10.7,
-    "ema21": -17.1,
-    "sma50": -22.8,
-    "sma200": -17.7,
+    "ema8": -10.8,
+    "ema21": -17.3,
+    "sma50": -22.9,
+    "sma200": -17.9,
     "momentum": false
    },
    "headlines": [
@@ -171,6 +96,81 @@
    "brief": "2026-11-10-NVDA"
   },
   {
+   "symbol": "APP",
+   "name": "AppLovin",
+   "list": "portfolio",
+   "price": 385.45,
+   "prev_close": 410.0,
+   "change_pct": -6.0,
+   "trigger_change": -3.0,
+   "peak_change": -6.0,
+   "first_seen": "2026-11-10T14:58:50+00:00",
+   "sector": {
+    "etf": "IGV",
+    "name": "Software",
+    "price": 100.1,
+    "change_pct": -1.34
+   },
+   "chart": {
+    "ema8": 13.7,
+    "ema21": 27.1,
+    "sma50": 29.9,
+    "sma200": -5.5,
+    "momentum": true
+   },
+   "headlines": [
+    {
+     "title": "AppLovin Vs. Unity: Room For Two, But I Prefer Unity (NASDAQ:APP)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPaVJUMGowWWpLSzJsT0x6WjViTVpCdXNoSXByVzkzNjFPWWJlTEZJVWpGcDR3UmNwc01xaGhiUUUzcU81NFkwU2MtbHFCeXJBRHZMVGV4WjNpd0toNVVEelFac3J6ZXVhOURYSy0tRDFRMURDc0dDWWp1Y01BRTM3eWxVS0tLR2ROYnRhRlQzU0ZVU3Rw?oc=5",
+     "time": "2026-11-10T15:34:00+00:00"
+    },
+    {
+     "title": "Applovin Corp Stock (APP) Opened Down by 3.23% on Nov 10: Drivers Behind the Movement",
+     "publisher": "TradingKey",
+     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQb0hZTTM5MVJNb3BCbl8xQ0NJSG1NOGVFamlSUUV0dEloWXZtNDRTSW5SNVNmWUg4YmxVcTE3Y1dueUhNSGtDWEpaZDJXYlJ2dnVjQURaRjFTNEdOZWlFMzlkZGJ6YmFlQmo0RTZLRncxUm9ZeDJWQ25PSmN4a08ydS0wbU1fVm5GaEE?oc=5",
+     "time": "2026-11-10T14:47:23+00:00"
+    },
+    {
+     "title": "AppLovin: 3 Key Takeaways for Long-Term Investors",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNMlhFcGVMQmJpZFFNRjNQbmllTE0yQ1l4Tk5YTExrejJRaWIwR3d6U1VfSDhBUnRLek5GWkZGSU9jUkprajllcWlxVnpScUYzWnNQOXNJZldlQlVlaGpVX3BiZmJDSjRBTWdCQXhURTlEZ3RwdXJFYzlBR2xXZTdEZGlrc21Pb1FJSW1BZDVDb2h2WkFnWkFNdldR?oc=5",
+     "time": "2026-11-10T14:43:20+00:00"
+    },
+    {
+     "title": "APPLOVIN CORPORATION (APP) SHAREHOLDER ALERT Bernstein",
+     "publisher": "GlobeNewswire",
+     "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxOcDItbmtUN0dndlEzRUg2U3ktUl81c1MybW9GTUZDM1dRQ0M2d0NxbGxzT2dQMVB5c01McmFoM0VKU2FsU2RhXzRqVUpQZkxOa3lvUFVfX3Jpek4wUWhwVDk4ZGx0cGllQmJkTzhJT2dSMkE5TlEwb1NxN1dyTTV1bDhQeWhNUVdKY3Y4SVdJQVRFRE5KUHNyRm9YUnVkREZTdS1fbE91MjhkZ1M4TVpYRHliX1ExbWRpdUpyYUlzM2FXUTE4REpMd2c0R082YkFQQ1VwVjVTNkRkNG9zaFR3cUMweDhIUkhLQTd4YWZjVERCX291TUlTODRmTDc5LWZWTDNLM2NFVE9HUEtMbmhJalhzbWg4R1hwZVdWMjNyczdWc0U?oc=5",
+     "time": "2026-11-10T14:10:00+00:00"
+    },
+    {
+     "title": "AppLovin Corporation (NASDAQ:APP) SHAREHOLDER ALERT:",
+     "publisher": "GlobeNewswire",
+     "url": "https://news.google.com/rss/articles/CBMi4wJBVV95cUxNSDlvbG5YODNWWW51SFhqMllGaWdIbktUUmlFQUJJSEZ5SGdKRzI3enZVaENoZThRTmZmVzZMWHlabllZVmd4WkZESmdWMjE1Y0s2dTVIVjhaTkVjZEJDdkdiazM4MEJKeHhyZWxmcUZuTGdmU3lsWXZ3TDZuTXU3d0FzVWdvekJrY3ZWX2hQMTZiWjN3VVF6QzFSREV3RVlLRDZoVUkzT0N2YkF1NHBuRTM0X0c0SDQ4UDV4Tl8xdHA2ZVYta2U4WjB5WXVpcWVFUTV6ZGE2cEZhRDlqMlJEM1JZNEM2TXdSZjZfQWJpRWN3OUlfMGI2ZWU2bnJCSnkwcFVNYlNhWDc4LVg4RTN1eTBqeG5SUnFleTBxU0lpc2RhNUJ5Tm4xTmVNMXdydUxjVm1DN24zZ2tseVZqZHNSYVZwejZKRl92VFdFZFBOclczb3hiS2Y5Z0tzMHhnbXBSc1Zn?oc=5",
+     "time": "2026-11-10T14:00:00+00:00"
+    },
+    {
+     "title": "Digital Turbine Plunges 23% Despite Revenue Beat as Margins Shrink and Profit Outlook Stays Put; Unity Slides 2%, AppLovin Dips",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxORjBTOWJzaG5TMkhEb1NSNXhLMEV4X3V6OXdWdUJXUjY2Sm5XUHZ4RG9POU93ekd6cEZsd3NHRll4dEJ4bE9La3lrVGM1cVBXeWhEVGhQLTh6SGxhTmZfUTVPM3djRll2dW82OXhmRW1qZHJteXVKa2hRV3JwYzVES2pVZWR1ajJrOTN3VzUwTWVlTVJQR09qb0kwOFJEdmg2alF2ZF9OVEVZV1A5TlRLRFhWMHV0cjZ6dUhHc0Yyd3dyWDc1Z2d0SGJxWXQyLTNtUU9mcGI5blNRRnA4ajBhMUFrbDN4VnMwcV9JYmxWcjBQTllaVEVZdXg2aw?oc=5",
+     "time": "2026-11-10T13:52:00+00:00"
+    },
+    {
+     "title": "Here is What to Know Beyond Why AppLovin Corporation (APP) is a Trending Stock",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPRENPQ1NrLUtscVpJUm96MnkzYllFcHM1NVVzTkI0aTVVamVQejZtNjBYS0kxbHJ4U3BtOGFhV19jVGg0dmdSVmlwSVFwZk9oUk16bUxraTItbjNWcHBrZHNOcXViZHZkN00xclhyRnZBNU5tdDBoR0NXVGU1OXBnbkF0dXVhejgzN25hUmM5dWFSbGZIMHUzOEJsVFhvV0cxLXlF?oc=5",
+     "time": "2026-11-10T13:00:06+00:00"
+    },
+    {
+     "title": "Shareholders Sue AppLovin (APP) over AI Video Tool Delays",
+     "publisher": "TipRanks",
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOTGxfSGhQSGRpSjBNMGZBSDlmRS1UU1l4aERUNDJEWGRSd3BfZ0pNaHFMVklETFFpTnQxdzZsUnM2RVBCUWozdnFFX3FKTmRjNEQ1Yk4tbnJsZUgzVmtwaEgzb3VzSnIxZG01NTJ3b1dMcVAyWFNxY0Q4SjU4ekhZRmFzWl9Kal84aEVMd3ZR?oc=5",
+     "time": "2026-11-10T10:32:08+00:00"
+    }
+   ],
+   "brief": "2026-11-10-APP"
+  },
+  {
    "symbol": "SOFI",
    "name": "SoFi",
    "list": "portfolio",
@@ -183,8 +183,8 @@
    "sector": {
     "etf": "XLF",
     "name": "Financials",
-    "price": 58.05,
-    "change_pct": 0.09
+    "price": 58.07,
+    "change_pct": 0.14
    },
    "chart": {
     "ema8": -2.2,
@@ -249,23 +249,23 @@
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 136.3,
+   "price": 135.87,
    "prev_close": 141.45,
-   "change_pct": -3.6,
+   "change_pct": -3.9,
    "trigger_change": -3.6,
-   "peak_change": -3.6,
+   "peak_change": -3.9,
    "first_seen": "2026-11-10T16:40:04+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 100.17,
-    "change_pct": -1.27
+    "price": 100.1,
+    "change_pct": -1.34
    },
    "chart": {
-    "ema8": -3.9,
-    "ema21": -15.6,
-    "sma50": -31.5,
-    "sma200": -23.8,
+    "ema8": -4.1,
+    "ema21": -15.8,
+    "sma50": -31.7,
+    "sma200": -24.0,
     "momentum": false
    },
    "headlines": [
@@ -324,18 +324,18 @@
    "symbol": "BTC-USD",
    "name": "Bitcoin",
    "list": "watchlist",
-   "price": 72926.6,
+   "price": 72972.8,
    "prev_close": 75253.1,
-   "change_pct": -3.1,
+   "change_pct": -3.0,
    "trigger_change": -3.1,
    "peak_change": -3.1,
    "first_seen": "2026-11-10T16:40:04+00:00",
    "sector": null,
    "chart": {
-    "ema8": -3.5,
-    "ema21": -6.2,
-    "sma50": -10.4,
-    "sma200": -0.3,
+    "ema8": -3.4,
+    "ema21": -6.1,
+    "sma50": -10.3,
+    "sma200": -0.2,
     "momentum": false
    },
    "headlines": [
@@ -391,10 +391,85 @@
    "brief": null
   },
   {
+   "symbol": "NOW",
+   "name": "ServiceNow",
+   "list": "portfolio",
+   "price": 99.65,
+   "prev_close": 102.76,
+   "change_pct": -3.0,
+   "trigger_change": -3.0,
+   "peak_change": -3.0,
+   "first_seen": "2026-11-10T16:45:06+00:00",
+   "sector": {
+    "etf": "IGV",
+    "name": "Software",
+    "price": 100.1,
+    "change_pct": -1.34
+   },
+   "chart": {
+    "ema8": -8.1,
+    "ema21": -18.5,
+    "sma50": -25.9,
+    "sma200": -12.7,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "ServiceNow stock faces AI execution test as margins take focus",
+     "publisher": "ad-hoc-news.de",
+     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQRUR4aEk4SFVKV3B1ZUNGUEpic0M5NHNQdUU4UjNMRWxFUGN0cEozdWtkZE1na1hWeURCbzBFajFVNHRqeExNOW1YbzFxZ2lkWlh5TElfV25mcDhUN2FZQ20ycG1ObGdUZm0zNjg4eVdTN1N5N21Wa1NpVG5nbmlZbE1saE9hT1drbGZnMkhZVk5xbEVvZ21YQVRmWVhiNmVsZTdwOWxaU1puYnRMVktlalJ0b1pRUTMwSEFPM3JCc0pUN1E?oc=5",
+     "time": "2026-11-10T15:32:23+00:00"
+    },
+    {
+     "title": "Is ServiceNow (NOW) A Bargain As AI Partnership News Meets Valuation Doubts?",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNY3VXMWpzUU1HMDREUDYzUVUtRkU2MWIzeEV0ZEN4YVNBMnlPX3BGME5SdG0wN0FNckhLY1ZMZk45dGRRem5iZGFLbG03OUpJTmpGeGhZTkE4TXloN1AwRl92TW1jdFdLQlZDRk9xYkxqNVEtNVppYzFmNm9MLVJGQ2UtMG9qcklDdUNFY3A2MFRnN1Fwem5idFJic2s3V0pBaW9pcw?oc=5",
+     "time": "2026-11-10T15:10:20+00:00"
+    },
+    {
+     "title": "Salesforce Sinks as S&P Cuts Its Rating to A on Deals and a $25 Billion Buyback",
+     "publisher": "TIKR.com",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQeWJOM0dRS0hkRnJMdlliNUNZczNaV1pOWjcxbGhjYVJqbk5fQ0M4LTlhejhnMjRhZ1UySU9OOWpvSUYwdTJ3a2V2Z2RfRW9ObFRCQ3pUdFRPRFRtMHgxcXQwdTA2Qkk5ejhWclppODgyeUIyQWluRFNiRUJzdDgxTjRGdDdoSHBodGNRQkVmUGlILXdYczJEZGhDcWFDUUlBQzhGRkhYbw?oc=5",
+     "time": "2026-11-10T15:05:07+00:00"
+    },
+    {
+     "title": "What $1,000 Invested in ServiceNow Stock Today Could Be Worth in 5 Years",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOUlI4VVo1SXZBQVFSeG9ZM3JxY2ExR09KM1c0elRua1Q3eFNtVFpyVV9vYy1hTm1CLXJxOUVwWGtYdVQybUxOYlNRS19CVTlYanZ6SlZCMkswZkdDSkp5dGkyLVhDT3hjcVMzN1B6N3F4QVhsMkRFQnlic2htczZvYzA4X1ItSGl6STRhNzF1UkMydWlLTEQ2R184RVNtcGRSbjRKYzVGTERQUDJoeGc2ZWxXam4?oc=5",
+     "time": "2026-11-10T14:03:00+00:00"
+    },
+    {
+     "title": "ServiceNow Brings Agentic Monitoring to Every Control in the Enterprise at Machine Speed",
+     "publisher": "Morningstar",
+     "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPdGdvUXp3eUN4WmFpQk9EZXhTMXVTalpKcnFVb09uNlltTXhKb2xpODVJUDc3YjZITjV4QXNkRzFnb2hCcmI2LVFITGkyNmVoTE5ldTRRYjBQM0k2azhCdVdEVXVNandUZ3JYYVZ1ck9CYS1uTmI0SXd1ZkRTd043TWJPbkNGQTVSQ3E5aV9Yb2NyZWlaZ1BHZHhvdGtRWGdjVmltMVFmVlpLV1BYN0ZOUFV6bHhyQTFpdk0wLUlFSjRZZ202SWtQSDVYS0N2MFFSSXJOZXd3MThqZ3o5QkxqR1pPNkc?oc=5",
+     "time": "2026-11-10T14:00:00+00:00"
+    },
+    {
+     "title": "ServiceNow vs. Snowflake: Which Tech Stock Is the Better Buy for 2027?",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPOG85R1FzM3lhc2E3bzZGMGRTYUZyNlZUcm9uUjdvWlNXWGE3VkhPSF9VVDBYdE44ZktDaG0xQkloMGoyV0UzMGhUb0U5dUVqQkF4eVptTDdlbVdrMlAzaG93amlQYmN3dU9BMmZQa1VMa3ljVnVxTXJkWHNMdTFOMlhiSkg0RHhVS0VraGU5UFZLQXFVdm1vb25rZzh3Z0xEVHlmQnR4emY2Y0FnT1lUbktJcjNHcy1BY3czZA?oc=5",
+     "time": "2026-11-10T13:45:00+00:00"
+    },
+    {
+     "title": "Tesla launches Robotaxi service in San Antonio",
+     "publisher": "Mashable",
+     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9nN09ieUFHRktkR3U2dHB0X2ZPQUhSZm5RQ3hJb19ndUlIbk5td1VmcF9aejRiVGxTS2V2cXdXTUtISXVSUkZKQ3JjdUZqSlowQVJKUE9odFU4dU5QSlBycURB?oc=5",
+     "time": "2026-11-10T12:00:05+00:00"
+    },
+    {
+     "title": "264,142 Shares in ServiceNow, Inc. $NOW Bought by Welch & Forbes LLC",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPb2lqS1p4aF9XOGFpRnNJZnZTZUtXVDMxRk40RUw3clFGekh5NUZaWEtZbHFXSlZyY09tNG9UNmRvQTV4NnJHNmZUWjRFT0JFZkxkek9CWFh5SUtBRS1IWWNCa2RrbjBISjNLcE1JdmQ3VXB0T2s2UkZFajRHTkdSNnJXV0VZTWlwUVI0RURRcmp6Qm9MbzNvYV93TFo4eGNfaFNGVnNwMElEWGQ4NkxqR3MwTnQyOTBGR1p1cU5RdEE?oc=5",
+     "time": "2026-11-10T11:43:42+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
    "symbol": "AVGO",
    "name": "Broadcom",
    "list": "portfolio",
-   "price": 326.19,
+   "price": 326.26,
    "prev_close": 319.48,
    "change_pct": 2.1,
    "trigger_change": 3.8,
@@ -403,12 +478,12 @@
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 480.05,
-    "change_pct": -1.51
+    "price": 478.31,
+    "change_pct": -1.87
    },
    "chart": {
-    "ema8": 2.2,
-    "ema21": -1.0,
+    "ema8": 2.3,
+    "ema21": -0.9,
     "sma50": -5.7,
     "sma200": -11.1,
     "momentum": false
@@ -469,23 +544,23 @@
    "symbol": "AXON",
    "name": "Axon",
    "list": "watchlist",
-   "price": 297.82,
+   "price": 298.23,
    "prev_close": 303.18,
-   "change_pct": -1.8,
+   "change_pct": -1.6,
    "trigger_change": -3.1,
    "peak_change": -3.7,
    "first_seen": "2026-11-10T15:49:34+00:00",
    "sector": {
     "etf": "XLI",
     "name": "Industrials",
-    "price": 167.32,
-    "change_pct": -0.93
+    "price": 167.28,
+    "change_pct": -0.95
    },
    "chart": {
-    "ema8": -16.2,
-    "ema21": -23.8,
-    "sma50": -30.8,
-    "sma200": -36.6,
+    "ema8": -16.1,
+    "ema21": -23.7,
+    "sma50": -30.7,
+    "sma200": -36.5,
     "momentum": false
    },
    "headlines": [
