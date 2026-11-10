@@ -1,22 +1,22 @@
 {
  "date": "2026-11-10",
  "threshold": 3.0,
- "updated": "2026-11-10T19:01:11+00:00",
+ "updated": "2026-11-10T19:06:12+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 748.0,
-   "change_pct": -0.62
+   "price": 748.24,
+   "change_pct": -0.59
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 671.55,
-   "change_pct": -1.15
+   "price": 671.75,
+   "change_pct": -1.12
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 80.8,
-   "change_pct": -1.42
+   "price": 80.81,
+   "change_pct": -1.4
   }
  },
  "movers": [
@@ -24,23 +24,23 @@
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 132.75,
+   "price": 132.31,
    "prev_close": 141.45,
-   "change_pct": -6.1,
+   "change_pct": -6.5,
    "trigger_change": -3.6,
    "peak_change": -7.0,
    "first_seen": "2026-11-10T16:40:04+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 99.49,
-    "change_pct": -1.94
+    "price": 99.65,
+    "change_pct": -1.78
    },
    "chart": {
-    "ema8": -5.8,
-    "ema21": -17.6,
-    "sma50": -33.2,
-    "sma200": -25.8,
+    "ema8": -6.1,
+    "ema21": -17.9,
+    "sma50": -33.5,
+    "sma200": -26.0,
     "momentum": false
    },
    "headlines": [
@@ -96,101 +96,26 @@
    "brief": "2026-11-10-NBIS"
   },
   {
-   "symbol": "NVDA",
-   "name": "Nvidia",
-   "list": "portfolio",
-   "price": 167.97,
-   "prev_close": 178.67,
-   "change_pct": -6.0,
-   "trigger_change": -3.3,
-   "peak_change": -6.9,
-   "first_seen": "2026-11-10T14:58:50+00:00",
-   "sector": {
-    "etf": "SMH",
-    "name": "Semiconductors",
-    "price": 480.5,
-    "change_pct": -1.42
-   },
-   "chart": {
-    "ema8": -10.8,
-    "ema21": -17.3,
-    "sma50": -22.9,
-    "sma200": -17.9,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Nvidia Stock Has Wiped Out $1.7 Trillion in Value Since October. What Could Happen If Jensen Huang Steps Down?",
-     "publisher": "The Motley Fool",
-     "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPM1o3SWQ2QU5RUmZDNmVtRVhBYzVDV3NqS29DU0wyMDdxTzZteGlmTDUxTGcyWDIxM2Jzd3RmWnp0M3lmOWQycW1aVDdpTkYya1A5eF9MTEJJQXB1Y2otUjdXYjJiVy1HaUtpMDUyZVZCZjdJR1gweGRoY0xYMEVzM2FDcnRwR256ekpXWW1obWllSnJabGR4QmdQUUJmckZ2bW8wWU5FU0RPbk15UEtNZkhmRUlGbHlUVTctcWdWN1kzSkVneFdoazB5aURNVEFjbzg5LWNjX1JZejhvT0YxY1lHWFgzMENa?oc=5",
-     "time": "2026-11-10T18:03:00+00:00"
-    },
-    {
-     "title": "Nvidia Is Down 30% From Its High. History Says This Is What Happens Next.",
-     "publisher": "The Motley Fool",
-     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZXdzQzhNMVk1bGlTWjdyc3EtdUphNXZBS3hjY1NaLTJSUURXWFNqb3Q5NHBKdmxuTUdRel9mcXNIRnEwWjBhQXBxb25BdzJNbzU1MjJCMkxnZnNHY0VtM1hKMHAzSU9DTFpfWHRwQ1EwR2t0VjU1NDd0YnJ6MXp2bFJwVXNZc3hDSndQbTZ2YWFLaHZ5UFR3?oc=5",
-     "time": "2026-11-10T17:55:00+00:00"
-    },
-    {
-     "title": "Nvidia: The Jensen Huang Situation Is Difficult, But His Company Will Be Fine (NVDA)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOdWxCRjB4SW1PSTIxblJnUWJSdDJkNXVMZFRfUll1TDRjZElfcmpFSEVEVjBnQ1dzeDhPWnVxY0ZtOUExUERqSEE2QXZCQVRjZjREZzExV3BHNmdqaGVLU09XdERUUlBqaHk5SGdGa1JnemRrSTNFSmxmeGplUlVSMjhYeHUxTGxzT2FFZ09MMk9xUHUzSlJuLTBqS1hVcDh1dlE4NGpjVWZ5Zmd1dm5OV180cWNEWXM?oc=5",
-     "time": "2026-11-10T17:48:00+00:00"
-    },
-    {
-     "title": "Nvidia Stock Falls as Citi Trims Price Target Ahead of Earnings",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNR2VNNzU0MmJuaF9rYmFWWWdPZnd3TzMxVi1yck9hRXlSVVlYTXQ0NlM0Zl9uSHhpalVXWFRGM3dSd3lnbHpmRUtJZmRrU2Rsa1A2RUhfTHF0eFhNZk5va2VpUmtxLWNicC1hZVNxMjZRUEpnYTQ2OEExTUt3bmtwZUlXNm9CM24xSVRrWkY1WHNZcktMSmNES2x3?oc=5",
-     "time": "2026-11-10T17:30:24+00:00"
-    },
-    {
-     "title": "US Stocks Decline Amid Inflation Report; NVIDIA (NVDA) Continues Downtrend",
-     "publisher": "GuruFocus",
-     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPR3F0WUU2R2VBOTNGQm1OZHgySjllUDA5cDRLSGtDUVc4MUZySUxNeTYzTnNjUFlCTUJBNWMzNnZRNzdHOEhYQ0t0alQzcmFOZDdQVTR2clFmLXN1NWpZWVdYdWtCQXhkSXJJNnVxQ3JXRHBJbXZBcU9ocWVWMmI0WEFLNmdwSlQ1d3ZZWUl6dXVwRDlMajFpcjZkTG1QbGlzRmp0SmRFMVBoWFJRYTdn?oc=5",
-     "time": "2026-11-10T17:15:44+00:00"
-    },
-    {
-     "title": "Why Nvidia Stock Fell Again on Tuesday",
-     "publisher": "The Motley Fool",
-     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOd1pvUEVEWGNoSmV6YkFtRXRGNDUzRHFIZXpuRk05LVhDR0lxem5mR2x6cFQzN0l5NDFMYWVvYkgwZWJnSFlGNUFZSVZadFU1cFVCV1BYc3FQRERrNTFoLW9Hcnh3di10MW9uNFh0MlFNaUQzUkxZQ05iQWRpaE9nenl1amxMRmN3?oc=5",
-     "time": "2026-11-10T16:54:00+00:00"
-    },
-    {
-     "title": "Our Nvidia downgrade \u2014 plus, Cramer is looking to add to this position",
-     "publisher": "CNBC",
-     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNNm5NSlRLdXFQTHd3eWpPcTFQcjNPanI2ck9QZ19BWkVwMW5mM011R0FaV2hqRFU5WGMzRnIzS2xQcW10X3JMVE9fNlYtZjBncTZ4WWF3UGVoYThBMTBsVGt5N0p3LXpEOGJLUS1Vd0Y5N1htOTM5QlByc1F0dEZQRTRzVXJmbHB1WXB0dlpjYjNYb1VBZXhsRG5DeS03YzRib3ZRa2xudGZVZVZmMFFNNEFiQm9mRU51emc?oc=5",
-     "time": "2026-11-10T16:44:13+00:00"
-    },
-    {
-     "title": "The Conviction Gap: Bank of America Pulls 3 High-Fly AI Stocks Off Its Top List - NVIDIA (NASDAQ:NVDA), M",
-     "publisher": "Benzinga",
-     "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNSi1mY01PVmxKbjltSDUxQjh6U1plZGIwSlp4YllQY1haV29CU2hlVkR0QjEtRFpJZHFJaUFIQkFyalRNWWp6MHc4ZFBEdTkydHVTb2lhQkYtNWpEMmxMMEVIVXdHSGhTSWJJbmpYTDI5eDE3UVVzbnB4TGtqYlZ4WUhVdmdBSzE3aWZqTVFtd3Q3Q2lRb1ZSREUzY3c4MlBMSmFZSFEtVkQtQUtuazlUbUtMNFhCTGhEYkFUQlNIZHMzRWE4VVI3eTJ5bnVQd2kybFRsVzNUR01Oc3hxWXptbV9oQ1BkVDg5YVE?oc=5",
-     "time": "2026-11-10T16:43:08+00:00"
-    }
-   ],
-   "brief": "2026-11-10-NVDA"
-  },
-  {
    "symbol": "APP",
    "name": "AppLovin",
    "list": "portfolio",
-   "price": 385.34,
+   "price": 385.18,
    "prev_close": 410.0,
-   "change_pct": -6.0,
+   "change_pct": -6.1,
    "trigger_change": -3.0,
    "peak_change": -6.2,
    "first_seen": "2026-11-10T14:58:50+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 99.49,
-    "change_pct": -1.94
+    "price": 99.65,
+    "change_pct": -1.78
    },
    "chart": {
     "ema8": 13.6,
     "ema21": 27.1,
-    "sma50": 29.9,
-    "sma200": -5.5,
+    "sma50": 29.8,
+    "sma200": -5.6,
     "momentum": true
    },
    "headlines": [
@@ -246,26 +171,101 @@
    "brief": "2026-11-10-APP"
   },
   {
+   "symbol": "NVDA",
+   "name": "Nvidia",
+   "list": "portfolio",
+   "price": 168.19,
+   "prev_close": 178.67,
+   "change_pct": -5.9,
+   "trigger_change": -3.3,
+   "peak_change": -6.9,
+   "first_seen": "2026-11-10T14:58:50+00:00",
+   "sector": {
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 481.52,
+    "change_pct": -1.21
+   },
+   "chart": {
+    "ema8": -10.7,
+    "ema21": -17.2,
+    "sma50": -22.8,
+    "sma200": -17.8,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Nvidia Stock Has Wiped Out $1.7 Trillion in Value Since October. What Could Happen If Jensen Huang Steps Down?",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPM1o3SWQ2QU5RUmZDNmVtRVhBYzVDV3NqS29DU0wyMDdxTzZteGlmTDUxTGcyWDIxM2Jzd3RmWnp0M3lmOWQycW1aVDdpTkYya1A5eF9MTEJJQXB1Y2otUjdXYjJiVy1HaUtpMDUyZVZCZjdJR1gweGRoY0xYMEVzM2FDcnRwR256ekpXWW1obWllSnJabGR4QmdQUUJmckZ2bW8wWU5FU0RPbk15UEtNZkhmRUlGbHlUVTctcWdWN1kzSkVneFdoazB5aURNVEFjbzg5LWNjX1JZejhvT0YxY1lHWFgzMENa?oc=5",
+     "time": "2026-11-10T18:03:00+00:00"
+    },
+    {
+     "title": "Nvidia Is Down 30% From Its High. History Says This Is What Happens Next.",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZXdzQzhNMVk1bGlTWjdyc3EtdUphNXZBS3hjY1NaLTJSUURXWFNqb3Q5NHBKdmxuTUdRel9mcXNIRnEwWjBhQXBxb25BdzJNbzU1MjJCMkxnZnNHY0VtM1hKMHAzSU9DTFpfWHRwQ1EwR2t0VjU1NDd0YnJ6MXp2bFJwVXNZc3hDSndQbTZ2YWFLaHZ5UFR3?oc=5",
+     "time": "2026-11-10T17:55:00+00:00"
+    },
+    {
+     "title": "Nvidia: The Jensen Huang Situation Is Difficult, But His Company Will Be Fine (NVDA)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOdWxCRjB4SW1PSTIxblJnUWJSdDJkNXVMZFRfUll1TDRjZElfcmpFSEVEVjBnQ1dzeDhPWnVxY0ZtOUExUERqSEE2QXZCQVRjZjREZzExV3BHNmdqaGVLU09XdERUUlBqaHk5SGdGa1JnemRrSTNFSmxmeGplUlVSMjhYeHUxTGxzT2FFZ09MMk9xUHUzSlJuLTBqS1hVcDh1dlE4NGpjVWZ5Zmd1dm5OV180cWNEWXM?oc=5",
+     "time": "2026-11-10T17:48:00+00:00"
+    },
+    {
+     "title": "Nvidia Stock Falls as Citi Trims Price Target Ahead of Earnings",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNR2VNNzU0MmJuaF9rYmFWWWdPZnd3TzMxVi1yck9hRXlSVVlYTXQ0NlM0Zl9uSHhpalVXWFRGM3dSd3lnbHpmRUtJZmRrU2Rsa1A2RUhfTHF0eFhNZk5va2VpUmtxLWNicC1hZVNxMjZRUEpnYTQ2OEExTUt3bmtwZUlXNm9CM24xSVRrWkY1WHNZcktMSmNES2x3?oc=5",
+     "time": "2026-11-10T17:30:24+00:00"
+    },
+    {
+     "title": "US Stocks Decline Amid Inflation Report; NVIDIA (NVDA) Continues Downtrend",
+     "publisher": "GuruFocus",
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPR3F0WUU2R2VBOTNGQm1OZHgySjllUDA5cDRLSGtDUVc4MUZySUxNeTYzTnNjUFlCTUJBNWMzNnZRNzdHOEhYQ0t0alQzcmFOZDdQVTR2clFmLXN1NWpZWVdYdWtCQXhkSXJJNnVxQ3JXRHBJbXZBcU9ocWVWMmI0WEFLNmdwSlQ1d3ZZWUl6dXVwRDlMajFpcjZkTG1QbGlzRmp0SmRFMVBoWFJRYTdn?oc=5",
+     "time": "2026-11-10T17:15:44+00:00"
+    },
+    {
+     "title": "Why Nvidia Stock Fell Again on Tuesday",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOd1pvUEVEWGNoSmV6YkFtRXRGNDUzRHFIZXpuRk05LVhDR0lxem5mR2x6cFQzN0l5NDFMYWVvYkgwZWJnSFlGNUFZSVZadFU1cFVCV1BYc3FQRERrNTFoLW9Hcnh3di10MW9uNFh0MlFNaUQzUkxZQ05iQWRpaE9nenl1amxMRmN3?oc=5",
+     "time": "2026-11-10T16:54:00+00:00"
+    },
+    {
+     "title": "Our Nvidia downgrade \u2014 plus, Cramer is looking to add to this position",
+     "publisher": "CNBC",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNNm5NSlRLdXFQTHd3eWpPcTFQcjNPanI2ck9QZ19BWkVwMW5mM011R0FaV2hqRFU5WGMzRnIzS2xQcW10X3JMVE9fNlYtZjBncTZ4WWF3UGVoYThBMTBsVGt5N0p3LXpEOGJLUS1Vd0Y5N1htOTM5QlByc1F0dEZQRTRzVXJmbHB1WXB0dlpjYjNYb1VBZXhsRG5DeS03YzRib3ZRa2xudGZVZVZmMFFNNEFiQm9mRU51emc?oc=5",
+     "time": "2026-11-10T16:44:13+00:00"
+    },
+    {
+     "title": "The Conviction Gap: Bank of America Pulls 3 High-Fly AI Stocks Off Its Top List - NVIDIA (NASDAQ:NVDA), M",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNSi1mY01PVmxKbjltSDUxQjh6U1plZGIwSlp4YllQY1haV29CU2hlVkR0QjEtRFpJZHFJaUFIQkFyalRNWWp6MHc4ZFBEdTkydHVTb2lhQkYtNWpEMmxMMEVIVXdHSGhTSWJJbmpYTDI5eDE3UVVzbnB4TGtqYlZ4WUhVdmdBSzE3aWZqTVFtd3Q3Q2lRb1ZSREUzY3c4MlBMSmFZSFEtVkQtQUtuazlUbUtMNFhCTGhEYkFUQlNIZHMzRWE4VVI3eTJ5bnVQd2kybFRsVzNUR01Oc3hxWXptbV9oQ1BkVDg5YVE?oc=5",
+     "time": "2026-11-10T16:43:08+00:00"
+    }
+   ],
+   "brief": "2026-11-10-NVDA"
+  },
+  {
    "symbol": "SOFI",
    "name": "SoFi",
    "list": "portfolio",
-   "price": 15.97,
+   "price": 15.98,
    "prev_close": 16.75,
-   "change_pct": -4.7,
+   "change_pct": -4.6,
    "trigger_change": -3.1,
    "peak_change": -4.9,
    "first_seen": "2026-11-10T15:34:25+00:00",
    "sector": {
     "etf": "XLF",
     "name": "Financials",
-    "price": 58.33,
-    "change_pct": 0.59
+    "price": 58.35,
+    "change_pct": 0.63
    },
    "chart": {
-    "ema8": -2.5,
-    "ema21": -1.1,
-    "sma50": -2.0,
-    "sma200": -8.5,
+    "ema8": -2.4,
+    "ema21": -1.0,
+    "sma50": -1.9,
+    "sma200": -8.4,
     "momentum": true
    },
    "headlines": [
@@ -324,23 +324,23 @@
    "symbol": "NOW",
    "name": "ServiceNow",
    "list": "portfolio",
-   "price": 98.12,
+   "price": 98.33,
    "prev_close": 102.76,
-   "change_pct": -4.5,
+   "change_pct": -4.3,
    "trigger_change": -3.0,
    "peak_change": -5.1,
    "first_seen": "2026-11-10T16:45:06+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 99.49,
-    "change_pct": -1.94
+    "price": 99.65,
+    "change_pct": -1.78
    },
    "chart": {
-    "ema8": -9.2,
-    "ema21": -19.7,
-    "sma50": -27.0,
-    "sma200": -14.0,
+    "ema8": -9.1,
+    "ema21": -19.5,
+    "sma50": -26.9,
+    "sma200": -13.8,
     "momentum": false
    },
    "headlines": [
@@ -399,7 +399,7 @@
    "symbol": "AVGO",
    "name": "Broadcom",
    "list": "portfolio",
-   "price": 329.78,
+   "price": 329.59,
    "prev_close": 319.48,
    "change_pct": 3.2,
    "trigger_change": 3.8,
@@ -408,13 +408,13 @@
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 480.5,
-    "change_pct": -1.42
+    "price": 481.52,
+    "change_pct": -1.21
    },
    "chart": {
     "ema8": 3.1,
-    "ema21": 0.0,
-    "sma50": -4.7,
+    "ema21": -0.0,
+    "sma50": -4.8,
     "sma200": -10.2,
     "momentum": false
    },
@@ -474,7 +474,7 @@
    "symbol": "BTC-USD",
    "name": "Bitcoin",
    "list": "watchlist",
-   "price": 73361.8,
+   "price": 73342.1,
    "prev_close": 75253.1,
    "change_pct": -2.5,
    "trigger_change": -3.1,
@@ -482,9 +482,9 @@
    "first_seen": "2026-11-10T16:40:04+00:00",
    "sector": null,
    "chart": {
-    "ema8": -3.0,
+    "ema8": -3.1,
     "ema21": -5.7,
-    "sma50": -9.8,
+    "sma50": -9.9,
     "sma200": 0.3,
     "momentum": false
    },
@@ -544,23 +544,23 @@
    "symbol": "AXON",
    "name": "Axon",
    "list": "watchlist",
-   "price": 297.34,
+   "price": 297.98,
    "prev_close": 303.18,
-   "change_pct": -1.9,
+   "change_pct": -1.7,
    "trigger_change": -3.1,
    "peak_change": -3.7,
    "first_seen": "2026-11-10T15:49:34+00:00",
    "sector": {
     "etf": "XLI",
     "name": "Industrials",
-    "price": 168.12,
-    "change_pct": -0.45
+    "price": 168.17,
+    "change_pct": -0.43
    },
    "chart": {
-    "ema8": -16.3,
-    "ema21": -23.9,
-    "sma50": -30.9,
-    "sma200": -36.7,
+    "ema8": -16.1,
+    "ema21": -23.8,
+    "sma50": -30.7,
+    "sma200": -36.6,
     "momentum": false
    },
    "headlines": [
@@ -619,23 +619,23 @@
    "symbol": "CRWD",
    "name": "CrowdStrike",
    "list": "portfolio",
-   "price": 224.32,
+   "price": 224.61,
    "prev_close": 228.58,
-   "change_pct": -1.9,
+   "change_pct": -1.7,
    "trigger_change": -3.7,
    "peak_change": -3.7,
    "first_seen": "2026-11-10T17:40:30+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 99.49,
-    "change_pct": -1.94
+    "price": 99.65,
+    "change_pct": -1.78
    },
    "chart": {
-    "ema8": -3.4,
-    "ema21": -7.0,
-    "sma50": -8.0,
-    "sma200": 30.9,
+    "ema8": -3.3,
+    "ema21": -6.9,
+    "sma50": -7.9,
+    "sma200": 31.1,
     "momentum": false
    },
    "headlines": [
