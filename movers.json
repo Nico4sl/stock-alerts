@@ -1,66 +1,54 @@
 {
  "date": "2026-11-10",
  "threshold": 3.0,
- "updated": "2026-11-10T14:58:50+00:00",
+ "updated": "2026-11-10T15:04:06+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 750.41,
-   "change_pct": -0.3
+   "price": 751.57,
+   "change_pct": -0.15
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 678.69,
-   "change_pct": -0.1
+   "price": 680.21,
+   "change_pct": 0.13
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 80.93,
-   "change_pct": -1.26
+   "price": 80.89,
+   "change_pct": -1.31
   }
  },
  "movers": [
   {
-   "symbol": "NVDA",
-   "name": "Nvidia",
+   "symbol": "AVGO",
+   "name": "Broadcom",
    "list": "portfolio",
-   "price": 172.81,
-   "prev_close": 178.67,
-   "change_pct": -3.3,
-   "trigger_change": -3.3,
-   "peak_change": -3.3,
-   "first_seen": "2026-11-10T14:58:50+00:00",
+   "price": 331.75,
+   "prev_close": 319.48,
+   "change_pct": 3.8,
+   "trigger_change": 3.8,
+   "peak_change": 3.8,
+   "first_seen": "2026-11-10T15:04:06+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 490.83,
-    "change_pct": 0.7
+    "price": 490.75,
+    "change_pct": 0.69
    },
    "chart": {
-    "ema8": -8.8,
-    "ema21": -15.1,
-    "sma50": -20.8,
-    "sma200": -15.5,
+    "ema8": 3.6,
+    "ema21": 0.6,
+    "sma50": -4.2,
+    "sma200": -9.6,
     "momentum": false
    },
    "headlines": [
     {
-     "title": "NVIDIA Corp Stock (NVDA) Opened Down by 4.07% on Nov 10: A Full Analysis",
-     "publisher": "TradingKey",
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPWGdIUzFBZ1U1STNzUjJLalZsbS1jQ0o5aHdHUVpFVXZjcFNRb2o2ZGFfcUhzY0d4a3BFQlFkME1iaEtpM0JRR0RhZXRCUHdJWm01WV9WWk5TRGFFSzhHNDdBM0ZWRGNlc0N0c2tNVC0xM0hRQTFLcnR0Mm9UZTNTMDNaSlU2YUhhZDFj?oc=5",
-     "time": "2026-11-10T14:47:19+00:00"
-    },
-    {
-     "title": "Is the 4.27% Drop in Nvidia (NASDAQ:NVDA) Shares a Governance Problem Rather Than a Demand Problem?",
-     "publisher": "kalkine.ca",
-     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNVVQ2c1BBclFleFlyU1QzMm1qWEVVMF9nOUxZZFNmc3RXLWFJdF9OcTZJWGVkT2w2M1IwT0hBU3p6RW9kOHNCZmNtNk9LVXVzMlRfakpvMnZ2RTMwRE1fRlZzWE9JOFFlem1KbERMT0VjSGdhdGoxcVU3VjhyMXA0RElBaWIzc3JTcE1qaFF1aHI1S180SDRPWjJQcFpIcE1taVlEM2NLemM2c3kxaWZBQ3ZqbXpyd1B4X3BGZHhTa3ZLYlJmOTIw?oc=5",
-     "time": "2026-11-10T14:45:00+00:00"
-    },
-    {
-     "title": "Nvidia in focus as Citi, Wells Fargo cut price targets ahead of earnings (NVDA:NASDAQ)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQUkx2UXZpZ0luVmhZQk10S0dDUkdQdDhlbjN0UFZadzMtT3M0SXBWWG1vWTk4eFVRTUdiYzJDdTd3MVR4MF9zNXZhVG83eVlnNWNIT0k0UWZnVFY4dXh1b1BSM3NfSFhIWWdoTUd6Vl9oSEsybzZZUV9sZnlNTzctZmlYd2tVVnRrVXI5STRTeHVIeVdCWVNvc0IzQkhvSzR1ekpzdHdGU2ZibDVxaXc?oc=5",
-     "time": "2026-11-10T14:28:00+00:00"
+     "title": "NVIDIA Falls 4% as Board Probe of Jensen Huang Weighs on Shares; AMD and Broadcom Gain 3%",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQb2s1ekxJVnk0YTFNZ3lIU3VXUk5ScGNGSzVtU2tZRWZkWUdEVVlWV3BDZGdPMy1GZG0tdjdpSUg2bXJReWtrNzkwdWNVM2ZuTEpoMDFURlRyYWRseXI5SGJtakZseVVxekdoRGlidGp3cTlkUEp3MndZSnFVcHp6YWJmaTg1NGQ3SU9YcVFpbEZoWmZrREpZYnNYR2tWMGJQT0syYUlnWGJHcUt4NDdfX24xVHFTc3Q3YjhxSFFwNUswOWFxbU44V053?oc=5",
+     "time": "2026-11-10T14:56:00+00:00"
     },
     {
      "title": "Nvidia and Broadcom Are Scaling AI Data Centers With This Growth Stock. Here's Why It Could Soar.",
@@ -69,28 +57,40 @@
      "time": "2026-11-10T14:15:00+00:00"
     },
     {
-     "title": "Nvidia's China Chip Scandal Reaches Shanghai-Listed Firm - NVIDIA (NASDAQ:NVDA)",
+     "title": "Broadcom Just Had Its Best Day in Nearly a Year, Back Above $1.5 Trillion",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxONzdtNnUxQllkOGl5bktYQkdsekhTeXlyMl9zWmEtazJ0dk9YODZTSk1aaTB5aHpsNEIwOUZBVGduX3EwT3dUakZDeGdhN1VyalVfeTVHY1pXMWhtZ0R5R0s1SmZCUXJnRW9QTm1iYjM5U0NUcnBFME9tX0FTVklxVEJadVU3cmduazdHRkxoWDVldnQ3TUE?oc=5",
+     "time": "2026-11-10T13:53:50+00:00"
+    },
+    {
+     "title": "J.P. Morgan Maintains Broadcom(AVGO.US) With Buy Rating",
+     "publisher": "Moomoo",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxORVIya0dDcXlPMlBkUC0wZS1pSUhVdFRRTGFwc0F1cGktMmZCeXN5M2g4THBDalVjTGFWWHptM01kblNLdGowU0VNTENvOFN6VmFHMk9pczZuclBtZVFiaWw0ampIOUI3X1poV054N3dudWhqZ2ZmOGVtYVM1ZU9oM1J3SDctNTBmSmV3aFFaYW8tcl9TazJKeVJuaw?oc=5",
+     "time": "2026-11-10T13:48:50+00:00"
+    },
+    {
+     "title": "Google\u2019s New AI System Doubles Compute in the Same Space. JPMorgan Sees a Broadcom Win",
      "publisher": "Benzinga",
-     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQOGpkOFkyNXRmVUJ6M0haR3ZCdG1kZ2JUV082Nll5NUxZTTM2U2RSUDFZMDhJd0RicnVEQWlhZU5fOG01bi1JTGdkVFlRNV9iSjNWT0RCUDZjNlh3QW01bEg2dThOVzE4S1dfbDJGb2lsRlNWOWZtakg5aGJhYUZuTDRLaEVGSlVwTFN1WUJiVQ?oc=5",
-     "time": "2026-11-10T14:01:49+00:00"
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOVkt3ZXV0ZXY3V3lSZFIyUVVxTFdSOWwwbGRYTC10VVpXaHM0TTl0YUJEVV9CUXdUZkZHc1dMek5uS0loQUw1YkV1NWJwOURaMVhZalE1eVdITTE2NmxCVk1ERUxHczVvUzVaUHFpMmNDbW5wTFk3QzZYQUV5RjQ2SkdBcnB1d1NiSlZMZXNOUzBsZGc?oc=5",
+     "time": "2026-11-10T13:35:18+00:00"
     },
     {
-     "title": "Nvidia: TPUs, Trainiums, And Jalapenos Scare Me More Than China (Rating Downgrade) (NVDA)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNeUl1Z2d6M0I2T1VLRXhaMnk1eG4ybERlb3ZFbkRwd2duRG1LSnEyVDl3eWh4UnYxa3M4SXRTeFVXU280VjdBdEVzNVdKTXQwWFdBOWl3OFZQYnY0djEwSFF2T1h6dmxqVE1VSk9NMU9jcDBQRUNqTnhpY2c3Vk1FcjhsTDBfb3hHancyc1NoVUc0RTRWVWpSbS04T2IwRjZCRE9Nc3R0X1JKMEVZZWxMTFkyMnRoMXRaUnc?oc=5",
-     "time": "2026-11-10T13:57:00+00:00"
+     "title": "Broadcom stock faces an AI growth test as valuation resets",
+     "publisher": "ad-hoc-news.de",
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNQ0JrcGltTUNXSnphX0ZvZVVVZUljZVhlMDVaN3BDclF3UlY0eXcyNmljNE9KMFN3SC1maWdkYVZKc3lPcmExU21rMHdoTGJ5S1ZNSU9iZW5naThxdDVWcy1oaVVFZkJLdl9CaHhZNmh0aWRjSjRpMjBNR3NaeFdVaXl5SFA3MXhfQlJkRU1pMXRnUWVvamdJUTQ4XzZWc3pONGRmRkV0SzZ2dVMyWFJ1Zlc4djBOaFQ3MWZGd29R?oc=5",
+     "time": "2026-11-10T12:32:21+00:00"
     },
     {
-     "title": "'Markets bottom on bad news' maxim rings true as chip stocks rally amid Nvidia scandal",
-     "publisher": "CNBC",
-     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5pMHBsV3hBRFluY0c0SGo1NFBBTjFRR3hPbFE4bHRfT0R3T0NKOVRzd29TQmdpMHVWYU1JZ2xJU203VWJETkZuYmx2M1Y2VC1GM1BKV044a3o0SjNQdjNUbHRkcTR1WGJEOFpNZzlYdHBPT0hCZkhxMg?oc=5",
-     "time": "2026-11-10T13:19:13+00:00"
+     "title": "Broadcom And 2 More Undervalued Stocks To Improve Your Portfolio",
+     "publisher": "Simply Wall St",
+     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOeHNzUEkwOHNMV0REN3F3bWVldy1jUm9xNTFSNlo3bEswNS1KYjhuZGRIa0F0aHZUN2JLRlRzNExiTFlJNENmV3hVRG5CNTZWRjVYcnBZSGxFR1ZTRWpacDJuSnFVdE8tcWFnaXJTSjhoZXpOQ0FhMW5MQTMwSFlSakgzUHZGUG5yd3B2Vks3SmpBc1JkNmJDNnlabUFwU2F0ZmZkNWZuX0llSXhEMnJ0Q2ZYZTY3WUZIQzNQZ0FpalJJaEJUT2J4UFVCU2J4d9IB0wFBVV95cUxOc0VlWDRzbFdhLTJxZUkwR2k0M2JNTEhuaW9xeGJhWDdWSVV3VnJGcE14VnUta2lORWxEMzFFUzVKdlJ5Uk84ZUNJbjFGZXNZajdXRHB2WHVBRmdESXRoSzJweFMzX3lrOTlxdjBOT1Juank1M1VPTktuYXV5U2RKb0hZUGV3c2ZrekFVRG5SYmlJc2pJVWJYWVVoRExZZHBTOGRsOFNLbHhzY0lSWmhoeTNQMXFNTUVHN25lc2dsRDVUZll0V2dad1ZSNHpzVkVyZnNv?oc=5",
+     "time": "2026-11-10T12:31:58+00:00"
     },
     {
-     "title": "NVIDIA (NASDAQ:NVDA) Stock Price Target Lowered at Wells Fargo & Company",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNMGF5SDRjdlFKM3lHbmZmYTlVei1SVXhUZ1VFQjd4QWJ5ckVmRVZJaFNJU0ZsZmlzZkp5MWNLQU5yS3pJLUpldHFRckZaU1VhWFRXM1BsZWZ1WjRTa1Ztc1h1d0RURGh0MU5RYVpicjdLUGF5RGs1THBoM2JkeGJmdXcxcU1vczlUTkVXTlBwandMR185TU15UFQtUVdvbWhuRnhIRTJ0T1dzUlpBV3YtY29JT3lONjJ6el9XQkNWZThMRDdDaUtFVUN3?oc=5",
-     "time": "2026-11-10T13:09:04+00:00"
+     "title": "Why Is Broadcom (AVGO) Open Sourcing VM API And Shaping Kubernetes Standards?",
+     "publisher": "Simply Wall St",
+     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQa0xuM3k2UnpmWE5IQmpTeEVvS0pldlBlOVRvbkliRnI2eU1RYktndTFBX0syM1o0bTJ0M1BOWW9hRzlKZGktTEw4aTgyVzY5NUVaQ2ZCWjNxcmpaY0JrWkFORjV1R05iX05vTktIM1g0WUFXWl9LZm1Cb3dXT0ZqWVpJX2xOZE96eXo5WXkxYjVTeWQ3UWlCbURsR0FHWW82ZE1KMU4td1ZsR01tNWhjN0UzS0tqVlprZjhFQnN2b1BGZWYzRG9yTUhsaTVDUdIB0wFBVV95cUxNT09BcUxVVzR4dWRpR1FGMEJTZjhGNVRUY0Zwai1GekU1WlN2SndDcnFQdVhmQ3JOck9SZVJqLWZsaVA4ZUFJUG93U2hKMFVSZlZyazhaWXVBYTRsN01DNnU5dUtVZjVnWGtpMm9PVHZTbkx4Z2I1UVJZSm5fajVic0ZkSnh4YXZQdlZrckJhdlRCaE5BcXVLZzlNdGVsZXZnYllMdDY3SHZEdW5WUlZkdnI3VDZoYTE5bDBVWnk5dng0VmhxanpURGxBWnFMNE9NOUhJ?oc=5",
+     "time": "2026-11-10T12:27:22+00:00"
     }
    ],
    "brief": null
@@ -99,37 +99,37 @@
    "symbol": "APP",
    "name": "AppLovin",
    "list": "portfolio",
-   "price": 397.78,
+   "price": 395.93,
    "prev_close": 410.0,
-   "change_pct": -3.0,
+   "change_pct": -3.4,
    "trigger_change": -3.0,
-   "peak_change": -3.0,
+   "peak_change": -3.4,
    "first_seen": "2026-11-10T14:58:50+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 101.04,
-    "change_pct": -0.41
+    "price": 100.96,
+    "change_pct": -0.49
    },
    "chart": {
-    "ema8": 16.4,
-    "ema21": 30.7,
-    "sma50": 34.0,
-    "sma200": -2.5,
+    "ema8": 16.0,
+    "ema21": 30.2,
+    "sma50": 33.4,
+    "sma200": -3.0,
     "momentum": true
    },
    "headlines": [
-    {
-     "title": "AppLovin: 3 Key Takeaways for Long-Term Investors",
-     "publisher": "The Globe and Mail",
-     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOLWFTd2VLMUl2bFN2b2VpbGttVjVpeWMtSjhNUnVoUndpdDM4LTdaRFRlaWZ4aWVBVkcybk14UzNDRFRyYWVSUHNkZy1BM0RTSHQ2X2UzeTdRWUt5ZnJaS2xWV2tVV0preWZnVkhuWG05U215ekp3WWlSUUlnb3VVV2RuTHBoX05WV1FiVGhscDlRb2dsRE14UUtnOHJkSUtpQ0FXS3JJR2lwckJqNWNHYUsyakpoOGJqcThfbklqUjRsVmUxeGc?oc=5",
-     "time": "2026-11-10T14:55:08+00:00"
-    },
     {
      "title": "Applovin Corp Stock (APP) Opened Down by 3.23% on Nov 10: Drivers Behind the Movement",
      "publisher": "TradingKey",
      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQb0hZTTM5MVJNb3BCbl8xQ0NJSG1NOGVFamlSUUV0dEloWXZtNDRTSW5SNVNmWUg4YmxVcTE3Y1dueUhNSGtDWEpaZDJXYlJ2dnVjQURaRjFTNEdOZWlFMzlkZGJ6YmFlQmo0RTZLRncxUm9ZeDJWQ25PSmN4a08ydS0wbU1fVm5GaEE?oc=5",
      "time": "2026-11-10T14:47:23+00:00"
+    },
+    {
+     "title": "AppLovin: 3 Key Takeaways for Long-Term Investors",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNMlhFcGVMQmJpZFFNRjNQbmllTE0yQ1l4Tk5YTExrejJRaWIwR3d6U1VfSDhBUnRLek5GWkZGSU9jUkprajllcWlxVnpScUYzWnNQOXNJZldlQlVlaGpVX3BiZmJDSjRBTWdCQXhURTlEZ3RwdXJFYzlBR2xXZTdEZGlrc21Pb1FJSW1BZDVDb2h2WkFnWkFNdldR?oc=5",
+     "time": "2026-11-10T14:43:20+00:00"
     },
     {
      "title": "APPLOVIN CORPORATION (APP) SHAREHOLDER ALERT Bernstein",
@@ -166,6 +166,81 @@
      "publisher": "Yahoo! Finance Canada",
      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFA0OTE4ejVuUG5oSmE5VVhRcGRhbDAyUmp6MlgySm9HU2JySjB0cGhkZWgzcGxhYkFHb3pzbXI3UGtOTllyRlhZeG50bExjM21iallj?oc=5",
      "time": "2026-11-10T00:50:41+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
+   "symbol": "NVDA",
+   "name": "Nvidia",
+   "list": "portfolio",
+   "price": 173.42,
+   "prev_close": 178.67,
+   "change_pct": -2.9,
+   "trigger_change": -3.3,
+   "peak_change": -3.3,
+   "first_seen": "2026-11-10T14:58:50+00:00",
+   "sector": {
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 490.75,
+    "change_pct": 0.69
+   },
+   "chart": {
+    "ema8": -8.5,
+    "ema21": -14.8,
+    "sma50": -20.5,
+    "sma200": -15.2,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Nvidia (NVDA) Sees Price Target Cuts Ahead of November 17 Earnin",
+     "publisher": "GuruFocus",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxON0Rqa1I2RW55LTFzVjFWZmJTTGRsNWRwdVY3c0M4WXI4V0xwQkxPS2ZGX05BSllTVXZfaFp0RGxoVHYxV0FfdXVrZ2tEUGo4S28wd3pCRDcydFdibXNSWHQ0OHliZG1PSk9IZm5HWC1xcDAzN25Hc1dzS0pkbXg1dnFRY3ItcHlZTTVYR1RIcE9HUDBsbjdKRFAzdExGamoyRmp1MDl3?oc=5",
+     "time": "2026-11-10T15:02:39+00:00"
+    },
+    {
+     "title": "NVIDIA Corp Stock (NVDA) Opened Down by 4.07% on Nov 10: A Full Analysis",
+     "publisher": "TradingKey",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPWGdIUzFBZ1U1STNzUjJLalZsbS1jQ0o5aHdHUVpFVXZjcFNRb2o2ZGFfcUhzY0d4a3BFQlFkME1iaEtpM0JRR0RhZXRCUHdJWm01WV9WWk5TRGFFSzhHNDdBM0ZWRGNlc0N0c2tNVC0xM0hRQTFLcnR0Mm9UZTNTMDNaSlU2YUhhZDFj?oc=5",
+     "time": "2026-11-10T14:47:19+00:00"
+    },
+    {
+     "title": "Is the 4.27% Drop in Nvidia (NASDAQ:NVDA) Shares a Governance Problem Rather Than a Demand Problem?",
+     "publisher": "kalkine.ca",
+     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNVVQ2c1BBclFleFlyU1QzMm1qWEVVMF9nOUxZZFNmc3RXLWFJdF9OcTZJWGVkT2w2M1IwT0hBU3p6RW9kOHNCZmNtNk9LVXVzMlRfakpvMnZ2RTMwRE1fRlZzWE9JOFFlem1KbERMT0VjSGdhdGoxcVU3VjhyMXA0RElBaWIzc3JTcE1qaFF1aHI1S180SDRPWjJQcFpIcE1taVlEM2NLemM2c3kxaWZBQ3ZqbXpyd1B4X3BGZHhTa3ZLYlJmOTIw?oc=5",
+     "time": "2026-11-10T14:45:00+00:00"
+    },
+    {
+     "title": "Jensen Huang net worth before vs after Alice Huang affair controversy: How much has Nvidia CEO lost as NVD",
+     "publisher": "The Economic Times",
+     "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxPaUxUS3VqWndudW0wN05wT3k0bExJZmxpYk55MmI3N3lDMDJQNXJvT1hYNlNSQjlCejJwQk9vWkNMLVRNck5pYi1Vb1NDM01oQUpsSWdaXzlxTUh5UnI3S3ZVeFZBZXUtZ0lhZFp6RUw5MDVlZlhsRG9WSE9VOHpYMklvSnExUlZGMzRKMjdfbUxlU2RFSjBiU0NFOEh0ZFdSZ1VfeTJhSW83b3BPNDdZYy1mOTFYWFpBYUlhTmRCUDk3TDVpeENIeG9vMHg5RDZzRFczeGtDVmgtT2dhSV9LVktYa1ZnVGcyaklQbnVCTXZKT1RMLWxIVEdVbS1iNmZzMm9hbEZVcGk1WExldlhTV2RSMWNseDMtS2p1ME5WR3DSAaYCQVVfeXFMTjkySklGX080S3VUZWhZMDNLckhsdVN0SG1VR0Y0bFk3dVp4MEJBNERYaHNsRTVpTWhJeTdkaGxYUE1OaTZqa3hLWDdxc3Y4WDhKc1hhVThqWWJWSnJUUTBEMTNqLS1IRENfTktuZENMWXNWcUtqalJWTFo1dWJGd05meVZFWDR3b0lhQnlfM291MXROS0hRY24zaHJzTTZIYzdZSnpZYmk2c01BUGZaeDJmZTJTeEYzV3M4Unh1cnFsV0FDUkJ6NnVIdGRvcXlQa2xUc3VpRmFqZjdKZW8wcGNKU0hGeUVscG1lM3pCM2xRVDhLRWZ4VDdsY0t4MVl6M0R2bnFaVTVtaXN0UHlUWG9SWGdFT3VOa09laDBNalNxV2lFRk9n?oc=5",
+     "time": "2026-11-10T14:36:12+00:00"
+    },
+    {
+     "title": "Nvidia in focus as Citi, Wells Fargo cut price targets ahead of earnings (NVDA:NASDAQ)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQUkx2UXZpZ0luVmhZQk10S0dDUkdQdDhlbjN0UFZadzMtT3M0SXBWWG1vWTk4eFVRTUdiYzJDdTd3MVR4MF9zNXZhVG83eVlnNWNIT0k0UWZnVFY4dXh1b1BSM3NfSFhIWWdoTUd6Vl9oSEsybzZZUV9sZnlNTzctZmlYd2tVVnRrVXI5STRTeHVIeVdCWVNvc0IzQkhvSzR1ekpzdHdGU2ZibDVxaXc?oc=5",
+     "time": "2026-11-10T14:28:00+00:00"
+    },
+    {
+     "title": "Nvidia and Broadcom Are Scaling AI Data Centers With This Growth Stock. Here's Why It Could Soar.",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPUU9IbmVoczhsRnBpMm04b0FBaWdCX0dpcXAwbDJtcGJwV2xqbTVPcDFKbkh5N0E4ZUVjak9vMUlrSTRsSW1VSWswcWI2cXVTaXEydWZiZmFQU2E5U3RHSVoyZ1paekI3b3FSV3pZWWZsZk1GSUczMDhBdVUtaFgwLVB4cmtlOHJJc3BIei1IekEyNUct?oc=5",
+     "time": "2026-11-10T14:15:00+00:00"
+    },
+    {
+     "title": "Nvidia's China Chip Scandal Reaches Shanghai-Listed Firm - NVIDIA (NASDAQ:NVDA)",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQOGpkOFkyNXRmVUJ6M0haR3ZCdG1kZ2JUV082Nll5NUxZTTM2U2RSUDFZMDhJd0RicnVEQWlhZU5fOG01bi1JTGdkVFlRNV9iSjNWT0RCUDZjNlh3QW01bEg2dThOVzE4S1dfbDJGb2lsRlNWOWZtakg5aGJhYUZuTDRLaEVGSlVwTFN1WUJiVQ?oc=5",
+     "time": "2026-11-10T14:01:49+00:00"
+    },
+    {
+     "title": "Nvidia: TPUs, Trainiums, And Jalapenos Scare Me More Than China (Rating Downgrade) (NVDA)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNeUl1Z2d6M0I2T1VLRXhaMnk1eG4ybERlb3ZFbkRwd2duRG1LSnEyVDl3eWh4UnYxa3M4SXRTeFVXU280VjdBdEVzNVdKTXQwWFdBOWl3OFZQYnY0djEwSFF2T1h6dmxqVE1VSk9NMU9jcDBQRUNqTnhpY2c3Vk1FcjhsTDBfb3hHancyc1NoVUc0RTRWVWpSbS04T2IwRjZCRE9Nc3R0X1JKMEVZZWxMTFkyMnRoMXRaUnc?oc=5",
+     "time": "2026-11-10T13:57:00+00:00"
     }
    ],
    "brief": null
