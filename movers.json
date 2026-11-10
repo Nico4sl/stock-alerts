@@ -1,7 +1,174 @@
 {
  "date": "2026-11-10",
  "threshold": 3.0,
- "updated": "2026-11-10T14:51:23+00:00",
- "market": {},
- "movers": []
+ "updated": "2026-11-10T14:58:50+00:00",
+ "market": {
+  "SPY": {
+   "name": "S&P 500",
+   "price": 750.41,
+   "change_pct": -0.3
+  },
+  "QQQ": {
+   "name": "Nasdaq 100",
+   "price": 678.69,
+   "change_pct": -0.1
+  },
+  "TLT": {
+   "name": "Long Treasuries",
+   "price": 80.93,
+   "change_pct": -1.26
+  }
+ },
+ "movers": [
+  {
+   "symbol": "NVDA",
+   "name": "Nvidia",
+   "list": "portfolio",
+   "price": 172.81,
+   "prev_close": 178.67,
+   "change_pct": -3.3,
+   "trigger_change": -3.3,
+   "peak_change": -3.3,
+   "first_seen": "2026-11-10T14:58:50+00:00",
+   "sector": {
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 490.83,
+    "change_pct": 0.7
+   },
+   "chart": {
+    "ema8": -8.8,
+    "ema21": -15.1,
+    "sma50": -20.8,
+    "sma200": -15.5,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "NVIDIA Corp Stock (NVDA) Opened Down by 4.07% on Nov 10: A Full Analysis",
+     "publisher": "TradingKey",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPWGdIUzFBZ1U1STNzUjJLalZsbS1jQ0o5aHdHUVpFVXZjcFNRb2o2ZGFfcUhzY0d4a3BFQlFkME1iaEtpM0JRR0RhZXRCUHdJWm01WV9WWk5TRGFFSzhHNDdBM0ZWRGNlc0N0c2tNVC0xM0hRQTFLcnR0Mm9UZTNTMDNaSlU2YUhhZDFj?oc=5",
+     "time": "2026-11-10T14:47:19+00:00"
+    },
+    {
+     "title": "Is the 4.27% Drop in Nvidia (NASDAQ:NVDA) Shares a Governance Problem Rather Than a Demand Problem?",
+     "publisher": "kalkine.ca",
+     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNVVQ2c1BBclFleFlyU1QzMm1qWEVVMF9nOUxZZFNmc3RXLWFJdF9OcTZJWGVkT2w2M1IwT0hBU3p6RW9kOHNCZmNtNk9LVXVzMlRfakpvMnZ2RTMwRE1fRlZzWE9JOFFlem1KbERMT0VjSGdhdGoxcVU3VjhyMXA0RElBaWIzc3JTcE1qaFF1aHI1S180SDRPWjJQcFpIcE1taVlEM2NLemM2c3kxaWZBQ3ZqbXpyd1B4X3BGZHhTa3ZLYlJmOTIw?oc=5",
+     "time": "2026-11-10T14:45:00+00:00"
+    },
+    {
+     "title": "Nvidia in focus as Citi, Wells Fargo cut price targets ahead of earnings (NVDA:NASDAQ)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQUkx2UXZpZ0luVmhZQk10S0dDUkdQdDhlbjN0UFZadzMtT3M0SXBWWG1vWTk4eFVRTUdiYzJDdTd3MVR4MF9zNXZhVG83eVlnNWNIT0k0UWZnVFY4dXh1b1BSM3NfSFhIWWdoTUd6Vl9oSEsybzZZUV9sZnlNTzctZmlYd2tVVnRrVXI5STRTeHVIeVdCWVNvc0IzQkhvSzR1ekpzdHdGU2ZibDVxaXc?oc=5",
+     "time": "2026-11-10T14:28:00+00:00"
+    },
+    {
+     "title": "Nvidia and Broadcom Are Scaling AI Data Centers With This Growth Stock. Here's Why It Could Soar.",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPUU9IbmVoczhsRnBpMm04b0FBaWdCX0dpcXAwbDJtcGJwV2xqbTVPcDFKbkh5N0E4ZUVjak9vMUlrSTRsSW1VSWswcWI2cXVTaXEydWZiZmFQU2E5U3RHSVoyZ1paekI3b3FSV3pZWWZsZk1GSUczMDhBdVUtaFgwLVB4cmtlOHJJc3BIei1IekEyNUct?oc=5",
+     "time": "2026-11-10T14:15:00+00:00"
+    },
+    {
+     "title": "Nvidia's China Chip Scandal Reaches Shanghai-Listed Firm - NVIDIA (NASDAQ:NVDA)",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQOGpkOFkyNXRmVUJ6M0haR3ZCdG1kZ2JUV082Nll5NUxZTTM2U2RSUDFZMDhJd0RicnVEQWlhZU5fOG01bi1JTGdkVFlRNV9iSjNWT0RCUDZjNlh3QW01bEg2dThOVzE4S1dfbDJGb2lsRlNWOWZtakg5aGJhYUZuTDRLaEVGSlVwTFN1WUJiVQ?oc=5",
+     "time": "2026-11-10T14:01:49+00:00"
+    },
+    {
+     "title": "Nvidia: TPUs, Trainiums, And Jalapenos Scare Me More Than China (Rating Downgrade) (NVDA)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNeUl1Z2d6M0I2T1VLRXhaMnk1eG4ybERlb3ZFbkRwd2duRG1LSnEyVDl3eWh4UnYxa3M4SXRTeFVXU280VjdBdEVzNVdKTXQwWFdBOWl3OFZQYnY0djEwSFF2T1h6dmxqVE1VSk9NMU9jcDBQRUNqTnhpY2c3Vk1FcjhsTDBfb3hHancyc1NoVUc0RTRWVWpSbS04T2IwRjZCRE9Nc3R0X1JKMEVZZWxMTFkyMnRoMXRaUnc?oc=5",
+     "time": "2026-11-10T13:57:00+00:00"
+    },
+    {
+     "title": "'Markets bottom on bad news' maxim rings true as chip stocks rally amid Nvidia scandal",
+     "publisher": "CNBC",
+     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5pMHBsV3hBRFluY0c0SGo1NFBBTjFRR3hPbFE4bHRfT0R3T0NKOVRzd29TQmdpMHVWYU1JZ2xJU203VWJETkZuYmx2M1Y2VC1GM1BKV044a3o0SjNQdjNUbHRkcTR1WGJEOFpNZzlYdHBPT0hCZkhxMg?oc=5",
+     "time": "2026-11-10T13:19:13+00:00"
+    },
+    {
+     "title": "NVIDIA (NASDAQ:NVDA) Stock Price Target Lowered at Wells Fargo & Company",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNMGF5SDRjdlFKM3lHbmZmYTlVei1SVXhUZ1VFQjd4QWJ5ckVmRVZJaFNJU0ZsZmlzZkp5MWNLQU5yS3pJLUpldHFRckZaU1VhWFRXM1BsZWZ1WjRTa1Ztc1h1d0RURGh0MU5RYVpicjdLUGF5RGs1THBoM2JkeGJmdXcxcU1vczlUTkVXTlBwandMR185TU15UFQtUVdvbWhuRnhIRTJ0T1dzUlpBV3YtY29JT3lONjJ6el9XQkNWZThMRDdDaUtFVUN3?oc=5",
+     "time": "2026-11-10T13:09:04+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
+   "symbol": "APP",
+   "name": "AppLovin",
+   "list": "portfolio",
+   "price": 397.78,
+   "prev_close": 410.0,
+   "change_pct": -3.0,
+   "trigger_change": -3.0,
+   "peak_change": -3.0,
+   "first_seen": "2026-11-10T14:58:50+00:00",
+   "sector": {
+    "etf": "IGV",
+    "name": "Software",
+    "price": 101.04,
+    "change_pct": -0.41
+   },
+   "chart": {
+    "ema8": 16.4,
+    "ema21": 30.7,
+    "sma50": 34.0,
+    "sma200": -2.5,
+    "momentum": true
+   },
+   "headlines": [
+    {
+     "title": "AppLovin: 3 Key Takeaways for Long-Term Investors",
+     "publisher": "The Globe and Mail",
+     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOLWFTd2VLMUl2bFN2b2VpbGttVjVpeWMtSjhNUnVoUndpdDM4LTdaRFRlaWZ4aWVBVkcybk14UzNDRFRyYWVSUHNkZy1BM0RTSHQ2X2UzeTdRWUt5ZnJaS2xWV2tVV0preWZnVkhuWG05U215ekp3WWlSUUlnb3VVV2RuTHBoX05WV1FiVGhscDlRb2dsRE14UUtnOHJkSUtpQ0FXS3JJR2lwckJqNWNHYUsyakpoOGJqcThfbklqUjRsVmUxeGc?oc=5",
+     "time": "2026-11-10T14:55:08+00:00"
+    },
+    {
+     "title": "Applovin Corp Stock (APP) Opened Down by 3.23% on Nov 10: Drivers Behind the Movement",
+     "publisher": "TradingKey",
+     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQb0hZTTM5MVJNb3BCbl8xQ0NJSG1NOGVFamlSUUV0dEloWXZtNDRTSW5SNVNmWUg4YmxVcTE3Y1dueUhNSGtDWEpaZDJXYlJ2dnVjQURaRjFTNEdOZWlFMzlkZGJ6YmFlQmo0RTZLRncxUm9ZeDJWQ25PSmN4a08ydS0wbU1fVm5GaEE?oc=5",
+     "time": "2026-11-10T14:47:23+00:00"
+    },
+    {
+     "title": "APPLOVIN CORPORATION (APP) SHAREHOLDER ALERT Bernstein",
+     "publisher": "GlobeNewswire",
+     "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxOcDItbmtUN0dndlEzRUg2U3ktUl81c1MybW9GTUZDM1dRQ0M2d0NxbGxzT2dQMVB5c01McmFoM0VKU2FsU2RhXzRqVUpQZkxOa3lvUFVfX3Jpek4wUWhwVDk4ZGx0cGllQmJkTzhJT2dSMkE5TlEwb1NxN1dyTTV1bDhQeWhNUVdKY3Y4SVdJQVRFRE5KUHNyRm9YUnVkREZTdS1fbE91MjhkZ1M4TVpYRHliX1ExbWRpdUpyYUlzM2FXUTE4REpMd2c0R082YkFQQ1VwVjVTNkRkNG9zaFR3cUMweDhIUkhLQTd4YWZjVERCX291TUlTODRmTDc5LWZWTDNLM2NFVE9HUEtMbmhJalhzbWg4R1hwZVdWMjNyczdWc0U?oc=5",
+     "time": "2026-11-10T14:10:00+00:00"
+    },
+    {
+     "title": "AppLovin Corporation (NASDAQ:APP) SHAREHOLDER ALERT:",
+     "publisher": "GlobeNewswire",
+     "url": "https://news.google.com/rss/articles/CBMi4wJBVV95cUxNSDlvbG5YODNWWW51SFhqMllGaWdIbktUUmlFQUJJSEZ5SGdKRzI3enZVaENoZThRTmZmVzZMWHlabllZVmd4WkZESmdWMjE1Y0s2dTVIVjhaTkVjZEJDdkdiazM4MEJKeHhyZWxmcUZuTGdmU3lsWXZ3TDZuTXU3d0FzVWdvekJrY3ZWX2hQMTZiWjN3VVF6QzFSREV3RVlLRDZoVUkzT0N2YkF1NHBuRTM0X0c0SDQ4UDV4Tl8xdHA2ZVYta2U4WjB5WXVpcWVFUTV6ZGE2cEZhRDlqMlJEM1JZNEM2TXdSZjZfQWJpRWN3OUlfMGI2ZWU2bnJCSnkwcFVNYlNhWDc4LVg4RTN1eTBqeG5SUnFleTBxU0lpc2RhNUJ5Tm4xTmVNMXdydUxjVm1DN24zZ2tseVZqZHNSYVZwejZKRl92VFdFZFBOclczb3hiS2Y5Z0tzMHhnbXBSc1Zn?oc=5",
+     "time": "2026-11-10T14:00:00+00:00"
+    },
+    {
+     "title": "Digital Turbine Plunges 23% Despite Revenue Beat as Margins Shrink and Profit Outlook Stays Put; Unity Slides 2%, AppLovin Dips",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxORjBTOWJzaG5TMkhEb1NSNXhLMEV4X3V6OXdWdUJXUjY2Sm5XUHZ4RG9POU93ekd6cEZsd3NHRll4dEJ4bE9La3lrVGM1cVBXeWhEVGhQLTh6SGxhTmZfUTVPM3djRll2dW82OXhmRW1qZHJteXVKa2hRV3JwYzVES2pVZWR1ajJrOTN3VzUwTWVlTVJQR09qb0kwOFJEdmg2alF2ZF9OVEVZV1A5TlRLRFhWMHV0cjZ6dUhHc0Yyd3dyWDc1Z2d0SGJxWXQyLTNtUU9mcGI5blNRRnA4ajBhMUFrbDN4VnMwcV9JYmxWcjBQTllaVEVZdXg2aw?oc=5",
+     "time": "2026-11-10T13:52:00+00:00"
+    },
+    {
+     "title": "Shareholders Sue AppLovin (APP) over AI Video Tool Delays",
+     "publisher": "TipRanks",
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOTGxfSGhQSGRpSjBNMGZBSDlmRS1UU1l4aERUNDJEWGRSd3BfZ0pNaHFMVklETFFpTnQxdzZsUnM2RVBCUWozdnFFX3FKTmRjNEQ1Yk4tbnJsZUgzVmtwaEgzb3VzSnIxZG01NTJ3b1dMcVAyWFNxY0Q4SjU4ekhZRmFzWl9Kal84aEVMd3ZR?oc=5",
+     "time": "2026-11-10T10:32:08+00:00"
+    },
+    {
+     "title": "A 6-Day Winning Streak Has AppLovin Stock Up 79%",
+     "publisher": "Trefis",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZFhoY29ISklPXzZQeDVqOGZGdUN0TjJOUUVGQ3RqVmFUUWZyTzVLNnBsY1AwcDdfLXg3MDY3VVpOTnRuNXU1WmhRa0pidHZkZG0zYndOcC1JWVBZZHRyNE5MSzJiZ2k3dTdkSjhGZ3JZWFhxRlVRenJHa0NCeTdPR1BkTTF2a3FWcG40VW4zMnczekQzQ2o2TnJCR3NJQk95bFZKVTA3WmNsRk0?oc=5",
+     "time": "2026-11-10T07:02:15+00:00"
+    },
+    {
+     "title": "AppLovin Corporation (6RV.F) Stock Price, News, Quote & History",
+     "publisher": "Yahoo! Finance Canada",
+     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFA0OTE4ejVuUG5oSmE5VVhRcGRhbDAyUmp6MlgySm9HU2JySjB0cGhkZWgzcGxhYkFHb3pzbXI3UGtOTllyRlhZeG50bExjM21iallj?oc=5",
+     "time": "2026-11-10T00:50:41+00:00"
+    }
+   ],
+   "brief": null
+  }
+ ]
 }
