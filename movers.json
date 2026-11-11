@@ -1,22 +1,22 @@
 {
  "date": "2026-11-11",
  "threshold": 3.0,
- "updated": "2026-11-11T19:38:42+00:00",
+ "updated": "2026-11-11T20:14:43+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 760.66,
-   "change_pct": 1.43
+   "price": 760.27,
+   "change_pct": 1.38
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 692.83,
-   "change_pct": 2.68
+   "price": 691.63,
+   "change_pct": 2.5
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 80.92,
-   "change_pct": 0.05
+   "price": 80.89,
+   "change_pct": 0.01
   }
  },
  "movers": [
@@ -24,26 +24,32 @@
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 156.9,
+   "price": 156.8,
    "prev_close": 134.0,
-   "change_pct": 17.1,
+   "change_pct": 17.0,
    "trigger_change": 13.2,
    "peak_change": 19.3,
    "first_seen": "2026-11-11T14:56:06+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 102.56,
-    "change_pct": 2.23
+    "price": 102.43,
+    "change_pct": 2.09
    },
    "chart": {
-    "ema8": 8.4,
+    "ema8": 8.3,
     "ema21": -2.5,
     "sma50": -20.8,
-    "sma200": -12.4,
+    "sma200": -12.5,
     "momentum": false
    },
    "headlines": [
+    {
+     "title": "Nebius Group Stocks Jump Nearly 17% Ahead of Thursday Results as CoreWeave Lifts AI Clouds",
+     "publisher": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNTXlLRXhST2xjYW5rRlBaVmdDUXlQX1VPMXBwTnhsV2k1eWY4Tmp1cV9WZ0dIbXZXZXNWTlVhREpNamRDbUtyWlhDYmJkeVJuNXNWRXA5d2xOS1NHcE5QRGxIMUtmV1laMjVfQlBaQk5IMjZJWUpRZkJUUF9FN3BDTURPWGFTUDRqUnh6dWJkbElZMDJzNXZjR3RwaWlobFdmNjBGVG5xWnZrWC14SEd6V0YxY0hoUUpRYk53bjI0Tlp4dzNPaUhOTUtQRVl2WEU0LXVfMFJQaVJGVWUzQXhnZ2VuSQ?oc=5",
+     "time": "2026-11-11T18:45:50+00:00"
+    },
     {
      "title": "Nebius Stock Dropped 30% in a Week. Is It Time to Sell or Load Up?",
      "publisher": "TIKR.com",
@@ -85,40 +91,121 @@
      "publisher": "Yahoo Finance Singapore",
      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxORHJGR3o4Z251eFBmUXZDNEp3LXNjSlNqb3NSNkNtbjYwX0RRWDVyQmVTYWJMLXE2WkRheE1XZWJ2Q0dQcVFYYlZWbkVrTDdweEZFUkh0Z09Ga25rQ3RnVjNDMVZscGFaTUc5TG90eUpIdmVuenI5UEF5bmJjV2pSV3dMQkpDeDVYZF9ZWmpYZGk?oc=5",
      "time": "2026-11-11T14:19:15+00:00"
-    },
-    {
-     "title": "Is Nebius (NASDAQ:NBIS) Facing an AI Spending Reckoning?",
-     "publisher": "Kalkine Media",
-     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNc2l6eER6bXVaRnRXQVpLbWZOcVR1VkdHXzRPWlBmckt3ZF9KMXJVdnFkSXp4bHViY01kWDNwRE1JNmdId25DVWhwLU9qMjZSN2VoSklsTUJZdlNaZnRScExKUUlDX3hDekQ1dHlDNlpwSnZ4bE1sdERTNk13V1BGbkNxRk0xdnlqcC1FYnNHMU94RkRFN2xZYWt2eWNkU3dSYlhvWlhJbHp4QVM1bkl1Yw?oc=5",
-     "time": "2026-11-11T12:44:00+00:00"
     }
    ],
    "brief": "2026-11-11-NBIS"
   },
   {
+   "symbol": "ANET",
+   "name": "Arista Networks",
+   "list": "portfolio",
+   "price": 197.18,
+   "prev_close": 185.02,
+   "change_pct": 6.6,
+   "trigger_change": 5.4,
+   "peak_change": 7.2,
+   "first_seen": "2026-11-11T14:56:06+00:00",
+   "sector": {
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 509.7,
+    "change_pct": 5.39
+   },
+   "chart": {
+    "ema8": 8.5,
+    "ema21": 7.9,
+    "sma50": 2.5,
+    "sma200": 18.2,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Arista\u2019s Co-Founder Has Sold About $668 Million of Stock Since May",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPRVl1MTJyX2JUYmxtcVFBYzVCaU8tRnhaMm4tZ29hRHFvU0FZenhUUjlwcjA3bFF5MUZaNFNFWExZWGVMREJYY21nNFllVzc5d2tGUTNrQ1B5WDlPRXMxaVQ5ZkFob0J4TnlQVlVMMGh2QkN4NjJtdHBQODZ0aTFNRlB5NDFwdGN3VThWV1h1NHBueU1ReHN4RkNOVkxwN1k3OXA1TUdBSk1aX3lO?oc=5",
+     "time": "2026-11-11T19:37:00+00:00"
+    },
+    {
+     "title": "Arista Networks Stocks Climb 5.68% as AI Cloud Rebound Lifts Networking Leader",
+     "publisher": "Yahoo! Finance Canada",
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQWEdxbHVFVWZ3X3A1TEY4WGJYem1hSDNJU0VjR3JpLVAybGF6NXlXVE1Ndm81NUdNOFJpV1llcHVmWmhJMXZkVlR0emdKYWtQdkpMTy1XTjZXZkhxYmZFMEFwbERlcEV1ZFZJcjVqRHRqM1BaM3BZX2xJLWV1MXNjeW5obTB1QQ?oc=5",
+     "time": "2026-11-11T18:35:23+00:00"
+    },
+    {
+     "title": "Arista Networks Inc Stock (ANET) Moved Up by 5.31% on Nov 11: Facts Behind the Movement",
+     "publisher": "TradingKey",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPMEdCTEt1bXhYbFp6SVNWTmNERS1YNy13R0RDRVNhMGhDOTVFaGJlUWY4Q3VZT0tZTlA2UXNGdEN0Q25WTHh1UjhRNU9SX2huYy1XVktwLXhCMzhRWGRJZkdnWHBMUFR1aWR4dUtoUnh4Wjd5ZDNoVm1uVGRfTktla1F0UEFuLVcxa0c0?oc=5",
+     "time": "2026-11-11T15:15:31+00:00"
+    },
+    {
+     "title": "Arista Networks Inc (ANET) Stock News Today",
+     "publisher": "TradingKey",
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5iY21FNTYzZ0pKMDV1WVN1VGpYamRiWmI1RVk3cFFpU29FQjBFS3I2LWV6MkJBaENUNWRVdXdzQUhGU0xfVWg5Q2tsZ2VnZVBXd0dETjd3R2IxRXhPQUxBcmV5STVfX0g3TmZaOXZNZEkzblJt?oc=5",
+     "time": "2026-11-11T13:47:35+00:00"
+    },
+    {
+     "title": "The Zacks Analyst Blog Highlights Arista Networks, Fabrinet, Analog Devices, Advanced Micro Devices and NVIDIA",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOaDViZU9PdGpnYlNmTVpiU2o1ZHp3UDVGYktWbmtMOU54UXlCM1JfUG9oSUVXOU1JTnVGUG5jOUVkQWluOThQMU5TTURiaElQTkxqbUIzTnNjak55OTNaV3JxeTl2SmVNLU9lSXIydmZubmxOOXBTT2JnYUUyRlljUVlUUGY0ei1mZDRDYWhjRkdPbTZHS01zc2trZ0FZTXNSTnNR?oc=5",
+     "time": "2026-11-11T06:28:00+00:00"
+    },
+    {
+     "title": "Arista Networks: 3 Key Takeaways for Long-Term Investors",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOSkhsVkswRzV4QnFVa3FULUtHZTYyRDNrOGUwRjVNQkxtcVZTZ1pmMURxdUtuS1lmUU9TckhiYTBLZ0t4TThaT1k4UVYyQ28xcVBJM0s5RU9Bejd2SlVZNUVzM0RlMWZfak5TdklhYzhXM2R1X3ZkajhJMGhJVlU1WDJkaG00Ty1vQVdReF85anBoZXh2M3FWSTlXRkU?oc=5",
+     "time": "2026-11-11T05:12:51+00:00"
+    },
+    {
+     "title": "Arista Networks(ANET.US) 10% Shareholder Sells US$43.93 Million in Common Stock",
+     "publisher": "Moomoo",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNajZoUk1RU1V3ajRvY1JHTjdjZG9ZRkFEYjBHcGl6ZXNZM0gxQ2dVUkdKVmlKSzc2MWV3SjNzd2twSklFT2czRkdwVG5hOC1STkpEeWl4dS1CUk93MWFSdF9uT0xPa01DNG9Pd2N6VHNhbUdrbTlKVDFXaTBTa1YtbW1nTjhnbzU3N0lKRFEzMEktTWNtckIxNmdpdVRCcW9JVm52cHNhcw?oc=5",
+     "time": "2026-11-11T00:31:16+00:00"
+    },
+    {
+     "title": "A family trust sells 260,000 Arista Networks (ANET) shares under a preset trading plan.",
+     "publisher": "Stock Titan",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTU5ra3VEUzBpcjFiUi1kU05lMlcyOTFjMFRuRnBTZnVKaTZ6UHBWQTk2ZEtuajgzNnlwSzdCZjVoak5ydjVMSDAzcnJqWm8wQXYwWDhzTlN5ZC1XR0FwRXZBUFhjajlFbWhmaUVqVm1GQVR1V29hWVQ5OVdmRThhcFJlU2hzUDB6Tmczek5BZ09RdVIxU09EMXdfb1A1NHYtWlphTjVla2N6elFDY0lWMk9POA?oc=5",
+     "time": "2026-11-11T00:08:00+00:00"
+    }
+   ],
+   "brief": "2026-11-11-ANET"
+  },
+  {
    "symbol": "AMAT",
    "name": "Applied Materials",
    "list": "portfolio",
-   "price": 398.11,
+   "price": 396.56,
    "prev_close": 372.53,
-   "change_pct": 6.9,
+   "change_pct": 6.4,
    "trigger_change": 3.5,
    "peak_change": 8.6,
    "first_seen": "2026-11-11T14:56:06+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 511.17,
-    "change_pct": 5.69
+    "price": 509.7,
+    "change_pct": 5.39
    },
    "chart": {
-    "ema8": 6.4,
-    "ema21": 0.6,
-    "sma50": -9.6,
-    "sma200": -10.8,
+    "ema8": 6.1,
+    "ema21": 0.2,
+    "sma50": -10.0,
+    "sma200": -11.1,
     "momentum": false
    },
    "headlines": [
+    {
+     "title": "Applied Materials Rallies 8% Ahead of Earnings as Chip Stocks Rebound; Lam Research Jumps 9%, KLA Climbs 7%",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOQXlzN3JDN2RsREQzWFcwR0JUY3ViR1d3c2x4MjRPZ3hzU1ZXNHRobXduZ1JxOWhhb3B0R0NuejJWTTZvU3BkY1FKcnRzNXRlaGRSZ19wOHgtMm9Lc3pKRUhOV25xSEpnOXFTREc4akhVUzBkSmZCVVdtOTMxUmk0VnhmVzVCQVlKMDBteUhKbEFPWmtMWmdsdVR3elFYVW5QekFkOFFfTXd5UzRCdFA1ekFIazh4MzRqMHZzQVd0NzNEWUlPcURxdWFwUGF1MThXMEh2V25OckRManVwMkcw?oc=5",
+     "time": "2026-11-11T19:02:00+00:00"
+    },
+    {
+     "title": "Applied Materials Stocks Climb 5.72% a Day Before Fourth-Quarter Results",
+     "publisher": "Yahoo Finance UK",
+     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPS1pSclpnZEFSdHNzUGE2SjJOZzJ1bzlMQnBPb09PcVlhU1lDeFdTaURESXkwRkdmNC14cTRQMjY1UnR6anMxSFczd3BaQ1M4MG1FU1VRUTREUnJSOV9fVVE4WmNoNE9abW5FR1JZZVBFYW5uRGpBNUVpVHR6ZlNsWV83OEMxOUhG?oc=5",
+     "time": "2026-11-11T18:39:51+00:00"
+    },
     {
      "title": "Applied Materials Q4 preview: What to expect (AMAT:NASDAQ)",
      "publisher": "Seeking Alpha",
@@ -154,193 +241,31 @@
      "publisher": "Benzinga",
      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNcEZzU0U3dk4tUEpJVC03Yi01alVwR1FIMm5Ld09hczdDRUJkOFA2T3g2TEFPU0VUbVlNVFJxemI4YW4wNnZfLWdWQTFQZHBNa0ZVdTJKMUlRX1pYLXotMWItU3VaU2daVDVZX2Jua3FkaWhDYVF1REhiN0o4NjdZTk9tRUdscFRQX3NQRDJabVM0Q3JkZjJyVV9mZm1hS2huQ2ZKZUdYTjdrZFQxSmo3RFJUS2J0MWxHUjhpSkVIZ21lZk83RW1R?oc=5",
      "time": "2026-11-11T14:52:45+00:00"
-    },
-    {
-     "title": "Applied Materials Is Up 59% in a Year, Even After Halving From Its High: \u201cDouble Our Output\u201d",
-     "publisher": "TIKR.com",
-     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQaVU3Z3Q1M2RYc216cGNSaVl6MDFvMjI2alVoRk1ZY0hRd3JqaWtPY2VtM21aOENjemFsOEV3VW9tVHBUWmJVc1lrQ2pyVWJIa1NSTFdpemxUcXZZa0lESFdkZGZqY0g4ZWd3OThyUEQ3d0Y5QTJkWDhVV2ZUTDE3VXU3TF96UDVNSlN6bUZLdEZXUXFSTDktVnpScWZoSl9qS3ZtcmlvcDBtUlRsREtiS0xFTQ?oc=5",
-     "time": "2026-11-11T14:28:22+00:00"
-    },
-    {
-     "title": "ETFs Bought $317.1 Million of Applied Materials (AMAT) on Monday",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNc0xwa0ZtMzZ4akxwUDJndGZUcHZTTU82WWlnRUZjZ0pVbDZLamNkNjFYNXRJa1hiZHg4TUYxUC0tM0c1QW9oTEZBYl80VFU5QnhHZS1VcVA3YkpvVm5nWGFzd3haV0NqSlYxbXhZZFNHTjF5NEZZR2tueGZoWjdKVDJ1eE9rejI1bElqU2dlT294c2ow?oc=5",
-     "time": "2026-11-11T11:01:33+00:00"
     }
    ],
    "brief": "2026-11-11-AMAT"
   },
   {
-   "symbol": "ANET",
-   "name": "Arista Networks",
-   "list": "portfolio",
-   "price": 197.23,
-   "prev_close": 185.02,
-   "change_pct": 6.6,
-   "trigger_change": 5.4,
-   "peak_change": 7.2,
-   "first_seen": "2026-11-11T14:56:06+00:00",
-   "sector": {
-    "etf": "SMH",
-    "name": "Semiconductors",
-    "price": 511.17,
-    "change_pct": 5.69
-   },
-   "chart": {
-    "ema8": 8.5,
-    "ema21": 7.9,
-    "sma50": 2.5,
-    "sma200": 18.2,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Arista Networks Stocks Climb 5.68% as AI Cloud Rebound Lifts Networking Leader",
-     "publisher": "Yahoo Finance Singapore",
-     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNSnlSVXhzT3dSTHlYMXh2MXdCU29XNnlfOEZPb0ZBQzRjM2JGNk9Ga0VaTWl1aEdBQVZERFFCRzlUR0daM3pTakM0elpYZEh1Nng0VXJWb3NBQXRyWVR6eHYyYmxWNFIybEptcDBjV3pkaXhEVDQwMXRBNmRTMXkyQ2M4ZGpmUQ?oc=5",
-     "time": "2026-11-11T18:35:23+00:00"
-    },
-    {
-     "title": "Arista Networks Inc Stock (ANET) Moved Up by 5.31% on Nov 11: Facts Behind the Movement",
-     "publisher": "TradingKey",
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPMEdCTEt1bXhYbFp6SVNWTmNERS1YNy13R0RDRVNhMGhDOTVFaGJlUWY4Q3VZT0tZTlA2UXNGdEN0Q25WTHh1UjhRNU9SX2huYy1XVktwLXhCMzhRWGRJZkdnWHBMUFR1aWR4dUtoUnh4Wjd5ZDNoVm1uVGRfTktla1F0UEFuLVcxa0c0?oc=5",
-     "time": "2026-11-11T15:15:31+00:00"
-    },
-    {
-     "title": "Arista Networks Inc (ANET) Stock News Today",
-     "publisher": "TradingKey",
-     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5iY21FNTYzZ0pKMDV1WVN1VGpYamRiWmI1RVk3cFFpU29FQjBFS3I2LWV6MkJBaENUNWRVdXdzQUhGU0xfVWg5Q2tsZ2VnZVBXd0dETjd3R2IxRXhPQUxBcmV5STVfX0g3TmZaOXZNZEkzblJt?oc=5",
-     "time": "2026-11-11T13:47:35+00:00"
-    },
-    {
-     "title": "Gateway Equity Call Premium Fund's Arista Networks Inc(ANET) Holding History",
-     "publisher": "GuruFocus",
-     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQd1hjUFR2R0hlNnBCRHdPcDQ4VVliT3B0RHg0RU1nNGJKYU42NFk0VUhJSjNHY3hrY1ZyaDFhd1BERlc0RGNhVlB5RkxLMEh3dEdtOXp4YXo5b1RUVjg3cHhMV1ZFRmVlRVRBWWticG00VWZfZUFkblBSaWlvOFlHRjY1ZmZWQlF0VmN4bmxTSQ?oc=5",
-     "time": "2026-11-11T06:35:25+00:00"
-    },
-    {
-     "title": "The Zacks Analyst Blog Highlights Arista Networks, Fabrinet, Analog Devices, Advanced Micro Devices and NVIDIA",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOaDViZU9PdGpnYlNmTVpiU2o1ZHp3UDVGYktWbmtMOU54UXlCM1JfUG9oSUVXOU1JTnVGUG5jOUVkQWluOThQMU5TTURiaElQTkxqbUIzTnNjak55OTNaV3JxeTl2SmVNLU9lSXIydmZubmxOOXBTT2JnYUUyRlljUVlUUGY0ei1mZDRDYWhjRkdPbTZHS01zc2trZ0FZTXNSTnNR?oc=5",
-     "time": "2026-11-11T06:28:00+00:00"
-    },
-    {
-     "title": "Arista Networks: 3 Key Takeaways for Long-Term Investors",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOSkhsVkswRzV4QnFVa3FULUtHZTYyRDNrOGUwRjVNQkxtcVZTZ1pmMURxdUtuS1lmUU9TckhiYTBLZ0t4TThaT1k4UVYyQ28xcVBJM0s5RU9Bejd2SlVZNUVzM0RlMWZfak5TdklhYzhXM2R1X3ZkajhJMGhJVlU1WDJkaG00Ty1vQVdReF85anBoZXh2M3FWSTlXRkU?oc=5",
-     "time": "2026-11-11T05:12:51+00:00"
-    },
-    {
-     "title": "Arista Networks(ANET.US) 10% Shareholder Sells US$43.93 Million in Common Stock",
-     "publisher": "Moomoo",
-     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNajZoUk1RU1V3ajRvY1JHTjdjZG9ZRkFEYjBHcGl6ZXNZM0gxQ2dVUkdKVmlKSzc2MWV3SjNzd2twSklFT2czRkdwVG5hOC1STkpEeWl4dS1CUk93MWFSdF9uT0xPa01DNG9Pd2N6VHNhbUdrbTlKVDFXaTBTa1YtbW1nTjhnbzU3N0lKRFEzMEktTWNtckIxNmdpdVRCcW9JVm52cHNhcw?oc=5",
-     "time": "2026-11-11T00:31:16+00:00"
-    },
-    {
-     "title": "A family trust sells 260,000 Arista Networks (ANET) shares under a preset trading plan.",
-     "publisher": "Stock Titan",
-     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTU5ra3VEUzBpcjFiUi1kU05lMlcyOTFjMFRuRnBTZnVKaTZ6UHBWQTk2ZEtuajgzNnlwSzdCZjVoak5ydjVMSDAzcnJqWm8wQXYwWDhzTlN5ZC1XR0FwRXZBUFhjajlFbWhmaUVqVm1GQVR1V29hWVQ5OVdmRThhcFJlU2hzUDB6Tmczek5BZ09RdVIxU09EMXdfb1A1NHYtWlphTjVla2N6elFDY0lWMk9POA?oc=5",
-     "time": "2026-11-11T00:08:00+00:00"
-    }
-   ],
-   "brief": "2026-11-11-ANET"
-  },
-  {
-   "symbol": "AVGO",
-   "name": "Broadcom",
-   "list": "portfolio",
-   "price": 349.09,
-   "prev_close": 331.98,
-   "change_pct": 5.2,
-   "trigger_change": 5.9,
-   "peak_change": 7.3,
-   "first_seen": "2026-11-11T14:56:06+00:00",
-   "sector": {
-    "etf": "SMH",
-    "name": "Semiconductors",
-    "price": 511.17,
-    "change_pct": 5.69
-   },
-   "chart": {
-    "ema8": 6.9,
-    "ema21": 5.3,
-    "sma50": 1.0,
-    "sma200": -4.9,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Nvidia, AMD and Broadcom Lead AI Stock Rally as CoreWeave Results Ease Spending Fears",
-     "publisher": "GuruFocus",
-     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNQ184ajlidkJjajFhai1vRll5bDExZTh1dU9Mb25oSlYyN1d0Nm1MSmg3MjR1dEJBZm82LVhzbEppbmRNaVlxRnM1M0lJT3VtYzBVMU13clBwOEVNZlZ0ZUpMT0oyLXZqbUQzUXZmbnhTUzRMbWVQSWRxS2RscUdQbF9uSDJicmtzVllETGxfcGFDbTgwWTdHX1pTWUVvNXhCQ3EwY01iaUpNcDB1S3gxNk51cVAzc2diaGswTmlKZjE?oc=5",
-     "time": "2026-11-11T18:56:15+00:00"
-    },
-    {
-     "title": "Broadcom Inc Share Price - AVGO, RNS News, Articles, Quotes, & Charts (NASDAQ:AVGO)",
-     "publisher": "Proactive financial news",
-     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9GRnpmQUV2dHphVHdJVHpYVHdpN3JLZ0RHZTBGQU0tNEdFbkVMS3VScEg3MnFHQndWWFpPMXZCMTJTNXBpbTd4dGk1NUxnWkFteWY3cW44RHpEVFRBWjRxQ2RjQzRwS1RpelNrREpkNA?oc=5",
-     "time": "2026-11-11T17:12:33+00:00"
-    },
-    {
-     "title": "Broadcom Stocks Climb 5.18% as Goldman Calls Chips Oversold and Anthropic Stake Lands",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNZXhzdG1Id0VPOVc0Ynk1SnE1Qkk3Y3dJWXp5U0FWZkQzT3ZkX0dqQVpGSUVVSHJHcl9UQ25iZ1Y3elIydWpXYl9fRlZjTjBLS3hTOVQyZldjVmxDWVFWWEQybDBQcFNjaXZoOWRyWmNEb1hTN3BMaEUtLUFGMVpSc1RLNFJJeHA2MlNSU19RMVk0WTE0OHc?oc=5",
-     "time": "2026-11-11T16:59:20+00:00"
-    },
-    {
-     "title": "Broadcom remains a Strong Buy despite rising ri...",
-     "publisher": "Pluang",
-     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPMWxiQ2xLQnpKbVNqeHZGdXdZQURpckJITnJGd0F3bUU2c0NielFGbzc4a3Qtb0JPTThFZWRRUEFnLXIwQUtELXAxNHh5Mks5RG5oYXo0algwREw5VWM0bjFUZGRhUS12T0hiRGRFOVdOa1dyOEJQSWs4UlBoWE9HakhEY1hJTnhLdThEcHQ1MzV3YlVuVXJhZ2F0TQ?oc=5",
-     "time": "2026-11-11T15:59:20+00:00"
-    },
-    {
-     "title": "Why Is Broadcom Stock (AVGO) Up Today?",
-     "publisher": "TipRanks",
-     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE0xS0tpczBNRWh5OHpMTlZGTkNZWWxVSnRUSXZzLTRtelM1aWtMQk5Na2ZPYnF2Nng4dFBodkgzdFljWVcxR0JxdFIzbmZWX2sxVGxFZ0MzdXpIcDVjSlFJeEFxeGN6QmFIb19kSFM2UzZWUm8?oc=5",
-     "time": "2026-11-11T15:57:59+00:00"
-    },
-    {
-     "title": "Broadcom Shares Climb 5% as AI Demand Signals and Anthropic Stake Lift Chip Stocks",
-     "publisher": "BigGo Finance",
-     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBSSnZaclk1LVRsTVpEQndZZE5lOUtJVjFuWVlyVWNISktWa3NIZFFUZDNaR3FNYkpmY2VKM25wN1lRbWVnZzRjWDE5aHdFQnZMYlVuUFBYNDE0ckZONjJFblBNSjdrYU1DR0NnUmExZzNWRmVnM3c?oc=5",
-     "time": "2026-11-11T15:55:00+00:00"
-    },
-    {
-     "title": "AMD, Broadcom, Intel, Marvell Technology, and Micron stocks trade up, what you need to know",
-     "publisher": "The Globe and Mail",
-     "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPbEw5bEN6RkhGVElDbVc1YzZZTnNSaW94LUgxUF94RDdmTnRqLVVYdEdBZ1UzZXE2akZ4N2FjaEpxUnBTbTBYaWs0QUV1OTlkdHQ4MUJwRmo0YlFjM1REVklLLTBSYVRtOXVWWllvdFd4d2F0ZUVoRjllYThPQmFpZ3RoSy1RYWl4V2xnRlpXVE5fZldHb0U0ODVOVmtocHBncGs5RDFqUG1xWXdLaHdNejZaMmdkeVpfMk9iV2ZLOXZFdExYMVFlLXpENHJlMlZ3ZnFmV0VZNXdUTlBwVHdjdE1uYW9CVDdKX1lla3JjdDJCWDRGY1RHa3ZzdUVNakxQ?oc=5",
-     "time": "2026-11-11T15:35:50+00:00"
-    },
-    {
-     "title": "What Is Going on With Broadcom Stock on Wednesday?",
-     "publisher": "Benzinga",
-     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQRFp5SzA3R2hpSmp5a2FPRjJGWC1BaHJuYlF1aDZZaG9na3RtU09FYUI3MnRHbWJTa253QUdmbUFRS2VJWEpmLUJieGlEcHBzb0VWaDZsSHpoZk1tQmFFb096X1c1NThMTnJxT3IyYVpObWxhbGhHbU5hLTlhYWE0djM3U2ZiUzFpN2xPSkRaQ1R6SEk0eEtYbmZraFNMVFU1Q0N4aw?oc=5",
-     "time": "2026-11-11T15:29:27+00:00"
-    }
-   ],
-   "brief": "2026-11-11-AVGO"
-  },
-  {
    "symbol": "AXON",
    "name": "Axon",
    "list": "watchlist",
-   "price": 315.57,
+   "price": 317.82,
    "prev_close": 302.54,
-   "change_pct": 4.3,
+   "change_pct": 5.1,
    "trigger_change": 3.8,
    "peak_change": 5.3,
    "first_seen": "2026-11-11T15:16:20+00:00",
    "sector": {
     "etf": "XLI",
     "name": "Industrials",
-    "price": 170.87,
-    "change_pct": 1.27
+    "price": 171.11,
+    "change_pct": 1.41
    },
    "chart": {
-    "ema8": -9.1,
-    "ema21": -17.9,
-    "sma50": -26.0,
-    "sma200": -32.6,
+    "ema8": -8.6,
+    "ema21": -17.3,
+    "sma50": -25.4,
+    "sma200": -32.2,
     "momentum": false
    },
    "headlines": [
@@ -396,29 +321,110 @@
    "brief": "2026-11-11-AXON"
   },
   {
+   "symbol": "AVGO",
+   "name": "Broadcom",
+   "list": "portfolio",
+   "price": 347.45,
+   "prev_close": 331.98,
+   "change_pct": 4.7,
+   "trigger_change": 5.9,
+   "peak_change": 7.3,
+   "first_seen": "2026-11-11T14:56:06+00:00",
+   "sector": {
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 509.7,
+    "change_pct": 5.39
+   },
+   "chart": {
+    "ema8": 6.5,
+    "ema21": 4.8,
+    "sma50": 0.5,
+    "sma200": -5.4,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Technology Stocks To Keep An Eye On - November 11th",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPZ2JEdFhwT0xnWWpXWDVWcU1fUWdKX2g5NlBIR2cwMHNUQ0xFdU1hcTdwclJVUmc4M3dIbExUOFpaNDd4Ymp2X0NRNWdDT0drNDM4YkxrQjVCbWh6TzJoV3p2Ym03MUI4aDdhTHlhWkdrdXVDSWFYQzZVeXZfWjV1SGctREpKTGRJZktGODBWSy0yNWlGMnpRWlo3ZVFzY3RwamdKQldVS0EzdFg1?oc=5",
+     "time": "2026-11-11T19:17:31+00:00"
+    },
+    {
+     "title": "AWS CEO Matt Garman Says AI Inference Isn\u2019t \u2018Even 1%\u2019 of What It Will Become. AMZN Stock Is 1 of 3 Stocks to Buy.",
+     "publisher": "Barchart.com",
+     "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNMGxPTW1DcmMzUWhsV3ZwYmtrN0xqUGgtV2FWVUxUeUY1cnJVNEFSTWdlZ3pfd3RZRTI3TWl1SlRVeDBJbG1sS19xVVNXbll5amdncHJhMlYxUHVKbFYwN3pYZkxQZnNfRDB4alJ6RXdTbjBoMFZDamVXVXc3VnlIZzRxTWlMLUVRT21YQ2Q3S2otNnNSWDd2b080UFNCRU1ybzQ2TF9fV3Y5UXpzaWJySkdhR1o5VTVMVEU0NHJWelc4N18zbEh4VDFjQlZHZG5jZ2g5T0oxRWZMVkpLWWhkVjRZN1VCQQ?oc=5",
+     "time": "2026-11-11T19:13:57+00:00"
+    },
+    {
+     "title": "Nvidia, AMD and Broadcom Lead AI Stock Rally as CoreWeave Results Ease Spending Fears",
+     "publisher": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOajhjWW9QdXlvM2FwOXJheDloYmtfTmNNU0dEb3d1cUQ3bXBGbUpuT01QMk9pT1NxT2NvYnNBT1dNU2E1REN4cnlxWEJld2FJaDlBaFBTaUhmN01IR2tVQlV2VGticjdMZDlmOVllSHVVMlJhb01aZVI5aERna0tSX1VkejUyVUtwMnJ5UUhENnloV2tTanFQZzNZX2stYUFRYkdaOGdTSUhqenFoV1ZDMG9EdVQ0Q2RxS2VEVEF1QUxzNl8tb2VoWXM2cURhYzdNRFlBc25HLVZXZncz?oc=5",
+     "time": "2026-11-11T18:37:08+00:00"
+    },
+    {
+     "title": "Prediction: 2 Stocks That Will Be Worth More Than Amazon 5 Years From Now",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQMGVKdlp4cVJYVGdyZmF0ckRvVE9IY2RjWXJIZDdROFk1bW1ET0dtLU54Mm5wM3VrMjl6Q08xTVMwR0pBc0VWbjBya09tSHg5ZVlHMU5TSTZjcmpPMEJrVHZwRHpvT1IxNTZVRWNlQjhyNGhDYkJWN3pVX1d3a3F5clVBV1BZRkJiS0tVSA?oc=5",
+     "time": "2026-11-11T18:16:00+00:00"
+    },
+    {
+     "title": "Broadcom Inc Share Price - AVGO, RNS News, Articles, Quotes, & Charts (NASDAQ:AVGO)",
+     "publisher": "Proactive financial news",
+     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9GRnpmQUV2dHphVHdJVHpYVHdpN3JLZ0RHZTBGQU0tNEdFbkVMS3VScEg3MnFHQndWWFpPMXZCMTJTNXBpbTd4dGk1NUxnWkFteWY3cW44RHpEVFRBWjRxQ2RjQzRwS1RpelNrREpkNA?oc=5",
+     "time": "2026-11-11T17:12:33+00:00"
+    },
+    {
+     "title": "Broadcom Stocks Climb 5.18% as Goldman Calls Chips Oversold and Anthropic Stake Lands",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNZXhzdG1Id0VPOVc0Ynk1SnE1Qkk3Y3dJWXp5U0FWZkQzT3ZkX0dqQVpGSUVVSHJHcl9UQ25iZ1Y3elIydWpXYl9fRlZjTjBLS3hTOVQyZldjVmxDWVFWWEQybDBQcFNjaXZoOWRyWmNEb1hTN3BMaEUtLUFGMVpSc1RLNFJJeHA2MlNSU19RMVk0WTE0OHc?oc=5",
+     "time": "2026-11-11T16:59:20+00:00"
+    },
+    {
+     "title": "Broadcom remains a Strong Buy despite rising ri...",
+     "publisher": "Pluang",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPMWxiQ2xLQnpKbVNqeHZGdXdZQURpckJITnJGd0F3bUU2c0NielFGbzc4a3Qtb0JPTThFZWRRUEFnLXIwQUtELXAxNHh5Mks5RG5oYXo0algwREw5VWM0bjFUZGRhUS12T0hiRGRFOVdOa1dyOEJQSWs4UlBoWE9HakhEY1hJTnhLdThEcHQ1MzV3YlVuVXJhZ2F0TQ?oc=5",
+     "time": "2026-11-11T15:59:20+00:00"
+    },
+    {
+     "title": "Why Is Broadcom Stock (AVGO) Up Today?",
+     "publisher": "TipRanks",
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE0xS0tpczBNRWh5OHpMTlZGTkNZWWxVSnRUSXZzLTRtelM1aWtMQk5Na2ZPYnF2Nng4dFBodkgzdFljWVcxR0JxdFIzbmZWX2sxVGxFZ0MzdXpIcDVjSlFJeEFxeGN6QmFIb19kSFM2UzZWUm8?oc=5",
+     "time": "2026-11-11T15:57:59+00:00"
+    }
+   ],
+   "brief": "2026-11-11-AVGO"
+  },
+  {
    "symbol": "NVDA",
    "name": "Nvidia",
    "list": "portfolio",
-   "price": 175.29,
+   "price": 174.98,
    "prev_close": 168.89,
-   "change_pct": 3.8,
+   "change_pct": 3.6,
    "trigger_change": 3.1,
    "peak_change": 5.0,
    "first_seen": "2026-11-11T15:31:23+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 511.17,
-    "change_pct": 5.69
+    "price": 509.7,
+    "change_pct": 5.39
    },
    "chart": {
-    "ema8": -5.6,
-    "ema21": -12.6,
-    "sma50": -19.3,
-    "sma200": -14.3,
+    "ema8": -5.7,
+    "ema21": -12.7,
+    "sma50": -19.4,
+    "sma200": -14.4,
     "momentum": false
    },
    "headlines": [
+    {
+     "title": "Prediction: Nvidia Stock Will Be Worth This Much by Year-End 2027",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQTHJYM0U4R1BaRXkwVFZ0dG5FWlBTZ3JRRGo4Z1VkOF9vWjZqNTZjQjNGVE9PUUpvM3VSX1lndEZ2b0pZVXdmUlFYYmhCOEJaM3pqZE92NnJyYXJzWnJicXk2RU5BbUtCOXZFdXB0emx4SFdJVHJQQjRoVlNJeXFRUW1oOV9kMjg4TUxtOFZpand6anRrOGY0Wg?oc=5",
+     "time": "2026-11-11T18:55:00+00:00"
+    },
     {
      "title": "Nvidia's Biggest Threat Is AI That Needs Fewer Chips (NASDAQ:NVDA)",
      "publisher": "Seeking Alpha",
@@ -426,16 +432,16 @@
      "time": "2026-11-11T18:27:57+00:00"
     },
     {
+     "title": "NVIDIA Earnings Could Put Your 401(k) to the Test - NVIDIA (NASDAQ:NVDA)",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPVGNhcVpETHF4U2lra3JnZmZqd05nUVlOTnhEa0ZGbVRMcW5qWi0zVU9jS2ctc1FFWTlveTh4LVZKR1dKMTJLT0djMHlEWnZKT0ZBMGdYcVdhbjRYbXBqRGRUbG5sWmVaTEFzZWt5bFZyODRWdk5hMXJNSnUwUUt4YU9GN0F1M0NxSlZuYmpUYUtQcmg2eVlv?oc=5",
+     "time": "2026-11-11T18:26:29+00:00"
+    },
+    {
      "title": "Nvidia Stock Rises Despite Wall Street\u2019s First Call for CEO Huang to Step Down",
      "publisher": "Barron's",
      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1UZzI1WVJLZk1fSkxrcWZvOHhNRm5YTWp6bkxqOFN0ZjBTVkJBd2w2dG92eXY5U21SZUdYLU1vQjFRcHpyNkpmTTRYSUdFeWNVZVJmaVpGdWFqNzJhYWtPYzZ2U1lrQWZDZ3BMdFZXTUFKR2hRbURCbEln?oc=5",
      "time": "2026-11-11T18:08:00+00:00"
-    },
-    {
-     "title": "Analysts Set Nvidia (NVDA) Stock Price Target For 12 Months",
-     "publisher": "Coinpedia",
-     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPNGFKTmdPU3lZaU50aGN2Q094VDkyakt0MjhGNkU4Vmp5UjZ1VTBNUGhyU3puMlhUZmphekZJVnBtS3Z6VnBPdFdWRkpIbV9ZeFlzTXJfTVFrcG5oRjN6dEpVMnRDbzVpVkJjMzlITnlxdlZZT3JBbFFjaVFzZld5cXlzQW9oa19FcGZiNE5IcnpFdTFCTDBxVVNmNNIBoAFBVV95cUxPN3BVVlkyX2NSVzFzcHBaSWFlaEVrYTY2M1hfaWMzM2l2NkYxak5sekJ3SjZ4WGNGZkxXWGZzczZ0ZmtzZHQtX1ZhTHdacW1nMXpGaE94YTRFeUZPeHJNRnNnTURQVDBXek9HSF94b3pjNEgzSXlnYjA1a01EaGtVbWc3WGxxVEF4d2RjbzBLbmpiaThlQ2kxcTBQZFRpNUth?oc=5",
-     "time": "2026-11-11T18:05:46+00:00"
     },
     {
      "title": "Nvidia Stock Just Had Its Price Target Slashed 60%. Others Still Say Buy. Who's Right?",
@@ -460,12 +466,6 @@
      "publisher": "Barron's",
      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNXzgtMGRIazV0X0Vlb2NTRmZCUHZNb2tEU2s5c0tINVJHcEZET2JXXzBiVVdRNDRGdjZNUVNTaG9jYUJxVmhVSlNVSENjRldsMWN5VnQ5THhlR1Jnd3N6MmJJZ1Uyc1RBSDBlaXVGQS0zNEJob2pLcUdfbU1nU0liZjN3?oc=5",
      "time": "2026-11-11T17:14:00+00:00"
-    },
-    {
-     "title": "NVIDIA Stocks Rise Despite Baird Downgrade as $10 Billion Anthropic Bet Emerges",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMmdSdTRSdmdQT3NENEU4UEU5ODUyWFBINmZYY1RVMTZlRlRDVGttaW93WnRPUmVxdzBlZmJqMFR4SHBhMFp3ekM4N1lTQnd0dkh3WDBWQjhWa0tERTJvaUo5X29OcWNJaUE5cWZLWEN5TXF4cm9kTTVlTHVTRGk5ckRDcDAtZlRIMkMyN25mcU5XeHlPUEh2MERuWHpBUQ?oc=5",
-     "time": "2026-11-11T17:09:12+00:00"
     }
    ],
    "brief": "2026-11-11-NVDA"
@@ -474,37 +474,37 @@
    "symbol": "NOW",
    "name": "ServiceNow",
    "list": "portfolio",
-   "price": 102.85,
+   "price": 103.22,
    "prev_close": 99.61,
-   "change_pct": 3.3,
+   "change_pct": 3.6,
    "trigger_change": 3.2,
-   "peak_change": 3.3,
+   "peak_change": 3.7,
    "first_seen": "2026-11-11T16:27:03+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 102.56,
-    "change_pct": 2.23
+    "price": 102.43,
+    "change_pct": 2.09
    },
    "chart": {
-    "ema8": -4.0,
-    "ema21": -14.7,
-    "sma50": -23.1,
-    "sma200": -9.7,
+    "ema8": -3.8,
+    "ema21": -14.4,
+    "sma50": -22.8,
+    "sma200": -9.4,
     "momentum": false
    },
    "headlines": [
+    {
+     "title": "ServiceNow Drops 29% in a Month: Should You Hold or Fold the Stock?",
+     "publisher": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQeVhOUjJubXpVeVdiZnI3bHdrOVZmZ0tBeUpDOFdOeWp3Umc3ZHcxSV9QWWx4RmV4Wk45SnE2Z2VvcldBTElBa1VtTW9VclVHVVRydWcyZno1MWZ0cnhvOWQ5WFBYRHhuaEE2MzBURFZZSlo2bjlwX0tyV0JIb05EdkZDWE1rQWs2a3diRkJEMWhtY3pxZlhYNUNpbGNLVUc2MENJSk5iZC12a0h1MTVQYWJpRUk1YzR2akZ1VQ?oc=5",
+     "time": "2026-11-11T19:41:36+00:00"
+    },
     {
      "title": "ServiceNow Stock Climbs: What's Going On?",
      "publisher": "Benzinga",
      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNUFJ0djlwWjJXcWtpM0tUN21wZUJCRkZpZGlvLThuV3dpbHVvb0Zabmx5NkVsU1RxYmhPVGdON2VVMDVKYnRNQUs5bk53ck9tQmEyTmxTUUVPWWZKUXNxQWhXaE8xaW9XSXNHd2xfbmRCNWRwR05SNXZjMW1JcFh6SkRfLUNSbWZjZk1YVV83Mk41anFBZlBTXzJxRWpfb0dv?oc=5",
      "time": "2026-11-11T18:10:12+00:00"
-    },
-    {
-     "title": "ServiceNow Drops 29% in a Month: Should You Hold or Fold the Stock?",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQX01RMk9fRUdVeERwX3RFbm5NMFpVaWJ3U1RQaEk5NENtS2Z1eGtfeHNzNUxXSnlDaVJBSTVBTTFlQnJ1bHFsTjA1VmI0Z2FwOVNXQ1pDS0o2MExvTlZlTHJrWm1fLUJQQW5pRUpORDY2ekhfRFlNTEluNlI2UXo4MWpmU1RKOHhoVlFVY0c4V0JHZ2hyR281OVByMA?oc=5",
-     "time": "2026-11-11T17:20:00+00:00"
     },
     {
      "title": "Where Will ServiceNow Stock Be in 2 Years?",
@@ -549,23 +549,23 @@
    "symbol": "APP",
    "name": "AppLovin",
    "list": "portfolio",
-   "price": 407.55,
+   "price": 406.69,
    "prev_close": 395.51,
-   "change_pct": 3.0,
+   "change_pct": 2.8,
    "trigger_change": 3.0,
-   "peak_change": 3.0,
+   "peak_change": 3.2,
    "first_seen": "2026-11-11T19:38:42+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 102.56,
-    "change_pct": 2.23
+    "price": 102.43,
+    "change_pct": 2.09
    },
    "chart": {
-    "ema8": 14.5,
-    "ema21": 30.0,
-    "sma50": 36.4,
-    "sma200": 0.0,
+    "ema8": 14.3,
+    "ema21": 29.8,
+    "sma50": 36.1,
+    "sma200": -0.2,
     "momentum": true
    },
    "headlines": [
@@ -618,32 +618,38 @@
      "time": "2026-11-10T19:09:38+00:00"
     }
    ],
-   "brief": null
+   "brief": "2026-11-11-APP"
   },
   {
    "symbol": "CRWD",
    "name": "CrowdStrike",
    "list": "portfolio",
-   "price": 231.04,
+   "price": 230.73,
    "prev_close": 225.76,
-   "change_pct": 2.3,
+   "change_pct": 2.2,
    "trigger_change": 3.0,
    "peak_change": 4.5,
    "first_seen": "2026-11-11T15:16:20+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 102.56,
-    "change_pct": 2.23
+    "price": 102.43,
+    "change_pct": 2.09
    },
    "chart": {
-    "ema8": -0.5,
-    "ema21": -3.9,
-    "sma50": -5.4,
-    "sma200": 34.4,
+    "ema8": -0.6,
+    "ema21": -4.0,
+    "sma50": -5.5,
+    "sma200": 34.2,
     "momentum": false
    },
    "headlines": [
+    {
+     "title": "Datadog and Cloudflare Rise 5% as CoreWeave's Results Lift Software Stocks; CrowdStrike Climbs 4%",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNQ3BPWWw5Y21GenhoSkxjclJSZk1VcDY1Vk03LWt0TXJlSUtkd1JUSkgwbmxkMDhHZWd5dWlST0ZVd2JVTHF1SjZFTkM0bmVsdEhaYk9vWVo2VGMyeXZieUZYQ19oYjRRd2RNNGZab3NDX3RWb0p4VDg0amdqV2FPcFBQOGxPaXJDdHJ3X2JzY1ozY0pULVIzd1ZBSklKa1hqWHJSR3ZZcHd6eUdheDlxb2lpQ0RiT0ctX042QjlQc2oxYzdDb0sySDZ3a0JiVTJZZzFv?oc=5",
+     "time": "2026-11-11T19:03:00+00:00"
+    },
     {
      "title": "CrowdStrike Holdings Inc Stock (CRWD) Moved Up by 3.67% on Nov 11: What Investors Need To Know",
      "publisher": "TradingKey",
@@ -685,12 +691,6 @@
      "publisher": "Benzinga",
      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPaVI1V1Q3WkNoTnUwV0RCaEZtcG9TYVg2bU5uZlk0ZHJ1QW1pUDRjcmwxdEhhMGtkYWhHaVMyekhBMVNHc1E0VG41d0FoNzllY0JQUTRMSHhyQzg2TWF4dHZLMEgydUVkMGdVckRZdG9wQTU5VGppYzhidGIxOGRaOHpfbUw1Mm5EbDVnX3RCbThLVjlLZTZKejFsZWRfYlFOYkhONHJjZjJ0QWtaODlfMDhEaWx2WDB2TlhlRzBscUxOYml0LVV3V1FR?oc=5",
      "time": "2026-11-10T20:00:41+00:00"
-    },
-    {
-     "title": "CrowdStrike Sinks 10% Two Days After a $495 Million Bet on Policing AI Agents",
-     "publisher": "TIKR.com",
-     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQVkNuWDAzZG00X1lTNEJxMHNxemp0bGh1VVl4OUIwbS1wdkg5bGlQdzFNMkdBQlRwNUVRc3BScnFWNDNKZG9ob2I1ekdDVzJlem9zaEtwaGZxeWdCdkhBTl9vczdFYjg5N1BCZHQ4R3NETGNvcmRxMkdLQ1N1VHZGTHBxVURfV3F4b1o0QVJyQW8tcmVMV0EwUlRwcG1JNkJVWnZr?oc=5",
-     "time": "2026-11-10T18:42:20+00:00"
     }
    ],
    "brief": "2026-11-11-CRWD"
