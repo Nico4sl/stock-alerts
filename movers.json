@@ -1,22 +1,22 @@
 {
  "date": "2026-11-11",
  "threshold": 3.0,
- "updated": "2026-11-11T16:27:03+00:00",
+ "updated": "2026-11-11T16:32:05+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 759.14,
-   "change_pct": 1.23
+   "price": 758.77,
+   "change_pct": 1.18
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 692.07,
-   "change_pct": 2.57
+   "price": 691.54,
+   "change_pct": 2.49
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 80.66,
-   "change_pct": -0.28
+   "price": 80.71,
+   "change_pct": -0.21
   }
  },
  "movers": [
@@ -24,7 +24,7 @@
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 156.36,
+   "price": 156.35,
    "prev_close": 134.0,
    "change_pct": 16.7,
    "trigger_change": 13.2,
@@ -33,8 +33,8 @@
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 102.65,
-    "change_pct": 2.31
+    "price": 102.46,
+    "change_pct": 2.12
    },
    "chart": {
     "ema8": 8.1,
@@ -99,23 +99,23 @@
    "symbol": "AMAT",
    "name": "Applied Materials",
    "list": "portfolio",
-   "price": 398.16,
+   "price": 399.06,
    "prev_close": 372.53,
-   "change_pct": 6.9,
+   "change_pct": 7.1,
    "trigger_change": 3.5,
-   "peak_change": 6.9,
+   "peak_change": 7.1,
    "first_seen": "2026-11-11T14:56:06+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 511.27,
-    "change_pct": 5.72
+    "price": 511.51,
+    "change_pct": 5.76
    },
    "chart": {
-    "ema8": 6.4,
-    "ema21": 0.6,
-    "sma50": -9.6,
-    "sma200": -10.8,
+    "ema8": 6.6,
+    "ema21": 0.8,
+    "sma50": -9.4,
+    "sma200": -10.6,
     "momentum": false
    },
    "headlines": [
@@ -174,7 +174,7 @@
    "symbol": "ANET",
    "name": "Arista Networks",
    "list": "portfolio",
-   "price": 197.56,
+   "price": 197.57,
    "prev_close": 185.02,
    "change_pct": 6.8,
    "trigger_change": 5.4,
@@ -183,8 +183,8 @@
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 511.27,
-    "change_pct": 5.72
+    "price": 511.51,
+    "change_pct": 5.76
    },
    "chart": {
     "ema8": 8.7,
@@ -249,23 +249,23 @@
    "symbol": "AVGO",
    "name": "Broadcom",
    "list": "portfolio",
-   "price": 353.2,
+   "price": 353.92,
    "prev_close": 331.98,
-   "change_pct": 6.4,
+   "change_pct": 6.6,
    "trigger_change": 5.9,
-   "peak_change": 6.4,
+   "peak_change": 6.6,
    "first_seen": "2026-11-11T14:56:06+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 511.27,
-    "change_pct": 5.72
+    "price": 511.51,
+    "change_pct": 5.76
    },
    "chart": {
-    "ema8": 7.8,
-    "ema21": 6.4,
-    "sma50": 2.1,
-    "sma200": -3.8,
+    "ema8": 8.0,
+    "ema21": 6.6,
+    "sma50": 2.3,
+    "sma200": -3.6,
     "momentum": false
    },
    "headlines": [
@@ -321,101 +321,26 @@
    "brief": "2026-11-11-AVGO"
   },
   {
-   "symbol": "CRWD",
-   "name": "CrowdStrike",
-   "list": "portfolio",
-   "price": 235.29,
-   "prev_close": 225.76,
-   "change_pct": 4.2,
-   "trigger_change": 3.0,
-   "peak_change": 4.5,
-   "first_seen": "2026-11-11T15:16:20+00:00",
-   "sector": {
-    "etf": "IGV",
-    "name": "Software",
-    "price": 102.65,
-    "change_pct": 2.31
-   },
-   "chart": {
-    "ema8": 0.9,
-    "ema21": -2.3,
-    "sma50": -3.7,
-    "sma200": 36.8,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "CrowdStrike (CRWD) Stock: $225.76, Down 1.23% Nov 10",
-     "publisher": "JournalArta",
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPcnRGWGhXbDdFYnNIQXBGLVpTWkZQNzhRWU5KRVhBeGVuTEtacl9sNGZGV0cwM3RLdmN1UmlWRFBCendRX2R0cGw4MTBtMmlHVkpmMHgwYVg2Q0h6bG1hang1YkpBZnQ5VmJJOXAxRlQzNHI1LUVuTFVTZVNtQlo5RWdDcW9RbC0zcmlsa19ySTBYLU1rRE1VZk5Yd3VkOWhMcmlpbXNUdXI2djNHMFF6RTE1dGdPdw?oc=5",
-     "time": "2026-11-11T10:59:12+00:00"
-    },
-    {
-     "title": "CrowdStrike(CRWD.US) Officer Sells US$4.45 Million in Common Stock",
-     "publisher": "Moomoo",
-     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNX09CZjZJOEpVZVI4VGxnZ3dkYlFNbEhQVUhhT1ZIRlVoazByZklqWTBXazlvNHRIRTRsLVRSUzkyb25sZEN0c3BEcWNVbmJNZDM1V0tySWFqMno3emRLcXJlZGx2QVk1dVppNXItbm53WmpZUUtRSjRDQ1VtNWFOalFDc0Q5N1ZRZGRscEJWNGQ5Z2pTeVdQOU02VGJTTjAzNEdDSA?oc=5",
-     "time": "2026-11-11T01:35:48+00:00"
-    },
-    {
-     "title": "CRWD Could Beat Q2 Expectations Across The Board, Says Benchmark \u2014 Firm Sees Multiple Growth Catalysts",
-     "publisher": "Stocktwits",
-     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNTlJQcWVhUEZja1l5cWpCWFJBb2UzR1JEc3A1WTJYVm1jeVJNUm9oSFkxa3Izc2xhSTRVS2tVaWx6OHNWM01ESk5DTy1lSGJUMmY0SGdIUWEtUGx1ZFR3Wlp2VnhwVUtPTHI4YnhJRlpMZDR2UmRxZlFEYWZSalBCYzdSZkY0bndCUWJERk9GVHMtZFBHSlpDc0h1RU5UWTc3VzlILTBnV1Mxdk9HWlFJTWtwZVhrRDRkQ2lyU051cWgwY014RGtoUWh0ZkZrdw?oc=5",
-     "time": "2026-11-11T01:10:53+00:00"
-    },
-    {
-     "title": "Under a January trading plan, CrowdStrike (CRWD) CEO sells 20,000 shares.",
-     "publisher": "Stock Titan",
-     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZW5DeEpPdUtmREhxbEQ3anhhaVhjQnpNenJFbW8zTXNFdV80NVR5ekF2TlhDTGVvWEVVSUZYYUY4N3FqMzJyelRxUzFxQ1pmVzd4bUZSODJfY2lvdDZhWjU1cmdSaVhuTDFkWUVHZlppdy1NMFZOVmtDNTdoR0tqbG01Wk93dTkxT0pCTjd3SjI5eUYtZnpsbEptdkZrNFBmRWJNWDVjckhNeFhRU1JtTmgtc3duUVRSQU5z?oc=5",
-     "time": "2026-11-11T01:00:00+00:00"
-    },
-    {
-     "title": "CrowdStrike Holdings (CRWD) Suffers a Larger Drop Than the General Market: Key Insights",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNcXNBSndZMWtjeUNlVVlxTE9obUtmNU4xYmNfX0h0bGFEZDUwcF9XZjFXNTZOLVNfWGhDVHBxcFdpWnpoUkZobnp4aE1HQU83VVpzQmR2UmVsNHM4YnlWU29sZ0lXQjJXRGw4a1lncFE4bUM3aGxUeWJ4VENfTFdHS254YVRjWWF5WjRiVkNRNWdlZHJneVUxeS1JYVBLQkk5aVU0T2d6RGg?oc=5",
-     "time": "2026-11-10T21:45:02+00:00"
-    },
-    {
-     "title": "If You Invested $1000 In CrowdStrike Holdings Stock 5 Years Ago, You Would Have This Much Today",
-     "publisher": "Benzinga",
-     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPaVI1V1Q3WkNoTnUwV0RCaEZtcG9TYVg2bU5uZlk0ZHJ1QW1pUDRjcmwxdEhhMGtkYWhHaVMyekhBMVNHc1E0VG41d0FoNzllY0JQUTRMSHhyQzg2TWF4dHZLMEgydUVkMGdVckRZdG9wQTU5VGppYzhidGIxOGRaOHpfbUw1Mm5EbDVnX3RCbThLVjlLZTZKejFsZWRfYlFOYkhONHJjZjJ0QWtaODlfMDhEaWx2WDB2TlhlRzBscUxOYml0LVV3V1FR?oc=5",
-     "time": "2026-11-10T20:00:41+00:00"
-    },
-    {
-     "title": "CrowdStrike Sinks 10% Two Days After a $495 Million Bet on Policing AI Agents",
-     "publisher": "TIKR.com",
-     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQVkNuWDAzZG00X1lTNEJxMHNxemp0bGh1VVl4OUIwbS1wdkg5bGlQdzFNMkdBQlRwNUVRc3BScnFWNDNKZG9ob2I1ekdDVzJlem9zaEtwaGZxeWdCdkhBTl9vczdFYjg5N1BCZHQ4R3NETGNvcmRxMkdLQ1N1VHZGTHBxVURfV3F4b1o0QVJyQW8tcmVMV0EwUlRwcG1JNkJVWnZr?oc=5",
-     "time": "2026-11-10T18:42:20+00:00"
-    },
-    {
-     "title": "Piper Sandler Optimistic on CrowdStrike (CRWD) Ahead of Q3 Earni",
-     "publisher": "GuruFocus",
-     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOaEd6TUhvMkYwNmM5WTl6cGRiUGVJVmxiNTMtYTBJZ3MtcFRCNkxybmFzYnk4WTZuUFFXamhWVU9YU0x2blA0THlObFVXMkgtbmE0NjNwZ1ZkdGZKaVFMR01YdG9hQ2F4eWEySldmRkVjUi0yN1o2NnpQMHpmMzdzZ1o5YndiUlNna1pPUVpkWGQtMmRreHB6N3lJS0dfaGgwSEtJTHViWQ?oc=5",
-     "time": "2026-11-10T16:17:18+00:00"
-    }
-   ],
-   "brief": "2026-11-11-CRWD"
-  },
-  {
    "symbol": "AXON",
    "name": "Axon",
    "list": "watchlist",
-   "price": 314.99,
+   "price": 317.67,
    "prev_close": 302.54,
-   "change_pct": 4.1,
+   "change_pct": 5.0,
    "trigger_change": 3.8,
-   "peak_change": 4.9,
+   "peak_change": 5.0,
    "first_seen": "2026-11-11T15:16:20+00:00",
    "sector": {
     "etf": "XLI",
     "name": "Industrials",
-    "price": 170.47,
-    "change_pct": 1.03
+    "price": 170.52,
+    "change_pct": 1.06
    },
    "chart": {
-    "ema8": -9.3,
-    "ema21": -18.0,
-    "sma50": -26.1,
-    "sma200": -32.8,
+    "ema8": -8.6,
+    "ema21": -17.4,
+    "sma50": -25.5,
+    "sma200": -32.2,
     "momentum": false
    },
    "headlines": [
@@ -474,7 +399,7 @@
    "symbol": "NVDA",
    "name": "Nvidia",
    "list": "portfolio",
-   "price": 175.85,
+   "price": 175.79,
    "prev_close": 168.89,
    "change_pct": 4.1,
    "trigger_change": 3.1,
@@ -483,13 +408,13 @@
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 511.27,
-    "change_pct": 5.72
+    "price": 511.51,
+    "change_pct": 5.76
    },
    "chart": {
     "ema8": -5.3,
-    "ema21": -12.3,
-    "sma50": -19.0,
+    "ema21": -12.4,
+    "sma50": -19.1,
     "sma200": -14.0,
     "momentum": false
    },
@@ -546,26 +471,101 @@
    "brief": null
   },
   {
+   "symbol": "CRWD",
+   "name": "CrowdStrike",
+   "list": "portfolio",
+   "price": 234.72,
+   "prev_close": 225.76,
+   "change_pct": 4.0,
+   "trigger_change": 3.0,
+   "peak_change": 4.5,
+   "first_seen": "2026-11-11T15:16:20+00:00",
+   "sector": {
+    "etf": "IGV",
+    "name": "Software",
+    "price": 102.46,
+    "change_pct": 2.12
+   },
+   "chart": {
+    "ema8": 0.7,
+    "ema21": -2.5,
+    "sma50": -3.9,
+    "sma200": 36.5,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "CrowdStrike (CRWD) Stock: $225.76, Down 1.23% Nov 10",
+     "publisher": "JournalArta",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPcnRGWGhXbDdFYnNIQXBGLVpTWkZQNzhRWU5KRVhBeGVuTEtacl9sNGZGV0cwM3RLdmN1UmlWRFBCendRX2R0cGw4MTBtMmlHVkpmMHgwYVg2Q0h6bG1hang1YkpBZnQ5VmJJOXAxRlQzNHI1LUVuTFVTZVNtQlo5RWdDcW9RbC0zcmlsa19ySTBYLU1rRE1VZk5Yd3VkOWhMcmlpbXNUdXI2djNHMFF6RTE1dGdPdw?oc=5",
+     "time": "2026-11-11T10:59:12+00:00"
+    },
+    {
+     "title": "CrowdStrike(CRWD.US) Officer Sells US$4.45 Million in Common Stock",
+     "publisher": "Moomoo",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNX09CZjZJOEpVZVI4VGxnZ3dkYlFNbEhQVUhhT1ZIRlVoazByZklqWTBXazlvNHRIRTRsLVRSUzkyb25sZEN0c3BEcWNVbmJNZDM1V0tySWFqMno3emRLcXJlZGx2QVk1dVppNXItbm53WmpZUUtRSjRDQ1VtNWFOalFDc0Q5N1ZRZGRscEJWNGQ5Z2pTeVdQOU02VGJTTjAzNEdDSA?oc=5",
+     "time": "2026-11-11T01:35:48+00:00"
+    },
+    {
+     "title": "CRWD Could Beat Q2 Expectations Across The Board, Says Benchmark \u2014 Firm Sees Multiple Growth Catalysts",
+     "publisher": "Stocktwits",
+     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNTlJQcWVhUEZja1l5cWpCWFJBb2UzR1JEc3A1WTJYVm1jeVJNUm9oSFkxa3Izc2xhSTRVS2tVaWx6OHNWM01ESk5DTy1lSGJUMmY0SGdIUWEtUGx1ZFR3Wlp2VnhwVUtPTHI4YnhJRlpMZDR2UmRxZlFEYWZSalBCYzdSZkY0bndCUWJERk9GVHMtZFBHSlpDc0h1RU5UWTc3VzlILTBnV1Mxdk9HWlFJTWtwZVhrRDRkQ2lyU051cWgwY014RGtoUWh0ZkZrdw?oc=5",
+     "time": "2026-11-11T01:10:53+00:00"
+    },
+    {
+     "title": "Under a January trading plan, CrowdStrike (CRWD) CEO sells 20,000 shares.",
+     "publisher": "Stock Titan",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZW5DeEpPdUtmREhxbEQ3anhhaVhjQnpNenJFbW8zTXNFdV80NVR5ekF2TlhDTGVvWEVVSUZYYUY4N3FqMzJyelRxUzFxQ1pmVzd4bUZSODJfY2lvdDZhWjU1cmdSaVhuTDFkWUVHZlppdy1NMFZOVmtDNTdoR0tqbG01Wk93dTkxT0pCTjd3SjI5eUYtZnpsbEptdkZrNFBmRWJNWDVjckhNeFhRU1JtTmgtc3duUVRSQU5z?oc=5",
+     "time": "2026-11-11T01:00:00+00:00"
+    },
+    {
+     "title": "CrowdStrike Holdings (CRWD) Suffers a Larger Drop Than the General Market: Key Insights",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNcXNBSndZMWtjeUNlVVlxTE9obUtmNU4xYmNfX0h0bGFEZDUwcF9XZjFXNTZOLVNfWGhDVHBxcFdpWnpoUkZobnp4aE1HQU83VVpzQmR2UmVsNHM4YnlWU29sZ0lXQjJXRGw4a1lncFE4bUM3aGxUeWJ4VENfTFdHS254YVRjWWF5WjRiVkNRNWdlZHJneVUxeS1JYVBLQkk5aVU0T2d6RGg?oc=5",
+     "time": "2026-11-10T21:45:02+00:00"
+    },
+    {
+     "title": "If You Invested $1000 In CrowdStrike Holdings Stock 5 Years Ago, You Would Have This Much Today",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPaVI1V1Q3WkNoTnUwV0RCaEZtcG9TYVg2bU5uZlk0ZHJ1QW1pUDRjcmwxdEhhMGtkYWhHaVMyekhBMVNHc1E0VG41d0FoNzllY0JQUTRMSHhyQzg2TWF4dHZLMEgydUVkMGdVckRZdG9wQTU5VGppYzhidGIxOGRaOHpfbUw1Mm5EbDVnX3RCbThLVjlLZTZKejFsZWRfYlFOYkhONHJjZjJ0QWtaODlfMDhEaWx2WDB2TlhlRzBscUxOYml0LVV3V1FR?oc=5",
+     "time": "2026-11-10T20:00:41+00:00"
+    },
+    {
+     "title": "CrowdStrike Sinks 10% Two Days After a $495 Million Bet on Policing AI Agents",
+     "publisher": "TIKR.com",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQVkNuWDAzZG00X1lTNEJxMHNxemp0bGh1VVl4OUIwbS1wdkg5bGlQdzFNMkdBQlRwNUVRc3BScnFWNDNKZG9ob2I1ekdDVzJlem9zaEtwaGZxeWdCdkhBTl9vczdFYjg5N1BCZHQ4R3NETGNvcmRxMkdLQ1N1VHZGTHBxVURfV3F4b1o0QVJyQW8tcmVMV0EwUlRwcG1JNkJVWnZr?oc=5",
+     "time": "2026-11-10T18:42:20+00:00"
+    },
+    {
+     "title": "Piper Sandler Optimistic on CrowdStrike (CRWD) Ahead of Q3 Earni",
+     "publisher": "GuruFocus",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOaEd6TUhvMkYwNmM5WTl6cGRiUGVJVmxiNTMtYTBJZ3MtcFRCNkxybmFzYnk4WTZuUFFXamhWVU9YU0x2blA0THlObFVXMkgtbmE0NjNwZ1ZkdGZKaVFMR01YdG9hQ2F4eWEySldmRkVjUi0yN1o2NnpQMHpmMzdzZ1o5YndiUlNna1pPUVpkWGQtMmRreHB6N3lJS0dfaGgwSEtJTHViWQ?oc=5",
+     "time": "2026-11-10T16:17:18+00:00"
+    }
+   ],
+   "brief": "2026-11-11-CRWD"
+  },
+  {
    "symbol": "NOW",
    "name": "ServiceNow",
    "list": "portfolio",
-   "price": 102.8,
+   "price": 102.52,
    "prev_close": 99.61,
-   "change_pct": 3.2,
+   "change_pct": 2.9,
    "trigger_change": 3.2,
    "peak_change": 3.2,
    "first_seen": "2026-11-11T16:27:03+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 102.65,
-    "change_pct": 2.31
+    "price": 102.46,
+    "change_pct": 2.12
    },
    "chart": {
-    "ema8": -4.1,
-    "ema21": -14.7,
-    "sma50": -23.1,
-    "sma200": -9.8,
+    "ema8": -4.3,
+    "ema21": -14.9,
+    "sma50": -23.3,
+    "sma200": -10.0,
     "momentum": false
    },
    "headlines": [
