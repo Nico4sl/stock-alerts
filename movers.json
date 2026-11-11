@@ -1,22 +1,22 @@
 {
  "date": "2026-11-11",
  "threshold": 3.0,
- "updated": "2026-11-11T15:51:32+00:00",
+ "updated": "2026-11-11T15:56:34+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 758.15,
-   "change_pct": 1.1
+   "price": 758.28,
+   "change_pct": 1.11
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 690.8,
-   "change_pct": 2.38
+   "price": 691.47,
+   "change_pct": 2.48
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 80.52,
-   "change_pct": -0.45
+   "price": 80.55,
+   "change_pct": -0.41
   }
  },
  "movers": [
@@ -24,23 +24,23 @@
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 156.74,
+   "price": 157.18,
    "prev_close": 134.0,
-   "change_pct": 17.0,
+   "change_pct": 17.3,
    "trigger_change": 13.2,
-   "peak_change": 17.0,
+   "peak_change": 17.3,
    "first_seen": "2026-11-11T14:56:06+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 102.43,
-    "change_pct": 2.09
+    "price": 102.54,
+    "change_pct": 2.2
    },
    "chart": {
-    "ema8": 8.3,
-    "ema21": -2.6,
-    "sma50": -20.9,
-    "sma200": -12.5,
+    "ema8": 8.5,
+    "ema21": -2.3,
+    "sma50": -20.6,
+    "sma200": -12.2,
     "momentum": false
    },
    "headlines": [
@@ -93,104 +93,29 @@
      "time": "2026-11-10T23:37:04+00:00"
     }
    ],
-   "brief": null
-  },
-  {
-   "symbol": "AMAT",
-   "name": "Applied Materials",
-   "list": "portfolio",
-   "price": 396.95,
-   "prev_close": 372.53,
-   "change_pct": 6.6,
-   "trigger_change": 3.5,
-   "peak_change": 6.6,
-   "first_seen": "2026-11-11T14:56:06+00:00",
-   "sector": {
-    "etf": "SMH",
-    "name": "Semiconductors",
-    "price": 509.17,
-    "change_pct": 5.28
-   },
-   "chart": {
-    "ema8": 6.2,
-    "ema21": 0.3,
-    "sma50": -9.9,
-    "sma200": -11.0,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Applied Materials Earnings Due Thursday: What Investors Need to Know",
-     "publisher": "Benzinga",
-     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNcEZzU0U3dk4tUEpJVC03Yi01alVwR1FIMm5Ld09hczdDRUJkOFA2T3g2TEFPU0VUbVlNVFJxemI4YW4wNnZfLWdWQTFQZHBNa0ZVdTJKMUlRX1pYLXotMWItU3VaU2daVDVZX2Jua3FkaWhDYVF1REhiN0o4NjdZTk9tRUdscFRQX3NQRDJabVM0Q3JkZjJyVV9mZm1hS2huQ2ZKZUdYTjdrZFQxSmo3RFJUS2J0MWxHUjhpSkVIZ21lZk83RW1R?oc=5",
-     "time": "2026-11-11T14:52:45+00:00"
-    },
-    {
-     "title": "Applied Materials Is Up 59% in a Year, Even After Halving From Its High: \u201cDouble Our Output\u201d",
-     "publisher": "TIKR.com",
-     "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOZENHQi1MN09vLURLMDdqMWRZNjFDS0JKd1FSd1pPcVh1OEFhWXZiMU1wUEhlRzdtUE50bXlNc3NyQ3BmWlZDcmlKRmVxRUFUcEM1dzJoNDRhYnQ2ZzJzc2ZTYVQ1WFRHd0JXd1BxV3hFaW5GbGlBUGx2dkFwekdyQTJ2ZDZ4OTlwR0haUXpMa0pURGRlMHVwUWxXMDhTdDByVHEzb3JZZVpndm53ZXB6RGtWbFo4N3NZUVlabVJqNDktVGpaTlNzRjI5MTFXcHR1MG05Q1pZdFg5VlZhRVdsX2I4RHprakxrcXc?oc=5",
-     "time": "2026-11-11T14:28:22+00:00"
-    },
-    {
-     "title": "ETFs Bought $317.1 Million of Applied Materials (AMAT) on Monday",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNc0xwa0ZtMzZ4akxwUDJndGZUcHZTTU82WWlnRUZjZ0pVbDZLamNkNjFYNXRJa1hiZHg4TUYxUC0tM0c1QW9oTEZBYl80VFU5QnhHZS1VcVA3YkpvVm5nWGFzd3haV0NqSlYxbXhZZFNHTjF5NEZZR2tueGZoWjdKVDJ1eE9rejI1bElqU2dlT294c2ow?oc=5",
-     "time": "2026-11-11T11:01:33+00:00"
-    },
-    {
-     "title": "Applied Materials (AMAT) Stock Gets Fair Value Trim As Margin Caution Offsets AI Demand",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPWGJBRXpzdVBJVDlpYm0zQ3FrYmk2b3d5X0E1WUNQSzFwN0k0RF9yMnVZZHVZMDJ4SUM0aDVmUERUZU5uRzVkNjhCYnBXemRBQ1FtMVJkU1BmOWlsdGdzejktUlBSWGozZ2dkVHF6YzhvLVluVGttZG15azQ3U2ZOeGM2WmQ4Wm9JOU1SQ0VBODh5eFI4OVh2bFBZMHl1T3c?oc=5",
-     "time": "2026-11-11T08:12:43+00:00"
-    },
-    {
-     "title": "Applied Materials Stock At $373: Bargain Or Warning?",
-     "publisher": "Trefis",
-     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPRkRRdmliVk56WmVvSS00ZlpXRU4wMldwMkZHSm9wdHBDTWVHb0Nxamxzajl1bDVCZ0hiR3NyLUdwQ0RXT0lSTWFoakxRZGJyRWdjbG1VRTVUTUpYVkZJVUxLQW5EZEpZZXBmOExyMXp4Nk93ZXprWHY0YmwyUEhkQUxIX3psRUNnUEdseXJ6R25mdWFabW9ZWlJiSWp5aGpUQ1RJdDJONUY4QUJkd2RZ?oc=5",
-     "time": "2026-11-11T07:47:05+00:00"
-    },
-    {
-     "title": "Can Applied Materials Stock Deliver 36% Sales Growth?",
-     "publisher": "Trefis",
-     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQbVI0ODNzdFBDMFItMDA1aUc0T0hTX2JiR0xndDl5T0NHTFM0blY1Wko5cUFIeWtBeVpWSHpIdEsxdUxwVWI4dzB5UnZ4dmhkbGdZOTNzUW1yNW5VU3pkMFBEeTlOUExZY21ERHcyMlN6ZHJKOTdSdGVsVWNucDhWMjhhS240VU5zbWh3eUdTQkE3d0I5dDFfTF96Zk1udXhoWUUzcHpqTkswQkxHR1N2bEdB?oc=5",
-     "time": "2026-11-11T07:46:51+00:00"
-    },
-    {
-     "title": "Applied Materials (AMAT) Stock Trades At A Premium To Cash Flow",
-     "publisher": "Simply Wall St",
-     "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOVmgyLW5QLVZPSnNyWEpKaWZ0SktBYmZ5VXRHTTdrVUQwQUwyeGJkVkZYWTgxejh5Y2cxTGJmbnZ3SEdBY3JMRlNTVTRveFJXTU4xVzdmQWsxOVlsalVDcUdNRmpyeVF4bmFwMEhJMWJobjUzQUhsR3VrRmJJaHJmdTRZck0zWUhPYndvRkxDdVBGWnVIZlVfUW9QR2pmM2t4b09uZzZrUnVWa1FTd0pVREd2MkRfSEt2aW1QalJrVFAxNDBvZEpsNVliWHhJTHpfdkpWc0J6V3NNaUlaYmtv0gHfAUFVX3lxTE5WaDItblAtVk9Kc3JYSkppZnRKS0FiZnlVdEdNN2tVRDBBTDJ4YmRWRlhZODF6OHljZzFMYmZudndIR0FjckxGU1NVNG94UldNTjFXN2ZBazE5WWxqVUNxR01GanJ5UXhuYXAwSEkxYmhuNTNBSGxHdWtGYklocmZ1NFlyTTNZSE9id29GTEN1UEZadUhmVV9Rb1BHamYza3hvT25nNmtSdVZrUVN3SlVER3YyRF9IS3ZpbVBqUmtUUDE0MG9kSmw1WWJYeElMel92SlZzQnpXc01pSVpia28?oc=5",
-     "time": "2026-11-11T05:26:31+00:00"
-    },
-    {
-     "title": "Earnings to watch: Applied Materials (AMAT) reports Q3 results tomorrow",
-     "publisher": "StockStory",
-     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNR3RMaFl0VWV3LUZtQ2RhUlBSc2QwdzhtcW1ndkkwYXUwdS1ScTU0STVwWXVCaHVsSnMyeDh3T3A3Z21nX1VQRnZXUkJUSTJlbmFIdzJWVkVsV3djbnFMbmZFazgwUU5HMHhpSFZmSUh2MTlXX0N6blJNOWdxdnEwSmp5YzBNSGc3VFlDNmhDQjFkaXI2c3ZCQmpycXNwZWhxb21wUkJMTTBFZWdwX2NUMDhVVDVlM1padVJaSEk4czFqSEdWMkE?oc=5",
-     "time": "2026-11-11T03:21:58+00:00"
-    }
-   ],
-   "brief": null
+   "brief": "2026-11-11-NBIS"
   },
   {
    "symbol": "ANET",
    "name": "Arista Networks",
    "list": "portfolio",
-   "price": 197.17,
+   "price": 197.89,
    "prev_close": 185.02,
-   "change_pct": 6.6,
+   "change_pct": 7.0,
    "trigger_change": 5.4,
-   "peak_change": 6.6,
+   "peak_change": 7.0,
    "first_seen": "2026-11-11T14:56:06+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 509.17,
-    "change_pct": 5.28
+    "price": 510.45,
+    "change_pct": 5.55
    },
    "chart": {
-    "ema8": 8.5,
-    "ema21": 7.9,
-    "sma50": 2.5,
-    "sma200": 18.2,
+    "ema8": 8.8,
+    "ema21": 8.3,
+    "sma50": 2.8,
+    "sma200": 18.6,
     "momentum": false
    },
    "headlines": [
@@ -243,29 +168,104 @@
      "time": "2026-11-10T07:24:31+00:00"
     }
    ],
-   "brief": null
+   "brief": "2026-11-11-ANET"
+  },
+  {
+   "symbol": "AMAT",
+   "name": "Applied Materials",
+   "list": "portfolio",
+   "price": 398.33,
+   "prev_close": 372.53,
+   "change_pct": 6.9,
+   "trigger_change": 3.5,
+   "peak_change": 6.9,
+   "first_seen": "2026-11-11T14:56:06+00:00",
+   "sector": {
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 510.45,
+    "change_pct": 5.55
+   },
+   "chart": {
+    "ema8": 6.4,
+    "ema21": 0.6,
+    "sma50": -9.6,
+    "sma200": -10.7,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Applied Materials Earnings Due Thursday: What Investors Need to Know",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNcEZzU0U3dk4tUEpJVC03Yi01alVwR1FIMm5Ld09hczdDRUJkOFA2T3g2TEFPU0VUbVlNVFJxemI4YW4wNnZfLWdWQTFQZHBNa0ZVdTJKMUlRX1pYLXotMWItU3VaU2daVDVZX2Jua3FkaWhDYVF1REhiN0o4NjdZTk9tRUdscFRQX3NQRDJabVM0Q3JkZjJyVV9mZm1hS2huQ2ZKZUdYTjdrZFQxSmo3RFJUS2J0MWxHUjhpSkVIZ21lZk83RW1R?oc=5",
+     "time": "2026-11-11T14:52:45+00:00"
+    },
+    {
+     "title": "Applied Materials Is Up 59% in a Year, Even After Halving From Its High: \u201cDouble Our Output\u201d",
+     "publisher": "TIKR.com",
+     "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOZENHQi1MN09vLURLMDdqMWRZNjFDS0JKd1FSd1pPcVh1OEFhWXZiMU1wUEhlRzdtUE50bXlNc3NyQ3BmWlZDcmlKRmVxRUFUcEM1dzJoNDRhYnQ2ZzJzc2ZTYVQ1WFRHd0JXd1BxV3hFaW5GbGlBUGx2dkFwekdyQTJ2ZDZ4OTlwR0haUXpMa0pURGRlMHVwUWxXMDhTdDByVHEzb3JZZVpndm53ZXB6RGtWbFo4N3NZUVlabVJqNDktVGpaTlNzRjI5MTFXcHR1MG05Q1pZdFg5VlZhRVdsX2I4RHprakxrcXc?oc=5",
+     "time": "2026-11-11T14:28:22+00:00"
+    },
+    {
+     "title": "ETFs Bought $317.1 Million of Applied Materials (AMAT) on Monday",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNc0xwa0ZtMzZ4akxwUDJndGZUcHZTTU82WWlnRUZjZ0pVbDZLamNkNjFYNXRJa1hiZHg4TUYxUC0tM0c1QW9oTEZBYl80VFU5QnhHZS1VcVA3YkpvVm5nWGFzd3haV0NqSlYxbXhZZFNHTjF5NEZZR2tueGZoWjdKVDJ1eE9rejI1bElqU2dlT294c2ow?oc=5",
+     "time": "2026-11-11T11:01:33+00:00"
+    },
+    {
+     "title": "Applied Materials (AMAT) Stock Gets Fair Value Trim As Margin Caution Offsets AI Demand",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPWGJBRXpzdVBJVDlpYm0zQ3FrYmk2b3d5X0E1WUNQSzFwN0k0RF9yMnVZZHVZMDJ4SUM0aDVmUERUZU5uRzVkNjhCYnBXemRBQ1FtMVJkU1BmOWlsdGdzejktUlBSWGozZ2dkVHF6YzhvLVluVGttZG15azQ3U2ZOeGM2WmQ4Wm9JOU1SQ0VBODh5eFI4OVh2bFBZMHl1T3c?oc=5",
+     "time": "2026-11-11T08:12:43+00:00"
+    },
+    {
+     "title": "Applied Materials Stock At $373: Bargain Or Warning?",
+     "publisher": "Trefis",
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPRkRRdmliVk56WmVvSS00ZlpXRU4wMldwMkZHSm9wdHBDTWVHb0Nxamxzajl1bDVCZ0hiR3NyLUdwQ0RXT0lSTWFoakxRZGJyRWdjbG1VRTVUTUpYVkZJVUxLQW5EZEpZZXBmOExyMXp4Nk93ZXprWHY0YmwyUEhkQUxIX3psRUNnUEdseXJ6R25mdWFabW9ZWlJiSWp5aGpUQ1RJdDJONUY4QUJkd2RZ?oc=5",
+     "time": "2026-11-11T07:47:05+00:00"
+    },
+    {
+     "title": "Can Applied Materials Stock Deliver 36% Sales Growth?",
+     "publisher": "Trefis",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQbVI0ODNzdFBDMFItMDA1aUc0T0hTX2JiR0xndDl5T0NHTFM0blY1Wko5cUFIeWtBeVpWSHpIdEsxdUxwVWI4dzB5UnZ4dmhkbGdZOTNzUW1yNW5VU3pkMFBEeTlOUExZY21ERHcyMlN6ZHJKOTdSdGVsVWNucDhWMjhhS240VU5zbWh3eUdTQkE3d0I5dDFfTF96Zk1udXhoWUUzcHpqTkswQkxHR1N2bEdB?oc=5",
+     "time": "2026-11-11T07:46:51+00:00"
+    },
+    {
+     "title": "Applied Materials (AMAT) Stock Trades At A Premium To Cash Flow",
+     "publisher": "Simply Wall St",
+     "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOVmgyLW5QLVZPSnNyWEpKaWZ0SktBYmZ5VXRHTTdrVUQwQUwyeGJkVkZYWTgxejh5Y2cxTGJmbnZ3SEdBY3JMRlNTVTRveFJXTU4xVzdmQWsxOVlsalVDcUdNRmpyeVF4bmFwMEhJMWJobjUzQUhsR3VrRmJJaHJmdTRZck0zWUhPYndvRkxDdVBGWnVIZlVfUW9QR2pmM2t4b09uZzZrUnVWa1FTd0pVREd2MkRfSEt2aW1QalJrVFAxNDBvZEpsNVliWHhJTHpfdkpWc0J6V3NNaUlaYmtv0gHfAUFVX3lxTE5WaDItblAtVk9Kc3JYSkppZnRKS0FiZnlVdEdNN2tVRDBBTDJ4YmRWRlhZODF6OHljZzFMYmZudndIR0FjckxGU1NVNG94UldNTjFXN2ZBazE5WWxqVUNxR01GanJ5UXhuYXAwSEkxYmhuNTNBSGxHdWtGYklocmZ1NFlyTTNZSE9id29GTEN1UEZadUhmVV9Rb1BHamYza3hvT25nNmtSdVZrUVN3SlVER3YyRF9IS3ZpbVBqUmtUUDE0MG9kSmw1WWJYeElMel92SlZzQnpXc01pSVpia28?oc=5",
+     "time": "2026-11-11T05:26:31+00:00"
+    },
+    {
+     "title": "Earnings to watch: Applied Materials (AMAT) reports Q3 results tomorrow",
+     "publisher": "StockStory",
+     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNR3RMaFl0VWV3LUZtQ2RhUlBSc2QwdzhtcW1ndkkwYXUwdS1ScTU0STVwWXVCaHVsSnMyeDh3T3A3Z21nX1VQRnZXUkJUSTJlbmFIdzJWVkVsV3djbnFMbmZFazgwUU5HMHhpSFZmSUh2MTlXX0N6blJNOWdxdnEwSmp5YzBNSGc3VFlDNmhDQjFkaXI2c3ZCQmpycXNwZWhxb21wUkJMTTBFZWdwX2NUMDhVVDVlM1padVJaSEk4czFqSEdWMkE?oc=5",
+     "time": "2026-11-11T03:21:58+00:00"
+    }
+   ],
+   "brief": "2026-11-11-AMAT"
   },
   {
    "symbol": "AVGO",
    "name": "Broadcom",
    "list": "portfolio",
-   "price": 351.34,
+   "price": 352.88,
    "prev_close": 331.98,
-   "change_pct": 5.8,
+   "change_pct": 6.3,
    "trigger_change": 5.9,
    "peak_change": 6.3,
    "first_seen": "2026-11-11T14:56:06+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 509.17,
-    "change_pct": 5.28
+    "price": 510.45,
+    "change_pct": 5.55
    },
    "chart": {
-    "ema8": 7.4,
-    "ema21": 5.9,
-    "sma50": 1.6,
-    "sma200": -4.3,
+    "ema8": 7.7,
+    "ema21": 6.3,
+    "sma50": 2.0,
+    "sma200": -3.9,
     "momentum": false
    },
    "headlines": [
@@ -318,104 +318,29 @@
      "time": "2026-11-11T12:30:00+00:00"
     }
    ],
-   "brief": null
-  },
-  {
-   "symbol": "AXON",
-   "name": "Axon",
-   "list": "watchlist",
-   "price": 315.63,
-   "prev_close": 302.54,
-   "change_pct": 4.3,
-   "trigger_change": 3.8,
-   "peak_change": 4.9,
-   "first_seen": "2026-11-11T15:16:20+00:00",
-   "sector": {
-    "etf": "XLI",
-    "name": "Industrials",
-    "price": 170.3,
-    "change_pct": 0.93
-   },
-   "chart": {
-    "ema8": -9.1,
-    "ema21": -17.9,
-    "sma50": -26.0,
-    "sma200": -32.6,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Here\u2019s What Pressured Axon Enterprise\u2019s (AXON) Q3 Performance",
-     "publisher": "Yahoo Finance Singapore",
-     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQOUNJZVVRbzE0RFU2WjRNcS1KWHNsZjZhbG9yeHpKWXE5YTdQNUlQYVBBY1BtWVJQSEktLS01WUg5YXBPWURBNEpURm90VDJHMEQ4dTFVajd5N0lwTy1XeFZQYTloalZSVDc2WWQ4M3lGcU5pVFlGRlFXd2laWGlKZEVTRHRSSkd2QkE?oc=5",
-     "time": "2026-11-11T14:51:16+00:00"
-    },
-    {
-     "title": "Axon Stock: Meltdown Doesn't Make It Attractive, Hardware Risks Persist (NASDAQ:AXON)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQMEUxTDBSMXFDaXlVa3B3WHRHX2lPSXR1aWNSSEVxOGxoVFNsVk5NQjJndE4xbGk1d3BLcTI4UTJHcDhOR0g3MmxYZ0QySGVHYXR6cHhxemhOV2FGaXdrSmFQQ1RHZ2hYalVEY3RvYUgwemc1UU1kXzBXODBBOGNBVk1KUVBMSFFvN0xEcjNGQ3JvXzRoTmZVWDdmUGtsZnNhYk9oaEZ6ZzRwdEF0a3I3d25SUW5ST1FD?oc=5",
-     "time": "2026-11-11T12:48:34+00:00"
-    },
-    {
-     "title": "Keybank National Association OH Purchases 697,613 Shares of Axon Enterprise, Inc $AXON",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQYlhfMVlheG5uNDhPV0RVUXhsTTFpUENJMVFIUm5IWVN2S1ZVdEFwQnZPc3VTUVNfcmlOdjdSUEdJalM2VkIxTDgyV3k5UW9HVTJXY1hkWEFTRU5iRDJiZEJVWk9Ha2FLRkVCM0R5NXE3SlZtTlV6UjR3aWgxSVJncVl1Y0dOWWszaVpyZXhqZTdsV09lVVpoM2REc0ZaLW9PcGNDWER3VERrMG5rZjlDcUlhVjYxTDBLWHN6OE91XzdhVXdNNmx5S0h4SmFreXI4QXFlODcwNXJVUS00?oc=5",
-     "time": "2026-11-11T10:59:15+00:00"
-    },
-    {
-     "title": "Csenge Advisory Group Acquires 121,363 Shares of Axon Enterprise, Inc $AXON",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQQ09VVnhVV1U5cWpEbTF2VXV1Z0ZZdDFLYWZmb1d4VXZMSHIwa2FPNjVTWVpNTlJYUVlMNU1RRm54MjJFYXlLNnl2RFFSOXNIeUJPeEFUUjR6ZWtQNkYyNGhGVDhPeXB4dm1hSnBPaGhJb3BoaTkzRDRkc1RnS2doeFl2bnB5N1BlRG5QOWdJcE1Cb2U1Rkx4QnEweEtneFM3c0w4cjdxYlJTNTdrVE12SG8xa2xHR1NrdDgzWjhjbHJtQXFnYWtkZlQ3S3FGUQ?oc=5",
-     "time": "2026-11-11T09:40:42+00:00"
-    },
-    {
-     "title": "Axon Enterprise, Inc. (AXON) stock price, news, quote and history",
-     "publisher": "Yahoo Finance Australia",
-     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9lMWxlTzJWNWE1OURwblhLdDZyV0t0LUo4VHpza3RpbHc0R3Racks5NFhiMHBXN0p0V0NTdVdmTEltTmt0SzExUEpSRG1CV2cxNGc?oc=5",
-     "time": "2026-11-11T09:05:47+00:00"
-    },
-    {
-     "title": "Axon's Rick Smith: How a $12 Million Tasers IPO Became a $40 Billion Bet on Armed Drones",
-     "publisher": "BigGo Finance",
-     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBqUnkyRVg5bGp0N0dUWHc0ekd1bV9RZEJURDE2X2pSN1RTZTVsaEdxWVZjcU1vbVVMWmVfcUlfT1AxVlZUQmNDMDM1Mno3NVFmdko5VVhqamFVYjg?oc=5",
-     "time": "2026-11-11T01:08:00+00:00"
-    },
-    {
-     "title": "Axon Sinks 27% in a Week to a New 52-Week Low. Is the Selling Overdone?",
-     "publisher": "TIKR.com",
-     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOeTdpMnJaN2VuQzlLZGhRaEVwd0lVUDV6ajUtbDFCQzM4S3dmTnQ2YUlqLWxvRmZsV2Zickd6NzJfMjFwVk12X1YtQ0ljVWp1N09kdzBJZWNQV2Z0U1lmTHZGU2FxdlA2VXVpUGtGNl9FNExXaUZXanNUaExZNUJDcEZSTmhock9nd21WcW5vcEhic0t0VFRtU2xSWQ?oc=5",
-     "time": "2026-11-11T00:00:00+00:00"
-    },
-    {
-     "title": "Axon Enterprise stock trades at EUR 270.30 on Tuesday",
-     "publisher": "ad-hoc-news.de",
-     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPNWdWUGdrQ2dud1RfNmxXMXhZVDZfOGtVT1JmaEpoMzFXTnZpVzhseXo5M2RlS0wtZE85U3JaSy01N1FxaFJBakUycjU0ZW96cWlvZlZkb1E3UGhiRjJ4c3ZwZnFfUzhnUmVaQW0yZllCanBGSGlST1M5cGNPekxIb3h0Wmx1TEdDd3U0VHNtbDZQQXQxN3FYTW1BbDlPU29LMS1hNDRUZi1KUEl3Szc0ZjBmZ1RDZms?oc=5",
-     "time": "2026-11-10T21:12:18+00:00"
-    }
-   ],
-   "brief": null
+   "brief": "2026-11-11-AVGO"
   },
   {
    "symbol": "CRWD",
    "name": "CrowdStrike",
    "list": "portfolio",
-   "price": 235.26,
+   "price": 235.95,
    "prev_close": 225.76,
-   "change_pct": 4.2,
+   "change_pct": 4.5,
    "trigger_change": 3.0,
-   "peak_change": 4.2,
+   "peak_change": 4.5,
    "first_seen": "2026-11-11T15:16:20+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 102.43,
-    "change_pct": 2.09
+    "price": 102.54,
+    "change_pct": 2.2
    },
    "chart": {
-    "ema8": 0.9,
-    "ema21": -2.3,
-    "sma50": -3.7,
-    "sma200": 36.8,
+    "ema8": 1.1,
+    "ema21": -2.0,
+    "sma50": -3.4,
+    "sma200": 37.2,
     "momentum": false
    },
    "headlines": [
@@ -468,29 +393,29 @@
      "time": "2026-11-10T15:06:00+00:00"
     }
    ],
-   "brief": null
+   "brief": "2026-11-11-CRWD"
   },
   {
    "symbol": "NVDA",
    "name": "Nvidia",
    "list": "portfolio",
-   "price": 175.1,
+   "price": 176.05,
    "prev_close": 168.89,
-   "change_pct": 3.7,
+   "change_pct": 4.2,
    "trigger_change": 3.1,
-   "peak_change": 3.7,
+   "peak_change": 4.2,
    "first_seen": "2026-11-11T15:31:23+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 509.17,
-    "change_pct": 5.28
+    "price": 510.45,
+    "change_pct": 5.55
    },
    "chart": {
-    "ema8": -5.6,
-    "ema21": -12.7,
-    "sma50": -19.4,
-    "sma200": -14.4,
+    "ema8": -5.2,
+    "ema21": -12.2,
+    "sma50": -18.9,
+    "sma200": -13.9,
     "momentum": false
    },
    "headlines": [
@@ -544,6 +469,81 @@
     }
    ],
    "brief": null
+  },
+  {
+   "symbol": "AXON",
+   "name": "Axon",
+   "list": "watchlist",
+   "price": 315.06,
+   "prev_close": 302.54,
+   "change_pct": 4.1,
+   "trigger_change": 3.8,
+   "peak_change": 4.9,
+   "first_seen": "2026-11-11T15:16:20+00:00",
+   "sector": {
+    "etf": "XLI",
+    "name": "Industrials",
+    "price": 170.43,
+    "change_pct": 1.01
+   },
+   "chart": {
+    "ema8": -9.2,
+    "ema21": -18.0,
+    "sma50": -26.1,
+    "sma200": -32.8,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Here\u2019s What Pressured Axon Enterprise\u2019s (AXON) Q3 Performance",
+     "publisher": "Yahoo Finance Singapore",
+     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQOUNJZVVRbzE0RFU2WjRNcS1KWHNsZjZhbG9yeHpKWXE5YTdQNUlQYVBBY1BtWVJQSEktLS01WUg5YXBPWURBNEpURm90VDJHMEQ4dTFVajd5N0lwTy1XeFZQYTloalZSVDc2WWQ4M3lGcU5pVFlGRlFXd2laWGlKZEVTRHRSSkd2QkE?oc=5",
+     "time": "2026-11-11T14:51:16+00:00"
+    },
+    {
+     "title": "Axon Stock: Meltdown Doesn't Make It Attractive, Hardware Risks Persist (NASDAQ:AXON)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQMEUxTDBSMXFDaXlVa3B3WHRHX2lPSXR1aWNSSEVxOGxoVFNsVk5NQjJndE4xbGk1d3BLcTI4UTJHcDhOR0g3MmxYZ0QySGVHYXR6cHhxemhOV2FGaXdrSmFQQ1RHZ2hYalVEY3RvYUgwemc1UU1kXzBXODBBOGNBVk1KUVBMSFFvN0xEcjNGQ3JvXzRoTmZVWDdmUGtsZnNhYk9oaEZ6ZzRwdEF0a3I3d25SUW5ST1FD?oc=5",
+     "time": "2026-11-11T12:48:34+00:00"
+    },
+    {
+     "title": "Keybank National Association OH Purchases 697,613 Shares of Axon Enterprise, Inc $AXON",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQYlhfMVlheG5uNDhPV0RVUXhsTTFpUENJMVFIUm5IWVN2S1ZVdEFwQnZPc3VTUVNfcmlOdjdSUEdJalM2VkIxTDgyV3k5UW9HVTJXY1hkWEFTRU5iRDJiZEJVWk9Ha2FLRkVCM0R5NXE3SlZtTlV6UjR3aWgxSVJncVl1Y0dOWWszaVpyZXhqZTdsV09lVVpoM2REc0ZaLW9PcGNDWER3VERrMG5rZjlDcUlhVjYxTDBLWHN6OE91XzdhVXdNNmx5S0h4SmFreXI4QXFlODcwNXJVUS00?oc=5",
+     "time": "2026-11-11T10:59:15+00:00"
+    },
+    {
+     "title": "Csenge Advisory Group Acquires 121,363 Shares of Axon Enterprise, Inc $AXON",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQQ09VVnhVV1U5cWpEbTF2VXV1Z0ZZdDFLYWZmb1d4VXZMSHIwa2FPNjVTWVpNTlJYUVlMNU1RRm54MjJFYXlLNnl2RFFSOXNIeUJPeEFUUjR6ZWtQNkYyNGhGVDhPeXB4dm1hSnBPaGhJb3BoaTkzRDRkc1RnS2doeFl2bnB5N1BlRG5QOWdJcE1Cb2U1Rkx4QnEweEtneFM3c0w4cjdxYlJTNTdrVE12SG8xa2xHR1NrdDgzWjhjbHJtQXFnYWtkZlQ3S3FGUQ?oc=5",
+     "time": "2026-11-11T09:40:42+00:00"
+    },
+    {
+     "title": "Axon Enterprise, Inc. (AXON) stock price, news, quote and history",
+     "publisher": "Yahoo Finance Australia",
+     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9lMWxlTzJWNWE1OURwblhLdDZyV0t0LUo4VHpza3RpbHc0R3Racks5NFhiMHBXN0p0V0NTdVdmTEltTmt0SzExUEpSRG1CV2cxNGc?oc=5",
+     "time": "2026-11-11T09:05:47+00:00"
+    },
+    {
+     "title": "Axon's Rick Smith: How a $12 Million Tasers IPO Became a $40 Billion Bet on Armed Drones",
+     "publisher": "BigGo Finance",
+     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBqUnkyRVg5bGp0N0dUWHc0ekd1bV9RZEJURDE2X2pSN1RTZTVsaEdxWVZjcU1vbVVMWmVfcUlfT1AxVlZUQmNDMDM1Mno3NVFmdko5VVhqamFVYjg?oc=5",
+     "time": "2026-11-11T01:08:00+00:00"
+    },
+    {
+     "title": "Axon Sinks 27% in a Week to a New 52-Week Low. Is the Selling Overdone?",
+     "publisher": "TIKR.com",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOeTdpMnJaN2VuQzlLZGhRaEVwd0lVUDV6ajUtbDFCQzM4S3dmTnQ2YUlqLWxvRmZsV2Zickd6NzJfMjFwVk12X1YtQ0ljVWp1N09kdzBJZWNQV2Z0U1lmTHZGU2FxdlA2VXVpUGtGNl9FNExXaUZXanNUaExZNUJDcEZSTmhock9nd21WcW5vcEhic0t0VFRtU2xSWQ?oc=5",
+     "time": "2026-11-11T00:00:00+00:00"
+    },
+    {
+     "title": "Axon Enterprise stock trades at EUR 270.30 on Tuesday",
+     "publisher": "ad-hoc-news.de",
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPNWdWUGdrQ2dud1RfNmxXMXhZVDZfOGtVT1JmaEpoMzFXTnZpVzhseXo5M2RlS0wtZE85U3JaSy01N1FxaFJBakUycjU0ZW96cWlvZlZkb1E3UGhiRjJ4c3ZwZnFfUzhnUmVaQW0yZllCanBGSGlST1M5cGNPekxIb3h0Wmx1TEdDd3U0VHNtbDZQQXQxN3FYTW1BbDlPU29LMS1hNDRUZi1KUEl3Szc0ZjBmZ1RDZms?oc=5",
+     "time": "2026-11-10T21:12:18+00:00"
+    }
+   ],
+   "brief": "2026-11-11-AXON"
   }
  ]
 }
