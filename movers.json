@@ -1,22 +1,22 @@
 {
  "date": "2026-11-12",
  "threshold": 3.0,
- "updated": "2026-11-12T19:54:25+00:00",
+ "updated": "2026-11-12T19:59:27+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 757.81,
+   "price": 757.83,
    "change_pct": -0.26
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 688.07,
-   "change_pct": -0.33
+   "price": 687.72,
+   "change_pct": -0.39
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 79.89,
-   "change_pct": -1.27
+   "price": 79.88,
+   "change_pct": -1.29
   }
  },
  "movers": [
@@ -24,23 +24,23 @@
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 127.4,
+   "price": 127.74,
    "prev_close": 154.69,
-   "change_pct": -17.6,
+   "change_pct": -17.4,
    "trigger_change": -16.7,
    "peak_change": -20.3,
    "first_seen": "2026-11-12T14:56:27+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 101.52,
-    "change_pct": -0.69
+    "price": 101.36,
+    "change_pct": -0.85
    },
    "chart": {
-    "ema8": -9.3,
-    "ema21": -19.2,
-    "sma50": -35.2,
-    "sma200": -28.9,
+    "ema8": -9.1,
+    "ema21": -19.0,
+    "sma50": -35.0,
+    "sma200": -28.7,
     "momentum": false
    },
    "headlines": [
@@ -96,95 +96,20 @@
    "brief": "2026-11-12-NBIS"
   },
   {
-   "symbol": "AVGO",
-   "name": "Broadcom",
-   "list": "portfolio",
-   "price": 364.11,
-   "prev_close": 345.22,
-   "change_pct": 5.5,
-   "trigger_change": 3.7,
-   "peak_change": 6.9,
-   "first_seen": "2026-11-12T14:56:27+00:00",
-   "sector": {
-    "etf": "SMH",
-    "name": "Semiconductors",
-    "price": 501.75,
-    "change_pct": -1.03
-   },
-   "chart": {
-    "ema8": 8.9,
-    "ema21": 8.9,
-    "sma50": 5.4,
-    "sma200": -0.9,
-    "momentum": true
-   },
-   "headlines": [
-    {
-     "title": "Nvidia succession uncertainty opens door for Google TPU and Broadcom, analyst says",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOYTBwbGhmc1N2UFlMUFlhejVSRk9jSWVweHhLMDFCSkNqY2NxcEMyT1NpeXlwd3VRWVpyVXp1VDJmcmttTTdVck44SF9IUDJPaHBCdWl3cjM1NHRkT0Ezbk9XaUMtZ3ktQ3g1a0FpcFRpU3RETjVSUmVpVU16YXhVMkNlWm51XzZnOVJzS2I4ZzhuQklSdzg3Wk1wNjBVc1V0MXo5OEtkUQ?oc=5",
-     "time": "2026-11-12T18:26:30+00:00"
-    },
-    {
-     "title": "AMD and Broadcom Rally as Nvidia Falls: Are AI Chip Rivals Gaining Ground?",
-     "publisher": "Stocks Down Under",
-     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPZEdxdUJSX25XUm5LSXZBcVUxeVQtdlRSWkJYZ0laSUJtV0k0YzQ5MG4yUGRMQlFtMHE0bHVQa1dRRjJFeFZZUndjQ0dxU0lqakV0dnpGUWhURW0yRHJBYzVGYmdrLXA5QWRiTU9tcWJhdVBlUmFfa052azRCOUE5cw?oc=5",
-     "time": "2026-11-12T18:25:14+00:00"
-    },
-    {
-     "title": "Nvidia, AMD, Broadcom: The AI Stock Winners and Losers After Jensen Huang\u2019s Ousting",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQbUV3Mk1lS0V6YVlNMFBiTEQwdVlSU2Y4Y19XbndhRnl5RlJxV3lndDhXX1BCbGJycVdMdzBfRnRINTVEVFdfelg1SHVlcG5aV1F2Vnl6MFBxOGRGaE5xVXVlcG5PTHFoc3hmTi1HZzRCUC12NFh1RUYxc2FEa2FrNFVsWFB5SVY3MUcyTC0tSFhRNWlPX3Z2OA?oc=5",
-     "time": "2026-11-12T18:06:03+00:00"
-    },
-    {
-     "title": "AMD and Broadcom Stock Get a Boost From Nvidia\u2019s Loss",
-     "publisher": "Barron's",
-     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOMGJPR1pTTlRRSUZBTFNIZTZCd1JYRHltdEx2N2F3OVpvRzRDbFZ2UWlhR01SLWZadTlKNnRjbi1sQU5RazZKaDdReWZmdHhqOEVuemFRTlQ3dWk5SUt2RnMtTU1CcTlDbGctMWZGLUhNREtPNXNnZXNNRUJwQkpMQTVB?oc=5",
-     "time": "2026-11-12T18:02:00+00:00"
-    },
-    {
-     "title": "Broadcom shares technical analysis: Upward price move targets $367.15 resistance",
-     "publisher": "Traders Union",
-     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNckpiVWk4UDVMbTREQm1aNFFkc1hfTUpqaXY3aVBfWDdxOXpnSVNRVjJrU2R5MnY5YTIyUkFFQXJ6S1BHbF9OS3BYWTQ1S09QeEt6eHc1TjF2eWRyZVVpTmg0a3NYQ0dGVXJxcnd4ajkxVW9HTWc5ejQtbUgwRUlRUVFiVklENWQ5dEVLQXVEcmp4NWtG?oc=5",
-     "time": "2026-11-12T17:39:30+00:00"
-    },
-    {
-     "title": "Broadcom: Jensen Huang's Resignation Is A $2 Trillion Game Changer (NASDAQ:AVGO)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxONUNrRjNYRndObU1GVFZCaVgzWWhmWXBMbDB5UXBTNEtEcnJKa2NvU21LZ3ZXNFhvQ1JhUHMtU1RsM2E0UkJLQ2J3T3NIYTVJcXZBenN6N1ZRMXYyYjdYSzRmM3FxSXZxQ2tmMEJGMmVIeHViMExCUU80anh6cGdBbGFYTmxyRF9KNm8xOEVzX05kMGM?oc=5",
-     "time": "2026-11-12T17:37:32+00:00"
-    },
-    {
-     "title": "Tom Lee Says Jensen Huang Exit Doesn\u2019t Change His Bullish Tech Outlook: AVGO, AMD Stocks Lead Chip Rally",
-     "publisher": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxONVJnNlVmbWliWktfUU82UHY5d2MyZzlGeGl2ZVJnaHJIekNyOEdjUXctSUU3S3JMZVpCcUxOQzh6N21jYnRTcGJBc3BlLWtqYlJkNUd1djZMbzYtUnZLbzNYbzFWbFN6emJkZ2UxdjhDOFV1dFFDWWtTc1YxdnRVdW9tVGtFanZyMG1XTE5tQmRfYmttV1NtWnJEYmJFZVBnRzkwMGVicm1VdVFzTWFHSEQ0WTR2OWEyaHljVHVyeGpnTGJseDNyYjRrelVQSVhtVTBxRE4wdGdmQWEtcEZGLUpweXJQOVJubHIwNnhyQU5DcUpCY0E?oc=5",
-     "time": "2026-11-12T17:22:03+00:00"
-    },
-    {
-     "title": "Broadcom (NASDAQ:AVGO) Shares Gap Up - What's Next?",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPa29ESklhc19fcnhGWmx0dHAyNjh3U0k1N1VrcUJGakh4QnpHaXRLb3dyTURYYXdud3FKQjlCUXFfT1JJdUJHSzA2dF93cWdIa3Q0RzJleDJnR3dWZ3BodVBYWFhGMzhYZ2F6RlFubndFa2JBZ2h6VDNEcnRkbWhiOFZpd1hhd2R5YXlqeUpOZzh1ZnczQ2RsRkxPUzNnWEJQdFlsQi1nNWY?oc=5",
-     "time": "2026-11-12T17:02:33+00:00"
-    }
-   ],
-   "brief": "2026-11-12-AVGO"
-  },
-  {
    "symbol": "NVDA",
    "name": "Nvidia",
    "list": "portfolio",
-   "price": 164.27,
+   "price": 164.25,
    "prev_close": 173.73,
-   "change_pct": -5.4,
+   "change_pct": -5.5,
    "trigger_change": -7.0,
    "peak_change": -7.8,
    "first_seen": "2026-11-12T14:56:27+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 501.75,
-    "change_pct": -1.03
+    "price": 500.61,
+    "change_pct": -1.25
    },
    "chart": {
     "ema8": -9.0,
@@ -246,10 +171,85 @@
    "brief": "2026-11-12-NVDA"
   },
   {
+   "symbol": "AVGO",
+   "name": "Broadcom",
+   "list": "portfolio",
+   "price": 363.85,
+   "prev_close": 345.22,
+   "change_pct": 5.4,
+   "trigger_change": 3.7,
+   "peak_change": 6.9,
+   "first_seen": "2026-11-12T14:56:27+00:00",
+   "sector": {
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 500.61,
+    "change_pct": -1.25
+   },
+   "chart": {
+    "ema8": 8.8,
+    "ema21": 8.9,
+    "sma50": 5.3,
+    "sma200": -0.9,
+    "momentum": true
+   },
+   "headlines": [
+    {
+     "title": "Nvidia succession uncertainty opens door for Google TPU and Broadcom, analyst says",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOYTBwbGhmc1N2UFlMUFlhejVSRk9jSWVweHhLMDFCSkNqY2NxcEMyT1NpeXlwd3VRWVpyVXp1VDJmcmttTTdVck44SF9IUDJPaHBCdWl3cjM1NHRkT0Ezbk9XaUMtZ3ktQ3g1a0FpcFRpU3RETjVSUmVpVU16YXhVMkNlWm51XzZnOVJzS2I4ZzhuQklSdzg3Wk1wNjBVc1V0MXo5OEtkUQ?oc=5",
+     "time": "2026-11-12T18:26:30+00:00"
+    },
+    {
+     "title": "AMD and Broadcom Rally as Nvidia Falls: Are AI Chip Rivals Gaining Ground?",
+     "publisher": "Stocks Down Under",
+     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPZEdxdUJSX25XUm5LSXZBcVUxeVQtdlRSWkJYZ0laSUJtV0k0YzQ5MG4yUGRMQlFtMHE0bHVQa1dRRjJFeFZZUndjQ0dxU0lqakV0dnpGUWhURW0yRHJBYzVGYmdrLXA5QWRiTU9tcWJhdVBlUmFfa052azRCOUE5cw?oc=5",
+     "time": "2026-11-12T18:25:14+00:00"
+    },
+    {
+     "title": "Nvidia, AMD, Broadcom: The AI Stock Winners and Losers After Jensen Huang\u2019s Ousting",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQbUV3Mk1lS0V6YVlNMFBiTEQwdVlSU2Y4Y19XbndhRnl5RlJxV3lndDhXX1BCbGJycVdMdzBfRnRINTVEVFdfelg1SHVlcG5aV1F2Vnl6MFBxOGRGaE5xVXVlcG5PTHFoc3hmTi1HZzRCUC12NFh1RUYxc2FEa2FrNFVsWFB5SVY3MUcyTC0tSFhRNWlPX3Z2OA?oc=5",
+     "time": "2026-11-12T18:06:03+00:00"
+    },
+    {
+     "title": "AMD and Broadcom Stock Get a Boost From Nvidia\u2019s Loss",
+     "publisher": "Barron's",
+     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOMGJPR1pTTlRRSUZBTFNIZTZCd1JYRHltdEx2N2F3OVpvRzRDbFZ2UWlhR01SLWZadTlKNnRjbi1sQU5RazZKaDdReWZmdHhqOEVuemFRTlQ3dWk5SUt2RnMtTU1CcTlDbGctMWZGLUhNREtPNXNnZXNNRUJwQkpMQTVB?oc=5",
+     "time": "2026-11-12T18:02:00+00:00"
+    },
+    {
+     "title": "Broadcom shares technical analysis: Upward price move targets $367.15 resistance",
+     "publisher": "Traders Union",
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNckpiVWk4UDVMbTREQm1aNFFkc1hfTUpqaXY3aVBfWDdxOXpnSVNRVjJrU2R5MnY5YTIyUkFFQXJ6S1BHbF9OS3BYWTQ1S09QeEt6eHc1TjF2eWRyZVVpTmg0a3NYQ0dGVXJxcnd4ajkxVW9HTWc5ejQtbUgwRUlRUVFiVklENWQ5dEVLQXVEcmp4NWtG?oc=5",
+     "time": "2026-11-12T17:39:30+00:00"
+    },
+    {
+     "title": "Broadcom: Jensen Huang's Resignation Is A $2 Trillion Game Changer (NASDAQ:AVGO)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxONUNrRjNYRndObU1GVFZCaVgzWWhmWXBMbDB5UXBTNEtEcnJKa2NvU21LZ3ZXNFhvQ1JhUHMtU1RsM2E0UkJLQ2J3T3NIYTVJcXZBenN6N1ZRMXYyYjdYSzRmM3FxSXZxQ2tmMEJGMmVIeHViMExCUU80anh6cGdBbGFYTmxyRF9KNm8xOEVzX05kMGM?oc=5",
+     "time": "2026-11-12T17:37:32+00:00"
+    },
+    {
+     "title": "Tom Lee Says Jensen Huang Exit Doesn\u2019t Change His Bullish Tech Outlook: AVGO, AMD Stocks Lead Chip Rally",
+     "publisher": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxONVJnNlVmbWliWktfUU82UHY5d2MyZzlGeGl2ZVJnaHJIekNyOEdjUXctSUU3S3JMZVpCcUxOQzh6N21jYnRTcGJBc3BlLWtqYlJkNUd1djZMbzYtUnZLbzNYbzFWbFN6emJkZ2UxdjhDOFV1dFFDWWtTc1YxdnRVdW9tVGtFanZyMG1XTE5tQmRfYmttV1NtWnJEYmJFZVBnRzkwMGVicm1VdVFzTWFHSEQ0WTR2OWEyaHljVHVyeGpnTGJseDNyYjRrelVQSVhtVTBxRE4wdGdmQWEtcEZGLUpweXJQOVJubHIwNnhyQU5DcUpCY0E?oc=5",
+     "time": "2026-11-12T17:22:03+00:00"
+    },
+    {
+     "title": "Broadcom (NASDAQ:AVGO) Shares Gap Up - What's Next?",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPa29ESklhc19fcnhGWmx0dHAyNjh3U0k1N1VrcUJGakh4QnpHaXRLb3dyTURYYXdud3FKQjlCUXFfT1JJdUJHSzA2dF93cWdIa3Q0RzJleDJnR3dWZ3BodVBYWFhGMzhYZ2F6RlFubndFa2JBZ2h6VDNEcnRkbWhiOFZpd1hhd2R5YXlqeUpOZzh1ZnczQ2RsRkxPUzNnWEJQdFlsQi1nNWY?oc=5",
+     "time": "2026-11-12T17:02:33+00:00"
+    }
+   ],
+   "brief": "2026-11-12-AVGO"
+  },
+  {
    "symbol": "ANET",
    "name": "Arista Networks",
    "list": "portfolio",
-   "price": 206.18,
+   "price": 206.16,
    "prev_close": 196.68,
    "change_pct": 4.8,
    "trigger_change": 3.9,
@@ -258,12 +258,12 @@
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 501.75,
-    "change_pct": -1.03
+    "price": 500.61,
+    "change_pct": -1.25
    },
    "chart": {
     "ema8": 10.2,
-    "ema21": 11.6,
+    "ema21": 11.5,
     "sma50": 6.9,
     "sma200": 23.4,
     "momentum": true
@@ -324,23 +324,23 @@
    "symbol": "SOFI",
    "name": "SoFi",
    "list": "portfolio",
-   "price": 15.66,
+   "price": 15.64,
    "prev_close": 16.27,
-   "change_pct": -3.7,
+   "change_pct": -3.9,
    "trigger_change": -3.2,
    "peak_change": -3.9,
    "first_seen": "2026-11-12T18:54:03+00:00",
    "sector": {
     "etf": "XLF",
     "name": "Financials",
-    "price": 58.37,
-    "change_pct": -0.45
+    "price": 58.34,
+    "change_pct": -0.49
    },
    "chart": {
-    "ema8": -3.6,
-    "ema21": -3.0,
-    "sma50": -3.6,
-    "sma200": -9.8,
+    "ema8": -3.7,
+    "ema21": -3.1,
+    "sma50": -3.7,
+    "sma200": -9.9,
     "momentum": true
    },
    "headlines": [
@@ -399,23 +399,23 @@
    "symbol": "AMAT",
    "name": "Applied Materials",
    "list": "portfolio",
-   "price": 380.83,
+   "price": 381.21,
    "prev_close": 395.08,
-   "change_pct": -3.6,
+   "change_pct": -3.5,
    "trigger_change": -3.2,
    "peak_change": -3.7,
    "first_seen": "2026-11-12T19:24:11+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 501.75,
-    "change_pct": -1.03
+    "price": 500.61,
+    "change_pct": -1.25
    },
    "chart": {
-    "ema8": 1.5,
-    "ema21": -3.4,
-    "sma50": -13.3,
-    "sma200": -14.7,
+    "ema8": 1.6,
+    "ema21": -3.3,
+    "sma50": -13.2,
+    "sma200": -14.6,
     "momentum": false
    },
    "headlines": [
@@ -474,9 +474,9 @@
    "symbol": "BTC-USD",
    "name": "Bitcoin",
    "list": "watchlist",
-   "price": 71596.5,
+   "price": 71602.1,
    "prev_close": 73928.4,
-   "change_pct": -3.2,
+   "change_pct": -3.1,
    "trigger_change": -3.4,
    "peak_change": -3.6,
    "first_seen": "2026-11-12T14:56:27+00:00",
@@ -544,7 +544,7 @@
    "symbol": "AXON",
    "name": "Axon",
    "list": "watchlist",
-   "price": 306.7,
+   "price": 306.48,
    "prev_close": 315.42,
    "change_pct": -2.8,
    "trigger_change": -3.1,
@@ -553,12 +553,12 @@
    "sector": {
     "etf": "XLI",
     "name": "Industrials",
-    "price": 170.0,
-    "change_pct": -0.57
+    "price": 170.01,
+    "change_pct": -0.56
    },
    "chart": {
-    "ema8": -9.3,
-    "ema21": -18.7,
+    "ema8": -9.4,
+    "ema21": -18.8,
     "sma50": -27.4,
     "sma200": -34.4,
     "momentum": false
