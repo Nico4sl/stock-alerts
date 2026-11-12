@@ -1,22 +1,22 @@
 {
  "date": "2026-11-12",
  "threshold": 3.0,
- "updated": "2026-11-12T17:18:04+00:00",
+ "updated": "2026-11-12T17:33:12+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 760.58,
-   "change_pct": 0.1
+   "price": 760.97,
+   "change_pct": 0.15
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 690.38,
-   "change_pct": 0.0
+   "price": 690.64,
+   "change_pct": 0.04
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 79.93,
-   "change_pct": -1.23
+   "price": 79.91,
+   "change_pct": -1.25
   }
  },
  "movers": [
@@ -24,23 +24,23 @@
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 127.67,
+   "price": 128.1,
    "prev_close": 154.69,
-   "change_pct": -17.5,
+   "change_pct": -17.2,
    "trigger_change": -16.7,
    "peak_change": -20.3,
    "first_seen": "2026-11-12T14:56:27+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 102.03,
-    "change_pct": -0.2
+    "price": 102.19,
+    "change_pct": -0.04
    },
    "chart": {
-    "ema8": -9.2,
-    "ema21": -19.0,
-    "sma50": -35.0,
-    "sma200": -28.8,
+    "ema8": -8.9,
+    "ema21": -18.8,
+    "sma50": -34.8,
+    "sma200": -28.5,
     "momentum": false
    },
    "headlines": [
@@ -96,101 +96,26 @@
    "brief": "2026-11-12-NBIS"
   },
   {
-   "symbol": "NVDA",
-   "name": "Nvidia",
-   "list": "portfolio",
-   "price": 164.46,
-   "prev_close": 173.73,
-   "change_pct": -5.3,
-   "trigger_change": -7.0,
-   "peak_change": -7.8,
-   "first_seen": "2026-11-12T14:56:27+00:00",
-   "sector": {
-    "etf": "SMH",
-    "name": "Semiconductors",
-    "price": 501.44,
-    "change_pct": -1.09
-   },
-   "chart": {
-    "ema8": -9.0,
-    "ema21": -16.6,
-    "sma50": -23.8,
-    "sma200": -19.5,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Why SpaceX Stock Popped After Nvidia's CEO News",
-     "publisher": "The Motley Fool",
-     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOTkIxLTRyQjNWUVhYY2oxTTVtNEs2VEEyU1B3eFBhU1J0OGc5VkNCSHpNYmg4MDZyQTZiVFcxcGFzRTFRck9IeGxLRDQ4UGxBc1RzVm5PNEpZVmp0N01pTG9jeXJBTThzUFM1bXl6ZHJMc1Q1STU3dWphRlJGa2FSQ0JnUERoN0dIdExIRHBvOWxlU2NM?oc=5",
-     "time": "2026-11-12T16:34:00+00:00"
-    },
-    {
-     "title": "Nvidia Without Jensen Huang? 'A Disaster,' Says Analyst",
-     "publisher": "Investor's Business Daily",
-     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQWHE1ekFlYWdtTC05U3JEeDlQWmFnUmhsZmZQMDhpTDdrMkhFTjdmOEQ3WThCQmtCRU5JZnVCSFhEWFg1LXFZVU5OQkd2UmNha1VQLVVZVzdGTXd4ZW9VRUkxNTM1UUFjUEpfa1dQQk1fNlN0OVIzX2tXVjhnTGdtbWd4YmFzNVU?oc=5",
-     "time": "2026-11-12T16:31:00+00:00"
-    },
-    {
-     "title": "Jensen Huang Exits Nvidia: 5 Expert Takes on NVDA Stock",
-     "publisher": "The Globe and Mail",
-     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNckI0RlZFTlJNVnhwTm9ibEFDRUlXY2tMenI0b05JYXF2ODZCeldMcm8wanNCZVYzMHg5VExVVlNLOGVSMUlaVTBORFBTdjlibkVocnNVdWpnVFpEWkhvM21PZkJ0V3VxM3dZWi1tV3h1RGpmT1lXVEQ4bE8tRkVxcS1vTE5aQmZPYzRfRGdnNl95dl91NzRkaHZHdmtXVXpLUk5jd2JNOEtMcWVvU0NmOHIwRkF0UWNZeWJOZ0xnWFViWlhpdUVLeWxaUFdSc0ZLNzZFeWV3?oc=5",
-     "time": "2026-11-12T16:30:37+00:00"
-    },
-    {
-     "title": "As Jensen Huang leaves Nvidia, Citigroup Lowers Its Price Target on the Stock From $285 to $225. Does That Make Sense?",
-     "publisher": "The Motley Fool",
-     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOdGpsV245Rnlrbkc1c2tNT3dPejJadzEwelNySEFfUFBTbnhtOWFELXVHTU1RRHA2blVKMEFvTENURkFuQ256eks3RjlST3V2NVZydU1jcDREdXQ0YU1wWVk5eTRwQVhaVVkzU0ZCQURUWXZXZEhicGp4V1I3NGtMME9vYk9sdlJQWmxENk9uR1F3VzJtbnFteHQ0SkVuaVp6QUo5b2dVcG9Hc3hLMjk4S3hwSTFvMHNSbV9vTXh3V0pwZ0dx?oc=5",
-     "time": "2026-11-12T16:19:00+00:00"
-    },
-    {
-     "title": "Jensen Huang Resigns, Colette Kress Named Interim CEO: NVDA Stock Falls 7%, Market Cap Below $4T",
-     "publisher": "The Crypto Times",
-     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNeWI2SVQ4WDh3TVAyX1ZlLW9mYzI4dmpsTmVBNzdIY2Zwei1CNE1Hd0o4VzdBaTNqSDBZek5qQWp5Qkx6WGk5TlNqdERIUnVZZDZ2X0N5TUFjSmlFbXZNSzgyTWxxWGlLOEg3czh4T2RlYXJFaVFmMS0zYmZwLXM1NnhqOUVPMlhqell1Ym11b2VlX1FLMEpiYmlaZzFyeTlJeFdFMWtOWWhCdG1tZE1rVnozcTdlVkRoeGQtTzdRVWxKTlY2SFBuYS1R?oc=5",
-     "time": "2026-11-12T16:17:03+00:00"
-    },
-    {
-     "title": "2 Chip Stocks to Buy Instead of Nvidia Right Now",
-     "publisher": "The Motley Fool",
-     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNRW91TnkzcVBJYzhqNnpZS055WWZHUW5WZTVKZ3NUaXFQT1NHckJDWHp3Q2xxNEtOUUF1OWw0Y21XUlFCT0w3VHdsYmtsVFFUWWJ3ZVp3Sm5veVhBc3NFUHpzd0U2Um5oVnJ2dXNtckNqZ0NLV09ZV3R4VnRyQXVEVFFXTGhIS3E1Z2Nzd0xtWEZ1eVRFS0E?oc=5",
-     "time": "2026-11-12T16:03:00+00:00"
-    },
-    {
-     "title": "The S&P 500 May Have A Major Nvidia Problem (Technical Analysis)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNQTA5a3c2NERHN18zWkUzTWdlLUxYc1FSUW1OeHFrRExOU3gwWUlPNHVRRENMNkdiSW1ZZXdQUWVENEg4T0xZVUIwaDRDMWpEb2Z3amtZYXVleVdMbE1XSl8xRnIwMTE5bTBuUVkxUmZhNHJwbWVKdThCdjlZQTZsVDBHeUczeDdYek05U3E4TkZsTEx2RklBcjJUa1VqaGs?oc=5",
-     "time": "2026-11-12T16:00:57+00:00"
-    },
-    {
-     "title": "NVDA Stock Falls Nearly 10% as Jensen Huang Resigns as Nvidia CEO",
-     "publisher": "The Coin Republic",
-     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVVhtTm44WElzZVR1dHktVDdMemw2YVhZM29FLTBlLWNBUTlXaEFfUXcybmlBd3YzWlN6T1Y5WXJ0MGFYaVdIQ2Y5cV81SVQyZlp2M3hCNnloWHplSWdGdDY0bXM5dHFORE4zNGpHQWg4d3J3SERuclVDb1c1M1hYeFFJSUtiU1NXaDJXZjJJWUxPSG1iRG40ZUk2YWZKMTJYSHNFQW5qcHhCeXBm0gGyAUFVX3lxTE5jNlB1dUZobHdCeVVSaE5ZV2hMRDZlbk10Ym10bG9NNzJkR0dsOFhycjBidHNlcmUzUlJZZjhwU3BuT1AwV1p4bGlpVEt5S01jMTYyZWFvT0w4MS03cHEtQnBKVnVRLWNMcUl0eGFmWVNPbHJ5VlJ2bmpXdXdndEZOUGc1dkxxaVBaeWJKMGQ0Y0V1enF0M2MtOENyd0RNZGNadUp0RWRrT1lIdWNqeDIxZ2c?oc=5",
-     "time": "2026-11-12T16:00:24+00:00"
-    }
-   ],
-   "brief": "2026-11-12-NVDA"
-  },
-  {
    "symbol": "AVGO",
    "name": "Broadcom",
    "list": "portfolio",
-   "price": 363.13,
+   "price": 363.51,
    "prev_close": 345.22,
-   "change_pct": 5.2,
+   "change_pct": 5.3,
    "trigger_change": 3.7,
    "peak_change": 6.9,
    "first_seen": "2026-11-12T14:56:27+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 501.44,
-    "change_pct": -1.09
+    "price": 502.26,
+    "change_pct": -0.93
    },
    "chart": {
-    "ema8": 8.7,
-    "ema21": 8.7,
-    "sma50": 5.1,
-    "sma200": -1.1,
+    "ema8": 8.8,
+    "ema21": 8.8,
+    "sma50": 5.2,
+    "sma200": -1.0,
     "momentum": false
    },
    "headlines": [
@@ -246,26 +171,101 @@
    "brief": "2026-11-12-AVGO"
   },
   {
+   "symbol": "NVDA",
+   "name": "Nvidia",
+   "list": "portfolio",
+   "price": 164.65,
+   "prev_close": 173.73,
+   "change_pct": -5.2,
+   "trigger_change": -7.0,
+   "peak_change": -7.8,
+   "first_seen": "2026-11-12T14:56:27+00:00",
+   "sector": {
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 502.26,
+    "change_pct": -0.93
+   },
+   "chart": {
+    "ema8": -8.9,
+    "ema21": -16.5,
+    "sma50": -23.7,
+    "sma200": -19.4,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Why SpaceX Stock Popped After Nvidia's CEO News",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOTkIxLTRyQjNWUVhYY2oxTTVtNEs2VEEyU1B3eFBhU1J0OGc5VkNCSHpNYmg4MDZyQTZiVFcxcGFzRTFRck9IeGxLRDQ4UGxBc1RzVm5PNEpZVmp0N01pTG9jeXJBTThzUFM1bXl6ZHJMc1Q1STU3dWphRlJGa2FSQ0JnUERoN0dIdExIRHBvOWxlU2NM?oc=5",
+     "time": "2026-11-12T16:34:00+00:00"
+    },
+    {
+     "title": "Nvidia Without Jensen Huang? 'A Disaster,' Says Analyst",
+     "publisher": "Investor's Business Daily",
+     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQWHE1ekFlYWdtTC05U3JEeDlQWmFnUmhsZmZQMDhpTDdrMkhFTjdmOEQ3WThCQmtCRU5JZnVCSFhEWFg1LXFZVU5OQkd2UmNha1VQLVVZVzdGTXd4ZW9VRUkxNTM1UUFjUEpfa1dQQk1fNlN0OVIzX2tXVjhnTGdtbWd4YmFzNVU?oc=5",
+     "time": "2026-11-12T16:31:00+00:00"
+    },
+    {
+     "title": "Jensen Huang Exits Nvidia: 5 Expert Takes on NVDA Stock",
+     "publisher": "The Globe and Mail",
+     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNckI0RlZFTlJNVnhwTm9ibEFDRUlXY2tMenI0b05JYXF2ODZCeldMcm8wanNCZVYzMHg5VExVVlNLOGVSMUlaVTBORFBTdjlibkVocnNVdWpnVFpEWkhvM21PZkJ0V3VxM3dZWi1tV3h1RGpmT1lXVEQ4bE8tRkVxcS1vTE5aQmZPYzRfRGdnNl95dl91NzRkaHZHdmtXVXpLUk5jd2JNOEtMcWVvU0NmOHIwRkF0UWNZeWJOZ0xnWFViWlhpdUVLeWxaUFdSc0ZLNzZFeWV3?oc=5",
+     "time": "2026-11-12T16:30:37+00:00"
+    },
+    {
+     "title": "As Jensen Huang leaves Nvidia, Citigroup Lowers Its Price Target on the Stock From $285 to $225. Does That Make Sense?",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOdGpsV245Rnlrbkc1c2tNT3dPejJadzEwelNySEFfUFBTbnhtOWFELXVHTU1RRHA2blVKMEFvTENURkFuQ256eks3RjlST3V2NVZydU1jcDREdXQ0YU1wWVk5eTRwQVhaVVkzU0ZCQURUWXZXZEhicGp4V1I3NGtMME9vYk9sdlJQWmxENk9uR1F3VzJtbnFteHQ0SkVuaVp6QUo5b2dVcG9Hc3hLMjk4S3hwSTFvMHNSbV9vTXh3V0pwZ0dx?oc=5",
+     "time": "2026-11-12T16:19:00+00:00"
+    },
+    {
+     "title": "Jensen Huang Resigns, Colette Kress Named Interim CEO: NVDA Stock Falls 7%, Market Cap Below $4T",
+     "publisher": "The Crypto Times",
+     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNeWI2SVQ4WDh3TVAyX1ZlLW9mYzI4dmpsTmVBNzdIY2Zwei1CNE1Hd0o4VzdBaTNqSDBZek5qQWp5Qkx6WGk5TlNqdERIUnVZZDZ2X0N5TUFjSmlFbXZNSzgyTWxxWGlLOEg3czh4T2RlYXJFaVFmMS0zYmZwLXM1NnhqOUVPMlhqell1Ym11b2VlX1FLMEpiYmlaZzFyeTlJeFdFMWtOWWhCdG1tZE1rVnozcTdlVkRoeGQtTzdRVWxKTlY2SFBuYS1R?oc=5",
+     "time": "2026-11-12T16:17:03+00:00"
+    },
+    {
+     "title": "2 Chip Stocks to Buy Instead of Nvidia Right Now",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNRW91TnkzcVBJYzhqNnpZS055WWZHUW5WZTVKZ3NUaXFQT1NHckJDWHp3Q2xxNEtOUUF1OWw0Y21XUlFCT0w3VHdsYmtsVFFUWWJ3ZVp3Sm5veVhBc3NFUHpzd0U2Um5oVnJ2dXNtckNqZ0NLV09ZV3R4VnRyQXVEVFFXTGhIS3E1Z2Nzd0xtWEZ1eVRFS0E?oc=5",
+     "time": "2026-11-12T16:03:00+00:00"
+    },
+    {
+     "title": "The S&P 500 May Have A Major Nvidia Problem (Technical Analysis)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNQTA5a3c2NERHN18zWkUzTWdlLUxYc1FSUW1OeHFrRExOU3gwWUlPNHVRRENMNkdiSW1ZZXdQUWVENEg4T0xZVUIwaDRDMWpEb2Z3amtZYXVleVdMbE1XSl8xRnIwMTE5bTBuUVkxUmZhNHJwbWVKdThCdjlZQTZsVDBHeUczeDdYek05U3E4TkZsTEx2RklBcjJUa1VqaGs?oc=5",
+     "time": "2026-11-12T16:00:57+00:00"
+    },
+    {
+     "title": "NVDA Stock Falls Nearly 10% as Jensen Huang Resigns as Nvidia CEO",
+     "publisher": "The Coin Republic",
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVVhtTm44WElzZVR1dHktVDdMemw2YVhZM29FLTBlLWNBUTlXaEFfUXcybmlBd3YzWlN6T1Y5WXJ0MGFYaVdIQ2Y5cV81SVQyZlp2M3hCNnloWHplSWdGdDY0bXM5dHFORE4zNGpHQWg4d3J3SERuclVDb1c1M1hYeFFJSUtiU1NXaDJXZjJJWUxPSG1iRG40ZUk2YWZKMTJYSHNFQW5qcHhCeXBm0gGyAUFVX3lxTE5jNlB1dUZobHdCeVVSaE5ZV2hMRDZlbk10Ym10bG9NNzJkR0dsOFhycjBidHNlcmUzUlJZZjhwU3BuT1AwV1p4bGlpVEt5S01jMTYyZWFvT0w4MS03cHEtQnBKVnVRLWNMcUl0eGFmWVNPbHJ5VlJ2bmpXdXdndEZOUGc1dkxxaVBaeWJKMGQ0Y0V1enF0M2MtOENyd0RNZGNadUp0RWRrT1lIdWNqeDIxZ2c?oc=5",
+     "time": "2026-11-12T16:00:24+00:00"
+    }
+   ],
+   "brief": "2026-11-12-NVDA"
+  },
+  {
    "symbol": "ANET",
    "name": "Arista Networks",
    "list": "portfolio",
-   "price": 204.15,
+   "price": 204.69,
    "prev_close": 196.68,
-   "change_pct": 3.8,
+   "change_pct": 4.1,
    "trigger_change": 3.9,
    "peak_change": 4.9,
    "first_seen": "2026-11-12T16:02:10+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 501.44,
-    "change_pct": -1.09
+    "price": 502.26,
+    "change_pct": -0.93
    },
    "chart": {
-    "ema8": 9.4,
-    "ema21": 10.6,
-    "sma50": 5.9,
-    "sma200": 22.2,
+    "ema8": 9.6,
+    "ema21": 10.8,
+    "sma50": 6.2,
+    "sma200": 22.5,
     "momentum": true
    },
    "headlines": [
@@ -324,18 +324,18 @@
    "symbol": "BTC-USD",
    "name": "Bitcoin",
    "list": "watchlist",
-   "price": 71689.6,
+   "price": 71848.0,
    "prev_close": 73928.4,
-   "change_pct": -3.0,
+   "change_pct": -2.8,
    "trigger_change": -3.4,
    "peak_change": -3.6,
    "first_seen": "2026-11-12T14:56:27+00:00",
    "sector": null,
    "chart": {
-    "ema8": -3.8,
-    "ema21": -6.8,
-    "sma50": -11.4,
-    "sma200": -1.9,
+    "ema8": -3.6,
+    "ema21": -6.6,
+    "sma50": -11.2,
+    "sma200": -1.7,
     "momentum": false
    },
    "headlines": [
