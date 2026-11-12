@@ -1,22 +1,22 @@
 {
  "date": "2026-11-12",
  "threshold": 3.0,
- "updated": "2026-11-12T14:56:27+00:00",
+ "updated": "2026-11-12T15:26:48+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 757.17,
-   "change_pct": -0.35
+   "price": 757.07,
+   "change_pct": -0.36
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 686.61,
-   "change_pct": -0.55
+   "price": 686.25,
+   "change_pct": -0.6
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 80.39,
-   "change_pct": -0.66
+   "price": 80.3,
+   "change_pct": -0.77
   }
  },
  "movers": [
@@ -24,23 +24,23 @@
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 128.84,
+   "price": 126.4,
    "prev_close": 154.69,
-   "change_pct": -16.7,
+   "change_pct": -18.3,
    "trigger_change": -16.7,
-   "peak_change": -16.7,
+   "peak_change": -20.3,
    "first_seen": "2026-11-12T14:56:27+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 100.91,
-    "change_pct": -1.3
+    "price": 100.86,
+    "change_pct": -1.34
    },
    "chart": {
-    "ema8": -8.5,
-    "ema21": -18.3,
-    "sma50": -34.4,
-    "sma200": -28.1,
+    "ema8": -9.9,
+    "ema21": -19.8,
+    "sma50": -35.7,
+    "sma200": -29.5,
     "momentum": false
    },
    "headlines": [
@@ -96,101 +96,26 @@
    "brief": null
   },
   {
-   "symbol": "NVDA",
-   "name": "Nvidia",
-   "list": "portfolio",
-   "price": 161.6,
-   "prev_close": 173.73,
-   "change_pct": -7.0,
-   "trigger_change": -7.0,
-   "peak_change": -7.0,
-   "first_seen": "2026-11-12T14:56:27+00:00",
-   "sector": {
-    "etf": "SMH",
-    "name": "Semiconductors",
-    "price": 495.9,
-    "change_pct": -2.18
-   },
-   "chart": {
-    "ema8": -10.2,
-    "ema21": -17.9,
-    "sma50": -25.1,
-    "sma200": -20.9,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Jensen Is Replaceable, But Nvidia Isn't (NASDAQ:NVDA)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNNFRxYjJSV0VjTXd0T3JkWGRub1Q5N2g3eVk3UzRlNlFJeFB2VWh6TDNaTjZGUDREWG9mdm9QQ1NUeWpSMXFOT2drLXN0MXpJZUJ1ZVp0UXVkX2N2Q2hrRExnbFVieXQ0TzMybmRDQzNIdmhiaUNJS2tMcjdyaVQ2d0dHRjc?oc=5",
-     "time": "2026-11-12T14:45:16+00:00"
-    },
-    {
-     "title": "Nvidia: Goodbye Jensen Huang (NASDAQ:NVDA)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5vYVB2N0Z5ZUp3Vko4cV9TOUdER2N3THg0dkRWc0d1UnJpWWpNTGI1eW5iMXFwUVFHZW5hZzFLeGFsQjZYOGJmQ1VMMlRMaEJMcGYwNmMzeHM4MXJDN3VvaHNvM1lrN05iUEVfS0NwMUkteWVkY2pr?oc=5",
-     "time": "2026-11-12T14:40:21+00:00"
-    },
-    {
-     "title": "Jensen Huang Has Been Ousted as Nvidia CEO",
-     "publisher": "WSJ",
-     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxON2VaZ01EcWdXc1ZGb3plNUNMM294WGZlT0tTbWw2SFNPOHZ3ZERtQlR6RkhLRWF2cHExRnNfWGZINm1NWVoxVjRSUDRTVXRFb1RaRGcyMXFUdEd0LWtlME5SVHJETVdzOHR6eHhyNXJLVXF6cldFbnhHMXcydFMzTGhzVnhWN2RQX2d0X1N4QVZvdUU?oc=5",
-     "time": "2026-11-12T14:28:00+00:00"
-    },
-    {
-     "title": "Nvidia CEO Jensen Huang Resigns. Stock Drops 10%.",
-     "publisher": "Barron's",
-     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOTmY5c05oNmptS3d1Z1B6aUtOaEkwMGxxbjBkendjRzNqU2lrclhPNlkxWEdlU2c5NnhUVVQ4a09vSVFOX3ZhNnNpUy1VeHo3aFlHdlAzZVdSLXQyWml3VE0xMnNNUnU5T2NCM2pHNjE2end6NjlRNVBYbkxKOGZOSTR3MU1aYk9IaWtMLQ?oc=5",
-     "time": "2026-11-12T14:23:00+00:00"
-    },
-    {
-     "title": "Nvidia stock tumbles as CEO Jensen Huang steps down, dragging down other AI names",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPVlcxMGw2ZjlXTThMWHdjWmJyRVloWUl4eVEwMWZ2M1NSdThQLUZ4YXd5RUNZdllfSkdaY1dJamE0SEFNLXZjRE0xcHFLQUpzSW0zWlBTYWIyZnBHZnBSenZOeDVWNWEwY2hyR0JOR0JLT1FEaXhzdnpoRk5Xai03Q1hPci03UHdZc3NLbzdWQVlJZkZGclp6Qno5b2lvSFd0bTNVbFpNQQ?oc=5",
-     "time": "2026-11-12T14:21:16+00:00"
-    },
-    {
-     "title": "Nvidia (NVDA) Stock Tumbles 10% as Jensen Huang Walks Out the Door",
-     "publisher": "Blockonomi",
-     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNVTVHYzJMLVlrT0gxUFpTYWFXR0lublV3Z2FzUzkzcllHb3d4WFF2SVRwTHBqemJFckZxQzIwRmIyWGppVXdnQUQtUFJabUtJQUpuZmxxcVBHMTh1OU9oNjVfZmhpa2FISGdGUHdnT0R5Z0h3emJtMlJ1M2liVDFGcGlWd1V6YzBXNFFVa0d5MmY?oc=5",
-     "time": "2026-11-12T14:19:40+00:00"
-    },
-    {
-     "title": "Nvidia (NVDA) Stock Slides as Jensen Huang Resigns",
-     "publisher": "Blockonomi",
-     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBnUlQ0bjBPNERSd0NBYVQxTS1FblBpOXZJT01udTRuY1BveU1HQkhaNGdKRjB5SERzRjhzeXl6VUdvNWN2MTk4SngzeGkyRzBFc19iQUhDeWdQbFVyX0pvVWttTnRHNkpnNzZfZDZRX0hERER1ZTJrOVRuZlg?oc=5",
-     "time": "2026-11-12T14:18:51+00:00"
-    },
-    {
-     "title": "Nvidia: A Jensen Huang CEO Shock Is A Buying Opportunity (NASDAQ:NVDA)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQQnFJejhVTTFTTVVUdHAwclRpWk11TjNFX1R5ZFRwc0xYWW9Qc19IQjNUME9XUEFiVXQyeVdrbkhROE5MbGdiQ0JjejBWOXo1V0MzRlg5ajlsTXRleUtMYkhkZVZtM0N1THZlcDJpR2ZWWkhxN1hXTlBmWV9sX3Z0dEx5X2o1S2JobGdKRzZlVnJ5QlFsaDZSM1cyQjQ?oc=5",
-     "time": "2026-11-12T14:15:46+00:00"
-    }
-   ],
-   "brief": null
-  },
-  {
    "symbol": "AVGO",
    "name": "Broadcom",
    "list": "portfolio",
-   "price": 358.1,
+   "price": 363.01,
    "prev_close": 345.22,
-   "change_pct": 3.7,
+   "change_pct": 5.2,
    "trigger_change": 3.7,
-   "peak_change": 3.7,
+   "peak_change": 5.3,
    "first_seen": "2026-11-12T14:56:27+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 495.9,
-    "change_pct": -2.18
+    "price": 497.01,
+    "change_pct": -1.96
    },
    "chart": {
-    "ema8": 7.5,
-    "ema21": 7.3,
-    "sma50": 3.7,
-    "sma200": -2.5,
+    "ema8": 8.7,
+    "ema21": 8.6,
+    "sma50": 5.1,
+    "sma200": -1.2,
     "momentum": false
    },
    "headlines": [
@@ -246,21 +171,96 @@
    "brief": null
   },
   {
+   "symbol": "NVDA",
+   "name": "Nvidia",
+   "list": "portfolio",
+   "price": 165.11,
+   "prev_close": 173.73,
+   "change_pct": -5.0,
+   "trigger_change": -7.0,
+   "peak_change": -7.8,
+   "first_seen": "2026-11-12T14:56:27+00:00",
+   "sector": {
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 497.01,
+    "change_pct": -1.96
+   },
+   "chart": {
+    "ema8": -8.7,
+    "ema21": -16.3,
+    "sma50": -23.5,
+    "sma200": -19.2,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Jensen Huang Has Been Ousted as Nvidia CEO",
+     "publisher": "WSJ",
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxON2VaZ01EcWdXc1ZGb3plNUNMM294WGZlT0tTbWw2SFNPOHZ3ZERtQlR6RkhLRWF2cHExRnNfWGZINm1NWVoxVjRSUDRTVXRFb1RaRGcyMXFUdEd0LWtlME5SVHJETVdzOHR6eHhyNXJLVXF6cldFbnhHMXcydFMzTGhzVnhWN2RQX2d0X1N4QVZvdUU?oc=5",
+     "time": "2026-11-12T14:56:00+00:00"
+    },
+    {
+     "title": "Jensen Is Replaceable, But Nvidia Isn't (NASDAQ:NVDA)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNNFRxYjJSV0VjTXd0T3JkWGRub1Q5N2g3eVk3UzRlNlFJeFB2VWh6TDNaTjZGUDREWG9mdm9QQ1NUeWpSMXFOT2drLXN0MXpJZUJ1ZVp0UXVkX2N2Q2hrRExnbFVieXQ0TzMybmRDQzNIdmhiaUNJS2tMcjdyaVQ2d0dHRjc?oc=5",
+     "time": "2026-11-12T14:45:16+00:00"
+    },
+    {
+     "title": "Nvidia: Goodbye Jensen Huang (NASDAQ:NVDA)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5vYVB2N0Z5ZUp3Vko4cV9TOUdER2N3THg0dkRWc0d1UnJpWWpNTGI1eW5iMXFwUVFHZW5hZzFLeGFsQjZYOGJmQ1VMMlRMaEJMcGYwNmMzeHM4MXJDN3VvaHNvM1lrN05iUEVfS0NwMUkteWVkY2pr?oc=5",
+     "time": "2026-11-12T14:40:21+00:00"
+    },
+    {
+     "title": "Scandal Forces Jensen Huang Out at Nvidia. Here's How Investors Should Consider Nvidia Stock Now.",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPYzl3SFFZcllwTzlqWnhLaWR5NmpmMG1wdHRaTFFoUlpYSTFTbk1YekI3bVJnLWlNWnVUaVJBd21sM3RYX3BfNHpJVjhVZlVHSnl3em8zeFRIOERBSFl3aG9aVzByWElBSWpySUtBYjRJQWVia3dnUmp3aGU3NmN4cTdab1JiTFhLRERZYWpiMlNoRWxEdWZtZkRVMnJHd1F5NTR0dU9ZUXQ1elVTdHZ6RnFJQlF3amdwcjVpVkVSR0w0Y3ZLM0htdzF6dDR0V2M2eWlIdg?oc=5",
+     "time": "2026-11-12T14:39:00+00:00"
+    },
+    {
+     "title": "Nvidia CEO Jensen Huang Resigns. Stock Drops 10%.",
+     "publisher": "Barron's",
+     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOTmY5c05oNmptS3d1Z1B6aUtOaEkwMGxxbjBkendjRzNqU2lrclhPNlkxWEdlU2c5NnhUVVQ4a09vSVFOX3ZhNnNpUy1VeHo3aFlHdlAzZVdSLXQyWml3VE0xMnNNUnU5T2NCM2pHNjE2end6NjlRNVBYbkxKOGZOSTR3MU1aYk9IaWtMLQ?oc=5",
+     "time": "2026-11-12T14:23:00+00:00"
+    },
+    {
+     "title": "Nvidia stock tumbles as CEO Jensen Huang steps down, dragging down other AI names",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPVlcxMGw2ZjlXTThMWHdjWmJyRVloWUl4eVEwMWZ2M1NSdThQLUZ4YXd5RUNZdllfSkdaY1dJamE0SEFNLXZjRE0xcHFLQUpzSW0zWlBTYWIyZnBHZnBSenZOeDVWNWEwY2hyR0JOR0JLT1FEaXhzdnpoRk5Xai03Q1hPci03UHdZc3NLbzdWQVlJZkZGclp6Qno5b2lvSFd0bTNVbFpNQQ?oc=5",
+     "time": "2026-11-12T14:21:16+00:00"
+    },
+    {
+     "title": "Nvidia (NVDA) Stock Tumbles 10% as Jensen Huang Walks Out the Door",
+     "publisher": "Blockonomi",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNVTVHYzJMLVlrT0gxUFpTYWFXR0lublV3Z2FzUzkzcllHb3d4WFF2SVRwTHBqemJFckZxQzIwRmIyWGppVXdnQUQtUFJabUtJQUpuZmxxcVBHMTh1OU9oNjVfZmhpa2FISGdGUHdnT0R5Z0h3emJtMlJ1M2liVDFGcGlWd1V6YzBXNFFVa0d5MmY?oc=5",
+     "time": "2026-11-12T14:19:40+00:00"
+    },
+    {
+     "title": "Nvidia (NVDA) Stock Slides as Jensen Huang Resigns",
+     "publisher": "Blockonomi",
+     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBnUlQ0bjBPNERSd0NBYVQxTS1FblBpOXZJT01udTRuY1BveU1HQkhaNGdKRjB5SERzRjhzeXl6VUdvNWN2MTk4SngzeGkyRzBFc19iQUhDeWdQbFVyX0pvVWttTnRHNkpnNzZfZDZRX0hERER1ZTJrOVRuZlg?oc=5",
+     "time": "2026-11-12T14:18:51+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
    "symbol": "BTC-USD",
    "name": "Bitcoin",
    "list": "watchlist",
-   "price": 71382.5,
+   "price": 71359.6,
    "prev_close": 73928.4,
-   "change_pct": -3.4,
+   "change_pct": -3.5,
    "trigger_change": -3.4,
-   "peak_change": -3.4,
+   "peak_change": -3.6,
    "first_seen": "2026-11-12T14:56:27+00:00",
    "sector": null,
    "chart": {
-    "ema8": -4.1,
+    "ema8": -4.2,
     "ema21": -7.2,
-    "sma50": -11.7,
-    "sma200": -2.3,
+    "sma50": -11.8,
+    "sma200": -2.4,
     "momentum": false
    },
    "headlines": [
@@ -268,7 +268,7 @@
      "title": "Bitcoin Breaks Below $72,000 as Multiweek Slide Deepens",
      "publisher": "The Defiant",
      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPcVRhQjlPcFphaWZiUlZ2NXZFUDYwdE1uYkY0a1M3OTFCRDNmbVZzUVZqbGJYbkFQMnpEN1JiVUZvSVMxZ29XNW8zMzA3NHlRSzNXbGpNRXJkeDlIVUljYkJjeElSV1ZBdU8yWVU2OEhyZExBSjNWWUdFbm9IVXplZ0RpcE5WcXE0eGZyZHpyMnh6TWM?oc=5",
-     "time": "2026-11-12T14:56:44+00:00"
+     "time": "2026-11-12T15:02:35+00:00"
     },
     {
      "title": "Bitcoin Falls to 12-Week Low After Trump Remarks -- Market Talk",
@@ -277,7 +277,7 @@
      "time": "2026-11-12T14:54:16+00:00"
     },
     {
-     "title": "Rumble (RUM) Sells Two-Thirds Of Its Bitcoin As AI Business Grows",
+     "title": "Rumble (RUM) Sells Two-Thirds of Its Bitcoin as AI Cloud Business Delivers First Profitable Quarter",
      "publisher": "Bitcoin Magazine",
      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5pUVZjalg5ZlV6MDFQSVVacVhyXzlSd1ZpYUVzODd1dU5aMzNyd0E1Um95R1NsQWRZazhMOFQyZ0RCX3dqcG9xNEhac2pjd19IYlVkWjU0Sl9oTi1BYnNzNHUwc2VmQnBvdDBoR0xNcHgxaGV0czlj?oc=5",
      "time": "2026-11-12T14:53:00+00:00"
@@ -301,15 +301,15 @@
      "time": "2026-11-12T14:46:29+00:00"
     },
     {
-     "title": "7,500 USD to Bitcoin: How Much BTC Is It?",
+     "title": "1,000,000 USD to Bitcoin: How Much BTC Is It?",
      "publisher": "Kriptofoni",
-     "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9hSkVvcmlTUmI1YTNRRU0wQ2h1bWIyQlhCQy1qZEVQd0xyeFQwcHdOTmpTdUZGam5UcXM4aXZWQjZjOW9Bb1pxZU4wY0dQQWFndnlqT2RHeTdtNV9FNXFB?oc=5",
-     "time": "2026-11-12T14:46:29+00:00"
+     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE92M1RSTjY1NW5nYTRDR0tjSWVGSVRMVHJaUUxBUThqWFkwLUZqQllBT2d4Y2ZjdFl5cW1YMXNHMXNYU1VKTW9KdGc2TzlhdGxTMjd3emsxOW92NXJvZldZT2hITQ?oc=5",
+     "time": "2026-11-12T14:44:29+00:00"
     },
     {
-     "title": "75,000 USD to Bitcoin: How Much BTC Is It?",
+     "title": "0.2 Bitcoin to USD: How Much Is 0.2 BTC?",
      "publisher": "Kriptofoni",
-     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9KemJVVk1TTkpnLW85WXJDcWxSUmZfZmtVSGVpVVZGZGM4RXVObk8xanoyVzc1QjdGZ1hXSkgwc0d6cHdhVlpjUDN4dkxWVF83Z2F0d2VyOGlBa3VqUHJCMQ?oc=5",
+     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE50cDNLMmFHTDRrbzU0YjVLTkVLcmFyMF9jLTNDUUpRSy0zWTFQWU1kYTg2c1otVVFzQnlBT3VJS1p4Zm5KWndRQ295ZkpuR2phcFQxYVhjWmZUMFJva1E?oc=5",
      "time": "2026-11-12T14:44:29+00:00"
     }
    ],
