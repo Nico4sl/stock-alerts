@@ -1,22 +1,22 @@
 {
  "date": "2026-11-12",
  "threshold": 3.0,
- "updated": "2026-11-12T19:34:16+00:00",
+ "updated": "2026-11-12T19:49:22+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 758.28,
-   "change_pct": -0.2
+   "price": 757.66,
+   "change_pct": -0.28
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 688.41,
-   "change_pct": -0.29
+   "price": 687.94,
+   "change_pct": -0.35
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 79.9,
-   "change_pct": -1.26
+   "price": 79.89,
+   "change_pct": -1.27
   }
  },
  "movers": [
@@ -24,23 +24,23 @@
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 126.48,
+   "price": 126.88,
    "prev_close": 154.69,
-   "change_pct": -18.2,
+   "change_pct": -18.0,
    "trigger_change": -16.7,
    "peak_change": -20.3,
    "first_seen": "2026-11-12T14:56:27+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 101.8,
-    "change_pct": -0.42
+    "price": 101.56,
+    "change_pct": -0.66
    },
    "chart": {
-    "ema8": -9.8,
-    "ema21": -19.7,
-    "sma50": -35.6,
-    "sma200": -29.4,
+    "ema8": -9.6,
+    "ema21": -19.5,
+    "sma50": -35.4,
+    "sma200": -29.2,
     "momentum": false
    },
    "headlines": [
@@ -99,23 +99,23 @@
    "symbol": "NVDA",
    "name": "Nvidia",
    "list": "portfolio",
-   "price": 163.89,
+   "price": 163.54,
    "prev_close": 173.73,
-   "change_pct": -5.7,
+   "change_pct": -5.9,
    "trigger_change": -7.0,
    "peak_change": -7.8,
    "first_seen": "2026-11-12T14:56:27+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 501.36,
-    "change_pct": -1.1
+    "price": 500.98,
+    "change_pct": -1.18
    },
    "chart": {
-    "ema8": -9.2,
-    "ema21": -16.8,
-    "sma50": -24.1,
-    "sma200": -19.8,
+    "ema8": -9.4,
+    "ema21": -17.0,
+    "sma50": -24.3,
+    "sma200": -20.0,
     "momentum": false
    },
    "headlines": [
@@ -174,22 +174,22 @@
    "symbol": "AVGO",
    "name": "Broadcom",
    "list": "portfolio",
-   "price": 364.02,
+   "price": 364.18,
    "prev_close": 345.22,
-   "change_pct": 5.4,
+   "change_pct": 5.5,
    "trigger_change": 3.7,
    "peak_change": 6.9,
    "first_seen": "2026-11-12T14:56:27+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 501.36,
-    "change_pct": -1.1
+    "price": 500.98,
+    "change_pct": -1.18
    },
    "chart": {
     "ema8": 8.9,
     "ema21": 8.9,
-    "sma50": 5.3,
+    "sma50": 5.4,
     "sma200": -0.9,
     "momentum": true
    },
@@ -249,23 +249,23 @@
    "symbol": "ANET",
    "name": "Arista Networks",
    "list": "portfolio",
-   "price": 206.22,
+   "price": 205.72,
    "prev_close": 196.68,
-   "change_pct": 4.9,
+   "change_pct": 4.6,
    "trigger_change": 3.9,
    "peak_change": 6.3,
    "first_seen": "2026-11-12T16:02:10+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 501.36,
-    "change_pct": -1.1
+    "price": 500.98,
+    "change_pct": -1.18
    },
    "chart": {
-    "ema8": 10.2,
-    "ema21": 11.6,
-    "sma50": 7.0,
-    "sma200": 23.4,
+    "ema8": 10.0,
+    "ema21": 11.3,
+    "sma50": 6.7,
+    "sma200": 23.1,
     "momentum": true
    },
    "headlines": [
@@ -324,23 +324,23 @@
    "symbol": "SOFI",
    "name": "SoFi",
    "list": "portfolio",
-   "price": 15.68,
+   "price": 15.63,
    "prev_close": 16.27,
-   "change_pct": -3.7,
+   "change_pct": -3.9,
    "trigger_change": -3.2,
-   "peak_change": -3.7,
+   "peak_change": -3.9,
    "first_seen": "2026-11-12T18:54:03+00:00",
    "sector": {
     "etf": "XLF",
     "name": "Financials",
-    "price": 58.42,
-    "change_pct": -0.35
+    "price": 58.38,
+    "change_pct": -0.42
    },
    "chart": {
-    "ema8": -3.6,
-    "ema21": -2.9,
-    "sma50": -3.5,
-    "sma200": -9.8,
+    "ema8": -3.8,
+    "ema21": -3.2,
+    "sma50": -3.7,
+    "sma200": -10.0,
     "momentum": true
    },
    "headlines": [
@@ -396,10 +396,85 @@
    "brief": null
   },
   {
+   "symbol": "AMAT",
+   "name": "Applied Materials",
+   "list": "portfolio",
+   "price": 380.57,
+   "prev_close": 395.08,
+   "change_pct": -3.7,
+   "trigger_change": -3.2,
+   "peak_change": -3.7,
+   "first_seen": "2026-11-12T19:24:11+00:00",
+   "sector": {
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 500.98,
+    "change_pct": -1.18
+   },
+   "chart": {
+    "ema8": 1.5,
+    "ema21": -3.4,
+    "sma50": -13.4,
+    "sma200": -14.7,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Applied Materials Stock Has Plunged Nearly 20% in the Past Month. How to Play AMAT on the Dip.",
+     "publisher": "Barchart.com",
+     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQTFFsU1ZSNndiTmUzS1pGSEhFMjVlS21aZk9qcXlILURHVS0zQUFjR3RNb29kMlBBelNCT3hmM3NPMS1sWGNOWFJLeXRpVnZPSDVlWE9xcnBQRWdRRU4tWS1WaWxyNmNDMkc5NElhZmJsRlk2UUVUcW1MMGlqamNWamJkTHo4eDl2VUZIbFJsMDE0UXBsUWZFdnI3ODRUVnBUUFdYWFFxdTdhckJMZkZNNjNBV0hPZXhtZ2UxZFpRWFpaNGRydGlKMVFzVTB5ZDFu?oc=5",
+     "time": "2026-11-12T17:33:45+00:00"
+    },
+    {
+     "title": "Applied Materials Stock: Buy the Dip in AMAT Stock, HSBC Says Ahead of Q4 Earnings",
+     "publisher": "TipRanks",
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPd1NXbHRFMF84RHlTdEtTVWZiMHB1RF9ndTlncl93Vlk1ajl1OHM5WC1oY2w4a0NZZ0QxU3JrVzdwRE11bFAydldBQWVLMkItVk1sRG1oYi1IVHp2Y1M0ak5Vd2MzeDc0M0syQTFHUldmN3kwZW1md1JxcUFXaHNKR3lNaXpZd2Y5TW10Tnd6VHVDQW9sVU1DRk9lTEVLVEMydFBSSmJITVA2V2lXWDZv?oc=5",
+     "time": "2026-11-12T17:11:37+00:00"
+    },
+    {
+     "title": "Applied Materials Sits 47% Below Its High. Here\u2019s What the November 12 Report Has to Prove",
+     "publisher": "TIKR.com",
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSXFYazZEZUk3SWZTNXQ2N3NHSFhKWnczZmtUVGhCazVLWTYwVVlBbkJxaWF4V1Z0R3ZFWlNIZW5BNG1HcHM0cWhRRmt6RmhPVzVUampsLVp4NVVpSzZ3Y0c0aGRJVnpXYTA2elZtdU1tRlQwWGF5Z28xNmlOMDFXR1phRVV2SDBvOU9sMHFPU0czTW93MlRRaktxTjVkNDFQTFBwZmduWkpOd29yRXFkSEhXTzE?oc=5",
+     "time": "2026-11-12T16:22:14+00:00"
+    },
+    {
+     "title": "Applied Materials Inc Stock (AMAT) Moved Down by 3.06% on Nov 12: Key Drivers Unveiled",
+     "publisher": "TradingKey",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNeE1VWmRNWE1HS3QyN3g2WlhCd250YzhETVhJbzNySEJFaW5XemExYUNaM25nM3BmRXFFMjhvY1NHcGFUNTREbGctQkpJNzlSTVhWX0NjUjBlS1Z1VEdSU3NjMmtSY0lrbm5KeXZxcW54bVNVc2M0S0V4QzdjUnNPT0lpaWFYLUVmdWVZ?oc=5",
+     "time": "2026-11-12T15:15:30+00:00"
+    },
+    {
+     "title": "Applied Materials And 2 Top AI Chip Stocks",
+     "publisher": "Yahoo Finance Australia",
+     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOTlhsZm5lZ0tTb2Q3Uldxalc0ZnI3dThtdEVDdG1OdnNIRXVQWFdIWTBscWFoSDFWVGhkYkJqczVOSktVTElVVDBkY1JhZ3JsZ08yeFdteXJiXzVkQ2VCMW9fRVNJdnh6R2FLN2dnU2ZITHdWcWVFdmM3cjhuaTFFZQ?oc=5",
+     "time": "2026-11-12T14:13:13+00:00"
+    },
+    {
+     "title": "Applied Materials Earnings Are Imminent; These Most Accurate Analysts Revise Forecasts Ahead Of Earnings Call",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNVC1uMm9zdVBZYmxfUlJDLUJYWGhfWXc0VEFWZWQ5X2QwbV9DamFqSWJlRDl5WDRfRjBTZnFFVFhaTEdYdU1DS2RPN2xJZnI3dElCcERoMTJpTGJUOHBkVHFTV3g0czQ4VUdNZS0wd3FrdXFlZy11ZlMxcjJYSU9zODRyREhJdkt5Y3FPQUlvbjVFUzY1X05OSGlJLXE1eHBLMGp1R2xQUFo0aHBNeG9FMENJSk9hOFdhOTJXZE5UNlhRZ1NybWlSRlpScFBZS2pNSmxubExsRklRbnFNUlhycENhcjYxMWVqZmE0US1iX1JEamJ6LTc0MXhGczNtaGdsZ1RCTm96N0VDYUN0R2JQbVM0Yw?oc=5",
+     "time": "2026-11-12T13:41:06+00:00"
+    },
+    {
+     "title": "Applied Materials (AMAT) Stock Price Prediction: Bounce Holds, but the Tape Still Needs Confirmation",
+     "publisher": "Blockchain News",
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPMktBWVUyY2hOby05WE9SRUlrRjZaSHlkT0VEbVNWcU1wa3pOY2g4MzRPTlMwXzhMQkRGa1lucm1aMDBrVjdDLVduOEpmWElYalJjZWJNeDhfWjVBakVUd1laVWxUblk2OGNBU1lfWjEtc2psZnQ1QlJiRTNfTkstb016TVc0TTg4Rm1xNDZuWWpmTzdwcXc?oc=5",
+     "time": "2026-11-12T13:41:00+00:00"
+    },
+    {
+     "title": "Applied Materials Last-Minute Earnings Alert: Options Traders Expect a Major Move in AMAT Stock",
+     "publisher": "TipRanks",
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxObEQzVW0xbTNRU3A5bmxONGtSb281czZHWl9NaGI0WlVZS2VCc3VHcWlPUjV5Tm16SmplSW4zYWtVdWc5MVhoRUlROVdyeWpiYW5uSElnNkhlczQ4MDlCUnFqamVJT3NrUmhsXzhLSF8tNzhKTmhad1NsSkZGbzJOVXM0QkU4UU5NLWwzanNCbFpxelc0RWUxMDBTN3prRTQ4QUJIZXNSNklxZjhVMWQ0TmxCZEVKbFpWeVd3d0piRTFQdw?oc=5",
+     "time": "2026-11-12T12:58:24+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
    "symbol": "BTC-USD",
    "name": "Bitcoin",
    "list": "watchlist",
-   "price": 71512.4,
+   "price": 71519.3,
    "prev_close": 73928.4,
    "change_pct": -3.3,
    "trigger_change": -3.4,
@@ -466,76 +541,76 @@
    "brief": "2026-11-12-BTC-USD"
   },
   {
-   "symbol": "AMAT",
-   "name": "Applied Materials",
-   "list": "portfolio",
-   "price": 383.34,
-   "prev_close": 395.08,
-   "change_pct": -3.0,
-   "trigger_change": -3.2,
-   "peak_change": -3.2,
-   "first_seen": "2026-11-12T19:24:11+00:00",
+   "symbol": "AXON",
+   "name": "Axon",
+   "list": "watchlist",
+   "price": 305.55,
+   "prev_close": 315.42,
+   "change_pct": -3.1,
+   "trigger_change": -3.1,
+   "peak_change": -3.1,
+   "first_seen": "2026-11-12T19:49:22+00:00",
    "sector": {
-    "etf": "SMH",
-    "name": "Semiconductors",
-    "price": 501.36,
-    "change_pct": -1.1
+    "etf": "XLI",
+    "name": "Industrials",
+    "price": 169.96,
+    "change_pct": -0.59
    },
    "chart": {
-    "ema8": 2.0,
-    "ema21": -2.8,
-    "sma50": -12.7,
-    "sma200": -14.1,
+    "ema8": -9.6,
+    "ema21": -19.0,
+    "sma50": -27.6,
+    "sma200": -34.6,
     "momentum": false
    },
    "headlines": [
     {
-     "title": "Applied Materials Stock Has Plunged Nearly 20% in the Past Month. How to Play AMAT on the Dip.",
-     "publisher": "Barchart.com",
-     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQTFFsU1ZSNndiTmUzS1pGSEhFMjVlS21aZk9qcXlILURHVS0zQUFjR3RNb29kMlBBelNCT3hmM3NPMS1sWGNOWFJLeXRpVnZPSDVlWE9xcnBQRWdRRU4tWS1WaWxyNmNDMkc5NElhZmJsRlk2UUVUcW1MMGlqamNWamJkTHo4eDl2VUZIbFJsMDE0UXBsUWZFdnI3ODRUVnBUUFdYWFFxdTdhckJMZkZNNjNBV0hPZXhtZ2UxZFpRWFpaNGRydGlKMVFzVTB5ZDFu?oc=5",
-     "time": "2026-11-12T17:33:45+00:00"
+     "title": "Axon Air \"Drone as First Responder\" Program Soars into Howard County, Maryland",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNdi04TGRqbjB5TlVzRFFYbjFFZm1pc2kyOW9OdkxveTl2OFJlcTI4VVc3a0dxc1Bjd215TjFBM1ZsX3FPT3lrUTFwOWlRX3hlZUQwelY1cUtVN3I3Xy1PajNDME1aa01rUjFZN25xQVg5OF9pR3diM3FmUWNIblJ4T1VXejdoaGk4OWxlWWdGZEFVV3BIWnc?oc=5",
+     "time": "2026-11-12T14:00:00+00:00"
     },
     {
-     "title": "Applied Materials Stock: Buy the Dip in AMAT Stock, HSBC Says Ahead of Q4 Earnings",
-     "publisher": "TipRanks",
-     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPd1NXbHRFMF84RHlTdEtTVWZiMHB1RF9ndTlncl93Vlk1ajl1OHM5WC1oY2w4a0NZZ0QxU3JrVzdwRE11bFAydldBQWVLMkItVk1sRG1oYi1IVHp2Y1M0ak5Vd2MzeDc0M0syQTFHUldmN3kwZW1md1JxcUFXaHNKR3lNaXpZd2Y5TW10Tnd6VHVDQW9sVU1DRk9lTEVLVEMydFBSSmJITVA2V2lXWDZv?oc=5",
-     "time": "2026-11-12T17:11:37+00:00"
+     "title": "Drones will give Howard County police an aerial view before officers arrive.",
+     "publisher": "Stock Titan",
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOODAtVTJBQlc5VlMzYnY1dzNrdnJrLXBBM1RIcUFWSDExalpaaGdZakNPaHZ3NWljQ2RrVDhjR09WUzBraHpjVl9EaG91OVc0NjkyQnNIZVdOU1g5VDVveDlZNGM2dUhWLXUzazdJZHcxaXJkT2ZXWFZuaFYwR1NnNzZWa3EzV2NHdW82SXlCZ0tuQmVGWGl0eFRPZkhmMGMybWR5bXpLN1h6dnN4MWxDSFFJbjNFaXFyaS1WOFlB?oc=5",
+     "time": "2026-11-12T14:00:00+00:00"
     },
     {
-     "title": "Applied Materials Sits 47% Below Its High. Here\u2019s What the November 12 Report Has to Prove",
-     "publisher": "TIKR.com",
-     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSXFYazZEZUk3SWZTNXQ2N3NHSFhKWnczZmtUVGhCazVLWTYwVVlBbkJxaWF4V1Z0R3ZFWlNIZW5BNG1HcHM0cWhRRmt6RmhPVzVUampsLVp4NVVpSzZ3Y0c0aGRJVnpXYTA2elZtdU1tRlQwWGF5Z28xNmlOMDFXR1phRVV2SDBvOU9sMHFPU0czTW93MlRRaktxTjVkNDFQTFBwZmduWkpOd29yRXFkSEhXTzE?oc=5",
-     "time": "2026-11-12T16:22:14+00:00"
+     "title": "218,264 Axon Enterprise, Inc $AXON Shares Bought by Ritholtz Wealth Management",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQdWs5bkRweUdKRWxvN0FRVFZsWkQyZGNnNVBfYjBJUkdmeXp2YzY2bk1DaEF5Q3hlbTh6Mk1hbkhJa2JQLTFyZ29tc3gzY1J1dmNsVWRnbkJUdVdyLUxnS3NlaWVUY3dsZ0JrT2Nqb0M5Q2xPTnl5UkctUjF5azE2TVV6RmxMS0w3bnU2X2ZoMHQ5S05SLUJQLThNcnk0TEU3cFJPRE92Nk5jSkg3RTVkYXBjaU0wODZ4b3NfNldpWnctZ0QzOW1nVjFIMEN4a0ZDSGc?oc=5",
+     "time": "2026-11-12T11:09:03+00:00"
     },
     {
-     "title": "Applied Materials Inc Stock (AMAT) Moved Down by 3.06% on Nov 12: Key Drivers Unveiled",
-     "publisher": "TradingKey",
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNeE1VWmRNWE1HS3QyN3g2WlhCd250YzhETVhJbzNySEJFaW5XemExYUNaM25nM3BmRXFFMjhvY1NHcGFUNTREbGctQkpJNzlSTVhWX0NjUjBlS1Z1VEdSU3NjMmtSY0lrbm5KeXZxcW54bVNVc2M0S0V4QzdjUnNPT0lpaWFYLUVmdWVZ?oc=5",
-     "time": "2026-11-12T15:15:30+00:00"
+     "title": "Axon Enterprise, Inc $AXON Stock Purchased by CENTRAL TRUST Co",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPZGJPY2xBNnJMZTZFRW1FaFUtZm9YOHFUTHl3RzBaci0zbzFhUjJIRUxLM2p4RGZyLTZ3emhOR2gtdmYyM05FTlJvNGFfTG42R2hFdHZocXdKZ19Kd2pidVVSdC1KT1k5NE12enZGNEVjbUFXZUNGNDJVQlBjYVVXVWlnaVk4alc0aFJISzFvaTl2RWwzXzBwNzVEX2trMk82cHEzR1pYVU5NM1ZJU25sR2dJNFRCZU1IejBKSGZB?oc=5",
+     "time": "2026-11-12T09:42:14+00:00"
     },
     {
-     "title": "Applied Materials And 2 Top AI Chip Stocks",
-     "publisher": "Yahoo Finance Australia",
-     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOTlhsZm5lZ0tTb2Q3Uldxalc0ZnI3dThtdEVDdG1OdnNIRXVQWFdIWTBscWFoSDFWVGhkYkJqczVOSktVTElVVDBkY1JhZ3JsZ08yeFdteXJiXzVkQ2VCMW9fRVNJdnh6R2FLN2dnU2ZITHdWcWVFdmM3cjhuaTFFZQ?oc=5",
-     "time": "2026-11-12T14:13:13+00:00"
+     "title": "87,570 Axon Enterprise, Inc $AXON Shares Sold by Allspring Global Investments Holdings LLC",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQdDIwVDNjX2VmaTFEZERpTFNxT0FnNWJwYTRQM1FvRTVldzNkMU1WeVVrOVlSRzRkcXYxVUlIWTBBRHFZaWg1Q1VPMW9CTktKS1Jxb1NfYUItNUV1a1N3ajBZNEJUSzFiTFJkSUpybW5GV3VDZ0ZPUFUwZ01zVDhGMzloYm40YWtyWE53MVl6Uko2aE9GeGctM19xeHdlTUxUWC14d1dLZWZkaVVHOVlmTWE1MTBPdzlCb2s1bHlnZTdNbjV6TFViUGtORF9TajZmZ3FBaXIxX2JHRkdwOUVtY2F3?oc=5",
+     "time": "2026-11-12T08:26:38+00:00"
     },
     {
-     "title": "Applied Materials Earnings Are Imminent; These Most Accurate Analysts Revise Forecasts Ahead Of Earnings Call",
-     "publisher": "Benzinga",
-     "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNVC1uMm9zdVBZYmxfUlJDLUJYWGhfWXc0VEFWZWQ5X2QwbV9DamFqSWJlRDl5WDRfRjBTZnFFVFhaTEdYdU1DS2RPN2xJZnI3dElCcERoMTJpTGJUOHBkVHFTV3g0czQ4VUdNZS0wd3FrdXFlZy11ZlMxcjJYSU9zODRyREhJdkt5Y3FPQUlvbjVFUzY1X05OSGlJLXE1eHBLMGp1R2xQUFo0aHBNeG9FMENJSk9hOFdhOTJXZE5UNlhRZ1NybWlSRlpScFBZS2pNSmxubExsRklRbnFNUlhycENhcjYxMWVqZmE0US1iX1JEamJ6LTc0MXhGczNtaGdsZ1RCTm96N0VDYUN0R2JQbVM0Yw?oc=5",
-     "time": "2026-11-12T13:41:06+00:00"
+     "title": "Did Federal Project Delays Just Shift Axon Stock's Investment Narrative?",
+     "publisher": "Simply Wall St",
+     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNUy11WjB4NGZVb3ZTMnZOeEFwYms4UmozU3FuamN4LXRsUTMzTEw1SEliWE00WS1rd0dpbFlpeDk3MzFnUEFXaHIxXzV3bVVrZkZSWHQ3UnRQdThPYWFrNERieUxxSk1peVZRNXN5QUNVd0lrSVVsYTc5c2lwY01mdGQtSks0WnNMWjRzdDZYd3lVQTh2SDg2b0xqWDRxZG9WYmxsM3VCbDhJaTNKM2djUlZVLXp4YU80Y0NhNmdlNzhiVHNCcnpNTHd5LWs0S29CX3czUWxB0gHbAUFVX3lxTE44eVNJQWpUOWdESXNYbm5oMThVVkJkVm1qclpESHFySzE4bERnSlFnbVRpbmxwS01oQ2J4T3RJOGhUUXQ3dl8wV1RMX1psTVhURFdjcEYwMS12Wmt2cWRfcTNqQ3BjQ1duek1sbTlmT2M1WDhjQ2J4RzNSZzFMYzdwejRfWHNMYlVLc2x3emhJQUhMTHFIclBiVFdiWXM5ODgyOWMzQkdISEdqcm1oSHdEYk92dl9SSVZrc1NpUExlV2pOYUhNS24tVjRXdzhqWXA3cjJIMVEwMzFXQQ?oc=5",
+     "time": "2026-11-11T23:42:19+00:00"
     },
     {
-     "title": "Applied Materials (AMAT) Stock Price Prediction: Bounce Holds, but the Tape Still Needs Confirmation",
-     "publisher": "Blockchain News",
-     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPMktBWVUyY2hOby05WE9SRUlrRjZaSHlkT0VEbVNWcU1wa3pOY2g4MzRPTlMwXzhMQkRGa1lucm1aMDBrVjdDLVduOEpmWElYalJjZWJNeDhfWjVBakVUd1laVWxUblk2OGNBU1lfWjEtc2psZnQ1QlJiRTNfTkstb016TVc0TTg4Rm1xNDZuWWpmTzdwcXc?oc=5",
-     "time": "2026-11-12T13:41:00+00:00"
+     "title": "What Is The True Hidden Price Of Axon Stock?",
+     "publisher": "Trefis",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNYzF6a1h0V2lvN21acHc1Vnd0VmxLcHZlSXNKOTJKeE92TjFXZXVjVEZtdzZkZThPb25keDVpdU92XzdaZWFlSXc1SzRxQS1xQU1pNjZRdkRTUU4wWWJoYS1BWHR6RkdvVHN6V2NYWW9MNVA5bjB4NVU2dmJSMnZmY2lJOVJnRXpBTXpGTFV2UGZvSi14aFB5SjFFSDF6eU1xTUVEQ2ZtMA?oc=5",
+     "time": "2026-11-11T23:25:42+00:00"
     },
     {
-     "title": "Applied Materials Last-Minute Earnings Alert: Options Traders Expect a Major Move in AMAT Stock",
-     "publisher": "TipRanks",
-     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxObEQzVW0xbTNRU3A5bmxONGtSb281czZHWl9NaGI0WlVZS2VCc3VHcWlPUjV5Tm16SmplSW4zYWtVdWc5MVhoRUlROVdyeWpiYW5uSElnNkhlczQ4MDlCUnFqamVJT3NrUmhsXzhLSF8tNzhKTmhad1NsSkZGbzJOVXM0QkU4UU5NLWwzanNCbFpxelc0RWUxMDBTN3prRTQ4QUJIZXNSNklxZjhVMWQ0TmxCZEVKbFpWeVd3d0piRTFQdw?oc=5",
-     "time": "2026-11-12T12:58:24+00:00"
+     "title": "Axon Enterprise Inc. stock outperforms competitors on strong trading day",
+     "publisher": "MarketWatch",
+     "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPbGExTk16SjBybjlralVpUXJpS1hWVU45UndmVjhMdmo2M3U4ZkZfWnZlVEZLbWRrenN2dzl2VG5VR2t0TWRaQjhPVm1KT3MwSjFkak1zbUtub3JIc0VmUVhpLUtZS0ZJM05rc29ZbkJvem5uT2NNRnVPbW1jZ0QtSnVheDdXaXhGRXVUNHJNR3lBUUtiZzRpa2tmV2VIeGFMNUl0THo4YzRRYV95VXNrdVFmNkg1aWdrLWNPZDU0UW9keVcxWDJrejJTdmJqUTRwU3ZZMFBvb05KRU55MmV3OEU5aw?oc=5",
+     "time": "2026-11-11T22:04:00+00:00"
     }
    ],
    "brief": null
