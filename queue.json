@@ -1,5 +1,38 @@
 {
  "date": "2026-11-12",
  "threshold": 3.0,
- "movers": []
+ "movers": [
+  {
+   "id": "2026-11-12-NBIS",
+   "symbol": "NBIS",
+   "name": "Nebius",
+   "list": "portfolio",
+   "trigger_change": -16.7,
+   "first_seen": "2026-11-12T14:56:27+00:00"
+  },
+  {
+   "id": "2026-11-12-NVDA",
+   "symbol": "NVDA",
+   "name": "Nvidia",
+   "list": "portfolio",
+   "trigger_change": -7.0,
+   "first_seen": "2026-11-12T14:56:27+00:00"
+  },
+  {
+   "id": "2026-11-12-AVGO",
+   "symbol": "AVGO",
+   "name": "Broadcom",
+   "list": "portfolio",
+   "trigger_change": 3.7,
+   "first_seen": "2026-11-12T14:56:27+00:00"
+  },
+  {
+   "id": "2026-11-12-BTC-USD",
+   "symbol": "BTC-USD",
+   "name": "Bitcoin",
+   "list": "watchlist",
+   "trigger_change": -3.4,
+   "first_seen": "2026-11-12T14:56:27+00:00"
+  }
+ ]
 }
