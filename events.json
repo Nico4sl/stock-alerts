@@ -1,22 +1,8 @@
 {
-  "as_of": "2026-11-05",
+  "as_of": "2026-11-12",
   "updated_by": "Claude",
   "about": "Upcoming dates for the app's 'Upcoming dates' card. Earnings and ex-dividend dates come from Nasdaq automatically and FOMC dates from fed.json – list only macro releases and company events here. Kept current by the brief task (BRIEF_TASK.md step 6).",
   "macro": [
-    {
-      "date": "2026-11-06",
-      "time": "08:30 ET",
-      "kind": "jobs",
-      "title": "US jobs report (October)",
-      "title_de": "US-Arbeitsmarktbericht (Oktober)"
-    },
-    {
-      "date": "2026-11-10",
-      "time": "08:30 ET",
-      "kind": "cpi",
-      "title": "US inflation – CPI (October)",
-      "title_de": "US-Inflation – CPI (Oktober)"
-    },
     {
       "date": "2026-11-25",
       "time": "08:30 ET",
@@ -114,6 +100,27 @@
       "kind": "jobs",
       "title": "US jobs report (March)",
       "title_de": "US-Arbeitsmarktbericht (März)"
+    },
+    {
+      "date": "2027-04-13",
+      "time": "08:30 ET",
+      "kind": "cpi",
+      "title": "US inflation – CPI (March)",
+      "title_de": "US-Inflation – CPI (März)"
+    },
+    {
+      "date": "2027-04-29",
+      "time": "08:30 ET",
+      "kind": "pce",
+      "title": "PCE inflation (March) + GDP Q1 advance estimate",
+      "title_de": "PCE-Inflation (März) + BIP Q1, 1. Schätzung"
+    },
+    {
+      "date": "2027-05-07",
+      "time": "08:30 ET",
+      "kind": "jobs",
+      "title": "US jobs report (April)",
+      "title_de": "US-Arbeitsmarktbericht (April)"
     }
   ],
   "companies": {
@@ -132,7 +139,7 @@
     "https://www.bls.gov/schedule/news_release/cpi.htm",
     "https://www.bls.gov/schedule/news_release/empsit.htm",
     "https://www.bea.gov/news/schedule/full",
-    "https://aws.amazon.com/events/reinvent/",
-    "https://www.bea.gov/news/schedule"
+    "https://www.bea.gov/news/schedule/next-year",
+    "https://aws.amazon.com/events/reinvent/"
   ]
 }
