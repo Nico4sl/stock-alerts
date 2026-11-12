@@ -1,17 +1,17 @@
 {
  "date": "2026-11-12",
  "threshold": 3.0,
- "updated": "2026-11-12T19:49:22+00:00",
+ "updated": "2026-11-12T19:54:25+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 757.66,
-   "change_pct": -0.28
+   "price": 757.81,
+   "change_pct": -0.26
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 687.94,
-   "change_pct": -0.35
+   "price": 688.07,
+   "change_pct": -0.33
   },
   "TLT": {
    "name": "Long Treasuries",
@@ -24,23 +24,23 @@
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 126.88,
+   "price": 127.4,
    "prev_close": 154.69,
-   "change_pct": -18.0,
+   "change_pct": -17.6,
    "trigger_change": -16.7,
    "peak_change": -20.3,
    "first_seen": "2026-11-12T14:56:27+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 101.56,
-    "change_pct": -0.66
+    "price": 101.52,
+    "change_pct": -0.69
    },
    "chart": {
-    "ema8": -9.6,
-    "ema21": -19.5,
-    "sma50": -35.4,
-    "sma200": -29.2,
+    "ema8": -9.3,
+    "ema21": -19.2,
+    "sma50": -35.2,
+    "sma200": -28.9,
     "momentum": false
    },
    "headlines": [
@@ -96,85 +96,10 @@
    "brief": "2026-11-12-NBIS"
   },
   {
-   "symbol": "NVDA",
-   "name": "Nvidia",
-   "list": "portfolio",
-   "price": 163.54,
-   "prev_close": 173.73,
-   "change_pct": -5.9,
-   "trigger_change": -7.0,
-   "peak_change": -7.8,
-   "first_seen": "2026-11-12T14:56:27+00:00",
-   "sector": {
-    "etf": "SMH",
-    "name": "Semiconductors",
-    "price": 500.98,
-    "change_pct": -1.18
-   },
-   "chart": {
-    "ema8": -9.4,
-    "ema21": -17.0,
-    "sma50": -24.3,
-    "sma200": -20.0,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Nvidia Crisis \u2013 Visionary Huang\u2019s Resignation Puts America's AI Advantage at Risk; Gold Falls Below $4000",
-     "publisher": "Benzinga",
-     "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOdGpsdnMxUHdNcGRhM25ybUp0YVQyRjQ0dVllNVhBcDhnSVhXRHBVLVB5Mk1RMFdDQUFNYjZyS3FrWEtTdU1WVnBPVVVjWmJpdHVSc05WMmlObFVVQmQ1Tm11Y0Vwc3ZfT3dUb29fTGVYSk0yTm4zTlN2TlVmVTVVcEJrM2ptZWFObXBuUk9VbGpyZGhEdjB2Mjh5eERxS2k3cnBFTWpNX1UtNzZCaXUzNjhYdlZRejNrU1RjUll1YURWUFNWQjYwWnYyY2tOczFCWmhQWkJtWkR0bTdrMEE?oc=5",
-     "time": "2026-11-12T18:52:08+00:00"
-    },
-    {
-     "title": "Nvidia: Taking Profit After The Jensen Huang Resignation (Rating Downgrade) (NASDAQ:NVDA)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPa1MtZEI3MERJSlpwUmh2bFh2SWQ0NXdWcWZmZHkwR01ZeW9JMm1Ebm1BeHY5M3U4MjJwVzdyS3N3U1BEdFdKSzhjYTZKUE9yTXpud2k5cUFHRGpaWllpSWcyTTBJX1RvYUJHTG0yY0hmcHE3Mk02akV5NXdKbGkzQk85bWlDdWhqRVAwSk9JQ0duMmZBS3VPc01KRjBGZ3NJZjBvak5ZeUk1S1NYcUlBb2ZtQQ?oc=5",
-     "time": "2026-11-12T18:06:07+00:00"
-    },
-    {
-     "title": "'Buy the dip in NVDA' Fundstrat\u2019s Tom Lee states",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPZHRvOHlydncwMnU4ajJEVTNwTlAtU2x6TER5Y2RjNEFyMW1ueXAtVEtFdEs2Y0dwQk5iZDdmNk56aWlqWjlkM1JRc01nOE5uS0YzT0JTcWtzb0pIMC1VanYtVTBESzMyc2ZGQ1M4NWFvS0IwWDFVMmRPb21rbUQtUF9YUFNNcllTRVA4?oc=5",
-     "time": "2026-11-12T17:23:23+00:00"
-    },
-    {
-     "title": "Wall St recovers as energy shares climb; Nvidia woes deepen",
-     "publisher": "Reuters",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQY01YWkJBY3Roa2hlWkVsbHhpcHplMm5NX09pWEJlMC1rWTY1ZDJoTUh0elc0WTZvdmpDOXJhS04tN2J5Y0N4NmZPdGk0aUhKdVZLT2RMSTk4S2EyZEJMYzY3WnpMMklfRjF3ZEJXZzU3d1VBTmlWS3Y1cllaYURseVQ4Nl93RFVLOXB4M1J6bnM1YVQ5QXBaSDZCOXEwUQ?oc=5",
-     "time": "2026-11-12T17:16:53+00:00"
-    },
-    {
-     "title": "NVIDIA Is Bouncing After a $430 Billion Wipeout. One Analyst Just Downgraded It. Where\u2019s the Price Target?",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNV0Z5M2dseUcyRF95eFhDb05YUVpwbWZyTVZNMFhjTlVibUVNeGdWeXJTdUt0T1hxSDRaaHNnVWZxaHVWeG90M09pemg4RU1wYWF6SkQxVDhUMFI2azBFbWlFc3FocXNWWllVc25yV0VXM1Z2RjIwQXZOSVc1cGtpMUs0VHBtUzVqSWN3alJFb1pmQkNkUnc2M211NFh0bUNUMWc?oc=5",
-     "time": "2026-11-12T17:03:50+00:00"
-    },
-    {
-     "title": "NVIDIA Corporation (NVDA.TO) Stock Price, News, Quote & History",
-     "publisher": "Yahoo! Finance Canada",
-     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5PRnBzWHBpa3laeGR6YzhER1Z6dHcwNkQzWmZVRExfX0pYZDhPQnQ0NkgtUXk2QjlGQjJfcVozZ3QxcU5KMzJaeDN5SE9qYzhZYmczOFZB?oc=5",
-     "time": "2026-11-12T16:54:02+00:00"
-    },
-    {
-     "title": "Experts Weigh in on Whether Nvidia's Stock Worth Buying After Jensen Huang's Exit",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPQlpfaHRfNTJJRFNoQ0c4TFMwckZ6ekkwa2hpZTh2UEtmVjQ2SlZsX2RSS2ZfSU9XOUVEaDNQaEVCYWpCcFhJUXNibVlzVDBPY3FDS1pmQ09WalFHd2pEN0VFV1dWbm0wNGsyZFd5ZFFGckh6eWlnQzZELVhWazFpMjUwU0FCQjQwUjBPUy1HbHJEaXpPYy0yS1pMNjNYVzUzUkE?oc=5",
-     "time": "2026-11-12T16:41:35+00:00"
-    },
-    {
-     "title": "Why SpaceX Stock Popped After Nvidia's CEO News",
-     "publisher": "The Motley Fool",
-     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOTkIxLTRyQjNWUVhYY2oxTTVtNEs2VEEyU1B3eFBhU1J0OGc5VkNCSHpNYmg4MDZyQTZiVFcxcGFzRTFRck9IeGxLRDQ4UGxBc1RzVm5PNEpZVmp0N01pTG9jeXJBTThzUFM1bXl6ZHJMc1Q1STU3dWphRlJGa2FSQ0JnUERoN0dIdExIRHBvOWxlU2NM?oc=5",
-     "time": "2026-11-12T16:34:00+00:00"
-    }
-   ],
-   "brief": "2026-11-12-NVDA"
-  },
-  {
    "symbol": "AVGO",
    "name": "Broadcom",
    "list": "portfolio",
-   "price": 364.18,
+   "price": 364.11,
    "prev_close": 345.22,
    "change_pct": 5.5,
    "trigger_change": 3.7,
@@ -183,8 +108,8 @@
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 500.98,
-    "change_pct": -1.18
+    "price": 501.75,
+    "change_pct": -1.03
    },
    "chart": {
     "ema8": 8.9,
@@ -246,26 +171,101 @@
    "brief": "2026-11-12-AVGO"
   },
   {
+   "symbol": "NVDA",
+   "name": "Nvidia",
+   "list": "portfolio",
+   "price": 164.27,
+   "prev_close": 173.73,
+   "change_pct": -5.4,
+   "trigger_change": -7.0,
+   "peak_change": -7.8,
+   "first_seen": "2026-11-12T14:56:27+00:00",
+   "sector": {
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 501.75,
+    "change_pct": -1.03
+   },
+   "chart": {
+    "ema8": -9.0,
+    "ema21": -16.7,
+    "sma50": -23.9,
+    "sma200": -19.6,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Nvidia Crisis \u2013 Visionary Huang\u2019s Resignation Puts America's AI Advantage at Risk; Gold Falls Below $4000",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOdGpsdnMxUHdNcGRhM25ybUp0YVQyRjQ0dVllNVhBcDhnSVhXRHBVLVB5Mk1RMFdDQUFNYjZyS3FrWEtTdU1WVnBPVVVjWmJpdHVSc05WMmlObFVVQmQ1Tm11Y0Vwc3ZfT3dUb29fTGVYSk0yTm4zTlN2TlVmVTVVcEJrM2ptZWFObXBuUk9VbGpyZGhEdjB2Mjh5eERxS2k3cnBFTWpNX1UtNzZCaXUzNjhYdlZRejNrU1RjUll1YURWUFNWQjYwWnYyY2tOczFCWmhQWkJtWkR0bTdrMEE?oc=5",
+     "time": "2026-11-12T18:52:08+00:00"
+    },
+    {
+     "title": "Nvidia: Taking Profit After The Jensen Huang Resignation (Rating Downgrade) (NASDAQ:NVDA)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPa1MtZEI3MERJSlpwUmh2bFh2SWQ0NXdWcWZmZHkwR01ZeW9JMm1Ebm1BeHY5M3U4MjJwVzdyS3N3U1BEdFdKSzhjYTZKUE9yTXpud2k5cUFHRGpaWllpSWcyTTBJX1RvYUJHTG0yY0hmcHE3Mk02akV5NXdKbGkzQk85bWlDdWhqRVAwSk9JQ0duMmZBS3VPc01KRjBGZ3NJZjBvak5ZeUk1S1NYcUlBb2ZtQQ?oc=5",
+     "time": "2026-11-12T18:06:07+00:00"
+    },
+    {
+     "title": "'Buy the dip in NVDA' Fundstrat\u2019s Tom Lee states",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPZHRvOHlydncwMnU4ajJEVTNwTlAtU2x6TER5Y2RjNEFyMW1ueXAtVEtFdEs2Y0dwQk5iZDdmNk56aWlqWjlkM1JRc01nOE5uS0YzT0JTcWtzb0pIMC1VanYtVTBESzMyc2ZGQ1M4NWFvS0IwWDFVMmRPb21rbUQtUF9YUFNNcllTRVA4?oc=5",
+     "time": "2026-11-12T17:23:23+00:00"
+    },
+    {
+     "title": "Wall St recovers as energy shares climb; Nvidia woes deepen",
+     "publisher": "Reuters",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQY01YWkJBY3Roa2hlWkVsbHhpcHplMm5NX09pWEJlMC1rWTY1ZDJoTUh0elc0WTZvdmpDOXJhS04tN2J5Y0N4NmZPdGk0aUhKdVZLT2RMSTk4S2EyZEJMYzY3WnpMMklfRjF3ZEJXZzU3d1VBTmlWS3Y1cllaYURseVQ4Nl93RFVLOXB4M1J6bnM1YVQ5QXBaSDZCOXEwUQ?oc=5",
+     "time": "2026-11-12T17:16:53+00:00"
+    },
+    {
+     "title": "NVIDIA Is Bouncing After a $430 Billion Wipeout. One Analyst Just Downgraded It. Where\u2019s the Price Target?",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNV0Z5M2dseUcyRF95eFhDb05YUVpwbWZyTVZNMFhjTlVibUVNeGdWeXJTdUt0T1hxSDRaaHNnVWZxaHVWeG90M09pemg4RU1wYWF6SkQxVDhUMFI2azBFbWlFc3FocXNWWllVc25yV0VXM1Z2RjIwQXZOSVc1cGtpMUs0VHBtUzVqSWN3alJFb1pmQkNkUnc2M211NFh0bUNUMWc?oc=5",
+     "time": "2026-11-12T17:03:50+00:00"
+    },
+    {
+     "title": "NVIDIA Corporation (NVDA.TO) Stock Price, News, Quote & History",
+     "publisher": "Yahoo! Finance Canada",
+     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5PRnBzWHBpa3laeGR6YzhER1Z6dHcwNkQzWmZVRExfX0pYZDhPQnQ0NkgtUXk2QjlGQjJfcVozZ3QxcU5KMzJaeDN5SE9qYzhZYmczOFZB?oc=5",
+     "time": "2026-11-12T16:54:02+00:00"
+    },
+    {
+     "title": "Experts Weigh in on Whether Nvidia's Stock Worth Buying After Jensen Huang's Exit",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPQlpfaHRfNTJJRFNoQ0c4TFMwckZ6ekkwa2hpZTh2UEtmVjQ2SlZsX2RSS2ZfSU9XOUVEaDNQaEVCYWpCcFhJUXNibVlzVDBPY3FDS1pmQ09WalFHd2pEN0VFV1dWbm0wNGsyZFd5ZFFGckh6eWlnQzZELVhWazFpMjUwU0FCQjQwUjBPUy1HbHJEaXpPYy0yS1pMNjNYVzUzUkE?oc=5",
+     "time": "2026-11-12T16:41:35+00:00"
+    },
+    {
+     "title": "Why SpaceX Stock Popped After Nvidia's CEO News",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOTkIxLTRyQjNWUVhYY2oxTTVtNEs2VEEyU1B3eFBhU1J0OGc5VkNCSHpNYmg4MDZyQTZiVFcxcGFzRTFRck9IeGxLRDQ4UGxBc1RzVm5PNEpZVmp0N01pTG9jeXJBTThzUFM1bXl6ZHJMc1Q1STU3dWphRlJGa2FSQ0JnUERoN0dIdExIRHBvOWxlU2NM?oc=5",
+     "time": "2026-11-12T16:34:00+00:00"
+    }
+   ],
+   "brief": "2026-11-12-NVDA"
+  },
+  {
    "symbol": "ANET",
    "name": "Arista Networks",
    "list": "portfolio",
-   "price": 205.72,
+   "price": 206.18,
    "prev_close": 196.68,
-   "change_pct": 4.6,
+   "change_pct": 4.8,
    "trigger_change": 3.9,
    "peak_change": 6.3,
    "first_seen": "2026-11-12T16:02:10+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 500.98,
-    "change_pct": -1.18
+    "price": 501.75,
+    "change_pct": -1.03
    },
    "chart": {
-    "ema8": 10.0,
-    "ema21": 11.3,
-    "sma50": 6.7,
-    "sma200": 23.1,
+    "ema8": 10.2,
+    "ema21": 11.6,
+    "sma50": 6.9,
+    "sma200": 23.4,
     "momentum": true
    },
    "headlines": [
@@ -324,23 +324,23 @@
    "symbol": "SOFI",
    "name": "SoFi",
    "list": "portfolio",
-   "price": 15.63,
+   "price": 15.66,
    "prev_close": 16.27,
-   "change_pct": -3.9,
+   "change_pct": -3.7,
    "trigger_change": -3.2,
    "peak_change": -3.9,
    "first_seen": "2026-11-12T18:54:03+00:00",
    "sector": {
     "etf": "XLF",
     "name": "Financials",
-    "price": 58.38,
-    "change_pct": -0.42
+    "price": 58.37,
+    "change_pct": -0.45
    },
    "chart": {
-    "ema8": -3.8,
-    "ema21": -3.2,
-    "sma50": -3.7,
-    "sma200": -10.0,
+    "ema8": -3.6,
+    "ema21": -3.0,
+    "sma50": -3.6,
+    "sma200": -9.8,
     "momentum": true
    },
    "headlines": [
@@ -393,28 +393,28 @@
      "time": "2026-11-12T12:45:46+00:00"
     }
    ],
-   "brief": null
+   "brief": "2026-11-12-SOFI"
   },
   {
    "symbol": "AMAT",
    "name": "Applied Materials",
    "list": "portfolio",
-   "price": 380.57,
+   "price": 380.83,
    "prev_close": 395.08,
-   "change_pct": -3.7,
+   "change_pct": -3.6,
    "trigger_change": -3.2,
    "peak_change": -3.7,
    "first_seen": "2026-11-12T19:24:11+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 500.98,
-    "change_pct": -1.18
+    "price": 501.75,
+    "change_pct": -1.03
    },
    "chart": {
     "ema8": 1.5,
     "ema21": -3.4,
-    "sma50": -13.4,
+    "sma50": -13.3,
     "sma200": -14.7,
     "momentum": false
    },
@@ -468,24 +468,24 @@
      "time": "2026-11-12T12:58:24+00:00"
     }
    ],
-   "brief": null
+   "brief": "2026-11-12-AMAT"
   },
   {
    "symbol": "BTC-USD",
    "name": "Bitcoin",
    "list": "watchlist",
-   "price": 71519.3,
+   "price": 71596.5,
    "prev_close": 73928.4,
-   "change_pct": -3.3,
+   "change_pct": -3.2,
    "trigger_change": -3.4,
    "peak_change": -3.6,
    "first_seen": "2026-11-12T14:56:27+00:00",
    "sector": null,
    "chart": {
-    "ema8": -4.0,
-    "ema21": -7.0,
-    "sma50": -11.6,
-    "sma200": -2.1,
+    "ema8": -3.9,
+    "ema21": -6.9,
+    "sma50": -11.5,
+    "sma200": -2.0,
     "momentum": false
    },
    "headlines": [
@@ -544,23 +544,23 @@
    "symbol": "AXON",
    "name": "Axon",
    "list": "watchlist",
-   "price": 305.55,
+   "price": 306.7,
    "prev_close": 315.42,
-   "change_pct": -3.1,
+   "change_pct": -2.8,
    "trigger_change": -3.1,
    "peak_change": -3.1,
    "first_seen": "2026-11-12T19:49:22+00:00",
    "sector": {
     "etf": "XLI",
     "name": "Industrials",
-    "price": 169.96,
-    "change_pct": -0.59
+    "price": 170.0,
+    "change_pct": -0.57
    },
    "chart": {
-    "ema8": -9.6,
-    "ema21": -19.0,
-    "sma50": -27.6,
-    "sma200": -34.6,
+    "ema8": -9.3,
+    "ema21": -18.7,
+    "sma50": -27.4,
+    "sma200": -34.4,
     "momentum": false
    },
    "headlines": [
