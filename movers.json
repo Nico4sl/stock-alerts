@@ -1,22 +1,22 @@
 {
  "date": "2026-11-13",
  "threshold": 3.0,
- "updated": "2026-11-13T16:59:43+00:00",
+ "updated": "2026-11-13T17:04:52+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 749.64,
-   "change_pct": -0.99
+   "price": 751.5,
+   "change_pct": -0.74
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 674.66,
-   "change_pct": -1.96
+   "price": 675.35,
+   "change_pct": -1.86
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 79.47,
-   "change_pct": -0.31
+   "price": 79.44,
+   "change_pct": -0.36
   }
  },
  "movers": [
@@ -24,26 +24,38 @@
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 116.77,
+   "price": 116.67,
    "prev_close": 128.64,
-   "change_pct": -9.2,
+   "change_pct": -9.3,
    "trigger_change": -10.9,
    "peak_change": -14.8,
    "first_seen": "2026-11-13T14:58:00+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 100.51,
-    "change_pct": -0.93
+    "price": 100.86,
+    "change_pct": -0.58
    },
    "chart": {
     "ema8": -13.8,
     "ema21": -24.2,
-    "sma50": -40.0,
-    "sma200": -34.9,
+    "sma50": -40.1,
+    "sma200": -35.0,
     "momentum": false
    },
    "headlines": [
+    {
+     "title": "Nebius Group (NBIS) Shares Plunge Over 11% Following Q3 Results",
+     "publisher": "GuruFocus",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOVy11ak1kd1FkVC1mbTV2NU5fM3RJMHU4X1pWZnpzMnNrVnFraGZNRnJfNUw2bkJkQVhCOXptcFRGeU9YRi15a2N2S0VoRDYyV3NteEMyMVdidEd3LXZvODFoY2tGM3ZqcGVLaFU3SnlpMVRwbEdpdjBvaFBxZDhSNHo4bWo4THcyYmtTMS1FSERtRnBza2dyOFE3aVdsWlhI?oc=5",
+     "time": "2026-11-13T16:09:00+00:00"
+    },
+    {
+     "title": "Nebius Sinks 13% as Baird and BofA Slash Price Targets Over Data Center Delays; CoreWeave Tumbles 11%, NVIDIA Falls 4%",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNdEVGckpVYXZyUHN3cGJlQUJMTzlvUDJLTHNjU0xWeXFZMjRmOG5sdVdScVVMVExETVZnYWlwLV96eXlFUDZVQ2RkeHRSNV9renE0NkcxazYyRjM0cmJpX29uUEZZYWJ2cXdBcXdlYVlmbDhfdThKbUN4NU9aR1ZqZTY4ZUFtaDk2Y0JLWXRiZ0REOGFONWViZHl1VlZXQnZNSDBqZ0RNaUhIRFdSbkVaRUhXOE5uMXB6UmwzVGdYYVFleEU0ZXR1RnZnM0E5OERCWWpxUWIzRGpfSnY2MWFGZkZJeXlGdmRjTTFQenRn?oc=5",
+     "time": "2026-11-13T16:04:00+00:00"
+    },
     {
      "title": "Nebius Stock Falls Nearly 17%; Weak Outlook, Nvidia Turmoil and Nscale\u2019s Wider Loss Rattle Neoclouds",
      "publisher": "Benzinga",
@@ -79,18 +91,6 @@
      "publisher": "TradingView",
      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNc3VUX3J2RWdfM190Q0E1NlhqcHpCRHdNVUQyVHRvWWZJU1VmOE5xN0FzTmJyTkJWdnZyYi03QU1rdVhBQVBEaUE1U2xLdWgwa2FhS1JrNTFEYmlEd3RsOWJlZHNkNmx1QzEzVnY3Y2x4U0s5TFd4QmtNLTQ2SGdMTUhjNjl0ZG9aUDJGZEI3Z1k3UmFWR2d0OXU4NVJkOUpQVndUTVpnT0VkaV9CcDRZYWNoTWNSWG5GaGVZZnNR?oc=5",
      "time": "2026-11-13T14:48:51+00:00"
-    },
-    {
-     "title": "Nebius Group (NASDAQ:NBIS) Stock Rating Reaffirmed as \"Buy\" by Rosenblatt Securities",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOMk1zSmExb3VMZ0hsU3oyMm9xNjNhc1NRMmF6eFZlcFVaQzN5UUNyWFpyX2hEb1djVV8wN01nNC1EVkVmUTlYOGd1Mk5fLTVzc3VLaUJFcnpxRnY2R2xSOU5DN2FHdzBwdVhUelJxekQxT1BYZFJsM2xYdDZ2R2J2al9TMnZBVmFXWVE2M1k2dFh5VXhRelJIaTVuRTE0QUt3bFpqbEhCV1NIM0Jya2VVODRiZy13TDNWUjFoN3FZaWN3Sk9zTFB6dEcyYm9QY2tjblpxcE44SFFEdw?oc=5",
-     "time": "2026-11-13T13:38:58+00:00"
-    },
-    {
-     "title": "CRWV vs. NBIS: Which Neocloud Stock Offers More Upside After Q3 Earnings?",
-     "publisher": "TipRanks",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNNkFIRDRvZE5idHp3QURadUtweDRHWEtXdHlxbVd5ZUVUUWdTQkRjT0p1LUR0YzdEM25YUmxnZzZpdEJjRmNMUmdTMHZMd0hsTUR1c21lZkFseVUzNE9KRHpiUi04WHVWV0pNWkRkLWxkbVA4WkdjYnk1bWFMcHVzTTJKbEt0N1lqNk9MaE1paVdIcGpuWTd5TEtobkNGdw?oc=5",
-     "time": "2026-11-13T13:26:31+00:00"
     }
    ],
    "brief": "2026-11-13-NBIS"
@@ -99,26 +99,38 @@
    "symbol": "AVGO",
    "name": "Broadcom",
    "list": "portfolio",
-   "price": 343.38,
+   "price": 342.79,
    "prev_close": 364.36,
-   "change_pct": -5.8,
+   "change_pct": -5.9,
    "trigger_change": -5.2,
    "peak_change": -7.0,
    "first_seen": "2026-11-13T14:58:00+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 479.02,
-    "change_pct": -4.53
+    "price": 481.84,
+    "change_pct": -3.96
    },
    "chart": {
-    "ema8": 2.1,
-    "ema21": 2.5,
-    "sma50": -0.6,
-    "sma200": -6.5,
+    "ema8": 1.9,
+    "ema21": 2.3,
+    "sma50": -0.7,
+    "sma200": -6.7,
     "momentum": true
    },
    "headlines": [
+    {
+     "title": "AMD, Ambiq Micro, Broadcom, MACOM, and Western Digital shares plummet, what you need to know",
+     "publisher": "The Globe and Mail",
+     "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQUkduSTc5b0VVQnJQNWNpTVN6SGNZcFcwVEpEQzlUMjZEaElEWXlEcS1MbWdOWFJrNl9IamUtb1JUVHdMUWFxakppTHJzS3p0WTRtdExaYVE4X2NtRm9tYkEzMkpmaE1qaDZENlZfY1dOZk5PQW82dk1va1RvWURfckJ3Wnd3RDhDUWNIRWVkNmI1bG1aYUtWaHFiTk9Nb2ptN2k3NUU4NGp5b2Vpck9ueVQ3QzNON1licFMyZ2RZWjFyR212dE1lZzMwOU0zbi1ndWtiWGhpbnpnbFdvMlFzLWkwOE1VZ083Y2hwMG5CQUh6cmoyc1FSdTFwU0Vnbjl5a2c?oc=5",
+     "time": "2026-11-13T16:25:44+00:00"
+    },
+    {
+     "title": "Broadcom Sinks 7% as Rothschild Redburn Downgrade Slashes Target to $398: \u201cUnlikely to Occur Quickly\u201d",
+     "publisher": "TIKR.com",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOei1TSXJ0aXhSMGxwbWZldENFeGx2Mmdtb2tWcGR3U1dwUWN4cnpJSVJYYWRpdzg1QjkyUUoycWZvTkdqUEh5Zm52Z1JjWGs2WjFmcXV1M3hyelVBYVpFNkR2VFRWVTBHamtwcE1pT2l6SHIxczJiNW5MeTZpTVAxUUlTSkNnUjN6QjdmM3Nua2ZxSHpuN2xpTVl4aVdrQVR5VWQyVk16ZGI1cjZQbEUwRkVnWC1pZG44X3F3ZkNDaVY?oc=5",
+     "time": "2026-11-13T16:24:40+00:00"
+    },
     {
      "title": "Broadcom (NASDAQ:AVGO) Rallies on AI Chip Shift. What\u2019s Next?",
      "publisher": "Kalkine Media",
@@ -130,6 +142,12 @@
      "publisher": "Seeking Alpha",
      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxObjFtdTNGQk8weXNnMDJJQlRwUXlLRG00d3pYZFpXalpmVjQ3UEJvWXhfa3FaS1o2YS11Z3lSWGVMdjE4RXNOVms2c0ZWdHNZQjdzMjFKU0I1ZFllRW14NmZzSm1GT1RDQ3Q3aWxfeERra1lyMEZ4R1FuM3JJLW1LbnFGazEzTzNjcUdMWHdCZ1pobUVCeWkxZkgwZVR0QVJNSzc3TVJMSG9wZDRkaDBvMWNnSWw0RGEwTlE?oc=5",
      "time": "2026-11-13T15:45:50+00:00"
+    },
+    {
+     "title": "Hyperscalers Are About to Lean Into Broadcom Now That Nvidia Faces Serious Heat in The $160s",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNaGtvbzY3aEhnWnRrdlRZcS1fUHcyVHRWakpCTkJfejdrbFg0cDltMVFzVkcwWmk3dW84SXZxeHRGUXpmWUZENks5a2lyVVJvbjdWQWloRGZScXdIX2ZBNjJrV3RQTmRSMERfQWhMNDJYakkxSkxVdFdkbE1PbFZHalVjVVlvVkRTMU5XMmxSVmdFN2lva1c4MmZINTZiZ0R4UU5F?oc=5",
+     "time": "2026-11-13T15:45:03+00:00"
     },
     {
      "title": "Not One Analyst Rates Broadcom a Sell. What Are They Missing?",
@@ -148,24 +166,6 @@
      "publisher": "Traders Union",
      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQazMyREl6THRmcExUdFZWcTZWQXZnYmZFMVFHbU5NamRpdFB3OXIwaEhubEVrdGFRZENTNWlGWk1QVkg3YXE3eGV5M3VoRTdDTVdGR0FLNUIxbHVYNnpxZUNadEs4TFhYLUlZM0lfTDVGcDdfYW1vSnVRNjNweUFfOVVEbVY0OHdrS1daTHRRRmQ?oc=5",
      "time": "2026-11-13T15:04:27+00:00"
-    },
-    {
-     "title": "Nvidia, AMD, Microsoft, Broadcom, Coinbase, Modine, and More Stocks That Explain Today's Market -- Barrons.com",
-     "publisher": "Moomoo",
-     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQRzVxZnlBS1A2RXhpcGFFUW9LYTFwWE5JVXlKVkNjTWc3MURyT2ZqRHpmUHYzbVRVZ0M0UFVkZElxYThRRnV5MVNMSzRORFo5aF9NUmN6cEEyUTFkVDNaYXJ3U0d3bS05d2dWeUdqUURQMWlFcmxsVjFMaFYtUWVHeWRpdmdib2p5VXV0dDFfOWpEeVd6cEhxZ2xNZzZ2cHVMZVRfWU1tcDdTWjgxUGFR?oc=5",
-     "time": "2026-11-13T14:59:00+00:00"
-    },
-    {
-     "title": "Broadcom Inc Stock (AVGO) Opened Down by 4.37% on Nov 13: A Full Analysis",
-     "publisher": "TradingKey",
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQWG9CVFhtemtHQmtIaWxGZWttTVY3TWg5SGl6MEVQRERmMk9CcG1jWDA4ZTBibTdwY1hwRFUtVmlKRjZYWF90SFRheVZYUElEVEVzZVdDWjR5SkR4OGR1ajNYb0k1bDlJS2dvWFBpNmFGR0lWbmE2VTdPaHdvS2tEZEl3eVhKOWttdUtj?oc=5",
-     "time": "2026-11-13T14:47:18+00:00"
-    },
-    {
-     "title": "NVIDIA Rises 2% Despite Michael Burry Adding to Chip Shorts; AMD Retreats 3%, Broadcom Slides 2%",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZko0YTdITDRuR0FqZjdkdDNLUGZVTWloTEtFMDJTVXFQNE9FRnk1eVdKR0RNWnFoQWRiUERUMEFlUGltRE1YMkdGS0ZkSXFKOU9NY0pBQzBneEJZdUdhellWLXQ4YWpRTHFsdFJXcEFOQVJqWWZSMTNKR3dNNEIyVVRTUmpJQktRT21SOUw0b0hSMXFucUV0ak1zWQ?oc=5",
-     "time": "2026-11-13T14:15:03+00:00"
     }
    ],
    "brief": "2026-11-13-AVGO"
@@ -174,26 +174,50 @@
    "symbol": "AMAT",
    "name": "Applied Materials",
    "list": "portfolio",
-   "price": 358.93,
+   "price": 359.94,
    "prev_close": 380.95,
-   "change_pct": -5.8,
+   "change_pct": -5.5,
    "trigger_change": -5.1,
    "peak_change": -6.9,
    "first_seen": "2026-11-13T15:03:02+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 479.02,
-    "change_pct": -4.53
+    "price": 481.84,
+    "change_pct": -3.96
    },
    "chart": {
-    "ema8": -3.4,
-    "ema21": -8.2,
-    "sma50": -18.0,
-    "sma200": -19.6,
+    "ema8": -3.2,
+    "ema21": -8.0,
+    "sma50": -17.8,
+    "sma200": -19.4,
     "momentum": false
    },
    "headlines": [
+    {
+     "title": "Applied Materials Sinks 6% After Record Quarter as 10 Analysts Cut Targets; Morningstar Calls AI Worries \u201cOverblown\u201d",
+     "publisher": "TIKR.com",
+     "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPMFdFa1JWN1I3bFNFQUF2Z3Bod0o4UTRQb1dERVNuWGFZMTN3SnlRU3pQMUdDcVFGWUQ3V1c3Z2lUX2xfemZ4VzY3bVBvTExBd2dLNW8tNExtRTdYTElsRkNodkJRSkVLWmhBRTl5SVZzMkpvdUIyRE9zZWtIOE5YUEswUzNUcHRfbjJaQ0VVdFprMDFuS3pMNVVSTnljRmRUWTlXTzBlVkNpV2g0YUtTQlBHbVJRTi1wSWhNZkdIcUstS1ZxOGNTa2JTdm1ubnljdVhmNWIzZjF3a2JkTXR3Uy1qZmRtZXgtb1RLYWRGUXpHOUhXYl9IUXpjaWVlM29wV3luUVVKMDdrWGM?oc=5",
+     "time": "2026-11-13T17:01:45+00:00"
+    },
+    {
+     "title": "AMAT Q4 Earnings Beat on Record Semiconductor Systems Sales",
+     "publisher": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNS2l4M0JvSUl3RnR0WDdUUzV0ZUs2VDFSVHlUUElDSXB2cFhZVjBTQVNyaGt6SXktZWZZRWU5cXpIbW5YZktNeUhiTzdSalE2dDR5WjRLcGJKbWpUc2RmR2c3QlpWVFVzcDBOUGZWb0N1V2lhNjdHSS1YeHhXVEVjM3N5RXlCbnQzZUFpR1BPRHNXX1BVNEl3OW1RR0luMXRzMnFTTTNLbHNmbXk2LVB6VEFhNTVSQQ?oc=5",
+     "time": "2026-11-13T16:59:12+00:00"
+    },
+    {
+     "title": "Midday Fly By: Microsoft outage woes continue, Nvidia keeps sliding",
+     "publisher": "TipRanks",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOdGEydzBCNUc1d2M0MVBTQjJ0aENiaUpMT2Q3UUZSbHpJM0VGUzJSUTBQdG8wbGZHYlBCWkkxWmN2ZlBxSnE3UUdRR2lpUTB4b2ZoODYxRGhUcVlWOU5EY0lVVHg1RkYxYmJZVGlLQXZBWjJpUDdqRTBHYWNYb2prVThNc1k0dm9PaHlheGk0NHdLbFN0OERGSEJONFlnUXhYN3BXeGQ5bjdjLUVwMk5tR0QxUTZVQQ?oc=5",
+     "time": "2026-11-13T16:50:44+00:00"
+    },
+    {
+     "title": "Applied Materials Inc Stock (AMAT) Moved Down by 6.67% on Nov 13: What Signal Does It Send?",
+     "publisher": "TradingKey",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQbzN4d200b2NXdHlHWE5kbWZCNEhuOU1wVWtuOUtmUGlLNEhCckNPTEdTNUFQR3FkckFacE5FOGVzSDQ3MFNGUGhUbzNtQXN4U25TNVlGRGxhVWlObGp1clQxc1J4WVV3LUUtVkVMZTNjTXF1dmItMEZPSkUwR21VMFpNSF9MRk5fZkNn?oc=5",
+     "time": "2026-11-13T16:15:46+00:00"
+    },
     {
      "title": "Applied Materials Is 47% Off Its High. Summit Insights Downgraded It, and It\u2019s Not About Demand",
      "publisher": "TIKR.com",
@@ -217,128 +241,40 @@
      "publisher": "24/7 Wall St.",
      "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxNM1BlSldEdVdpdmZMbWI5RGMzNGdqWVFiZHV3SnZraXcxRjBGT0preEExMWh5ZU8wY1pWTVlNSXR6ME5xT09VQTJQcUYtNGRYN1lqYWM4ZFdYblphcnd0MHgzLTRaaEZsVkVDTHdUSDJpRWp2bUUwc1VDT2dheW1NMXk3eUptVHpNVzZnVHlsNkhwZ0k1M0lsWUNiUTNFN3dORFNtM25KSFlwc0xyT1pZWnVQRTBDZXBuVklxODM5V0ZoVDRTdHo1SlpzNXNmbERRMTJsbTJRSVZFVGJhWDlFUEROOTNWeWs3TGdfX2xPR3I3NllESjNIT2dKVGFQX2M5clg1RF94a05PYVk0TkNtaUdn?oc=5",
      "time": "2026-11-13T15:16:00+00:00"
-    },
-    {
-     "title": "AMAT Stock Gets Slew Of Price Target Cuts Even After Beat-And-Raise Quarter: Morningstar Calls AI Worries \u2018Overblown\u2019",
-     "publisher": "Stocktwits",
-     "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNU2pnUlJZQm5mb2RHRS1fSjVWLVF2MjNzSUpwS3pHT2htdzZXRzZhS0VNVjVBZTBBbVVUb3hqSmdzRTlqczJ1cHJOOVZyVTdXUHhhbnNWVEkxNjBXREEzMFU3b1Q2a3doN3lQcUJnUGhfVjJhaDV3bDNJSGdnUjZHNTZpZElFX2RKM09pbXRQYmUtZmxEd0RnT0FuVjk2SXNlMDJnVEhmWFZMeHFxNUp2Y2lkZmpOSWpzTXp2YnhURDhxY1ItSmNJWHRyZmkxbkNsVklBc0pwZjhDT29LVzRwSEdOS1VYRkNuSFVWZWdaOUdWWHJmT2dZQ181b2lQRllqQ3c?oc=5",
-     "time": "2026-11-13T13:41:00+00:00"
-    },
-    {
-     "title": "Applied Materials price target raised to $500 from $475 at B. Riley",
-     "publisher": "TipRanks",
-     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQR3ItODlqWlRFaTNEQk9wcF9UWE9pd1NXUGtFQlJJTS0wXzZxRTNLRi1rVHNPZkRZZ3hwejg1LU44dEF0UXJqeVZfUElaWVlsMEtwLWtGazRMWlhKVzhKT0JsMjJqSDVtSUlVbXFUa2oyckM1MzlCVUxkYlNfZTEtalJDeDAtY0dKUk1QamVJYmMtRWwzSkRXWTNfUVZfTVJjNlBHb3MwTVFMbFpsUU9HQkQwYWo?oc=5",
-     "time": "2026-11-13T13:37:06+00:00"
-    },
-    {
-     "title": "Cerebras, Cisco and Applied Materials: 8 Key Items Shaping the Stock Market Friday",
-     "publisher": "RealMoney Pro",
-     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNamRBU2VIOV9wa2I4M1V3WlBOTm5VS2RYb2ZKdnpGeEVTZVdPU2p6MU5nWTBsQ1FRUkFublM0ZnJiRnNpY2F4ZUNVTkZVakhMRmhlV3RlWnhrdlRzaU1aS0p3NU1xcmhIcFdiNnV1dmU5QnB1X2otTWtrWGhfb2ppUERzcFdzU2pIZEdUeUI4azZ4Wm9oTkhkVUNHa1g4QnpLLS1FekZ2Q3pNZFlpM3g0cHd0VTc3TUk?oc=5",
-     "time": "2026-11-13T13:37:00+00:00"
-    },
-    {
-     "title": "Applied Materials Says Chip Demand Remains \u201cMuch Higher Than Supply\u201d",
-     "publisher": "24/7 Wall St.",
-     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPMktOREVZb05uMFF4MzY5SDdTZzQ3cWFZTXU5Y212Nm1ONjByMHdMdDBhbTl4Q3poRDVsa1hham5zVzlBd2ExeDlyWjRQQ2U4bGJmNHFhSlR4ZzFVMVo4cWxsSC1mQmNmX1pMVVpsWjlDazBJbGdTc3FRc2JUZmN4VjRuaDNRWnN0OFhiMkprcWRiXzNlVVZFTkZ1bVh4VkowYVZiSldNVFZuWVNDRGtr?oc=5",
-     "time": "2026-11-13T13:22:00+00:00"
     }
    ],
    "brief": "2026-11-13-AMAT"
   },
   {
-   "symbol": "BTC-USD",
-   "name": "Bitcoin",
-   "list": "watchlist",
-   "price": 68575.6,
-   "prev_close": 71370.7,
-   "change_pct": -3.9,
-   "trigger_change": -3.5,
-   "peak_change": -4.6,
-   "first_seen": "2026-11-13T14:58:00+00:00",
-   "sector": null,
-   "chart": {
-    "ema8": -6.3,
-    "ema21": -9.9,
-    "sma50": -14.9,
-    "sma200": -6.1,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Bitcoin Crashes Below $70K, Nvidia CEO Resigns, Inflation Fears Return: Weekly Crypto Recap",
-     "publisher": "CryptoPotato",
-     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOVjZHMEJ6Q3NtU1N3ZGFZMzJmb3hwQlN6TGpTaFdaM2dqamZYV1YyTUR3cEpvV2FocmRxdkdmeGFDcTh2bHp6S1JfWGwyeWx1YUx3dDFUTVltdm9NcGMzYUg4dVRBQlBjVC1hRGVxd2NLNzBVdWZsTm54dkdjdkkxVnNtX213WTRXR0dnNnl5V1FQSFkzQk84dEdnOENLMl91XzB4d1ZQWmNlRjgtSjNXYWdWWQ?oc=5",
-     "time": "2026-11-13T16:02:00+00:00"
-    },
-    {
-     "title": "Bitcoin\u2019s six-week slide draws parallels with sell-off before SpaceX IPO",
-     "publisher": "CoinDesk",
-     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOdDNYNGJPTEZ1VmtYX005U3lXT0J1a3RRT3ZoTFJTRzJhNDNDcEhjd3JiZE5Rem5CMXFYTTluUm5EOWJ4dW53OVk5OGxVTUxoZUtfZGUtR1Y4QmRaUnVKYnlDOFV3TFpSaGRtdTJuSU1mc2lfd2JRSlhUalVyNTVYUFlnRWxvYTN4WnhJdElxRFd5NFp4ZFFlVjdDS0dpbVBIY3EybElVOVlMRWNGckdqaVNEdHdqcHM?oc=5",
-     "time": "2026-11-13T16:01:27+00:00"
-    },
-    {
-     "title": "Bitcoin Core reveals Tor flaw affecting thousands of nodes",
-     "publisher": "Crypto News",
-     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1EWjMtd0l6aHhlTmhNUlBnQTloVXU5djdaMlo0UHFKYVJTTmo4M2V3VUVUOFQ0S0NRREE5dDVQc2xleWUtS0tldjBRT09oLVNOTkxZZEtsMVZycElhX1hyZDhEY3ZVNVB3SzBRTlR3?oc=5",
-     "time": "2026-11-13T16:00:33+00:00"
-    },
-    {
-     "title": "Bitcoin Slumps Below $70,000 and HOOD, COIN and Other Crypto Stocks Follow Suit",
-     "publisher": "Moomoo",
-     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNWDIwbHVkLWh1ZjN2OUZRSm9ZejJxd2N1TGN3T2t1c2FKdjVYaWlJMlpFZkhESFRzSWZGM2Y3cnN5SEktcDl5Mmk4RTlxZTZHZlA1ZGU4YW15YjYyQUNYWVAtazJUcFNiRG9CcE9OZnc2NGpNWE0zRUtaTkFhU2NxUktTRnNtamxCdFRSN1hsQXdhQWtWMHd2RHkwRUFWMjJHYkJB?oc=5",
-     "time": "2026-11-13T15:57:28+00:00"
-    },
-    {
-     "title": "El Salvador bitcoin: what is left of the 2021 law",
-     "publisher": "CryptoTicker.io",
-     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9Mal8yM1pXeFNSR016a21fMEluWng0c0k5eTRJMFJjTjNhNmtNNG56RGRMS2JRWFRYUWw4NmZqclZxc0pCQXgzZHNwcWpqWC02MlVjdHJtWHd5a2NKTWNQTVFrWWx3Vm9JeVMw?oc=5",
-     "time": "2026-11-13T15:49:36+00:00"
-    },
-    {
-     "title": "Bitcoin Could Crash Below $10,000, Peter Schiff Warns: \u2018Get the Hell Out\u2019",
-     "publisher": "Benzinga",
-     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQd2V4VTl5YWpRUWkwQnh5MGJGRnJ3TGd1MUs4eEh6MHZFMHR3ZWo4ZDhURFptTGlZUzJpVHBiZF9ObHZpNTF0VjhfeXd2NkFLajVxUVE2OFBzNmhCUXR6b2ZuSHh0ZWlVT2lCOHg4Z0c4c05CaDZHbk9BYUhlR2d4Vjk5dURXZlhxaUt1Qjg1bEpVR0ZOZEJZZi1UQTV2dWFadDlzb0NoNUdlejc3amZCTGdjSG5EdGRrb0Q4alpoNjV4eUlnZ0RFUQ?oc=5",
-     "time": "2026-11-13T15:49:36+00:00"
-    },
-    {
-     "title": "Nakamoto Reports Negative Q3 Revenue as Bitcoin Options Losses Rise",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOQm1SMFhmTmpkNXMzeWVNaUJRSS1lV2RpVDdzRXZEM2QyS3BIaVNhNy1nSDFyM1luUXpVRU1sMWJlVjlVcy1BOTNpZm5hRkdUM0x0Vml5b0J0dXBrM29fQ0JnZHlfVVRUS1pUTzFIZEx2WUVJdTF3RnQyNk53WTRRb2t1NWxHOXQ4ZjNSR3ZfYnVHN2NHZGxLOGZQX0lyeGhMNlVZ?oc=5",
-     "time": "2026-11-13T15:47:00+00:00"
-    },
-    {
-     "title": "Bitcoin volatility falls to 45% \u2013 Here\u2019s what it does NOT mean for BTC",
-     "publisher": "Cryptonews.net",
-     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBUZUMxUS01ZllWMGw4YUpzdEJFRlRjUG5aYThKN2VwNXBMNFQ5Q2RVRF9rc0JHSUszb3ZRUlNGT3RYNFRNeV9QeTRaNE5UV3ZGOTBqa1ZCM3k?oc=5",
-     "time": "2026-11-13T15:36:47+00:00"
-    }
-   ],
-   "brief": "2026-11-13-BTC-USD"
-  },
-  {
    "symbol": "ANET",
    "name": "Arista Networks",
    "list": "portfolio",
-   "price": 198.57,
+   "price": 197.52,
    "prev_close": 206.63,
-   "change_pct": -3.9,
+   "change_pct": -4.4,
    "trigger_change": -3.6,
    "peak_change": -5.3,
    "first_seen": "2026-11-13T15:03:02+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 479.02,
-    "change_pct": -4.53
+    "price": 481.84,
+    "change_pct": -3.96
    },
    "chart": {
-    "ema8": 4.7,
-    "ema21": 6.7,
-    "sma50": 2.9,
-    "sma200": 18.7,
+    "ema8": 4.3,
+    "ema21": 6.2,
+    "sma50": 2.4,
+    "sma200": 18.0,
     "momentum": true
    },
    "headlines": [
+    {
+     "title": "Arista Networks Inc Stock (ANET) Moved Down by 4.90% on Nov 13: What Investors Need To Know",
+     "publisher": "TradingKey",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOdUhVRl91VThhSEs1eTNqMThaNV9vSVZpVWRQYjZYS0VEZm5XQURZMnhNOE1lWi1NNkI5N0ZaWmthNnlpMGdiaHFfWVRjZXBhZ2YtVnJ1czhnZThPWWh4VWhJSXlFT2NtWTB0UFJSRzNhc3QycDQyaXNOMnhxaG5pS1hJOThuSlhGNko4?oc=5",
+     "time": "2026-11-13T16:15:35+00:00"
+    },
     {
      "title": "Cisco Slides 5% Despite Raising AI Outlook to $9 Billion as Citi Says Growth May Have Peaked; Hewlett Packard Enterprise Retreats 5%, Arista Falls 3%",
      "publisher": "24/7 Wall St.",
@@ -380,12 +316,6 @@
      "publisher": "JournalArta",
      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOd25hS2l5bU1RNDg5b3o3cHktQkcydTRiLURJaWhLN3I3V3h6MUtvZ3dxTGVqR0hJYWxwYlJlNkVRMGFMd1MxZ1BZc1NLcm5YNnpjNDQzX0JtbnBocG1iT3dWZWJxNURkOEM4Y041d0dBOUFfa3QzdmZXdV9zUkd5NnBNeEdCNTk5ckV6VmRsV3ZaMVVLekZhUk9qc2NlVmJqRDF3NV9PbUF1Y3lidVJDbFJn?oc=5",
      "time": "2026-11-13T10:09:08+00:00"
-    },
-    {
-     "title": "Arista Networks, Inc. $ANET Stock Position Increased by Eurizon Capital SGR S.p.A.",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNeUtnb3dRU0VCQ2ZpQW5jcUI4VGFKWjd5cUhYaWZVbFZybHdQa2FTbnVXNGc4a0lSS1M3SjFCSjhhUnc1ZU9hMkdydWtMVkRBMGNaN0N0LVJUQUlkM3RJcjcyeWN3YklqTk03ejJCblFBWWNfSmZzVzhWSGZ2eW1SQ2phdDVaWGM5Mk5XZ2dsZmRwb0dfU3ZBWm5yRUdDZTVtRzNtUlRNeC1HQ3ZMbWxUM0RDRHpOVEFObmVJN19kelpFcHJKZ2hlcThGdEtFX3FmVTBz?oc=5",
-     "time": "2026-11-13T09:16:53+00:00"
     }
    ],
    "brief": "2026-11-13-ANET"
@@ -394,23 +324,23 @@
    "symbol": "APP",
    "name": "AppLovin",
    "list": "portfolio",
-   "price": 408.63,
+   "price": 409.06,
    "prev_close": 393.68,
-   "change_pct": 3.8,
+   "change_pct": 3.9,
    "trigger_change": 3.9,
    "peak_change": 4.2,
    "first_seen": "2026-11-13T14:58:00+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 100.51,
-    "change_pct": -0.93
+    "price": 100.86,
+    "change_pct": -0.58
    },
    "chart": {
-    "ema8": 9.3,
-    "ema21": 24.4,
-    "sma50": 35.3,
-    "sma200": 0.7,
+    "ema8": 9.4,
+    "ema21": 24.5,
+    "sma50": 35.4,
+    "sma200": 0.8,
     "momentum": true
    },
    "headlines": [
@@ -466,104 +396,180 @@
    "brief": "2026-11-13-APP"
   },
   {
+   "symbol": "BTC-USD",
+   "name": "Bitcoin",
+   "list": "watchlist",
+   "price": 68712.3,
+   "prev_close": 71370.7,
+   "change_pct": -3.7,
+   "trigger_change": -3.5,
+   "peak_change": -4.6,
+   "first_seen": "2026-11-13T14:58:00+00:00",
+   "sector": null,
+   "chart": {
+    "ema8": -6.1,
+    "ema21": -9.8,
+    "sma50": -14.7,
+    "sma200": -5.9,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Bitcoin may face one final decline before cycle recovery, Hashdex CIO says",
+     "publisher": "Crypto Briefing",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0xRldBdUE5QnExV0FHTHdNaGlqTDBDRXJRWjNFSXM0dk9LS1ZhanF6ZmpIbXpWNVBiekwwM0h5S3ZZTWVnN2YwOWg5bGhLdURIM19vLWhNMWRUSGZYamZYb0FGOTU2bUtOR1E?oc=5",
+     "time": "2026-11-13T16:54:50+00:00"
+    },
+    {
+     "title": "Bitcoin Heads for Sixth Weekly Loss, Down 22% in 2026",
+     "publisher": "The Defiant",
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPUW9RV2M1T1RFbml5VE0takp1Q081aEhhYnU3empSQnBkTW1GRWZYVXhPVTJzSXlvSldLbWlrUk00MzdxcmZBZ3B0ZlZBWWlvZ2lFYzVGbFBnakFYaWE0YUFjZV8xUGtNLTlGTTJSU0tmQzY2aW1nalFfQ3hiV096TGNmakdyX1hGUVIzUUF6UQ?oc=5",
+     "time": "2026-11-13T16:53:14+00:00"
+    },
+    {
+     "title": "Michael Saylor\u2019s Entire $64 Billion Bitcoin Pile Is Underwater, So What Happens Next?",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOOWdmdWxBSGFOY3I3RE1mZkc2QWlBN0lYWVV5M2hRNjI1MVZndWxvXzJhTTU0cHQzeFVQa0JKbmxQajhub3NPZk1NZkI3a3VGc2dfcEU5ODEyZGlqTk80WVhnV1huLXlGUEJNNUpyU1paSWNtdk1YbWNqdXFkemNPa3VDRmZMcmU5MlZXd0tKSG9IaDFsMU1STnNfWmFYZTk3QnNSb0ZJYmg5dWJVRXdiSk80X3JZdmctSEE1ZW50b2h1a1k?oc=5",
+     "time": "2026-11-13T16:49:00+00:00"
+    },
+    {
+     "title": "Bitcoin to $1 Million by 2030? 'Almost Certainly Not,' Industry Bigwig Says",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQS2xhTmVGaGduRXcxejYtUzB1Z0MzeFN3bl9UZzVKLU5sekR0WkI2eXdjX0RXRU9BY1FRakcyRld1LWNpUkVYMVkxWjAwSnY3VDRaV3NXZlRBZW0zX081bzlEa19RSnJxbl9fNFp6TnNmUDhMVmw4MUdKOUJEOVJzWU56YUJzTUlXaWpid2xFWVNSVldYbzRoZGtpVlNteDJwcmlBUldIZlVCaG43TUhxcEIwNmVnTExQZ05PdFY0TVc4dGtzTDFYcU80ZWc?oc=5",
+     "time": "2026-11-13T16:45:10+00:00"
+    },
+    {
+     "title": "FutureBit\u2019s Apollo III Bitcoin Miner Hits Micro Center Shelves in Its First Brick-and-Mortar Launch",
+     "publisher": "Bitcoin Magazine",
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPdjhiN0ZtX1VSX2VGLWFXR1RlOW1KZGRVUXpxVWJXYmMtMUxYY0NKOEtkVklMdTNGbFFhY2M5VlY2c2VEdHVWYmRjS2RGVVZOeU9yMnBUOVI3WXNBcW5CdkNRbE5VdkZPZDJmS3ctOVd1REFfSTVhRy02bkc3TjVvaDNLTE4xUQ?oc=5",
+     "time": "2026-11-13T16:39:33+00:00"
+    },
+    {
+     "title": "Bitcoin holds below $70K as stocks slip despite a cooler US PPI print",
+     "publisher": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPQXg3Y2JjTlMyUnhHbkg0V0QxT1RyYmhRZ1BhTUVwVWo3OGlLSnRRa3dXZm1CRm56UU1Gb29mSTJ4NFh1VkVrWVhWQ1pEMHM1cUNHbWItZWIxVVNvcVdYTUdhdFd5SmdmWjZKTlV3UHZzMmI5ZFFYZ0xDTkZaRnhRdHMwdlhQTXVmVkd4T29SX25KazJSNkRPbmZxYnhlYXJBUkFTMGs5M29ieEZkSW1rOFBXM3FzTURFNlUyZnRZek9leFJtQ0ItbUM2Mmk?oc=5",
+     "time": "2026-11-13T16:39:11+00:00"
+    },
+    {
+     "title": "Strategy Stocks Fall 3.64% as Bitcoin Breaks $70,000 Ahead of MSCI Exit",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOV2V4UW9qZ2FJZUpnZ0drLWlUN0R6V24wZTJxQzBYQ1VxdV9JLWZHQUduRlZzbVpTV2V6NnhkMHF2VThPdW5KVUxubktHZTFNUkp4XzlZQi00U1BxbHZPS3k3QlZmcEQ4OVZDZ0RYeUVyd28zN2NrVFdLRFBqYklONFRqNWxYUnVQb3pGZEE0cUNlNkk5?oc=5",
+     "time": "2026-11-13T16:38:19+00:00"
+    },
+    {
+     "title": "Twenty One Capital CEO Says $1.09 Billion Quarterly Profit Came From Bitcoin, Not Business",
+     "publisher": "unchainedcrypto.com",
+     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQNXdMWUNKQUdhZzRCV0ZzTXhvaGVidkVGdXFYMWE1WWozS1AwTUFaSlVPNm0yU0pvd2kwX0hBc1ZLa28yMDBwT21tSTlKY0twTW1PM3NfNGliNWVpX0ptU1R4QmdjdDdEb1JHenN0X19lRTBhOWp3Q0dZLTZlZXJTVEI2SUdMVWN1RmU1aDB2N0FlWmpDRzJTQWw2bDhXcVUtR3hDMk5XMkhMQXhEV1h5elozNHNYU1dy?oc=5",
+     "time": "2026-11-13T16:35:00+00:00"
+    }
+   ],
+   "brief": "2026-11-13-BTC-USD"
+  },
+  {
    "symbol": "NVDA",
    "name": "Nvidia",
    "list": "portfolio",
-   "price": 160.26,
+   "price": 160.32,
    "prev_close": 166.19,
-   "change_pct": -3.6,
+   "change_pct": -3.5,
    "trigger_change": -3.1,
    "peak_change": -4.4,
    "first_seen": "2026-11-13T15:18:07+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 479.02,
-    "change_pct": -4.53
+    "price": 481.84,
+    "change_pct": -3.96
    },
    "chart": {
-    "ema8": -9.2,
-    "ema21": -17.4,
+    "ema8": -9.1,
+    "ema21": -17.3,
     "sma50": -25.3,
     "sma200": -21.5,
     "momentum": false
    },
    "headlines": [
     {
-     "title": "Nvidia stock slips as investors digest CEO exit, broader chip sector falls",
+     "title": "Nvidia: A House Of Cards (Rating Downgrade) (NASDAQ:NVDA)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPVkIwa3NOQkR0YlJNdlB6NUU5YzNkaklQOFJvcVcxVnY1M1dVdUVNT2hsUFV4cmo4bTNxbmtiZXl2VWtEUnVtWGdRZFB3bU1oWEVYckpac3J5SjBLZkFwWlRnX0ZfemJUQ2Z4cDFuOTEySU1RNkFidS1mR0hnNDBXOXlncWJ0dWlq?oc=5",
+     "time": "2026-11-13T16:46:19+00:00"
+    },
+    {
+     "title": "Chip stocks slide as Nvidia rebound fades (NVDA:NASDAQ)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNYms1WmQwR1NZWERFQzRHODVwcUlKVGFsT052c0h3eUVwTzdJR2NoSHAtYk5LX2hGZWdOVGdrX3FjdVVkMU9WY29tWmxkb08tczZNUmppa2ZCWFdnNEZyNks3cTdKcm9vRGZDVEROMUk0eFllV2I3X0JTcnhibldNZjVVSGZMZw?oc=5",
+     "time": "2026-11-13T16:44:59+00:00"
+    },
+    {
+     "title": "Michael Burry Says WSJ Missed the Real Nvidia Story",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOclRadDV5VUM3VmtHa3RrTF9jbkQ3UWxEZV9rR0tUZnB4YnZmZmxWUFRjRVdQaXR6WnFaYXZqRUZVMDJ1S0FuTGVvUHZiUERGUEdKLTQtZWhBUjhNTm5mVkdPenZNN01EXzZDSU9XVDdfQ1A5NzFTbEQ4V2RnY2EzVzdiZFlKckpESmJJVzlrUXByWGpaeXlCRXJxNlZ1ZFVvY0ZsYTM4UQ?oc=5",
+     "time": "2026-11-13T16:14:21+00:00"
+    },
+    {
+     "title": "NVIDIA (NASDAQ:NVDA) Stock Bumped Down to Hold by HSBC",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPanJNTVZVQzJyRnE1RGtwcXBMcVZDVjI2VmlOaW9qdzlCYjVkVmZnVVlTZGR2R25PSnFkU0lmNm9sYW54U3FwMkpqU203TFgyWmhwdG54Y2tsbmlNQVlRUTB6dXkwR1ZaelpBTGlHSURZY3ZPZWF2WEotbzBKbkl5cEgyd3p4RGlnSGZLZk1vbTl2ZExBU1ByTFhkNF9GRXN4S1MxLVZBcTJraDRMWjlnZGhzQWo?oc=5",
+     "time": "2026-11-13T16:10:33+00:00"
+    },
+    {
+     "title": "Nvidia director sold nearly $1B in stock weeks before the Jensen Huang scandal broke \u2014 and no trading plan was flagged",
      "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPT1FhU3E0MEFkQjV4aHZ4WXk5cktoTzhKbE9Sd1ZKTS11dE5raks5bXA0dk5IOGZ1bzBfT2Y5LUluVTZENml5cnBxcVEyOWh6eU9UU0lIS3FNbmdxVnpvdVUyTkdRNlU0REJGYjhaQzhpZHlpWGV1U1pfRjFLVE5wb3h3NGxWbFJmSlRJNDktSENjNVVpUFlHbnNrcW1BMk9vN2NsNzFjQURkeUtGQXBrSWRsMzctNmRzWlhvSUJVQjk5aHZkeUNtYTh3?oc=5",
-     "time": "2026-11-13T15:26:39+00:00"
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQLTktc1RQNWQxUnRyQXVkcVRpYUtRSUV6Y2dXX0lpYmduS2Q5NHBLXzc1Q2trUktLdi1RMGs4ekJycno1Q0pSTWpna29rV1p2LWNkVkhDQ2RuNmNHaGxHdkZTSEh2czQtS1RfVnFCb29DNU04a2ZjYnZXQ05nZlI3MThaQVZUTlFEMmliVmJ3R1FycnBtRFV6UndwNA?oc=5",
+     "time": "2026-11-13T16:00:00+00:00"
     },
     {
-     "title": "Apple Is the World\u2019s Largest Company, and Nvidia Is Second. Here\u2019s What $10,000 Invested in Each Today Could Be Worth by the End of Next Year.",
-     "publisher": "The Motley Fool",
-     "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNWVJhZDJfcFlqSnN2N25TRHpLazhkbE9GRFBWODJkaGVYd3FNZzRjR0prczZNcGdVV2djMVo5bHM0ZFd2djIzYlFkVFBQUk9KYjBuSFpVTExPQjRPT2pSd2Y4TFJlaE5wUHhBdDZUbnZUQXpGNG9lY2hkdWxDVnZ4aDl2bmxtVnI0WWZDaHUybEV3RU9GaGdhSWhGMG9JWnk5NkZCazk4d01uTlRBLVNnRGptVEotdXRFS05oY0tuV3U0d2gtaHFLaVJ0cU5mdWdvVFlBaE05Mng3WXZJdDJTTDZfRng2a3lNTTczbGtYY18wSzJwbGtTelpocm1JZw?oc=5",
-     "time": "2026-11-13T15:22:00+00:00"
-    },
-    {
-     "title": "Stock Market Rebounds Even As Nvidia CEO Jensen Huang Resigns, Treasury Yields Jump: Weekly Review",
+     "title": "3 Favorite Warren Buffett Stocks Hit Record Highs As Nvidia Sinks Further",
      "publisher": "Investor's Business Daily",
-     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOT3NWQ1h5MjlGUE41X1hFY3JBb2RDT213U1Z6X2VFNFNqQi01UmxONXNGRFpuVDVKbHc2aDdTOFFVbVZTaWZuYU5rcHZhV0o2WG5QREtGbDlmTUZST3E0cE1PT0ZSNVdiZjBTS3FEcjhRRGU3OWNZQ0E4UkhGbjVZQXRTbnFVLU1HM2RDUnFycnJfd01BalBmVUlfeHVzNnJ2al92bzc5bWlTdw?oc=5",
-     "time": "2026-11-13T15:06:00+00:00"
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNWUwyNXJTU19Db3JsNEpHUXVTMHAxRmtQTG91SV92UExLZnlSQ0QzM3JLRnhsUF9Vd1g4X3hLSWhJdjRSenVFYTV5NWs1N0tqbmZGN0gyYnhNOWd1SV9hNjI5ZXN2ZmhnaG1XZWNENDdHMTZwT29ZYno4WEZ5YWFkdTFRQlBKdUFmWUJVcF9VNk5ZMWJKa2VZZXdTT0hXZWJvbmc?oc=5",
+     "time": "2026-11-13T15:55:00+00:00"
     },
     {
-     "title": "Nvidia: It\u2019s Good That Jensen Resigned (NASDAQ:NVDA)",
+     "title": "Nvidia: Jensen Left, The Backlog Didn't (Rating Downgrade) (NASDAQ:NVDA)",
      "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQTWNKZ1g5LVV0Z3hnV3pDSGdkQXZGNlFiT1Vwb0xINVQ0RVFISll3VjJNekhyUHZudTYyYjNRQ1NpNkRJaEx5LVVVU085d1ViNXB2Z1lBaWxpQUpwRElRdlBKWjRSS19XTWpvWUtyVDdkZGpoYURERnVLWmZtYVRZcVoxRlZTYmpJLVo4UGk0eXBTTGxHRFM1ZW8tbDM?oc=5",
-     "time": "2026-11-13T14:46:59+00:00"
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOTUkyMmdjdUxheGI3ZnQyeWNpU3hGU2RCWGhBX0xsU1R2di1tUUtlNkp0N2hGRHh0X0lIWWdTcjRybkRSM0xaRnBIcE5DbnVWeUJDWkotQkpjR0k4NURoaUJpd2U1U0RHOXkxVElvTjFLSjNLWkt0T045SVRxNTBoRWJIX2ZmeWJwYmxoOURPT1l1d2lHOE40SzhR?oc=5",
+     "time": "2026-11-13T15:45:44+00:00"
     },
     {
-     "title": "Stock Market Today: Nvidia Rebounds After Huang\u2019s Exit as Treasury Yields Top 5%",
-     "publisher": "24/7 Wall St.",
-     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOcFVqVENnX1lmSjJKNmE1eVFJSGtEQm9MeXFVbDZvcm1oMFhyR2ZXWHdGa21ZMXltejV3ZTF5eVI2M3ZXVUhjalZzTHZCTXJJTmxVcFowWm81X2NxMUgzVXpjYUJNWjU3Y3NPMjl0cUtDT3I5bzRmYXNmRzFKdkFpaDAzSDNOTjdpRlR5U0J3THR3djFwRUFzVzk2MmlRbHI2ZFVrbEcxNmxVX2Q2dFZWeFNDVlhwV1hmYTh1UVhB?oc=5",
-     "time": "2026-11-13T14:15:00+00:00"
-    },
-    {
-     "title": "Is Nvidia Stock a Buy Right Now?",
-     "publisher": "The Motley Fool",
-     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1GVDRBdjlSbmNKd1dORlNQWXI5MVFwZGYxZHQ3NTRkTHRITWIxTjcxWjJGM085Q00ySldKcW1ZcElJNGdOODktM3hWaXQ5dXo3TDEwM1JkUUJXcXgyWlFVWUdtbWlucEk3d2tZaGZ1b1Rfc2VxNkp0SE5UTURRU2M?oc=5",
-     "time": "2026-11-13T13:44:00+00:00"
-    },
-    {
-     "title": "Here are 5 new share price forecasts for Nvidia after the Huang scandal",
-     "publisher": "Yahoo Finance UK",
-     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQak1vN2J5dnZwOFYtbDhkS1dOZFF5M0R1TGtkcWtLQVhjWDJRZXZyeWYzSGJpaVJjRlJaYUh4S1JwR1NuMnpxMS1oVnpCUDlxRjNuN0lOQ0RGUlB4dTNUOXRJNFotTU9oWi14VTNNNzByUlFrUzRQY3QxM3dTTHR3OTZJTzdmUQ?oc=5",
-     "time": "2026-11-13T13:38:00+00:00"
-    },
-    {
-     "title": "Nvidia Needs Tim Cook: Trump's Suggestion Deserves A Closer Look (NASDAQ:NVDA)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPMnJMNW0xb2NPNV9xWnNja3hQOFhxLU92bnItWWRhaWlBYTlvY3p0TURPWDNEaGRZU2lFQ1VpdHpua0pvR2dkV3llc19ESDRlMDk0Y3lUNGxucXF4QTRmWXpSTnJxYUs3ak9abTBLaGZoUzR2UnpZYkx3Qzk4aW9mRWVpamVZYlg2dE9HN2pTUmtlUWt0Z0FJRS1XSUtYVkY3RHc?oc=5",
-     "time": "2026-11-13T13:30:20+00:00"
+     "title": "Is Nvidia stock a falling knife or a rare buy-the-dip opportunity?",
+     "publisher": "Yahoo Finance Singapore",
+     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOUXJxZnVTNDdHMmRWWDhxeklzSlFLZGpWQWVubnV6ak5HVDlyRHNzYzVLbUk5UW5wTW5EWmVGNGpXVkFVT041V2Z6Zmx5SmluTWFPVUs3Z0FHMmV0M3dma1lSazljSFVLT1hzZXUtazZVSHBzRUJxWFViblBBUTVGTTlPUkRyc2c?oc=5",
+     "time": "2026-11-13T15:41:38+00:00"
     }
    ],
-   "brief": null
+   "brief": "2026-11-13-NVDA"
   },
   {
    "symbol": "CRWD",
    "name": "CrowdStrike",
    "list": "portfolio",
-   "price": 223.51,
+   "price": 224.41,
    "prev_close": 229.87,
-   "change_pct": -2.8,
+   "change_pct": -2.4,
    "trigger_change": -3.2,
    "peak_change": -4.1,
    "first_seen": "2026-11-13T15:18:07+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 100.51,
-    "change_pct": -0.93
+    "price": 100.86,
+    "change_pct": -0.58
    },
    "chart": {
-    "ema8": -2.6,
-    "ema21": -6.0,
-    "sma50": -8.7,
-    "sma200": 29.2,
+    "ema8": -2.3,
+    "ema21": -5.7,
+    "sma50": -8.4,
+    "sma200": 29.7,
     "momentum": false
    },
    "headlines": [
+    {
+     "title": "CrowdStrike Holdings Inc Stock (CRWD) Moved Down by 3.42% on Nov 13: What Investors Need To Know",
+     "publisher": "TradingKey",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNZ3ZWRTFtUUlwTXZsN2Z1Y1luMkZMc0JESnNxU2JsY050cnl3cW9rZVhNMEFKLWQ4S1lwcDkxaUVuS2J6ZFF0Z01ZQ2Vrbnp5Q3hnV2lXbGV4ODZaanIxV19WYUNwN05FZVV0SWFGUjBJVzRsMVF3UUpCZFY0OHVtQ2hiZk1jQWcwcDBn?oc=5",
+     "time": "2026-11-13T16:15:31+00:00"
+    },
     {
      "title": "CRWD vs. FTNT: Which Cybersecurity Stock Has an Edge Right Now?",
      "publisher": "TradingView",
@@ -578,9 +584,9 @@
     },
     {
      "title": "CrowdStrike and Palo Alto Networks Climb 3% as Microsoft Outage Disrupts Outlook and Teams",
-     "publisher": "24/7 Wall St.",
-     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQd0N5S1JyRkZqMVlrQzJGMnA3V2dyX0RMZjlhekpMYV8ydWhIS25fNkdBZWJfcG1fbjN0RlFwbThqeTRoQmI5OXlQbW9nZE5LMk9rbjhZOVZOUHdYd2gwbWdZTno3dDE2M0NQSExRWUd5OFppQjdUYm9hODNCYmdOS1c4bTdFWWJPSVpmM3hGdFdTbWtDaV85cVBVZjdOb0xhTTFOd1laVEpybTlsYUxpTVF2SlRRN05rd3M1ZlVQOVhWTnRFWFdFVVY4Q2JOdw?oc=5",
-     "time": "2026-11-13T14:12:00+00:00"
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQby1hZFZRZVotQTFrNU5zLWFpTUtXLVc2cG41UEFjVkRxelE4d195RmFZaFlHZjA1VmZTb015X1Etdzk5R1VoRmd5T0J3Z0FxU1RkUHdDdmZmeHJwV2hYS3FRcmx6SmhzN29DeUdZMVdfLU5mZnk5NnlSVFBRX2M2SjNGREhVamV6Nl81RHFubk9Ec2QzMVJzS0dlcDJMdl9tSmQ4?oc=5",
+     "time": "2026-11-13T14:12:40+00:00"
     },
     {
      "title": "CrowdStrike (CRWD) Stock Price Prediction: Bulls still have a case, but overhead supply is real",
@@ -605,15 +611,9 @@
      "publisher": "Simply Wall St",
      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQYzJLeXY5TzAyaERpZHVXTkxmUG9fMzlabUtIMUJ2UkdkQmxfM0s2UHgycXRnQ0ZSZ2huRFpvTGQ2Tm5TRFRuZGZINHNZZ2tHdlZOblRndDg1YmJnY2kwd0hCdzBNRGRDcG9mRVVIb0JEUFZLVEF6VzJib2VzWXRnSkVndFVsYTcxUDRLQ1NRMWZ5by1yblJrR2dNeGxSOWMzckRiR3M1TWwwOVRlREl6NTZ3UHZuMDd1aG1kZHFHVGs5S19aV1l3YzNOVHFpVzZYNGpKc2Z30gHbAUFVX3lxTE1UZEZBQjZhNVZ0Z0NmVmZvcjlzVk9IbDNpUkl4cWRmV2lQMjhDNVZQYV83V20wdHdqVmtqeDhubFBmUVVEdlE5b0o3OVlqN3pJc1hTTllnS2xDT0NQNmhmNXNFRjN6cFlYcEF2d1gwQnR0SFVQMk9VSHYtSmlxc3FTRHdiVVJ5UWVZYXB2NUNsWW81SFhpM3YybHhiY2FMblF0WjZFd2ZNNmVvV1VIdnh2bkVTa05zaXlpWUEtRzZ4ZWE4eWxTRkozZ3RUM0xTdUFWOHdHczhxU0ctcw?oc=5",
      "time": "2026-11-12T04:49:56+00:00"
-    },
-    {
-     "title": "Will AI Agent Growth Boost CrowdStrike's Endpoint Demand?",
-     "publisher": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQQVk3clBCbFZMMW9PRFF6M1dTZE13aTRsdmdsZDkzeDdhYmdZUWJBZnJ4VnBpQWRZUWg4R0ppQUJoVmhBSlZrU0JQRmVQdFVVbHRtUGhBZk1TYmlWazM4LW95NkZKNkdMb3FiZ1h5Tk1yblN0c2Z2bHM4U1NhQnh3aFpScUt3MVE3V3YtWlpNbExZWS1Sb0JacXNTM2RqanhldWxNNUlZNm1Uc0RJRHk3R05B?oc=5",
-     "time": "2026-11-12T00:57:36+00:00"
     }
    ],
-   "brief": null
+   "brief": "2026-11-13-CRWD"
   }
  ]
 }
