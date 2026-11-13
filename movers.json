@@ -1,22 +1,22 @@
 {
  "date": "2026-11-13",
  "threshold": 3.0,
- "updated": "2026-11-13T15:03:02+00:00",
+ "updated": "2026-11-13T15:13:04+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 752.21,
-   "change_pct": -0.65
+   "price": 750.01,
+   "change_pct": -0.94
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 678.4,
-   "change_pct": -1.42
+   "price": 675.48,
+   "change_pct": -1.84
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 79.34,
-   "change_pct": -0.47
+   "price": 79.53,
+   "change_pct": -0.24
   }
  },
  "movers": [
@@ -24,23 +24,23 @@
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 112.74,
+   "price": 111.15,
    "prev_close": 128.64,
-   "change_pct": -12.4,
+   "change_pct": -13.6,
    "trigger_change": -10.9,
-   "peak_change": -12.4,
+   "peak_change": -13.6,
    "first_seen": "2026-11-13T14:58:00+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 100.65,
-    "change_pct": -0.79
+    "price": 99.92,
+    "change_pct": -1.51
    },
    "chart": {
-    "ema8": -16.2,
-    "ema21": -26.6,
-    "sma50": -42.0,
-    "sma200": -37.1,
+    "ema8": -17.2,
+    "ema21": -27.6,
+    "sma50": -42.9,
+    "sma200": -38.0,
     "momentum": false
    },
    "headlines": [
@@ -96,101 +96,26 @@
    "brief": null
   },
   {
-   "symbol": "AVGO",
-   "name": "Broadcom",
-   "list": "portfolio",
-   "price": 345.32,
-   "prev_close": 364.36,
-   "change_pct": -5.2,
-   "trigger_change": -5.2,
-   "peak_change": -5.2,
-   "first_seen": "2026-11-13T14:58:00+00:00",
-   "sector": {
-    "etf": "SMH",
-    "name": "Semiconductors",
-    "price": 482.38,
-    "change_pct": -3.86
-   },
-   "chart": {
-    "ema8": 2.5,
-    "ema21": 3.0,
-    "sma50": -0.0,
-    "sma200": -6.0,
-    "momentum": true
-   },
-   "headlines": [
-    {
-     "title": "Nvidia, AMD, Microsoft, Broadcom, Coinbase, Modine, and More Stocks That Explain Today's Market -- Barrons.com",
-     "publisher": "Moomoo",
-     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQRzVxZnlBS1A2RXhpcGFFUW9LYTFwWE5JVXlKVkNjTWc3MURyT2ZqRHpmUHYzbVRVZ0M0UFVkZElxYThRRnV5MVNMSzRORFo5aF9NUmN6cEEyUTFkVDNaYXJ3U0d3bS05d2dWeUdqUURQMWlFcmxsVjFMaFYtUWVHeWRpdmdib2p5VXV0dDFfOWpEeVd6cEhxZ2xNZzZ2cHVMZVRfWU1tcDdTWjgxUGFR?oc=5",
-     "time": "2026-11-13T14:59:00+00:00"
-    },
-    {
-     "title": "Broadcom Inc Stock (AVGO) Opened Down by 4.37% on Nov 13: A Full Analysis",
-     "publisher": "TradingKey",
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQWG9CVFhtemtHQmtIaWxGZWttTVY3TWg5SGl6MEVQRERmMk9CcG1jWDA4ZTBibTdwY1hwRFUtVmlKRjZYWF90SFRheVZYUElEVEVzZVdDWjR5SkR4OGR1ajNYb0k1bDlJS2dvWFBpNmFGR0lWbmE2VTdPaHdvS2tEZEl3eVhKOWttdUtj?oc=5",
-     "time": "2026-11-13T14:47:18+00:00"
-    },
-    {
-     "title": "NVIDIA Rises 2% Despite Michael Burry Adding to Chip Shorts; AMD Retreats 3%, Broadcom Slides 2%",
-     "publisher": "24/7 Wall St.",
-     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOMTlGS1JMRjN4R3ZkdHp4bnVtSU5yV0pjOHVGX29JQnh5TGNaTXBZUHJVc3l6SFdLbXhsUjZSVk05YkV1TTZLdUNOWVFmSzZpalh1RnBJeEktXzluMDRWUEFHamRtN1lrSmVJT1VoaENSV1doeVRQSWw0VUxKWTRSSW5yeWJZMXdhdjQxQ0NaQU1hd0d6Ni1JNC0ySjZQclBTSXZabm0yVkE2MHItX1VDZDFBSmtJSjNvZ1ZIMEVBVHczZGRIRlE?oc=5",
-     "time": "2026-11-13T14:15:00+00:00"
-    },
-    {
-     "title": "Broadcom And 2 Other Great Undervalued Tech Stocks To Own",
-     "publisher": "Simply Wall St",
-     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQbk9telRIdUNpRGJvb0FjaWZvNzBIN25FMTNrbHVsU0ZzeXhhY0xNQ2NLbWhPc3dZRkg2cTVjZUZjVXlaUE5rZnR4bWxtamxtYVhiWHAtbVdJU0NIQUpWZE5vN3ozNFBCcDhnUUJyb1dyRGczTnZQd091UzVRM2g1QjNvRG5GYVFGSklwYzhEajVObDJxTnlwV3lPOVhoQlRBTlR5U3UzTW5sejNRTFYzRVNXNnhRVXNETWNYS3B6dUhJMUFsQms5Y25R0gHPAUFVX3lxTE1DcWpmRWlrVFd6Q0tXRWt4aEgtY3RveWNzdDh0WFpuaTA1cXdhRmk3NnJ1bjBQMERYR1c0SENFcF91bGhYRlJnR0dDdWxMdGxWNE5HLWRERjVlMHNJTDJmRVdWNEx2eTUwUURFNDQzQmsyNHZXTW1KZ2xfaXBjdTl3UFpJcU9BcTUyMkRQMkVSdWREMDhOSVJjbG9QbEdHMENGNGxheUpEZnloNlRsbjllSEsyc3hSTkVpdDh4UHdNR2pxVTRFRlpKT3BOdVJHMA?oc=5",
-     "time": "2026-11-13T13:25:51+00:00"
-    },
-    {
-     "title": "Is Broadcom Stock a Buy After Its $43 Billion Anthropic Backstop?",
-     "publisher": "The Motley Fool",
-     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQYlhaT0FnVzVKWFRNQ2sxcWhicHp4TzVheFpjUjZxN2ZwNXlMbWNkVnBtMlVXS3BYcWlUNFpVZ0xrY3ZWNEZoWEpsQVVxdHlxbHlZbHB5MnBnWEc1T1RScUtSbURESGlQRFNneTdJMUQwT0w3Tnc3Sk8yVzJHc0pWbUF0cUNZa29yazE3OGVyNmU3MURrd0pDRktycThDTWdmbm1kdFF4emYxQjYtU0E?oc=5",
-     "time": "2026-11-13T13:21:00+00:00"
-    },
-    {
-     "title": "Broadcom (NASDAQ:AVGO) Stock Gets Downgrade from Rothschild & Co Redburn",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNMmtycHlvRktqVGI0RF9ZVDJwejREYlpZZmlQV3U0VU1PTGlkVm5MX29sYk1HZW9VMGVWWjd6aVUzNUpnY3A2QzQ2Um1MdG5udDRTTTByUm9mekVKbXRkLTF5TE1aZHpPM3U4dFpteV9xbjlsRGZ3T2hBUjFobzZwamlMNDJwb2Y2Mm0zcE5yQ09xWkNWWndsSG1pNzhCcFgxUTY3SHRzVUhqUG1pUTJlalJSSGcwOEFUdmxxY1Z6YW9Ta01rVERkNlBn?oc=5",
-     "time": "2026-11-13T13:12:59+00:00"
-    },
-    {
-     "title": "Broadcom And 2 High Growth Stocks To Watch",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxONTRfWVE5MDU5ZjlvZTlTVzk1QmMzbmdDMnN4T0JlZVdJVjRCTE4xaURTdTY2bnpIZVh2bm5mdDU1eE9xQUgwdU10b2gzR25XYUFHN1QwRXpPeUhWWmg5NVJUaklPN1cxdHYtdXVIdndMMTJHR1NpbTZfOVI4UTYyXzNpVmg5a1dOZG5GaDJaWHhwQnd0UmJickZR?oc=5",
-     "time": "2026-11-13T13:10:01+00:00"
-    },
-    {
-     "title": "What's Going On With AMD Stock Today?",
-     "publisher": "Benzinga",
-     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPeTF5QW83TEd5LXZ2Qy0wbU14bXhrak5pdGEyQklkNnh2U0FnYTc2Um9UUWUwazBCM1Z6QWpsaHJTLTZWM254Q0ZacFRUakwwMWVBVnQtblYxTFozcDVtUjNTY0l2S1BzcFBPRzJuUmNjWGxEVHRvUlV0WU1QcmdqaEVha1IzdFhtLTJlMmRLVl9lQVp3?oc=5",
-     "time": "2026-11-13T12:46:50+00:00"
-    }
-   ],
-   "brief": null
-  },
-  {
    "symbol": "AMAT",
    "name": "Applied Materials",
    "list": "portfolio",
-   "price": 361.45,
+   "price": 358.94,
    "prev_close": 380.95,
-   "change_pct": -5.1,
+   "change_pct": -5.8,
    "trigger_change": -5.1,
-   "peak_change": -5.1,
+   "peak_change": -5.8,
    "first_seen": "2026-11-13T15:03:02+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 482.38,
-    "change_pct": -3.86
+    "price": 478.7,
+    "change_pct": -4.59
    },
    "chart": {
-    "ema8": -2.9,
-    "ema21": -7.6,
-    "sma50": -17.4,
-    "sma200": -19.0,
+    "ema8": -3.4,
+    "ema21": -8.2,
+    "sma50": -18.0,
+    "sma200": -19.6,
     "momentum": false
    },
    "headlines": [
@@ -246,76 +171,151 @@
    "brief": null
   },
   {
-   "symbol": "APP",
-   "name": "AppLovin",
+   "symbol": "AVGO",
+   "name": "Broadcom",
    "list": "portfolio",
-   "price": 408.64,
-   "prev_close": 393.68,
-   "change_pct": 3.8,
-   "trigger_change": 3.9,
-   "peak_change": 3.9,
+   "price": 343.59,
+   "prev_close": 364.36,
+   "change_pct": -5.7,
+   "trigger_change": -5.2,
+   "peak_change": -5.7,
    "first_seen": "2026-11-13T14:58:00+00:00",
    "sector": {
-    "etf": "IGV",
-    "name": "Software",
-    "price": 100.65,
-    "change_pct": -0.79
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 478.7,
+    "change_pct": -4.59
    },
    "chart": {
-    "ema8": 9.3,
-    "ema21": 24.4,
-    "sma50": 35.3,
-    "sma200": 0.7,
+    "ema8": 2.1,
+    "ema21": 2.5,
+    "sma50": -0.5,
+    "sma200": -6.5,
     "momentum": true
    },
    "headlines": [
     {
-     "title": "AppLovin (NASDAQ:APP): A Growth-at-a-Reasonable-Price Candidate",
-     "publisher": "ChartMill",
-     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQOXB5UkVFYWNNT0ZiQ2prQXh4SlY4N1RCSkZfLWRiOW0yWFNNc1BNZVhmZHJrWjFqNkVxWlJlcmZyMTlzSWlHeHBFek1EWlpSalV5Vl83ODJ3cXlnY19lMEJQYU5qazUtUHlmOEZ1ZVQ4YXJ4RzhuMVE3ZXZSdDdqdlNlLVJfMEFyMkxtVUpyQWdkUkw5V3VkLWZmNVliN0ZsclRtcW0xc21MMWZRaGk4?oc=5",
-     "time": "2026-11-13T12:20:53+00:00"
+     "title": "Nvidia, AMD, Microsoft, Broadcom, Coinbase, Modine, and More Stocks That Explain Today's Market -- Barrons.com",
+     "publisher": "Moomoo",
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQRzVxZnlBS1A2RXhpcGFFUW9LYTFwWE5JVXlKVkNjTWc3MURyT2ZqRHpmUHYzbVRVZ0M0UFVkZElxYThRRnV5MVNMSzRORFo5aF9NUmN6cEEyUTFkVDNaYXJ3U0d3bS05d2dWeUdqUURQMWlFcmxsVjFMaFYtUWVHeWRpdmdib2p5VXV0dDFfOWpEeVd6cEhxZ2xNZzZ2cHVMZVRfWU1tcDdTWjgxUGFR?oc=5",
+     "time": "2026-11-13T14:59:00+00:00"
     },
     {
-     "title": "ETFs Are Net Sellers of AppLovin (APP) on Nov. 11",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNQUNTcnBIYlJNRExEVXRvR0VnWDc4QkxpMGRNa0xfcEh2aXZuLXZRei1rbGRMQ0dMRVZpT3JLUWRGY3FmaDNpRlVlUTZSQm1naGw0Y29OX251QVY0SkpiS0tyNDFoYXUwTlJUVHM1ZFF2QzdDWkVYZFowajdteG1OeDNSOFNrWkRFS3ZqbS1WY0lrSlh6R3p6bXB3?oc=5",
-     "time": "2026-11-13T11:02:35+00:00"
+     "title": "Broadcom Inc Stock (AVGO) Opened Down by 4.37% on Nov 13: A Full Analysis",
+     "publisher": "TradingKey",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQWG9CVFhtemtHQmtIaWxGZWttTVY3TWg5SGl6MEVQRERmMk9CcG1jWDA4ZTBibTdwY1hwRFUtVmlKRjZYWF90SFRheVZYUElEVEVzZVdDWjR5SkR4OGR1ajNYb0k1bDlJS2dvWFBpNmFGR0lWbmE2VTdPaHdvS2tEZEl3eVhKOWttdUtj?oc=5",
+     "time": "2026-11-13T14:47:18+00:00"
     },
     {
-     "title": "APP Stock Quote Price and Forecast",
-     "publisher": "CNN",
-     "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1iU3VMcG9rX0FDREw3LW9RUG5iU1J4MkZPM1ZaOUFOZGpBUEYyWFFBWTdVTjhZcnB3aWRiRXJ2YnFDZlE1SXdvSXlqX1ZYVTA?oc=5",
-     "time": "2026-11-13T08:51:09+00:00"
-    },
-    {
-     "title": "AppLovin Just Ripped 47% in a Month: Is It Too Late to Buy APP Stock Now?",
+     "title": "NVIDIA Rises 2% Despite Michael Burry Adding to Chip Shorts; AMD Retreats 3%, Broadcom Slides 2%",
      "publisher": "24/7 Wall St.",
-     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQN0l0MUh2XzhCNHMyaFBqSm11V1hPcDhqdEVLZlozLVItdG9tNVNESHduVDB3dVVnN2xHOHd1anJua0diTmRmUllPVWZKM1JrWWMzWlgxY2pHMEZ5V1JqWlRwM3NiWktfV1BDM0pyelJUMlRwdjY4YXEtcGhuS1ZUbFpvb3BRUUZtb3V2RGNvN05xMXlSUFQ2dFVhbTBEZlBtS2FLU21vc3ZNU0hBQURGNlFhc3E?oc=5",
-     "time": "2026-11-12T20:05:00+00:00"
+     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOMTlGS1JMRjN4R3ZkdHp4bnVtSU5yV0pjOHVGX29JQnh5TGNaTXBZUHJVc3l6SFdLbXhsUjZSVk05YkV1TTZLdUNOWVFmSzZpalh1RnBJeEktXzluMDRWUEFHamRtN1lrSmVJT1VoaENSV1doeVRQSWw0VUxKWTRSSW5yeWJZMXdhdjQxQ0NaQU1hd0d6Ni1JNC0ySjZQclBTSXZabm0yVkE2MHItX1VDZDFBSmtJSjNvZ1ZIMEVBVHczZGRIRlE?oc=5",
+     "time": "2026-11-13T14:15:00+00:00"
     },
     {
-     "title": "AppLovin (APP) Stock Dips Amid Low Options Activity and Rising I",
-     "publisher": "GuruFocus",
-     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOOGF2d0t0NlhUeFQyYzBlOHdqSVExS1BIdzRTVlNFd2F6R1pHd1F5c1FoSHk1Skh6S21mTTRwWjB3LUEyOWZOTjFLeFdLNHR6VVJtX0FzZGNhS3M4Wl93NW9scUwyR1hQYk9aN2tvWmFjVUdjZFd1SHl2amRfLWJJb3JWaVRNWF9icjgtTWk3WHg5b2xhN0M1RHNNenQwRE1HN2Z2TVBZaXZ4TmIyUHJIemVzMnNKMjBKU3c?oc=5",
-     "time": "2026-11-12T17:14:45+00:00"
+     "title": "Broadcom And 2 Other Great Undervalued Tech Stocks To Own",
+     "publisher": "Simply Wall St",
+     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQbk9telRIdUNpRGJvb0FjaWZvNzBIN25FMTNrbHVsU0ZzeXhhY0xNQ2NLbWhPc3dZRkg2cTVjZUZjVXlaUE5rZnR4bWxtamxtYVhiWHAtbVdJU0NIQUpWZE5vN3ozNFBCcDhnUUJyb1dyRGczTnZQd091UzVRM2g1QjNvRG5GYVFGSklwYzhEajVObDJxTnlwV3lPOVhoQlRBTlR5U3UzTW5sejNRTFYzRVNXNnhRVXNETWNYS3B6dUhJMUFsQms5Y25R0gHPAUFVX3lxTE1DcWpmRWlrVFd6Q0tXRWt4aEgtY3RveWNzdDh0WFpuaTA1cXdhRmk3NnJ1bjBQMERYR1c0SENFcF91bGhYRlJnR0dDdWxMdGxWNE5HLWRERjVlMHNJTDJmRVdWNEx2eTUwUURFNDQzQmsyNHZXTW1KZ2xfaXBjdTl3UFpJcU9BcTUyMkRQMkVSdWREMDhOSVJjbG9QbEdHMENGNGxheUpEZnloNlRsbjllSEsyc3hSTkVpdDh4UHdNR2pxVTRFRlpKT3BOdVJHMA?oc=5",
+     "time": "2026-11-13T13:25:51+00:00"
     },
     {
-     "title": "AppLovin: Valuation Trumps Execution (Rating Downgrade) (APP)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQelZ0Qy04d1lfckFLSkNPSG0talNfOXdwWUZPdEllX1BHamxvWUI0dmlCaTY2SmhpMml1Y25Sdzc3UURnOWN6ZTN0WlN4QW5kZVlYOWNqcHM2SFhvcEtXTUN4V0xwa25fYURtWkFSV19ZWlNtNEpmOFJoQ0YyZTAtN1cwVHkxMmhsQTZrdW8yaFB6MV80ZnFHSg?oc=5",
-     "time": "2026-11-12T16:24:40+00:00"
+     "title": "Is Broadcom Stock a Buy After Its $43 Billion Anthropic Backstop?",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQYlhaT0FnVzVKWFRNQ2sxcWhicHp4TzVheFpjUjZxN2ZwNXlMbWNkVnBtMlVXS3BYcWlUNFpVZ0xrY3ZWNEZoWEpsQVVxdHlxbHlZbHB5MnBnWEc1T1RScUtSbURESGlQRFNneTdJMUQwT0w3Tnc3Sk8yVzJHc0pWbUF0cUNZa29yazE3OGVyNmU3MURrd0pDRktycThDTWdmbm1kdFF4emYxQjYtU0E?oc=5",
+     "time": "2026-11-13T13:21:00+00:00"
     },
     {
-     "title": "Did You Lose Money on AppLovin Corporation Stock? Faruqi & Faruqi",
-     "publisher": "The National Law Review",
-     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPSmVKM082dzZramFvUTdGcVZXX3NTZTNqMFp2blFNZlFzRTBIVThLS1BWTU5LSlJ4al8yZ0FHTTBoam9NQmhhY0xyTFRQV1FBUF8zN1ZZU05ERXpCX0ZYeFZDdjJWUFI5WUV6QW0wdUplUWNILVQ5X21vN2Vfa181R1Q3R1BabDVsMHhUeDBacmg4TnQ4Qi1ZcWpocmVSNjBNVWMyckI5ZHpLeFR6MUx5MQ?oc=5",
-     "time": "2026-11-12T15:38:31+00:00"
+     "title": "Broadcom (NASDAQ:AVGO) Stock Gets Downgrade from Rothschild & Co Redburn",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNMmtycHlvRktqVGI0RF9ZVDJwejREYlpZZmlQV3U0VU1PTGlkVm5MX29sYk1HZW9VMGVWWjd6aVUzNUpnY3A2QzQ2Um1MdG5udDRTTTByUm9mekVKbXRkLTF5TE1aZHpPM3U4dFpteV9xbjlsRGZ3T2hBUjFobzZwamlMNDJwb2Y2Mm0zcE5yQ09xWkNWWndsSG1pNzhCcFgxUTY3SHRzVUhqUG1pUTJlalJSSGcwOEFUdmxxY1Z6YW9Ta01rVERkNlBn?oc=5",
+     "time": "2026-11-13T13:12:59+00:00"
     },
     {
-     "title": "SueWallSt Reminds Shareholders of a Lead Plaintiff Deadline of November 16, 2026 in AppLovin Corporation Lawsuit - APP",
-     "publisher": "PR Newswire",
-     "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNMnJaSmpoUU1LelVLMkV2TFVacFZWY2t0NUhkRjB2RFZTenFtNnVaeGMyTDVkVS1aNXVEM3gyS1JYOTAxMGRrRXNVc1Z6VEp0T3BfeUtOLTVFRDlfaFllVGRJZkl0ZFpkam9Nd3RYRF94Nzh4ZnptR05mVVgzczZGZ1NuMl9TZ1lZUEVtM19fTkZMVnQtUEl2UWtDX1F5bFQ4ZDk2R185OXl6WXZnakREYUJ4QXdCZ1lUajE3RTVzTmF6dEhPR1U1d3RpRjQyYWp0Tm85aXZFYnVCS1Zya0k4VHJQYUExckpibnhtbEw5eFJkWnFYNkN6VWpxS0RZbkdrX2ZB?oc=5",
-     "time": "2026-11-12T15:11:00+00:00"
+     "title": "Broadcom And 2 High Growth Stocks To Watch",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxONTRfWVE5MDU5ZjlvZTlTVzk1QmMzbmdDMnN4T0JlZVdJVjRCTE4xaURTdTY2bnpIZVh2bm5mdDU1eE9xQUgwdU10b2gzR25XYUFHN1QwRXpPeUhWWmg5NVJUaklPN1cxdHYtdXVIdndMMTJHR1NpbTZfOVI4UTYyXzNpVmg5a1dOZG5GaDJaWHhwQnd0UmJickZR?oc=5",
+     "time": "2026-11-13T13:10:01+00:00"
+    },
+    {
+     "title": "What's Going On With AMD Stock Today?",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPeTF5QW83TEd5LXZ2Qy0wbU14bXhrak5pdGEyQklkNnh2U0FnYTc2Um9UUWUwazBCM1Z6QWpsaHJTLTZWM254Q0ZacFRUakwwMWVBVnQtblYxTFozcDVtUjNTY0l2S1BzcFBPRzJuUmNjWGxEVHRvUlV0WU1QcmdqaEVha1IzdFhtLTJlMmRLVl9lQVp3?oc=5",
+     "time": "2026-11-13T12:46:50+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
+   "symbol": "ANET",
+   "name": "Arista Networks",
+   "list": "portfolio",
+   "price": 198.64,
+   "prev_close": 206.63,
+   "change_pct": -3.9,
+   "trigger_change": -3.6,
+   "peak_change": -3.9,
+   "first_seen": "2026-11-13T15:03:02+00:00",
+   "sector": {
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 478.7,
+    "change_pct": -4.59
+   },
+   "chart": {
+    "ema8": 4.7,
+    "ema21": 6.7,
+    "sma50": 2.9,
+    "sma200": 18.7,
+    "momentum": true
+   },
+   "headlines": [
+    {
+     "title": "Here's How Much You'd Have If You Invested $1000 in Arista Networks a Decade Ago",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNQ0hkYWVHZ2EwS2VUcEtNTHhNLUdpVC1rUUJRdngxLXRxODNiLVBVS3N2bzlodkVmdnBYZS1PRDExV1gxYVc2Sl9feXhlRFkyMzEzc19hZmNYVDExQlJhdWVZcXRmWUJUSWNEWWxwdzdiRVhyeUhZcXNWdGJUQ2VNTzA2RllERThSUUJfNGQ5X1pEZTdpVDlnLXdR?oc=5",
+     "time": "2026-11-13T12:30:02+00:00"
+    },
+    {
+     "title": "What Did Arista Networks Stock Investors Miss Before The Run?",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQV1ByQ1ZCSGwwN1ZwR1FnTW9JUTR6RnpwR3ljdmhSbjJTU0lFVjlicDBBZGpQcHN4dzlMUmRHbExKS3BrcS1qaDJBbHI5cy1KTEhuUnBLRUtDdmdrb1RYV1R6Ykp6bndOdVJfSG11U0pJYUVGeVRsWUl0d1R6UVh3Vzk1ZW0wd0tRb2pMT3JRQ3pVd2lGR0ZRU25xck94bWIyZFE?oc=5",
+     "time": "2026-11-13T12:12:51+00:00"
+    },
+    {
+     "title": "Arista Networks, Inc. $ANET Stock: Russell Investments Group Ltd. Trims Stake",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPb29vc2dkY1E1czdWaUFqclJRNkpQRGxvT1d2Yk9NOUFvVHJzT1Z1VlE2VEhVSHB3QnNwZVZ3dUQ4cW91VmVPVmZzVjR6NjJaR2t4cHM2UHcxdVA5M05KTU92VVdGTXA2eVBaX2RnUTc3ZVpVZWdUTU90R3YtSmlSZmViRmk2WTlqVnV4b19UcmhzSm1qZmkwYWtTS21xT2NqLUNkVXdPWm1URkdkOWxzMzNUMGJkUE9SQXlnVVZuUlcxb0lSNEZId21td1RMQQ?oc=5",
+     "time": "2026-11-13T11:08:13+00:00"
+    },
+    {
+     "title": "Management Raised the Bar For Arista Networks Stock; Does The Chart Agree?",
+     "publisher": "Trefis",
+     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNSWtMcy1NN01UcE1yZVZrRWdLYUdIaWNwcW4wWEoxR042dmN1MTRIa0lSbGp0bXlSQUYxSUtia21nQUFMc1lpdElDWmc4U3o1cXlrZG9BT1AtUW03aGRfcDQwSU0wNXREWTlraDhETFZ5U0RETDktMVZxdGZCTll2bWpfRmN0bVRmWkdfcUVNcC16ZVhKaElhLUoxLUc0ckxVWGlxTThHQW9uQkxkR3QtMkUteGRxZ1UyRXdicWMweHgtV1VOR0hOQVZUUWJzZw?oc=5",
+     "time": "2026-11-13T10:56:32+00:00"
+    },
+    {
+     "title": "Arista Networks (ANET) Stock: $206.63, Up 5.06% Nov 12",
+     "publisher": "JournalArta",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOd25hS2l5bU1RNDg5b3o3cHktQkcydTRiLURJaWhLN3I3V3h6MUtvZ3dxTGVqR0hJYWxwYlJlNkVRMGFMd1MxZ1BZc1NLcm5YNnpjNDQzX0JtbnBocG1iT3dWZWJxNURkOEM4Y041d0dBOUFfa3QzdmZXdV9zUkd5NnBNeEdCNTk5ckV6VmRsV3ZaMVVLekZhUk9qc2NlVmJqRDF3NV9PbUF1Y3lidVJDbFJn?oc=5",
+     "time": "2026-11-13T10:09:08+00:00"
+    },
+    {
+     "title": "Arista Networks, Inc. $ANET Stock Position Increased by Eurizon Capital SGR S.p.A.",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNeUtnb3dRU0VCQ2ZpQW5jcUI4VGFKWjd5cUhYaWZVbFZybHdQa2FTbnVXNGc4a0lSS1M3SjFCSjhhUnc1ZU9hMkdydWtMVkRBMGNaN0N0LVJUQUlkM3RJcjcyeWN3YklqTk03ejJCblFBWWNfSmZzVzhWSGZ2eW1SQ2phdDVaWGM5Mk5XZ2dsZmRwb0dfU3ZBWm5yRUdDZTVtRzNtUlRNeC1HQ3ZMbWxUM0RDRHpOVEFObmVJN19kelpFcHJKZ2hlcThGdEtFX3FmVTBz?oc=5",
+     "time": "2026-11-13T09:16:53+00:00"
+    },
+    {
+     "title": "Arista Networks And 2 Other Fast Growing Insider Stocks",
+     "publisher": "Simply Wall St",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPcHN0UFBYNy1SM1JoRURaSUpCX2hjMmN2aUF2U05tRTBSWjRrZEJfWjR2X0c0SFMzYkQ5RnBfcDBwdVg5dG5sQk84d0czaUVpUGtKYjJtRW9KTUJZNUF4dUpzZ3pSSmFna0dfeHcyNzM2OEF5aWx5UlJjTDdFRGZjLWM2WXJZN1E5dUtJVHdDSkZPUmg2YkEtV0xmWWtyb29yTWlTVmY1TmZQMXppeHlhc1ZfdTVyUnBHUV9jMmxEZlXSAcYBQVVfeXFMTmNCVlU1blBIaFE5bXBuRTN4MWM1eG9jbE85aWsxV0JaN3BaeDlUbWx5cXo5V1Fna0o2bUNwZUxCclg3WTJMeW15MkdEV2h2el8tYi1YUHNMN2RQX1pONDYtd1hBeXJVbGhGMkxoQUszcDRPaVItM2ZfckJUbFVnd0NhZWFVUzZHRGUxaEFRRU1keDhoRG1SZ0xiWlRUbkhSWVZOeW83dlhfS1NwdlhNa1dodUZaUktFWTJrQ1d2YVM5Zl8xT1Nn?oc=5",
+     "time": "2026-11-13T00:29:04+00:00"
+    },
+    {
+     "title": "Piper Sandler\u2019s James Fish Calls Arista Networks (ANET) a Top Pick. Here\u2019s What He Sees Ahead",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQd0gwV1lXS24xQktMbE5ab0RTckU0c1dYaGhGNkNMSTNkMXZPb01NUnNBWmVSQ0ZFTF9QUkl6V1V3MXV1M3lldWhCVHI5UFZ4dmktQzdIRk12RDFlNW11SlkxTVFsVldHYnh4elIyNVpKSHllell1WXhSNERzV3ZfeWxCS0IwQnRYLXp0enN0ZVZUTXVxM1daOGFXTQ?oc=5",
+     "time": "2026-11-12T23:11:55+00:00"
     }
    ],
    "brief": null
@@ -324,7 +324,7 @@
    "symbol": "BTC-USD",
    "name": "Bitcoin",
    "list": "watchlist",
-   "price": 68721.9,
+   "price": 68714.9,
    "prev_close": 71370.7,
    "change_pct": -3.7,
    "trigger_change": -3.5,
@@ -391,76 +391,76 @@
    "brief": null
   },
   {
-   "symbol": "ANET",
-   "name": "Arista Networks",
+   "symbol": "APP",
+   "name": "AppLovin",
    "list": "portfolio",
-   "price": 199.12,
-   "prev_close": 206.63,
-   "change_pct": -3.6,
-   "trigger_change": -3.6,
-   "peak_change": -3.6,
-   "first_seen": "2026-11-13T15:03:02+00:00",
+   "price": 407.69,
+   "prev_close": 393.68,
+   "change_pct": 3.6,
+   "trigger_change": 3.9,
+   "peak_change": 3.9,
+   "first_seen": "2026-11-13T14:58:00+00:00",
    "sector": {
-    "etf": "SMH",
-    "name": "Semiconductors",
-    "price": 482.38,
-    "change_pct": -3.86
+    "etf": "IGV",
+    "name": "Software",
+    "price": 99.92,
+    "change_pct": -1.51
    },
    "chart": {
-    "ema8": 4.9,
-    "ema21": 7.0,
-    "sma50": 3.2,
-    "sma200": 19.0,
+    "ema8": 9.1,
+    "ema21": 24.1,
+    "sma50": 35.0,
+    "sma200": 0.5,
     "momentum": true
    },
    "headlines": [
     {
-     "title": "Here's How Much You'd Have If You Invested $1000 in Arista Networks a Decade Ago",
+     "title": "AppLovin (NASDAQ:APP): A Growth-at-a-Reasonable-Price Candidate",
+     "publisher": "ChartMill",
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQOXB5UkVFYWNNT0ZiQ2prQXh4SlY4N1RCSkZfLWRiOW0yWFNNc1BNZVhmZHJrWjFqNkVxWlJlcmZyMTlzSWlHeHBFek1EWlpSalV5Vl83ODJ3cXlnY19lMEJQYU5qazUtUHlmOEZ1ZVQ4YXJ4RzhuMVE3ZXZSdDdqdlNlLVJfMEFyMkxtVUpyQWdkUkw5V3VkLWZmNVliN0ZsclRtcW0xc21MMWZRaGk4?oc=5",
+     "time": "2026-11-13T12:20:53+00:00"
+    },
+    {
+     "title": "ETFs Are Net Sellers of AppLovin (APP) on Nov. 11",
      "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNQ0hkYWVHZ2EwS2VUcEtNTHhNLUdpVC1rUUJRdngxLXRxODNiLVBVS3N2bzlodkVmdnBYZS1PRDExV1gxYVc2Sl9feXhlRFkyMzEzc19hZmNYVDExQlJhdWVZcXRmWUJUSWNEWWxwdzdiRVhyeUhZcXNWdGJUQ2VNTzA2RllERThSUUJfNGQ5X1pEZTdpVDlnLXdR?oc=5",
-     "time": "2026-11-13T12:30:02+00:00"
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNQUNTcnBIYlJNRExEVXRvR0VnWDc4QkxpMGRNa0xfcEh2aXZuLXZRei1rbGRMQ0dMRVZpT3JLUWRGY3FmaDNpRlVlUTZSQm1naGw0Y29OX251QVY0SkpiS0tyNDFoYXUwTlJUVHM1ZFF2QzdDWkVYZFowajdteG1OeDNSOFNrWkRFS3ZqbS1WY0lrSlh6R3p6bXB3?oc=5",
+     "time": "2026-11-13T11:02:35+00:00"
     },
     {
-     "title": "What Did Arista Networks Stock Investors Miss Before The Run?",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQV1ByQ1ZCSGwwN1ZwR1FnTW9JUTR6RnpwR3ljdmhSbjJTU0lFVjlicDBBZGpQcHN4dzlMUmRHbExKS3BrcS1qaDJBbHI5cy1KTEhuUnBLRUtDdmdrb1RYV1R6Ykp6bndOdVJfSG11U0pJYUVGeVRsWUl0d1R6UVh3Vzk1ZW0wd0tRb2pMT3JRQ3pVd2lGR0ZRU25xck94bWIyZFE?oc=5",
-     "time": "2026-11-13T12:12:51+00:00"
+     "title": "APP Stock Quote Price and Forecast",
+     "publisher": "CNN",
+     "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1iU3VMcG9rX0FDREw3LW9RUG5iU1J4MkZPM1ZaOUFOZGpBUEYyWFFBWTdVTjhZcnB3aWRiRXJ2YnFDZlE1SXdvSXlqX1ZYVTA?oc=5",
+     "time": "2026-11-13T08:51:09+00:00"
     },
     {
-     "title": "Arista Networks, Inc. $ANET Stock: Russell Investments Group Ltd. Trims Stake",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPb29vc2dkY1E1czdWaUFqclJRNkpQRGxvT1d2Yk9NOUFvVHJzT1Z1VlE2VEhVSHB3QnNwZVZ3dUQ4cW91VmVPVmZzVjR6NjJaR2t4cHM2UHcxdVA5M05KTU92VVdGTXA2eVBaX2RnUTc3ZVpVZWdUTU90R3YtSmlSZmViRmk2WTlqVnV4b19UcmhzSm1qZmkwYWtTS21xT2NqLUNkVXdPWm1URkdkOWxzMzNUMGJkUE9SQXlnVVZuUlcxb0lSNEZId21td1RMQQ?oc=5",
-     "time": "2026-11-13T11:08:13+00:00"
+     "title": "AppLovin Just Ripped 47% in a Month: Is It Too Late to Buy APP Stock Now?",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQN0l0MUh2XzhCNHMyaFBqSm11V1hPcDhqdEVLZlozLVItdG9tNVNESHduVDB3dVVnN2xHOHd1anJua0diTmRmUllPVWZKM1JrWWMzWlgxY2pHMEZ5V1JqWlRwM3NiWktfV1BDM0pyelJUMlRwdjY4YXEtcGhuS1ZUbFpvb3BRUUZtb3V2RGNvN05xMXlSUFQ2dFVhbTBEZlBtS2FLU21vc3ZNU0hBQURGNlFhc3E?oc=5",
+     "time": "2026-11-12T20:05:00+00:00"
     },
     {
-     "title": "Management Raised the Bar For Arista Networks Stock; Does The Chart Agree?",
-     "publisher": "Trefis",
-     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNSWtMcy1NN01UcE1yZVZrRWdLYUdIaWNwcW4wWEoxR042dmN1MTRIa0lSbGp0bXlSQUYxSUtia21nQUFMc1lpdElDWmc4U3o1cXlrZG9BT1AtUW03aGRfcDQwSU0wNXREWTlraDhETFZ5U0RETDktMVZxdGZCTll2bWpfRmN0bVRmWkdfcUVNcC16ZVhKaElhLUoxLUc0ckxVWGlxTThHQW9uQkxkR3QtMkUteGRxZ1UyRXdicWMweHgtV1VOR0hOQVZUUWJzZw?oc=5",
-     "time": "2026-11-13T10:56:32+00:00"
+     "title": "AppLovin (APP) Stock Dips Amid Low Options Activity and Rising I",
+     "publisher": "GuruFocus",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOOGF2d0t0NlhUeFQyYzBlOHdqSVExS1BIdzRTVlNFd2F6R1pHd1F5c1FoSHk1Skh6S21mTTRwWjB3LUEyOWZOTjFLeFdLNHR6VVJtX0FzZGNhS3M4Wl93NW9scUwyR1hQYk9aN2tvWmFjVUdjZFd1SHl2amRfLWJJb3JWaVRNWF9icjgtTWk3WHg5b2xhN0M1RHNNenQwRE1HN2Z2TVBZaXZ4TmIyUHJIemVzMnNKMjBKU3c?oc=5",
+     "time": "2026-11-12T17:14:45+00:00"
     },
     {
-     "title": "Arista Networks (ANET) Stock: $206.63, Up 5.06% Nov 12",
-     "publisher": "JournalArta",
-     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOd25hS2l5bU1RNDg5b3o3cHktQkcydTRiLURJaWhLN3I3V3h6MUtvZ3dxTGVqR0hJYWxwYlJlNkVRMGFMd1MxZ1BZc1NLcm5YNnpjNDQzX0JtbnBocG1iT3dWZWJxNURkOEM4Y041d0dBOUFfa3QzdmZXdV9zUkd5NnBNeEdCNTk5ckV6VmRsV3ZaMVVLekZhUk9qc2NlVmJqRDF3NV9PbUF1Y3lidVJDbFJn?oc=5",
-     "time": "2026-11-13T10:09:08+00:00"
+     "title": "AppLovin: Valuation Trumps Execution (Rating Downgrade) (APP)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQelZ0Qy04d1lfckFLSkNPSG0talNfOXdwWUZPdEllX1BHamxvWUI0dmlCaTY2SmhpMml1Y25Sdzc3UURnOWN6ZTN0WlN4QW5kZVlYOWNqcHM2SFhvcEtXTUN4V0xwa25fYURtWkFSV19ZWlNtNEpmOFJoQ0YyZTAtN1cwVHkxMmhsQTZrdW8yaFB6MV80ZnFHSg?oc=5",
+     "time": "2026-11-12T16:24:40+00:00"
     },
     {
-     "title": "Arista Networks, Inc. $ANET Stock Position Increased by Eurizon Capital SGR S.p.A.",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNeUtnb3dRU0VCQ2ZpQW5jcUI4VGFKWjd5cUhYaWZVbFZybHdQa2FTbnVXNGc4a0lSS1M3SjFCSjhhUnc1ZU9hMkdydWtMVkRBMGNaN0N0LVJUQUlkM3RJcjcyeWN3YklqTk03ejJCblFBWWNfSmZzVzhWSGZ2eW1SQ2phdDVaWGM5Mk5XZ2dsZmRwb0dfU3ZBWm5yRUdDZTVtRzNtUlRNeC1HQ3ZMbWxUM0RDRHpOVEFObmVJN19kelpFcHJKZ2hlcThGdEtFX3FmVTBz?oc=5",
-     "time": "2026-11-13T09:16:53+00:00"
+     "title": "Did You Lose Money on AppLovin Corporation Stock? Faruqi & Faruqi",
+     "publisher": "The National Law Review",
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPSmVKM082dzZramFvUTdGcVZXX3NTZTNqMFp2blFNZlFzRTBIVThLS1BWTU5LSlJ4al8yZ0FHTTBoam9NQmhhY0xyTFRQV1FBUF8zN1ZZU05ERXpCX0ZYeFZDdjJWUFI5WUV6QW0wdUplUWNILVQ5X21vN2Vfa181R1Q3R1BabDVsMHhUeDBacmg4TnQ4Qi1ZcWpocmVSNjBNVWMyckI5ZHpLeFR6MUx5MQ?oc=5",
+     "time": "2026-11-12T15:38:31+00:00"
     },
     {
-     "title": "Arista Networks And 2 Other Fast Growing Insider Stocks",
-     "publisher": "Simply Wall St",
-     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPcHN0UFBYNy1SM1JoRURaSUpCX2hjMmN2aUF2U05tRTBSWjRrZEJfWjR2X0c0SFMzYkQ5RnBfcDBwdVg5dG5sQk84d0czaUVpUGtKYjJtRW9KTUJZNUF4dUpzZ3pSSmFna0dfeHcyNzM2OEF5aWx5UlJjTDdFRGZjLWM2WXJZN1E5dUtJVHdDSkZPUmg2YkEtV0xmWWtyb29yTWlTVmY1TmZQMXppeHlhc1ZfdTVyUnBHUV9jMmxEZlXSAcYBQVVfeXFMTmNCVlU1blBIaFE5bXBuRTN4MWM1eG9jbE85aWsxV0JaN3BaeDlUbWx5cXo5V1Fna0o2bUNwZUxCclg3WTJMeW15MkdEV2h2el8tYi1YUHNMN2RQX1pONDYtd1hBeXJVbGhGMkxoQUszcDRPaVItM2ZfckJUbFVnd0NhZWFVUzZHRGUxaEFRRU1keDhoRG1SZ0xiWlRUbkhSWVZOeW83dlhfS1NwdlhNa1dodUZaUktFWTJrQ1d2YVM5Zl8xT1Nn?oc=5",
-     "time": "2026-11-13T00:29:04+00:00"
-    },
-    {
-     "title": "Piper Sandler\u2019s James Fish Calls Arista Networks (ANET) a Top Pick. Here\u2019s What He Sees Ahead",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQd0gwV1lXS24xQktMbE5ab0RTckU0c1dYaGhGNkNMSTNkMXZPb01NUnNBWmVSQ0ZFTF9QUkl6V1V3MXV1M3lldWhCVHI5UFZ4dmktQzdIRk12RDFlNW11SlkxTVFsVldHYnh4elIyNVpKSHllell1WXhSNERzV3ZfeWxCS0IwQnRYLXp0enN0ZVZUTXVxM1daOGFXTQ?oc=5",
-     "time": "2026-11-12T23:11:55+00:00"
+     "title": "SueWallSt Reminds Shareholders of a Lead Plaintiff Deadline of November 16, 2026 in AppLovin Corporation Lawsuit - APP",
+     "publisher": "PR Newswire",
+     "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNMnJaSmpoUU1LelVLMkV2TFVacFZWY2t0NUhkRjB2RFZTenFtNnVaeGMyTDVkVS1aNXVEM3gyS1JYOTAxMGRrRXNVc1Z6VEp0T3BfeUtOLTVFRDlfaFllVGRJZkl0ZFpkam9Nd3RYRF94Nzh4ZnptR05mVVgzczZGZ1NuMl9TZ1lZUEVtM19fTkZMVnQtUEl2UWtDX1F5bFQ4ZDk2R185OXl6WXZnakREYUJ4QXdCZ1lUajE3RTVzTmF6dEhPR1U1d3RpRjQyYWp0Tm85aXZFYnVCS1Zya0k4VHJQYUExckpibnhtbEw5eFJkWnFYNkN6VWpxS0RZbkdrX2ZB?oc=5",
+     "time": "2026-11-12T15:11:00+00:00"
     }
    ],
    "brief": null
