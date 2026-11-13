@@ -1,17 +1,17 @@
 {
  "date": "2026-11-13",
  "threshold": 3.0,
- "updated": "2026-11-13T16:34:20+00:00",
+ "updated": "2026-11-13T16:44:25+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 751.25,
-   "change_pct": -0.78
+   "price": 749.75,
+   "change_pct": -0.97
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 676.07,
-   "change_pct": -1.76
+   "price": 673.7,
+   "change_pct": -2.1
   },
   "TLT": {
    "name": "Long Treasuries",
@@ -24,23 +24,23 @@
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 116.19,
+   "price": 115.81,
    "prev_close": 128.64,
-   "change_pct": -9.7,
+   "change_pct": -10.0,
    "trigger_change": -10.9,
    "peak_change": -14.8,
    "first_seen": "2026-11-13T14:58:00+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 100.56,
-    "change_pct": -0.87
+    "price": 100.45,
+    "change_pct": -0.99
    },
    "chart": {
-    "ema8": -14.1,
-    "ema21": -24.5,
-    "sma50": -40.3,
-    "sma200": -35.2,
+    "ema8": -14.4,
+    "ema21": -24.8,
+    "sma50": -40.5,
+    "sma200": -35.4,
     "momentum": false
    },
    "headlines": [
@@ -99,23 +99,23 @@
    "symbol": "AVGO",
    "name": "Broadcom",
    "list": "portfolio",
-   "price": 342.49,
+   "price": 341.3,
    "prev_close": 364.36,
-   "change_pct": -6.0,
+   "change_pct": -6.3,
    "trigger_change": -5.2,
    "peak_change": -7.0,
    "first_seen": "2026-11-13T14:58:00+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 479.73,
-    "change_pct": -4.38
+    "price": 477.35,
+    "change_pct": -4.86
    },
    "chart": {
-    "ema8": 1.9,
-    "ema21": 2.2,
-    "sma50": -0.8,
-    "sma200": -6.8,
+    "ema8": 1.6,
+    "ema21": 1.9,
+    "sma50": -1.1,
+    "sma200": -7.1,
     "momentum": true
    },
    "headlines": [
@@ -174,23 +174,23 @@
    "symbol": "AMAT",
    "name": "Applied Materials",
    "list": "portfolio",
-   "price": 360.08,
+   "price": 357.63,
    "prev_close": 380.95,
-   "change_pct": -5.5,
+   "change_pct": -6.1,
    "trigger_change": -5.1,
    "peak_change": -6.9,
    "first_seen": "2026-11-13T15:03:02+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 479.73,
-    "change_pct": -4.38
+    "price": 477.35,
+    "change_pct": -4.86
    },
    "chart": {
-    "ema8": -3.2,
-    "ema21": -7.9,
-    "sma50": -17.7,
-    "sma200": -19.4,
+    "ema8": -3.7,
+    "ema21": -8.5,
+    "sma50": -18.3,
+    "sma200": -19.9,
     "momentum": false
    },
    "headlines": [
@@ -249,23 +249,23 @@
    "symbol": "ANET",
    "name": "Arista Networks",
    "list": "portfolio",
-   "price": 197.6,
+   "price": 197.42,
    "prev_close": 206.63,
-   "change_pct": -4.4,
+   "change_pct": -4.5,
    "trigger_change": -3.6,
    "peak_change": -5.3,
    "first_seen": "2026-11-13T15:03:02+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 479.73,
-    "change_pct": -4.38
+    "price": 477.35,
+    "change_pct": -4.86
    },
    "chart": {
-    "ema8": 4.3,
-    "ema21": 6.2,
-    "sma50": 2.4,
-    "sma200": 18.1,
+    "ema8": 4.2,
+    "ema21": 6.1,
+    "sma50": 2.3,
+    "sma200": 18.0,
     "momentum": true
    },
    "headlines": [
@@ -321,96 +321,21 @@
    "brief": "2026-11-13-ANET"
   },
   {
-   "symbol": "APP",
-   "name": "AppLovin",
-   "list": "portfolio",
-   "price": 410.37,
-   "prev_close": 393.68,
-   "change_pct": 4.2,
-   "trigger_change": 3.9,
-   "peak_change": 4.2,
-   "first_seen": "2026-11-13T14:58:00+00:00",
-   "sector": {
-    "etf": "IGV",
-    "name": "Software",
-    "price": 100.56,
-    "change_pct": -0.87
-   },
-   "chart": {
-    "ema8": 9.7,
-    "ema21": 24.8,
-    "sma50": 35.8,
-    "sma200": 1.1,
-    "momentum": true
-   },
-   "headlines": [
-    {
-     "title": "AppLovin (APP) Shares Rise 3.9% Amid Market Volatility and Infla",
-     "publisher": "GuruFocus",
-     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPUDZpNk80aXR0N0drbHVzcUdqaVZMcU0teVBod1lWV3VvVi1wVVlXakVGckVnNE1aSy1wcGl1YlRyNGRPUnJob3MtcGNnSmxFRDhVamhMQ2I1dHNtRVhpMldMU1lrelhwdTNtcjZDbXR6YkJSWVhpYUZyNks1OC1NbEhEdmtZcjJlV3dfWUtwc1QxZ1YyellqUTVMWGtLMXA3aEhsN2dDamE5aW1t?oc=5",
-     "time": "2026-11-13T16:04:57+00:00"
-    },
-    {
-     "title": "AppLovin (NASDAQ:APP): A Growth-at-a-Reasonable-Price Candidate",
-     "publisher": "ChartMill",
-     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQOXB5UkVFYWNNT0ZiQ2prQXh4SlY4N1RCSkZfLWRiOW0yWFNNc1BNZVhmZHJrWjFqNkVxWlJlcmZyMTlzSWlHeHBFek1EWlpSalV5Vl83ODJ3cXlnY19lMEJQYU5qazUtUHlmOEZ1ZVQ4YXJ4RzhuMVE3ZXZSdDdqdlNlLVJfMEFyMkxtVUpyQWdkUkw5V3VkLWZmNVliN0ZsclRtcW0xc21MMWZRaGk4?oc=5",
-     "time": "2026-11-13T12:20:53+00:00"
-    },
-    {
-     "title": "ETFs Are Net Sellers of AppLovin (APP) on Nov. 11",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNQUNTcnBIYlJNRExEVXRvR0VnWDc4QkxpMGRNa0xfcEh2aXZuLXZRei1rbGRMQ0dMRVZpT3JLUWRGY3FmaDNpRlVlUTZSQm1naGw0Y29OX251QVY0SkpiS0tyNDFoYXUwTlJUVHM1ZFF2QzdDWkVYZFowajdteG1OeDNSOFNrWkRFS3ZqbS1WY0lrSlh6R3p6bXB3?oc=5",
-     "time": "2026-11-13T11:02:35+00:00"
-    },
-    {
-     "title": "APP Stock Quote Price and Forecast",
-     "publisher": "CNN",
-     "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1iU3VMcG9rX0FDREw3LW9RUG5iU1J4MkZPM1ZaOUFOZGpBUEYyWFFBWTdVTjhZcnB3aWRiRXJ2YnFDZlE1SXdvSXlqX1ZYVTA?oc=5",
-     "time": "2026-11-13T08:51:09+00:00"
-    },
-    {
-     "title": "AppLovin Just Ripped 47% in a Month: Is It Too Late to Buy APP Stock Now?",
-     "publisher": "24/7 Wall St.",
-     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQN0l0MUh2XzhCNHMyaFBqSm11V1hPcDhqdEVLZlozLVItdG9tNVNESHduVDB3dVVnN2xHOHd1anJua0diTmRmUllPVWZKM1JrWWMzWlgxY2pHMEZ5V1JqWlRwM3NiWktfV1BDM0pyelJUMlRwdjY4YXEtcGhuS1ZUbFpvb3BRUUZtb3V2RGNvN05xMXlSUFQ2dFVhbTBEZlBtS2FLU21vc3ZNU0hBQURGNlFhc3E?oc=5",
-     "time": "2026-11-12T20:05:00+00:00"
-    },
-    {
-     "title": "AppLovin (APP) Stock Dips Amid Low Options Activity and Rising I",
-     "publisher": "GuruFocus",
-     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOOGF2d0t0NlhUeFQyYzBlOHdqSVExS1BIdzRTVlNFd2F6R1pHd1F5c1FoSHk1Skh6S21mTTRwWjB3LUEyOWZOTjFLeFdLNHR6VVJtX0FzZGNhS3M4Wl93NW9scUwyR1hQYk9aN2tvWmFjVUdjZFd1SHl2amRfLWJJb3JWaVRNWF9icjgtTWk3WHg5b2xhN0M1RHNNenQwRE1HN2Z2TVBZaXZ4TmIyUHJIemVzMnNKMjBKU3c?oc=5",
-     "time": "2026-11-12T17:14:45+00:00"
-    },
-    {
-     "title": "AppLovin: Valuation Trumps Execution (Rating Downgrade) (APP)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQelZ0Qy04d1lfckFLSkNPSG0talNfOXdwWUZPdEllX1BHamxvWUI0dmlCaTY2SmhpMml1Y25Sdzc3UURnOWN6ZTN0WlN4QW5kZVlYOWNqcHM2SFhvcEtXTUN4V0xwa25fYURtWkFSV19ZWlNtNEpmOFJoQ0YyZTAtN1cwVHkxMmhsQTZrdW8yaFB6MV80ZnFHSg?oc=5",
-     "time": "2026-11-12T16:24:40+00:00"
-    },
-    {
-     "title": "Did You Lose Money on AppLovin Corporation Stock? Faruqi & Faruqi",
-     "publisher": "The National Law Review",
-     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPSmVKM082dzZramFvUTdGcVZXX3NTZTNqMFp2blFNZlFzRTBIVThLS1BWTU5LSlJ4al8yZ0FHTTBoam9NQmhhY0xyTFRQV1FBUF8zN1ZZU05ERXpCX0ZYeFZDdjJWUFI5WUV6QW0wdUplUWNILVQ5X21vN2Vfa181R1Q3R1BabDVsMHhUeDBacmg4TnQ4Qi1ZcWpocmVSNjBNVWMyckI5ZHpLeFR6MUx5MQ?oc=5",
-     "time": "2026-11-12T15:38:31+00:00"
-    }
-   ],
-   "brief": "2026-11-13-APP"
-  },
-  {
    "symbol": "BTC-USD",
    "name": "Bitcoin",
    "list": "watchlist",
-   "price": 68715.3,
+   "price": 68540.1,
    "prev_close": 71370.7,
-   "change_pct": -3.7,
+   "change_pct": -4.0,
    "trigger_change": -3.5,
    "peak_change": -4.6,
    "first_seen": "2026-11-13T14:58:00+00:00",
    "sector": null,
    "chart": {
-    "ema8": -6.1,
-    "ema21": -9.8,
-    "sma50": -14.7,
-    "sma200": -5.9,
+    "ema8": -6.3,
+    "ema21": -10.0,
+    "sma50": -14.9,
+    "sma200": -6.2,
     "momentum": false
    },
    "headlines": [
@@ -466,26 +391,101 @@
    "brief": "2026-11-13-BTC-USD"
   },
   {
+   "symbol": "APP",
+   "name": "AppLovin",
+   "list": "portfolio",
+   "price": 408.86,
+   "prev_close": 393.68,
+   "change_pct": 3.9,
+   "trigger_change": 3.9,
+   "peak_change": 4.2,
+   "first_seen": "2026-11-13T14:58:00+00:00",
+   "sector": {
+    "etf": "IGV",
+    "name": "Software",
+    "price": 100.45,
+    "change_pct": -0.99
+   },
+   "chart": {
+    "ema8": 9.3,
+    "ema21": 24.4,
+    "sma50": 35.3,
+    "sma200": 0.8,
+    "momentum": true
+   },
+   "headlines": [
+    {
+     "title": "AppLovin (APP) Shares Rise 3.9% Amid Market Volatility and Infla",
+     "publisher": "GuruFocus",
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPUDZpNk80aXR0N0drbHVzcUdqaVZMcU0teVBod1lWV3VvVi1wVVlXakVGckVnNE1aSy1wcGl1YlRyNGRPUnJob3MtcGNnSmxFRDhVamhMQ2I1dHNtRVhpMldMU1lrelhwdTNtcjZDbXR6YkJSWVhpYUZyNks1OC1NbEhEdmtZcjJlV3dfWUtwc1QxZ1YyellqUTVMWGtLMXA3aEhsN2dDamE5aW1t?oc=5",
+     "time": "2026-11-13T16:04:57+00:00"
+    },
+    {
+     "title": "AppLovin (NASDAQ:APP): A Growth-at-a-Reasonable-Price Candidate",
+     "publisher": "ChartMill",
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQOXB5UkVFYWNNT0ZiQ2prQXh4SlY4N1RCSkZfLWRiOW0yWFNNc1BNZVhmZHJrWjFqNkVxWlJlcmZyMTlzSWlHeHBFek1EWlpSalV5Vl83ODJ3cXlnY19lMEJQYU5qazUtUHlmOEZ1ZVQ4YXJ4RzhuMVE3ZXZSdDdqdlNlLVJfMEFyMkxtVUpyQWdkUkw5V3VkLWZmNVliN0ZsclRtcW0xc21MMWZRaGk4?oc=5",
+     "time": "2026-11-13T12:20:53+00:00"
+    },
+    {
+     "title": "ETFs Are Net Sellers of AppLovin (APP) on Nov. 11",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNQUNTcnBIYlJNRExEVXRvR0VnWDc4QkxpMGRNa0xfcEh2aXZuLXZRei1rbGRMQ0dMRVZpT3JLUWRGY3FmaDNpRlVlUTZSQm1naGw0Y29OX251QVY0SkpiS0tyNDFoYXUwTlJUVHM1ZFF2QzdDWkVYZFowajdteG1OeDNSOFNrWkRFS3ZqbS1WY0lrSlh6R3p6bXB3?oc=5",
+     "time": "2026-11-13T11:02:35+00:00"
+    },
+    {
+     "title": "APP Stock Quote Price and Forecast",
+     "publisher": "CNN",
+     "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1iU3VMcG9rX0FDREw3LW9RUG5iU1J4MkZPM1ZaOUFOZGpBUEYyWFFBWTdVTjhZcnB3aWRiRXJ2YnFDZlE1SXdvSXlqX1ZYVTA?oc=5",
+     "time": "2026-11-13T08:51:09+00:00"
+    },
+    {
+     "title": "AppLovin Just Ripped 47% in a Month: Is It Too Late to Buy APP Stock Now?",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQN0l0MUh2XzhCNHMyaFBqSm11V1hPcDhqdEVLZlozLVItdG9tNVNESHduVDB3dVVnN2xHOHd1anJua0diTmRmUllPVWZKM1JrWWMzWlgxY2pHMEZ5V1JqWlRwM3NiWktfV1BDM0pyelJUMlRwdjY4YXEtcGhuS1ZUbFpvb3BRUUZtb3V2RGNvN05xMXlSUFQ2dFVhbTBEZlBtS2FLU21vc3ZNU0hBQURGNlFhc3E?oc=5",
+     "time": "2026-11-12T20:05:00+00:00"
+    },
+    {
+     "title": "AppLovin (APP) Stock Dips Amid Low Options Activity and Rising I",
+     "publisher": "GuruFocus",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOOGF2d0t0NlhUeFQyYzBlOHdqSVExS1BIdzRTVlNFd2F6R1pHd1F5c1FoSHk1Skh6S21mTTRwWjB3LUEyOWZOTjFLeFdLNHR6VVJtX0FzZGNhS3M4Wl93NW9scUwyR1hQYk9aN2tvWmFjVUdjZFd1SHl2amRfLWJJb3JWaVRNWF9icjgtTWk3WHg5b2xhN0M1RHNNenQwRE1HN2Z2TVBZaXZ4TmIyUHJIemVzMnNKMjBKU3c?oc=5",
+     "time": "2026-11-12T17:14:45+00:00"
+    },
+    {
+     "title": "AppLovin: Valuation Trumps Execution (Rating Downgrade) (APP)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQelZ0Qy04d1lfckFLSkNPSG0talNfOXdwWUZPdEllX1BHamxvWUI0dmlCaTY2SmhpMml1Y25Sdzc3UURnOWN6ZTN0WlN4QW5kZVlYOWNqcHM2SFhvcEtXTUN4V0xwa25fYURtWkFSV19ZWlNtNEpmOFJoQ0YyZTAtN1cwVHkxMmhsQTZrdW8yaFB6MV80ZnFHSg?oc=5",
+     "time": "2026-11-12T16:24:40+00:00"
+    },
+    {
+     "title": "Did You Lose Money on AppLovin Corporation Stock? Faruqi & Faruqi",
+     "publisher": "The National Law Review",
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPSmVKM082dzZramFvUTdGcVZXX3NTZTNqMFp2blFNZlFzRTBIVThLS1BWTU5LSlJ4al8yZ0FHTTBoam9NQmhhY0xyTFRQV1FBUF8zN1ZZU05ERXpCX0ZYeFZDdjJWUFI5WUV6QW0wdUplUWNILVQ5X21vN2Vfa181R1Q3R1BabDVsMHhUeDBacmg4TnQ4Qi1ZcWpocmVSNjBNVWMyckI5ZHpLeFR6MUx5MQ?oc=5",
+     "time": "2026-11-12T15:38:31+00:00"
+    }
+   ],
+   "brief": "2026-11-13-APP"
+  },
+  {
    "symbol": "NVDA",
    "name": "Nvidia",
    "list": "portfolio",
-   "price": 160.41,
+   "price": 159.84,
    "prev_close": 166.19,
-   "change_pct": -3.5,
+   "change_pct": -3.8,
    "trigger_change": -3.1,
    "peak_change": -4.4,
    "first_seen": "2026-11-13T15:18:07+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 479.73,
-    "change_pct": -4.38
+    "price": 477.35,
+    "change_pct": -4.86
    },
    "chart": {
-    "ema8": -9.1,
-    "ema21": -17.3,
-    "sma50": -25.3,
-    "sma200": -21.4,
+    "ema8": -9.3,
+    "ema21": -17.6,
+    "sma50": -25.5,
+    "sma200": -21.7,
     "momentum": false
    },
    "headlines": [
@@ -544,23 +544,23 @@
    "symbol": "CRWD",
    "name": "CrowdStrike",
    "list": "portfolio",
-   "price": 222.53,
+   "price": 222.95,
    "prev_close": 229.87,
-   "change_pct": -3.2,
+   "change_pct": -3.0,
    "trigger_change": -3.2,
    "peak_change": -4.1,
    "first_seen": "2026-11-13T15:18:07+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 100.56,
-    "change_pct": -0.87
+    "price": 100.45,
+    "change_pct": -0.99
    },
    "chart": {
-    "ema8": -3.0,
-    "ema21": -6.4,
-    "sma50": -9.1,
-    "sma200": 28.6,
+    "ema8": -2.8,
+    "ema21": -6.2,
+    "sma50": -8.9,
+    "sma200": 28.9,
     "momentum": false
    },
    "headlines": [
