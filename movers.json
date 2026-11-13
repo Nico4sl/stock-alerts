@@ -1,7 +1,319 @@
 {
  "date": "2026-11-13",
  "threshold": 3.0,
- "updated": "2026-11-13T14:52:59+00:00",
- "market": {},
- "movers": []
+ "updated": "2026-11-13T14:58:00+00:00",
+ "market": {
+  "SPY": {
+   "name": "S&P 500",
+   "price": 754.21,
+   "change_pct": -0.38
+  },
+  "QQQ": {
+   "name": "Nasdaq 100",
+   "price": 681.28,
+   "change_pct": -1.0
+  },
+  "TLT": {
+   "name": "Long Treasuries",
+   "price": 79.27,
+   "change_pct": -0.56
+  }
+ },
+ "movers": [
+  {
+   "symbol": "NBIS",
+   "name": "Nebius",
+   "list": "portfolio",
+   "price": 114.57,
+   "prev_close": 128.64,
+   "change_pct": -10.9,
+   "trigger_change": -10.9,
+   "peak_change": -10.9,
+   "first_seen": "2026-11-13T14:58:00+00:00",
+   "sector": {
+    "etf": "IGV",
+    "name": "Software",
+    "price": 101.12,
+    "change_pct": -0.33
+   },
+   "chart": {
+    "ema8": -15.1,
+    "ema21": -25.5,
+    "sma50": -41.1,
+    "sma200": -36.1,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Can Nebius Sustain 571% Revenue Growth Beyond Its Q3 AI Cloud Boom?",
+     "publisher": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNc3VUX3J2RWdfM190Q0E1NlhqcHpCRHdNVUQyVHRvWWZJU1VmOE5xN0FzTmJyTkJWdnZyYi03QU1rdVhBQVBEaUE1U2xLdWgwa2FhS1JrNTFEYmlEd3RsOWJlZHNkNmx1QzEzVnY3Y2x4U0s5TFd4QmtNLTQ2SGdMTUhjNjl0ZG9aUDJGZEI3Z1k3UmFWR2d0OXU4NVJkOUpQVndUTVpnT0VkaV9CcDRZYWNoTWNSWG5GaGVZZnNR?oc=5",
+     "time": "2026-11-13T14:48:51+00:00"
+    },
+    {
+     "title": "NBIS Stock On Track For 6th Straight Weekly Loss \u2014 Analysts Flag Data Center, Capacity Activation Delays",
+     "publisher": "Asianet Newsable",
+     "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOX1JMRlBpU096R0ZFUXJHa0NHdjg5OXVDUUhNODZPaExQbGFJa2pZd3dsX2JRMFZId2JqSXRBdDNCNjUxaFZ2YTdxby1VLWlYWk9Ld0ZKNHVkeEljMV8ya1pNYjZDTlBaSWprUlBCM3MyYVpZa19nNFVRVmxoZGJ3WkpvSEpMdWVBRHZCUnVENlcxQzZJV0pLRUVyTFY5SkNicVVuanJURHBuZVBkNzA0ZUdfYW4xcS1hbno3TjYzMURjRjlQbTgtcEZCcmJzVkV0djNfcjEwTW5TSFI0SmtaV19GZ2NPcUJOLWJjcHlZMjBkUV9x0gH6AUFVX3lxTE9xOU1kbFJPbnRRTGhkNTFYRTVUanAzYUszTndaZFRpbW1oYUxrLUlLUnlJMWpaTWJ0U2FTLTloZnBib2VOTjBaUVcyTzI4Z1JqMmJLVmFsMUkxeWpBM2ZZNDBwejhQWTVMdFhXbUhYTUp2WEhWMjY3WEpYYU9CT1AxTlBJOHUzU3JVTVhYdWlpdWlBbWVVRndyUGhyVFQ1QlJCd0lNNW1qZXNvdE1jeW9RVjFzaVdXS01ubFJWWVFiRGJBYkFNajlkT1V3UHBvdmcxUnpZaEwzbmpISHpGVjhvOE5famVGTDZjdTV1WURNb25JYWR3QTQ5VGc?oc=5",
+     "time": "2026-11-13T14:30:07+00:00"
+    },
+    {
+     "title": "Nebius Group (NASDAQ:NBIS) Stock Rating Reaffirmed as \"Buy\" by Rosenblatt Securities",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOMk1zSmExb3VMZ0hsU3oyMm9xNjNhc1NRMmF6eFZlcFVaQzN5UUNyWFpyX2hEb1djVV8wN01nNC1EVkVmUTlYOGd1Mk5fLTVzc3VLaUJFcnpxRnY2R2xSOU5DN2FHdzBwdVhUelJxekQxT1BYZFJsM2xYdDZ2R2J2al9TMnZBVmFXWVE2M1k2dFh5VXhRelJIaTVuRTE0QUt3bFpqbEhCV1NIM0Jya2VVODRiZy13TDNWUjFoN3FZaWN3Sk9zTFB6dEcyYm9QY2tjblpxcE44SFFEdw?oc=5",
+     "time": "2026-11-13T13:38:58+00:00"
+    },
+    {
+     "title": "CRWV vs. NBIS: Which Neocloud Stock Offers More Upside After Q3 Earnings?",
+     "publisher": "TipRanks",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNNkFIRDRvZE5idHp3QURadUtweDRHWEtXdHlxbVd5ZUVUUWdTQkRjT0p1LUR0YzdEM25YUmxnZzZpdEJjRmNMUmdTMHZMd0hsTUR1c21lZkFseVUzNE9KRHpiUi04WHVWV0pNWkRkLWxkbVA4WkdjYnk1bWFMcHVzTTJKbEt0N1lqNk9MaE1paVdIcGpuWTd5TEtobkNGdw?oc=5",
+     "time": "2026-11-13T13:26:31+00:00"
+    },
+    {
+     "title": "Nebius Earnings Topped Estimates. Why Shares Sold Off.",
+     "publisher": "Investor's Business Daily",
+     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQdThPYXEzTWRUR3RubFZ0enJHV1FtamVjS2p3OUpKMXAxOG5sZzBaeFJnUXZ0SXNGVU9uSWV4RnY5eV9kV3NWMXZjZmRQSUpLRGZCdURkNXN5UGZadE9fNWk0bmJrMXNxZjhNV2h1Z1JNQ3RLdHU1RFAzV1l0cVV0YTBjX3pPc2hOU0tBOA?oc=5",
+     "time": "2026-11-13T13:11:00+00:00"
+    },
+    {
+     "title": "Nebius Stocks Plunge 18.84% as $7 Billion Run-Rate Goal Slips to February",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOQzBrbDZDNmlXS3RranFTUW0zMTE0UnZDVXA5ZHFCaHVLUjhEOFBJWVRNUElXVFo0anYwX3kxMy12Qi13TkxIQU9iMFBQSnRTQlRUZDYydTRlTFA5STRiWHR3cmlxTGtKSFo0czNTMjZnSUJGNlhzV0M4VTdTODl0UG5ieENNdEFGRG5ER3pLeHEtTXEyN1E?oc=5",
+     "time": "2026-11-13T11:54:52+00:00"
+    },
+    {
+     "title": "Nebius Stock Slides on Delayed Microsoft Capacity",
+     "publisher": "Blockonomi",
+     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE0tNVl1WDYzdTVjbnU1c2F5a25vcnN1NXQwbHBRMWJoZmktekVVOFdOSmVvQ2ZvcE0wOHhRR2NGajd4SEp4cENQY0xfZ0dnT0pMWlp2VmwxbUZjSmo2S0tBWDBWcG1wbFlWMUM4cXc2RDJWelFLdnhqY2Q2el85QQ?oc=5",
+     "time": "2026-11-13T11:45:33+00:00"
+    },
+    {
+     "title": "Microsoft Just Piled Onto the Bad News for CoreWeave, Oracle, and Nebius",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNazA2cTdqSm1ESV9La1ZuY0JXeElPTXVSMllzMDBkVmp3bU9qOHBRb3dkRTUxNVFlWXRDSWhsMkZuYnY0bFIySkR0T3lKbzRqMW5rZ0dKZGVvam52NWNId2RJeGxaQVVNajBSaFhyVnBoSEFJN3BiZmVFcFRFSzJRQkkxa2RaQm41bnpiaHJVdHdSRWNsYnI4ek9MNA?oc=5",
+     "time": "2026-11-13T11:20:00+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
+   "symbol": "AVGO",
+   "name": "Broadcom",
+   "list": "portfolio",
+   "price": 345.51,
+   "prev_close": 364.36,
+   "change_pct": -5.2,
+   "trigger_change": -5.2,
+   "peak_change": -5.2,
+   "first_seen": "2026-11-13T14:58:00+00:00",
+   "sector": {
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 484.69,
+    "change_pct": -3.4
+   },
+   "chart": {
+    "ema8": 2.6,
+    "ema21": 3.0,
+    "sma50": 0.0,
+    "sma200": -6.0,
+    "momentum": true
+   },
+   "headlines": [
+    {
+     "title": "Broadcom Inc Stock (AVGO) Opened Down by 4.37% on Nov 13: A Full Analysis",
+     "publisher": "TradingKey",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQWG9CVFhtemtHQmtIaWxGZWttTVY3TWg5SGl6MEVQRERmMk9CcG1jWDA4ZTBibTdwY1hwRFUtVmlKRjZYWF90SFRheVZYUElEVEVzZVdDWjR5SkR4OGR1ajNYb0k1bDlJS2dvWFBpNmFGR0lWbmE2VTdPaHdvS2tEZEl3eVhKOWttdUtj?oc=5",
+     "time": "2026-11-13T14:47:18+00:00"
+    },
+    {
+     "title": "NVIDIA Rises 2% Despite Michael Burry Adding to Chip Shorts; AMD Retreats 3%, Broadcom Slides 2%",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOMTlGS1JMRjN4R3ZkdHp4bnVtSU5yV0pjOHVGX29JQnh5TGNaTXBZUHJVc3l6SFdLbXhsUjZSVk05YkV1TTZLdUNOWVFmSzZpalh1RnBJeEktXzluMDRWUEFHamRtN1lrSmVJT1VoaENSV1doeVRQSWw0VUxKWTRSSW5yeWJZMXdhdjQxQ0NaQU1hd0d6Ni1JNC0ySjZQclBTSXZabm0yVkE2MHItX1VDZDFBSmtJSjNvZ1ZIMEVBVHczZGRIRlE?oc=5",
+     "time": "2026-11-13T14:15:00+00:00"
+    },
+    {
+     "title": "Broadcom And 2 Other Great Undervalued Tech Stocks To Own",
+     "publisher": "Simply Wall St",
+     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQbk9telRIdUNpRGJvb0FjaWZvNzBIN25FMTNrbHVsU0ZzeXhhY0xNQ2NLbWhPc3dZRkg2cTVjZUZjVXlaUE5rZnR4bWxtamxtYVhiWHAtbVdJU0NIQUpWZE5vN3ozNFBCcDhnUUJyb1dyRGczTnZQd091UzVRM2g1QjNvRG5GYVFGSklwYzhEajVObDJxTnlwV3lPOVhoQlRBTlR5U3UzTW5sejNRTFYzRVNXNnhRVXNETWNYS3B6dUhJMUFsQms5Y25R0gHPAUFVX3lxTE1DcWpmRWlrVFd6Q0tXRWt4aEgtY3RveWNzdDh0WFpuaTA1cXdhRmk3NnJ1bjBQMERYR1c0SENFcF91bGhYRlJnR0dDdWxMdGxWNE5HLWRERjVlMHNJTDJmRVdWNEx2eTUwUURFNDQzQmsyNHZXTW1KZ2xfaXBjdTl3UFpJcU9BcTUyMkRQMkVSdWREMDhOSVJjbG9QbEdHMENGNGxheUpEZnloNlRsbjllSEsyc3hSTkVpdDh4UHdNR2pxVTRFRlpKT3BOdVJHMA?oc=5",
+     "time": "2026-11-13T13:25:51+00:00"
+    },
+    {
+     "title": "Is Broadcom Stock a Buy After Its $43 Billion Anthropic Backstop?",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQYlhaT0FnVzVKWFRNQ2sxcWhicHp4TzVheFpjUjZxN2ZwNXlMbWNkVnBtMlVXS3BYcWlUNFpVZ0xrY3ZWNEZoWEpsQVVxdHlxbHlZbHB5MnBnWEc1T1RScUtSbURESGlQRFNneTdJMUQwT0w3Tnc3Sk8yVzJHc0pWbUF0cUNZa29yazE3OGVyNmU3MURrd0pDRktycThDTWdmbm1kdFF4emYxQjYtU0E?oc=5",
+     "time": "2026-11-13T13:21:00+00:00"
+    },
+    {
+     "title": "Broadcom (NASDAQ:AVGO) Stock Gets Downgrade from Rothschild & Co Redburn",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNMmtycHlvRktqVGI0RF9ZVDJwejREYlpZZmlQV3U0VU1PTGlkVm5MX29sYk1HZW9VMGVWWjd6aVUzNUpnY3A2QzQ2Um1MdG5udDRTTTByUm9mekVKbXRkLTF5TE1aZHpPM3U4dFpteV9xbjlsRGZ3T2hBUjFobzZwamlMNDJwb2Y2Mm0zcE5yQ09xWkNWWndsSG1pNzhCcFgxUTY3SHRzVUhqUG1pUTJlalJSSGcwOEFUdmxxY1Z6YW9Ta01rVERkNlBn?oc=5",
+     "time": "2026-11-13T13:12:59+00:00"
+    },
+    {
+     "title": "Broadcom And 2 High Growth Stocks To Watch",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxONTRfWVE5MDU5ZjlvZTlTVzk1QmMzbmdDMnN4T0JlZVdJVjRCTE4xaURTdTY2bnpIZVh2bm5mdDU1eE9xQUgwdU10b2gzR25XYUFHN1QwRXpPeUhWWmg5NVJUaklPN1cxdHYtdXVIdndMMTJHR1NpbTZfOVI4UTYyXzNpVmg5a1dOZG5GaDJaWHhwQnd0UmJickZR?oc=5",
+     "time": "2026-11-13T13:10:01+00:00"
+    },
+    {
+     "title": "What's Going On With AMD Stock Today?",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPeTF5QW83TEd5LXZ2Qy0wbU14bXhrak5pdGEyQklkNnh2U0FnYTc2Um9UUWUwazBCM1Z6QWpsaHJTLTZWM254Q0ZacFRUakwwMWVBVnQtblYxTFozcDVtUjNTY0l2S1BzcFBPRzJuUmNjWGxEVHRvUlV0WU1QcmdqaEVha1IzdFhtLTJlMmRLVl9lQVp3?oc=5",
+     "time": "2026-11-13T12:46:50+00:00"
+    },
+    {
+     "title": "Redburn lowers Broadcom to Neutral on limited re-rating potential",
+     "publisher": "Investing.com",
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNcUZfaTFJZFNOUjVmcXBsU0Q0OTJlbERUREtQZGl3WFhqcEhQVV9JSjIzS255U1h3UU9mTGQ0OWNDRzBYQ3pSci03dUhXNTVNV0FfUzhGbktPYW1lQmxPdmpaaVhvUDZybWNJTVB1c0x0d0otYUI4bnBlaV9sdHZZNlJwRTdldlJ1WThlX2ZMaDdBR1puMlJQaG9ERzM1UWxfWllWSl9sbGVlZV8wZmhtLWE4SXljLWZaMHR0NUpR?oc=5",
+     "time": "2026-11-13T12:46:31+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
+   "symbol": "APP",
+   "name": "AppLovin",
+   "list": "portfolio",
+   "price": 409.09,
+   "prev_close": 393.68,
+   "change_pct": 3.9,
+   "trigger_change": 3.9,
+   "peak_change": 3.9,
+   "first_seen": "2026-11-13T14:58:00+00:00",
+   "sector": {
+    "etf": "IGV",
+    "name": "Software",
+    "price": 101.12,
+    "change_pct": -0.33
+   },
+   "chart": {
+    "ema8": 9.4,
+    "ema21": 24.5,
+    "sma50": 35.4,
+    "sma200": 0.8,
+    "momentum": true
+   },
+   "headlines": [
+    {
+     "title": "AppLovin (NASDAQ:APP): A Growth-at-a-Reasonable-Price Candidate",
+     "publisher": "ChartMill",
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQOXB5UkVFYWNNT0ZiQ2prQXh4SlY4N1RCSkZfLWRiOW0yWFNNc1BNZVhmZHJrWjFqNkVxWlJlcmZyMTlzSWlHeHBFek1EWlpSalV5Vl83ODJ3cXlnY19lMEJQYU5qazUtUHlmOEZ1ZVQ4YXJ4RzhuMVE3ZXZSdDdqdlNlLVJfMEFyMkxtVUpyQWdkUkw5V3VkLWZmNVliN0ZsclRtcW0xc21MMWZRaGk4?oc=5",
+     "time": "2026-11-13T12:20:53+00:00"
+    },
+    {
+     "title": "ETFs Are Net Sellers of AppLovin (APP) on Nov. 11",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNQUNTcnBIYlJNRExEVXRvR0VnWDc4QkxpMGRNa0xfcEh2aXZuLXZRei1rbGRMQ0dMRVZpT3JLUWRGY3FmaDNpRlVlUTZSQm1naGw0Y29OX251QVY0SkpiS0tyNDFoYXUwTlJUVHM1ZFF2QzdDWkVYZFowajdteG1OeDNSOFNrWkRFS3ZqbS1WY0lrSlh6R3p6bXB3?oc=5",
+     "time": "2026-11-13T11:02:35+00:00"
+    },
+    {
+     "title": "APP Stock Quote Price and Forecast",
+     "publisher": "CNN",
+     "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1iU3VMcG9rX0FDREw3LW9RUG5iU1J4MkZPM1ZaOUFOZGpBUEYyWFFBWTdVTjhZcnB3aWRiRXJ2YnFDZlE1SXdvSXlqX1ZYVTA?oc=5",
+     "time": "2026-11-13T08:51:09+00:00"
+    },
+    {
+     "title": "AppLovin Just Ripped 47% in a Month: Is It Too Late to Buy APP Stock Now?",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQN0l0MUh2XzhCNHMyaFBqSm11V1hPcDhqdEVLZlozLVItdG9tNVNESHduVDB3dVVnN2xHOHd1anJua0diTmRmUllPVWZKM1JrWWMzWlgxY2pHMEZ5V1JqWlRwM3NiWktfV1BDM0pyelJUMlRwdjY4YXEtcGhuS1ZUbFpvb3BRUUZtb3V2RGNvN05xMXlSUFQ2dFVhbTBEZlBtS2FLU21vc3ZNU0hBQURGNlFhc3E?oc=5",
+     "time": "2026-11-12T20:05:00+00:00"
+    },
+    {
+     "title": "AppLovin (APP) Stock Dips Amid Low Options Activity and Rising I",
+     "publisher": "GuruFocus",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOOGF2d0t0NlhUeFQyYzBlOHdqSVExS1BIdzRTVlNFd2F6R1pHd1F5c1FoSHk1Skh6S21mTTRwWjB3LUEyOWZOTjFLeFdLNHR6VVJtX0FzZGNhS3M4Wl93NW9scUwyR1hQYk9aN2tvWmFjVUdjZFd1SHl2amRfLWJJb3JWaVRNWF9icjgtTWk3WHg5b2xhN0M1RHNNenQwRE1HN2Z2TVBZaXZ4TmIyUHJIemVzMnNKMjBKU3c?oc=5",
+     "time": "2026-11-12T17:14:45+00:00"
+    },
+    {
+     "title": "AppLovin: Valuation Trumps Execution (Rating Downgrade) (APP)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQelZ0Qy04d1lfckFLSkNPSG0talNfOXdwWUZPdEllX1BHamxvWUI0dmlCaTY2SmhpMml1Y25Sdzc3UURnOWN6ZTN0WlN4QW5kZVlYOWNqcHM2SFhvcEtXTUN4V0xwa25fYURtWkFSV19ZWlNtNEpmOFJoQ0YyZTAtN1cwVHkxMmhsQTZrdW8yaFB6MV80ZnFHSg?oc=5",
+     "time": "2026-11-12T16:24:40+00:00"
+    },
+    {
+     "title": "Did You Lose Money on AppLovin Corporation Stock? Faruqi & Faruqi",
+     "publisher": "The National Law Review",
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPSmVKM082dzZramFvUTdGcVZXX3NTZTNqMFp2blFNZlFzRTBIVThLS1BWTU5LSlJ4al8yZ0FHTTBoam9NQmhhY0xyTFRQV1FBUF8zN1ZZU05ERXpCX0ZYeFZDdjJWUFI5WUV6QW0wdUplUWNILVQ5X21vN2Vfa181R1Q3R1BabDVsMHhUeDBacmg4TnQ4Qi1ZcWpocmVSNjBNVWMyckI5ZHpLeFR6MUx5MQ?oc=5",
+     "time": "2026-11-12T15:38:31+00:00"
+    },
+    {
+     "title": "SueWallSt Reminds Shareholders of a Lead Plaintiff Deadline of November 16, 2026 in AppLovin Corporation Lawsuit - APP",
+     "publisher": "PR Newswire",
+     "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNMnJaSmpoUU1LelVLMkV2TFVacFZWY2t0NUhkRjB2RFZTenFtNnVaeGMyTDVkVS1aNXVEM3gyS1JYOTAxMGRrRXNVc1Z6VEp0T3BfeUtOLTVFRDlfaFllVGRJZkl0ZFpkam9Nd3RYRF94Nzh4ZnptR05mVVgzczZGZ1NuMl9TZ1lZUEVtM19fTkZMVnQtUEl2UWtDX1F5bFQ4ZDk2R185OXl6WXZnakREYUJ4QXdCZ1lUajE3RTVzTmF6dEhPR1U1d3RpRjQyYWp0Tm85aXZFYnVCS1Zya0k4VHJQYUExckpibnhtbEw5eFJkWnFYNkN6VWpxS0RZbkdrX2ZB?oc=5",
+     "time": "2026-11-12T15:11:00+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
+   "symbol": "BTC-USD",
+   "name": "Bitcoin",
+   "list": "watchlist",
+   "price": 68906.0,
+   "prev_close": 71370.7,
+   "change_pct": -3.5,
+   "trigger_change": -3.5,
+   "peak_change": -3.5,
+   "first_seen": "2026-11-13T14:58:00+00:00",
+   "sector": null,
+   "chart": {
+    "ema8": -5.9,
+    "ema21": -9.5,
+    "sma50": -14.5,
+    "sma200": -5.7,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Bitcoin is falling to fresh lows today: What\u2019s causing the crypto decline?",
+     "publisher": "Fast Company",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNYWJYNlFZNUVIUzdMNFpmQ216eXZmbnQ2Qlcydnd2Vzd0NTgtTFBlRHVaRFd3emtUMW5peVZHZEtyYWJDQTYwQlctZ0x3c1FRUTZ2WjhKZlJ3WExVUV9nemE1bkZhbXAxN1o2aHU2Z2swZnFOUE5YWkNQTUx4Sk1JMi1YV1hFWmtrb3VxZ21sdXdRQlNfZDM2VQ?oc=5",
+     "time": "2026-11-13T14:57:43+00:00"
+    },
+    {
+     "title": "Bitcoin climbs above $70K and gold rises after cooler PPI report",
+     "publisher": "Cryptonews.net",
+     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE0tbHM0OUVMRVNBY29Cd0V5eGhrd1hwWUhaMHBPZDJ4ZUZpTEI4bFJQZTBnLUF3N0hsMmdsMXFEQzVyVHNkMXU4SHFySkVuaF9MQUxWUDRScHU?oc=5",
+     "time": "2026-11-13T14:41:09+00:00"
+    },
+    {
+     "title": "Twenty One Capital reports US$1.09B bitcoin gain and US$102.8M cash",
+     "publisher": "Mugglehead Investment Magazine",
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxObENCU2xJUnZMOVlaRWgtY3AxMV9RempqZEZzVHFwbUEyeTVCcVg2YmlyQ3VFVVhrOC1PanYwT1ZwTGhQeVEzNG9vYW0wYmlLX1RyLWQyYXRPVVFrNVdHNlQ3SjF5enVwTzVFYmw5aTlwcTNjNm8wUWZ2ZWdHTTNJMWdhWWJ1dw?oc=5",
+     "time": "2026-11-13T14:37:09+00:00"
+    },
+    {
+     "title": "Bitcoin Hits 12-Week Low as $1.6B Liquidated \u2014 Support or Further Slide?",
+     "publisher": "Moomoo",
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9saGlLMVlBX29aRDRVVDlCS2dhdnhMWG9rLVk3eDZOUHNKRUNvOEwzUmwtSFVrVDM5MEhFNHZ4dEJ3QnRjemZZV1FGRVdyakNRc1pNOGRCUHBDbWUySFFrTDdqb0Nld3FSZ3YzOVpPdllaM0k?oc=5",
+     "time": "2026-11-13T14:31:02+00:00"
+    },
+    {
+     "title": "The cost of a $70,000 Bitcoin hedge more than doubled in a day",
+     "publisher": "CryptoSlate",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1sTUVHeXdGdFpRUW54N0ZWeW5KNmR3b0cyeVVaUWFXRkNfUFp1V19fZ0toamUzUERFcWNmTFJMZFVsTC1wVjBWanIxdmlJQjNUUGFMU2o5VVhXdVE5VVRBLURQSy1hOV9BWFAwblRR?oc=5",
+     "time": "2026-11-13T14:30:05+00:00"
+    },
+    {
+     "title": "Bitcoin price falls 4%, can BTC recover above $70,000?",
+     "publisher": "Crypto News",
+     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9seDVJSFJXd0V3VVdEc2dlR0JYNmdsWUxfZFBmVHN4ZXp1dXEtUmJCMnVkVTZWV2dxZnNKcHN5WDk4WDhRUkdjMzZnMXJHNWgyTllVU1NCd1VobXVvMTdyRWMyNTlmVXpsVHNkeFh4ZzFEcEFIY1RENE9n?oc=5",
+     "time": "2026-11-13T14:16:08+00:00"
+    },
+    {
+     "title": "Satoshi-Era Bitcoin Address From 2010 Suddenly Activates With $3.4 Million",
+     "publisher": "Cryptonews.net",
+     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE40dk5JSTlOTkFJRGh2Q3BmM2QyTG1iQ0lvNS1QdVdob3pHcl9LNWVORXlIcGlkS1hody1vN2ZNOU1tTnR5MWx0Qm9EUGJmNkVBUS0zNG9nSFE?oc=5",
+     "time": "2026-11-13T14:16:04+00:00"
+    },
+    {
+     "title": "Bitcoin (BTC) Prints 'End of the World' Candle: $1.6 Billion Liquidation Triggers Drop",
+     "publisher": "Cryptonews.net",
+     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5tc0tiYk53V1h1clhiYVJkT0ZaMVRTd2JaYllvbVNXSUFHUXY3RmRSRW42VVhnckZfdThfTW0xTlFDS2U4a3JGYWdfdEtKanBkYUJ1T3hYd2I?oc=5",
+     "time": "2026-11-13T14:16:04+00:00"
+    }
+   ],
+   "brief": null
+  }
+ ]
 }
