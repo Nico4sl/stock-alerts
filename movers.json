@@ -1,22 +1,22 @@
 {
  "date": "2026-11-13",
  "threshold": 3.0,
- "updated": "2026-11-13T14:58:00+00:00",
+ "updated": "2026-11-13T15:03:02+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 754.21,
-   "change_pct": -0.38
+   "price": 752.21,
+   "change_pct": -0.65
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 681.28,
-   "change_pct": -1.0
+   "price": 678.4,
+   "change_pct": -1.42
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 79.27,
-   "change_pct": -0.56
+   "price": 79.34,
+   "change_pct": -0.47
   }
  },
  "movers": [
@@ -24,23 +24,23 @@
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 114.57,
+   "price": 112.74,
    "prev_close": 128.64,
-   "change_pct": -10.9,
+   "change_pct": -12.4,
    "trigger_change": -10.9,
-   "peak_change": -10.9,
+   "peak_change": -12.4,
    "first_seen": "2026-11-13T14:58:00+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 101.12,
-    "change_pct": -0.33
+    "price": 100.65,
+    "change_pct": -0.79
    },
    "chart": {
-    "ema8": -15.1,
-    "ema21": -25.5,
-    "sma50": -41.1,
-    "sma200": -36.1,
+    "ema8": -16.2,
+    "ema21": -26.6,
+    "sma50": -42.0,
+    "sma200": -37.1,
     "momentum": false
    },
    "headlines": [
@@ -99,7 +99,7 @@
    "symbol": "AVGO",
    "name": "Broadcom",
    "list": "portfolio",
-   "price": 345.51,
+   "price": 345.32,
    "prev_close": 364.36,
    "change_pct": -5.2,
    "trigger_change": -5.2,
@@ -108,17 +108,23 @@
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 484.69,
-    "change_pct": -3.4
+    "price": 482.38,
+    "change_pct": -3.86
    },
    "chart": {
-    "ema8": 2.6,
+    "ema8": 2.5,
     "ema21": 3.0,
-    "sma50": 0.0,
+    "sma50": -0.0,
     "sma200": -6.0,
     "momentum": true
    },
    "headlines": [
+    {
+     "title": "Nvidia, AMD, Microsoft, Broadcom, Coinbase, Modine, and More Stocks That Explain Today's Market -- Barrons.com",
+     "publisher": "Moomoo",
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQRzVxZnlBS1A2RXhpcGFFUW9LYTFwWE5JVXlKVkNjTWc3MURyT2ZqRHpmUHYzbVRVZ0M0UFVkZElxYThRRnV5MVNMSzRORFo5aF9NUmN6cEEyUTFkVDNaYXJ3U0d3bS05d2dWeUdqUURQMWlFcmxsVjFMaFYtUWVHeWRpdmdib2p5VXV0dDFfOWpEeVd6cEhxZ2xNZzZ2cHVMZVRfWU1tcDdTWjgxUGFR?oc=5",
+     "time": "2026-11-13T14:59:00+00:00"
+    },
     {
      "title": "Broadcom Inc Stock (AVGO) Opened Down by 4.37% on Nov 13: A Full Analysis",
      "publisher": "TradingKey",
@@ -160,12 +166,81 @@
      "publisher": "Benzinga",
      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPeTF5QW83TEd5LXZ2Qy0wbU14bXhrak5pdGEyQklkNnh2U0FnYTc2Um9UUWUwazBCM1Z6QWpsaHJTLTZWM254Q0ZacFRUakwwMWVBVnQtblYxTFozcDVtUjNTY0l2S1BzcFBPRzJuUmNjWGxEVHRvUlV0WU1QcmdqaEVha1IzdFhtLTJlMmRLVl9lQVp3?oc=5",
      "time": "2026-11-13T12:46:50+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
+   "symbol": "AMAT",
+   "name": "Applied Materials",
+   "list": "portfolio",
+   "price": 361.45,
+   "prev_close": 380.95,
+   "change_pct": -5.1,
+   "trigger_change": -5.1,
+   "peak_change": -5.1,
+   "first_seen": "2026-11-13T15:03:02+00:00",
+   "sector": {
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 482.38,
+    "change_pct": -3.86
+   },
+   "chart": {
+    "ema8": -2.9,
+    "ema21": -7.6,
+    "sma50": -17.4,
+    "sma200": -19.0,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "AMAT Stock Gets Slew Of Price Target Cuts Even After Beat-And-Raise Quarter: Morningstar Calls AI Worries \u2018Overblown\u2019",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPalRacjNNT2ZiMlJ5enVQbmN0ZE1hTW1rSjhDNEZtbFBDZjU5aW1hVjRNVEpvcWNzSlNmUnBmTlVKcWhoaW1HUER1NUE3cGtlQ19UaHpuUEtxUV80aHB2bVg2UGNJUzAtZURxRm1BeVNkdUs2N01KX0ZjRWItNGRvMXlDODlUaGJ4Tjk3ZGFkSjBFUWdKTFE?oc=5",
+     "time": "2026-11-13T14:03:22+00:00"
     },
     {
-     "title": "Redburn lowers Broadcom to Neutral on limited re-rating potential",
-     "publisher": "Investing.com",
-     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNcUZfaTFJZFNOUjVmcXBsU0Q0OTJlbERUREtQZGl3WFhqcEhQVV9JSjIzS255U1h3UU9mTGQ0OWNDRzBYQ3pSci03dUhXNTVNV0FfUzhGbktPYW1lQmxPdmpaaVhvUDZybWNJTVB1c0x0d0otYUI4bnBlaV9sdHZZNlJwRTdldlJ1WThlX2ZMaDdBR1puMlJQaG9ERzM1UWxfWllWSl9sbGVlZV8wZmhtLWE4SXljLWZaMHR0NUpR?oc=5",
-     "time": "2026-11-13T12:46:31+00:00"
+     "title": "Applied Materials price target raised to $500 from $475 at B. Riley",
+     "publisher": "TipRanks",
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQR3ItODlqWlRFaTNEQk9wcF9UWE9pd1NXUGtFQlJJTS0wXzZxRTNLRi1rVHNPZkRZZ3hwejg1LU44dEF0UXJqeVZfUElaWVlsMEtwLWtGazRMWlhKVzhKT0JsMjJqSDVtSUlVbXFUa2oyckM1MzlCVUxkYlNfZTEtalJDeDAtY0dKUk1QamVJYmMtRWwzSkRXWTNfUVZfTVJjNlBHb3MwTVFMbFpsUU9HQkQwYWo?oc=5",
+     "time": "2026-11-13T13:37:06+00:00"
+    },
+    {
+     "title": "Cerebras, Cisco and Applied Materials: 8 Key Items Shaping the Stock Market Friday",
+     "publisher": "RealMoney Pro",
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNamRBU2VIOV9wa2I4M1V3WlBOTm5VS2RYb2ZKdnpGeEVTZVdPU2p6MU5nWTBsQ1FRUkFublM0ZnJiRnNpY2F4ZUNVTkZVakhMRmhlV3RlWnhrdlRzaU1aS0p3NU1xcmhIcFdiNnV1dmU5QnB1X2otTWtrWGhfb2ppUERzcFdzU2pIZEdUeUI4azZ4Wm9oTkhkVUNHa1g4QnpLLS1FekZ2Q3pNZFlpM3g0cHd0VTc3TUk?oc=5",
+     "time": "2026-11-13T13:37:00+00:00"
+    },
+    {
+     "title": "Applied Materials Says Chip Demand Remains \u201cMuch Higher Than Supply\u201d",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPMktOREVZb05uMFF4MzY5SDdTZzQ3cWFZTXU5Y212Nm1ONjByMHdMdDBhbTl4Q3poRDVsa1hham5zVzlBd2ExeDlyWjRQQ2U4bGJmNHFhSlR4ZzFVMVo4cWxsSC1mQmNmX1pMVVpsWjlDazBJbGdTc3FRc2JUZmN4VjRuaDNRWnN0OFhiMkprcWRiXzNlVVZFTkZ1bVh4VkowYVZiSldNVFZuWVNDRGtr?oc=5",
+     "time": "2026-11-13T13:22:00+00:00"
+    },
+    {
+     "title": "Applied Materials' results show strong semiconductor equipment demand, analysts say (AMAT:NASDAQ)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQRXBEcHFDWDN4SVBPa2ZLempBZkhzMVk1a0ZTN3Jlall0SWUxMnhUOTB1OXRXYnc1djg4ZUkzbTVuTnR2VDRDNnotZnlmdndzVFJPc3NSQTBWYWdSUGRSYjN3SURuaWxwMkZZSDB2VXpCNTFRdXo2RUZNSDB2MGdvRF8xS0dORlN4TjM4OFpWU251STFrd01kNjBPRDl5MlZ6dk9BWkw0UC1XcFJieFBpeDhzSjBZN3BLMXhV?oc=5",
+     "time": "2026-11-13T13:00:47+00:00"
+    },
+    {
+     "title": "Applied Materials downgraded by Summit Insights",
+     "publisher": "Quantisnow",
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNaW5iUERHNUwtd1E3MHJpdXRGZVhTSVdpcU5rNDV1TUFiUUo5clFYZHc3a1lSdmhCS0ZySVlXX2x4V3ZXbDZxSTN5ZktCWi1tcnMtYXJaRGpnT0xmbW9UQ1FSaUpPeERLOW9UbUVDNUN0X3JvYmYxd081QWV3V2VlVk1kMDdsQUxnc3dDbUJ2LUd2eldm?oc=5",
+     "time": "2026-11-13T12:36:59+00:00"
+    },
+    {
+     "title": "Applied Materials price target lowered to $500 from $660 at JPMorgan",
+     "publisher": "TipRanks",
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOaTRhaFQ5TWhQVXhLTFRYV2tBRWswVUJiTU9qbHg1VjIwVjIyZGtOM0J4Q0MxNjlGY1hfQTk4MTVCMXNBSnJEOGVJbkRzSmZSOU5lQUNKR29VUWlSdVRKb3R6cXF4c3k3WFdIR3B5VVBRRXhnVS1HUWctZGdKQVlXcmJlSHo4dHRKY3FzUTg3U2FqdU9pUWlxRU1VVklySE5VRWp3aks1cUhiTFI0TFpsTkZyQVV1WkU?oc=5",
+     "time": "2026-11-13T12:36:03+00:00"
+    },
+    {
+     "title": "Applied Materials price target lowered to $580 from $670 at Goldman Sachs",
+     "publisher": "TipRanks",
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNdFJ3LWpkemJrZE1UT09EUzc3M3pmTjhaNEltdkJnYUVCVDRxRldhVHI3NHFRVlZGcF9XRXEtLUY4c3JrejVOWTBjcGNVVUw5U19fR0FSa3RteDZXUWtlTlUteTVnSzUtblZyTGMwdzdWVXc4U3UyQTkxTEFXYUY4MVhZcTRoT2xlWk5SQnZ4UnZYekI3R05xREd5Um1QZzRJandlU2E0ZTRkZ1ZqRXlVTFpId2dyYlZ6V1FTZWZB?oc=5",
+     "time": "2026-11-13T12:10:39+00:00"
     }
    ],
    "brief": null
@@ -174,23 +249,23 @@
    "symbol": "APP",
    "name": "AppLovin",
    "list": "portfolio",
-   "price": 409.09,
+   "price": 408.64,
    "prev_close": 393.68,
-   "change_pct": 3.9,
+   "change_pct": 3.8,
    "trigger_change": 3.9,
    "peak_change": 3.9,
    "first_seen": "2026-11-13T14:58:00+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 101.12,
-    "change_pct": -0.33
+    "price": 100.65,
+    "change_pct": -0.79
    },
    "chart": {
-    "ema8": 9.4,
-    "ema21": 24.5,
-    "sma50": 35.4,
-    "sma200": 0.8,
+    "ema8": 9.3,
+    "ema21": 24.4,
+    "sma50": 35.3,
+    "sma200": 0.7,
     "momentum": true
    },
    "headlines": [
@@ -249,18 +324,18 @@
    "symbol": "BTC-USD",
    "name": "Bitcoin",
    "list": "watchlist",
-   "price": 68906.0,
+   "price": 68721.9,
    "prev_close": 71370.7,
-   "change_pct": -3.5,
+   "change_pct": -3.7,
    "trigger_change": -3.5,
-   "peak_change": -3.5,
+   "peak_change": -3.7,
    "first_seen": "2026-11-13T14:58:00+00:00",
    "sector": null,
    "chart": {
-    "ema8": -5.9,
-    "ema21": -9.5,
-    "sma50": -14.5,
-    "sma200": -5.7,
+    "ema8": -6.1,
+    "ema21": -9.8,
+    "sma50": -14.7,
+    "sma200": -5.9,
     "momentum": false
    },
    "headlines": [
@@ -268,7 +343,19 @@
      "title": "Bitcoin is falling to fresh lows today: What\u2019s causing the crypto decline?",
      "publisher": "Fast Company",
      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNYWJYNlFZNUVIUzdMNFpmQ216eXZmbnQ2Qlcydnd2Vzd0NTgtTFBlRHVaRFd3emtUMW5peVZHZEtyYWJDQTYwQlctZ0x3c1FRUTZ2WjhKZlJ3WExVUV9nemE1bkZhbXAxN1o2aHU2Z2swZnFOUE5YWkNQTUx4Sk1JMi1YV1hFWmtrb3VxZ21sdXdRQlNfZDM2VQ?oc=5",
-     "time": "2026-11-13T14:57:43+00:00"
+     "time": "2026-11-13T15:00:00+00:00"
+    },
+    {
+     "title": "Most large cryptocurrencies decline on Bitcoin, Ethereum drops",
+     "publisher": "MarketWatch",
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNYUdfX29ZdXR3c0hGZGV5WVdPUU5PbUNITHBkUVE1UFdqRm9WWTFQTU44dHotSXZBUEpDZGY5Ukt0N3VXMklYWXc2Mk9pSHhOTzBXVDJHNV9EWjJoeVotZElEY1RJUjd1V1RKZ0lKS3NKSzRfNUJ1bEwxcWtpenhULUhNdnJ6T2pMMGNUa2lkSTh1ZzlFRlE4YnJ6aEFFNTlnM2s3VEZyQ2dWeWNwem56U0xfSGlvekFTZXdFLUJB?oc=5",
+     "time": "2026-11-13T15:00:00+00:00"
+    },
+    {
+     "title": "Tether-backed Twenty One Capital reports $1.09 billion Q3 net income on bitcoin gains",
+     "publisher": "The Block",
+     "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOUVd6b056Rk5UVjJqVWNKMTBnMWtVMUhOd1RqaEs2WnNFVGlfYWZOdXNXMGdSM2Z5cERMeWhJZndtb25zaWotZE83YU1JZmE2MkNmMVYtZkZTQlg3WE4wdTRUUEtqYmpfMUZjaFlRNjFQNFZWQ1UwTGtPV01DYV9NdlU4c1k0bGlfcHFKdkF1YVMtSHByRHpmMkhWM1ZPSHhVUzJoNV9LN21vMGp6XzdHMlNTX0NpMTY0alVSSG1FNkhWSThfMDVibTVwTE1YTEhKY2ptZkZsRQ?oc=5",
+     "time": "2026-11-13T14:50:00+00:00"
     },
     {
      "title": "Bitcoin climbs above $70K and gold rises after cooler PPI report",
@@ -299,18 +386,81 @@
      "publisher": "Crypto News",
      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9seDVJSFJXd0V3VVdEc2dlR0JYNmdsWUxfZFBmVHN4ZXp1dXEtUmJCMnVkVTZWV2dxZnNKcHN5WDk4WDhRUkdjMzZnMXJHNWgyTllVU1NCd1VobXVvMTdyRWMyNTlmVXpsVHNkeFh4ZzFEcEFIY1RENE9n?oc=5",
      "time": "2026-11-13T14:16:08+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
+   "symbol": "ANET",
+   "name": "Arista Networks",
+   "list": "portfolio",
+   "price": 199.12,
+   "prev_close": 206.63,
+   "change_pct": -3.6,
+   "trigger_change": -3.6,
+   "peak_change": -3.6,
+   "first_seen": "2026-11-13T15:03:02+00:00",
+   "sector": {
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 482.38,
+    "change_pct": -3.86
+   },
+   "chart": {
+    "ema8": 4.9,
+    "ema21": 7.0,
+    "sma50": 3.2,
+    "sma200": 19.0,
+    "momentum": true
+   },
+   "headlines": [
+    {
+     "title": "Here's How Much You'd Have If You Invested $1000 in Arista Networks a Decade Ago",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNQ0hkYWVHZ2EwS2VUcEtNTHhNLUdpVC1rUUJRdngxLXRxODNiLVBVS3N2bzlodkVmdnBYZS1PRDExV1gxYVc2Sl9feXhlRFkyMzEzc19hZmNYVDExQlJhdWVZcXRmWUJUSWNEWWxwdzdiRVhyeUhZcXNWdGJUQ2VNTzA2RllERThSUUJfNGQ5X1pEZTdpVDlnLXdR?oc=5",
+     "time": "2026-11-13T12:30:02+00:00"
     },
     {
-     "title": "Satoshi-Era Bitcoin Address From 2010 Suddenly Activates With $3.4 Million",
-     "publisher": "Cryptonews.net",
-     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE40dk5JSTlOTkFJRGh2Q3BmM2QyTG1iQ0lvNS1QdVdob3pHcl9LNWVORXlIcGlkS1hody1vN2ZNOU1tTnR5MWx0Qm9EUGJmNkVBUS0zNG9nSFE?oc=5",
-     "time": "2026-11-13T14:16:04+00:00"
+     "title": "What Did Arista Networks Stock Investors Miss Before The Run?",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQV1ByQ1ZCSGwwN1ZwR1FnTW9JUTR6RnpwR3ljdmhSbjJTU0lFVjlicDBBZGpQcHN4dzlMUmRHbExKS3BrcS1qaDJBbHI5cy1KTEhuUnBLRUtDdmdrb1RYV1R6Ykp6bndOdVJfSG11U0pJYUVGeVRsWUl0d1R6UVh3Vzk1ZW0wd0tRb2pMT3JRQ3pVd2lGR0ZRU25xck94bWIyZFE?oc=5",
+     "time": "2026-11-13T12:12:51+00:00"
     },
     {
-     "title": "Bitcoin (BTC) Prints 'End of the World' Candle: $1.6 Billion Liquidation Triggers Drop",
-     "publisher": "Cryptonews.net",
-     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5tc0tiYk53V1h1clhiYVJkT0ZaMVRTd2JaYllvbVNXSUFHUXY3RmRSRW42VVhnckZfdThfTW0xTlFDS2U4a3JGYWdfdEtKanBkYUJ1T3hYd2I?oc=5",
-     "time": "2026-11-13T14:16:04+00:00"
+     "title": "Arista Networks, Inc. $ANET Stock: Russell Investments Group Ltd. Trims Stake",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPb29vc2dkY1E1czdWaUFqclJRNkpQRGxvT1d2Yk9NOUFvVHJzT1Z1VlE2VEhVSHB3QnNwZVZ3dUQ4cW91VmVPVmZzVjR6NjJaR2t4cHM2UHcxdVA5M05KTU92VVdGTXA2eVBaX2RnUTc3ZVpVZWdUTU90R3YtSmlSZmViRmk2WTlqVnV4b19UcmhzSm1qZmkwYWtTS21xT2NqLUNkVXdPWm1URkdkOWxzMzNUMGJkUE9SQXlnVVZuUlcxb0lSNEZId21td1RMQQ?oc=5",
+     "time": "2026-11-13T11:08:13+00:00"
+    },
+    {
+     "title": "Management Raised the Bar For Arista Networks Stock; Does The Chart Agree?",
+     "publisher": "Trefis",
+     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNSWtMcy1NN01UcE1yZVZrRWdLYUdIaWNwcW4wWEoxR042dmN1MTRIa0lSbGp0bXlSQUYxSUtia21nQUFMc1lpdElDWmc4U3o1cXlrZG9BT1AtUW03aGRfcDQwSU0wNXREWTlraDhETFZ5U0RETDktMVZxdGZCTll2bWpfRmN0bVRmWkdfcUVNcC16ZVhKaElhLUoxLUc0ckxVWGlxTThHQW9uQkxkR3QtMkUteGRxZ1UyRXdicWMweHgtV1VOR0hOQVZUUWJzZw?oc=5",
+     "time": "2026-11-13T10:56:32+00:00"
+    },
+    {
+     "title": "Arista Networks (ANET) Stock: $206.63, Up 5.06% Nov 12",
+     "publisher": "JournalArta",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOd25hS2l5bU1RNDg5b3o3cHktQkcydTRiLURJaWhLN3I3V3h6MUtvZ3dxTGVqR0hJYWxwYlJlNkVRMGFMd1MxZ1BZc1NLcm5YNnpjNDQzX0JtbnBocG1iT3dWZWJxNURkOEM4Y041d0dBOUFfa3QzdmZXdV9zUkd5NnBNeEdCNTk5ckV6VmRsV3ZaMVVLekZhUk9qc2NlVmJqRDF3NV9PbUF1Y3lidVJDbFJn?oc=5",
+     "time": "2026-11-13T10:09:08+00:00"
+    },
+    {
+     "title": "Arista Networks, Inc. $ANET Stock Position Increased by Eurizon Capital SGR S.p.A.",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNeUtnb3dRU0VCQ2ZpQW5jcUI4VGFKWjd5cUhYaWZVbFZybHdQa2FTbnVXNGc4a0lSS1M3SjFCSjhhUnc1ZU9hMkdydWtMVkRBMGNaN0N0LVJUQUlkM3RJcjcyeWN3YklqTk03ejJCblFBWWNfSmZzVzhWSGZ2eW1SQ2phdDVaWGM5Mk5XZ2dsZmRwb0dfU3ZBWm5yRUdDZTVtRzNtUlRNeC1HQ3ZMbWxUM0RDRHpOVEFObmVJN19kelpFcHJKZ2hlcThGdEtFX3FmVTBz?oc=5",
+     "time": "2026-11-13T09:16:53+00:00"
+    },
+    {
+     "title": "Arista Networks And 2 Other Fast Growing Insider Stocks",
+     "publisher": "Simply Wall St",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPcHN0UFBYNy1SM1JoRURaSUpCX2hjMmN2aUF2U05tRTBSWjRrZEJfWjR2X0c0SFMzYkQ5RnBfcDBwdVg5dG5sQk84d0czaUVpUGtKYjJtRW9KTUJZNUF4dUpzZ3pSSmFna0dfeHcyNzM2OEF5aWx5UlJjTDdFRGZjLWM2WXJZN1E5dUtJVHdDSkZPUmg2YkEtV0xmWWtyb29yTWlTVmY1TmZQMXppeHlhc1ZfdTVyUnBHUV9jMmxEZlXSAcYBQVVfeXFMTmNCVlU1blBIaFE5bXBuRTN4MWM1eG9jbE85aWsxV0JaN3BaeDlUbWx5cXo5V1Fna0o2bUNwZUxCclg3WTJMeW15MkdEV2h2el8tYi1YUHNMN2RQX1pONDYtd1hBeXJVbGhGMkxoQUszcDRPaVItM2ZfckJUbFVnd0NhZWFVUzZHRGUxaEFRRU1keDhoRG1SZ0xiWlRUbkhSWVZOeW83dlhfS1NwdlhNa1dodUZaUktFWTJrQ1d2YVM5Zl8xT1Nn?oc=5",
+     "time": "2026-11-13T00:29:04+00:00"
+    },
+    {
+     "title": "Piper Sandler\u2019s James Fish Calls Arista Networks (ANET) a Top Pick. Here\u2019s What He Sees Ahead",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQd0gwV1lXS24xQktMbE5ab0RTckU0c1dYaGhGNkNMSTNkMXZPb01NUnNBWmVSQ0ZFTF9QUkl6V1V3MXV1M3lldWhCVHI5UFZ4dmktQzdIRk12RDFlNW11SlkxTVFsVldHYnh4elIyNVpKSHllell1WXhSNERzV3ZfeWxCS0IwQnRYLXp0enN0ZVZUTXVxM1daOGFXTQ?oc=5",
+     "time": "2026-11-12T23:11:55+00:00"
     }
    ],
    "brief": null
