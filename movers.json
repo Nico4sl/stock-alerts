@@ -1,22 +1,22 @@
 {
  "date": "2026-11-13",
  "threshold": 3.0,
- "updated": "2026-11-13T16:49:26+00:00",
+ "updated": "2026-11-13T16:59:43+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 749.55,
-   "change_pct": -1.0
+   "price": 749.64,
+   "change_pct": -0.99
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 674.06,
-   "change_pct": -2.05
+   "price": 674.66,
+   "change_pct": -1.96
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 79.48,
-   "change_pct": -0.3
+   "price": 79.47,
+   "change_pct": -0.31
   }
  },
  "movers": [
@@ -24,23 +24,23 @@
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 115.88,
+   "price": 116.77,
    "prev_close": 128.64,
-   "change_pct": -9.9,
+   "change_pct": -9.2,
    "trigger_change": -10.9,
    "peak_change": -14.8,
    "first_seen": "2026-11-13T14:58:00+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 100.38,
-    "change_pct": -1.06
+    "price": 100.51,
+    "change_pct": -0.93
    },
    "chart": {
-    "ema8": -14.3,
-    "ema21": -24.7,
-    "sma50": -40.5,
-    "sma200": -35.4,
+    "ema8": -13.8,
+    "ema21": -24.2,
+    "sma50": -40.0,
+    "sma200": -34.9,
     "momentum": false
    },
    "headlines": [
@@ -99,23 +99,23 @@
    "symbol": "AVGO",
    "name": "Broadcom",
    "list": "portfolio",
-   "price": 342.24,
+   "price": 343.38,
    "prev_close": 364.36,
-   "change_pct": -6.1,
+   "change_pct": -5.8,
    "trigger_change": -5.2,
    "peak_change": -7.0,
    "first_seen": "2026-11-13T14:58:00+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 478.41,
-    "change_pct": -4.65
+    "price": 479.02,
+    "change_pct": -4.53
    },
    "chart": {
-    "ema8": 1.8,
-    "ema21": 2.2,
-    "sma50": -0.9,
-    "sma200": -6.8,
+    "ema8": 2.1,
+    "ema21": 2.5,
+    "sma50": -0.6,
+    "sma200": -6.5,
     "momentum": true
    },
    "headlines": [
@@ -174,23 +174,23 @@
    "symbol": "AMAT",
    "name": "Applied Materials",
    "list": "portfolio",
-   "price": 358.24,
+   "price": 358.93,
    "prev_close": 380.95,
-   "change_pct": -6.0,
+   "change_pct": -5.8,
    "trigger_change": -5.1,
    "peak_change": -6.9,
    "first_seen": "2026-11-13T15:03:02+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 478.41,
-    "change_pct": -4.65
+    "price": 479.02,
+    "change_pct": -4.53
    },
    "chart": {
-    "ema8": -3.5,
-    "ema21": -8.4,
-    "sma50": -18.1,
-    "sma200": -19.8,
+    "ema8": -3.4,
+    "ema21": -8.2,
+    "sma50": -18.0,
+    "sma200": -19.6,
     "momentum": false
    },
    "headlines": [
@@ -246,26 +246,96 @@
    "brief": "2026-11-13-AMAT"
   },
   {
+   "symbol": "BTC-USD",
+   "name": "Bitcoin",
+   "list": "watchlist",
+   "price": 68575.6,
+   "prev_close": 71370.7,
+   "change_pct": -3.9,
+   "trigger_change": -3.5,
+   "peak_change": -4.6,
+   "first_seen": "2026-11-13T14:58:00+00:00",
+   "sector": null,
+   "chart": {
+    "ema8": -6.3,
+    "ema21": -9.9,
+    "sma50": -14.9,
+    "sma200": -6.1,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Bitcoin Crashes Below $70K, Nvidia CEO Resigns, Inflation Fears Return: Weekly Crypto Recap",
+     "publisher": "CryptoPotato",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOVjZHMEJ6Q3NtU1N3ZGFZMzJmb3hwQlN6TGpTaFdaM2dqamZYV1YyTUR3cEpvV2FocmRxdkdmeGFDcTh2bHp6S1JfWGwyeWx1YUx3dDFUTVltdm9NcGMzYUg4dVRBQlBjVC1hRGVxd2NLNzBVdWZsTm54dkdjdkkxVnNtX213WTRXR0dnNnl5V1FQSFkzQk84dEdnOENLMl91XzB4d1ZQWmNlRjgtSjNXYWdWWQ?oc=5",
+     "time": "2026-11-13T16:02:00+00:00"
+    },
+    {
+     "title": "Bitcoin\u2019s six-week slide draws parallels with sell-off before SpaceX IPO",
+     "publisher": "CoinDesk",
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOdDNYNGJPTEZ1VmtYX005U3lXT0J1a3RRT3ZoTFJTRzJhNDNDcEhjd3JiZE5Rem5CMXFYTTluUm5EOWJ4dW53OVk5OGxVTUxoZUtfZGUtR1Y4QmRaUnVKYnlDOFV3TFpSaGRtdTJuSU1mc2lfd2JRSlhUalVyNTVYUFlnRWxvYTN4WnhJdElxRFd5NFp4ZFFlVjdDS0dpbVBIY3EybElVOVlMRWNGckdqaVNEdHdqcHM?oc=5",
+     "time": "2026-11-13T16:01:27+00:00"
+    },
+    {
+     "title": "Bitcoin Core reveals Tor flaw affecting thousands of nodes",
+     "publisher": "Crypto News",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1EWjMtd0l6aHhlTmhNUlBnQTloVXU5djdaMlo0UHFKYVJTTmo4M2V3VUVUOFQ0S0NRREE5dDVQc2xleWUtS0tldjBRT09oLVNOTkxZZEtsMVZycElhX1hyZDhEY3ZVNVB3SzBRTlR3?oc=5",
+     "time": "2026-11-13T16:00:33+00:00"
+    },
+    {
+     "title": "Bitcoin Slumps Below $70,000 and HOOD, COIN and Other Crypto Stocks Follow Suit",
+     "publisher": "Moomoo",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNWDIwbHVkLWh1ZjN2OUZRSm9ZejJxd2N1TGN3T2t1c2FKdjVYaWlJMlpFZkhESFRzSWZGM2Y3cnN5SEktcDl5Mmk4RTlxZTZHZlA1ZGU4YW15YjYyQUNYWVAtazJUcFNiRG9CcE9OZnc2NGpNWE0zRUtaTkFhU2NxUktTRnNtamxCdFRSN1hsQXdhQWtWMHd2RHkwRUFWMjJHYkJB?oc=5",
+     "time": "2026-11-13T15:57:28+00:00"
+    },
+    {
+     "title": "El Salvador bitcoin: what is left of the 2021 law",
+     "publisher": "CryptoTicker.io",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9Mal8yM1pXeFNSR016a21fMEluWng0c0k5eTRJMFJjTjNhNmtNNG56RGRMS2JRWFRYUWw4NmZqclZxc0pCQXgzZHNwcWpqWC02MlVjdHJtWHd5a2NKTWNQTVFrWWx3Vm9JeVMw?oc=5",
+     "time": "2026-11-13T15:49:36+00:00"
+    },
+    {
+     "title": "Bitcoin Could Crash Below $10,000, Peter Schiff Warns: \u2018Get the Hell Out\u2019",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQd2V4VTl5YWpRUWkwQnh5MGJGRnJ3TGd1MUs4eEh6MHZFMHR3ZWo4ZDhURFptTGlZUzJpVHBiZF9ObHZpNTF0VjhfeXd2NkFLajVxUVE2OFBzNmhCUXR6b2ZuSHh0ZWlVT2lCOHg4Z0c4c05CaDZHbk9BYUhlR2d4Vjk5dURXZlhxaUt1Qjg1bEpVR0ZOZEJZZi1UQTV2dWFadDlzb0NoNUdlejc3amZCTGdjSG5EdGRrb0Q4alpoNjV4eUlnZ0RFUQ?oc=5",
+     "time": "2026-11-13T15:49:36+00:00"
+    },
+    {
+     "title": "Nakamoto Reports Negative Q3 Revenue as Bitcoin Options Losses Rise",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOQm1SMFhmTmpkNXMzeWVNaUJRSS1lV2RpVDdzRXZEM2QyS3BIaVNhNy1nSDFyM1luUXpVRU1sMWJlVjlVcy1BOTNpZm5hRkdUM0x0Vml5b0J0dXBrM29fQ0JnZHlfVVRUS1pUTzFIZEx2WUVJdTF3RnQyNk53WTRRb2t1NWxHOXQ4ZjNSR3ZfYnVHN2NHZGxLOGZQX0lyeGhMNlVZ?oc=5",
+     "time": "2026-11-13T15:47:00+00:00"
+    },
+    {
+     "title": "Bitcoin volatility falls to 45% \u2013 Here\u2019s what it does NOT mean for BTC",
+     "publisher": "Cryptonews.net",
+     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBUZUMxUS01ZllWMGw4YUpzdEJFRlRjUG5aYThKN2VwNXBMNFQ5Q2RVRF9rc0JHSUszb3ZRUlNGT3RYNFRNeV9QeTRaNE5UV3ZGOTBqa1ZCM3k?oc=5",
+     "time": "2026-11-13T15:36:47+00:00"
+    }
+   ],
+   "brief": "2026-11-13-BTC-USD"
+  },
+  {
    "symbol": "ANET",
    "name": "Arista Networks",
    "list": "portfolio",
-   "price": 197.34,
+   "price": 198.57,
    "prev_close": 206.63,
-   "change_pct": -4.5,
+   "change_pct": -3.9,
    "trigger_change": -3.6,
    "peak_change": -5.3,
    "first_seen": "2026-11-13T15:03:02+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 478.41,
-    "change_pct": -4.65
+    "price": 479.02,
+    "change_pct": -4.53
    },
    "chart": {
-    "ema8": 4.2,
-    "ema21": 6.1,
-    "sma50": 2.3,
-    "sma200": 17.9,
+    "ema8": 4.7,
+    "ema21": 6.7,
+    "sma50": 2.9,
+    "sma200": 18.7,
     "momentum": true
    },
    "headlines": [
@@ -324,23 +394,23 @@
    "symbol": "APP",
    "name": "AppLovin",
    "list": "portfolio",
-   "price": 409.02,
+   "price": 408.63,
    "prev_close": 393.68,
-   "change_pct": 3.9,
+   "change_pct": 3.8,
    "trigger_change": 3.9,
    "peak_change": 4.2,
    "first_seen": "2026-11-13T14:58:00+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 100.38,
-    "change_pct": -1.06
+    "price": 100.51,
+    "change_pct": -0.93
    },
    "chart": {
-    "ema8": 9.4,
-    "ema21": 24.5,
-    "sma50": 35.4,
-    "sma200": 0.8,
+    "ema8": 9.3,
+    "ema21": 24.4,
+    "sma50": 35.3,
+    "sma200": 0.7,
     "momentum": true
    },
    "headlines": [
@@ -396,96 +466,26 @@
    "brief": "2026-11-13-APP"
   },
   {
-   "symbol": "BTC-USD",
-   "name": "Bitcoin",
-   "list": "watchlist",
-   "price": 68613.9,
-   "prev_close": 71370.7,
-   "change_pct": -3.9,
-   "trigger_change": -3.5,
-   "peak_change": -4.6,
-   "first_seen": "2026-11-13T14:58:00+00:00",
-   "sector": null,
-   "chart": {
-    "ema8": -6.2,
-    "ema21": -9.9,
-    "sma50": -14.8,
-    "sma200": -6.1,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Bitcoin Crashes Below $70K, Nvidia CEO Resigns, Inflation Fears Return: Weekly Crypto Recap",
-     "publisher": "CryptoPotato",
-     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOVjZHMEJ6Q3NtU1N3ZGFZMzJmb3hwQlN6TGpTaFdaM2dqamZYV1YyTUR3cEpvV2FocmRxdkdmeGFDcTh2bHp6S1JfWGwyeWx1YUx3dDFUTVltdm9NcGMzYUg4dVRBQlBjVC1hRGVxd2NLNzBVdWZsTm54dkdjdkkxVnNtX213WTRXR0dnNnl5V1FQSFkzQk84dEdnOENLMl91XzB4d1ZQWmNlRjgtSjNXYWdWWQ?oc=5",
-     "time": "2026-11-13T16:02:00+00:00"
-    },
-    {
-     "title": "Bitcoin\u2019s six-week slide draws parallels with sell-off before SpaceX IPO",
-     "publisher": "CoinDesk",
-     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOdDNYNGJPTEZ1VmtYX005U3lXT0J1a3RRT3ZoTFJTRzJhNDNDcEhjd3JiZE5Rem5CMXFYTTluUm5EOWJ4dW53OVk5OGxVTUxoZUtfZGUtR1Y4QmRaUnVKYnlDOFV3TFpSaGRtdTJuSU1mc2lfd2JRSlhUalVyNTVYUFlnRWxvYTN4WnhJdElxRFd5NFp4ZFFlVjdDS0dpbVBIY3EybElVOVlMRWNGckdqaVNEdHdqcHM?oc=5",
-     "time": "2026-11-13T16:01:27+00:00"
-    },
-    {
-     "title": "Bitcoin Core reveals Tor flaw affecting thousands of nodes",
-     "publisher": "Crypto News",
-     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1EWjMtd0l6aHhlTmhNUlBnQTloVXU5djdaMlo0UHFKYVJTTmo4M2V3VUVUOFQ0S0NRREE5dDVQc2xleWUtS0tldjBRT09oLVNOTkxZZEtsMVZycElhX1hyZDhEY3ZVNVB3SzBRTlR3?oc=5",
-     "time": "2026-11-13T16:00:33+00:00"
-    },
-    {
-     "title": "Bitcoin Slumps Below $70,000 and HOOD, COIN and Other Crypto Stocks Follow Suit",
-     "publisher": "Moomoo",
-     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNWDIwbHVkLWh1ZjN2OUZRSm9ZejJxd2N1TGN3T2t1c2FKdjVYaWlJMlpFZkhESFRzSWZGM2Y3cnN5SEktcDl5Mmk4RTlxZTZHZlA1ZGU4YW15YjYyQUNYWVAtazJUcFNiRG9CcE9OZnc2NGpNWE0zRUtaTkFhU2NxUktTRnNtamxCdFRSN1hsQXdhQWtWMHd2RHkwRUFWMjJHYkJB?oc=5",
-     "time": "2026-11-13T15:57:28+00:00"
-    },
-    {
-     "title": "El Salvador bitcoin: what is left of the 2021 law",
-     "publisher": "CryptoTicker.io",
-     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9Mal8yM1pXeFNSR016a21fMEluWng0c0k5eTRJMFJjTjNhNmtNNG56RGRMS2JRWFRYUWw4NmZqclZxc0pCQXgzZHNwcWpqWC02MlVjdHJtWHd5a2NKTWNQTVFrWWx3Vm9JeVMw?oc=5",
-     "time": "2026-11-13T15:49:36+00:00"
-    },
-    {
-     "title": "Bitcoin Could Crash Below $10,000, Peter Schiff Warns: \u2018Get the Hell Out\u2019",
-     "publisher": "Benzinga",
-     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQd2V4VTl5YWpRUWkwQnh5MGJGRnJ3TGd1MUs4eEh6MHZFMHR3ZWo4ZDhURFptTGlZUzJpVHBiZF9ObHZpNTF0VjhfeXd2NkFLajVxUVE2OFBzNmhCUXR6b2ZuSHh0ZWlVT2lCOHg4Z0c4c05CaDZHbk9BYUhlR2d4Vjk5dURXZlhxaUt1Qjg1bEpVR0ZOZEJZZi1UQTV2dWFadDlzb0NoNUdlejc3amZCTGdjSG5EdGRrb0Q4alpoNjV4eUlnZ0RFUQ?oc=5",
-     "time": "2026-11-13T15:49:36+00:00"
-    },
-    {
-     "title": "Nakamoto Reports Negative Q3 Revenue as Bitcoin Options Losses Rise",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOQm1SMFhmTmpkNXMzeWVNaUJRSS1lV2RpVDdzRXZEM2QyS3BIaVNhNy1nSDFyM1luUXpVRU1sMWJlVjlVcy1BOTNpZm5hRkdUM0x0Vml5b0J0dXBrM29fQ0JnZHlfVVRUS1pUTzFIZEx2WUVJdTF3RnQyNk53WTRRb2t1NWxHOXQ4ZjNSR3ZfYnVHN2NHZGxLOGZQX0lyeGhMNlVZ?oc=5",
-     "time": "2026-11-13T15:47:00+00:00"
-    },
-    {
-     "title": "Bitcoin volatility falls to 45% \u2013 Here\u2019s what it does NOT mean for BTC",
-     "publisher": "Cryptonews.net",
-     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBUZUMxUS01ZllWMGw4YUpzdEJFRlRjUG5aYThKN2VwNXBMNFQ5Q2RVRF9rc0JHSUszb3ZRUlNGT3RYNFRNeV9QeTRaNE5UV3ZGOTBqa1ZCM3k?oc=5",
-     "time": "2026-11-13T15:36:47+00:00"
-    }
-   ],
-   "brief": "2026-11-13-BTC-USD"
-  },
-  {
    "symbol": "NVDA",
    "name": "Nvidia",
    "list": "portfolio",
-   "price": 159.84,
+   "price": 160.26,
    "prev_close": 166.19,
-   "change_pct": -3.8,
+   "change_pct": -3.6,
    "trigger_change": -3.1,
    "peak_change": -4.4,
    "first_seen": "2026-11-13T15:18:07+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 478.41,
-    "change_pct": -4.65
+    "price": 479.02,
+    "change_pct": -4.53
    },
    "chart": {
-    "ema8": -9.3,
-    "ema21": -17.6,
-    "sma50": -25.5,
-    "sma200": -21.7,
+    "ema8": -9.2,
+    "ema21": -17.4,
+    "sma50": -25.3,
+    "sma200": -21.5,
     "momentum": false
    },
    "headlines": [
@@ -544,23 +544,23 @@
    "symbol": "CRWD",
    "name": "CrowdStrike",
    "list": "portfolio",
-   "price": 223.03,
+   "price": 223.51,
    "prev_close": 229.87,
-   "change_pct": -3.0,
+   "change_pct": -2.8,
    "trigger_change": -3.2,
    "peak_change": -4.1,
    "first_seen": "2026-11-13T15:18:07+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 100.38,
-    "change_pct": -1.06
+    "price": 100.51,
+    "change_pct": -0.93
    },
    "chart": {
-    "ema8": -2.8,
-    "ema21": -6.2,
-    "sma50": -8.9,
-    "sma200": 28.9,
+    "ema8": -2.6,
+    "ema21": -6.0,
+    "sma50": -8.7,
+    "sma200": 29.2,
     "momentum": false
    },
    "headlines": [
