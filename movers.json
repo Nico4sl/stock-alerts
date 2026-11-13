@@ -1,22 +1,22 @@
 {
  "date": "2026-11-13",
  "threshold": 3.0,
- "updated": "2026-11-13T17:35:05+00:00",
+ "updated": "2026-11-13T17:45:09+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 752.03,
-   "change_pct": -0.67
+   "price": 751.77,
+   "change_pct": -0.71
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 677.6,
-   "change_pct": -1.54
+   "price": 676.89,
+   "change_pct": -1.64
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 79.5,
-   "change_pct": -0.27
+   "price": 79.53,
+   "change_pct": -0.24
   }
  },
  "movers": [
@@ -24,23 +24,23 @@
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 116.13,
+   "price": 116.5,
    "prev_close": 128.64,
-   "change_pct": -9.7,
+   "change_pct": -9.4,
    "trigger_change": -10.9,
    "peak_change": -14.8,
    "first_seen": "2026-11-13T14:58:00+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 100.79,
-    "change_pct": -0.65
+    "price": 100.8,
+    "change_pct": -0.64
    },
    "chart": {
-    "ema8": -14.2,
-    "ema21": -24.6,
-    "sma50": -40.3,
-    "sma200": -35.3,
+    "ema8": -13.9,
+    "ema21": -24.3,
+    "sma50": -40.1,
+    "sma200": -35.0,
     "momentum": false
    },
    "headlines": [
@@ -99,23 +99,23 @@
    "symbol": "AVGO",
    "name": "Broadcom",
    "list": "portfolio",
-   "price": 345.58,
+   "price": 345.0,
    "prev_close": 364.36,
-   "change_pct": -5.2,
+   "change_pct": -5.3,
    "trigger_change": -5.2,
    "peak_change": -7.0,
    "first_seen": "2026-11-13T14:58:00+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 482.57,
-    "change_pct": -3.82
+    "price": 481.57,
+    "change_pct": -4.02
    },
    "chart": {
-    "ema8": 2.6,
-    "ema21": 3.1,
-    "sma50": 0.1,
-    "sma200": -5.9,
+    "ema8": 2.4,
+    "ema21": 2.9,
+    "sma50": -0.1,
+    "sma200": -6.1,
     "momentum": true
    },
    "headlines": [
@@ -171,101 +171,26 @@
    "brief": "2026-11-13-AVGO"
   },
   {
-   "symbol": "ANET",
-   "name": "Arista Networks",
-   "list": "portfolio",
-   "price": 197.41,
-   "prev_close": 206.63,
-   "change_pct": -4.5,
-   "trigger_change": -3.6,
-   "peak_change": -5.3,
-   "first_seen": "2026-11-13T15:03:02+00:00",
-   "sector": {
-    "etf": "SMH",
-    "name": "Semiconductors",
-    "price": 482.57,
-    "change_pct": -3.82
-   },
-   "chart": {
-    "ema8": 4.2,
-    "ema21": 6.1,
-    "sma50": 2.3,
-    "sma200": 18.0,
-    "momentum": true
-   },
-   "headlines": [
-    {
-     "title": "Arista Networks Inc Stock (ANET) Moved Down by 4.90% on Nov 13: What Investors Need To Know",
-     "publisher": "TradingKey",
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOdUhVRl91VThhSEs1eTNqMThaNV9vSVZpVWRQYjZYS0VEZm5XQURZMnhNOE1lWi1NNkI5N0ZaWmthNnlpMGdiaHFfWVRjZXBhZ2YtVnJ1czhnZThPWWh4VWhJSXlFT2NtWTB0UFJSRzNhc3QycDQyaXNOMnhxaG5pS1hJOThuSlhGNko4?oc=5",
-     "time": "2026-11-13T16:15:35+00:00"
-    },
-    {
-     "title": "Cisco Slides 5% Despite Raising AI Outlook to $9 Billion as Citi Says Growth May Have Peaked; Hewlett Packard Enterprise Retreats 5%, Arista Falls 3%",
-     "publisher": "24/7 Wall St.",
-     "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPcWdkWmNBT2JJRUljQVlHTmcyZjdWdEN0M2JGeWItMnNDaW1iOEZyYktuMjd3cGJ5UnBkNThLWlM2YktuaTVQRTdlQ1BDVGpPN0s1OHFlbHUtUUdMVTRPanZpbFRqc1U5NkdPM0M2dThlaGdCcGlVR3VFS0NIOEZ4cW5OWDVkLUozeXNNVUZWN1N6dUV3RUhlYUtSdDJsVk1fTTM4VHoyaXIxV3BTYlVYSXRFUS1CYVF4YmJZd2J0aV9lWTRPV2drNWtlUFNfaUNVU09VRWhXWTR2enZ0UWFTZWNiSTJhRzBmU3FzYWk2Q3ZhWElob1luODQ5TGxuSXQyZDM0R2phcnpUMUVmZGtSMTJhWmJvUQ?oc=5",
-     "time": "2026-11-13T15:13:00+00:00"
-    },
-    {
-     "title": "Is Backblaze (BLZE) Stock Outpacing Its Computer and Technology Peers This Year?",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOejJ3ZnY4cnpHcDlIaFhMclpyUGFfTmVqSE54MXhzc2ZRRF9SX2FWWktQeXRzUE9URGtEN01CelM1NlpjMVU4MWJ5WXVUYUhnYjFrV1ZqVF8zVWdtTlkzVldmZkJYeUdJQ1NWQXk4cXJxd1FGbXFZcUFtc1QzT0JDS0dQdXRzUC1LU19SVmYycE1xcVMzWEg1TWI5UmVKUDJ4UW1JMFU3aWNUV1pNM3JWSEhoSUs?oc=5",
-     "time": "2026-11-13T13:40:02+00:00"
-    },
-    {
-     "title": "About Arista Networks (Stove Tokenized Stock)",
-     "publisher": "Coinbase",
-     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1aT3VsSVJxSUVZYXNTcU44d1dBUHMtcEk4b3R4R2tLZlQwMy1GbGd6dWN1MzB1TkM4TmhycUV3Y0EydkpYVzhuSVh5SWx6bkhzY1loLU1yX3o0dFN0MlVxSWVNRjFfWkZzX0w5dl9DVm1NX21wa1dUM0tfUVVlOXc?oc=5",
-     "time": "2026-11-13T13:23:20+00:00"
-    },
-    {
-     "title": "What Did Arista Networks Stock Investors Miss Before The Run?",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQV1ByQ1ZCSGwwN1ZwR1FnTW9JUTR6RnpwR3ljdmhSbjJTU0lFVjlicDBBZGpQcHN4dzlMUmRHbExKS3BrcS1qaDJBbHI5cy1KTEhuUnBLRUtDdmdrb1RYV1R6Ykp6bndOdVJfSG11U0pJYUVGeVRsWUl0d1R6UVh3Vzk1ZW0wd0tRb2pMT3JRQ3pVd2lGR0ZRU25xck94bWIyZFE?oc=5",
-     "time": "2026-11-13T12:12:51+00:00"
-    },
-    {
-     "title": "Arista Networks, Inc. $ANET Stock: Russell Investments Group Ltd. Trims Stake",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPb29vc2dkY1E1czdWaUFqclJRNkpQRGxvT1d2Yk9NOUFvVHJzT1Z1VlE2VEhVSHB3QnNwZVZ3dUQ4cW91VmVPVmZzVjR6NjJaR2t4cHM2UHcxdVA5M05KTU92VVdGTXA2eVBaX2RnUTc3ZVpVZWdUTU90R3YtSmlSZmViRmk2WTlqVnV4b19UcmhzSm1qZmkwYWtTS21xT2NqLUNkVXdPWm1URkdkOWxzMzNUMGJkUE9SQXlnVVZuUlcxb0lSNEZId21td1RMQQ?oc=5",
-     "time": "2026-11-13T11:08:13+00:00"
-    },
-    {
-     "title": "Management Raised the Bar For Arista Networks Stock; Does The Chart Agree?",
-     "publisher": "Trefis",
-     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNSWtMcy1NN01UcE1yZVZrRWdLYUdIaWNwcW4wWEoxR042dmN1MTRIa0lSbGp0bXlSQUYxSUtia21nQUFMc1lpdElDWmc4U3o1cXlrZG9BT1AtUW03aGRfcDQwSU0wNXREWTlraDhETFZ5U0RETDktMVZxdGZCTll2bWpfRmN0bVRmWkdfcUVNcC16ZVhKaElhLUoxLUc0ckxVWGlxTThHQW9uQkxkR3QtMkUteGRxZ1UyRXdicWMweHgtV1VOR0hOQVZUUWJzZw?oc=5",
-     "time": "2026-11-13T10:56:32+00:00"
-    },
-    {
-     "title": "Arista Networks (ANET) Stock: $206.63, Up 5.06% Nov 12",
-     "publisher": "JournalArta",
-     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOd25hS2l5bU1RNDg5b3o3cHktQkcydTRiLURJaWhLN3I3V3h6MUtvZ3dxTGVqR0hJYWxwYlJlNkVRMGFMd1MxZ1BZc1NLcm5YNnpjNDQzX0JtbnBocG1iT3dWZWJxNURkOEM4Y041d0dBOUFfa3QzdmZXdV9zUkd5NnBNeEdCNTk5ckV6VmRsV3ZaMVVLekZhUk9qc2NlVmJqRDF3NV9PbUF1Y3lidVJDbFJn?oc=5",
-     "time": "2026-11-13T10:09:08+00:00"
-    }
-   ],
-   "brief": "2026-11-13-ANET"
-  },
-  {
    "symbol": "AMAT",
    "name": "Applied Materials",
    "list": "portfolio",
-   "price": 364.1,
+   "price": 362.69,
    "prev_close": 380.95,
-   "change_pct": -4.4,
+   "change_pct": -4.8,
    "trigger_change": -5.1,
    "peak_change": -6.9,
    "first_seen": "2026-11-13T15:03:02+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 482.57,
-    "change_pct": -3.82
+    "price": 481.57,
+    "change_pct": -4.02
    },
    "chart": {
-    "ema8": -2.3,
-    "ema21": -7.0,
-    "sma50": -16.8,
-    "sma200": -18.5,
+    "ema8": -2.6,
+    "ema21": -7.3,
+    "sma50": -17.1,
+    "sma200": -18.8,
     "momentum": false
    },
    "headlines": [
@@ -321,26 +246,101 @@
    "brief": "2026-11-13-AMAT"
   },
   {
+   "symbol": "ANET",
+   "name": "Arista Networks",
+   "list": "portfolio",
+   "price": 196.66,
+   "prev_close": 206.63,
+   "change_pct": -4.8,
+   "trigger_change": -3.6,
+   "peak_change": -5.3,
+   "first_seen": "2026-11-13T15:03:02+00:00",
+   "sector": {
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 481.57,
+    "change_pct": -4.02
+   },
+   "chart": {
+    "ema8": 3.9,
+    "ema21": 5.8,
+    "sma50": 1.9,
+    "sma200": 17.5,
+    "momentum": true
+   },
+   "headlines": [
+    {
+     "title": "Arista Networks Inc Stock (ANET) Moved Down by 4.90% on Nov 13: What Investors Need To Know",
+     "publisher": "TradingKey",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOdUhVRl91VThhSEs1eTNqMThaNV9vSVZpVWRQYjZYS0VEZm5XQURZMnhNOE1lWi1NNkI5N0ZaWmthNnlpMGdiaHFfWVRjZXBhZ2YtVnJ1czhnZThPWWh4VWhJSXlFT2NtWTB0UFJSRzNhc3QycDQyaXNOMnhxaG5pS1hJOThuSlhGNko4?oc=5",
+     "time": "2026-11-13T16:15:35+00:00"
+    },
+    {
+     "title": "Cisco Slides 5% Despite Raising AI Outlook to $9 Billion as Citi Says Growth May Have Peaked; Hewlett Packard Enterprise Retreats 5%, Arista Falls 3%",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPcWdkWmNBT2JJRUljQVlHTmcyZjdWdEN0M2JGeWItMnNDaW1iOEZyYktuMjd3cGJ5UnBkNThLWlM2YktuaTVQRTdlQ1BDVGpPN0s1OHFlbHUtUUdMVTRPanZpbFRqc1U5NkdPM0M2dThlaGdCcGlVR3VFS0NIOEZ4cW5OWDVkLUozeXNNVUZWN1N6dUV3RUhlYUtSdDJsVk1fTTM4VHoyaXIxV3BTYlVYSXRFUS1CYVF4YmJZd2J0aV9lWTRPV2drNWtlUFNfaUNVU09VRWhXWTR2enZ0UWFTZWNiSTJhRzBmU3FzYWk2Q3ZhWElob1luODQ5TGxuSXQyZDM0R2phcnpUMUVmZGtSMTJhWmJvUQ?oc=5",
+     "time": "2026-11-13T15:13:00+00:00"
+    },
+    {
+     "title": "Is Backblaze (BLZE) Stock Outpacing Its Computer and Technology Peers This Year?",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOejJ3ZnY4cnpHcDlIaFhMclpyUGFfTmVqSE54MXhzc2ZRRF9SX2FWWktQeXRzUE9URGtEN01CelM1NlpjMVU4MWJ5WXVUYUhnYjFrV1ZqVF8zVWdtTlkzVldmZkJYeUdJQ1NWQXk4cXJxd1FGbXFZcUFtc1QzT0JDS0dQdXRzUC1LU19SVmYycE1xcVMzWEg1TWI5UmVKUDJ4UW1JMFU3aWNUV1pNM3JWSEhoSUs?oc=5",
+     "time": "2026-11-13T13:40:02+00:00"
+    },
+    {
+     "title": "About Arista Networks (Stove Tokenized Stock)",
+     "publisher": "Coinbase",
+     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1aT3VsSVJxSUVZYXNTcU44d1dBUHMtcEk4b3R4R2tLZlQwMy1GbGd6dWN1MzB1TkM4TmhycUV3Y0EydkpYVzhuSVh5SWx6bkhzY1loLU1yX3o0dFN0MlVxSWVNRjFfWkZzX0w5dl9DVm1NX21wa1dUM0tfUVVlOXc?oc=5",
+     "time": "2026-11-13T13:23:20+00:00"
+    },
+    {
+     "title": "What Did Arista Networks Stock Investors Miss Before The Run?",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQV1ByQ1ZCSGwwN1ZwR1FnTW9JUTR6RnpwR3ljdmhSbjJTU0lFVjlicDBBZGpQcHN4dzlMUmRHbExKS3BrcS1qaDJBbHI5cy1KTEhuUnBLRUtDdmdrb1RYV1R6Ykp6bndOdVJfSG11U0pJYUVGeVRsWUl0d1R6UVh3Vzk1ZW0wd0tRb2pMT3JRQ3pVd2lGR0ZRU25xck94bWIyZFE?oc=5",
+     "time": "2026-11-13T12:12:51+00:00"
+    },
+    {
+     "title": "Arista Networks, Inc. $ANET Stock: Russell Investments Group Ltd. Trims Stake",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPb29vc2dkY1E1czdWaUFqclJRNkpQRGxvT1d2Yk9NOUFvVHJzT1Z1VlE2VEhVSHB3QnNwZVZ3dUQ4cW91VmVPVmZzVjR6NjJaR2t4cHM2UHcxdVA5M05KTU92VVdGTXA2eVBaX2RnUTc3ZVpVZWdUTU90R3YtSmlSZmViRmk2WTlqVnV4b19UcmhzSm1qZmkwYWtTS21xT2NqLUNkVXdPWm1URkdkOWxzMzNUMGJkUE9SQXlnVVZuUlcxb0lSNEZId21td1RMQQ?oc=5",
+     "time": "2026-11-13T11:08:13+00:00"
+    },
+    {
+     "title": "Management Raised the Bar For Arista Networks Stock; Does The Chart Agree?",
+     "publisher": "Trefis",
+     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNSWtMcy1NN01UcE1yZVZrRWdLYUdIaWNwcW4wWEoxR042dmN1MTRIa0lSbGp0bXlSQUYxSUtia21nQUFMc1lpdElDWmc4U3o1cXlrZG9BT1AtUW03aGRfcDQwSU0wNXREWTlraDhETFZ5U0RETDktMVZxdGZCTll2bWpfRmN0bVRmWkdfcUVNcC16ZVhKaElhLUoxLUc0ckxVWGlxTThHQW9uQkxkR3QtMkUteGRxZ1UyRXdicWMweHgtV1VOR0hOQVZUUWJzZw?oc=5",
+     "time": "2026-11-13T10:56:32+00:00"
+    },
+    {
+     "title": "Arista Networks (ANET) Stock: $206.63, Up 5.06% Nov 12",
+     "publisher": "JournalArta",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOd25hS2l5bU1RNDg5b3o3cHktQkcydTRiLURJaWhLN3I3V3h6MUtvZ3dxTGVqR0hJYWxwYlJlNkVRMGFMd1MxZ1BZc1NLcm5YNnpjNDQzX0JtbnBocG1iT3dWZWJxNURkOEM4Y041d0dBOUFfa3QzdmZXdV9zUkd5NnBNeEdCNTk5ckV6VmRsV3ZaMVVLekZhUk9qc2NlVmJqRDF3NV9PbUF1Y3lidVJDbFJn?oc=5",
+     "time": "2026-11-13T10:09:08+00:00"
+    }
+   ],
+   "brief": "2026-11-13-ANET"
+  },
+  {
    "symbol": "APP",
    "name": "AppLovin",
    "list": "portfolio",
-   "price": 409.55,
+   "price": 410.08,
    "prev_close": 393.68,
-   "change_pct": 4.0,
+   "change_pct": 4.2,
    "trigger_change": 3.9,
    "peak_change": 4.5,
    "first_seen": "2026-11-13T14:58:00+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 100.79,
-    "change_pct": -0.65
+    "price": 100.8,
+    "change_pct": -0.64
    },
    "chart": {
-    "ema8": 9.5,
-    "ema21": 24.6,
-    "sma50": 35.5,
-    "sma200": 0.9,
+    "ema8": 9.6,
+    "ema21": 24.8,
+    "sma50": 35.7,
+    "sma200": 1.1,
     "momentum": true
    },
    "headlines": [
@@ -399,18 +399,18 @@
    "symbol": "BTC-USD",
    "name": "Bitcoin",
    "list": "watchlist",
-   "price": 68782.7,
+   "price": 68895.3,
    "prev_close": 71370.7,
-   "change_pct": -3.6,
+   "change_pct": -3.5,
    "trigger_change": -3.5,
    "peak_change": -4.6,
    "first_seen": "2026-11-13T14:58:00+00:00",
    "sector": null,
    "chart": {
-    "ema8": -6.0,
-    "ema21": -9.7,
-    "sma50": -14.6,
-    "sma200": -5.8,
+    "ema8": -5.9,
+    "ema21": -9.6,
+    "sma50": -14.5,
+    "sma200": -5.7,
     "momentum": false
    },
    "headlines": [
@@ -469,23 +469,23 @@
    "symbol": "NVDA",
    "name": "Nvidia",
    "list": "portfolio",
-   "price": 161.19,
+   "price": 160.9,
    "prev_close": 166.19,
-   "change_pct": -3.0,
+   "change_pct": -3.2,
    "trigger_change": -3.1,
    "peak_change": -4.4,
    "first_seen": "2026-11-13T15:18:07+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 482.57,
-    "change_pct": -3.82
+    "price": 481.57,
+    "change_pct": -4.02
    },
    "chart": {
-    "ema8": -8.7,
-    "ema21": -16.9,
-    "sma50": -24.9,
-    "sma200": -21.1,
+    "ema8": -8.9,
+    "ema21": -17.1,
+    "sma50": -25.0,
+    "sma200": -21.2,
     "momentum": false
    },
    "headlines": [
@@ -544,23 +544,23 @@
    "symbol": "CRWD",
    "name": "CrowdStrike",
    "list": "portfolio",
-   "price": 224.94,
+   "price": 224.22,
    "prev_close": 229.87,
-   "change_pct": -2.1,
+   "change_pct": -2.5,
    "trigger_change": -3.2,
    "peak_change": -4.1,
    "first_seen": "2026-11-13T15:18:07+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 100.79,
-    "change_pct": -0.65
+    "price": 100.8,
+    "change_pct": -0.64
    },
    "chart": {
-    "ema8": -2.2,
-    "ema21": -5.5,
-    "sma50": -8.1,
-    "sma200": 30.0,
+    "ema8": -2.4,
+    "ema21": -5.7,
+    "sma50": -8.4,
+    "sma200": 29.6,
     "momentum": false
    },
    "headlines": [
