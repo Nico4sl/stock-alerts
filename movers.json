@@ -1,22 +1,22 @@
 {
  "date": "2026-11-16",
  "threshold": 3.0,
- "updated": "2026-11-16T14:55:56+00:00",
+ "updated": "2026-11-16T15:10:58+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 747.78,
-   "change_pct": -0.87
+   "price": 744.74,
+   "change_pct": -1.28
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 669.22,
-   "change_pct": -1.57
+   "price": 665.33,
+   "change_pct": -2.14
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 79.5,
-   "change_pct": 0.14
+   "price": 79.7,
+   "change_pct": 0.4
   }
  },
  "movers": [
@@ -24,26 +24,32 @@
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 108.67,
+   "price": 106.54,
    "prev_close": 115.88,
-   "change_pct": -6.2,
+   "change_pct": -8.1,
    "trigger_change": -6.2,
-   "peak_change": -6.2,
+   "peak_change": -8.1,
    "first_seen": "2026-11-16T14:55:56+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 100.06,
-    "change_pct": -1.12
+    "price": 99.25,
+    "change_pct": -1.92
    },
    "chart": {
-    "ema8": -16.0,
-    "ema21": -27.5,
-    "sma50": -43.5,
-    "sma200": -39.5,
+    "ema8": -17.3,
+    "ema21": -28.8,
+    "sma50": -44.6,
+    "sma200": -40.6,
     "momentum": false
    },
    "headlines": [
+    {
+     "title": "IREN Drops 7% as NVIDIA Turmoil and Financing Worries Hit Neocloud Stocks; Nebius Falls 6%, CoreWeave Slides 4%",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOOW5ocm9EalpOSUVtMmxWaF9KZHBIS2p2dHFXRXFPbnVIaU9uc1phV25SVFNpMkhzSFp1OEs1d205Y3dvUmc5dE84M1R1aV8xTTBrbFN1Sm1teklyZ2xTQV9EdlJ4UVYweHhSQXhSYmtvaDZEY1c4SDBYalJqNkV1dVoyOFdOZWlZeVBuSFFVYzQ3RVRNT01WWks2QjRYTDg3VFBkVm4xdlVLRXFCMHRrLXF6NTlObDhuUGFwU3ctMlNQY0pkNnNFamlsejE1RzZPVFZ2WkxDc3pTUTFsc2hKUFNuWlo?oc=5",
+     "time": "2026-11-16T14:56:00+00:00"
+    },
     {
      "title": "Nebius Stock Falls 10% After Q3 Earnings: Should You Buy Now?",
      "publisher": "TradingView",
@@ -85,12 +91,6 @@
      "publisher": "Blockchain News",
      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPelVTaEpxNEtyVEFBTC1pOVlsaFUyT2lNS0lUc2lMbmt4UUJMc05KQ0RNZW5SQjJJMmJXMGVnUWx4cHQwMnFwcURpWUNVd01jVUtnQnFObmFMdnJKTmg5UE5YYnFWNFdhMW9NWVVCNmRlSXR0R29pS1dJbHdfY1JLMkhCd2I2Uk1lSGQxdGxUMk5jWVBiTlhn?oc=5",
      "time": "2026-11-16T13:06:00+00:00"
-    },
-    {
-     "title": "CoreWeave, Nebius, and IREN Fall in Pre-Market Today, Nov. 16 \u2014 Here\u2019s Why",
-     "publisher": "TipRanks",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZHU5WmUyMzczQ3J0X3BoZllMNEFYYi1OVjNvMW5ESEYxSlFweHVVdGVTZ210a1ZTd0J4cU1Gc0c5emN0b2tuakwwODY3WVl2YUtKd1N0N1Q2MU5nZk5Ddm0wSmlEWWpndGYta1V2VHIxX0UxY01sQ1AyeWpJM3NMVWJZR2xjWW1uR0llUlRGRVFNX0wxUXBpazVjYUZ1dw?oc=5",
-     "time": "2026-11-16T11:39:46+00:00"
     }
    ],
    "brief": null
@@ -99,23 +99,23 @@
    "symbol": "ANET",
    "name": "Arista Networks",
    "list": "portfolio",
-   "price": 188.05,
+   "price": 185.0,
    "prev_close": 197.29,
-   "change_pct": -4.7,
+   "change_pct": -6.2,
    "trigger_change": -4.7,
-   "peak_change": -4.7,
+   "peak_change": -6.2,
    "first_seen": "2026-11-16T14:55:56+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 468.73,
-    "change_pct": -3.7
+    "price": 466.15,
+    "change_pct": -4.23
    },
    "chart": {
-    "ema8": -0.6,
-    "ema21": 1.0,
-    "sma50": -2.5,
-    "sma200": 12.2,
+    "ema8": -1.8,
+    "ema21": -0.5,
+    "sma50": -4.0,
+    "sma200": 10.4,
     "momentum": true
    },
    "headlines": [
@@ -124,12 +124,6 @@
      "publisher": "Zacks Investment Research",
      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQdHN6dVNpTktEM2NYUzFvWS1hVEZkanVaWjA2enJiYkRtQW44Z1RFWnlPUllxbVRXWEtWbF93RUpXbmNLQ080OGtpbEoxYjVTOGtEVFExdGY1cE5UZ0paMVVjWHVqbEptbTJXQVNHYkJnc0Q0cnNHbWFVenFfOGFTQXIzYWp0ZlhSLXVPSW1ISFdCYjlMbnViUzdWVlloVG1MNUt1cG1zTQ?oc=5",
      "time": "2026-11-16T14:41:47+00:00"
-    },
-    {
-     "title": "About Arista Networks (Stove Tokenized Stock)",
-     "publisher": "Coinbase",
-     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1aT3VsSVJxSUVZYXNTcU44d1dBUHMtcEk4b3R4R2tLZlQwMy1GbGd6dWN1MzB1TkM4TmhycUV3Y0EydkpYVzhuSVh5SWx6bkhzY1loLU1yX3o0dFN0MlVxSWVNRjFfWkZzX0w5dl9DVm1NX21wa1dUM0tfUVVlOXc?oc=5",
-     "time": "2026-11-16T13:38:27+00:00"
     },
     {
      "title": "Is ANET Overvalued? DCF Says Worth $106",
@@ -144,10 +138,10 @@
      "time": "2026-11-16T11:40:53+00:00"
     },
     {
-     "title": "Claudius Watts Bought 22% More Shares In Vistance Networks",
-     "publisher": "Simply Wall St",
-     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPUUJOUGhKNVFxZGk4VmxSaXZRUGZ0dF9WTU54SUJFMzdHcnBDX1VCd2JlMGF2YlBneE41Q1VoeldLY1FFU3FhcE5JV3d3OEJvYV9LdnlYeVgtUVlYRC1jdHlXdXRzcFdyajRldlFoV3ZnVVNaSmhwS1cxY2xVcXA4UzJXNE9KUVB4MVkwb3l5YW9pZVRlTmtHVjR4T3FBdFZldWlfOEZlU0hJSkEybFN1NEpjdjBzV0N0dUdEM2huNG1URFY5YUlIWNIBzgFBVV95cUxPQ2xiTy1QUTlGN0oycWJuWVVibFRBbl9fYW5RMG1xb3hmYVc1NXFJRXI3Y1ZnV3lodXNMVUVYQ0dERmdOZ1pqT0FqcnB4cjdoZmZPaU5pY1FXVW1LWFdzUWFYNG0zRV90R0ZIbWxaNEFWYjB1elA4WVhhUm1ZU3RPa2hIaVByekxhVHdqaTJXQjI4UEdpY1dObGQ5aF8yZkp0SmtJMzcySi1YWlVkNmRpOVhjS3JTR1NiUG5RZy1lcm5hZVNlVXNrcE1EZ084QQ?oc=5",
-     "time": "2026-11-16T10:48:27+00:00"
+     "title": "Which Technology Stocks Are Powering AI Infrastructure Beyond GPUs?",
+     "publisher": "Kalkine Media",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOX2VnY1QzbHdMNFQtN3BTUXlvYmJXZ21mWmtyVzFNQklaQkhBeVpSTVYzeTVrdktqbDdBSjNtMVlHcWNJcFFfY25GVjBqOFJ3WW1QMXJVblExakRWOTdsRmVGTW96VFRMQ19TcF9VbzdMdmtscmplOEEwZ2FtYkpLV2ZyV3h1QUFEWmVKRHNrMFRiOThycEdrR1J1SktWRHpDS1VCYVF2QWZ3aGVKNUVhQnJ3?oc=5",
+     "time": "2026-11-16T10:26:00+00:00"
     },
     {
      "title": "6 Undervalued US Stocks That Crushed Earnings",
@@ -166,6 +160,12 @@
      "publisher": "Yahoo Finance",
      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNE5VcUVmbThsTzZQLURER2hiamdTNWZYX2tIVHhsZHUxamxXZG5YUDVuOGI1Z0VEbU55V0JFWUQtWE9TRk9tQjZqX052ME5MOFpYYUxfUXlvRHE1VVd6Y1hNQUNyQ0JqTXNRbmFJMnVwWmlld3lNVGRrdFlGSUh1V1BZN0FlQ2FJRGpwaXZlVzg0dkYtYzhOMmlCMlgtcEhSMkMzb3hRelJMUQ?oc=5",
      "time": "2026-11-16T07:48:00+00:00"
+    },
+    {
+     "title": "Barclays Upgrades Cleveland-Cliffs (CLF) From Underweight. What Changed?",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPSGF3aE1HZ0IyNUFQMjlTSHc2Z3FLWFF6ZGkxLVVybTlaMFItek5mSUZqc0NkNG5TbGFPTTF5VWtfYlV4UktHV0k4S3M1OWlvQXZGMXEzQWg0VGdQcUxMT3JHZHQ4YXF1YjBpanhCb1FRa1Vkc2tKODAwLUVubHlqWXowcnF6Y3YxRmNqUm0yd1VNRV9VUm9kTUJhWEhXdFFqRzdaTXJB?oc=5",
+     "time": "2026-11-16T02:54:00+00:00"
     }
    ],
    "brief": null
@@ -174,23 +174,23 @@
    "symbol": "AVGO",
    "name": "Broadcom",
    "list": "portfolio",
-   "price": 331.2,
+   "price": 329.44,
    "prev_close": 347.01,
-   "change_pct": -4.6,
+   "change_pct": -5.1,
    "trigger_change": -4.6,
-   "peak_change": -4.6,
+   "peak_change": -5.1,
    "first_seen": "2026-11-16T14:55:56+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 468.73,
-    "change_pct": -3.7
+    "price": 466.15,
+    "change_pct": -4.23
    },
    "chart": {
-    "ema8": -1.4,
-    "ema21": -1.2,
-    "sma50": -4.0,
-    "sma200": -9.9,
+    "ema8": -1.8,
+    "ema21": -1.6,
+    "sma50": -4.5,
+    "sma200": -10.3,
     "momentum": true
    },
    "headlines": [
@@ -249,23 +249,23 @@
    "symbol": "AMAT",
    "name": "Applied Materials",
    "list": "portfolio",
-   "price": 354.39,
+   "price": 352.97,
    "prev_close": 370.5,
-   "change_pct": -4.3,
+   "change_pct": -4.7,
    "trigger_change": -4.3,
-   "peak_change": -4.3,
+   "peak_change": -5.0,
    "first_seen": "2026-11-16T14:55:56+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 468.73,
-    "change_pct": -3.7
+    "price": 466.15,
+    "change_pct": -4.23
    },
    "chart": {
-    "ema8": -4.2,
-    "ema21": -8.8,
-    "sma50": -18.7,
-    "sma200": -20.7,
+    "ema8": -4.5,
+    "ema21": -9.1,
+    "sma50": -19.0,
+    "sma200": -21.0,
     "momentum": false
    },
    "headlines": [
@@ -316,6 +316,81 @@
      "publisher": "TradingKey",
      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPYnc3c2Y2MzVPbkdyRHU4M0tHb25ERUE0R1gybk0wSGh3dXNTS3NHWEVodFZKVVZ2MElxOWpYVHZNWG1lYnJVXzhNTnk3c2dMTnhjaXZScXpjV0lZRDY0OFhsMjZfTFctWkFSaHBsVUI2aVFHUFI2c0hvSHhPNldBWUJXUjBiV2pwMDkyVmMwXzd5MEN6cmNrY1hGYXNmcWVJRWdEVFFObEloNG1TWmZDMVI5M2I1NFNuVzNQLXFHSXE?oc=5",
      "time": "2026-11-15T14:26:36+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
+   "symbol": "SOFI",
+   "name": "SoFi",
+   "list": "portfolio",
+   "price": 14.9,
+   "prev_close": 15.42,
+   "change_pct": -3.3,
+   "trigger_change": -3.3,
+   "peak_change": -3.3,
+   "first_seen": "2026-11-16T15:10:58+00:00",
+   "sector": {
+    "etf": "XLF",
+    "name": "Financials",
+    "price": 58.51,
+    "change_pct": -0.3
+   },
+   "chart": {
+    "ema8": -5.7,
+    "ema21": -6.7,
+    "sma50": -7.5,
+    "sma200": -13.8,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "SoFi posts best quarter, raises outlook; stock trades at 17x 2027 earnings guidance.",
+     "publisher": "Pluang",
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQVHI2c2tsd1RUd1pydVhzUG1YdXdIQVYwRFpNSXVHTEFjWDAyVDJGdEVMWFhadm96QUtsN1hpRVBDeUxoVE14NmY0bEFxSGx4MkNFOHFtSC1xVndvekVJS2d5dGVRbFdIOHNQZ0ducTdXcFJNZlBIb0ItUEowSDB1UVZrSmI0Zw?oc=5",
+     "time": "2026-11-16T14:15:54+00:00"
+    },
+    {
+     "title": "SoFi: Earnings Beat, But The Bigger Surprise May Come In 2027 (NASDAQ:SOFI)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNWHllbF9EQTRNeURGdlc5YWFvcnpQQkhvVHBzZUNuRXVuLUdHTXBWa1YxQklwd2t1WkFzYmR1ekhZdEE5SkR4UVJJdzJTbUxkYXF5TXZfYUNTbDVndlNtZ0twQnFqTEduSFdIUlRzTUFKajNZZTN4R2thd2VLZWxtYnNwN1ZRbVhSeUJnbS13WmdmQ2lURXR3bzBETWtyUFNoVmc?oc=5",
+     "time": "2026-11-16T13:35:55+00:00"
+    },
+    {
+     "title": "3 Beaten-Down Stocks That Could Soar in 2027",
+     "publisher": "The Globe and Mail",
+     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPbWxkVU50MGFUZ3NLZ3FQOXRoV1dadEpaVDR5aU1FTlBnWFdRSm02aTJLMHgteFlXTEZBRHMyaDIxcU5Ka0w1MkhWVTlyU0gzeHJVQTZ4QTBGd3duYXBrckFTQ1NZZG5pRENFZnI3SXBQZGpackI5cDRmYmtiSWhNRmRlY3M2b1l0QVo0OFRBZnJlNkVnVExaZ2NiMDJhbTZ6d29yNWx0SXRmWjJ5emRUdC1PR2hhZ3picDFNelVILXRxUzZCeUgtelB2bw?oc=5",
+     "time": "2026-11-16T12:23:19+00:00"
+    },
+    {
+     "title": "SOFI 261113 17.50C (SOFI261113C17500) Stock Options Chain | Quotes & News",
+     "publisher": "Moomoo",
+     "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9JaHZvcHdycEpzRmRZczI5MWhSSDFIenpHNHpNSThKY2FyZXdEV2lORGhmZ2lFNzBFV19QV3ZrblVPZTlXc2ZLM2w1VVgzWGxyN01nY3FTcklrTmlreWlV?oc=5",
+     "time": "2026-11-16T09:08:36+00:00"
+    },
+    {
+     "title": "Which of These 6 Fintech Stocks Has the Clearest Path to Profit?",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPMTRUcVlkMWlGMi1EQ1NvNmdqTVotcFhpZE0xMFFRUjhWX0o0dWdEQTJxWHJaaERRdlAwdWVpdkx3cm9EbXJQVnRmRWhqNjhmQzZoNEpSU1lHWF9BWG44Y1hSMUFidE96Nmp1WDUzWHp1Vi1iWDhkQ3NxenBHWVhWWEZlODNCOXBRcGM2NENyeTNMTzYtOXdPMDJGVXR5U2F0YVFFbWhDQWRWdw?oc=5",
+     "time": "2026-11-16T08:38:00+00:00"
+    },
+    {
+     "title": "SoFi Technologies, Inc. (SOFI) Options Chain - Yahoo Finance",
+     "publisher": "Yahoo! Finance Canada",
+     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQSUpaaU9NdGFILUlweldPNWtVbVI4ZDZhOHRDcWZ0RXB0UzBNN3V0RHJLaTF4NXllYTlzQ2ZBdk5DRmtFUlNSVzZsMUtfc1VYTGxNRmJQeUJDaGZ6RFh5aFhLdWxtN0tsUU9MME5CODZORjdwQWNPVmtCQUdxSHpXcm1VNENhQVFtVnVzdzM5OVRVZw?oc=5",
+     "time": "2026-11-16T00:32:58+00:00"
+    },
+    {
+     "title": "SoFi Planned for 2 Rate Cuts This Year and Got a Rate Hike. It Raised Its Guidance Anyway.",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOS1NZNlZ6Ml9jd3lRTkpyVnhja1U3TlJwWmZudVdaV0Jxbnl1dGJLc0lwUFBCUnN3b0hzSUp6eml0dkpPeEJuN1UzdlM0ZFphWlRISEY0bll6ZXY1ZUN0V0VidloteXRvR0dvZnhpaTdtckY3WHBRTTlUVnZlbGl0Y09yRUlRMFdtLWhNb2NMa3dzMkU?oc=5",
+     "time": "2026-11-15T21:50:00+00:00"
+    },
+    {
+     "title": "SoFi Technologies Optimistic Outlook with Significant Revenue Guidance Increase",
+     "publisher": "Intellectia AI",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOWDhuS195RnZVLVdkYmNfenlsb1lweXBUQk1Ic29uenNuM0xiYkNZTzBYMnZkXzhYZDZOWVE3c2piQldGZFdHV3NHeFhidUE2X3pHUGRIcXMxeXB6OVZwdElPTzNQRFpEamRPalcwWC05b0dlbHI4Wjllc1I2dlF6OEt0NVI3YVB4YVFZeDBBcXhNVVVpb0FQYlhaMnJPbGtmZ2tZNVdWNzB4RjFnekF5dWl1TQ?oc=5",
+     "time": "2026-11-15T20:29:31+00:00"
     }
    ],
    "brief": null
