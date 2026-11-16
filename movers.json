@@ -1,22 +1,22 @@
 {
  "date": "2026-11-16",
  "threshold": 3.0,
- "updated": "2026-11-16T20:32:08+00:00",
+ "updated": "2026-11-16T20:57:41+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 739.38,
-   "change_pct": -1.99
+   "price": 739.29,
+   "change_pct": -2.0
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 661.98,
-   "change_pct": -2.63
+   "price": 661.34,
+   "change_pct": -2.73
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 79.52,
-   "change_pct": 0.18
+   "price": 79.38,
+   "change_pct": -0.01
   }
  },
  "movers": [
@@ -24,9 +24,9 @@
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 106.16,
+   "price": 107.09,
    "prev_close": 115.88,
-   "change_pct": -8.4,
+   "change_pct": -7.6,
    "trigger_change": -6.2,
    "peak_change": -8.8,
    "first_seen": "2026-11-16T14:55:56+00:00",
@@ -34,13 +34,13 @@
     "etf": "IGV",
     "name": "Software",
     "price": 99.0,
-    "change_pct": -2.16
+    "change_pct": -2.17
    },
    "chart": {
-    "ema8": -17.6,
-    "ema21": -29.0,
-    "sma50": -44.8,
-    "sma200": -40.8,
+    "ema8": -17.0,
+    "ema21": -28.5,
+    "sma50": -44.3,
+    "sma200": -40.3,
     "momentum": false
    },
    "headlines": [
@@ -96,101 +96,26 @@
    "brief": "2026-11-16-NBIS"
   },
   {
-   "symbol": "ANET",
-   "name": "Arista Networks",
-   "list": "portfolio",
-   "price": 185.79,
-   "prev_close": 197.29,
-   "change_pct": -5.8,
-   "trigger_change": -4.7,
-   "peak_change": -6.3,
-   "first_seen": "2026-11-16T14:55:56+00:00",
-   "sector": {
-    "etf": "SMH",
-    "name": "Semiconductors",
-    "price": 462.33,
-    "change_pct": -5.02
-   },
-   "chart": {
-    "ema8": -1.5,
-    "ema21": -0.1,
-    "sma50": -3.6,
-    "sma200": 10.9,
-    "momentum": true
-   },
-   "headlines": [
-    {
-     "title": "Arista Networks (ANET) Stock Price Prediction: Bulls defend trend support as buying pressure meets a neutral RSI",
-     "publisher": "Blockchain News",
-     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNYlZELU5NVHNjbmU1Ty1sM0NGUjdybXpjMmJ0MTNNQS1LWk55M1BWdGtqelRIa2ZQNDQ5SXBuNE9FQ2Z3bDJTYkRNbEJoc2FtbWhUd2lUTEduMERFRWMtQTFpREVkc3pPS3lfT25HZHBmSl9XNHdLbFFtY0xUa2F1andaYmRPUDJNZy1VaXJyZ0JMb0U3eDd0a1lNZDU?oc=5",
-     "time": "2026-11-16T19:44:23+00:00"
-    },
-    {
-     "title": "Datadog (DDOG) Stock Price Prediction: Scotiabank lifts earnings view as DDOG tests support",
-     "publisher": "Blockchain News",
-     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPSmtoQnp4M19BZWFXSmo4QllyaEdaZm9OZXIzNTVyV3d1eE9NSExzUlJiN0J3WFJoSlZZVFhKNUNBalFTSE9zdVlJaUpwb0x2Zm1UYUxReWFVb1VaVnpYU3ltbUdVQTJPTTRJSHBsYkhPSEkza2VRZXJvOXRPb0ptU2MxT2JRNllvaHdyQm1HRzVUMUE0d1cxOVh4c3Z0dG8?oc=5",
-     "time": "2026-11-16T19:44:00+00:00"
-    },
-    {
-     "title": "Intel, Micron among market cap stock movers on Monday By Investing.com",
-     "publisher": "Investing.com South Africa",
-     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNVU9Ma3RjYVdPajVaam14TWliU0xHXy1ETjNhOGZVbUZpRmF3X0VZdy1CaFZHbzFQMVEwY3JHVmtRajVQUHlSc0ZncmdKOXR3TjY2NC1xTW1BQkR3eDZiSkZZcUF2NVNVOWNRWkxsVF9qWENBUkpxcFdkS3lCWDk5c0Q2Qk5WX0VzWlRjcjVCNFZZUHlOQU1nX0ZDd1psOFRyT2tGNG5XVHpyX2dJenNaT25zYw?oc=5",
-     "time": "2026-11-16T19:19:09+00:00"
-    },
-    {
-     "title": "Intel, Micron among market cap stock movers on Monday",
-     "publisher": "Investing.com",
-     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWDBnZnlzR3RWd2VQQnQyX0RKQk5DbUdwQ3ljREV1Z1Z4OFo0b0ttTzRlVWdyeU5GQjhwRFN5QWFpNE5rTmphV01SbXFyQkU0RU5uQVBTVXEydUhpMW9wVi1Yd3BrVGMtVXdsbEJIWHVicm5XRG13azBJYS1NT1RXeF94V2ZIQXR4VUZicEVyVHNMc0MxMEgxQnZPOTNMZ1hlM1NYbmV4eEl1RjR5UmVubl90bk4?oc=5",
-     "time": "2026-11-16T19:10:14+00:00"
-    },
-    {
-     "title": "Fund Update: 290,941 ARISTA NETWORKS (ANET) shares added to J. Stern & Co. LLP portfolio",
-     "publisher": "Quiver Quantitative",
-     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQTXlGdlVkbWZrZFVUemQxaEZGelhuTW12c2lJX2FKNEtfaV9Ick82ZnNDWFlmNzhvc2lvYzB5U3J1ejF1OWljZkdkcFRnWlhUVXFpMmo1NkZRanVaZnBDeXo1eGdXNklNWGdHY1lBWmR0cmFPU19RNVE4LVlONll1ckZaWFZuZ2VCM0hFTWdjdncteDhNaHBOVHI2S1Vld1ltbEU4Z2VMNnYwQTNxT09FR0hfS1lZdTdEVnNUNXNKZU1Bb3hOR0xWZnNhWQ?oc=5",
-     "time": "2026-11-16T18:06:00+00:00"
-    },
-    {
-     "title": "A $4.3 Billion Fund Just Bought These 3 Stocks",
-     "publisher": "TIKR.com",
-     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBTeXZuel9ib2hvSWdpd051cmY4R3dBbDVmaGp0RDlqSHFja19wTXo5RkNxSWxPcjN3bXhrV2ZNdXZZckYtQVBrU2xod1VNQm1JeUgwbmppc0hhb28xVUlnaVU4dGpNNmJTY00zTVN0OHMxSTBhUHVMclZLdw?oc=5",
-     "time": "2026-11-16T15:45:21+00:00"
-    },
-    {
-     "title": "GLW vs. ANET: Which AI Stock is the Smarter Investment Option Now?",
-     "publisher": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVzJ2cnM5dnpUMm9LVVdmcEh1emhQcENKbTRITTFmSTdFYTJwQjY4WktTeVZzdDAxc0JyVDJSOUpjSUY1ZktubElRRl9WQUs5MU1wRHRtZ2RwY0RlTXgtVGhhNmlxc2dzbTZLLTZSN21SUmNjRHJ6bkFRdWJTaWpxTko5VjJOX3pDRUtNMy1EMUhfdk9mZzZlVU9RR0J4aW9zalBqWkR6UzRCQzd2QUY4SDNheW53dTdTRGhF?oc=5",
-     "time": "2026-11-16T14:10:00+00:00"
-    },
-    {
-     "title": "About Arista Networks (Stove Tokenized Stock)",
-     "publisher": "Coinbase",
-     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1aT3VsSVJxSUVZYXNTcU44d1dBUHMtcEk4b3R4R2tLZlQwMy1GbGd6dWN1MzB1TkM4TmhycUV3Y0EydkpYVzhuSVh5SWx6bkhzY1loLU1yX3o0dFN0MlVxSWVNRjFfWkZzX0w5dl9DVm1NX21wa1dUM0tfUVVlOXc?oc=5",
-     "time": "2026-11-16T13:38:27+00:00"
-    }
-   ],
-   "brief": "2026-11-16-ANET"
-  },
-  {
    "symbol": "AMAT",
    "name": "Applied Materials",
    "list": "portfolio",
-   "price": 351.77,
+   "price": 349.71,
    "prev_close": 370.5,
-   "change_pct": -5.1,
+   "change_pct": -5.6,
    "trigger_change": -4.3,
-   "peak_change": -5.4,
+   "peak_change": -5.6,
    "first_seen": "2026-11-16T14:55:56+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 462.33,
-    "change_pct": -5.02
+    "price": 461.24,
+    "change_pct": -5.24
    },
    "chart": {
-    "ema8": -4.7,
-    "ema21": -9.4,
-    "sma50": -19.3,
-    "sma200": -21.2,
+    "ema8": -5.2,
+    "ema21": -9.9,
+    "sma50": -19.8,
+    "sma200": -21.7,
     "momentum": false
    },
    "headlines": [
@@ -246,24 +171,99 @@
    "brief": "2026-11-16-AMAT"
   },
   {
+   "symbol": "ANET",
+   "name": "Arista Networks",
+   "list": "portfolio",
+   "price": 186.33,
+   "prev_close": 197.29,
+   "change_pct": -5.6,
+   "trigger_change": -4.7,
+   "peak_change": -6.3,
+   "first_seen": "2026-11-16T14:55:56+00:00",
+   "sector": {
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 461.24,
+    "change_pct": -5.24
+   },
+   "chart": {
+    "ema8": -1.3,
+    "ema21": 0.2,
+    "sma50": -3.3,
+    "sma200": 11.2,
+    "momentum": true
+   },
+   "headlines": [
+    {
+     "title": "Arista Networks (ANET) Stock Price Prediction: Bulls defend trend support as buying pressure meets a neutral RSI",
+     "publisher": "Blockchain News",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNYlZELU5NVHNjbmU1Ty1sM0NGUjdybXpjMmJ0MTNNQS1LWk55M1BWdGtqelRIa2ZQNDQ5SXBuNE9FQ2Z3bDJTYkRNbEJoc2FtbWhUd2lUTEduMERFRWMtQTFpREVkc3pPS3lfT25HZHBmSl9XNHdLbFFtY0xUa2F1andaYmRPUDJNZy1VaXJyZ0JMb0U3eDd0a1lNZDU?oc=5",
+     "time": "2026-11-16T19:44:23+00:00"
+    },
+    {
+     "title": "Datadog (DDOG) Stock Price Prediction: Scotiabank lifts earnings view as DDOG tests support",
+     "publisher": "Blockchain News",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPSmtoQnp4M19BZWFXSmo4QllyaEdaZm9OZXIzNTVyV3d1eE9NSExzUlJiN0J3WFJoSlZZVFhKNUNBalFTSE9zdVlJaUpwb0x2Zm1UYUxReWFVb1VaVnpYU3ltbUdVQTJPTTRJSHBsYkhPSEkza2VRZXJvOXRPb0ptU2MxT2JRNllvaHdyQm1HRzVUMUE0d1cxOVh4c3Z0dG8?oc=5",
+     "time": "2026-11-16T19:44:00+00:00"
+    },
+    {
+     "title": "Intel, Micron among market cap stock movers on Monday By Investing.com",
+     "publisher": "Investing.com South Africa",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNVU9Ma3RjYVdPajVaam14TWliU0xHXy1ETjNhOGZVbUZpRmF3X0VZdy1CaFZHbzFQMVEwY3JHVmtRajVQUHlSc0ZncmdKOXR3TjY2NC1xTW1BQkR3eDZiSkZZcUF2NVNVOWNRWkxsVF9qWENBUkpxcFdkS3lCWDk5c0Q2Qk5WX0VzWlRjcjVCNFZZUHlOQU1nX0ZDd1psOFRyT2tGNG5XVHpyX2dJenNaT25zYw?oc=5",
+     "time": "2026-11-16T19:19:09+00:00"
+    },
+    {
+     "title": "Intel, Micron among market cap stock movers on Monday",
+     "publisher": "Investing.com",
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWDBnZnlzR3RWd2VQQnQyX0RKQk5DbUdwQ3ljREV1Z1Z4OFo0b0ttTzRlVWdyeU5GQjhwRFN5QWFpNE5rTmphV01SbXFyQkU0RU5uQVBTVXEydUhpMW9wVi1Yd3BrVGMtVXdsbEJIWHVicm5XRG13azBJYS1NT1RXeF94V2ZIQXR4VUZicEVyVHNMc0MxMEgxQnZPOTNMZ1hlM1NYbmV4eEl1RjR5UmVubl90bk4?oc=5",
+     "time": "2026-11-16T19:10:14+00:00"
+    },
+    {
+     "title": "Fund Update: 290,941 ARISTA NETWORKS (ANET) shares added to J. Stern & Co. LLP portfolio",
+     "publisher": "Quiver Quantitative",
+     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQTXlGdlVkbWZrZFVUemQxaEZGelhuTW12c2lJX2FKNEtfaV9Ick82ZnNDWFlmNzhvc2lvYzB5U3J1ejF1OWljZkdkcFRnWlhUVXFpMmo1NkZRanVaZnBDeXo1eGdXNklNWGdHY1lBWmR0cmFPU19RNVE4LVlONll1ckZaWFZuZ2VCM0hFTWdjdncteDhNaHBOVHI2S1Vld1ltbEU4Z2VMNnYwQTNxT09FR0hfS1lZdTdEVnNUNXNKZU1Bb3hOR0xWZnNhWQ?oc=5",
+     "time": "2026-11-16T18:06:00+00:00"
+    },
+    {
+     "title": "A $4.3 Billion Fund Just Bought These 3 Stocks",
+     "publisher": "TIKR.com",
+     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBTeXZuel9ib2hvSWdpd051cmY4R3dBbDVmaGp0RDlqSHFja19wTXo5RkNxSWxPcjN3bXhrV2ZNdXZZckYtQVBrU2xod1VNQm1JeUgwbmppc0hhb28xVUlnaVU4dGpNNmJTY00zTVN0OHMxSTBhUHVMclZLdw?oc=5",
+     "time": "2026-11-16T15:45:21+00:00"
+    },
+    {
+     "title": "GLW vs. ANET: Which AI Stock is the Smarter Investment Option Now?",
+     "publisher": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVzJ2cnM5dnpUMm9LVVdmcEh1emhQcENKbTRITTFmSTdFYTJwQjY4WktTeVZzdDAxc0JyVDJSOUpjSUY1ZktubElRRl9WQUs5MU1wRHRtZ2RwY0RlTXgtVGhhNmlxc2dzbTZLLTZSN21SUmNjRHJ6bkFRdWJTaWpxTko5VjJOX3pDRUtNMy1EMUhfdk9mZzZlVU9RR0J4aW9zalBqWkR6UzRCQzd2QUY4SDNheW53dTdTRGhF?oc=5",
+     "time": "2026-11-16T14:10:00+00:00"
+    },
+    {
+     "title": "About Arista Networks (Stove Tokenized Stock)",
+     "publisher": "Coinbase",
+     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1aT3VsSVJxSUVZYXNTcU44d1dBUHMtcEk4b3R4R2tLZlQwMy1GbGd6dWN1MzB1TkM4TmhycUV3Y0EydkpYVzhuSVh5SWx6bkhzY1loLU1yX3o0dFN0MlVxSWVNRjFfWkZzX0w5dl9DVm1NX21wa1dUM0tfUVVlOXc?oc=5",
+     "time": "2026-11-16T13:38:27+00:00"
+    }
+   ],
+   "brief": "2026-11-16-ANET"
+  },
+  {
    "symbol": "NVDA",
    "name": "Nvidia",
    "list": "portfolio",
-   "price": 155.64,
+   "price": 155.69,
    "prev_close": 162.85,
    "change_pct": -4.4,
    "trigger_change": -3.4,
-   "peak_change": -4.6,
+   "peak_change": -4.7,
    "first_seen": "2026-11-16T17:22:24+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 462.33,
-    "change_pct": -5.02
+    "price": 461.24,
+    "change_pct": -5.24
    },
    "chart": {
     "ema8": -9.6,
-    "ema21": -18.4,
+    "ema21": -18.3,
     "sma50": -27.0,
     "sma200": -23.7,
     "momentum": false
@@ -324,23 +324,23 @@
    "symbol": "AVGO",
    "name": "Broadcom",
    "list": "portfolio",
-   "price": 332.5,
+   "price": 332.98,
    "prev_close": 347.01,
-   "change_pct": -4.2,
+   "change_pct": -4.0,
    "trigger_change": -4.6,
    "peak_change": -5.1,
    "first_seen": "2026-11-16T14:55:56+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 462.33,
-    "change_pct": -5.02
+    "price": 461.24,
+    "change_pct": -5.24
    },
    "chart": {
-    "ema8": -1.1,
-    "ema21": -0.8,
-    "sma50": -3.6,
-    "sma200": -9.5,
+    "ema8": -1.0,
+    "ema21": -0.7,
+    "sma50": -3.5,
+    "sma200": -9.4,
     "momentum": true
    },
    "headlines": [
@@ -408,13 +408,13 @@
    "sector": {
     "etf": "XLF",
     "name": "Financials",
-    "price": 58.03,
-    "change_pct": -1.11
+    "price": 58.15,
+    "change_pct": -0.9
    },
    "chart": {
     "ema8": -6.2,
     "ema21": -7.2,
-    "sma50": -8.1,
+    "sma50": -8.0,
     "sma200": -14.3,
     "momentum": false
    },
@@ -425,75 +425,49 @@
    "symbol": "GOOG",
    "name": "Alphabet",
    "list": "portfolio",
-   "price": 282.06,
+   "price": 280.72,
    "prev_close": 292.52,
-   "change_pct": -3.6,
+   "change_pct": -4.0,
    "trigger_change": -3.3,
-   "peak_change": -3.9,
+   "peak_change": -4.0,
    "first_seen": "2026-11-16T15:26:09+00:00",
    "sector": {
     "etf": "XLC",
     "name": "Communication",
-    "price": 106.81,
-    "change_pct": -1.73
+    "price": 106.8,
+    "change_pct": -1.74
    },
    "chart": {
-    "ema8": -2.3,
-    "ema21": -5.8,
-    "sma50": -13.0,
-    "sma200": -16.1,
+    "ema8": -2.7,
+    "ema21": -6.2,
+    "sma50": -13.4,
+    "sma200": -16.5,
     "momentum": false
    },
    "headlines": [],
    "brief": "2026-11-16-GOOG"
   },
   {
-   "symbol": "AXON",
-   "name": "Axon",
-   "list": "watchlist",
-   "price": 304.83,
-   "prev_close": 315.43,
-   "change_pct": -3.4,
-   "trigger_change": -3.4,
-   "peak_change": -3.4,
-   "first_seen": "2026-11-16T20:32:08+00:00",
-   "sector": {
-    "etf": "XLI",
-    "name": "Industrials",
-    "price": 165.48,
-    "change_pct": -1.96
-   },
-   "chart": {
-    "ema8": -6.8,
-    "ema21": -16.6,
-    "sma50": -26.3,
-    "sma200": -34.5,
-    "momentum": false
-   },
-   "headlines": [],
-   "brief": null
-  },
-  {
    "symbol": "AMZN",
    "name": "Amazon",
    "list": "portfolio",
-   "price": 257.97,
+   "price": 257.47,
    "prev_close": 266.66,
-   "change_pct": -3.3,
+   "change_pct": -3.4,
    "trigger_change": -3.1,
    "peak_change": -3.7,
    "first_seen": "2026-11-16T17:22:24+00:00",
    "sector": {
     "etf": "XLY",
     "name": "Consumer discr.",
-    "price": 117.95,
-    "change_pct": -1.69
+    "price": 118.16,
+    "change_pct": -1.52
    },
    "chart": {
-    "ema8": -1.8,
-    "ema21": -0.4,
-    "sma50": 1.2,
-    "sma200": 5.4,
+    "ema8": -1.9,
+    "ema21": -0.6,
+    "sma50": 1.1,
+    "sma200": 5.2,
     "momentum": true
    },
    "headlines": [
@@ -549,12 +523,38 @@
    "brief": "2026-11-16-AMZN"
   },
   {
+   "symbol": "AXON",
+   "name": "Axon",
+   "list": "watchlist",
+   "price": 306.76,
+   "prev_close": 315.43,
+   "change_pct": -2.7,
+   "trigger_change": -3.4,
+   "peak_change": -3.4,
+   "first_seen": "2026-11-16T20:32:08+00:00",
+   "sector": {
+    "etf": "XLI",
+    "name": "Industrials",
+    "price": 165.64,
+    "change_pct": -1.86
+   },
+   "chart": {
+    "ema8": -6.3,
+    "ema21": -16.1,
+    "sma50": -25.8,
+    "sma200": -34.1,
+    "momentum": false
+   },
+   "headlines": [],
+   "brief": "2026-11-16-AXON"
+  },
+  {
    "symbol": "CRWD",
    "name": "CrowdStrike",
    "list": "portfolio",
-   "price": 223.26,
+   "price": 222.88,
    "prev_close": 226.61,
-   "change_pct": -1.5,
+   "change_pct": -1.6,
    "trigger_change": -3.1,
    "peak_change": -3.3,
    "first_seen": "2026-11-16T15:26:09+00:00",
@@ -562,13 +562,13 @@
     "etf": "IGV",
     "name": "Software",
     "price": 99.0,
-    "change_pct": -2.16
+    "change_pct": -2.17
    },
    "chart": {
-    "ema8": -2.4,
-    "ema21": -5.7,
-    "sma50": -8.9,
-    "sma200": 28.6,
+    "ema8": -2.5,
+    "ema21": -5.8,
+    "sma50": -9.1,
+    "sma200": 28.4,
     "momentum": false
    },
    "headlines": [
