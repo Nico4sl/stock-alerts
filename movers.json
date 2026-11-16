@@ -1,17 +1,17 @@
 {
  "date": "2026-11-16",
  "threshold": 3.0,
- "updated": "2026-11-16T15:10:58+00:00",
+ "updated": "2026-11-16T15:16:01+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 744.74,
-   "change_pct": -1.28
+   "price": 744.16,
+   "change_pct": -1.35
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 665.33,
-   "change_pct": -2.14
+   "price": 665.08,
+   "change_pct": -2.18
   },
   "TLT": {
    "name": "Long Treasuries",
@@ -24,23 +24,23 @@
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 106.54,
+   "price": 106.22,
    "prev_close": 115.88,
-   "change_pct": -8.1,
+   "change_pct": -8.3,
    "trigger_change": -6.2,
-   "peak_change": -8.1,
+   "peak_change": -8.3,
    "first_seen": "2026-11-16T14:55:56+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 99.25,
-    "change_pct": -1.92
+    "price": 99.16,
+    "change_pct": -2.01
    },
    "chart": {
-    "ema8": -17.3,
-    "ema21": -28.8,
-    "sma50": -44.6,
-    "sma200": -40.6,
+    "ema8": -17.5,
+    "ema21": -29.0,
+    "sma50": -44.7,
+    "sma200": -40.8,
     "momentum": false
    },
    "headlines": [
@@ -99,7 +99,7 @@
    "symbol": "ANET",
    "name": "Arista Networks",
    "list": "portfolio",
-   "price": 185.0,
+   "price": 185.1,
    "prev_close": 197.29,
    "change_pct": -6.2,
    "trigger_change": -4.7,
@@ -108,14 +108,14 @@
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 466.15,
-    "change_pct": -4.23
+    "price": 465.37,
+    "change_pct": -4.39
    },
    "chart": {
     "ema8": -1.8,
-    "ema21": -0.5,
+    "ema21": -0.4,
     "sma50": -4.0,
-    "sma200": 10.4,
+    "sma200": 10.5,
     "momentum": true
    },
    "headlines": [
@@ -171,101 +171,26 @@
    "brief": null
   },
   {
-   "symbol": "AVGO",
-   "name": "Broadcom",
-   "list": "portfolio",
-   "price": 329.44,
-   "prev_close": 347.01,
-   "change_pct": -5.1,
-   "trigger_change": -4.6,
-   "peak_change": -5.1,
-   "first_seen": "2026-11-16T14:55:56+00:00",
-   "sector": {
-    "etf": "SMH",
-    "name": "Semiconductors",
-    "price": 466.15,
-    "change_pct": -4.23
-   },
-   "chart": {
-    "ema8": -1.8,
-    "ema21": -1.6,
-    "sma50": -4.5,
-    "sma200": -10.3,
-    "momentum": true
-   },
-   "headlines": [
-    {
-     "title": "Broadcom Inc Stock (AVGO) Opened Down by 4.11% on Nov 16: Key Drivers Unveiled",
-     "publisher": "TradingKey",
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOYkVieEwzTU9KX21OeWJNUGVWZEpVWGZzbU9BOUVmSkhYbERQTUZqWEtta1UwV05hbk1QMktDOEJMWGd1N19xSTlhZnFZT3NralJwSUdNMkN2ODh4S0pVUXZFRnA4U1dRajh4WmhodHRXcXBkdV81NEVzdlpRcU5lUmJHTjZncXhLMHpr?oc=5",
-     "time": "2026-11-16T14:47:28+00:00"
-    },
-    {
-     "title": "AMD, Broadcom stocks sink on tighter US chip rules, CoreWeave and Nebius shares drop",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOVmRVNUZveFlyMzN1YXlaNndmR0QzaGFwNjR5X1FVS2hXa21zV2VxWVJCQ09KNC1ib2c4QTZ1djNDMlE4Qm42S3U5Zk9YRGZYR3NVV3lZM1hJNVRDRjBsUldMNDRLNWZTRmd4TThDWFRDWGZxT0hUSDM1Rlp3VVZZamNkX2FsdE1YWFNEYm1aa2NDWjhzOWRxTUhfbkY2dGJUWEoxRXVOSGhTOE5mal8yOGp6ZHZWcV9HMXdTX3lkZjJuT2JzVWlLb1RR?oc=5",
-     "time": "2026-11-16T14:33:42+00:00"
-    },
-    {
-     "title": "Arm Stock Could Be Worth Much More if These 3 Catalysts Materialize",
-     "publisher": "24/7 Wall St.",
-     "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOX1J4UFMwV2cyQmpYME1hcFFTQU1GSC13djB1Xy1RN3lRMEVwZ2dtOVlzV1dYcVpteXlBRnNMMWttQXZMNDZYbEdXSjkzbjdZYVJycmVkTGgwMGFaRHRJSm02Z3FqUDNkbVFaQmQyTW5JZ1hTWE1vME90eURrQVdHRzhEN2tXTU9MaXpkMVJpQThveEJEanNhTVA4aHRLMjVJMDQ4c3BFZ2FnYnNfSzA4c2Uza3RnelhESEpMWHF2MlhCVVZNQXJVdWw5T3VDbjhvcW1xYVZEVWptc3Y3djJ3?oc=5",
-     "time": "2026-11-16T14:33:00+00:00"
-    },
-    {
-     "title": "AMD, Broadcom stocks sink on tighter US chips rules, CoreWeave drops",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPd0VaNXdEN3JiNHZrTzNmSHU2QWpVbkJlYVFfNGZyNndWMEI4S0JjSXliemhiLVpCRDNTSURkdFltLUdCWE5qYVVoSzFRWDFPT2Zva2hmMkgxZnMycmVnWmVMc2Y3SjBGRjRKZlRTYVJMUVhYcWk2ZnM4cXdqVTdzVk93WXNLNmF6ellVNFg5cWtZZi1kZDU3ZmFkTmtmYk5mN2JjY0FCc25fYWI0cThNMTREbjhRUm51OERVREVGTTVKVTk1dHFVc2FibkZPZzlKbEFmNndhTHJCSmdyQVNfT1dCMkliWDNtSmd3?oc=5",
-     "time": "2026-11-16T14:24:53+00:00"
-    },
-    {
-     "title": "What's Going On With Broadcom Stock Monday?",
-     "publisher": "Benzinga",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZExEWlRSemZHajB3RkZzaHRZOVpxWW5veXZVVlk2Q0ZOY21kMHhPbV9pbkt0OE5INmktakpadVczeVNiMVVEZmdYakZUSm05cjlNWG5RNnVzOEozMENyLWp2bmpaYkRjN3hqRVZGT0JTZklkQ05LVnA1YXdHdjhIRGFmUzFnb3MwNVpxVDc4b3pRSUs3dS1fTDBTdU5fQQ?oc=5",
-     "time": "2026-11-16T14:08:16+00:00"
-    },
-    {
-     "title": "Broadcom Management Says AI Chip Revenue to Double to $115 Billion in 2027, Giving Bulls Plenty to Cheer",
-     "publisher": "24/7 Wall St.",
-     "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNU3hIbnVLdlY5bnZYNmZMb1oweWVOOHFJVG1zX3pDeHpBRWFqOGRNYmhveHRCUDRMS0lRamp1bW5mbjhSN3FkT2NiR25ZY3B0SEZKd0JvQkkwZWVzZkplZFVfc0JndllDX0gyS01LQllNZ2dVZ3JaSkpzQXRRYzE3Mk1QWWYwR1BVWVdlc3NLSTJwSDk3QTdYbHRXMEEzWXZaVFpkSU5PSEJXZ2VkbmpLRnN1LUVvQ2k0dWUzVHl3aDhIX2lDaDhaUWxFMERqd24xTEJyTE1oNDdsTDkzc3NR?oc=5",
-     "time": "2026-11-16T13:45:00+00:00"
-    },
-    {
-     "title": "Broadcom Trades at 24.8x Its AI Revenue, Nvidia at 11x",
-     "publisher": "FourWeekMBA",
-     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOUUpYNjc5OWRIYmdoNGliYUtOWE9YeXlZZTIybnpCRGRJSWYzcS1SNE1ZZ2pibHpHVlpucmJnbnJRRVZHa3k2SV9zc3Bfb0ROWWdLN2hDYzZDZnV1YU5sWFUtbW56ZTJIT1Z6V1dRd2NUaGJocUo5aTh4OERfY2tFeFlOc1VlYnVW?oc=5",
-     "time": "2026-11-16T13:21:43+00:00"
-    },
-    {
-     "title": "Broadcom (AVGO) Downgraded As Wall Street Questions Its AI Financing Model",
-     "publisher": "Yahoo! Finance Canada",
-     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNNjhPYkh3dWxmMDUwdlhWYXF3dUJkN0dNa3ViV0VzWFNOUlZ1TGxjQ05tSkRxaDhZaVFJVzJicDVGUmN3b2htQ3hnMmNPWnJXbzRBNC1MTGdQaFJCRHYxUmkzdlR4OVFCTDVVZUg5am5NVHc0MTQzMjdzckV3VnczNjExVDRLNlhQNmdyODJ3?oc=5",
-     "time": "2026-11-16T13:07:30+00:00"
-    }
-   ],
-   "brief": null
-  },
-  {
    "symbol": "AMAT",
    "name": "Applied Materials",
    "list": "portfolio",
-   "price": 352.97,
+   "price": 352.36,
    "prev_close": 370.5,
-   "change_pct": -4.7,
+   "change_pct": -4.9,
    "trigger_change": -4.3,
    "peak_change": -5.0,
    "first_seen": "2026-11-16T14:55:56+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 466.15,
-    "change_pct": -4.23
+    "price": 465.37,
+    "change_pct": -4.39
    },
    "chart": {
-    "ema8": -4.5,
-    "ema21": -9.1,
-    "sma50": -19.0,
-    "sma200": -21.0,
+    "ema8": -4.6,
+    "ema21": -9.3,
+    "sma50": -19.2,
+    "sma200": -21.1,
     "momentum": false
    },
    "headlines": [
@@ -321,26 +246,101 @@
    "brief": null
   },
   {
+   "symbol": "AVGO",
+   "name": "Broadcom",
+   "list": "portfolio",
+   "price": 330.57,
+   "prev_close": 347.01,
+   "change_pct": -4.7,
+   "trigger_change": -4.6,
+   "peak_change": -5.1,
+   "first_seen": "2026-11-16T14:55:56+00:00",
+   "sector": {
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 465.37,
+    "change_pct": -4.39
+   },
+   "chart": {
+    "ema8": -1.5,
+    "ema21": -1.3,
+    "sma50": -4.1,
+    "sma200": -10.0,
+    "momentum": true
+   },
+   "headlines": [
+    {
+     "title": "Broadcom Inc Stock (AVGO) Opened Down by 4.11% on Nov 16: Key Drivers Unveiled",
+     "publisher": "TradingKey",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOYkVieEwzTU9KX21OeWJNUGVWZEpVWGZzbU9BOUVmSkhYbERQTUZqWEtta1UwV05hbk1QMktDOEJMWGd1N19xSTlhZnFZT3NralJwSUdNMkN2ODh4S0pVUXZFRnA4U1dRajh4WmhodHRXcXBkdV81NEVzdlpRcU5lUmJHTjZncXhLMHpr?oc=5",
+     "time": "2026-11-16T14:47:28+00:00"
+    },
+    {
+     "title": "AMD, Broadcom stocks sink on tighter US chip rules, CoreWeave and Nebius shares drop",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOVmRVNUZveFlyMzN1YXlaNndmR0QzaGFwNjR5X1FVS2hXa21zV2VxWVJCQ09KNC1ib2c4QTZ1djNDMlE4Qm42S3U5Zk9YRGZYR3NVV3lZM1hJNVRDRjBsUldMNDRLNWZTRmd4TThDWFRDWGZxT0hUSDM1Rlp3VVZZamNkX2FsdE1YWFNEYm1aa2NDWjhzOWRxTUhfbkY2dGJUWEoxRXVOSGhTOE5mal8yOGp6ZHZWcV9HMXdTX3lkZjJuT2JzVWlLb1RR?oc=5",
+     "time": "2026-11-16T14:33:42+00:00"
+    },
+    {
+     "title": "Arm Stock Could Be Worth Much More if These 3 Catalysts Materialize",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOX1J4UFMwV2cyQmpYME1hcFFTQU1GSC13djB1Xy1RN3lRMEVwZ2dtOVlzV1dYcVpteXlBRnNMMWttQXZMNDZYbEdXSjkzbjdZYVJycmVkTGgwMGFaRHRJSm02Z3FqUDNkbVFaQmQyTW5JZ1hTWE1vME90eURrQVdHRzhEN2tXTU9MaXpkMVJpQThveEJEanNhTVA4aHRLMjVJMDQ4c3BFZ2FnYnNfSzA4c2Uza3RnelhESEpMWHF2MlhCVVZNQXJVdWw5T3VDbjhvcW1xYVZEVWptc3Y3djJ3?oc=5",
+     "time": "2026-11-16T14:33:00+00:00"
+    },
+    {
+     "title": "AMD, Broadcom stocks sink on tighter US chips rules, CoreWeave drops",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPd0VaNXdEN3JiNHZrTzNmSHU2QWpVbkJlYVFfNGZyNndWMEI4S0JjSXliemhiLVpCRDNTSURkdFltLUdCWE5qYVVoSzFRWDFPT2Zva2hmMkgxZnMycmVnWmVMc2Y3SjBGRjRKZlRTYVJMUVhYcWk2ZnM4cXdqVTdzVk93WXNLNmF6ellVNFg5cWtZZi1kZDU3ZmFkTmtmYk5mN2JjY0FCc25fYWI0cThNMTREbjhRUm51OERVREVGTTVKVTk1dHFVc2FibkZPZzlKbEFmNndhTHJCSmdyQVNfT1dCMkliWDNtSmd3?oc=5",
+     "time": "2026-11-16T14:24:53+00:00"
+    },
+    {
+     "title": "What's Going On With Broadcom Stock Monday?",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZExEWlRSemZHajB3RkZzaHRZOVpxWW5veXZVVlk2Q0ZOY21kMHhPbV9pbkt0OE5INmktakpadVczeVNiMVVEZmdYakZUSm05cjlNWG5RNnVzOEozMENyLWp2bmpaYkRjN3hqRVZGT0JTZklkQ05LVnA1YXdHdjhIRGFmUzFnb3MwNVpxVDc4b3pRSUs3dS1fTDBTdU5fQQ?oc=5",
+     "time": "2026-11-16T14:08:16+00:00"
+    },
+    {
+     "title": "Broadcom Management Says AI Chip Revenue to Double to $115 Billion in 2027, Giving Bulls Plenty to Cheer",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNU3hIbnVLdlY5bnZYNmZMb1oweWVOOHFJVG1zX3pDeHpBRWFqOGRNYmhveHRCUDRMS0lRamp1bW5mbjhSN3FkT2NiR25ZY3B0SEZKd0JvQkkwZWVzZkplZFVfc0JndllDX0gyS01LQllNZ2dVZ3JaSkpzQXRRYzE3Mk1QWWYwR1BVWVdlc3NLSTJwSDk3QTdYbHRXMEEzWXZaVFpkSU5PSEJXZ2VkbmpLRnN1LUVvQ2k0dWUzVHl3aDhIX2lDaDhaUWxFMERqd24xTEJyTE1oNDdsTDkzc3NR?oc=5",
+     "time": "2026-11-16T13:45:00+00:00"
+    },
+    {
+     "title": "Broadcom Trades at 24.8x Its AI Revenue, Nvidia at 11x",
+     "publisher": "FourWeekMBA",
+     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOUUpYNjc5OWRIYmdoNGliYUtOWE9YeXlZZTIybnpCRGRJSWYzcS1SNE1ZZ2pibHpHVlpucmJnbnJRRVZHa3k2SV9zc3Bfb0ROWWdLN2hDYzZDZnV1YU5sWFUtbW56ZTJIT1Z6V1dRd2NUaGJocUo5aTh4OERfY2tFeFlOc1VlYnVW?oc=5",
+     "time": "2026-11-16T13:21:43+00:00"
+    },
+    {
+     "title": "Broadcom (AVGO) Downgraded As Wall Street Questions Its AI Financing Model",
+     "publisher": "Yahoo! Finance Canada",
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNNjhPYkh3dWxmMDUwdlhWYXF3dUJkN0dNa3ViV0VzWFNOUlZ1TGxjQ05tSkRxaDhZaVFJVzJicDVGUmN3b2htQ3hnMmNPWnJXbzRBNC1MTGdQaFJCRHYxUmkzdlR4OVFCTDVVZUg5am5NVHc0MTQzMjdzckV3VnczNjExVDRLNlhQNmdyODJ3?oc=5",
+     "time": "2026-11-16T13:07:30+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
    "symbol": "SOFI",
    "name": "SoFi",
    "list": "portfolio",
-   "price": 14.9,
+   "price": 14.88,
    "prev_close": 15.42,
-   "change_pct": -3.3,
+   "change_pct": -3.5,
    "trigger_change": -3.3,
-   "peak_change": -3.3,
+   "peak_change": -3.5,
    "first_seen": "2026-11-16T15:10:58+00:00",
    "sector": {
     "etf": "XLF",
     "name": "Financials",
-    "price": 58.51,
-    "change_pct": -0.3
+    "price": 58.52,
+    "change_pct": -0.27
    },
    "chart": {
-    "ema8": -5.7,
-    "ema21": -6.7,
-    "sma50": -7.5,
-    "sma200": -13.8,
+    "ema8": -5.8,
+    "ema21": -6.8,
+    "sma50": -7.6,
+    "sma200": -13.9,
     "momentum": false
    },
    "headlines": [
