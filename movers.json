@@ -1,17 +1,17 @@
 {
  "date": "2026-11-16",
  "threshold": 3.0,
- "updated": "2026-11-16T16:01:29+00:00",
+ "updated": "2026-11-16T16:06:33+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 746.71,
-   "change_pct": -1.02
+   "price": 746.44,
+   "change_pct": -1.05
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 668.41,
-   "change_pct": -1.69
+   "price": 668.23,
+   "change_pct": -1.71
   },
   "TLT": {
    "name": "Long Treasuries",
@@ -24,7 +24,7 @@
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 107.18,
+   "price": 107.23,
    "prev_close": 115.88,
    "change_pct": -7.5,
    "trigger_change": -6.2,
@@ -33,14 +33,14 @@
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 99.88,
-    "change_pct": -1.29
+    "price": 99.98,
+    "change_pct": -1.2
    },
    "chart": {
     "ema8": -16.9,
     "ema21": -28.4,
     "sma50": -44.2,
-    "sma200": -40.3,
+    "sma200": -40.2,
     "momentum": false
    },
    "headlines": [
@@ -99,23 +99,23 @@
    "symbol": "ANET",
    "name": "Arista Networks",
    "list": "portfolio",
-   "price": 186.88,
+   "price": 187.01,
    "prev_close": 197.29,
-   "change_pct": -5.3,
+   "change_pct": -5.2,
    "trigger_change": -4.7,
    "peak_change": -6.3,
    "first_seen": "2026-11-16T14:55:56+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 467.97,
-    "change_pct": -3.86
+    "price": 468.14,
+    "change_pct": -3.82
    },
    "chart": {
     "ema8": -1.0,
-    "ema21": 0.4,
-    "sma50": -3.1,
-    "sma200": 11.5,
+    "ema21": 0.5,
+    "sma50": -3.0,
+    "sma200": 11.6,
     "momentum": true
    },
    "headlines": [
@@ -171,101 +171,26 @@
    "brief": "2026-11-16-ANET"
   },
   {
-   "symbol": "AVGO",
-   "name": "Broadcom",
-   "list": "portfolio",
-   "price": 333.94,
-   "prev_close": 347.01,
-   "change_pct": -3.8,
-   "trigger_change": -4.6,
-   "peak_change": -5.1,
-   "first_seen": "2026-11-16T14:55:56+00:00",
-   "sector": {
-    "etf": "SMH",
-    "name": "Semiconductors",
-    "price": 467.97,
-    "change_pct": -3.86
-   },
-   "chart": {
-    "ema8": -0.8,
-    "ema21": -0.4,
-    "sma50": -3.2,
-    "sma200": -9.1,
-    "momentum": true
-   },
-   "headlines": [
-    {
-     "title": "Broadcom\u2019s Quiet 8% November Move Could Ramp Up Very Quickly in This Volatile Climate and I\u2019m Buying",
-     "publisher": "AOL.com",
-     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5pSERHZzVMdGtNaDhfWHBVMVRsczRlc1hMRHU5dGxzOWY0RUtOWmw3SmZHRTJISG9HaHJEb21zcGRUWFk2T2dlWDhwWmtJUUc2VlBBcjNRTFJQdHlDcGpZWFZfTEpYR0R6bTZOdmFneFR4NmdfaHh4Mms4RHVWeFk?oc=5",
-     "time": "2026-11-16T15:45:24+00:00"
-    },
-    {
-     "title": "Broadcom's Quiet 8% November Move Could Ramp Up Very Quickly in This Volatile Climate and I'm Buying",
-     "publisher": "24/7 Wall St.",
-     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQYUNLWlBxWFh5bWlmUDZYTjk3eWFTYmpfXzV1cVNPWW9zVnpFazdVVHhWUG1INGpsZWl2dFZWN2pxNGw4UU9wMGs2SzBVamdEM1Job25vU1FicmQ2RmVFenA2VG9hWHBJc1h5Z0tWdGNzUnh6YzJxdHdfbXJpMFBscHBPYjNXR2VsUXQyV3pmLXhfZkhBQ0JNdUdBdVBGWDlzRWVFQTJhQ2x6OEdCODVncWY0Y211a19RSnI5cFJnendOMXd5MkxObHowWmF2U1dFZmlyYjJHMW0?oc=5",
-     "time": "2026-11-16T15:45:00+00:00"
-    },
-    {
-     "title": "Broadcom stock: Planned Anthropic stake adds AI exposure",
-     "publisher": "ad-hoc-news.de",
-     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPR3dKdThlTWQ0QVpCVlNqZFpwdlBObXl5Y0FyaTlCcEctdVYxckJTOGk1THpYSU5YSUpBRjJxRG5SWkVuMl9TR0UyZURjUHdET3MzWW90ZDl2WmpGUkxCRFpLRmNBV2llVGtDX000X3cwWUpHNnZTVnNVTUREbkQ0ZzlYZWJYbGZmdzFtbXZ5TFhDMzVjTnJHR1VDQ3VIZG1Delc3TWt5dTlTdElNVkF0MUdqQ2dxSHlCZUE?oc=5",
-     "time": "2026-11-16T15:13:05+00:00"
-    },
-    {
-     "title": "Broadcom shares technical analysis: Oversold conditions could offer limited support",
-     "publisher": "Traders Union",
-     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNMU9BN0paYWo1bjRpOWtfRUNOUEJlcG94NnY5MG5rZDBuQ29IRTU2bTJKQXA1QmxRbGJwcFYxS0VlcTRJZTdZOUoySWxZWGc5MTlzOWRZaUVycUMzb25YTUc5QjRON0R3Qmw0aDZDWDVVeVpaQ2NvZmltODhBdlJZSDFDc3FzUHg4WHhCNkcyV3VyRlE?oc=5",
-     "time": "2026-11-16T15:10:32+00:00"
-    },
-    {
-     "title": "A $2.3 Billion Fund Just Bought These 3 Stocks",
-     "publisher": "TIKR.com",
-     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxONFkxNm1Da3E3WDVfaWtoWVFqTzF2Tkt0UmI0X051V0RZR3JORUNoZGw1YWxucWdBN1d4TnJGQTBRaG9vZ0lvQ1pXVDVaZnJ1QnZHT2FXcmFpU0VucTZTeDNCemFOd0ZxdldfVWl2V3gxU29CVG0yOGZxX2phZVRyRlUtN2h3OF9VR1RDNTd4TU90RWNCbGRBZFRiMllHQUxfdEVFNFptOERVMkFkWDdTYlV3?oc=5",
-     "time": "2026-11-16T15:07:00+00:00"
-    },
-    {
-     "title": "Broadcom Inc Stock (AVGO) Opened Down by 4.11% on Nov 16: Key Drivers Unveiled",
-     "publisher": "TradingKey",
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOYkVieEwzTU9KX21OeWJNUGVWZEpVWGZzbU9BOUVmSkhYbERQTUZqWEtta1UwV05hbk1QMktDOEJMWGd1N19xSTlhZnFZT3NralJwSUdNMkN2ODh4S0pVUXZFRnA4U1dRajh4WmhodHRXcXBkdV81NEVzdlpRcU5lUmJHTjZncXhLMHpr?oc=5",
-     "time": "2026-11-16T14:47:28+00:00"
-    },
-    {
-     "title": "AMD, Broadcom stocks sink on tighter US chip rules, CoreWeave and Nebius shares drop",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOVmRVNUZveFlyMzN1YXlaNndmR0QzaGFwNjR5X1FVS2hXa21zV2VxWVJCQ09KNC1ib2c4QTZ1djNDMlE4Qm42S3U5Zk9YRGZYR3NVV3lZM1hJNVRDRjBsUldMNDRLNWZTRmd4TThDWFRDWGZxT0hUSDM1Rlp3VVZZamNkX2FsdE1YWFNEYm1aa2NDWjhzOWRxTUhfbkY2dGJUWEoxRXVOSGhTOE5mal8yOGp6ZHZWcV9HMXdTX3lkZjJuT2JzVWlLb1RR?oc=5",
-     "time": "2026-11-16T14:33:42+00:00"
-    },
-    {
-     "title": "Arm Stock Could Be Worth Much More if These 3 Catalysts Materialize",
-     "publisher": "24/7 Wall St.",
-     "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOX1J4UFMwV2cyQmpYME1hcFFTQU1GSC13djB1Xy1RN3lRMEVwZ2dtOVlzV1dYcVpteXlBRnNMMWttQXZMNDZYbEdXSjkzbjdZYVJycmVkTGgwMGFaRHRJSm02Z3FqUDNkbVFaQmQyTW5JZ1hTWE1vME90eURrQVdHRzhEN2tXTU9MaXpkMVJpQThveEJEanNhTVA4aHRLMjVJMDQ4c3BFZ2FnYnNfSzA4c2Uza3RnelhESEpMWHF2MlhCVVZNQXJVdWw5T3VDbjhvcW1xYVZEVWptc3Y3djJ3?oc=5",
-     "time": "2026-11-16T14:33:00+00:00"
-    }
-   ],
-   "brief": "2026-11-16-AVGO"
-  },
-  {
    "symbol": "AMAT",
    "name": "Applied Materials",
    "list": "portfolio",
-   "price": 356.95,
+   "price": 355.1,
    "prev_close": 370.5,
-   "change_pct": -3.7,
+   "change_pct": -4.2,
    "trigger_change": -4.3,
    "peak_change": -5.4,
    "first_seen": "2026-11-16T14:55:56+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 467.97,
-    "change_pct": -3.86
+    "price": 468.14,
+    "change_pct": -3.82
    },
    "chart": {
-    "ema8": -3.6,
-    "ema21": -8.2,
-    "sma50": -18.1,
-    "sma200": -20.1,
+    "ema8": -4.0,
+    "ema21": -8.6,
+    "sma50": -18.5,
+    "sma200": -20.5,
     "momentum": false
    },
    "headlines": [
@@ -321,10 +246,85 @@
    "brief": "2026-11-16-AMAT"
   },
   {
+   "symbol": "AVGO",
+   "name": "Broadcom",
+   "list": "portfolio",
+   "price": 333.8,
+   "prev_close": 347.01,
+   "change_pct": -3.8,
+   "trigger_change": -4.6,
+   "peak_change": -5.1,
+   "first_seen": "2026-11-16T14:55:56+00:00",
+   "sector": {
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 468.14,
+    "change_pct": -3.82
+   },
+   "chart": {
+    "ema8": -0.8,
+    "ema21": -0.5,
+    "sma50": -3.2,
+    "sma200": -9.2,
+    "momentum": true
+   },
+   "headlines": [
+    {
+     "title": "Broadcom\u2019s Quiet 8% November Move Could Ramp Up Very Quickly in This Volatile Climate and I\u2019m Buying",
+     "publisher": "AOL.com",
+     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5pSERHZzVMdGtNaDhfWHBVMVRsczRlc1hMRHU5dGxzOWY0RUtOWmw3SmZHRTJISG9HaHJEb21zcGRUWFk2T2dlWDhwWmtJUUc2VlBBcjNRTFJQdHlDcGpZWFZfTEpYR0R6bTZOdmFneFR4NmdfaHh4Mms4RHVWeFk?oc=5",
+     "time": "2026-11-16T15:45:24+00:00"
+    },
+    {
+     "title": "Broadcom's Quiet 8% November Move Could Ramp Up Very Quickly in This Volatile Climate and I'm Buying",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQYUNLWlBxWFh5bWlmUDZYTjk3eWFTYmpfXzV1cVNPWW9zVnpFazdVVHhWUG1INGpsZWl2dFZWN2pxNGw4UU9wMGs2SzBVamdEM1Job25vU1FicmQ2RmVFenA2VG9hWHBJc1h5Z0tWdGNzUnh6YzJxdHdfbXJpMFBscHBPYjNXR2VsUXQyV3pmLXhfZkhBQ0JNdUdBdVBGWDlzRWVFQTJhQ2x6OEdCODVncWY0Y211a19RSnI5cFJnendOMXd5MkxObHowWmF2U1dFZmlyYjJHMW0?oc=5",
+     "time": "2026-11-16T15:45:00+00:00"
+    },
+    {
+     "title": "Broadcom stock: Planned Anthropic stake adds AI exposure",
+     "publisher": "ad-hoc-news.de",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPR3dKdThlTWQ0QVpCVlNqZFpwdlBObXl5Y0FyaTlCcEctdVYxckJTOGk1THpYSU5YSUpBRjJxRG5SWkVuMl9TR0UyZURjUHdET3MzWW90ZDl2WmpGUkxCRFpLRmNBV2llVGtDX000X3cwWUpHNnZTVnNVTUREbkQ0ZzlYZWJYbGZmdzFtbXZ5TFhDMzVjTnJHR1VDQ3VIZG1Delc3TWt5dTlTdElNVkF0MUdqQ2dxSHlCZUE?oc=5",
+     "time": "2026-11-16T15:13:05+00:00"
+    },
+    {
+     "title": "Broadcom shares technical analysis: Oversold conditions could offer limited support",
+     "publisher": "Traders Union",
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNMU9BN0paYWo1bjRpOWtfRUNOUEJlcG94NnY5MG5rZDBuQ29IRTU2bTJKQXA1QmxRbGJwcFYxS0VlcTRJZTdZOUoySWxZWGc5MTlzOWRZaUVycUMzb25YTUc5QjRON0R3Qmw0aDZDWDVVeVpaQ2NvZmltODhBdlJZSDFDc3FzUHg4WHhCNkcyV3VyRlE?oc=5",
+     "time": "2026-11-16T15:10:32+00:00"
+    },
+    {
+     "title": "A $2.3 Billion Fund Just Bought These 3 Stocks",
+     "publisher": "TIKR.com",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxONFkxNm1Da3E3WDVfaWtoWVFqTzF2Tkt0UmI0X051V0RZR3JORUNoZGw1YWxucWdBN1d4TnJGQTBRaG9vZ0lvQ1pXVDVaZnJ1QnZHT2FXcmFpU0VucTZTeDNCemFOd0ZxdldfVWl2V3gxU29CVG0yOGZxX2phZVRyRlUtN2h3OF9VR1RDNTd4TU90RWNCbGRBZFRiMllHQUxfdEVFNFptOERVMkFkWDdTYlV3?oc=5",
+     "time": "2026-11-16T15:07:00+00:00"
+    },
+    {
+     "title": "Broadcom Inc Stock (AVGO) Opened Down by 4.11% on Nov 16: Key Drivers Unveiled",
+     "publisher": "TradingKey",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOYkVieEwzTU9KX21OeWJNUGVWZEpVWGZzbU9BOUVmSkhYbERQTUZqWEtta1UwV05hbk1QMktDOEJMWGd1N19xSTlhZnFZT3NralJwSUdNMkN2ODh4S0pVUXZFRnA4U1dRajh4WmhodHRXcXBkdV81NEVzdlpRcU5lUmJHTjZncXhLMHpr?oc=5",
+     "time": "2026-11-16T14:47:28+00:00"
+    },
+    {
+     "title": "AMD, Broadcom stocks sink on tighter US chip rules, CoreWeave and Nebius shares drop",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOVmRVNUZveFlyMzN1YXlaNndmR0QzaGFwNjR5X1FVS2hXa21zV2VxWVJCQ09KNC1ib2c4QTZ1djNDMlE4Qm42S3U5Zk9YRGZYR3NVV3lZM1hJNVRDRjBsUldMNDRLNWZTRmd4TThDWFRDWGZxT0hUSDM1Rlp3VVZZamNkX2FsdE1YWFNEYm1aa2NDWjhzOWRxTUhfbkY2dGJUWEoxRXVOSGhTOE5mal8yOGp6ZHZWcV9HMXdTX3lkZjJuT2JzVWlLb1RR?oc=5",
+     "time": "2026-11-16T14:33:42+00:00"
+    },
+    {
+     "title": "Arm Stock Could Be Worth Much More if These 3 Catalysts Materialize",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOX1J4UFMwV2cyQmpYME1hcFFTQU1GSC13djB1Xy1RN3lRMEVwZ2dtOVlzV1dYcVpteXlBRnNMMWttQXZMNDZYbEdXSjkzbjdZYVJycmVkTGgwMGFaRHRJSm02Z3FqUDNkbVFaQmQyTW5JZ1hTWE1vME90eURrQVdHRzhEN2tXTU9MaXpkMVJpQThveEJEanNhTVA4aHRLMjVJMDQ4c3BFZ2FnYnNfSzA4c2Uza3RnelhESEpMWHF2MlhCVVZNQXJVdWw5T3VDbjhvcW1xYVZEVWptc3Y3djJ3?oc=5",
+     "time": "2026-11-16T14:33:00+00:00"
+    }
+   ],
+   "brief": "2026-11-16-AVGO"
+  },
+  {
    "symbol": "SOFI",
    "name": "SoFi",
    "list": "portfolio",
-   "price": 14.92,
+   "price": 14.93,
    "prev_close": 15.42,
    "change_pct": -3.2,
    "trigger_change": -3.3,
@@ -333,14 +333,14 @@
    "sector": {
     "etf": "XLF",
     "name": "Financials",
-    "price": 58.49,
-    "change_pct": -0.32
+    "price": 58.48,
+    "change_pct": -0.33
    },
    "chart": {
     "ema8": -5.6,
-    "ema21": -6.6,
-    "sma50": -7.4,
-    "sma200": -13.7,
+    "ema21": -6.5,
+    "sma50": -7.3,
+    "sma200": -13.6,
     "momentum": false
    },
    "headlines": [
@@ -399,7 +399,7 @@
    "symbol": "GOOG",
    "name": "Alphabet",
    "list": "portfolio",
-   "price": 285.77,
+   "price": 285.68,
    "prev_close": 292.52,
    "change_pct": -2.3,
    "trigger_change": -3.3,
@@ -408,13 +408,13 @@
    "sector": {
     "etf": "XLC",
     "name": "Communication",
-    "price": 107.48,
-    "change_pct": -1.11
+    "price": 107.44,
+    "change_pct": -1.15
    },
    "chart": {
     "ema8": -1.3,
     "ema21": -4.7,
-    "sma50": -11.8,
+    "sma50": -11.9,
     "sma200": -15.0,
     "momentum": false
    },
@@ -483,8 +483,8 @@
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 99.88,
-    "change_pct": -1.29
+    "price": 99.98,
+    "change_pct": -1.2
    },
    "chart": {
     "ema8": -2.8,
