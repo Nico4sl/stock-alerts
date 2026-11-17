@@ -1,22 +1,22 @@
 {
  "date": "2026-11-17",
  "threshold": 3.0,
- "updated": "2026-11-17T19:59:26+00:00",
+ "updated": "2026-11-17T20:04:27+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 728.67,
-   "change_pct": -1.52
+   "price": 728.79,
+   "change_pct": -1.51
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 652.08,
-   "change_pct": -1.46
+   "price": 651.84,
+   "change_pct": -1.5
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 79.62,
-   "change_pct": 0.3
+   "price": 79.66,
+   "change_pct": 0.35
   }
  },
  "movers": [
@@ -24,26 +24,32 @@
    "symbol": "NOW",
    "name": "ServiceNow",
    "list": "portfolio",
-   "price": 92.59,
+   "price": 92.55,
    "prev_close": 99.37,
-   "change_pct": -6.8,
+   "change_pct": -6.9,
    "trigger_change": -4.2,
    "peak_change": -7.3,
    "first_seen": "2026-11-17T14:55:57+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 95.69,
-    "change_pct": -3.35
+    "price": 95.76,
+    "change_pct": -3.27
    },
    "chart": {
-    "ema8": -8.5,
-    "ema21": -18.4,
+    "ema8": -8.6,
+    "ema21": -18.5,
     "sma50": -29.0,
-    "sma200": -18.4,
+    "sma200": -18.5,
     "momentum": false
    },
    "headlines": [
+    {
+     "title": "ServiceNow Inc Stock (NOW) Moved Down by 6.09% on Nov 17: What Signal Does It Send?",
+     "publisher": "TradingKey",
+     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNLTNKdGxoaVVwS0hfOXJ3WWNXU0VYNzZMRUhlZ19LNTNob21lYVVtem1UN0t6RlFkc01oQi11N3BHZHVkNkpQU0hiQzlSTW04bGlXSFhDWkUxRmFlamtEZjZhcTBxY1dMOXpHSS1SMkpMVTVPQmFuNlVMTkZoSE9EZGNQSXphXzhnVnc?oc=5",
+     "time": "2026-11-17T19:15:25+00:00"
+    },
     {
      "title": "ServiceNow Stock Drops 7% As Software Sell-Off Deepens",
      "publisher": "Benzinga",
@@ -75,12 +81,6 @@
      "time": "2026-11-17T14:44:00+00:00"
     },
     {
-     "title": "ServiceNow, Inc. (NOW) Stock Price, News, Quote & History",
-     "publisher": "Yahoo! Finance Canada",
-     "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1qNDh3Z2F5VzhIS28tOHlnR1NpY2E5RzdGbzI4RXU3aEtZS3ExRngwQ1dnZW1Kd2NyeWxNSmRVTVZFbFY3ZTZUVHMzV3pDUzVG?oc=5",
-     "time": "2026-11-17T07:45:29+00:00"
-    },
-    {
      "title": "Did Slower Growth Guidance Just Shift ServiceNow (NOW) Stock's Investment Narrative?",
      "publisher": "Simply Wall St",
      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNczktRENwWHVuM1czODN3NTdUcFpkUkxfUW5KRkNrTFBvQ1dLMk5Yb3RfNEZ4T05iRGhlcGZRRTM2YWI5NF9VUVZzT2w4emE3d0FEV05qT0ZLc3JYVy1ITGlMVEtTb2JkTl9lWXpEQlZ3dENaSGt5VEhjWXp1YjVDUENtb1d1RXlvOHVkMUExNUpjN3RnRjhtenI3dndhTzFSVEZueHVGbGRadGc4MmFhaFlsQ2JRZGpCNkFCXzlxaUlFQnJMOVk2X9IByAFBVV95cUxNczktRENwWHVuM1czODN3NTdUcFpkUkxfUW5KRkNrTFBvQ1dLMk5Yb3RfNEZ4T05iRGhlcGZRRTM2YWI5NF9VUVZzT2w4emE3d0FEV05qT0ZLc3JYVy1ITGlMVEtTb2JkTl9lWXpEQlZ3dENaSGt5VEhjWXp1YjVDUENtb1d1RXlvOHVkMUExNUpjN3RnRjhtenI3dndhTzFSVEZueHVGbGRadGc4MmFhaFlsQ2JRZGpCNkFCXzlxaUlFQnJMOVk2Xw?oc=5",
@@ -99,26 +99,38 @@
    "symbol": "UNH",
    "name": "UnitedHealth",
    "list": "portfolio",
-   "price": 388.69,
+   "price": 388.17,
    "prev_close": 412.02,
-   "change_pct": -5.7,
+   "change_pct": -5.8,
    "trigger_change": -4.9,
-   "peak_change": -5.7,
+   "peak_change": -5.8,
    "first_seen": "2026-11-17T14:55:57+00:00",
    "sector": {
     "etf": "XLV",
     "name": "Health care",
-    "price": 184.54,
-    "change_pct": -1.78
+    "price": 184.94,
+    "change_pct": -1.56
    },
    "chart": {
-    "ema8": -3.3,
-    "ema21": -3.2,
-    "sma50": -0.7,
-    "sma200": 5.7,
+    "ema8": -3.4,
+    "ema21": -3.4,
+    "sma50": -0.8,
+    "sma200": 5.6,
     "momentum": true
    },
    "headlines": [
+    {
+     "title": "Is UnitedHealth Group (UNH) Cheap As Board Changes Put Valuation Back In Focus?",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQR25mNUJuak0tVkNBUHBHWmx1YTVlUDRpWDBXcURlUXdBN2dKcW53dEtqdmUydFpLdm9aRWh4YV9CT2RWTUZsbXVGV0gxdlVFVXpXUW5WU2lieU1iY0NLR09nWVg3ZmlMMzVjNElWc1hVN1JXTW1UaDZLTTdfSVVwTVhUcGZPYXlRczZtRlNVZzlCZlpMdkx3WHotWQ?oc=5",
+     "time": "2026-11-17T19:09:08+00:00"
+    },
+    {
+     "title": "UnitedHealth Stocks Fall 4.62% as CMS Proposes Wider Medicare Advantage Audits",
+     "publisher": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQWk1ETjZ2Z0hKbFdTS1ZSOFZUZGNPWi1fVTJGNHdPUWx1ZGZLTlNQemhIb2N0QmQxT2NxQkxtU2txX08xSlZ6RmIyWVVrZ0FMV3dKVzROcXYyaWsxMGRDU3F2a18yMEF2ZkNLVnhZd1ZSb0ZQY2xhbFFVaFVCLVNta0Z5SG5qTmpHU19yOUJJZHFUcDJoSjBRdHBCdy1NYWE0d1FHOWcteFVYMnRMbGxvNmxsZWRZaEpRWGJ0Q3QzMnZIRFg5Qkx6ajFMX2tLS0wyRERv?oc=5",
+     "time": "2026-11-17T18:37:58+00:00"
+    },
     {
      "title": "Your \"Safe\" Health Care ETF Just Got Hit by UnitedHealth Again",
      "publisher": "24/7 Wall St.",
@@ -154,18 +166,6 @@
      "publisher": "GuruFocus",
      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOc3VqMTViOHFuc0lKYmRYYlNNbFZQeWdQcEtWUl93cnJvNUNZeUJ0aXpjLV8zWjhsZFVQejhmbUtGSFBOSG1fUWxwdmRpWVpuOUgyUzFJMzR3QTM3NzZJcEppb183NzZBaTNjMFlTUmNLakhVdDRDZjhEWERjR1k5M2d4TFd0ZEdRZWFPd2JJSmgxbVZiU3RIRm5pQW9fVkxRQnVuVlhIZmRBODlBN1Z6NXhsQTlsVDNIQVYtbmpaNA?oc=5",
      "time": "2026-11-17T15:03:46+00:00"
-    },
-    {
-     "title": "Why is UnitedHealth stock sliding today?",
-     "publisher": "Investing.com",
-     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNelFyYTluU3dkdWZKVXJwaGotOUVuQjJaVExnVlB2VTg3d2lfUEpOYmxIRmlxZUZFNGNkLWlaVjRLaGNPSnVHUEZOd1Z6bnZGRlJlenVub0hsZGRYZFpzWll3YVFNcGxKQkYxR1pNTkgzckt0SzNUMUJSNnJLT0JESjNKbzBpV1Exd0FOamo5THYtRXJkMml2aktrNXB0TlR6NFNF?oc=5",
-     "time": "2026-11-17T15:00:15+00:00"
-    },
-    {
-     "title": "Unitedhealth Group Inc Stock (UNH) Opened Down by 4.78% on Nov 17: What Investors Need To Know",
-     "publisher": "TradingKey",
-     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQNXR0Tm5VOVBjU2laSTltdU1EaTRIQ1J0Nk1kaFI5SnFEYmxENHgxcUtsUDFXdVV4U0Q4cWdrc3pSNl92czlyekkzYWlnUlpIR2VUbVpDcHZZVTM0SHZrckNTYmJ1aFJFbDJ5bWZ2OER6bFJnRURyWFhwOTVlVE8yWWxGd1pDaGNlbWc?oc=5",
-     "time": "2026-11-17T14:47:17+00:00"
     }
    ],
    "brief": "2026-11-17-UNH"
@@ -176,24 +176,30 @@
    "list": "portfolio",
    "price": 14.28,
    "prev_close": 14.85,
-   "change_pct": -3.9,
+   "change_pct": -3.8,
    "trigger_change": -4.6,
    "peak_change": -4.9,
    "first_seen": "2026-11-17T15:46:23+00:00",
    "sector": {
     "etf": "XLF",
     "name": "Financials",
-    "price": 57.03,
-    "change_pct": -1.98
+    "price": 57.16,
+    "change_pct": -1.74
    },
    "chart": {
     "ema8": -7.6,
     "ema21": -9.7,
-    "sma50": -11.0,
+    "sma50": -10.9,
     "sma200": -17.2,
     "momentum": false
    },
    "headlines": [
+    {
+     "title": "SOFI Dec 2026 27.000 call (SOFI261211C00027000) Stock Price, News, Quote & History",
+     "publisher": "Yahoo! Finance Canada",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1tbnRwTGFMOVk1dmFuUGRpcUFJVzdBMVV1M2RaSE1hNWljeUFyZ3FaVTR6cGxBcU12d01lUnZ0Ukh3aWROUUs2b1hxSXlSS19HSDFPeUJEd3BsNXFBUXZSbElLTGw3Zw?oc=5",
+     "time": "2026-11-17T18:28:03+00:00"
+    },
     {
      "title": "SoFi stock outlook: Bearish momentum dominates with risk toward $13.51 support",
      "publisher": "Traders Union",
@@ -235,12 +241,6 @@
      "publisher": "Yahoo! Finance Canada",
      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE8zOUtwY1VSaGRucVBxdmhKODhZUUdaMXVET0VFZjFjb1E3WTFfLWhCM0o1bU1EeHh5UHJKRFFyYnk5RHQtQXY3dlh4V0FnNVNmWmVYeHVoaVQteGVJc0hCTmdSbzVjNlM1TldhSjVR?oc=5",
      "time": "2026-11-16T17:35:46+00:00"
-    },
-    {
-     "title": "Will SoFi stock avoid deeper losses amid prevailing seller pressure?",
-     "publisher": "Traders Union",
-     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNSDBNTDJpOXZrek9vaE03M1p0Vi1TV2tLZ2NvZGNRWmRSOTIxd2tjT0JxQnZ2SEFKVFlWaUhnYUNoWHhJMEVxOE8yT1ZveEEyMjFNSFkyMkZ4OGZLeWNWUVBVcnZYZ0sySmtydXFMaDE4NjYwbjhnMl9IY3VObTU4MXFBbk9pVXotMkE?oc=5",
-     "time": "2026-11-16T17:25:29+00:00"
     }
    ],
    "brief": "2026-11-17-SOFI"
@@ -249,37 +249,43 @@
    "symbol": "APP",
    "name": "AppLovin",
    "list": "portfolio",
-   "price": 401.83,
+   "price": 401.72,
    "prev_close": 415.22,
-   "change_pct": -3.2,
+   "change_pct": -3.3,
    "trigger_change": -3.1,
    "peak_change": -6.2,
    "first_seen": "2026-11-17T14:55:57+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 95.69,
-    "change_pct": -3.35
+    "price": 95.76,
+    "change_pct": -3.27
    },
    "chart": {
-    "ema8": 3.8,
-    "ema21": 17.4,
+    "ema8": 3.7,
+    "ema21": 17.3,
     "sma50": 31.4,
     "sma200": -0.8,
     "momentum": true
    },
    "headlines": [
     {
-     "title": "Stanley Druckenmiller and 11 Other Big Funds Bought AppLovin Last Quarter, While 18 Sold. Who\u2019s Right?",
-     "publisher": "TIKR.com",
-     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPeno5ZmhVT3JKNnhUV1ZaSjh5NVRyOUFUdGRWdXB5VVc4N2kxX2cwcGowTkowNXpiZGVNQXdGcVJidkRyc1Y4SW5tdnQ2NFZrTG1NTHZSR1ZULXZmR2l2R0k5b19BQ2M0Qlh6U255RVFlbkZuYzJJeWJpM1M5WkJkaWVnNWNWdTJNdUMtSU1aUU9Zd2J0dmV6TXFpaFg1YkNWb1gxTTh0OFJHVk9GMFBQRjRodlAtM3pNYW9EZncwRTBGdTQ?oc=5",
-     "time": "2026-11-17T19:02:38+00:00"
+     "title": "AppLovin's Q3 Revenues Jump 55%: Can This Growth Momentum Continue?",
+     "publisher": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPNmMxSF9mYVRvT0tkTS1CMlF6UjBTQ2hHZlE4S3dyOFBCeWFkMmFFZExoaG45WkZvRlE1VmlyekVPV2RWNkoxcnN6d1ZvZ1BZTFViWVV6SlYyY1BXNm84eE9QbkpvQWlORlZ2MXJjR0dlaWhsU0tYMW9lbTVIZUtNbWE0bkhSdDZMeW9jd2VqdzR5cmdpODh0RHVzYVc2aDFSNDVUQXdDZnBXaGViNzVRRDFvYlNlcmJ4ZDY0Yg?oc=5",
+     "time": "2026-11-17T19:55:47+00:00"
     },
     {
      "title": "AppLovin Slides as AI Selloff and Legal Overhang Weigh on Sentiment",
      "publisher": "Quiver Quantitative",
      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMzlnVWh5WnNMNXYtQXFsaW9oTHNlQUVMNEoyeGFFMTZ1VVVRV3ZnRFNsbVJPUHdEMDJENVdqcXZpSlpSejI0LWJPS3VNTkJpaUJ2RjBodEpNaDRES2Z4cllHSEY1dnNkNExQRWltMnU1Xy1OSFBPVXdISFpsNUFYdVdsaDZTbEtGSzdBZnhCTEw5N3Y2aEJzNkdVXzAxdFZqLVE?oc=5",
      "time": "2026-11-17T16:20:00+00:00"
+    },
+    {
+     "title": "Stanley Druckenmiller and 11 Other Big Funds Bought AppLovin Last Quarter, While 18 Sold. Who\u2019s Right?",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPRUl6LVp6c2piaWJ1X1RVQ1psLS11RmgxMHFOQ3cyekpUQkVFMlhOc2VIZ0s3dFlMR3Z1MWZYejk3bkJrdVI3N0hVbEVReS1aeWVRTmpTUmYtZ3RtcmwzUDZuMjN1LWYzY2VWR05HbmJJZEg2MkJGS254b3JYMGxnVDlfNFk3OGZYc1NyTTcxUy03aS1LSWMzYjc5MDVQWHNZ?oc=5",
+     "time": "2026-11-17T15:53:25+00:00"
     },
     {
      "title": "Applovin Corp Stock (APP) Moved Down by 3.07% on Nov 17: Key Drivers Unveiled",
@@ -300,47 +306,116 @@
      "time": "2026-11-17T03:31:09+00:00"
     },
     {
+     "title": "AppLovin Corporation (APP.VI) Stock Price, News, Quote & History",
+     "publisher": "Yahoo! Finance Canada",
+     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE41OXRtTmhxRFp5d3VzVzRmc0d3ZUlfOWhNUE9PdjZSTWlfVkE3VnNBand0TUhHLWhsU2ZYbFFxcDcxYWdfZmRQbHBZZ3hrcjdGT1MxRFVMWnRiNXdfdHRjRVQxOA?oc=5",
+     "time": "2026-11-17T00:19:49+00:00"
+    },
+    {
      "title": "AppLovin Stock Moves Higher: What's Going On?",
      "publisher": "Benzinga",
      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOSHVoY0hWRkJNS1hBZWE2SGxFbWZjOC1GMUVVd2R3R2NORDRDRjJZRklEbHVVdXUzRnZ0c01tSFQ5OWM3QlVPdnpKd01FYmoydmU3NGx6OXRSZGRvSkpYRDNSSFowQ0NPd0hVb2Y4eU5LTTY4SUd3MHhiMFRhU2dwV2Mtd2RMeEZOQ0JDdlV1Q2xGM043OVgzV3ZDZ3U4MnM2RXdIZkdR?oc=5",
      "time": "2026-11-16T18:52:15+00:00"
-    },
-    {
-     "title": "AppLovin: Completely Crushed The Bearish Thesis (Rating Upgrade) (NASDAQ:APP)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZTFWb0I1Q0FnWHpWbWZkOG5QYWRBT0xWMWpDZ2RzclF1VjVMdk5JLVQ4TkduZnJUS3p4a19KVUNyUV9Wc2w1S0RFSGFqVTBwYkRLdHhmN05lM0MxWFVfREpDRUNJMklraTZIRmsza20zRDhWVTRpbHJHajM5dW5oTTBfRFYzaE9xaHFtTHBuWmhHajlrWnZOYm5HbGpoRVR4UWNjaQ?oc=5",
-     "time": "2026-11-16T14:50:00+00:00"
-    },
-    {
-     "title": "Stock of the Day: Will AppLovin Break Out of a Flag Pattern?",
-     "publisher": "Benzinga",
-     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQYkF6bURUcUVjZGJzYlk0bVlyeDc5akdRUEtMOXNzbXJjSUU4Vi1aMVBxNEhhMVRfeWdmU2lLbTc2VnVHRXBKelhJbFdnaWxwRWM5Y0xoelBpdTRMcThRR3ZaTjZ1b2tZVU1TZ3lpSjZsSFE3emdaSGh2TVhRY1ZBMFpfU292M1lvbmRFekpMSmpYelN2RVlFdTdVZkNURVV2T1JxbEJxOUY2ZmZvM0hOREluTElhNk9HSkpwNW5NeW0?oc=5",
-     "time": "2026-11-16T13:37:34+00:00"
     }
    ],
    "brief": "2026-11-17-APP"
   },
   {
+   "symbol": "NVDA",
+   "name": "Nvidia",
+   "list": "portfolio",
+   "price": 152.24,
+   "prev_close": 156.14,
+   "change_pct": -2.5,
+   "trigger_change": -3.3,
+   "peak_change": -3.6,
+   "first_seen": "2026-11-17T15:46:23+00:00",
+   "sector": {
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 452.67,
+    "change_pct": -2.0
+   },
+   "chart": {
+    "ema8": -9.3,
+    "ema21": -18.7,
+    "sma50": -28.1,
+    "sma200": -25.3,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Prediction: These Will Be Nvidia\u2019s and AMD\u2019s Stock Prices by the End of 2027 (Hint: Only 1 Is a Buy).",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNUVBXalR5cmxaQV80T2FxbEUyeklxNTRtT2JSay12LTNCVFZiWmQzZy1BZFVkRENOaFFFallNWDV3ZmZ1Z3RubE1nOWNSU3dncUVHQ2swSThWVFhOd2pScmhtWHZCdTRydEJUMUoyc0FmaHJxcG45MUd6ZkRaLU8ySUR2Y05oQko2VWExMS1vVkRDeHZMV1lwWGctSUNvUFBOMUdPVS10cWhlaFR1ajdONUsyN29DMTd3dmJpSXhLeFJtUjhNWUlpUElGSE5Eek80OFJSbHVR?oc=5",
+     "time": "2026-11-17T19:26:00+00:00"
+    },
+    {
+     "title": "Alphabet, Amazon, and Nvidia All Have a Stake in Anthropic. Here\u2019s the One I\u2019d Buy If I Could Only Pick 1.",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOZXdRRzZha1BuRE1oQzdNRlBWXzVVQm96Sm9kZmh4d3FUMFNxYi0tbWg5WFVjbXBQZjJQejZFMXBzbUttOVVxSzVVQWdTV2haYzI4QlZJeTcwdVI3Wkk3ZGJSMnNBc09WOUFwbkFHS25uRl9aX3hVSlBEajEzeUVUdG43dmliZ0dSX3BZd3cwelN5blRnZHBwQ0YtVm1pSlZoMEVMQUpBTjVoV2JTZ3RtMmlKMVNiQXo0T1hmbXlOTTVmVjJVUENIdkVKWWVSTXozTEEybzZ2SjZ5MXM?oc=5",
+     "time": "2026-11-17T19:07:00+00:00"
+    },
+    {
+     "title": "Jensen Huang Is Out as Nvidia\u2019s CEO. Here\u2019s What Analysts Think the Stock Is Worth Without Him.",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOM0ltZDZhM3lZQnFrMGtCNGthMGNjVC1WekxCcjN0QkhtMFR4REpwSHZabFpKX0R3RzJzbmE3c25KOTRxanp0Tm1NRWtlV3RMdnNNX3RmdmRPRTVnRThCTlFlSFloc084V1g0ZkJFWmhkNF8tOEFfbUhtRGZ5LUw1alk0MWNmSGFrUWlvS2NRSmk5WjNqR3pLQ0xQcWphZzVHbHQxcGhvWFhucVJHeTVvTFZoeWFrUHBPQmYxUXFQZWlVTFpvekE?oc=5",
+     "time": "2026-11-17T18:56:00+00:00"
+    },
+    {
+     "title": "Is AMD Stock a Buy Amid the Uncertainty Around Nvidia?",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQS1J3Qmd4LWdCUjhyVXp0ZlNxOWFQUjhJRHJsbGZRY0laQjhjZlc4YlpUa0tYSmI2TWJ6SGNsdnV5TlVEMWNIVnRTa1ZHcTJjb0NDcENhclRhSDluVnJDTDNxZkNsVk1TRmJyZVNpRlJ1NHQ0dVpiR3kwSUp3b250VWRvbWVoNnhUMXZTQWJab0wyVHR5Ulg4NWxuckk?oc=5",
+     "time": "2026-11-17T18:36:00+00:00"
+    },
+    {
+     "title": "Why Micron Stock Keeps On Going Down",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPVm9teFEzM3BtVE9BYTgwd1htai0zZFFiV3BPQTMwWVFNUXAxR3BVeVlqemw0WktNeHV3cjh5TWMzMW5zVktmbUhkV1lKRVE5eS1BYW5zUWhObzdnSXh3Y21ySWtoSG9HTTJRSVhsQS13U2NJdTFPWGN5R25uYVJkd1NCelVsZw?oc=5",
+     "time": "2026-11-17T18:07:00+00:00"
+    },
+    {
+     "title": "Where Will Nvidia Stock Be in 3 Years?",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOeDdScWoxVi1GTkpseHpQT3U3bEZwa1d0QWp2RW5MdVJETFhCUExUU1o0UENzS2U0ZGV6d0I1eTJGR3BDTVpMdHQ5Zm1vN2xJLVN3ZUx2aTBUUEU3dURMY2hnalBVOFlZZFNLeUNGUzVVUHcxZVVQeXotRmhDLUxMU25nQzl5dG8?oc=5",
+     "time": "2026-11-17T17:57:00+00:00"
+    },
+    {
+     "title": "Not Nvidia. Not Alphabet. This Is the AI Stock I\u2019d Buy With the Next Dollar I Invest.",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNQW5lQnV2c09Xb1A2X2tWbC11X0JYYXpkb1lmc3czdnpjMFNjZG9oYVpVSS1mWnB6UVdlZHlRaUNGaDl0RU1ad1U0OFdWQy1IdjdzT0JXdURDX0lRVUtGSThXYXZtWk1lOFpYb1dNa1Q5clM2cXdaZ1pKWHIwNUpfM1ZjZFFFUzlXdVA2OFIwMVRDVUxGaHRkSy1XbG9yc3hyeWxyVnhCOTRpTmd3R1FYd3FCLXUzZXFQZkRJV2hfaXNfZw?oc=5",
+     "time": "2026-11-17T17:45:00+00:00"
+    },
+    {
+     "title": "In His First Statement Since His Resignation, Former CEO Jensen Huang Just Delivered Stunning News to Nvidia Shareholders",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPalFyYlRBZGJXOVN5NzhKUExORFlVcjdxS2E4cG9kdnJ5bTZOWEN2cTc1LThnUFZHR2x3RWlwbHF1VEZRSkxncHBLOWhfelk3SHdHeEhGTGloOXk0cDJhS1NySENnYk5FUDBxNnUwTFZsWElDMUpncVI1LWxPaWI5YjZaMVdWa1U5MXBFOC1LbXQ2NE1mUlFQNXdlMnhaMWFmZld5T1ZqOWI5NHVIVkw3NG5aYTNQY1ZDSms3YlhZRE1HNXd4d2dfLVBPeUY1YWc0U2NTRk9sVUQtSkx0cGFTZzBQU05lTkVwUF9TbldLOThUcjBSSVE?oc=5",
+     "time": "2026-11-17T17:23:00+00:00"
+    }
+   ],
+   "brief": "2026-11-17-NVDA"
+  },
+  {
    "symbol": "AXON",
    "name": "Axon",
    "list": "watchlist",
-   "price": 298.61,
+   "price": 299.07,
    "prev_close": 306.44,
-   "change_pct": -2.6,
+   "change_pct": -2.4,
    "trigger_change": -3.7,
    "peak_change": -4.7,
    "first_seen": "2026-11-17T15:46:23+00:00",
    "sector": {
     "etf": "XLI",
     "name": "Industrials",
-    "price": 163.81,
-    "change_pct": -1.12
+    "price": 164.21,
+    "change_pct": -0.88
    },
    "chart": {
-    "ema8": -6.9,
-    "ema21": -17.0,
-    "sma50": -27.1,
-    "sma200": -35.7,
+    "ema8": -6.8,
+    "ema21": -16.9,
+    "sma50": -27.0,
+    "sma200": -35.6,
     "momentum": false
    },
    "headlines": [
@@ -396,101 +471,26 @@
    "brief": "2026-11-17-AXON"
   },
   {
-   "symbol": "NVDA",
-   "name": "Nvidia",
-   "list": "portfolio",
-   "price": 152.67,
-   "prev_close": 156.14,
-   "change_pct": -2.2,
-   "trigger_change": -3.3,
-   "peak_change": -3.6,
-   "first_seen": "2026-11-17T15:46:23+00:00",
-   "sector": {
-    "etf": "SMH",
-    "name": "Semiconductors",
-    "price": 451.5,
-    "change_pct": -2.25
-   },
-   "chart": {
-    "ema8": -9.1,
-    "ema21": -18.5,
-    "sma50": -27.9,
-    "sma200": -25.1,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Is AMD Stock a Buy Amid the Uncertainty Around Nvidia?",
-     "publisher": "The Motley Fool",
-     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQS1J3Qmd4LWdCUjhyVXp0ZlNxOWFQUjhJRHJsbGZRY0laQjhjZlc4YlpUa0tYSmI2TWJ6SGNsdnV5TlVEMWNIVnRTa1ZHcTJjb0NDcENhclRhSDluVnJDTDNxZkNsVk1TRmJyZVNpRlJ1NHQ0dVpiR3kwSUp3b250VWRvbWVoNnhUMXZTQWJab0wyVHR5Ulg4NWxuckk?oc=5",
-     "time": "2026-11-17T18:36:00+00:00"
-    },
-    {
-     "title": "Why Micron Stock Keeps On Going Down",
-     "publisher": "The Motley Fool",
-     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPVm9teFEzM3BtVE9BYTgwd1htai0zZFFiV3BPQTMwWVFNUXAxR3BVeVlqemw0WktNeHV3cjh5TWMzMW5zVktmbUhkV1lKRVE5eS1BYW5zUWhObzdnSXh3Y21ySWtoSG9HTTJRSVhsQS13U2NJdTFPWGN5R25uYVJkd1NCelVsZw?oc=5",
-     "time": "2026-11-17T18:07:00+00:00"
-    },
-    {
-     "title": "Where Will Nvidia Stock Be in 3 Years?",
-     "publisher": "The Motley Fool",
-     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOeDdScWoxVi1GTkpseHpQT3U3bEZwa1d0QWp2RW5MdVJETFhCUExUU1o0UENzS2U0ZGV6d0I1eTJGR3BDTVpMdHQ5Zm1vN2xJLVN3ZUx2aTBUUEU3dURMY2hnalBVOFlZZFNLeUNGUzVVUHcxZVVQeXotRmhDLUxMU25nQzl5dG8?oc=5",
-     "time": "2026-11-17T17:57:00+00:00"
-    },
-    {
-     "title": "Not Nvidia. Not Alphabet. This Is the AI Stock I\u2019d Buy With the Next Dollar I Invest.",
-     "publisher": "The Motley Fool",
-     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNQW5lQnV2c09Xb1A2X2tWbC11X0JYYXpkb1lmc3czdnpjMFNjZG9oYVpVSS1mWnB6UVdlZHlRaUNGaDl0RU1ad1U0OFdWQy1IdjdzT0JXdURDX0lRVUtGSThXYXZtWk1lOFpYb1dNa1Q5clM2cXdaZ1pKWHIwNUpfM1ZjZFFFUzlXdVA2OFIwMVRDVUxGaHRkSy1XbG9yc3hyeWxyVnhCOTRpTmd3R1FYd3FCLXUzZXFQZkRJV2hfaXNfZw?oc=5",
-     "time": "2026-11-17T17:45:00+00:00"
-    },
-    {
-     "title": "Wall St falls before Nvidia earnings in key AI test; Huang says open to return",
-     "publisher": "Reuters",
-     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOemNySVhGbms1VkxVYXFsTFdtdVh1MjNQQk16Y1ZfNGFHMFhDRWUtZldZRzJzSWxpNlBLWVpTenJnU2FHZndaVUlEclFtQVNvTzJBWTNpM1p0N3dmWjlyMEFKbkowZkpSanhVcEVLUjZfOWxNcW5OZVFuLTNFNF93ZDd4b0wxX1VzNlJPODdqc0xob1ZrR0xuQkJ6bExvNDdQMk5saFVSdkVBZw?oc=5",
-     "time": "2026-11-17T17:40:54+00:00"
-    },
-    {
-     "title": "In His First Statement Since His Resignation, Former CEO Jensen Huang Just Delivered Stunning News to Nvidia Shareholders",
-     "publisher": "The Motley Fool",
-     "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPalFyYlRBZGJXOVN5NzhKUExORFlVcjdxS2E4cG9kdnJ5bTZOWEN2cTc1LThnUFZHR2x3RWlwbHF1VEZRSkxncHBLOWhfelk3SHdHeEhGTGloOXk0cDJhS1NySENnYk5FUDBxNnUwTFZsWElDMUpncVI1LWxPaWI5YjZaMVdWa1U5MXBFOC1LbXQ2NE1mUlFQNXdlMnhaMWFmZld5T1ZqOWI5NHVIVkw3NG5aYTNQY1ZDSms3YlhZRE1HNXd4d2dfLVBPeUY1YWc0U2NTRk9sVUQtSkx0cGFTZzBQU05lTkVwUF9TbldLOThUcjBSSVE?oc=5",
-     "time": "2026-11-17T17:23:00+00:00"
-    },
-    {
-     "title": "Nvidia Earnings: Wolfe Research Says Stock Already Prices In Guidance Cut, Shareholder Flags Succession Risk",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPWGx0bGQ5WjgxYUZibjFaZTgyV1VwZWdxQ3RDSVN5cm15Sl9oZEtuV1dnUDlYRHZ5U25rTmxHMlhPaE95YWcxWmhRWTRoZG5NWVdLRGl2NnZVUVZuVnNSLXJQSWs1YnpoV0pub1FVbG9oNGswMVhNVEx1OHFCMHRfb1RqQ0JrblExU1VneS13NTd6ZE85VnlXb3JUSmQtNU5LNUE?oc=5",
-     "time": "2026-11-17T17:20:00+00:00"
-    },
-    {
-     "title": "Nvidia's Jensen Huang Issues Mea Culpa, Wants To Return",
-     "publisher": "Investor's Business Daily",
-     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZGhpWEhsWW9sRjltT19zRzFZTmRQaUZIRDZ5VFM4RHJKYUpmSlBSRG9qZzU1YUtMOGFWbWFvWjFRaGNnNl9GMEQwelBWNEo5cTQxXzAzVnVlLXdOdEJ5MDgtRXB4cjdNbHEtWWZ0T053S2tfd1lGOVh1amY0ZTVEUzBoMHVSQ01ueUM3Q3pZeXdHV3AyTlB3eg?oc=5",
-     "time": "2026-11-17T17:17:00+00:00"
-    }
-   ],
-   "brief": "2026-11-17-NVDA"
-  },
-  {
    "symbol": "CRWD",
    "name": "CrowdStrike",
    "list": "portfolio",
-   "price": 219.02,
+   "price": 218.62,
    "prev_close": 223.21,
-   "change_pct": -1.9,
+   "change_pct": -2.1,
    "trigger_change": -3.5,
    "peak_change": -4.1,
    "first_seen": "2026-11-17T15:36:17+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 95.69,
-    "change_pct": -3.35
+    "price": 95.76,
+    "change_pct": -3.27
    },
    "chart": {
-    "ema8": -3.3,
-    "ema21": -6.9,
-    "sma50": -10.7,
-    "sma200": 25.8,
+    "ema8": -3.5,
+    "ema21": -7.0,
+    "sma50": -10.9,
+    "sma200": 25.5,
     "momentum": false
    },
    "headlines": [
@@ -549,20 +549,20 @@
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 106.47,
+   "price": 106.43,
    "prev_close": 107.13,
-   "change_pct": -0.6,
+   "change_pct": -0.7,
    "trigger_change": -3.0,
    "peak_change": -3.0,
    "first_seen": "2026-11-17T15:56:25+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 95.69,
-    "change_pct": -3.35
+    "price": 95.76,
+    "change_pct": -3.27
    },
    "chart": {
-    "ema8": -14.1,
+    "ema8": -14.2,
     "ema21": -27.0,
     "sma50": -43.8,
     "sma200": -40.7,
@@ -607,7 +607,7 @@
     },
     {
      "title": "Nebius Group (NBIS) Stock Price Prediction: Data-center delays hit the tape as analysts split on how much growth slips to 2027",
-     "publisher": "blockchain.news",
+     "publisher": "Blockchain News",
      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPblg1UGFDbkw1eUM5WWdzdnJlbWFULW8yNFlNVVFXSkpWWGtSOGRtNkFhZmhIUUNLaDhqaF96WnhzaHFweE9Qb0pCN2QzaVlJd2xSQ1ZqZ0lUWDM5bkxaVzdnQzk4QmRNUnFEVXRiR09aNWVQUVp1cGV5amVyeS11MEdIc0pSTEpPSjlRblcxNldwYVFOREE?oc=5",
      "time": "2026-11-17T13:32:00+00:00"
     },
