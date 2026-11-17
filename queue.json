@@ -1,5 +1,30 @@
 {
  "date": "2026-11-17",
  "threshold": 3.0,
- "movers": []
+ "movers": [
+  {
+   "id": "2026-11-17-UNH",
+   "symbol": "UNH",
+   "name": "UnitedHealth",
+   "list": "portfolio",
+   "trigger_change": -4.9,
+   "first_seen": "2026-11-17T14:55:57+00:00"
+  },
+  {
+   "id": "2026-11-17-NOW",
+   "symbol": "NOW",
+   "name": "ServiceNow",
+   "list": "portfolio",
+   "trigger_change": -4.2,
+   "first_seen": "2026-11-17T14:55:57+00:00"
+  },
+  {
+   "id": "2026-11-17-APP",
+   "symbol": "APP",
+   "name": "AppLovin",
+   "list": "portfolio",
+   "trigger_change": -3.1,
+   "first_seen": "2026-11-17T14:55:57+00:00"
+  }
+ ]
 }

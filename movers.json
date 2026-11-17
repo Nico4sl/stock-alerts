@@ -1,7 +1,249 @@
 {
  "date": "2026-11-17",
  "threshold": 3.0,
- "updated": "2026-11-17T14:50:53+00:00",
- "market": {},
- "movers": []
+ "updated": "2026-11-17T14:55:57+00:00",
+ "market": {
+  "SPY": {
+   "name": "S&P 500",
+   "price": 738.91,
+   "change_pct": -0.14
+  },
+  "QQQ": {
+   "name": "Nasdaq 100",
+   "price": 660.84,
+   "change_pct": -0.14
+  },
+  "TLT": {
+   "name": "Long Treasuries",
+   "price": 79.26,
+   "change_pct": -0.15
+  }
+ },
+ "movers": [
+  {
+   "symbol": "UNH",
+   "name": "UnitedHealth",
+   "list": "portfolio",
+   "price": 391.75,
+   "prev_close": 412.02,
+   "change_pct": -4.9,
+   "trigger_change": -4.9,
+   "peak_change": -4.9,
+   "first_seen": "2026-11-17T14:55:57+00:00",
+   "sector": {
+    "etf": "XLV",
+    "name": "Health care",
+    "price": 186.65,
+    "change_pct": -0.65
+   },
+   "chart": {
+    "ema8": -2.7,
+    "ema21": -2.6,
+    "sma50": 0.1,
+    "sma200": 6.6,
+    "momentum": true
+   },
+   "headlines": [
+    {
+     "title": "Unitedhealth Group Inc Stock (UNH) Opened Down by 4.78% on Nov 17: What Investors Need To Know",
+     "publisher": "TradingKey",
+     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQNXR0Tm5VOVBjU2laSTltdU1EaTRIQ1J0Nk1kaFI5SnFEYmxENHgxcUtsUDFXdVV4U0Q4cWdrc3pSNl92czlyekkzYWlnUlpIR2VUbVpDcHZZVTM0SHZrckNTYmJ1aFJFbDJ5bWZ2OER6bFJnRURyWFhwOTVlVE8yWWxGd1pDaGNlbWc?oc=5",
+     "time": "2026-11-17T14:47:17+00:00"
+    },
+    {
+     "title": "UNH Stock Quote Price and Forecast",
+     "publisher": "CNN",
+     "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBhZjVIOG9BMkZjYWxoUWlSZE9JM1lGZWU5TGIzUE5ZcFBmcC1BTWxUdVJNWS1HOXc5RXlNZUM1Yk4zS2pGQU5pLUkxRGVBdUU?oc=5",
+     "time": "2026-11-17T09:52:55+00:00"
+    },
+    {
+     "title": "UnitedHealth (UNH) Stock: $412.02, Up 1.12% Nov 16",
+     "publisher": "JournalArta",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNYVR0NmM1UlE0WThFUEgzc3FaMTUyMUdVRkZoU2xGUE1PLWRDUlc0dHAyT0loRXp3Rm4xcmlzUDVNakp4Vm1uTUxZaGl4LWVPZjFpRDNDaUltd2R0RG1Id0JuX3U2RVMtU2g2Ry05TTdVc0trWjlzbEgxSmlZY1lPY3NjUjRxa212c0VTVGdhZ1Uzalc3RGRlOXduNkY?oc=5",
+     "time": "2026-11-17T08:37:13+00:00"
+    },
+    {
+     "title": "UNH Shares Closed at $412.02 on Nov. 16; After-Hours Price Was $410.66",
+     "publisher": "www.tokenpost.com",
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE11RDJQUmY0QmlUVGQ5NG8yMHVWQ3kwUUhxeC1wNm1iU2tJU2Q0czZDbEJMSHFCUG0zY19VemEyWEhvdlBYWDZBVEgxNElYek1IOHl0cWdpakx4QQ?oc=5",
+     "time": "2026-11-17T00:38:00+00:00"
+    },
+    {
+     "title": "UnitedHealth Group Incorporated (UNH) latest stock news and headlines",
+     "publisher": "Yahoo Finance Australia",
+     "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBneUp0NkdrdXQ4YjNzdE42N0JwYWZVLU1mRHJHMEU1Z3g0Ym1CMWd5SDV1UXk0bnRWSTdBQ28xMGtBbTVyNXU4dDNuMHg2dGhjS2hFUmhVbw?oc=5",
+     "time": "2026-11-17T00:24:42+00:00"
+    },
+    {
+     "title": "UnitedHealth Group (UNH) Stock Price Prediction: Momentum is holding, but low-volume selling keeps the breakout unconfirmed",
+     "publisher": "Blockchain News",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPU1RHNGpBTkZHc1F0aDFWc3RYOW9TXzBBV1VycHlGSGI1OFlES3c3LW1oVlc4RmdGaUJUSTRIV2JlUk5Zc3dBR2sxRjA3ZXIyU2Fqa3hRenplUWdmZkRSYXpaOWdLbERid1lQdGdydjFHWklIRzBGQzJHZlU1bmxRSmtVa1U5eWQ2U0FGZHZKc0w3TGtfLXpZUQ?oc=5",
+     "time": "2026-11-17T00:14:00+00:00"
+    },
+    {
+     "title": "UNH 261113 397.50C (UNH261113C397500) Stock Options Chain | Quotes & News",
+     "publisher": "Moomoo",
+     "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9IQmNwczBfckY0S2xKaTV1ZUlNVWpnWjE5MDRpbDlBYVNIRjF0RWNiaUo2NW9HbjFMWXdsRy1yZjRVUXBhRkRMTDhxRkNPdzd6bEJLRTZ4b21sVUdJeldv?oc=5",
+     "time": "2026-11-16T16:18:46+00:00"
+    },
+    {
+     "title": "UnitedHealth Group stock trades 2.63% above Friday's Xetra close",
+     "publisher": "ad-hoc-news.de",
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOb28zbGcxdXd0YnV5N2l3LUltRjViZjVYbmJmOEd1T2pMQXZIbHJQZEpvc0JwMXBtMTdSYXBRM3lJZVhRVmJOLTJyV2JRa3NPM1hWN2ZLMTFRTjRKYWxydE1EN1ZHYURxQ0pnNHA5QTNkSlFUNGNYREtzaHVjMW9SVTdMV0VkX3paZlFtdXRObTB5SkY4c3o4cGZfRGhHaFkwQ0ZmajRMZUVIa1dQck9IT3NXdzhiY3lqVFRYZDRxNkdqWTJQ?oc=5",
+     "time": "2026-11-16T16:02:16+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
+   "symbol": "NOW",
+   "name": "ServiceNow",
+   "list": "portfolio",
+   "price": 95.19,
+   "prev_close": 99.37,
+   "change_pct": -4.2,
+   "trigger_change": -4.2,
+   "peak_change": -4.2,
+   "first_seen": "2026-11-17T14:55:57+00:00",
+   "sector": {
+    "etf": "IGV",
+    "name": "Software",
+    "price": 96.91,
+    "change_pct": -2.11
+   },
+   "chart": {
+    "ema8": -6.5,
+    "ema21": -16.3,
+    "sma50": -27.0,
+    "sma200": -16.2,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "ServiceNow (NOW) Stock Price Prediction: Oversold but still trapped under broken trend lines",
+     "publisher": "blockchain.news",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPRmJLY1RyZ255WWI0T252UjN1VjBQS0lyc1lFUGFpck85Y3pObGZTVmhFUjZNOGVpODJNZVJzNG9zU1JSOUFUUDFIM0tleHZwSml2UGhjTWZuR3FYNzlIMG5uRWJWWWFBbkl3NEpSWmltN2p1LWh1XzEyR3h5bU5tWWk5OVI4OVp2Nk9GREp5WTNEcVk4bjVPSVFweWlKRWM?oc=5",
+     "time": "2026-11-17T14:44:00+00:00"
+    },
+    {
+     "title": "ServiceNow, Inc. (NOW) Stock Price, News, Quote & History",
+     "publisher": "Yahoo! Finance Canada",
+     "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1qNDh3Z2F5VzhIS28tOHlnR1NpY2E5RzdGbzI4RXU3aEtZS3ExRngwQ1dnZW1Kd2NyeWxNSmRVTVZFbFY3ZTZUVHMzV3pDUzVG?oc=5",
+     "time": "2026-11-17T03:39:19+00:00"
+    },
+    {
+     "title": "Did Slower Growth Guidance Just Shift ServiceNow (NOW) Stock's Investment Narrative?",
+     "publisher": "Simply Wall St",
+     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNczktRENwWHVuM1czODN3NTdUcFpkUkxfUW5KRkNrTFBvQ1dLMk5Yb3RfNEZ4T05iRGhlcGZRRTM2YWI5NF9VUVZzT2w4emE3d0FEV05qT0ZLc3JYVy1ITGlMVEtTb2JkTl9lWXpEQlZ3dENaSGt5VEhjWXp1YjVDUENtb1d1RXlvOHVkMUExNUpjN3RnRjhtenI3dndhTzFSVEZueHVGbGRadGc4MmFhaFlsQ2JRZGpCNkFCXzlxaUlFQnJMOVk2X9IByAFBVV95cUxNczktRENwWHVuM1czODN3NTdUcFpkUkxfUW5KRkNrTFBvQ1dLMk5Yb3RfNEZ4T05iRGhlcGZRRTM2YWI5NF9VUVZzT2w4emE3d0FEV05qT0ZLc3JYVy1ITGlMVEtTb2JkTl9lWXpEQlZ3dENaSGt5VEhjWXp1YjVDUENtb1d1RXlvOHVkMUExNUpjN3RnRjhtenI3dndhTzFSVEZueHVGbGRadGc4MmFhaFlsQ2JRZGpCNkFCXzlxaUlFQnJMOVk2Xw?oc=5",
+     "time": "2026-11-17T01:10:21+00:00"
+    },
+    {
+     "title": "ServiceNow (NYSE:NOW) Stock Falls 2.9% - Time to Sell?",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPb29KNXlTb1JUOHVRSGNLUzBFYzYwRHhOemludUlTU3FGQ1hCQjR6RGYxRkRYUGl5dU0zYTRlRDlMb1pQNjlLSlhBVUFlU0dzNGNaRk82aXJMOUpqdG9Rbkk5OF9UUVY5Z1NmdTJ5MGlld3ZBOW1qVVBKUll0eGlraUt4ODZDdEJUVE83SnVuczZrdFFPanEtMWNzcWhkSTgxLW5RMFd1aERldXc?oc=5",
+     "time": "2026-11-16T22:24:16+00:00"
+    },
+    {
+     "title": "ServiceNow Stock\u2019s (NOW) Historic Sell-Off May Have Gone Too Far",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOSkJ4ZlVpd0ZfaFREekJ1OENBWFM2RkFhWU9qOFJJNmRUVVJWbGdYNmxJOTlNbEY2NkhrUzNkZkRkaGhfaFNmdUVCSm5EYmFmYUprS0pqQkF5R3hDMUgxejEzRjZ0LWI5WUV0MDNPM19oWndMRkYzS2NmOWhTS0h0cWkyX2J1WjZOaUhhR2FUVFdrb1RuaV96cHFWUDNkaHM4?oc=5",
+     "time": "2026-11-16T21:38:00+00:00"
+    },
+    {
+     "title": "ServiceNow Tokenized Stock (Robinhood) Price Today | Live NOW Price, Chart & Market Data",
+     "publisher": "Binance",
+     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1PZDN4d2NmVlgzeFk2ZUJiM29McndEMk43QzZmSVFrZEI4ajF2V1ZXckd3QVM3ZUt4TTN2UmNOS3lKRnZPS2FKN2JGekp3Q3ZocmliaHRqb09QWkxxT1cyT0ZNcEFNZFR6RnhNSm1ocEdlUXZWblJkZTNteF8?oc=5",
+     "time": "2026-11-16T20:46:00+00:00"
+    },
+    {
+     "title": "ServiceNow vs. Palantir Technologies: Comparing Steady Sales Scale Against Rapid Revenue Acceleration",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPNVRndVN2eGpoU241RkV3bTkzbFdoblFZZzVVQVNLUXA3Zl9DX1lfUlE4eGl5VkhJc3c1RHN2TlJjaWc1MXVSa1lBcS11YU1ZUTVzSHhlMHFwU21qOVlGVHdjMkYzMkszYUY4MW40OHVkM2dlbjBjMEpJQjlNSXVLMG5heDBFRkgtOVMxaFBwWWxWQks4RzVmd0VNZUpXdWdfMEpudTlKUHNRbG5WOHN2U0Nxa05lTUJVQWRqZ2htY1d3RFFqR1Y1VU44bFVRTkkwdmV5R250NTNHSHMtT25GUXhB?oc=5",
+     "time": "2026-11-16T19:12:00+00:00"
+    },
+    {
+     "title": "ServiceNow (NOW) Sees Slight Bearish Options Sentiment as Stock Dips Near $100",
+     "publisher": "GuruFocus",
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNRlY5alpuMGYwNExYY1RhLXIycENVOW1MYjRGeE1vTVZYM3lMeGpfYVRPX0RqZDMwRU5FdHYyWWU2Y3lBTm5pd2owanNjMHNqSTNtSDgtUmRiMWx5Yk52aFRNVzFNOWoyd184Vk9TR2JTVDFyRERoRzVheU56eU9Xa0E1QVFETVp3WHVXQ0w0eVIxYkJYcTBZYjM1X0lfa0w3WFM2aC1NZF9FTEt0QUpqMW5BWl8?oc=5",
+     "time": "2026-11-16T19:09:51+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
+   "symbol": "APP",
+   "name": "AppLovin",
+   "list": "portfolio",
+   "price": 402.32,
+   "prev_close": 415.22,
+   "change_pct": -3.1,
+   "trigger_change": -3.1,
+   "peak_change": -3.1,
+   "first_seen": "2026-11-17T14:55:57+00:00",
+   "sector": {
+    "etf": "IGV",
+    "name": "Software",
+    "price": 96.91,
+    "change_pct": -2.11
+   },
+   "chart": {
+    "ema8": 3.9,
+    "ema21": 17.5,
+    "sma50": 31.6,
+    "sma200": -0.7,
+    "momentum": true
+   },
+   "headlines": [
+    {
+     "title": "AppLovin (APP) Stock Price Prediction: Jefferies\u2019 $500 call meets a stretched tape",
+     "publisher": "Blockchain News",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOcFN5NGxqVkNmbVd4V2V4QmtDZnB3cV81Q3Bsdjl1aVFmSG0xaFNlODRSTTUzRVMyLWp1aGw4Vjc5SjZkb2J6dlp4d1JodmJZaWhRN0lYZnVheWg1Vk1TcmUtV00tTDJ2bHJrSTlSS3huVEZfZHpQSy01QWFrVVJDMFRNTmxOSUdEUWJla3IwOUZOUHVHUGx5dHJXMA?oc=5",
+     "time": "2026-11-17T13:16:00+00:00"
+    },
+    {
+     "title": "AppLovin Stock: Business, News and Key Risks",
+     "publisher": "Admirals",
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5aSEVJd0U5WXFRLWM1dzl6X2g0d3RTZUt3SVh0LTVzS1JId1hESUlaUkhHN1hVQnU4X2JJZVBYbURzc01zRER6Q3RmTnlWRDhfaGdnOTVDUWVNZm94bGx2LXZaaTZuc1JweG1xcGlsdGNDOHhkamc?oc=5",
+     "time": "2026-11-17T03:31:09+00:00"
+    },
+    {
+     "title": "AppLovin Stock Moves Higher: What's Going On?",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOSHVoY0hWRkJNS1hBZWE2SGxFbWZjOC1GMUVVd2R3R2NORDRDRjJZRklEbHVVdXUzRnZ0c01tSFQ5OWM3QlVPdnpKd01FYmoydmU3NGx6OXRSZGRvSkpYRDNSSFowQ0NPd0hVb2Y4eU5LTTY4SUd3MHhiMFRhU2dwV2Mtd2RMeEZOQ0JDdlV1Q2xGM043OVgzV3ZDZ3U4MnM2RXdIZkdR?oc=5",
+     "time": "2026-11-16T18:52:15+00:00"
+    },
+    {
+     "title": "AppLovin: Completely Crushed The Bearish Thesis (Rating Upgrade) (NASDAQ:APP)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZTFWb0I1Q0FnWHpWbWZkOG5QYWRBT0xWMWpDZ2RzclF1VjVMdk5JLVQ4TkduZnJUS3p4a19KVUNyUV9Wc2w1S0RFSGFqVTBwYkRLdHhmN05lM0MxWFVfREpDRUNJMklraTZIRmsza20zRDhWVTRpbHJHajM5dW5oTTBfRFYzaE9xaHFtTHBuWmhHajlrWnZOYm5HbGpoRVR4UWNjaQ?oc=5",
+     "time": "2026-11-16T14:50:00+00:00"
+    },
+    {
+     "title": "Stock of the Day: Will AppLovin Break Out of a Flag Pattern?",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQYkF6bURUcUVjZGJzYlk0bVlyeDc5akdRUEtMOXNzbXJjSUU4Vi1aMVBxNEhhMVRfeWdmU2lLbTc2VnVHRXBKelhJbFdnaWxwRWM5Y0xoelBpdTRMcThRR3ZaTjZ1b2tZVU1TZ3lpSjZsSFE3emdaSGh2TVhRY1ZBMFpfU292M1lvbmRFekpMSmpYelN2RVlFdTdVZkNURVV2T1JxbEJxOUY2ZmZvM0hOREluTElhNk9HSkpwNW5NeW0?oc=5",
+     "time": "2026-11-16T13:37:34+00:00"
+    },
+    {
+     "title": "APP Stock Quote Price and Forecast",
+     "publisher": "CNN",
+     "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1iU3VMcG9rX0FDREw3LW9RUG5iU1J4MkZPM1ZaOUFOZGpBUEYyWFFBWTdVTjhZcnB3aWRiRXJ2YnFDZlE1SXdvSXlqX1ZYVTA?oc=5",
+     "time": "2026-11-16T12:51:34+00:00"
+    },
+    {
+     "title": "AppLovin (APP) Stock Price Prediction: Earnings beat drives a stretched breakout, but momentum is now overextended",
+     "publisher": "Blockchain News",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNTHQwVXl5LUY1cWpZOS1icmJfQWdIRTVCYmNhRzMwbGFOZW5EZllBQk84WkdJY0d0LU5CT3R0OHVhejhkOFJubHFYb2ItOUtTQ0RUcldOWHhRWHVuSnRtQlBXcXp4dEJGZjVPUWY3UDB5ZTdEcjlZUHloMU92bE9aemdWeTJWM3pzbkZydXdnNE1nZFRwaEY3NHJVNGNuTThqMkE?oc=5",
+     "time": "2026-11-16T12:50:00+00:00"
+    },
+    {
+     "title": "AppLovin stock prediction: $552.64 bull, $257.44 bear",
+     "publisher": "FinanceFeeds",
+     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPa2VpQmxKS1ZrcmlBSk9HOXRKbkNCVV9PWVYzOFNvZERNVmZic0hRak5femp1RTZmd3BISlphWVQwZlNMT0U3TVJTNjIzZEJObVRrRDhkNm5qd3lyTWpLU1l1TWFCMGFQVjhmenJFelA0YUcyaHd0cEpacGxfRHFRd2dKcWgyUjBwM0E?oc=5",
+     "time": "2026-11-15T19:28:08+00:00"
+    }
+   ],
+   "brief": null
+  }
+ ]
 }
