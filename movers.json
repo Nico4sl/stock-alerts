@@ -1,60 +1,141 @@
 {
  "date": "2026-11-18",
  "threshold": 3.0,
- "updated": "2026-11-18T18:43:37+00:00",
+ "updated": "2026-11-18T19:54:12+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 733.82,
-   "change_pct": 0.19
+   "price": 730.2,
+   "change_pct": -0.31
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 661.93,
-   "change_pct": 0.76
+   "price": 658.4,
+   "change_pct": 0.22
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 80.17,
-   "change_pct": 0.79
+   "price": 80.19,
+   "change_pct": 0.81
   }
  },
  "movers": [
   {
+   "symbol": "UNH",
+   "name": "UnitedHealth",
+   "list": "portfolio",
+   "price": 344.84,
+   "prev_close": 389.68,
+   "change_pct": -11.5,
+   "trigger_change": -3.7,
+   "peak_change": -11.5,
+   "first_seen": "2026-11-18T14:56:10+00:00",
+   "sector": {
+    "etf": "XLV",
+    "name": "Health care",
+    "price": 181.04,
+    "change_pct": -2.27
+   },
+   "chart": {
+    "ema8": -11.5,
+    "ema21": -13.1,
+    "sma50": -11.7,
+    "sma200": -6.3,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "UnitedHealth Faces $9 Billion Industry Clawback Under New CMS Rules, Sending UNH Stock to $350",
+     "publisher": "FXLeaders",
+     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPWnp1WFhLTEJtY21qX0tLS2syN1U2T0syaEJ5SDNMWXlrdy1vaWFhQjZHVTN2eHNac254cjNzTDdOaDhsa1J1aklJVzY5QThwenJXT1pWMjFJTE1FdnlkMnUwekhGNTlhcVpDejFZaWhpbGNvU0pMQjhCVnBjQUk4MkNRcnVpMmhSWmQzVDNRMVBEODV3OWdlT056SzBWY3ZaZTZEMU1hWHhmWkJiaGFxZEdpaGN0NnJqVUVaMFZoU25TUlBMdzJYNVNlQkNhNnM?oc=5",
+     "time": "2026-11-18T18:30:23+00:00"
+    },
+    {
+     "title": "Healthcare Stocks: UnitedHealth (UNH), Humana (HUM), Cigna (CI) and Others Fall on Proposed CRUSH Rule",
+     "publisher": "TipRanks",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOM19XdTVhazhoMTdKVEluOVpuRlJKWVplSDBDQk8wbGtTaXAyTEZmRm1YdDRZVFpTS2RwSUhtcEtxdGVyWno0SjNwMHZ4Yi01b1dBMVRucVhzVXM1a093ZTNvT1R0ZXhQWnc3b2lYN0pjVG12cThYamU1dE1EMWl4bC1PM1lJemtJOUZHTU4zTDk2T29pOEo3Zk9GQ2FlU2dILWxBbk9GYV9wYVM2WUdqUjJteVZRd1pRUS1KYnNTNEo?oc=5",
+     "time": "2026-11-18T18:29:47+00:00"
+    },
+    {
+     "title": "UnitedHealth Group (UNH) Shares Drop Over 8% Amid Regulatory Con",
+     "publisher": "GuruFocus",
+     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQUHluOWxsYzlFVFdEOC1LZG9sNTAyU1ZRdFJFZDVuZ21iem1OaXZFX3VPR3dKNk1wZTdERk1ULVYwakZYWlhBS1BMLUEwQlFJa0tCanBwNTlYeEptVEtmdDdYRHZhZEFKT2xxb3BCTkxoM000ZzVvTkM5alRabS0ybkZSNDR2S0V0dGZUblJMRVVzWi0xdWFhZXlLcUFreXc3TjVocDZUYy1nVGg1emdGaVhQdGNZUnNsc1NpeUkzc0R6ZzA?oc=5",
+     "time": "2026-11-18T18:21:17+00:00"
+    },
+    {
+     "title": "UnitedHealth and other insurance stocks drag down the Dow after CMS proposes new anti-fraud rule",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNTGxORnNpTklJSlJwbTBHQWVxSFBMTGZoalQzMnhtY0M4MFgxUWhPZU90SFVXVThaT25qTjVhZV9pSVRtT3NqcEhpOXFlUFdGa1hXeWY0REhZaEJPRlVxUjVPNV9hcGoxSzg0dkxiQ1I2OER5VW0yWnd3Y2xyVmxJUnpxV3V1UHliNFkzZHM0T3ZZT21XRnRVVXBfLVhha3FubWd3cl91a0hCVkRNSWVWQkZZbnpaWFBrd29IVnZWOFFHQmNxSDZ5MW9NVzZ3Y19RS09XVG9yMWdqSWJ4V2N2QlhkaFlOekpUZXd4ag?oc=5",
+     "time": "2026-11-18T17:38:51+00:00"
+    },
+    {
+     "title": "UnitedHealth Group retreats 8% amid proposed Medicare fraud rule (UNH:NYSE)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQejRNNnJteklsWEZjTFE2NGdHTGN3WVJoTEtyczJZUThta2RHNExWbllFNC15bzh1X2tWUFBYaDhjT21BUHRQNjk2MndXVldLN2c2c1NLbzMtMUNfQ0tqbjE3R29QSFdQYUw2dm1qR0VkTGNPVVJqVDBYd3g0emhPMlFtRkp3YTFHYnJwdS1FelVyZ2JEYnRzVnlrSEUxclEycUg0?oc=5",
+     "time": "2026-11-18T17:37:12+00:00"
+    },
+    {
+     "title": "Unitedhealthcare Partners With Independent Pharmacies for Telehealth and Testing",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNQmYxVEtRam8xT0VlWnk3U2FhZVJieWJtTlRMR2d4bTQzemZyVm1HMHR0Y2hERkxfSTl3a0RiSldhd0E0UUtYTnVjcVVfb2M2dGhveGt1Q2hKSEtwWFNjTGNSZTlFNnY1bzQ3OGVRNE42SjVENXp4M0FRYXp6Vk9tc2RWdkhjSk52MXpYTWI0RWVZNHdWTWdpVGtXMTdNMk5YOHRnU2NwLWZuYzdZeFZUTGtLRlZVc25Ta1RENWYxVFJUYUdLdlk3NXN0MjNpQXMySm04?oc=5",
+     "time": "2026-11-18T15:49:05+00:00"
+    },
+    {
+     "title": "Unitedhealth Group Inc Stock (UNH) Moved Down by 4.61% on Nov 18: Key Drivers Unveiled",
+     "publisher": "TradingKey",
+     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOU0wzdU43d2lDY3hUbXFRTGo5aUg5eC1XbWN2OUFwSUVTSFhaRjRBR25DRUE0ZFdLdUFOT2FkdUdSMVJTTlE2X014REgzU2RsMTV1MGQtUlVzbUZ5aTBZNVNZWFktTkFBRmRGTGxiODBBQmFlbWcwOVprT3ZmLVpyRFZZX00tUVVkeHc?oc=5",
+     "time": "2026-11-18T15:15:33+00:00"
+    },
+    {
+     "title": "Why is UnitedHealth stock sliding today?",
+     "publisher": "Investing.com",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQcXI0TmNmQWlNUFplLTlwbHNBQWVfYURXdEVCQXZCRHNCcGRCd2FrOHFMWFVtc2xDeEZSWndmOVdBdXdSZGZyc0ZuUm51Qks5UUYwT0piUEZOekJXSXBwWFJPblg5MTFkWS1GNFdZckVfTTc2SzVvcUFwektaMmlnaFViTXc2Y3F2RXcwVDdtMEx5S3J4YWdrNDFaby04NmtuOGk4?oc=5",
+     "time": "2026-11-18T15:12:38+00:00"
+    }
+   ],
+   "brief": "2026-11-18-UNH"
+  },
+  {
    "symbol": "CRWD",
    "name": "CrowdStrike",
    "list": "portfolio",
-   "price": 239.62,
+   "price": 236.71,
    "prev_close": 219.58,
-   "change_pct": 9.1,
+   "change_pct": 7.8,
    "trigger_change": 4.4,
-   "peak_change": 9.1,
+   "peak_change": 9.2,
    "first_seen": "2026-11-18T15:11:19+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 97.49,
-    "change_pct": 1.83
+    "price": 96.66,
+    "change_pct": 0.96
    },
    "chart": {
-    "ema8": 4.4,
-    "ema21": 1.7,
-    "sma50": -2.6,
-    "sma200": 37.1,
+    "ema8": 3.4,
+    "ema21": 0.6,
+    "sma50": -3.7,
+    "sma200": 35.4,
     "momentum": false
    },
    "headlines": [
+    {
+     "title": "CrowdStrike named Visionary Leader in Frost Radar: Can CRWD sustain its rally?",
+     "publisher": "Traders Union",
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNd1pqN3YzbWxNRW93a29ydkYtd3hxVXdIOXM0UzAxeG1ZSnhtX2lzUGZ5RGliZE5sSXVoM3ZNa25xck1zUFhoXzJCNUY0VjVXaEFVeml4TWYySGJGVkdSU1FUVmRZc1dlcUVQRTlVWHdLUnhlcFdKaHByTDYtM1FHYVdSVDdVdzJGb1VsSkJ4MXl0NVIzbmRV?oc=5",
+     "time": "2026-11-18T18:49:27+00:00"
+    },
+    {
+     "title": "CrowdStrike advances 7% amid cybersecurity rally (CRWD:NASDAQ)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQenRnMWJQOElhZFp2S3ZGa2xHZlJ6bnhqVXhKd1hrWGUydDVqQ2JLZEtnd2lRN3JWSXZLVEFSWXRtVC1HeWJyRzBQVmNua0U4T1BOZVBQMW55Uy00bXV1emZpRDFLTmFfNXA1WnFCNzVsUFBscWlSLWg0TU9aMXFYQ1BFa0RiQXZxb0RqQ0Rn?oc=5",
+     "time": "2026-11-18T18:05:28+00:00"
+    },
     {
      "title": "Why Is CrowdStrike Stock Surging on Wednesday?",
      "publisher": "Benzinga",
      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPdVBrMkpmS1NTUW11ekdsWGdZZTFiNW1DRkZzT3pybURSMGNrOWFxU3NZSGg1Y0xpeXAwSGFla1RWSTRTNE1tN01EaWJSMGEySFVMOTNXYXBKUUJjTVh2eW9tUlRuSFlaV3hpeVRnWUEyZWhnYU9oSUZ4Y2JHdk9XUUlsX3hVU1ZHaWc5TkZiRFF4NUxkSUxLMTBKZjRfSFo0RFF6TkpYcERkUQ?oc=5",
      "time": "2026-11-18T17:27:52+00:00"
-    },
-    {
-     "title": "United Health, Crowdstrike among market cap stock movers on Wednesday By Investing.com",
-     "publisher": "Investing.com Nigeria",
-     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOVEdFUkk3V1ZVX2xpWGVlMDNnb3FuVFpNV2R4aG5DWlNfNTNXZFZVWUFNanVDV1RVby16M0tqZGxnbnc5MGFiSGQzb2ZmYUVrbklhWnBaeUhhdHZjZURRUTBZSUV2UlJSUHZ1Tlo4YVRDNm1hd2pDN0xrNFowSmQ3Rlg0dV9fUFh0cERpZDNMQTFvTXlYTTNaTG9ESHVjaGhndkpScC1tQUV2b2ZBVWUtdE5hTVVnTjJZWG02ZkdreGVmTEFOYlRnUg?oc=5",
-     "time": "2026-11-18T16:45:46+00:00"
     },
     {
      "title": "29 Big Funds Bought CrowdStrike Last Quarter, While 7 Sold. Who\u2019s Right?",
@@ -69,6 +150,12 @@
      "time": "2026-11-18T15:37:25+00:00"
     },
     {
+     "title": "United Health, Crowdstrike among market cap stock movers on Wednesday By Investing.com",
+     "publisher": "Investing.com UK",
+     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNbUxiZnNsZzF5bVJqZGxZX2g4eEFIbkE2T3pFVFhkc0trQlBiSUdGN2dzbS1QTVdTZGQzZlYyUE0xUVNLYzJSVG5DOUZpT1IxUWtwa1BXUEE0bEhabUd1Y2FMNTBEU213TWxUS05CZlEzSDJlOEhKcHlQT0xFcE5GOXFoSDdaMHBEVFZfaHRVYjI3NDdOYlBwb1BiY3ZXQnh5LUVfVDRkVnBvS0M4OG5tYWxaVjJ2M1YzUXB0cEVXTkIxRGJOSUFEdw?oc=5",
+     "time": "2026-11-18T15:36:00+00:00"
+    },
+    {
      "title": "Why is CrowdStrike stock rallying today?",
      "publisher": "Investing.com",
      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPeUc1TDgwVTJzUjFZXzZfZDF3cDgtc3ZzcG01d2dqMTc2cUxXaG9LWUpSTkhRbVItd1U3b0NKaFFaUUFXaUFFdDBxY0tMdkhaaWZ4d2h0VEpwd0U2aUtTcmE5MVotM2g4Znl1MDg5VG1Penp0a1puZHl6U3NoVDhHZ2JIdWpyek5VbW0xTFRzVUw1Qmw3TG5fS2JRUmplNjIwQnVZ?oc=5",
@@ -79,118 +166,31 @@
      "publisher": "TradingKey",
      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQWURmQ1RaVWVZZl9RQmFTc1lrcnViOF80VktLZVBDaVE3RC1VZjJoeXVsV242QXdCdGR0UjkxczRta2oyd0s1d0xxQlg4Nm5nMlFSaS1pZ0hBblpwTnpGNTdEMVRYUzl0S2JCRkg3M0lMNEhVQzN6My15c0FaM3E4V0RWS21zOWNkcXZr?oc=5",
      "time": "2026-11-18T15:22:55+00:00"
-    },
-    {
-     "title": "Cloudflare (NET) Stock Price Prediction: Cloudflare tests recovery after earnings-driven rerating, but momentum is still mixed",
-     "publisher": "Blockchain News",
-     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPVkJjODRJeERsTmdPaTg5cTVEUXB1WTREUFM0dUVWa1dENG1UWDBZa1hxaXc1bkM3bWRsSU1nUnRjbVZ2cWhkWVIxLXdDeXJ0bUgyaVFGZk5DRTdad0Y3VTZTWDhfbWU5YS1CZDFGNUdIQTF5bjZQVkZJSzhjUDVkcVpqQk8xMHpsTlpzOWJWaEVxUzFnYThEbnRnWTRLb012S3VKMktQWFVOQQ?oc=5",
-     "time": "2026-11-18T14:16:00+00:00"
-    },
-    {
-     "title": "CrowdStrike (CRWD) Stock Price Prediction: Analysts Raise Targets as Price Action Tests Key Support",
-     "publisher": "Blockchain News",
-     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNWVqMmZpYzJGcExPN05SUC1NVzhacjVyeWpYX19MVkQ0RkxsclVPckczU3piT09kV3RjVWhOendIZFNGT3Z2Z3Z4cW1kamZOWTZ3Zmg3WTVsQkpneS1HaGptcmNEVkRlR3RvWEo5UDViWl9FYkppVnJyS1d1OGRuSV80bnN2NDJhUDVzRlM5Z3E0UlVGNnl5TkkwcFZ4T0xCVE1iZUFsTQ?oc=5",
-     "time": "2026-11-18T14:08:00+00:00"
     }
    ],
    "brief": "2026-11-18-CRWD"
   },
   {
-   "symbol": "UNH",
-   "name": "UnitedHealth",
-   "list": "portfolio",
-   "price": 355.17,
-   "prev_close": 389.68,
-   "change_pct": -8.9,
-   "trigger_change": -3.7,
-   "peak_change": -9.4,
-   "first_seen": "2026-11-18T14:56:10+00:00",
-   "sector": {
-    "etf": "XLV",
-    "name": "Health care",
-    "price": 182.44,
-    "change_pct": -1.51
-   },
-   "chart": {
-    "ema8": -9.3,
-    "ema21": -10.7,
-    "sma50": -9.1,
-    "sma200": -3.5,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "UnitedHealth and other insurance stocks drag down the Dow after CMS proposes new anti-fraud rule",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNTGxORnNpTklJSlJwbTBHQWVxSFBMTGZoalQzMnhtY0M4MFgxUWhPZU90SFVXVThaT25qTjVhZV9pSVRtT3NqcEhpOXFlUFdGa1hXeWY0REhZaEJPRlVxUjVPNV9hcGoxSzg0dkxiQ1I2OER5VW0yWnd3Y2xyVmxJUnpxV3V1UHliNFkzZHM0T3ZZT21XRnRVVXBfLVhha3FubWd3cl91a0hCVkRNSWVWQkZZbnpaWFBrd29IVnZWOFFHQmNxSDZ5MW9NVzZ3Y19RS09XVG9yMWdqSWJ4V2N2QlhkaFlOekpUZXd4ag?oc=5",
-     "time": "2026-11-18T17:38:51+00:00"
-    },
-    {
-     "title": "UnitedHealth Group retreats 8% amid proposed Medicare fraud rule (UNH:NYSE)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQejRNNnJteklsWEZjTFE2NGdHTGN3WVJoTEtyczJZUThta2RHNExWbllFNC15bzh1X2tWUFBYaDhjT21BUHRQNjk2MndXVldLN2c2c1NLbzMtMUNfQ0tqbjE3R29QSFdQYUw2dm1qR0VkTGNPVVJqVDBYd3g0emhPMlFtRkp3YTFHYnJwdS1FelVyZ2JEYnRzVnlrSEUxclEycUg0?oc=5",
-     "time": "2026-11-18T17:37:12+00:00"
-    },
-    {
-     "title": "UnitedHealth Faces $9 Billion Industry Clawback Risk Under New CMS Rules, Sending UNH Stock to $350",
-     "publisher": "FXLeaders",
-     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQSllkMHpRZHpESVp4bTB0enItUDFoRm9SRGhHWWRMNDlELUtLNVpxOVp0dmdsOFYzRkd0NWJFNjlqc1pESDJxaTRMdC1DcDdQV29xWlB6dGxlcEdIWE1pd2h5V0p5M1I5UUg4YUlna293eU5wX3JxbU9ERUZJZW1qSFZaMnZKdHFpVzgwMDdudlpVUnR1dW4zV2Y0Yk05b29FQ0dnYjIwRW1qb09IOXRQUVV1R3BGYnRLTkl6d3RwQTJEVHV5cmRid2JiR2YxU1dSTlI3ZnV3?oc=5",
-     "time": "2026-11-18T17:35:15+00:00"
-    },
-    {
-     "title": "Unitedhealthcare Partners With Independent Pharmacies for Telehealth and Testing",
-     "publisher": "Benzinga",
-     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNQmYxVEtRam8xT0VlWnk3U2FhZVJieWJtTlRMR2d4bTQzemZyVm1HMHR0Y2hERkxfSTl3a0RiSldhd0E0UUtYTnVjcVVfb2M2dGhveGt1Q2hKSEtwWFNjTGNSZTlFNnY1bzQ3OGVRNE42SjVENXp4M0FRYXp6Vk9tc2RWdkhjSk52MXpYTWI0RWVZNHdWTWdpVGtXMTdNMk5YOHRnU2NwLWZuYzdZeFZUTGtLRlZVc25Ta1RENWYxVFJUYUdLdlk3NXN0MjNpQXMySm04?oc=5",
-     "time": "2026-11-18T15:49:05+00:00"
-    },
-    {
-     "title": "Unitedhealth Group Inc Stock (UNH) Moved Down by 4.61% on Nov 18: Key Drivers Unveiled",
-     "publisher": "TradingKey",
-     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOU0wzdU43d2lDY3hUbXFRTGo5aUg5eC1XbWN2OUFwSUVTSFhaRjRBR25DRUE0ZFdLdUFOT2FkdUdSMVJTTlE2X014REgzU2RsMTV1MGQtUlVzbUZ5aTBZNVNZWFktTkFBRmRGTGxiODBBQmFlbWcwOVprT3ZmLVpyRFZZX00tUVVkeHc?oc=5",
-     "time": "2026-11-18T15:17:53+00:00"
-    },
-    {
-     "title": "Why is UnitedHealth stock sliding today?",
-     "publisher": "Investing.com",
-     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQcXI0TmNmQWlNUFplLTlwbHNBQWVfYURXdEVCQXZCRHNCcGRCd2FrOHFMWFVtc2xDeEZSWndmOVdBdXdSZGZyc0ZuUm51Qks5UUYwT0piUEZOekJXSXBwWFJPblg5MTFkWS1GNFdZckVfTTc2SzVvcUFwektaMmlnaFViTXc2Y3F2RXcwVDdtMEx5S3J4YWdrNDFaby04NmtuOGk4?oc=5",
-     "time": "2026-11-18T15:12:38+00:00"
-    },
-    {
-     "title": "UnitedHealthcare partners with community pharmacies to expand care delivery",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNSDUtdkxNcE51MWpwdnlLNHNpSy1xOWxHTW1Yb05zWDR1TmNJUVdndFQxa1k2bGZhSUdFLU1sVnBQM3RsaUEyWGhxNkVrczNNN0Jwa1pHMXpGanpoN1JYalhHVHpodjNWVUIxRlhNNnpUTXNKX1VLTjcwN3p4alR2RnpqaGkwMHAyVlE1OVhsYXdSOEk?oc=5",
-     "time": "2026-11-18T12:43:20+00:00"
-    },
-    {
-     "title": "Why Is UnitedHealth Stock Falling?",
-     "publisher": "Trefis",
-     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOeThPaDZlNXluTFQtTUxnVXcyQ3d4SnVXS3d0anJFaC1sQ2NzTGNGLU1xQzJsd18xb0Jxbm9ZQUZ6ZkxCUTVPMWxfbWZxYURLZWJ2UzBlVWFrcVYwZk5HcUJXSmdLbW9jMTQxSTRMQmN4RzN2WUJMQ3NQZnVGVjUtODNpUGFqdFNZbGlGcXFVUy14UGZKcTlpRg?oc=5",
-     "time": "2026-11-18T11:51:39+00:00"
-    }
-   ],
-   "brief": "2026-11-18-UNH"
-  },
-  {
    "symbol": "AVGO",
    "name": "Broadcom",
    "list": "portfolio",
-   "price": 354.75,
+   "price": 356.14,
    "prev_close": 341.6,
-   "change_pct": 3.8,
+   "change_pct": 4.3,
    "trigger_change": 3.7,
-   "peak_change": 3.9,
+   "peak_change": 4.5,
    "first_seen": "2026-11-18T15:26:22+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 459.9,
-    "change_pct": -0.04
+    "price": 456.3,
+    "change_pct": -0.83
    },
    "chart": {
-    "ema8": 3.9,
-    "ema21": 5.1,
-    "sma50": 3.1,
-    "sma200": -3.5,
+    "ema8": 4.2,
+    "ema21": 5.5,
+    "sma50": 3.5,
+    "sma200": -3.1,
     "momentum": true
    },
    "headlines": [
@@ -249,23 +249,23 @@
    "symbol": "AMZN",
    "name": "Amazon",
    "list": "portfolio",
-   "price": 267.7,
+   "price": 267.29,
    "prev_close": 257.89,
-   "change_pct": 3.8,
+   "change_pct": 3.6,
    "trigger_change": 3.0,
    "peak_change": 3.8,
    "first_seen": "2026-11-18T17:22:48+00:00",
    "sector": {
     "etf": "XLY",
     "name": "Consumer discr.",
-    "price": 119.93,
-    "change_pct": 2.42
+    "price": 119.33,
+    "change_pct": 1.9
    },
    "chart": {
-    "ema8": 1.8,
-    "ema21": 3.1,
-    "sma50": 4.9,
-    "sma200": 9.3,
+    "ema8": 1.7,
+    "ema21": 2.9,
+    "sma50": 4.8,
+    "sma200": 9.1,
     "momentum": true
    },
    "headlines": [
@@ -274,6 +274,12 @@
      "publisher": "GuruFocus",
      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOSFVKaFNEQmJORWNVTDVEUmZDNm9CaEU3RjRKVWZUNWhSZnN5dGsyY2ZQdUlKMmlJTzUwWlV1Rm93WUkzcFk0X2xHYWxYbVNvcERoOWhhMmRxTFM5eHZlT3k3VFpsdjNqR3pqRUU1UHpMSU16WlNOX2hCcFlMcXdxV0JxYUU0VVVLa1M4YUtiWFAwNEV1ekRXNE5ZeWRfWTQ2NUE?oc=5",
      "time": "2026-11-18T17:59:12+00:00"
+    },
+    {
+     "title": "Amazon (AMZN) Stock Gains as $150 Billion Opportunity Emerges",
+     "publisher": "Blockonomi",
+     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOajN6TURHQzNiVk1hV2xPamhWeHhqNzdjRjRqQlJvS1Y0eFZuOThPem9OenNTQ1hTamNEM0g3dlNieFpCZTQ1dy02X3B4OEE3ZHp6Y2tQa0lGSEctSVlVMjFjcVVXNmZGcWFQVll6WDNvNnhFV2hjWHhaTXhHbHRMYU90dmVwaDhjYUE?oc=5",
+     "time": "2026-11-18T17:56:00+00:00"
     },
     {
      "title": "Amazon and Alphabet Will Own Over 28% of Anthropic After Its IPO. Here\u2019s What That Means for Their Stocks.",
@@ -300,12 +306,6 @@
      "time": "2026-11-18T15:24:02+00:00"
     },
     {
-     "title": "Alphabet vs. Amazon \u2013 Why Top Analyst Says Buy One Stock, Hold the Other",
-     "publisher": "TipRanks",
-     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQUVltMFhheVk1bXVpUk9DaG1HVlJ1b0RyLUxRQkx5WTk5eHdraUROQVFrTGdKMmprOF9NSmo3UDgtdUZQV0l6UW5CMFJFODl3b19GOFNSNE0yXzA0UXVPRWpDaDhrM3ZiVzdkSEpIekYtcnA3U3VKWFlfWjF3NW1vcXNPU29xVFJWMlNJX1dKYWJ1ZWlpVGtKM0xKYW1UcU0?oc=5",
-     "time": "2026-11-18T14:55:38+00:00"
-    },
-    {
      "title": "Amazon.com, Inc. $AMZN Stock Purchased by Modera Wealth Management LLC",
      "publisher": "MarketBeat",
      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNY3ZpeHlNSVRwNllKbHFIUnlXcndpeERRVjNvMHY1OVJYZ1NPbExRMlV5UlluZWVpdUY1U3JiQkI5M0FCNVFOWVhmbHlJQm85SGQtblRDQzhyTmJsME0tbHBzR2RONlNQS3VNVHEwa3g1U3hUQTI0Zm9aYWI5em5LaEVXT3ZoZHBxNTN3alVueGIyNjhrTlJfaVV3bFlSOUx2bnljOGlnay05ZGNJWHB2RzhCRkZyMDM1TlNTREtvelAtTUIzVnc?oc=5",
@@ -321,104 +321,35 @@
    "brief": "2026-11-18-AMZN"
   },
   {
-   "symbol": "NBIS",
-   "name": "Nebius",
-   "list": "portfolio",
-   "price": 109.42,
-   "prev_close": 106.03,
-   "change_pct": 3.2,
-   "trigger_change": 3.1,
-   "peak_change": 3.2,
-   "first_seen": "2026-11-18T15:21:21+00:00",
-   "sector": {
-    "etf": "IGV",
-    "name": "Software",
-    "price": 97.49,
-    "change_pct": 1.83
-   },
-   "chart": {
-    "ema8": -9.3,
-    "ema21": -23.2,
-    "sma50": -41.4,
-    "sma200": -39.1,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "What's Going On With Nebius Group Stock Wednesday?",
-     "publisher": "Benzinga",
-     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPdDNVb3c1UFVSNW9aMUhrLXZHNUVVV1B5c0hLNHprOGtnMUNKY2lZYnRZdFdzTzR0QmNMc0ZFN2plbFpYWWVHQlJnQnF6Q21HeVk4RlRpUFVsVEhrdzl3bTFHeXcydjJZcTFiYWlmSkowUHhjZlYtQ0xDMno2WEpnM3NzbXB5bHZOa21ZTVU2cUhKRXVCcDlKTXhaSE1YNmFCZ3diemtn?oc=5",
-     "time": "2026-11-18T17:24:56+00:00"
-    },
-    {
-     "title": "Nebius: Surging Capital Needs Amidst Tightening Liquidity (NASDAQ:NBIS)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOWjlrSHNNVGdzRTIzVkhDaEZVX3M1MjI5OVQyZV9ja0lFSEhwZ01May1SWWVPU3ZpMWlmRkhkcE1XLW1EZ1hfNktKQWdHTXQ3SmYyQ0pxVnBKdWE2SzhzRUFSQnQycmVIVXp2b2NxNmYwR29RcU1MN29hR1dNLUtmN2lIb0ZwalRoRU9ydXFrdldTd2RZNndBLWpNMUg0UQ?oc=5",
-     "time": "2026-11-18T14:44:01+00:00"
-    },
-    {
-     "title": "Nebius Will Likely Continue To Devastate Retail Investors (NASDAQ:NBIS)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQUE9Iam9kZDFDOExEY2c3VVAxN0FiaDE1dWFkV2tFOXJPNHVkUlJGdkcta2ZkWkRUclRxSW4ta1FIWEtuRzZWSE5uS29rSEhwZ3V2SmVzQW95b2piWmZOZmZ0T1ZlYU03RkNneW1kS2lSZTVfLS1NY0x0Yzk5clV6dUV0M3NwT1VWT1lUSjZJZmh0VVFmMVBzX2FYY1AyWUU?oc=5",
-     "time": "2026-11-18T13:49:16+00:00"
-    },
-    {
-     "title": "Nebius Group (NBIS) Stock Price Prediction: Capacity Delays Pressure the Tape, but Analyst Cuts Have Not Broken the Bull Case",
-     "publisher": "Blockchain News",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNb2w0NzkyWFlJREY5UjlhQmI5d05vYzlXUkI1dkFSak9uSk8zaHA3V3pobm9FRmR5QmRNM0s3N0syRjl6SVZjb2tsV0dMQXlXaGNEd0FmekFBc21tajQwU1VJT2lwR3I3bEhWajVRZnlUWjV4MU9rSWh0QldvR3l0SUhOWWFIUWJWa3lCbEw1ajdHQVVieGhmdUIxa3lEdw?oc=5",
-     "time": "2026-11-18T13:19:00+00:00"
-    },
-    {
-     "title": "Nebius: The $42.5 Billion Financing Question Behind Its AI Growth",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOa2pNR2V1VjJ6ZDNyRDN4UnFJckg2YWRndXpxTzFZbDJUck1qa3k0WmZONUVFTnk4NnhyUjRTV0pxNFdWUTR2WjFfd1RyLVhheXpNMmF2TlMtWndmOFZpNTVEU1g2LVZVZm9pcjl3eXlSTE93b3BoMkQ4cGoycDhycTBzeVFPdTFIV3JMclJvVGtubUxHc2FGNXlKMHNmSDFaTWE0eg?oc=5",
-     "time": "2026-11-18T12:57:14+00:00"
-    },
-    {
-     "title": "Nebius Posted Superb Earnings and Crashed Anyway. Buy the Dip.",
-     "publisher": "The Globe and Mail",
-     "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQTzRXSWFHeDVyY2F1VXFtWUxIWWpMU0xmM2NQQkE5UzBJRDUzNnFrMFptYWZIWm4wWnJzUEladUR1S1JnSmc1aVEwZmJNWTBZdEhJTVY4WU9oVXYtOFdMekNfVERSZWZhWGVILXNqQ0pGYXU4bU9PdEhPSGVTTlN1LVJWc0wwcnhlb3hpbTRlV3hYU3poNWpSU0ZMWDZzNEJnb09mSEhzTFg2SUQ2NFh5RzI0bGlHelVPNWpXWEE1WUJKT0U0azNSSUlXSGxYaWtGZWsxcjZ0TzFmTDROclE?oc=5",
-     "time": "2026-11-18T10:58:19+00:00"
-    },
-    {
-     "title": "Why Are Neocloud Stocks CoreWeave and Nebius Rising in Premarket Today, November 18?",
-     "publisher": "TipRanks",
-     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTHc4bVdWUUREakJZd0lrUEFBZ19mWXhnNHRxc2VwNHZGaEFCRmRNQ2xWemVMX21CSzc4UjB1UklFYXVPRkllbURzMTZRdmRlSWJYSU5fX1VhRTVEaVlIQktaZ01PVXl4bkhsbXZfYVF2Tk56dnp1OXZkRmtvSTF6WE04R3p2RjNoVTJUS1EtOUhXVlJueFVnTXFfT3JMNUgwUzF2UVJGOF9na09TRzBvYjdn?oc=5",
-     "time": "2026-11-18T10:11:32+00:00"
-    },
-    {
-     "title": "Nebius Shares Jump After Hours as Nvidia\u2019s Strong Quarterly Numbers Lift AI Infrastructure Stocks",
-     "publisher": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOR3BhUkVCX3Q2cE8yMXpMRml3M051Um9qcndhUk1aS0Q0UmJReFhHek0tYk1UMEZJOHotQ3llc0hnZ2dEM2RpaHk5alJ5OWZwREduNmVSaHNkcGpWMUNHUGZVRXhvTjJhX1pLMXpOSlNiYXRVN2NoelpwNUh3dmJsamN4SW9IOHZEU1poRFpKWkhJYkNpZU43eTA2YWZSMG1BVnRaRUR6NVdjNDNsa1J3VGZIeEIxbVBabGZ3RGNrTXR0VFBNTy1lRy1SMmdyS3JQaXh6MjZCNnozRWdmRHR3S2RsaWctY0pXOWRCVA?oc=5",
-     "time": "2026-11-18T06:42:17+00:00"
-    }
-   ],
-   "brief": "2026-11-18-NBIS"
-  },
-  {
    "symbol": "ANET",
    "name": "Arista Networks",
    "list": "portfolio",
-   "price": 192.16,
+   "price": 193.04,
    "prev_close": 186.42,
-   "change_pct": 3.1,
+   "change_pct": 3.6,
    "trigger_change": 3.1,
-   "peak_change": 3.1,
+   "peak_change": 3.6,
    "first_seen": "2026-11-18T18:43:37+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 459.9,
-    "change_pct": -0.04
+    "price": 456.3,
+    "change_pct": -0.83
    },
    "chart": {
-    "ema8": 1.6,
-    "ema21": 2.9,
-    "sma50": -0.2,
-    "sma200": 14.3,
+    "ema8": 1.9,
+    "ema21": 3.4,
+    "sma50": 0.2,
+    "sma200": 14.8,
     "momentum": true
    },
    "headlines": [
+    {
+     "title": "About Arista Networks (Stove Tokenized Stock)",
+     "publisher": "Coinbase",
+     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1aT3VsSVJxSUVZYXNTcU44d1dBUHMtcEk4b3R4R2tLZlQwMy1GbGd6dWN1MzB1TkM4TmhycUV3Y0EydkpYVzhuSVh5SWx6bkhzY1loLU1yX3o0dFN0MlVxSWVNRjFfWkZzX0w5dl9DVm1NX21wa1dUM0tfUVVlOXc?oc=5",
+     "time": "2026-11-18T17:46:43+00:00"
+    },
     {
      "title": "Can Arista Strengthen AI Networking With Its New Etherlink Offerings?",
      "publisher": "TradingView",
@@ -460,152 +391,101 @@
      "publisher": "Yahoo Finance",
      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSjlXeWJvd2NkdXZZREFEblB0NUdXa19ZUHl0SEdjZWhEclpmd0dBMlhBMGJkSlRGLVN2dTBRZFZXRGFyd1JDdDc1anNkWnFud2tnY3RmdHlxVDhHNHpIYWpubWxsa0dVNW0zaklRenFsamxuVXg3ZXJwS055RXVZTHVCdHMtRTF3Q1VyTW9ZVXdrbXJIR1hXZQ?oc=5",
      "time": "2026-11-17T22:09:37+00:00"
-    },
-    {
-     "title": "Is Arista Networks (ANET) Fully Priced For Its AI Cash Flow?",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNRV9EU0NLYno0Ql8wV0dqNEVEU3JlbVZSN2tNMGdSOEVNdmlTYUVIUFFNeE83S09sYTNDaWVWSnUteGVtekFNY1dXbTc0Yjc4MFo2WEJPOFVDS1RLellURzNzdUJjZzhPS0NHa2tXRHdMaGxYN2tHaW9rOF9xeC1ObDNoWF83dFZxWUg0QUJzT2tFXzJIVUwyenN1UDlHM0U?oc=5",
-     "time": "2026-11-17T20:12:21+00:00"
     }
    ],
-   "brief": null
+   "brief": "2026-11-18-ANET"
   },
   {
    "symbol": "BTC-USD",
    "name": "Bitcoin",
    "list": "watchlist",
-   "price": 63193.9,
+   "price": 62664.6,
    "prev_close": 64877.0,
-   "change_pct": -2.6,
+   "change_pct": -3.4,
    "trigger_change": -3.0,
    "peak_change": -4.0,
    "first_seen": "2026-11-18T16:06:46+00:00",
    "sector": null,
    "chart": {
-    "ema8": -5.4,
-    "ema21": -11.8,
-    "sma50": -19.6,
-    "sma200": -13.1,
+    "ema8": -6.0,
+    "ema21": -12.5,
+    "sma50": -20.2,
+    "sma200": -13.8,
     "momentum": false
    },
    "headlines": [
     {
-     "title": "Bitcoin Nears $62,000 as Citi Cuts Its Forecast",
-     "publisher": "The Defiant",
-     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOaF85cWJyZ2I3VXN5SlRWbHhyWHA1R0Z4ZlJ6UlFvQXFLVDBkd1paYzM0Q2JSbjhId2dEWmM5aERnZ3czODlidFRKeVFEUGRGZXl6bUVyMkRadHR0ejR6RU1IQjdiT0F2MUxiTXdmc29BZDJIdTdDQ2hPdEsyX1F1d0tjWDdzemZp?oc=5",
-     "time": "2026-11-18T17:53:21+00:00"
+     "title": "Bitcoin Miners Are Selling Their Stacks to Fund the AI Boom",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPUGFGNS15MGR0N0lDMm9Uakd1WUVuUEhoMTUxWno4UmZ0dmFnSmpSVGZabWhMTWw0aWpObDhCdE1hLUlPMjlqZzRncGhXbHJ2XzlqRW82aktsekpLWHJWQy1GMzJTMmQ1Q01iU2l1Y2NIcmlxSEJBdkdBT1draDBNWUxrMmNBTEhOX25Qb2diTmF5MElfVjRad21rR1RfMUVH?oc=5",
+     "time": "2026-11-18T18:46:03+00:00"
     },
     {
-     "title": "Bitcoin in turmoil: Strategy sees its STRC collapse, a new warning signal",
-     "publisher": "Cointribune",
-     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOaDBESHRrbGRiMTdTZlBDZUJidW5wSi10anpMSTRiNHV0dzluaEcxdTg1TGJsQllrdnFDMnotal9Uc25xdjRzcElua2E0ZFcyaElZeDlweWFpTllUY2hxZGxCUzhkNXVyc1pIcWxZbXNkQzBNaEJLTU9tc2ZNNUZmTlI0SW8xbG9nVC1IcFEydFhsOFU2VkpXNldGUVhZWk5BM01aMFBR?oc=5",
-     "time": "2026-11-18T17:35:00+00:00"
-    },
-    {
-     "title": "Analyst: Bitcoin Below $70,000 is a \u2018Gift From the Market\u2019",
-     "publisher": "Bitcoin Magazine",
-     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBnWGxPNEZ4a0pTdXRDNjl5WmFoSkpCLVJjRVMzTnN5Nnl3M3dBOThsNHVLNFZST3I1WlZ0UHl6LXM5dENTRFNmNURJbnpmckVTSS1ybEdYdHg3ZF8wZlM3ZzBBS3RvZ0ZvNFp2SlhkM3lkQQ?oc=5",
-     "time": "2026-11-18T17:30:00+00:00"
-    },
-    {
-     "title": "Bitcoin enters bearish phase as demand shrinks, traders face 20% losses",
-     "publisher": "Crypto Briefing",
-     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1ZZENxaVJVQ1V2MU0taHFEcE9uZjFJcjRIZ0xQaWxFODRrazFUNFd5NkR4UldTclBsMERrUXNzT3l3NzNtdnhUeWhRa3RObDhSYUpZeFcyLTV3akZsdE9lM2Nna3dGdDJvaFFMQkVwZEZHWGYyVWVBek04bw?oc=5",
-     "time": "2026-11-18T17:21:37+00:00"
-    },
-    {
-     "title": "Bitcoin has spent six days oversold. What would make a bounce convincing?",
-     "publisher": "Kitco",
-     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQYl92UXRIc19KZTdxYVNEQkFwZGFmSmxRd3gtQkUwVnNHN2FhZkVRREp6X29IMnFyem1LT25UMnpHVUN5ZXJyVWlHbVZSN0ltTVV2VjA3OWpsejNCVE01cG9WRlZubVh3VGRzMmN0OXJOODQ4akN2LXVYeWVzQzZSZG9KRVRzcDNOamFFZ3JfODJsQThCM1N2VENCMl9pYWxoT0lWNXJkYVFjeUk2cVdV?oc=5",
-     "time": "2026-11-18T17:20:42+00:00"
-    },
-    {
-     "title": "CryptoQuant says bitcoin is back in a bearish phase but has reached a 'value zone'",
-     "publisher": "The Block",
-     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQTzBtamhER2IwUk1GU3dDMnh1c1hrQmxDSE1TeVdDYU5YR1M3X3hjOU9FYVhmMUNwUk9sanhSSW1wUmNkYlhVUWNDejlQUkotNmV1cTdXMWo3SWZSLUNCNUl1SWszWUljZFQyTTNmSXlVeldaN19nSGNQbDJ0YUE4R1Y2NkZnMm13MURnUzNNbGJfekZObUxkXw?oc=5",
-     "time": "2026-11-18T17:13:00+00:00"
-    },
-    {
-     "title": "Mark Yusko: Bitcoin Is in a 'Bad Liquidation Cycle,' $58,000 Is Key",
+     "title": "Could Bitcoin Crash Below $40,000 Before Its Next Bull Run?",
      "publisher": "Benzinga",
-     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNTFlwcWZHMTl3Tm5XLUdFNG5oMkV0R21MZ294S09lMFFlbE1BRnF6Z2s2RVFUM1B3QjZ1VDV3OS1TbEZSeXVXbm9NbDdtMlE3ZV9oYTV6QmpZS2JXNENQZFRVMkJBUjBkN3lNUFFiUlhqdnhSTTZ3Rkx5ejBmOEc2WUQ2RzJFcE85Q1MyS1g4d1cwZUc2UDlGeERpMGkweXRadEgxOVdveV85T2hyNWFNeC1ZcnFFS096bHRpY2VBT2Y?oc=5",
-     "time": "2026-11-18T17:12:32+00:00"
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQeEg5S2xfWnFLbWhaYXNTc2hrYnV5UHd6aHVJSkpHbUxmOUpvTHlpQzV2MFlHVUtCVklFUWJGX25YV3NDaVduX2hSdU9fQlg1WUZUOHdGSjZaY1gwcDhnYnY1MUMtS19kelNKXzMxSV9WQUZ6bWtPelN6T1N1TjNMOEJ3d250aXJ2ek9yaVEzVWo4UHE5bFFrRldaVFVrRkpFNjRhSERWN0J6bzN3dlRhYmE1U3dQLWJZVWc?oc=5",
+     "time": "2026-11-18T18:30:40+00:00"
     },
     {
-     "title": "Bitcoin vs Gold Forecast: Why Are BTC and XAU Extending Losses Ahead of Fed Minutes?",
-     "publisher": "www.tmgm.com",
-     "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNNGMxYmlPbnNfd3BUT2Rmd2l0WEhJR1VzTkZ2MmZzbmZadFRmQUFVR1lzMFFrd2x1R3lOMkdzQ3YzcTZPZW44blhGbGNDUTlFVnh1cUVyU0JVM1J0a29wOVNPdXByRGktLWJsYXA2LTRzRnRTY292NWg2S29PbU1TSFFWRWNPWHBGWDd3Qm80Mndob2hUTGZQazhkQXBJLUVrb3N4VGFYZWZDbDJDTXB1UG1JS2ptMXN5UXJ6cm5pSXZlRkJXbzNjcjZVN3cyMlpvRC1WRTlHaw?oc=5",
-     "time": "2026-11-18T17:11:34+00:00"
+     "title": "Strategy Stock Drops as Bitcoin Falls Below $63,000",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNEVoVzF5MVBCUDdvVlNkLUtHSGFlWWlYdWt2eV96Q2VhbERFMl9NSnZxd0Vua1VHd3o2RW9xU3VZTG92cF84U0dKbGNZMzRtV3pWZWVfbmxpVjRHMjBBbW81OWYzZjZfU3dkQUVZTjBaWk5kMkxHcFcxeEdjWFdpSDBYd2pwLVJuS05JbjZZaVplSmJoNzVoWXIyRU5aeVloX1ZRSkZ1OFo1MXJzM0Nn?oc=5",
+     "time": "2026-11-18T18:25:08+00:00"
+    },
+    {
+     "title": "Nvidia earnings beat lifts Bitcoin mining stocks",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOWDdqU3IxaG5vNl96cGxFMlA2ZzdHVjd2UktaU1ZRbEp5dzJhckZxNFYxV19HRXhieW9Kcm4yMDhmWGFSNGxFUVVRU3dna1lycEhraE5Dak45cmV0SHg1QTdkYWJMbTRLTi1nN0VVa2x0cFdmRk9xUEFDUkN4S1QweHc2elRrd1pHajFXSlk5cGpzX3ZNTk51eWJXRXZRN3JZ?oc=5",
+     "time": "2026-11-18T18:16:12+00:00"
+    },
+    {
+     "title": "Rate Hikes and Selloffs Hitting Bitcoin All at Once -- Market Talk",
+     "publisher": "Moomoo",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNWTNodktkR0gxc251bFAtN3JwRHctOEM4REVZbUN6ZVJYeDBrdDVzU1dOTm9MZ3hfb1ozX1pLQ2Y1YWYtMUZaSGJXbU9YdUl1czc3Z3VydzFBTjZ3RVNrMVpoSzFaWmwycml5ZGlIbFV1R2Zxc3Fzb0VGZk5qV1RkYUJmNm5ObWF0T2dhRUY2Wlc4V2VnQllpc0JudGdmZ0FIR2xxRA?oc=5",
+     "time": "2026-11-18T18:11:50+00:00"
+    },
+    {
+     "title": "Bitcoin Tests $63K Demand Wall as Whales Keep Dumping: Can the Floor Hold?",
+     "publisher": "BigGo Finance",
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5VUDZqcENSVXBpTjFRaHgwT0Z5YUNIVW9CTDZ5LWlqOHZUcnd4cC1semp3YXNBYkpjdlVKM1J3NHZ2X3pVenUxSUQ2aVJFV2M3dFE5ck5iaTVQRVJQUXpzTkxnTGlwYU1nODRNR3hrVVk0cTJCM3c?oc=5",
+     "time": "2026-11-18T18:05:00+00:00"
+    },
+    {
+     "title": "Korean Analyst Mignolet Outlines the Worst-Case Scenario for Bitcoin: $40,000",
+     "publisher": "Cryptonews.net",
+     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1qNlN3RjVVRFh4T1Zza3NFNFFad1VSdUhMczlSRVhhZlVFWjk3MDVsV3A3M19zT2hOQnEzSXlKS0NYRWM0X2xuT1ZTcHRkcFpsNHNDUU1nbS0?oc=5",
+     "time": "2026-11-18T18:04:11+00:00"
+    },
+    {
+     "title": "Why is Bitcoin Price Falling Continuously and Is $58K Next?",
+     "publisher": "Coinpedia",
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPWXlkUk00NEhTYWtHODZUTEhaZ01FRmg2dk9NX2l6M3RzRHN1cnJBQUE3eHpGVE8yMWJDRGNJV0x4Um9kZTRJSmtfZ0VTLWo2bnMtN19XSDN4RXhMU2hzc2dERmZfVE5IckYydmFWY3NoUjI2bGhDb1BsRGdVaUl6S3UyMGNjTnFkWk41aWlB0gGTAUFVX3lxTE5CM2prOU1hVzBpelBkR1RLWWdXb3kzMFprUEhubkhBc3FaWHlCZVRfbW1ZLUJrcVNKODZFRXo0bmllTkZ1QXJnMjlqeFZuUVZ2bkNMX1lMV3lJcUZFYkFjWW1JWkx4S3UxdkRuM0Y1UGJzZ0dfOFpqVXcxUG1SMmczTGd1WWFXc2VBaUlIUHdyVnZXNA?oc=5",
+     "time": "2026-11-18T17:57:43+00:00"
     }
    ],
    "brief": "2026-11-18-BTC-USD"
   },
   {
-   "symbol": "NVO",
-   "name": "Novo Nordisk (ADR)",
-   "list": "portfolio",
-   "price": 39.63,
-   "prev_close": 40.7,
-   "change_pct": -2.6,
-   "trigger_change": -3.0,
-   "peak_change": -3.0,
-   "first_seen": "2026-11-18T17:12:45+00:00",
-   "sector": {
-    "etf": "XLV",
-    "name": "Health care",
-    "price": 182.44,
-    "change_pct": -1.51
-   },
-   "chart": {
-    "ema8": -2.5,
-    "ema21": -1.8,
-    "sma50": -0.4,
-    "sma200": -7.7,
-    "momentum": true
-   },
-   "headlines": [
-    {
-     "title": "Novo Nordisk stock falls as sellers keep control and support remains in focus",
-     "publisher": "Traders Union",
-     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNNmM1ZzlMd1F4THI0VHI3LVA0c0hUU2xEX3A1dUxSMzFyeFcwUzNmNVhIRWhpbGl1SXN3N184NDhoR0hNRzNLWWNmM3hSeGVUMXhwRndCeXVlVnE5bDVxcGFYV0pjS0M0a1dDdTRHeFQyNDZSVllXVWpTUUdEUzJLZHQzU2tuc2gwaVd5UWx3?oc=5",
-     "time": "2026-11-18T08:02:20+00:00"
-    },
-    {
-     "title": "Novo Nordisk expands Novocare program for Wegovy users By Investing.com",
-     "publisher": "Investing.com South Africa",
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNMGEwRXZYdG9JNE9VTFV6dkhzekRGTmJzSUZOZkRaTElubHB0djhwT2h4T1dPVi1UM0Z1NjN3d2J0QndZMmR1VEtFR3NGVlA2TjZYQzJRdXJiVlh2YU00OXc1cEdPY1pmYUlTYlhXNzRONTFzWVNDczdaNE9TaXI4WEt3Z3ZkVU9xNHBNTXh4NVVNN0R3dmdvVTU2aFdocWl5bGhrd3N0RGRPUUZlN012M2Q5TUhMUQ?oc=5",
-     "time": "2026-11-17T19:58:12+00:00"
-    },
-    {
-     "title": "Novo Nordisk stock trades flat as consolidation persists near $41.19 support",
-     "publisher": "Traders Union",
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNcXBzcGdwakpIdWpraTNqRTc1Q1lldER1N2lNbTlOTkhNVTRYc1VXc3hrUEZkX3hPUkFLX0ZDNW1ZMEdnN3MwZktaN3pMYUhPbWxtdmkzbjBwQ0Q2UEVtYUhUYzhFSWxzWWtrV2pyV0hKMXMwQzRsdFVjaTZhcGJURXZ4RTlzbHV1MmRV?oc=5",
-     "time": "2026-11-17T08:02:20+00:00"
-    }
-   ],
-   "brief": "2026-11-18-NVO"
-  },
-  {
    "symbol": "NOW",
    "name": "ServiceNow",
    "list": "portfolio",
-   "price": 90.56,
+   "price": 90.03,
    "prev_close": 92.9,
-   "change_pct": -2.5,
+   "change_pct": -3.1,
    "trigger_change": -3.4,
    "peak_change": -3.7,
    "first_seen": "2026-11-18T16:21:54+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 97.49,
-    "change_pct": 1.83
+    "price": 96.66,
+    "change_pct": 0.96
    },
    "chart": {
-    "ema8": -8.5,
-    "ema21": -18.8,
-    "sma50": -30.1,
-    "sma200": -20.2,
+    "ema8": -8.9,
+    "ema21": -19.2,
+    "sma50": -30.5,
+    "sma200": -20.6,
     "momentum": false
    },
    "headlines": [
@@ -659,6 +539,201 @@
     }
    ],
    "brief": "2026-11-18-NOW"
+  },
+  {
+   "symbol": "NVO",
+   "name": "Novo Nordisk (ADR)",
+   "list": "portfolio",
+   "price": 39.42,
+   "prev_close": 40.7,
+   "change_pct": -3.1,
+   "trigger_change": -3.0,
+   "peak_change": -3.3,
+   "first_seen": "2026-11-18T17:12:45+00:00",
+   "sector": {
+    "etf": "XLV",
+    "name": "Health care",
+    "price": 181.04,
+    "change_pct": -2.27
+   },
+   "chart": {
+    "ema8": -2.9,
+    "ema21": -2.2,
+    "sma50": -0.9,
+    "sma200": -8.2,
+    "momentum": true
+   },
+   "headlines": [
+    {
+     "title": "Novo Nordisk stock falls as sellers keep control and support remains in focus",
+     "publisher": "Traders Union",
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNNmM1ZzlMd1F4THI0VHI3LVA0c0hUU2xEX3A1dUxSMzFyeFcwUzNmNVhIRWhpbGl1SXN3N184NDhoR0hNRzNLWWNmM3hSeGVUMXhwRndCeXVlVnE5bDVxcGFYV0pjS0M0a1dDdTRHeFQyNDZSVllXVWpTUUdEUzJLZHQzU2tuc2gwaVd5UWx3?oc=5",
+     "time": "2026-11-18T08:02:20+00:00"
+    },
+    {
+     "title": "Novo Nordisk expands Novocare program for Wegovy users By Investing.com",
+     "publisher": "Investing.com South Africa",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNMGEwRXZYdG9JNE9VTFV6dkhzekRGTmJzSUZOZkRaTElubHB0djhwT2h4T1dPVi1UM0Z1NjN3d2J0QndZMmR1VEtFR3NGVlA2TjZYQzJRdXJiVlh2YU00OXc1cEdPY1pmYUlTYlhXNzRONTFzWVNDczdaNE9TaXI4WEt3Z3ZkVU9xNHBNTXh4NVVNN0R3dmdvVTU2aFdocWl5bGhrd3N0RGRPUUZlN012M2Q5TUhMUQ?oc=5",
+     "time": "2026-11-17T19:58:12+00:00"
+    },
+    {
+     "title": "Novo Nordisk stock trades flat as consolidation persists near $41.19 support",
+     "publisher": "Traders Union",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNcXBzcGdwakpIdWpraTNqRTc1Q1lldER1N2lNbTlOTkhNVTRYc1VXc3hrUEZkX3hPUkFLX0ZDNW1ZMEdnN3MwZktaN3pMYUhPbWxtdmkzbjBwQ0Q2UEVtYUhUYzhFSWxzWWtrV2pyV0hKMXMwQzRsdFVjaTZhcGJURXZ4RTlzbHV1MmRV?oc=5",
+     "time": "2026-11-17T08:02:20+00:00"
+    }
+   ],
+   "brief": "2026-11-18-NVO"
+  },
+  {
+   "symbol": "NVDA",
+   "name": "Nvidia",
+   "list": "portfolio",
+   "price": 150.72,
+   "prev_close": 155.46,
+   "change_pct": -3.1,
+   "trigger_change": -3.1,
+   "peak_change": -3.1,
+   "first_seen": "2026-11-18T19:54:12+00:00",
+   "sector": {
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 456.3,
+    "change_pct": -0.83
+   },
+   "chart": {
+    "ema8": -8.4,
+    "ema21": -18.2,
+    "sma50": -28.3,
+    "sma200": -26.0,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Nvidia Stock Price Prediction 2026 to 2027",
+     "publisher": "Coinpedia",
+     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOdEh0OTBEM0JjTFJtZ05YV09veWNrSEFIRmFYTGkyT09VWExSTlFjQmdvbmU5Ukd2NWUxek5GNW92QjVRSmREREMtaXZ3RkZNNHc5Q1RjcldvSWFZZnkxb3I5MHc0M0oxUWJZOVEycVg2UVRTR0JVenFPT2hkQXVaak1xX3QzM03SAYwBQVVfeXFMTzB3Y294REI3TFM0WWd5YjNyUS1Ndm93QS1UTW9nZUhFNWNkUWxGakM2Z2dFNnpSX0V5ZEEtaHQyUHR2cU9MTHdUejlRNkVHWUM3bGY2bW5Xb2x1RnQyVFVoZUJSNWZUeVBGS2FEU3FldVBfcGpEZGpLV3poU2hSRjBlbTJPM0pmbVVqanc?oc=5",
+     "time": "2026-11-18T19:04:23+00:00"
+    },
+    {
+     "title": "Dow Drops as Nvidia Slips After Earnings, Dollar Hits 19-Month High: Stock Market Today",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNLU5JTklISkY4VFJ3NjdFb0NDdDlyZzY4Z2UtT1Q1OGdRMk95dWNXQ2FwRi13cVJvSTBwNXdwbjc3cDdlN0p6RC15V1BDNDVRMlA1dUFKUnRGSlZ0N3k1MjRXaDBmSUk4dW1HeUtmRTNnVGc1eHB4UU1kemM4eGRxZ0ViTXI4OENfdmo3Z1pUbXBwbE1paWI1OTA5YW8zRTcwQWc2Mzd5N09RdGd0SDVFWk9BRV81N0JzelRwQ0t0Mk94MS02c2FoTWwzYW1iZzA?oc=5",
+     "time": "2026-11-18T18:36:49+00:00"
+    },
+    {
+     "title": "Nvidia: Debunking The Positives From The Q3 Report (NASDAQ:NVDA)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQbmZDRXRwZ25qMHdYMUVSRXdzZk13LVFtN1ZpakM5aDRFbV9pdzJ5dWJmZmhVSHd3NHRRN0gydVVSd1c3a2FXRHQzeEVjZ3J3UW95c05ZNkg5d2QydG9vU05hdkZGU1Iyai0yNmp2Sk5jMDZDMExteUd3VG5DeVMyd0lrNzRXaEprejRYZlBpU3VvVlcz?oc=5",
+     "time": "2026-11-18T18:27:54+00:00"
+    },
+    {
+     "title": "Amazon, Google, Meta in spotlight as Needham sees 'fragility' due to Nvidia dependence (NVDA:NASDAQ)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPSVBRTS1vR1hXQ3IzckR3enR2WFJQRGQtTDhhdjFCR1VPYU1sN2lkaDN1S29ER0U0WWxQTnJLMGxPd1Zhbmk1MkVfNnd5dmhFN0d1cFpNUGg4YkpOTll4VEd6RWhub3FERk5QVXNyRFVtQnhhYVFwRTl1dlZudzdFdkl2V3BhOFF2c1pDRE5iQnFOaGVmaFcyam1jb2FxcDlOR2lNTGdiSFVRY3QwUUtLRjNySFJnVWxEVlBxcg?oc=5",
+     "time": "2026-11-18T18:25:21+00:00"
+    },
+    {
+     "title": "Where Does Nvidia Stock Go After Earnings? What the Charts Tell Us.",
+     "publisher": "Barron's",
+     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA5UHBVNVQ0dFREUnNUaEVXMXNKZnA4ODd6eWtaWExjclEzeXV4R0s2alpVNFQxR2pCbU9tZlZpb2JEVkdOQWYyeGU2OHJaR3FUZ3RaM3lRS3A0WkFUaklla0lmM3ptdUpXWGU1N3JKdWc3Y3R4cmNOXzVLa1dpUQ?oc=5",
+     "time": "2026-11-18T17:48:00+00:00"
+    },
+    {
+     "title": "Nvidia\u2019s board not acting in shareholders\u2019 best interest, says Bill Ackman (NVDA:NASDAQ)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNTEhxaERLeUhvdmVXb2lJWEphSWxaVkk5cFNxUk9kdm5PUWI1OGdXMjEyX0FtY1B0MndULXFLcm4wVE9YbFNfYnlFUkxjdy1JU09NWU1ybTIxVnMtZjZreExZM3ZTc2xoS0NyeGl0TG5KRTBYYS03OF9KUVd2UkdZX2xxU1VMTlg0ZElNVDRfWXl4QkRMTHZXREdnVXhzYVdRMFJ2OGQ2R2J5d2xsZk5r?oc=5",
+     "time": "2026-11-18T17:42:03+00:00"
+    },
+    {
+     "title": "Nvidia\u2014Wall Street Is Missing China-Linked Margin Risk\u2014Buybacks Support Stock",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOcllqcmNvY08yM3NfOEl5dFFqSnBiN0k4bkdSUGpJbUhsME1Nc2h4dEtFeXFpWVFJanFfbEVWeXRsZ0xCZmJwWkhYN1VRSHBRVk1SdmlLQXZtd3M2NmgwYlFnNUxCRFdELU1XaWtkM05PeE00T09ENDRzLVVCREdHTVJTaUVMZGpqN1hRSnVlX25VaEdfRGFvLVU0czY5dWk0LU5hR3BrbUw4UWt0UXhzaFJsczJIeGl3Smd6X2d5bjFhbE0?oc=5",
+     "time": "2026-11-18T17:42:02+00:00"
+    },
+    {
+     "title": "Nvidia stock erases earnings pop as investors face life after Jensen Huang",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQUzhvYkxzRld1VG11TlpOSE5wWjE5WE94RkMwVkJJWnRReDFRTUZ1X1FQWU55Rnh5b1hqU0VvTzBCay10WE5iVzJYWHdtVWJ0dlU5aFhhX2Yxa09Ub0otUkVUQ0hCTC1OUHBhRTU5UDBlRVZfNEx4cUtoVXRRanEwazFaQTBwYmpBREc2MVlsaVlDNWptenNNZkpDNzd2blFtS3pJX0oxWDl2RlcyMFNucDRILTRlRF9iUWFPRTA3VFo5NGRVZUJTaDkyTmpYcF9xcGJtMw?oc=5",
+     "time": "2026-11-18T17:35:47+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
+   "symbol": "NBIS",
+   "name": "Nebius",
+   "list": "portfolio",
+   "price": 107.73,
+   "prev_close": 106.03,
+   "change_pct": 1.6,
+   "trigger_change": 3.1,
+   "peak_change": 3.3,
+   "first_seen": "2026-11-18T15:21:21+00:00",
+   "sector": {
+    "etf": "IGV",
+    "name": "Software",
+    "price": 96.66,
+    "change_pct": 0.96
+   },
+   "chart": {
+    "ema8": -10.5,
+    "ema21": -24.3,
+    "sma50": -42.3,
+    "sma200": -40.0,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "What's Going On With Nebius Group Stock Wednesday?",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPdDNVb3c1UFVSNW9aMUhrLXZHNUVVV1B5c0hLNHprOGtnMUNKY2lZYnRZdFdzTzR0QmNMc0ZFN2plbFpYWWVHQlJnQnF6Q21HeVk4RlRpUFVsVEhrdzl3bTFHeXcydjJZcTFiYWlmSkowUHhjZlYtQ0xDMno2WEpnM3NzbXB5bHZOa21ZTVU2cUhKRXVCcDlKTXhaSE1YNmFCZ3diemtn?oc=5",
+     "time": "2026-11-18T17:24:56+00:00"
+    },
+    {
+     "title": "Nebius: Surging Capital Needs Amidst Tightening Liquidity (NASDAQ:NBIS)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOWjlrSHNNVGdzRTIzVkhDaEZVX3M1MjI5OVQyZV9ja0lFSEhwZ01May1SWWVPU3ZpMWlmRkhkcE1XLW1EZ1hfNktKQWdHTXQ3SmYyQ0pxVnBKdWE2SzhzRUFSQnQycmVIVXp2b2NxNmYwR29RcU1MN29hR1dNLUtmN2lIb0ZwalRoRU9ydXFrdldTd2RZNndBLWpNMUg0UQ?oc=5",
+     "time": "2026-11-18T14:44:01+00:00"
+    },
+    {
+     "title": "Nebius Will Likely Continue To Devastate Retail Investors (NASDAQ:NBIS)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQUE9Iam9kZDFDOExEY2c3VVAxN0FiaDE1dWFkV2tFOXJPNHVkUlJGdkcta2ZkWkRUclRxSW4ta1FIWEtuRzZWSE5uS29rSEhwZ3V2SmVzQW95b2piWmZOZmZ0T1ZlYU03RkNneW1kS2lSZTVfLS1NY0x0Yzk5clV6dUV0M3NwT1VWT1lUSjZJZmh0VVFmMVBzX2FYY1AyWUU?oc=5",
+     "time": "2026-11-18T13:49:16+00:00"
+    },
+    {
+     "title": "Nebius Group (NBIS) Stock Price Prediction: Capacity Delays Pressure the Tape, but Analyst Cuts Have Not Broken the Bull Case",
+     "publisher": "Blockchain News",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNb2w0NzkyWFlJREY5UjlhQmI5d05vYzlXUkI1dkFSak9uSk8zaHA3V3pobm9FRmR5QmRNM0s3N0syRjl6SVZjb2tsV0dMQXlXaGNEd0FmekFBc21tajQwU1VJT2lwR3I3bEhWajVRZnlUWjV4MU9rSWh0QldvR3l0SUhOWWFIUWJWa3lCbEw1ajdHQVVieGhmdUIxa3lEdw?oc=5",
+     "time": "2026-11-18T13:19:00+00:00"
+    },
+    {
+     "title": "Nebius: The $42.5 Billion Financing Question Behind Its AI Growth",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOa2pNR2V1VjJ6ZDNyRDN4UnFJckg2YWRndXpxTzFZbDJUck1qa3k0WmZONUVFTnk4NnhyUjRTV0pxNFdWUTR2WjFfd1RyLVhheXpNMmF2TlMtWndmOFZpNTVEU1g2LVZVZm9pcjl3eXlSTE93b3BoMkQ4cGoycDhycTBzeVFPdTFIV3JMclJvVGtubUxHc2FGNXlKMHNmSDFaTWE0eg?oc=5",
+     "time": "2026-11-18T12:57:14+00:00"
+    },
+    {
+     "title": "Nebius Posted Superb Earnings and Crashed Anyway. Buy the Dip.",
+     "publisher": "The Globe and Mail",
+     "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQTzRXSWFHeDVyY2F1VXFtWUxIWWpMU0xmM2NQQkE5UzBJRDUzNnFrMFptYWZIWm4wWnJzUEladUR1S1JnSmc1aVEwZmJNWTBZdEhJTVY4WU9oVXYtOFdMekNfVERSZWZhWGVILXNqQ0pGYXU4bU9PdEhPSGVTTlN1LVJWc0wwcnhlb3hpbTRlV3hYU3poNWpSU0ZMWDZzNEJnb09mSEhzTFg2SUQ2NFh5RzI0bGlHelVPNWpXWEE1WUJKT0U0azNSSUlXSGxYaWtGZWsxcjZ0TzFmTDROclE?oc=5",
+     "time": "2026-11-18T10:58:19+00:00"
+    },
+    {
+     "title": "Why Are Neocloud Stocks CoreWeave and Nebius Rising in Premarket Today, November 18?",
+     "publisher": "TipRanks",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTHc4bVdWUUREakJZd0lrUEFBZ19mWXhnNHRxc2VwNHZGaEFCRmRNQ2xWemVMX21CSzc4UjB1UklFYXVPRkllbURzMTZRdmRlSWJYSU5fX1VhRTVEaVlIQktaZ01PVXl4bkhsbXZfYVF2Tk56dnp1OXZkRmtvSTF6WE04R3p2RjNoVTJUS1EtOUhXVlJueFVnTXFfT3JMNUgwUzF2UVJGOF9na09TRzBvYjdn?oc=5",
+     "time": "2026-11-18T10:11:32+00:00"
+    },
+    {
+     "title": "Nebius Shares Jump After Hours as Nvidia\u2019s Strong Quarterly Numbers Lift AI Infrastructure Stocks",
+     "publisher": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOR3BhUkVCX3Q2cE8yMXpMRml3M051Um9qcndhUk1aS0Q0UmJReFhHek0tYk1UMEZJOHotQ3llc0hnZ2dEM2RpaHk5alJ5OWZwREduNmVSaHNkcGpWMUNHUGZVRXhvTjJhX1pLMXpOSlNiYXRVN2NoelpwNUh3dmJsamN4SW9IOHZEU1poRFpKWkhJYkNpZU43eTA2YWZSMG1BVnRaRUR6NVdjNDNsa1J3VGZIeEIxbVBabGZ3RGNrTXR0VFBNTy1lRy1SMmdyS3JQaXh6MjZCNnozRWdmRHR3S2RsaWctY0pXOWRCVA?oc=5",
+     "time": "2026-11-18T06:42:17+00:00"
+    }
+   ],
+   "brief": "2026-11-18-NBIS"
   }
  ]
 }
