@@ -1,22 +1,22 @@
 {
  "date": "2026-11-18",
  "threshold": 3.0,
- "updated": "2026-11-18T17:12:45+00:00",
+ "updated": "2026-11-18T17:22:48+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 729.93,
-   "change_pct": -0.34
+   "price": 731.63,
+   "change_pct": -0.11
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 656.22,
-   "change_pct": -0.11
+   "price": 659.47,
+   "change_pct": 0.38
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 80.19,
-   "change_pct": 0.81
+   "price": 80.11,
+   "change_pct": 0.7
   }
  },
  "movers": [
@@ -24,23 +24,23 @@
    "symbol": "UNH",
    "name": "UnitedHealth",
    "list": "portfolio",
-   "price": 356.29,
+   "price": 353.08,
    "prev_close": 389.68,
-   "change_pct": -8.6,
+   "change_pct": -9.4,
    "trigger_change": -3.7,
-   "peak_change": -8.6,
+   "peak_change": -9.4,
    "first_seen": "2026-11-18T14:56:10+00:00",
    "sector": {
     "etf": "XLV",
     "name": "Health care",
-    "price": 182.54,
-    "change_pct": -1.46
+    "price": 182.64,
+    "change_pct": -1.4
    },
    "chart": {
-    "ema8": -9.1,
-    "ema21": -10.4,
-    "sma50": -8.8,
-    "sma200": -3.2,
+    "ema8": -9.8,
+    "ema21": -11.1,
+    "sma50": -9.6,
+    "sma200": -4.0,
     "momentum": false
    },
    "headlines": [
@@ -99,23 +99,23 @@
    "symbol": "CRWD",
    "name": "CrowdStrike",
    "list": "portfolio",
-   "price": 233.0,
+   "price": 235.17,
    "prev_close": 219.58,
-   "change_pct": 6.1,
+   "change_pct": 7.1,
    "trigger_change": 4.4,
-   "peak_change": 6.7,
+   "peak_change": 7.1,
    "first_seen": "2026-11-18T15:11:19+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 96.37,
-    "change_pct": 0.66
+    "price": 97.02,
+    "change_pct": 1.33
    },
    "chart": {
-    "ema8": 2.2,
-    "ema21": -0.8,
-    "sma50": -5.2,
-    "sma200": 33.3,
+    "ema8": 2.9,
+    "ema21": -0.0,
+    "sma50": -4.3,
+    "sma200": 34.5,
     "momentum": false
    },
    "headlines": [
@@ -171,80 +171,10 @@
    "brief": "2026-11-18-CRWD"
   },
   {
-   "symbol": "BTC-USD",
-   "name": "Bitcoin",
-   "list": "watchlist",
-   "price": 62542.7,
-   "prev_close": 64877.0,
-   "change_pct": -3.6,
-   "trigger_change": -3.0,
-   "peak_change": -4.0,
-   "first_seen": "2026-11-18T16:06:46+00:00",
-   "sector": null,
-   "chart": {
-    "ema8": -6.2,
-    "ema21": -12.7,
-    "sma50": -20.4,
-    "sma200": -14.0,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "EIGEN Falls 48% in Four Weeks, Lagging Bitcoin, Ether",
-     "publisher": "The Defiant",
-     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNNl9YRXBjZk9XVFhYNk4tQjBHNE1MNXJYM2VpTWJia2J4SEw4WUt6Ym83YU4wMU1Ec2ZNU1YtU21EZHA2RC0tdTYxQ2loNGZBNDFSVURwUlBCLXhLVGJ1OGMtU3Vid2d0UHZ1dWVmeWVTbDV5cHJTVGU1RUJ6U3JQZnE4RHhZOFRINm5IZU1n?oc=5",
-     "time": "2026-11-18T16:56:59+00:00"
-    },
-    {
-     "title": "Bitcoin Erases Bessent Rally as Leverage and Liquidity Fade",
-     "publisher": "Bloomberg.com",
-     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxObjVDZnN0eU4wT3hZNUEycDIwbnA1OVNad3dreDZaMmFYZXppSU5WSlhGcGRqRndpaElmbnVwS3pubmV2TWhzUEVEX1ZuY1dpbnl3YnRKckhfUXhhZDNMNzB6X0R4bGh5NWc3THlLbFR6bnF2eTFMRHU0RXc3TFBEMGxRRjR6LXJQaXM1STBod0VfY0s2SXc4VVcyNjR4eVhxM193cDBDdzdmMGdiQWM4?oc=5",
-     "time": "2026-11-18T16:44:15+00:00"
-    },
-    {
-     "title": "Bitcoin, stocks wobble as Fed\u2019s Waller talks of \u2018shock\u2019 50-point rate hike",
-     "publisher": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQUnhNN25WSW5XS3piX2hVa25rbUFvRWdsRUdrS0FIWEdVaHdUV2x5ajNVUS1iTHFfRV9KWFFMMEhOU09IOUluUWJKRzAtM0RVbW1GR1dRRVR3akdpMGtwUTFTTWg1d3EzNVlpNDItUmdoT2tldzJ0YlpSVUgzTnlYRzNwRFJuYmx6cm1Dem5wSVQ2RmVoRFFaeXNzZzZSVHltMjc3NDF5MW1OSXl4TGtmTnAyNkt3MWxRajZaMVRKbW11U3NPckExNTI3akRXazFW?oc=5",
-     "time": "2026-11-18T16:34:20+00:00"
-    },
-    {
-     "title": "Bitcoin ETFs Are Bleeding Cash. What IBIT Holders Should Watch Next",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQUzJtaVBlQmNkNGNtR3BubjhmWG91SjlZZzBDY2U5VE1WR1gxZWJGNXdjc0NESUpYdXRnLVdQeVFYQTJHUVkxZE9xZWVWSy04Q2Q0R2NxSmpDWFpaeFJHYndwcnZuYTRxUUVVblVTdjZ5UmU5a00xSHBNM2FqVERWWWZaMG44UlBzMXQwUUg1YmZ0QmlDR21GZ2cwdEc?oc=5",
-     "time": "2026-11-18T16:28:12+00:00"
-    },
-    {
-     "title": "Bitcoin Slips Below $64,000 as Fed Rate Talk and $2 Billion Liquidation Wave Hit Crypto Markets",
-     "publisher": "BigGo Finance",
-     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9DaFdMQkIzR0JVRVY2WG9TM3RnR1lKb2dISWU3VUU1MzZwTGM3WWFMOUxhZ1dROFVjZ3dvdDFTcWRKNGRJTjRvdHNkQnBwdlpxN0RFQnNrTmNyYm40Z2tITGQ4aHUtNVhGOW05MEdrUjh5Q3JEcnc?oc=5",
-     "time": "2026-11-18T16:25:00+00:00"
-    },
-    {
-     "title": "Bitcoin Price Slips as Q3 ETF Buyers Sit About 20% Underwater",
-     "publisher": "CoinMarketCap",
-     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQWWhtcEVsUEpPQW0wV2JleG1BSWx1cUpwSE1wSURoU1I3ZW5YU3YxdE9pRWFjQXoyWXBBNk55UW5TcXNjVDE0SjNTNWJJQS1ZcVhKVlZtVVh6NktGSFNCQ2pVdXpSRkpnd3lYZklBaUx0TWxYb3NGaWxxbTRBaEVaV2ZDUWV2Q00?oc=5",
-     "time": "2026-11-18T16:12:02+00:00"
-    },
-    {
-     "title": "Bitcoin Miners Sold Half Their BTC for AI. Did It Pay Off?",
-     "publisher": "Tokenist",
-     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE56ODdkR1ZpWDRrUEc3bV83eFJqS3V3bzRUa0RBSGNyWEN2b0M2V0R3YkZQTV9VME1jenVkQ3pNbTBmNzdiODZlbkZHRnVBWjYzODA2MHhqeEFreXN2YmhCNTFnRkVNVDB5LWdvR0ZDZFM3aU9QbDJ0YXJn?oc=5",
-     "time": "2026-11-18T16:10:43+00:00"
-    },
-    {
-     "title": "German Court Offers To Drop Movie2k Case For 40,000 Bitcoin",
-     "publisher": "Bitcoin Magazine",
-     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNdEhIUnZFeE5FcFZxa3NaalpCbnRiRHZjRFBxOVZaU2xocjZCM2hFZHdLRGUtM1pCVkZ6bkdPczFuZk93ak0zLWZvcm5oeS1JV0p2cDJhTkszWHRvX1ZJbDB2X29SeEktUW90TEhUVDhNWmY1SHNEbGNBM3c4WnlZaWRITUlfNnNhR3psYw?oc=5",
-     "time": "2026-11-18T16:06:43+00:00"
-    }
-   ],
-   "brief": "2026-11-18-BTC-USD"
-  },
-  {
    "symbol": "NVO",
    "name": "Novo Nordisk (ADR)",
    "list": "portfolio",
-   "price": 39.48,
+   "price": 39.47,
    "prev_close": 40.7,
    "change_pct": -3.0,
    "trigger_change": -3.0,
@@ -253,8 +183,8 @@
    "sector": {
     "etf": "XLV",
     "name": "Health care",
-    "price": 182.54,
-    "change_pct": -1.46
+    "price": 182.64,
+    "change_pct": -1.4
    },
    "chart": {
     "ema8": -2.8,
@@ -292,26 +222,101 @@
    "brief": null
   },
   {
+   "symbol": "AMZN",
+   "name": "Amazon",
+   "list": "portfolio",
+   "price": 265.75,
+   "prev_close": 257.89,
+   "change_pct": 3.0,
+   "trigger_change": 3.0,
+   "peak_change": 3.0,
+   "first_seen": "2026-11-18T17:22:48+00:00",
+   "sector": {
+    "etf": "XLY",
+    "name": "Consumer discr.",
+    "price": 119.62,
+    "change_pct": 2.15
+   },
+   "chart": {
+    "ema8": 1.2,
+    "ema21": 2.4,
+    "sma50": 4.2,
+    "sma200": 8.5,
+    "momentum": true
+   },
+   "headlines": [
+    {
+     "title": "Amazon Stock Moves Higher: What's Going On?",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOMlZzcndHVHcxM3A0VFVKY2NVZUhMejNRLXJJVjZBV1RiR3o1cXk3c28xcnRNbjAtTl8wUmtsUVFxc1RUZGxtNzVza3Y5cmNoZTF5dExRNUNuWnRSV0RFU1BFaFVxeHd2VHljbW5iUTVQMFR2QmR6VDN0Q1VLazNjZXRwVU81b0M2MHVXY3AydVpXb1FXQTBiMnpQLXBrR1MxQTVXZUJn?oc=5",
+     "time": "2026-11-18T16:16:01+00:00"
+    },
+    {
+     "title": "59 Analysts Rate Amazon a Buy. Here\u2019s Where the Stock Could Go",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUGxDLTZ2a2xVbkd3SEppX1ctS0JqazBNeEV4YW1iNDdBeUprMWZUSXBfS1RrU1ZEZWYyOHJhN1ZUZXlINTl1TzNqbmpkWVJHUk5qSE9XREt6b3dPdVhib2otRVF1NnpIS21QcmxndTlFa09rUTdLWHhESUUtS2p5dWg3RHp2NnFLdjJka0hmdjVLNFdDbVFXOFg1NWVlYm9qXzNZQkVfaw?oc=5",
+     "time": "2026-11-18T16:03:00+00:00"
+    },
+    {
+     "title": "Why is Amazon stock climbing today?",
+     "publisher": "Investing.com",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNSEloNGtQUzdpUXJsYXF5Sms0TE5HSUo4czN3QzdEOE9HTlk0Q3JjQjFnNGttZ2JRRWdLam1xNFRlMC1CcXFubVdqYU9jRmwwOUZ6cjI5TXJiaVN1QmRZVlpneXdjanJwSzNkcS1XazYtZ1JpU1liNkh2R2VHMDVnOUhrc3NsV3BMMU9RN0cydE9aeEJDb1JsVkFCdHY?oc=5",
+     "time": "2026-11-18T15:24:02+00:00"
+    },
+    {
+     "title": "Alphabet vs. Amazon \u2013 Why Top Analyst Says Buy One Stock, Hold the Other",
+     "publisher": "TipRanks",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQUVltMFhheVk1bXVpUk9DaG1HVlJ1b0RyLUxRQkx5WTk5eHdraUROQVFrTGdKMmprOF9NSmo3UDgtdUZQV0l6UW5CMFJFODl3b19GOFNSNE0yXzA0UXVPRWpDaDhrM3ZiVzdkSEpIekYtcnA3U3VKWFlfWjF3NW1vcXNPU29xVFJWMlNJX1dKYWJ1ZWlpVGtKM0xKYW1UcU0?oc=5",
+     "time": "2026-11-18T14:55:38+00:00"
+    },
+    {
+     "title": "Amazon.com, Inc. $AMZN Stock Purchased by Modera Wealth Management LLC",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNY3ZpeHlNSVRwNllKbHFIUnlXcndpeERRVjNvMHY1OVJYZ1NPbExRMlV5UlluZWVpdUY1U3JiQkI5M0FCNVFOWVhmbHlJQm85SGQtblRDQzhyTmJsME0tbHBzR2RONlNQS3VNVHEwa3g1U3hUQTI0Zm9aYWI5em5LaEVXT3ZoZHBxNTN3alVueGIyNjhrTlJfaVV3bFlSOUx2bnljOGlnay05ZGNJWHB2RzhCRkZyMDM1TlNTREtvelAtTUIzVnc?oc=5",
+     "time": "2026-11-18T09:39:45+00:00"
+    },
+    {
+     "title": "Amazon.com, Inc. $AMZN Shares Purchased by Investment Partners LTD.",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPMjFpeEVuUHhRQ1BqMXFmNDNDVWpGdlJoS1lwNnVRbm0ybkRkQ3M4MXJ2RjBFZE5hWlFNV2pmZDdHakhrZE1DWkU1eVA0aUhVRG1nbzg3VjR0OUZHTW9mV1Y2SnNWSFZDR2FBREpRRktkaWN0clVQVE9mbmZaRElIUE5MblB2aklhbl8tbk5NUjBmSVlOTTVHNUczM2ZNUGc0aXhYcldOWjAyYllBcW9YcEctZW5DNDFnMWtTR3I2MmU?oc=5",
+     "time": "2026-11-18T09:39:45+00:00"
+    },
+    {
+     "title": "Amazon.com, Inc. $AMZN Stock Acquired by Summit Global Investments",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdWhYWFY1NWkwQ2pwNjVXRzJ5aFp2cm1FX2JsWXFqcERzQTNiTzhVNS1lcTlCdHJBUHBIRnJGbWZQTHhfV1I1WHd1TEJjWjdiVW1IdkRjZk9wclpORV9aMGU4QlFjc0lWRGZEemZ0N1g2VWNONTExUF9YaVVtV0NJVkZvVngxcVVJQTlFSXRqTUFCbUpCRlhWeF9pWmlBREdydVdyZnhFMFk1RklqZ2tER3VUQjRoV19YQ2gyZGhqN1A?oc=5",
+     "time": "2026-11-18T09:39:43+00:00"
+    },
+    {
+     "title": "156,998 Amazon.com, Inc. $AMZN Shares Purchased by ProShare Advisors LLC",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNeGJ4Sy1SckVaQ3BtX05PdjJ0UTJmQnQ0UENWRGRVd2ZhbTdiWTVYY1BKd0toWEhLY0VaTUd6VTMzbTh0OWJJYm9DYl81ZE5CNElfUTJyZ3dLRjRuaVc3WEFfT2F6TXJVVmNkLWhob2hSVHM0STBiRmt1SExKaVQ1NW9SS2U5QkxZVFdWdW9vNEdMbzRqTmZ2eXE3TkZhVWVPSU13dE5LVWs4NHVXUkdoM2stTmZQX0lfOEE4YWJfR29vWGlpaF84?oc=5",
+     "time": "2026-11-18T09:39:43+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
    "symbol": "NOW",
    "name": "ServiceNow",
    "list": "portfolio",
-   "price": 90.39,
+   "price": 90.34,
    "prev_close": 92.9,
-   "change_pct": -2.7,
+   "change_pct": -2.8,
    "trigger_change": -3.4,
    "peak_change": -3.4,
    "first_seen": "2026-11-18T16:21:54+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 96.37,
-    "change_pct": 0.66
+    "price": 97.02,
+    "change_pct": 1.33
    },
    "chart": {
     "ema8": -8.6,
     "ema21": -18.9,
     "sma50": -30.3,
-    "sma200": -20.3,
+    "sma200": -20.4,
     "momentum": false
    },
    "headlines": [
@@ -370,23 +375,23 @@
    "symbol": "AVGO",
    "name": "Broadcom",
    "list": "portfolio",
-   "price": 349.42,
+   "price": 350.38,
    "prev_close": 341.6,
-   "change_pct": 2.3,
+   "change_pct": 2.6,
    "trigger_change": 3.7,
    "peak_change": 3.9,
    "first_seen": "2026-11-18T15:26:22+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 455.82,
-    "change_pct": -0.93
+    "price": 459.99,
+    "change_pct": -0.02
    },
    "chart": {
-    "ema8": 2.7,
-    "ema21": 3.7,
-    "sma50": 1.6,
-    "sma200": -5.0,
+    "ema8": 2.9,
+    "ema21": 3.9,
+    "sma50": 1.8,
+    "sma200": -4.7,
     "momentum": true
    },
    "headlines": [
@@ -442,26 +447,96 @@
    "brief": "2026-11-18-AVGO"
   },
   {
+   "symbol": "BTC-USD",
+   "name": "Bitcoin",
+   "list": "watchlist",
+   "price": 63179.7,
+   "prev_close": 64877.0,
+   "change_pct": -2.6,
+   "trigger_change": -3.0,
+   "peak_change": -4.0,
+   "first_seen": "2026-11-18T16:06:46+00:00",
+   "sector": null,
+   "chart": {
+    "ema8": -5.4,
+    "ema21": -11.9,
+    "sma50": -19.6,
+    "sma200": -13.1,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "EIGEN Falls 48% in Four Weeks, Lagging Bitcoin, Ether",
+     "publisher": "The Defiant",
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNNl9YRXBjZk9XVFhYNk4tQjBHNE1MNXJYM2VpTWJia2J4SEw4WUt6Ym83YU4wMU1Ec2ZNU1YtU21EZHA2RC0tdTYxQ2loNGZBNDFSVURwUlBCLXhLVGJ1OGMtU3Vid2d0UHZ1dWVmeWVTbDV5cHJTVGU1RUJ6U3JQZnE4RHhZOFRINm5IZU1n?oc=5",
+     "time": "2026-11-18T16:56:59+00:00"
+    },
+    {
+     "title": "Bitcoin Erases Bessent Rally as Leverage and Liquidity Fade",
+     "publisher": "Bloomberg.com",
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxObjVDZnN0eU4wT3hZNUEycDIwbnA1OVNad3dreDZaMmFYZXppSU5WSlhGcGRqRndpaElmbnVwS3pubmV2TWhzUEVEX1ZuY1dpbnl3YnRKckhfUXhhZDNMNzB6X0R4bGh5NWc3THlLbFR6bnF2eTFMRHU0RXc3TFBEMGxRRjR6LXJQaXM1STBod0VfY0s2SXc4VVcyNjR4eVhxM193cDBDdzdmMGdiQWM4?oc=5",
+     "time": "2026-11-18T16:44:15+00:00"
+    },
+    {
+     "title": "Bitcoin, stocks wobble as Fed\u2019s Waller talks of \u2018shock\u2019 50-point rate hike",
+     "publisher": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQUnhNN25WSW5XS3piX2hVa25rbUFvRWdsRUdrS0FIWEdVaHdUV2x5ajNVUS1iTHFfRV9KWFFMMEhOU09IOUluUWJKRzAtM0RVbW1GR1dRRVR3akdpMGtwUTFTTWg1d3EzNVlpNDItUmdoT2tldzJ0YlpSVUgzTnlYRzNwRFJuYmx6cm1Dem5wSVQ2RmVoRFFaeXNzZzZSVHltMjc3NDF5MW1OSXl4TGtmTnAyNkt3MWxRajZaMVRKbW11U3NPckExNTI3akRXazFW?oc=5",
+     "time": "2026-11-18T16:34:20+00:00"
+    },
+    {
+     "title": "Bitcoin ETFs Are Bleeding Cash. What IBIT Holders Should Watch Next",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQUzJtaVBlQmNkNGNtR3BubjhmWG91SjlZZzBDY2U5VE1WR1gxZWJGNXdjc0NESUpYdXRnLVdQeVFYQTJHUVkxZE9xZWVWSy04Q2Q0R2NxSmpDWFpaeFJHYndwcnZuYTRxUUVVblVTdjZ5UmU5a00xSHBNM2FqVERWWWZaMG44UlBzMXQwUUg1YmZ0QmlDR21GZ2cwdEc?oc=5",
+     "time": "2026-11-18T16:28:12+00:00"
+    },
+    {
+     "title": "Bitcoin Slips Below $64,000 as Fed Rate Talk and $2 Billion Liquidation Wave Hit Crypto Markets",
+     "publisher": "BigGo Finance",
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9DaFdMQkIzR0JVRVY2WG9TM3RnR1lKb2dISWU3VUU1MzZwTGM3WWFMOUxhZ1dROFVjZ3dvdDFTcWRKNGRJTjRvdHNkQnBwdlpxN0RFQnNrTmNyYm40Z2tITGQ4aHUtNVhGOW05MEdrUjh5Q3JEcnc?oc=5",
+     "time": "2026-11-18T16:25:00+00:00"
+    },
+    {
+     "title": "Bitcoin Price Slips as Q3 ETF Buyers Sit About 20% Underwater",
+     "publisher": "CoinMarketCap",
+     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQWWhtcEVsUEpPQW0wV2JleG1BSWx1cUpwSE1wSURoU1I3ZW5YU3YxdE9pRWFjQXoyWXBBNk55UW5TcXNjVDE0SjNTNWJJQS1ZcVhKVlZtVVh6NktGSFNCQ2pVdXpSRkpnd3lYZklBaUx0TWxYb3NGaWxxbTRBaEVaV2ZDUWV2Q00?oc=5",
+     "time": "2026-11-18T16:12:02+00:00"
+    },
+    {
+     "title": "Bitcoin Miners Sold Half Their BTC for AI. Did It Pay Off?",
+     "publisher": "Tokenist",
+     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE56ODdkR1ZpWDRrUEc3bV83eFJqS3V3bzRUa0RBSGNyWEN2b0M2V0R3YkZQTV9VME1jenVkQ3pNbTBmNzdiODZlbkZHRnVBWjYzODA2MHhqeEFreXN2YmhCNTFnRkVNVDB5LWdvR0ZDZFM3aU9QbDJ0YXJn?oc=5",
+     "time": "2026-11-18T16:10:43+00:00"
+    },
+    {
+     "title": "German Court Offers To Drop Movie2k Case For 40,000 Bitcoin",
+     "publisher": "Bitcoin Magazine",
+     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNdEhIUnZFeE5FcFZxa3NaalpCbnRiRHZjRFBxOVZaU2xocjZCM2hFZHdLRGUtM1pCVkZ6bkdPczFuZk93ak0zLWZvcm5oeS1JV0p2cDJhTkszWHRvX1ZJbDB2X29SeEktUW90TEhUVDhNWmY1SHNEbGNBM3c4WnlZaWRITUlfNnNhR3psYw?oc=5",
+     "time": "2026-11-18T16:06:43+00:00"
+    }
+   ],
+   "brief": "2026-11-18-BTC-USD"
+  },
+  {
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 106.02,
+   "price": 107.17,
    "prev_close": 106.03,
-   "change_pct": -0.0,
+   "change_pct": 1.1,
    "trigger_change": 3.1,
    "peak_change": 3.1,
    "first_seen": "2026-11-18T15:21:21+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 96.37,
-    "change_pct": 0.66
+    "price": 97.02,
+    "change_pct": 1.33
    },
    "chart": {
-    "ema8": -11.6,
-    "ema21": -25.4,
-    "sma50": -43.2,
-    "sma200": -41.0,
+    "ema8": -10.8,
+    "ema21": -24.6,
+    "sma50": -42.6,
+    "sma200": -40.3,
     "momentum": false
    },
    "headlines": [
