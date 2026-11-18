@@ -1,22 +1,22 @@
 {
  "date": "2026-11-18",
  "threshold": 3.0,
- "updated": "2026-11-18T17:07:41+00:00",
+ "updated": "2026-11-18T17:12:45+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 730.25,
-   "change_pct": -0.3
+   "price": 729.93,
+   "change_pct": -0.34
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 657.76,
-   "change_pct": 0.12
+   "price": 656.22,
+   "change_pct": -0.11
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 80.17,
-   "change_pct": 0.77
+   "price": 80.19,
+   "change_pct": 0.81
   }
  },
  "movers": [
@@ -24,23 +24,23 @@
    "symbol": "UNH",
    "name": "UnitedHealth",
    "list": "portfolio",
-   "price": 357.71,
+   "price": 356.29,
    "prev_close": 389.68,
-   "change_pct": -8.2,
+   "change_pct": -8.6,
    "trigger_change": -3.7,
-   "peak_change": -8.2,
+   "peak_change": -8.6,
    "first_seen": "2026-11-18T14:56:10+00:00",
    "sector": {
     "etf": "XLV",
     "name": "Health care",
-    "price": 182.61,
-    "change_pct": -1.42
+    "price": 182.54,
+    "change_pct": -1.46
    },
    "chart": {
-    "ema8": -8.8,
-    "ema21": -10.1,
-    "sma50": -8.5,
-    "sma200": -2.8,
+    "ema8": -9.1,
+    "ema21": -10.4,
+    "sma50": -8.8,
+    "sma200": -3.2,
     "momentum": false
    },
    "headlines": [
@@ -99,23 +99,23 @@
    "symbol": "CRWD",
    "name": "CrowdStrike",
    "list": "portfolio",
-   "price": 233.21,
+   "price": 233.0,
    "prev_close": 219.58,
-   "change_pct": 6.2,
+   "change_pct": 6.1,
    "trigger_change": 4.4,
    "peak_change": 6.7,
    "first_seen": "2026-11-18T15:11:19+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 96.44,
-    "change_pct": 0.73
+    "price": 96.37,
+    "change_pct": 0.66
    },
    "chart": {
     "ema8": 2.2,
     "ema21": -0.8,
-    "sma50": -5.1,
-    "sma200": 33.4,
+    "sma50": -5.2,
+    "sma200": 33.3,
     "momentum": false
    },
    "headlines": [
@@ -174,18 +174,18 @@
    "symbol": "BTC-USD",
    "name": "Bitcoin",
    "list": "watchlist",
-   "price": 62745.5,
+   "price": 62542.7,
    "prev_close": 64877.0,
-   "change_pct": -3.3,
+   "change_pct": -3.6,
    "trigger_change": -3.0,
    "peak_change": -4.0,
    "first_seen": "2026-11-18T16:06:46+00:00",
    "sector": null,
    "chart": {
-    "ema8": -5.9,
-    "ema21": -12.4,
-    "sma50": -20.1,
-    "sma200": -13.7,
+    "ema8": -6.2,
+    "ema21": -12.7,
+    "sma50": -20.4,
+    "sma200": -14.0,
     "momentum": false
    },
    "headlines": [
@@ -241,10 +241,61 @@
    "brief": "2026-11-18-BTC-USD"
   },
   {
+   "symbol": "NVO",
+   "name": "Novo Nordisk (ADR)",
+   "list": "portfolio",
+   "price": 39.48,
+   "prev_close": 40.7,
+   "change_pct": -3.0,
+   "trigger_change": -3.0,
+   "peak_change": -3.0,
+   "first_seen": "2026-11-18T17:12:45+00:00",
+   "sector": {
+    "etf": "XLV",
+    "name": "Health care",
+    "price": 182.54,
+    "change_pct": -1.46
+   },
+   "chart": {
+    "ema8": -2.8,
+    "ema21": -2.1,
+    "sma50": -0.8,
+    "sma200": -8.1,
+    "momentum": true
+   },
+   "headlines": [
+    {
+     "title": "Novo Nordisk stock falls as sellers keep control and support remains in focus",
+     "publisher": "Traders Union",
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNNmM1ZzlMd1F4THI0VHI3LVA0c0hUU2xEX3A1dUxSMzFyeFcwUzNmNVhIRWhpbGl1SXN3N184NDhoR0hNRzNLWWNmM3hSeGVUMXhwRndCeXVlVnE5bDVxcGFYV0pjS0M0a1dDdTRHeFQyNDZSVllXVWpTUUdEUzJLZHQzU2tuc2gwaVd5UWx3?oc=5",
+     "time": "2026-11-18T08:02:20+00:00"
+    },
+    {
+     "title": "Novo Nordisk expands Novocare program for Wegovy users By Investing.com",
+     "publisher": "Investing.com Nigeria",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNYUYycnRkeFJlU0ZJMEMtWXF3ZTlHUzlIVXhYZ0hmcC1TRENzbDRRei1FUXBBLWJqUmRXSmhISS1hQ1YzVWhxNGk1SEN6V1M4Um5FOHRvcXVoZlZ1RzZzTUFhMTdDdDJ4WUV4bGdIRDB3Y0ZBY2VTSmJYTnZKRW9Yd0dfUDJUUGVMT0laa2tGSkxVcmhvNEV1THJVc2NLRmtmYXNWazNNdUFIVkZ6RU1yclg1Ulh0UQ?oc=5",
+     "time": "2026-11-17T16:41:36+00:00"
+    },
+    {
+     "title": "Novo Nordisk stock trades flat as consolidation persists near $41.19 support",
+     "publisher": "Traders Union",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNcXBzcGdwakpIdWpraTNqRTc1Q1lldER1N2lNbTlOTkhNVTRYc1VXc3hrUEZkX3hPUkFLX0ZDNW1ZMEdnN3MwZktaN3pMYUhPbWxtdmkzbjBwQ0Q2UEVtYUhUYzhFSWxzWWtrV2pyV0hKMXMwQzRsdFVjaTZhcGJURXZ4RTlzbHV1MmRV?oc=5",
+     "time": "2026-11-17T08:02:20+00:00"
+    },
+    {
+     "title": "Bloom Energy Upgraded, Hershey Downgraded: Updated Rankings on Top Blue-Chip Stocks",
+     "publisher": "InvestorPlace",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNN0ZOUmVPZi1Tc21LYTRiY2NHbTdnR0VCU3dZaTNfeFRtWlZEcm9fbWpHcE5pU0Zpangxa0xmTWtnc0hPcEVDMWZuczJxaEF3clVicnNOWnNRdkJrd1JjZi02bF9qUHJJMVlMaVNfZ1c3b2N1NnNRMThkbUx0QzBaY0tyQXRWbjVpR1BxZktSWUk?oc=5",
+     "time": "2026-11-16T17:59:03+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
    "symbol": "NOW",
    "name": "ServiceNow",
    "list": "portfolio",
-   "price": 90.43,
+   "price": 90.39,
    "prev_close": 92.9,
    "change_pct": -2.7,
    "trigger_change": -3.4,
@@ -253,13 +304,13 @@
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 96.44,
-    "change_pct": 0.73
+    "price": 96.37,
+    "change_pct": 0.66
    },
    "chart": {
     "ema8": -8.6,
     "ema21": -18.9,
-    "sma50": -30.2,
+    "sma50": -30.3,
     "sma200": -20.3,
     "momentum": false
    },
@@ -319,23 +370,23 @@
    "symbol": "AVGO",
    "name": "Broadcom",
    "list": "portfolio",
-   "price": 349.65,
+   "price": 349.42,
    "prev_close": 341.6,
-   "change_pct": 2.4,
+   "change_pct": 2.3,
    "trigger_change": 3.7,
    "peak_change": 3.9,
    "first_seen": "2026-11-18T15:26:22+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 456.67,
-    "change_pct": -0.75
+    "price": 455.82,
+    "change_pct": -0.93
    },
    "chart": {
-    "ema8": 2.8,
+    "ema8": 2.7,
     "ema21": 3.7,
     "sma50": 1.6,
-    "sma200": -4.9,
+    "sma200": -5.0,
     "momentum": true
    },
    "headlines": [
@@ -394,23 +445,23 @@
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 106.57,
+   "price": 106.02,
    "prev_close": 106.03,
-   "change_pct": 0.5,
+   "change_pct": -0.0,
    "trigger_change": 3.1,
    "peak_change": 3.1,
    "first_seen": "2026-11-18T15:21:21+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 96.44,
-    "change_pct": 0.73
+    "price": 96.37,
+    "change_pct": 0.66
    },
    "chart": {
-    "ema8": -11.2,
-    "ema21": -25.0,
-    "sma50": -42.9,
-    "sma200": -40.7,
+    "ema8": -11.6,
+    "ema21": -25.4,
+    "sma50": -43.2,
+    "sma200": -41.0,
     "momentum": false
    },
    "headlines": [
