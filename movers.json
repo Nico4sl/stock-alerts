@@ -1,22 +1,22 @@
 {
  "date": "2026-11-18",
  "threshold": 3.0,
- "updated": "2026-11-18T15:21:21+00:00",
+ "updated": "2026-11-18T15:26:22+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 732.04,
-   "change_pct": -0.05
+   "price": 731.36,
+   "change_pct": -0.15
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 659.66,
-   "change_pct": 0.41
+   "price": 659.17,
+   "change_pct": 0.34
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 79.91,
-   "change_pct": 0.45
+   "price": 79.98,
+   "change_pct": 0.55
   }
  },
  "movers": [
@@ -24,23 +24,23 @@
    "symbol": "CRWD",
    "name": "CrowdStrike",
    "list": "portfolio",
-   "price": 230.4,
+   "price": 231.89,
    "prev_close": 219.58,
-   "change_pct": 4.9,
+   "change_pct": 5.6,
    "trigger_change": 4.4,
-   "peak_change": 5.5,
+   "peak_change": 5.6,
    "first_seen": "2026-11-18T15:11:19+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 96.67,
-    "change_pct": 0.98
+    "price": 96.66,
+    "change_pct": 0.96
    },
    "chart": {
-    "ema8": 1.3,
-    "ema21": -1.9,
-    "sma50": -6.3,
-    "sma200": 31.8,
+    "ema8": 1.8,
+    "ema21": -1.3,
+    "sma50": -5.7,
+    "sma200": 32.7,
     "momentum": false
    },
    "headlines": [
@@ -99,23 +99,23 @@
    "symbol": "UNH",
    "name": "UnitedHealth",
    "list": "portfolio",
-   "price": 371.81,
+   "price": 370.36,
    "prev_close": 389.68,
-   "change_pct": -4.6,
+   "change_pct": -5.0,
    "trigger_change": -3.7,
-   "peak_change": -4.6,
+   "peak_change": -5.0,
    "first_seen": "2026-11-18T14:56:10+00:00",
    "sector": {
     "etf": "XLV",
     "name": "Health care",
-    "price": 182.9,
+    "price": 182.91,
     "change_pct": -1.26
    },
    "chart": {
-    "ema8": -6.0,
-    "ema21": -6.8,
-    "sma50": -4.9,
-    "sma200": 1.0,
+    "ema8": -6.3,
+    "ema21": -7.2,
+    "sma50": -5.3,
+    "sma200": 0.6,
     "momentum": false
    },
    "headlines": [
@@ -171,26 +171,101 @@
    "brief": null
   },
   {
+   "symbol": "AVGO",
+   "name": "Broadcom",
+   "list": "portfolio",
+   "price": 354.29,
+   "prev_close": 341.6,
+   "change_pct": 3.7,
+   "trigger_change": 3.7,
+   "peak_change": 3.7,
+   "first_seen": "2026-11-18T15:26:22+00:00",
+   "sector": {
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 461.55,
+    "change_pct": 0.32
+   },
+   "chart": {
+    "ema8": 3.8,
+    "ema21": 5.0,
+    "sma50": 2.9,
+    "sma200": -3.6,
+    "momentum": true
+   },
+   "headlines": [
+    {
+     "title": "NVIDIA Rises 3% After Record Quarter as Wells Fargo Sees $250 and Barclays Backs Board on Huang; Taiwan Semiconductor Climbs 3%, Broadcom Gains 2%",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPeHpka2xNN3NKbFNTdnRBU09EZjdnYlBlZzNNQ2dNbXVhWjkzbDRIb2VxNWlyM0poSUN1dXRaeDFTWlZYekxkTXcxT2dXeWpOX3pjTUlQVlNfX2pIdW5nMlJyb2Y3Unk4c2hmMTNRR0NEUkNWU3Q4Q2drLS1CRTB4WTIwTWJWNzBIRWctams4ZEstSnlBclUtbkV4SWZ1NjdPMGw2SlBHcGhIWGtsVUI0RmY0R2dQR0tLc01HTmdtdkJlWlpXZzdCbUEwaG9ETGJSUG5SeXdVRng5N1hUblpRNFV5OHRtNGVqbWNpbjBFTGU5VjFNd1hkaHB6M2lZbEVoaEJyXzFKQkJXZlh1dEg4X1Fn?oc=5",
+     "time": "2026-11-18T14:06:00+00:00"
+    },
+    {
+     "title": "Broadcom Has a $27 Billion Advantage Over Taiwan Semiconductor as Your Portfolio\u2019s AI Anchor",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPcExhZjVKUFpxUkJXODFrUjNqYWlOM0tJWEdRaW5pbWk0NWVUZEFYRktSc1JnZGpaZENmQ0R0N1doNS1zX3k3eHk3T0VvcS1Bc0xzSjNJdlljX0NKT1gzMzlERXhHaGYtMGpkdEtIdVBRM2h2cVZ4VmtVN1lKdDZTSmNoYXVlQTlMNS1oTUhnS2Zpc1pZVnpneVZnQ0VGZ0E?oc=5",
+     "time": "2026-11-18T13:45:05+00:00"
+    },
+    {
+     "title": "Broadcom stock could rise to $600 by 2027 drive...",
+     "publisher": "Pluang",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOLUZzYWtqX0lGbGdfamZfRmlFQVdMZWluTngxX0lIMGw2NGY2aHZVR1dLbkVSQnZfM0lReHpqaEVvUXVLM1k5Sk81Yzk5U2dRLXJyYy0ta2JPR25JSTJEZE83UDBjTnRmRkxud1FhQ1ctMkRKcFltc2NlY2p3Z2lybGwxdU83bXp3NTdlZ2FyWHR5ZjUweXdqU09aeXk?oc=5",
+     "time": "2026-11-18T13:33:19+00:00"
+    },
+    {
+     "title": "Broadcom(AVGO) Stock Price Today | Quotes & News",
+     "publisher": "Moomoo",
+     "url": "https://news.google.com/rss/articles/CBMi-wJBVV95cUxQcTRkYWk5SnIxU3pQdnBxYURNY1czdGZselljWlJNeHNIRlFzcmwzS21DQ1NiMGNwMjJDMjJUMUVOenRDaWtsbkpGdm10WTEySlFxODlKRzhQNExjR0hkems1dGRwZU91T3J1ZTNOSVB5TGdKUW94LW45UlpFQVpkc0pVYW43WXJ5QlR3LXEwRk1Vd3lNYnVkZk5fTFhUckwyRExTWUhTc25aUWxpVFQyNU9hN2pPVndwc0RtQjFyWHRaOW1COHQ3OTl2ckt3WS1SbzZ6TG1Qbm5tQ1pmUzBXOERJN1otdm03WnFyWmk4UkZoQVBLTFlVdF9lYjA1ckpQVTdaalVBTFFBaElsOVNoZFlMSXRyalZ1ZGRyMng5TkFiN0JmbHpaT3U3bGloWEF2dklfVWY2Q1oyMXBUc09SVkVjRVRaRDRUbjlJeVBwQU1JM3RHTjJrT3BoWHZRWXRNT1pmYXlERFlYQlBFaWJ1dHFtMlI3R0k4QWhB?oc=5",
+     "time": "2026-11-18T13:27:48+00:00"
+    },
+    {
+     "title": "Broadcom Stock Has Another Growth Driver. Here\u2019s Where I See It Going in 2027",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQaFRLMlBoaXBxZVVKa3MwcXJwbTVGS3o2Vl9manJwVWFmbUphYTN0TDJfZDFac0I1RmdkN2RMYlFxb3AyX2tUSDQ5WHpRQ01ZRkpiejFuWXh5RnpMRXFmS0pWZWFleHhBYm9ET01ETkplbXFoT1lGcTZHbVBhbDVaNXlTLUs3bDFzck1zV2xNSjFyQWlYejBKSURMWXZFMmVmS1FReVdCaUc2SVRjdXRONG9QRmUwcGZCWm5J?oc=5",
+     "time": "2026-11-18T13:17:00+00:00"
+    },
+    {
+     "title": "Why Is Broadcom Stock Gaining Wednesday?",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPSDl0NlZxTi14c1FoQWV1QUpaR3JQcENhY1VYbFQ2cXJYZlhtZ2R1TUdlZTRRNGpKYmRBX3ZaQldRVXotNEpldzNlZFIzbExwQ3RYMV9FXzZIbk15NTU0Q1p0Wm12WW9waTBHVkJYZmhUa1E2X1ROSWd4ZDY5aXZ6M3BSSHdFY2lFaFF6bDZOM0hvT0hhT09VSGVR?oc=5",
+     "time": "2026-11-18T12:53:43+00:00"
+    },
+    {
+     "title": "Broadcom shares dropped 20% in 6 months despite strong AI growth and bullish analyst targets.",
+     "publisher": "Pluang",
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZlFYaW5pcXRzbnBNelQxRzB4ZWhNRDFQYzR1dm15eEJLME5iZm1uSEJ6ejFWVTd3Y1FpOTJTaEdocDdDczBFdWIxdjhVRGdPdkdWZERTeFpTY3BIYVJ6SHpteGluWWw2YlFnV0VEVmVZbUVfdnhJeW5STmlRTzJRSXc1WlBVOGZWVWx5N3ByNTRJcUR4dkNpZ3gwMmVKejJXc2JIU1ZXNW53ajZLS2tr?oc=5",
+     "time": "2026-11-18T12:34:53+00:00"
+    },
+    {
+     "title": "Broadcom Plummeted 20% Over 6 Months: This Respected Tech and Hardware Research Firm is Confident 110% Returns Materialize",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOUFo0MXBuTjYxbFkxNWhTQUJDNFMtRUxGODJxYXhkZmNZM21yODRvOEhyS2xualFoa2hFR1Q0WThXOEplV3dwTi1Nb25aRlA4MDdPQzVmdk45SWlFZWd4c3E2Q0MzVXZMMmNuSzdpWThSaVZJZE5Ya05KMzNtYlpsQlpfQllrSlJGNFhiVzlsam1WM28?oc=5",
+     "time": "2026-11-18T12:15:35+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 109.27,
+   "price": 105.63,
    "prev_close": 106.03,
-   "change_pct": 3.1,
+   "change_pct": -0.4,
    "trigger_change": 3.1,
    "peak_change": 3.1,
    "first_seen": "2026-11-18T15:21:21+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 96.67,
-    "change_pct": 0.98
+    "price": 96.66,
+    "change_pct": 0.96
    },
    "chart": {
-    "ema8": -9.4,
-    "ema21": -23.3,
-    "sma50": -41.5,
-    "sma200": -39.2,
+    "ema8": -11.9,
+    "ema21": -25.7,
+    "sma50": -43.4,
+    "sma200": -41.2,
     "momentum": false
    },
    "headlines": [
