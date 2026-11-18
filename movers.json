@@ -1,7 +1,99 @@
 {
  "date": "2026-11-18",
  "threshold": 3.0,
- "updated": "2026-11-18T14:51:09+00:00",
- "market": {},
- "movers": []
+ "updated": "2026-11-18T14:56:10+00:00",
+ "market": {
+  "SPY": {
+   "name": "S&P 500",
+   "price": 731.9,
+   "change_pct": -0.07
+  },
+  "QQQ": {
+   "name": "Nasdaq 100",
+   "price": 658.12,
+   "change_pct": 0.18
+  },
+  "TLT": {
+   "name": "Long Treasuries",
+   "price": 80.01,
+   "change_pct": 0.58
+  }
+ },
+ "movers": [
+  {
+   "symbol": "UNH",
+   "name": "UnitedHealth",
+   "list": "portfolio",
+   "price": 375.16,
+   "prev_close": 389.68,
+   "change_pct": -3.7,
+   "trigger_change": -3.7,
+   "peak_change": -3.7,
+   "first_seen": "2026-11-18T14:56:10+00:00",
+   "sector": {
+    "etf": "XLV",
+    "name": "Health care",
+    "price": 183.95,
+    "change_pct": -0.7
+   },
+   "chart": {
+    "ema8": -5.3,
+    "ema21": -6.1,
+    "sma50": -4.1,
+    "sma200": 1.9,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "UnitedHealthcare partners with community pharmacies to expand care delivery",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNSDUtdkxNcE51MWpwdnlLNHNpSy1xOWxHTW1Yb05zWDR1TmNJUVdndFQxa1k2bGZhSUdFLU1sVnBQM3RsaUEyWGhxNkVrczNNN0Jwa1pHMXpGanpoN1JYalhHVHpodjNWVUIxRlhNNnpUTXNKX1VLTjcwN3p4alR2RnpqaGkwMHAyVlE1OVhsYXdSOEk?oc=5",
+     "time": "2026-11-18T12:43:20+00:00"
+    },
+    {
+     "title": "Why Is UnitedHealth Stock Falling?",
+     "publisher": "Trefis",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOeThPaDZlNXluTFQtTUxnVXcyQ3d4SnVXS3d0anJFaC1sQ2NzTGNGLU1xQzJsd18xb0Jxbm9ZQUZ6ZkxCUTVPMWxfbWZxYURLZWJ2UzBlVWFrcVYwZk5HcUJXSmdLbW9jMTQxSTRMQmN4RzN2WUJMQ3NQZnVGVjUtODNpUGFqdFNZbGlGcXFVUy14UGZKcTlpRg?oc=5",
+     "time": "2026-11-18T11:51:39+00:00"
+    },
+    {
+     "title": "UnitedHealth Falls 5.4% on CMS's CRUSH Audit Plan, With $385.23 the Next Test",
+     "publisher": "TradingKey",
+     "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOd3hZOXo5VE1TNE1KRzBESW5mT0FWdHNWMVNINkJuYXlSRjBaOTAwemdUMjR1TWVVWS1ucW9peGdRNmczUEZVMGtZQVlVdWprYkRXaVRQWHpNYW5abmIycE84b2l2aU93WXhkeXBFOGQxT0hQUmlKcFh3TTliVGo2N29Sa3RxMDN6UXMzTGktd3pWbjZ4U3hWOC1HSXM1alNlYWxWcUVuQ2otaHhyVWM5dVpWc2Qxa1FvVVBXS2dHTG5OckxxQVB6T0RNQTN1dE9sU29oeEJwR2hIZ3BOTl9CTVlIaw?oc=5",
+     "time": "2026-11-18T11:31:31+00:00"
+    },
+    {
+     "title": "UnitedHealth Stock Faces Medicare Advantage Clawback Risk Under New CMS Audit Proposal",
+     "publisher": "Simply Wall St",
+     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPa05XWWxucnJyYU15MmNZSmVZWHNzbHdpc3JyTkpHemNPdEVob3llLW93ODB4eXVnLUcxaVBOWHVsdnZlX0docU9RQTFyRS1oLTVkZm1EdXlWQmU2ZmVCOG1pMTNBNnlUTk5MVF9IdVRmaWt1YTJCemhfZ084NTBPVmYzNm5ORVY5Y0pia0hrNWpTdlp2X25HcTM1STRmNmtYSWZVNVpXS0lCb1llLW9MNnk0NE5iNFF3YXlrcERyMVd4Wjc5QWVyQTk3NS1OTkptc3fSAdcBQVVfeXFMTUYyQU1lOG1KdzdTMWpuYzhzb0Y0QmhwZlZNWEx2Y0pUREp5MVBla3JOTUhIWXhNRWwtQ09GMENoRWJ6MDVjUWYzVElpMGtLaUtVY193UDI0V1QyWWswQU9nZEJDT3VWWFZiMjNvX0VmUGRtcWhQMFhJdHFkN3g4enVDWF9Qa25uVnRZU3Q1UlVuMHZiWmswNWVUVjQtUHFfLWs4QTYwVmJ1bmNTb1JsZjMybTJlcEZQWG11b0k5Uks5UnNRVkwxaFYtWHlzUG1Sc01vbVMwX28?oc=5",
+     "time": "2026-11-18T09:14:25+00:00"
+    },
+    {
+     "title": "UnitedHealth (UNH) Stock: $389.68, Down 5.42% Nov 17",
+     "publisher": "JournalArta",
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNYWt2cGVOWjFTbFBUaVU3bW5lUF8wNkhDTnNySWI4b0xpWUU0Z2xZUkhyeERHMjdjMmNjTU5ReHIyalF0YkdjLUJ1UGZNYlJvNWFWcEx4UG9NV1BfRl9oSkVLY2VsbWR5RDR5bXhSSU9qNE85ZGVxODJTUGpRM3NGeGJremFKTnBaVHNLLTAxZGdXTFNqejRvY3ZfU1NuaDk4UXpiM2RHTVNla1pI?oc=5",
+     "time": "2026-11-18T07:27:06+00:00"
+    },
+    {
+     "title": "UnitedHealth Is Targeting 13% to 16% Long-Term Earnings Growth. Where Will the Stock Be in 5 Years?",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNUGVGc05IMEJDZnhVN0U2aVQ4ZEdyUThDU3BwTHUzdHc5clM3OUxpU0JpallEY25xY1F0aGZRTThhM2VPSGNtUXdVR3JOVzh0NjBheHJFc3dKNk1FenJDWkhwclN2MlMtamdfMnRlQ0F4ZS1lNUJDc216aDVsYWhOUTB5RmdxaUZOdUNhQlREeElmeUpsM3pjN3VpREtVVnM?oc=5",
+     "time": "2026-11-18T07:20:00+00:00"
+    },
+    {
+     "title": "UnitedHealth Stock (UNH) Falls 5.4% on CMS Audit Proposal (Nov 17)",
+     "publisher": "Gotrade",
+     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPNnZPb2pPUE5rRU4yc0lPdXlKcVFNeV9MaFExS3pMZzBRY3p3dVJ0RVg3WllSRUNQYTZ3V084bTVZTVBIaEt1N0I0dXNaVGFoR3B2MF93U3VRNVM3NGxBQ3JtalNYZnpsLVRFd29hWGFQSDFDZVdETlJiTlU5Rk5yU2hSRi1TYm8?oc=5",
+     "time": "2026-11-18T03:45:00+00:00"
+    },
+    {
+     "title": "UnitedHealth Group (UNH) Stock Price Prediction: Pullback tests support as Evercore keeps a $480 target in place",
+     "publisher": "Blockchain News",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNR3I3Q0U3YmZ0NUdDbTNiUExid004bEFVVWVaamREQzBqdnpRNUJyTVVNeDVCRDBCUnJjVUxWRHBSVGdjSGZvZC1UZXExSTVfLTJVYlZndTl0YV9iZmRueTVmSXU4Y2w5cG82dkRiTG5obThWTzFUZy1NREJvMUlKUUplcU1qbUtIY3ZETnczLW5hbmF1MFNWZmhhbFdsSy1oOFY5U3g5NUh3UQ?oc=5",
+     "time": "2026-11-18T00:20:00+00:00"
+    }
+   ],
+   "brief": null
+  }
+ ]
 }
