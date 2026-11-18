@@ -1,46 +1,121 @@
 {
  "date": "2026-11-18",
  "threshold": 3.0,
- "updated": "2026-11-18T14:56:10+00:00",
+ "updated": "2026-11-18T15:11:19+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 731.9,
-   "change_pct": -0.07
+   "price": 732.5,
+   "change_pct": 0.01
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 658.12,
-   "change_pct": 0.18
+   "price": 660.54,
+   "change_pct": 0.55
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 80.01,
-   "change_pct": 0.58
+   "price": 79.91,
+   "change_pct": 0.45
   }
  },
  "movers": [
   {
+   "symbol": "CRWD",
+   "name": "CrowdStrike",
+   "list": "portfolio",
+   "price": 229.21,
+   "prev_close": 219.58,
+   "change_pct": 4.4,
+   "trigger_change": 4.4,
+   "peak_change": 4.4,
+   "first_seen": "2026-11-18T15:11:19+00:00",
+   "sector": {
+    "etf": "IGV",
+    "name": "Software",
+    "price": 96.82,
+    "change_pct": 1.13
+   },
+   "chart": {
+    "ema8": 0.9,
+    "ema21": -2.3,
+    "sma50": -6.7,
+    "sma200": 31.1,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "CrowdStrike (CRWD) Stock Price Prediction: Analysts Raise Targets as Price Action Tests Key Support",
+     "publisher": "blockchain.news",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNWVqMmZpYzJGcExPN05SUC1NVzhacjVyeWpYX19MVkQ0RkxsclVPckczU3piT09kV3RjVWhOendIZFNGT3Z2Z3Z4cW1kamZOWTZ3Zmg3WTVsQkpneS1HaGptcmNEVkRlR3RvWEo5UDViWl9FYkppVnJyS1d1OGRuSV80bnN2NDJhUDVzRlM5Z3E0UlVGNnl5TkkwcFZ4T0xCVE1iZUFsTQ?oc=5",
+     "time": "2026-11-18T14:16:12+00:00"
+    },
+    {
+     "title": "New Buy Rating for CrowdStrike Holdings (CRWD), the Technology Giant",
+     "publisher": "The Globe and Mail",
+     "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOcENmTzQ3ajh3dFFNNl9SbERWOUk0SmJsTjQ4NHhRSWUxMkNjNnZJU3o5Wm45S0VmSFhnaXpWdWdQTkgxc0YyT1JhTHZhQ0VpZl85clV4bUxjWjlwd0VoWkpjWHJZdE5nYzk3a2pTOU1QaXJkZnJ1TGRQaTBkSnFuU0xxZUp3OERUUi1YV0dPOHhHYVk0dWlsMFFGXzVBekFBSDJicmRCUzg4UHB5MkczUW9kczRtUlM1aEdfRVhCekJwaFRzd3BMdUdvdTNwNU15R09rS3oxWUlXSDdhMC1tTW1aWWs?oc=5",
+     "time": "2026-11-18T13:57:20+00:00"
+    },
+    {
+     "title": "CrowdStrike (CRWD) Stock: $219.58, Down 1.63% Nov 17",
+     "publisher": "JournalArta",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNREowYTBVWTZJeVNvQV9RaXJTRnhYdEpObG1EczE5ZjVCT1ItaXB1SGFBd0N6UlZwei1sQzUta1B6QVRRbUlwbG9hdHJUM25nSXh4Ums3ak8zeXFUU3hTX01qdWVRQXpjSnVJZjFHd2pRLTBHYVVURkRGcmlPQnIwVWR3OTQ1TUlURzdOeFRROERkMWVWUTFTbTBpN01yRnU0SjM0MTFiS1pyY1l2MlE?oc=5",
+     "time": "2026-11-18T08:00:09+00:00"
+    },
+    {
+     "title": "Cantor Fitzgerald Raises Its CrowdStrike Target to $275. Is It Still Too Low?",
+     "publisher": "TIKR.com",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPd01tVEpFcWhUVm1lY1lMOXFYZ1FIS19ILVRnTW5yZEhodFpkS2VtSFU5TmRXVjN1bWY1bHM1QmpDUmxEMGx1MUlBQ3hWenp1YjFERGpOdmMyMGNFWG9oNFNzNnVIVXk4NkROSHVJOU5ZUDF1eVRKR1p3SVVpMlNQdzV4TENTMlBWNUtMYTA4d0hYUUtsRmF4MnMzQXZZaEpiUVE?oc=5",
+     "time": "2026-11-18T07:41:15+00:00"
+    },
+    {
+     "title": "CrowdStrike(CRWD.US) Officer Sells US$4.47 Million in Common Stock",
+     "publisher": "Moomoo",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPZzZxTzk5aVBFVWVocm5BM0d2VnZzZnZQWEswVWR3Z2R6V3RqTGZpRnVjNm16UUJGcDFMdER2OWJtSXNSdmtGZUU3TlJhWGpoa1J2NjhPTGRuRVZ1OVdxcWU4NmQwVDE2ZWNkbHBkaW9RUGljTkVwZ3d5TjdZUG9CZDltOU44TUEyRG9MMEd6TUJFelNWc1owRjJuMW94SmRPRzBoQg?oc=5",
+     "time": "2026-11-18T01:59:12+00:00"
+    },
+    {
+     "title": "CrowdStrike (CRWD) CEO sells 20,000 shares under a preset trading plan.",
+     "publisher": "Stock Titan",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQdWF6WWhhbmZrMWlJdGNHQ2lvaEpCWjJ4WFo1ZWd1eG8zdU0yUUJudF9oOF9CSFBTUDZ6SE9QVnlxaFNsMVlyQkhUa0hqRF9KLXZIVnhHdHA1ZEFpOVZ0dWFSTndBSENUUC1CZkJXWE56R0lUY2FyampvUHhSYk14SmpNLXpxaE9zQ1czbW9xR3FYRmVsMmJONFVDOXcxaENmZ3dBcXhpWGNRWk1hTm85Q081TDBIekNYeXc4?oc=5",
+     "time": "2026-11-18T01:00:00+00:00"
+    },
+    {
+     "title": "CrowdStrike Holdings (CRWD) Lands Frost Radar Honor As New AI Agent Risks Rise",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQRFVlQnVpbWc4R0R6NG43aDhXQzRIYjZpMVFZRWxJTzZEMUhQeXU0US1IUWcxVk5OcWVxZmRIaVp5THh2eVM1UWhTd3lwZFNmcDRjYVhsM2ZXMy1aa25maEpuWUgwd2c4NjlQaDJDMjduVnVDTVFRLUxGV19sQWREQ2wwZDlKSl9ZWHJwVXlKTTFLWU5rbXJydjJLOGlBN1AzczVF?oc=5",
+     "time": "2026-11-18T00:45:48+00:00"
+    },
+    {
+     "title": "Analysts Are Bullish on These Technology Stocks: Cipher Digital (CIFR), CrowdStrike Holdings (CRWD)",
+     "publisher": "The Globe and Mail",
+     "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxOQlhVbHMxdzFIbmlKUTdWTk9JTndnZ2piQ1B1V0Y5UlJjRlhFVzItMm5Zb2MyT3Z0UkIwWTNlTjNvTUdndWFhWVJ2M2NXMTJuUW5ac2hKUElrQmtiUVcyQzEyMTh3VzlPT3piVnVMMnNrX1FxTjU5emJPcWs4b2dybHlTWGlLSnFGTUhnQXRjZHFkbjBpM0tuWFBGd2tlTWloZXBUR1NyRFBTem5uR29DVEdDbEE5QUlQVmdVZnhnSGFtZzJPUW5lb3lERHBrNkk3WEpyUlVVdWNmUU1PdXFmQTVRMkJKcF93bHFwUVhUT0dFbThSUlBiVExod3BrRUstM290RnRYVkRLQQ?oc=5",
+     "time": "2026-11-17T18:15:09+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
    "symbol": "UNH",
    "name": "UnitedHealth",
    "list": "portfolio",
-   "price": 375.16,
+   "price": 373.43,
    "prev_close": 389.68,
-   "change_pct": -3.7,
+   "change_pct": -4.2,
    "trigger_change": -3.7,
-   "peak_change": -3.7,
+   "peak_change": -4.4,
    "first_seen": "2026-11-18T14:56:10+00:00",
    "sector": {
     "etf": "XLV",
     "name": "Health care",
-    "price": 183.95,
-    "change_pct": -0.7
+    "price": 183.81,
+    "change_pct": -0.77
    },
    "chart": {
-    "ema8": -5.3,
-    "ema21": -6.1,
-    "sma50": -4.1,
-    "sma200": 1.9,
+    "ema8": -5.6,
+    "ema21": -6.5,
+    "sma50": -4.5,
+    "sma200": 1.5,
     "momentum": false
    },
    "headlines": [
@@ -65,7 +140,7 @@
     {
      "title": "UnitedHealth Stock Faces Medicare Advantage Clawback Risk Under New CMS Audit Proposal",
      "publisher": "Simply Wall St",
-     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPa05XWWxucnJyYU15MmNZSmVZWHNzbHdpc3JyTkpHemNPdEVob3llLW93ODB4eXVnLUcxaVBOWHVsdnZlX0docU9RQTFyRS1oLTVkZm1EdXlWQmU2ZmVCOG1pMTNBNnlUTk5MVF9IdVRmaWt1YTJCemhfZ084NTBPVmYzNm5ORVY5Y0pia0hrNWpTdlp2X25HcTM1STRmNmtYSWZVNVpXS0lCb1llLW9MNnk0NE5iNFF3YXlrcERyMVd4Wjc5QWVyQTk3NS1OTkptc3fSAdcBQVVfeXFMTUYyQU1lOG1KdzdTMWpuYzhzb0Y0QmhwZlZNWEx2Y0pUREp5MVBla3JOTUhIWXhNRWwtQ09GMENoRWJ6MDVjUWYzVElpMGtLaUtVY193UDI0V1QyWWswQU9nZEJDT3VWWFZiMjNvX0VmUGRtcWhQMFhJdHFkN3g4enVDWF9Qa25uVnRZU3Q1UlVuMHZiWmswNWVUVjQtUHFfLWs4QTYwVmJ1bmNTb1JsZjMybTJlcEZQWG11b0k5Uks5UnNRVkwxaFYtWHlzUG1Sc01vbVMwX28?oc=5",
+     "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNRjJBTWU4bUp3N1Mxam5jOHNvRjRCaHBmVk1YTHZjSlRESnkxUGVrck5NSEhZeE1FbC1DT0YwQ2hFYnowNWNRZjNUSWkwa0tpS1VjX3dQMjRXVDJZazBBT2dkQkNPdVZYVmIyM29fRWZQZG1xaFAwWEl0cWQ3eDh6dUNYX1Brbm5WdFlTdDVSVW4wdmJaazA1ZVRWNC1QcV8tazhBNjBWYnVuY1NvUmxmMzJtMmVwRlBYbXVvSTlSSzlSc1FWTDFoVi1YeXNQbVJzTW9tUzBfb9IB1wFBVV95cUxNRjJBTWU4bUp3N1Mxam5jOHNvRjRCaHBmVk1YTHZjSlRESnkxUGVrck5NSEhZeE1FbC1DT0YwQ2hFYnowNWNRZjNUSWkwa0tpS1VjX3dQMjRXVDJZazBBT2dkQkNPdVZYVmIyM29fRWZQZG1xaFAwWEl0cWQ3eDh6dUNYX1Brbm5WdFlTdDVSVW4wdmJaazA1ZVRWNC1QcV8tazhBNjBWYnVuY1NvUmxmMzJtMmVwRlBYbXVvSTlSSzlSc1FWTDFoVi1YeXNQbVJzTW9tUzBfbw?oc=5",
      "time": "2026-11-18T09:14:25+00:00"
     },
     {
