@@ -1,17 +1,17 @@
 {
  "date": "2026-11-18",
  "threshold": 3.0,
- "updated": "2026-11-18T15:11:19+00:00",
+ "updated": "2026-11-18T15:21:21+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 732.5,
-   "change_pct": 0.01
+   "price": 732.04,
+   "change_pct": -0.05
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 660.54,
-   "change_pct": 0.55
+   "price": 659.66,
+   "change_pct": 0.41
   },
   "TLT": {
    "name": "Long Treasuries",
@@ -24,23 +24,23 @@
    "symbol": "CRWD",
    "name": "CrowdStrike",
    "list": "portfolio",
-   "price": 229.21,
+   "price": 230.4,
    "prev_close": 219.58,
-   "change_pct": 4.4,
+   "change_pct": 4.9,
    "trigger_change": 4.4,
-   "peak_change": 4.4,
+   "peak_change": 5.5,
    "first_seen": "2026-11-18T15:11:19+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 96.82,
-    "change_pct": 1.13
+    "price": 96.67,
+    "change_pct": 0.98
    },
    "chart": {
-    "ema8": 0.9,
-    "ema21": -2.3,
-    "sma50": -6.7,
-    "sma200": 31.1,
+    "ema8": 1.3,
+    "ema21": -1.9,
+    "sma50": -6.3,
+    "sma200": 31.8,
     "momentum": false
    },
    "headlines": [
@@ -99,23 +99,23 @@
    "symbol": "UNH",
    "name": "UnitedHealth",
    "list": "portfolio",
-   "price": 373.43,
+   "price": 371.81,
    "prev_close": 389.68,
-   "change_pct": -4.2,
+   "change_pct": -4.6,
    "trigger_change": -3.7,
-   "peak_change": -4.4,
+   "peak_change": -4.6,
    "first_seen": "2026-11-18T14:56:10+00:00",
    "sector": {
     "etf": "XLV",
     "name": "Health care",
-    "price": 183.81,
-    "change_pct": -0.77
+    "price": 182.9,
+    "change_pct": -1.26
    },
    "chart": {
-    "ema8": -5.6,
-    "ema21": -6.5,
-    "sma50": -4.5,
-    "sma200": 1.5,
+    "ema8": -6.0,
+    "ema21": -6.8,
+    "sma50": -4.9,
+    "sma200": 1.0,
     "momentum": false
    },
    "headlines": [
@@ -166,6 +166,81 @@
      "publisher": "Blockchain News",
      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNR3I3Q0U3YmZ0NUdDbTNiUExid004bEFVVWVaamREQzBqdnpRNUJyTVVNeDVCRDBCUnJjVUxWRHBSVGdjSGZvZC1UZXExSTVfLTJVYlZndTl0YV9iZmRueTVmSXU4Y2w5cG82dkRiTG5obThWTzFUZy1NREJvMUlKUUplcU1qbUtIY3ZETnczLW5hbmF1MFNWZmhhbFdsSy1oOFY5U3g5NUh3UQ?oc=5",
      "time": "2026-11-18T00:20:00+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
+   "symbol": "NBIS",
+   "name": "Nebius",
+   "list": "portfolio",
+   "price": 109.27,
+   "prev_close": 106.03,
+   "change_pct": 3.1,
+   "trigger_change": 3.1,
+   "peak_change": 3.1,
+   "first_seen": "2026-11-18T15:21:21+00:00",
+   "sector": {
+    "etf": "IGV",
+    "name": "Software",
+    "price": 96.67,
+    "change_pct": 0.98
+   },
+   "chart": {
+    "ema8": -9.4,
+    "ema21": -23.3,
+    "sma50": -41.5,
+    "sma200": -39.2,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Nebius: Surging Capital Needs Amidst Tightening Liquidity (NASDAQ:NBIS)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOWjlrSHNNVGdzRTIzVkhDaEZVX3M1MjI5OVQyZV9ja0lFSEhwZ01May1SWWVPU3ZpMWlmRkhkcE1XLW1EZ1hfNktKQWdHTXQ3SmYyQ0pxVnBKdWE2SzhzRUFSQnQycmVIVXp2b2NxNmYwR29RcU1MN29hR1dNLUtmN2lIb0ZwalRoRU9ydXFrdldTd2RZNndBLWpNMUg0UQ?oc=5",
+     "time": "2026-11-18T14:44:01+00:00"
+    },
+    {
+     "title": "Nebius Will Likely Continue To Devastate Retail Investors (NASDAQ:NBIS)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQUE9Iam9kZDFDOExEY2c3VVAxN0FiaDE1dWFkV2tFOXJPNHVkUlJGdkcta2ZkWkRUclRxSW4ta1FIWEtuRzZWSE5uS29rSEhwZ3V2SmVzQW95b2piWmZOZmZ0T1ZlYU03RkNneW1kS2lSZTVfLS1NY0x0Yzk5clV6dUV0M3NwT1VWT1lUSjZJZmh0VVFmMVBzX2FYY1AyWUU?oc=5",
+     "time": "2026-11-18T13:49:16+00:00"
+    },
+    {
+     "title": "Nebius Group (NBIS) Stock Price Prediction: Capacity Delays Pressure the Tape, but Analyst Cuts Have Not Broken the Bull Case",
+     "publisher": "Blockchain News",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNb2w0NzkyWFlJREY5UjlhQmI5d05vYzlXUkI1dkFSak9uSk8zaHA3V3pobm9FRmR5QmRNM0s3N0syRjl6SVZjb2tsV0dMQXlXaGNEd0FmekFBc21tajQwU1VJT2lwR3I3bEhWajVRZnlUWjV4MU9rSWh0QldvR3l0SUhOWWFIUWJWa3lCbEw1ajdHQVVieGhmdUIxa3lEdw?oc=5",
+     "time": "2026-11-18T13:27:12+00:00"
+    },
+    {
+     "title": "Nebius: The $42.5 Billion Financing Question Behind Its AI Growth",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOa2pNR2V1VjJ6ZDNyRDN4UnFJckg2YWRndXpxTzFZbDJUck1qa3k0WmZONUVFTnk4NnhyUjRTV0pxNFdWUTR2WjFfd1RyLVhheXpNMmF2TlMtWndmOFZpNTVEU1g2LVZVZm9pcjl3eXlSTE93b3BoMkQ4cGoycDhycTBzeVFPdTFIV3JMclJvVGtubUxHc2FGNXlKMHNmSDFaTWE0eg?oc=5",
+     "time": "2026-11-18T12:57:14+00:00"
+    },
+    {
+     "title": "Nebius Posted Superb Earnings and Crashed Anyway. Buy the Dip.",
+     "publisher": "The Globe and Mail",
+     "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQTzRXSWFHeDVyY2F1VXFtWUxIWWpMU0xmM2NQQkE5UzBJRDUzNnFrMFptYWZIWm4wWnJzUEladUR1S1JnSmc1aVEwZmJNWTBZdEhJTVY4WU9oVXYtOFdMekNfVERSZWZhWGVILXNqQ0pGYXU4bU9PdEhPSGVTTlN1LVJWc0wwcnhlb3hpbTRlV3hYU3poNWpSU0ZMWDZzNEJnb09mSEhzTFg2SUQ2NFh5RzI0bGlHelVPNWpXWEE1WUJKT0U0azNSSUlXSGxYaWtGZWsxcjZ0TzFmTDROclE?oc=5",
+     "time": "2026-11-18T10:58:19+00:00"
+    },
+    {
+     "title": "Why Are Neocloud Stocks CoreWeave and Nebius Rising in Premarket Today, November 18?",
+     "publisher": "TipRanks",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTHc4bVdWUUREakJZd0lrUEFBZ19mWXhnNHRxc2VwNHZGaEFCRmRNQ2xWemVMX21CSzc4UjB1UklFYXVPRkllbURzMTZRdmRlSWJYSU5fX1VhRTVEaVlIQktaZ01PVXl4bkhsbXZfYVF2Tk56dnp1OXZkRmtvSTF6WE04R3p2RjNoVTJUS1EtOUhXVlJueFVnTXFfT3JMNUgwUzF2UVJGOF9na09TRzBvYjdn?oc=5",
+     "time": "2026-11-18T10:11:32+00:00"
+    },
+    {
+     "title": "Nebius Group Shares Surge 11.27% After Hours - NVIDIA (NASDAQ:NVDA), IREN (NASDAQ:IREN)",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQeXNIRkJfT3lfZklQT2NiSWdXRjNTSTJWd205RGNUeDRhdUxxZE5xaTdQZ1JwMktTWFYzVUFMcUQ3SVRhcFNXQXozWndaZTkwMVZmZVU3UTVwdlhGWURiTXRuTTZ2aFF1Q1l5YVNCcWItdzhsR2ZCclNLUzJtTHljTzVHSE9qdE1HREVFcEx0X1A3VUpQdmV3OF8xYVF3OWRGQVF2Z194UzJyTnFtTnJDclpR?oc=5",
+     "time": "2026-11-18T06:42:17+00:00"
+    },
+    {
+     "title": "Nebius Group N.V. (NBIS) Stock Forecasts",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPdE52Z0VZUFc1N1dQcWVSVF9VYzdGS1NILW1UbDFlSkJJVzZmWWZqZ3BReklVemc3N213ZU0tMkQ5em9CY2dzQVctVWl1bVg0Y1BGaWZ6emJSb2w3WVRCVFFMZXltMkQzTm4yMFBhX0NGUTFrNDdNQnlvN1ZRRE9aVGV4TzQ3b0JnMDVHNw?oc=5",
+     "time": "2026-11-18T05:20:20+00:00"
     }
    ],
    "brief": null
