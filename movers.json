@@ -1,109 +1,34 @@
 {
  "date": "2026-11-18",
  "threshold": 3.0,
- "updated": "2026-11-18T16:06:46+00:00",
+ "updated": "2026-11-18T16:21:54+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 729.78,
-   "change_pct": -0.36
+   "price": 727.94,
+   "change_pct": -0.61
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 657.61,
-   "change_pct": 0.1
+   "price": 654.71,
+   "change_pct": -0.34
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 80.07,
-   "change_pct": 0.66
+   "price": 80.08,
+   "change_pct": 0.67
   }
  },
  "movers": [
   {
-   "symbol": "CRWD",
-   "name": "CrowdStrike",
-   "list": "portfolio",
-   "price": 234.27,
-   "prev_close": 219.58,
-   "change_pct": 6.7,
-   "trigger_change": 4.4,
-   "peak_change": 6.7,
-   "first_seen": "2026-11-18T15:11:19+00:00",
-   "sector": {
-    "etf": "IGV",
-    "name": "Software",
-    "price": 96.98,
-    "change_pct": 1.3
-   },
-   "chart": {
-    "ema8": 2.6,
-    "ema21": -0.4,
-    "sma50": -4.7,
-    "sma200": 34.0,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "29 Big Funds Bought CrowdStrike Last Quarter, While 7 Sold. Who\u2019s Right?",
-     "publisher": "TIKR.com",
-     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNSTlUYmR6dG9iZ20yR3M0dHllTi1JMU1fOW4zVm5EajktMnV6WVRoMk4yazV4cGk4Vjk5dWFicFE1UkJaRmhmdUVDR3NvZU0zTEhsenVaWmJtTzlXdDdHcE12Wko0QnVSSlNFdEthQzh4UU9STkJURTdsMXcxa0ZhanpieXVtLVFhS2xZdHRjNWFfZXJtVnBvMDd4RQ?oc=5",
-     "time": "2026-11-18T15:45:38+00:00"
-    },
-    {
-     "title": "CrowdStrike Holdings Inc Stock (CRWD) Moved Up by 4.79% on Nov 18: What Signal Does It Send?",
-     "publisher": "TradingKey",
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQWURmQ1RaVWVZZl9RQmFTc1lrcnViOF80VktLZVBDaVE3RC1VZjJoeXVsV242QXdCdGR0UjkxczRta2oyd0s1d0xxQlg4Nm5nMlFSaS1pZ0hBblpwTnpGNTdEMVRYUzl0S2JCRkg3M0lMNEhVQzN6My15c0FaM3E4V0RWS21zOWNkcXZr?oc=5",
-     "time": "2026-11-18T15:22:55+00:00"
-    },
-    {
-     "title": "CrowdStrike (CRWD) Stock Price Prediction: Analysts Raise Targets as Price Action Tests Key Support",
-     "publisher": "blockchain.news",
-     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNWVqMmZpYzJGcExPN05SUC1NVzhacjVyeWpYX19MVkQ0RkxsclVPckczU3piT09kV3RjVWhOendIZFNGT3Z2Z3Z4cW1kamZOWTZ3Zmg3WTVsQkpneS1HaGptcmNEVkRlR3RvWEo5UDViWl9FYkppVnJyS1d1OGRuSV80bnN2NDJhUDVzRlM5Z3E0UlVGNnl5TkkwcFZ4T0xCVE1iZUFsTQ?oc=5",
-     "time": "2026-11-18T14:16:12+00:00"
-    },
-    {
-     "title": "New Buy Rating for CrowdStrike Holdings (CRWD), the Technology Giant",
-     "publisher": "The Globe and Mail",
-     "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOcENmTzQ3ajh3dFFNNl9SbERWOUk0SmJsTjQ4NHhRSWUxMkNjNnZJU3o5Wm45S0VmSFhnaXpWdWdQTkgxc0YyT1JhTHZhQ0VpZl85clV4bUxjWjlwd0VoWkpjWHJZdE5nYzk3a2pTOU1QaXJkZnJ1TGRQaTBkSnFuU0xxZUp3OERUUi1YV0dPOHhHYVk0dWlsMFFGXzVBekFBSDJicmRCUzg4UHB5MkczUW9kczRtUlM1aEdfRVhCekJwaFRzd3BMdUdvdTNwNU15R09rS3oxWUlXSDdhMC1tTW1aWWs?oc=5",
-     "time": "2026-11-18T13:57:20+00:00"
-    },
-    {
-     "title": "CrowdStrike (CRWD) Stock: $219.58, Down 1.63% Nov 17",
-     "publisher": "JournalArta",
-     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNREowYTBVWTZJeVNvQV9RaXJTRnhYdEpObG1EczE5ZjVCT1ItaXB1SGFBd0N6UlZwei1sQzUta1B6QVRRbUlwbG9hdHJUM25nSXh4Ums3ak8zeXFUU3hTX01qdWVRQXpjSnVJZjFHd2pRLTBHYVVURkRGcmlPQnIwVWR3OTQ1TUlURzdOeFRROERkMWVWUTFTbTBpN01yRnU0SjM0MTFiS1pyY1l2MlE?oc=5",
-     "time": "2026-11-18T08:00:09+00:00"
-    },
-    {
-     "title": "Cantor Fitzgerald Raises Its CrowdStrike Target to $275. Is It Still Too Low?",
-     "publisher": "TIKR.com",
-     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPd01tVEpFcWhUVm1lY1lMOXFYZ1FIS19ILVRnTW5yZEhodFpkS2VtSFU5TmRXVjN1bWY1bHM1QmpDUmxEMGx1MUlBQ3hWenp1YjFERGpOdmMyMGNFWG9oNFNzNnVIVXk4NkROSHVJOU5ZUDF1eVRKR1p3SVVpMlNQdzV4TENTMlBWNUtMYTA4d0hYUUtsRmF4MnMzQXZZaEpiUVE?oc=5",
-     "time": "2026-11-18T07:41:15+00:00"
-    },
-    {
-     "title": "CrowdStrike(CRWD.US) Officer Sells US$4.47 Million in Common Stock",
-     "publisher": "Moomoo",
-     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPZzZxTzk5aVBFVWVocm5BM0d2VnZzZnZQWEswVWR3Z2R6V3RqTGZpRnVjNm16UUJGcDFMdER2OWJtSXNSdmtGZUU3TlJhWGpoa1J2NjhPTGRuRVZ1OVdxcWU4NmQwVDE2ZWNkbHBkaW9RUGljTkVwZ3d5TjdZUG9CZDltOU44TUEyRG9MMEd6TUJFelNWc1owRjJuMW94SmRPRzBoQg?oc=5",
-     "time": "2026-11-18T01:59:12+00:00"
-    },
-    {
-     "title": "CrowdStrike (CRWD) CEO sells 20,000 shares under a preset trading plan.",
-     "publisher": "Stock Titan",
-     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQdWF6WWhhbmZrMWlJdGNHQ2lvaEpCWjJ4WFo1ZWd1eG8zdU0yUUJudF9oOF9CSFBTUDZ6SE9QVnlxaFNsMVlyQkhUa0hqRF9KLXZIVnhHdHA1ZEFpOVZ0dWFSTndBSENUUC1CZkJXWE56R0lUY2FyampvUHhSYk14SmpNLXpxaE9zQ1czbW9xR3FYRmVsMmJONFVDOXcxaENmZ3dBcXhpWGNRWk1hTm85Q081TDBIekNYeXc4?oc=5",
-     "time": "2026-11-18T01:00:00+00:00"
-    }
-   ],
-   "brief": "2026-11-18-CRWD"
-  },
-  {
    "symbol": "UNH",
    "name": "UnitedHealth",
    "list": "portfolio",
-   "price": 365.96,
+   "price": 363.48,
    "prev_close": 389.68,
-   "change_pct": -6.1,
+   "change_pct": -6.7,
    "trigger_change": -3.7,
-   "peak_change": -6.5,
+   "peak_change": -6.7,
    "first_seen": "2026-11-18T14:56:10+00:00",
    "sector": {
     "etf": "XLV",
@@ -112,10 +37,10 @@
     "change_pct": -1.55
    },
    "chart": {
-    "ema8": -7.1,
-    "ema21": -8.2,
-    "sma50": -6.4,
-    "sma200": -0.6,
+    "ema8": -7.6,
+    "ema21": -8.8,
+    "sma50": -7.0,
+    "sma200": -1.2,
     "momentum": false
    },
    "headlines": [
@@ -171,96 +96,96 @@
    "brief": "2026-11-18-UNH"
   },
   {
-   "symbol": "AVGO",
-   "name": "Broadcom",
+   "symbol": "CRWD",
+   "name": "CrowdStrike",
    "list": "portfolio",
-   "price": 355.0,
-   "prev_close": 341.6,
-   "change_pct": 3.9,
-   "trigger_change": 3.7,
-   "peak_change": 3.9,
-   "first_seen": "2026-11-18T15:26:22+00:00",
+   "price": 232.48,
+   "prev_close": 219.58,
+   "change_pct": 5.9,
+   "trigger_change": 4.4,
+   "peak_change": 6.7,
+   "first_seen": "2026-11-18T15:11:19+00:00",
    "sector": {
-    "etf": "SMH",
-    "name": "Semiconductors",
-    "price": 459.98,
-    "change_pct": -0.03
+    "etf": "IGV",
+    "name": "Software",
+    "price": 96.19,
+    "change_pct": 0.47
    },
    "chart": {
-    "ema8": 4.0,
-    "ema21": 5.2,
-    "sma50": 3.1,
-    "sma200": -3.4,
-    "momentum": true
+    "ema8": 2.0,
+    "ema21": -1.1,
+    "sma50": -5.4,
+    "sma200": 33.0,
+    "momentum": false
    },
    "headlines": [
     {
-     "title": "Nvidia Vs. Broadcom: Which AI Stock Could Be The Better Investment Through 2028?",
-     "publisher": "Benzinga",
-     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOWGtaakVNMURSN0J6Z3VzRWxLMWU5em0za2k0LWFNV08tclp5UkxkMHRIX0wxY2FMVWFOZmVtZ2EyZEFwNFVvQ253LWlsWFp5RElGOEdLc1lDcnVpSS1WZUpVQUdvUVpINUxaVVNxNkpjM2huZExfVEFjM0dEc1U5V0VCbGtjWnNXSHBpTzAwbmIzb3RxNURpb0JqLWN6dzJ3RDZCVlNGTFdPdnQ1bnJraXQ3bHNubnRCNHNJS1ZYRWpwYnlRZ0RaZWtR?oc=5",
-     "time": "2026-11-18T15:47:49+00:00"
+     "title": "29 Big Funds Bought CrowdStrike Last Quarter, While 7 Sold. Who\u2019s Right?",
+     "publisher": "TIKR.com",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNSTlUYmR6dG9iZ20yR3M0dHllTi1JMU1fOW4zVm5EajktMnV6WVRoMk4yazV4cGk4Vjk5dWFicFE1UkJaRmhmdUVDR3NvZU0zTEhsenVaWmJtTzlXdDdHcE12Wko0QnVSSlNFdEthQzh4UU9STkJURTdsMXcxa0ZhanpieXVtLVFhS2xZdHRjNWFfZXJtVnBvMDd4RQ?oc=5",
+     "time": "2026-11-18T15:45:38+00:00"
     },
     {
-     "title": "Will AVGO break $367.45 resistance amid continued buyer support and high volatility?",
-     "publisher": "Traders Union",
-     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNbzQyeWpTN3hkcHFZdXVDNFNpQXY4SjNtMGZwU2dFYm5sekdmNnFDemx3Z2Y4YUctMm1Yc1NuSzI2Unp5cTMwOGh2bFNwZHp3bnk3SEM5TEZtX2pLbTYzX3hCM2J2NGRxTnlrbWtFRmxLQTdqb3hWYllieVlpWk1MaGV4UUhJT2NTYzNlOEpObjh1Wjdi?oc=5",
-     "time": "2026-11-18T15:38:31+00:00"
+     "title": "CrowdStrike Holdings Inc Stock (CRWD) Moved Up by 4.79% on Nov 18: What Signal Does It Send?",
+     "publisher": "TradingKey",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQWURmQ1RaVWVZZl9RQmFTc1lrcnViOF80VktLZVBDaVE3RC1VZjJoeXVsV242QXdCdGR0UjkxczRta2oyd0s1d0xxQlg4Nm5nMlFSaS1pZ0hBblpwTnpGNTdEMVRYUzl0S2JCRkg3M0lMNEhVQzN6My15c0FaM3E4V0RWS21zOWNkcXZr?oc=5",
+     "time": "2026-11-18T15:22:55+00:00"
     },
     {
-     "title": "Here\u2019s Why Technology Spending Over the Next 3 Years Could Make Broadcom (AVGO) a Winner",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQTGdNZ1lTVUhINmlLejVxczhDRlRBbGtUdHo4RU9VYmVsZEkwYlMxX3RnbDBVdE5wYVBMaFZ2aHY4N2tseGtKUU4yZ2k5RGk5V3dNR1VGZDlyLTFnQmF5UXJGV0ZyXzVRSndOWjluV2VpMW5kOThSaGYxMGJ2TEVxWS1TRnhsUWpnZlU3S0s1NVN5RmJBMFhPZTNR?oc=5",
-     "time": "2026-11-18T15:38:01+00:00"
+     "title": "CrowdStrike (CRWD) Stock Price Prediction: Analysts Raise Targets as Price Action Tests Key Support",
+     "publisher": "blockchain.news",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNWVqMmZpYzJGcExPN05SUC1NVzhacjVyeWpYX19MVkQ0RkxsclVPckczU3piT09kV3RjVWhOendIZFNGT3Z2Z3Z4cW1kamZOWTZ3Zmg3WTVsQkpneS1HaGptcmNEVkRlR3RvWEo5UDViWl9FYkppVnJyS1d1OGRuSV80bnN2NDJhUDVzRlM5Z3E0UlVGNnl5TkkwcFZ4T0xCVE1iZUFsTQ?oc=5",
+     "time": "2026-11-18T14:16:12+00:00"
     },
     {
-     "title": "How Broadcom\u2019s (AVGO) Anthropic Equipment Leases Link AI Growth to Financing",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOdmVpNmxfakxGaHN2YlBHVjNVVFAzN29Ra0VHLTN1Qzl1YjBOWFdrUVlUaThoSVhZNTI2clNhZ3NkN1EzZDZrdVg4ZThOQ1g3WGhlRHhad0ZpYkJuNmVCZVBSV19MblpZVy1oX2ZiaEgxRFl5U1BZTzVpU2lXbHM3SGFZWndrTnlBMDhVSFdmdVlpOXlnNkJfRjcwUmpsdjdlbm5HRldGMA?oc=5",
-     "time": "2026-11-18T15:23:02+00:00"
+     "title": "New Buy Rating for CrowdStrike Holdings (CRWD), the Technology Giant",
+     "publisher": "The Globe and Mail",
+     "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOcENmTzQ3ajh3dFFNNl9SbERWOUk0SmJsTjQ4NHhRSWUxMkNjNnZJU3o5Wm45S0VmSFhnaXpWdWdQTkgxc0YyT1JhTHZhQ0VpZl85clV4bUxjWjlwd0VoWkpjWHJZdE5nYzk3a2pTOU1QaXJkZnJ1TGRQaTBkSnFuU0xxZUp3OERUUi1YV0dPOHhHYVk0dWlsMFFGXzVBekFBSDJicmRCUzg4UHB5MkczUW9kczRtUlM1aEdfRVhCekJwaFRzd3BMdUdvdTNwNU15R09rS3oxWUlXSDdhMC1tTW1aWWs?oc=5",
+     "time": "2026-11-18T13:57:20+00:00"
     },
     {
-     "title": "AMD, Broadcom, CoreWeave stocks mixed on Nvidia Q3 earnings beat",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPajBIQVJwYUNFRGNGRE43Zm9HQlVqZUp2X0l4OThSWGk1R0JfbHdWLW9MQWNib0otSzBya3YybmJPOXlwSjRrRi14QmkxWklOV1JsZEhpc1BDNkphOUdPTmVZT0ZiZUhfXzNNNmZWM21oY04weVJNY2VfOU1TRHJERElfYllUWVNJMHdkS291b2ZuQTlhSGpqZXVaeks4cF82bjZfVlJyWUJRWS13X3RCNkxlMVRob2JnNUNPMWdUT05xX1prUjF6NURIZ3JoNjhaM1EwT3BMRXVwb09zTGNZTA?oc=5",
-     "time": "2026-11-18T15:12:33+00:00"
+     "title": "CrowdStrike (CRWD) Stock: $219.58, Down 1.63% Nov 17",
+     "publisher": "JournalArta",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNREowYTBVWTZJeVNvQV9RaXJTRnhYdEpObG1EczE5ZjVCT1ItaXB1SGFBd0N6UlZwei1sQzUta1B6QVRRbUlwbG9hdHJUM25nSXh4Ums3ak8zeXFUU3hTX01qdWVRQXpjSnVJZjFHd2pRLTBHYVVURkRGcmlPQnIwVWR3OTQ1TUlURzdOeFRROERkMWVWUTFTbTBpN01yRnU0SjM0MTFiS1pyY1l2MlE?oc=5",
+     "time": "2026-11-18T08:00:09+00:00"
     },
     {
-     "title": "NVIDIA Rises 3% After Record Quarter as Wells Fargo Sees $250 and Barclays Backs Board on Huang; Taiwan Semiconductor Climbs 3%, Broadcom Gains 2%",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxONU1fYnFqRUJ0TlgweC1LR0c1eUVNaFRjdzg5eTFDajJ5RmZQMWUwaXhyTnVWWkVYZ0ROa3R0ajA0MGhUdTFGWS0zdUliOTRMYVFNcEgzSEhDRWw5V2Z6NTVoMkQ3ZkxMbU1TUU1qMF9Eb0MzTkZVWlRTbXZfcXkyS1RzOUxCaHVGVzdCS0F6RHNfY0hZY0pWNE5n?oc=5",
-     "time": "2026-11-18T14:06:50+00:00"
+     "title": "Cantor Fitzgerald Raises Its CrowdStrike Target to $275. Is It Still Too Low?",
+     "publisher": "TIKR.com",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPd01tVEpFcWhUVm1lY1lMOXFYZ1FIS19ILVRnTW5yZEhodFpkS2VtSFU5TmRXVjN1bWY1bHM1QmpDUmxEMGx1MUlBQ3hWenp1YjFERGpOdmMyMGNFWG9oNFNzNnVIVXk4NkROSHVJOU5ZUDF1eVRKR1p3SVVpMlNQdzV4TENTMlBWNUtMYTA4d0hYUUtsRmF4MnMzQXZZaEpiUVE?oc=5",
+     "time": "2026-11-18T07:41:15+00:00"
     },
     {
-     "title": "Broadcom Has a $27 Billion Advantage Over Taiwan Semiconductor as Your Portfolio\u2019s AI Anchor",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPcExhZjVKUFpxUkJXODFrUjNqYWlOM0tJWEdRaW5pbWk0NWVUZEFYRktSc1JnZGpaZENmQ0R0N1doNS1zX3k3eHk3T0VvcS1Bc0xzSjNJdlljX0NKT1gzMzlERXhHaGYtMGpkdEtIdVBRM2h2cVZ4VmtVN1lKdDZTSmNoYXVlQTlMNS1oTUhnS2Zpc1pZVnpneVZnQ0VGZ0E?oc=5",
-     "time": "2026-11-18T13:45:05+00:00"
+     "title": "CrowdStrike(CRWD.US) Officer Sells US$4.47 Million in Common Stock",
+     "publisher": "Moomoo",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPZzZxTzk5aVBFVWVocm5BM0d2VnZzZnZQWEswVWR3Z2R6V3RqTGZpRnVjNm16UUJGcDFMdER2OWJtSXNSdmtGZUU3TlJhWGpoa1J2NjhPTGRuRVZ1OVdxcWU4NmQwVDE2ZWNkbHBkaW9RUGljTkVwZ3d5TjdZUG9CZDltOU44TUEyRG9MMEd6TUJFelNWc1owRjJuMW94SmRPRzBoQg?oc=5",
+     "time": "2026-11-18T01:59:12+00:00"
     },
     {
-     "title": "Broadcom stock could rise to $600 by 2027 drive...",
-     "publisher": "Pluang",
-     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOLUZzYWtqX0lGbGdfamZfRmlFQVdMZWluTngxX0lIMGw2NGY2aHZVR1dLbkVSQnZfM0lReHpqaEVvUXVLM1k5Sk81Yzk5U2dRLXJyYy0ta2JPR25JSTJEZE83UDBjTnRmRkxud1FhQ1ctMkRKcFltc2NlY2p3Z2lybGwxdU83bXp3NTdlZ2FyWHR5ZjUweXdqU09aeXk?oc=5",
-     "time": "2026-11-18T13:33:19+00:00"
+     "title": "CrowdStrike (CRWD) CEO sells 20,000 shares under a preset trading plan.",
+     "publisher": "Stock Titan",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQdWF6WWhhbmZrMWlJdGNHQ2lvaEpCWjJ4WFo1ZWd1eG8zdU0yUUJudF9oOF9CSFBTUDZ6SE9QVnlxaFNsMVlyQkhUa0hqRF9KLXZIVnhHdHA1ZEFpOVZ0dWFSTndBSENUUC1CZkJXWE56R0lUY2FyampvUHhSYk14SmpNLXpxaE9zQ1czbW9xR3FYRmVsMmJONFVDOXcxaENmZ3dBcXhpWGNRWk1hTm85Q081TDBIekNYeXc4?oc=5",
+     "time": "2026-11-18T01:00:00+00:00"
     }
    ],
-   "brief": "2026-11-18-AVGO"
+   "brief": "2026-11-18-CRWD"
   },
   {
    "symbol": "BTC-USD",
    "name": "Bitcoin",
    "list": "watchlist",
-   "price": 62936.6,
+   "price": 62493.1,
    "prev_close": 64877.0,
-   "change_pct": -3.0,
+   "change_pct": -3.7,
    "trigger_change": -3.0,
-   "peak_change": -3.0,
+   "peak_change": -3.7,
    "first_seen": "2026-11-18T16:06:46+00:00",
    "sector": null,
    "chart": {
-    "ema8": -5.7,
-    "ema21": -12.2,
-    "sma50": -19.9,
-    "sma200": -13.5,
+    "ema8": -6.2,
+    "ema21": -12.7,
+    "sma50": -20.5,
+    "sma200": -14.1,
     "momentum": false
    },
    "headlines": [
@@ -316,26 +241,176 @@
    "brief": null
   },
   {
+   "symbol": "NOW",
+   "name": "ServiceNow",
+   "list": "portfolio",
+   "price": 89.76,
+   "prev_close": 92.9,
+   "change_pct": -3.4,
+   "trigger_change": -3.4,
+   "peak_change": -3.4,
+   "first_seen": "2026-11-18T16:21:54+00:00",
+   "sector": {
+    "etf": "IGV",
+    "name": "Software",
+    "price": 96.19,
+    "change_pct": 0.47
+   },
+   "chart": {
+    "ema8": -9.1,
+    "ema21": -19.4,
+    "sma50": -30.7,
+    "sma200": -20.9,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "ServiceNow (NOW) Stock Price Prediction: Oversold bounce potential meets heavy trend damage",
+     "publisher": "Blockchain News",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNMUgwbTQycFVPUGx5QzJCTkc2MkVoaUlENDYxMUQxeEsxSzlLVmRsWFh2b243QUxjUmp6Wk1zbjhJcTE1UlB3QjBaa1FVcXQ2Z3piSHlRMFBFYzcyOU93VjdfbUR3Wm9rTlVGaUVjTFFLaEwzbEhnajVTMExqakVza2t2TXcxa2VLZW0xNll3eXNEY0xtWTNtMDBrMFAwQ1I1YXJSTw?oc=5",
+     "time": "2026-11-18T14:40:00+00:00"
+    },
+    {
+     "title": "ServiceNow, Inc. (NOW) Is a Trending Stock: Facts to Know Before Betting on It",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQNUpGMnRkUTkydEtiQW9pYW9vX2V1UmZsdDkwVjFEZGx0eUZ3cnJINWtxaVp4VHZhbG5HeHBubmlvbi1hWWQ5ZEJxOVFraHp2b0UzSnhSR05mdmhkZ2dKUDBNYVdfbmhOY1NqOGNEaVhJX0VsQXYyOEFtS2dJR0FwWm1RSk13V045T0luVm50NEQ3Y3h4VEdkZEdmSnJpT0E?oc=5",
+     "time": "2026-11-18T13:00:03+00:00"
+    },
+    {
+     "title": "What Is Driving ServiceNow Stock?",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPQkpQYzFURnlDckVvdzh6T0Y2cGRvSDhOeG5aa0swS3dvU1VzU01raGZ4ajh6MnV0bDRzRTdiY0d0X0tnZ3RUeGt4a3VzNXFpRlBPaG5NVlR6Mmd5WE9NcUFQYzdOZENpR1pJUUFrdzFXeWh6WGhSNmxSNWNXZ2tvRm95clRlY3pMWEZNenE1Y0dSM2c?oc=5",
+     "time": "2026-11-18T12:58:38+00:00"
+    },
+    {
+     "title": "ServiceNow, Inc. $NOW Stock Position Lifted by Voya Investment Management LLC",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNdU1iT3I3aTNQbG5lUVQyaGpxampNYlRSNVVJWTl6bnJwUUlDeWl6djFCWkMwTVhWZTIya2t0MDQ1eGtHWkl5X3RWS0x1NjFvODdQUFhrZ1E1a0FlR1RQOGpuUEVhQ0RGX3ZvVjdhNzhucUJxUWZPYW1Ib1hIVGl0a0V5UVV5N1lhcldLV0lWMF9sT0luN1RMS2swSldjZFhJcXhfRU92cHAza2kza2M3dmxPUG9FT2xmMFlnNWxmbGw2UmlSQ1dnZVdHdks1Qzh6?oc=5",
+     "time": "2026-11-18T11:48:39+00:00"
+    },
+    {
+     "title": "Can ServiceNow Stock Jump 50%?",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNTnowWnBjUjRlMDJMYU13YzBtU0hnQjF6bEJseFZJblVEMkZRVHhrQjZQUmUtbHFuMFlBRG5FeEMycWIyRUx5MGlQNDV4LWpGVUJ2a2tzdXpxOWQ3UE1xR2hFZ2RvekR6VGhaUy1sVVd0TF9QWXJ3SVE2aklhVHJ5SFZfOE12NmRpN016alBHT3ZRXzA?oc=5",
+     "time": "2026-11-18T11:26:12+00:00"
+    },
+    {
+     "title": "ServiceNow Inc Stock (NOW) Moved Down by 6.09% on Nov 17: What Signal Does It Send?",
+     "publisher": "TradingKey",
+     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNLTNKdGxoaVVwS0hfOXJ3WWNXU0VYNzZMRUhlZ19LNTNob21lYVVtem1UN0t6RlFkc01oQi11N3BHZHVkNkpQU0hiQzlSTW04bGlXSFhDWkUxRmFlamtEZjZhcTBxY1dMOXpHSS1SMkpMVTVPQmFuNlVMTkZoSE9EZGNQSXphXzhnVnc?oc=5",
+     "time": "2026-11-18T01:12:05+00:00"
+    },
+    {
+     "title": "ServiceNow (NYSE:NOW) Stock: Insider Jacqueline Canney Sells 2,475 Shares",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQT0RoLVpIdlFKUHJGMS00b1hNSDN3VDhOQThBRnpGZklEYmRTRFNHcGZGam5WZU8ybF9VcjJRQVoybEVvVVE3VXFvcC1NVUhpbTZuUDhucnNBZV80NTF0OGlFYkFDQ2hOXzZkWnBmSXNxRGR2eHV2eUp5VzByTnc3ZThSaW55cWtGbS05UGFDdTFHcDZuNlhfTEpYcFk1cXZPZFljaFV6dWRkNU1yaEtfMzlUSloxMURpVlhHYldlMjdib1FmY1VqaDViYw?oc=5",
+     "time": "2026-11-18T00:12:27+00:00"
+    },
+    {
+     "title": "ServiceNow (NOW) officer relinquishes 82 and 256 shares for vesting taxes.",
+     "publisher": "Stock Titan",
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNUzFlaFM5ZDV2NE82TUw1Sms1OGxtR1dEVWNPSlFEWHAzODItZjJiU3dXMi1acTdsZjNzOC1Wa09KbkVLVWFzMHN6YnEtM3JmOHFUQjVwb2pScE9YaFVuYzVodG5TNmVIQi1fWEhmWXJBTU5DS01acVVKcURCVzJDRnZJZFdKRFlzZWllaVBxQ1VBYTJPWFYyZkRFT2F2ajVaazF4RXpfWGhEcU5O?oc=5",
+     "time": "2026-11-17T23:53:26+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
+   "symbol": "AVGO",
+   "name": "Broadcom",
+   "list": "portfolio",
+   "price": 349.03,
+   "prev_close": 341.6,
+   "change_pct": 2.2,
+   "trigger_change": 3.7,
+   "peak_change": 3.9,
+   "first_seen": "2026-11-18T15:26:22+00:00",
+   "sector": {
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 455.35,
+    "change_pct": -1.03
+   },
+   "chart": {
+    "ema8": 2.6,
+    "ema21": 3.6,
+    "sma50": 1.4,
+    "sma200": -5.1,
+    "momentum": true
+   },
+   "headlines": [
+    {
+     "title": "Nvidia Vs. Broadcom: Which AI Stock Could Be The Better Investment Through 2028?",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOWGtaakVNMURSN0J6Z3VzRWxLMWU5em0za2k0LWFNV08tclp5UkxkMHRIX0wxY2FMVWFOZmVtZ2EyZEFwNFVvQ253LWlsWFp5RElGOEdLc1lDcnVpSS1WZUpVQUdvUVpINUxaVVNxNkpjM2huZExfVEFjM0dEc1U5V0VCbGtjWnNXSHBpTzAwbmIzb3RxNURpb0JqLWN6dzJ3RDZCVlNGTFdPdnQ1bnJraXQ3bHNubnRCNHNJS1ZYRWpwYnlRZ0RaZWtR?oc=5",
+     "time": "2026-11-18T15:47:49+00:00"
+    },
+    {
+     "title": "Will AVGO break $367.45 resistance amid continued buyer support and high volatility?",
+     "publisher": "Traders Union",
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNbzQyeWpTN3hkcHFZdXVDNFNpQXY4SjNtMGZwU2dFYm5sekdmNnFDemx3Z2Y4YUctMm1Yc1NuSzI2Unp5cTMwOGh2bFNwZHp3bnk3SEM5TEZtX2pLbTYzX3hCM2J2NGRxTnlrbWtFRmxLQTdqb3hWYllieVlpWk1MaGV4UUhJT2NTYzNlOEpObjh1Wjdi?oc=5",
+     "time": "2026-11-18T15:38:31+00:00"
+    },
+    {
+     "title": "Here\u2019s Why Technology Spending Over the Next 3 Years Could Make Broadcom (AVGO) a Winner",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQTGdNZ1lTVUhINmlLejVxczhDRlRBbGtUdHo4RU9VYmVsZEkwYlMxX3RnbDBVdE5wYVBMaFZ2aHY4N2tseGtKUU4yZ2k5RGk5V3dNR1VGZDlyLTFnQmF5UXJGV0ZyXzVRSndOWjluV2VpMW5kOThSaGYxMGJ2TEVxWS1TRnhsUWpnZlU3S0s1NVN5RmJBMFhPZTNR?oc=5",
+     "time": "2026-11-18T15:38:01+00:00"
+    },
+    {
+     "title": "How Broadcom\u2019s (AVGO) Anthropic Equipment Leases Link AI Growth to Financing",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOdmVpNmxfakxGaHN2YlBHVjNVVFAzN29Ra0VHLTN1Qzl1YjBOWFdrUVlUaThoSVhZNTI2clNhZ3NkN1EzZDZrdVg4ZThOQ1g3WGhlRHhad0ZpYkJuNmVCZVBSV19MblpZVy1oX2ZiaEgxRFl5U1BZTzVpU2lXbHM3SGFZWndrTnlBMDhVSFdmdVlpOXlnNkJfRjcwUmpsdjdlbm5HRldGMA?oc=5",
+     "time": "2026-11-18T15:23:02+00:00"
+    },
+    {
+     "title": "AMD, Broadcom, CoreWeave stocks mixed on Nvidia Q3 earnings beat",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPajBIQVJwYUNFRGNGRE43Zm9HQlVqZUp2X0l4OThSWGk1R0JfbHdWLW9MQWNib0otSzBya3YybmJPOXlwSjRrRi14QmkxWklOV1JsZEhpc1BDNkphOUdPTmVZT0ZiZUhfXzNNNmZWM21oY04weVJNY2VfOU1TRHJERElfYllUWVNJMHdkS291b2ZuQTlhSGpqZXVaeks4cF82bjZfVlJyWUJRWS13X3RCNkxlMVRob2JnNUNPMWdUT05xX1prUjF6NURIZ3JoNjhaM1EwT3BMRXVwb09zTGNZTA?oc=5",
+     "time": "2026-11-18T15:12:33+00:00"
+    },
+    {
+     "title": "NVIDIA Rises 3% After Record Quarter as Wells Fargo Sees $250 and Barclays Backs Board on Huang; Taiwan Semiconductor Climbs 3%, Broadcom Gains 2%",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxONU1fYnFqRUJ0TlgweC1LR0c1eUVNaFRjdzg5eTFDajJ5RmZQMWUwaXhyTnVWWkVYZ0ROa3R0ajA0MGhUdTFGWS0zdUliOTRMYVFNcEgzSEhDRWw5V2Z6NTVoMkQ3ZkxMbU1TUU1qMF9Eb0MzTkZVWlRTbXZfcXkyS1RzOUxCaHVGVzdCS0F6RHNfY0hZY0pWNE5n?oc=5",
+     "time": "2026-11-18T14:06:50+00:00"
+    },
+    {
+     "title": "Broadcom Has a $27 Billion Advantage Over Taiwan Semiconductor as Your Portfolio\u2019s AI Anchor",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPcExhZjVKUFpxUkJXODFrUjNqYWlOM0tJWEdRaW5pbWk0NWVUZEFYRktSc1JnZGpaZENmQ0R0N1doNS1zX3k3eHk3T0VvcS1Bc0xzSjNJdlljX0NKT1gzMzlERXhHaGYtMGpkdEtIdVBRM2h2cVZ4VmtVN1lKdDZTSmNoYXVlQTlMNS1oTUhnS2Zpc1pZVnpneVZnQ0VGZ0E?oc=5",
+     "time": "2026-11-18T13:45:05+00:00"
+    },
+    {
+     "title": "Broadcom stock could rise to $600 by 2027 drive...",
+     "publisher": "Pluang",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOLUZzYWtqX0lGbGdfamZfRmlFQVdMZWluTngxX0lIMGw2NGY2aHZVR1dLbkVSQnZfM0lReHpqaEVvUXVLM1k5Sk81Yzk5U2dRLXJyYy0ta2JPR25JSTJEZE83UDBjTnRmRkxud1FhQ1ctMkRKcFltc2NlY2p3Z2lybGwxdU83bXp3NTdlZ2FyWHR5ZjUweXdqU09aeXk?oc=5",
+     "time": "2026-11-18T13:33:19+00:00"
+    }
+   ],
+   "brief": "2026-11-18-AVGO"
+  },
+  {
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 107.81,
+   "price": 106.55,
    "prev_close": 106.03,
-   "change_pct": 1.7,
+   "change_pct": 0.5,
    "trigger_change": 3.1,
    "peak_change": 3.1,
    "first_seen": "2026-11-18T15:21:21+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 96.98,
-    "change_pct": 1.3
+    "price": 96.19,
+    "change_pct": 0.47
    },
    "chart": {
-    "ema8": -10.4,
-    "ema21": -24.2,
-    "sma50": -42.3,
-    "sma200": -40.0,
+    "ema8": -11.2,
+    "ema21": -25.0,
+    "sma50": -43.0,
+    "sma200": -40.7,
     "momentum": false
    },
    "headlines": [
