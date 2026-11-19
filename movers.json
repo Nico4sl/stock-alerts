@@ -1,22 +1,22 @@
 {
  "date": "2026-11-19",
  "threshold": 3.0,
- "updated": "2026-11-19T15:12:02+00:00",
+ "updated": "2026-11-19T15:27:10+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 735.26,
-   "change_pct": 0.69
+   "price": 731.3,
+   "change_pct": 0.15
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 670.71,
-   "change_pct": 1.7
+   "price": 663.98,
+   "change_pct": 0.68
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 79.92,
-   "change_pct": -0.37
+   "price": 80.06,
+   "change_pct": -0.21
   }
  },
  "movers": [
@@ -24,23 +24,23 @@
    "symbol": "CRWD",
    "name": "CrowdStrike",
    "list": "portfolio",
-   "price": 254.04,
+   "price": 251.08,
    "prev_close": 237.03,
-   "change_pct": 7.2,
+   "change_pct": 5.9,
    "trigger_change": 6.4,
    "peak_change": 7.4,
    "first_seen": "2026-11-19T14:56:40+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 99.75,
-    "change_pct": 2.9
+    "price": 98.33,
+    "change_pct": 1.43
    },
    "chart": {
-    "ema8": 8.3,
-    "ema21": 7.2,
-    "sma50": 2.9,
-    "sma200": 44.7,
+    "ema8": 7.3,
+    "ema21": 6.0,
+    "sma50": 1.8,
+    "sma200": 43.0,
     "momentum": false
    },
    "headlines": [
@@ -99,23 +99,23 @@
    "symbol": "AXON",
    "name": "Axon",
    "list": "watchlist",
-   "price": 320.54,
+   "price": 313.69,
    "prev_close": 300.69,
-   "change_pct": 6.6,
+   "change_pct": 4.3,
    "trigger_change": 6.9,
    "peak_change": 8.2,
    "first_seen": "2026-11-19T14:56:40+00:00",
    "sector": {
     "etf": "XLI",
     "name": "Industrials",
-    "price": 164.45,
-    "change_pct": -0.13
+    "price": 163.78,
+    "change_pct": -0.53
    },
    "chart": {
-    "ema8": 1.0,
-    "ema21": -8.7,
-    "sma50": -20.4,
-    "sma200": -30.8,
+    "ema8": -0.7,
+    "ema21": -10.5,
+    "sma50": -22.0,
+    "sma200": -32.3,
     "momentum": false
    },
    "headlines": [
@@ -171,26 +171,101 @@
    "brief": null
   },
   {
+   "symbol": "UNH",
+   "name": "UnitedHealth",
+   "list": "portfolio",
+   "price": 338.43,
+   "prev_close": 349.91,
+   "change_pct": -3.3,
+   "trigger_change": -3.3,
+   "peak_change": -3.3,
+   "first_seen": "2026-11-19T15:27:10+00:00",
+   "sector": {
+    "etf": "XLV",
+    "name": "Health care",
+    "price": 179.04,
+    "change_pct": -1.18
+   },
+   "chart": {
+    "ema8": -10.7,
+    "ema21": -13.6,
+    "sma50": -13.1,
+    "sma200": -8.1,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "UnitedHealth Group stock fell 10.21%, with RSI14 at 28.48",
+     "publisher": "The Cryptonomist",
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNNWNaa3dId3M4b3ZERnlfcFZWV2dkbkRncUMtMERnanFmUVpPak83Vk1YNmhMeVc2eVBFM21ValFfRFBQRUVTSEFPOGJUeGxZQng5cG5FeElkS2lES1B1MzhEWXhHc1B0OXJTLUN2MjQxTUxmSVpYQU54c3NoQ2dZRjA2aTcydlZOVGxvaTF3?oc=5",
+     "time": "2026-11-19T12:52:38+00:00"
+    },
+    {
+     "title": "UnitedHealth Shares Sink as New Federal Fraud Crackdown Sparks Healthcare Sell-Off",
+     "publisher": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPUnBjVy1ZbnhtY19JdjUteVdxWWQzdnAyR0pHX2dZRGd1Rk1DZ2Y0aDlkR25mT1dWWFc4ZzJsaEgyZWIxSHZRMzQyR0poYVJ6WktvMEtOX2EzX1ZHNlZxZ01DMHVuZy1oQ0F1Yi1Sak5Qdi1zN3BBS2tVTkJtSWtsWTR4RW9BREwzMzd6NWFPa1U0UDk1Y0w0Q3pNbFNfU1FXdWpnZjhUVU5lbTM1RVhIVjZUWU9mX1NtejRBNFlvMWhzWlcwbE0zeklqc08wQWFBNFgzV2M1TC1Zdw?oc=5",
+     "time": "2026-11-19T12:25:29+00:00"
+    },
+    {
+     "title": "41 ETFs Add to UnitedHealth (UNH) Holdings on Nov. 17",
+     "publisher": "GuruFocus",
+     "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxPUzQzbWlQUkI5UmVaZTVzdGs1Z3RMMDVDS1VUQnQ1OGVjd0JDU1JRdjlUb2o0cjNHOV91elBJT3NJdmxMYl9DTTZncUNhOTJMQ1VXUmtUQU54aklCS3Q2RVhXdVJ5TndZX29fTU1rTjBGcHJqVF94dElwM2I3amhPN25DRmVodVAtZEdyQVpORGc2aFNOUl80QUpxRnJNcUo1Q0wxRXpjT0RWWVRmWVQzaUtTVnJRWGRzc0VaOVJIcDRHTGJnYTVhenYtczI4NXdzZDYwMm5CYmRyX2J3WE9LUnlqd044bkF5c2w2U1RyV0VpS1FxMldsTWp0WXdleUQyeXV5dTByMmN1UXBBQnBUVE1jUFNSZk9ReWRwQWcyVVM?oc=5",
+     "time": "2026-11-19T11:19:14+00:00"
+    },
+    {
+     "title": "Should You Buy UnitedHealth Group Stock For Its Cash?",
+     "publisher": "Trefis",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPT2ZIZERpTS1MOUZaN2J4UERVNkpZMWFqMVR6ZllYdVlSaU9Ja2VYeDZTUmcwNHZkNTdTemZfMWh6QXNwbFk2NmN5WDQzcGpWV3NXeTgwekhvczJISXhkQThTRTBpTVY2SEFyemhKRFQ0SUlwMjBGWjBlclJPZUoyWDRpSWhCQVFJN09OR3ZNQzBEcFJyWnRDMXNYQ1dnMTJpUkR4SlFyVkVlX0ZrTWdHV3lB?oc=5",
+     "time": "2026-11-19T09:25:48+00:00"
+    },
+    {
+     "title": "UnitedHealth stock falls 10.21% on Medicare audit fears",
+     "publisher": "finchannel",
+     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNcE1HV1owY2ZkclpBNkc3bWZ3akJJcUpxZ21RRGRvSjh1aEFQS1B3a01MUnVfSnMzR2VGcllSXzhHcS1tNE15Qms5azVCcjVpeTlEd3hRLTFBU09sak9yTEFpVkpQbW5ZTmRNVFRFa2NENy1XcDNCaTllQnFtYTZZUFQ1NUQ2X1A1dTNlbFhuZGkzUW9LOXdDcHZkYkQ3WVJSdkdmWE5xYTdNLUEycVdTZFNjNHlXalc2bWN4VnZYMHBxcDhPc3hZbXk4Q0ZfQWM5R2tn?oc=5",
+     "time": "2026-11-19T07:12:27+00:00"
+    },
+    {
+     "title": "UnitedHealth Stock (UNH) Falls 10.2% on CMS Audit Proposal (Nov 18)",
+     "publisher": "Gotrade",
+     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPTXdKcXUyekNIakpGT0pWYjhZMmplVUVESEVEQ25ERG1RQkJIZVVtWmNVVzk3SFRJUEE3RVhtMGxKT2NwX0lvZDBKN2RFUnRuNVE1R3RMZjZoc3lhdEVMa3dmWlROZlJJNGNpZzlwWGRBeDJxMmpQRmF1SXVNVUIzajVIU1JKNW8?oc=5",
+     "time": "2026-11-19T03:30:00+00:00"
+    },
+    {
+     "title": "UnitedHealth Group (UNH) Stock Price Prediction: Pullback tests support as trading momentum cools",
+     "publisher": "Blockchain News",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQWllkN3huOVRSZW5IM3VsQkpFSGxvNWhFa0hnQW9WZUp4ZDV1bnhwR3doWE9TWGpzTk9FMkxLR25MTUxxcUs0SW1XOEVtb29OcmVORzNfeUkyR3FYdjl5RzdodWJGU1JQZEpNV0lfeTEyVUFCRmMwMXBHTkZMSUVnUjBBTDd6NFJDTlJpYnRQeG40V1JzajNVbUd1TktfaUgxMXRv?oc=5",
+     "time": "2026-11-18T23:47:00+00:00"
+    },
+    {
+     "title": "Why UnitedHealth and Other Medicare Advantage Insurers Are Falling",
+     "publisher": "Barron's",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOMUcxajhfSjFyOVAzVGVhS2FDVWYwZ3EtdnhSdUxwOXpPdXI2MjlnSk4yY1lrSGc2ZEZMa1RUZHNkenBzb1VyWGEyYXF3Zkc5bGNINmlsY1FqQlY3b2JLS2NDWVpRRTAteGdUZl9aSldGTlluZDhZRGpmVmt4MWVUd1oxYzhHV0ZYYk5RVmVkcEY2VE1UVEVuTUtFT092QQ?oc=5",
+     "time": "2026-11-18T22:37:00+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
    "symbol": "GOOG",
    "name": "Alphabet",
    "list": "portfolio",
-   "price": 289.86,
+   "price": 287.53,
    "prev_close": 279.2,
-   "change_pct": 3.8,
+   "change_pct": 3.0,
    "trigger_change": 4.1,
    "peak_change": 4.2,
    "first_seen": "2026-11-19T14:56:40+00:00",
    "sector": {
     "etf": "XLC",
     "name": "Communication",
-    "price": 105.91,
-    "change_pct": 0.31
+    "price": 105.27,
+    "change_pct": -0.29
    },
    "chart": {
-    "ema8": 1.4,
-    "ema21": -1.8,
-    "sma50": -9.7,
-    "sma200": -13.5,
+    "ema8": 0.8,
+    "ema21": -2.5,
+    "sma50": -10.4,
+    "sma200": -14.2,
     "momentum": false
    },
    "headlines": [
@@ -249,23 +324,23 @@
    "symbol": "AMAT",
    "name": "Applied Materials",
    "list": "portfolio",
-   "price": 363.12,
+   "price": 356.43,
    "prev_close": 352.3,
-   "change_pct": 3.1,
+   "change_pct": 1.2,
    "trigger_change": 3.5,
    "peak_change": 3.5,
    "first_seen": "2026-11-19T15:06:52+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 475.15,
-    "change_pct": 3.4
+    "price": 468.32,
+    "change_pct": 1.91
    },
    "chart": {
-    "ema8": 0.3,
-    "ema21": -4.5,
-    "sma50": -15.4,
-    "sma200": -18.8,
+    "ema8": -1.2,
+    "ema21": -6.1,
+    "sma50": -16.9,
+    "sma200": -20.3,
     "momentum": false
    },
    "headlines": [
@@ -324,23 +399,23 @@
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 108.76,
+   "price": 105.83,
    "prev_close": 106.96,
-   "change_pct": 1.7,
+   "change_pct": -1.1,
    "trigger_change": 3.4,
    "peak_change": 3.6,
    "first_seen": "2026-11-19T14:56:40+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 99.75,
-    "change_pct": 2.9
+    "price": 98.33,
+    "change_pct": 1.43
    },
    "chart": {
-    "ema8": -7.5,
-    "ema21": -21.8,
-    "sma50": -41.0,
-    "sma200": -39.5,
+    "ema8": -9.5,
+    "ema21": -23.8,
+    "sma50": -42.6,
+    "sma200": -41.1,
     "momentum": false
    },
    "headlines": [
