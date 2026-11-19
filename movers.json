@@ -1,22 +1,22 @@
 {
  "date": "2026-11-19",
  "threshold": 3.0,
- "updated": "2026-11-19T16:53:19+00:00",
+ "updated": "2026-11-19T16:58:30+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 724.19,
+   "price": 724.18,
    "change_pct": -0.82
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 657.04,
-   "change_pct": -0.37
+   "price": 655.4,
+   "change_pct": -0.62
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 80.18,
-   "change_pct": -0.05
+   "price": 80.26,
+   "change_pct": 0.05
   }
  },
  "movers": [
@@ -24,23 +24,23 @@
    "symbol": "UNH",
    "name": "UnitedHealth",
    "list": "portfolio",
-   "price": 327.24,
+   "price": 326.2,
    "prev_close": 349.91,
-   "change_pct": -6.5,
+   "change_pct": -6.8,
    "trigger_change": -3.3,
-   "peak_change": -6.5,
+   "peak_change": -6.8,
    "first_seen": "2026-11-19T15:27:10+00:00",
    "sector": {
     "etf": "XLV",
     "name": "Health care",
-    "price": 178.16,
-    "change_pct": -1.66
+    "price": 177.93,
+    "change_pct": -1.79
    },
    "chart": {
-    "ema8": -13.1,
-    "ema21": -16.3,
-    "sma50": -16.0,
-    "sma200": -11.1,
+    "ema8": -13.3,
+    "ema21": -16.5,
+    "sma50": -16.2,
+    "sma200": -11.4,
     "momentum": false
    },
    "headlines": [
@@ -96,101 +96,26 @@
    "brief": "2026-11-19-UNH"
   },
   {
-   "symbol": "CRWD",
-   "name": "CrowdStrike",
-   "list": "portfolio",
-   "price": 249.3,
-   "prev_close": 237.03,
-   "change_pct": 5.2,
-   "trigger_change": 6.4,
-   "peak_change": 7.4,
-   "first_seen": "2026-11-19T14:56:40+00:00",
-   "sector": {
-    "etf": "IGV",
-    "name": "Software",
-    "price": 98.39,
-    "change_pct": 1.5
-   },
-   "chart": {
-    "ema8": 6.8,
-    "ema21": 5.4,
-    "sma50": 1.1,
-    "sma200": 42.0,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "CrowdStrike (CRWD) Stock Price Prediction: Rally Meets Resistance as Momentum Stretches Above Near-Term Averages",
-     "publisher": "Blockchain News",
-     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNRFlrTjVZXzU0aUo1OE0yaEFCYkRJZnJEV3RrWkk3Y3pqTmFOVFJkNWF6VXBvVzczUF8xV1NTUXVtVWhCZm5kT1hCdkdkenZ5VXhEc3FwSUNnZlRheFdpVDRjMXNHTnhhYzh0WUJJODZISFVfSlpPT1JVTjFYRmpOd3h6ZHVEMGtTTm9fVWlxSWtSOWNvSS1oYWx0MUw0MUhCdDJVS0FMcw?oc=5",
-     "time": "2026-11-19T14:05:00+00:00"
-    },
-    {
-     "title": "Here\u2019s why SentinelOne, Okta, Zscaler, and Crowdstrike stocks rising today",
-     "publisher": "Invezz",
-     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPTnpPSkZiSzBqRC1kLUxoNkJnVTlRUWhEQWotWUg0N3lhOU04a2ZhTy1qZ2FVcmN0NEFMZUtFRl81OVQ4dUJBQVFfQWZOWjg2Z0h4Tms3eHVXRXNpVzNVQUZEcXNBUktEZXlzVjVfeXhHUlZtLTJZQ0t3SzJhRzlLblZST1YwOHRheExETXEzcVlYeHFQUUpmazk2aHhXUmxabnF2ZXZkbnh4anN4bmc?oc=5",
-     "time": "2026-11-19T13:53:31+00:00"
-    },
-    {
-     "title": "CrowdStrike Stock Forecast: CRWD Rallies 8% as Strong Earnings Lift Sector",
-     "publisher": "FXLeaders",
-     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPLVdRSTdCc0QzZExSQ0FGZTJxWXFRMThGcENFMkltTXMzeHNxVGJQTnlGbWpKbnQ2Y1FCd3hxMTl2R1VxQnNfTENNdGdZRlI5VnFvVjh1dGpEbUQ1ajdSMkQ4UG95WmFVcC1GM2tzVWlodHhuLXVjTGx3ZnltWDRJaVpNUVU4UTEycjBlb29yOA?oc=5",
-     "time": "2026-11-19T13:04:48+00:00"
-    },
-    {
-     "title": "Could CrowdStrike (NASDAQ:CRWD) Shares Keep Rising After CISA Warned About the Java4Shell Bug?",
-     "publisher": "kalkine.ca",
-     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNb1JsZEpFaFpRU3ZtQzhuclU3ajJTc3JKZmtZcGVaZ2I5R2RoVzczY3hfOWJPYXVkUWlfQ2ZkeUdNQzJhLWJLVVQxbFg0dHdpckh2a2VxUmlicGdUeUdDR0ZyYWZMbnlkbVlqNVZTUG05Qi1TcEpfaGQ1aVJsSFdPQm54ZlRodzFCRE4xaFc2RDNVSFMtdlVkWkJBLWNsSVNnWDBhbTRGQmxsZmY0dDJNLVJIVHEyVWY0ZU9wZmRlNXdrMmc?oc=5",
-     "time": "2026-11-19T12:38:00+00:00"
-    },
-    {
-     "title": "Why Is CrowdStrike Stock Surging Thursday?",
-     "publisher": "Benzinga",
-     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQNmhTZnZBX2x3cllZemhpc0ZueUJpeG9kcHZ2dlpGVkxsZGpBemRVWENtLTBYTURHVzd0Sno5SnV4RUNvVTdZbWhXcWVVWXdrbEZWYnNyclhjNkpPTU9YMVRGTlNWNmV5OWJiZ1E4MEVCckdwZ29SbmdrakpSYzR4TEVuNXR5cHJuMGI1UXBhX2ZsSjVFWHZTTm93?oc=5",
-     "time": "2026-11-19T11:53:34+00:00"
-    },
-    {
-     "title": "AI Hacking Fears Test The Bull Case For CrowdStrike Stock",
-     "publisher": "Simply Wall St",
-     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPNjZic0tpcGxDX2xEMHZrdUxNaFRLb3NaQzN5TFZGaHItaVppMjhpOGN2NzlKMHN2NGtKcURfZE1hSzkyb2RoQllZTVV3SVJfMUMtTk90NWlscmxseXEyWEZpbU9VeEpDQ1pvcmdyLVFpX010VWEzNko5T3N5M180Yk1iREg2c3B4VTM4Z2R6SmxLSFhOMG1VcTgzMzdmS1lkaGZSd2l6WWtmOTFiYnQwTURJNk9WNU5yQ2VwY3JFYy1lX2tzZDVsUWRINzJVNlBTNlHSAdcBQVVfeXFMUHBkWmU0SHRHQlVDbzRFNFZmTEg1ZWFQOWFVdXZVOEZuY2xrNGM2NER4WHJYOGhnd0p2YXc4ckt0Q0ZWclNvUVZEaU9HOEUzOFJlU2NEVFVTTTF5dV80eFd3Q1FhcExtYldmSTY0bDYyeGNGaklyOUtmNGVueXJkZWVMWEtic3l5b3BrYzZmUnNVaWIydGpsZjFrNVB2YlFGZG5JQm5sdHhVeW5WWTB3NHk2VkZzYWZmcm82ZXNydlQzcUhQeFJ2LXA3QjNYSmpwS0c3VjI4UWs?oc=5",
-     "time": "2026-11-19T06:14:06+00:00"
-    },
-    {
-     "title": "Is CrowdStrike (NASDAQ:CRWD) Securing the Rise of AI Agents?",
-     "publisher": "Kalkine Media",
-     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZXFFSmhvNkI1d2hKMEIxUVhfd3I2V01MbFotTXpGcmRPZXhYME5RXzdHVmpjR1NRZjFlbFA0ZFRpdnJhQ19XZGtNdDhxQjhkQ0tKNV9jOWNibGhfZ3hYYkRqc1J3Wm94dE4xZzJuRXRpbDV1aUFaYXVPakxMa1F0NTZfM29iMUFGckJ2T082LWhmbWJlaWJuZHBVUHltNkE?oc=5",
-     "time": "2026-11-19T05:02:00+00:00"
-    },
-    {
-     "title": "CrowdStrike (CRWD) is Getting Investor Attention \u2014 Here\u2019s Why",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOVTVCNEc0TTRzbzN0UEdRLWI4Q0ZwVjJJekNqV1ZmemtJSS03c041MGR1d2djdTJNdmVxNGZwdVpibGFxTFk0bkt6Y0oyem9YNUdxNXRTS0V6ZldLR21IQVVBaE9BN0FUd2Y3N2djMnZWaUFfTDNSY29DWHJsY3ptZXU2T1pnbkk4NWlmaF9IdzVfbHlKNzJ6WEE2Z3JBZXZjbjFJZ29uWFNFbG1k?oc=5",
-     "time": "2026-11-19T03:33:00+00:00"
-    }
-   ],
-   "brief": "2026-11-19-CRWD"
-  },
-  {
    "symbol": "AXON",
    "name": "Axon",
    "list": "watchlist",
-   "price": 314.62,
+   "price": 315.27,
    "prev_close": 300.69,
-   "change_pct": 4.6,
+   "change_pct": 4.9,
    "trigger_change": 6.9,
    "peak_change": 8.2,
    "first_seen": "2026-11-19T14:56:40+00:00",
    "sector": {
     "etf": "XLI",
     "name": "Industrials",
-    "price": 162.92,
-    "change_pct": -1.06
+    "price": 162.29,
+    "change_pct": -1.44
    },
    "chart": {
-    "ema8": -0.4,
-    "ema21": -10.3,
-    "sma50": -21.8,
-    "sma200": -32.1,
+    "ema8": -0.3,
+    "ema21": -10.1,
+    "sma50": -21.7,
+    "sma200": -32.0,
     "momentum": false
    },
    "headlines": [
@@ -246,26 +171,101 @@
    "brief": "2026-11-19-AXON"
   },
   {
-   "symbol": "NBIS",
-   "name": "Nebius",
+   "symbol": "CRWD",
+   "name": "CrowdStrike",
    "list": "portfolio",
-   "price": 102.42,
-   "prev_close": 106.96,
-   "change_pct": -4.2,
-   "trigger_change": 3.4,
-   "peak_change": -4.2,
+   "price": 248.15,
+   "prev_close": 237.03,
+   "change_pct": 4.7,
+   "trigger_change": 6.4,
+   "peak_change": 7.4,
    "first_seen": "2026-11-19T14:56:40+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 98.39,
-    "change_pct": 1.5
+    "price": 97.72,
+    "change_pct": 0.8
    },
    "chart": {
-    "ema8": -11.9,
-    "ema21": -26.1,
-    "sma50": -44.4,
-    "sma200": -43.0,
+    "ema8": 6.4,
+    "ema21": 4.9,
+    "sma50": 0.6,
+    "sma200": 41.4,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "CrowdStrike (CRWD) Stock Price Prediction: Rally Meets Resistance as Momentum Stretches Above Near-Term Averages",
+     "publisher": "Blockchain News",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNRFlrTjVZXzU0aUo1OE0yaEFCYkRJZnJEV3RrWkk3Y3pqTmFOVFJkNWF6VXBvVzczUF8xV1NTUXVtVWhCZm5kT1hCdkdkenZ5VXhEc3FwSUNnZlRheFdpVDRjMXNHTnhhYzh0WUJJODZISFVfSlpPT1JVTjFYRmpOd3h6ZHVEMGtTTm9fVWlxSWtSOWNvSS1oYWx0MUw0MUhCdDJVS0FMcw?oc=5",
+     "time": "2026-11-19T14:05:00+00:00"
+    },
+    {
+     "title": "Here\u2019s why SentinelOne, Okta, Zscaler, and Crowdstrike stocks rising today",
+     "publisher": "Invezz",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPTnpPSkZiSzBqRC1kLUxoNkJnVTlRUWhEQWotWUg0N3lhOU04a2ZhTy1qZ2FVcmN0NEFMZUtFRl81OVQ4dUJBQVFfQWZOWjg2Z0h4Tms3eHVXRXNpVzNVQUZEcXNBUktEZXlzVjVfeXhHUlZtLTJZQ0t3SzJhRzlLblZST1YwOHRheExETXEzcVlYeHFQUUpmazk2aHhXUmxabnF2ZXZkbnh4anN4bmc?oc=5",
+     "time": "2026-11-19T13:53:31+00:00"
+    },
+    {
+     "title": "CrowdStrike Stock Forecast: CRWD Rallies 8% as Strong Earnings Lift Sector",
+     "publisher": "FXLeaders",
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPLVdRSTdCc0QzZExSQ0FGZTJxWXFRMThGcENFMkltTXMzeHNxVGJQTnlGbWpKbnQ2Y1FCd3hxMTl2R1VxQnNfTENNdGdZRlI5VnFvVjh1dGpEbUQ1ajdSMkQ4UG95WmFVcC1GM2tzVWlodHhuLXVjTGx3ZnltWDRJaVpNUVU4UTEycjBlb29yOA?oc=5",
+     "time": "2026-11-19T13:04:48+00:00"
+    },
+    {
+     "title": "Could CrowdStrike (NASDAQ:CRWD) Shares Keep Rising After CISA Warned About the Java4Shell Bug?",
+     "publisher": "kalkine.ca",
+     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNb1JsZEpFaFpRU3ZtQzhuclU3ajJTc3JKZmtZcGVaZ2I5R2RoVzczY3hfOWJPYXVkUWlfQ2ZkeUdNQzJhLWJLVVQxbFg0dHdpckh2a2VxUmlicGdUeUdDR0ZyYWZMbnlkbVlqNVZTUG05Qi1TcEpfaGQ1aVJsSFdPQm54ZlRodzFCRE4xaFc2RDNVSFMtdlVkWkJBLWNsSVNnWDBhbTRGQmxsZmY0dDJNLVJIVHEyVWY0ZU9wZmRlNXdrMmc?oc=5",
+     "time": "2026-11-19T12:38:00+00:00"
+    },
+    {
+     "title": "Why Is CrowdStrike Stock Surging Thursday?",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQNmhTZnZBX2x3cllZemhpc0ZueUJpeG9kcHZ2dlpGVkxsZGpBemRVWENtLTBYTURHVzd0Sno5SnV4RUNvVTdZbWhXcWVVWXdrbEZWYnNyclhjNkpPTU9YMVRGTlNWNmV5OWJiZ1E4MEVCckdwZ29SbmdrakpSYzR4TEVuNXR5cHJuMGI1UXBhX2ZsSjVFWHZTTm93?oc=5",
+     "time": "2026-11-19T11:53:34+00:00"
+    },
+    {
+     "title": "AI Hacking Fears Test The Bull Case For CrowdStrike Stock",
+     "publisher": "Simply Wall St",
+     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPNjZic0tpcGxDX2xEMHZrdUxNaFRLb3NaQzN5TFZGaHItaVppMjhpOGN2NzlKMHN2NGtKcURfZE1hSzkyb2RoQllZTVV3SVJfMUMtTk90NWlscmxseXEyWEZpbU9VeEpDQ1pvcmdyLVFpX010VWEzNko5T3N5M180Yk1iREg2c3B4VTM4Z2R6SmxLSFhOMG1VcTgzMzdmS1lkaGZSd2l6WWtmOTFiYnQwTURJNk9WNU5yQ2VwY3JFYy1lX2tzZDVsUWRINzJVNlBTNlHSAdcBQVVfeXFMUHBkWmU0SHRHQlVDbzRFNFZmTEg1ZWFQOWFVdXZVOEZuY2xrNGM2NER4WHJYOGhnd0p2YXc4ckt0Q0ZWclNvUVZEaU9HOEUzOFJlU2NEVFVTTTF5dV80eFd3Q1FhcExtYldmSTY0bDYyeGNGaklyOUtmNGVueXJkZWVMWEtic3l5b3BrYzZmUnNVaWIydGpsZjFrNVB2YlFGZG5JQm5sdHhVeW5WWTB3NHk2VkZzYWZmcm82ZXNydlQzcUhQeFJ2LXA3QjNYSmpwS0c3VjI4UWs?oc=5",
+     "time": "2026-11-19T06:14:06+00:00"
+    },
+    {
+     "title": "Is CrowdStrike (NASDAQ:CRWD) Securing the Rise of AI Agents?",
+     "publisher": "Kalkine Media",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZXFFSmhvNkI1d2hKMEIxUVhfd3I2V01MbFotTXpGcmRPZXhYME5RXzdHVmpjR1NRZjFlbFA0ZFRpdnJhQ19XZGtNdDhxQjhkQ0tKNV9jOWNibGhfZ3hYYkRqc1J3Wm94dE4xZzJuRXRpbDV1aUFaYXVPakxMa1F0NTZfM29iMUFGckJ2T082LWhmbWJlaWJuZHBVUHltNkE?oc=5",
+     "time": "2026-11-19T05:02:00+00:00"
+    },
+    {
+     "title": "CrowdStrike (CRWD) is Getting Investor Attention \u2014 Here\u2019s Why",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOVTVCNEc0TTRzbzN0UEdRLWI4Q0ZwVjJJekNqV1ZmemtJSS03c041MGR1d2djdTJNdmVxNGZwdVpibGFxTFk0bkt6Y0oyem9YNUdxNXRTS0V6ZldLR21IQVVBaE9BN0FUd2Y3N2djMnZWaUFfTDNSY29DWHJsY3ptZXU2T1pnbkk4NWlmaF9IdzVfbHlKNzJ6WEE2Z3JBZXZjbjFJZ29uWFNFbG1k?oc=5",
+     "time": "2026-11-19T03:33:00+00:00"
+    }
+   ],
+   "brief": "2026-11-19-CRWD"
+  },
+  {
+   "symbol": "NBIS",
+   "name": "Nebius",
+   "list": "portfolio",
+   "price": 102.11,
+   "prev_close": 106.96,
+   "change_pct": -4.5,
+   "trigger_change": 3.4,
+   "peak_change": -4.5,
+   "first_seen": "2026-11-19T14:56:40+00:00",
+   "sector": {
+    "etf": "IGV",
+    "name": "Software",
+    "price": 97.72,
+    "change_pct": 0.8
+   },
+   "chart": {
+    "ema8": -12.1,
+    "ema21": -26.3,
+    "sma50": -44.6,
+    "sma200": -43.2,
     "momentum": false
    },
    "headlines": [
@@ -321,101 +321,26 @@
    "brief": "2026-11-19-NBIS"
   },
   {
-   "symbol": "GOOG",
-   "name": "Alphabet",
-   "list": "portfolio",
-   "price": 282.68,
-   "prev_close": 279.2,
-   "change_pct": 1.2,
-   "trigger_change": 4.1,
-   "peak_change": 4.2,
-   "first_seen": "2026-11-19T14:56:40+00:00",
-   "sector": {
-    "etf": "XLC",
-    "name": "Communication",
-    "price": 105.19,
-    "change_pct": -0.37
-   },
-   "chart": {
-    "ema8": -0.5,
-    "ema21": -4.0,
-    "sma50": -11.9,
-    "sma200": -15.7,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "SHAREHOLDER ALERT Bernstein Liebhard LLP Announces A",
-     "publisher": "GlobeNewswire",
-     "url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxPdVJYMHBIUUtvVWpHVDNRbkxYYkhTRW5BcGU0cUNXZ0pUV0pESDZBYW1tTjhSUzA0cGpLNUhuMDJ2RVFKcE9kYzhUZDhpUjc0Zmo3Y2F2dE9leXB6Qkd1bk5hb2ZnWDNVTlZUbnQwOEYxUGxFYnBwSnRpbE9JUmxkR2hzY1A2WnZFMUlXZ2Znd013cWVFWklacVFXVzc4OHNVMm44NzFsOWE0RGtQa1lCR3VpN2M1MEVoMTd1X3I4dVhQNmp3RmdyUFZPOGZRYUtfR05uTXRacFBnOVZwdXp6YU02ZzRwTHF5QXcyME5pZnVqU3dZZlNnb0Y4V3F2Ukl5VnhWcDFEWmFVUWE2YjlKZ2E4aWtrdmhJRHlwMVduS01KVGtEMDQ0TFdIbU9KZ29PWkw4?oc=5",
-     "time": "2026-11-19T15:19:00+00:00"
-    },
-    {
-     "title": "Alphabet Stock Is Jumping. 2 Reasons the Comeback Starts Now.",
-     "publisher": "Barron's",
-     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE10WDdwclZjV3ltY3NHVm9ia044N0huUnBJZGgtN1FkalNkajRpS1R4XzFjYjg3ajRXS0hwWDdvbHdPQ0k5eWxhSHBuOS1Da2x5S285MFJ1QVVwN2Nob2pLQlZmYVlwQ1ljT2VOaXBPMWMzU3dkaE5Wbg?oc=5",
-     "time": "2026-11-19T15:09:00+00:00"
-    },
-    {
-     "title": "Alphabet Inc Class C Stock (GOOG) Opened Up by 3.44% on Nov 19: A Full Analysis",
-     "publisher": "TradingKey",
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNXzJfQmRXTGJWWWdrbzlXZzhQRTlvaU1vcFU5dWljRFV2bHFYTW5kZ1l2YWhBcHRSTUxjN1pUWXlQRHBIU21BVWtvNld3eGt3aGVTXzBzYkFBV3dtQkV2UzJqbElVMGo0X1lINThGSXJIU2FmVS1nUFUtNzFmTHZVNmZYTThUcTMtc0ww?oc=5",
-     "time": "2026-11-19T14:48:36+00:00"
-    },
-    {
-     "title": "Alphabet stock rises as Anthropic IPO enthusiasm lifts AI-linked megacaps",
-     "publisher": "Quiver Quantitative",
-     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbDFYSWh4dU1BY251X2FkSy14ck1OMUpjWFktRmoyLWpWME9WbXo2V3RXdEc1Wm5jd0puR3M1dEg3UjhXNk9fMVBjRnNfNWFBaE1Bc2NJTVFfMUJmUTVDRjgtcEtVejZ5N1BpYm84OGtPVmxaaUNSZnJkT2p1TnktbEpUWjJTWjRlTkZ1TFkxSkxidjE0Vk9vQk5FTWJOLWpRZnlnN0ZMeG1lZw?oc=5",
-     "time": "2026-11-19T14:47:00+00:00"
-    },
-    {
-     "title": "Anthropic, the AI Company Google Backed With $33 Billion, Just Priced Its IPO. Here's What Alphabet Shareholders Own",
-     "publisher": "24/7 Wall St.",
-     "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPV0tYMkU1WC0wWnptaV9NVzJ0amxHNFFJdXNzMUVsQVdKLUZjSDdSaXA0dUF6RnVLLXV1LVRKWk9fZ25EOWxsTDUxd3E2U1d1ZTNyR2lKdmhYVnUwQzVxcGlrSHRZWEFIRkNiUEZGbnZ6RzlLN1FjOFBXd2twOWxkMXpxaWczZEtVekNIOHN0N0drM1V4MjhMeW43TlZFSkhEZlpuOXJvTjYteU9SWGZLN1VHdnNxX1RydXNnWERXckVOUHpjSGwwQmFobkd2dXZzOGxKNmExcGIyQmdTWU1LZXJGQ3JHWXgtQlJZ?oc=5",
-     "time": "2026-11-19T14:47:00+00:00"
-    },
-    {
-     "title": "Billionaire Investors Make Surprising Moves in Google Parent Alphabet Stock",
-     "publisher": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOTUpFZU5IMm8xb0NpX09XTnlsTzlPOEg4WlZSUjQxOTdBcEZHTkFFTWwyQVhoVlAxQjJlSWNPX0gwQ2xLaVJjdTVUdFFBRjFsekQ3OTQxZEpFcVYzcXBxNkYxN1UxczRkWXBWTENTc2VpSU5odWp3UE51LVp3NGV6cjJScmN4ZzNkZms1akZQMWZibmVhbW1VaGNTcm5HdEZBTkIzWU1nNHM4b2FCSVpFdUxCN1VrekZNRlhUMmpCZ3lYNi1RbkpRa0xLY0pJb0xE?oc=5",
-     "time": "2026-11-19T14:11:26+00:00"
-    },
-    {
-     "title": "Anthropic, Alphabet, Palo Alto, Bloom Energy, Take-Two, Walmart, and More Stocks That Explain Today\u2019s Market",
-     "publisher": "Barron's",
-     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9JVzJDLTFPc2lrY2ZPcXR4NElkVklfRGRyUGpQaTM3ZVZMcDY1UExMSjJ6QW5SQmstMFhES0gzMUQwQTZvY0ZJYUR1X2hLMllkSHVjajk0MmtnSko1LVAtcERldVA?oc=5",
-     "time": "2026-11-19T13:49:00+00:00"
-    },
-    {
-     "title": "Lone Pine, Viking build Alphabet stakes; Tiger cuts (GOOG:NASDAQ)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQZ2FTNE1DSnRLNXF6TllMMm1jZlp3eXd1TzZPQVh2OEdReFl3ZUNSczZVRVNjX1lYcHVmNlJtV2dNZmRwVVpKOEphQlZpM2pSSTJtWlk3X0tMNFFxTC11bEFneUwxa2FyNjNXRjJZcWlWRDZQZklsWHB2bGQzVGRQUHVkMDFoQjY2YUFDcXNWbUw?oc=5",
-     "time": "2026-11-19T11:06:59+00:00"
-    }
-   ],
-   "brief": "2026-11-19-GOOG"
-  },
-  {
    "symbol": "AMAT",
    "name": "Applied Materials",
    "list": "portfolio",
-   "price": 348.5,
+   "price": 348.12,
    "prev_close": 352.3,
-   "change_pct": -1.1,
+   "change_pct": -1.2,
    "trigger_change": 3.5,
    "peak_change": 3.5,
    "first_seen": "2026-11-19T15:06:52+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 458.35,
-    "change_pct": -0.26
+    "price": 456.56,
+    "change_pct": -0.65
    },
    "chart": {
-    "ema8": -2.9,
-    "ema21": -8.0,
-    "sma50": -18.7,
-    "sma200": -22.1,
+    "ema8": -3.0,
+    "ema21": -8.1,
+    "sma50": -18.8,
+    "sma200": -22.2,
     "momentum": false
    },
    "headlines": [
@@ -469,6 +394,81 @@
     }
    ],
    "brief": "2026-11-19-AMAT"
+  },
+  {
+   "symbol": "GOOG",
+   "name": "Alphabet",
+   "list": "portfolio",
+   "price": 282.0,
+   "prev_close": 279.2,
+   "change_pct": 1.0,
+   "trigger_change": 4.1,
+   "peak_change": 4.2,
+   "first_seen": "2026-11-19T14:56:40+00:00",
+   "sector": {
+    "etf": "XLC",
+    "name": "Communication",
+    "price": 104.78,
+    "change_pct": -0.76
+   },
+   "chart": {
+    "ema8": -0.7,
+    "ema21": -4.2,
+    "sma50": -12.1,
+    "sma200": -15.9,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "SHAREHOLDER ALERT Bernstein Liebhard LLP Announces A",
+     "publisher": "GlobeNewswire",
+     "url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxPdVJYMHBIUUtvVWpHVDNRbkxYYkhTRW5BcGU0cUNXZ0pUV0pESDZBYW1tTjhSUzA0cGpLNUhuMDJ2RVFKcE9kYzhUZDhpUjc0Zmo3Y2F2dE9leXB6Qkd1bk5hb2ZnWDNVTlZUbnQwOEYxUGxFYnBwSnRpbE9JUmxkR2hzY1A2WnZFMUlXZ2Znd013cWVFWklacVFXVzc4OHNVMm44NzFsOWE0RGtQa1lCR3VpN2M1MEVoMTd1X3I4dVhQNmp3RmdyUFZPOGZRYUtfR05uTXRacFBnOVZwdXp6YU02ZzRwTHF5QXcyME5pZnVqU3dZZlNnb0Y4V3F2Ukl5VnhWcDFEWmFVUWE2YjlKZ2E4aWtrdmhJRHlwMVduS01KVGtEMDQ0TFdIbU9KZ29PWkw4?oc=5",
+     "time": "2026-11-19T15:19:00+00:00"
+    },
+    {
+     "title": "Alphabet Stock Is Jumping. 2 Reasons the Comeback Starts Now.",
+     "publisher": "Barron's",
+     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE10WDdwclZjV3ltY3NHVm9ia044N0huUnBJZGgtN1FkalNkajRpS1R4XzFjYjg3ajRXS0hwWDdvbHdPQ0k5eWxhSHBuOS1Da2x5S285MFJ1QVVwN2Nob2pLQlZmYVlwQ1ljT2VOaXBPMWMzU3dkaE5Wbg?oc=5",
+     "time": "2026-11-19T15:09:00+00:00"
+    },
+    {
+     "title": "Alphabet Inc Class C Stock (GOOG) Opened Up by 3.44% on Nov 19: A Full Analysis",
+     "publisher": "TradingKey",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNXzJfQmRXTGJWWWdrbzlXZzhQRTlvaU1vcFU5dWljRFV2bHFYTW5kZ1l2YWhBcHRSTUxjN1pUWXlQRHBIU21BVWtvNld3eGt3aGVTXzBzYkFBV3dtQkV2UzJqbElVMGo0X1lINThGSXJIU2FmVS1nUFUtNzFmTHZVNmZYTThUcTMtc0ww?oc=5",
+     "time": "2026-11-19T14:48:36+00:00"
+    },
+    {
+     "title": "Alphabet stock rises as Anthropic IPO enthusiasm lifts AI-linked megacaps",
+     "publisher": "Quiver Quantitative",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbDFYSWh4dU1BY251X2FkSy14ck1OMUpjWFktRmoyLWpWME9WbXo2V3RXdEc1Wm5jd0puR3M1dEg3UjhXNk9fMVBjRnNfNWFBaE1Bc2NJTVFfMUJmUTVDRjgtcEtVejZ5N1BpYm84OGtPVmxaaUNSZnJkT2p1TnktbEpUWjJTWjRlTkZ1TFkxSkxidjE0Vk9vQk5FTWJOLWpRZnlnN0ZMeG1lZw?oc=5",
+     "time": "2026-11-19T14:47:00+00:00"
+    },
+    {
+     "title": "Anthropic, the AI Company Google Backed With $33 Billion, Just Priced Its IPO. Here's What Alphabet Shareholders Own",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPV0tYMkU1WC0wWnptaV9NVzJ0amxHNFFJdXNzMUVsQVdKLUZjSDdSaXA0dUF6RnVLLXV1LVRKWk9fZ25EOWxsTDUxd3E2U1d1ZTNyR2lKdmhYVnUwQzVxcGlrSHRZWEFIRkNiUEZGbnZ6RzlLN1FjOFBXd2twOWxkMXpxaWczZEtVekNIOHN0N0drM1V4MjhMeW43TlZFSkhEZlpuOXJvTjYteU9SWGZLN1VHdnNxX1RydXNnWERXckVOUHpjSGwwQmFobkd2dXZzOGxKNmExcGIyQmdTWU1LZXJGQ3JHWXgtQlJZ?oc=5",
+     "time": "2026-11-19T14:47:00+00:00"
+    },
+    {
+     "title": "Billionaire Investors Make Surprising Moves in Google Parent Alphabet Stock",
+     "publisher": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOTUpFZU5IMm8xb0NpX09XTnlsTzlPOEg4WlZSUjQxOTdBcEZHTkFFTWwyQVhoVlAxQjJlSWNPX0gwQ2xLaVJjdTVUdFFBRjFsekQ3OTQxZEpFcVYzcXBxNkYxN1UxczRkWXBWTENTc2VpSU5odWp3UE51LVp3NGV6cjJScmN4ZzNkZms1akZQMWZibmVhbW1VaGNTcm5HdEZBTkIzWU1nNHM4b2FCSVpFdUxCN1VrekZNRlhUMmpCZ3lYNi1RbkpRa0xLY0pJb0xE?oc=5",
+     "time": "2026-11-19T14:11:26+00:00"
+    },
+    {
+     "title": "Anthropic, Alphabet, Palo Alto, Bloom Energy, Take-Two, Walmart, and More Stocks That Explain Today\u2019s Market",
+     "publisher": "Barron's",
+     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9JVzJDLTFPc2lrY2ZPcXR4NElkVklfRGRyUGpQaTM3ZVZMcDY1UExMSjJ6QW5SQmstMFhES0gzMUQwQTZvY0ZJYUR1X2hLMllkSHVjajk0MmtnSko1LVAtcERldVA?oc=5",
+     "time": "2026-11-19T13:49:00+00:00"
+    },
+    {
+     "title": "Lone Pine, Viking build Alphabet stakes; Tiger cuts (GOOG:NASDAQ)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQZ2FTNE1DSnRLNXF6TllMMm1jZlp3eXd1TzZPQVh2OEdReFl3ZUNSczZVRVNjX1lYcHVmNlJtV2dNZmRwVVpKOEphQlZpM2pSSTJtWlk3X0tMNFFxTC11bEFneUwxa2FyNjNXRjJZcWlWRDZQZklsWHB2bGQzVGRQUHVkMDFoQjY2YUFDcXNWbUw?oc=5",
+     "time": "2026-11-19T11:06:59+00:00"
+    }
+   ],
+   "brief": "2026-11-19-GOOG"
   }
  ]
 }
