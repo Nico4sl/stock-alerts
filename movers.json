@@ -1,46 +1,121 @@
 {
  "date": "2026-11-19",
  "threshold": 3.0,
- "updated": "2026-11-19T16:02:46+00:00",
+ "updated": "2026-11-19T16:53:19+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 729.52,
-   "change_pct": -0.09
+   "price": 724.19,
+   "change_pct": -0.82
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 662.58,
-   "change_pct": 0.47
+   "price": 657.04,
+   "change_pct": -0.37
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 80.13,
-   "change_pct": -0.11
+   "price": 80.18,
+   "change_pct": -0.05
   }
  },
  "movers": [
   {
+   "symbol": "UNH",
+   "name": "UnitedHealth",
+   "list": "portfolio",
+   "price": 327.24,
+   "prev_close": 349.91,
+   "change_pct": -6.5,
+   "trigger_change": -3.3,
+   "peak_change": -6.5,
+   "first_seen": "2026-11-19T15:27:10+00:00",
+   "sector": {
+    "etf": "XLV",
+    "name": "Health care",
+    "price": 178.16,
+    "change_pct": -1.66
+   },
+   "chart": {
+    "ema8": -13.1,
+    "ema21": -16.3,
+    "sma50": -16.0,
+    "sma200": -11.1,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "UnitedHealth Group stock fell 10.21%, with RSI14 at 28.48",
+     "publisher": "The Cryptonomist",
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNNWNaa3dId3M4b3ZERnlfcFZWV2dkbkRncUMtMERnanFmUVpPak83Vk1YNmhMeVc2eVBFM21ValFfRFBQRUVTSEFPOGJUeGxZQng5cG5FeElkS2lES1B1MzhEWXhHc1B0OXJTLUN2MjQxTUxmSVpYQU54c3NoQ2dZRjA2aTcydlZOVGxvaTF3?oc=5",
+     "time": "2026-11-19T12:52:38+00:00"
+    },
+    {
+     "title": "UnitedHealth Shares Sink as New Federal Fraud Crackdown Sparks Healthcare Sell-Off",
+     "publisher": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPUnBjVy1ZbnhtY19JdjUteVdxWWQzdnAyR0pHX2dZRGd1Rk1DZ2Y0aDlkR25mT1dWWFc4ZzJsaEgyZWIxSHZRMzQyR0poYVJ6WktvMEtOX2EzX1ZHNlZxZ01DMHVuZy1oQ0F1Yi1Sak5Qdi1zN3BBS2tVTkJtSWtsWTR4RW9BREwzMzd6NWFPa1U0UDk1Y0w0Q3pNbFNfU1FXdWpnZjhUVU5lbTM1RVhIVjZUWU9mX1NtejRBNFlvMWhzWlcwbE0zeklqc08wQWFBNFgzV2M1TC1Zdw?oc=5",
+     "time": "2026-11-19T12:25:29+00:00"
+    },
+    {
+     "title": "41 ETFs Add to UnitedHealth (UNH) Holdings on Nov. 17",
+     "publisher": "GuruFocus",
+     "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxPUzQzbWlQUkI5UmVaZTVzdGs1Z3RMMDVDS1VUQnQ1OGVjd0JDU1JRdjlUb2o0cjNHOV91elBJT3NJdmxMYl9DTTZncUNhOTJMQ1VXUmtUQU54aklCS3Q2RVhXdVJ5TndZX29fTU1rTjBGcHJqVF94dElwM2I3amhPN25DRmVodVAtZEdyQVpORGc2aFNOUl80QUpxRnJNcUo1Q0wxRXpjT0RWWVRmWVQzaUtTVnJRWGRzc0VaOVJIcDRHTGJnYTVhenYtczI4NXdzZDYwMm5CYmRyX2J3WE9LUnlqd044bkF5c2w2U1RyV0VpS1FxMldsTWp0WXdleUQyeXV5dTByMmN1UXBBQnBUVE1jUFNSZk9ReWRwQWcyVVM?oc=5",
+     "time": "2026-11-19T11:19:14+00:00"
+    },
+    {
+     "title": "What Just Happened To UnitedHealth Stock?",
+     "publisher": "Trefis",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPTGRIT1FGc0xpc0QySElHT1ViQjJ1MERzMklrOG9lOGtyc2JmNGxlTnB2YVZjY2M4bmFzWVd0Vkx5MGEtOGR0dERuRS1mYVdXaFNZRHBoUnZPbXZDWEtsN0JtUlB4MnZrSUp6T3psWGFWTmpISHlzVE53c1g1a1pzWHZKbzBtUFFQbVlKVWpGb2NqSlBmZGZuY2VXTGdjYnl4Zmc?oc=5",
+     "time": "2026-11-19T11:06:48+00:00"
+    },
+    {
+     "title": "Should You Buy UnitedHealth Group Stock For Its Cash?",
+     "publisher": "Trefis",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPT2ZIZERpTS1MOUZaN2J4UERVNkpZMWFqMVR6ZllYdVlSaU9Ja2VYeDZTUmcwNHZkNTdTemZfMWh6QXNwbFk2NmN5WDQzcGpWV3NXeTgwekhvczJISXhkQThTRTBpTVY2SEFyemhKRFQ0SUlwMjBGWjBlclJPZUoyWDRpSWhCQVFJN09OR3ZNQzBEcFJyWnRDMXNYQ1dnMTJpUkR4SlFyVkVlX0ZrTWdHV3lB?oc=5",
+     "time": "2026-11-19T09:25:48+00:00"
+    },
+    {
+     "title": "UnitedHealth stock falls 10.21% on Medicare audit fears",
+     "publisher": "finchannel",
+     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNcE1HV1owY2ZkclpBNkc3bWZ3akJJcUpxZ21RRGRvSjh1aEFQS1B3a01MUnVfSnMzR2VGcllSXzhHcS1tNE15Qms5azVCcjVpeTlEd3hRLTFBU09sak9yTEFpVkpQbW5ZTmRNVFRFa2NENy1XcDNCaTllQnFtYTZZUFQ1NUQ2X1A1dTNlbFhuZGkzUW9LOXdDcHZkYkQ3WVJSdkdmWE5xYTdNLUEycVdTZFNjNHlXalc2bWN4VnZYMHBxcDhPc3hZbXk4Q0ZfQWM5R2tn?oc=5",
+     "time": "2026-11-19T07:12:27+00:00"
+    },
+    {
+     "title": "UnitedHealth Stock (UNH) Falls 10.2% on CMS Audit Proposal (Nov 18)",
+     "publisher": "Gotrade",
+     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPTXdKcXUyekNIakpGT0pWYjhZMmplVUVESEVEQ25ERG1RQkJIZVVtWmNVVzk3SFRJUEE3RVhtMGxKT2NwX0lvZDBKN2RFUnRuNVE1R3RMZjZoc3lhdEVMa3dmWlROZlJJNGNpZzlwWGRBeDJxMmpQRmF1SXVNVUIzajVIU1JKNW8?oc=5",
+     "time": "2026-11-19T03:30:00+00:00"
+    },
+    {
+     "title": "UnitedHealth Group (UNH) Stock Price Prediction: Pullback tests support as trading momentum cools",
+     "publisher": "Blockchain News",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQWllkN3huOVRSZW5IM3VsQkpFSGxvNWhFa0hnQW9WZUp4ZDV1bnhwR3doWE9TWGpzTk9FMkxLR25MTUxxcUs0SW1XOEVtb29OcmVORzNfeUkyR3FYdjl5RzdodWJGU1JQZEpNV0lfeTEyVUFCRmMwMXBHTkZMSUVnUjBBTDd6NFJDTlJpYnRQeG40V1JzajNVbUd1TktfaUgxMXRv?oc=5",
+     "time": "2026-11-18T23:47:00+00:00"
+    }
+   ],
+   "brief": "2026-11-19-UNH"
+  },
+  {
    "symbol": "CRWD",
    "name": "CrowdStrike",
    "list": "portfolio",
-   "price": 252.38,
+   "price": 249.3,
    "prev_close": 237.03,
-   "change_pct": 6.5,
+   "change_pct": 5.2,
    "trigger_change": 6.4,
    "peak_change": 7.4,
    "first_seen": "2026-11-19T14:56:40+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 99.01,
-    "change_pct": 2.14
+    "price": 98.39,
+    "change_pct": 1.5
    },
    "chart": {
-    "ema8": 7.8,
-    "ema21": 6.5,
-    "sma50": 2.3,
-    "sma200": 43.8,
+    "ema8": 6.8,
+    "ema21": 5.4,
+    "sma50": 1.1,
+    "sma200": 42.0,
     "momentum": false
    },
    "headlines": [
@@ -99,23 +174,23 @@
    "symbol": "AXON",
    "name": "Axon",
    "list": "watchlist",
-   "price": 319.18,
+   "price": 314.62,
    "prev_close": 300.69,
-   "change_pct": 6.1,
+   "change_pct": 4.6,
    "trigger_change": 6.9,
    "peak_change": 8.2,
    "first_seen": "2026-11-19T14:56:40+00:00",
    "sector": {
     "etf": "XLI",
     "name": "Industrials",
-    "price": 163.39,
-    "change_pct": -0.77
+    "price": 162.92,
+    "change_pct": -1.06
    },
    "chart": {
-    "ema8": 0.7,
-    "ema21": -9.1,
-    "sma50": -20.7,
-    "sma200": -31.1,
+    "ema8": -0.4,
+    "ema21": -10.3,
+    "sma50": -21.8,
+    "sma200": -32.1,
     "momentum": false
    },
    "headlines": [
@@ -171,101 +246,101 @@
    "brief": "2026-11-19-AXON"
   },
   {
-   "symbol": "UNH",
-   "name": "UnitedHealth",
+   "symbol": "NBIS",
+   "name": "Nebius",
    "list": "portfolio",
-   "price": 331.52,
-   "prev_close": 349.91,
-   "change_pct": -5.3,
-   "trigger_change": -3.3,
-   "peak_change": -5.5,
-   "first_seen": "2026-11-19T15:27:10+00:00",
+   "price": 102.42,
+   "prev_close": 106.96,
+   "change_pct": -4.2,
+   "trigger_change": 3.4,
+   "peak_change": -4.2,
+   "first_seen": "2026-11-19T14:56:40+00:00",
    "sector": {
-    "etf": "XLV",
-    "name": "Health care",
-    "price": 177.74,
-    "change_pct": -1.89
+    "etf": "IGV",
+    "name": "Software",
+    "price": 98.39,
+    "change_pct": 1.5
    },
    "chart": {
-    "ema8": -12.2,
-    "ema21": -15.2,
-    "sma50": -14.9,
-    "sma200": -10.0,
+    "ema8": -11.9,
+    "ema21": -26.1,
+    "sma50": -44.4,
+    "sma200": -43.0,
     "momentum": false
    },
    "headlines": [
     {
-     "title": "UnitedHealth Group stock fell 10.21%, with RSI14 at 28.48",
-     "publisher": "The Cryptonomist",
-     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNNWNaa3dId3M4b3ZERnlfcFZWV2dkbkRncUMtMERnanFmUVpPak83Vk1YNmhMeVc2eVBFM21ValFfRFBQRUVTSEFPOGJUeGxZQng5cG5FeElkS2lES1B1MzhEWXhHc1B0OXJTLUN2MjQxTUxmSVpYQU54c3NoQ2dZRjA2aTcydlZOVGxvaTF3?oc=5",
-     "time": "2026-11-19T12:52:38+00:00"
+     "title": "Nebius: A 65% Crash While Building A Game-Changing AI Compute Marketplace (NASDAQ:NBIS)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOZ2ZZWGdvNjZaMWFPWm1sU3BCSER6aGJKN0pkTkFFc1lBVTlIbG9lSkRlY2pITjlHclRVQ2k3U195YThBakJ5RkRxYk1lanhUYUlxVlFUdmRvVWRxUFZSdlpNWlNRYlVxaTJQcEhIWVRPTnNJNG5jWWtKN1RYTGxJSDgwalhFQjZFRWdiclNIbGJpMHRuT1Y0TTFpRXRIcTBobEkzRmRVLVF2czUxbWdWVjJHcmVlVzRGRTlJdA?oc=5",
+     "time": "2026-11-19T14:27:05+00:00"
     },
     {
-     "title": "UnitedHealth Shares Sink as New Federal Fraud Crackdown Sparks Healthcare Sell-Off",
-     "publisher": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPUnBjVy1ZbnhtY19JdjUteVdxWWQzdnAyR0pHX2dZRGd1Rk1DZ2Y0aDlkR25mT1dWWFc4ZzJsaEgyZWIxSHZRMzQyR0poYVJ6WktvMEtOX2EzX1ZHNlZxZ01DMHVuZy1oQ0F1Yi1Sak5Qdi1zN3BBS2tVTkJtSWtsWTR4RW9BREwzMzd6NWFPa1U0UDk1Y0w0Q3pNbFNfU1FXdWpnZjhUVU5lbTM1RVhIVjZUWU9mX1NtejRBNFlvMWhzWlcwbE0zeklqc08wQWFBNFgzV2M1TC1Zdw?oc=5",
-     "time": "2026-11-19T12:25:29+00:00"
+     "title": "Nebius Group (NBIS) Stock Price Prediction: Data-center delays and a broken trend keep pressure on NBIS shares",
+     "publisher": "blockchain.news",
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPT0lqYm1HaXQ0eDUwcEo1cFExNGVxNy1hU2ZpS2Z0MEVZcGVBOFVMdDFqWG04ajNsRG1OVzdOazlMTGg1aUxrcnlqVGtWUEpkQUJZTEFDZTRqbWhyUUIxZmxvb056M3puc0w2Z0ZBQzllNzZ4MFV2RUNQbHR4WlNhaENwdHFVcEhsbXcwa0dDUmlWc0NvWkE?oc=5",
+     "time": "2026-11-19T13:25:00+00:00"
     },
     {
-     "title": "41 ETFs Add to UnitedHealth (UNH) Holdings on Nov. 17",
-     "publisher": "GuruFocus",
-     "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxPUzQzbWlQUkI5UmVaZTVzdGs1Z3RMMDVDS1VUQnQ1OGVjd0JDU1JRdjlUb2o0cjNHOV91elBJT3NJdmxMYl9DTTZncUNhOTJMQ1VXUmtUQU54aklCS3Q2RVhXdVJ5TndZX29fTU1rTjBGcHJqVF94dElwM2I3amhPN25DRmVodVAtZEdyQVpORGc2aFNOUl80QUpxRnJNcUo1Q0wxRXpjT0RWWVRmWVQzaUtTVnJRWGRzc0VaOVJIcDRHTGJnYTVhenYtczI4NXdzZDYwMm5CYmRyX2J3WE9LUnlqd044bkF5c2w2U1RyV0VpS1FxMldsTWp0WXdleUQyeXV5dTByMmN1UXBBQnBUVE1jUFNSZk9ReWRwQWcyVVM?oc=5",
-     "time": "2026-11-19T11:19:14+00:00"
+     "title": "Nebius Stock\u2019s (NBIS) Q3 Sell-Off Looks Like an Opportunity",
+     "publisher": "TipRanks",
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQU1E3aXVqTnFRY0ttdlBORms5Rmp6c2VpMU9LSUp6Y0dTb3VwM09ldm5CS2tyZkJGOURiNDFGQ001R2V4cHZRYmh3ZXJfclQzVkxERS1SOFRWYkxOYjg0T2ZDbkdEcWJseWI5UF9LUUx6aGtXTUVwZlpyZVo4VkFmbGROV3IyZ0JwMnhLSGRsRWxNdkl5dDB0bTRB?oc=5",
+     "time": "2026-11-19T11:57:48+00:00"
     },
     {
-     "title": "What Just Happened To UnitedHealth Stock?",
-     "publisher": "Trefis",
-     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPTGRIT1FGc0xpc0QySElHT1ViQjJ1MERzMklrOG9lOGtyc2JmNGxlTnB2YVZjY2M4bmFzWVd0Vkx5MGEtOGR0dERuRS1mYVdXaFNZRHBoUnZPbXZDWEtsN0JtUlB4MnZrSUp6T3psWGFWTmpISHlzVE53c1g1a1pzWHZKbzBtUFFQbVlKVWpGb2NqSlBmZGZuY2VXTGdjYnl4Zmc?oc=5",
-     "time": "2026-11-19T11:06:48+00:00"
+     "title": "Better AI Stock to Buy: Coreweave vs. IREN vs. Nebius",
+     "publisher": "The Globe and Mail",
+     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOc0ZiSEtETUdMU0tpb0hkRy1OLTdINDNTbTNiS0FDMC1NbTVvYm1nOVBMT2k0R1BIS0xWRndFeW5xWmV3SGE3V29RenFwQW1iaHgzSjFFOXhLSVdrX3VPc0V5a3daY1JBdmozeXZXWnFYQTI5QXdHRXoxQnZPd0tHNWdJX3dUbUJ0XzZoel9LZTJmSEpNOUtIQlRqWjNDZ0NpRVAydjVGT0tlUWgycS16N0VUVUstQkthYld6bV9aaGQ3LVBnUGVURWlCSUo3V3ha?oc=5",
+     "time": "2026-11-19T11:10:08+00:00"
     },
     {
-     "title": "Should You Buy UnitedHealth Group Stock For Its Cash?",
-     "publisher": "Trefis",
-     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPT2ZIZERpTS1MOUZaN2J4UERVNkpZMWFqMVR6ZllYdVlSaU9Ja2VYeDZTUmcwNHZkNTdTemZfMWh6QXNwbFk2NmN5WDQzcGpWV3NXeTgwekhvczJISXhkQThTRTBpTVY2SEFyemhKRFQ0SUlwMjBGWjBlclJPZUoyWDRpSWhCQVFJN09OR3ZNQzBEcFJyWnRDMXNYQ1dnMTJpUkR4SlFyVkVlX0ZrTWdHV3lB?oc=5",
-     "time": "2026-11-19T09:25:48+00:00"
+     "title": "Prediction: Nebius Stock Will Trade At This Price at the End of 2027",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNQklsLTgtMlpSX3RHdkNBYnlkaVE3N1hwVHljWWthblBqUEpHMFBRWUlQamR3ZVZtNl9YT1BXMzBMSEhIekF5TEFUaGV5enpSSzdKUFd5YWQwUFBiQmZPT2h2cWZxMTNxcllxQllTbmlXS3JON0M1ZTZrSVpKZXQtOE9MZXBqdk82dWx5clpXVW0wU2pGcEF0c0RlbXFMNVFSeGF4a3ZNbzA2SHl2Q09N?oc=5",
+     "time": "2026-11-19T09:14:02+00:00"
     },
     {
-     "title": "UnitedHealth stock falls 10.21% on Medicare audit fears",
-     "publisher": "finchannel",
-     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNcE1HV1owY2ZkclpBNkc3bWZ3akJJcUpxZ21RRGRvSjh1aEFQS1B3a01MUnVfSnMzR2VGcllSXzhHcS1tNE15Qms5azVCcjVpeTlEd3hRLTFBU09sak9yTEFpVkpQbW5ZTmRNVFRFa2NENy1XcDNCaTllQnFtYTZZUFQ1NUQ2X1A1dTNlbFhuZGkzUW9LOXdDcHZkYkQ3WVJSdkdmWE5xYTdNLUEycVdTZFNjNHlXalc2bWN4VnZYMHBxcDhPc3hZbXk4Q0ZfQWM5R2tn?oc=5",
-     "time": "2026-11-19T07:12:27+00:00"
+     "title": "Why Did Nebius Group (NASDAQ:NBIS) Slip Despite Its Revenue Beat?",
+     "publisher": "Kalkine Media",
+     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPWDNSNldPc3M5a1pEcXl4RXlrcTlFVTV1d25xN05TVFRUa2x5dHB4UU1QZWV3R2JiMmFaTFBEaEpsdHlXbEVRV3dzVy01S0pfaUpqTUczX01QaFRqVW5RM3ZKWTRMSlhwRHZBQUgtSlZONWxsR3RLbW1QQlY4NWpTZ2V0aVZwaHhFa3FoeDd3Q2dFWnNJWGwzR2FyNjdvSi1tYzJ0N2tjLThUYlN1OUQwNXZKdTcxY1ljZkpFVw?oc=5",
+     "time": "2026-11-19T05:28:00+00:00"
     },
     {
-     "title": "UnitedHealth Stock (UNH) Falls 10.2% on CMS Audit Proposal (Nov 18)",
-     "publisher": "Gotrade",
-     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPTXdKcXUyekNIakpGT0pWYjhZMmplVUVESEVEQ25ERG1RQkJIZVVtWmNVVzk3SFRJUEE3RVhtMGxKT2NwX0lvZDBKN2RFUnRuNVE1R3RMZjZoc3lhdEVMa3dmWlROZlJJNGNpZzlwWGRBeDJxMmpQRmF1SXVNVUIzajVIU1JKNW8?oc=5",
-     "time": "2026-11-19T03:30:00+00:00"
+     "title": "Did Nvidia Earnings Just Shift Nebius Group's (NBIS) Investment Narrative?",
+     "publisher": "Simply Wall St",
+     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPcW1WX3J3RU5ra1ZsY1NyRmVKUERmZVp3V2lWUGhwSW1hLWxUVmhCT2R6WXZ4UGE3TmRONGxwbVdmZ05pR3FPUmUzb1g1SXZtSnZObDMtZGlJaGhRZFVsQUlqQi03QllQN29PQW1UbGpEUzl4TU5fSHlaYlR4X0tlY096MUwxUGgyYmpCb0ZVX1ZJNkFRX1lUT2tnb294d0dwODlrS2xEMEZKblJVVWZ2TndLOV9ma1VHaUFXenQwbTBPMDNRNmdiWkFUTdIB0AFBVV95cUxPRmh2NFJvME9UOGs1dUhuNnZyUEtxc2MtUXRONzBEeTRKQ3VBUnU3aGhTQ3ZkWGdqQUV0UnE0UEFpd0tkZWxPLW5SbDV1QmkxSzEtUzMzYnFJUzBBc3lfQXpqR01tLTc3ZTJUdkhfZFRHVkI3RFE5TnJjY2tONm5oZVpDd2xQM1RUaDhTNlBxRjc5MUdVRzF3T2hiN3hXUi03SXlXV1cwM0FwQV94UHotSFlaZmptMVVEaTVKenhIeFY5TTM0U1NvNUdWb1lIeGsx?oc=5",
+     "time": "2026-11-19T01:12:09+00:00"
     },
     {
-     "title": "UnitedHealth Group (UNH) Stock Price Prediction: Pullback tests support as trading momentum cools",
-     "publisher": "Blockchain News",
-     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQWllkN3huOVRSZW5IM3VsQkpFSGxvNWhFa0hnQW9WZUp4ZDV1bnhwR3doWE9TWGpzTk9FMkxLR25MTUxxcUs0SW1XOEVtb29OcmVORzNfeUkyR3FYdjl5RzdodWJGU1JQZEpNV0lfeTEyVUFCRmMwMXBHTkZMSUVnUjBBTDd6NFJDTlJpYnRQeG40V1JzajNVbUd1TktfaUgxMXRv?oc=5",
-     "time": "2026-11-18T23:47:00+00:00"
+     "title": "Will Lower 2026 Guidance Change Nebius Group (NBIS) Stock Narrative",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOWDVibUIxcVNmbzhRUWtrbmJ3UmZwU0NjWjU0YXRBRDhEQ2dPaWtoaUhaMlBLeE03U2FHUHpHZnM1MXhfRnpBcUtiQndBaUkxeWFzVmlxZmhIbmdQQ0lkc0hMUEdzeGpwRGMtTnFwTVJqdHZlZFlWQnRIY21DRjN5R3h3NUxVV2lLUEVpUFF1R25HLTZ4UXdiSFF1Skl1dVk?oc=5",
+     "time": "2026-11-19T00:15:00+00:00"
     }
    ],
-   "brief": "2026-11-19-UNH"
+   "brief": "2026-11-19-NBIS"
   },
   {
    "symbol": "GOOG",
    "name": "Alphabet",
    "list": "portfolio",
-   "price": 285.61,
+   "price": 282.68,
    "prev_close": 279.2,
-   "change_pct": 2.3,
+   "change_pct": 1.2,
    "trigger_change": 4.1,
    "peak_change": 4.2,
    "first_seen": "2026-11-19T14:56:40+00:00",
    "sector": {
     "etf": "XLC",
     "name": "Communication",
-    "price": 105.5,
-    "change_pct": -0.08
+    "price": 105.19,
+    "change_pct": -0.37
    },
    "chart": {
-    "ema8": 0.3,
-    "ema21": -3.1,
-    "sma50": -11.0,
-    "sma200": -14.8,
+    "ema8": -0.5,
+    "ema21": -4.0,
+    "sma50": -11.9,
+    "sma200": -15.7,
     "momentum": false
    },
    "headlines": [
@@ -324,23 +399,23 @@
    "symbol": "AMAT",
    "name": "Applied Materials",
    "list": "portfolio",
-   "price": 355.6,
+   "price": 348.5,
    "prev_close": 352.3,
-   "change_pct": 0.9,
+   "change_pct": -1.1,
    "trigger_change": 3.5,
    "peak_change": 3.5,
    "first_seen": "2026-11-19T15:06:52+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 465.71,
-    "change_pct": 1.34
+    "price": 458.35,
+    "change_pct": -0.26
    },
    "chart": {
-    "ema8": -1.3,
-    "ema21": -6.3,
-    "sma50": -17.1,
-    "sma200": -20.5,
+    "ema8": -2.9,
+    "ema21": -8.0,
+    "sma50": -18.7,
+    "sma200": -22.1,
     "momentum": false
    },
    "headlines": [
@@ -394,81 +469,6 @@
     }
    ],
    "brief": "2026-11-19-AMAT"
-  },
-  {
-   "symbol": "NBIS",
-   "name": "Nebius",
-   "list": "portfolio",
-   "price": 106.21,
-   "prev_close": 106.96,
-   "change_pct": -0.7,
-   "trigger_change": 3.4,
-   "peak_change": 3.6,
-   "first_seen": "2026-11-19T14:56:40+00:00",
-   "sector": {
-    "etf": "IGV",
-    "name": "Software",
-    "price": 99.01,
-    "change_pct": 2.14
-   },
-   "chart": {
-    "ema8": -9.3,
-    "ema21": -23.5,
-    "sma50": -42.4,
-    "sma200": -40.9,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Nebius: A 65% Crash While Building A Game-Changing AI Compute Marketplace (NASDAQ:NBIS)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOZ2ZZWGdvNjZaMWFPWm1sU3BCSER6aGJKN0pkTkFFc1lBVTlIbG9lSkRlY2pITjlHclRVQ2k3U195YThBakJ5RkRxYk1lanhUYUlxVlFUdmRvVWRxUFZSdlpNWlNRYlVxaTJQcEhIWVRPTnNJNG5jWWtKN1RYTGxJSDgwalhFQjZFRWdiclNIbGJpMHRuT1Y0TTFpRXRIcTBobEkzRmRVLVF2czUxbWdWVjJHcmVlVzRGRTlJdA?oc=5",
-     "time": "2026-11-19T14:27:05+00:00"
-    },
-    {
-     "title": "Nebius Group (NBIS) Stock Price Prediction: Data-center delays and a broken trend keep pressure on NBIS shares",
-     "publisher": "blockchain.news",
-     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPT0lqYm1HaXQ0eDUwcEo1cFExNGVxNy1hU2ZpS2Z0MEVZcGVBOFVMdDFqWG04ajNsRG1OVzdOazlMTGg1aUxrcnlqVGtWUEpkQUJZTEFDZTRqbWhyUUIxZmxvb056M3puc0w2Z0ZBQzllNzZ4MFV2RUNQbHR4WlNhaENwdHFVcEhsbXcwa0dDUmlWc0NvWkE?oc=5",
-     "time": "2026-11-19T13:25:00+00:00"
-    },
-    {
-     "title": "Nebius Stock\u2019s (NBIS) Q3 Sell-Off Looks Like an Opportunity",
-     "publisher": "TipRanks",
-     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQU1E3aXVqTnFRY0ttdlBORms5Rmp6c2VpMU9LSUp6Y0dTb3VwM09ldm5CS2tyZkJGOURiNDFGQ001R2V4cHZRYmh3ZXJfclQzVkxERS1SOFRWYkxOYjg0T2ZDbkdEcWJseWI5UF9LUUx6aGtXTUVwZlpyZVo4VkFmbGROV3IyZ0JwMnhLSGRsRWxNdkl5dDB0bTRB?oc=5",
-     "time": "2026-11-19T11:57:48+00:00"
-    },
-    {
-     "title": "Better AI Stock to Buy: Coreweave vs. IREN vs. Nebius",
-     "publisher": "The Globe and Mail",
-     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOc0ZiSEtETUdMU0tpb0hkRy1OLTdINDNTbTNiS0FDMC1NbTVvYm1nOVBMT2k0R1BIS0xWRndFeW5xWmV3SGE3V29RenFwQW1iaHgzSjFFOXhLSVdrX3VPc0V5a3daY1JBdmozeXZXWnFYQTI5QXdHRXoxQnZPd0tHNWdJX3dUbUJ0XzZoel9LZTJmSEpNOUtIQlRqWjNDZ0NpRVAydjVGT0tlUWgycS16N0VUVUstQkthYld6bV9aaGQ3LVBnUGVURWlCSUo3V3ha?oc=5",
-     "time": "2026-11-19T11:10:08+00:00"
-    },
-    {
-     "title": "Prediction: Nebius Stock Will Trade At This Price at the End of 2027",
-     "publisher": "The Motley Fool",
-     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNQklsLTgtMlpSX3RHdkNBYnlkaVE3N1hwVHljWWthblBqUEpHMFBRWUlQamR3ZVZtNl9YT1BXMzBMSEhIekF5TEFUaGV5enpSSzdKUFd5YWQwUFBiQmZPT2h2cWZxMTNxcllxQllTbmlXS3JON0M1ZTZrSVpKZXQtOE9MZXBqdk82dWx5clpXVW0wU2pGcEF0c0RlbXFMNVFSeGF4a3ZNbzA2SHl2Q09N?oc=5",
-     "time": "2026-11-19T09:14:02+00:00"
-    },
-    {
-     "title": "Why Did Nebius Group (NASDAQ:NBIS) Slip Despite Its Revenue Beat?",
-     "publisher": "Kalkine Media",
-     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPWDNSNldPc3M5a1pEcXl4RXlrcTlFVTV1d25xN05TVFRUa2x5dHB4UU1QZWV3R2JiMmFaTFBEaEpsdHlXbEVRV3dzVy01S0pfaUpqTUczX01QaFRqVW5RM3ZKWTRMSlhwRHZBQUgtSlZONWxsR3RLbW1QQlY4NWpTZ2V0aVZwaHhFa3FoeDd3Q2dFWnNJWGwzR2FyNjdvSi1tYzJ0N2tjLThUYlN1OUQwNXZKdTcxY1ljZkpFVw?oc=5",
-     "time": "2026-11-19T05:28:00+00:00"
-    },
-    {
-     "title": "Did Nvidia Earnings Just Shift Nebius Group's (NBIS) Investment Narrative?",
-     "publisher": "Simply Wall St",
-     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPcW1WX3J3RU5ra1ZsY1NyRmVKUERmZVp3V2lWUGhwSW1hLWxUVmhCT2R6WXZ4UGE3TmRONGxwbVdmZ05pR3FPUmUzb1g1SXZtSnZObDMtZGlJaGhRZFVsQUlqQi03QllQN29PQW1UbGpEUzl4TU5fSHlaYlR4X0tlY096MUwxUGgyYmpCb0ZVX1ZJNkFRX1lUT2tnb294d0dwODlrS2xEMEZKblJVVWZ2TndLOV9ma1VHaUFXenQwbTBPMDNRNmdiWkFUTdIB0AFBVV95cUxPRmh2NFJvME9UOGs1dUhuNnZyUEtxc2MtUXRONzBEeTRKQ3VBUnU3aGhTQ3ZkWGdqQUV0UnE0UEFpd0tkZWxPLW5SbDV1QmkxSzEtUzMzYnFJUzBBc3lfQXpqR01tLTc3ZTJUdkhfZFRHVkI3RFE5TnJjY2tONm5oZVpDd2xQM1RUaDhTNlBxRjc5MUdVRzF3T2hiN3hXUi03SXlXV1cwM0FwQV94UHotSFlaZmptMVVEaTVKenhIeFY5TTM0U1NvNUdWb1lIeGsx?oc=5",
-     "time": "2026-11-19T01:12:09+00:00"
-    },
-    {
-     "title": "Will Lower 2026 Guidance Change Nebius Group (NBIS) Stock Narrative",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOWDVibUIxcVNmbzhRUWtrbmJ3UmZwU0NjWjU0YXRBRDhEQ2dPaWtoaUhaMlBLeE03U2FHUHpHZnM1MXhfRnpBcUtiQndBaUkxeWFzVmlxZmhIbmdQQ0lkc0hMUEdzeGpwRGMtTnFwTVJqdHZlZFlWQnRIY21DRjN5R3h3NUxVV2lLUEVpUFF1R25HLTZ4UXdiSFF1Skl1dVk?oc=5",
-     "time": "2026-11-19T00:15:00+00:00"
-    }
-   ],
-   "brief": "2026-11-19-NBIS"
   }
  ]
 }
