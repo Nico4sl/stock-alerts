@@ -1,22 +1,22 @@
 {
  "date": "2026-11-19",
  "threshold": 3.0,
- "updated": "2026-11-19T20:05:19+00:00",
+ "updated": "2026-11-19T20:15:26+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 716.34,
-   "change_pct": -1.9
+   "price": 716.58,
+   "change_pct": -1.87
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 644.89,
-   "change_pct": -2.22
+   "price": 645.92,
+   "change_pct": -2.06
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 80.4,
-   "change_pct": 0.22
+   "price": 80.35,
+   "change_pct": 0.16
   }
  },
  "movers": [
@@ -24,7 +24,7 @@
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 97.82,
+   "price": 97.89,
    "prev_close": 106.96,
    "change_pct": -8.5,
    "trigger_change": 3.4,
@@ -33,14 +33,14 @@
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 95.92,
-    "change_pct": -1.05
+    "price": 96.37,
+    "change_pct": -0.59
    },
    "chart": {
-    "ema8": -15.1,
+    "ema8": -15.0,
     "ema21": -29.2,
     "sma50": -46.9,
-    "sma200": -45.6,
+    "sma200": -45.5,
     "momentum": false
    },
    "headlines": [
@@ -99,23 +99,23 @@
    "symbol": "UNH",
    "name": "UnitedHealth",
    "list": "portfolio",
-   "price": 331.06,
+   "price": 331.48,
    "prev_close": 349.91,
-   "change_pct": -5.4,
+   "change_pct": -5.3,
    "trigger_change": -3.3,
    "peak_change": -7.2,
    "first_seen": "2026-11-19T15:27:10+00:00",
    "sector": {
     "etf": "XLV",
     "name": "Health care",
-    "price": 177.16,
-    "change_pct": -2.21
+    "price": 177.26,
+    "change_pct": -2.16
    },
    "chart": {
-    "ema8": -12.3,
-    "ema21": -15.4,
-    "sma50": -15.0,
-    "sma200": -10.1,
+    "ema8": -12.2,
+    "ema21": -15.3,
+    "sma50": -14.9,
+    "sma200": -10.0,
     "momentum": false
    },
    "headlines": [
@@ -174,23 +174,23 @@
    "symbol": "MELI",
    "name": "MercadoLibre",
    "list": "watchlist",
-   "price": 1353.85,
+   "price": 1359.43,
    "prev_close": 1423.11,
-   "change_pct": -4.9,
+   "change_pct": -4.5,
    "trigger_change": -3.3,
    "peak_change": -4.9,
    "first_seen": "2026-11-19T17:08:34+00:00",
    "sector": {
     "etf": "XLY",
     "name": "Consumer discr.",
-    "price": 116.1,
-    "change_pct": -2.6
+    "price": 116.18,
+    "change_pct": -2.53
    },
    "chart": {
-    "ema8": -6.9,
-    "ema21": -13.3,
-    "sma50": -21.3,
-    "sma200": -23.5,
+    "ema8": -6.6,
+    "ema21": -13.0,
+    "sma50": -21.0,
+    "sma200": -23.2,
     "momentum": false
    },
    "headlines": [
@@ -249,23 +249,23 @@
    "symbol": "AMZN",
    "name": "Amazon",
    "list": "portfolio",
-   "price": 256.77,
+   "price": 257.59,
    "prev_close": 267.74,
-   "change_pct": -4.1,
+   "change_pct": -3.8,
    "trigger_change": -3.2,
    "peak_change": -4.1,
    "first_seen": "2026-11-19T18:59:49+00:00",
    "sector": {
     "etf": "XLY",
     "name": "Consumer discr.",
-    "price": 116.1,
-    "change_pct": -2.6
+    "price": 116.18,
+    "change_pct": -2.53
    },
    "chart": {
-    "ema8": -1.8,
-    "ema21": -1.0,
-    "sma50": 0.6,
-    "sma200": 4.8,
+    "ema8": -1.6,
+    "ema21": -0.8,
+    "sma50": 0.9,
+    "sma200": 5.1,
     "momentum": true
    },
    "headlines": [
@@ -324,23 +324,23 @@
    "symbol": "AMAT",
    "name": "Applied Materials",
    "list": "portfolio",
-   "price": 339.93,
+   "price": 339.13,
    "prev_close": 352.3,
-   "change_pct": -3.5,
+   "change_pct": -3.7,
    "trigger_change": 3.5,
-   "peak_change": 3.5,
+   "peak_change": -3.7,
    "first_seen": "2026-11-19T15:06:52+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 448.57,
-    "change_pct": -2.39
+    "price": 450.09,
+    "change_pct": -2.06
    },
    "chart": {
-    "ema8": -4.8,
-    "ema21": -10.1,
-    "sma50": -20.7,
-    "sma200": -24.0,
+    "ema8": -4.9,
+    "ema21": -10.3,
+    "sma50": -20.9,
+    "sma200": -24.2,
     "momentum": false
    },
    "headlines": [
@@ -399,23 +399,23 @@
    "symbol": "SOFI",
    "name": "SoFi",
    "list": "portfolio",
-   "price": 13.63,
+   "price": 13.71,
    "prev_close": 14.11,
-   "change_pct": -3.4,
+   "change_pct": -2.8,
    "trigger_change": -3.4,
-   "peak_change": -3.4,
+   "peak_change": -3.5,
    "first_seen": "2026-11-19T17:13:44+00:00",
    "sector": {
     "etf": "XLF",
     "name": "Financials",
-    "price": 55.59,
-    "change_pct": -1.46
+    "price": 55.66,
+    "change_pct": -1.35
    },
    "chart": {
-    "ema8": -8.0,
-    "ema21": -11.9,
-    "sma50": -14.2,
-    "sma200": -20.6,
+    "ema8": -7.6,
+    "ema21": -11.4,
+    "sma50": -13.8,
+    "sma200": -20.2,
     "momentum": false
    },
    "headlines": [
@@ -474,23 +474,23 @@
    "symbol": "APP",
    "name": "AppLovin",
    "list": "portfolio",
-   "price": 378.69,
+   "price": 380.12,
    "prev_close": 390.91,
-   "change_pct": -3.1,
+   "change_pct": -2.8,
    "trigger_change": -3.1,
    "peak_change": -3.1,
    "first_seen": "2026-11-19T20:05:19+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 95.92,
-    "change_pct": -1.05
+    "price": 96.37,
+    "change_pct": -0.59
    },
    "chart": {
-    "ema8": -1.8,
-    "ema21": 8.4,
-    "sma50": 22.6,
-    "sma200": -6.4,
+    "ema8": -1.5,
+    "ema21": 8.7,
+    "sma50": 23.1,
+    "sma200": -6.1,
     "momentum": true
    },
    "headlines": [
@@ -549,75 +549,49 @@
    "symbol": "GOOG",
    "name": "Alphabet",
    "list": "portfolio",
-   "price": 272.4,
+   "price": 272.18,
    "prev_close": 279.2,
-   "change_pct": -2.4,
+   "change_pct": -2.5,
    "trigger_change": 4.1,
    "peak_change": 4.2,
    "first_seen": "2026-11-19T14:56:40+00:00",
    "sector": {
     "etf": "XLC",
     "name": "Communication",
-    "price": 103.09,
-    "change_pct": -2.36
+    "price": 103.15,
+    "change_pct": -2.3
    },
    "chart": {
     "ema8": -3.4,
-    "ema21": -7.2,
+    "ema21": -7.3,
     "sma50": -15.1,
-    "sma200": -18.7,
+    "sma200": -18.8,
     "momentum": false
    },
    "headlines": [],
    "brief": "2026-11-19-GOOG"
   },
   {
-   "symbol": "AXON",
-   "name": "Axon",
-   "list": "watchlist",
-   "price": 305.23,
-   "prev_close": 300.69,
-   "change_pct": 1.5,
-   "trigger_change": 6.9,
-   "peak_change": 8.2,
-   "first_seen": "2026-11-19T14:56:40+00:00",
-   "sector": {
-    "etf": "XLI",
-    "name": "Industrials",
-    "price": 161.61,
-    "change_pct": -1.85
-   },
-   "chart": {
-    "ema8": -2.8,
-    "ema21": -12.7,
-    "sma50": -24.1,
-    "sma200": -34.1,
-    "momentum": false
-   },
-   "headlines": [],
-   "brief": "2026-11-19-AXON"
-  },
-  {
    "symbol": "CRWD",
    "name": "CrowdStrike",
    "list": "portfolio",
-   "price": 240.65,
+   "price": 241.71,
    "prev_close": 237.03,
-   "change_pct": 1.5,
+   "change_pct": 2.0,
    "trigger_change": 6.4,
    "peak_change": 7.4,
    "first_seen": "2026-11-19T14:56:40+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 95.92,
-    "change_pct": -1.05
+    "price": 96.37,
+    "change_pct": -0.59
    },
    "chart": {
-    "ema8": 3.9,
-    "ema21": 2.0,
-    "sma50": -2.4,
-    "sma200": 37.1,
+    "ema8": 4.3,
+    "ema21": 2.4,
+    "sma50": -2.0,
+    "sma200": 37.7,
     "momentum": false
    },
    "headlines": [
@@ -671,6 +645,32 @@
     }
    ],
    "brief": "2026-11-19-CRWD"
+  },
+  {
+   "symbol": "AXON",
+   "name": "Axon",
+   "list": "watchlist",
+   "price": 305.7,
+   "prev_close": 300.69,
+   "change_pct": 1.7,
+   "trigger_change": 6.9,
+   "peak_change": 8.2,
+   "first_seen": "2026-11-19T14:56:40+00:00",
+   "sector": {
+    "etf": "XLI",
+    "name": "Industrials",
+    "price": 161.79,
+    "change_pct": -1.74
+   },
+   "chart": {
+    "ema8": -2.7,
+    "ema21": -12.6,
+    "sma50": -24.0,
+    "sma200": -34.0,
+    "momentum": false
+   },
+   "headlines": [],
+   "brief": "2026-11-19-AXON"
   }
  ]
 }
