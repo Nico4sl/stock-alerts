@@ -1,22 +1,22 @@
 {
  "date": "2026-11-19",
  "threshold": 3.0,
- "updated": "2026-11-19T20:15:26+00:00",
+ "updated": "2026-11-19T20:30:31+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 716.58,
-   "change_pct": -1.87
+   "price": 716.65,
+   "change_pct": -1.86
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 645.92,
-   "change_pct": -2.06
+   "price": 645.5,
+   "change_pct": -2.12
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 80.35,
-   "change_pct": 0.16
+   "price": 80.37,
+   "change_pct": 0.19
   }
  },
  "movers": [
@@ -24,23 +24,23 @@
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 97.89,
+   "price": 97.66,
    "prev_close": 106.96,
-   "change_pct": -8.5,
+   "change_pct": -8.7,
    "trigger_change": 3.4,
-   "peak_change": -8.5,
+   "peak_change": -8.7,
    "first_seen": "2026-11-19T14:56:40+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 96.37,
-    "change_pct": -0.59
+    "price": 96.05,
+    "change_pct": -0.92
    },
    "chart": {
-    "ema8": -15.0,
-    "ema21": -29.2,
-    "sma50": -46.9,
-    "sma200": -45.5,
+    "ema8": -15.2,
+    "ema21": -29.3,
+    "sma50": -47.0,
+    "sma200": -45.7,
     "momentum": false
    },
    "headlines": [
@@ -96,101 +96,26 @@
    "brief": "2026-11-19-NBIS"
   },
   {
-   "symbol": "UNH",
-   "name": "UnitedHealth",
-   "list": "portfolio",
-   "price": 331.48,
-   "prev_close": 349.91,
-   "change_pct": -5.3,
-   "trigger_change": -3.3,
-   "peak_change": -7.2,
-   "first_seen": "2026-11-19T15:27:10+00:00",
-   "sector": {
-    "etf": "XLV",
-    "name": "Health care",
-    "price": 177.26,
-    "change_pct": -2.16
-   },
-   "chart": {
-    "ema8": -12.2,
-    "ema21": -15.3,
-    "sma50": -14.9,
-    "sma200": -10.0,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "UnitedHealth Stock Slips: What's Going On? - UnitedHealth Group (NYSE:UNH)",
-     "publisher": "Benzinga",
-     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOUGl1N1pucW5VMkJYdENDZzFQanhQV0hJdTBzT0RsVFU4cFBkUWZUS0FGY1ZkUkVJdkpab1R6UFhVYko3eXFwMjhDbW5qV3hMUFVoQ19QNjQ5aDBhT3NyVzg1aEU3RXU2WHZjZEo0Z3dBQW1fOXF5dFR5Y0lUS1ZUVUhyLUFiV3lvYTFMaVZUZzhqTGhoSkNkcU9KNlpFMWdORWc?oc=5",
-     "time": "2026-11-19T18:29:28+00:00"
-    },
-    {
-     "title": "Managed Care and Pharmacy Benefit Scale Keep UnitedHealth Group (UNH) Attractively Valued",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZDhlckpUZEZQR0VKak5JU215UGc2NEZxOXpxdng4NVBpSFhIcGNYanMwUy1JZWdPWnp3Ym9qbGpBNVVneGdXSjc3YWllLXhpNml0M1daZmp2ZGd3ZXgzN0VLZmlnb1g1U1BxMWFBOVNqYm1IRGo2b0FnamViMkkxbEFROWdQd3J0c2d2OVF4U05BTlJQWllNbm13NkI?oc=5",
-     "time": "2026-11-19T16:39:05+00:00"
-    },
-    {
-     "title": "UnitedHealth Leads Sector Sell-Off On Medicare Fraud News - Why I Wouldn't Panic (UNH)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOenRmdTViRmh1bHNvQmRleWFRdmF0bFR1RmRkWEp3QlF0TlpuMGdQTVFBSGpXMzdHd1RFdm9naGRPRkpFR25Td0RDTVBnYWsyNEowWG82R005SHEyTlgyMGc2R3ZUckJkc3NYcDA5S2YtN0ZFUXBlRmZuZ3phVFNUZ1lLbVgwNzQ5U0ZuYk5yM3pxNEpXRDNucHhHekp3REZmRll4Zw?oc=5",
-     "time": "2026-11-19T16:30:10+00:00"
-    },
-    {
-     "title": "Unitedhealth Group Inc Stock (UNH) Moved Down by 5.05% on Nov 19: Facts Behind the Movement",
-     "publisher": "TradingKey",
-     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPOVBGMUJCb2ZKUjRFRjByT2poWkJPVVRwM01nalBqOUVvNXhWcFBUUXU5azlGOUNPQy1UMnl4TXkwdGlFM0RxQ2NDZTRqbmFBanFSN3ZDc0xfTTZpLVpUX2FmUlF6YnYtNDg3bnFQYVZFWTh2RWNRY3dWdl8zTWtHRmp1ekpYV1c2eWc?oc=5",
-     "time": "2026-11-19T16:15:31+00:00"
-    },
-    {
-     "title": "UnitedHealth Group stock fell 10.21%, with RSI14 at 28.48",
-     "publisher": "The Cryptonomist",
-     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNNWNaa3dId3M4b3ZERnlfcFZWV2dkbkRncUMtMERnanFmUVpPak83Vk1YNmhMeVc2eVBFM21ValFfRFBQRUVTSEFPOGJUeGxZQng5cG5FeElkS2lES1B1MzhEWXhHc1B0OXJTLUN2MjQxTUxmSVpYQU54c3NoQ2dZRjA2aTcydlZOVGxvaTF3?oc=5",
-     "time": "2026-11-19T12:52:38+00:00"
-    },
-    {
-     "title": "What Just Happened To UnitedHealth Stock?",
-     "publisher": "Trefis",
-     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPTGRIT1FGc0xpc0QySElHT1ViQjJ1MERzMklrOG9lOGtyc2JmNGxlTnB2YVZjY2M4bmFzWVd0Vkx5MGEtOGR0dERuRS1mYVdXaFNZRHBoUnZPbXZDWEtsN0JtUlB4MnZrSUp6T3psWGFWTmpISHlzVE53c1g1a1pzWHZKbzBtUFFQbVlKVWpGb2NqSlBmZGZuY2VXTGdjYnl4Zmc?oc=5",
-     "time": "2026-11-19T11:06:48+00:00"
-    },
-    {
-     "title": "Should You Buy UnitedHealth Group Stock For Its Cash?",
-     "publisher": "Trefis",
-     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPT2ZIZERpTS1MOUZaN2J4UERVNkpZMWFqMVR6ZllYdVlSaU9Ja2VYeDZTUmcwNHZkNTdTemZfMWh6QXNwbFk2NmN5WDQzcGpWV3NXeTgwekhvczJISXhkQThTRTBpTVY2SEFyemhKRFQ0SUlwMjBGWjBlclJPZUoyWDRpSWhCQVFJN09OR3ZNQzBEcFJyWnRDMXNYQ1dnMTJpUkR4SlFyVkVlX0ZrTWdHV3lB?oc=5",
-     "time": "2026-11-19T09:25:48+00:00"
-    },
-    {
-     "title": "UnitedHealth stock falls 10.21% on Medicare audit fears",
-     "publisher": "finchannel",
-     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNcE1HV1owY2ZkclpBNkc3bWZ3akJJcUpxZ21RRGRvSjh1aEFQS1B3a01MUnVfSnMzR2VGcllSXzhHcS1tNE15Qms5azVCcjVpeTlEd3hRLTFBU09sak9yTEFpVkpQbW5ZTmRNVFRFa2NENy1XcDNCaTllQnFtYTZZUFQ1NUQ2X1A1dTNlbFhuZGkzUW9LOXdDcHZkYkQ3WVJSdkdmWE5xYTdNLUEycVdTZFNjNHlXalc2bWN4VnZYMHBxcDhPc3hZbXk4Q0ZfQWM5R2tn?oc=5",
-     "time": "2026-11-19T07:12:27+00:00"
-    }
-   ],
-   "brief": "2026-11-19-UNH"
-  },
-  {
    "symbol": "MELI",
    "name": "MercadoLibre",
    "list": "watchlist",
-   "price": 1359.43,
+   "price": 1349.64,
    "prev_close": 1423.11,
-   "change_pct": -4.5,
+   "change_pct": -5.2,
    "trigger_change": -3.3,
-   "peak_change": -4.9,
+   "peak_change": -5.2,
    "first_seen": "2026-11-19T17:08:34+00:00",
    "sector": {
     "etf": "XLY",
     "name": "Consumer discr.",
-    "price": 116.18,
-    "change_pct": -2.53
+    "price": 116.04,
+    "change_pct": -2.65
    },
    "chart": {
-    "ema8": -6.6,
-    "ema21": -13.0,
-    "sma50": -21.0,
-    "sma200": -23.2,
+    "ema8": -7.1,
+    "ema21": -13.6,
+    "sma50": -21.6,
+    "sma200": -23.7,
     "momentum": false
    },
    "headlines": [
@@ -246,101 +171,101 @@
    "brief": "2026-11-19-MELI"
   },
   {
-   "symbol": "AMZN",
-   "name": "Amazon",
+   "symbol": "UNH",
+   "name": "UnitedHealth",
    "list": "portfolio",
-   "price": 257.59,
-   "prev_close": 267.74,
-   "change_pct": -3.8,
-   "trigger_change": -3.2,
-   "peak_change": -4.1,
-   "first_seen": "2026-11-19T18:59:49+00:00",
+   "price": 333.38,
+   "prev_close": 349.91,
+   "change_pct": -4.7,
+   "trigger_change": -3.3,
+   "peak_change": -7.2,
+   "first_seen": "2026-11-19T15:27:10+00:00",
    "sector": {
-    "etf": "XLY",
-    "name": "Consumer discr.",
-    "price": 116.18,
-    "change_pct": -2.53
+    "etf": "XLV",
+    "name": "Health care",
+    "price": 177.41,
+    "change_pct": -2.08
    },
    "chart": {
-    "ema8": -1.6,
-    "ema21": -0.8,
-    "sma50": 0.9,
-    "sma200": 5.1,
-    "momentum": true
+    "ema8": -11.8,
+    "ema21": -14.8,
+    "sma50": -14.4,
+    "sma200": -9.5,
+    "momentum": false
    },
    "headlines": [
     {
-     "title": "IBD Stock Of The Day: Amazon Chases Entry As Anthropic IPO Swings AI Sentiment",
-     "publisher": "Investor's Business Daily",
-     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOdEdIWkpPVlJBMEthdWpwb2F3XzhIX28tS1IyeHZrY2pwZ28yS0VVYWVaNDJmUnVoWTBNbDdNZS10VWs3eFo0S1U5QklXRGw1WldPdElpV1ptUUUzWVlSb1hsdlRXdHZHc2FqdjdVaVRmV3NNdzJfZnhKa25DTjRGZHRycllLSGdZakFQdmFLeWdBbUZoSnNJdA?oc=5",
-     "time": "2026-11-19T17:52:00+00:00"
-    },
-    {
-     "title": "Amazon Stock (AMZN) Flattens as It Threatens to Leave New York Over Mamdani\u2019s New Delivery Bill",
-     "publisher": "TipRanks",
-     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNYW8zc0tSMmtRXzRTRFB6VmJPMmtpdnB2ZjloWFhBSnZ4eFEwREJIOFRFQThINUR0bUw3S0duYXROa0lqN3ZpZXJ0QndBektOQm5VWUtiX0o2UlRQaTc5Y3RYUDFxTG5VMDFMVjVYalIzWUdSSjBEcmk3WXlYTnRpaW5zVmk4bHZJQS1xam5pZTgxc0lxTkNuYi1MbXJwd1BWQTdIbmxrd1RRWkgwTENTQU5ZNHNESGVBMDdyZWlaOA?oc=5",
-     "time": "2026-11-19T16:43:04+00:00"
-    },
-    {
-     "title": "Amazon Stock Moves Higher: What's Going On?",
+     "title": "UnitedHealth Stock Slips: What's Going On? - UnitedHealth Group (NYSE:UNH)",
      "publisher": "Benzinga",
-     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOd3EzOU9yRkc4NDAwWmxwN0dpeF9DdHJpNFpmN1hfV2poTUZkY21xcW1jNXAyR1BIU3NDZnpPQ0M3Z2NYMG1xeTAzRXpwTUplOTB5SHZ0R2xtNjNmajRrVWxCTVl0ZGpiUEtnS1FRRFpIMUE2dFlYZUo2WXFEVXNkM1JEYU1DdW5vS05YbXdwcW10dWJwS0ltdDVQd0xBLXVfOENXRUdn?oc=5",
-     "time": "2026-11-19T15:22:22+00:00"
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOUGl1N1pucW5VMkJYdENDZzFQanhQV0hJdTBzT0RsVFU4cFBkUWZUS0FGY1ZkUkVJdkpab1R6UFhVYko3eXFwMjhDbW5qV3hMUFVoQ19QNjQ5aDBhT3NyVzg1aEU3RXU2WHZjZEo0Z3dBQW1fOXF5dFR5Y0lUS1ZUVUhyLUFiV3lvYTFMaVZUZzhqTGhoSkNkcU9KNlpFMWdORWc?oc=5",
+     "time": "2026-11-19T18:29:28+00:00"
     },
     {
-     "title": "New York City legislation could upend Amazon's delivery model (AMZN:NASDAQ)",
+     "title": "Managed Care and Pharmacy Benefit Scale Keep UnitedHealth Group (UNH) Attractively Valued",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZDhlckpUZEZQR0VKak5JU215UGc2NEZxOXpxdng4NVBpSFhIcGNYanMwUy1JZWdPWnp3Ym9qbGpBNVVneGdXSjc3YWllLXhpNml0M1daZmp2ZGd3ZXgzN0VLZmlnb1g1U1BxMWFBOVNqYm1IRGo2b0FnamViMkkxbEFROWdQd3J0c2d2OVF4U05BTlJQWllNbm13NkI?oc=5",
+     "time": "2026-11-19T16:39:05+00:00"
+    },
+    {
+     "title": "UnitedHealth Leads Sector Sell-Off On Medicare Fraud News - Why I Wouldn't Panic (UNH)",
      "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMm14N0pvX2NlNEJxQW5UZWJqX3pyQVVoNzJZdGpFTG9WeWZUTVNtTnZRZWZ5SkxPUVNMQ2EwM3I5SFllM042QVhXd0c3a3JuM2ozeTVlX2JnTk9mT1VDNkdBVExxZnF2UFRqYjJTUmx5bDRfLWFfM1FEZEQ2UkM5V2R6N19Ibm1TS294Z3M4cFhIVEMwckwxN05qSG9QSkE?oc=5",
-     "time": "2026-11-19T14:58:22+00:00"
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOenRmdTViRmh1bHNvQmRleWFRdmF0bFR1RmRkWEp3QlF0TlpuMGdQTVFBSGpXMzdHd1RFdm9naGRPRkpFR25Td0RDTVBnYWsyNEowWG82R005SHEyTlgyMGc2R3ZUckJkc3NYcDA5S2YtN0ZFUXBlRmZuZ3phVFNUZ1lLbVgwNzQ5U0ZuYk5yM3pxNEpXRDNucHhHekp3REZmRll4Zw?oc=5",
+     "time": "2026-11-19T16:30:10+00:00"
     },
     {
-     "title": "Can Amazon's Ad Revenue Growth Continue to Underpin the Stock's Value?",
-     "publisher": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOR0p2VEx1dDFzODcwNzd3LVZncWpCRFdNUXlRX09NeUhrZEFUU3NzVlFSUGltTzh3ZWhCdzNjNTFpLUhOREt2eWNscks5Zm55SDR6UmpTbjBnWmJhZkp0Rmw3eUxyZkY2bnlVSlMtNG9qa29KcGQwUTlqLThHbWp0Yk9pZm4yeDJXWGc0TGs5dm5mSllWVGRmdU5YQTB2b294T3EyZC1tZWxIdmN2djZfQnY5U19Kai00Q1RNRkQwakVzbkU?oc=5",
-     "time": "2026-11-19T14:47:00+00:00"
+     "title": "Unitedhealth Group Inc Stock (UNH) Moved Down by 5.05% on Nov 19: Facts Behind the Movement",
+     "publisher": "TradingKey",
+     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPOVBGMUJCb2ZKUjRFRjByT2poWkJPVVRwM01nalBqOUVvNXhWcFBUUXU5azlGOUNPQy1UMnl4TXkwdGlFM0RxQ2NDZTRqbmFBanFSN3ZDc0xfTTZpLVpUX2FmUlF6YnYtNDg3bnFQYVZFWTh2RWNRY3dWdl8zTWtHRmp1ekpYV1c2eWc?oc=5",
+     "time": "2026-11-19T16:15:31+00:00"
     },
     {
-     "title": "The Amazon Kindle begins its 20th year of upending the bookstore model (AMZN:NASDAQ)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMENycjlaSV9FRXRpTkNqM09GYVZKZ3FOQlFNM0xDTGZ2TUJLN0t4R0txOGcybHVOYnJQbXpHa1NUQmp3OFM1Y0kyUWE0MEZjYlphUDRMM1VydTR3WXEzOEFOcFY5QktKTDRLUlNtLTZ2dWJfTTc3WE5MZDExOFlLZ1VxWlkySC1QTlJrY0dFb2ZHVUZvWF9QVVZhYm04VW9lZ192WnpoajBmMEVy?oc=5",
-     "time": "2026-11-19T11:53:32+00:00"
+     "title": "UnitedHealth Group stock fell 10.21%, with RSI14 at 28.48",
+     "publisher": "The Cryptonomist",
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNNWNaa3dId3M4b3ZERnlfcFZWV2dkbkRncUMtMERnanFmUVpPak83Vk1YNmhMeVc2eVBFM21ValFfRFBQRUVTSEFPOGJUeGxZQng5cG5FeElkS2lES1B1MzhEWXhHc1B0OXJTLUN2MjQxTUxmSVpYQU54c3NoQ2dZRjA2aTcydlZOVGxvaTF3?oc=5",
+     "time": "2026-11-19T12:52:38+00:00"
     },
     {
-     "title": "45,850 Amazon.com, Inc. $AMZN Shares Sold by Nippon Life Global Investors Americas Inc.",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQdHlyRFA2QTRWMlYxQlFwTGIwNDhIY2I2dGVIdndoWnR6Uld5S3RRckIwXzVlWktDUWZjQ0J3UzFCak9yZnN0LUJSUUhrRE4yN2pYWFF2bTZ5b0thLVVuNV9FeFNnS2VheUk5dFZJUEtUQm9mck81ejlUSzd1eE40OUFwd2FtNWhhekZIdXJHWGdUZWlsQm5XRnNmbk9pMVBPUDJVTS14WF92bVUzTFFTSEdPRTl0bWFzLVlidEV0eVMwT1JmMGNQZl9JMVhuM0tjc1lVZ3paUmFGZw?oc=5",
-     "time": "2026-11-19T11:37:38+00:00"
+     "title": "What Just Happened To UnitedHealth Stock?",
+     "publisher": "Trefis",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPTGRIT1FGc0xpc0QySElHT1ViQjJ1MERzMklrOG9lOGtyc2JmNGxlTnB2YVZjY2M4bmFzWVd0Vkx5MGEtOGR0dERuRS1mYVdXaFNZRHBoUnZPbXZDWEtsN0JtUlB4MnZrSUp6T3psWGFWTmpISHlzVE53c1g1a1pzWHZKbzBtUFFQbVlKVWpGb2NqSlBmZGZuY2VXTGdjYnl4Zmc?oc=5",
+     "time": "2026-11-19T11:06:48+00:00"
     },
     {
-     "title": "2,254 Amazon.com, Inc. $AMZN Shares Purchased by Leonard Rickey Investment Advisors P.L.L.C.",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQYWNXR19sYUpYZm5nNDJSdGtndTktcFE2N2RhLXhGY293LU5GOTNRNGVxaTc5RjRsaWRxa2txTV9QaDB5WXFBWEh2UWhnbEc1SUtfZzhYWDU1RGVnRzVPVGszMlVhZ2xYblJwX2FOOXFZMnhpT3lvVXVyQWxuMWwtTnE4ZkQzZkxvNjM4NWF5Q25FM3haUWQ1Qkl5TUhfc3p1Z3FnczQ1QzliUEg5cUdINnNUOE43RkFodXBvTlQwV1FGYktUZFVTMmsxXzUyd25aMjlRX0V0Vnc4cy12?oc=5",
-     "time": "2026-11-19T11:37:38+00:00"
+     "title": "Should You Buy UnitedHealth Group Stock For Its Cash?",
+     "publisher": "Trefis",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPT2ZIZERpTS1MOUZaN2J4UERVNkpZMWFqMVR6ZllYdVlSaU9Ja2VYeDZTUmcwNHZkNTdTemZfMWh6QXNwbFk2NmN5WDQzcGpWV3NXeTgwekhvczJISXhkQThTRTBpTVY2SEFyemhKRFQ0SUlwMjBGWjBlclJPZUoyWDRpSWhCQVFJN09OR3ZNQzBEcFJyWnRDMXNYQ1dnMTJpUkR4SlFyVkVlX0ZrTWdHV3lB?oc=5",
+     "time": "2026-11-19T09:25:48+00:00"
+    },
+    {
+     "title": "UnitedHealth stock falls 10.21% on Medicare audit fears",
+     "publisher": "finchannel",
+     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNcE1HV1owY2ZkclpBNkc3bWZ3akJJcUpxZ21RRGRvSjh1aEFQS1B3a01MUnVfSnMzR2VGcllSXzhHcS1tNE15Qms5azVCcjVpeTlEd3hRLTFBU09sak9yTEFpVkpQbW5ZTmRNVFRFa2NENy1XcDNCaTllQnFtYTZZUFQ1NUQ2X1A1dTNlbFhuZGkzUW9LOXdDcHZkYkQ3WVJSdkdmWE5xYTdNLUEycVdTZFNjNHlXalc2bWN4VnZYMHBxcDhPc3hZbXk4Q0ZfQWM5R2tn?oc=5",
+     "time": "2026-11-19T07:12:27+00:00"
     }
    ],
-   "brief": "2026-11-19-AMZN"
+   "brief": "2026-11-19-UNH"
   },
   {
    "symbol": "AMAT",
    "name": "Applied Materials",
    "list": "portfolio",
-   "price": 339.13,
+   "price": 338.11,
    "prev_close": 352.3,
-   "change_pct": -3.7,
+   "change_pct": -4.0,
    "trigger_change": 3.5,
-   "peak_change": -3.7,
+   "peak_change": -4.0,
    "first_seen": "2026-11-19T15:06:52+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 450.09,
-    "change_pct": -2.06
+    "price": 449.44,
+    "change_pct": -2.2
    },
    "chart": {
-    "ema8": -4.9,
-    "ema21": -10.3,
-    "sma50": -20.9,
-    "sma200": -24.2,
+    "ema8": -5.2,
+    "ema21": -10.5,
+    "sma50": -21.1,
+    "sma200": -24.4,
     "momentum": false
    },
    "headlines": [
@@ -396,26 +321,101 @@
    "brief": "2026-11-19-AMAT"
   },
   {
+   "symbol": "AMZN",
+   "name": "Amazon",
+   "list": "portfolio",
+   "price": 257.32,
+   "prev_close": 267.74,
+   "change_pct": -3.9,
+   "trigger_change": -3.2,
+   "peak_change": -4.1,
+   "first_seen": "2026-11-19T18:59:49+00:00",
+   "sector": {
+    "etf": "XLY",
+    "name": "Consumer discr.",
+    "price": 116.04,
+    "change_pct": -2.65
+   },
+   "chart": {
+    "ema8": -1.7,
+    "ema21": -0.8,
+    "sma50": 0.8,
+    "sma200": 5.0,
+    "momentum": true
+   },
+   "headlines": [
+    {
+     "title": "IBD Stock Of The Day: Amazon Chases Entry As Anthropic IPO Swings AI Sentiment",
+     "publisher": "Investor's Business Daily",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOdEdIWkpPVlJBMEthdWpwb2F3XzhIX28tS1IyeHZrY2pwZ28yS0VVYWVaNDJmUnVoWTBNbDdNZS10VWs3eFo0S1U5QklXRGw1WldPdElpV1ptUUUzWVlSb1hsdlRXdHZHc2FqdjdVaVRmV3NNdzJfZnhKa25DTjRGZHRycllLSGdZakFQdmFLeWdBbUZoSnNJdA?oc=5",
+     "time": "2026-11-19T17:52:00+00:00"
+    },
+    {
+     "title": "Amazon Stock (AMZN) Flattens as It Threatens to Leave New York Over Mamdani\u2019s New Delivery Bill",
+     "publisher": "TipRanks",
+     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNYW8zc0tSMmtRXzRTRFB6VmJPMmtpdnB2ZjloWFhBSnZ4eFEwREJIOFRFQThINUR0bUw3S0duYXROa0lqN3ZpZXJ0QndBektOQm5VWUtiX0o2UlRQaTc5Y3RYUDFxTG5VMDFMVjVYalIzWUdSSjBEcmk3WXlYTnRpaW5zVmk4bHZJQS1xam5pZTgxc0lxTkNuYi1MbXJwd1BWQTdIbmxrd1RRWkgwTENTQU5ZNHNESGVBMDdyZWlaOA?oc=5",
+     "time": "2026-11-19T16:43:04+00:00"
+    },
+    {
+     "title": "Amazon Stock Moves Higher: What's Going On?",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOd3EzOU9yRkc4NDAwWmxwN0dpeF9DdHJpNFpmN1hfV2poTUZkY21xcW1jNXAyR1BIU3NDZnpPQ0M3Z2NYMG1xeTAzRXpwTUplOTB5SHZ0R2xtNjNmajRrVWxCTVl0ZGpiUEtnS1FRRFpIMUE2dFlYZUo2WXFEVXNkM1JEYU1DdW5vS05YbXdwcW10dWJwS0ltdDVQd0xBLXVfOENXRUdn?oc=5",
+     "time": "2026-11-19T15:22:22+00:00"
+    },
+    {
+     "title": "New York City legislation could upend Amazon's delivery model (AMZN:NASDAQ)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMm14N0pvX2NlNEJxQW5UZWJqX3pyQVVoNzJZdGpFTG9WeWZUTVNtTnZRZWZ5SkxPUVNMQ2EwM3I5SFllM042QVhXd0c3a3JuM2ozeTVlX2JnTk9mT1VDNkdBVExxZnF2UFRqYjJTUmx5bDRfLWFfM1FEZEQ2UkM5V2R6N19Ibm1TS294Z3M4cFhIVEMwckwxN05qSG9QSkE?oc=5",
+     "time": "2026-11-19T14:58:22+00:00"
+    },
+    {
+     "title": "Can Amazon's Ad Revenue Growth Continue to Underpin the Stock's Value?",
+     "publisher": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOR0p2VEx1dDFzODcwNzd3LVZncWpCRFdNUXlRX09NeUhrZEFUU3NzVlFSUGltTzh3ZWhCdzNjNTFpLUhOREt2eWNscks5Zm55SDR6UmpTbjBnWmJhZkp0Rmw3eUxyZkY2bnlVSlMtNG9qa29KcGQwUTlqLThHbWp0Yk9pZm4yeDJXWGc0TGs5dm5mSllWVGRmdU5YQTB2b294T3EyZC1tZWxIdmN2djZfQnY5U19Kai00Q1RNRkQwakVzbkU?oc=5",
+     "time": "2026-11-19T14:47:00+00:00"
+    },
+    {
+     "title": "The Amazon Kindle begins its 20th year of upending the bookstore model (AMZN:NASDAQ)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMENycjlaSV9FRXRpTkNqM09GYVZKZ3FOQlFNM0xDTGZ2TUJLN0t4R0txOGcybHVOYnJQbXpHa1NUQmp3OFM1Y0kyUWE0MEZjYlphUDRMM1VydTR3WXEzOEFOcFY5QktKTDRLUlNtLTZ2dWJfTTc3WE5MZDExOFlLZ1VxWlkySC1QTlJrY0dFb2ZHVUZvWF9QVVZhYm04VW9lZ192WnpoajBmMEVy?oc=5",
+     "time": "2026-11-19T11:53:32+00:00"
+    },
+    {
+     "title": "45,850 Amazon.com, Inc. $AMZN Shares Sold by Nippon Life Global Investors Americas Inc.",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQdHlyRFA2QTRWMlYxQlFwTGIwNDhIY2I2dGVIdndoWnR6Uld5S3RRckIwXzVlWktDUWZjQ0J3UzFCak9yZnN0LUJSUUhrRE4yN2pYWFF2bTZ5b0thLVVuNV9FeFNnS2VheUk5dFZJUEtUQm9mck81ejlUSzd1eE40OUFwd2FtNWhhekZIdXJHWGdUZWlsQm5XRnNmbk9pMVBPUDJVTS14WF92bVUzTFFTSEdPRTl0bWFzLVlidEV0eVMwT1JmMGNQZl9JMVhuM0tjc1lVZ3paUmFGZw?oc=5",
+     "time": "2026-11-19T11:37:38+00:00"
+    },
+    {
+     "title": "2,254 Amazon.com, Inc. $AMZN Shares Purchased by Leonard Rickey Investment Advisors P.L.L.C.",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQYWNXR19sYUpYZm5nNDJSdGtndTktcFE2N2RhLXhGY293LU5GOTNRNGVxaTc5RjRsaWRxa2txTV9QaDB5WXFBWEh2UWhnbEc1SUtfZzhYWDU1RGVnRzVPVGszMlVhZ2xYblJwX2FOOXFZMnhpT3lvVXVyQWxuMWwtTnE4ZkQzZkxvNjM4NWF5Q25FM3haUWQ1Qkl5TUhfc3p1Z3FnczQ1QzliUEg5cUdINnNUOE43RkFodXBvTlQwV1FGYktUZFVTMmsxXzUyd25aMjlRX0V0Vnc4cy12?oc=5",
+     "time": "2026-11-19T11:37:38+00:00"
+    }
+   ],
+   "brief": "2026-11-19-AMZN"
+  },
+  {
    "symbol": "SOFI",
    "name": "SoFi",
    "list": "portfolio",
-   "price": 13.71,
+   "price": 13.61,
    "prev_close": 14.11,
-   "change_pct": -2.8,
+   "change_pct": -3.6,
    "trigger_change": -3.4,
-   "peak_change": -3.5,
+   "peak_change": -3.6,
    "first_seen": "2026-11-19T17:13:44+00:00",
    "sector": {
     "etf": "XLF",
     "name": "Financials",
-    "price": 55.66,
-    "change_pct": -1.35
+    "price": 55.62,
+    "change_pct": -1.42
    },
    "chart": {
-    "ema8": -7.6,
-    "ema21": -11.4,
-    "sma50": -13.8,
-    "sma200": -20.2,
+    "ema8": -8.1,
+    "ema21": -12.0,
+    "sma50": -14.4,
+    "sma200": -20.7,
     "momentum": false
    },
    "headlines": [
@@ -474,23 +474,23 @@
    "symbol": "APP",
    "name": "AppLovin",
    "list": "portfolio",
-   "price": 380.12,
+   "price": 377.67,
    "prev_close": 390.91,
-   "change_pct": -2.8,
+   "change_pct": -3.4,
    "trigger_change": -3.1,
-   "peak_change": -3.1,
+   "peak_change": -3.4,
    "first_seen": "2026-11-19T20:05:19+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 96.37,
-    "change_pct": -0.59
+    "price": 96.05,
+    "change_pct": -0.92
    },
    "chart": {
-    "ema8": -1.5,
-    "ema21": 8.7,
-    "sma50": 23.1,
-    "sma200": -6.1,
+    "ema8": -2.0,
+    "ema21": 8.1,
+    "sma50": 22.3,
+    "sma200": -6.7,
     "momentum": true
    },
    "headlines": [
@@ -546,26 +546,101 @@
    "brief": null
   },
   {
+   "symbol": "META",
+   "name": "Meta",
+   "list": "portfolio",
+   "price": 596.63,
+   "prev_close": 616.38,
+   "change_pct": -3.2,
+   "trigger_change": -3.2,
+   "peak_change": -3.2,
+   "first_seen": "2026-11-19T20:30:31+00:00",
+   "sector": {
+    "etf": "XLC",
+    "name": "Communication",
+    "price": 102.88,
+    "change_pct": -2.56
+   },
+   "chart": {
+    "ema8": -3.6,
+    "ema21": -5.9,
+    "sma50": -12.1,
+    "sma200": -5.2,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Meta shares drop about 2.5% after pausing non-voting Class C stock dividend due to Delaware lawsuit",
+     "publisher": "Traders Union",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOczNZUTFMeUdjSHo5SFVJemx0OEVISzZpWHRkUnhDWnVxS0M2QmROb1FOYVh0a2hxR1M1eDNLaDV2cllXd1RNWWJXZEZfa2p2d2E1ZGFzeGhDUzdBcWdnNGRLMDJGbHVuZFlNeEk0NFlWY0J3amw0Ynh0VkRuM1MwWUJjNlVlUWpwR3ZV?oc=5",
+     "time": "2026-11-19T19:02:26+00:00"
+    },
+    {
+     "title": "Daniel Loeb's Meta Stock Bet Stands Out as Tiger Global Trims",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNeXFXazFEX3JKcGdMbTNRX3BlYlJWaWhkQk43dzlvLUEtR0N3RDZmYVNDM0JTQjlCd1ZCWDhuODlsaEMxUW9CWjV2bzY0WjRGVTkzRVpab2QxM19HMGtJQkl2Y2tQNlJpQU1mb082MDlsbm1LR1BNdnB6SXUzbnJLcXVNcEhBOXUtM0t6aTU5REdtRzFscGlr?oc=5",
+     "time": "2026-11-19T18:42:45+00:00"
+    },
+    {
+     "title": "Meta Stock Divides Hedge Funds \u2013 Here\u2019s Why",
+     "publisher": "TipRanks",
+     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBBQVgyR1VUMVJzMlZWSmw3cG1fNVl5TFZ0bk9TV0tzaFNndGpTVEFLX3JfUnYxRDE1dVh0RTFIMHd4WHpiV0MwRXo3WlczMUJaekp1U1oxek9CczlwcGp4a25Pa2VyVXBHcEMwT1drMVppVTdBd0hqOEdn?oc=5",
+     "time": "2026-11-19T18:33:55+00:00"
+    },
+    {
+     "title": "Meta Stock Down 21%: Too Much AI Spending?",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPSVk5LU9FZ09sdGNRbTJROWVURkdvaWhZNWs4RkNSeWlQSDkzYkdKTFJtSGljclNUNWdTdkVRZDZPMzVOWDR4SnctSkpweWdwbXpfQ2E3b0N4QUhOMWo4VFQ4UlE2RkJqYXFlS0FwWDFEOWdjQU9HQXdOZ3lncGhwRDZESVFvTDljLUxYZGtCNzQ?oc=5",
+     "time": "2026-11-19T18:10:15+00:00"
+    },
+    {
+     "title": "Meta\u2019s Advertising Business Could Drive Another Major Earnings Surprise",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMlV5UW5BeEE5QTNqYnhUNTFteHg3UFl4Z2YwZGY0Y0s3QndOWUpWQ090M2huSk1OY0hLQWVhTnlKRWFnVFkwN3FCRU9kS1lmbVFycVgxVmFSUllRSFdSU0N6ajBaSWcybDB6UWtyUU5DN096Z2VfOXE4VkRQdHJtS3ZoU09Ra0VpVHF2VV85aDk1MHpualVva3RKcGpfb1VUTEZzQktSdlB0ZUxCQ1R5V1Y4Wng?oc=5",
+     "time": "2026-11-19T17:33:00+00:00"
+    },
+    {
+     "title": "Meta Stock Rises Even as Report Flags a Troubling Flaw in Muse AI Agent",
+     "publisher": "TipRanks",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQMUg4akhja3VMVVA3Ymx1S2RvLUh5ZkMyOWtWLW5uYmhRY084YVhaZVJvaC04NTdPX2Q5c1JlaEJHVFpXeFVoNzI1akJ4Yy03WkdlZjd1WE1qOVlVUGZyMGVLZkFXUHhIaW4xckc0YVEyNVVtcGNhVmJzeVAzMExjVEkyRk5tUnZtV1A1c3NWdUp5NUptd0xBSk96Zm10X1pR?oc=5",
+     "time": "2026-11-19T16:21:46+00:00"
+    },
+    {
+     "title": "Meta Short Interest Climbs After Q3 Earnings Report",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdDhDQjBvUjdtdV95ajdUZ0lab2IwWGF5Mi1Gc2NGdUx0c2pHNHlFNFNfOUFhWno3ZFlCMGVXaWdVLW5Xb0tTUHNGbzlaN3N5S3VpcFRNX3ZDSWVFQ3ZMWUJLRnpvQmFCbTNGNEZJVFNGckJGQ2I3azFMaFN6WFhBOVljVWs2MkVlbmozYUc5Rzk4M01rTlYxbUNPMEJGazVjbEJuTHJhMjc0MkprOXU5NDNhQjFnZU90?oc=5",
+     "time": "2026-11-19T15:00:19+00:00"
+    },
+    {
+     "title": "Meta Platforms, Inc. $META Stock: Migdal Insurance & Financial Holdings Ltd. Decreases Stake",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOMGhsUFlCNmpfQVFOTWxzTC1mVlpobTJuYnlPMFo0NVd4a0laNmZtVUpfSmIzdEU4bmozdndETmRWT1laeHZxc3U4Q0lHa0tVSUhMLVdBSE50NzVmUWR5cDkwZE1veUpMV2M3a2NLLW14VUx3dkNickZIUEpENE11aUtfNWZpWGstRDRaLVYyN3pwWjBFalVSUkx5eDFEUkNvNmdQSGpOUlBtaVBCZDl5RnNUVmFPLUlvWVRTVXBzdHZrVkRCVWlZNUxaM3cwMDZSR05ScXdJY3FTYnAtQjlv?oc=5",
+     "time": "2026-11-19T12:11:30+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
    "symbol": "GOOG",
    "name": "Alphabet",
    "list": "portfolio",
-   "price": 272.18,
+   "price": 271.58,
    "prev_close": 279.2,
-   "change_pct": -2.5,
+   "change_pct": -2.7,
    "trigger_change": 4.1,
    "peak_change": 4.2,
    "first_seen": "2026-11-19T14:56:40+00:00",
    "sector": {
     "etf": "XLC",
     "name": "Communication",
-    "price": 103.15,
-    "change_pct": -2.3
+    "price": 102.88,
+    "change_pct": -2.56
    },
    "chart": {
-    "ema8": -3.4,
-    "ema21": -7.3,
-    "sma50": -15.1,
-    "sma200": -18.8,
+    "ema8": -3.6,
+    "ema21": -7.5,
+    "sma50": -15.3,
+    "sma200": -19.0,
     "momentum": false
    },
    "headlines": [],
@@ -575,23 +650,23 @@
    "symbol": "CRWD",
    "name": "CrowdStrike",
    "list": "portfolio",
-   "price": 241.71,
+   "price": 241.34,
    "prev_close": 237.03,
-   "change_pct": 2.0,
+   "change_pct": 1.8,
    "trigger_change": 6.4,
    "peak_change": 7.4,
    "first_seen": "2026-11-19T14:56:40+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 96.37,
-    "change_pct": -0.59
+    "price": 96.05,
+    "change_pct": -0.92
    },
    "chart": {
-    "ema8": 4.3,
-    "ema21": 2.4,
-    "sma50": -2.0,
-    "sma200": 37.7,
+    "ema8": 4.2,
+    "ema21": 2.3,
+    "sma50": -2.1,
+    "sma200": 37.5,
     "momentum": false
    },
    "headlines": [
@@ -650,23 +725,23 @@
    "symbol": "AXON",
    "name": "Axon",
    "list": "watchlist",
-   "price": 305.7,
+   "price": 304.28,
    "prev_close": 300.69,
-   "change_pct": 1.7,
+   "change_pct": 1.2,
    "trigger_change": 6.9,
    "peak_change": 8.2,
    "first_seen": "2026-11-19T14:56:40+00:00",
    "sector": {
     "etf": "XLI",
     "name": "Industrials",
-    "price": 161.79,
-    "change_pct": -1.74
+    "price": 161.35,
+    "change_pct": -2.01
    },
    "chart": {
-    "ema8": -2.7,
-    "ema21": -12.6,
-    "sma50": -24.0,
-    "sma200": -34.0,
+    "ema8": -3.0,
+    "ema21": -13.0,
+    "sma50": -24.3,
+    "sma200": -34.3,
     "momentum": false
    },
    "headlines": [],
