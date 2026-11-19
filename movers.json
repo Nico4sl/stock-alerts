@@ -1,7 +1,324 @@
 {
  "date": "2026-11-19",
  "threshold": 3.0,
- "updated": "2026-11-19T14:51:38+00:00",
- "market": {},
- "movers": []
+ "updated": "2026-11-19T14:56:40+00:00",
+ "market": {
+  "SPY": {
+   "name": "S&P 500",
+   "price": 735.78,
+   "change_pct": 0.76
+  },
+  "QQQ": {
+   "name": "Nasdaq 100",
+   "price": 670.21,
+   "change_pct": 1.62
+  },
+  "TLT": {
+   "name": "Long Treasuries",
+   "price": 79.96,
+   "change_pct": -0.32
+  }
+ },
+ "movers": [
+  {
+   "symbol": "AXON",
+   "name": "Axon",
+   "list": "watchlist",
+   "price": 321.33,
+   "prev_close": 300.69,
+   "change_pct": 6.9,
+   "trigger_change": 6.9,
+   "peak_change": 6.9,
+   "first_seen": "2026-11-19T14:56:40+00:00",
+   "sector": {
+    "etf": "XLI",
+    "name": "Industrials",
+    "price": 164.45,
+    "change_pct": -0.13
+   },
+   "chart": {
+    "ema8": 1.2,
+    "ema21": -8.5,
+    "sma50": -20.2,
+    "sma200": -30.7,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "AppLovin: AXON Upgrades Reignite Growth, But Competitive Risks Remain",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNc1ZORWcyNzJ1Q0pxOTNXLWQxQU1BalVfVnJfVjkwMTBGc2JreG1ZT3JNZEJLYVRscWx3blZuSE83bWRlc2FscXcxNTRSSTF3OHVUOWVaWWo2dWludkdNU21fWkJBTE8tUzBhOTMxcFRBcENnMG13YndNYXl5MlQwSnAzMjVGdFhpLTBCcFZMS3JrbnZhbllqUE1aV014TUhGYmFvbUZfbE9YNFhM?oc=5",
+     "time": "2026-11-19T05:42:19+00:00"
+    },
+    {
+     "title": "Delayed Drone Contracts Change The Bull Case For Axon Stock?",
+     "publisher": "Simply Wall St",
+     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPTF9BYmhEbmNIV0lWR3JlNUloWlRyTDdjU0laVDBxbVpkSnZIcHpsbEU5SFJLcGl6YXV1MnlsX1FvcmdiZU9PY3psZ3ZQNVptMXNZdGg0MDZFUUdVOHltRlRpeXh0cWtEeGlJM0Vfak11c29WeC1MSnRoQkliVE05MjY0SkJ3b2NKekQzRXFWMnBGa1p6NHNSRm1VLTMzLTdyTGVkXzZ5amR6VDJmTG1PSFFMZUlQamlWWUczWThKUkQzeWdTWTVDdkp0R1FEb3AxaHNtX9IB2gFBVV95cUxNd2liNVJvY0NXZ3lObUlQV2JKaXpsZkdZaVZDM2h0TjIzTF9ic0hQWTcwWV9XeTZhS243VnBEUmYwMkg4NWROa0FPRVNlWmJVa05PZWRod0VVQ0VqSFVGUkVpOUpiazRhVWI2ZmZfRXFSTG1sY29kLVBYVW5uWDhCU0xvLW5STHZ5MnZkajdIajkwUHdKSEpPb2RwWnVDN1FSOS01cjZkMElLRDJaQ2F2WXlPem1nX1dXWm1zcjFxZ0FKbVhLWmVfVUxxbmtOb3hJR0NnSHZqVFhZUQ?oc=5",
+     "time": "2026-11-19T00:25:48+00:00"
+    },
+    {
+     "title": "Axon Enterprise, Inc. (AXON) stock price, news, quote and history",
+     "publisher": "Yahoo Finance Singapore",
+     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBIRDlEVVllQ19EZHhZcl9QR0hFT0ItN05XRGp3RkZ0YUhmdGFjLTdQSTRpLWwzOFVZNFp3c3Joc0YyQlRWYlZ3aHhVeWZBTm9vT3c?oc=5",
+     "time": "2026-11-18T17:13:01+00:00"
+    },
+    {
+     "title": "Axon's Software & Services Strength Seems Firm: More Upside Ahead?",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPZlM5NXE2b1E0aExXeElHWWNXcVBFZWpmMEpVYnBndkFwZnVqLTFWckhlNVRkeUs1dTVyMzRQdjRmVFY4RWo5ZmYyYkl3d1gxUG9kWHVWZC1Ba2dUM3djczZtRTA5X3BueFdMT1VjRkM1UUFpaFdpUnNQbTFIRV80MUJsT20xSGp1aDBUNVg4TVJMRW5UcWZSUWt6UXp6X0JIQ0pNdmJR?oc=5",
+     "time": "2026-11-18T16:24:00+00:00"
+    },
+    {
+     "title": "Axon to pay 90% of $1.2B Skydio deal in cash; cuts stock portion",
+     "publisher": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPUm01cFJ6TlMwWWF1ZWFsazdpVVh2dWdySUw4TlM3ZklIMzBFUW1iNUtONnVJSHV1dlY3My1Sd1pNd2RrSEw2TllmNTRxVG5pQU9WUUdsd0JNeGV0VmFRRTd1cDA5SlFZalFnUkQ4akVjMk9VbFBUTVlRVjFjRUNtTVdhUENhLXFLSnlUM0pRT3FCZGJKT2Y1aUNyUVM3NlNBQVhTNnlvVksySTIxLVRTX3RoNEwtOHBhejZyRVh5eEExUQ?oc=5",
+     "time": "2026-11-18T14:47:58+00:00"
+    },
+    {
+     "title": "Axon adjusts Skydio investment terms to increase cash component to 90% By Investing.com",
+     "publisher": "Investing.com India",
+     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPVGxtMlJJMXYzVGZPWDgtT0QzQVlRR0t0UXZSMmFhekhub3IxSndZNXZSTUwyZHA2MUQyWmJnZFNrdDJyWHd3ZjZpS3hYVG4tQlBWVl9EZW9mM04tOFo1ZzV4YWdkSEFPcGxncjI5U0RCM1VRYnZaQ3NlWl80RTZZeGNVbWlXQWN0UG4tX01DbV83SVB3TnZiQTFDVjl3NDdkLXRRd1hGWHVlaGRQRmN0TVpmejNxU3pkSmxlbkpDV2ZGVDlWRTBqSEh3?oc=5",
+     "time": "2026-11-18T14:38:56+00:00"
+    },
+    {
+     "title": "Axon Revises Skydio Investment Consideration to About 90% Cash",
+     "publisher": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQbzhOdGd0alFzTWs5V2o1MHVLZG1hVG9fNmlZbGlXdy1xRGR6ZHczZ1o5Z2V6T2pBUW4zTC0wZ2V3M0dMY1U5LXdWV2JvcTJDS1lDTzk5OEhzOHRUT3NKUjV1ZmNRRTRUNzFNbzVsbkJLUlAtZlB3bFBZdDhLQnBJQjlWRGNZbW5XZE1Nb2tNVjdSVWRCRXRuVTg4S0RIeENDWUFULTBIeWRGQUVzQ0JBRktkZVhRdFhXWTJTbXVxbHE?oc=5",
+     "time": "2026-11-18T14:13:01+00:00"
+    },
+    {
+     "title": "For its roughly $1.2B Skydio investment, Axon (AXON) now expects to pay more in cash.",
+     "publisher": "Stock Titan",
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPR18xaWVaSl9yNjRyX3NyVUdZbXlLanhnc1Q3UHVvYjFOVm13ZlhrVlhHeHZCTVFnREpwaENOVVd3OWdyNy1fekx5WjdHTTZzdnRXR3FwTDRfZXpFLXVjQldrWElleF84NjFIMzk4elNmdWpHVTBCS2xWLTlxZzZaczk1M0dsak9oaGhQTzk1d2RQZkFWTkdDR25TR19aT19XRUlDelZSSnBRLWRK?oc=5",
+     "time": "2026-11-18T14:06:28+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
+   "symbol": "CRWD",
+   "name": "CrowdStrike",
+   "list": "portfolio",
+   "price": 252.22,
+   "prev_close": 237.03,
+   "change_pct": 6.4,
+   "trigger_change": 6.4,
+   "peak_change": 6.4,
+   "first_seen": "2026-11-19T14:56:40+00:00",
+   "sector": {
+    "etf": "IGV",
+    "name": "Software",
+    "price": 99.7,
+    "change_pct": 2.85
+   },
+   "chart": {
+    "ema8": 7.7,
+    "ema21": 6.5,
+    "sma50": 2.2,
+    "sma200": 43.7,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "CrowdStrike (CRWD) Stock Price Prediction: Rally Meets Resistance as Momentum Stretches Above Near-Term Averages",
+     "publisher": "Blockchain News",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNRFlrTjVZXzU0aUo1OE0yaEFCYkRJZnJEV3RrWkk3Y3pqTmFOVFJkNWF6VXBvVzczUF8xV1NTUXVtVWhCZm5kT1hCdkdkenZ5VXhEc3FwSUNnZlRheFdpVDRjMXNHTnhhYzh0WUJJODZISFVfSlpPT1JVTjFYRmpOd3h6ZHVEMGtTTm9fVWlxSWtSOWNvSS1oYWx0MUw0MUhCdDJVS0FMcw?oc=5",
+     "time": "2026-11-19T14:05:00+00:00"
+    },
+    {
+     "title": "Here\u2019s why SentinelOne, Okta, Zscaler, and Crowdstrike stocks rising today",
+     "publisher": "Invezz",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPTnpPSkZiSzBqRC1kLUxoNkJnVTlRUWhEQWotWUg0N3lhOU04a2ZhTy1qZ2FVcmN0NEFMZUtFRl81OVQ4dUJBQVFfQWZOWjg2Z0h4Tms3eHVXRXNpVzNVQUZEcXNBUktEZXlzVjVfeXhHUlZtLTJZQ0t3SzJhRzlLblZST1YwOHRheExETXEzcVlYeHFQUUpmazk2aHhXUmxabnF2ZXZkbnh4anN4bmc?oc=5",
+     "time": "2026-11-19T13:53:31+00:00"
+    },
+    {
+     "title": "CrowdStrike Stock Forecast: CRWD Rallies 8% as Strong Earnings Lift Sector",
+     "publisher": "FXLeaders",
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPLVdRSTdCc0QzZExSQ0FGZTJxWXFRMThGcENFMkltTXMzeHNxVGJQTnlGbWpKbnQ2Y1FCd3hxMTl2R1VxQnNfTENNdGdZRlI5VnFvVjh1dGpEbUQ1ajdSMkQ4UG95WmFVcC1GM2tzVWlodHhuLXVjTGx3ZnltWDRJaVpNUVU4UTEycjBlb29yOA?oc=5",
+     "time": "2026-11-19T13:04:48+00:00"
+    },
+    {
+     "title": "Could CrowdStrike (NASDAQ:CRWD) Shares Keep Rising After CISA Warned About the Java4Shell Bug?",
+     "publisher": "kalkine.ca",
+     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNb1JsZEpFaFpRU3ZtQzhuclU3ajJTc3JKZmtZcGVaZ2I5R2RoVzczY3hfOWJPYXVkUWlfQ2ZkeUdNQzJhLWJLVVQxbFg0dHdpckh2a2VxUmlicGdUeUdDR0ZyYWZMbnlkbVlqNVZTUG05Qi1TcEpfaGQ1aVJsSFdPQm54ZlRodzFCRE4xaFc2RDNVSFMtdlVkWkJBLWNsSVNnWDBhbTRGQmxsZmY0dDJNLVJIVHEyVWY0ZU9wZmRlNXdrMmc?oc=5",
+     "time": "2026-11-19T12:38:00+00:00"
+    },
+    {
+     "title": "Why Is CrowdStrike Stock Surging Thursday?",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQNmhTZnZBX2x3cllZemhpc0ZueUJpeG9kcHZ2dlpGVkxsZGpBemRVWENtLTBYTURHVzd0Sno5SnV4RUNvVTdZbWhXcWVVWXdrbEZWYnNyclhjNkpPTU9YMVRGTlNWNmV5OWJiZ1E4MEVCckdwZ29SbmdrakpSYzR4TEVuNXR5cHJuMGI1UXBhX2ZsSjVFWHZTTm93?oc=5",
+     "time": "2026-11-19T11:53:34+00:00"
+    },
+    {
+     "title": "AI Hacking Fears Test The Bull Case For CrowdStrike Stock",
+     "publisher": "Simply Wall St",
+     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPNjZic0tpcGxDX2xEMHZrdUxNaFRLb3NaQzN5TFZGaHItaVppMjhpOGN2NzlKMHN2NGtKcURfZE1hSzkyb2RoQllZTVV3SVJfMUMtTk90NWlscmxseXEyWEZpbU9VeEpDQ1pvcmdyLVFpX010VWEzNko5T3N5M180Yk1iREg2c3B4VTM4Z2R6SmxLSFhOMG1VcTgzMzdmS1lkaGZSd2l6WWtmOTFiYnQwTURJNk9WNU5yQ2VwY3JFYy1lX2tzZDVsUWRINzJVNlBTNlHSAdcBQVVfeXFMUHBkWmU0SHRHQlVDbzRFNFZmTEg1ZWFQOWFVdXZVOEZuY2xrNGM2NER4WHJYOGhnd0p2YXc4ckt0Q0ZWclNvUVZEaU9HOEUzOFJlU2NEVFVTTTF5dV80eFd3Q1FhcExtYldmSTY0bDYyeGNGaklyOUtmNGVueXJkZWVMWEtic3l5b3BrYzZmUnNVaWIydGpsZjFrNVB2YlFGZG5JQm5sdHhVeW5WWTB3NHk2VkZzYWZmcm82ZXNydlQzcUhQeFJ2LXA3QjNYSmpwS0c3VjI4UWs?oc=5",
+     "time": "2026-11-19T06:14:06+00:00"
+    },
+    {
+     "title": "Is CrowdStrike (NASDAQ:CRWD) Securing the Rise of AI Agents?",
+     "publisher": "Kalkine Media",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZXFFSmhvNkI1d2hKMEIxUVhfd3I2V01MbFotTXpGcmRPZXhYME5RXzdHVmpjR1NRZjFlbFA0ZFRpdnJhQ19XZGtNdDhxQjhkQ0tKNV9jOWNibGhfZ3hYYkRqc1J3Wm94dE4xZzJuRXRpbDV1aUFaYXVPakxMa1F0NTZfM29iMUFGckJ2T082LWhmbWJlaWJuZHBVUHltNkE?oc=5",
+     "time": "2026-11-19T05:02:00+00:00"
+    },
+    {
+     "title": "CrowdStrike (CRWD) is Getting Investor Attention \u2014 Here\u2019s Why",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOVTVCNEc0TTRzbzN0UEdRLWI4Q0ZwVjJJekNqV1ZmemtJSS03c041MGR1d2djdTJNdmVxNGZwdVpibGFxTFk0bkt6Y0oyem9YNUdxNXRTS0V6ZldLR21IQVVBaE9BN0FUd2Y3N2djMnZWaUFfTDNSY29DWHJsY3ptZXU2T1pnbkk4NWlmaF9IdzVfbHlKNzJ6WEE2Z3JBZXZjbjFJZ29uWFNFbG1k?oc=5",
+     "time": "2026-11-19T03:33:00+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
+   "symbol": "GOOG",
+   "name": "Alphabet",
+   "list": "portfolio",
+   "price": 290.6,
+   "prev_close": 279.2,
+   "change_pct": 4.1,
+   "trigger_change": 4.1,
+   "peak_change": 4.1,
+   "first_seen": "2026-11-19T14:56:40+00:00",
+   "sector": {
+    "etf": "XLC",
+    "name": "Communication",
+    "price": 106.01,
+    "change_pct": 0.41
+   },
+   "chart": {
+    "ema8": 1.6,
+    "ema21": -1.6,
+    "sma50": -9.5,
+    "sma200": -13.3,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Alphabet Inc Class C Stock (GOOG) Opened Up by 3.44% on Nov 19: A Full Analysis",
+     "publisher": "TradingKey",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNXzJfQmRXTGJWWWdrbzlXZzhQRTlvaU1vcFU5dWljRFV2bHFYTW5kZ1l2YWhBcHRSTUxjN1pUWXlQRHBIU21BVWtvNld3eGt3aGVTXzBzYkFBV3dtQkV2UzJqbElVMGo0X1lINThGSXJIU2FmVS1nUFUtNzFmTHZVNmZYTThUcTMtc0ww?oc=5",
+     "time": "2026-11-19T14:48:36+00:00"
+    },
+    {
+     "title": "Anthropic, the AI Company Google Backed With $33 Billion, Just Priced Its IPO. Here's What Alphabet Shareholders Own",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPV0tYMkU1WC0wWnptaV9NVzJ0amxHNFFJdXNzMUVsQVdKLUZjSDdSaXA0dUF6RnVLLXV1LVRKWk9fZ25EOWxsTDUxd3E2U1d1ZTNyR2lKdmhYVnUwQzVxcGlrSHRZWEFIRkNiUEZGbnZ6RzlLN1FjOFBXd2twOWxkMXpxaWczZEtVekNIOHN0N0drM1V4MjhMeW43TlZFSkhEZlpuOXJvTjYteU9SWGZLN1VHdnNxX1RydXNnWERXckVOUHpjSGwwQmFobkd2dXZzOGxKNmExcGIyQmdTWU1LZXJGQ3JHWXgtQlJZ?oc=5",
+     "time": "2026-11-19T14:47:00+00:00"
+    },
+    {
+     "title": "Google\u2019s No. 1 Move Against Anthropic Is Free AI, per Bill Gurley. Alphabet Will Own 14% of Anthropic",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPSHl5WWRXWXIwaWdHSU9zSEhNVXdtb29hNzBaVHgxNGpGcFNWbUxmVmNtNXV1a3U5Ym04Nml3MzJ3RzFNOGhTZDM4a3BEaHc1bElUSlFoeVJpQ3RKOHFJNmpqckcwTHVrVlNMa0NzMVd4MXBXWTByWmJ4dFZSeVZFUU9Oby1Tck1jS3JETjZfdnlKdw?oc=5",
+     "time": "2026-11-19T11:16:18+00:00"
+    },
+    {
+     "title": "Lone Pine, Viking build Alphabet stakes; Tiger cuts (GOOG:NASDAQ)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQZ2FTNE1DSnRLNXF6TllMMm1jZlp3eXd1TzZPQVh2OEdReFl3ZUNSczZVRVNjX1lYcHVmNlJtV2dNZmRwVVpKOEphQlZpM2pSSTJtWlk3X0tMNFFxTC11bEFneUwxa2FyNjNXRjJZcWlWRDZQZklsWHB2bGQzVGRQUHVkMDFoQjY2YUFDcXNWbUw?oc=5",
+     "time": "2026-11-19T11:06:59+00:00"
+    },
+    {
+     "title": "Google Stock (GOOGL) Rises 0.8% to $282.44 (Nov 18)",
+     "publisher": "Gotrade",
+     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxONGRuUWwxR3ZNUm9QUXI4T204ZEpsM0lYdDJDNjJUeUV1VXo3cUlXWmdhbXBfU1ZYZm9XNEY1UDNlLVRHRmpfalpIQTJTdTFZSW9SQ0lySXJ4aHRLV2RWcndKeUlSbTFFNEVST0NlVWNza0pmcnVTNnZOVXpNUWxGT3BB?oc=5",
+     "time": "2026-11-19T03:45:00+00:00"
+    },
+    {
+     "title": "Is Alphabet Stock a Buy Right Now?",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQem5kdTNnLWkxWjFsM3dqMF9xYkwxZ2dkbkR0d1V6TFo5dkJaMnIwMzhGbEhORmprZVFHZmhpRlI4VDFVd09SWWp6ZkpZSjdycTY1VjNseUwyWlpFRHRKRHI4X09kcWs3ekdPLUpfREtQM3ltWnRpS3g0dDE0SHpFZnZR?oc=5",
+     "time": "2026-11-18T23:37:02+00:00"
+    },
+    {
+     "title": "Alphabet vs. Apple: Which Warren Buffett Stock Is the Better Buy?",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPS0NHQjFMcmVlMkJwTE53Vm9yLUxWaUx0ZzlHSU1meHpDZVJEYWYwZzlFWHlzeU8zbGNtOGhRTU5aakYySDVudHZXcnhBZEZCRHhCM01yczBxUjhpMEM2LWluWDY4UEZESlE4bFI2MEZGM0F2UkZHVi00V2EyUmxnQ3dOLTZ2UWtzSVhSbkRBVWhwV3FJRWJjWXY2RFRMc0RvaHNDLXU5QUU?oc=5",
+     "time": "2026-11-18T23:25:02+00:00"
+    },
+    {
+     "title": "Here\u2019s What a $1,000 Investment in Alphabet Stock Could Be Worth by 2035",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQNmtObzlJaW1McDlsa1ZHRzdwTUtWLWpFcXpjX1ZMc1JKcXF5eVhSekFJcEt3cE52ZDhWSnF3UDhUbGhQRlR3NnBfbmF3ZVlSMDQ4R1hkcVJBWkFPRnI5a2RFVXBYMHlnek92a2xMNWF5UXMwWUFoX1dDc3B0NllOVy1fdkVDZ2V6WDZRWFNjYXZVSnpDc3dRd3lSbGsxNmJRXy1aVXJ6UlFZUXY3djBSTEhUV2EtT3Yw?oc=5",
+     "time": "2026-11-18T20:30:02+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
+   "symbol": "NBIS",
+   "name": "Nebius",
+   "list": "portfolio",
+   "price": 110.57,
+   "prev_close": 106.96,
+   "change_pct": 3.4,
+   "trigger_change": 3.4,
+   "peak_change": 3.4,
+   "first_seen": "2026-11-19T14:56:40+00:00",
+   "sector": {
+    "etf": "IGV",
+    "name": "Software",
+    "price": 99.7,
+    "change_pct": 2.85
+   },
+   "chart": {
+    "ema8": -6.3,
+    "ema21": -20.6,
+    "sma50": -40.1,
+    "sma200": -38.5,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Nebius: A 65% Crash While Building A Game-Changing AI Compute Marketplace (NASDAQ:NBIS)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOZ2ZZWGdvNjZaMWFPWm1sU3BCSER6aGJKN0pkTkFFc1lBVTlIbG9lSkRlY2pITjlHclRVQ2k3U195YThBakJ5RkRxYk1lanhUYUlxVlFUdmRvVWRxUFZSdlpNWlNRYlVxaTJQcEhIWVRPTnNJNG5jWWtKN1RYTGxJSDgwalhFQjZFRWdiclNIbGJpMHRuT1Y0TTFpRXRIcTBobEkzRmRVLVF2czUxbWdWVjJHcmVlVzRGRTlJdA?oc=5",
+     "time": "2026-11-19T14:27:05+00:00"
+    },
+    {
+     "title": "Nebius Group (NBIS) Stock Price Prediction: Data-center delays and a broken trend keep pressure on NBIS shares",
+     "publisher": "blockchain.news",
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPT0lqYm1HaXQ0eDUwcEo1cFExNGVxNy1hU2ZpS2Z0MEVZcGVBOFVMdDFqWG04ajNsRG1OVzdOazlMTGg1aUxrcnlqVGtWUEpkQUJZTEFDZTRqbWhyUUIxZmxvb056M3puc0w2Z0ZBQzllNzZ4MFV2RUNQbHR4WlNhaENwdHFVcEhsbXcwa0dDUmlWc0NvWkE?oc=5",
+     "time": "2026-11-19T13:25:00+00:00"
+    },
+    {
+     "title": "Nebius Stock\u2019s (NBIS) Q3 Sell-Off Looks Like an Opportunity",
+     "publisher": "TipRanks",
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQU1E3aXVqTnFRY0ttdlBORms5Rmp6c2VpMU9LSUp6Y0dTb3VwM09ldm5CS2tyZkJGOURiNDFGQ001R2V4cHZRYmh3ZXJfclQzVkxERS1SOFRWYkxOYjg0T2ZDbkdEcWJseWI5UF9LUUx6aGtXTUVwZlpyZVo4VkFmbGROV3IyZ0JwMnhLSGRsRWxNdkl5dDB0bTRB?oc=5",
+     "time": "2026-11-19T11:57:48+00:00"
+    },
+    {
+     "title": "Better AI Stock to Buy: Coreweave vs. IREN vs. Nebius",
+     "publisher": "The Globe and Mail",
+     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOc0ZiSEtETUdMU0tpb0hkRy1OLTdINDNTbTNiS0FDMC1NbTVvYm1nOVBMT2k0R1BIS0xWRndFeW5xWmV3SGE3V29RenFwQW1iaHgzSjFFOXhLSVdrX3VPc0V5a3daY1JBdmozeXZXWnFYQTI5QXdHRXoxQnZPd0tHNWdJX3dUbUJ0XzZoel9LZTJmSEpNOUtIQlRqWjNDZ0NpRVAydjVGT0tlUWgycS16N0VUVUstQkthYld6bV9aaGQ3LVBnUGVURWlCSUo3V3ha?oc=5",
+     "time": "2026-11-19T11:10:08+00:00"
+    },
+    {
+     "title": "Prediction: Nebius Stock Will Trade At This Price at the End of 2027",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNQklsLTgtMlpSX3RHdkNBYnlkaVE3N1hwVHljWWthblBqUEpHMFBRWUlQamR3ZVZtNl9YT1BXMzBMSEhIekF5TEFUaGV5enpSSzdKUFd5YWQwUFBiQmZPT2h2cWZxMTNxcllxQllTbmlXS3JON0M1ZTZrSVpKZXQtOE9MZXBqdk82dWx5clpXVW0wU2pGcEF0c0RlbXFMNVFSeGF4a3ZNbzA2SHl2Q09N?oc=5",
+     "time": "2026-11-19T09:14:02+00:00"
+    },
+    {
+     "title": "Why Did Nebius Group (NASDAQ:NBIS) Slip Despite Its Revenue Beat?",
+     "publisher": "Kalkine Media",
+     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPWDNSNldPc3M5a1pEcXl4RXlrcTlFVTV1d25xN05TVFRUa2x5dHB4UU1QZWV3R2JiMmFaTFBEaEpsdHlXbEVRV3dzVy01S0pfaUpqTUczX01QaFRqVW5RM3ZKWTRMSlhwRHZBQUgtSlZONWxsR3RLbW1QQlY4NWpTZ2V0aVZwaHhFa3FoeDd3Q2dFWnNJWGwzR2FyNjdvSi1tYzJ0N2tjLThUYlN1OUQwNXZKdTcxY1ljZkpFVw?oc=5",
+     "time": "2026-11-19T05:28:00+00:00"
+    },
+    {
+     "title": "Did Nvidia Earnings Just Shift Nebius Group's (NBIS) Investment Narrative?",
+     "publisher": "Simply Wall St",
+     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPcW1WX3J3RU5ra1ZsY1NyRmVKUERmZVp3V2lWUGhwSW1hLWxUVmhCT2R6WXZ4UGE3TmRONGxwbVdmZ05pR3FPUmUzb1g1SXZtSnZObDMtZGlJaGhRZFVsQUlqQi03QllQN29PQW1UbGpEUzl4TU5fSHlaYlR4X0tlY096MUwxUGgyYmpCb0ZVX1ZJNkFRX1lUT2tnb294d0dwODlrS2xEMEZKblJVVWZ2TndLOV9ma1VHaUFXenQwbTBPMDNRNmdiWkFUTdIB0AFBVV95cUxPRmh2NFJvME9UOGs1dUhuNnZyUEtxc2MtUXRONzBEeTRKQ3VBUnU3aGhTQ3ZkWGdqQUV0UnE0UEFpd0tkZWxPLW5SbDV1QmkxSzEtUzMzYnFJUzBBc3lfQXpqR01tLTc3ZTJUdkhfZFRHVkI3RFE5TnJjY2tONm5oZVpDd2xQM1RUaDhTNlBxRjc5MUdVRzF3T2hiN3hXUi03SXlXV1cwM0FwQV94UHotSFlaZmptMVVEaTVKenhIeFY5TTM0U1NvNUdWb1lIeGsx?oc=5",
+     "time": "2026-11-19T01:12:09+00:00"
+    },
+    {
+     "title": "Will Lower 2026 Guidance Change Nebius Group (NBIS) Stock Narrative",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOWDVibUIxcVNmbzhRUWtrbmJ3UmZwU0NjWjU0YXRBRDhEQ2dPaWtoaUhaMlBLeE03U2FHUHpHZnM1MXhfRnpBcUtiQndBaUkxeWFzVmlxZmhIbmdQQ0lkc0hMUEdzeGpwRGMtTnFwTVJqdHZlZFlWQnRIY21DRjN5R3h3NUxVV2lLUEVpUFF1R25HLTZ4UXdiSFF1Skl1dVk?oc=5",
+     "time": "2026-11-19T00:15:00+00:00"
+    }
+   ],
+   "brief": null
+  }
+ ]
 }
