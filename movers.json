@@ -1,22 +1,22 @@
 {
  "date": "2026-11-20",
  "threshold": 3.0,
- "updated": "2026-11-20T15:31:42+00:00",
+ "updated": "2026-11-20T15:41:47+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 709.17,
-   "change_pct": -0.94
+   "price": 708.73,
+   "change_pct": -1.0
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 630.48,
-   "change_pct": -2.26
+   "price": 629.67,
+   "change_pct": -2.38
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 81.17,
-   "change_pct": 1.02
+   "price": 81.14,
+   "change_pct": 0.99
   }
  },
  "movers": [
@@ -24,24 +24,24 @@
    "symbol": "ANET",
    "name": "Arista Networks",
    "list": "portfolio",
-   "price": 172.91,
+   "price": 171.85,
    "prev_close": 189.59,
-   "change_pct": -8.8,
+   "change_pct": -9.4,
    "trigger_change": -5.7,
-   "peak_change": -9.0,
+   "peak_change": -9.4,
    "first_seen": "2026-11-20T14:55:54+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 421.27,
-    "change_pct": -5.86
+    "price": 419.5,
+    "change_pct": -6.25
    },
    "chart": {
-    "ema8": -7.0,
-    "ema21": -6.9,
-    "sma50": -10.0,
-    "sma200": 2.6,
-    "momentum": true
+    "ema8": -7.4,
+    "ema21": -7.5,
+    "sma50": -10.5,
+    "sma200": 1.9,
+    "momentum": false
    },
    "headlines": [
     {
@@ -99,23 +99,23 @@
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 89.17,
+   "price": 88.19,
    "prev_close": 96.92,
-   "change_pct": -8.0,
+   "change_pct": -9.0,
    "trigger_change": -4.8,
-   "peak_change": -8.6,
+   "peak_change": -9.0,
    "first_seen": "2026-11-20T14:55:54+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 94.27,
-    "change_pct": -1.91
+    "price": 94.11,
+    "change_pct": -2.07
    },
    "chart": {
-    "ema8": -18.4,
-    "ema21": -33.3,
-    "sma50": -50.9,
-    "sma200": -50.4,
+    "ema8": -19.1,
+    "ema21": -34.0,
+    "sma50": -51.4,
+    "sma200": -50.9,
     "momentum": false
    },
    "headlines": [
@@ -174,23 +174,23 @@
    "symbol": "AVGO",
    "name": "Broadcom",
    "list": "portfolio",
-   "price": 320.15,
+   "price": 319.37,
    "prev_close": 346.65,
-   "change_pct": -7.6,
+   "change_pct": -7.9,
    "trigger_change": -3.6,
-   "peak_change": -7.6,
+   "peak_change": -8.1,
    "first_seen": "2026-11-20T15:01:24+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 421.27,
-    "change_pct": -5.86
+    "price": 419.5,
+    "change_pct": -6.25
    },
    "chart": {
-    "ema8": -5.1,
-    "ema21": -4.9,
-    "sma50": -6.7,
-    "sma200": -13.0,
+    "ema8": -5.3,
+    "ema21": -5.1,
+    "sma50": -6.9,
+    "sma200": -13.2,
     "momentum": true
    },
    "headlines": [
@@ -249,23 +249,23 @@
    "symbol": "AMAT",
    "name": "Applied Materials",
    "list": "portfolio",
-   "price": 314.11,
+   "price": 312.7,
    "prev_close": 338.93,
-   "change_pct": -7.3,
+   "change_pct": -7.7,
    "trigger_change": -4.5,
-   "peak_change": -7.5,
+   "peak_change": -7.8,
    "first_seen": "2026-11-20T14:55:54+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 421.27,
-    "change_pct": -5.86
+    "price": 419.5,
+    "change_pct": -6.25
    },
    "chart": {
-    "ema8": -9.5,
-    "ema21": -15.6,
-    "sma50": -26.2,
-    "sma200": -29.8,
+    "ema8": -9.9,
+    "ema21": -15.9,
+    "sma50": -26.6,
+    "sma200": -30.1,
     "momentum": false
    },
    "headlines": [
@@ -321,101 +321,26 @@
    "brief": null
   },
   {
-   "symbol": "APP",
-   "name": "AppLovin",
-   "list": "portfolio",
-   "price": 357.07,
-   "prev_close": 379.02,
-   "change_pct": -5.8,
-   "trigger_change": -3.9,
-   "peak_change": -5.8,
-   "first_seen": "2026-11-20T15:11:23+00:00",
-   "sector": {
-    "etf": "IGV",
-    "name": "Software",
-    "price": 94.27,
-    "change_pct": -1.91
-   },
-   "chart": {
-    "ema8": -5.9,
-    "ema21": 2.0,
-    "sma50": 15.4,
-    "sma200": -11.7,
-    "momentum": true
-   },
-   "headlines": [
-    {
-     "title": "AppLovin (APP) Stock Price Prediction: Jefferies lifts target as AppLovin tests support after a sharp pullback",
-     "publisher": "Blockchain News",
-     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQTWVMdVlGeVpSMWM3R3pfVEFGOUtXWnZlMVJYR0d2WjZxSHNFODFHNHNHcVAtdkV4a1RaRlMzV0ZYVWZJX3hzZ3FyMkdkenBqYzJIZlJDMHA1bTJiRTc3dXZCVTlyTXVveUNZQWNSc3kzaWlXWnhmR1NNQXVJSldFRWlHWi1HaVVwWkZLb0I0ZGhjZ1pVLXhpeDZLaFR5RHdrMjRqVy1yaDJGRTA?oc=5",
-     "time": "2026-11-20T09:11:00+00:00"
-    },
-    {
-     "title": "AppLovin Stock Is Up 39% in a Month: Is The Stock Still a Buy?",
-     "publisher": "The Motley Fool",
-     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPY3dUNWtzZjZxR2pMUzJjR0ZaQmRZWTZIeWpfWFFOWVI4ZUUzVml4Ympsd3ZKRThTdWR0MGxHSGs4ODdSS2UyeHYtdW1qRGpBNFNLWVdvWVhNSm1KN2N5TWdzMlFDTWRfaGFxaEVoUnB4ZU90b0tyM1hRUVMyVERVdzJPbUhaZ0pmX29KdS1uVU5DQ2tkUTd6TklaQ1BoYk8wYzBtaw?oc=5",
-     "time": "2026-11-20T09:03:01+00:00"
-    },
-    {
-     "title": "Applovin Corp Stock (APP) Closed Down by 3.04% on Nov 19: What Investors Need To Know",
-     "publisher": "TradingKey",
-     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPcXc2bE9raDVYOXVNSlZRSlYzWkRYYlhMNmxYeld4RUsyeTN6MGZHLVliZHdHWDBsWU1od1F1VEhKblIyUjZRdjNGU1pfWTdFVXVRQnRoMWR6WmFfM2xVclRSaEpBajI4S1gyMnBNUVpXbUVkQS1DQ2N1UVRqZmRZalBfcnBYNHFGRWc?oc=5",
-     "time": "2026-11-20T03:18:44+00:00"
-    },
-    {
-     "title": "AppLovin Just Gained 45% in a Month. What Will It Take to Hit $500?",
-     "publisher": "TIKR.com",
-     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPU0RoSkgzTzRJcngyb1JUNmhKLVhSOGxFc3FEMDJYRDVoT1pHdXlGVFdteEVhMjAyX0JmdWZYN0JhTXVTMXhJUXVET2RJYVhxSXlsUENiNEpvR2Uwd3pDNDh4RV83LUQ2Q2ZrWmFYNTZLbDZNQXNiREx6b0pGWVdlUXNMellTYlp6cTdZSzNQYVpGWEVoNmt3NVNDcnFsaFk?oc=5",
-     "time": "2026-11-19T19:41:15+00:00"
-    },
-    {
-     "title": "This tech stock has been nearly cut in half this year. I think Wall Street is getting it wrong",
-     "publisher": "CNBC",
-     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1WQzhOUzF6a2lzU2c0OVM5cjRzNWt6QzlFbm8zRDFTcGhicTZwTUhYWFBUd01URXpKLUpwT1dCeW5vQmFQck5uRzZQWXBUaUpOT3RzZ1Z5blNIMGtjY1NLb0R4S1ltWHNsWTZycm9raXpvUzJZRWc?oc=5",
-     "time": "2026-11-19T19:08:20+00:00"
-    },
-    {
-     "title": "Applovin (APP) Shares Dip Amid Options Activity and Rising Implied Volatility",
-     "publisher": "GuruFocus",
-     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPd1c1MDJUb0ozYXkwQ1FzZ21rQldMSW54V2VZdzcwTEdVQ3lNMUk0b0xIUmNEYm43Zkc5TW1YVkF1NVJ4MlNUQU9EMXpaY3ZNanRVM1VxZE1NMTh2OFJaeFUwMkxfcXlLU3NFbkFlUnNGWmZ5S01zclNlZlJzTUIxVFZUN1RoekUzM1VWLWxjS1R2cUlCQkdFSnp2SGlJODh2aURYT0tVYmdSclZ5ZXZYbS1vVHo?oc=5",
-     "time": "2026-11-19T17:45:07+00:00"
-    },
-    {
-     "title": "AppLovin (APP) Stock Price Prediction: Strong earnings, but the tape is now testing whether the breakout can hold",
-     "publisher": "Blockchain News",
-     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOeTVieVliMk5GaTRXSURiLVMzMFp2UVhnaFlTSloyR1VRZlpzWS1sVlVZT0dHdUJiTEFBbmFUbGpUc01KZTJPNnhtTjZ1ZGk4aTFLMm0xeHJVclpTYWVTaUVHWll5c05XUXRJZFdpcm9jZU1NTzVNQXJzT0s5OXlfNjAzNy01X0NaMkdkYjRIeFdXREZO?oc=5",
-     "time": "2026-11-19T13:10:00+00:00"
-    },
-    {
-     "title": "Applovin (APP) Stock Forum and Discussion",
-     "publisher": "Moomoo",
-     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5wekxLeE04SWVsNFo0amVSYmZTWE5iQTFENHRGNmNPYUFYV1dSSExVQnhrcEJpOXFVWjRrblYybDRVSWF1MmFhTzlnUXJMbXg1QW5KT2s1Y0E?oc=5",
-     "time": "2026-11-19T09:15:35+00:00"
-    }
-   ],
-   "brief": null
-  },
-  {
    "symbol": "NVDA",
    "name": "Nvidia",
    "list": "portfolio",
-   "price": 138.06,
+   "price": 136.95,
    "prev_close": 145.98,
-   "change_pct": -5.4,
+   "change_pct": -6.2,
    "trigger_change": -3.2,
-   "peak_change": -5.4,
+   "peak_change": -6.2,
    "first_seen": "2026-11-20T14:55:54+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 421.27,
-    "change_pct": -5.86
+    "price": 419.5,
+    "change_pct": -6.25
    },
    "chart": {
-    "ema8": -11.2,
-    "ema21": -21.9,
-    "sma50": -33.4,
-    "sma200": -32.1,
+    "ema8": -11.8,
+    "ema21": -22.5,
+    "sma50": -33.9,
+    "sma200": -32.7,
     "momentum": false
    },
    "headlines": [
@@ -471,10 +396,85 @@
    "brief": null
   },
   {
+   "symbol": "APP",
+   "name": "AppLovin",
+   "list": "portfolio",
+   "price": 358.16,
+   "prev_close": 379.02,
+   "change_pct": -5.5,
+   "trigger_change": -3.9,
+   "peak_change": -5.8,
+   "first_seen": "2026-11-20T15:11:23+00:00",
+   "sector": {
+    "etf": "IGV",
+    "name": "Software",
+    "price": 94.11,
+    "change_pct": -2.07
+   },
+   "chart": {
+    "ema8": -5.6,
+    "ema21": 2.2,
+    "sma50": 15.7,
+    "sma200": -11.5,
+    "momentum": true
+   },
+   "headlines": [
+    {
+     "title": "AppLovin (APP) Stock Price Prediction: Jefferies lifts target as AppLovin tests support after a sharp pullback",
+     "publisher": "Blockchain News",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQTWVMdVlGeVpSMWM3R3pfVEFGOUtXWnZlMVJYR0d2WjZxSHNFODFHNHNHcVAtdkV4a1RaRlMzV0ZYVWZJX3hzZ3FyMkdkenBqYzJIZlJDMHA1bTJiRTc3dXZCVTlyTXVveUNZQWNSc3kzaWlXWnhmR1NNQXVJSldFRWlHWi1HaVVwWkZLb0I0ZGhjZ1pVLXhpeDZLaFR5RHdrMjRqVy1yaDJGRTA?oc=5",
+     "time": "2026-11-20T09:11:00+00:00"
+    },
+    {
+     "title": "AppLovin Stock Is Up 39% in a Month: Is The Stock Still a Buy?",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPY3dUNWtzZjZxR2pMUzJjR0ZaQmRZWTZIeWpfWFFOWVI4ZUUzVml4Ympsd3ZKRThTdWR0MGxHSGs4ODdSS2UyeHYtdW1qRGpBNFNLWVdvWVhNSm1KN2N5TWdzMlFDTWRfaGFxaEVoUnB4ZU90b0tyM1hRUVMyVERVdzJPbUhaZ0pmX29KdS1uVU5DQ2tkUTd6TklaQ1BoYk8wYzBtaw?oc=5",
+     "time": "2026-11-20T09:03:01+00:00"
+    },
+    {
+     "title": "Applovin Corp Stock (APP) Closed Down by 3.04% on Nov 19: What Investors Need To Know",
+     "publisher": "TradingKey",
+     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPcXc2bE9raDVYOXVNSlZRSlYzWkRYYlhMNmxYeld4RUsyeTN6MGZHLVliZHdHWDBsWU1od1F1VEhKblIyUjZRdjNGU1pfWTdFVXVRQnRoMWR6WmFfM2xVclRSaEpBajI4S1gyMnBNUVpXbUVkQS1DQ2N1UVRqZmRZalBfcnBYNHFGRWc?oc=5",
+     "time": "2026-11-20T03:18:44+00:00"
+    },
+    {
+     "title": "AppLovin Just Gained 45% in a Month. What Will It Take to Hit $500?",
+     "publisher": "TIKR.com",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPU0RoSkgzTzRJcngyb1JUNmhKLVhSOGxFc3FEMDJYRDVoT1pHdXlGVFdteEVhMjAyX0JmdWZYN0JhTXVTMXhJUXVET2RJYVhxSXlsUENiNEpvR2Uwd3pDNDh4RV83LUQ2Q2ZrWmFYNTZLbDZNQXNiREx6b0pGWVdlUXNMellTYlp6cTdZSzNQYVpGWEVoNmt3NVNDcnFsaFk?oc=5",
+     "time": "2026-11-19T19:41:15+00:00"
+    },
+    {
+     "title": "This tech stock has been nearly cut in half this year. I think Wall Street is getting it wrong",
+     "publisher": "CNBC",
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1WQzhOUzF6a2lzU2c0OVM5cjRzNWt6QzlFbm8zRDFTcGhicTZwTUhYWFBUd01URXpKLUpwT1dCeW5vQmFQck5uRzZQWXBUaUpOT3RzZ1Z5blNIMGtjY1NLb0R4S1ltWHNsWTZycm9raXpvUzJZRWc?oc=5",
+     "time": "2026-11-19T19:08:20+00:00"
+    },
+    {
+     "title": "Applovin (APP) Shares Dip Amid Options Activity and Rising Implied Volatility",
+     "publisher": "GuruFocus",
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPd1c1MDJUb0ozYXkwQ1FzZ21rQldMSW54V2VZdzcwTEdVQ3lNMUk0b0xIUmNEYm43Zkc5TW1YVkF1NVJ4MlNUQU9EMXpaY3ZNanRVM1VxZE1NMTh2OFJaeFUwMkxfcXlLU3NFbkFlUnNGWmZ5S01zclNlZlJzTUIxVFZUN1RoekUzM1VWLWxjS1R2cUlCQkdFSnp2SGlJODh2aURYT0tVYmdSclZ5ZXZYbS1vVHo?oc=5",
+     "time": "2026-11-19T17:45:07+00:00"
+    },
+    {
+     "title": "AppLovin (APP) Stock Price Prediction: Strong earnings, but the tape is now testing whether the breakout can hold",
+     "publisher": "Blockchain News",
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOeTVieVliMk5GaTRXSURiLVMzMFp2UVhnaFlTSloyR1VRZlpzWS1sVlVZT0dHdUJiTEFBbmFUbGpUc01KZTJPNnhtTjZ1ZGk4aTFLMm0xeHJVclpTYWVTaUVHWll5c05XUXRJZFdpcm9jZU1NTzVNQXJzT0s5OXlfNjAzNy01X0NaMkdkYjRIeFdXREZO?oc=5",
+     "time": "2026-11-19T13:10:00+00:00"
+    },
+    {
+     "title": "Applovin (APP) Stock Forum and Discussion",
+     "publisher": "Moomoo",
+     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5wekxLeE04SWVsNFo0amVSYmZTWE5iQTFENHRGNmNPYUFYV1dSSExVQnhrcEJpOXFVWjRrblYybDRVSWF1MmFhTzlnUXJMbXg1QW5KT2s1Y0E?oc=5",
+     "time": "2026-11-19T09:15:35+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
    "symbol": "CRWD",
    "name": "CrowdStrike",
    "list": "portfolio",
-   "price": 232.49,
+   "price": 232.5,
    "prev_close": 243.46,
    "change_pct": -4.5,
    "trigger_change": -4.2,
@@ -483,8 +483,8 @@
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 94.27,
-    "change_pct": -1.91
+    "price": 94.11,
+    "change_pct": -2.07
    },
    "chart": {
     "ema8": 0.1,
@@ -549,7 +549,7 @@
    "symbol": "UNH",
    "name": "UnitedHealth",
    "list": "portfolio",
-   "price": 343.05,
+   "price": 343.17,
    "prev_close": 330.48,
    "change_pct": 3.8,
    "trigger_change": 3.8,
@@ -558,13 +558,13 @@
    "sector": {
     "etf": "XLV",
     "name": "Health care",
-    "price": 179.28,
-    "change_pct": 1.03
+    "price": 179.65,
+    "change_pct": 1.23
    },
    "chart": {
     "ema8": -7.2,
     "ema21": -11.3,
-    "sma50": -11.8,
+    "sma50": -11.7,
     "sma200": -6.9,
     "momentum": false
    },
@@ -621,76 +621,71 @@
    "brief": null
   },
   {
-   "symbol": "META",
-   "name": "Meta",
-   "list": "portfolio",
-   "price": 576.26,
-   "prev_close": 596.22,
+   "symbol": "BTC-USD",
+   "name": "Bitcoin",
+   "list": "watchlist",
+   "price": 59849.5,
+   "prev_close": 61913.5,
    "change_pct": -3.3,
    "trigger_change": -3.3,
    "peak_change": -3.3,
-   "first_seen": "2026-11-20T15:31:42+00:00",
-   "sector": {
-    "etf": "XLC",
-    "name": "Communication",
-    "price": 102.56,
-    "change_pct": -0.19
-   },
+   "first_seen": "2026-11-20T15:41:47+00:00",
+   "sector": null,
    "chart": {
-    "ema8": -5.4,
-    "ema21": -8.4,
-    "sma50": -14.9,
-    "sma200": -8.3,
+    "ema8": -7.1,
+    "ema21": -14.2,
+    "sma50": -22.9,
+    "sma200": -17.5,
     "momentum": false
    },
    "headlines": [
     {
-     "title": "Google's Gemini Tasks Seen As Challenger To Meta's Muse In AI Battle",
-     "publisher": "Investor's Business Daily",
-     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNbGUwdGtxRDI0Vm1seTU5Ul9EMjF1cGxjTEp0b25xajBHZ1M2amdXMkEtX2xJc2lTdUJ4ZU9jRnhldjJ6VnJJLWZMdnY0aXVRTnBvWEVkVmpqQUZSZ2Q0WFcxd1RoRFVhcEQ0VnZxY3VlMEZSbTVmR0NKa09pR0RDU2R0Wk1ZWDBkYVZfRjM1aFZ2d2ZWWDJILVZaSHI2dWp5R2lj?oc=5",
-     "time": "2026-11-20T13:11:00+00:00"
-    },
-    {
-     "title": "Meta Platforms(META) Stock Price Today | Quotes & News",
+     "title": "Bitcoin Hovers Near Four-Month Low as Traders Await U.S. PCE Data -- Market Talk",
      "publisher": "Moomoo",
-     "url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxPYWFURUxYXzVyRkw2eHh2Qzk5SXZFcWhwcDB5Njh2NXQySlpYVTlhOWZQOVVPdkFaS0xPU3kwWXlMWUVMTmxSc2FTdXdHb1A4a1E1ZGUwWWdMbThoYndGaXlPZVI2a1BxWWhrZ3VmVTZsQXdXcXRrVGpLbVZ6RXREVjFldVNjNERQbXFtbm9faExvdWpyLXZfQm54UkJ5Z2YzZUR5U2pzbGZSTjFUaE1LaHd5SV80WTBTTjdMSmYxYS1XU1Q3cll4T0tUaHNCWHJoZ1BBa1NSRDZCNk41N2sxVW9NWS1hNXQ5a3hFTDFaRGlBUzVjZzhlbm9YcGZFU2ZkN2tfRGR2ZEdOcFJwdXRHWTRiYkVNTFY4S05LWnpiZ3B4alpJamgwc2tvVTBCQQ?oc=5",
-     "time": "2026-11-20T12:45:49+00:00"
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPQXZwRU85VXd3dUZ0RklqVzc0WGdrajBqLVJGQ25YaG1IbFktaF9mUFJMQWVlYUlCYnVUM3VCLVRFc1ljRVZWSVNValF6QUtmZUc1TlFydTJVZHNLWGU3bzg5NU05X3FoMlU2QURGNTlTQVlSekN1ei1kNjFwaGR3Y3dZOVpzRlBlMGxDdUlIZE5MODJ3NlpVVVMtcFVNUGs?oc=5",
+     "time": "2026-11-20T15:40:08+00:00"
     },
     {
-     "title": "Apple seems to be building its own AI agent. This could be bad news for Meta\u2019s Muse.",
-     "publisher": "MarketWatch",
-     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPMzkzSVNtbXBvWUc0YlNnTWhnalpSeldLVTZHbllYYXE1RkllbDJ1aDJsNVJsX2hMOE1PcGFXU1U0b1Zqc3J0NXVjM01HcnFRTTU5THdsd3JYQWhwSlN5SnZqX2U1M3NFeTRXNWpJNVpaQUV6dV9zZWdra0x1WWFTNGF3bVprR3c0ZmZNUFgxZHF0OENPUk9BYTRrQlNEcS1RX3M2V0FQTXRIZVo1d2hBSXRKNG9Qd1piX2VPMEx4SjlKZw?oc=5",
-     "time": "2026-11-20T11:05:00+00:00"
+     "title": "Bitcoin hits four-month low as $820 million liquidated and $12.7 billion short squeeze risk builds",
+     "publisher": "CryptoSlate",
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNS05zaUlELVNJRXlIaVlXM2xOSDV3WUthMTJaS21MOU1zNUt0MmtQSTNVUXpGdDc5VFk2NVduM3NFZUVydTJRWkItX3FUT0Y0TzIzZVNSMWJkZ1FnaE9pOGQwX0FaS01GTERSNXJIa0YtMTJKNkhqUEFycEhyTjJ0SFZmU0laVGY4cjJ2S0FQXzZoOFZFZU5pMGk3WlhmWWtfeVNta2dPWnltSlV4Z05uMDhVcmhPT0dJN2RDX2hn?oc=5",
+     "time": "2026-11-20T15:35:56+00:00"
     },
     {
-     "title": "Meta Platforms, Inc. $META Stock: Intech Investment Management LLC Reduces Stake",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPamZrN29jSTZsenFXRVdOWjhUZlQ1X01NVk9GenZ1TTNIWm9ETU5jcVk2cU5oRHkzUlhvY05NUU5adDBlYml3LXJQZzhBRWRxcTN0MFBWdWlJQ0xyQTlWd1d5Mm1qWFdTUU9Fdkc1bF9wYWJ4QnlpTU5Mek10aW80NEJSeXB1d2E5ei1QSFVBZ2R4aWFSYnBVTnFjczNSdXREbzlqQWFBTVBVUlhMUU1jeF9YSGJLd2tVbmRhS0NzR3RMRGpmZXdQWkZWekVwWC1tT0VJ?oc=5",
-     "time": "2026-11-20T10:35:59+00:00"
+     "title": "Zcash Falls Below $800 as Losses Outpace Bitcoin, Ether",
+     "publisher": "The Defiant",
+     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNc2FUZENSZWlRNGVHbnVnLXpnTHl2TjJ3dTFhbENxSGxJR1VEdldDVU56Sl9CTHZBejFuQ2pIRDJwdk5BYzZwYWpYNVc0WWpka2lPUDJFTGRuWW9wUjhWc1h3bDJmdi1QX2JKQk4xNkxoNlAxWld1Sk1QS05CRHd0eHc3RlZSbm0zcGxkWDJUTkZ3QQ?oc=5",
+     "time": "2026-11-20T15:33:05+00:00"
     },
     {
-     "title": "Meta Platforms, Inc. $META Stock: Kranot Hishtalmut Le Morim Ve Gananot Havera Menahelet LTD Decreases Position",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPU2tUN2FPOFNIR3lxQ3d1akt6U1BOUjRTbWxvWHkyRUxNVjUwYXoyWG9BYlJ0eV96MG9KeTVmdUhBSzlGc2R5WWNQZEUxZnVrcVR5V3Y5VGtDTzdVaE5PWEZqRUlwTXNRV1VqejBFLWJySmZPMXFQU24xMmJVcV9KellvOV9JWkNFTmFUVUxQUHdaT3d3d3BpVUxLeXdUTEozUHZXS2ozV1cwdVJPdXRfZ1hRczNET25zZ1JRRnF6eTMyZExhMkx2MzRkLUE1endrcHRPTWtMdHI2QWYybGZ3dzlFY1dKQ21jRWJPTTI0MVFCNTl5dkYtZDRkV0g?oc=5",
-     "time": "2026-11-20T10:33:53+00:00"
+     "title": "Strategy stock tumbles as Bitcoin slides and dilution pressures mount",
+     "publisher": "Crypto Briefing",
+     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA3XzJJVzBWbzVmN3RZWUlLNTJxY3ctZVo4cnVfeWItZ0hYU3V4c0hMWjBYck1wdFJaYVhIVk1YMkJZa3pXdTBBV082RTJWbGtkSUFSYWVrTnE3THRYTGltZ3dLX1prSEtkQ3dOeDl5STBaWnVSZXYyV1NMb1hEZ0k?oc=5",
+     "time": "2026-11-20T15:27:45+00:00"
     },
     {
-     "title": "Meta Platforms, Inc. $META Stock Sold by SGL Investment Advisors Inc.",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNbFlhWmhYZnZkekhYb1Vnajd4anlGSWlqOV9fd2h3bVhWVjlBcjNDTFptakFKdFZaT2VyenBTUm8tdFhPb2hDclpkMkdPZGpvajRNaDFmVy10T09lMEc1UlpPV0M4Sk9iNEhxOTF4blF1el82R1dsSVotTEtFZ0ljS3M2RXJTQWxhMlFuVzBQX0llSFFsYnFET3EtdEtic3kwa1JnNXkzbzl1a3NHMVhab3dPY0pNTjNEVW9oemNfUXhjTTM3?oc=5",
-     "time": "2026-11-20T10:33:51+00:00"
+     "title": "Bitcoin, Ethereum, XRP, and Solana slide as $90 billion exits crypto market",
+     "publisher": "Crypto Briefing",
+     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9kNjhoQjJLWklFanpZUmNkVWx2dVdoeUFaYzZVZHZkSnlaR0FUZHZYS0RTZkpXU3FNVlZzWHlTX2Y5ZmN1Znc2UGtwcFh5SktxOXk1Vm9GXy1FNkJxNWpacm5lSWxTM3QwWjlsdkFxbU1oRXhsWDVBTmFIM2ktWjg?oc=5",
+     "time": "2026-11-20T15:26:45+00:00"
     },
     {
-     "title": "Meta Platforms, Inc. $META Stock Position Lessened by Cypress Funds LLC",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQcWhBOFRVNkNabG5YRVotaFR0R1FSVHhWcmtEN0l0eE1ReFNSQlBqem9hZERialFlYTVmaVFKZ2FJUXlMWXBGVVlyNzhQY0ZoVy1aTnQ2NERGNjk5b19meWpaTVpuN2RrOUdvYVBlR2hBYUNWOEVzVHk3ZTY4X2xIV1QzWUFpZUVtSi0xOU9Eei1HVTN6anBsLVk5ZlZJcDdXTnZUNk9pZnQyUkpKOC1SeXBDbHJISy1QXzY5TS1OdmFaNVA4N0RiOQ?oc=5",
-     "time": "2026-11-20T08:51:47+00:00"
+     "title": "USD/JPY Retreats from 160 on Risk Aversion, While Bitcoin Falls to $61.8K Amid Stock Selloff",
+     "publisher": "FXEmpire",
+     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOTk1yRVRtS3JuY3lNdFZlVXdtT05ZMDVCYXRrYkxZcUxFRDJ5U3ZTdUd6d0VEQWx1d3paTkVWZmdleGpIYjA3ZERlSEUwenpqbEtrckJWWHIycHEyZkkyRjJZUl9RaEQ3bTRuSUhlUFRnSGlZdFFPelI0OEdGeUxiZ2dqczRBYWFGU1cyeGhHX0hIMnFmbUVtTnVubXVReUJsWmE3Wm9aSjFNYkZnOVAxaG9LbnpJWmhrZGg1Yl9CMXBHdGVSSkFGRVJDZ3prVTJwZVdBVmg1M0U?oc=5",
+     "time": "2026-11-20T15:23:49+00:00"
     },
     {
-     "title": "(META) Dynamic Trading Report (META:CA)",
-     "publisher": "Stock Traders Daily",
-     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPUjBCWmsxOUFxNUZEU3JhaW1WZzVYdE5rUEw1WVVNY2ZwMU5rLTI4SkUwNXMzUnJ5ZGVBY00tUFEzSlk2WG5WUXJoZ0RVdG5zRldQNEo3dm9zMlRocXMwVWZrOFd2cW5FaHRZUFlvS1FOWU9Sc3dmekhEd280dmg4R0wxM1JvZzVSN0hyTTN3?oc=5",
-     "time": "2026-11-20T04:57:38+00:00"
+     "title": "Bitcoin Briefly Falls Below $61,000",
+     "publisher": "bloomingbit",
+     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5mR2lRNWJxUk9kV2VUQURaNDBrRzl5OUhydUViSHdCd0FfVW9JaGluM2xCX3E1UDJBazZ2RXNaWkYtV0E1ZXJsdUZyUW04c0h0bVNVSQ?oc=5",
+     "time": "2026-11-20T15:16:44+00:00"
+    },
+    {
+     "title": "Bitcoin vs Gold Forecast: BTC and XAU extend slide as hawkish Fed expectations weigh",
+     "publisher": "FXStreet",
+     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOWS1FVzQ4cW1LbmlmMkd6c2FXWGM2MlVWaFgycElETGwwZVV2WmxHT001TjZzdC1KUmctWFNLUGV2MmdzOGw3WUVpLVhLdlBCcmVvXzdGV2hUYW9Vd01TZ1ZlV2VDcTZhSU1TYl9fWDg3YzZ6Vk16RERvZzU0UktNM1MydEI3TDc1bzBNSFNsS2k0N1BVM1k1S3RLeDRzWEFoemNaOUEyc2UxY2lpMHVrVFJ3dXdkQUcySWNUOVJWRDhTV0JycEMzOHRtRkhKeVJ4ZFAxZU9ueEpoTVU?oc=5",
+     "time": "2026-11-20T15:13:09+00:00"
     }
    ],
    "brief": null
@@ -699,23 +694,23 @@
    "symbol": "NOW",
    "name": "ServiceNow",
    "list": "portfolio",
-   "price": 91.55,
+   "price": 91.72,
    "prev_close": 88.87,
-   "change_pct": 3.0,
+   "change_pct": 3.2,
    "trigger_change": 4.0,
    "peak_change": 4.8,
    "first_seen": "2026-11-20T15:06:22+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 94.27,
-    "change_pct": -1.91
+    "price": 94.11,
+    "change_pct": -2.07
    },
    "chart": {
-    "ema8": -4.2,
-    "ema21": -15.1,
-    "sma50": -28.5,
-    "sma200": -19.2,
+    "ema8": -4.0,
+    "ema21": -14.9,
+    "sma50": -28.3,
+    "sma200": -19.0,
     "momentum": false
    },
    "headlines": [
@@ -771,26 +766,101 @@
    "brief": null
   },
   {
+   "symbol": "META",
+   "name": "Meta",
+   "list": "portfolio",
+   "price": 578.92,
+   "prev_close": 596.22,
+   "change_pct": -2.9,
+   "trigger_change": -3.3,
+   "peak_change": -3.3,
+   "first_seen": "2026-11-20T15:31:42+00:00",
+   "sector": {
+    "etf": "XLC",
+    "name": "Communication",
+    "price": 102.58,
+    "change_pct": -0.18
+   },
+   "chart": {
+    "ema8": -5.1,
+    "ema21": -8.0,
+    "sma50": -14.5,
+    "sma200": -7.9,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Google's Gemini Tasks Seen As Challenger To Meta's Muse In AI Battle",
+     "publisher": "Investor's Business Daily",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNbGUwdGtxRDI0Vm1seTU5Ul9EMjF1cGxjTEp0b25xajBHZ1M2amdXMkEtX2xJc2lTdUJ4ZU9jRnhldjJ6VnJJLWZMdnY0aXVRTnBvWEVkVmpqQUZSZ2Q0WFcxd1RoRFVhcEQ0VnZxY3VlMEZSbTVmR0NKa09pR0RDU2R0Wk1ZWDBkYVZfRjM1aFZ2d2ZWWDJILVZaSHI2dWp5R2lj?oc=5",
+     "time": "2026-11-20T13:11:00+00:00"
+    },
+    {
+     "title": "Meta Platforms(META) Stock Price Today | Quotes & News",
+     "publisher": "Moomoo",
+     "url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxPYWFURUxYXzVyRkw2eHh2Qzk5SXZFcWhwcDB5Njh2NXQySlpYVTlhOWZQOVVPdkFaS0xPU3kwWXlMWUVMTmxSc2FTdXdHb1A4a1E1ZGUwWWdMbThoYndGaXlPZVI2a1BxWWhrZ3VmVTZsQXdXcXRrVGpLbVZ6RXREVjFldVNjNERQbXFtbm9faExvdWpyLXZfQm54UkJ5Z2YzZUR5U2pzbGZSTjFUaE1LaHd5SV80WTBTTjdMSmYxYS1XU1Q3cll4T0tUaHNCWHJoZ1BBa1NSRDZCNk41N2sxVW9NWS1hNXQ5a3hFTDFaRGlBUzVjZzhlbm9YcGZFU2ZkN2tfRGR2ZEdOcFJwdXRHWTRiYkVNTFY4S05LWnpiZ3B4alpJamgwc2tvVTBCQQ?oc=5",
+     "time": "2026-11-20T12:45:49+00:00"
+    },
+    {
+     "title": "Apple seems to be building its own AI agent. This could be bad news for Meta\u2019s Muse.",
+     "publisher": "MarketWatch",
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPMzkzSVNtbXBvWUc0YlNnTWhnalpSeldLVTZHbllYYXE1RkllbDJ1aDJsNVJsX2hMOE1PcGFXU1U0b1Zqc3J0NXVjM01HcnFRTTU5THdsd3JYQWhwSlN5SnZqX2U1M3NFeTRXNWpJNVpaQUV6dV9zZWdra0x1WWFTNGF3bVprR3c0ZmZNUFgxZHF0OENPUk9BYTRrQlNEcS1RX3M2V0FQTXRIZVo1d2hBSXRKNG9Qd1piX2VPMEx4SjlKZw?oc=5",
+     "time": "2026-11-20T11:05:00+00:00"
+    },
+    {
+     "title": "Meta Platforms, Inc. $META Stock: Intech Investment Management LLC Reduces Stake",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPamZrN29jSTZsenFXRVdOWjhUZlQ1X01NVk9GenZ1TTNIWm9ETU5jcVk2cU5oRHkzUlhvY05NUU5adDBlYml3LXJQZzhBRWRxcTN0MFBWdWlJQ0xyQTlWd1d5Mm1qWFdTUU9Fdkc1bF9wYWJ4QnlpTU5Mek10aW80NEJSeXB1d2E5ei1QSFVBZ2R4aWFSYnBVTnFjczNSdXREbzlqQWFBTVBVUlhMUU1jeF9YSGJLd2tVbmRhS0NzR3RMRGpmZXdQWkZWekVwWC1tT0VJ?oc=5",
+     "time": "2026-11-20T10:35:59+00:00"
+    },
+    {
+     "title": "Meta Platforms, Inc. $META Stock: Kranot Hishtalmut Le Morim Ve Gananot Havera Menahelet LTD Decreases Position",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPU2tUN2FPOFNIR3lxQ3d1akt6U1BOUjRTbWxvWHkyRUxNVjUwYXoyWG9BYlJ0eV96MG9KeTVmdUhBSzlGc2R5WWNQZEUxZnVrcVR5V3Y5VGtDTzdVaE5PWEZqRUlwTXNRV1VqejBFLWJySmZPMXFQU24xMmJVcV9KellvOV9JWkNFTmFUVUxQUHdaT3d3d3BpVUxLeXdUTEozUHZXS2ozV1cwdVJPdXRfZ1hRczNET25zZ1JRRnF6eTMyZExhMkx2MzRkLUE1endrcHRPTWtMdHI2QWYybGZ3dzlFY1dKQ21jRWJPTTI0MVFCNTl5dkYtZDRkV0g?oc=5",
+     "time": "2026-11-20T10:33:53+00:00"
+    },
+    {
+     "title": "Meta Platforms, Inc. $META Stock Sold by SGL Investment Advisors Inc.",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNbFlhWmhYZnZkekhYb1Vnajd4anlGSWlqOV9fd2h3bVhWVjlBcjNDTFptakFKdFZaT2VyenBTUm8tdFhPb2hDclpkMkdPZGpvajRNaDFmVy10T09lMEc1UlpPV0M4Sk9iNEhxOTF4blF1el82R1dsSVotTEtFZ0ljS3M2RXJTQWxhMlFuVzBQX0llSFFsYnFET3EtdEtic3kwa1JnNXkzbzl1a3NHMVhab3dPY0pNTjNEVW9oemNfUXhjTTM3?oc=5",
+     "time": "2026-11-20T10:33:51+00:00"
+    },
+    {
+     "title": "Meta Platforms, Inc. $META Stock Position Lessened by Cypress Funds LLC",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQcWhBOFRVNkNabG5YRVotaFR0R1FSVHhWcmtEN0l0eE1ReFNSQlBqem9hZERialFlYTVmaVFKZ2FJUXlMWXBGVVlyNzhQY0ZoVy1aTnQ2NERGNjk5b19meWpaTVpuN2RrOUdvYVBlR2hBYUNWOEVzVHk3ZTY4X2xIV1QzWUFpZUVtSi0xOU9Eei1HVTN6anBsLVk5ZlZJcDdXTnZUNk9pZnQyUkpKOC1SeXBDbHJISy1QXzY5TS1OdmFaNVA4N0RiOQ?oc=5",
+     "time": "2026-11-20T08:51:47+00:00"
+    },
+    {
+     "title": "(META) Dynamic Trading Report (META:CA)",
+     "publisher": "Stock Traders Daily",
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPUjBCWmsxOUFxNUZEU3JhaW1WZzVYdE5rUEw1WVVNY2ZwMU5rLTI4SkUwNXMzUnJ5ZGVBY00tUFEzSlk2WG5WUXJoZ0RVdG5zRldQNEo3dm9zMlRocXMwVWZrOFd2cW5FaHRZUFlvS1FOWU9Sc3dmekhEd280dmg4R0wxM1JvZzVSN0hyTTN3?oc=5",
+     "time": "2026-11-20T04:57:38+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
    "symbol": "AXON",
    "name": "Axon",
    "list": "watchlist",
-   "price": 312.74,
+   "price": 314.75,
    "prev_close": 306.98,
-   "change_pct": 1.9,
+   "change_pct": 2.5,
    "trigger_change": 5.4,
    "peak_change": 5.9,
    "first_seen": "2026-11-20T14:55:54+00:00",
    "sector": {
     "etf": "XLI",
     "name": "Industrials",
-    "price": 160.26,
-    "change_pct": -0.68
+    "price": 160.18,
+    "change_pct": -0.73
    },
    "chart": {
-    "ema8": -0.4,
-    "ema21": -9.8,
-    "sma50": -21.6,
-    "sma200": -32.4,
+    "ema8": 0.1,
+    "ema21": -9.2,
+    "sma50": -21.1,
+    "sma200": -32.0,
     "momentum": false
    },
    "headlines": [
