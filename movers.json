@@ -1,22 +1,22 @@
 {
  "date": "2026-11-20",
  "threshold": 3.0,
- "updated": "2026-11-20T15:26:35+00:00",
+ "updated": "2026-11-20T15:31:42+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 709.26,
-   "change_pct": -0.92
+   "price": 709.17,
+   "change_pct": -0.94
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 630.58,
-   "change_pct": -2.24
+   "price": 630.48,
+   "change_pct": -2.26
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 81.13,
-   "change_pct": 0.97
+   "price": 81.17,
+   "change_pct": 1.02
   }
  },
  "movers": [
@@ -24,23 +24,23 @@
    "symbol": "ANET",
    "name": "Arista Networks",
    "list": "portfolio",
-   "price": 172.61,
+   "price": 172.91,
    "prev_close": 189.59,
-   "change_pct": -9.0,
+   "change_pct": -8.8,
    "trigger_change": -5.7,
    "peak_change": -9.0,
    "first_seen": "2026-11-20T14:55:54+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 421.14,
-    "change_pct": -5.89
+    "price": 421.27,
+    "change_pct": -5.86
    },
    "chart": {
-    "ema8": -7.1,
-    "ema21": -7.1,
-    "sma50": -10.2,
-    "sma200": 2.4,
+    "ema8": -7.0,
+    "ema21": -6.9,
+    "sma50": -10.0,
+    "sma200": 2.6,
     "momentum": true
    },
    "headlines": [
@@ -99,23 +99,23 @@
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 88.58,
+   "price": 89.17,
    "prev_close": 96.92,
-   "change_pct": -8.6,
+   "change_pct": -8.0,
    "trigger_change": -4.8,
    "peak_change": -8.6,
    "first_seen": "2026-11-20T14:55:54+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 94.6,
-    "change_pct": -1.56
+    "price": 94.27,
+    "change_pct": -1.91
    },
    "chart": {
-    "ema8": -18.8,
-    "ema21": -33.7,
-    "sma50": -51.2,
-    "sma200": -50.7,
+    "ema8": -18.4,
+    "ema21": -33.3,
+    "sma50": -50.9,
+    "sma200": -50.4,
     "momentum": false
    },
    "headlines": [
@@ -174,7 +174,7 @@
    "symbol": "AVGO",
    "name": "Broadcom",
    "list": "portfolio",
-   "price": 320.44,
+   "price": 320.15,
    "prev_close": 346.65,
    "change_pct": -7.6,
    "trigger_change": -3.6,
@@ -183,14 +183,14 @@
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 421.14,
-    "change_pct": -5.89
+    "price": 421.27,
+    "change_pct": -5.86
    },
    "chart": {
     "ema8": -5.1,
-    "ema21": -4.8,
-    "sma50": -6.6,
-    "sma200": -12.9,
+    "ema21": -4.9,
+    "sma50": -6.7,
+    "sma200": -13.0,
     "momentum": true
    },
    "headlines": [
@@ -249,23 +249,23 @@
    "symbol": "AMAT",
    "name": "Applied Materials",
    "list": "portfolio",
-   "price": 313.39,
+   "price": 314.11,
    "prev_close": 338.93,
-   "change_pct": -7.5,
+   "change_pct": -7.3,
    "trigger_change": -4.5,
    "peak_change": -7.5,
    "first_seen": "2026-11-20T14:55:54+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 421.14,
-    "change_pct": -5.89
+    "price": 421.27,
+    "change_pct": -5.86
    },
    "chart": {
-    "ema8": -9.7,
-    "ema21": -15.8,
-    "sma50": -26.4,
-    "sma200": -29.9,
+    "ema8": -9.5,
+    "ema21": -15.6,
+    "sma50": -26.2,
+    "sma200": -29.8,
     "momentum": false
    },
    "headlines": [
@@ -324,23 +324,23 @@
    "symbol": "APP",
    "name": "AppLovin",
    "list": "portfolio",
-   "price": 358.9,
+   "price": 357.07,
    "prev_close": 379.02,
-   "change_pct": -5.3,
+   "change_pct": -5.8,
    "trigger_change": -3.9,
-   "peak_change": -5.3,
+   "peak_change": -5.8,
    "first_seen": "2026-11-20T15:11:23+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 94.6,
-    "change_pct": -1.56
+    "price": 94.27,
+    "change_pct": -1.91
    },
    "chart": {
-    "ema8": -5.5,
-    "ema21": 2.4,
-    "sma50": 16.0,
-    "sma200": -11.3,
+    "ema8": -5.9,
+    "ema21": 2.0,
+    "sma50": 15.4,
+    "sma200": -11.7,
     "momentum": true
    },
    "headlines": [
@@ -399,23 +399,23 @@
    "symbol": "NVDA",
    "name": "Nvidia",
    "list": "portfolio",
-   "price": 138.54,
+   "price": 138.06,
    "prev_close": 145.98,
-   "change_pct": -5.1,
+   "change_pct": -5.4,
    "trigger_change": -3.2,
-   "peak_change": -5.1,
+   "peak_change": -5.4,
    "first_seen": "2026-11-20T14:55:54+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 421.14,
-    "change_pct": -5.89
+    "price": 421.27,
+    "change_pct": -5.86
    },
    "chart": {
-    "ema8": -11.0,
-    "ema21": -21.7,
-    "sma50": -33.2,
-    "sma200": -31.9,
+    "ema8": -11.2,
+    "ema21": -21.9,
+    "sma50": -33.4,
+    "sma200": -32.1,
     "momentum": false
    },
    "headlines": [
@@ -474,23 +474,23 @@
    "symbol": "CRWD",
    "name": "CrowdStrike",
    "list": "portfolio",
-   "price": 232.18,
+   "price": 232.49,
    "prev_close": 243.46,
-   "change_pct": -4.6,
+   "change_pct": -4.5,
    "trigger_change": -4.2,
    "peak_change": -4.9,
    "first_seen": "2026-11-20T14:55:54+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 94.6,
-    "change_pct": -1.56
+    "price": 94.27,
+    "change_pct": -1.91
    },
    "chart": {
-    "ema8": -0.0,
-    "ema21": -1.5,
-    "sma50": -6.0,
-    "sma200": 31.8,
+    "ema8": 0.1,
+    "ema21": -1.4,
+    "sma50": -5.9,
+    "sma200": 31.9,
     "momentum": false
    },
    "headlines": [
@@ -549,23 +549,23 @@
    "symbol": "UNH",
    "name": "UnitedHealth",
    "list": "portfolio",
-   "price": 343.83,
+   "price": 343.05,
    "prev_close": 330.48,
-   "change_pct": 4.0,
+   "change_pct": 3.8,
    "trigger_change": 3.8,
    "peak_change": 4.7,
    "first_seen": "2026-11-20T14:55:54+00:00",
    "sector": {
     "etf": "XLV",
     "name": "Health care",
-    "price": 179.48,
-    "change_pct": 1.14
+    "price": 179.28,
+    "change_pct": 1.03
    },
    "chart": {
-    "ema8": -7.0,
-    "ema21": -11.1,
-    "sma50": -11.6,
-    "sma200": -6.7,
+    "ema8": -7.2,
+    "ema21": -11.3,
+    "sma50": -11.8,
+    "sma200": -6.9,
     "momentum": false
    },
    "headlines": [
@@ -621,26 +621,101 @@
    "brief": null
   },
   {
+   "symbol": "META",
+   "name": "Meta",
+   "list": "portfolio",
+   "price": 576.26,
+   "prev_close": 596.22,
+   "change_pct": -3.3,
+   "trigger_change": -3.3,
+   "peak_change": -3.3,
+   "first_seen": "2026-11-20T15:31:42+00:00",
+   "sector": {
+    "etf": "XLC",
+    "name": "Communication",
+    "price": 102.56,
+    "change_pct": -0.19
+   },
+   "chart": {
+    "ema8": -5.4,
+    "ema21": -8.4,
+    "sma50": -14.9,
+    "sma200": -8.3,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Google's Gemini Tasks Seen As Challenger To Meta's Muse In AI Battle",
+     "publisher": "Investor's Business Daily",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNbGUwdGtxRDI0Vm1seTU5Ul9EMjF1cGxjTEp0b25xajBHZ1M2amdXMkEtX2xJc2lTdUJ4ZU9jRnhldjJ6VnJJLWZMdnY0aXVRTnBvWEVkVmpqQUZSZ2Q0WFcxd1RoRFVhcEQ0VnZxY3VlMEZSbTVmR0NKa09pR0RDU2R0Wk1ZWDBkYVZfRjM1aFZ2d2ZWWDJILVZaSHI2dWp5R2lj?oc=5",
+     "time": "2026-11-20T13:11:00+00:00"
+    },
+    {
+     "title": "Meta Platforms(META) Stock Price Today | Quotes & News",
+     "publisher": "Moomoo",
+     "url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxPYWFURUxYXzVyRkw2eHh2Qzk5SXZFcWhwcDB5Njh2NXQySlpYVTlhOWZQOVVPdkFaS0xPU3kwWXlMWUVMTmxSc2FTdXdHb1A4a1E1ZGUwWWdMbThoYndGaXlPZVI2a1BxWWhrZ3VmVTZsQXdXcXRrVGpLbVZ6RXREVjFldVNjNERQbXFtbm9faExvdWpyLXZfQm54UkJ5Z2YzZUR5U2pzbGZSTjFUaE1LaHd5SV80WTBTTjdMSmYxYS1XU1Q3cll4T0tUaHNCWHJoZ1BBa1NSRDZCNk41N2sxVW9NWS1hNXQ5a3hFTDFaRGlBUzVjZzhlbm9YcGZFU2ZkN2tfRGR2ZEdOcFJwdXRHWTRiYkVNTFY4S05LWnpiZ3B4alpJamgwc2tvVTBCQQ?oc=5",
+     "time": "2026-11-20T12:45:49+00:00"
+    },
+    {
+     "title": "Apple seems to be building its own AI agent. This could be bad news for Meta\u2019s Muse.",
+     "publisher": "MarketWatch",
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPMzkzSVNtbXBvWUc0YlNnTWhnalpSeldLVTZHbllYYXE1RkllbDJ1aDJsNVJsX2hMOE1PcGFXU1U0b1Zqc3J0NXVjM01HcnFRTTU5THdsd3JYQWhwSlN5SnZqX2U1M3NFeTRXNWpJNVpaQUV6dV9zZWdra0x1WWFTNGF3bVprR3c0ZmZNUFgxZHF0OENPUk9BYTRrQlNEcS1RX3M2V0FQTXRIZVo1d2hBSXRKNG9Qd1piX2VPMEx4SjlKZw?oc=5",
+     "time": "2026-11-20T11:05:00+00:00"
+    },
+    {
+     "title": "Meta Platforms, Inc. $META Stock: Intech Investment Management LLC Reduces Stake",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPamZrN29jSTZsenFXRVdOWjhUZlQ1X01NVk9GenZ1TTNIWm9ETU5jcVk2cU5oRHkzUlhvY05NUU5adDBlYml3LXJQZzhBRWRxcTN0MFBWdWlJQ0xyQTlWd1d5Mm1qWFdTUU9Fdkc1bF9wYWJ4QnlpTU5Mek10aW80NEJSeXB1d2E5ei1QSFVBZ2R4aWFSYnBVTnFjczNSdXREbzlqQWFBTVBVUlhMUU1jeF9YSGJLd2tVbmRhS0NzR3RMRGpmZXdQWkZWekVwWC1tT0VJ?oc=5",
+     "time": "2026-11-20T10:35:59+00:00"
+    },
+    {
+     "title": "Meta Platforms, Inc. $META Stock: Kranot Hishtalmut Le Morim Ve Gananot Havera Menahelet LTD Decreases Position",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPU2tUN2FPOFNIR3lxQ3d1akt6U1BOUjRTbWxvWHkyRUxNVjUwYXoyWG9BYlJ0eV96MG9KeTVmdUhBSzlGc2R5WWNQZEUxZnVrcVR5V3Y5VGtDTzdVaE5PWEZqRUlwTXNRV1VqejBFLWJySmZPMXFQU24xMmJVcV9KellvOV9JWkNFTmFUVUxQUHdaT3d3d3BpVUxLeXdUTEozUHZXS2ozV1cwdVJPdXRfZ1hRczNET25zZ1JRRnF6eTMyZExhMkx2MzRkLUE1endrcHRPTWtMdHI2QWYybGZ3dzlFY1dKQ21jRWJPTTI0MVFCNTl5dkYtZDRkV0g?oc=5",
+     "time": "2026-11-20T10:33:53+00:00"
+    },
+    {
+     "title": "Meta Platforms, Inc. $META Stock Sold by SGL Investment Advisors Inc.",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNbFlhWmhYZnZkekhYb1Vnajd4anlGSWlqOV9fd2h3bVhWVjlBcjNDTFptakFKdFZaT2VyenBTUm8tdFhPb2hDclpkMkdPZGpvajRNaDFmVy10T09lMEc1UlpPV0M4Sk9iNEhxOTF4blF1el82R1dsSVotTEtFZ0ljS3M2RXJTQWxhMlFuVzBQX0llSFFsYnFET3EtdEtic3kwa1JnNXkzbzl1a3NHMVhab3dPY0pNTjNEVW9oemNfUXhjTTM3?oc=5",
+     "time": "2026-11-20T10:33:51+00:00"
+    },
+    {
+     "title": "Meta Platforms, Inc. $META Stock Position Lessened by Cypress Funds LLC",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQcWhBOFRVNkNabG5YRVotaFR0R1FSVHhWcmtEN0l0eE1ReFNSQlBqem9hZERialFlYTVmaVFKZ2FJUXlMWXBGVVlyNzhQY0ZoVy1aTnQ2NERGNjk5b19meWpaTVpuN2RrOUdvYVBlR2hBYUNWOEVzVHk3ZTY4X2xIV1QzWUFpZUVtSi0xOU9Eei1HVTN6anBsLVk5ZlZJcDdXTnZUNk9pZnQyUkpKOC1SeXBDbHJISy1QXzY5TS1OdmFaNVA4N0RiOQ?oc=5",
+     "time": "2026-11-20T08:51:47+00:00"
+    },
+    {
+     "title": "(META) Dynamic Trading Report (META:CA)",
+     "publisher": "Stock Traders Daily",
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPUjBCWmsxOUFxNUZEU3JhaW1WZzVYdE5rUEw1WVVNY2ZwMU5rLTI4SkUwNXMzUnJ5ZGVBY00tUFEzSlk2WG5WUXJoZ0RVdG5zRldQNEo3dm9zMlRocXMwVWZrOFd2cW5FaHRZUFlvS1FOWU9Sc3dmekhEd280dmg4R0wxM1JvZzVSN0hyTTN3?oc=5",
+     "time": "2026-11-20T04:57:38+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
    "symbol": "NOW",
    "name": "ServiceNow",
    "list": "portfolio",
-   "price": 92.27,
+   "price": 91.55,
    "prev_close": 88.87,
-   "change_pct": 3.8,
+   "change_pct": 3.0,
    "trigger_change": 4.0,
    "peak_change": 4.8,
    "first_seen": "2026-11-20T15:06:22+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 94.6,
-    "change_pct": -1.56
+    "price": 94.27,
+    "change_pct": -1.91
    },
    "chart": {
-    "ema8": -3.6,
-    "ema21": -14.4,
-    "sma50": -27.9,
-    "sma200": -18.5,
+    "ema8": -4.2,
+    "ema21": -15.1,
+    "sma50": -28.5,
+    "sma200": -19.2,
     "momentum": false
    },
    "headlines": [
@@ -699,23 +774,23 @@
    "symbol": "AXON",
    "name": "Axon",
    "list": "watchlist",
-   "price": 315.96,
+   "price": 312.74,
    "prev_close": 306.98,
-   "change_pct": 2.9,
+   "change_pct": 1.9,
    "trigger_change": 5.4,
    "peak_change": 5.9,
    "first_seen": "2026-11-20T14:55:54+00:00",
    "sector": {
     "etf": "XLI",
     "name": "Industrials",
-    "price": 160.43,
-    "change_pct": -0.58
+    "price": 160.26,
+    "change_pct": -0.68
    },
    "chart": {
-    "ema8": 0.4,
-    "ema21": -8.9,
-    "sma50": -20.8,
-    "sma200": -31.7,
+    "ema8": -0.4,
+    "ema21": -9.8,
+    "sma50": -21.6,
+    "sma200": -32.4,
     "momentum": false
    },
    "headlines": [
