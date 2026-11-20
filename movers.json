@@ -1,22 +1,22 @@
 {
  "date": "2026-11-20",
  "threshold": 3.0,
- "updated": "2026-11-20T18:03:04+00:00",
+ "updated": "2026-11-20T18:18:09+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 699.86,
-   "change_pct": -2.24
+   "price": 701.42,
+   "change_pct": -2.02
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 619.83,
-   "change_pct": -3.91
+   "price": 621.86,
+   "change_pct": -3.59
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 81.37,
-   "change_pct": 1.27
+   "price": 81.29,
+   "change_pct": 1.17
   }
  },
  "movers": [
@@ -24,7 +24,7 @@
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 84.31,
+   "price": 84.34,
    "prev_close": 96.92,
    "change_pct": -13.0,
    "trigger_change": -4.8,
@@ -33,11 +33,11 @@
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 93.22,
-    "change_pct": -3.0
+    "price": 93.38,
+    "change_pct": -2.83
    },
    "chart": {
-    "ema8": -22.1,
+    "ema8": -22.0,
     "ema21": -36.7,
     "sma50": -53.5,
     "sma200": -53.1,
@@ -99,23 +99,23 @@
    "symbol": "AVGO",
    "name": "Broadcom",
    "list": "portfolio",
-   "price": 305.7,
+   "price": 307.42,
    "prev_close": 346.65,
-   "change_pct": -11.8,
+   "change_pct": -11.3,
    "trigger_change": -3.6,
    "peak_change": -11.9,
    "first_seen": "2026-11-20T15:01:24+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 409.83,
-    "change_pct": -8.41
+    "price": 412.1,
+    "change_pct": -7.91
    },
    "chart": {
-    "ema8": -8.5,
-    "ema21": -8.8,
-    "sma50": -10.8,
-    "sma200": -16.9,
+    "ema8": -8.1,
+    "ema21": -8.4,
+    "sma50": -10.3,
+    "sma200": -16.4,
     "momentum": false
    },
    "headlines": [
@@ -174,23 +174,23 @@
    "symbol": "ANET",
    "name": "Arista Networks",
    "list": "portfolio",
-   "price": 167.65,
+   "price": 169.21,
    "prev_close": 189.59,
-   "change_pct": -11.6,
+   "change_pct": -10.8,
    "trigger_change": -5.7,
    "peak_change": -12.0,
    "first_seen": "2026-11-20T14:55:54+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 409.83,
-    "change_pct": -8.41
+    "price": 412.1,
+    "change_pct": -7.91
    },
    "chart": {
-    "ema8": -9.2,
-    "ema21": -9.5,
-    "sma50": -12.7,
-    "sma200": -0.6,
+    "ema8": -8.6,
+    "ema21": -8.8,
+    "sma50": -11.9,
+    "sma200": 0.4,
     "momentum": false
    },
    "headlines": [
@@ -249,23 +249,23 @@
    "symbol": "AMAT",
    "name": "Applied Materials",
    "list": "portfolio",
-   "price": 305.99,
+   "price": 308.07,
    "prev_close": 338.93,
-   "change_pct": -9.7,
+   "change_pct": -9.1,
    "trigger_change": -4.5,
    "peak_change": -10.0,
    "first_seen": "2026-11-20T14:55:54+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 409.83,
-    "change_pct": -8.41
+    "price": 412.1,
+    "change_pct": -7.91
    },
    "chart": {
-    "ema8": -11.4,
-    "ema21": -17.6,
-    "sma50": -28.1,
-    "sma200": -31.6,
+    "ema8": -10.9,
+    "ema21": -17.1,
+    "sma50": -27.6,
+    "sma200": -31.1,
     "momentum": false
    },
    "headlines": [
@@ -324,23 +324,23 @@
    "symbol": "NVDA",
    "name": "Nvidia",
    "list": "portfolio",
-   "price": 135.45,
+   "price": 136.13,
    "prev_close": 145.98,
-   "change_pct": -7.2,
+   "change_pct": -6.7,
    "trigger_change": -3.2,
    "peak_change": -7.5,
    "first_seen": "2026-11-20T14:55:54+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 409.83,
-    "change_pct": -8.41
+    "price": 412.1,
+    "change_pct": -7.91
    },
    "chart": {
-    "ema8": -12.6,
-    "ema21": -23.3,
-    "sma50": -34.6,
-    "sma200": -33.4,
+    "ema8": -12.2,
+    "ema21": -22.9,
+    "sma50": -34.3,
+    "sma200": -33.1,
     "momentum": false
    },
    "headlines": [
@@ -399,23 +399,23 @@
    "symbol": "APP",
    "name": "AppLovin",
    "list": "portfolio",
-   "price": 357.21,
+   "price": 356.75,
    "prev_close": 379.02,
-   "change_pct": -5.8,
+   "change_pct": -5.9,
    "trigger_change": -3.9,
    "peak_change": -6.4,
    "first_seen": "2026-11-20T15:11:23+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 93.22,
-    "change_pct": -3.0
+    "price": 93.38,
+    "change_pct": -2.83
    },
    "chart": {
-    "ema8": -5.8,
-    "ema21": 2.0,
-    "sma50": 15.4,
-    "sma200": -11.7,
+    "ema8": -5.9,
+    "ema21": 1.9,
+    "sma50": 15.3,
+    "sma200": -11.8,
     "momentum": true
    },
    "headlines": [
@@ -474,23 +474,23 @@
    "symbol": "SOFI",
    "name": "SoFi",
    "list": "portfolio",
-   "price": 12.79,
+   "price": 12.81,
    "prev_close": 13.53,
-   "change_pct": -5.5,
+   "change_pct": -5.3,
    "trigger_change": -4.1,
-   "peak_change": -5.7,
+   "peak_change": -5.9,
    "first_seen": "2026-11-20T15:46:47+00:00",
    "sector": {
     "etf": "XLF",
     "name": "Financials",
-    "price": 55.19,
-    "change_pct": -0.71
+    "price": 55.24,
+    "change_pct": -0.61
    },
    "chart": {
-    "ema8": -10.9,
-    "ema21": -16.0,
-    "sma50": -19.1,
-    "sma200": -25.4,
+    "ema8": -10.8,
+    "ema21": -15.8,
+    "sma50": -18.9,
+    "sma200": -25.3,
     "momentum": false
    },
    "headlines": [
@@ -549,18 +549,18 @@
    "symbol": "BTC-USD",
    "name": "Bitcoin",
    "list": "watchlist",
-   "price": 58943.9,
+   "price": 59027.3,
    "prev_close": 61913.5,
-   "change_pct": -4.8,
+   "change_pct": -4.7,
    "trigger_change": -3.3,
-   "peak_change": -4.9,
+   "peak_change": -5.0,
    "first_seen": "2026-11-20T15:41:47+00:00",
    "sector": null,
    "chart": {
-    "ema8": -8.2,
-    "ema21": -15.4,
-    "sma50": -24.1,
-    "sma200": -18.7,
+    "ema8": -8.1,
+    "ema21": -15.3,
+    "sma50": -24.0,
+    "sma200": -18.6,
     "momentum": false
    },
    "headlines": [
@@ -616,95 +616,20 @@
    "brief": "2026-11-20-BTC-USD"
   },
   {
-   "symbol": "CRWD",
-   "name": "CrowdStrike",
-   "list": "portfolio",
-   "price": 232.35,
-   "prev_close": 243.46,
-   "change_pct": -4.6,
-   "trigger_change": -4.2,
-   "peak_change": -5.6,
-   "first_seen": "2026-11-20T14:55:54+00:00",
-   "sector": {
-    "etf": "IGV",
-    "name": "Software",
-    "price": 93.22,
-    "change_pct": -3.0
-   },
-   "chart": {
-    "ema8": 0.1,
-    "ema21": -1.4,
-    "sma50": -6.0,
-    "sma200": 31.9,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "CrowdStrike (CRWD) Stock Price Prediction: Pullback meets steady analyst support as momentum cools",
-     "publisher": "Blockchain News",
-     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZnFmWklMUHlGUW1mQ1IwUGUyVkwydkYyNEtWdWJ1cHRCRmY2NWxMVlBaWHoxOEdfbEFQRXRyRzJDUWJCNmdZcmNLUkNuNS1JTHdHTW1xQm80Rklmc3c2Vy1udnRmbVRoNmsxRmREQ2p3LVNRX0JyX3M4T0tNWllwM3RITmZNZTk1clk2ZDZOR2tXaWJzdkdTaFZjMzJmTlZYM2c?oc=5",
-     "time": "2026-11-20T09:31:00+00:00"
-    },
-    {
-     "title": "CRWD Stock Quote Price and Forecast",
-     "publisher": "CNN",
-     "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5xZE5TVjR3TmhUdHhOcl9ibU1ieUpfd05kR0U3UU1qV1I0amtKNWZFUV9EYy1kMGE5elAtWlpfYVRLYXBEcHBZeGRHV1J5LUJr?oc=5",
-     "time": "2026-11-20T09:18:10+00:00"
-    },
-    {
-     "title": "CrowdStrike (CRWD) Brings Apple Device Automation Into Falcon Foundry Through A New Tie Up",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOUG83WnlQTTFVRHdmcENWWEVzQmFROFhnVk5rd01Dd2JoWWN1VFI1VG9JWXJQX2ZjdFZRVDV5U0R1YXplOXpZaVRfWS1zak91RXhUZ2g5UzBHUG55cjNmWjFTc0hDUTdJU2ZXR0pyaGwtZWhkQ1hNYVVpV1cwV3lucWNOcmhha3lpa0lZaTBYVzM0NW1TODlWa2hscHdoZw?oc=5",
-     "time": "2026-11-20T05:17:00+00:00"
-    },
-    {
-     "title": "Why CrowdStrike Holdings Stock Flew While the Market Flopped Today",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQVkxGemhPNUhLZUJlQi1GLXVNU0NjdW13Y3BVdGdVd0dCOUZVaTNKMGNzd19hVGNQUUhnVW1meFlXMmZPc0dMYzVidUpSa0FvcXd5UlJQSXZlc0o1cmdNQWcxdzVBbHBfTGRjRmVfZ1lyVW1LSkNVQ0poMW5BVHJMN0lJNzB0SHB1Q2s3bXZraEpyRzJ4NmhWckgtMm41ZGdLZmc?oc=5",
-     "time": "2026-11-20T01:27:00+00:00"
-    },
-    {
-     "title": "CrowdStrike Holdings \u2022 Robinhood Token - CRWD - Stock Price & News",
-     "publisher": "The Motley Fool",
-     "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5XWHJjeExNSm5OeHZ6Vi1yc1NseU94UGhXOW9BNmV6MnJRUWZaWXlzTmFOc3RnbmRyS2MxZW9adVFkbUpDWm95M0NXR3FRUHV2?oc=5",
-     "time": "2026-11-19T23:21:46+00:00"
-    },
-    {
-     "title": "Under a preset trading plan, George Kurtz sold 20,000 shares of CrowdStrike (CRWD).",
-     "publisher": "Stock Titan",
-     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOSC02WXY3WlVZYTRnSlN4aVhrSXJsQ1RqLUdBNXZHOVVic2I0aHpVSm96cjZYSVdwQS1hX2xkTnp1T0U0YTMwRHc4MWlzckt5OVlvaGFwaF9VQlA2WldzeVdLbUV0azVWbE54R2czY01JWVVkNFB4OUNmbWZYbm1PWUw2MVFPSnpTcnBadnlJNkFuTXNaTGtJazA3NXFqSTFVbEtRR2ZwYjc2U0t1aWY4RXBBWURtZE4xeXRB?oc=5",
-     "time": "2026-11-19T21:18:22+00:00"
-    },
-    {
-     "title": "CRWD Stock Hits $244.73 as Palo Alto Revenue Jumps 39%",
-     "publisher": "FinanceFeeds",
-     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTnVPcmNxWjdZcFc2aXUwbEozaDRXU1JFQVFOTl9iekNyTWpmcGpILWk0TTRnbmd4X3p1Z1BmcmUtTE53OXo0OURhajJqOVRUQmVDbWJBVHk2S0lTMHR1aFhEVTJRX3VIQVZBY0VDaFpmcVl4OHFhYXRJNEJ5RElxVk00QzA1MUs1aDF0VWdBdXQ2d0NJUFYw?oc=5",
-     "time": "2026-11-19T19:24:44+00:00"
-    },
-    {
-     "title": "CrowdStrike Holdings Inc Stock (CRWD) Moved Up by 7.24% on Nov 19: Key Drivers Unveiled",
-     "publisher": "TradingKey",
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQNE1nUnF5Q2pzTkxzZHNXSm03RlMyVUJMOVluUUFpQVVpQk8zMFBGc2NRaTAxRTJ1X3BaVWwzb1lCTEdURnVwWlk4R1NMcWJacTNMcXFPdnB3X2VKaHlueXMzbk5DRUNvRzBxSy12LVNMWGxYcWVXTklURXZvNVdOVW5Pb1F1YVkzTHhB?oc=5",
-     "time": "2026-11-19T16:15:24+00:00"
-    }
-   ],
-   "brief": "2026-11-20-CRWD"
-  },
-  {
    "symbol": "META",
    "name": "Meta",
    "list": "portfolio",
-   "price": 569.28,
+   "price": 569.3,
    "prev_close": 596.22,
    "change_pct": -4.5,
    "trigger_change": -3.3,
-   "peak_change": -4.5,
+   "peak_change": -4.7,
    "first_seen": "2026-11-20T15:31:42+00:00",
    "sector": {
     "etf": "XLC",
     "name": "Communication",
-    "price": 101.34,
-    "change_pct": -1.38
+    "price": 101.42,
+    "change_pct": -1.3
    },
    "chart": {
     "ema8": -6.3,
@@ -769,23 +694,23 @@
    "symbol": "UNH",
    "name": "UnitedHealth",
    "list": "portfolio",
-   "price": 344.17,
+   "price": 344.74,
    "prev_close": 330.48,
-   "change_pct": 4.1,
+   "change_pct": 4.3,
    "trigger_change": 3.8,
    "peak_change": 5.1,
    "first_seen": "2026-11-20T14:55:54+00:00",
    "sector": {
     "etf": "XLV",
     "name": "Health care",
-    "price": 178.46,
-    "change_pct": 0.56
+    "price": 178.73,
+    "change_pct": 0.72
    },
    "chart": {
-    "ema8": -6.9,
-    "ema21": -11.0,
-    "sma50": -11.5,
-    "sma200": -6.6,
+    "ema8": -6.8,
+    "ema21": -10.9,
+    "sma50": -11.3,
+    "sma200": -6.5,
     "momentum": false
    },
    "headlines": [
@@ -841,26 +766,101 @@
    "brief": "2026-11-20-UNH"
   },
   {
+   "symbol": "CRWD",
+   "name": "CrowdStrike",
+   "list": "portfolio",
+   "price": 233.12,
+   "prev_close": 243.46,
+   "change_pct": -4.2,
+   "trigger_change": -4.2,
+   "peak_change": -5.6,
+   "first_seen": "2026-11-20T14:55:54+00:00",
+   "sector": {
+    "etf": "IGV",
+    "name": "Software",
+    "price": 93.38,
+    "change_pct": -2.83
+   },
+   "chart": {
+    "ema8": 0.3,
+    "ema21": -1.2,
+    "sma50": -5.7,
+    "sma200": 32.3,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "CrowdStrike (CRWD) Stock Price Prediction: Pullback meets steady analyst support as momentum cools",
+     "publisher": "Blockchain News",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZnFmWklMUHlGUW1mQ1IwUGUyVkwydkYyNEtWdWJ1cHRCRmY2NWxMVlBaWHoxOEdfbEFQRXRyRzJDUWJCNmdZcmNLUkNuNS1JTHdHTW1xQm80Rklmc3c2Vy1udnRmbVRoNmsxRmREQ2p3LVNRX0JyX3M4T0tNWllwM3RITmZNZTk1clk2ZDZOR2tXaWJzdkdTaFZjMzJmTlZYM2c?oc=5",
+     "time": "2026-11-20T09:31:00+00:00"
+    },
+    {
+     "title": "CRWD Stock Quote Price and Forecast",
+     "publisher": "CNN",
+     "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5xZE5TVjR3TmhUdHhOcl9ibU1ieUpfd05kR0U3UU1qV1I0amtKNWZFUV9EYy1kMGE5elAtWlpfYVRLYXBEcHBZeGRHV1J5LUJr?oc=5",
+     "time": "2026-11-20T09:18:10+00:00"
+    },
+    {
+     "title": "CrowdStrike (CRWD) Brings Apple Device Automation Into Falcon Foundry Through A New Tie Up",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOUG83WnlQTTFVRHdmcENWWEVzQmFROFhnVk5rd01Dd2JoWWN1VFI1VG9JWXJQX2ZjdFZRVDV5U0R1YXplOXpZaVRfWS1zak91RXhUZ2g5UzBHUG55cjNmWjFTc0hDUTdJU2ZXR0pyaGwtZWhkQ1hNYVVpV1cwV3lucWNOcmhha3lpa0lZaTBYVzM0NW1TODlWa2hscHdoZw?oc=5",
+     "time": "2026-11-20T05:17:00+00:00"
+    },
+    {
+     "title": "Why CrowdStrike Holdings Stock Flew While the Market Flopped Today",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQVkxGemhPNUhLZUJlQi1GLXVNU0NjdW13Y3BVdGdVd0dCOUZVaTNKMGNzd19hVGNQUUhnVW1meFlXMmZPc0dMYzVidUpSa0FvcXd5UlJQSXZlc0o1cmdNQWcxdzVBbHBfTGRjRmVfZ1lyVW1LSkNVQ0poMW5BVHJMN0lJNzB0SHB1Q2s3bXZraEpyRzJ4NmhWckgtMm41ZGdLZmc?oc=5",
+     "time": "2026-11-20T01:27:00+00:00"
+    },
+    {
+     "title": "CrowdStrike Holdings \u2022 Robinhood Token - CRWD - Stock Price & News",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5XWHJjeExNSm5OeHZ6Vi1yc1NseU94UGhXOW9BNmV6MnJRUWZaWXlzTmFOc3RnbmRyS2MxZW9adVFkbUpDWm95M0NXR3FRUHV2?oc=5",
+     "time": "2026-11-19T23:21:46+00:00"
+    },
+    {
+     "title": "Under a preset trading plan, George Kurtz sold 20,000 shares of CrowdStrike (CRWD).",
+     "publisher": "Stock Titan",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOSC02WXY3WlVZYTRnSlN4aVhrSXJsQ1RqLUdBNXZHOVVic2I0aHpVSm96cjZYSVdwQS1hX2xkTnp1T0U0YTMwRHc4MWlzckt5OVlvaGFwaF9VQlA2WldzeVdLbUV0azVWbE54R2czY01JWVVkNFB4OUNmbWZYbm1PWUw2MVFPSnpTcnBadnlJNkFuTXNaTGtJazA3NXFqSTFVbEtRR2ZwYjc2U0t1aWY4RXBBWURtZE4xeXRB?oc=5",
+     "time": "2026-11-19T21:18:22+00:00"
+    },
+    {
+     "title": "CRWD Stock Hits $244.73 as Palo Alto Revenue Jumps 39%",
+     "publisher": "FinanceFeeds",
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTnVPcmNxWjdZcFc2aXUwbEozaDRXU1JFQVFOTl9iekNyTWpmcGpILWk0TTRnbmd4X3p1Z1BmcmUtTE53OXo0OURhajJqOVRUQmVDbWJBVHk2S0lTMHR1aFhEVTJRX3VIQVZBY0VDaFpmcVl4OHFhYXRJNEJ5RElxVk00QzA1MUs1aDF0VWdBdXQ2d0NJUFYw?oc=5",
+     "time": "2026-11-19T19:24:44+00:00"
+    },
+    {
+     "title": "CrowdStrike Holdings Inc Stock (CRWD) Moved Up by 7.24% on Nov 19: Key Drivers Unveiled",
+     "publisher": "TradingKey",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQNE1nUnF5Q2pzTkxzZHNXSm03RlMyVUJMOVluUUFpQVVpQk8zMFBGc2NRaTAxRTJ1X3BaVWwzb1lCTEdURnVwWlk4R1NMcWJacTNMcXFPdnB3X2VKaHlueXMzbk5DRUNvRzBxSy12LVNMWGxYcWVXTklURXZvNVdOVW5Pb1F1YVkzTHhB?oc=5",
+     "time": "2026-11-19T16:15:24+00:00"
+    }
+   ],
+   "brief": "2026-11-20-CRWD"
+  },
+  {
    "symbol": "NOW",
    "name": "ServiceNow",
    "list": "portfolio",
-   "price": 90.59,
+   "price": 90.72,
    "prev_close": 88.87,
-   "change_pct": 1.9,
+   "change_pct": 2.1,
    "trigger_change": 4.0,
    "peak_change": 4.8,
    "first_seen": "2026-11-20T15:06:22+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 93.22,
-    "change_pct": -3.0
+    "price": 93.38,
+    "change_pct": -2.83
    },
    "chart": {
-    "ema8": -5.0,
-    "ema21": -15.9,
-    "sma50": -29.2,
-    "sma200": -20.0,
+    "ema8": -4.9,
+    "ema21": -15.8,
+    "sma50": -29.1,
+    "sma200": -19.9,
     "momentum": false
    },
    "headlines": [
@@ -919,7 +919,7 @@
    "symbol": "AXON",
    "name": "Axon",
    "list": "watchlist",
-   "price": 304.67,
+   "price": 304.51,
    "prev_close": 306.98,
    "change_pct": -0.8,
    "trigger_change": 5.4,
@@ -928,12 +928,12 @@
    "sector": {
     "etf": "XLI",
     "name": "Industrials",
-    "price": 157.83,
-    "change_pct": -2.19
+    "price": 158.34,
+    "change_pct": -1.87
    },
    "chart": {
     "ema8": -2.4,
-    "ema21": -11.9,
+    "ema21": -12.0,
     "sma50": -23.6,
     "sma200": -34.2,
     "momentum": false
