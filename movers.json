@@ -1,46 +1,121 @@
 {
  "date": "2026-11-20",
  "threshold": 3.0,
- "updated": "2026-11-20T15:46:47+00:00",
+ "updated": "2026-11-20T16:01:56+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 706.53,
-   "change_pct": -1.3
+   "price": 705.06,
+   "change_pct": -1.51
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 627.48,
-   "change_pct": -2.72
+   "price": 625.4,
+   "change_pct": -3.04
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 81.21,
-   "change_pct": 1.07
+   "price": 81.26,
+   "change_pct": 1.13
   }
  },
  "movers": [
   {
+   "symbol": "ANET",
+   "name": "Arista Networks",
+   "list": "portfolio",
+   "price": 170.12,
+   "prev_close": 189.59,
+   "change_pct": -10.3,
+   "trigger_change": -5.7,
+   "peak_change": -10.3,
+   "first_seen": "2026-11-20T14:55:54+00:00",
+   "sector": {
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 415.84,
+    "change_pct": -7.07
+   },
+   "chart": {
+    "ema8": -8.2,
+    "ema21": -8.3,
+    "sma50": -11.4,
+    "sma200": 0.9,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Arista Networks stock falls amid weak momentum and downward price move",
+     "publisher": "Traders Union",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQSkxVMmd2R3VpX2MtRElHRjlMc3paMHZKRWpNMUtPNzFnem9TZU1Ja0NWb0lHU1ZrY3lKb2JkUVhzWEpuYkNzLXo0QjNKaVZpWmN1QmkyT04waVNfVUJPVVAyLUpEZ0dZUkZFSFVSWXpBZTYwOGxEWkJZTFlRVnFNQ1dPdFdLaDJ0Ul8wUnlvWTU?oc=5",
+     "time": "2026-11-20T15:18:27+00:00"
+    },
+    {
+     "title": "Can Arista Networks Stock Fall 30%?",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNdXRSM3RaWHNnY2RSTTN4YVF6UE9WM2gxN1BSNlItNU9ueEcyM0dmcDRaVG81TXZOTkFTa19yM0hRSnROVWU1a1FVWnczRHI3aE13N2RZTnpIZFpkcHRkRGt6emNQXzZpSld1UXFXNWdackdhVmc2WGRJQl81V3pRT081Y3lnRGtnenB4NUc2UzlSQ0gzMlJwcm53?oc=5",
+     "time": "2026-11-20T14:28:21+00:00"
+    },
+    {
+     "title": "Missed Arista Networks' Rally? Here's What Early Buyers Saw",
+     "publisher": "Simply Wall St",
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNQ2xWWnBFZkdiczZGcm43RFB3ejdNRGNpT3Q1QWJCcmZ2OGlXM0xpYUVSbjRTWWRQUmJpcXo5VmxUYW81eHNjUU5XalVEaDhtdy1PMG5qTFRUNWlQcHYxeVljZzVyeVp2YVBySHpoUGU1c0dTSVlyMUJtUVB1SVBiU0ZmcEdhWXkwRHNZYk9zR1RMcUdiZGNXeF9LczBlY0s0WWcwTjZrWUY2N1VZS3Zvb2NVVXB1RE56T2Z1MWxBMWYyQdIBxwFBVV95cUxQTmFkOWFRdWVMYkVWWXVwMVlxazAxcGh4eDZLMExSQWoxdnpTakcyVjM1OHlacXpNOXEtVWFOcHY5T0ZGbDFMbE5GdHc3VGhOSlR4eW84RGJ1UEVrZTVPRlVLd25pUkpCTzBfNjB6dmFSRU9sM1BMRTZPUERnYTY1bnlaRnFicDh5X3NXY0M3NXJXOXMyMUUwNjNQdHpnX0hyREJtcEpjUXFuWTRvM3BsMmlKQ0ltNDY0eEg1LUE4MWZIRnlaYVZn?oc=5",
+     "time": "2026-11-20T14:08:32+00:00"
+    },
+    {
+     "title": "Arista Networks, Inc. (ANET) Is a Trending Stock: Facts to Know Before Betting on It",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPMER3d0VqczlKOUZyWUhUc2dBdzlPbDYtWWExek1VSEZLXzFrVFVCWVpaR0wtMHV3MWVlTU1MWGJac0xPYWxxaWRrRi1OTXBEaS1OeWFmdW9uZlRwLUVsN0xEVTdqd3pac29Rb1hPazF0MTRDZzRqdU9EeXlzejJOSHZSejA0dUNLQ1I2aUY1ZU8tbFJOX0pmYVdwQTdERkE?oc=5",
+     "time": "2026-11-20T13:00:04+00:00"
+    },
+    {
+     "title": "Arista Networks (ANET) Stock Price Prediction: AI expansion meets a sharp pullback as buyers test support",
+     "publisher": "Blockchain News",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNMGVOUVAya3UtOVNxR3R2SVluaWdXdG9ETXBGVlAwU0I1c1A1ZmVzd3ZRdmpGTS1aTUFDWHV2SjBpSVU0VkFienV6TW5IemJkVkt0cTBOZlc4NHRQZExMamdGWUptZm1maHJKLVk1NXRsdVNLWGs3RkI5aWJEbWxXRDYyUjdTX01FZl9OcXpiSjhmRG95cExESzRWOA?oc=5",
+     "time": "2026-11-20T11:33:00+00:00"
+    },
+    {
+     "title": "Arista Networks (NYSE:ANET) Stock Price Breaks Below 50 Day Moving Average - Here's What Happened",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxObXYxakUwdHI3NnRBdE5vM05vYWtLR25oUjQwb3JoeWs5anVWdjMya1l0WkZfM0tmNF9DUmNnUHJ0VW9NMTRPeEZKcm40NkhZYnVYVjVkSWhpb21WZXYxeWVEOENtUHVKejd1RHNaQTJuOHhFcjI3UHdHUDJMT05LTVI0dkZnbV9rWXdQMW5HM0xCYVFfRlNSNHljSDZDNG55UDdWQ1ViRFZLMEYwVnFLVGJqb0Q0SHAyVnp2dDhzNDhKaDJRRExidFFCQVZKalIwb0dnZHFRUjhLZmNJcGFfZm9SaXJQYjQ?oc=5",
+     "time": "2026-11-20T10:01:55+00:00"
+    },
+    {
+     "title": "After gifting shares, a family trust with the CEO of Arista Networks (ANET) as co-trustee still held over 14M.",
+     "publisher": "Stock Titan",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZmRDWWpMZHhVak1aOUJSN2NIU2JWTUtBeEZITC1kNlM5OXFuenBJTUYtRUd4ZWlMZUU4a3UxLWdjQWdSY3ZZLU9hbnJieVExejhFbEl2WUZjdENIUmVISzBBQnlNaGlkZmQweUlSMFI0czlBSXYyUFdXUzJMcTJHbC1wLWpmcTVDVDBpbFQ3STBEQ3RaLUdBS0o5NXRUWHpOMkVFV05UeGpIX3BXQW9vUUdGVQ?oc=5",
+     "time": "2026-11-20T00:07:00+00:00"
+    },
+    {
+     "title": "Arista Networks (NYSE:ANET) Shares Down 2.2% - Here's What Happened",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQWC1SbFlfOHVoajRkY0FWck9vdFpTUjBsMzFjQVZvWC16NTlGZ2JwT1VYMjdRV0laSl9OM0tXcXBDd3laaWNOWEtFQ3RRY1h3eUpvMFUwWnR6SlVZd2NkMXRROGxhOGEydzZlTXp1TDRvamdKS05CaGxmUklLaHlmUHpMQ0lTelR6c29vV0RieHVIMmRYQXNmVFV5S25vemp4azJIemVzTVNRS19DeEJZSjh3Z1BVdXZGU2hMQw?oc=5",
+     "time": "2026-11-19T22:33:55+00:00"
+    }
+   ],
+   "brief": "2026-11-20-ANET"
+  },
+  {
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 86.44,
+   "price": 87.19,
    "prev_close": 96.92,
-   "change_pct": -10.8,
+   "change_pct": -10.0,
    "trigger_change": -4.8,
    "peak_change": -10.8,
    "first_seen": "2026-11-20T14:55:54+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 93.78,
-    "change_pct": -2.42
+    "price": 93.48,
+    "change_pct": -2.72
    },
    "chart": {
-    "ema8": -20.4,
-    "ema21": -35.2,
-    "sma50": -52.3,
-    "sma200": -51.9,
+    "ema8": -19.9,
+    "ema21": -34.7,
+    "sma50": -51.9,
+    "sma200": -51.5,
     "momentum": false
    },
    "headlines": [
@@ -72,7 +147,7 @@
      "title": "Nebius Group (NBIS) Stock Price Prediction: Breakdown tests support after Reuters flagged a 2026 revenue reset",
      "publisher": "Blockchain News",
      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOOXFCMGlDWVlzcUpkcVBZSVRxTHdtQVFZbDRCSTltemJVUTlCeU9LamRneE5jc05sWWQzdS1QQTVnZEdfaEJKYlNRN1BUYlo1dHRjOWpkYjZLRDFRcG1RZUFxTmNHa1ROUTF4TldObmRUWnJFa0xDQWw3YVhBWVhibmJlOFBsT0tjNXdiN25OUEdVNHNuc3VWWG5relpfMGhuaFJmQkt5SDM?oc=5",
-     "time": "2026-11-20T09:17:00+00:00"
+     "time": "2026-11-20T09:26:08+00:00"
     },
     {
      "title": "Nebius: Q3 Net Debt Jumped Over 1,243% QoQ, And Capex Covered By Customer Prepayments Carries Risk",
@@ -93,107 +168,119 @@
      "time": "2026-11-20T06:21:00+00:00"
     }
    ],
-   "brief": null
+   "brief": "2026-11-20-NBIS"
   },
   {
-   "symbol": "ANET",
-   "name": "Arista Networks",
+   "symbol": "AVGO",
+   "name": "Broadcom",
    "list": "portfolio",
-   "price": 169.99,
-   "prev_close": 189.59,
-   "change_pct": -10.3,
-   "trigger_change": -5.7,
-   "peak_change": -10.3,
-   "first_seen": "2026-11-20T14:55:54+00:00",
+   "price": 315.58,
+   "prev_close": 346.65,
+   "change_pct": -9.0,
+   "trigger_change": -3.6,
+   "peak_change": -9.0,
+   "first_seen": "2026-11-20T15:01:24+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 415.38,
-    "change_pct": -7.17
+    "price": 415.84,
+    "change_pct": -7.07
    },
    "chart": {
-    "ema8": -8.2,
-    "ema21": -8.4,
-    "sma50": -11.5,
-    "sma200": 0.8,
-    "momentum": false
+    "ema8": -6.2,
+    "ema21": -6.2,
+    "sma50": -8.0,
+    "sma200": -14.2,
+    "momentum": true
    },
    "headlines": [
     {
-     "title": "Missed Arista Networks' Rally? Here's What Early Buyers Saw",
-     "publisher": "Simply Wall St",
-     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNQ2xWWnBFZkdiczZGcm43RFB3ejdNRGNpT3Q1QWJCcmZ2OGlXM0xpYUVSbjRTWWRQUmJpcXo5VmxUYW81eHNjUU5XalVEaDhtdy1PMG5qTFRUNWlQcHYxeVljZzVyeVp2YVBySHpoUGU1c0dTSVlyMUJtUVB1SVBiU0ZmcEdhWXkwRHNZYk9zR1RMcUdiZGNXeF9LczBlY0s0WWcwTjZrWUY2N1VZS3Zvb2NVVXB1RE56T2Z1MWxBMWYyQdIBxwFBVV95cUxQTmFkOWFRdWVMYkVWWXVwMVlxazAxcGh4eDZLMExSQWoxdnpTakcyVjM1OHlacXpNOXEtVWFOcHY5T0ZGbDFMbE5GdHc3VGhOSlR4eW84RGJ1UEVrZTVPRlVLd25pUkpCTzBfNjB6dmFSRU9sM1BMRTZPUERnYTY1bnlaRnFicDh5X3NXY0M3NXJXOXMyMUUwNjNQdHpnX0hyREJtcEpjUXFuWTRvM3BsMmlKQ0ltNDY0eEg1LUE4MWZIRnlaYVZn?oc=5",
-     "time": "2026-11-20T14:08:32+00:00"
+     "title": "Broadcom stock outlook: Downward move persists with weak momentum and volatility risk",
+     "publisher": "Traders Union",
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNOFNPekt0ZU5jSGZfalhVTy1Ja1l0UWJDZlUyNjJuZjVNSDNNTGY3VjdaU1Nzc1U1REdWd0hYc0d6Z2EycXlyMlIwLTFJQzdYOFJoN25UaFFUZlVfclVDaXdoc3J3bnNLVmkzQzVBZmtHeGl3aExJdVRhUnozYzN1bklsZmlXeHBZNGZfeXdPbjQzOEpY?oc=5",
+     "time": "2026-11-20T15:46:27+00:00"
     },
     {
-     "title": "Arista Networks, Inc. (ANET) Is a Trending Stock: Facts to Know Before Betting on It",
+     "title": "Nvidia Earns \u201cHighest Risk\u201d as Focus Turns to New Semis Trade",
+     "publisher": "TIKR.com",
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQd2YtN25XOEdjTi1tSTdzdDMwMnZ1UkZwYk04OUUxTXlGVG41WDBPVndhX1dwUGNpeUhNNXRFYnNXblZ0RkpOZkQ4Y3VOUnh3eUNvRHdEbXZqR3ctYXdPQjNPUGYzcnZYSDJGR3k3Z2kzQ1JPSXlsTnJ2Snl4N0VsWVhwbGJsZUtOd3Y5LXI1VQ?oc=5",
+     "time": "2026-11-20T15:39:07+00:00"
+    },
+    {
+     "title": "Why Redburn Downgraded Broadcom (AVGO) Despite 221% AI Growth",
+     "publisher": "Yahoo Finance Australia",
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOWDlvYkZHbXpndG9PMmVoUmRrQUlEOTU1ODFvTVZmTll4TjR5eFpqVVlaM2NrT29Pa1FWRl9OSzVwb19RVkpSZXZ4djFQbzRSY1NXR2JKYU5kMjZoREdNS1M0LUwxaFlwc2NlV2tQU2dGOE54eERxemJlUGJFVkJkczJnU0UzVTQtbkZqQmNR?oc=5",
+     "time": "2026-11-20T15:24:21+00:00"
+    },
+    {
+     "title": "Broadcom Inc Stock (AVGO) Moved Down by 6.24% on Nov 20: Drivers Behind the Movement",
+     "publisher": "TradingKey",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPbkdTS3QtTmFsd1FUQVVfWFBHNlVlUDQ5akd0WlhETUZlUFZ0RGN3UUdNN0lEUmJEdks2RUthaW9Cb3NXR0JZUlpaUVdJOUhRUW9DVy1raEhaUzlNbGFMNXVVakxYaVBXdGh6eUVoaVVza09sN2lsTGJ0OTV2OXBJY2FpWkJtcVlPY1Rv?oc=5",
+     "time": "2026-11-20T15:15:25+00:00"
+    },
+    {
+     "title": "Breaking News: Google Bypasses Broadcom for HBM, Pressures Memory Margins",
+     "publisher": "Moomoo",
+     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNLVVka29CUGFCT01FTk1xTFk3S19DLWNreU95NDR0Zmt1MDl5WjJiVk1pMUNyODR1WUVTVlk3YkxPZVZ2ZG0xTmljd0pwX0pYWFVCR0FmWFM5NndUMWxoOTFoeFJBMzU2ODBxeGR1TnYzaWE4VEhYNXFGZEp6TndLeWh4VGVEcmhRcXhRRDBlMHRJdEpjYUNhazh0eTVoWXdrRnNRUGpFQjVpd1Z1czhEancyZk8ybFRTRlR0MHR6Q01PemM?oc=5",
+     "time": "2026-11-20T15:05:15+00:00"
+    },
+    {
+     "title": "Nvidia stock extends 6-day losing streak, as AMD, Broadcom lead chip sector lower",
      "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPMER3d0VqczlKOUZyWUhUc2dBdzlPbDYtWWExek1VSEZLXzFrVFVCWVpaR0wtMHV3MWVlTU1MWGJac0xPYWxxaWRrRi1OTXBEaS1OeWFmdW9uZlRwLUVsN0xEVTdqd3pac29Rb1hPazF0MTRDZzRqdU9EeXlzejJOSHZSejA0dUNLQ1I2aUY1ZU8tbFJOX0pmYVdwQTdERkE?oc=5",
-     "time": "2026-11-20T13:00:04+00:00"
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQMHB0U3N0WnlCMjZCUFZ3QlNZSEhXZnVVbUdMSElkZTJ3TkszdTFxQnlpMkpZV05ZajNXM0VJYXlDM293OEdkUWl4RHVTZXRvSG1rQnJMWVJrMEp3a00zSm9VbTF6eHByZmpwNGMxcFlEQ3ZFSDQwU0FpNHlzV2xDRndWMnVzdDUzbkdDamxKX2FZeWNBbTJBamg2SVFwamZWdEh1elZ3?oc=5",
+     "time": "2026-11-20T14:01:16+00:00"
     },
     {
-     "title": "Arista Networks (ANET) Stock Price Prediction: AI expansion meets a sharp pullback as buyers test support",
-     "publisher": "Blockchain News",
-     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNMGVOUVAya3UtOVNxR3R2SVluaWdXdG9ETXBGVlAwU0I1c1A1ZmVzd3ZRdmpGTS1aTUFDWHV2SjBpSVU0VkFienV6TW5IemJkVkt0cTBOZlc4NHRQZExMamdGWUptZm1maHJKLVk1NXRsdVNLWGs3RkI5aWJEbWxXRDYyUjdTX01FZl9OcXpiSjhmRG95cExESzRWOA?oc=5",
-     "time": "2026-11-20T11:37:25+00:00"
+     "title": "Broadcom: A Better Bet Than A Month Ago (NASDAQ:AVGO)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNMlM5ZFNia1lDcTBVa29FTGpTQ191Z05PYm9DT2lUVnduTDRJTXA3NjhLSFF3M1I1ZnVVZEJQdHZfZkNXRFVtdHFCcHQwSG84ZnVhUHMxZlpPWVNnZjY1WElmMUtSajJxdEdyeXo5TmJhTDJVQmNnbDlSWjVjelY1ZDVzRk9DUQ?oc=5",
+     "time": "2026-11-20T13:16:15+00:00"
     },
     {
-     "title": "Can Arista Networks Stock Fall 30%?",
-     "publisher": "Trefis",
-     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQcFl0cmFOWGxfU2VNQjM3TWs0cHFyaU5YTVVzandWYjluaFZsd01sdFpoNUNYbWtVbVdCWF9iODFRTERPTXdMeC1sWXR5NGtHa2JyRjZnWlVRaHMwakFfdjZFb2xfUnhPQXBiWFJYSGJxeUNsem9jT1ZDRldTZll4emdtLWdDZ1pvMzI5aVVZbURkRWNRM1VnUXd3?oc=5",
-     "time": "2026-11-20T10:39:31+00:00"
-    },
-    {
-     "title": "Arista Networks (NYSE:ANET) Stock Price Breaks Below 50 Day Moving Average - Here's What Happened",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxObXYxakUwdHI3NnRBdE5vM05vYWtLR25oUjQwb3JoeWs5anVWdjMya1l0WkZfM0tmNF9DUmNnUHJ0VW9NMTRPeEZKcm40NkhZYnVYVjVkSWhpb21WZXYxeWVEOENtUHVKejd1RHNaQTJuOHhFcjI3UHdHUDJMT05LTVI0dkZnbV9rWXdQMW5HM0xCYVFfRlNSNHljSDZDNG55UDdWQ1ViRFZLMEYwVnFLVGJqb0Q0SHAyVnp2dDhzNDhKaDJRRExidFFCQVZKalIwb0dnZHFRUjhLZmNJcGFfZm9SaXJQYjQ?oc=5",
-     "time": "2026-11-20T10:01:55+00:00"
-    },
-    {
-     "title": "After gifting shares, a family trust with the CEO of Arista Networks (ANET) as co-trustee still held over 14M.",
-     "publisher": "Stock Titan",
-     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZmRDWWpMZHhVak1aOUJSN2NIU2JWTUtBeEZITC1kNlM5OXFuenBJTUYtRUd4ZWlMZUU4a3UxLWdjQWdSY3ZZLU9hbnJieVExejhFbEl2WUZjdENIUmVISzBBQnlNaGlkZmQweUlSMFI0czlBSXYyUFdXUzJMcTJHbC1wLWpmcTVDVDBpbFQ3STBEQ3RaLUdBS0o5NXRUWHpOMkVFV05UeGpIX3BXQW9vUUdGVQ?oc=5",
-     "time": "2026-11-20T00:07:00+00:00"
-    },
-    {
-     "title": "Arista Networks (NYSE:ANET) Shares Down 2.2% - Here's What Happened",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQWC1SbFlfOHVoajRkY0FWck9vdFpTUjBsMzFjQVZvWC16NTlGZ2JwT1VYMjdRV0laSl9OM0tXcXBDd3laaWNOWEtFQ3RRY1h3eUpvMFUwWnR6SlVZd2NkMXRROGxhOGEydzZlTXp1TDRvamdKS05CaGxmUklLaHlmUHpMQ0lTelR6c29vV0RieHVIMmRYQXNmVFV5S25vemp4azJIemVzTVNRS19DeEJZSjh3Z1BVdXZGU2hMQw?oc=5",
-     "time": "2026-11-19T22:33:55+00:00"
-    },
-    {
-     "title": "Cracks in the \"AI\" Cap-Ex Boom Have Emerged",
-     "publisher": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOTC1iVk5Pd1NPZ3o4VFhsQXFOU1lUZ0pBeldFRUZsZHpETlJ5UGhVR2o2R1pZbGxOUE42dlZGUUV2V0xGcERISWNZelFZREVEZXpHMFV1emNKbDdjTDc4ZUEzang1N2c2MjI1SGl1Z1hiVWxjS19VdFEybHZrbFZNTUFiaGpzR1FQQ3VtRGstY3h0d0RSaVBGclVLMkE0QQ?oc=5",
-     "time": "2026-11-19T21:50:00+00:00"
+     "title": "Buy Broadcom Now: Get a $115 Billion AI Giant at Just 18.5x Forward Earnings",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOX2RMbVN5MVhPb0k3YkNzdzBob3haMzBOc0N0Q3JkeGhVRFIzbWxqUGp3Y2stLWpoV0ZrTDBIZXQ3TFE0VjBvdTJhdHRPZHV3T3gxQVBoVjdENG9tRlRybmV3aFpndFR3eThNbzJ3WDlJS2E5NFN1WnAteE5WdFFOdzQ2X1F3ZDFSZmxiN2d3emZRaURaT3V3UA?oc=5",
+     "time": "2026-11-20T12:15:33+00:00"
     }
    ],
-   "brief": null
+   "brief": "2026-11-20-AVGO"
   },
   {
    "symbol": "AMAT",
    "name": "Applied Materials",
    "list": "portfolio",
-   "price": 308.99,
+   "price": 310.18,
    "prev_close": 338.93,
-   "change_pct": -8.8,
+   "change_pct": -8.5,
    "trigger_change": -4.5,
    "peak_change": -8.8,
    "first_seen": "2026-11-20T14:55:54+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 415.38,
-    "change_pct": -7.17
+    "price": 415.84,
+    "change_pct": -7.07
    },
    "chart": {
-    "ema8": -10.7,
-    "ema21": -16.8,
-    "sma50": -27.4,
-    "sma200": -30.9,
+    "ema8": -10.4,
+    "ema21": -16.5,
+    "sma50": -27.2,
+    "sma200": -30.6,
     "momentum": false
    },
    "headlines": [
+    {
+     "title": "Why Applied Materials (AMAT) Stock Is Down Today",
+     "publisher": "Quiver Quantitative",
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNUWlfMzBlNk53QVBVQTZTd3laVHU4cDZmX0l3a2toU29FX2NXT2l1NFVpZ2I0RkpubEJTLWNSNDBiUXl1enQ0THVyUy1sRGl0R0JJSWRtdkdURHFKbUZKVmtkUzBmTVpxcXhYbDg3QTNZU1IzbmhHZ0tyV3NkcjVIb3hzWXA4S09nMzFsejBB?oc=5",
+     "time": "2026-11-20T15:32:00+00:00"
+    },
+    {
+     "title": "Applied Materials Inc Stock (AMAT) Moved Down by 5.92% on Nov 20: Facts Behind the Movement",
+     "publisher": "TradingKey",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQYUpHc1pXTlpfdl9sVjJLSmdNazd6TVB2bU5GVEk3Mnd1d2tWOGE0MlRTTXY2aXMxbUQwTWtGR1IyekFyZlBIN3I0WEx4VllodlBjSDhnbVJFMWlqVExpVDd4dkFGRV9pNW5pZW16djZ1OFNYeHdCdFFsdVdadUktNUhubmI5NXpnSkxZ?oc=5",
+     "time": "2026-11-20T15:15:24+00:00"
+    },
     {
      "title": "A $3 Billion Fund Is Betting Big on Applied Materials",
      "publisher": "TIKR.com",
@@ -229,121 +316,52 @@
      "publisher": "24/7 Wall St.",
      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOa1MtdWE4ekZsZWpLdTFEVkpJX01JUDBXUXk2X3JXNUVIdjQyWFZsRU1jcUxRajhnaklGem5YQWJ2ak1ETGpINUhfd3NiR2M4R2lCQnl4RFFtazlYb2dHTnA5WnZobjZUVnItZXZrV0xoMFZBd25Zd3hFeHFzT1lZLXgxaF9KX2ZZWW5iRllQOWI2VjBWNGl2OWR5bmFzcUVlZzhwZnM4Wm1GZ0JhcjBBbDA0NjRlVWYxYzg0ZWhQZEM?oc=5",
      "time": "2026-11-19T19:02:00+00:00"
-    },
-    {
-     "title": "ROK to Boost Intelligent Devices Segment With AGILOX Buyout",
-     "publisher": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNSVlGTEY4Vk9NdWlKeEVELVRLbkVUelFTdVBrdF9LOEtRYWtNeFc4cDBKemlBWjBNQ042STFtcXFFYnAtanQwaUlfSDUxNF9GUGtRMFFLclFLUmRmR0tzMzViOHpIdm1VenpyWmF6TWNuMUJBZ0FtaTRVX2JoVEg3dExrQnVGOHRJUDl5Y3l6ZWUzcHZ4bV9YT2h1cHpremNlM2swcndyVm1nN3hfcFJ1ejF4ZHItZw?oc=5",
-     "time": "2026-11-19T17:29:00+00:00"
-    },
-    {
-     "title": "AMAT, KLAC, LRCX, ASML: Bernstein Picks 4 Chip Stocks for the Global Semiconductor Spending Boom",
-     "publisher": "TipRanks",
-     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQWUV0NVJCLUNndmdfOEt6UnNFakZUMG1Xb1ZHNkkxZkt3TkJ5djRybUVsRWNDdjNWdmdpWmxUN3pqa2txblkyRS1oQlBsRDJfeWZwSVJqZWRud0hxRFRnWE8xVjJPNDRUYTUtdGg2d1I5aDFNUEREOTBSa1U1YlQ2RjlfV0o2TmN1QVNObDRFY1ZMekJ0aEs5UW9NbE9VRkxGczdpcTlIOW5VTDhUTDV1NnlldGFUanRPdHVxWTVmTTlPLWduazJWMXFR?oc=5",
-     "time": "2026-11-19T17:23:56+00:00"
     }
    ],
-   "brief": null
-  },
-  {
-   "symbol": "AVGO",
-   "name": "Broadcom",
-   "list": "portfolio",
-   "price": 316.3,
-   "prev_close": 346.65,
-   "change_pct": -8.8,
-   "trigger_change": -3.6,
-   "peak_change": -8.8,
-   "first_seen": "2026-11-20T15:01:24+00:00",
-   "sector": {
-    "etf": "SMH",
-    "name": "Semiconductors",
-    "price": 415.38,
-    "change_pct": -7.17
-   },
-   "chart": {
-    "ema8": -6.0,
-    "ema21": -6.0,
-    "sma50": -7.8,
-    "sma200": -14.0,
-    "momentum": true
-   },
-   "headlines": [
-    {
-     "title": "Nvidia stock extends 6-day losing streak, as AMD, Broadcom lead chip sector lower",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQMHB0U3N0WnlCMjZCUFZ3QlNZSEhXZnVVbUdMSElkZTJ3TkszdTFxQnlpMkpZV05ZajNXM0VJYXlDM293OEdkUWl4RHVTZXRvSG1rQnJMWVJrMEp3a00zSm9VbTF6eHByZmpwNGMxcFlEQ3ZFSDQwU0FpNHlzV2xDRndWMnVzdDUzbkdDamxKX2FZeWNBbTJBamg2SVFwamZWdEh1elZ3?oc=5",
-     "time": "2026-11-20T13:36:58+00:00"
-    },
-    {
-     "title": "Broadcom: A Better Bet Than A Month Ago (NASDAQ:AVGO)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNMlM5ZFNia1lDcTBVa29FTGpTQ191Z05PYm9DT2lUVnduTDRJTXA3NjhLSFF3M1I1ZnVVZEJQdHZfZkNXRFVtdHFCcHQwSG84ZnVhUHMxZlpPWVNnZjY1WElmMUtSajJxdEdyeXo5TmJhTDJVQmNnbDlSWjVjelY1ZDVzRk9DUQ?oc=5",
-     "time": "2026-11-20T13:16:15+00:00"
-    },
-    {
-     "title": "Buy Broadcom Now: Get a $115 Billion AI Giant at Just 18.5x Forward Earnings",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOX2RMbVN5MVhPb0k3YkNzdzBob3haMzBOc0N0Q3JkeGhVRFIzbWxqUGp3Y2stLWpoV0ZrTDBIZXQ3TFE0VjBvdTJhdHRPZHV3T3gxQVBoVjdENG9tRlRybmV3aFpndFR3eThNbzJ3WDlJS2E5NFN1WnAteE5WdFFOdzQ2X1F3ZDFSZmxiN2d3emZRaURaT3V3UA?oc=5",
-     "time": "2026-11-20T12:15:33+00:00"
-    },
-    {
-     "title": "Not Nvidia. Not Broadcom. This Artificial Intelligence (AI) Chip Stock Could Be the Biggest Winner of 2027",
-     "publisher": "The Globe and Mail",
-     "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxObG5UdFY5MjZjQWdJUzNXaU1SRDZfU1RFWFhaMkVKLWh3bzdvRWFEY21xWkxUdGlMVDA2ZDBMeWhrY1lPbGdSQmFPV1VheEUzbElkZlFFUGkyNWk5LXVWOHEybDlGQ284ODIzSkd5d3VJSGdSbm1oSU9jWTRUbFl4VnBtN3JENFVBVFF6X3FmNUI1TmphbFFNLVR4QlVDOEpyUGdPVE9sRE92Tm5FOW4wRDZKcWRYU0RPb3JRN2pmcHRQMmtlN1ktV2pNYTk3V2hYdEJyQWN5ZEZhWjBGT0ZJVEl0eDJIVnRicGpUSzZGd2tjM3BvRmVvN182WjA3ZWs5OUFNX1kzQVBCenJLM3NJWWhoRnNwdXV1?oc=5",
-     "time": "2026-11-20T12:05:35+00:00"
-    },
-    {
-     "title": "3 Magnificent AI Chip Stocks That Could Help Set You Up for Life",
-     "publisher": "The Globe and Mail",
-     "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxORzVIN0xTMWc3NEhCYUVVZ2d4bEIzellmUEIzZEZyQ2JxcmxBOHJzSGF2dF9qdTlFOTZ1Y2ZyZEFHTFg2a3NRdkhxWExHNGxNeXVaQm1SSjQtbFEzT3lkUlF2cVlVb0hFR2ZsMFhQMWZqaUEzUF9ScDJTdGxMZnlSR0JmVkkwWm5SZy1iYVFxUFhEcEdjRE1xYXpSWWt4N1hUT2ZwM3dHMkQycVc0SFJJR0hxR1BDNE90eFdXdjBVMTB0Wm4tZGNWQnNVd2ltY1F2d1hvNlVDUW0zVnFfM2RsUUl2R3dYUQ?oc=5",
-     "time": "2026-11-20T12:05:34+00:00"
-    },
-    {
-     "title": "Broadcom Inc. $AVGO Stock: Wilkinson Global Asset Management LLC Cuts Stake",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNd3JTZzJNOHQtRVhER3pETlpJR3pQQmRwSktSeUh3S2ZxWFdGUGdOZVlqRVA2XzVQUTktSDV6bVlpOTBhV2pNalh5YXF4bTJsV1dVRnFEX3NNd2xEcFo1bHk4aTVBSDBaSUNRUm9hbU1QamVsNERMNDJodVp6U0RVc05qMldSVDlfSXVHNEVyb1FnbjJ5UlVFdk5fdER0cVFGTmFLX2o3TEN5eEQ5WDVyamVuWF9CM1BZdVRmM0w3ZjFzcmtacDI4VGdBV1VtQQ?oc=5",
-     "time": "2026-11-20T12:03:20+00:00"
-    },
-    {
-     "title": "Broadcom Inc. $AVGO Stake Trimmed by Hamilton Capital Partners LLC",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOQjVWcmhHVUtuZnNia2EyY3Y5d19nQjFzb1FyYXJvWUl0eHE2Y0ZLRzNkcTRUZVUxTjJBaWxGaGQ0Tzh3VS1razQxdnllNHVFdWd5R3J6ek04R3YtY0s4VGVQNTVhVVRuMnlCQkY5bGpSXzhvdmpoazViRWhWeDhaalVoQ180QWFHM0V2bkZjV1FvbVVSTTUwOE1uQzR5WklkUnJFNUNjaUo4T3ZyNWFzNUJGQmV0TUJKY3lrY29MTVZ3ME0?oc=5",
-     "time": "2026-11-20T12:03:20+00:00"
-    },
-    {
-     "title": "Broadcom Inc. $AVGO Shares Sold by Saranac Partners Ltd",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPQzFyTXhLZjNNWGNLLUJoSnEwbGlpWkxSR3dXbk9PZkQ1cllEcVNUX0xKWXVpVVdiNnpRWERfVDhrMmJ1U1lEblhEZG9TaWM2Y01CR3FLZHBsak1nemg1MGFDT0hROE5mLThqZ2NndjJpaEZfNWlpbHNSY2d0dTNtdmpFbnZaemd2VEJJWHJJOHNvQzVrR3dZSDRQdHhOSU5WVHFqZ0NFeW43dTR5MVZia3Q3cFY?oc=5",
-     "time": "2026-11-20T12:03:19+00:00"
-    }
-   ],
-   "brief": null
+   "brief": "2026-11-20-AMAT"
   },
   {
    "symbol": "NVDA",
    "name": "Nvidia",
    "list": "portfolio",
-   "price": 135.84,
+   "price": 136.22,
    "prev_close": 145.98,
-   "change_pct": -6.9,
+   "change_pct": -6.7,
    "trigger_change": -3.2,
    "peak_change": -6.9,
    "first_seen": "2026-11-20T14:55:54+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 415.38,
-    "change_pct": -7.17
+    "price": 415.84,
+    "change_pct": -7.07
    },
    "chart": {
-    "ema8": -12.4,
-    "ema21": -23.1,
-    "sma50": -34.4,
-    "sma200": -33.2,
+    "ema8": -12.2,
+    "ema21": -22.9,
+    "sma50": -34.3,
+    "sma200": -33.0,
     "momentum": false
    },
    "headlines": [
+    {
+     "title": "Nvidia\u2019s stock heads for a stretch of weekly losses unseen since 2008",
+     "publisher": "MarketWatch",
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQQ3BGMW5Lb01ZOGs0XzdFbWZBYlRzZ1pJRnRzNG1rMG9vNF9XU0pfb3lSSm1fZnk1bzlYemp3YWkweUE0YVVPX1ZhVDl5VWFVZHpkajRzMEhuVHVWcWw2d1RLYWV1U1l0bjNlSTZZc1lNTGdFWTYwSEtYUFNfdmRPYk41b1VIaEdlMjItNHhXRTZGakg0a0NKY3diODMzcjJaSHBLQUVxeGFuZEN3bFB4aQ?oc=5",
+     "time": "2026-11-20T15:38:00+00:00"
+    },
+    {
+     "title": "Trump Bought Up to $265,000 of NVIDIA Stock. Here\u2019s Where the Price Target Stands",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOWFdocXQzR1ZkeXlGTzBsZ3ZybUMwVEhveUlxX0RvekZxWDVYUjJiTnhwaVJ6U3hJZ2E2dUplQ0lndGJJXzVSdGFUWkZXa1RHY205T1JEMUNjcE1kVVhMVExUV3hFNndsMFFzSTJEam9EdUZfcm9DeVRlTEhRazhTSkExMEJObnlCR2gwM011WGxucTR0X3d3?oc=5",
+     "time": "2026-11-20T15:33:17+00:00"
+    },
+    {
+     "title": "Does Huang\u2019s Exit Sink Nvidia Stock? History Is Split",
+     "publisher": "Trefis",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNblVVdDI3Q3JoSF9paUVLOEhaRDFDdDBTVml2UmtoT2pfQ3dheU12UTJRQjZ1ejkyNGFfeVN1bWtqbk1ZMU9PZHl1Ul9SYl9tVnFYNjJXaTc1QzFpVy0wdE83MUJrUTZwdk1Objl1OTBBVUtRZTN0WXVzNHFRTFd2RmJNTHktRUNFcG10WV92RWVXSUhTdjc5QUF0Y3FmajNKb2ZUV1NaUnpsdGtDN2RjbENFMA?oc=5",
+     "time": "2026-11-20T15:24:58+00:00"
+    },
     {
      "title": "Cathie Wood Sold Nvidia and Bought $78 Million of Anthropic at IPO",
      "publisher": "24/7 Wall St.",
@@ -351,10 +369,16 @@
      "time": "2026-11-20T14:52:00+00:00"
     },
     {
-     "title": "Nvidia Stock (NVDA) Drops 40% as China Probes Pile Up Yet Wall Street Sees a 59% Rebound",
-     "publisher": "TipRanks",
-     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxORDljLWxLMnhWRzFIMWNONzBCQlBteFQwczVPY05zREc5SlBxTlRxYTBwMTF0TDgtalBsVUgzZVRIeGdUMmdUeF9iNlFaaUxmT01HS09aSXQ4Rmk0N0lvdkFvOEVNLXJxREhGRVhMWXE5Um9XNWN6WmZTN2tObndyMkdDYUVjMHZzaU1mVGdEd0pITFZoTEpvQVFNOGFEekkxLTdlX1ZieUJ1NHR6U0FNYVNITC0?oc=5",
-     "time": "2026-11-20T14:51:51+00:00"
+     "title": "Nvidia Stock Falls 40% From Its High. Why There\u2019s Hope.",
+     "publisher": "Barron's",
+     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5INVNuU2E4Z3Bsa0FYa0RqbHNYM3ZlS1lZV3BlODA2Q2F2ejlxMllHQnl2YzhmMm5IeW5RdU9tUzhGUUdlVTJtMUozbkJYZGZOMFpnMmRaWWxpRDY0OVF3a1JiTVBrZmNWMkJsTVotRERzWUZvQVNV?oc=5",
+     "time": "2026-11-20T14:50:00+00:00"
+    },
+    {
+     "title": "Micron vs. NVIDIA: Which Semiconductor Stock Has the Edge?",
+     "publisher": "Zacks Investment Research",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNZ01fbXBOMGhReGVJVklmalAtU2Q5UkZMbDJaYngzSEdWeEVoQ3hBU1Q2SUNYZjFUVXJ2Sl9zaGxTYmhSMkhZWFRlVFRzYlJuRUJNQjI5ZlRDREtQdUgzXzVQaXItZW9NVThVcG1KX3hRNnhGMVFtUTlISi1FcmdZcnlqa2lidTV4X3ZMRmVVS19OdDVZQ2FHOEE0Y2I?oc=5",
+     "time": "2026-11-20T14:43:36+00:00"
     },
     {
      "title": "Nvidia: Washington Noise, Record Numbers (NASDAQ:NVDA)",
@@ -366,53 +390,29 @@
      "title": "Nvidia stock extends 6-day losing streak, as AMD, Broadcom lead chip sector lower",
      "publisher": "Yahoo Finance",
      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQMHB0U3N0WnlCMjZCUFZ3QlNZSEhXZnVVbUdMSElkZTJ3TkszdTFxQnlpMkpZV05ZajNXM0VJYXlDM293OEdkUWl4RHVTZXRvSG1rQnJMWVJrMEp3a00zSm9VbTF6eHByZmpwNGMxcFlEQ3ZFSDQwU0FpNHlzV2xDRndWMnVzdDUzbkdDamxKX2FZeWNBbTJBamg2SVFwamZWdEh1elZ3?oc=5",
-     "time": "2026-11-20T13:36:58+00:00"
-    },
-    {
-     "title": "Prediction: Nvidia Will Hit a New All-Time High in 2027 (Hint: Watch This Metric)",
-     "publisher": "The Motley Fool",
-     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNQVpsY2dCd1RhaWNHTUN5Z1didS1sZEtPWEh5RkNZVXpTdDdDYTN2MmxqZHpiLTdkWFhERmFFekN0SS1xd0U3aFBqUWFGTmoxX0ZPWlc0aS1uQ2dScUM4ZHdpS3o4T09uVW5kZHhFVFBkbTQ2a3JybC0yOXFJSE5UOWlKQ29nSEtvY1lMVXBqOTNhN3hvZ1dWQTI2amQzR2JKUlBud2FqeGUwMUU3dWtxNjgydTlYdUotUU9JRA?oc=5",
-     "time": "2026-11-20T13:30:01+00:00"
-    },
-    {
-     "title": "Will Jensen Huang\u2019s Exit Break NVDA Stock\u2019s Momentum?",
-     "publisher": "Forbes",
-     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNUXc1V2dRWWRnVm9FOHNUVG5YMFpGUnJoZGd3ZHJYcExEU0ltcGh0NDlBMmhhZzBabTVNSTIxZmFGb0d5TVBsUmZadUZfc0xmZDc2NjJlQ19JNWJaRTJaSjZMSHJsMFo4Mnk0ZmtWZHN6LThQOUJjcGVJLUZiR3EtUkZLMmhfbTBGcXo2ajh1OEtldFdXbW1KcFk1Q01hTFRfQllxaGwtb055UFlQaGc?oc=5",
-     "time": "2026-11-20T13:11:37+00:00"
-    },
-    {
-     "title": "Nvidia and Micron Can't Make AI Chips Without This Growth Stock. Here's Why It Could Soar.",
-     "publisher": "The Motley Fool",
-     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNU2pJR2pZUG9XWDUtcTh1bk5WQXhLRy1wMEVzVW1fSVlJZldWT3I2cl9Fa000MkZRdE5IUDlfN3RCcnN1dEZKbkpQNWY0eUhNQVU3UlAwTFNoY2JtTnM3ZE9hZmZxU0dPU0lNR1FOanBiZlkza1NhbWFiMnZtY3JNYWNyazZCZmlKSktNeTVJZ1M5TTZnU2pFOVR0SjUtVkM0ckVSdnlUZkVidzMtTEpCSWVBbW1KNTBsM1hXclk2YUNCX0d3Z3JZZA?oc=5",
-     "time": "2026-11-20T13:00:02+00:00"
-    },
-    {
-     "title": "NVIDIA Stock Analysis: Insights from Valuation Expert on (NVDA)",
-     "publisher": "GuruFocus",
-     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZW41TjRydDU2SkhrN3MtenJ2dUZucWR0U3ZwWmdlTXRPQVZMU2E1WXA2bW5CelZ6TTNRSGRYTVh5Sk16d1VfYWR4bVhhN1F6dGlpY1luT3pTVWpYcGoxQldGWVdSeC1ReXdqY0JObUFOdmppalY3MjczNlg2MFg0dDJFOTdOZmgzdHgxeTBSVjllSjUtYWY2eWF5ZWFlNzZa?oc=5",
-     "time": "2026-11-20T12:17:23+00:00"
+     "time": "2026-11-20T14:01:16+00:00"
     }
    ],
-   "brief": null
+   "brief": "2026-11-20-NVDA"
   },
   {
    "symbol": "APP",
    "name": "AppLovin",
    "list": "portfolio",
-   "price": 354.98,
+   "price": 354.75,
    "prev_close": 379.02,
-   "change_pct": -6.3,
+   "change_pct": -6.4,
    "trigger_change": -3.9,
-   "peak_change": -6.3,
+   "peak_change": -6.4,
    "first_seen": "2026-11-20T15:11:23+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 93.78,
-    "change_pct": -2.42
+    "price": 93.48,
+    "change_pct": -2.72
    },
    "chart": {
-    "ema8": -6.3,
+    "ema8": -6.4,
     "ema21": 1.4,
     "sma50": 14.7,
     "sma200": -12.3,
@@ -468,29 +468,29 @@
      "time": "2026-11-19T09:15:35+00:00"
     }
    ],
-   "brief": null
+   "brief": "2026-11-20-APP"
   },
   {
    "symbol": "CRWD",
    "name": "CrowdStrike",
    "list": "portfolio",
-   "price": 229.94,
+   "price": 231.41,
    "prev_close": 243.46,
-   "change_pct": -5.6,
+   "change_pct": -4.9,
    "trigger_change": -4.2,
    "peak_change": -5.6,
    "first_seen": "2026-11-20T14:55:54+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 93.78,
-    "change_pct": -2.42
+    "price": 93.48,
+    "change_pct": -2.72
    },
    "chart": {
-    "ema8": -0.8,
-    "ema21": -2.4,
-    "sma50": -6.9,
-    "sma200": 30.5,
+    "ema8": -0.3,
+    "ema21": -1.8,
+    "sma50": -6.3,
+    "sma200": 31.3,
     "momentum": false
    },
    "headlines": [
@@ -498,13 +498,19 @@
      "title": "CrowdStrike (CRWD) Stock Price Prediction: Pullback meets steady analyst support as momentum cools",
      "publisher": "Blockchain News",
      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZnFmWklMUHlGUW1mQ1IwUGUyVkwydkYyNEtWdWJ1cHRCRmY2NWxMVlBaWHoxOEdfbEFQRXRyRzJDUWJCNmdZcmNLUkNuNS1JTHdHTW1xQm80Rklmc3c2Vy1udnRmbVRoNmsxRmREQ2p3LVNRX0JyX3M4T0tNWllwM3RITmZNZTk1clk2ZDZOR2tXaWJzdkdTaFZjMzJmTlZYM2c?oc=5",
-     "time": "2026-11-20T09:32:08+00:00"
+     "time": "2026-11-20T09:31:00+00:00"
     },
     {
      "title": "CRWD Stock Quote Price and Forecast",
      "publisher": "CNN",
      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5xZE5TVjR3TmhUdHhOcl9ibU1ieUpfd05kR0U3UU1qV1I0amtKNWZFUV9EYy1kMGE5elAtWlpfYVRLYXBEcHBZeGRHV1J5LUJr?oc=5",
      "time": "2026-11-20T09:18:10+00:00"
+    },
+    {
+     "title": "CrowdStrike Holdings (CRWD) Ties Into Falcon Foundry, Is The Upside Already Priced In?",
+     "publisher": "Simply Wall St",
+     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNNWpoeVB3OTNtVlFhajhtS3Q2ZXVBaWxzeGc0U25XRFBvM1JBN0VSY3BMZnhyV0l1dlFGckJrVDlfQk9KeWdVdk5ickV0U0dzZDUxX0hTTVdwQW1Md3pCNTFFcW5ieHl5V3JoZk95RWpyY0toUnk3dFFKbHE3alFfUmg5OEozRDk5MWZleHljTks3a05GeHcxdmhaVVRtNzBWU2R5dE9DWGtsWGp5akZ6TGpldy1mZmxBWHUzQTEyeUdNakpCcUxxSExrNk9XX19zX3BMcDhjYjlaNTTSAdsBQVVfeXFMTTVqaHlQdzkzbVZRYWo4bUt0NmV1QWlsc3hnNFNuV0RQbzNSQTdFUmNwTGZ4cldJdXZRRnJCa1Q5X0JPSnlnVXZOYnJFdFNHc2Q1MV9IU01XcEFtTHd6QjUxRXFuYnh5eVdyaGZPeUVqcmNLaFJ5N3RRSmxxN2pRX1JoOThKM0Q5OTFmZXh5Y05LN2tORnh3MXZoWlVUbTcwVlNkeXRPQ1hrbFhqeWpGekxqZXctZmZsQVh1M0ExMnlHTWpKQnFMcUhMazZPV19fc19wTHA4Y2I5WjU0?oc=5",
+     "time": "2026-11-20T08:08:30+00:00"
     },
     {
      "title": "CrowdStrike (CRWD) Brings Apple Device Automation Into Falcon Foundry Through A New Tie Up",
@@ -531,91 +537,80 @@
      "time": "2026-11-19T21:18:22+00:00"
     },
     {
-     "title": "CRWD Stock Hits $244.73 as Palo Alto Revenue Jumps 39%",
-     "publisher": "FinanceFeeds",
-     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTnVPcmNxWjdZcFc2aXUwbEozaDRXU1JFQVFOTl9iekNyTWpmcGpILWk0TTRnbmd4X3p1Z1BmcmUtTE53OXo0OURhajJqOVRUQmVDbWJBVHk2S0lTMHR1aFhEVTJRX3VIQVZBY0VDaFpmcVl4OHFhYXRJNEJ5RElxVk00QzA1MUs1aDF0VWdBdXQ2d0NJUFYw?oc=5",
-     "time": "2026-11-19T19:24:44+00:00"
-    },
-    {
-     "title": "CrowdStrike Holdings Inc Stock (CRWD) Moved Up by 7.24% on Nov 19: Key Drivers Unveiled",
-     "publisher": "TradingKey",
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQNE1nUnF5Q2pzTkxzZHNXSm03RlMyVUJMOVluUUFpQVVpQk8zMFBGc2NRaTAxRTJ1X3BaVWwzb1lCTEdURnVwWlk4R1NMcWJacTNMcXFPdnB3X2VKaHlueXMzbk5DRUNvRzBxSy12LVNMWGxYcWVXTklURXZvNVdOVW5Pb1F1YVkzTHhB?oc=5",
-     "time": "2026-11-19T16:15:24+00:00"
+     "title": "CrowdStrike, Okta, and Zscaler shares skyrocket, what you need to know",
+     "publisher": "The Globe and Mail",
+     "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxONDVzYndPOHJkQ195QUxJVkgzaTFfX1lHVFB1NTNkUFRmMjJLd1JFRWhOa0poY3YtS2U2TXdDRU9rM202cS1ieFByaWJKa084VjA5YWQ5U25nbGRsZlBJOGJvdnlOdUF4RElYWW5zMFFxb0V3dDdSVnJkdzFuczlDQTNGUXRoQWt6VzRjTWl4X1R4SmpiY3Itb2p2dklnRG1scEZvMEt1bXFkS2RwVENDQjVic2RNeVNMNDRFZTQzTWRmNWVidGZHRVNHWnBhamZVbXVYend3MU11dkNHUlk1R3NrYl93akk?oc=5",
+     "time": "2026-11-19T20:12:22+00:00"
     }
    ],
    "brief": null
   },
   {
-   "symbol": "UNH",
-   "name": "UnitedHealth",
-   "list": "portfolio",
-   "price": 344.14,
-   "prev_close": 330.48,
-   "change_pct": 4.1,
-   "trigger_change": 3.8,
-   "peak_change": 4.7,
-   "first_seen": "2026-11-20T14:55:54+00:00",
-   "sector": {
-    "etf": "XLV",
-    "name": "Health care",
-    "price": 179.68,
-    "change_pct": 1.25
-   },
+   "symbol": "BTC-USD",
+   "name": "Bitcoin",
+   "list": "watchlist",
+   "price": 58975.7,
+   "prev_close": 61913.5,
+   "change_pct": -4.7,
+   "trigger_change": -3.3,
+   "peak_change": -4.7,
+   "first_seen": "2026-11-20T15:41:47+00:00",
+   "sector": null,
    "chart": {
-    "ema8": -7.0,
-    "ema21": -11.0,
-    "sma50": -11.5,
-    "sma200": -6.6,
+    "ema8": -8.1,
+    "ema21": -15.4,
+    "sma50": -24.0,
+    "sma200": -18.7,
     "momentum": false
    },
    "headlines": [
     {
-     "title": "Why UnitedHealth and Other Medicare Advantage Insurers Are Falling",
-     "publisher": "Barron's",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOMUcxajhfSjFyOVAzVGVhS2FDVWYwZ3EtdnhSdUxwOXpPdXI2MjlnSk4yY1lrSGc2ZEZMa1RUZHNkenBzb1VyWGEyYXF3Zkc5bGNINmlsY1FqQlY3b2JLS2NDWVpRRTAteGdUZl9aSldGTlluZDhZRGpmVmt4MWVUd1oxYzhHV0ZYYk5RVmVkcEY2VE1UVEVuTUtFT092QQ?oc=5",
-     "time": "2026-11-20T14:23:09+00:00"
+     "title": "Bitcoin Falls Below $60,000 Amid Risk Asset Sell-Off Concerns",
+     "publisher": "Global Banking & Finance Review",
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBBdGJHZl96c1FZeGxNNU9JZnJaNkVGUld4RVZlQVlld0JyTjd1YXFoaFJ0OVZITHMyWjFIWWxQbHplc2h4Z0w4RE5VYUVLU3A1RU5QSmhVV2VWOVo4UmtLUVlkYjg5bHNrckxXbk8xczNKcFZBLXc?oc=5",
+     "time": "2026-11-20T15:56:23+00:00"
     },
     {
-     "title": "UnitedHealth (UNH) Shares Rise After TD Cowen Upgrade and Target Price Boost",
-     "publisher": "GuruFocus",
-     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOR2xtNGU2UXhrd08tWm04OHJQQW9xbG1Sd05Iem1sT1lVdmpvMXFtRDBjNkJGaFQwa196Tnk4VGlWeUJVdDljYnRTSWxGS1Ewc3VmenZyME83VlloOVNaMllGQ2wzNXFYclAxaXRuVl9WRy15NnRILWdCOWQ1eGJhclplaDh3b0hsU25zNWNrOVJNbnEtalNaOGhaRkRKaXNocm9RVVMybmJRRXgxQVNhWDZEUQ?oc=5",
-     "time": "2026-11-20T14:15:01+00:00"
+     "title": "Bitcoin falls below $60,000 level",
+     "publisher": "Reuters",
+     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNVEJfUmdFQ0ZvVC1TbUh4dXZxdzlrTVZYenFybjM0RnpESDZ2aFRsMmRsWHpjbEF4cjlCWWJtQnZiWXhINVZhUng3YW9ILWZXejhNY3BJelJKRWw1TDRzaDRtdU92ZlhRUXRMdVpzYXlWaUQ3MUx2aWtEU2VaVlhLOHlqV2Q?oc=5",
+     "time": "2026-11-20T15:52:09+00:00"
     },
     {
-     "title": "TD Cowen backs UnitedHealth & Humana with buy upgrades, shares rise",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPb2NsWXdIVkdEQmRWRzFCdEh2TDhCdktHblJld3ZKQXVudU80T0Fja2JoWEdrTXEyNUJFVWxLRFE4eXIxS0Q1WUFuVTlFMGpmSTZYS3MzYzctVG1vaXNlLXdjX3dRZUpDeWowMnNMUUdzRWw4ZEVmcl9tZEdUa0R1M2lndDBudGcwVjQwaUI2NmxFRlZObEVjX2FEUldCd01aQmFaS0VWUVRuTU1UN2ZtQVJpS2lXd3ZhWFczdDJR?oc=5",
-     "time": "2026-11-20T13:44:04+00:00"
+     "title": "Babylon Co-Founder Floats Year-End Wind-Down of Bitcoin Staking Amid Shift to Vault Protocol",
+     "publisher": "Crowdfund Insider",
+     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOMHV0dzBENUtFVnh1WVFlYjN4NXRZd2lqb2pUNnJ5REtoWlNJdWJOcEpENzVQZDJWZDczNXdXYTVjWlc5dmNDQzQzUzViWHY3emYxM1FVVVFmQlMxMkd3eFpvTnpxWnVxeGRSTFBQSWJ1WFk1S3QtZmdMajVpamd2XzQtWGVxX1djU0lkbXczYjhFdXd6bE5Rd3ZpTmx0UGlQVEpUVUdmRHpiSl92Z2N5TFh1WHNidVAwaUJzVjQ2VTNaSGU4NDRya2tvLURKUUR6TUZpeGxJVzY?oc=5",
+     "time": "2026-11-20T15:51:32+00:00"
     },
     {
-     "title": "UnitedHealth Group (UNH) Stock Price Prediction: Oversold bounce setup collides with a broken trend",
-     "publisher": "Blockchain News",
-     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQcWdnV2pNVDhBeGdETHkzVHBiS0JxbUtlWk54VXJIREJoWVZjVWdPV21EblBFTGM3NTR1ODJzRDJDTzhrSzFzYXgteFYydVJpNHp1ZVV3R0hUSzhKZVNyS3hEVkh1WGFOTVUxWlNlSkdjS3ZQaEZwVm9XT1FiOGlhbDU0cDczYm4xdzkxUGpheS1HUlBrUmJTWHVUYmk?oc=5",
-     "time": "2026-11-20T13:21:17+00:00"
+     "title": "Bitcoin on track for seventh straight weekly loss as ETF outflows hit record",
+     "publisher": "Investing.com",
+     "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxONkdBbzV5UWVCZVZrT1p2MV8wWlBlMlZWX1hLRVVmc1Njc3U1UW03V3RVQUJoT0xNb2tIZDFHb284OFE5blFudXdkR1hrakJDTzI4MTREUzVGZ1dEemRSYVRwb05RZXRBSW1aMzBfV2h6SmtQZ2cxc0wwVVlmcUNPTXhXVlJzaUVqaG1iNFBGOGR5MUNNdmV0NUltblZBZ3ZzaXF2T0pCMld1R3BtUmNVQWJ3YUZ6a2NJb0dOcXk0MzZJQWU0OGp4ZHQxR3RwdUhPTVNzZjV1Yw?oc=5",
+     "time": "2026-11-20T15:46:28+00:00"
     },
     {
-     "title": "TD Cowen Names UnitedHealth Its 2027 Best Idea \u2014 Why Analyst Sees Mid-To-High-Teens EPS Growth For UNH Stock",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOMElWa0VUZ3pZcVBRdTRFUzJ0czdFWGRCeFRFbmxUVXhOQm1MeVd4OThhYUpZUFl6MHFOTHd2Z1Q3a2xYVEZSZFBhQ19LMjVEaFNSQ21nQm9wa0k1b3NZbjZUZVUxVnVZMXN1eFhWVFBYZEIyXzgweUJITFYwSXQ2bElUY3RxUHJJSGlFTDJTRlNQVEhzeWlvSw?oc=5",
-     "time": "2026-11-20T11:37:53+00:00"
+     "title": "VanEck Moves to End Gemini Custody Role Across Bitcoin, Ether, and Solana ETFs, Leaving Coinbase in Place",
+     "publisher": "Crowdfund Insider",
+     "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQMXpxXzhpc3IyT2NvaG1ORVRoUW92MWlHRGV0QjJtY0dDWnJhQUlva2VUanl5QXdVR3JGRUI1S2J5TzlIYXRtNEFObGZUX00xWUVZT3NrTXg4Vm14cU1NTnJ5SjltNDcxdlN2M1dwOHVMdFVIZzRfT19hY2tuT2pjRkVjRHFsdVYtZFdjWGVJR29jYWVYYzVWVVZSalJ1ZERreWxoZFFxUWFuX3V3dDBMZzV2N2ppRWtIVHM3VnRwUmw1czdPeU5ORk5iZDQ1YjR5bHZnM2xYekVaeHpRM3laaGF3S2FsQQ?oc=5",
+     "time": "2026-11-20T15:45:42+00:00"
     },
     {
-     "title": "Can UnitedHealth Group Stock Rally 50% After This Dip?",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNTXFuU2dsZFNndk5oSDZUY0NOazY2dHVZaGV5RjVBRmVpMHlIT1RpWnM1VUwzdWxfTTZVelVONmhEWmpqTUpXNkpVdGJQd0w3ZXdmTkYwcFg0TDhJbjBTZG5FSFVibW5IRnFpeWM0SVJWblpHd3lyWHBqbFFwWFN2Tkt3S0VvZnVVbU9PaGVkZUU2Tmsxc2hwd21TbWc3dUE?oc=5",
-     "time": "2026-11-20T11:09:42+00:00"
+     "title": "Bitcoin Drops Below $60,000 for First Time Since July",
+     "publisher": "BeInCrypto",
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBramJ6LWVRZzFlLTZyMzVBRGVQZ1FiaU1LenpFSm4wU3U3dXo2aW1NUWc3SUx3elNlZkZJeDN2dTJrU2QzcUo3YU52SzF6U2NJcnRzQUItbzRGZnpSZlkxbElvUFZhazNETjRlNDAtRXFKbWM?oc=5",
+     "time": "2026-11-20T15:45:00+00:00"
     },
     {
-     "title": "UnitedHealth(UNH) Stock Price Today | Quotes & News",
-     "publisher": "Moomoo",
-     "url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxOWlVPQ2dTbmtvUm9vNFFCNGs5TDFRYmdJS0NuV09jdklfV0xydi15SHlKVEJoOFJOMENnSW1IaC1qTjQtQ3d6ZWtSVmg1NGFjMHhtaElLTnZ2TW5pSXdjNll0Y2txeVhSQ2VCc1NiVkdnRG1oUkIxeURVaEVKaXVZR3JJTk5sX01hakx4QUkxaW1Wc1VOVlo4TWh3VVpCeUt0NkVoUks2OVhtclhtMDJBZTFXZlpsY1RTM05raUtmRmhvQzByei1Db3c1c3V4ZVFZODNJRnppSTcxbDNFVTFMSUl0THh4WFNGbVBsT3Bib1ZNQUdrZHh6VXZCV19iWUZfTU1meThEMmZHY1gxNGlJWGxMT2lJWGlzRVV0dUh6WkpLOV9xUmkzZDRn?oc=5",
-     "time": "2026-11-20T09:12:28+00:00"
+     "title": "Over $1 Billion in Longs Wrecked as Bitcoin (BTC) Slides Below $60K",
+     "publisher": "CryptoPotato",
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNZk5ITmRRZnBGblFhbUVyMjJFLWgxQTFOX25SOV9VM21WeENsTnA4Rk9UQ01WOU5QLUJvZFFhUHdFQmxfU3p3NFV0VTZKVnBxMTR1cVB6Rm94NEY0ejdpSk95UkZ3SHdOMTZfLURPblp3QzY2V1Bvbzh2ZmdmMVRQSmlVc1lsaEdobzhJN2l5cEtySW8?oc=5",
+     "time": "2026-11-20T15:45:00+00:00"
     },
     {
-     "title": "UnitedHealth (UNH) Stock: $330.48, Down 5.55% Nov 19",
-     "publisher": "JournalArta",
-     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPQmdoTm5iTEttc1ljVEMxSEdnM05WcWVhNW80NldVRUxJeDBrOTNWUURZcHBlV08wTGx2X29OLUZxUUNyTlJEdnQwNXRWRUxSWmNlUVhscDJZQ21HYzBzNmtjRXlOR1c0MS14dEEtWUJ5QzZqOHM0M3dhRklVVndkN1pkbGlndG14Z2E5UnM5RThWRU9zQmdFMTVmSk0xLU1ha3E2TnRLSWZJbzZ3b3B2c1FrcWY?oc=5",
-     "time": "2026-11-20T07:15:39+00:00"
+     "title": "Bitcoin Briefly Falls Below $60,000",
+     "publisher": "bloomingbit",
+     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5oVDNVdW1MWW5oWGx3LXNueTgwRlJ4VXZrUm1TRVhqWkpMY0FMaEhPS1FfMjd1M1JEejU3VG9BNE1acm03TnQ3cFprOTZ1TENmZEJMRA?oc=5",
+     "time": "2026-11-20T15:42:58+00:00"
     }
    ],
    "brief": null
@@ -624,23 +619,23 @@
    "symbol": "SOFI",
    "name": "SoFi",
    "list": "portfolio",
-   "price": 12.98,
+   "price": 12.93,
    "prev_close": 13.53,
-   "change_pct": -4.1,
+   "change_pct": -4.5,
    "trigger_change": -4.1,
-   "peak_change": -4.1,
+   "peak_change": -4.5,
    "first_seen": "2026-11-20T15:46:47+00:00",
    "sector": {
     "etf": "XLF",
     "name": "Financials",
-    "price": 55.64,
-    "change_pct": 0.11
+    "price": 55.48,
+    "change_pct": -0.19
    },
    "chart": {
-    "ema8": -9.8,
-    "ema21": -14.8,
-    "sma50": -17.9,
-    "sma200": -24.3,
+    "ema8": -10.1,
+    "ema21": -15.1,
+    "sma50": -18.2,
+    "sma200": -24.6,
     "momentum": false
    },
    "headlines": [
@@ -696,71 +691,76 @@
    "brief": null
   },
   {
-   "symbol": "BTC-USD",
-   "name": "Bitcoin",
-   "list": "watchlist",
-   "price": 59542.0,
-   "prev_close": 61913.5,
-   "change_pct": -3.8,
-   "trigger_change": -3.3,
-   "peak_change": -3.8,
-   "first_seen": "2026-11-20T15:41:47+00:00",
-   "sector": null,
+   "symbol": "UNH",
+   "name": "UnitedHealth",
+   "list": "portfolio",
+   "price": 344.19,
+   "prev_close": 330.48,
+   "change_pct": 4.1,
+   "trigger_change": 3.8,
+   "peak_change": 4.7,
+   "first_seen": "2026-11-20T14:55:54+00:00",
+   "sector": {
+    "etf": "XLV",
+    "name": "Health care",
+    "price": 178.97,
+    "change_pct": 0.85
+   },
    "chart": {
-    "ema8": -7.4,
-    "ema21": -14.6,
-    "sma50": -23.3,
-    "sma200": -17.9,
+    "ema8": -6.9,
+    "ema21": -11.0,
+    "sma50": -11.5,
+    "sma200": -6.6,
     "momentum": false
    },
    "headlines": [
     {
-     "title": "Bitcoin Hovers Near Four-Month Low as Traders Await U.S. PCE Data -- Market Talk",
-     "publisher": "Moomoo",
-     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPQXZwRU85VXd3dUZ0RklqVzc0WGdrajBqLVJGQ25YaG1IbFktaF9mUFJMQWVlYUlCYnVUM3VCLVRFc1ljRVZWSVNValF6QUtmZUc1TlFydTJVZHNLWGU3bzg5NU05X3FoMlU2QURGNTlTQVlSekN1ei1kNjFwaGR3Y3dZOVpzRlBlMGxDdUlIZE5MODJ3NlpVVVMtcFVNUGs?oc=5",
-     "time": "2026-11-20T15:40:08+00:00"
+     "title": "UnitedHealth stock pops on Buy rating, price target raise from TD Cowen",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNSzlZSnA1cDNMQkZ1Z0VVTm1VcW03czFXUHhxbnRueGtkemFDUmpXTHh2SXppY3h6OU1LdVFBelNuUnhFN1pWeHU1c19WVUpNQjI2TUdvMjRvYzFuWkNGWUVkOExlZkRfRGZjVVBNZ0tJM2lSNFRBSHZ3R255YzlyazBDSjNZcUUtYWFZMXlGWlZpRVd5RVltQ0dxazFTb0U5bHotWFlpMFBKOHRIUWJCWkw4eFQ5VnRkZGhpdlFYOE1iam1GaE1n?oc=5",
+     "time": "2026-11-20T15:30:03+00:00"
     },
     {
-     "title": "Bitcoin hits four-month low as $820 million liquidated and $12.7 billion short squeeze risk builds",
-     "publisher": "CryptoSlate",
-     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNS05zaUlELVNJRXlIaVlXM2xOSDV3WUthMTJaS21MOU1zNUt0MmtQSTNVUXpGdDc5VFk2NVduM3NFZUVydTJRWkItX3FUT0Y0TzIzZVNSMWJkZ1FnaE9pOGQwX0FaS01GTERSNXJIa0YtMTJKNkhqUEFycEhyTjJ0SFZmU0laVGY4cjJ2S0FQXzZoOFZFZU5pMGk3WlhmWWtfeVNta2dPWnltSlV4Z05uMDhVcmhPT0dJN2RDX2hn?oc=5",
-     "time": "2026-11-20T15:35:56+00:00"
+     "title": "Unitedhealth Group Inc Stock (UNH) Moved Up by 4.72% on Nov 20: Key Drivers Unveiled",
+     "publisher": "TradingKey",
+     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNOGlNVmZIbDZGYTM5Q0NraEgtWXFHbUNoMTFGdWJRYkgzYmZ2UXBiX2VITk9vWnI3ZGc4Si0xWUxQdlA2cURwUTBzRU42bVdlc1JPdnlhQ2ppT0FrMF9mMGJwckVMOXpjS25lbzhIVUVaVjlnWlFGRDFwRnBYdmR0T1RZd1ZPUjZVRnc?oc=5",
+     "time": "2026-11-20T15:15:25+00:00"
     },
     {
-     "title": "Zcash Falls Below $800 as Losses Outpace Bitcoin, Ether",
-     "publisher": "The Defiant",
-     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNc2FUZENSZWlRNGVHbnVnLXpnTHl2TjJ3dTFhbENxSGxJR1VEdldDVU56Sl9CTHZBejFuQ2pIRDJwdk5BYzZwYWpYNVc0WWpka2lPUDJFTGRuWW9wUjhWc1h3bDJmdi1QX2JKQk4xNkxoNlAxWld1Sk1QS05CRHd0eHc3RlZSbm0zcGxkWDJUTkZ3QQ?oc=5",
-     "time": "2026-11-20T15:33:05+00:00"
+     "title": "UnitedHealth Group (UNH) Draws Breakup Bill From Elizabeth Warren",
+     "publisher": "Simply Wall St",
+     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQckZIRDd0V2sxaVFFeWNIS01CRU9VMk5wcVBQaDF2RGtPSVNRWURPVzVxOGc2MU03WnhrTHc2aEc2RzRudEs2UjhYMUNnTXBDS1V3SXMxRW5aVlRralViNDdWLWRqMEl0YzVXaUdnMHdGWTNuUWdfU0w3a0NNSjM5YTNyNEpGeF9KbzZNNWd3bGF6RTA2VVFOUmU3cm9xa2FEeVcwMlB4UjFFTnR2SWVXMTNmTlU2cndsLWRtUG9EenQzQU9tMW9IRFVBZnIycjFWMHfSAdcBQVVfeXFMTkdrVDNfSHNmZGJnQ0tCQ0EyQ2h2MU0xeDJfRjhWSnYyUkF5OHdTaGNEYmdzRXJKUnVLeGJ4NWVQUHNWaGZlUVEyVVN5RzlHdkw0UnJ3ZGltMzJWNWlMT0FfZ1I1MHRGWXR4SXMxZFI2X3h6OHQ0b3lNMXZkOTRMSkxjX2g5Q05uaE8zY1k2b3hoQi1hdmZrelAwdF9vY1d1aXU5aGl3bjNOeDhTTUJyWGtvRUNSam1mZjM3ZExLRlBNdTV3TDlWVldyZk1ocmRRNlJBTGVoQ2s?oc=5",
+     "time": "2026-11-20T15:11:57+00:00"
     },
     {
-     "title": "Strategy stock tumbles as Bitcoin slides and dilution pressures mount",
-     "publisher": "Crypto Briefing",
-     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA3XzJJVzBWbzVmN3RZWUlLNTJxY3ctZVo4cnVfeWItZ0hYU3V4c0hMWjBYck1wdFJaYVhIVk1YMkJZa3pXdTBBV082RTJWbGtkSUFSYWVrTnE3THRYTGltZ3dLX1prSEtkQ3dOeDl5STBaWnVSZXYyV1NMb1hEZ0k?oc=5",
-     "time": "2026-11-20T15:27:45+00:00"
+     "title": "UnitedHealth (UNH) Shares Rise After TD Cowen Upgrade and Target Price Boost",
+     "publisher": "GuruFocus",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOR2xtNGU2UXhrd08tWm04OHJQQW9xbG1Sd05Iem1sT1lVdmpvMXFtRDBjNkJGaFQwa196Tnk4VGlWeUJVdDljYnRTSWxGS1Ewc3VmenZyME83VlloOVNaMllGQ2wzNXFYclAxaXRuVl9WRy15NnRILWdCOWQ1eGJhclplaDh3b0hsU25zNWNrOVJNbnEtalNaOGhaRkRKaXNocm9RVVMybmJRRXgxQVNhWDZEUQ?oc=5",
+     "time": "2026-11-20T14:15:01+00:00"
     },
     {
-     "title": "Bitcoin, Ethereum, XRP, and Solana slide as $90 billion exits crypto market",
-     "publisher": "Crypto Briefing",
-     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9kNjhoQjJLWklFanpZUmNkVWx2dVdoeUFaYzZVZHZkSnlaR0FUZHZYS0RTZkpXU3FNVlZzWHlTX2Y5ZmN1Znc2UGtwcFh5SktxOXk1Vm9GXy1FNkJxNWpacm5lSWxTM3QwWjlsdkFxbU1oRXhsWDVBTmFIM2ktWjg?oc=5",
-     "time": "2026-11-20T15:26:45+00:00"
+     "title": "TD Cowen backs UnitedHealth & Humana with buy upgrades, shares rise",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNQVpqckhlQTZOMlhEYS1OU1AzZ1lBME8wMnp0WkpmcnpNNlFOZU9kSVlzMmltTm14ZWk3MDExSDZaVHo0Vm45SzMxcjFOMU5wM1Y5ZksxM21tWHFqY21vTnJNSEhGbC1oMlFSM0ZENDlGbmR5WGxkNWQ0ekNhMUlfb3lkZ2tsY0w0cy1MTFBtQ01GQXRCME5MSmdLOGppVG1SbTQ4cw?oc=5",
+     "time": "2026-11-20T13:44:04+00:00"
     },
     {
-     "title": "USD/JPY Retreats from 160 on Risk Aversion, While Bitcoin Falls to $61.8K Amid Stock Selloff",
-     "publisher": "FXEmpire",
-     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOTk1yRVRtS3JuY3lNdFZlVXdtT05ZMDVCYXRrYkxZcUxFRDJ5U3ZTdUd6d0VEQWx1d3paTkVWZmdleGpIYjA3ZERlSEUwenpqbEtrckJWWHIycHEyZkkyRjJZUl9RaEQ3bTRuSUhlUFRnSGlZdFFPelI0OEdGeUxiZ2dqczRBYWFGU1cyeGhHX0hIMnFmbUVtTnVubXVReUJsWmE3Wm9aSjFNYkZnOVAxaG9LbnpJWmhrZGg1Yl9CMXBHdGVSSkFGRVJDZ3prVTJwZVdBVmg1M0U?oc=5",
-     "time": "2026-11-20T15:23:49+00:00"
+     "title": "UnitedHealth Group (UNH) Stock Price Prediction: Oversold bounce setup collides with a broken trend",
+     "publisher": "Blockchain News",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQcWdnV2pNVDhBeGdETHkzVHBiS0JxbUtlWk54VXJIREJoWVZjVWdPV21EblBFTGM3NTR1ODJzRDJDTzhrSzFzYXgteFYydVJpNHp1ZVV3R0hUSzhKZVNyS3hEVkh1WGFOTVUxWlNlSkdjS3ZQaEZwVm9XT1FiOGlhbDU0cDczYm4xdzkxUGpheS1HUlBrUmJTWHVUYmk?oc=5",
+     "time": "2026-11-20T13:18:00+00:00"
     },
     {
-     "title": "Bitcoin Briefly Falls Below $61,000",
-     "publisher": "bloomingbit",
-     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5mR2lRNWJxUk9kV2VUQURaNDBrRzl5OUhydUViSHdCd0FfVW9JaGluM2xCX3E1UDJBazZ2RXNaWkYtV0E1ZXJsdUZyUW04c0h0bVNVSQ?oc=5",
-     "time": "2026-11-20T15:16:44+00:00"
+     "title": "TD Cowen Names UnitedHealth Its 2027 Best Idea \u2014 Why Analyst Sees Mid-To-High-Teens EPS Growth For UNH Stock",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOMElWa0VUZ3pZcVBRdTRFUzJ0czdFWGRCeFRFbmxUVXhOQm1MeVd4OThhYUpZUFl6MHFOTHd2Z1Q3a2xYVEZSZFBhQ19LMjVEaFNSQ21nQm9wa0k1b3NZbjZUZVUxVnVZMXN1eFhWVFBYZEIyXzgweUJITFYwSXQ2bElUY3RxUHJJSGlFTDJTRlNQVEhzeWlvSw?oc=5",
+     "time": "2026-11-20T11:37:53+00:00"
     },
     {
-     "title": "Bitcoin vs Gold Forecast: BTC and XAU extend slide as hawkish Fed expectations weigh",
-     "publisher": "FXStreet",
-     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOWS1FVzQ4cW1LbmlmMkd6c2FXWGM2MlVWaFgycElETGwwZVV2WmxHT001TjZzdC1KUmctWFNLUGV2MmdzOGw3WUVpLVhLdlBCcmVvXzdGV2hUYW9Vd01TZ1ZlV2VDcTZhSU1TYl9fWDg3YzZ6Vk16RERvZzU0UktNM1MydEI3TDc1bzBNSFNsS2k0N1BVM1k1S3RLeDRzWEFoemNaOUEyc2UxY2lpMHVrVFJ3dXdkQUcySWNUOVJWRDhTV0JycEMzOHRtRkhKeVJ4ZFAxZU9ueEpoTVU?oc=5",
-     "time": "2026-11-20T15:13:09+00:00"
+     "title": "Can UnitedHealth Group Stock Rally 50% After This Dip?",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNTXFuU2dsZFNndk5oSDZUY0NOazY2dHVZaGV5RjVBRmVpMHlIT1RpWnM1VUwzdWxfTTZVelVONmhEWmpqTUpXNkpVdGJQd0w3ZXdmTkYwcFg0TDhJbjBTZG5FSFVibW5IRnFpeWM0SVJWblpHd3lyWHBqbFFwWFN2Tkt3S0VvZnVVbU9PaGVkZUU2Tmsxc2hwd21TbWc3dUE?oc=5",
+     "time": "2026-11-20T11:09:42+00:00"
     }
    ],
    "brief": null
@@ -769,37 +769,37 @@
    "symbol": "META",
    "name": "Meta",
    "list": "portfolio",
-   "price": 576.81,
+   "price": 572.78,
    "prev_close": 596.22,
-   "change_pct": -3.3,
+   "change_pct": -3.9,
    "trigger_change": -3.3,
-   "peak_change": -3.3,
+   "peak_change": -3.9,
    "first_seen": "2026-11-20T15:31:42+00:00",
    "sector": {
     "etf": "XLC",
     "name": "Communication",
-    "price": 102.51,
-    "change_pct": -0.24
+    "price": 101.89,
+    "change_pct": -0.85
    },
    "chart": {
-    "ema8": -5.3,
-    "ema21": -8.3,
-    "sma50": -14.8,
-    "sma200": -8.2,
+    "ema8": -5.9,
+    "ema21": -8.9,
+    "sma50": -15.4,
+    "sma200": -8.9,
     "momentum": false
    },
    "headlines": [
+    {
+     "title": "What UBS Sees in Meta (META) Amid Heavy AI Spending",
+     "publisher": "Yahoo Finance Australia",
+     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFA4N09tUTE1QkxDMjkwR3Ztb3R4SGcxUlF6UU1nZGJYWXh1MVVXTWxSR2ZlMExURWZBTy1iSjBqbklsRERxMWtsWkZCekVJQjg3Y0huUEIzRFpZc1I2WklXNmZYZUlnU1NnRGUtTFNaYjdHQ1BsRzY1OVhIcng?oc=5",
+     "time": "2026-11-20T15:24:04+00:00"
+    },
     {
      "title": "Google's Gemini Tasks Seen As Challenger To Meta's Muse In AI Battle",
      "publisher": "Investor's Business Daily",
      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNbGUwdGtxRDI0Vm1seTU5Ul9EMjF1cGxjTEp0b25xajBHZ1M2amdXMkEtX2xJc2lTdUJ4ZU9jRnhldjJ6VnJJLWZMdnY0aXVRTnBvWEVkVmpqQUZSZ2Q0WFcxd1RoRFVhcEQ0VnZxY3VlMEZSbTVmR0NKa09pR0RDU2R0Wk1ZWDBkYVZfRjM1aFZ2d2ZWWDJILVZaSHI2dWp5R2lj?oc=5",
      "time": "2026-11-20T13:11:00+00:00"
-    },
-    {
-     "title": "Meta Platforms(META) Stock Price Today | Quotes & News",
-     "publisher": "Moomoo",
-     "url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxPYWFURUxYXzVyRkw2eHh2Qzk5SXZFcWhwcDB5Njh2NXQySlpYVTlhOWZQOVVPdkFaS0xPU3kwWXlMWUVMTmxSc2FTdXdHb1A4a1E1ZGUwWWdMbThoYndGaXlPZVI2a1BxWWhrZ3VmVTZsQXdXcXRrVGpLbVZ6RXREVjFldVNjNERQbXFtbm9faExvdWpyLXZfQm54UkJ5Z2YzZUR5U2pzbGZSTjFUaE1LaHd5SV80WTBTTjdMSmYxYS1XU1Q3cll4T0tUaHNCWHJoZ1BBa1NSRDZCNk41N2sxVW9NWS1hNXQ5a3hFTDFaRGlBUzVjZzhlbm9YcGZFU2ZkN2tfRGR2ZEdOcFJwdXRHWTRiYkVNTFY4S05LWnpiZ3B4alpJamgwc2tvVTBCQQ?oc=5",
-     "time": "2026-11-20T12:45:49+00:00"
     },
     {
      "title": "Apple seems to be building its own AI agent. This could be bad news for Meta\u2019s Muse.",
@@ -832,10 +832,10 @@
      "time": "2026-11-20T08:51:47+00:00"
     },
     {
-     "title": "(META) Dynamic Trading Report (META:CA)",
-     "publisher": "Stock Traders Daily",
-     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPUjBCWmsxOUFxNUZEU3JhaW1WZzVYdE5rUEw1WVVNY2ZwMU5rLTI4SkUwNXMzUnJ5ZGVBY00tUFEzSlk2WG5WUXJoZ0RVdG5zRldQNEo3dm9zMlRocXMwVWZrOFd2cW5FaHRZUFlvS1FOWU9Sc3dmekhEd280dmg4R0wxM1JvZzVSN0hyTTN3?oc=5",
-     "time": "2026-11-20T04:57:38+00:00"
+     "title": "Meta Platforms(META) Stock Price Today | Quotes & News",
+     "publisher": "Moomoo",
+     "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxOTVMzVDdYY0tZeE9naE1vZTE4STVubDBrSmYzWFdYc1A4ZUF3S0lRWkExTHBpcDZMLU1YU2VKVmpZYWxPVjJjYTgxRjBqeHRRdHhiR2NZVTBaWVdyZHM3WFlGQ0hjX3M4bzAxYVNDOHc3czFLVkRDcjVGbkl1cUM3YXV1ME81aHlMRFh5QUd0TGV3d3N2RDg4bXg3RkFQdURhTXhlTG5UR3JodHJqOVFYcmlrMTlWbEpUaXFvcWJYUUg0cnZ5R3UyVFNnWm45Z0s4TTR6ZEJ3WFVNbnpOMlBUNzVlMTRxWjZVOU9tVDBnVHhJaFU0WlMzYnRiUTJWemF1NUFvMkJVd0hUTWJfUUJ2cFYxVEZ3dnZkekg4cWpB?oc=5",
+     "time": "2026-11-20T08:19:01+00:00"
     }
    ],
    "brief": null
@@ -844,17 +844,17 @@
    "symbol": "NOW",
    "name": "ServiceNow",
    "list": "portfolio",
-   "price": 91.15,
+   "price": 91.13,
    "prev_close": 88.87,
-   "change_pct": 2.6,
+   "change_pct": 2.5,
    "trigger_change": 4.0,
    "peak_change": 4.8,
    "first_seen": "2026-11-20T15:06:22+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 93.78,
-    "change_pct": -2.42
+    "price": 93.48,
+    "change_pct": -2.72
    },
    "chart": {
     "ema8": -4.5,
@@ -919,23 +919,23 @@
    "symbol": "AXON",
    "name": "Axon",
    "list": "watchlist",
-   "price": 311.32,
+   "price": 308.53,
    "prev_close": 306.98,
-   "change_pct": 1.4,
+   "change_pct": 0.5,
    "trigger_change": 5.4,
    "peak_change": 5.9,
    "first_seen": "2026-11-20T14:55:54+00:00",
    "sector": {
     "etf": "XLI",
     "name": "Industrials",
-    "price": 160.08,
-    "change_pct": -0.79
+    "price": 159.26,
+    "change_pct": -1.3
    },
    "chart": {
-    "ema8": -0.7,
-    "ema21": -10.1,
-    "sma50": -22.0,
-    "sma200": -32.7,
+    "ema8": -1.4,
+    "ema21": -10.9,
+    "sma50": -22.6,
+    "sma200": -33.3,
     "momentum": false
    },
    "headlines": [
@@ -958,6 +958,12 @@
      "time": "2026-11-20T09:19:09+00:00"
     },
     {
+     "title": "S&P 500 Movers | Winners: PANW, OKTA, P | Losers: WSM, TWLO, AMD",
+     "publisher": "Trefis",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQTzZSSm9sX2ZUck5aZzE4SHlmMUhQWGM1eUlXWnRsUGRUQUJabHVWRkNER3RmZHpXWXVCcHdKUmdMWWNfV2JRSmZxeWlyOWZhcFM4OHJuWmV0TVRiVU04ZzBoZ3RNeDZSamFLYzAwTmFmQU5wRVgxdnlLeU1udmVhVUMwaFhmNHdiZnFVY3hHRWQzYnNWcjBOOWRGRmZVOXpTRWpRclR2THhsTHBFUzk2eGo5QQ?oc=5",
+     "time": "2026-11-20T07:21:18+00:00"
+    },
+    {
      "title": "AXON Dec 2026 410.000 put (AXON261211P00410000) Stock Price, News, Quote & History",
      "publisher": "Yahoo! Finance Canada",
      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBfZFgxMm9vUWZuSTV4VVRrSHlOZnhhMHE5OHBaaVBPcU42ZFd1QVRVanhFYnlGMFVOODUtbTJWY1RfMVFIT1lRWWxrX1VKMlBaY1hFLWxabGN6RzNaVVpFQ1RZZkZvUQ?oc=5",
@@ -970,22 +976,16 @@
      "time": "2026-11-20T04:53:29+00:00"
     },
     {
-     "title": "AXON Stock News Today: Latest Updates & Live Price | MEXC",
-     "publisher": "MEXC",
-     "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1KS0JtMTRlZ2Vnc3JkbmlmSlR1QXh3bTdjSXUtSEsxRWVQWXM2SUVFaUJjM2xBMVc5eHZ0ZkRvZjdOZElyNkFoTG1ZNVBQUQ?oc=5",
-     "time": "2026-11-20T01:22:21+00:00"
+     "title": "Opendoor Technologies Gains 13.2% in a Single Session",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPVENlcGl5NDFtbXNZS3VuaFdzOHk1LTExbG5ub1UwSE1BTko0MHV2dEVuX19QV0h5Wk5WYmQ2UUwyU1NpVlctY3d5b1FyZFZURU9xUUo3UnZPTWZ6bDlhM0g2ZVJVcDhxNVNGMElfVUdOYmdMdVhSQ1VQeTJ3SjZsQUlnUVRPaFdQSkg4YUZWcUI4bDdQcnA1Mg?oc=5",
+     "time": "2026-11-20T00:56:15+00:00"
     },
     {
      "title": "(AXON) Movement Within Algorithmic Entry Frameworks",
      "publisher": "Stock Traders Daily",
      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPYW1UT1MtNXRkakZfbXVXcWRaSmZETXFRaXdTUDN6UkY0WDJ6WjVoSmktSnV0aWtFY0JaU1VLdU14NWhnTlpsTy1JUkpLYmlYaXFPOE1TNjgwZVdqOVdHYzB4aXg0OFhucUQ0X2F0VGUwMzRHRC05ek9yd09fTUltRUh6OC0wOGQxbGVfaG5SUy1VdDgwVXc3a2dpZkdiNTZvOWpGSkpHLVp3TTdMSmpUS2stNk93X3pCc3dRTmdIVkNJcXkyVjBKYg?oc=5",
      "time": "2026-11-19T23:50:01+00:00"
-    },
-    {
-     "title": "Is It Too Early To Buy Axon Enterprise Stock?",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOLW9fdThCNW9BaWtLZWMwdXN0SGN0MVB1WkkwdmZTNUh1YVE5UWpBRHE4cFB6dndlNWhqNEN6aHo3cUhpVmo0SzIyWlp4VndGWWxGYzVhSjB4d2VyczdScjdBX3RDU2hMRG9fQVZhb3NLX3pyNDFRUE9iU01fMUFSWTVmLVdXVl9HcFMyT01hQ0VFRkhtTmVackZB?oc=5",
-     "time": "2026-11-19T22:07:16+00:00"
     }
    ],
    "brief": null
