@@ -1,22 +1,22 @@
 {
  "date": "2026-11-20",
  "threshold": 3.0,
- "updated": "2026-11-20T19:18:48+00:00",
+ "updated": "2026-11-20T19:23:49+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 697.59,
-   "change_pct": -2.55
+   "price": 697.01,
+   "change_pct": -2.63
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 617.2,
-   "change_pct": -4.32
+   "price": 616.51,
+   "change_pct": -4.42
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 81.48,
-   "change_pct": 1.41
+   "price": 81.5,
+   "change_pct": 1.44
   }
  },
  "movers": [
@@ -24,23 +24,23 @@
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 83.46,
+   "price": 83.72,
    "prev_close": 96.92,
-   "change_pct": -13.9,
+   "change_pct": -13.6,
    "trigger_change": -4.8,
    "peak_change": -13.9,
    "first_seen": "2026-11-20T14:55:54+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 92.67,
-    "change_pct": -3.57
+    "price": 92.4,
+    "change_pct": -3.85
    },
    "chart": {
-    "ema8": -22.7,
-    "ema21": -37.3,
-    "sma50": -54.0,
-    "sma200": -53.6,
+    "ema8": -22.5,
+    "ema21": -37.1,
+    "sma50": -53.8,
+    "sma200": -53.4,
     "momentum": false
    },
    "headlines": [
@@ -108,8 +108,8 @@
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 407.74,
-    "change_pct": -8.88
+    "price": 405.86,
+    "change_pct": -9.3
    },
    "chart": {
     "ema8": -8.6,
@@ -174,23 +174,23 @@
    "symbol": "ANET",
    "name": "Arista Networks",
    "list": "portfolio",
-   "price": 168.24,
+   "price": 168.33,
    "prev_close": 189.59,
-   "change_pct": -11.3,
+   "change_pct": -11.2,
    "trigger_change": -5.7,
    "peak_change": -12.0,
    "first_seen": "2026-11-20T14:55:54+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 407.74,
-    "change_pct": -8.88
+    "price": 405.86,
+    "change_pct": -9.3
    },
    "chart": {
-    "ema8": -9.0,
+    "ema8": -8.9,
     "ema21": -9.2,
-    "sma50": -12.4,
-    "sma200": -0.2,
+    "sma50": -12.3,
+    "sma200": -0.1,
     "momentum": false
    },
    "headlines": [
@@ -246,101 +246,26 @@
    "brief": "2026-11-20-ANET"
   },
   {
-   "symbol": "AMAT",
-   "name": "Applied Materials",
-   "list": "portfolio",
-   "price": 306.82,
-   "prev_close": 338.93,
-   "change_pct": -9.5,
-   "trigger_change": -4.5,
-   "peak_change": -10.0,
-   "first_seen": "2026-11-20T14:55:54+00:00",
-   "sector": {
-    "etf": "SMH",
-    "name": "Semiconductors",
-    "price": 407.74,
-    "change_pct": -8.88
-   },
-   "chart": {
-    "ema8": -11.2,
-    "ema21": -17.4,
-    "sma50": -27.9,
-    "sma200": -31.4,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Why Applied Materials (AMAT) Stock Is Down Today",
-     "publisher": "Quiver Quantitative",
-     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNUWlfMzBlNk53QVBVQTZTd3laVHU4cDZmX0l3a2toU29FX2NXT2l1NFVpZ2I0RkpubEJTLWNSNDBiUXl1enQ0THVyUy1sRGl0R0JJSWRtdkdURHFKbUZKVmtkUzBmTVpxcXhYbDg3QTNZU1IzbmhHZ0tyV3NkcjVIb3hzWXA4S09nMzFsejBB?oc=5",
-     "time": "2026-11-20T15:32:00+00:00"
-    },
-    {
-     "title": "Applied Materials Inc Stock (AMAT) Moved Down by 5.92% on Nov 20: Facts Behind the Movement",
-     "publisher": "TradingKey",
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQYUpHc1pXTlpfdl9sVjJLSmdNazd6TVB2bU5GVEk3Mnd1d2tWOGE0MlRTTXY2aXMxbUQwTWtGR1IyekFyZlBIN3I0WEx4VllodlBjSDhnbVJFMWlqVExpVDd4dkFGRV9pNW5pZW16djZ1OFNYeHdCdFFsdVdadUktNUhubmI5NXpnSkxZ?oc=5",
-     "time": "2026-11-20T15:15:24+00:00"
-    },
-    {
-     "title": "AMAT's AGS Gains From Growing Installed Base: What's Ahead?",
-     "publisher": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOMXlGXzZhUlB4SllmcGNYa1pvaTY4Z043djRxVnhpUlJSMXQ1S0RULUVWX0hDWld2VzBjR1BqS1pqVFozOTJtYjZBZ2dwNFJ6THhQWkx2QkdnWlBDeS15LU9SOVRTdklJVzEtZ3lyVnNSZHBOMXJxaDZ4Q1Z3MmRBY0Jrc2ZhZTRnSTJUZkRDa0V3NjU4SnVmSWdzY1pVM2wwSmhsRmM4WTR5eHhZQ2thdUR1MA?oc=5",
-     "time": "2026-11-20T15:02:00+00:00"
-    },
-    {
-     "title": "A $3 Billion Fund Is Betting Big on Applied Materials",
-     "publisher": "TIKR.com",
-     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQRDdfU24yMVlDSjlac21nM0VTM0QxSTNNakF3NnlybE85QkVWTU5ubzF3V3hYenNUYTBjNy14cURsOU1jMzhLOVNrQ2wtMlk2dUFtTlllRjZxejZIdGVnbXczTTRyRDE1VnFleVMxWG1iZ0ZLM2dIcVhrcEJfeDFSekNHTGdKVkU?oc=5",
-     "time": "2026-11-20T14:11:57+00:00"
-    },
-    {
-     "title": "Applied Materials (AMAT) Stock Price Prediction: Earnings beat, but the chart is still repairing a deep post-results break",
-     "publisher": "Blockchain News",
-     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNYUlkSmhMRmFzbWo1TlM2Zm9LR2FTUHdpMGF0aWhJTTNFZUxfUndaSTJmeUIzR0VOSHJoY2N6NFpEdkNSM0tOUzE2VzFzcnJHbEhPOHV3ZnNTMGt3MXJPNkNmRHM5anppdWlLdjRsLTlBS0RxenB2NE1OakpEV2JOMUVsaDhDRnVLQlI0bVM3MG9xLVhx?oc=5",
-     "time": "2026-11-20T09:30:08+00:00"
-    },
-    {
-     "title": "Applied Materials (AMAT) Stock: $338.93, Down 3.80% Nov 19",
-     "publisher": "JournalArta",
-     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNVWVHTjliZUhPMHhVUzNuQzVNVzh2U1ktOFFKaWdLVlhsS2NDNUVNM1dIWVQxUkNmY2pybkJwNFhPRDdvSWJKYjdMd0FOOGVaZms5RDd3YWFIdVo0SU5GS2ZncVdJeHVJR3IxUkYwdkdVVWhQNXVIT0x0eHRJRVlYRW5RWmpVR0dYaDZKMnVDNk9lTHJFV19pTkxjbGY2azkxSFdNVlM1SG1LR2RURVBTcg?oc=5",
-     "time": "2026-11-20T07:57:39+00:00"
-    },
-    {
-     "title": "Applied Materials Inc (AMAT) Shares Fall 3.8% -- What GF Score o",
-     "publisher": "GuruFocus",
-     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNRFUyaGNIcnZCNXFCOVZjQTJiei1rZlhqckRFRkpUNnV0X3FSUU5tX0x4VTZIdmJseDRCeFM4QlRaQ09ub3ZlY3k3RjZ2S0M1RTRRZFp4VjRMVE1GUm9ZblRZUWJueGhYWUNKbHZOVEtNYlB5QzlMbDJmeWZxQ0Jtamd2cGRiTXhzUWZfb0lyZHUyV3J4WEkzMHJFeU5hT0dLaHhGRFhwZUVCVHZVYmNFcDNTTndfV2M?oc=5",
-     "time": "2026-11-19T22:39:32+00:00"
-    },
-    {
-     "title": "Applied Materials Inc Stock (AMAT) Moved Down by 3.55% on Nov 19: Facts Behind the Movement",
-     "publisher": "TradingKey",
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOU3l3b1ZaZmlBU1pfRjNwMjdyR3dyNlJvTldfaklwSFJ3ZVpJMzVoeU9FNWVRYkFZdGl5eDN4UExCMkpJQThMNG9XRlUxSVRsS19qbVRKclpQbnJnNjYxNWFEVy1odFlsZVc4Vm5LdFd1b1VVZzY1WjZ2RnhRdHFtUGk2NE9SSFU0MEIw?oc=5",
-     "time": "2026-11-19T20:15:34+00:00"
-    }
-   ],
-   "brief": "2026-11-20-AMAT"
-  },
-  {
    "symbol": "NVDA",
    "name": "Nvidia",
    "list": "portfolio",
-   "price": 132.05,
+   "price": 131.27,
    "prev_close": 145.98,
-   "change_pct": -9.5,
+   "change_pct": -10.1,
    "trigger_change": -3.2,
-   "peak_change": -9.5,
+   "peak_change": -10.1,
    "first_seen": "2026-11-20T14:55:54+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 407.74,
-    "change_pct": -8.88
+    "price": 405.86,
+    "change_pct": -9.3
    },
    "chart": {
-    "ema8": -14.4,
-    "ema21": -25.1,
-    "sma50": -36.2,
-    "sma200": -35.1,
+    "ema8": -14.8,
+    "ema21": -25.5,
+    "sma50": -36.6,
+    "sma200": -35.5,
     "momentum": false
    },
    "headlines": [
@@ -396,26 +321,101 @@
    "brief": "2026-11-20-NVDA"
   },
   {
+   "symbol": "AMAT",
+   "name": "Applied Materials",
+   "list": "portfolio",
+   "price": 307.64,
+   "prev_close": 338.93,
+   "change_pct": -9.2,
+   "trigger_change": -4.5,
+   "peak_change": -10.0,
+   "first_seen": "2026-11-20T14:55:54+00:00",
+   "sector": {
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 405.86,
+    "change_pct": -9.3
+   },
+   "chart": {
+    "ema8": -11.0,
+    "ema21": -17.2,
+    "sma50": -27.7,
+    "sma200": -31.2,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Why Applied Materials (AMAT) Stock Is Down Today",
+     "publisher": "Quiver Quantitative",
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNUWlfMzBlNk53QVBVQTZTd3laVHU4cDZmX0l3a2toU29FX2NXT2l1NFVpZ2I0RkpubEJTLWNSNDBiUXl1enQ0THVyUy1sRGl0R0JJSWRtdkdURHFKbUZKVmtkUzBmTVpxcXhYbDg3QTNZU1IzbmhHZ0tyV3NkcjVIb3hzWXA4S09nMzFsejBB?oc=5",
+     "time": "2026-11-20T15:32:00+00:00"
+    },
+    {
+     "title": "Applied Materials Inc Stock (AMAT) Moved Down by 5.92% on Nov 20: Facts Behind the Movement",
+     "publisher": "TradingKey",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQYUpHc1pXTlpfdl9sVjJLSmdNazd6TVB2bU5GVEk3Mnd1d2tWOGE0MlRTTXY2aXMxbUQwTWtGR1IyekFyZlBIN3I0WEx4VllodlBjSDhnbVJFMWlqVExpVDd4dkFGRV9pNW5pZW16djZ1OFNYeHdCdFFsdVdadUktNUhubmI5NXpnSkxZ?oc=5",
+     "time": "2026-11-20T15:15:24+00:00"
+    },
+    {
+     "title": "AMAT's AGS Gains From Growing Installed Base: What's Ahead?",
+     "publisher": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOMXlGXzZhUlB4SllmcGNYa1pvaTY4Z043djRxVnhpUlJSMXQ1S0RULUVWX0hDWld2VzBjR1BqS1pqVFozOTJtYjZBZ2dwNFJ6THhQWkx2QkdnWlBDeS15LU9SOVRTdklJVzEtZ3lyVnNSZHBOMXJxaDZ4Q1Z3MmRBY0Jrc2ZhZTRnSTJUZkRDa0V3NjU4SnVmSWdzY1pVM2wwSmhsRmM4WTR5eHhZQ2thdUR1MA?oc=5",
+     "time": "2026-11-20T15:02:00+00:00"
+    },
+    {
+     "title": "A $3 Billion Fund Is Betting Big on Applied Materials",
+     "publisher": "TIKR.com",
+     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQRDdfU24yMVlDSjlac21nM0VTM0QxSTNNakF3NnlybE85QkVWTU5ubzF3V3hYenNUYTBjNy14cURsOU1jMzhLOVNrQ2wtMlk2dUFtTlllRjZxejZIdGVnbXczTTRyRDE1VnFleVMxWG1iZ0ZLM2dIcVhrcEJfeDFSekNHTGdKVkU?oc=5",
+     "time": "2026-11-20T14:11:57+00:00"
+    },
+    {
+     "title": "Applied Materials (AMAT) Stock Price Prediction: Earnings beat, but the chart is still repairing a deep post-results break",
+     "publisher": "Blockchain News",
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNYUlkSmhMRmFzbWo1TlM2Zm9LR2FTUHdpMGF0aWhJTTNFZUxfUndaSTJmeUIzR0VOSHJoY2N6NFpEdkNSM0tOUzE2VzFzcnJHbEhPOHV3ZnNTMGt3MXJPNkNmRHM5anppdWlLdjRsLTlBS0RxenB2NE1OakpEV2JOMUVsaDhDRnVLQlI0bVM3MG9xLVhx?oc=5",
+     "time": "2026-11-20T09:30:08+00:00"
+    },
+    {
+     "title": "Applied Materials (AMAT) Stock: $338.93, Down 3.80% Nov 19",
+     "publisher": "JournalArta",
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNVWVHTjliZUhPMHhVUzNuQzVNVzh2U1ktOFFKaWdLVlhsS2NDNUVNM1dIWVQxUkNmY2pybkJwNFhPRDdvSWJKYjdMd0FOOGVaZms5RDd3YWFIdVo0SU5GS2ZncVdJeHVJR3IxUkYwdkdVVWhQNXVIT0x0eHRJRVlYRW5RWmpVR0dYaDZKMnVDNk9lTHJFV19pTkxjbGY2azkxSFdNVlM1SG1LR2RURVBTcg?oc=5",
+     "time": "2026-11-20T07:57:39+00:00"
+    },
+    {
+     "title": "Applied Materials Inc (AMAT) Shares Fall 3.8% -- What GF Score o",
+     "publisher": "GuruFocus",
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNRFUyaGNIcnZCNXFCOVZjQTJiei1rZlhqckRFRkpUNnV0X3FSUU5tX0x4VTZIdmJseDRCeFM4QlRaQ09ub3ZlY3k3RjZ2S0M1RTRRZFp4VjRMVE1GUm9ZblRZUWJueGhYWUNKbHZOVEtNYlB5QzlMbDJmeWZxQ0Jtamd2cGRiTXhzUWZfb0lyZHUyV3J4WEkzMHJFeU5hT0dLaHhGRFhwZUVCVHZVYmNFcDNTTndfV2M?oc=5",
+     "time": "2026-11-19T22:39:32+00:00"
+    },
+    {
+     "title": "Applied Materials Inc Stock (AMAT) Moved Down by 3.55% on Nov 19: Facts Behind the Movement",
+     "publisher": "TradingKey",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOU3l3b1ZaZmlBU1pfRjNwMjdyR3dyNlJvTldfaklwSFJ3ZVpJMzVoeU9FNWVRYkFZdGl5eDN4UExCMkpJQThMNG9XRlUxSVRsS19qbVRKclpQbnJnNjYxNWFEVy1odFlsZVc4Vm5LdFd1b1VVZzY1WjZ2RnhRdHFtUGk2NE9SSFU0MEIw?oc=5",
+     "time": "2026-11-19T20:15:34+00:00"
+    }
+   ],
+   "brief": "2026-11-20-AMAT"
+  },
+  {
    "symbol": "APP",
    "name": "AppLovin",
    "list": "portfolio",
-   "price": 352.54,
+   "price": 352.0,
    "prev_close": 379.02,
-   "change_pct": -7.0,
+   "change_pct": -7.1,
    "trigger_change": -3.9,
    "peak_change": -7.4,
    "first_seen": "2026-11-20T15:11:23+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 92.67,
-    "change_pct": -3.57
+    "price": 92.4,
+    "change_pct": -3.85
    },
    "chart": {
-    "ema8": -6.8,
-    "ema21": 0.8,
-    "sma50": 14.0,
-    "sma200": -12.9,
+    "ema8": -6.9,
+    "ema21": 0.6,
+    "sma50": 13.8,
+    "sma200": -13.0,
     "momentum": true
    },
    "headlines": [
@@ -474,7 +474,7 @@
    "symbol": "BTC-USD",
    "name": "Bitcoin",
    "list": "watchlist",
-   "price": 57938.8,
+   "price": 57923.8,
    "prev_close": 61913.5,
    "change_pct": -6.4,
    "trigger_change": -3.3,
@@ -484,7 +484,7 @@
    "chart": {
     "ema8": -9.4,
     "ema21": -16.8,
-    "sma50": -25.3,
+    "sma50": -25.4,
     "sma200": -20.1,
     "momentum": false
    },
@@ -544,23 +544,23 @@
    "symbol": "SOFI",
    "name": "SoFi",
    "list": "portfolio",
-   "price": 12.73,
+   "price": 12.71,
    "prev_close": 13.53,
-   "change_pct": -5.9,
+   "change_pct": -6.1,
    "trigger_change": -4.1,
-   "peak_change": -5.9,
+   "peak_change": -6.1,
    "first_seen": "2026-11-20T15:46:47+00:00",
    "sector": {
     "etf": "XLF",
     "name": "Financials",
-    "price": 55.13,
-    "change_pct": -0.81
+    "price": 54.96,
+    "change_pct": -1.12
    },
    "chart": {
-    "ema8": -11.2,
-    "ema21": -16.3,
-    "sma50": -19.4,
-    "sma200": -25.7,
+    "ema8": -11.3,
+    "ema21": -16.5,
+    "sma50": -19.6,
+    "sma200": -25.8,
     "momentum": false
    },
    "headlines": [
@@ -616,101 +616,26 @@
    "brief": "2026-11-20-SOFI"
   },
   {
-   "symbol": "META",
-   "name": "Meta",
-   "list": "portfolio",
-   "price": 564.65,
-   "prev_close": 596.22,
-   "change_pct": -5.3,
-   "trigger_change": -3.3,
-   "peak_change": -5.3,
-   "first_seen": "2026-11-20T15:31:42+00:00",
-   "sector": {
-    "etf": "XLC",
-    "name": "Communication",
-    "price": 101.07,
-    "change_pct": -1.64
-   },
-   "chart": {
-    "ema8": -6.9,
-    "ema21": -10.1,
-    "sma50": -16.6,
-    "sma200": -10.2,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Why is Meta Platforms stock sliding today?",
-     "publisher": "Investing.com",
-     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQM0QtTXhWMS1pREhRTG9peGkxeVhsckhIak5QVkl6TGVkU3VDREo5REpMaEs1d1lBOUtfTlpqY0JhYVRNT2VJNnpDaDBtRXY5S3gwcTdMU2xFeFJjemZqZFlQUW9aWE9WYUZvX3ZKc0hfUm9OMDVfVmVjU2FDdnJEVzFCcTBpRTJYb2JOejI2WWsxZmxkZmZrV29wYmt5NVRyUVFfblNn?oc=5",
-     "time": "2026-11-20T18:25:33+00:00"
-    },
-    {
-     "title": "Meta Stock Forecast \u2014 META ($569.36) $625 Upside Target on $135B\u2013$145B Capex Bill",
-     "publisher": "TradingNEWS",
-     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQbHU2M3kwSk5sdk9zZUUyX0ZfZ25CX2d3SWZIQko4MkFCbUluOGY2dlFRb2hLMERwMElFRExpcXFqMVhzRWVSUHBoRTRnQ0RNN1oxenRMQVRFd01JYVNrWjVULThRUnNHZWtlcDNNY0kxQktxNVZhcDZrV3JGTnhTTld6SmVOb0tmaVdvX1ZReXA2QkhwNEZSYXBlWDZzdGZFeE5KTW5pNHZkMFpoN0lSTkRIWi1qUzlYUGFPTUp4dTFTUEVNRjJTZjl3?oc=5",
-     "time": "2026-11-20T18:14:33+00:00"
-    },
-    {
-     "title": "Meta (META) Stock Looks Discounted As Its 76% Five Year Run Cools",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNZmIyaHFvQURwT2xLTk1SQ0IyZEtfZW1zUThxR2c3VXVTM3FFZE52YlBGX21fdElMTHpIcldJMGJHTS1LTDV1YkYxcFhQdVVKa1NCbGRXbHRDTWF1QXB5WkJOVGg1M2pINnpudGY5dXN1UHV4d1hGOTBlQmViaEd0Z1RZanV5WWlHYVZXdDNuTkRpRVpwcmpsRGZ5bThOQQ?oc=5",
-     "time": "2026-11-20T18:10:51+00:00"
-    },
-    {
-     "title": "Meta\u2019s (META) AI Spending Spree Looks Risky, but There\u2019s More to the Story",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQQm1Od0F5OXJYZ0Q4OWI5d1Z0X1FrQU5KX2hPeFotZTZfUFN5cUY5X0dHQWZFamNtejIwSG40c20xdWJUcUd1ZGdWVWhqVGE1bGxkZVpCR3NZX1FaX2ZHdXd0MFNJV21pVS1xN2l6bC1HUl9ETWZZa1JNcFVkTzlPME4zQWNGRmRiaktpVDRKRWNDaGNMNlE?oc=5",
-     "time": "2026-11-20T18:04:36+00:00"
-    },
-    {
-     "title": "What UBS Sees in Meta (META) Amid Heavy AI Spending",
-     "publisher": "Yahoo Finance Australia",
-     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFA4N09tUTE1QkxDMjkwR3Ztb3R4SGcxUlF6UU1nZGJYWXh1MVVXTWxSR2ZlMExURWZBTy1iSjBqbklsRERxMWtsWkZCekVJQjg3Y0huUEIzRFpZc1I2WklXNmZYZUlnU1NnRGUtTFNaYjdHQ1BsRzY1OVhIcng?oc=5",
-     "time": "2026-11-20T15:24:04+00:00"
-    },
-    {
-     "title": "Google's Gemini Tasks Seen As Challenger To Meta's Muse In AI Battle",
-     "publisher": "Investor's Business Daily",
-     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNbGUwdGtxRDI0Vm1seTU5Ul9EMjF1cGxjTEp0b25xajBHZ1M2amdXMkEtX2xJc2lTdUJ4ZU9jRnhldjJ6VnJJLWZMdnY0aXVRTnBvWEVkVmpqQUZSZ2Q0WFcxd1RoRFVhcEQ0VnZxY3VlMEZSbTVmR0NKa09pR0RDU2R0Wk1ZWDBkYVZfRjM1aFZ2d2ZWWDJILVZaSHI2dWp5R2lj?oc=5",
-     "time": "2026-11-20T13:11:00+00:00"
-    },
-    {
-     "title": "Apple seems to be building its own AI agent. This could be bad news for Meta\u2019s Muse.",
-     "publisher": "MarketWatch",
-     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPMzkzSVNtbXBvWUc0YlNnTWhnalpSeldLVTZHbllYYXE1RkllbDJ1aDJsNVJsX2hMOE1PcGFXU1U0b1Zqc3J0NXVjM01HcnFRTTU5THdsd3JYQWhwSlN5SnZqX2U1M3NFeTRXNWpJNVpaQUV6dV9zZWdra0x1WWFTNGF3bVprR3c0ZmZNUFgxZHF0OENPUk9BYTRrQlNEcS1RX3M2V0FQTXRIZVo1d2hBSXRKNG9Qd1piX2VPMEx4SjlKZw?oc=5",
-     "time": "2026-11-20T11:05:00+00:00"
-    },
-    {
-     "title": "Meta Platforms, Inc. $META Stock: Intech Investment Management LLC Reduces Stake",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPamZrN29jSTZsenFXRVdOWjhUZlQ1X01NVk9GenZ1TTNIWm9ETU5jcVk2cU5oRHkzUlhvY05NUU5adDBlYml3LXJQZzhBRWRxcTN0MFBWdWlJQ0xyQTlWd1d5Mm1qWFdTUU9Fdkc1bF9wYWJ4QnlpTU5Mek10aW80NEJSeXB1d2E5ei1QSFVBZ2R4aWFSYnBVTnFjczNSdXREbzlqQWFBTVBVUlhMUU1jeF9YSGJLd2tVbmRhS0NzR3RMRGpmZXdQWkZWekVwWC1tT0VJ?oc=5",
-     "time": "2026-11-20T10:35:59+00:00"
-    }
-   ],
-   "brief": "2026-11-20-META"
-  },
-  {
    "symbol": "CRWD",
    "name": "CrowdStrike",
    "list": "portfolio",
-   "price": 230.7,
+   "price": 230.42,
    "prev_close": 243.46,
-   "change_pct": -5.2,
+   "change_pct": -5.4,
    "trigger_change": -4.2,
    "peak_change": -5.6,
    "first_seen": "2026-11-20T14:55:54+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 92.67,
-    "change_pct": -3.57
+    "price": 92.4,
+    "change_pct": -3.85
    },
    "chart": {
-    "ema8": -0.5,
-    "ema21": -2.1,
-    "sma50": -6.6,
-    "sma200": 30.9,
+    "ema8": -0.6,
+    "ema21": -2.2,
+    "sma50": -6.7,
+    "sma200": 30.8,
     "momentum": false
    },
    "headlines": [
@@ -766,26 +691,101 @@
    "brief": "2026-11-20-CRWD"
   },
   {
+   "symbol": "META",
+   "name": "Meta",
+   "list": "portfolio",
+   "price": 565.22,
+   "prev_close": 596.22,
+   "change_pct": -5.2,
+   "trigger_change": -3.3,
+   "peak_change": -5.3,
+   "first_seen": "2026-11-20T15:31:42+00:00",
+   "sector": {
+    "etf": "XLC",
+    "name": "Communication",
+    "price": 100.71,
+    "change_pct": -1.99
+   },
+   "chart": {
+    "ema8": -6.8,
+    "ema21": -10.0,
+    "sma50": -16.5,
+    "sma200": -10.1,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Why is Meta Platforms stock sliding today?",
+     "publisher": "Investing.com",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQM0QtTXhWMS1pREhRTG9peGkxeVhsckhIak5QVkl6TGVkU3VDREo5REpMaEs1d1lBOUtfTlpqY0JhYVRNT2VJNnpDaDBtRXY5S3gwcTdMU2xFeFJjemZqZFlQUW9aWE9WYUZvX3ZKc0hfUm9OMDVfVmVjU2FDdnJEVzFCcTBpRTJYb2JOejI2WWsxZmxkZmZrV29wYmt5NVRyUVFfblNn?oc=5",
+     "time": "2026-11-20T18:25:33+00:00"
+    },
+    {
+     "title": "Meta Stock Forecast \u2014 META ($569.36) $625 Upside Target on $135B\u2013$145B Capex Bill",
+     "publisher": "TradingNEWS",
+     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQbHU2M3kwSk5sdk9zZUUyX0ZfZ25CX2d3SWZIQko4MkFCbUluOGY2dlFRb2hLMERwMElFRExpcXFqMVhzRWVSUHBoRTRnQ0RNN1oxenRMQVRFd01JYVNrWjVULThRUnNHZWtlcDNNY0kxQktxNVZhcDZrV3JGTnhTTld6SmVOb0tmaVdvX1ZReXA2QkhwNEZSYXBlWDZzdGZFeE5KTW5pNHZkMFpoN0lSTkRIWi1qUzlYUGFPTUp4dTFTUEVNRjJTZjl3?oc=5",
+     "time": "2026-11-20T18:14:33+00:00"
+    },
+    {
+     "title": "Meta (META) Stock Looks Discounted As Its 76% Five Year Run Cools",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNZmIyaHFvQURwT2xLTk1SQ0IyZEtfZW1zUThxR2c3VXVTM3FFZE52YlBGX21fdElMTHpIcldJMGJHTS1LTDV1YkYxcFhQdVVKa1NCbGRXbHRDTWF1QXB5WkJOVGg1M2pINnpudGY5dXN1UHV4d1hGOTBlQmViaEd0Z1RZanV5WWlHYVZXdDNuTkRpRVpwcmpsRGZ5bThOQQ?oc=5",
+     "time": "2026-11-20T18:10:51+00:00"
+    },
+    {
+     "title": "Meta\u2019s (META) AI Spending Spree Looks Risky, but There\u2019s More to the Story",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQQm1Od0F5OXJYZ0Q4OWI5d1Z0X1FrQU5KX2hPeFotZTZfUFN5cUY5X0dHQWZFamNtejIwSG40c20xdWJUcUd1ZGdWVWhqVGE1bGxkZVpCR3NZX1FaX2ZHdXd0MFNJV21pVS1xN2l6bC1HUl9ETWZZa1JNcFVkTzlPME4zQWNGRmRiaktpVDRKRWNDaGNMNlE?oc=5",
+     "time": "2026-11-20T18:04:36+00:00"
+    },
+    {
+     "title": "What UBS Sees in Meta (META) Amid Heavy AI Spending",
+     "publisher": "Yahoo Finance Australia",
+     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFA4N09tUTE1QkxDMjkwR3Ztb3R4SGcxUlF6UU1nZGJYWXh1MVVXTWxSR2ZlMExURWZBTy1iSjBqbklsRERxMWtsWkZCekVJQjg3Y0huUEIzRFpZc1I2WklXNmZYZUlnU1NnRGUtTFNaYjdHQ1BsRzY1OVhIcng?oc=5",
+     "time": "2026-11-20T15:24:04+00:00"
+    },
+    {
+     "title": "Google's Gemini Tasks Seen As Challenger To Meta's Muse In AI Battle",
+     "publisher": "Investor's Business Daily",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNbGUwdGtxRDI0Vm1seTU5Ul9EMjF1cGxjTEp0b25xajBHZ1M2amdXMkEtX2xJc2lTdUJ4ZU9jRnhldjJ6VnJJLWZMdnY0aXVRTnBvWEVkVmpqQUZSZ2Q0WFcxd1RoRFVhcEQ0VnZxY3VlMEZSbTVmR0NKa09pR0RDU2R0Wk1ZWDBkYVZfRjM1aFZ2d2ZWWDJILVZaSHI2dWp5R2lj?oc=5",
+     "time": "2026-11-20T13:11:00+00:00"
+    },
+    {
+     "title": "Apple seems to be building its own AI agent. This could be bad news for Meta\u2019s Muse.",
+     "publisher": "MarketWatch",
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPMzkzSVNtbXBvWUc0YlNnTWhnalpSeldLVTZHbllYYXE1RkllbDJ1aDJsNVJsX2hMOE1PcGFXU1U0b1Zqc3J0NXVjM01HcnFRTTU5THdsd3JYQWhwSlN5SnZqX2U1M3NFeTRXNWpJNVpaQUV6dV9zZWdra0x1WWFTNGF3bVprR3c0ZmZNUFgxZHF0OENPUk9BYTRrQlNEcS1RX3M2V0FQTXRIZVo1d2hBSXRKNG9Qd1piX2VPMEx4SjlKZw?oc=5",
+     "time": "2026-11-20T11:05:00+00:00"
+    },
+    {
+     "title": "Meta Platforms, Inc. $META Stock: Intech Investment Management LLC Reduces Stake",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPamZrN29jSTZsenFXRVdOWjhUZlQ1X01NVk9GenZ1TTNIWm9ETU5jcVk2cU5oRHkzUlhvY05NUU5adDBlYml3LXJQZzhBRWRxcTN0MFBWdWlJQ0xyQTlWd1d5Mm1qWFdTUU9Fdkc1bF9wYWJ4QnlpTU5Mek10aW80NEJSeXB1d2E5ei1QSFVBZ2R4aWFSYnBVTnFjczNSdXREbzlqQWFBTVBVUlhMUU1jeF9YSGJLd2tVbmRhS0NzR3RMRGpmZXdQWkZWekVwWC1tT0VJ?oc=5",
+     "time": "2026-11-20T10:35:59+00:00"
+    }
+   ],
+   "brief": "2026-11-20-META"
+  },
+  {
    "symbol": "UNH",
    "name": "UnitedHealth",
    "list": "portfolio",
-   "price": 344.27,
+   "price": 343.71,
    "prev_close": 330.48,
-   "change_pct": 4.2,
+   "change_pct": 4.0,
    "trigger_change": 3.8,
    "peak_change": 5.1,
    "first_seen": "2026-11-20T14:55:54+00:00",
    "sector": {
     "etf": "XLV",
     "name": "Health care",
-    "price": 178.55,
-    "change_pct": 0.61
+    "price": 178.28,
+    "change_pct": 0.46
    },
    "chart": {
-    "ema8": -6.9,
-    "ema21": -11.0,
-    "sma50": -11.5,
-    "sma200": -6.6,
+    "ema8": -7.0,
+    "ema21": -11.1,
+    "sma50": -11.6,
+    "sma200": -6.7,
     "momentum": false
    },
    "headlines": [
@@ -844,23 +844,23 @@
    "symbol": "AMZN",
    "name": "Amazon",
    "list": "portfolio",
-   "price": 248.79,
+   "price": 248.16,
    "prev_close": 257.37,
-   "change_pct": -3.3,
+   "change_pct": -3.6,
    "trigger_change": -3.3,
-   "peak_change": -3.3,
+   "peak_change": -3.6,
    "first_seen": "2026-11-20T19:18:48+00:00",
    "sector": {
     "etf": "XLY",
     "name": "Consumer discr.",
-    "price": 113.51,
-    "change_pct": -2.05
+    "price": 113.14,
+    "change_pct": -2.36
    },
    "chart": {
-    "ema8": -3.9,
-    "ema21": -3.8,
-    "sma50": -2.5,
-    "sma200": 1.5,
+    "ema8": -4.1,
+    "ema21": -4.0,
+    "sma50": -2.7,
+    "sma200": 1.2,
     "momentum": true
    },
    "headlines": [
@@ -919,23 +919,23 @@
    "symbol": "AXON",
    "name": "Axon",
    "list": "watchlist",
-   "price": 299.4,
+   "price": 298.32,
    "prev_close": 306.98,
-   "change_pct": -2.5,
+   "change_pct": -2.8,
    "trigger_change": 5.4,
    "peak_change": 5.9,
    "first_seen": "2026-11-20T14:55:54+00:00",
    "sector": {
     "etf": "XLI",
     "name": "Industrials",
-    "price": 157.83,
-    "change_pct": -2.19
+    "price": 157.28,
+    "change_pct": -2.53
    },
    "chart": {
-    "ema8": -3.7,
-    "ema21": -13.3,
-    "sma50": -24.9,
-    "sma200": -35.3,
+    "ema8": -4.0,
+    "ema21": -13.6,
+    "sma50": -25.2,
+    "sma200": -35.5,
     "momentum": false
    },
    "headlines": [
@@ -994,23 +994,23 @@
    "symbol": "NOW",
    "name": "ServiceNow",
    "list": "portfolio",
-   "price": 89.79,
+   "price": 89.7,
    "prev_close": 88.87,
-   "change_pct": 1.0,
+   "change_pct": 0.9,
    "trigger_change": 4.0,
    "peak_change": 4.8,
    "first_seen": "2026-11-20T15:06:22+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 92.67,
-    "change_pct": -3.57
+    "price": 92.4,
+    "change_pct": -3.85
    },
    "chart": {
-    "ema8": -5.6,
+    "ema8": -5.7,
     "ema21": -16.6,
-    "sma50": -29.8,
-    "sma200": -20.7,
+    "sma50": -29.9,
+    "sma200": -20.8,
     "momentum": false
    },
    "headlines": [
