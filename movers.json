@@ -1,22 +1,22 @@
 {
  "date": "2026-11-20",
  "threshold": 3.0,
- "updated": "2026-11-20T15:11:23+00:00",
+ "updated": "2026-11-20T15:16:24+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 714.97,
-   "change_pct": -0.13
+   "price": 713.19,
+   "change_pct": -0.37
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 637.55,
-   "change_pct": -1.16
+   "price": 634.97,
+   "change_pct": -1.56
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 80.93,
-   "change_pct": 0.72
+   "price": 80.97,
+   "change_pct": 0.78
   }
  },
  "movers": [
@@ -24,23 +24,23 @@
    "symbol": "ANET",
    "name": "Arista Networks",
    "list": "portfolio",
-   "price": 175.28,
+   "price": 175.12,
    "prev_close": 189.59,
-   "change_pct": -7.5,
+   "change_pct": -7.6,
    "trigger_change": -5.7,
-   "peak_change": -7.5,
+   "peak_change": -7.6,
    "first_seen": "2026-11-20T14:55:54+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 430.17,
-    "change_pct": -3.87
+    "price": 427.62,
+    "change_pct": -4.44
    },
    "chart": {
     "ema8": -6.0,
     "ema21": -5.8,
-    "sma50": -8.8,
-    "sma200": 4.0,
+    "sma50": -8.9,
+    "sma200": 3.9,
     "momentum": true
    },
    "headlines": [
@@ -99,23 +99,23 @@
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 90.57,
+   "price": 90.47,
    "prev_close": 96.92,
-   "change_pct": -6.6,
+   "change_pct": -6.7,
    "trigger_change": -4.8,
-   "peak_change": -6.6,
+   "peak_change": -6.7,
    "first_seen": "2026-11-20T14:55:54+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 95.37,
-    "change_pct": -0.76
+    "price": 94.87,
+    "change_pct": -1.28
    },
    "chart": {
-    "ema8": -17.3,
-    "ema21": -32.3,
+    "ema8": -17.4,
+    "ema21": -32.4,
     "sma50": -50.1,
-    "sma200": -49.6,
+    "sma200": -49.7,
     "momentum": false
    },
    "headlines": [
@@ -171,101 +171,26 @@
    "brief": null
   },
   {
-   "symbol": "AMAT",
-   "name": "Applied Materials",
-   "list": "portfolio",
-   "price": 318.83,
-   "prev_close": 338.93,
-   "change_pct": -5.9,
-   "trigger_change": -4.5,
-   "peak_change": -5.9,
-   "first_seen": "2026-11-20T14:55:54+00:00",
-   "sector": {
-    "etf": "SMH",
-    "name": "Semiconductors",
-    "price": 430.17,
-    "change_pct": -3.87
-   },
-   "chart": {
-    "ema8": -8.5,
-    "ema21": -14.4,
-    "sma50": -25.1,
-    "sma200": -28.7,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "A $3 Billion Fund Is Betting Big on Applied Materials",
-     "publisher": "TIKR.com",
-     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQRDdfU24yMVlDSjlac21nM0VTM0QxSTNNakF3NnlybE85QkVWTU5ubzF3V3hYenNUYTBjNy14cURsOU1jMzhLOVNrQ2wtMlk2dUFtTlllRjZxejZIdGVnbXczTTRyRDE1VnFleVMxWG1iZ0ZLM2dIcVhrcEJfeDFSekNHTGdKVkU?oc=5",
-     "time": "2026-11-20T14:11:57+00:00"
-    },
-    {
-     "title": "Applied Materials (AMAT) Stock Price Prediction: Earnings beat, but the chart is still repairing a deep post-results break",
-     "publisher": "Blockchain News",
-     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNYUlkSmhMRmFzbWo1TlM2Zm9LR2FTUHdpMGF0aWhJTTNFZUxfUndaSTJmeUIzR0VOSHJoY2N6NFpEdkNSM0tOUzE2VzFzcnJHbEhPOHV3ZnNTMGt3MXJPNkNmRHM5anppdWlLdjRsLTlBS0RxenB2NE1OakpEV2JOMUVsaDhDRnVLQlI0bVM3MG9xLVhx?oc=5",
-     "time": "2026-11-20T09:30:08+00:00"
-    },
-    {
-     "title": "Applied Materials (AMAT) Stock: $338.93, Down 3.80% Nov 19",
-     "publisher": "JournalArta",
-     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNVWVHTjliZUhPMHhVUzNuQzVNVzh2U1ktOFFKaWdLVlhsS2NDNUVNM1dIWVQxUkNmY2pybkJwNFhPRDdvSWJKYjdMd0FOOGVaZms5RDd3YWFIdVo0SU5GS2ZncVdJeHVJR3IxUkYwdkdVVWhQNXVIT0x0eHRJRVlYRW5RWmpVR0dYaDZKMnVDNk9lTHJFV19pTkxjbGY2azkxSFdNVlM1SG1LR2RURVBTcg?oc=5",
-     "time": "2026-11-20T07:57:39+00:00"
-    },
-    {
-     "title": "Applied Materials Inc (AMAT) Shares Fall 3.8% -- What GF Score o",
-     "publisher": "GuruFocus",
-     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNRFUyaGNIcnZCNXFCOVZjQTJiei1rZlhqckRFRkpUNnV0X3FSUU5tX0x4VTZIdmJseDRCeFM4QlRaQ09ub3ZlY3k3RjZ2S0M1RTRRZFp4VjRMVE1GUm9ZblRZUWJueGhYWUNKbHZOVEtNYlB5QzlMbDJmeWZxQ0Jtamd2cGRiTXhzUWZfb0lyZHUyV3J4WEkzMHJFeU5hT0dLaHhGRFhwZUVCVHZVYmNFcDNTTndfV2M?oc=5",
-     "time": "2026-11-19T22:39:32+00:00"
-    },
-    {
-     "title": "Applied Materials Inc Stock (AMAT) Moved Down by 3.55% on Nov 19: Facts Behind the Movement",
-     "publisher": "TradingKey",
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOU3l3b1ZaZmlBU1pfRjNwMjdyR3dyNlJvTldfaklwSFJ3ZVpJMzVoeU9FNWVRYkFZdGl5eDN4UExCMkpJQThMNG9XRlUxSVRsS19qbVRKclpQbnJnNjYxNWFEVy1odFlsZVc4Vm5LdFd1b1VVZzY1WjZ2RnhRdHFtUGk2NE9SSFU0MEIw?oc=5",
-     "time": "2026-11-19T20:15:34+00:00"
-    },
-    {
-     "title": "Applied Materials Is Still Up 35% This Year. Will AMAT Stock Hit $300 or $400 First?",
-     "publisher": "24/7 Wall St.",
-     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOa1MtdWE4ekZsZWpLdTFEVkpJX01JUDBXUXk2X3JXNUVIdjQyWFZsRU1jcUxRajhnaklGem5YQWJ2ak1ETGpINUhfd3NiR2M4R2lCQnl4RFFtazlYb2dHTnA5WnZobjZUVnItZXZrV0xoMFZBd25Zd3hFeHFzT1lZLXgxaF9KX2ZZWW5iRllQOWI2VjBWNGl2OWR5bmFzcUVlZzhwZnM4Wm1GZ0JhcjBBbDA0NjRlVWYxYzg0ZWhQZEM?oc=5",
-     "time": "2026-11-19T19:02:00+00:00"
-    },
-    {
-     "title": "ROK to Boost Intelligent Devices Segment With AGILOX Buyout",
-     "publisher": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNSVlGTEY4Vk9NdWlKeEVELVRLbkVUelFTdVBrdF9LOEtRYWtNeFc4cDBKemlBWjBNQ042STFtcXFFYnAtanQwaUlfSDUxNF9GUGtRMFFLclFLUmRmR0tzMzViOHpIdm1VenpyWmF6TWNuMUJBZ0FtaTRVX2JoVEg3dExrQnVGOHRJUDl5Y3l6ZWUzcHZ4bV9YT2h1cHpremNlM2swcndyVm1nN3hfcFJ1ejF4ZHItZw?oc=5",
-     "time": "2026-11-19T17:29:00+00:00"
-    },
-    {
-     "title": "AMAT, KLAC, LRCX, ASML: Bernstein Picks 4 Chip Stocks for the Global Semiconductor Spending Boom",
-     "publisher": "TipRanks",
-     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQWUV0NVJCLUNndmdfOEt6UnNFakZUMG1Xb1ZHNkkxZkt3TkJ5djRybUVsRWNDdjNWdmdpWmxUN3pqa2txblkyRS1oQlBsRDJfeWZwSVJqZWRud0hxRFRnWE8xVjJPNDRUYTUtdGg2d1I5aDFNUEREOTBSa1U1YlQ2RjlfV0o2TmN1QVNObDRFY1ZMekJ0aEs5UW9NbE9VRkxGczdpcTlIOW5VTDhUTDV1NnlldGFUanRPdHVxWTVmTTlPLWduazJWMXFR?oc=5",
-     "time": "2026-11-19T17:23:56+00:00"
-    }
-   ],
-   "brief": null
-  },
-  {
    "symbol": "AVGO",
    "name": "Broadcom",
    "list": "portfolio",
-   "price": 327.3,
+   "price": 324.15,
    "prev_close": 346.65,
-   "change_pct": -5.6,
+   "change_pct": -6.5,
    "trigger_change": -3.6,
-   "peak_change": -5.6,
+   "peak_change": -6.5,
    "first_seen": "2026-11-20T15:01:24+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 430.17,
-    "change_pct": -3.87
+    "price": 427.62,
+    "change_pct": -4.44
    },
    "chart": {
-    "ema8": -3.5,
-    "ema21": -3.0,
-    "sma50": -4.6,
-    "sma200": -11.0,
+    "ema8": -4.2,
+    "ema21": -3.8,
+    "sma50": -5.5,
+    "sma200": -11.9,
     "momentum": true
    },
    "headlines": [
@@ -321,26 +246,101 @@
    "brief": null
   },
   {
+   "symbol": "AMAT",
+   "name": "Applied Materials",
+   "list": "portfolio",
+   "price": 318.06,
+   "prev_close": 338.93,
+   "change_pct": -6.2,
+   "trigger_change": -4.5,
+   "peak_change": -6.2,
+   "first_seen": "2026-11-20T14:55:54+00:00",
+   "sector": {
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 427.62,
+    "change_pct": -4.44
+   },
+   "chart": {
+    "ema8": -8.6,
+    "ema21": -14.6,
+    "sma50": -25.3,
+    "sma200": -28.9,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "A $3 Billion Fund Is Betting Big on Applied Materials",
+     "publisher": "TIKR.com",
+     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQRDdfU24yMVlDSjlac21nM0VTM0QxSTNNakF3NnlybE85QkVWTU5ubzF3V3hYenNUYTBjNy14cURsOU1jMzhLOVNrQ2wtMlk2dUFtTlllRjZxejZIdGVnbXczTTRyRDE1VnFleVMxWG1iZ0ZLM2dIcVhrcEJfeDFSekNHTGdKVkU?oc=5",
+     "time": "2026-11-20T14:11:57+00:00"
+    },
+    {
+     "title": "Applied Materials (AMAT) Stock Price Prediction: Earnings beat, but the chart is still repairing a deep post-results break",
+     "publisher": "Blockchain News",
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNYUlkSmhMRmFzbWo1TlM2Zm9LR2FTUHdpMGF0aWhJTTNFZUxfUndaSTJmeUIzR0VOSHJoY2N6NFpEdkNSM0tOUzE2VzFzcnJHbEhPOHV3ZnNTMGt3MXJPNkNmRHM5anppdWlLdjRsLTlBS0RxenB2NE1OakpEV2JOMUVsaDhDRnVLQlI0bVM3MG9xLVhx?oc=5",
+     "time": "2026-11-20T09:30:08+00:00"
+    },
+    {
+     "title": "Applied Materials (AMAT) Stock: $338.93, Down 3.80% Nov 19",
+     "publisher": "JournalArta",
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNVWVHTjliZUhPMHhVUzNuQzVNVzh2U1ktOFFKaWdLVlhsS2NDNUVNM1dIWVQxUkNmY2pybkJwNFhPRDdvSWJKYjdMd0FOOGVaZms5RDd3YWFIdVo0SU5GS2ZncVdJeHVJR3IxUkYwdkdVVWhQNXVIT0x0eHRJRVlYRW5RWmpVR0dYaDZKMnVDNk9lTHJFV19pTkxjbGY2azkxSFdNVlM1SG1LR2RURVBTcg?oc=5",
+     "time": "2026-11-20T07:57:39+00:00"
+    },
+    {
+     "title": "Applied Materials Inc (AMAT) Shares Fall 3.8% -- What GF Score o",
+     "publisher": "GuruFocus",
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNRFUyaGNIcnZCNXFCOVZjQTJiei1rZlhqckRFRkpUNnV0X3FSUU5tX0x4VTZIdmJseDRCeFM4QlRaQ09ub3ZlY3k3RjZ2S0M1RTRRZFp4VjRMVE1GUm9ZblRZUWJueGhYWUNKbHZOVEtNYlB5QzlMbDJmeWZxQ0Jtamd2cGRiTXhzUWZfb0lyZHUyV3J4WEkzMHJFeU5hT0dLaHhGRFhwZUVCVHZVYmNFcDNTTndfV2M?oc=5",
+     "time": "2026-11-19T22:39:32+00:00"
+    },
+    {
+     "title": "Applied Materials Inc Stock (AMAT) Moved Down by 3.55% on Nov 19: Facts Behind the Movement",
+     "publisher": "TradingKey",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOU3l3b1ZaZmlBU1pfRjNwMjdyR3dyNlJvTldfaklwSFJ3ZVpJMzVoeU9FNWVRYkFZdGl5eDN4UExCMkpJQThMNG9XRlUxSVRsS19qbVRKclpQbnJnNjYxNWFEVy1odFlsZVc4Vm5LdFd1b1VVZzY1WjZ2RnhRdHFtUGk2NE9SSFU0MEIw?oc=5",
+     "time": "2026-11-19T20:15:34+00:00"
+    },
+    {
+     "title": "Applied Materials Is Still Up 35% This Year. Will AMAT Stock Hit $300 or $400 First?",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOa1MtdWE4ekZsZWpLdTFEVkpJX01JUDBXUXk2X3JXNUVIdjQyWFZsRU1jcUxRajhnaklGem5YQWJ2ak1ETGpINUhfd3NiR2M4R2lCQnl4RFFtazlYb2dHTnA5WnZobjZUVnItZXZrV0xoMFZBd25Zd3hFeHFzT1lZLXgxaF9KX2ZZWW5iRllQOWI2VjBWNGl2OWR5bmFzcUVlZzhwZnM4Wm1GZ0JhcjBBbDA0NjRlVWYxYzg0ZWhQZEM?oc=5",
+     "time": "2026-11-19T19:02:00+00:00"
+    },
+    {
+     "title": "ROK to Boost Intelligent Devices Segment With AGILOX Buyout",
+     "publisher": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNSVlGTEY4Vk9NdWlKeEVELVRLbkVUelFTdVBrdF9LOEtRYWtNeFc4cDBKemlBWjBNQ042STFtcXFFYnAtanQwaUlfSDUxNF9GUGtRMFFLclFLUmRmR0tzMzViOHpIdm1VenpyWmF6TWNuMUJBZ0FtaTRVX2JoVEg3dExrQnVGOHRJUDl5Y3l6ZWUzcHZ4bV9YT2h1cHpremNlM2swcndyVm1nN3hfcFJ1ejF4ZHItZw?oc=5",
+     "time": "2026-11-19T17:29:00+00:00"
+    },
+    {
+     "title": "AMAT, KLAC, LRCX, ASML: Bernstein Picks 4 Chip Stocks for the Global Semiconductor Spending Boom",
+     "publisher": "TipRanks",
+     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQWUV0NVJCLUNndmdfOEt6UnNFakZUMG1Xb1ZHNkkxZkt3TkJ5djRybUVsRWNDdjNWdmdpWmxUN3pqa2txblkyRS1oQlBsRDJfeWZwSVJqZWRud0hxRFRnWE8xVjJPNDRUYTUtdGg2d1I5aDFNUEREOTBSa1U1YlQ2RjlfV0o2TmN1QVNObDRFY1ZMekJ0aEs5UW9NbE9VRkxGczdpcTlIOW5VTDhUTDV1NnlldGFUanRPdHVxWTVmTTlPLWduazJWMXFR?oc=5",
+     "time": "2026-11-19T17:23:56+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
    "symbol": "AXON",
    "name": "Axon",
    "list": "watchlist",
-   "price": 322.79,
+   "price": 322.18,
    "prev_close": 306.98,
-   "change_pct": 5.2,
+   "change_pct": 5.0,
    "trigger_change": 5.4,
    "peak_change": 5.9,
    "first_seen": "2026-11-20T14:55:54+00:00",
    "sector": {
     "etf": "XLI",
     "name": "Industrials",
-    "price": 161.52,
-    "change_pct": 0.1
+    "price": 161.12,
+    "change_pct": -0.15
    },
    "chart": {
-    "ema8": 2.1,
-    "ema21": -7.1,
-    "sma50": -19.1,
-    "sma200": -30.3,
+    "ema8": 1.9,
+    "ema21": -7.3,
+    "sma50": -19.3,
+    "sma200": -30.4,
     "momentum": false
    },
    "headlines": [
@@ -396,85 +396,10 @@
    "brief": null
   },
   {
-   "symbol": "NOW",
-   "name": "ServiceNow",
-   "list": "portfolio",
-   "price": 93.1,
-   "prev_close": 88.87,
-   "change_pct": 4.8,
-   "trigger_change": 4.0,
-   "peak_change": 4.8,
-   "first_seen": "2026-11-20T15:06:22+00:00",
-   "sector": {
-    "etf": "IGV",
-    "name": "Software",
-    "price": 95.37,
-    "change_pct": -0.76
-   },
-   "chart": {
-    "ema8": -2.9,
-    "ema21": -13.7,
-    "sma50": -27.3,
-    "sma200": -17.8,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "ServiceNow (NOW) Stock Price Prediction: Oversold bounce or another leg lower?",
-     "publisher": "Blockchain News",
-     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPVlNaV2V5RG1SUzRualNDNFVnTFNoQTNyLU1VR1FDYmJNbTl5TldGQU5VemZ1aVE5a2lsdURSNm9VZU50Smd5aE9KSEQxMmdMYzJ3UjBodjR5eE00MUxBOTh6aEJCTHI1TnlqZV9ZcUJuYUZqdVk0eW9qdVFjczhaSC1hT1lzdkpxNWwySVlfeU1RWDJETHR3UkZuVQ?oc=5",
-     "time": "2026-11-20T09:38:00+00:00"
-    },
-    {
-     "title": "Twilio vs. ServiceNow: Which AI Software Stock Has the Edge?",
-     "publisher": "The Globe and Mail",
-     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNMEhNM3dpcnFpN1BTSTRfLWdpTUI2c3EwTm1wLWxhZXB4SVNPRmtuV2pXbWhYNGNSdEdyZUx0X3NTdWljTmFmdVJCN3c4V29zZjExNUpaSTFFdnhqSUZoUEFUM0g2VmFZZXQyQjBSWDN1UktxQ2xGYnJYd1UtTHpNSFZoS0l0NjBnREhiMmpiS0NiV08wQ3JuaWV4MTlpc3UyWE9HN1BKemdXZnRpdnJiNVpUcFIxYlFYZVNyRkJCVVJCXzM0N2ptSjQ4dU0yZmlYd0ZYS0ZVT21EZWM?oc=5",
-     "time": "2026-11-20T02:39:02+00:00"
-    },
-    {
-     "title": "ServiceNow Tokenized Stock (Robinhood) Price Today | Live NOW Price, Chart & Market Data",
-     "publisher": "Binance",
-     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1PZDN4d2NmVlgzeFk2ZUJiM29McndEMk43QzZmSVFrZEI4ajF2V1ZXckd3QVM3ZUt4TTN2UmNOS3lKRnZPS2FKN2JGekp3Q3ZocmliaHRqb09QWkxxT1cyT0ZNcEFNZFR6RnhNSm1ocEdlUXZWblJkZTNteF8?oc=5",
-     "time": "2026-11-19T22:44:00+00:00"
-    },
-    {
-     "title": "ServiceNow (NYSE:NOW) Insider Jacqueline Canney Sells 474 Shares of Company Stock",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPS21XeEkxUHpZRlktT3A2bG5QRFNjSmFSMDB3cE1ZdVNDYjZ4MDRFNTdyakVBaWV3Wkt6SXowejhvUzVNaTVNdFdnd2tBOWV5VkI5YmRLa0pCWFI4bEg3RWp2Y1hBUTV0ZjdZQi1xc2tFakJwUk5Ob3d2dmJVbEpUajVOV2FtV0RlV2M1MS1XcURkMjZkd3VqeEdNVFc1R2JmRzZ4NnJ6R3YxNDVzQTkzQXNleEo4VGZCZDVQNkFVeGt2dVRBYktSVEFfeHpwdm1zTzVnd2UwQUw?oc=5",
-     "time": "2026-11-19T22:35:45+00:00"
-    },
-    {
-     "title": "ServiceNow (NYSE:NOW) Stock Price Down 1.9% on Insider Selling",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxObG82bFlTaDk4eTZqWWdxNHhhWGYwajB3VlpZYVctRDliaExrYkFreWQ5Y2xWT0FPYTFCV2NHMUs2dGl2R1NmWUFlVzU1d0RUclJzbEp3M0JsQWR3WS14Q1ZKVnpQRWpaa0hCLTVtSmtza0ZLczBjNk5heGxIanh3STh2N0VPSVdfdUhCb2pBU29VWnZmNGNMSm94LWQ2ZnVDQ2xha0ZDSjRqQ0lpdlJaZWxkNVowNlZacHc?oc=5",
-     "time": "2026-11-19T22:33:55+00:00"
-    },
-    {
-     "title": "ServiceNow (NOW) CEO gets 4,160 shares from stock units and gives up 2,236 for tax withholding.",
-     "publisher": "Stock Titan",
-     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObXdYUDlERUhLbVdnUGk3TmFOSHpkS2Q1UjU1VHlSVVNRNnZfYTFSTWRfWTY3QlJzYXhObkRhUDRXZzlZbjY2eGJLbTQ0RlNwNmpoME1YVDUtQUNkMC0zVEJQdW9zN1VVRE9DRHNDMFk0NC0zRkNIeTlla09MT20xakNmX1E0U2lZbDlPMkZobThkc0V2ZThMM08wRTV5cHFMaVBZcmEzRWUteEtZ?oc=5",
-     "time": "2026-11-19T21:11:43+00:00"
-    },
-    {
-     "title": "Paul Fipps converts grants into ServiceNow (NOW) shares and gives up 136 and 118 shares for taxes.",
-     "publisher": "Stock Titan",
-     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPQkFmNFYtWUgtZWZpekhBN2hJbThBcXNtZENxUUI5N002RmFkb21OY2o3M1VRN0pxZDZ2T20zLWRKWjhwMkt1NVJjTnQ0dnFlTEEyX0x5a0RnLVliQ0R4RjlEeFVCR2RITTl3QnlDLXMwaHh2YVVYeGE5S1hLRjRQbzQwaENmd1I3QVhaLVN1NHpqaXdzYnhyUXc3dWR4UndaMHNFWDRvV3JkUmdk?oc=5",
-     "time": "2026-11-19T21:11:43+00:00"
-    },
-    {
-     "title": "After converting stock awards into 970 shares, ServiceNow (NOW) officer Canney sold 474 at $93 each.",
-     "publisher": "Stock Titan",
-     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNQkUwY29pOUZiZHZYUmY5eWNOTVRwNjVjWEFjc1FYeExwQW4zZzR0SXRGdWdHa3N0WjY2eS1fV2xtZ2p6Ui0xdW8wQUI0end4eGE5MVZmeFFfclNzZmpHV1JBenRLQlc3WWFtWFdhVnphazF5ZEprT2xta1k1SVdPRHExZlVoTFo1LXQ3dWZTSjN1WnhrZFpCOFV4N1gtUzZTTXVoUWQxQU1WTy16?oc=5",
-     "time": "2026-11-19T21:11:30+00:00"
-    }
-   ],
-   "brief": null
-  },
-  {
    "symbol": "UNH",
    "name": "UnitedHealth",
    "list": "portfolio",
-   "price": 345.92,
+   "price": 345.88,
    "prev_close": 330.48,
    "change_pct": 4.7,
    "trigger_change": 3.8,
@@ -483,14 +408,14 @@
    "sector": {
     "etf": "XLV",
     "name": "Health care",
-    "price": 180.42,
-    "change_pct": 1.67
+    "price": 180.32,
+    "change_pct": 1.61
    },
    "chart": {
     "ema8": -6.6,
     "ema21": -10.6,
     "sma50": -11.0,
-    "sma200": -6.1,
+    "sma200": -6.2,
     "momentum": false
    },
    "headlines": [
@@ -546,101 +471,26 @@
    "brief": null
   },
   {
-   "symbol": "CRWD",
-   "name": "CrowdStrike",
-   "list": "portfolio",
-   "price": 233.91,
-   "prev_close": 243.46,
-   "change_pct": -3.9,
-   "trigger_change": -4.2,
-   "peak_change": -4.2,
-   "first_seen": "2026-11-20T14:55:54+00:00",
-   "sector": {
-    "etf": "IGV",
-    "name": "Software",
-    "price": 95.37,
-    "change_pct": -0.76
-   },
-   "chart": {
-    "ema8": 0.6,
-    "ema21": -0.8,
-    "sma50": -5.4,
-    "sma200": 32.7,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "CrowdStrike (CRWD) Stock Price Prediction: Pullback meets steady analyst support as momentum cools",
-     "publisher": "Blockchain News",
-     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZnFmWklMUHlGUW1mQ1IwUGUyVkwydkYyNEtWdWJ1cHRCRmY2NWxMVlBaWHoxOEdfbEFQRXRyRzJDUWJCNmdZcmNLUkNuNS1JTHdHTW1xQm80Rklmc3c2Vy1udnRmbVRoNmsxRmREQ2p3LVNRX0JyX3M4T0tNWllwM3RITmZNZTk1clk2ZDZOR2tXaWJzdkdTaFZjMzJmTlZYM2c?oc=5",
-     "time": "2026-11-20T09:32:08+00:00"
-    },
-    {
-     "title": "CRWD Stock Quote Price and Forecast",
-     "publisher": "CNN",
-     "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5xZE5TVjR3TmhUdHhOcl9ibU1ieUpfd05kR0U3UU1qV1I0amtKNWZFUV9EYy1kMGE5elAtWlpfYVRLYXBEcHBZeGRHV1J5LUJr?oc=5",
-     "time": "2026-11-20T09:18:10+00:00"
-    },
-    {
-     "title": "CrowdStrike (CRWD) Brings Apple Device Automation Into Falcon Foundry Through A New Tie Up",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOUG83WnlQTTFVRHdmcENWWEVzQmFROFhnVk5rd01Dd2JoWWN1VFI1VG9JWXJQX2ZjdFZRVDV5U0R1YXplOXpZaVRfWS1zak91RXhUZ2g5UzBHUG55cjNmWjFTc0hDUTdJU2ZXR0pyaGwtZWhkQ1hNYVVpV1cwV3lucWNOcmhha3lpa0lZaTBYVzM0NW1TODlWa2hscHdoZw?oc=5",
-     "time": "2026-11-20T05:17:00+00:00"
-    },
-    {
-     "title": "Why CrowdStrike Holdings Stock Flew While the Market Flopped Today",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQVkxGemhPNUhLZUJlQi1GLXVNU0NjdW13Y3BVdGdVd0dCOUZVaTNKMGNzd19hVGNQUUhnVW1meFlXMmZPc0dMYzVidUpSa0FvcXd5UlJQSXZlc0o1cmdNQWcxdzVBbHBfTGRjRmVfZ1lyVW1LSkNVQ0poMW5BVHJMN0lJNzB0SHB1Q2s3bXZraEpyRzJ4NmhWckgtMm41ZGdLZmc?oc=5",
-     "time": "2026-11-20T01:27:00+00:00"
-    },
-    {
-     "title": "CrowdStrike Holdings \u2022 Robinhood Token - CRWD - Stock Price & News",
-     "publisher": "The Motley Fool",
-     "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5XWHJjeExNSm5OeHZ6Vi1yc1NseU94UGhXOW9BNmV6MnJRUWZaWXlzTmFOc3RnbmRyS2MxZW9adVFkbUpDWm95M0NXR3FRUHV2?oc=5",
-     "time": "2026-11-19T23:21:46+00:00"
-    },
-    {
-     "title": "Under a preset trading plan, George Kurtz sold 20,000 shares of CrowdStrike (CRWD).",
-     "publisher": "Stock Titan",
-     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOSC02WXY3WlVZYTRnSlN4aVhrSXJsQ1RqLUdBNXZHOVVic2I0aHpVSm96cjZYSVdwQS1hX2xkTnp1T0U0YTMwRHc4MWlzckt5OVlvaGFwaF9VQlA2WldzeVdLbUV0azVWbE54R2czY01JWVVkNFB4OUNmbWZYbm1PWUw2MVFPSnpTcnBadnlJNkFuTXNaTGtJazA3NXFqSTFVbEtRR2ZwYjc2U0t1aWY4RXBBWURtZE4xeXRB?oc=5",
-     "time": "2026-11-19T21:18:22+00:00"
-    },
-    {
-     "title": "CRWD Stock Hits $244.73 as Palo Alto Revenue Jumps 39%",
-     "publisher": "FinanceFeeds",
-     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTnVPcmNxWjdZcFc2aXUwbEozaDRXU1JFQVFOTl9iekNyTWpmcGpILWk0TTRnbmd4X3p1Z1BmcmUtTE53OXo0OURhajJqOVRUQmVDbWJBVHk2S0lTMHR1aFhEVTJRX3VIQVZBY0VDaFpmcVl4OHFhYXRJNEJ5RElxVk00QzA1MUs1aDF0VWdBdXQ2d0NJUFYw?oc=5",
-     "time": "2026-11-19T19:24:44+00:00"
-    },
-    {
-     "title": "CrowdStrike Holdings Inc Stock (CRWD) Moved Up by 7.24% on Nov 19: Key Drivers Unveiled",
-     "publisher": "TradingKey",
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQNE1nUnF5Q2pzTkxzZHNXSm03RlMyVUJMOVluUUFpQVVpQk8zMFBGc2NRaTAxRTJ1X3BaVWwzb1lCTEdURnVwWlk4R1NMcWJacTNMcXFPdnB3X2VKaHlueXMzbk5DRUNvRzBxSy12LVNMWGxYcWVXTklURXZvNVdOVW5Pb1F1YVkzTHhB?oc=5",
-     "time": "2026-11-19T16:15:24+00:00"
-    }
-   ],
-   "brief": null
-  },
-  {
    "symbol": "APP",
    "name": "AppLovin",
    "list": "portfolio",
-   "price": 364.35,
+   "price": 361.26,
    "prev_close": 379.02,
-   "change_pct": -3.9,
+   "change_pct": -4.7,
    "trigger_change": -3.9,
-   "peak_change": -3.9,
+   "peak_change": -4.7,
    "first_seen": "2026-11-20T15:11:23+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 95.37,
-    "change_pct": -0.76
+    "price": 94.87,
+    "change_pct": -1.28
    },
    "chart": {
-    "ema8": -4.4,
-    "ema21": 3.8,
-    "sma50": 17.7,
-    "sma200": -10.0,
+    "ema8": -5.0,
+    "ema21": 3.0,
+    "sma50": 16.7,
+    "sma200": -10.7,
     "momentum": true
    },
    "headlines": [
@@ -699,23 +549,23 @@
    "symbol": "NVDA",
    "name": "Nvidia",
    "list": "portfolio",
-   "price": 140.65,
+   "price": 139.69,
    "prev_close": 145.98,
-   "change_pct": -3.7,
+   "change_pct": -4.3,
    "trigger_change": -3.2,
-   "peak_change": -3.7,
+   "peak_change": -4.3,
    "first_seen": "2026-11-20T14:55:54+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 430.17,
-    "change_pct": -3.87
+    "price": 427.62,
+    "change_pct": -4.44
    },
    "chart": {
-    "ema8": -9.9,
-    "ema21": -20.6,
-    "sma50": -32.2,
-    "sma200": -30.9,
+    "ema8": -10.4,
+    "ema21": -21.1,
+    "sma50": -32.6,
+    "sma200": -31.3,
     "momentum": false
    },
    "headlines": [
@@ -766,6 +616,156 @@
      "publisher": "GuruFocus",
      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZW41TjRydDU2SkhrN3MtenJ2dUZucWR0U3ZwWmdlTXRPQVZMU2E1WXA2bW5CelZ6TTNRSGRYTVh5Sk16d1VfYWR4bVhhN1F6dGlpY1luT3pTVWpYcGoxQldGWVdSeC1ReXdqY0JObUFOdmppalY3MjczNlg2MFg0dDJFOTdOZmgzdHgxeTBSVjllSjUtYWY2eWF5ZWFlNzZa?oc=5",
      "time": "2026-11-20T12:17:23+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
+   "symbol": "CRWD",
+   "name": "CrowdStrike",
+   "list": "portfolio",
+   "price": 233.01,
+   "prev_close": 243.46,
+   "change_pct": -4.3,
+   "trigger_change": -4.2,
+   "peak_change": -4.3,
+   "first_seen": "2026-11-20T14:55:54+00:00",
+   "sector": {
+    "etf": "IGV",
+    "name": "Software",
+    "price": 94.87,
+    "change_pct": -1.28
+   },
+   "chart": {
+    "ema8": 0.3,
+    "ema21": -1.2,
+    "sma50": -5.7,
+    "sma200": 32.2,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "CrowdStrike (CRWD) Stock Price Prediction: Pullback meets steady analyst support as momentum cools",
+     "publisher": "Blockchain News",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZnFmWklMUHlGUW1mQ1IwUGUyVkwydkYyNEtWdWJ1cHRCRmY2NWxMVlBaWHoxOEdfbEFQRXRyRzJDUWJCNmdZcmNLUkNuNS1JTHdHTW1xQm80Rklmc3c2Vy1udnRmbVRoNmsxRmREQ2p3LVNRX0JyX3M4T0tNWllwM3RITmZNZTk1clk2ZDZOR2tXaWJzdkdTaFZjMzJmTlZYM2c?oc=5",
+     "time": "2026-11-20T09:32:08+00:00"
+    },
+    {
+     "title": "CRWD Stock Quote Price and Forecast",
+     "publisher": "CNN",
+     "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5xZE5TVjR3TmhUdHhOcl9ibU1ieUpfd05kR0U3UU1qV1I0amtKNWZFUV9EYy1kMGE5elAtWlpfYVRLYXBEcHBZeGRHV1J5LUJr?oc=5",
+     "time": "2026-11-20T09:18:10+00:00"
+    },
+    {
+     "title": "CrowdStrike (CRWD) Brings Apple Device Automation Into Falcon Foundry Through A New Tie Up",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOUG83WnlQTTFVRHdmcENWWEVzQmFROFhnVk5rd01Dd2JoWWN1VFI1VG9JWXJQX2ZjdFZRVDV5U0R1YXplOXpZaVRfWS1zak91RXhUZ2g5UzBHUG55cjNmWjFTc0hDUTdJU2ZXR0pyaGwtZWhkQ1hNYVVpV1cwV3lucWNOcmhha3lpa0lZaTBYVzM0NW1TODlWa2hscHdoZw?oc=5",
+     "time": "2026-11-20T05:17:00+00:00"
+    },
+    {
+     "title": "Why CrowdStrike Holdings Stock Flew While the Market Flopped Today",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQVkxGemhPNUhLZUJlQi1GLXVNU0NjdW13Y3BVdGdVd0dCOUZVaTNKMGNzd19hVGNQUUhnVW1meFlXMmZPc0dMYzVidUpSa0FvcXd5UlJQSXZlc0o1cmdNQWcxdzVBbHBfTGRjRmVfZ1lyVW1LSkNVQ0poMW5BVHJMN0lJNzB0SHB1Q2s3bXZraEpyRzJ4NmhWckgtMm41ZGdLZmc?oc=5",
+     "time": "2026-11-20T01:27:00+00:00"
+    },
+    {
+     "title": "CrowdStrike Holdings \u2022 Robinhood Token - CRWD - Stock Price & News",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5XWHJjeExNSm5OeHZ6Vi1yc1NseU94UGhXOW9BNmV6MnJRUWZaWXlzTmFOc3RnbmRyS2MxZW9adVFkbUpDWm95M0NXR3FRUHV2?oc=5",
+     "time": "2026-11-19T23:21:46+00:00"
+    },
+    {
+     "title": "Under a preset trading plan, George Kurtz sold 20,000 shares of CrowdStrike (CRWD).",
+     "publisher": "Stock Titan",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOSC02WXY3WlVZYTRnSlN4aVhrSXJsQ1RqLUdBNXZHOVVic2I0aHpVSm96cjZYSVdwQS1hX2xkTnp1T0U0YTMwRHc4MWlzckt5OVlvaGFwaF9VQlA2WldzeVdLbUV0azVWbE54R2czY01JWVVkNFB4OUNmbWZYbm1PWUw2MVFPSnpTcnBadnlJNkFuTXNaTGtJazA3NXFqSTFVbEtRR2ZwYjc2U0t1aWY4RXBBWURtZE4xeXRB?oc=5",
+     "time": "2026-11-19T21:18:22+00:00"
+    },
+    {
+     "title": "CRWD Stock Hits $244.73 as Palo Alto Revenue Jumps 39%",
+     "publisher": "FinanceFeeds",
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTnVPcmNxWjdZcFc2aXUwbEozaDRXU1JFQVFOTl9iekNyTWpmcGpILWk0TTRnbmd4X3p1Z1BmcmUtTE53OXo0OURhajJqOVRUQmVDbWJBVHk2S0lTMHR1aFhEVTJRX3VIQVZBY0VDaFpmcVl4OHFhYXRJNEJ5RElxVk00QzA1MUs1aDF0VWdBdXQ2d0NJUFYw?oc=5",
+     "time": "2026-11-19T19:24:44+00:00"
+    },
+    {
+     "title": "CrowdStrike Holdings Inc Stock (CRWD) Moved Up by 7.24% on Nov 19: Key Drivers Unveiled",
+     "publisher": "TradingKey",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQNE1nUnF5Q2pzTkxzZHNXSm03RlMyVUJMOVluUUFpQVVpQk8zMFBGc2NRaTAxRTJ1X3BaVWwzb1lCTEdURnVwWlk4R1NMcWJacTNMcXFPdnB3X2VKaHlueXMzbk5DRUNvRzBxSy12LVNMWGxYcWVXTklURXZvNVdOVW5Pb1F1YVkzTHhB?oc=5",
+     "time": "2026-11-19T16:15:24+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
+   "symbol": "NOW",
+   "name": "ServiceNow",
+   "list": "portfolio",
+   "price": 92.21,
+   "prev_close": 88.87,
+   "change_pct": 3.8,
+   "trigger_change": 4.0,
+   "peak_change": 4.8,
+   "first_seen": "2026-11-20T15:06:22+00:00",
+   "sector": {
+    "etf": "IGV",
+    "name": "Software",
+    "price": 94.87,
+    "change_pct": -1.28
+   },
+   "chart": {
+    "ema8": -3.6,
+    "ema21": -14.5,
+    "sma50": -27.9,
+    "sma200": -18.6,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "ServiceNow (NOW) Stock Price Prediction: Oversold bounce or another leg lower?",
+     "publisher": "Blockchain News",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPVlNaV2V5RG1SUzRualNDNFVnTFNoQTNyLU1VR1FDYmJNbTl5TldGQU5VemZ1aVE5a2lsdURSNm9VZU50Smd5aE9KSEQxMmdMYzJ3UjBodjR5eE00MUxBOTh6aEJCTHI1TnlqZV9ZcUJuYUZqdVk0eW9qdVFjczhaSC1hT1lzdkpxNWwySVlfeU1RWDJETHR3UkZuVQ?oc=5",
+     "time": "2026-11-20T09:38:00+00:00"
+    },
+    {
+     "title": "Twilio vs. ServiceNow: Which AI Software Stock Has the Edge?",
+     "publisher": "The Globe and Mail",
+     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNMEhNM3dpcnFpN1BTSTRfLWdpTUI2c3EwTm1wLWxhZXB4SVNPRmtuV2pXbWhYNGNSdEdyZUx0X3NTdWljTmFmdVJCN3c4V29zZjExNUpaSTFFdnhqSUZoUEFUM0g2VmFZZXQyQjBSWDN1UktxQ2xGYnJYd1UtTHpNSFZoS0l0NjBnREhiMmpiS0NiV08wQ3JuaWV4MTlpc3UyWE9HN1BKemdXZnRpdnJiNVpUcFIxYlFYZVNyRkJCVVJCXzM0N2ptSjQ4dU0yZmlYd0ZYS0ZVT21EZWM?oc=5",
+     "time": "2026-11-20T02:39:02+00:00"
+    },
+    {
+     "title": "ServiceNow Tokenized Stock (Robinhood) Price Today | Live NOW Price, Chart & Market Data",
+     "publisher": "Binance",
+     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1PZDN4d2NmVlgzeFk2ZUJiM29McndEMk43QzZmSVFrZEI4ajF2V1ZXckd3QVM3ZUt4TTN2UmNOS3lKRnZPS2FKN2JGekp3Q3ZocmliaHRqb09QWkxxT1cyT0ZNcEFNZFR6RnhNSm1ocEdlUXZWblJkZTNteF8?oc=5",
+     "time": "2026-11-19T22:44:00+00:00"
+    },
+    {
+     "title": "ServiceNow (NYSE:NOW) Insider Jacqueline Canney Sells 474 Shares of Company Stock",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPS21XeEkxUHpZRlktT3A2bG5QRFNjSmFSMDB3cE1ZdVNDYjZ4MDRFNTdyakVBaWV3Wkt6SXowejhvUzVNaTVNdFdnd2tBOWV5VkI5YmRLa0pCWFI4bEg3RWp2Y1hBUTV0ZjdZQi1xc2tFakJwUk5Ob3d2dmJVbEpUajVOV2FtV0RlV2M1MS1XcURkMjZkd3VqeEdNVFc1R2JmRzZ4NnJ6R3YxNDVzQTkzQXNleEo4VGZCZDVQNkFVeGt2dVRBYktSVEFfeHpwdm1zTzVnd2UwQUw?oc=5",
+     "time": "2026-11-19T22:35:45+00:00"
+    },
+    {
+     "title": "ServiceNow (NYSE:NOW) Stock Price Down 1.9% on Insider Selling",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxObG82bFlTaDk4eTZqWWdxNHhhWGYwajB3VlpZYVctRDliaExrYkFreWQ5Y2xWT0FPYTFCV2NHMUs2dGl2R1NmWUFlVzU1d0RUclJzbEp3M0JsQWR3WS14Q1ZKVnpQRWpaa0hCLTVtSmtza0ZLczBjNk5heGxIanh3STh2N0VPSVdfdUhCb2pBU29VWnZmNGNMSm94LWQ2ZnVDQ2xha0ZDSjRqQ0lpdlJaZWxkNVowNlZacHc?oc=5",
+     "time": "2026-11-19T22:33:55+00:00"
+    },
+    {
+     "title": "ServiceNow (NOW) CEO gets 4,160 shares from stock units and gives up 2,236 for tax withholding.",
+     "publisher": "Stock Titan",
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObXdYUDlERUhLbVdnUGk3TmFOSHpkS2Q1UjU1VHlSVVNRNnZfYTFSTWRfWTY3QlJzYXhObkRhUDRXZzlZbjY2eGJLbTQ0RlNwNmpoME1YVDUtQUNkMC0zVEJQdW9zN1VVRE9DRHNDMFk0NC0zRkNIeTlla09MT20xakNmX1E0U2lZbDlPMkZobThkc0V2ZThMM08wRTV5cHFMaVBZcmEzRWUteEtZ?oc=5",
+     "time": "2026-11-19T21:11:43+00:00"
+    },
+    {
+     "title": "Paul Fipps converts grants into ServiceNow (NOW) shares and gives up 136 and 118 shares for taxes.",
+     "publisher": "Stock Titan",
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPQkFmNFYtWUgtZWZpekhBN2hJbThBcXNtZENxUUI5N002RmFkb21OY2o3M1VRN0pxZDZ2T20zLWRKWjhwMkt1NVJjTnQ0dnFlTEEyX0x5a0RnLVliQ0R4RjlEeFVCR2RITTl3QnlDLXMwaHh2YVVYeGE5S1hLRjRQbzQwaENmd1I3QVhaLVN1NHpqaXdzYnhyUXc3dWR4UndaMHNFWDRvV3JkUmdk?oc=5",
+     "time": "2026-11-19T21:11:43+00:00"
+    },
+    {
+     "title": "After converting stock awards into 970 shares, ServiceNow (NOW) officer Canney sold 474 at $93 each.",
+     "publisher": "Stock Titan",
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNQkUwY29pOUZiZHZYUmY5eWNOTVRwNjVjWEFjc1FYeExwQW4zZzR0SXRGdWdHa3N0WjY2eS1fV2xtZ2p6Ui0xdW8wQUI0end4eGE5MVZmeFFfclNzZmpHV1JBenRLQlc3WWFtWFdhVnphazF5ZEprT2xta1k1SVdPRHExZlVoTFo1LXQ3dWZTSjN1WnhrZFpCOFV4N1gtUzZTTXVoUWQxQU1WTy16?oc=5",
+     "time": "2026-11-19T21:11:30+00:00"
     }
    ],
    "brief": null
