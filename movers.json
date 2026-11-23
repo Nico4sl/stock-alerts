@@ -1,22 +1,22 @@
 {
  "date": "2026-11-23",
  "threshold": 3.0,
- "updated": "2026-11-23T20:54:07+00:00",
+ "updated": "2026-11-23T20:59:18+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 721.7,
-   "change_pct": 4.62
+   "price": 722.75,
+   "change_pct": 4.78
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 649.87,
-   "change_pct": 6.81
+   "price": 651.28,
+   "change_pct": 7.04
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 81.67,
-   "change_pct": 0.28
+   "price": 81.63,
+   "change_pct": 0.22
   }
  },
  "movers": [
@@ -24,23 +24,23 @@
    "symbol": "NVDA",
    "name": "Nvidia",
    "list": "portfolio",
-   "price": 164.65,
+   "price": 165.1,
    "prev_close": 125.53,
-   "change_pct": 31.2,
+   "change_pct": 31.5,
    "trigger_change": 32.0,
    "peak_change": 36.3,
    "first_seen": "2026-11-23T14:55:58+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 458.56,
-    "change_pct": 14.62
+    "price": 458.84,
+    "change_pct": 14.69
    },
    "chart": {
-    "ema8": 6.0,
-    "ema21": -5.7,
-    "sma50": -20.1,
-    "sma200": -19.0,
+    "ema8": 6.2,
+    "ema21": -5.5,
+    "sma50": -19.9,
+    "sma200": -18.8,
     "momentum": false
    },
    "headlines": [
@@ -99,22 +99,22 @@
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 97.58,
+   "price": 97.65,
    "prev_close": 81.31,
-   "change_pct": 20.0,
+   "change_pct": 20.1,
    "trigger_change": 20.7,
    "peak_change": 28.7,
    "first_seen": "2026-11-23T14:55:58+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 95.17,
-    "change_pct": 3.83
+    "price": 95.26,
+    "change_pct": 3.93
    },
    "chart": {
     "ema8": -7.3,
-    "ema21": -24.8,
-    "sma50": -45.5,
+    "ema21": -24.7,
+    "sma50": -45.4,
     "sma200": -45.7,
     "momentum": false
    },
@@ -174,23 +174,23 @@
    "symbol": "AMAT",
    "name": "Applied Materials",
    "list": "portfolio",
-   "price": 345.94,
+   "price": 347.11,
    "prev_close": 302.63,
-   "change_pct": 14.3,
+   "change_pct": 14.7,
    "trigger_change": 12.5,
    "peak_change": 15.4,
    "first_seen": "2026-11-23T14:55:58+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 458.56,
-    "change_pct": 14.62
+    "price": 458.84,
+    "change_pct": 14.69
    },
    "chart": {
-    "ema8": 0.3,
-    "ema21": -6.2,
-    "sma50": -18.4,
-    "sma200": -22.7,
+    "ema8": 0.5,
+    "ema21": -5.9,
+    "sma50": -18.2,
+    "sma200": -22.4,
     "momentum": false
    },
    "headlines": [
@@ -249,23 +249,23 @@
    "symbol": "CRWD",
    "name": "CrowdStrike",
    "list": "portfolio",
-   "price": 207.37,
+   "price": 208.97,
    "prev_close": 229.44,
-   "change_pct": -9.6,
+   "change_pct": -8.9,
    "trigger_change": -9.3,
    "peak_change": -12.2,
    "first_seen": "2026-11-23T14:55:58+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 95.17,
-    "change_pct": 3.83
+    "price": 95.26,
+    "change_pct": 3.93
    },
    "chart": {
-    "ema8": -8.3,
-    "ema21": -11.0,
-    "sma50": -15.9,
-    "sma200": 17.3,
+    "ema8": -7.8,
+    "ema21": -10.3,
+    "sma50": -15.2,
+    "sma200": 18.2,
     "momentum": false
    },
    "headlines": [],
@@ -275,23 +275,23 @@
    "symbol": "APP",
    "name": "AppLovin",
    "list": "portfolio",
-   "price": 373.62,
+   "price": 373.92,
    "prev_close": 348.29,
-   "change_pct": 7.3,
+   "change_pct": 7.4,
    "trigger_change": 5.9,
    "peak_change": 10.2,
    "first_seen": "2026-11-23T14:55:58+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 95.17,
-    "change_pct": 3.83
+    "price": 95.26,
+    "change_pct": 3.93
    },
    "chart": {
-    "ema8": -0.8,
+    "ema8": -0.7,
     "ema21": 6.3,
-    "sma50": 20.5,
-    "sma200": -7.6,
+    "sma50": 20.6,
+    "sma200": -7.5,
     "momentum": true
    },
    "headlines": [
@@ -338,23 +338,23 @@
    "symbol": "META",
    "name": "Meta",
    "list": "portfolio",
-   "price": 598.52,
+   "price": 597.57,
    "prev_close": 560.84,
-   "change_pct": 6.7,
+   "change_pct": 6.5,
    "trigger_change": 4.6,
    "peak_change": 7.3,
    "first_seen": "2026-11-23T14:55:58+00:00",
    "sector": {
     "etf": "XLC",
     "name": "Communication",
-    "price": 103.56,
-    "change_pct": 3.53
+    "price": 103.6,
+    "change_pct": 3.57
    },
    "chart": {
-    "ema8": -0.9,
-    "ema21": -4.2,
-    "sma50": -11.4,
-    "sma200": -4.7,
+    "ema8": -1.1,
+    "ema21": -4.4,
+    "sma50": -11.5,
+    "sma200": -4.9,
     "momentum": false
    },
    "headlines": [
@@ -410,101 +410,26 @@
    "brief": "2026-11-23-META"
   },
   {
-   "symbol": "GOOG",
-   "name": "Alphabet",
-   "list": "portfolio",
-   "price": 280.3,
-   "prev_close": 264.0,
-   "change_pct": 6.2,
-   "trigger_change": 4.9,
-   "peak_change": 7.0,
-   "first_seen": "2026-11-23T14:55:58+00:00",
-   "sector": {
-    "etf": "XLC",
-    "name": "Communication",
-    "price": 103.56,
-    "change_pct": 3.53
-   },
-   "chart": {
-    "ema8": 0.7,
-    "ema21": -3.3,
-    "sma50": -11.8,
-    "sma200": -16.2,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Why Alphabet Stock Popped Today",
-     "publisher": "The Motley Fool",
-     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1CVnYwOHNFS3l2RERENEd6NDg3clZ0Qm1oSDRuVmlWZENOQVlOV0lZWThlUFdBNmFpUkJoZWdSQU1GSkt1NkdYV3F1Tl9tMkJCTHk4eEtTUnlnM0hHd2plR2x6ZHltSmJSeE5QaHhBOWhkT3V1YzJWQjUtNmw3ZEE?oc=5",
-     "time": "2026-11-23T19:36:41+00:00"
-    },
-    {
-     "title": "Alphabet Stock Pops: What's Going On?",
-     "publisher": "Benzinga",
-     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOc1RxLWU5d3g3QTUxMk1LUm5fRjhnYlJ6UnVVb2VMVmtOemZFU0RGUjBaQVpwYkUwa052R0pFUFZReE00RWRxdjB1UnlROE5VNS1CVDVuSEhLdThDeElCVmd0bGYwS01yX1g1QXlWeE1FZV9OaWNCWXlraXd2ZmQ2SlJJdkhOMlR3WjllY2I2NDl5RXFWOFgtVXl1aw?oc=5",
-     "time": "2026-11-23T19:19:17+00:00"
-    },
-    {
-     "title": "Alphabet Soars 6% as Jensen Huang\u2019s Return to Nvidia Reignites AI Stocks",
-     "publisher": "TIKR.com",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOdEV4a1JPOXdVbmVtaVlpVFljd29kczN5cXQ4eUNpbXJrUUM4U2JXNVNuSExvc3JiUlVfN1ZSM2Q4SFpkaGRFWWZTVGhrZXlzUHRsdEZpX1VqaWRJR2FFemE5QXphX3ZINzlEVGNST1VhVmFVeUJnLVUwQW9rbmpzRVBCLVFNZW5Oa0k3b2tlS3gxNzE1dDQ1c2F3d255dw?oc=5",
-     "time": "2026-11-23T19:12:01+00:00"
-    },
-    {
-     "title": "Alphabet Stocks Jump 6.97% as AI Rebound Spotlights Google Cloud's 103% Growth",
-     "publisher": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxONFIySUZxNS03YmxMaXVwWWNfb0N0MDQ3RnJ6d081VHdwd0NkWW9lT09Ha09HNFM0QUpLWnVLWlp2cGxCMFZMa04wWWJGV0lPNUpVMVFjcElxUFcweUtPNlg0aWt2a1Z6VVdTYXJXVml6U2dzR0xHQkM2V05DZElyUHhSd2tRVmVCeVFvWGJtUUQ5czdkMm8tZktWT3p2S040bFJUd1V2V1JrdzVldmI2c2RrWWl3ZTRYR25GMGlIdUNxZUtPT0tmWWRhb0lGWVNNYWc?oc=5",
-     "time": "2026-11-23T17:55:21+00:00"
-    },
-    {
-     "title": "A $2.5 Billion Fund Just Bought These 3 Stocks",
-     "publisher": "TIKR.com",
-     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQc1B2UzV4Q3M1RERJNmRuZm9VTXJGd18zOVhvNTE5dDVxcDhYcEhmaTBERF84MFgwdUFtRXFWeHpLVTFkTmJFdm9jbmVPc0RBbWw0NWZlQmdiQVJXZ2h4R21oWU56cTRQT094LVZxbEZESE1Qc2lJUDVYa1lveEF6RERTWFpmakxRRFY5RDhxcEVrLXZzaW1aZDV3cFV6VWhON3BQQ3pwSXlTLXhkQldSMDVR?oc=5",
-     "time": "2026-11-23T17:07:38+00:00"
-    },
-    {
-     "title": "Google Stock Falls 18% Amid Decline in Search Advertising Revenue",
-     "publisher": "RS Web Solutions",
-     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNaDVuYnM0cDBOeWdNa2F6V18wSTBYV1JoMGItQVZmOWFqOVVJMUd2WjE1c08wYnZHbThPaFBrVDVKckZWZzRzU0tWeExOWEw0UFlZbWVVbFlnRy1tbS1NSG1qWTJHZUFnTWtFRk9iWTcxX2FBdTc4SDV4eDhsYS1OYUI4S1c3azhWOFRwTF9EQ05ZTklqNGQw?oc=5",
-     "time": "2026-11-23T17:00:00+00:00"
-    },
-    {
-     "title": "Alphabet Stock Jumps More Than 4% as AI Optimism and Google Cloud Growth Lift Investor Sentiment",
-     "publisher": "Speaks Media",
-     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPQzdDd055ZFRlWE93MXpINlkzUi1lcnlYeHVHNFRoc0F1VDlzNmd5S2wydnR6NWthdG1hSWgwUFpyNFpzMlpjZTNkR1hVd21ibGw3ME1rQVVlUnhWeV9STnpDYmp4aG5MTU9IbVJhWkFuQ2lJWmNJMVVFdThVdmRidlN4akV2aDNBbDRzX2ZOYlc0R1czelFRNkVNVGJVQUJ1aWdjNU5QQjhxV2RTdExUTGFtMnlRZzA1MzVpeUdzS3BuX25U?oc=5",
-     "time": "2026-11-23T15:42:18+00:00"
-    },
-    {
-     "title": "Alphabet\u2019s Spending Could Unlock a Massive Opportunity Investors Aren\u2019t Pricing In",
-     "publisher": "24/7 Wall St.",
-     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPU05QMVItMzB1Z0JINVJyMVQ5LXlxZU5jRTdrYzZNUXlPSmpBQjR0eGJvX0hxM3NiYm55a3FDV3I5TVotZ1dWYVcwazd6V3BrWmhieldLZHE5aldTUU42UEk1TDYzSjZDdnJpNXlGU3I3bUx0U1B0b3piLS1iNW5BTFVOVk9JYnYtVEw1SzJELWJuRnVaeFFfTTZpTHpIM2VwZGVNcWdPSENxNFV5Z09ZMmVGUUVwcV9Hb2VnZ2lqemJfQQ?oc=5",
-     "time": "2026-11-23T15:03:00+00:00"
-    }
-   ],
-   "brief": "2026-11-23-GOOG"
-  },
-  {
    "symbol": "ANET",
    "name": "Arista Networks",
    "list": "portfolio",
-   "price": 177.19,
+   "price": 178.16,
    "prev_close": 167.62,
-   "change_pct": 5.7,
+   "change_pct": 6.3,
    "trigger_change": 7.9,
    "peak_change": 10.3,
    "first_seen": "2026-11-23T14:55:58+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 458.56,
-    "change_pct": 14.62
+    "price": 458.84,
+    "change_pct": 14.69
    },
    "chart": {
-    "ema8": -3.2,
-    "ema21": -4.0,
-    "sma50": -7.6,
-    "sma200": 5.0,
+    "ema8": -2.8,
+    "ema21": -3.5,
+    "sma50": -7.1,
+    "sma200": 5.6,
     "momentum": false
    },
    "headlines": [
@@ -560,26 +485,101 @@
    "brief": "2026-11-23-ANET"
   },
   {
+   "symbol": "GOOG",
+   "name": "Alphabet",
+   "list": "portfolio",
+   "price": 279.55,
+   "prev_close": 264.0,
+   "change_pct": 5.9,
+   "trigger_change": 4.9,
+   "peak_change": 7.0,
+   "first_seen": "2026-11-23T14:55:58+00:00",
+   "sector": {
+    "etf": "XLC",
+    "name": "Communication",
+    "price": 103.6,
+    "change_pct": 3.57
+   },
+   "chart": {
+    "ema8": 0.5,
+    "ema21": -3.5,
+    "sma50": -12.1,
+    "sma200": -16.5,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Why Alphabet Stock Popped Today",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1CVnYwOHNFS3l2RERENEd6NDg3clZ0Qm1oSDRuVmlWZENOQVlOV0lZWThlUFdBNmFpUkJoZWdSQU1GSkt1NkdYV3F1Tl9tMkJCTHk4eEtTUnlnM0hHd2plR2x6ZHltSmJSeE5QaHhBOWhkT3V1YzJWQjUtNmw3ZEE?oc=5",
+     "time": "2026-11-23T19:36:41+00:00"
+    },
+    {
+     "title": "Alphabet Stock Pops: What's Going On?",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOc1RxLWU5d3g3QTUxMk1LUm5fRjhnYlJ6UnVVb2VMVmtOemZFU0RGUjBaQVpwYkUwa052R0pFUFZReE00RWRxdjB1UnlROE5VNS1CVDVuSEhLdThDeElCVmd0bGYwS01yX1g1QXlWeE1FZV9OaWNCWXlraXd2ZmQ2SlJJdkhOMlR3WjllY2I2NDl5RXFWOFgtVXl1aw?oc=5",
+     "time": "2026-11-23T19:19:17+00:00"
+    },
+    {
+     "title": "Alphabet Soars 6% as Jensen Huang\u2019s Return to Nvidia Reignites AI Stocks",
+     "publisher": "TIKR.com",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOdEV4a1JPOXdVbmVtaVlpVFljd29kczN5cXQ4eUNpbXJrUUM4U2JXNVNuSExvc3JiUlVfN1ZSM2Q4SFpkaGRFWWZTVGhrZXlzUHRsdEZpX1VqaWRJR2FFemE5QXphX3ZINzlEVGNST1VhVmFVeUJnLVUwQW9rbmpzRVBCLVFNZW5Oa0k3b2tlS3gxNzE1dDQ1c2F3d255dw?oc=5",
+     "time": "2026-11-23T19:12:01+00:00"
+    },
+    {
+     "title": "Alphabet Stocks Jump 6.97% as AI Rebound Spotlights Google Cloud's 103% Growth",
+     "publisher": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxONFIySUZxNS03YmxMaXVwWWNfb0N0MDQ3RnJ6d081VHdwd0NkWW9lT09Ha09HNFM0QUpLWnVLWlp2cGxCMFZMa04wWWJGV0lPNUpVMVFjcElxUFcweUtPNlg0aWt2a1Z6VVdTYXJXVml6U2dzR0xHQkM2V05DZElyUHhSd2tRVmVCeVFvWGJtUUQ5czdkMm8tZktWT3p2S040bFJUd1V2V1JrdzVldmI2c2RrWWl3ZTRYR25GMGlIdUNxZUtPT0tmWWRhb0lGWVNNYWc?oc=5",
+     "time": "2026-11-23T17:55:21+00:00"
+    },
+    {
+     "title": "A $2.5 Billion Fund Just Bought These 3 Stocks",
+     "publisher": "TIKR.com",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQc1B2UzV4Q3M1RERJNmRuZm9VTXJGd18zOVhvNTE5dDVxcDhYcEhmaTBERF84MFgwdUFtRXFWeHpLVTFkTmJFdm9jbmVPc0RBbWw0NWZlQmdiQVJXZ2h4R21oWU56cTRQT094LVZxbEZESE1Qc2lJUDVYa1lveEF6RERTWFpmakxRRFY5RDhxcEVrLXZzaW1aZDV3cFV6VWhON3BQQ3pwSXlTLXhkQldSMDVR?oc=5",
+     "time": "2026-11-23T17:07:38+00:00"
+    },
+    {
+     "title": "Google Stock Falls 18% Amid Decline in Search Advertising Revenue",
+     "publisher": "RS Web Solutions",
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNaDVuYnM0cDBOeWdNa2F6V18wSTBYV1JoMGItQVZmOWFqOVVJMUd2WjE1c08wYnZHbThPaFBrVDVKckZWZzRzU0tWeExOWEw0UFlZbWVVbFlnRy1tbS1NSG1qWTJHZUFnTWtFRk9iWTcxX2FBdTc4SDV4eDhsYS1OYUI4S1c3azhWOFRwTF9EQ05ZTklqNGQw?oc=5",
+     "time": "2026-11-23T17:00:00+00:00"
+    },
+    {
+     "title": "Alphabet Stock Jumps More Than 4% as AI Optimism and Google Cloud Growth Lift Investor Sentiment",
+     "publisher": "Speaks Media",
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPQzdDd055ZFRlWE93MXpINlkzUi1lcnlYeHVHNFRoc0F1VDlzNmd5S2wydnR6NWthdG1hSWgwUFpyNFpzMlpjZTNkR1hVd21ibGw3ME1rQVVlUnhWeV9STnpDYmp4aG5MTU9IbVJhWkFuQ2lJWmNJMVVFdThVdmRidlN4akV2aDNBbDRzX2ZOYlc0R1czelFRNkVNVGJVQUJ1aWdjNU5QQjhxV2RTdExUTGFtMnlRZzA1MzVpeUdzS3BuX25U?oc=5",
+     "time": "2026-11-23T15:42:18+00:00"
+    },
+    {
+     "title": "Alphabet\u2019s Spending Could Unlock a Massive Opportunity Investors Aren\u2019t Pricing In",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPU05QMVItMzB1Z0JINVJyMVQ5LXlxZU5jRTdrYzZNUXlPSmpBQjR0eGJvX0hxM3NiYm55a3FDV3I5TVotZ1dWYVcwazd6V3BrWmhieldLZHE5aldTUU42UEk1TDYzSjZDdnJpNXlGU3I3bUx0U1B0b3piLS1iNW5BTFVOVk9JYnYtVEw1SzJELWJuRnVaeFFfTTZpTHpIM2VwZGVNcWdPSENxNFV5Z09ZMmVGUUVwcV9Hb2VnZ2lqemJfQQ?oc=5",
+     "time": "2026-11-23T15:03:00+00:00"
+    }
+   ],
+   "brief": "2026-11-23-GOOG"
+  },
+  {
    "symbol": "AXON",
    "name": "Axon",
    "list": "watchlist",
-   "price": 307.08,
+   "price": 307.76,
    "prev_close": 291.14,
-   "change_pct": 5.5,
+   "change_pct": 5.7,
    "trigger_change": 3.6,
    "peak_change": 6.3,
    "first_seen": "2026-11-23T14:55:58+00:00",
    "sector": {
     "etf": "XLI",
     "name": "Industrials",
-    "price": 162.62,
-    "change_pct": 4.0
+    "price": 162.47,
+    "change_pct": 3.9
    },
    "chart": {
-    "ema8": -0.5,
-    "ema21": -10.0,
-    "sma50": -22.2,
-    "sma200": -33.6,
+    "ema8": -0.4,
+    "ema21": -9.8,
+    "sma50": -22.1,
+    "sma200": -33.4,
     "momentum": false
    },
    "headlines": [
@@ -638,21 +638,21 @@
    "symbol": "MELI",
    "name": "MercadoLibre",
    "list": "watchlist",
-   "price": 1424.21,
+   "price": 1425.14,
    "prev_close": 1355.0,
-   "change_pct": 5.1,
+   "change_pct": 5.2,
    "trigger_change": 3.7,
    "peak_change": 5.6,
    "first_seen": "2026-11-23T14:55:58+00:00",
    "sector": {
     "etf": "XLY",
     "name": "Consumer discr.",
-    "price": 116.98,
-    "change_pct": 4.02
+    "price": 116.93,
+    "change_pct": 3.97
    },
    "chart": {
     "ema8": -0.4,
-    "ema21": -7.1,
+    "ema21": -7.0,
     "sma50": -16.2,
     "sma200": -19.2,
     "momentum": false
@@ -704,10 +704,85 @@
    "brief": "2026-11-23-MELI"
   },
   {
+   "symbol": "SOFI",
+   "name": "SoFi",
+   "list": "portfolio",
+   "price": 13.09,
+   "prev_close": 12.48,
+   "change_pct": 4.9,
+   "trigger_change": 7.9,
+   "peak_change": 9.5,
+   "first_seen": "2026-11-23T14:55:58+00:00",
+   "sector": {
+    "etf": "XLF",
+    "name": "Financials",
+    "price": 55.65,
+    "change_pct": 1.98
+   },
+   "chart": {
+    "ema8": -6.6,
+    "ema21": -12.7,
+    "sma50": -16.7,
+    "sma200": -23.4,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "SoFi Stock Plunges to 52-Week Low as Investors Weigh a High-Risk Options Income Opportunity",
+     "publisher": "Speaks Media",
+     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxORmNIMjBwSG1vRnNIMHB0Tm0tM0NSSnE5d2tIeWsxUHNmdllvR0JDLTJtN0xKOXRzVkJEUW9ZcVFIbGxiVy1LMmVDSXlTaGZFRkdjTXQ3M2ZZUmIyZVVkSm9ZTXZEdjdMNzhsWjRaSjVSbUMwdUZMTUFWUkN3ZFphZGJFVGg2eFNTeGN1TFlFbWZ0R3VzNGxKaGhRSjhVN2lDLXZacU5TbUtVZV9oT3ZjVFJyblBoZW80U0gwVXdjRQ?oc=5",
+     "time": "2026-11-23T18:04:48+00:00"
+    },
+    {
+     "title": "SoFi Technologies' Member Base Rises: Can Revenues Accelerate?",
+     "publisher": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPRWVsTDBUTVBIemFyMmVJdGhmWWpDQ2ttN0dYOFdzekJzR1lSWTdNellnQXZJREF5UktSZ1FwaWpBLS1zNGtXNkw3bDBKeTJvVW1ZXzRJUk5fUXZqOTlNbjZjM19zem9CZkpuNURsQkYzZWFJRjN0bmtzTlVBVHZaLXB3S1hpQjdsNzhGckxNMXNNZzl3WnZuQWZSZGxremduSkp5d1UweTN5bTZlRlRuM3VfVTdRUQ?oc=5",
+     "time": "2026-11-23T17:21:00+00:00"
+    },
+    {
+     "title": "SoFi Drops 12% Over 30 Days: 140% Returns Coming According to This Wall Street Analysts, Others Not Far Behind",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOdzA1ZzRjRU1NcS1PTVdWRUtwNFdZbWlodXJ1LWRQcnI2V0szZm4tekpYbWZWS3d1S1VMRGJXY3ZSMzJOa1IyQlVKc2Y4M1NGbG1pMEpYUVR3aG9vRWwxVmlLNUg4QlpRVDcwSUxXZkhkTl9xYmNhZEI0NXc2cUZZenRXMnRwa0RvTktNTFR3UzZ2cWFzREdVc0djYlZXaG8wSjkxQkRidVpvdmZueHVjZUh0clBYdHlmUWI2V0VFcTMzUzBmWmZNYndMdTA4R3pBR2ZWSUkzSnFvWklGTWNLeWgtUHc?oc=5",
+     "time": "2026-11-23T15:45:00+00:00"
+    },
+    {
+     "title": "Here\u2019s How You Can Extract a 150% Payout From SoFi Technologies (SOFI) Stock\u2019s Fallout",
+     "publisher": "Barchart.com",
+     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOdGxIVmx3N2lXNjRua0ktbEV1elpicjNZQjV3SGFWSDhSeklZUEgwMkxhQlQ3N0J5amJlWkR1TFZMRDMzSkt2eXl1c19mZF9rbzJDMUx6WmVuNkJXQkw4NU1Wa0ljZTY2NUgxUHpoUjRiNzc0RWhHZ2RXRkYxN2o5bjg5X0hhWXlQZHk2NFFXRm9tRUFqRlliQllpVjFCc09VYlBUcjl6ZVg0OUJibndlaVNmY2o1Zk1qMEVaM3MyZ2lJM3c?oc=5",
+     "time": "2026-11-23T15:09:38+00:00"
+    },
+    {
+     "title": "Avoiding Lag: Real-Time Signals in (SOFI) Movement",
+     "publisher": "Stock Traders Daily",
+     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPYnU0Q04zeG92UTJzbmRzcHBicUZDX0xkLWVGU05RdDEtU201M3ZPTjZRX2ZTNUpvcFBoS2RsRUtPaEVzLVA2SjJteE9uTXMySzRVZ0NmcnozdG1mRGhITzdBRG5DdXBuVVd4RlVoSlB6X2JwVXU0UGVNWmRvWW5jT2tWMmJGRlJZaHVMX2k1S010cjhLTTBKN01HNVRxOFhOR0Z3dWRXRVRXbFBjQUh4Y1ZZY3VmUU9HdFBQNndiaHNyMmpOa3U0?oc=5",
+     "time": "2026-11-23T14:04:02+00:00"
+    },
+    {
+     "title": "Black Friday Stock Deals: 4 Great Stocks Down 30% or More",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOVE1ndDR2bThJMDhYVG5OUFBtMjFvLVFYMEw1LWtvNGNzSW95ZGhnTGhJQjJXQ29rQWVtYnpTbGJuX0RPbHFLR2d1YnhNVWw2WWJKWVhveWU2cF9MR2pGdkd1LTEyV2ttTUg5amNtcFotSUJYX2xhSjBVamFCS3V0dUZhOHlVNTZYN0Rad3pjRzVFUWJYa2c?oc=5",
+     "time": "2026-11-23T12:31:01+00:00"
+    },
+    {
+     "title": "SoFi Technologies, Inc. $SOFI Shares Sold by Polymer Capital Management US LLC",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQUzdyTWpzc21oWmhOWVFZaWhwb29xcERTb2YteERzRTdUcWNzejQxYndvcElRZUY0dG5QYlFMY3lfMWMtdVN5ODZESXhFd1hyVGVtZEllXy1JMVdHNHB6ZFdaTlpzN3lxb1poOVNFNVRGdjJLRjdnN0JKUThYaFVCTkxTNjRoOEpSWllQMzQ4VmFQU2pHcHFJVENlRERLOTJnY1J1ODVqLXAybm1NM2FuU2NTaldab0tjMmdXR1VjVDBpTjAwQjdjYjVSeDQ0akszdWc?oc=5",
+     "time": "2026-11-23T11:26:50+00:00"
+    },
+    {
+     "title": "SoFi Technologies, Inc. $SOFI Stock: Norris Financial Group LLC Increases Holdings",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPUWtNWW1iazFnSGRvdnZUdFl5QWh6VUFrVGRUeW5aOG90VGlheGlpNkVNS1BIQzV2QTFtNEhBTmkzODlRQzlPM01wNW9mSURkLXBFY2txRHlYZmhUWjY0cm0tbFlPZ20xUjg1ZjNuWWFXTW9KSUh1czlraTF2Z1FZaEpqTGZSM2FVX3gtTW1lVGIwWkRWTFlpOVBNbXRibVVDOFNqOE5zLUJNV0hJQVhTdE9LNHJvZU5IX3loQmxWc3BSRDJDTTBCTmhPdi12bTR4ZDBsWjZn?oc=5",
+     "time": "2026-11-23T11:02:40+00:00"
+    }
+   ],
+   "brief": "2026-11-23-SOFI"
+  },
+  {
    "symbol": "NOW",
    "name": "ServiceNow",
    "list": "portfolio",
-   "price": 91.82,
+   "price": 91.84,
    "prev_close": 87.61,
    "change_pct": 4.8,
    "trigger_change": 4.3,
@@ -716,11 +791,11 @@
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 95.17,
-    "change_pct": 3.83
+    "price": 95.26,
+    "change_pct": 3.93
    },
    "chart": {
-    "ema8": -2.4,
+    "ema8": -2.3,
     "ema21": -13.4,
     "sma50": -27.6,
     "sma200": -18.9,
@@ -779,101 +854,26 @@
    "brief": "2026-11-23-NOW"
   },
   {
-   "symbol": "SOFI",
-   "name": "SoFi",
-   "list": "portfolio",
-   "price": 13.07,
-   "prev_close": 12.48,
-   "change_pct": 4.8,
-   "trigger_change": 7.9,
-   "peak_change": 9.5,
-   "first_seen": "2026-11-23T14:55:58+00:00",
-   "sector": {
-    "etf": "XLF",
-    "name": "Financials",
-    "price": 55.67,
-    "change_pct": 2.02
-   },
-   "chart": {
-    "ema8": -6.7,
-    "ema21": -12.8,
-    "sma50": -16.8,
-    "sma200": -23.5,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "SoFi Stock Plunges to 52-Week Low as Investors Weigh a High-Risk Options Income Opportunity",
-     "publisher": "Speaks Media",
-     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxORmNIMjBwSG1vRnNIMHB0Tm0tM0NSSnE5d2tIeWsxUHNmdllvR0JDLTJtN0xKOXRzVkJEUW9ZcVFIbGxiVy1LMmVDSXlTaGZFRkdjTXQ3M2ZZUmIyZVVkSm9ZTXZEdjdMNzhsWjRaSjVSbUMwdUZMTUFWUkN3ZFphZGJFVGg2eFNTeGN1TFlFbWZ0R3VzNGxKaGhRSjhVN2lDLXZacU5TbUtVZV9oT3ZjVFJyblBoZW80U0gwVXdjRQ?oc=5",
-     "time": "2026-11-23T18:04:48+00:00"
-    },
-    {
-     "title": "SoFi Technologies' Member Base Rises: Can Revenues Accelerate?",
-     "publisher": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPRWVsTDBUTVBIemFyMmVJdGhmWWpDQ2ttN0dYOFdzekJzR1lSWTdNellnQXZJREF5UktSZ1FwaWpBLS1zNGtXNkw3bDBKeTJvVW1ZXzRJUk5fUXZqOTlNbjZjM19zem9CZkpuNURsQkYzZWFJRjN0bmtzTlVBVHZaLXB3S1hpQjdsNzhGckxNMXNNZzl3WnZuQWZSZGxremduSkp5d1UweTN5bTZlRlRuM3VfVTdRUQ?oc=5",
-     "time": "2026-11-23T17:21:00+00:00"
-    },
-    {
-     "title": "SoFi Drops 12% Over 30 Days: 140% Returns Coming According to This Wall Street Analysts, Others Not Far Behind",
-     "publisher": "24/7 Wall St.",
-     "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOdzA1ZzRjRU1NcS1PTVdWRUtwNFdZbWlodXJ1LWRQcnI2V0szZm4tekpYbWZWS3d1S1VMRGJXY3ZSMzJOa1IyQlVKc2Y4M1NGbG1pMEpYUVR3aG9vRWwxVmlLNUg4QlpRVDcwSUxXZkhkTl9xYmNhZEI0NXc2cUZZenRXMnRwa0RvTktNTFR3UzZ2cWFzREdVc0djYlZXaG8wSjkxQkRidVpvdmZueHVjZUh0clBYdHlmUWI2V0VFcTMzUzBmWmZNYndMdTA4R3pBR2ZWSUkzSnFvWklGTWNLeWgtUHc?oc=5",
-     "time": "2026-11-23T15:45:00+00:00"
-    },
-    {
-     "title": "Here\u2019s How You Can Extract a 150% Payout From SoFi Technologies (SOFI) Stock\u2019s Fallout",
-     "publisher": "Barchart.com",
-     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOdGxIVmx3N2lXNjRua0ktbEV1elpicjNZQjV3SGFWSDhSeklZUEgwMkxhQlQ3N0J5amJlWkR1TFZMRDMzSkt2eXl1c19mZF9rbzJDMUx6WmVuNkJXQkw4NU1Wa0ljZTY2NUgxUHpoUjRiNzc0RWhHZ2RXRkYxN2o5bjg5X0hhWXlQZHk2NFFXRm9tRUFqRlliQllpVjFCc09VYlBUcjl6ZVg0OUJibndlaVNmY2o1Zk1qMEVaM3MyZ2lJM3c?oc=5",
-     "time": "2026-11-23T15:09:38+00:00"
-    },
-    {
-     "title": "Avoiding Lag: Real-Time Signals in (SOFI) Movement",
-     "publisher": "Stock Traders Daily",
-     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPYnU0Q04zeG92UTJzbmRzcHBicUZDX0xkLWVGU05RdDEtU201M3ZPTjZRX2ZTNUpvcFBoS2RsRUtPaEVzLVA2SjJteE9uTXMySzRVZ0NmcnozdG1mRGhITzdBRG5DdXBuVVd4RlVoSlB6X2JwVXU0UGVNWmRvWW5jT2tWMmJGRlJZaHVMX2k1S010cjhLTTBKN01HNVRxOFhOR0Z3dWRXRVRXbFBjQUh4Y1ZZY3VmUU9HdFBQNndiaHNyMmpOa3U0?oc=5",
-     "time": "2026-11-23T14:04:02+00:00"
-    },
-    {
-     "title": "Black Friday Stock Deals: 4 Great Stocks Down 30% or More",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOVE1ndDR2bThJMDhYVG5OUFBtMjFvLVFYMEw1LWtvNGNzSW95ZGhnTGhJQjJXQ29rQWVtYnpTbGJuX0RPbHFLR2d1YnhNVWw2WWJKWVhveWU2cF9MR2pGdkd1LTEyV2ttTUg5amNtcFotSUJYX2xhSjBVamFCS3V0dUZhOHlVNTZYN0Rad3pjRzVFUWJYa2c?oc=5",
-     "time": "2026-11-23T12:31:01+00:00"
-    },
-    {
-     "title": "SoFi Technologies, Inc. $SOFI Shares Sold by Polymer Capital Management US LLC",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQUzdyTWpzc21oWmhOWVFZaWhwb29xcERTb2YteERzRTdUcWNzejQxYndvcElRZUY0dG5QYlFMY3lfMWMtdVN5ODZESXhFd1hyVGVtZEllXy1JMVdHNHB6ZFdaTlpzN3lxb1poOVNFNVRGdjJLRjdnN0JKUThYaFVCTkxTNjRoOEpSWllQMzQ4VmFQU2pHcHFJVENlRERLOTJnY1J1ODVqLXAybm1NM2FuU2NTaldab0tjMmdXR1VjVDBpTjAwQjdjYjVSeDQ0akszdWc?oc=5",
-     "time": "2026-11-23T11:26:50+00:00"
-    },
-    {
-     "title": "SoFi Technologies, Inc. $SOFI Stock: Norris Financial Group LLC Increases Holdings",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPUWtNWW1iazFnSGRvdnZUdFl5QWh6VUFrVGRUeW5aOG90VGlheGlpNkVNS1BIQzV2QTFtNEhBTmkzODlRQzlPM01wNW9mSURkLXBFY2txRHlYZmhUWjY0cm0tbFlPZ20xUjg1ZjNuWWFXTW9KSUh1czlraTF2Z1FZaEpqTGZSM2FVX3gtTW1lVGIwWkRWTFlpOVBNbXRibVVDOFNqOE5zLUJNV0hJQVhTdE9LNHJvZU5IX3loQmxWc3BSRDJDTTBCTmhPdi12bTR4ZDBsWjZn?oc=5",
-     "time": "2026-11-23T11:02:40+00:00"
-    }
-   ],
-   "brief": "2026-11-23-SOFI"
-  },
-  {
    "symbol": "AMZN",
    "name": "Amazon",
    "list": "portfolio",
-   "price": 255.91,
+   "price": 255.4,
    "prev_close": 246.82,
-   "change_pct": 3.7,
+   "change_pct": 3.5,
    "trigger_change": 3.1,
    "peak_change": 5.1,
    "first_seen": "2026-11-23T14:55:58+00:00",
    "sector": {
     "etf": "XLY",
     "name": "Consumer discr.",
-    "price": 116.98,
-    "change_pct": 4.02
+    "price": 116.93,
+    "change_pct": 3.97
    },
    "chart": {
-    "ema8": -0.7,
-    "ema21": -0.9,
-    "sma50": 0.3,
-    "sma200": 4.3,
+    "ema8": -0.9,
+    "ema21": -1.0,
+    "sma50": 0.1,
+    "sma200": 4.1,
     "momentum": false
    },
    "headlines": [
@@ -932,7 +932,7 @@
    "symbol": "NVO",
    "name": "Novo Nordisk (ADR)",
    "list": "portfolio",
-   "price": 39.15,
+   "price": 39.14,
    "prev_close": 37.82,
    "change_pct": 3.5,
    "trigger_change": 3.2,
@@ -941,8 +941,8 @@
    "sector": {
     "etf": "XLV",
     "name": "Health care",
-    "price": 179.71,
-    "change_pct": 1.39
+    "price": 179.31,
+    "change_pct": 1.17
    },
    "chart": {
     "ema8": -1.1,
@@ -971,22 +971,22 @@
    "symbol": "UNH",
    "name": "UnitedHealth",
    "list": "portfolio",
-   "price": 336.17,
+   "price": 335.87,
    "prev_close": 339.85,
-   "change_pct": -1.1,
+   "change_pct": -1.2,
    "trigger_change": -3.1,
    "peak_change": -3.7,
    "first_seen": "2026-11-23T14:55:58+00:00",
    "sector": {
     "etf": "XLV",
     "name": "Health care",
-    "price": 179.71,
-    "change_pct": 1.39
+    "price": 179.31,
+    "change_pct": 1.17
    },
    "chart": {
-    "ema8": -7.0,
+    "ema8": -7.1,
     "ema21": -12.0,
-    "sma50": -13.3,
+    "sma50": -13.4,
     "sma200": -8.9,
     "momentum": false
    },
@@ -1046,18 +1046,18 @@
    "symbol": "BTC-USD",
    "name": "Bitcoin",
    "list": "watchlist",
-   "price": 61072.5,
+   "price": 61191.7,
    "prev_close": 61170.1,
-   "change_pct": -0.2,
+   "change_pct": 0.0,
    "trigger_change": 3.1,
    "peak_change": 3.8,
    "first_seen": "2026-11-23T15:01:01+00:00",
    "sector": null,
    "chart": {
-    "ema8": -2.1,
-    "ema21": -9.5,
-    "sma50": -19.8,
-    "sma200": -15.4,
+    "ema8": -2.0,
+    "ema21": -9.3,
+    "sma50": -19.7,
+    "sma200": -15.3,
     "momentum": false
    },
    "headlines": [
