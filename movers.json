@@ -1,22 +1,22 @@
 {
  "date": "2026-11-23",
  "threshold": 3.0,
- "updated": "2026-11-23T20:13:50+00:00",
+ "updated": "2026-11-23T20:18:51+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 723.53,
-   "change_pct": 4.89
+   "price": 723.6,
+   "change_pct": 4.9
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 651.95,
-   "change_pct": 7.15
+   "price": 651.25,
+   "change_pct": 7.03
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 81.64,
-   "change_pct": 0.23
+   "price": 81.66,
+   "change_pct": 0.26
   }
  },
  "movers": [
@@ -24,23 +24,23 @@
    "symbol": "NVDA",
    "name": "Nvidia",
    "list": "portfolio",
-   "price": 165.4,
+   "price": 165.24,
    "prev_close": 125.53,
-   "change_pct": 31.8,
+   "change_pct": 31.6,
    "trigger_change": 32.0,
    "peak_change": 36.3,
    "first_seen": "2026-11-23T14:55:58+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 459.72,
-    "change_pct": 14.91
+    "price": 459.31,
+    "change_pct": 14.81
    },
    "chart": {
-    "ema8": 6.3,
+    "ema8": 6.2,
     "ema21": -5.4,
-    "sma50": -19.7,
-    "sma200": -18.6,
+    "sma50": -19.8,
+    "sma200": -18.7,
     "momentum": false
    },
    "headlines": [
@@ -99,23 +99,23 @@
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 96.8,
+   "price": 96.49,
    "prev_close": 81.31,
-   "change_pct": 19.1,
+   "change_pct": 18.7,
    "trigger_change": 20.7,
    "peak_change": 28.7,
    "first_seen": "2026-11-23T14:55:58+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 95.33,
-    "change_pct": 4.0
+    "price": 95.29,
+    "change_pct": 3.96
    },
    "chart": {
-    "ema8": -7.9,
-    "ema21": -25.3,
-    "sma50": -45.9,
-    "sma200": -46.2,
+    "ema8": -8.1,
+    "ema21": -25.6,
+    "sma50": -46.1,
+    "sma200": -46.3,
     "momentum": false
    },
    "headlines": [
@@ -174,22 +174,22 @@
    "symbol": "AMAT",
    "name": "Applied Materials",
    "list": "portfolio",
-   "price": 345.69,
+   "price": 345.94,
    "prev_close": 302.63,
-   "change_pct": 14.2,
+   "change_pct": 14.3,
    "trigger_change": 12.5,
    "peak_change": 15.4,
    "first_seen": "2026-11-23T14:55:58+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 459.72,
-    "change_pct": 14.91
+    "price": 459.31,
+    "change_pct": 14.81
    },
    "chart": {
-    "ema8": 0.2,
+    "ema8": 0.3,
     "ema21": -6.2,
-    "sma50": -18.5,
+    "sma50": -18.4,
     "sma200": -22.7,
     "momentum": false
    },
@@ -249,23 +249,23 @@
    "symbol": "CRWD",
    "name": "CrowdStrike",
    "list": "portfolio",
-   "price": 206.85,
+   "price": 206.65,
    "prev_close": 229.44,
-   "change_pct": -9.8,
+   "change_pct": -9.9,
    "trigger_change": -9.3,
    "peak_change": -12.2,
    "first_seen": "2026-11-23T14:55:58+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 95.33,
-    "change_pct": 4.0
+    "price": 95.29,
+    "change_pct": 3.96
    },
    "chart": {
-    "ema8": -8.5,
-    "ema21": -11.2,
-    "sma50": -16.1,
-    "sma200": 17.0,
+    "ema8": -8.6,
+    "ema21": -11.3,
+    "sma50": -16.2,
+    "sma200": 16.9,
     "momentum": false
    },
    "headlines": [],
@@ -275,7 +275,7 @@
    "symbol": "APP",
    "name": "AppLovin",
    "list": "portfolio",
-   "price": 376.58,
+   "price": 376.33,
    "prev_close": 348.29,
    "change_pct": 8.1,
    "trigger_change": 5.9,
@@ -284,8 +284,8 @@
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 95.33,
-    "change_pct": 4.0
+    "price": 95.29,
+    "change_pct": 3.96
    },
    "chart": {
     "ema8": -0.2,
@@ -338,23 +338,23 @@
    "symbol": "ANET",
    "name": "Arista Networks",
    "list": "portfolio",
-   "price": 179.31,
+   "price": 179.15,
    "prev_close": 167.62,
-   "change_pct": 7.0,
+   "change_pct": 6.9,
    "trigger_change": 7.9,
    "peak_change": 10.3,
    "first_seen": "2026-11-23T14:55:58+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 459.72,
-    "change_pct": 14.91
+    "price": 459.31,
+    "change_pct": 14.81
    },
    "chart": {
-    "ema8": -2.3,
+    "ema8": -2.4,
     "ema21": -3.0,
-    "sma50": -6.5,
-    "sma200": 6.2,
+    "sma50": -6.6,
+    "sma200": 6.1,
     "momentum": false
    },
    "headlines": [
@@ -413,17 +413,17 @@
    "symbol": "META",
    "name": "Meta",
    "list": "portfolio",
-   "price": 599.3,
+   "price": 599.2,
    "prev_close": 560.84,
-   "change_pct": 6.9,
+   "change_pct": 6.8,
    "trigger_change": 4.6,
    "peak_change": 6.9,
    "first_seen": "2026-11-23T14:55:58+00:00",
    "sector": {
     "etf": "XLC",
     "name": "Communication",
-    "price": 103.78,
-    "change_pct": 3.75
+    "price": 103.83,
+    "change_pct": 3.8
    },
    "chart": {
     "ema8": -0.8,
@@ -488,7 +488,7 @@
    "symbol": "GOOG",
    "name": "Alphabet",
    "list": "portfolio",
-   "price": 280.51,
+   "price": 280.58,
    "prev_close": 264.0,
    "change_pct": 6.3,
    "trigger_change": 4.9,
@@ -497,14 +497,14 @@
    "sector": {
     "etf": "XLC",
     "name": "Communication",
-    "price": 103.78,
-    "change_pct": 3.75
+    "price": 103.83,
+    "change_pct": 3.8
    },
    "chart": {
     "ema8": 0.8,
     "ema21": -3.2,
     "sma50": -11.8,
-    "sma200": -16.2,
+    "sma200": -16.1,
     "momentum": false
    },
    "headlines": [
@@ -563,23 +563,23 @@
    "symbol": "SOFI",
    "name": "SoFi",
    "list": "portfolio",
-   "price": 13.19,
+   "price": 13.15,
    "prev_close": 12.48,
-   "change_pct": 5.7,
+   "change_pct": 5.4,
    "trigger_change": 7.9,
    "peak_change": 9.5,
    "first_seen": "2026-11-23T14:55:58+00:00",
    "sector": {
     "etf": "XLF",
     "name": "Financials",
-    "price": 55.75,
-    "change_pct": 2.16
+    "price": 55.77,
+    "change_pct": 2.19
    },
    "chart": {
-    "ema8": -6.0,
-    "ema21": -12.1,
-    "sma50": -16.0,
-    "sma200": -22.9,
+    "ema8": -6.3,
+    "ema21": -12.4,
+    "sma50": -16.3,
+    "sma200": -23.1,
     "momentum": false
    },
    "headlines": [
@@ -635,95 +635,26 @@
    "brief": "2026-11-23-SOFI"
   },
   {
-   "symbol": "MELI",
-   "name": "MercadoLibre",
-   "list": "watchlist",
-   "price": 1423.18,
-   "prev_close": 1355.0,
-   "change_pct": 5.0,
-   "trigger_change": 3.7,
-   "peak_change": 5.6,
-   "first_seen": "2026-11-23T14:55:58+00:00",
-   "sector": {
-    "etf": "XLY",
-    "name": "Consumer discr.",
-    "price": 117.28,
-    "change_pct": 4.29
-   },
-   "chart": {
-    "ema8": -0.5,
-    "ema21": -7.1,
-    "sma50": -16.3,
-    "sma200": -19.3,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Can MercadoLibre Sustain 40% GMV Growth in Argentina?",
-     "publisher": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNNHpBcnZndW1ab0o4WUlfMTk3RXR5anR4ME4yZ2JTN0tpaUgyV2RfWWlieGdWNVdyekN1LVJiX2ZqT083ek9sbEt2NjMtSVF0UmVqU3djMVFFNXlOenozMmUxdUQ4MEkzTW5ydWNDaFJLUlNCdkhQNE12dnlRSFJDYlpONkdNZWNjZlZJcmFpakpDSE9SUkYzNHBOc21NbURmR0lYV082azNGRm8?oc=5",
-     "time": "2026-11-23T15:12:00+00:00"
-    },
-    {
-     "title": "Uber Technologies (UBER) Stock Price Prediction: Support Is Being Tested After a Back Above $65",
-     "publisher": "Blockchain News",
-     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQTDFwb2psV1QyMHNtQTh3bEszMm8zamlFOGlBSEtvRjNrTFpfYWtJSmhVbndVRms5emk2clBhVWhxTWhtWEJKMnIzTFU0V3V2aF85Y19xc2J6STBGY1dsMXlZaGFObHlkczE4cnZoMTRCN1ROSWpxN09USlJWTTRVR3Nzb3p0SUxsNjZxbl95X05iVFNTX3c?oc=5",
-     "time": "2026-11-23T10:11:00+00:00"
-    },
-    {
-     "title": "MercadoLibre (MELI) Stock Price Prediction: BofA trims target as MELI fights to hold a fragile rebound",
-     "publisher": "Blockchain News",
-     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNOFBWYmdRRWlKVm5sNHBWaUo1RTU0UGVkQ1hPTm9JTjJrT2o2N2doS3RuTVFFTDFDRGZ2cTlOT2pwN3M3V0Vhem04M3NfaW1zbEtzbWpCbWVfMjlkSEdYc3I0UjA5d1Y0YWh0MEd3WW82VHZMZTRyWl9ZVmdlbmJJMnA5QzNHT2ZsUV9wSXBIOEFwbEZuT09ZNlRVdw?oc=5",
-     "time": "2026-11-23T10:09:00+00:00"
-    },
-    {
-     "title": "MercadoLibre stock at 1,265.70 euros, up 0.76% premarket",
-     "publisher": "ad-hoc-news.de",
-     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxONmdiMUg5QlIyN1M4dk1MbG1kb29xR0ZIZjQzREVaU291U011S1VtVlVjLVNIcHdWNHpQOUsxQWZCdDVocnJsRFAtRThMLXR0U3FuRDdMRkp5Q0NmWWR5MUxoa1F6YkxlLWNSdC1jMk54RFVXZGpQaTdzeEFBZTdLSW1EbGdnYWplUDJNTXk1cWNzMGdDRlhuWVN3SDNoN2JhN0J0MDl5QU9aaV9GaU9peF9R?oc=5",
-     "time": "2026-11-23T06:54:56+00:00"
-    },
-    {
-     "title": "MercadoLibre Has Disappointed for a Year: Why Bank of America Still Sees 48% Upside",
-     "publisher": "TIKR.com",
-     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPY25aOFR2WlNjNHEzVzU4WHdnTGgzNjBMMzRjcWhPUkMxY3BfWFpQZ25NR1ZOSTFmVHhhaTZJZUdnRmtQWnB2N0tRejB0eGpnWExMVXdDRllleDVnWTBxeFNTR0Y5ZXNCSE9zZzg4N1h1WVI2UHYxZWVsSjBrM2JMZ0xic2o2cHdCbVMzQTVsOHlGZHdSTHVFdGhDWHJ1SEZvVk16QmV1SHBSMHc?oc=5",
-     "time": "2026-11-22T00:26:18+00:00"
-    },
-    {
-     "title": "Should investors Buy Sea Limited Stock Instead of Mercado Libre Stock?",
-     "publisher": "The Motley Fool",
-     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOMnhCNXlYNzFLLWJHSDlVTHMyQms1NU5tOHg2ekVKS0hZN19sZ0VHT3YwQVVUQ1dDSFVUeUM3U0RNSmJESEFjc0RER0VBQzNQYUExazFyejRWMExhZXZLRWV1YVBxbzVQc2R1N215THI5LTQ3Q0FGcWlxSldDNnZtbXNtYm1fOVA2VnRFLUZCN2d4bHQ4M0VyQ2pZeWJiNkZLVUgtcGV2WHk5cGxvQ3JfVEZ3?oc=5",
-     "time": "2026-11-21T21:13:02+00:00"
-    },
-    {
-     "title": "A $10 Billion Fund Bought These 3 Stocks Last Quarter",
-     "publisher": "TIKR.com",
-     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPekQzb3hBQXA4UEhDQUc3Wmh5MDFpYy16ODNONlNibjZyWl9lcGNnWFRhbTc1LW1kN1lJT2lrby02YTRHYkxBRzdkMmFxOUdlMmxOVm52Y21vc3hOTldlRXE5bVJLRG5uOGVWc0dXelFpN2ZLSlVKdHNYQlJhY1hHcWotemk?oc=5",
-     "time": "2026-11-21T20:37:30+00:00"
-    }
-   ],
-   "brief": "2026-11-23-MELI"
-  },
-  {
    "symbol": "AXON",
    "name": "Axon",
    "list": "watchlist",
-   "price": 305.39,
+   "price": 306.52,
    "prev_close": 291.14,
-   "change_pct": 4.9,
+   "change_pct": 5.3,
    "trigger_change": 3.6,
    "peak_change": 6.3,
    "first_seen": "2026-11-23T14:55:58+00:00",
    "sector": {
     "etf": "XLI",
     "name": "Industrials",
-    "price": 162.46,
-    "change_pct": 3.89
+    "price": 162.54,
+    "change_pct": 3.95
    },
    "chart": {
-    "ema8": -1.0,
-    "ema21": -10.5,
-    "sma50": -22.6,
-    "sma200": -33.9,
+    "ema8": -0.7,
+    "ema21": -10.2,
+    "sma50": -22.4,
+    "sma200": -33.7,
     "momentum": false
    },
    "headlines": [
@@ -779,25 +710,94 @@
    "brief": "2026-11-23-AXON"
   },
   {
+   "symbol": "MELI",
+   "name": "MercadoLibre",
+   "list": "watchlist",
+   "price": 1424.7,
+   "prev_close": 1355.0,
+   "change_pct": 5.1,
+   "trigger_change": 3.7,
+   "peak_change": 5.6,
+   "first_seen": "2026-11-23T14:55:58+00:00",
+   "sector": {
+    "etf": "XLY",
+    "name": "Consumer discr.",
+    "price": 117.39,
+    "change_pct": 4.38
+   },
+   "chart": {
+    "ema8": -0.4,
+    "ema21": -7.0,
+    "sma50": -16.2,
+    "sma200": -19.2,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Can MercadoLibre Sustain 40% GMV Growth in Argentina?",
+     "publisher": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNNHpBcnZndW1ab0o4WUlfMTk3RXR5anR4ME4yZ2JTN0tpaUgyV2RfWWlieGdWNVdyekN1LVJiX2ZqT083ek9sbEt2NjMtSVF0UmVqU3djMVFFNXlOenozMmUxdUQ4MEkzTW5ydWNDaFJLUlNCdkhQNE12dnlRSFJDYlpONkdNZWNjZlZJcmFpakpDSE9SUkYzNHBOc21NbURmR0lYV082azNGRm8?oc=5",
+     "time": "2026-11-23T15:12:00+00:00"
+    },
+    {
+     "title": "Uber Technologies (UBER) Stock Price Prediction: Support Is Being Tested After a Back Above $65",
+     "publisher": "Blockchain News",
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQTDFwb2psV1QyMHNtQTh3bEszMm8zamlFOGlBSEtvRjNrTFpfYWtJSmhVbndVRms5emk2clBhVWhxTWhtWEJKMnIzTFU0V3V2aF85Y19xc2J6STBGY1dsMXlZaGFObHlkczE4cnZoMTRCN1ROSWpxN09USlJWTTRVR3Nzb3p0SUxsNjZxbl95X05iVFNTX3c?oc=5",
+     "time": "2026-11-23T10:11:00+00:00"
+    },
+    {
+     "title": "MercadoLibre (MELI) Stock Price Prediction: BofA trims target as MELI fights to hold a fragile rebound",
+     "publisher": "Blockchain News",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNOFBWYmdRRWlKVm5sNHBWaUo1RTU0UGVkQ1hPTm9JTjJrT2o2N2doS3RuTVFFTDFDRGZ2cTlOT2pwN3M3V0Vhem04M3NfaW1zbEtzbWpCbWVfMjlkSEdYc3I0UjA5d1Y0YWh0MEd3WW82VHZMZTRyWl9ZVmdlbmJJMnA5QzNHT2ZsUV9wSXBIOEFwbEZuT09ZNlRVdw?oc=5",
+     "time": "2026-11-23T10:09:00+00:00"
+    },
+    {
+     "title": "MercadoLibre stock at 1,265.70 euros, up 0.76% premarket",
+     "publisher": "ad-hoc-news.de",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxONmdiMUg5QlIyN1M4dk1MbG1kb29xR0ZIZjQzREVaU291U011S1VtVlVjLVNIcHdWNHpQOUsxQWZCdDVocnJsRFAtRThMLXR0U3FuRDdMRkp5Q0NmWWR5MUxoa1F6YkxlLWNSdC1jMk54RFVXZGpQaTdzeEFBZTdLSW1EbGdnYWplUDJNTXk1cWNzMGdDRlhuWVN3SDNoN2JhN0J0MDl5QU9aaV9GaU9peF9R?oc=5",
+     "time": "2026-11-23T06:54:56+00:00"
+    },
+    {
+     "title": "MercadoLibre Has Disappointed for a Year: Why Bank of America Still Sees 48% Upside",
+     "publisher": "TIKR.com",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPY25aOFR2WlNjNHEzVzU4WHdnTGgzNjBMMzRjcWhPUkMxY3BfWFpQZ25NR1ZOSTFmVHhhaTZJZUdnRmtQWnB2N0tRejB0eGpnWExMVXdDRllleDVnWTBxeFNTR0Y5ZXNCSE9zZzg4N1h1WVI2UHYxZWVsSjBrM2JMZ0xic2o2cHdCbVMzQTVsOHlGZHdSTHVFdGhDWHJ1SEZvVk16QmV1SHBSMHc?oc=5",
+     "time": "2026-11-22T00:26:18+00:00"
+    },
+    {
+     "title": "Should investors Buy Sea Limited Stock Instead of Mercado Libre Stock?",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOMnhCNXlYNzFLLWJHSDlVTHMyQms1NU5tOHg2ekVKS0hZN19sZ0VHT3YwQVVUQ1dDSFVUeUM3U0RNSmJESEFjc0RER0VBQzNQYUExazFyejRWMExhZXZLRWV1YVBxbzVQc2R1N215THI5LTQ3Q0FGcWlxSldDNnZtbXNtYm1fOVA2VnRFLUZCN2d4bHQ4M0VyQ2pZeWJiNkZLVUgtcGV2WHk5cGxvQ3JfVEZ3?oc=5",
+     "time": "2026-11-21T21:13:02+00:00"
+    },
+    {
+     "title": "A $10 Billion Fund Bought These 3 Stocks Last Quarter",
+     "publisher": "TIKR.com",
+     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPekQzb3hBQXA4UEhDQUc3Wmh5MDFpYy16ODNONlNibjZyWl9lcGNnWFRhbTc1LW1kN1lJT2lrby02YTRHYkxBRzdkMmFxOUdlMmxOVm52Y21vc3hOTldlRXE5bVJLRG5uOGVWc0dXelFpN2ZLSlVKdHNYQlJhY1hHcWotemk?oc=5",
+     "time": "2026-11-21T20:37:30+00:00"
+    }
+   ],
+   "brief": "2026-11-23-MELI"
+  },
+  {
    "symbol": "NOW",
    "name": "ServiceNow",
    "list": "portfolio",
-   "price": 91.83,
+   "price": 91.77,
    "prev_close": 87.61,
-   "change_pct": 4.8,
+   "change_pct": 4.7,
    "trigger_change": 4.3,
    "peak_change": 6.6,
    "first_seen": "2026-11-23T14:55:58+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 95.33,
-    "change_pct": 4.0
+    "price": 95.29,
+    "change_pct": 3.96
    },
    "chart": {
     "ema8": -2.4,
     "ema21": -13.4,
-    "sma50": -27.6,
+    "sma50": -27.7,
     "sma200": -18.9,
     "momentum": false
    },
@@ -857,23 +857,23 @@
    "symbol": "AMZN",
    "name": "Amazon",
    "list": "portfolio",
-   "price": 256.09,
+   "price": 256.63,
    "prev_close": 246.82,
-   "change_pct": 3.8,
+   "change_pct": 4.0,
    "trigger_change": 3.1,
    "peak_change": 5.1,
    "first_seen": "2026-11-23T14:55:58+00:00",
    "sector": {
     "etf": "XLY",
     "name": "Consumer discr.",
-    "price": 117.28,
-    "change_pct": 4.29
+    "price": 117.39,
+    "change_pct": 4.38
    },
    "chart": {
-    "ema8": -0.7,
-    "ema21": -0.8,
-    "sma50": 0.4,
-    "sma200": 4.4,
+    "ema8": -0.5,
+    "ema21": -0.6,
+    "sma50": 0.6,
+    "sma200": 4.6,
     "momentum": false
    },
    "headlines": [
@@ -932,7 +932,7 @@
    "symbol": "NVO",
    "name": "Novo Nordisk (ADR)",
    "list": "portfolio",
-   "price": 39.13,
+   "price": 39.16,
    "prev_close": 37.82,
    "change_pct": 3.5,
    "trigger_change": 3.2,
@@ -941,8 +941,8 @@
    "sector": {
     "etf": "XLV",
     "name": "Health care",
-    "price": 179.48,
-    "change_pct": 1.26
+    "price": 179.54,
+    "change_pct": 1.3
    },
    "chart": {
     "ema8": -1.1,
@@ -971,7 +971,7 @@
    "symbol": "UNH",
    "name": "UnitedHealth",
    "list": "portfolio",
-   "price": 335.18,
+   "price": 334.98,
    "prev_close": 339.85,
    "change_pct": -1.4,
    "trigger_change": -3.1,
@@ -980,14 +980,14 @@
    "sector": {
     "etf": "XLV",
     "name": "Health care",
-    "price": 179.48,
-    "change_pct": 1.26
+    "price": 179.54,
+    "change_pct": 1.3
    },
    "chart": {
     "ema8": -7.3,
     "ema21": -12.2,
     "sma50": -13.6,
-    "sma200": -9.1,
+    "sma200": -9.2,
     "momentum": false
    },
    "headlines": [
@@ -1046,18 +1046,18 @@
    "symbol": "BTC-USD",
    "name": "Bitcoin",
    "list": "watchlist",
-   "price": 61321.3,
+   "price": 61180.4,
    "prev_close": 61170.1,
-   "change_pct": 0.2,
+   "change_pct": 0.0,
    "trigger_change": 3.1,
    "peak_change": 3.8,
    "first_seen": "2026-11-23T15:01:01+00:00",
    "sector": null,
    "chart": {
-    "ema8": -1.8,
-    "ema21": -9.2,
-    "sma50": -19.5,
-    "sma200": -15.1,
+    "ema8": -2.0,
+    "ema21": -9.3,
+    "sma50": -19.7,
+    "sma200": -15.3,
     "momentum": false
    },
    "headlines": [
