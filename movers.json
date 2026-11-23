@@ -1,22 +1,22 @@
 {
  "date": "2026-11-23",
  "threshold": 3.0,
- "updated": "2026-11-23T15:16:18+00:00",
+ "updated": "2026-11-23T15:21:31+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 723.22,
-   "change_pct": 4.84
+   "price": 725.33,
+   "change_pct": 5.15
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 652.97,
-   "change_pct": 7.32
+   "price": 655.41,
+   "change_pct": 7.72
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 81.39,
-   "change_pct": -0.08
+   "price": 81.37,
+   "change_pct": -0.1
   }
  },
  "movers": [
@@ -24,23 +24,23 @@
    "symbol": "NVDA",
    "name": "Nvidia",
    "list": "portfolio",
-   "price": 166.79,
+   "price": 170.32,
    "prev_close": 125.53,
-   "change_pct": 32.9,
+   "change_pct": 35.7,
    "trigger_change": 32.0,
-   "peak_change": 32.9,
+   "peak_change": 35.7,
    "first_seen": "2026-11-23T14:55:58+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 462.76,
-    "change_pct": 15.67
+    "price": 465.26,
+    "change_pct": 16.3
    },
    "chart": {
-    "ema8": 7.0,
-    "ema21": -4.6,
-    "sma50": -19.1,
-    "sma200": -17.9,
+    "ema8": 8.7,
+    "ema21": -2.8,
+    "sma50": -17.4,
+    "sma200": -16.2,
     "momentum": false
    },
    "headlines": [
@@ -99,23 +99,23 @@
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 102.69,
+   "price": 103.22,
    "prev_close": 81.31,
-   "change_pct": 26.3,
+   "change_pct": 26.9,
    "trigger_change": 20.7,
-   "peak_change": 26.3,
+   "peak_change": 26.9,
    "first_seen": "2026-11-23T14:55:58+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 95.47,
-    "change_pct": 4.15
+    "price": 95.87,
+    "change_pct": 4.59
    },
    "chart": {
-    "ema8": -3.5,
-    "ema21": -21.1,
-    "sma50": -42.7,
-    "sma200": -42.9,
+    "ema8": -3.1,
+    "ema21": -20.7,
+    "sma50": -42.4,
+    "sma200": -42.6,
     "momentum": false
    },
    "headlines": [
@@ -174,23 +174,23 @@
    "symbol": "AMAT",
    "name": "Applied Materials",
    "list": "portfolio",
-   "price": 345.0,
+   "price": 348.44,
    "prev_close": 302.63,
-   "change_pct": 14.0,
+   "change_pct": 15.1,
    "trigger_change": 12.5,
-   "peak_change": 14.0,
+   "peak_change": 15.1,
    "first_seen": "2026-11-23T14:55:58+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 462.76,
-    "change_pct": 15.67
+    "price": 465.26,
+    "change_pct": 16.3
    },
    "chart": {
-    "ema8": 0.1,
-    "ema21": -6.4,
-    "sma50": -18.6,
-    "sma200": -22.9,
+    "ema8": 0.8,
+    "ema21": -5.6,
+    "sma50": -17.8,
+    "sma200": -22.1,
     "momentum": false
    },
    "headlines": [
@@ -246,101 +246,26 @@
    "brief": null
   },
   {
-   "symbol": "CRWD",
-   "name": "CrowdStrike",
-   "list": "portfolio",
-   "price": 207.01,
-   "prev_close": 229.44,
-   "change_pct": -9.8,
-   "trigger_change": -9.3,
-   "peak_change": -10.4,
-   "first_seen": "2026-11-23T14:55:58+00:00",
-   "sector": {
-    "etf": "IGV",
-    "name": "Software",
-    "price": 95.47,
-    "change_pct": 4.15
-   },
-   "chart": {
-    "ema8": -8.5,
-    "ema21": -11.1,
-    "sma50": -16.0,
-    "sma200": 17.1,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "CrowdStrike\u2019s $44B Zscaler Acquisition Could Reshape Cybersecurity ETFs. Here\u2019s What Changes for Investors",
-     "publisher": "Benzinga",
-     "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQNlpCWXhpS0Z4VHprY1BhNnVWenRJQm9UYjZLOU9yYUtiRGVRbjU5c0xJUzZvd2FrWG1JMFdRNzh0MF9xei00eHUtMk1UR1BGTXpCTDVwOW00Q01ZeGU3OXNfUU9iMkIzNnEzV29VN21QT3NEa0RMc3BpOURMTFUyaXdJUTZkUWZKY2tiX0t1aG80M19ocHpadGF5SzVRMlR1aU9GUmE5VTNRNDkwdzhYaDRsemFROFZaTkwxZjNIZDNFY2ViTDg5ZkFYYjNZdTY5X1R2Y2hrcnZ4TU8tMkpNV3JrdmR3WUVfVXE2bF9MaDE?oc=5",
-     "time": "2026-11-23T14:31:20+00:00"
-    },
-    {
-     "title": "Why CrowdStrike (CRWD) stock falls after $43.9 Billion Zscaler deal while ZS stock rallies in premarket",
-     "publisher": "The Economic Times",
-     "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNNVFRNVZJU3ZRQ2VJV2NNRmQ2NEJpMWdvQlp4c0pFRW5sa1M4TmdGbVdoUEtXSWJwaHF5SkRFUTdiOWJMQ1NjV3BHeno2amJuQUl1V3F0WUhIWkh4WklNYlZPdlh5UW5xQmJjUDdQenVnV2ZoMmpIWEJhbDJ5TEZERS0zbXFsbGxvdUJPZF9nOXlFQ1ZIcVdfNVY3a2tWYXVKZTJnbGxBdE1qVXBSSk4yZVNBTXR6M0tjOEhjbFE0YVZEazJFY1RoUUc1WGVfSFp4VXI2czdORmZ3WVdKRS1sQjZUTDhjSDdGdnJyN2RaNzNaNUp0YXFyQVVham14d9IBgwJBVV95cUxPNFUyXzJCdFVDbE84YkV4UWRGVGk4UWVwbHoyS1dZZm9iUFg0WVZYRlBMckVaMDF0ZzEwWW4yMF8zNHQ4UjZkTTdTZnpmSnZiMFlQR1NWNjhmTTV3Rm5laWpGdlNrbXdTY3ZucmtjUDkyUGJzYUl1UmJ4YnY4Y3Q1alZsRTgtVXJEOC1VVHBWNEhyQXZBOUNKclRNVFY0SUE4NExJTmdvOUlXZENUY3FQcmRzYlZHTVBYVDJZQmlCMVZsUUVaVWFvOWpOWjZNZUNqQ2hfQWdDeC1vUG00Q09GbHpFdDJTWDNSNnpQYVV1M21HOGNpUDgtYlgwQ3I5VXNFMWh3?oc=5",
-     "time": "2026-11-23T14:25:53+00:00"
-    },
-    {
-     "title": "CrowdStrike (CRWD) to Acquire Zscaler for $43.9 Billion in Major Cybersecurity Deal",
-     "publisher": "GuruFocus",
-     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPemtpTlI0ZUJzM1FScHFVa2xHdDc2a29kNTN5M21UakNvT1FhYjd3X0oyUzYyRlFUaTdWNUFodGxvdzZKVjdmdFZCV1JWLUx1OVNEWHVfZ0NZc3dWM1hHVzNZTERDNGU0a1JuMDdyRWM4eXVpRmlfWl84SklEd3BpalBzRGF2UDhxeFBLcERwZl9DY2xhVHU1YWhFb0ZPck9kbmhmS1hEM1pQY0VsNHVVWldlSXRiVDI3YWc?oc=5",
-     "time": "2026-11-23T14:19:02+00:00"
-    },
-    {
-     "title": "CrowdStrike Stock Drops On Zscaler Acquisition",
-     "publisher": "Investor's Business Daily",
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQZnl0SEJKbVBsTkxseWpsUTNZRzhkMm1yb2c0MGlBN1BGSW9ZU01GSllBS05ZSlEzX0xwOVFGRDVTTHFrb3RfRXhiRlFwaXhYTjM1S1MwbnhjaXNlaTZGd3V3RXJwTHBrSTNLR2NYNXkxZmIzQ3QwQzdQZWRja2hwTUNlNXc3SjZLR2Q0?oc=5",
-     "time": "2026-11-23T14:11:00+00:00"
-    },
-    {
-     "title": "CrowdStrike (CRWD) to Acquire Zscaler (ZS) in $43.9 Billion Stoc",
-     "publisher": "GuruFocus",
-     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNcDJrejZGUTFuVHFsU2tkT2FhYWxfd0dWNVBtTWh2cGFLeFQ3WmVrOUxUTjlySjlwblhQS3E0Nk9QSUVwVkhGdnJCYXVlZnN1WmxDQkV4elhHVG10VV9VNlM2eF9KZkpOb0NvelVJTVNhQVo1X0lfMVU4cTJ6Umc1eGNQeFAyTF9sZFYteTFSNUhfSHNrTkJpcGRXaExjVllZdjMzYlhR?oc=5",
-     "time": "2026-11-23T14:05:01+00:00"
-    },
-    {
-     "title": "CrowdStrike stock falls after agreeing to buy Zscaler for $43.9B",
-     "publisher": "Invezz",
-     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOMlJTT3p0Tkgxb0tDcEZld1hReTRwME5xZGw3WGpTelNVYm03RnZJRmRCbHAzemdJMFZ3NlFyYXc4Ykszdnc5QVhyMGp5YTE2ZDVXOHJvU090WkhHTkV3SlM5LWtoV2tKbXFSMExuV21lcWszWVZTaXpPRXhwMzR0RHBDeGd2elpGcHFySmMxN0FHTmcyZk1iVThQYWd5V2hlWGljSzFZZlNySGc?oc=5",
-     "time": "2026-11-23T13:56:47+00:00"
-    },
-    {
-     "title": "CrowdStrike is spending $43.9 billion to buy Zscaler in a huge cybersecurity deal as tech outages spread",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPa0MwNl9mNFFvX25LUERTZmpPSG5BY0tHRFpxRW1KTWRnTWpzNnUzemU3OG5kS2pYdlVIZ3F2UDczXzh3OWlkQWo5c1NSWnJDUFVrNWhYRXlXSkM2TW9VdUpiYkNqdkxqc1BqcU9ndTRDNHY5WE1JZzBDMEFkRnhDd0JLcFVUTXppeGFMTGkwUVRYMXp3bjlucm5VZUJNZTVhVDlHdW9Xd1dTSUQxbjBKbm80NnpXRVlabzYzcFpLd19YV3RvWTV1NnY5eExkaDhWT0s1OVJ6QVNrOHhjZTNGd1l3Rkx1QzFHU0hja2dobER4cXZa?oc=5",
-     "time": "2026-11-23T13:34:25+00:00"
-    },
-    {
-     "title": "CrowdStrike snaps up Zscaler in $44 billion deal as cyber threats mount",
-     "publisher": "Reuters",
-     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOcUdmOUFLaEppLU9uMl80V2x1RTg4YWg3VUc5cWZsVzNfUWJBN2pFY3BhTndKanI0U2gzZHMzZVdpeWlkVkdBMkxGZkEtNFYyYmhteTQ5MHM0NnhkN2lfVk1WcDRxZDluQzVXNll2OWhodnVmaG9qNm15SWdweEM4YmxSWXVKd21mNW9uWW82MHUyWlJLTEE?oc=5",
-     "time": "2026-11-23T13:31:08+00:00"
-    }
-   ],
-   "brief": null
-  },
-  {
    "symbol": "ANET",
    "name": "Arista Networks",
    "list": "portfolio",
-   "price": 183.12,
+   "price": 184.17,
    "prev_close": 167.62,
-   "change_pct": 9.2,
+   "change_pct": 9.9,
    "trigger_change": 7.9,
-   "peak_change": 9.2,
+   "peak_change": 9.9,
    "first_seen": "2026-11-23T14:55:58+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 462.76,
-    "change_pct": 15.67
+    "price": 465.26,
+    "change_pct": 16.3
    },
    "chart": {
-    "ema8": -0.7,
-    "ema21": -1.1,
-    "sma50": -4.6,
-    "sma200": 8.5,
+    "ema8": -0.2,
+    "ema21": -0.6,
+    "sma50": -4.0,
+    "sma200": 9.1,
     "momentum": false
    },
    "headlines": [],
@@ -350,23 +275,23 @@
    "symbol": "APP",
    "name": "AppLovin",
    "list": "portfolio",
-   "price": 379.48,
+   "price": 381.35,
    "prev_close": 348.29,
-   "change_pct": 9.0,
+   "change_pct": 9.5,
    "trigger_change": 5.9,
-   "peak_change": 9.0,
+   "peak_change": 9.5,
    "first_seen": "2026-11-23T14:55:58+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 95.47,
-    "change_pct": 4.15
+    "price": 95.87,
+    "change_pct": 4.59
    },
    "chart": {
-    "ema8": 0.4,
-    "ema21": 7.8,
-    "sma50": 22.3,
-    "sma200": -6.2,
+    "ema8": 0.8,
+    "ema21": 8.2,
+    "sma50": 22.9,
+    "sma200": -5.7,
     "momentum": true
    },
    "headlines": [
@@ -422,26 +347,101 @@
    "brief": null
   },
   {
+   "symbol": "CRWD",
+   "name": "CrowdStrike",
+   "list": "portfolio",
+   "price": 208.5,
+   "prev_close": 229.44,
+   "change_pct": -9.1,
+   "trigger_change": -9.3,
+   "peak_change": -10.4,
+   "first_seen": "2026-11-23T14:55:58+00:00",
+   "sector": {
+    "etf": "IGV",
+    "name": "Software",
+    "price": 95.87,
+    "change_pct": 4.59
+   },
+   "chart": {
+    "ema8": -7.9,
+    "ema21": -10.5,
+    "sma50": -15.4,
+    "sma200": 18.0,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "CrowdStrike\u2019s $44B Zscaler Acquisition Could Reshape Cybersecurity ETFs. Here\u2019s What Changes for Investors",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQNlpCWXhpS0Z4VHprY1BhNnVWenRJQm9UYjZLOU9yYUtiRGVRbjU5c0xJUzZvd2FrWG1JMFdRNzh0MF9xei00eHUtMk1UR1BGTXpCTDVwOW00Q01ZeGU3OXNfUU9iMkIzNnEzV29VN21QT3NEa0RMc3BpOURMTFUyaXdJUTZkUWZKY2tiX0t1aG80M19ocHpadGF5SzVRMlR1aU9GUmE5VTNRNDkwdzhYaDRsemFROFZaTkwxZjNIZDNFY2ViTDg5ZkFYYjNZdTY5X1R2Y2hrcnZ4TU8tMkpNV3JrdmR3WUVfVXE2bF9MaDE?oc=5",
+     "time": "2026-11-23T14:31:20+00:00"
+    },
+    {
+     "title": "Why CrowdStrike (CRWD) stock falls after $43.9 Billion Zscaler deal while ZS stock rallies in premarket",
+     "publisher": "The Economic Times",
+     "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNNVFRNVZJU3ZRQ2VJV2NNRmQ2NEJpMWdvQlp4c0pFRW5sa1M4TmdGbVdoUEtXSWJwaHF5SkRFUTdiOWJMQ1NjV3BHeno2amJuQUl1V3F0WUhIWkh4WklNYlZPdlh5UW5xQmJjUDdQenVnV2ZoMmpIWEJhbDJ5TEZERS0zbXFsbGxvdUJPZF9nOXlFQ1ZIcVdfNVY3a2tWYXVKZTJnbGxBdE1qVXBSSk4yZVNBTXR6M0tjOEhjbFE0YVZEazJFY1RoUUc1WGVfSFp4VXI2czdORmZ3WVdKRS1sQjZUTDhjSDdGdnJyN2RaNzNaNUp0YXFyQVVham14d9IBgwJBVV95cUxPNFUyXzJCdFVDbE84YkV4UWRGVGk4UWVwbHoyS1dZZm9iUFg0WVZYRlBMckVaMDF0ZzEwWW4yMF8zNHQ4UjZkTTdTZnpmSnZiMFlQR1NWNjhmTTV3Rm5laWpGdlNrbXdTY3ZucmtjUDkyUGJzYUl1UmJ4YnY4Y3Q1alZsRTgtVXJEOC1VVHBWNEhyQXZBOUNKclRNVFY0SUE4NExJTmdvOUlXZENUY3FQcmRzYlZHTVBYVDJZQmlCMVZsUUVaVWFvOWpOWjZNZUNqQ2hfQWdDeC1vUG00Q09GbHpFdDJTWDNSNnpQYVV1M21HOGNpUDgtYlgwQ3I5VXNFMWh3?oc=5",
+     "time": "2026-11-23T14:25:53+00:00"
+    },
+    {
+     "title": "CrowdStrike (CRWD) to Acquire Zscaler for $43.9 Billion in Major Cybersecurity Deal",
+     "publisher": "GuruFocus",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPemtpTlI0ZUJzM1FScHFVa2xHdDc2a29kNTN5M21UakNvT1FhYjd3X0oyUzYyRlFUaTdWNUFodGxvdzZKVjdmdFZCV1JWLUx1OVNEWHVfZ0NZc3dWM1hHVzNZTERDNGU0a1JuMDdyRWM4eXVpRmlfWl84SklEd3BpalBzRGF2UDhxeFBLcERwZl9DY2xhVHU1YWhFb0ZPck9kbmhmS1hEM1pQY0VsNHVVWldlSXRiVDI3YWc?oc=5",
+     "time": "2026-11-23T14:19:02+00:00"
+    },
+    {
+     "title": "CrowdStrike Stock Drops On Zscaler Acquisition",
+     "publisher": "Investor's Business Daily",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQZnl0SEJKbVBsTkxseWpsUTNZRzhkMm1yb2c0MGlBN1BGSW9ZU01GSllBS05ZSlEzX0xwOVFGRDVTTHFrb3RfRXhiRlFwaXhYTjM1S1MwbnhjaXNlaTZGd3V3RXJwTHBrSTNLR2NYNXkxZmIzQ3QwQzdQZWRja2hwTUNlNXc3SjZLR2Q0?oc=5",
+     "time": "2026-11-23T14:11:00+00:00"
+    },
+    {
+     "title": "CrowdStrike (CRWD) to Acquire Zscaler (ZS) in $43.9 Billion Stoc",
+     "publisher": "GuruFocus",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNcDJrejZGUTFuVHFsU2tkT2FhYWxfd0dWNVBtTWh2cGFLeFQ3WmVrOUxUTjlySjlwblhQS3E0Nk9QSUVwVkhGdnJCYXVlZnN1WmxDQkV4elhHVG10VV9VNlM2eF9KZkpOb0NvelVJTVNhQVo1X0lfMVU4cTJ6Umc1eGNQeFAyTF9sZFYteTFSNUhfSHNrTkJpcGRXaExjVllZdjMzYlhR?oc=5",
+     "time": "2026-11-23T14:05:01+00:00"
+    },
+    {
+     "title": "CrowdStrike stock falls after agreeing to buy Zscaler for $43.9B",
+     "publisher": "Invezz",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOMlJTT3p0Tkgxb0tDcEZld1hReTRwME5xZGw3WGpTelNVYm03RnZJRmRCbHAzemdJMFZ3NlFyYXc4Ykszdnc5QVhyMGp5YTE2ZDVXOHJvU090WkhHTkV3SlM5LWtoV2tKbXFSMExuV21lcWszWVZTaXpPRXhwMzR0RHBDeGd2elpGcHFySmMxN0FHTmcyZk1iVThQYWd5V2hlWGljSzFZZlNySGc?oc=5",
+     "time": "2026-11-23T13:56:47+00:00"
+    },
+    {
+     "title": "CrowdStrike is spending $43.9 billion to buy Zscaler in a huge cybersecurity deal as tech outages spread",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPa0MwNl9mNFFvX25LUERTZmpPSG5BY0tHRFpxRW1KTWRnTWpzNnUzemU3OG5kS2pYdlVIZ3F2UDczXzh3OWlkQWo5c1NSWnJDUFVrNWhYRXlXSkM2TW9VdUpiYkNqdkxqc1BqcU9ndTRDNHY5WE1JZzBDMEFkRnhDd0JLcFVUTXppeGFMTGkwUVRYMXp3bjlucm5VZUJNZTVhVDlHdW9Xd1dTSUQxbjBKbm80NnpXRVlabzYzcFpLd19YV3RvWTV1NnY5eExkaDhWT0s1OVJ6QVNrOHhjZTNGd1l3Rkx1QzFHU0hja2dobER4cXZa?oc=5",
+     "time": "2026-11-23T13:34:25+00:00"
+    },
+    {
+     "title": "CrowdStrike snaps up Zscaler in $44 billion deal as cyber threats mount",
+     "publisher": "Reuters",
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOcUdmOUFLaEppLU9uMl80V2x1RTg4YWg3VUc5cWZsVzNfUWJBN2pFY3BhTndKanI0U2gzZHMzZVdpeWlkVkdBMkxGZkEtNFYyYmhteTQ5MHM0NnhkN2lfVk1WcDRxZDluQzVXNll2OWhodnVmaG9qNm15SWdweEM4YmxSWXVKd21mNW9uWW82MHUyWlJLTEE?oc=5",
+     "time": "2026-11-23T13:31:08+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
    "symbol": "SOFI",
    "name": "SoFi",
    "list": "portfolio",
-   "price": 13.52,
+   "price": 13.62,
    "prev_close": 12.48,
-   "change_pct": 8.3,
+   "change_pct": 9.1,
    "trigger_change": 7.9,
-   "peak_change": 8.7,
+   "peak_change": 9.1,
    "first_seen": "2026-11-23T14:55:58+00:00",
    "sector": {
     "etf": "XLF",
     "name": "Financials",
-    "price": 55.65,
-    "change_pct": 1.97
+    "price": 55.7,
+    "change_pct": 2.06
    },
    "chart": {
-    "ema8": -4.2,
-    "ema21": -10.1,
-    "sma50": -14.0,
-    "sma200": -20.9,
+    "ema8": -3.7,
+    "ema21": -9.5,
+    "sma50": -13.4,
+    "sma200": -20.4,
     "momentum": false
    },
    "headlines": [
@@ -500,23 +500,23 @@
    "symbol": "GOOG",
    "name": "Alphabet",
    "list": "portfolio",
-   "price": 278.39,
+   "price": 279.57,
    "prev_close": 264.0,
-   "change_pct": 5.5,
+   "change_pct": 5.9,
    "trigger_change": 4.9,
    "peak_change": 5.9,
    "first_seen": "2026-11-23T14:55:58+00:00",
    "sector": {
     "etf": "XLC",
     "name": "Communication",
-    "price": 102.83,
-    "change_pct": 2.8
+    "price": 103.07,
+    "change_pct": 3.04
    },
    "chart": {
-    "ema8": 0.2,
-    "ema21": -3.9,
-    "sma50": -12.4,
-    "sma200": -16.8,
+    "ema8": 0.5,
+    "ema21": -3.5,
+    "sma50": -12.1,
+    "sma200": -16.5,
     "momentum": false
    },
    "headlines": [
@@ -575,23 +575,23 @@
    "symbol": "NOW",
    "name": "ServiceNow",
    "list": "portfolio",
-   "price": 92.29,
+   "price": 92.7,
    "prev_close": 87.61,
-   "change_pct": 5.3,
+   "change_pct": 5.8,
    "trigger_change": 4.3,
-   "peak_change": 5.3,
+   "peak_change": 5.8,
    "first_seen": "2026-11-23T14:55:58+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 95.47,
-    "change_pct": 4.15
+    "price": 95.87,
+    "change_pct": 4.59
    },
    "chart": {
-    "ema8": -2.0,
-    "ema21": -13.0,
-    "sma50": -27.3,
-    "sma200": -18.5,
+    "ema8": -1.6,
+    "ema21": -12.6,
+    "sma50": -26.9,
+    "sma200": -18.1,
     "momentum": false
    },
    "headlines": [
@@ -647,101 +647,26 @@
    "brief": null
   },
   {
-   "symbol": "AXON",
-   "name": "Axon",
-   "list": "watchlist",
-   "price": 306.42,
-   "prev_close": 291.14,
-   "change_pct": 5.2,
-   "trigger_change": 3.6,
-   "peak_change": 5.2,
-   "first_seen": "2026-11-23T14:55:58+00:00",
-   "sector": {
-    "etf": "XLI",
-    "name": "Industrials",
-    "price": 161.93,
-    "change_pct": 3.56
-   },
-   "chart": {
-    "ema8": -0.7,
-    "ema21": -10.2,
-    "sma50": -22.4,
-    "sma200": -33.7,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Axon Enterprise (AXON) Could Be 46% Undervalued After Fresh Public Safety Deployments",
-     "publisher": "Simply Wall St",
-     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQOHVEYnpkMzM3QVpfUEQtV09ubDVyM1h6REVmbHpVYlJTdWZiMnhERWZKbEZZZ0xLUzV0ajczdWlzMjFqeXBuWXpDOUdLRXI4ZVhsanBmdEZPTGNaSFExNVU4NGRybEZza0dBRkR1a3k3TXJiNkV0NERObHVIa3ZrWWRWT1NFWE5yajJ6cEFzblB6aDNnMkhoX2FIa1RHRmpHMC1YU0pLa21jci1faW84MHdRLUtoZXIySmlzNXJsdGZLTkJXUjF1TUFSeFprTTFPaFV3X3pB0gHbAUFVX3lxTFBMVnVhM3NBTHRZdDQxRkk0cDVQekFOcjdwOVFNS1FUNTV6b1I4eHloX3RiaWZDWDlZX2RjRTFOZE42ckJ4VENOVFFZenFoVzdRQko1RnFjVG9sVWxHbmpIbHZORnZpQ09adUJBN1Nicmc1RHJ5NElpcWxpcXNIVEtDcnZiTGdyci0tSUgwb0ZVb24tWG9NY3NrNVdJRzZKS3hWQmpwMWppUUNaZVlxN0pUdy0wSVkxdWIzWVc3SFRTZzJvRURndWlxTU9KWXQ1S3pzWGhDdVJUUFJWTQ?oc=5",
-     "time": "2026-11-23T12:14:07+00:00"
-    },
-    {
-     "title": "AXON Dec 2026 540.000 call (AXON261218C00540000) interactive stock chart",
-     "publisher": "Yahoo Finance Australia",
-     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5aNXFKZU5OUFFIQXJRaThYQkd3aTB1S3lpdmRYNmlGTHVyUmxoNEp2S2tFSmVaQUs4NzFDOXlMbG1lbGtTVVZUdjA4ei1rZjAyWndUeUh6OEREYWNtdjRIc1djMWk3eVRpMlJGVzZB?oc=5",
-     "time": "2026-11-23T10:07:32+00:00"
-    },
-    {
-     "title": "Why Should Axon Stock Holders Watch This Shrinking Figure?",
-     "publisher": "Trefis",
-     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQd0ItRXV5MzFXcEN0T2pIdWpiR0xrdFlhSWZLT1J6SElWWFp0R3VsUWx1RTJDdXhxVHJHRWs4MXo0MnNrYjhfTHJISE42ZnZlbW9CNDVNM2J2Q3hxbkE3ci04Q2dDZ3kzVDlPWjBpdkt4WDU1UThVaU1pQUZDaXJWRndTYzZRVkZWQ29kOWhfMHMtQ2pWQlY3TWtsRVplZ1dnNjctcGR5UmFlbzBYdmhIdnJnM01qaFhucWc?oc=5",
-     "time": "2026-11-23T06:04:14+00:00"
-    },
-    {
-     "title": "AXON Nov 2026 297.500 call (AXON261120C00297500) Interactive Stock Chart - Yahoo Finance",
-     "publisher": "Yahoo! Finance Canada",
-     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5hSVJ2ZGVDRGc5U3dvNXo2SnJlSlN3dGI3dXNsRUNPZm1jZ0x2OGRLT3BHazlud3VKemFrNzhjMFFJVEJRTnZLb3hYUUNPX3RMRVI4WXdxdTdlZVZDRGk2RTVxd3Iwb2RmeVRhLWhn?oc=5",
-     "time": "2026-11-22T17:41:36+00:00"
-    },
-    {
-     "title": "Motley Fool: Law enforcement profits",
-     "publisher": "The Spokesman-Review",
-     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPYXVnd0x3ZnJyUWhKeHhmU3E1YV82TjdYTTI3eXM3Unl6OFBTUnUxcEZ3QXpCcGFoUEhnc3BTeXJTS3lxVzlzS2Q4ZVg0XzN4SWZXaDFDYmFKSHBGVWRLUGRLTzF2ejJoNnlmVzRVb3lzRFRJdWNKNTlPZmE3THJISl80WElhWktHNnc?oc=5",
-     "time": "2026-11-22T13:00:00+00:00"
-    },
-    {
-     "title": "Axon Enterprise (AXON) Signed An Eight Year Police Technology Platform Deal",
-     "publisher": "Simply Wall St",
-     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNR3otV2dMWExmbHE1RDhrc215d2Q0a1JIVkpXQ0xHbkpoVDJBeW5RempYNm9INUNLYnVLZlZpUExfbmVLRzM0NWpTUGdudWk0N0VKS01wMUx2Q3N1UmowSHVkdFhfckJNREVyc25LblVkT0xiYVdJN1loSEt0UWRneXNVWXdBQ1paSU1jaEJKdnNMdlRJMEhDTzdMS1ZXVDBtMlpnQ0tzOXFqb0ZtZk9IbTY1NXl5eVZPNkVyckZPMURpYkxzQXFlTEU3S1BuZHlnRXo4cDNTdy13d9IB2gFBVV95cUxNR3otV2dMWExmbHE1RDhrc215d2Q0a1JIVkpXQ0xHbkpoVDJBeW5RempYNm9INUNLYnVLZlZpUExfbmVLRzM0NWpTUGdudWk0N0VKS01wMUx2Q3N1UmowSHVkdFhfckJNREVyc25LblVkT0xiYVdJN1loSEt0UWRneXNVWXdBQ1paSU1jaEJKdnNMdlRJMEhDTzdMS1ZXVDBtMlpnQ0tzOXFqb0ZtZk9IbTY1NXl5eVZPNkVyckZPMURpYkxzQXFlTEU3S1BuZHlnRXo4cDNTdy13dw?oc=5",
-     "time": "2026-11-22T11:10:19+00:00"
-    },
-    {
-     "title": "Axon Enterprise, Inc. (AXON) Stock Price, News, Quote & History",
-     "publisher": "Yahoo! Finance Canada",
-     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9FaFY2blB3Sm1pMS1PY0ZEYlVlaENiTHZ3UXB2YnZPUGhaQm40SHdVdFVzVEtPeXp0cTRGcVZMYTJrY2pvd0N1MWVYS3d0RDdnYnc?oc=5",
-     "time": "2026-11-22T09:42:43+00:00"
-    },
-    {
-     "title": "Form 4 Axon Enterprise Inc: Brittany Bagley (COO & CFO) For: 13 November",
-     "publisher": "Investing.com Nigeria",
-     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOdGtJSkJmbjVpR2UwRmMyc2FwSnhmR3VheHhXc2dRUTAwb3dyM1hVYkIyT2lxX0swcUFaR1ExMzEtMFFMS2VsVFJtSkZzaU0tejNfbW1MODVOSzBicUNlZm5UVWFMWFZFS3Y2Qi1Vb1Q2UlphNlZuWVhxODBpeWU4ZERLQ1liY1VlaHlKYlRxcUFVeHdmWHhQZTNmV2dtcWtRTGlVdW95RUFybWNONHk2aTlCUHdMOEpCWG94UFZZcElrbDJjOHYw?oc=5",
-     "time": "2026-11-22T09:22:44+00:00"
-    }
-   ],
-   "brief": null
-  },
-  {
    "symbol": "META",
    "name": "Meta",
    "list": "portfolio",
-   "price": 588.86,
+   "price": 592.81,
    "prev_close": 560.84,
-   "change_pct": 5.0,
+   "change_pct": 5.7,
    "trigger_change": 4.6,
-   "peak_change": 5.1,
+   "peak_change": 5.7,
    "first_seen": "2026-11-23T14:55:58+00:00",
    "sector": {
     "etf": "XLC",
     "name": "Communication",
-    "price": 102.83,
-    "change_pct": 2.8
+    "price": 103.07,
+    "change_pct": 3.04
    },
    "chart": {
-    "ema8": -2.2,
-    "ema21": -5.6,
-    "sma50": -12.8,
-    "sma200": -6.3,
+    "ema8": -1.7,
+    "ema21": -5.1,
+    "sma50": -12.2,
+    "sma200": -5.6,
     "momentum": false
    },
    "headlines": [
@@ -797,26 +722,101 @@
    "brief": null
   },
   {
+   "symbol": "AXON",
+   "name": "Axon",
+   "list": "watchlist",
+   "price": 306.77,
+   "prev_close": 291.14,
+   "change_pct": 5.4,
+   "trigger_change": 3.6,
+   "peak_change": 5.4,
+   "first_seen": "2026-11-23T14:55:58+00:00",
+   "sector": {
+    "etf": "XLI",
+    "name": "Industrials",
+    "price": 162.14,
+    "change_pct": 3.69
+   },
+   "chart": {
+    "ema8": -0.6,
+    "ema21": -10.1,
+    "sma50": -22.3,
+    "sma200": -33.6,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Axon Enterprise (AXON) Could Be 46% Undervalued After Fresh Public Safety Deployments",
+     "publisher": "Simply Wall St",
+     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQOHVEYnpkMzM3QVpfUEQtV09ubDVyM1h6REVmbHpVYlJTdWZiMnhERWZKbEZZZ0xLUzV0ajczdWlzMjFqeXBuWXpDOUdLRXI4ZVhsanBmdEZPTGNaSFExNVU4NGRybEZza0dBRkR1a3k3TXJiNkV0NERObHVIa3ZrWWRWT1NFWE5yajJ6cEFzblB6aDNnMkhoX2FIa1RHRmpHMC1YU0pLa21jci1faW84MHdRLUtoZXIySmlzNXJsdGZLTkJXUjF1TUFSeFprTTFPaFV3X3pB0gHbAUFVX3lxTFBMVnVhM3NBTHRZdDQxRkk0cDVQekFOcjdwOVFNS1FUNTV6b1I4eHloX3RiaWZDWDlZX2RjRTFOZE42ckJ4VENOVFFZenFoVzdRQko1RnFjVG9sVWxHbmpIbHZORnZpQ09adUJBN1Nicmc1RHJ5NElpcWxpcXNIVEtDcnZiTGdyci0tSUgwb0ZVb24tWG9NY3NrNVdJRzZKS3hWQmpwMWppUUNaZVlxN0pUdy0wSVkxdWIzWVc3SFRTZzJvRURndWlxTU9KWXQ1S3pzWGhDdVJUUFJWTQ?oc=5",
+     "time": "2026-11-23T12:14:07+00:00"
+    },
+    {
+     "title": "AXON Dec 2026 540.000 call (AXON261218C00540000) interactive stock chart",
+     "publisher": "Yahoo Finance Australia",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5aNXFKZU5OUFFIQXJRaThYQkd3aTB1S3lpdmRYNmlGTHVyUmxoNEp2S2tFSmVaQUs4NzFDOXlMbG1lbGtTVVZUdjA4ei1rZjAyWndUeUh6OEREYWNtdjRIc1djMWk3eVRpMlJGVzZB?oc=5",
+     "time": "2026-11-23T10:07:32+00:00"
+    },
+    {
+     "title": "Why Should Axon Stock Holders Watch This Shrinking Figure?",
+     "publisher": "Trefis",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQd0ItRXV5MzFXcEN0T2pIdWpiR0xrdFlhSWZLT1J6SElWWFp0R3VsUWx1RTJDdXhxVHJHRWs4MXo0MnNrYjhfTHJISE42ZnZlbW9CNDVNM2J2Q3hxbkE3ci04Q2dDZ3kzVDlPWjBpdkt4WDU1UThVaU1pQUZDaXJWRndTYzZRVkZWQ29kOWhfMHMtQ2pWQlY3TWtsRVplZ1dnNjctcGR5UmFlbzBYdmhIdnJnM01qaFhucWc?oc=5",
+     "time": "2026-11-23T06:04:14+00:00"
+    },
+    {
+     "title": "AXON Nov 2026 297.500 call (AXON261120C00297500) Interactive Stock Chart - Yahoo Finance",
+     "publisher": "Yahoo! Finance Canada",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5hSVJ2ZGVDRGc5U3dvNXo2SnJlSlN3dGI3dXNsRUNPZm1jZ0x2OGRLT3BHazlud3VKemFrNzhjMFFJVEJRTnZLb3hYUUNPX3RMRVI4WXdxdTdlZVZDRGk2RTVxd3Iwb2RmeVRhLWhn?oc=5",
+     "time": "2026-11-22T17:41:36+00:00"
+    },
+    {
+     "title": "Motley Fool: Law enforcement profits",
+     "publisher": "The Spokesman-Review",
+     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPYXVnd0x3ZnJyUWhKeHhmU3E1YV82TjdYTTI3eXM3Unl6OFBTUnUxcEZ3QXpCcGFoUEhnc3BTeXJTS3lxVzlzS2Q4ZVg0XzN4SWZXaDFDYmFKSHBGVWRLUGRLTzF2ejJoNnlmVzRVb3lzRFRJdWNKNTlPZmE3THJISl80WElhWktHNnc?oc=5",
+     "time": "2026-11-22T13:00:00+00:00"
+    },
+    {
+     "title": "Axon Enterprise (AXON) Signed An Eight Year Police Technology Platform Deal",
+     "publisher": "Simply Wall St",
+     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNR3otV2dMWExmbHE1RDhrc215d2Q0a1JIVkpXQ0xHbkpoVDJBeW5RempYNm9INUNLYnVLZlZpUExfbmVLRzM0NWpTUGdudWk0N0VKS01wMUx2Q3N1UmowSHVkdFhfckJNREVyc25LblVkT0xiYVdJN1loSEt0UWRneXNVWXdBQ1paSU1jaEJKdnNMdlRJMEhDTzdMS1ZXVDBtMlpnQ0tzOXFqb0ZtZk9IbTY1NXl5eVZPNkVyckZPMURpYkxzQXFlTEU3S1BuZHlnRXo4cDNTdy13d9IB2gFBVV95cUxNR3otV2dMWExmbHE1RDhrc215d2Q0a1JIVkpXQ0xHbkpoVDJBeW5RempYNm9INUNLYnVLZlZpUExfbmVLRzM0NWpTUGdudWk0N0VKS01wMUx2Q3N1UmowSHVkdFhfckJNREVyc25LblVkT0xiYVdJN1loSEt0UWRneXNVWXdBQ1paSU1jaEJKdnNMdlRJMEhDTzdMS1ZXVDBtMlpnQ0tzOXFqb0ZtZk9IbTY1NXl5eVZPNkVyckZPMURpYkxzQXFlTEU3S1BuZHlnRXo4cDNTdy13dw?oc=5",
+     "time": "2026-11-22T11:10:19+00:00"
+    },
+    {
+     "title": "Axon Enterprise, Inc. (AXON) Stock Price, News, Quote & History",
+     "publisher": "Yahoo! Finance Canada",
+     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9FaFY2blB3Sm1pMS1PY0ZEYlVlaENiTHZ3UXB2YnZPUGhaQm40SHdVdFVzVEtPeXp0cTRGcVZMYTJrY2pvd0N1MWVYS3d0RDdnYnc?oc=5",
+     "time": "2026-11-22T09:42:43+00:00"
+    },
+    {
+     "title": "Form 4 Axon Enterprise Inc: Brittany Bagley (COO & CFO) For: 13 November",
+     "publisher": "Investing.com Nigeria",
+     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOdGtJSkJmbjVpR2UwRmMyc2FwSnhmR3VheHhXc2dRUTAwb3dyM1hVYkIyT2lxX0swcUFaR1ExMzEtMFFMS2VsVFJtSkZzaU0tejNfbW1MODVOSzBicUNlZm5UVWFMWFZFS3Y2Qi1Vb1Q2UlphNlZuWVhxODBpeWU4ZERLQ1liY1VlaHlKYlRxcUFVeHdmWHhQZTNmV2dtcWtRTGlVdW95RUFybWNONHk2aTlCUHdMOEpCWG94UFZZcElrbDJjOHYw?oc=5",
+     "time": "2026-11-22T09:22:44+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
    "symbol": "MELI",
    "name": "MercadoLibre",
    "list": "watchlist",
-   "price": 1411.93,
+   "price": 1415.86,
    "prev_close": 1355.0,
-   "change_pct": 4.2,
+   "change_pct": 4.5,
    "trigger_change": 3.7,
-   "peak_change": 4.2,
+   "peak_change": 4.5,
    "first_seen": "2026-11-23T14:55:58+00:00",
    "sector": {
     "etf": "XLY",
     "name": "Consumer discr.",
-    "price": 117.17,
-    "change_pct": 4.19
+    "price": 117.28,
+    "change_pct": 4.29
    },
    "chart": {
-    "ema8": -1.1,
-    "ema21": -7.8,
-    "sma50": -16.9,
-    "sma200": -19.9,
+    "ema8": -0.9,
+    "ema21": -7.6,
+    "sma50": -16.7,
+    "sma200": -19.7,
     "momentum": false
    },
    "headlines": [
@@ -875,23 +875,23 @@
    "symbol": "AMZN",
    "name": "Amazon",
    "list": "portfolio",
-   "price": 256.55,
+   "price": 257.14,
    "prev_close": 246.82,
-   "change_pct": 3.9,
+   "change_pct": 4.2,
    "trigger_change": 3.1,
-   "peak_change": 3.9,
+   "peak_change": 4.2,
    "first_seen": "2026-11-23T14:55:58+00:00",
    "sector": {
     "etf": "XLY",
     "name": "Consumer discr.",
-    "price": 117.17,
-    "change_pct": 4.19
+    "price": 117.28,
+    "change_pct": 4.29
    },
    "chart": {
-    "ema8": -0.6,
-    "ema21": -0.6,
-    "sma50": 0.6,
-    "sma200": 4.6,
+    "ema8": -0.4,
+    "ema21": -0.4,
+    "sma50": 0.8,
+    "sma200": 4.8,
     "momentum": false
    },
    "headlines": [
@@ -950,18 +950,18 @@
    "symbol": "BTC-USD",
    "name": "Bitcoin",
    "list": "watchlist",
-   "price": 63004.5,
+   "price": 63346.7,
    "prev_close": 61170.1,
-   "change_pct": 3.0,
+   "change_pct": 3.6,
    "trigger_change": 3.1,
-   "peak_change": 3.2,
+   "peak_change": 3.6,
    "first_seen": "2026-11-23T15:01:01+00:00",
    "sector": null,
    "chart": {
-    "ema8": 0.3,
-    "ema21": -6.9,
-    "sma50": -17.3,
-    "sma200": -12.8,
+    "ema8": 0.7,
+    "ema21": -6.4,
+    "sma50": -16.9,
+    "sma200": -12.3,
     "momentum": false
    },
    "headlines": [
@@ -1020,23 +1020,23 @@
    "symbol": "UNH",
    "name": "UnitedHealth",
    "list": "portfolio",
-   "price": 333.93,
+   "price": 332.51,
    "prev_close": 339.85,
-   "change_pct": -1.7,
+   "change_pct": -2.2,
    "trigger_change": -3.1,
    "peak_change": -3.1,
    "first_seen": "2026-11-23T14:55:58+00:00",
    "sector": {
     "etf": "XLV",
     "name": "Health care",
-    "price": 179.5,
-    "change_pct": 1.28
+    "price": 179.65,
+    "change_pct": 1.36
    },
    "chart": {
-    "ema8": -7.5,
-    "ema21": -12.5,
-    "sma50": -13.9,
-    "sma200": -9.5,
+    "ema8": -7.8,
+    "ema21": -12.8,
+    "sma50": -14.2,
+    "sma200": -9.8,
     "momentum": false
    },
    "headlines": [
