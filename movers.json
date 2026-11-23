@@ -1,22 +1,22 @@
 {
  "date": "2026-11-23",
  "threshold": 3.0,
- "updated": "2026-11-23T19:43:38+00:00",
+ "updated": "2026-11-23T19:53:41+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 721.03,
-   "change_pct": 4.53
+   "price": 721.69,
+   "change_pct": 4.62
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 648.43,
-   "change_pct": 6.57
+   "price": 649.23,
+   "change_pct": 6.7
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 81.61,
-   "change_pct": 0.2
+   "price": 81.66,
+   "change_pct": 0.25
   }
  },
  "movers": [
@@ -24,23 +24,23 @@
    "symbol": "NVDA",
    "name": "Nvidia",
    "list": "portfolio",
-   "price": 164.08,
+   "price": 164.66,
    "prev_close": 125.53,
-   "change_pct": 30.7,
+   "change_pct": 31.2,
    "trigger_change": 32.0,
    "peak_change": 36.3,
    "first_seen": "2026-11-23T14:55:58+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 455.71,
-    "change_pct": 13.91
+    "price": 456.37,
+    "change_pct": 14.07
    },
    "chart": {
-    "ema8": 5.7,
-    "ema21": -6.0,
-    "sma50": -20.4,
-    "sma200": -19.3,
+    "ema8": 6.0,
+    "ema21": -5.7,
+    "sma50": -20.1,
+    "sma200": -19.0,
     "momentum": false
    },
    "headlines": [
@@ -99,7 +99,7 @@
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 96.5,
+   "price": 96.54,
    "prev_close": 81.31,
    "change_pct": 18.7,
    "trigger_change": 20.7,
@@ -108,8 +108,8 @@
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 94.84,
-    "change_pct": 3.47
+    "price": 94.92,
+    "change_pct": 3.56
    },
    "chart": {
     "ema8": -8.1,
@@ -174,23 +174,23 @@
    "symbol": "AMAT",
    "name": "Applied Materials",
    "list": "portfolio",
-   "price": 341.7,
+   "price": 341.46,
    "prev_close": 302.63,
-   "change_pct": 12.9,
+   "change_pct": 12.8,
    "trigger_change": 12.5,
    "peak_change": 15.4,
    "first_seen": "2026-11-23T14:55:58+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 455.71,
-    "change_pct": 13.91
+    "price": 456.37,
+    "change_pct": 14.07
    },
    "chart": {
     "ema8": -0.7,
-    "ema21": -7.2,
-    "sma50": -19.4,
-    "sma200": -23.6,
+    "ema21": -7.3,
+    "sma50": -19.5,
+    "sma200": -23.7,
     "momentum": false
    },
    "headlines": [
@@ -249,23 +249,23 @@
    "symbol": "CRWD",
    "name": "CrowdStrike",
    "list": "portfolio",
-   "price": 205.09,
+   "price": 204.42,
    "prev_close": 229.44,
-   "change_pct": -10.6,
+   "change_pct": -10.9,
    "trigger_change": -9.3,
    "peak_change": -12.2,
    "first_seen": "2026-11-23T14:55:58+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 94.84,
-    "change_pct": 3.47
+    "price": 94.92,
+    "change_pct": 3.56
    },
    "chart": {
-    "ema8": -9.1,
-    "ema21": -11.9,
-    "sma50": -16.8,
-    "sma200": 16.1,
+    "ema8": -9.4,
+    "ema21": -12.1,
+    "sma50": -17.0,
+    "sma200": 15.7,
     "momentum": false
    },
    "headlines": [
@@ -324,23 +324,23 @@
    "symbol": "APP",
    "name": "AppLovin",
    "list": "portfolio",
-   "price": 373.06,
+   "price": 373.83,
    "prev_close": 348.29,
-   "change_pct": 7.1,
+   "change_pct": 7.3,
    "trigger_change": 5.9,
    "peak_change": 10.2,
    "first_seen": "2026-11-23T14:55:58+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 94.84,
-    "change_pct": 3.47
+    "price": 94.92,
+    "change_pct": 3.56
    },
    "chart": {
-    "ema8": -0.9,
-    "ema21": 6.1,
-    "sma50": 20.3,
-    "sma200": -7.7,
+    "ema8": -0.7,
+    "ema21": 6.3,
+    "sma50": 20.6,
+    "sma200": -7.6,
     "momentum": true
    },
    "headlines": [
@@ -393,7 +393,7 @@
    "symbol": "META",
    "name": "Meta",
    "list": "portfolio",
-   "price": 597.6,
+   "price": 597.88,
    "prev_close": 560.84,
    "change_pct": 6.6,
    "trigger_change": 4.6,
@@ -402,14 +402,14 @@
    "sector": {
     "etf": "XLC",
     "name": "Communication",
-    "price": 103.47,
-    "change_pct": 3.44
+    "price": 103.55,
+    "change_pct": 3.52
    },
    "chart": {
     "ema8": -1.0,
-    "ema21": -4.4,
+    "ema21": -4.3,
     "sma50": -11.5,
-    "sma200": -4.9,
+    "sma200": -4.8,
     "momentum": false
    },
    "headlines": [
@@ -468,23 +468,23 @@
    "symbol": "ANET",
    "name": "Arista Networks",
    "list": "portfolio",
-   "price": 178.42,
+   "price": 178.65,
    "prev_close": 167.62,
-   "change_pct": 6.4,
+   "change_pct": 6.6,
    "trigger_change": 7.9,
    "peak_change": 10.3,
    "first_seen": "2026-11-23T14:55:58+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 455.71,
-    "change_pct": 13.91
+    "price": 456.37,
+    "change_pct": 14.07
    },
    "chart": {
-    "ema8": -2.7,
-    "ema21": -3.4,
-    "sma50": -7.0,
-    "sma200": 5.7,
+    "ema8": -2.6,
+    "ema21": -3.3,
+    "sma50": -6.9,
+    "sma200": 5.8,
     "momentum": false
    },
    "headlines": [
@@ -543,22 +543,22 @@
    "symbol": "GOOG",
    "name": "Alphabet",
    "list": "portfolio",
-   "price": 279.91,
+   "price": 280.06,
    "prev_close": 264.0,
-   "change_pct": 6.0,
+   "change_pct": 6.1,
    "trigger_change": 4.9,
    "peak_change": 7.0,
    "first_seen": "2026-11-23T14:55:58+00:00",
    "sector": {
     "etf": "XLC",
     "name": "Communication",
-    "price": 103.47,
-    "change_pct": 3.44
+    "price": 103.55,
+    "change_pct": 3.52
    },
    "chart": {
-    "ema8": 0.6,
+    "ema8": 0.7,
     "ema21": -3.4,
-    "sma50": -12.0,
+    "sma50": -11.9,
     "sma200": -16.3,
     "momentum": false
    },
@@ -615,25 +615,169 @@
    "brief": "2026-11-23-GOOG"
   },
   {
+   "symbol": "AXON",
+   "name": "Axon",
+   "list": "watchlist",
+   "price": 305.6,
+   "prev_close": 291.14,
+   "change_pct": 5.0,
+   "trigger_change": 3.6,
+   "peak_change": 6.3,
+   "first_seen": "2026-11-23T14:55:58+00:00",
+   "sector": {
+    "etf": "XLI",
+    "name": "Industrials",
+    "price": 162.05,
+    "change_pct": 3.63
+   },
+   "chart": {
+    "ema8": -0.9,
+    "ema21": -10.4,
+    "sma50": -22.6,
+    "sma200": -33.9,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Axon\u2019s Software Revenue Jumped 43%. Why Did the Stock Fall?",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZGlZYmljdmctWGVFQ3BZN3VWd1hTbVdtQkF0V0tmbEtuMWJDSnhGRmxjRGx3TWdmb0JfVVFSemJhYVREaGt4ZXRXc2c0eFBWbFlzVFlCXzF2N3BZYmkxNFpSRGoyRGVGd1JiV0NFQkZoSXFGMUlRdnY3VmVTUUs3MkdqSjNOTEg3WWpBS04yaW53VU9qR1BEdEp1a29fR1Rh?oc=5",
+     "time": "2026-11-23T16:21:01+00:00"
+    },
+    {
+     "title": "Axon Enterprise Faces Rising Costs: Will Margins Remain Resilient?",
+     "publisher": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQMDJKdVRhWGg4emJFSDlBSG9PWnpJTFcwcGVtc3U1RzJwTmFmOVRFblU0amhYd0J6RVVVdVR6LUI1SW9zSmlqbHlhemM5WXc5NzZsMWl3Wi1Ic09ITEpmXzd1ZVMydEZWWldSaDN2NFhrS1piVUNqY1NHWGpfb2N1RUtiNGNCR0sxRDVrUm5zLUotRk51TUF2QllPLU1WcnBFekswS0l1Vk9oLXlsQXJ5bHVVX0V6SGEybmc0MA?oc=5",
+     "time": "2026-11-23T14:14:00+00:00"
+    },
+    {
+     "title": "Axon Enterprise (AXON) Could Be 46% Undervalued After Fresh Public Safety Deployments",
+     "publisher": "Simply Wall St",
+     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQOHVEYnpkMzM3QVpfUEQtV09ubDVyM1h6REVmbHpVYlJTdWZiMnhERWZKbEZZZ0xLUzV0ajczdWlzMjFqeXBuWXpDOUdLRXI4ZVhsanBmdEZPTGNaSFExNVU4NGRybEZza0dBRkR1a3k3TXJiNkV0NERObHVIa3ZrWWRWT1NFWE5yajJ6cEFzblB6aDNnMkhoX2FIa1RHRmpHMC1YU0pLa21jci1faW84MHdRLUtoZXIySmlzNXJsdGZLTkJXUjF1TUFSeFprTTFPaFV3X3pB0gHbAUFVX3lxTFBMVnVhM3NBTHRZdDQxRkk0cDVQekFOcjdwOVFNS1FUNTV6b1I4eHloX3RiaWZDWDlZX2RjRTFOZE42ckJ4VENOVFFZenFoVzdRQko1RnFjVG9sVWxHbmpIbHZORnZpQ09adUJBN1Nicmc1RHJ5NElpcWxpcXNIVEtDcnZiTGdyci0tSUgwb0ZVb24tWG9NY3NrNVdJRzZKS3hWQmpwMWppUUNaZVlxN0pUdy0wSVkxdWIzWVc3SFRTZzJvRURndWlxTU9KWXQ1S3pzWGhDdVJUUFJWTQ?oc=5",
+     "time": "2026-11-23T12:14:07+00:00"
+    },
+    {
+     "title": "AXON Dec 2026 540.000 call (AXON261218C00540000) interactive stock chart",
+     "publisher": "Yahoo Finance Australia",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5aNXFKZU5OUFFIQXJRaThYQkd3aTB1S3lpdmRYNmlGTHVyUmxoNEp2S2tFSmVaQUs4NzFDOXlMbG1lbGtTVVZUdjA4ei1rZjAyWndUeUh6OEREYWNtdjRIc1djMWk3eVRpMlJGVzZB?oc=5",
+     "time": "2026-11-23T10:07:32+00:00"
+    },
+    {
+     "title": "Axon Enterprise, Inc. (AXON) stock price, news, quote and history",
+     "publisher": "Yahoo Finance UK",
+     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBjSkdPUWhwOUlZSXhuc2pzWDJuXzFCam54MVhvY1hMQzFkcGhPVE1xRjNHbmRscTY5RVNybk5pdDZjYmdsWWZlRV9iOFB3UEpkRkE?oc=5",
+     "time": "2026-11-23T08:42:32+00:00"
+    },
+    {
+     "title": "Why Should Axon Stock Holders Watch This Shrinking Figure?",
+     "publisher": "Trefis",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQd0ItRXV5MzFXcEN0T2pIdWpiR0xrdFlhSWZLT1J6SElWWFp0R3VsUWx1RTJDdXhxVHJHRWs4MXo0MnNrYjhfTHJISE42ZnZlbW9CNDVNM2J2Q3hxbkE3ci04Q2dDZ3kzVDlPWjBpdkt4WDU1UThVaU1pQUZDaXJWRndTYzZRVkZWQ29kOWhfMHMtQ2pWQlY3TWtsRVplZ1dnNjctcGR5UmFlbzBYdmhIdnJnM01qaFhucWc?oc=5",
+     "time": "2026-11-23T06:04:14+00:00"
+    },
+    {
+     "title": "Axon Enterprise, Inc. (AXON) Stock Price, News, Quote & History",
+     "publisher": "Yahoo! Finance Canada",
+     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9FaFY2blB3Sm1pMS1PY0ZEYlVlaENiTHZ3UXB2YnZPUGhaQm40SHdVdFVzVEtPeXp0cTRGcVZMYTJrY2pvd0N1MWVYS3d0RDdnYnc?oc=5",
+     "time": "2026-11-23T00:45:08+00:00"
+    },
+    {
+     "title": "AXON Nov 2026 297.500 call (AXON261120C00297500) Interactive Stock Chart - Yahoo Finance",
+     "publisher": "Yahoo! Finance Canada",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5hSVJ2ZGVDRGc5U3dvNXo2SnJlSlN3dGI3dXNsRUNPZm1jZ0x2OGRLT3BHazlud3VKemFrNzhjMFFJVEJRTnZLb3hYUUNPX3RMRVI4WXdxdTdlZVZDRGk2RTVxd3Iwb2RmeVRhLWhn?oc=5",
+     "time": "2026-11-22T17:41:36+00:00"
+    }
+   ],
+   "brief": "2026-11-23-AXON"
+  },
+  {
+   "symbol": "MELI",
+   "name": "MercadoLibre",
+   "list": "watchlist",
+   "price": 1423.3,
+   "prev_close": 1355.0,
+   "change_pct": 5.0,
+   "trigger_change": 3.7,
+   "peak_change": 5.6,
+   "first_seen": "2026-11-23T14:55:58+00:00",
+   "sector": {
+    "etf": "XLY",
+    "name": "Consumer discr.",
+    "price": 117.09,
+    "change_pct": 4.12
+   },
+   "chart": {
+    "ema8": -0.5,
+    "ema21": -7.1,
+    "sma50": -16.3,
+    "sma200": -19.3,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Can MercadoLibre Sustain 40% GMV Growth in Argentina?",
+     "publisher": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNNHpBcnZndW1ab0o4WUlfMTk3RXR5anR4ME4yZ2JTN0tpaUgyV2RfWWlieGdWNVdyekN1LVJiX2ZqT083ek9sbEt2NjMtSVF0UmVqU3djMVFFNXlOenozMmUxdUQ4MEkzTW5ydWNDaFJLUlNCdkhQNE12dnlRSFJDYlpONkdNZWNjZlZJcmFpakpDSE9SUkYzNHBOc21NbURmR0lYV082azNGRm8?oc=5",
+     "time": "2026-11-23T15:12:00+00:00"
+    },
+    {
+     "title": "Uber Technologies (UBER) Stock Price Prediction: Support Is Being Tested After a Back Above $65",
+     "publisher": "Blockchain News",
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQTDFwb2psV1QyMHNtQTh3bEszMm8zamlFOGlBSEtvRjNrTFpfYWtJSmhVbndVRms5emk2clBhVWhxTWhtWEJKMnIzTFU0V3V2aF85Y19xc2J6STBGY1dsMXlZaGFObHlkczE4cnZoMTRCN1ROSWpxN09USlJWTTRVR3Nzb3p0SUxsNjZxbl95X05iVFNTX3c?oc=5",
+     "time": "2026-11-23T10:11:00+00:00"
+    },
+    {
+     "title": "MercadoLibre (MELI) Stock Price Prediction: BofA trims target as MELI fights to hold a fragile rebound",
+     "publisher": "Blockchain News",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNOFBWYmdRRWlKVm5sNHBWaUo1RTU0UGVkQ1hPTm9JTjJrT2o2N2doS3RuTVFFTDFDRGZ2cTlOT2pwN3M3V0Vhem04M3NfaW1zbEtzbWpCbWVfMjlkSEdYc3I0UjA5d1Y0YWh0MEd3WW82VHZMZTRyWl9ZVmdlbmJJMnA5QzNHT2ZsUV9wSXBIOEFwbEZuT09ZNlRVdw?oc=5",
+     "time": "2026-11-23T10:09:00+00:00"
+    },
+    {
+     "title": "MercadoLibre stock at 1,265.70 euros, up 0.76% premarket",
+     "publisher": "ad-hoc-news.de",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxONmdiMUg5QlIyN1M4dk1MbG1kb29xR0ZIZjQzREVaU291U011S1VtVlVjLVNIcHdWNHpQOUsxQWZCdDVocnJsRFAtRThMLXR0U3FuRDdMRkp5Q0NmWWR5MUxoa1F6YkxlLWNSdC1jMk54RFVXZGpQaTdzeEFBZTdLSW1EbGdnYWplUDJNTXk1cWNzMGdDRlhuWVN3SDNoN2JhN0J0MDl5QU9aaV9GaU9peF9R?oc=5",
+     "time": "2026-11-23T06:54:56+00:00"
+    },
+    {
+     "title": "MercadoLibre Has Disappointed for a Year: Why Bank of America Still Sees 48% Upside",
+     "publisher": "TIKR.com",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPY25aOFR2WlNjNHEzVzU4WHdnTGgzNjBMMzRjcWhPUkMxY3BfWFpQZ25NR1ZOSTFmVHhhaTZJZUdnRmtQWnB2N0tRejB0eGpnWExMVXdDRllleDVnWTBxeFNTR0Y5ZXNCSE9zZzg4N1h1WVI2UHYxZWVsSjBrM2JMZ0xic2o2cHdCbVMzQTVsOHlGZHdSTHVFdGhDWHJ1SEZvVk16QmV1SHBSMHc?oc=5",
+     "time": "2026-11-22T00:26:18+00:00"
+    },
+    {
+     "title": "Should investors Buy Sea Limited Stock Instead of Mercado Libre Stock?",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOMnhCNXlYNzFLLWJHSDlVTHMyQms1NU5tOHg2ekVKS0hZN19sZ0VHT3YwQVVUQ1dDSFVUeUM3U0RNSmJESEFjc0RER0VBQzNQYUExazFyejRWMExhZXZLRWV1YVBxbzVQc2R1N215THI5LTQ3Q0FGcWlxSldDNnZtbXNtYm1fOVA2VnRFLUZCN2d4bHQ4M0VyQ2pZeWJiNkZLVUgtcGV2WHk5cGxvQ3JfVEZ3?oc=5",
+     "time": "2026-11-21T21:13:02+00:00"
+    },
+    {
+     "title": "A $10 Billion Fund Bought These 3 Stocks Last Quarter",
+     "publisher": "TIKR.com",
+     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPekQzb3hBQXA4UEhDQUc3Wmh5MDFpYy16ODNONlNibjZyWl9lcGNnWFRhbTc1LW1kN1lJT2lrby02YTRHYkxBRzdkMmFxOUdlMmxOVm52Y21vc3hOTldlRXE5bVJLRG5uOGVWc0dXelFpN2ZLSlVKdHNYQlJhY1hHcWotemk?oc=5",
+     "time": "2026-11-21T20:37:30+00:00"
+    }
+   ],
+   "brief": "2026-11-23-MELI"
+  },
+  {
    "symbol": "SOFI",
    "name": "SoFi",
    "list": "portfolio",
-   "price": 13.09,
+   "price": 13.1,
    "prev_close": 12.48,
-   "change_pct": 4.9,
+   "change_pct": 5.0,
    "trigger_change": 7.9,
    "peak_change": 9.5,
    "first_seen": "2026-11-23T14:55:58+00:00",
    "sector": {
     "etf": "XLF",
     "name": "Financials",
-    "price": 55.66,
-    "change_pct": 2.0
+    "price": 55.67,
+    "change_pct": 2.02
    },
    "chart": {
     "ema8": -6.6,
     "ema21": -12.7,
-    "sma50": -16.7,
+    "sma50": -16.6,
     "sma200": -23.4,
     "momentum": false
    },
@@ -690,170 +834,26 @@
    "brief": "2026-11-23-SOFI"
   },
   {
-   "symbol": "MELI",
-   "name": "MercadoLibre",
-   "list": "watchlist",
-   "price": 1418.73,
-   "prev_close": 1355.0,
-   "change_pct": 4.7,
-   "trigger_change": 3.7,
-   "peak_change": 5.6,
-   "first_seen": "2026-11-23T14:55:58+00:00",
-   "sector": {
-    "etf": "XLY",
-    "name": "Consumer discr.",
-    "price": 116.94,
-    "change_pct": 3.98
-   },
-   "chart": {
-    "ema8": -0.7,
-    "ema21": -7.4,
-    "sma50": -16.6,
-    "sma200": -19.6,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Can MercadoLibre Sustain 40% GMV Growth in Argentina?",
-     "publisher": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNNHpBcnZndW1ab0o4WUlfMTk3RXR5anR4ME4yZ2JTN0tpaUgyV2RfWWlieGdWNVdyekN1LVJiX2ZqT083ek9sbEt2NjMtSVF0UmVqU3djMVFFNXlOenozMmUxdUQ4MEkzTW5ydWNDaFJLUlNCdkhQNE12dnlRSFJDYlpONkdNZWNjZlZJcmFpakpDSE9SUkYzNHBOc21NbURmR0lYV082azNGRm8?oc=5",
-     "time": "2026-11-23T15:12:00+00:00"
-    },
-    {
-     "title": "Uber Technologies (UBER) Stock Price Prediction: Support Is Being Tested After a Back Above $65",
-     "publisher": "Blockchain News",
-     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQTDFwb2psV1QyMHNtQTh3bEszMm8zamlFOGlBSEtvRjNrTFpfYWtJSmhVbndVRms5emk2clBhVWhxTWhtWEJKMnIzTFU0V3V2aF85Y19xc2J6STBGY1dsMXlZaGFObHlkczE4cnZoMTRCN1ROSWpxN09USlJWTTRVR3Nzb3p0SUxsNjZxbl95X05iVFNTX3c?oc=5",
-     "time": "2026-11-23T10:11:00+00:00"
-    },
-    {
-     "title": "MercadoLibre (MELI) Stock Price Prediction: BofA trims target as MELI fights to hold a fragile rebound",
-     "publisher": "Blockchain News",
-     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNOFBWYmdRRWlKVm5sNHBWaUo1RTU0UGVkQ1hPTm9JTjJrT2o2N2doS3RuTVFFTDFDRGZ2cTlOT2pwN3M3V0Vhem04M3NfaW1zbEtzbWpCbWVfMjlkSEdYc3I0UjA5d1Y0YWh0MEd3WW82VHZMZTRyWl9ZVmdlbmJJMnA5QzNHT2ZsUV9wSXBIOEFwbEZuT09ZNlRVdw?oc=5",
-     "time": "2026-11-23T10:09:00+00:00"
-    },
-    {
-     "title": "MercadoLibre stock at 1,265.70 euros, up 0.76% premarket",
-     "publisher": "ad-hoc-news.de",
-     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxONmdiMUg5QlIyN1M4dk1MbG1kb29xR0ZIZjQzREVaU291U011S1VtVlVjLVNIcHdWNHpQOUsxQWZCdDVocnJsRFAtRThMLXR0U3FuRDdMRkp5Q0NmWWR5MUxoa1F6YkxlLWNSdC1jMk54RFVXZGpQaTdzeEFBZTdLSW1EbGdnYWplUDJNTXk1cWNzMGdDRlhuWVN3SDNoN2JhN0J0MDl5QU9aaV9GaU9peF9R?oc=5",
-     "time": "2026-11-23T06:54:56+00:00"
-    },
-    {
-     "title": "MercadoLibre Has Disappointed for a Year: Why Bank of America Still Sees 48% Upside",
-     "publisher": "TIKR.com",
-     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPY25aOFR2WlNjNHEzVzU4WHdnTGgzNjBMMzRjcWhPUkMxY3BfWFpQZ25NR1ZOSTFmVHhhaTZJZUdnRmtQWnB2N0tRejB0eGpnWExMVXdDRllleDVnWTBxeFNTR0Y5ZXNCSE9zZzg4N1h1WVI2UHYxZWVsSjBrM2JMZ0xic2o2cHdCbVMzQTVsOHlGZHdSTHVFdGhDWHJ1SEZvVk16QmV1SHBSMHc?oc=5",
-     "time": "2026-11-22T00:26:18+00:00"
-    },
-    {
-     "title": "Should investors Buy Sea Limited Stock Instead of Mercado Libre Stock?",
-     "publisher": "The Motley Fool",
-     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOMnhCNXlYNzFLLWJHSDlVTHMyQms1NU5tOHg2ekVKS0hZN19sZ0VHT3YwQVVUQ1dDSFVUeUM3U0RNSmJESEFjc0RER0VBQzNQYUExazFyejRWMExhZXZLRWV1YVBxbzVQc2R1N215THI5LTQ3Q0FGcWlxSldDNnZtbXNtYm1fOVA2VnRFLUZCN2d4bHQ4M0VyQ2pZeWJiNkZLVUgtcGV2WHk5cGxvQ3JfVEZ3?oc=5",
-     "time": "2026-11-21T21:13:02+00:00"
-    },
-    {
-     "title": "A $10 Billion Fund Bought These 3 Stocks Last Quarter",
-     "publisher": "TIKR.com",
-     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPekQzb3hBQXA4UEhDQUc3Wmh5MDFpYy16ODNONlNibjZyWl9lcGNnWFRhbTc1LW1kN1lJT2lrby02YTRHYkxBRzdkMmFxOUdlMmxOVm52Y21vc3hOTldlRXE5bVJLRG5uOGVWc0dXelFpN2ZLSlVKdHNYQlJhY1hHcWotemk?oc=5",
-     "time": "2026-11-21T20:37:30+00:00"
-    }
-   ],
-   "brief": "2026-11-23-MELI"
-  },
-  {
-   "symbol": "AXON",
-   "name": "Axon",
-   "list": "watchlist",
-   "price": 304.62,
-   "prev_close": 291.14,
-   "change_pct": 4.6,
-   "trigger_change": 3.6,
-   "peak_change": 6.3,
-   "first_seen": "2026-11-23T14:55:58+00:00",
-   "sector": {
-    "etf": "XLI",
-    "name": "Industrials",
-    "price": 162.01,
-    "change_pct": 3.61
-   },
-   "chart": {
-    "ema8": -1.1,
-    "ema21": -10.7,
-    "sma50": -22.8,
-    "sma200": -34.1,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Axon\u2019s Software Revenue Jumped 43%. Why Did the Stock Fall?",
-     "publisher": "The Motley Fool",
-     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZGlZYmljdmctWGVFQ3BZN3VWd1hTbVdtQkF0V0tmbEtuMWJDSnhGRmxjRGx3TWdmb0JfVVFSemJhYVREaGt4ZXRXc2c0eFBWbFlzVFlCXzF2N3BZYmkxNFpSRGoyRGVGd1JiV0NFQkZoSXFGMUlRdnY3VmVTUUs3MkdqSjNOTEg3WWpBS04yaW53VU9qR1BEdEp1a29fR1Rh?oc=5",
-     "time": "2026-11-23T16:21:01+00:00"
-    },
-    {
-     "title": "Axon Enterprise Faces Rising Costs: Will Margins Remain Resilient?",
-     "publisher": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQMDJKdVRhWGg4emJFSDlBSG9PWnpJTFcwcGVtc3U1RzJwTmFmOVRFblU0amhYd0J6RVVVdVR6LUI1SW9zSmlqbHlhemM5WXc5NzZsMWl3Wi1Ic09ITEpmXzd1ZVMydEZWWldSaDN2NFhrS1piVUNqY1NHWGpfb2N1RUtiNGNCR0sxRDVrUm5zLUotRk51TUF2QllPLU1WcnBFekswS0l1Vk9oLXlsQXJ5bHVVX0V6SGEybmc0MA?oc=5",
-     "time": "2026-11-23T14:14:00+00:00"
-    },
-    {
-     "title": "Axon Enterprise (AXON) Could Be 46% Undervalued After Fresh Public Safety Deployments",
-     "publisher": "Simply Wall St",
-     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQOHVEYnpkMzM3QVpfUEQtV09ubDVyM1h6REVmbHpVYlJTdWZiMnhERWZKbEZZZ0xLUzV0ajczdWlzMjFqeXBuWXpDOUdLRXI4ZVhsanBmdEZPTGNaSFExNVU4NGRybEZza0dBRkR1a3k3TXJiNkV0NERObHVIa3ZrWWRWT1NFWE5yajJ6cEFzblB6aDNnMkhoX2FIa1RHRmpHMC1YU0pLa21jci1faW84MHdRLUtoZXIySmlzNXJsdGZLTkJXUjF1TUFSeFprTTFPaFV3X3pB0gHbAUFVX3lxTFBMVnVhM3NBTHRZdDQxRkk0cDVQekFOcjdwOVFNS1FUNTV6b1I4eHloX3RiaWZDWDlZX2RjRTFOZE42ckJ4VENOVFFZenFoVzdRQko1RnFjVG9sVWxHbmpIbHZORnZpQ09adUJBN1Nicmc1RHJ5NElpcWxpcXNIVEtDcnZiTGdyci0tSUgwb0ZVb24tWG9NY3NrNVdJRzZKS3hWQmpwMWppUUNaZVlxN0pUdy0wSVkxdWIzWVc3SFRTZzJvRURndWlxTU9KWXQ1S3pzWGhDdVJUUFJWTQ?oc=5",
-     "time": "2026-11-23T12:14:07+00:00"
-    },
-    {
-     "title": "AXON Dec 2026 540.000 call (AXON261218C00540000) interactive stock chart",
-     "publisher": "Yahoo Finance Australia",
-     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5aNXFKZU5OUFFIQXJRaThYQkd3aTB1S3lpdmRYNmlGTHVyUmxoNEp2S2tFSmVaQUs4NzFDOXlMbG1lbGtTVVZUdjA4ei1rZjAyWndUeUh6OEREYWNtdjRIc1djMWk3eVRpMlJGVzZB?oc=5",
-     "time": "2026-11-23T10:07:32+00:00"
-    },
-    {
-     "title": "Axon Enterprise, Inc. (AXON) stock price, news, quote and history",
-     "publisher": "Yahoo Finance UK",
-     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBjSkdPUWhwOUlZSXhuc2pzWDJuXzFCam54MVhvY1hMQzFkcGhPVE1xRjNHbmRscTY5RVNybk5pdDZjYmdsWWZlRV9iOFB3UEpkRkE?oc=5",
-     "time": "2026-11-23T08:42:32+00:00"
-    },
-    {
-     "title": "Why Should Axon Stock Holders Watch This Shrinking Figure?",
-     "publisher": "Trefis",
-     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQd0ItRXV5MzFXcEN0T2pIdWpiR0xrdFlhSWZLT1J6SElWWFp0R3VsUWx1RTJDdXhxVHJHRWs4MXo0MnNrYjhfTHJISE42ZnZlbW9CNDVNM2J2Q3hxbkE3ci04Q2dDZ3kzVDlPWjBpdkt4WDU1UThVaU1pQUZDaXJWRndTYzZRVkZWQ29kOWhfMHMtQ2pWQlY3TWtsRVplZ1dnNjctcGR5UmFlbzBYdmhIdnJnM01qaFhucWc?oc=5",
-     "time": "2026-11-23T06:04:14+00:00"
-    },
-    {
-     "title": "Axon Enterprise, Inc. (AXON) Stock Price, News, Quote & History",
-     "publisher": "Yahoo! Finance Canada",
-     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9FaFY2blB3Sm1pMS1PY0ZEYlVlaENiTHZ3UXB2YnZPUGhaQm40SHdVdFVzVEtPeXp0cTRGcVZMYTJrY2pvd0N1MWVYS3d0RDdnYnc?oc=5",
-     "time": "2026-11-23T00:45:08+00:00"
-    },
-    {
-     "title": "AXON Nov 2026 297.500 call (AXON261120C00297500) Interactive Stock Chart - Yahoo Finance",
-     "publisher": "Yahoo! Finance Canada",
-     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5hSVJ2ZGVDRGc5U3dvNXo2SnJlSlN3dGI3dXNsRUNPZm1jZ0x2OGRLT3BHazlud3VKemFrNzhjMFFJVEJRTnZLb3hYUUNPX3RMRVI4WXdxdTdlZVZDRGk2RTVxd3Iwb2RmeVRhLWhn?oc=5",
-     "time": "2026-11-22T17:41:36+00:00"
-    }
-   ],
-   "brief": "2026-11-23-AXON"
-  },
-  {
    "symbol": "NOW",
    "name": "ServiceNow",
    "list": "portfolio",
-   "price": 91.49,
+   "price": 91.71,
    "prev_close": 87.61,
-   "change_pct": 4.4,
+   "change_pct": 4.7,
    "trigger_change": 4.3,
    "peak_change": 6.6,
    "first_seen": "2026-11-23T14:55:58+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 94.84,
-    "change_pct": 3.47
+    "price": 94.92,
+    "change_pct": 3.56
    },
    "chart": {
-    "ema8": -2.6,
-    "ema21": -13.7,
-    "sma50": -27.9,
-    "sma200": -19.2,
+    "ema8": -2.5,
+    "ema21": -13.5,
+    "sma50": -27.7,
+    "sma200": -19.0,
     "momentum": false
    },
    "headlines": [
@@ -912,23 +912,23 @@
    "symbol": "AMZN",
    "name": "Amazon",
    "list": "portfolio",
-   "price": 255.55,
+   "price": 255.92,
    "prev_close": 246.82,
-   "change_pct": 3.5,
+   "change_pct": 3.7,
    "trigger_change": 3.1,
    "peak_change": 5.1,
    "first_seen": "2026-11-23T14:55:58+00:00",
    "sector": {
     "etf": "XLY",
     "name": "Consumer discr.",
-    "price": 116.94,
-    "change_pct": 3.98
+    "price": 117.09,
+    "change_pct": 4.12
    },
    "chart": {
-    "ema8": -0.9,
-    "ema21": -1.0,
-    "sma50": 0.2,
-    "sma200": 4.1,
+    "ema8": -0.7,
+    "ema21": -0.9,
+    "sma50": 0.3,
+    "sma200": 4.3,
     "momentum": false
    },
    "headlines": [
@@ -987,23 +987,23 @@
    "symbol": "NVO",
    "name": "Novo Nordisk (ADR)",
    "list": "portfolio",
-   "price": 39.15,
+   "price": 39.1,
    "prev_close": 37.82,
-   "change_pct": 3.5,
+   "change_pct": 3.4,
    "trigger_change": 3.2,
    "peak_change": 3.7,
    "first_seen": "2026-11-23T16:16:52+00:00",
    "sector": {
     "etf": "XLV",
     "name": "Health care",
-    "price": 179.5,
-    "change_pct": 1.28
+    "price": 179.47,
+    "change_pct": 1.26
    },
    "chart": {
-    "ema8": -1.1,
-    "ema21": -1.9,
-    "sma50": -0.9,
-    "sma200": -8.6,
+    "ema8": -1.2,
+    "ema21": -2.0,
+    "sma50": -1.0,
+    "sma200": -8.7,
     "momentum": false
    },
    "headlines": [
@@ -1026,23 +1026,23 @@
    "symbol": "UNH",
    "name": "UnitedHealth",
    "list": "portfolio",
-   "price": 335.12,
+   "price": 334.61,
    "prev_close": 339.85,
-   "change_pct": -1.4,
+   "change_pct": -1.5,
    "trigger_change": -3.1,
    "peak_change": -3.7,
    "first_seen": "2026-11-23T14:55:58+00:00",
    "sector": {
     "etf": "XLV",
     "name": "Health care",
-    "price": 179.5,
-    "change_pct": 1.28
+    "price": 179.47,
+    "change_pct": 1.26
    },
    "chart": {
-    "ema8": -7.3,
-    "ema21": -12.2,
-    "sma50": -13.6,
-    "sma200": -9.1,
+    "ema8": -7.4,
+    "ema21": -12.3,
+    "sma50": -13.7,
+    "sma200": -9.3,
     "momentum": false
    },
    "headlines": [
@@ -1101,18 +1101,18 @@
    "symbol": "BTC-USD",
    "name": "Bitcoin",
    "list": "watchlist",
-   "price": 60969.7,
+   "price": 61227.6,
    "prev_close": 61170.1,
-   "change_pct": -0.3,
+   "change_pct": 0.1,
    "trigger_change": 3.1,
    "peak_change": 3.8,
    "first_seen": "2026-11-23T15:01:01+00:00",
    "sector": null,
    "chart": {
-    "ema8": -2.3,
-    "ema21": -9.6,
-    "sma50": -19.9,
-    "sma200": -15.6,
+    "ema8": -1.9,
+    "ema21": -9.3,
+    "sma50": -19.6,
+    "sma200": -15.2,
     "momentum": false
    },
    "headlines": [
