@@ -1,22 +1,22 @@
 {
  "date": "2026-11-24",
  "threshold": 3.0,
- "updated": "2026-11-24T17:28:50+00:00",
+ "updated": "2026-11-24T17:44:03+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 718.74,
-   "change_pct": -0.49
+   "price": 720.43,
+   "change_pct": -0.26
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 638.78,
-   "change_pct": -1.88
+   "price": 640.33,
+   "change_pct": -1.64
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 81.65,
-   "change_pct": -0.04
+   "price": 81.68,
+   "change_pct": -0.01
   }
  },
  "movers": [
@@ -24,23 +24,23 @@
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 86.8,
+   "price": 87.2,
    "prev_close": 97.8,
-   "change_pct": -11.2,
+   "change_pct": -10.8,
    "trigger_change": -7.6,
    "peak_change": -13.7,
    "first_seen": "2026-11-24T14:56:26+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 96.38,
-    "change_pct": 1.17
+    "price": 96.44,
+    "change_pct": 1.24
    },
    "chart": {
-    "ema8": -14.2,
-    "ema21": -31.0,
-    "sma50": -50.8,
-    "sma200": -51.7,
+    "ema8": -13.9,
+    "ema21": -30.7,
+    "sma50": -50.6,
+    "sma200": -51.5,
     "momentum": false
    },
    "headlines": [
@@ -99,23 +99,23 @@
    "symbol": "NVDA",
    "name": "Nvidia",
    "list": "portfolio",
-   "price": 153.34,
+   "price": 153.55,
    "prev_close": 165.05,
-   "change_pct": -7.1,
+   "change_pct": -7.0,
    "trigger_change": -6.2,
    "peak_change": -8.7,
    "first_seen": "2026-11-24T14:56:26+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 428.65,
-    "change_pct": -6.85
+    "price": 429.62,
+    "change_pct": -6.64
    },
    "chart": {
-    "ema8": -1.1,
-    "ema21": -11.3,
-    "sma50": -25.2,
-    "sma200": -24.5,
+    "ema8": -1.0,
+    "ema21": -11.1,
+    "sma50": -25.1,
+    "sma200": -24.4,
     "momentum": false
    },
    "headlines": [
@@ -174,23 +174,23 @@
    "symbol": "AMAT",
    "name": "Applied Materials",
    "list": "portfolio",
-   "price": 323.56,
+   "price": 325.64,
    "prev_close": 346.87,
-   "change_pct": -6.7,
+   "change_pct": -6.1,
    "trigger_change": -5.6,
    "peak_change": -9.3,
    "first_seen": "2026-11-24T14:56:26+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 428.65,
-    "change_pct": -6.85
+    "price": 429.62,
+    "change_pct": -6.64
    },
    "chart": {
-    "ema8": -4.9,
-    "ema21": -11.3,
-    "sma50": -23.4,
-    "sma200": -27.7,
+    "ema8": -4.5,
+    "ema21": -10.8,
+    "sma50": -22.9,
+    "sma200": -27.2,
     "momentum": false
    },
    "headlines": [
@@ -249,23 +249,23 @@
    "symbol": "ANET",
    "name": "Arista Networks",
    "list": "portfolio",
-   "price": 166.89,
+   "price": 167.93,
    "prev_close": 178.31,
-   "change_pct": -6.4,
+   "change_pct": -5.8,
    "trigger_change": -4.8,
    "peak_change": -7.3,
    "first_seen": "2026-11-24T14:56:26+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 428.65,
-    "change_pct": -6.85
+    "price": 429.62,
+    "change_pct": -6.64
    },
    "chart": {
-    "ema8": -7.1,
-    "ema21": -8.8,
-    "sma50": -12.8,
-    "sma200": -1.2,
+    "ema8": -6.6,
+    "ema21": -8.3,
+    "sma50": -12.2,
+    "sma200": -0.6,
     "momentum": false
    },
    "headlines": [
@@ -321,101 +321,26 @@
    "brief": "2026-11-24-ANET"
   },
   {
-   "symbol": "AVGO",
-   "name": "Broadcom",
-   "list": "portfolio",
-   "price": 302.86,
-   "prev_close": 313.55,
-   "change_pct": -3.4,
-   "trigger_change": -3.4,
-   "peak_change": -4.8,
-   "first_seen": "2026-11-24T14:56:26+00:00",
-   "sector": {
-    "etf": "SMH",
-    "name": "Semiconductors",
-    "price": 428.65,
-    "change_pct": -6.85
-   },
-   "chart": {
-    "ema8": -6.4,
-    "ema21": -8.4,
-    "sma50": -11.3,
-    "sma200": -17.6,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Form 4 Broadcom Inc For: 24 November By Investing.com",
-     "publisher": "Investing.com India",
-     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPQ0hxb2h2VDgzRXc4MDR1cTNSZ2J4NEg1aTJfUFVTZWpqeWlrcFZ3QjNSTTFTS2lKQUNSc0pfaGRoZy1rQ2NUM3NsbS05NmxxRlhOVTN3RW5saWY4eGkxN1hXVF9IYlZlWmtXdXZ0b2ExWEtlTWoxLTc0Y3Q4WEJ2VkVKSzNOcmpXVi1RRVVxUl9tb0I5WFhtYUlPZ2Q?oc=5",
-     "time": "2026-11-24T16:43:14+00:00"
-    },
-    {
-     "title": "Wall Street May Not Be Ready for What\u2019s Coming Next for These 3 AI Stocks",
-     "publisher": "24/7 Wall St.",
-     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNOGJydDIxMVFYTldxeWZTdUI1TTl0VXJrai04elY2Y0MyYnRJQVR2UFpabWtjZC1GRXc2ZGtnbS1IbFRuV0RMUlR3aGtpdHRwVF8yS0V1eFBmRGwtWDZKTTJsN1FoRmdIYkU4alVfbzhzRmhvam1yYnItMmQ1eFBRWXJOa3J0cEF4b0pOdnRjQVJnaFlLd2tkTlhNQTU2enNBRW9pYTZ1RWZJcC02ZUZMQWplNVQzYVU?oc=5",
-     "time": "2026-11-24T16:33:00+00:00"
-    },
-    {
-     "title": "Even With Jensen Huang Back as CEO, Nvidia Is Down 31% From Its High, While Broadcom Is Down 35%. Here\u2019s the Better Buy Now.",
-     "publisher": "The Motley Fool",
-     "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOSXl4eU4zS3NEWWNUc1FZWkVSanFzYzM5VzlYbXBwQVduaFZTMTI2T21TdVZ4OEZpbl9EM21Kb2dTaEZIZHVnWEJURnVpb0NkdmwwT1pVRnhHSTBhMFJ2MzZ2d0JjU0JsX0FvbThyOU9XQVVsWnBGTjdtQnpiUU1YWkVxdjQyMW9xRkpPeXBjRlJKTFBHZ3l2NE9zcnFHZUxzU3FOZkRaQ25KUGZ4SUxweEQ3aU5Lb3ZYUWV0UFliSURBV2VwUm1EcVB2VFdMdWpqUXBpMkk3UDFLNnRKNWFoZDVnNVJlN1ZCZGJnMVMxVmN5UDg?oc=5",
-     "time": "2026-11-24T16:02:02+00:00"
-    },
-    {
-     "title": "Broadcom shares technical analysis: Downward price move keeps seller pressure in focus",
-     "publisher": "Traders Union",
-     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOTzNnVnpRdWt3UnF6WUpyTzVWVlFpMUhqVkFKaG16SS1QSkV4YjB6elZ5TktDeF9rY3BXUkpTaXJSQW9leU1XdUM3aUlXSnhIVU5MSFFGSDg5Znc4YW5DYXRMRy1wcDRHMlhydEZYWEROUVpDVjBiMzZva0JCaWo0aXhwTWwtLWJ4VHRKbG9QYV8?oc=5",
-     "time": "2026-11-24T15:58:41+00:00"
-    },
-    {
-     "title": "Broadcom (AVGO) Is About to Report Q4 Earnings. Who Owns the Chipmaker Ahead of It?",
-     "publisher": "TipRanks",
-     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQTTNwV250NUEwVkhyRlM1YlNZTGhySWJqd1VxUnFKV3FEM3BJOC1mcVNjZ2NCT1g3NGpneXhic1Foa1A4UmRlN1JiMVUtZDdpN0ZTQ3hVMXhCWnhUdF8yVFpQdi0zTF9IX0U2aG1YUUdNeUhGeTI0TlFNZE5yNGN1UGZLMXk3WmhIM0ZZbkIwWkEzS2s5eml3Q0V0eVZXZHZYVWx5cE13MkJ1eEJXR3c?oc=5",
-     "time": "2026-11-24T15:51:57+00:00"
-    },
-    {
-     "title": "Fed, Broadcom and Micron Make Dec. 9 a Big Day for Stocks",
-     "publisher": "JournalArta",
-     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOXzVhdmxXMVFYelZyc0RqbUc4TkM1SGdicjNBR1NoenpYaDl4ZHBsVUNfeVJYOW9kLXU4VmxONXd5R2czbDdzODZTbGJuVldXc1VDX3pLaXJmQzZCTEdlYmJrbFllb0lMSVg0bkYyWmtuTWotOHJYZ0U5U3RvWlVlZUE3MA?oc=5",
-     "time": "2026-11-24T15:37:19+00:00"
-    },
-    {
-     "title": "Chart of the Day: Massive Rally Can\u2019t Push Broadcom",
-     "publisher": "RealMoney Pro",
-     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOdFMzX1hEQkdqTXkycEdLc0ZZRDVfQjI1NGtuZFdiYTZpQlpNc3RTNzVjd1JLekp4RXlIcTZ1aEJOazhEeGpCMlJ4aGM0LWJNUGpSaG5SZ3NsY3VaTVFFb003U1JEWUkzQnNVc0w4ek1aZVF2dWdTUXBIWGtWUTJVRTRMLXVwZ2c1R1c3QVJR?oc=5",
-     "time": "2026-11-24T15:30:00+00:00"
-    },
-    {
-     "title": "Why is Broadcom stock sliding today? By Investing.com",
-     "publisher": "Investing.com Canada",
-     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNMkJsVzJUUDJXUkpvVjE2aGtsXzhTR29ielB6VUZPajF4UmRscXRtNUZCRUM0QUhOT0JtQlNXWnM5SnlmNGZJQ2xtMzUzMS1mZ0hNdV9EbzY2Q25PUWJWUlg1cVFldjEyczlkVm01czdiXzJGYmdrTjNTQldMbEczLUplenNCc3VPTjlYV0xIQ2xHNGIydHlWSXFxRE0?oc=5",
-     "time": "2026-11-24T15:20:44+00:00"
-    }
-   ],
-   "brief": "2026-11-24-AVGO"
-  },
-  {
    "symbol": "AXON",
    "name": "Axon",
    "list": "watchlist",
-   "price": 317.38,
+   "price": 320.28,
    "prev_close": 307.6,
-   "change_pct": 3.2,
+   "change_pct": 4.1,
    "trigger_change": 3.2,
-   "peak_change": 3.2,
+   "peak_change": 4.1,
    "first_seen": "2026-11-24T17:13:36+00:00",
    "sector": {
     "etf": "XLI",
     "name": "Industrials",
-    "price": 161.54,
-    "change_pct": -0.57
+    "price": 161.78,
+    "change_pct": -0.42
    },
    "chart": {
-    "ema8": 2.1,
-    "ema21": -6.4,
-    "sma50": -19.1,
-    "sma200": -31.3,
+    "ema8": 2.9,
+    "ema21": -5.6,
+    "sma50": -18.4,
+    "sma200": -30.6,
     "momentum": false
    },
    "headlines": [
@@ -474,23 +399,23 @@
    "symbol": "APP",
    "name": "AppLovin",
    "list": "portfolio",
-   "price": 386.05,
+   "price": 389.2,
    "prev_close": 373.92,
-   "change_pct": 3.2,
+   "change_pct": 4.1,
    "trigger_change": 3.2,
-   "peak_change": 3.2,
+   "peak_change": 4.1,
    "first_seen": "2026-11-24T17:28:50+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 96.38,
-    "change_pct": 1.17
+    "price": 96.44,
+    "change_pct": 1.24
    },
    "chart": {
-    "ema8": 1.9,
-    "ema21": 8.8,
-    "sma50": 24.1,
-    "sma200": -4.4,
+    "ema8": 2.6,
+    "ema21": 9.6,
+    "sma50": 25.1,
+    "sma200": -3.7,
     "momentum": true
    },
    "headlines": [
@@ -549,23 +474,23 @@
    "symbol": "NVO",
    "name": "Novo Nordisk (ADR)",
    "list": "portfolio",
-   "price": 40.28,
+   "price": 40.38,
    "prev_close": 39.14,
-   "change_pct": 2.9,
+   "change_pct": 3.2,
    "trigger_change": 3.2,
    "peak_change": 3.4,
    "first_seen": "2026-11-24T14:56:26+00:00",
    "sector": {
     "etf": "XLV",
     "name": "Health care",
-    "price": 184.56,
-    "change_pct": 2.86
+    "price": 184.66,
+    "change_pct": 2.92
    },
    "chart": {
-    "ema8": 1.4,
-    "ema21": 0.9,
-    "sma50": 2.1,
-    "sma200": -5.9,
+    "ema8": 1.6,
+    "ema21": 1.1,
+    "sma50": 2.3,
+    "sma200": -5.6,
     "momentum": false
    },
    "headlines": [
@@ -621,21 +546,96 @@
    "brief": "2026-11-24-NVO"
   },
   {
+   "symbol": "AVGO",
+   "name": "Broadcom",
+   "list": "portfolio",
+   "price": 303.77,
+   "prev_close": 313.55,
+   "change_pct": -3.1,
+   "trigger_change": -3.4,
+   "peak_change": -4.8,
+   "first_seen": "2026-11-24T14:56:26+00:00",
+   "sector": {
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 429.62,
+    "change_pct": -6.64
+   },
+   "chart": {
+    "ema8": -6.2,
+    "ema21": -8.1,
+    "sma50": -11.0,
+    "sma200": -17.3,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Form 4 Broadcom Inc For: 24 November By Investing.com",
+     "publisher": "Investing.com India",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPQ0hxb2h2VDgzRXc4MDR1cTNSZ2J4NEg1aTJfUFVTZWpqeWlrcFZ3QjNSTTFTS2lKQUNSc0pfaGRoZy1rQ2NUM3NsbS05NmxxRlhOVTN3RW5saWY4eGkxN1hXVF9IYlZlWmtXdXZ0b2ExWEtlTWoxLTc0Y3Q4WEJ2VkVKSzNOcmpXVi1RRVVxUl9tb0I5WFhtYUlPZ2Q?oc=5",
+     "time": "2026-11-24T16:43:14+00:00"
+    },
+    {
+     "title": "Wall Street May Not Be Ready for What\u2019s Coming Next for These 3 AI Stocks",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNOGJydDIxMVFYTldxeWZTdUI1TTl0VXJrai04elY2Y0MyYnRJQVR2UFpabWtjZC1GRXc2ZGtnbS1IbFRuV0RMUlR3aGtpdHRwVF8yS0V1eFBmRGwtWDZKTTJsN1FoRmdIYkU4alVfbzhzRmhvam1yYnItMmQ1eFBRWXJOa3J0cEF4b0pOdnRjQVJnaFlLd2tkTlhNQTU2enNBRW9pYTZ1RWZJcC02ZUZMQWplNVQzYVU?oc=5",
+     "time": "2026-11-24T16:33:00+00:00"
+    },
+    {
+     "title": "Even With Jensen Huang Back as CEO, Nvidia Is Down 31% From Its High, While Broadcom Is Down 35%. Here\u2019s the Better Buy Now.",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOSXl4eU4zS3NEWWNUc1FZWkVSanFzYzM5VzlYbXBwQVduaFZTMTI2T21TdVZ4OEZpbl9EM21Kb2dTaEZIZHVnWEJURnVpb0NkdmwwT1pVRnhHSTBhMFJ2MzZ2d0JjU0JsX0FvbThyOU9XQVVsWnBGTjdtQnpiUU1YWkVxdjQyMW9xRkpPeXBjRlJKTFBHZ3l2NE9zcnFHZUxzU3FOZkRaQ25KUGZ4SUxweEQ3aU5Lb3ZYUWV0UFliSURBV2VwUm1EcVB2VFdMdWpqUXBpMkk3UDFLNnRKNWFoZDVnNVJlN1ZCZGJnMVMxVmN5UDg?oc=5",
+     "time": "2026-11-24T16:02:02+00:00"
+    },
+    {
+     "title": "Broadcom shares technical analysis: Downward price move keeps seller pressure in focus",
+     "publisher": "Traders Union",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOTzNnVnpRdWt3UnF6WUpyTzVWVlFpMUhqVkFKaG16SS1QSkV4YjB6elZ5TktDeF9rY3BXUkpTaXJSQW9leU1XdUM3aUlXSnhIVU5MSFFGSDg5Znc4YW5DYXRMRy1wcDRHMlhydEZYWEROUVpDVjBiMzZva0JCaWo0aXhwTWwtLWJ4VHRKbG9QYV8?oc=5",
+     "time": "2026-11-24T15:58:41+00:00"
+    },
+    {
+     "title": "Broadcom (AVGO) Is About to Report Q4 Earnings. Who Owns the Chipmaker Ahead of It?",
+     "publisher": "TipRanks",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQTTNwV250NUEwVkhyRlM1YlNZTGhySWJqd1VxUnFKV3FEM3BJOC1mcVNjZ2NCT1g3NGpneXhic1Foa1A4UmRlN1JiMVUtZDdpN0ZTQ3hVMXhCWnhUdF8yVFpQdi0zTF9IX0U2aG1YUUdNeUhGeTI0TlFNZE5yNGN1UGZLMXk3WmhIM0ZZbkIwWkEzS2s5eml3Q0V0eVZXZHZYVWx5cE13MkJ1eEJXR3c?oc=5",
+     "time": "2026-11-24T15:51:57+00:00"
+    },
+    {
+     "title": "Fed, Broadcom and Micron Make Dec. 9 a Big Day for Stocks",
+     "publisher": "JournalArta",
+     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOXzVhdmxXMVFYelZyc0RqbUc4TkM1SGdicjNBR1NoenpYaDl4ZHBsVUNfeVJYOW9kLXU4VmxONXd5R2czbDdzODZTbGJuVldXc1VDX3pLaXJmQzZCTEdlYmJrbFllb0lMSVg0bkYyWmtuTWotOHJYZ0U5U3RvWlVlZUE3MA?oc=5",
+     "time": "2026-11-24T15:37:19+00:00"
+    },
+    {
+     "title": "Chart of the Day: Massive Rally Can\u2019t Push Broadcom",
+     "publisher": "RealMoney Pro",
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOdFMzX1hEQkdqTXkycEdLc0ZZRDVfQjI1NGtuZFdiYTZpQlpNc3RTNzVjd1JLekp4RXlIcTZ1aEJOazhEeGpCMlJ4aGM0LWJNUGpSaG5SZ3NsY3VaTVFFb003U1JEWUkzQnNVc0w4ek1aZVF2dWdTUXBIWGtWUTJVRTRMLXVwZ2c1R1c3QVJR?oc=5",
+     "time": "2026-11-24T15:30:00+00:00"
+    },
+    {
+     "title": "Why is Broadcom stock sliding today? By Investing.com",
+     "publisher": "Investing.com Canada",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNMkJsVzJUUDJXUkpvVjE2aGtsXzhTR29ielB6VUZPajF4UmRscXRtNUZCRUM0QUhOT0JtQlNXWnM5SnlmNGZJQ2xtMzUzMS1mZ0hNdV9EbzY2Q25PUWJWUlg1cVFldjEyczlkVm01czdiXzJGYmdrTjNTQldMbEczLUplenNCc3VPTjlYV0xIQ2xHNGIydHlWSXFxRE0?oc=5",
+     "time": "2026-11-24T15:20:44+00:00"
+    }
+   ],
+   "brief": "2026-11-24-AVGO"
+  },
+  {
    "symbol": "BTC-USD",
    "name": "Bitcoin",
    "list": "watchlist",
-   "price": 59846.8,
+   "price": 60032.4,
    "prev_close": 61214.3,
-   "change_pct": -2.2,
+   "change_pct": -1.9,
    "trigger_change": -3.2,
    "peak_change": -3.2,
    "first_seen": "2026-11-24T17:03:29+00:00",
    "sector": null,
    "chart": {
-    "ema8": -3.3,
-    "ema21": -10.4,
-    "sma50": -20.9,
-    "sma200": -17.0,
+    "ema8": -3.0,
+    "ema21": -10.1,
+    "sma50": -20.6,
+    "sma200": -16.8,
     "momentum": false
    },
    "headlines": [
@@ -694,23 +694,23 @@
    "symbol": "SOFI",
    "name": "SoFi",
    "list": "portfolio",
-   "price": 12.84,
+   "price": 12.92,
    "prev_close": 13.09,
-   "change_pct": -1.9,
+   "change_pct": -1.3,
    "trigger_change": -3.4,
    "peak_change": -3.4,
    "first_seen": "2026-11-24T16:12:48+00:00",
    "sector": {
     "etf": "XLF",
     "name": "Financials",
-    "price": 56.13,
-    "change_pct": 0.87
+    "price": 56.23,
+    "change_pct": 1.03
    },
    "chart": {
-    "ema8": -6.6,
-    "ema21": -13.2,
-    "sma50": -17.8,
-    "sma200": -24.7,
+    "ema8": -6.2,
+    "ema21": -12.8,
+    "sma50": -17.3,
+    "sma200": -24.2,
     "momentum": false
    },
    "headlines": [
