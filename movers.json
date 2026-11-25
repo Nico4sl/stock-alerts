@@ -1,121 +1,46 @@
 {
  "date": "2026-11-25",
  "threshold": 3.0,
- "updated": "2026-11-25T17:41:07+00:00",
+ "updated": "2026-11-25T17:46:08+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 709.38,
-   "change_pct": -1.31
+   "price": 710.67,
+   "change_pct": -1.13
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 622.87,
-   "change_pct": -2.39
+   "price": 623.82,
+   "change_pct": -2.24
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 82.42,
-   "change_pct": 1.14
+   "price": 82.46,
+   "change_pct": 1.18
   }
  },
  "movers": [
   {
-   "symbol": "NBIS",
-   "name": "Nebius",
-   "list": "portfolio",
-   "price": 80.65,
-   "prev_close": 87.31,
-   "change_pct": -7.6,
-   "trigger_change": -9.0,
-   "peak_change": -12.5,
-   "first_seen": "2026-11-25T14:56:37+00:00",
-   "sector": {
-    "etf": "IGV",
-    "name": "Software",
-    "price": 93.98,
-    "change_pct": -1.43
-   },
-   "chart": {
-    "ema8": -16.6,
-    "ema21": -33.8,
-    "sma50": -53.7,
-    "sma200": -55.1,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Nebius Group (NBIS) Shares Plunge Over 11% Amid Tech Sector Sell",
-     "publisher": "GuruFocus",
-     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOZW5uYXg1RHhhMndBNS1heHhGSm44WmQwbi04b1J0RHBwNE85VmNjazJFcTJvYkNxWXZzckRCMFhPdkxUTlJ3QWRIVDJ5c2E2Ny1uTEFncTF4OWE5T01UTVQ2dGxIeE9OMEpEY0lSc1E4ellBM2U1WlBOYXVaUjhralJoU2o0bkFYT2RQbDI4d3Btb1BhVXU0X3NKQnhmTFBGRm1zdzg5cUJ6eVZ2SE1QbUU1UTJIY2JGNWN0bHNpY0g?oc=5",
-     "time": "2026-11-25T16:14:01+00:00"
-    },
-    {
-     "title": "REG - Leverage Shares PLC LS 3X LONG NEBIUS $ LS 3X NBIS ETP \u00a3 - Notice of Original Meeting - 3x Nebius",
-     "publisher": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOU0QzR09VR2lsUzFZajAtbXJFcENReVlHdzRNVWpuSGNyNUp6M3piNTNwVmNVamc0SnEzSmZhdWN5dm5Vd1Jxa0lqVTFrU2hhMDI1M24zU1BJSU5CNndSOFVBVFhfb1R1LUhMaFZ1cTMxV2thNTFvMG5DZzJ3NmRRaTZLQ0ZlMm9aQnUtR05QdkNRX3MxWTJ6Z3h3bkxSMnpFeWVzeXplS3ZzcXU4a2lYS2l3b19BckpuZWl6ZXpFVFlfSzJVb1kxU3dORTU0QzZuU1FGYmpSWEd2WHVsdDFhS013T3lRdDRjOVctNm9wVk1vc25NYU1XUDMtVUQxQQ?oc=5",
-     "time": "2026-11-25T15:49:07+00:00"
-    },
-    {
-     "title": "Nebius Stock Falls Near 52-Week Low - Here's Why - Nebius Group (NASDAQ:NBIS)",
-     "publisher": "Benzinga",
-     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTGxSeHNfcC1ianprMzdOY2NZclBqZVppSHQzTnVaMk9XYTJfc09wQUVWdXRhYWd1V3QzdGNuWlc1czFITmEteEZHX3BTb1JtVmhCQ1RKNTdKakpGNDZKenllekxMVWNVeXJLTW1qdmJiSWFZZlUyV1pKYnZXWmUzd1pmaHJDWnY2emx6RVg4YzJQNnhPUnNjUVd0bGk0d1J1NkFiVU52Sm1CQQ?oc=5",
-     "time": "2026-11-25T15:21:44+00:00"
-    },
-    {
-     "title": "Nebius Group drops 11% amid broad technology selloff (NBIS:NASDAQ)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPNVkyV3lDUkRUcmE3ZU9SUi1HTjlZMGJ4ZDRodVBsU1lPZ3MteVpUd2VEWk93OFZpaUVheGRfeUhRS3pWTWEwdWU3T19teXVyRUZOYTREODJVV2ZxZzExZ1hpNzVVVS1XbjE5cGpYYlNOS3lKT2J1TU9UeFBkZGJBamkyaW5sYzh3cVRfaDJYYkpPVUlaYkJ2UFJwXzRKdw?oc=5",
-     "time": "2026-11-25T15:13:09+00:00"
-    },
-    {
-     "title": "Nebius: Why I'm Extremely Bullish After The Crash (NASDAQ:NBIS)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQZlR2U2VxOEx0aG1jR3paN3NiNGJERWJtVUhSRzNRTGhYVTk2YVB3cjRxS09kdHNVZVFRWG1iRXJJeWp0Q1V6ZnJuUlM2UGFpUm5sNHZrcVlCZGVEQ3hOOVNJRmlUMXdUaEF4VEd1bGFybUFzb0NySGFqSW90UUE0R3BrZ0lyd1o2Y01CdUFZeDdGZw?oc=5",
-     "time": "2026-11-25T12:45:00+00:00"
-    },
-    {
-     "title": "Nebius Group (NBIS) Stock Price Prediction: Data-center delays hit Nebius as momentum stays under pressure",
-     "publisher": "Blockchain News",
-     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPYUJ6eHhSemduVXJ1R2JPaVVQM1c1V0dyOTBkMElLRWRtcGNIRF9MSzZ3M2JmLXlVS1ktdXBMeXdWSjBOU0ZHbzRMLU5tdEE0Uzh1STZqNVliZ0IxWjZPSVdleWJrbXU1N1Y0T3RiXzk3NEZhN0ltaUJRQWdJdlVjWmlITjVoNGQtQ1k2eEszaEV2eDM2YTFr?oc=5",
-     "time": "2026-11-25T08:22:00+00:00"
-    },
-    {
-     "title": "Nebius Stock Forecast: NBIS Slides to $85 as AI Stocks Cool After HPE Margin Warning",
-     "publisher": "FXLeaders",
-     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQaUtpOEZQN0FtblhJZGoyYXViYktMMzFTYWhzVHpnYkR4eXFrbUwyZm5Va1JleE1SNVdSVjhjYWhQb0dRUUE4Qmc5azBZZWlhOFhQOXNtRkhYUnNIZzRvYnVjS1BtS1h2RmRFeG9TWmFsS21teF9PblZ1bmU4dVVCQVI3S3MzWnpKWVNXdEdNbTlQWDNhYlJrQW16eHNBU2dyMFF0YVVHWkFPM2hoaTgtTGZTbGp1STR0T2hpczhjSDlWRTQ?oc=5",
-     "time": "2026-11-25T00:21:17+00:00"
-    },
-    {
-     "title": "Nebius Group (NASDAQ:NBIS) Stock Price Down 10.7% - Here's Why",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQc19VNG5wZDFoNWdkZFl3V0hwTFNwS2tyNlpfeXNfbGdtOV9ZalZUNEhIZU9oc3kwZnd5ZE9lTjREZkxiNVJiQXNHUkI3ZHBYSUxlMndNYWtsVy16NnB3WVM3VXQ3Y1dKbDYyMDd4UTI0RzNSaWxuMTBIYUZybWlXT0drRW5oUXJKZ2xMRjNVNFFzdzU0NXBHY29SWGEwLW9IN0xlUFNsbnJpRVRJSUo0UEZPaUk1QQ?oc=5",
-     "time": "2026-11-24T22:34:11+00:00"
-    }
-   ],
-   "brief": "2026-11-25-NBIS"
-  },
-  {
    "symbol": "AMAT",
    "name": "Applied Materials",
    "list": "portfolio",
-   "price": 299.72,
+   "price": 300.65,
    "prev_close": 323.76,
-   "change_pct": -7.4,
+   "change_pct": -7.1,
    "trigger_change": -7.5,
    "peak_change": -10.2,
    "first_seen": "2026-11-25T14:56:37+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 409.1,
-    "change_pct": -4.14
+    "price": 407.98,
+    "change_pct": -4.4
    },
    "chart": {
-    "ema8": -9.6,
-    "ema21": -16.5,
-    "sma50": -28.6,
-    "sma200": -33.0,
+    "ema8": -9.3,
+    "ema21": -16.2,
+    "sma50": -28.4,
+    "sma200": -32.8,
     "momentum": false
    },
    "headlines": [
@@ -174,23 +99,23 @@
    "symbol": "NVDA",
    "name": "Nvidia",
    "list": "portfolio",
-   "price": 144.09,
+   "price": 144.64,
    "prev_close": 155.38,
-   "change_pct": -7.3,
+   "change_pct": -6.9,
    "trigger_change": -7.2,
    "peak_change": -8.9,
    "first_seen": "2026-11-25T14:56:37+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 409.1,
-    "change_pct": -4.14
+    "price": 407.98,
+    "change_pct": -4.4
    },
    "chart": {
-    "ema8": -5.8,
-    "ema21": -15.4,
-    "sma50": -29.2,
-    "sma200": -29.0,
+    "ema8": -5.5,
+    "ema21": -15.1,
+    "sma50": -28.9,
+    "sma200": -28.7,
     "momentum": false
    },
    "headlines": [
@@ -246,14 +171,89 @@
    "brief": "2026-11-25-NVDA"
   },
   {
+   "symbol": "NBIS",
+   "name": "Nebius",
+   "list": "portfolio",
+   "price": 81.36,
+   "prev_close": 87.31,
+   "change_pct": -6.8,
+   "trigger_change": -9.0,
+   "peak_change": -12.5,
+   "first_seen": "2026-11-25T14:56:37+00:00",
+   "sector": {
+    "etf": "IGV",
+    "name": "Software",
+    "price": 93.88,
+    "change_pct": -1.55
+   },
+   "chart": {
+    "ema8": -16.0,
+    "ema21": -33.2,
+    "sma50": -53.3,
+    "sma200": -54.7,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Nebius Group (NBIS) Shares Plunge Over 11% Amid Tech Sector Sell",
+     "publisher": "GuruFocus",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOZW5uYXg1RHhhMndBNS1heHhGSm44WmQwbi04b1J0RHBwNE85VmNjazJFcTJvYkNxWXZzckRCMFhPdkxUTlJ3QWRIVDJ5c2E2Ny1uTEFncTF4OWE5T01UTVQ2dGxIeE9OMEpEY0lSc1E4ellBM2U1WlBOYXVaUjhralJoU2o0bkFYT2RQbDI4d3Btb1BhVXU0X3NKQnhmTFBGRm1zdzg5cUJ6eVZ2SE1QbUU1UTJIY2JGNWN0bHNpY0g?oc=5",
+     "time": "2026-11-25T16:14:01+00:00"
+    },
+    {
+     "title": "REG - Leverage Shares PLC LS 3X LONG NEBIUS $ LS 3X NBIS ETP \u00a3 - Notice of Original Meeting - 3x Nebius",
+     "publisher": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOU0QzR09VR2lsUzFZajAtbXJFcENReVlHdzRNVWpuSGNyNUp6M3piNTNwVmNVamc0SnEzSmZhdWN5dm5Vd1Jxa0lqVTFrU2hhMDI1M24zU1BJSU5CNndSOFVBVFhfb1R1LUhMaFZ1cTMxV2thNTFvMG5DZzJ3NmRRaTZLQ0ZlMm9aQnUtR05QdkNRX3MxWTJ6Z3h3bkxSMnpFeWVzeXplS3ZzcXU4a2lYS2l3b19BckpuZWl6ZXpFVFlfSzJVb1kxU3dORTU0QzZuU1FGYmpSWEd2WHVsdDFhS013T3lRdDRjOVctNm9wVk1vc25NYU1XUDMtVUQxQQ?oc=5",
+     "time": "2026-11-25T15:49:07+00:00"
+    },
+    {
+     "title": "Nebius Stock Falls Near 52-Week Low - Here's Why - Nebius Group (NASDAQ:NBIS)",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTGxSeHNfcC1ianprMzdOY2NZclBqZVppSHQzTnVaMk9XYTJfc09wQUVWdXRhYWd1V3QzdGNuWlc1czFITmEteEZHX3BTb1JtVmhCQ1RKNTdKakpGNDZKenllekxMVWNVeXJLTW1qdmJiSWFZZlUyV1pKYnZXWmUzd1pmaHJDWnY2emx6RVg4YzJQNnhPUnNjUVd0bGk0d1J1NkFiVU52Sm1CQQ?oc=5",
+     "time": "2026-11-25T15:21:44+00:00"
+    },
+    {
+     "title": "Nebius Group drops 11% amid broad technology selloff (NBIS:NASDAQ)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPNVkyV3lDUkRUcmE3ZU9SUi1HTjlZMGJ4ZDRodVBsU1lPZ3MteVpUd2VEWk93OFZpaUVheGRfeUhRS3pWTWEwdWU3T19teXVyRUZOYTREODJVV2ZxZzExZ1hpNzVVVS1XbjE5cGpYYlNOS3lKT2J1TU9UeFBkZGJBamkyaW5sYzh3cVRfaDJYYkpPVUlaYkJ2UFJwXzRKdw?oc=5",
+     "time": "2026-11-25T15:13:09+00:00"
+    },
+    {
+     "title": "Nebius: Why I'm Extremely Bullish After The Crash (NASDAQ:NBIS)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQZlR2U2VxOEx0aG1jR3paN3NiNGJERWJtVUhSRzNRTGhYVTk2YVB3cjRxS09kdHNVZVFRWG1iRXJJeWp0Q1V6ZnJuUlM2UGFpUm5sNHZrcVlCZGVEQ3hOOVNJRmlUMXdUaEF4VEd1bGFybUFzb0NySGFqSW90UUE0R3BrZ0lyd1o2Y01CdUFZeDdGZw?oc=5",
+     "time": "2026-11-25T12:45:00+00:00"
+    },
+    {
+     "title": "Nebius Group (NBIS) Stock Price Prediction: Data-center delays hit Nebius as momentum stays under pressure",
+     "publisher": "Blockchain News",
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPYUJ6eHhSemduVXJ1R2JPaVVQM1c1V0dyOTBkMElLRWRtcGNIRF9MSzZ3M2JmLXlVS1ktdXBMeXdWSjBOU0ZHbzRMLU5tdEE0Uzh1STZqNVliZ0IxWjZPSVdleWJrbXU1N1Y0T3RiXzk3NEZhN0ltaUJRQWdJdlVjWmlITjVoNGQtQ1k2eEszaEV2eDM2YTFr?oc=5",
+     "time": "2026-11-25T08:22:00+00:00"
+    },
+    {
+     "title": "Nebius Stock Forecast: NBIS Slides to $85 as AI Stocks Cool After HPE Margin Warning",
+     "publisher": "FXLeaders",
+     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQaUtpOEZQN0FtblhJZGoyYXViYktMMzFTYWhzVHpnYkR4eXFrbUwyZm5Va1JleE1SNVdSVjhjYWhQb0dRUUE4Qmc5azBZZWlhOFhQOXNtRkhYUnNIZzRvYnVjS1BtS1h2RmRFeG9TWmFsS21teF9PblZ1bmU4dVVCQVI3S3MzWnpKWVNXdEdNbTlQWDNhYlJrQW16eHNBU2dyMFF0YVVHWkFPM2hoaTgtTGZTbGp1STR0T2hpczhjSDlWRTQ?oc=5",
+     "time": "2026-11-25T00:21:17+00:00"
+    },
+    {
+     "title": "Nebius Group (NASDAQ:NBIS) Stock Price Down 10.7% - Here's Why",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQc19VNG5wZDFoNWdkZFl3V0hwTFNwS2tyNlpfeXNfbGdtOV9ZalZUNEhIZU9oc3kwZnd5ZE9lTjREZkxiNVJiQXNHUkI3ZHBYSUxlMndNYWtsVy16NnB3WVM3VXQ3Y1dKbDYyMDd4UTI0RzNSaWxuMTBIYUZybWlXT0drRW5oUXJKZ2xMRjNVNFFzdzU0NXBHY29SWGEwLW9IN0xlUFNsbnJpRVRJSUo0UEZPaUk1QQ?oc=5",
+     "time": "2026-11-24T22:34:11+00:00"
+    }
+   ],
+   "brief": "2026-11-25-NBIS"
+  },
+  {
    "symbol": "AXON",
    "name": "Axon",
    "list": "watchlist",
-   "price": 339.03,
+   "price": 339.35,
    "prev_close": 319.32,
-   "change_pct": 6.2,
+   "change_pct": 6.3,
    "trigger_change": 4.8,
-   "peak_change": 6.2,
+   "peak_change": 6.3,
    "first_seen": "2026-11-25T17:11:02+00:00",
    "sector": {
     "etf": "XLI",
@@ -262,10 +262,10 @@
     "change_pct": 0.04
    },
    "chart": {
-    "ema8": 6.8,
-    "ema21": -0.1,
-    "sma50": -13.0,
-    "sma200": -26.5,
+    "ema8": 6.9,
+    "ema21": 0.0,
+    "sma50": -12.9,
+    "sma200": -26.4,
     "momentum": false
    },
    "headlines": [
@@ -324,23 +324,23 @@
    "symbol": "ANET",
    "name": "Arista Networks",
    "list": "portfolio",
-   "price": 158.41,
+   "price": 158.99,
    "prev_close": 168.56,
-   "change_pct": -6.0,
+   "change_pct": -5.7,
    "trigger_change": -5.7,
    "peak_change": -8.0,
    "first_seen": "2026-11-25T14:56:37+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 409.1,
-    "change_pct": -4.14
+    "price": 407.98,
+    "change_pct": -4.4
    },
    "chart": {
-    "ema8": -9.6,
-    "ema21": -12.5,
-    "sma50": -16.9,
-    "sma200": -6.3,
+    "ema8": -9.3,
+    "ema21": -12.2,
+    "sma50": -16.6,
+    "sma200": -5.9,
     "momentum": false
    },
    "headlines": [
@@ -396,101 +396,26 @@
    "brief": "2026-11-25-ANET"
   },
   {
-   "symbol": "AVGO",
-   "name": "Broadcom",
-   "list": "portfolio",
-   "price": 286.96,
-   "prev_close": 301.08,
-   "change_pct": -4.7,
-   "trigger_change": -5.1,
-   "peak_change": -6.3,
-   "first_seen": "2026-11-25T14:56:37+00:00",
-   "sector": {
-    "etf": "SMH",
-    "name": "Semiconductors",
-    "price": 409.1,
-    "change_pct": -4.14
-   },
-   "chart": {
-    "ema8": -8.9,
-    "ema21": -12.1,
-    "sma50": -15.7,
-    "sma200": -21.9,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Without an Anthropic Rally, \u201cThere Will Be No OpenAI.\u201d AMD Is the Real Loser",
-     "publisher": "TIKR.com",
-     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOWHBSOE96SHBDdGxKMWlsYjlQZTVScnQ1ZnJBQkhXSEVTaDZvLXl3c0JSLTljcWNnX0ljRnpQeU4ya191SVM3OFRCS0ZVMnh4NlNvZ1B1dF9UNEJ2WF9POHZfVGdVZlpSOXRSSEFNSENTSFMwcEtPdUpOR1d0VWxMVlNGbDk5cnh1OGZJdHNuXzFkZUFOWG5DWGFpVHpkb3ZCNUtRWnlseDVTc01pTkk3RmVjZkhIMV82aFJsQVE1M3BSNzZxeHFpSFBmOXd2b25kMHhPS1Vn?oc=5",
-     "time": "2026-11-25T16:40:17+00:00"
-    },
-    {
-     "title": "Broadcom vs. Qualcomm: Which Technology Stock Is a Better Buy for 2027?",
-     "publisher": "The Motley Fool",
-     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPZnJVR3BUNWZaTzB5Z0hBaHQ2b1RaWEZOekItNzg3ajFlRW9VQWl2c3FIT1Q3Qzd3RWhIUWdoNE5JVHFuSUJwbEt6SWkzanRfaUxkaXJtaWtud19uLXJZN2UxNHBqcjZCWGJQaW9oVkpDVk1fWFJrVE5qVnB6SFVOdDRYX3Q0MkwwVVpyeVUzTXhOOF9DVy1jeFQ3MVd1NWFERjd5NzFoZ3BqeUlVQmd2dW41VmVTVk5nYjNHN0F3?oc=5",
-     "time": "2026-11-25T16:32:01+00:00"
-    },
-    {
-     "title": "AI Stocks Crash as Nvidia Falls 8%, Broadcom Loses 6% and CoreWeave Plunges Over 10%",
-     "publisher": "Coinpaper",
-     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPb3dOM3puTnBWVThSSmVLWTU3MU5WekpYbEpsNDVtbmRJUHJQQkFkNHctZ1JIM2xrZTRsbzhOUVhmZTQ5Ti13a21ael9MdWF6cVV2b1d2SEtfUjFoVFE5SkFPa09TMzhrODlqM3R6ejJMNGhGa2s0YTRhT0pRY054SjNKVERUalhRYUNPUEx6UFN6VzJhTkNkNkUxSGs0blpFUVpycHp1Z0Foc2R3Q0E?oc=5",
-     "time": "2026-11-25T16:14:59+00:00"
-    },
-    {
-     "title": "Broadcom Shares Close Lower Amid Broad Semiconductor Sector Retreat : \uae30\uc5c5\uc8fc\uc2dd\uc815\ubcf4 : JKN",
-     "publisher": "\uc7ac\uacbd\uc77c\ubcf4",
-     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1FNFdOWUtMdkNoUmJ6NG42Mi1xRWNubDhmRWFweklnQzVDQjFMX0RvRU00aHhjSUhncVNza1htOEJheVVKdHBCcGRBR0JMOFUtX3ZsLWE1TWlaRjAwZFRpX1l3?oc=5",
-     "time": "2026-11-25T15:56:00+00:00"
-    },
-    {
-     "title": "Broadcom Stocks Slide 6.86% as AI Chip Selloff Deepens",
-     "publisher": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOUVpZUjJEc09Fdll2OUdjRkJ5UHdhSTVfWEdfWXVZdjN1U0VaY0NjTjdLUjZqcEROYWpSVXJJQ0FmbmhSVlZsbS1XWGEyQk04OVlhNnBtNlhpVFh4dnVVNDNGTGs5WXZpcTdZN1VsM1ZNUkpPQ2FGMkxNMnFKQUFrRFc0ME4yRFF1Y25Uc1k5WlFzWHBhMVI1d1NCY0xUZWt2Q1NESGRwWGpmUnJNclFzNUtWMA?oc=5",
-     "time": "2026-11-25T15:46:31+00:00"
-    },
-    {
-     "title": "Broadcom stock falls to $282.09 as chip selloff deepens",
-     "publisher": "JournalArta",
-     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPb1U2bllEb3hUM2wwZTJmNEdmcW1DRmF2ekhRbzR0U2NMR0VWUHhnU2dSSE1vaGViRnphb2hnbVliLVUtMWFNZkxYcVJJVWxreFRHc1F0RWZqZS1WRHhQaDQzeVY1RDJyb3R3dEpLVlVtOXlHQzg0ZWQxek9aU0k5LURFWE9hM01rWjR3ckZCT2dkNlJIeHFBdQ?oc=5",
-     "time": "2026-11-25T15:19:41+00:00"
-    },
-    {
-     "title": "Why is Broadcom stock sliding today?",
-     "publisher": "Investing.com",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxONll4QkhyM0VYQTFrMXhIMm1FSVVkaDFQeXJUNTY1M2FwM3BBSmc4RGRYbk5kQVNwanpTYm5INXpwNmV5T3dXXzdUYVN4ckU5c3pmeXJpNHZhc2VvSDBVZl9MbVlxdzJTazJUOXlWQ1FpaTlaRE51VEltMHR1V0dOVHh0NlBZNU00Q0VfVW9jdjBYTnp0aGthcnN4RlRwUQ?oc=5",
-     "time": "2026-11-25T15:17:18+00:00"
-    },
-    {
-     "title": "Broadcom Inc Stock (AVGO) Moved Down by 5.22% on Nov 25: A Full Analysis",
-     "publisher": "TradingKey",
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNN290cjJqVUhVbE96aFVRTUpnSFQ3a04yb3BqR3JFN3ViWkNsaWJiUmNjWVhLcmJkcW9UYnpLb1pXalM5dXFFTkVzZWJKV2l5RWJaeDFlVml4UFFQZzBBVGdMY212RUNNNWJLZDhlUldZTnFORk9tbFlqUUV4Y184V1E0R1ZhWmx0SUlN?oc=5",
-     "time": "2026-11-25T15:15:45+00:00"
-    }
-   ],
-   "brief": "2026-11-25-AVGO"
-  },
-  {
    "symbol": "CRWD",
    "name": "CrowdStrike",
    "list": "portfolio",
-   "price": 200.88,
+   "price": 201.19,
    "prev_close": 210.86,
-   "change_pct": -4.7,
+   "change_pct": -4.6,
    "trigger_change": -3.1,
    "peak_change": -7.4,
    "first_seen": "2026-11-25T14:56:37+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 93.98,
-    "change_pct": -1.43
+    "price": 93.88,
+    "change_pct": -1.55
    },
    "chart": {
-    "ema8": -7.9,
-    "ema21": -12.0,
-    "sma50": -18.0,
-    "sma200": 13.0,
+    "ema8": -7.8,
+    "ema21": -11.9,
+    "sma50": -17.9,
+    "sma200": 13.2,
     "momentum": false
    },
    "headlines": [
@@ -546,26 +471,101 @@
    "brief": "2026-11-25-CRWD"
   },
   {
+   "symbol": "AVGO",
+   "name": "Broadcom",
+   "list": "portfolio",
+   "price": 288.37,
+   "prev_close": 301.08,
+   "change_pct": -4.2,
+   "trigger_change": -5.1,
+   "peak_change": -6.3,
+   "first_seen": "2026-11-25T14:56:37+00:00",
+   "sector": {
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 407.98,
+    "change_pct": -4.4
+   },
+   "chart": {
+    "ema8": -8.6,
+    "ema21": -11.7,
+    "sma50": -15.3,
+    "sma200": -21.5,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Without an Anthropic Rally, \u201cThere Will Be No OpenAI.\u201d AMD Is the Real Loser",
+     "publisher": "TIKR.com",
+     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOWHBSOE96SHBDdGxKMWlsYjlQZTVScnQ1ZnJBQkhXSEVTaDZvLXl3c0JSLTljcWNnX0ljRnpQeU4ya191SVM3OFRCS0ZVMnh4NlNvZ1B1dF9UNEJ2WF9POHZfVGdVZlpSOXRSSEFNSENTSFMwcEtPdUpOR1d0VWxMVlNGbDk5cnh1OGZJdHNuXzFkZUFOWG5DWGFpVHpkb3ZCNUtRWnlseDVTc01pTkk3RmVjZkhIMV82aFJsQVE1M3BSNzZxeHFpSFBmOXd2b25kMHhPS1Vn?oc=5",
+     "time": "2026-11-25T16:40:17+00:00"
+    },
+    {
+     "title": "Broadcom vs. Qualcomm: Which Technology Stock Is a Better Buy for 2027?",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPZnJVR3BUNWZaTzB5Z0hBaHQ2b1RaWEZOekItNzg3ajFlRW9VQWl2c3FIT1Q3Qzd3RWhIUWdoNE5JVHFuSUJwbEt6SWkzanRfaUxkaXJtaWtud19uLXJZN2UxNHBqcjZCWGJQaW9oVkpDVk1fWFJrVE5qVnB6SFVOdDRYX3Q0MkwwVVpyeVUzTXhOOF9DVy1jeFQ3MVd1NWFERjd5NzFoZ3BqeUlVQmd2dW41VmVTVk5nYjNHN0F3?oc=5",
+     "time": "2026-11-25T16:32:01+00:00"
+    },
+    {
+     "title": "AI Stocks Crash as Nvidia Falls 8%, Broadcom Loses 6% and CoreWeave Plunges Over 10%",
+     "publisher": "Coinpaper",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPb3dOM3puTnBWVThSSmVLWTU3MU5WekpYbEpsNDVtbmRJUHJQQkFkNHctZ1JIM2xrZTRsbzhOUVhmZTQ5Ti13a21ael9MdWF6cVV2b1d2SEtfUjFoVFE5SkFPa09TMzhrODlqM3R6ejJMNGhGa2s0YTRhT0pRY054SjNKVERUalhRYUNPUEx6UFN6VzJhTkNkNkUxSGs0blpFUVpycHp1Z0Foc2R3Q0E?oc=5",
+     "time": "2026-11-25T16:14:59+00:00"
+    },
+    {
+     "title": "Broadcom Shares Close Lower Amid Broad Semiconductor Sector Retreat : \uae30\uc5c5\uc8fc\uc2dd\uc815\ubcf4 : JKN",
+     "publisher": "\uc7ac\uacbd\uc77c\ubcf4",
+     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1FNFdOWUtMdkNoUmJ6NG42Mi1xRWNubDhmRWFweklnQzVDQjFMX0RvRU00aHhjSUhncVNza1htOEJheVVKdHBCcGRBR0JMOFUtX3ZsLWE1TWlaRjAwZFRpX1l3?oc=5",
+     "time": "2026-11-25T15:56:00+00:00"
+    },
+    {
+     "title": "Broadcom Stocks Slide 6.86% as AI Chip Selloff Deepens",
+     "publisher": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOUVpZUjJEc09Fdll2OUdjRkJ5UHdhSTVfWEdfWXVZdjN1U0VaY0NjTjdLUjZqcEROYWpSVXJJQ0FmbmhSVlZsbS1XWGEyQk04OVlhNnBtNlhpVFh4dnVVNDNGTGs5WXZpcTdZN1VsM1ZNUkpPQ2FGMkxNMnFKQUFrRFc0ME4yRFF1Y25Uc1k5WlFzWHBhMVI1d1NCY0xUZWt2Q1NESGRwWGpmUnJNclFzNUtWMA?oc=5",
+     "time": "2026-11-25T15:46:31+00:00"
+    },
+    {
+     "title": "Broadcom stock falls to $282.09 as chip selloff deepens",
+     "publisher": "JournalArta",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPb1U2bllEb3hUM2wwZTJmNEdmcW1DRmF2ekhRbzR0U2NMR0VWUHhnU2dSSE1vaGViRnphb2hnbVliLVUtMWFNZkxYcVJJVWxreFRHc1F0RWZqZS1WRHhQaDQzeVY1RDJyb3R3dEpLVlVtOXlHQzg0ZWQxek9aU0k5LURFWE9hM01rWjR3ckZCT2dkNlJIeHFBdQ?oc=5",
+     "time": "2026-11-25T15:19:41+00:00"
+    },
+    {
+     "title": "Why is Broadcom stock sliding today?",
+     "publisher": "Investing.com",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxONll4QkhyM0VYQTFrMXhIMm1FSVVkaDFQeXJUNTY1M2FwM3BBSmc4RGRYbk5kQVNwanpTYm5INXpwNmV5T3dXXzdUYVN4ckU5c3pmeXJpNHZhc2VvSDBVZl9MbVlxdzJTazJUOXlWQ1FpaTlaRE51VEltMHR1V0dOVHh0NlBZNU00Q0VfVW9jdjBYTnp0aGthcnN4RlRwUQ?oc=5",
+     "time": "2026-11-25T15:17:18+00:00"
+    },
+    {
+     "title": "Broadcom Inc Stock (AVGO) Moved Down by 5.22% on Nov 25: A Full Analysis",
+     "publisher": "TradingKey",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNN290cjJqVUhVbE96aFVRTUpnSFQ3a04yb3BqR3JFN3ViWkNsaWJiUmNjWVhLcmJkcW9UYnpLb1pXalM5dXFFTkVzZWJKV2l5RWJaeDFlVml4UFFQZzBBVGdMY212RUNNNWJLZDhlUldZTnFORk9tbFlqUUV4Y184V1E0R1ZhWmx0SUlN?oc=5",
+     "time": "2026-11-25T15:15:45+00:00"
+    }
+   ],
+   "brief": "2026-11-25-AVGO"
+  },
+  {
    "symbol": "AMZN",
    "name": "Amazon",
    "list": "portfolio",
-   "price": 243.46,
+   "price": 243.94,
    "prev_close": 252.29,
-   "change_pct": -3.5,
+   "change_pct": -3.3,
    "trigger_change": -5.0,
    "peak_change": -6.1,
    "first_seen": "2026-11-25T14:56:37+00:00",
    "sector": {
     "etf": "XLY",
     "name": "Consumer discr.",
-    "price": 116.91,
-    "change_pct": -0.69
+    "price": 116.95,
+    "change_pct": -0.65
    },
    "chart": {
-    "ema8": -4.0,
-    "ema21": -5.0,
-    "sma50": -4.6,
-    "sma200": -0.9,
+    "ema8": -3.9,
+    "ema21": -4.8,
+    "sma50": -4.4,
+    "sma200": -0.7,
     "momentum": false
    },
    "headlines": [
@@ -624,23 +624,23 @@
    "symbol": "GOOG",
    "name": "Alphabet",
    "list": "portfolio",
-   "price": 268.17,
+   "price": 268.06,
    "prev_close": 276.58,
-   "change_pct": -3.0,
+   "change_pct": -3.1,
    "trigger_change": -4.2,
    "peak_change": -4.9,
    "first_seen": "2026-11-25T14:56:37+00:00",
    "sector": {
     "etf": "XLC",
     "name": "Communication",
-    "price": 104.76,
-    "change_pct": 0.3
+    "price": 104.77,
+    "change_pct": 0.31
    },
    "chart": {
     "ema8": -2.7,
     "ema21": -6.5,
-    "sma50": -14.9,
-    "sma200": -19.7,
+    "sma50": -15.0,
+    "sma200": -19.8,
     "momentum": false
    },
    "headlines": [
@@ -699,21 +699,21 @@
    "symbol": "APP",
    "name": "AppLovin",
    "list": "portfolio",
-   "price": 373.66,
+   "price": 373.77,
    "prev_close": 381.11,
-   "change_pct": -2.0,
+   "change_pct": -1.9,
    "trigger_change": -4.5,
    "peak_change": -5.8,
    "first_seen": "2026-11-25T14:56:37+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 93.98,
-    "change_pct": -1.43
+    "price": 93.88,
+    "change_pct": -1.55
    },
    "chart": {
     "ema8": -0.8,
-    "ema21": 4.9,
+    "ema21": 5.0,
     "sma50": 19.8,
     "sma200": -7.4,
     "momentum": true
@@ -783,12 +783,12 @@
    "sector": {
     "etf": "XLF",
     "name": "Financials",
-    "price": 56.29,
-    "change_pct": 0.32
+    "price": 56.27,
+    "change_pct": 0.29
    },
    "chart": {
     "ema8": -5.7,
-    "ema21": -12.6,
+    "ema21": -12.7,
     "sma50": -17.8,
     "sma200": -24.9,
     "momentum": false
@@ -849,22 +849,22 @@
    "symbol": "NOW",
    "name": "ServiceNow",
    "list": "portfolio",
-   "price": 91.3,
+   "price": 91.37,
    "prev_close": 91.74,
-   "change_pct": -0.5,
+   "change_pct": -0.4,
    "trigger_change": -3.2,
    "peak_change": -3.3,
    "first_seen": "2026-11-25T14:56:37+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 93.98,
-    "change_pct": -1.43
+    "price": 93.88,
+    "change_pct": -1.55
    },
    "chart": {
     "ema8": -1.8,
-    "ema21": -11.8,
-    "sma50": -26.9,
+    "ema21": -11.7,
+    "sma50": -26.8,
     "sma200": -19.2,
     "momentum": false
    },
@@ -924,18 +924,18 @@
    "symbol": "BTC-USD",
    "name": "Bitcoin",
    "list": "watchlist",
-   "price": 59768.6,
+   "price": 59603.7,
    "prev_close": 59741.2,
-   "change_pct": 0.0,
+   "change_pct": -0.2,
    "trigger_change": -3.0,
    "peak_change": -3.3,
    "first_seen": "2026-11-25T14:56:37+00:00",
    "sector": null,
    "chart": {
-    "ema8": -2.6,
-    "ema21": -9.6,
-    "sma50": -20.4,
-    "sma200": -17.0,
+    "ema8": -2.8,
+    "ema21": -9.9,
+    "sma50": -20.7,
+    "sma200": -17.2,
     "momentum": false
    },
    "headlines": [
@@ -994,23 +994,23 @@
    "symbol": "MELI",
    "name": "MercadoLibre",
    "list": "watchlist",
-   "price": 1450.88,
+   "price": 1453.56,
    "prev_close": 1450.31,
-   "change_pct": 0.0,
+   "change_pct": 0.2,
    "trigger_change": -3.0,
    "peak_change": -3.0,
    "first_seen": "2026-11-25T15:27:07+00:00",
    "sector": {
     "etf": "XLY",
     "name": "Consumer discr.",
-    "price": 116.91,
-    "change_pct": -0.69
+    "price": 116.95,
+    "change_pct": -0.65
    },
    "chart": {
-    "ema8": 0.8,
-    "ema21": -4.4,
-    "sma50": -13.9,
-    "sma200": -17.5,
+    "ema8": 1.0,
+    "ema21": -4.3,
+    "sma50": -13.7,
+    "sma200": -17.3,
     "momentum": false
    },
    "headlines": [
