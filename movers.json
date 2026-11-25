@@ -1,22 +1,22 @@
 {
  "date": "2026-11-25",
  "threshold": 3.0,
- "updated": "2026-11-25T15:17:03+00:00",
+ "updated": "2026-11-25T15:22:08+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 700.23,
-   "change_pct": -2.58
+   "price": 699.27,
+   "change_pct": -2.71
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 613.14,
-   "change_pct": -3.91
+   "price": 611.55,
+   "change_pct": -4.16
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 82.47,
-   "change_pct": 1.2
+   "price": 82.48,
+   "change_pct": 1.22
   }
  },
  "movers": [
@@ -24,23 +24,23 @@
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 77.02,
+   "price": 76.75,
    "prev_close": 87.31,
-   "change_pct": -11.8,
+   "change_pct": -12.1,
    "trigger_change": -9.0,
-   "peak_change": -11.8,
+   "peak_change": -12.1,
    "first_seen": "2026-11-25T14:56:37+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 91.97,
-    "change_pct": -3.54
+    "price": 91.59,
+    "change_pct": -3.94
    },
    "chart": {
-    "ema8": -19.7,
-    "ema21": -36.6,
-    "sma50": -55.7,
-    "sma200": -57.1,
+    "ema8": -19.9,
+    "ema21": -36.8,
+    "sma50": -55.9,
+    "sma200": -57.3,
     "momentum": false
    },
    "headlines": [
@@ -99,23 +99,23 @@
    "symbol": "AMAT",
    "name": "Applied Materials",
    "list": "portfolio",
-   "price": 295.15,
+   "price": 294.55,
    "prev_close": 323.76,
-   "change_pct": -8.8,
+   "change_pct": -9.0,
    "trigger_change": -7.5,
-   "peak_change": -8.8,
+   "peak_change": -9.0,
    "first_seen": "2026-11-25T14:56:37+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 399.58,
-    "change_pct": -6.37
+    "price": 399.06,
+    "change_pct": -6.49
    },
    "chart": {
-    "ema8": -10.7,
-    "ema21": -17.6,
-    "sma50": -29.7,
-    "sma200": -34.0,
+    "ema8": -10.8,
+    "ema21": -17.8,
+    "sma50": -29.8,
+    "sma200": -34.1,
     "momentum": false
    },
    "headlines": [
@@ -171,101 +171,26 @@
    "brief": null
   },
   {
-   "symbol": "NVDA",
-   "name": "Nvidia",
-   "list": "portfolio",
-   "price": 143.59,
-   "prev_close": 155.38,
-   "change_pct": -7.6,
-   "trigger_change": -7.2,
-   "peak_change": -7.6,
-   "first_seen": "2026-11-25T14:56:37+00:00",
-   "sector": {
-    "etf": "SMH",
-    "name": "Semiconductors",
-    "price": 399.58,
-    "change_pct": -6.37
-   },
-   "chart": {
-    "ema8": -6.0,
-    "ema21": -15.7,
-    "sma50": -29.5,
-    "sma200": -29.2,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Nvidia, AMD, and Micron stocks sink as investors flee AI trade",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOVk9mVUxsUll4NmpxRklUb1dFaHduU3ZURXZRV2ktV0pDM2ZMNElPb3RrV0NiS0JlLTVXQXJKNnpTV1JmV1k2NGMtdzNLa0F0c2tsY2xRMmJKZHhwY1dueWZXb0l4VXhWNkl4NmJ6QUlTNjBpZUItN0xkX21JUXJ5WGlUbWdON0E0V2FOT2lGYkozcm9VSjlXVjR3SDc5WWQ3VzJhWm5mb29YbjBQSU1hQURkYw?oc=5",
-     "time": "2026-11-25T14:41:55+00:00"
-    },
-    {
-     "title": "Scott Galloway Predicts Nvidia Stock Will Be \u201cUp at the End of the Year.\u201d Six Weeks Left",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQNUVveHEtZHdDMGZkQU9OQ3F3TnhsVDBGWWVELXBWYVl1WjFuR2k1M2VEMEpTdUpxd0ZPX2Vkc0dGS3l3VzFpTTZVM2FxNVhtTG8tdVhIeEMtYUtMWWZJRHh5Z0VodWdsX2lhdkVRVFo5cy1INE05Y2VaRWNQSnVpWjFWRmVLWkpHTWtEVU5iQXdNaG1jWnFCWFYyWFRqcHVwUUpN?oc=5",
-     "time": "2026-11-25T14:05:28+00:00"
-    },
-    {
-     "title": "Nvidia\u2019s Top Lawyer Sold $4.5 Million of Nvidia Stock the Day Before Its 14% Plunge",
-     "publisher": "24/7 Wall St.",
-     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQRkE4VnFkcDdSOVlQc1cySDl4S2FrYTQ5ZFdlOVNVblRQbm9na2J4VDc4Y201U2VZMEU2ekxDV3pOSWZBSmo5a003Y29XdmE4VjJoZGVtazEyenVXZVZSWjhjeUt4QVdmV0c1NFJTZWVXdE9xc1padmh6YVg0VmNzNkNMTEpFTmxoMUdLWUxfeUdveGlQS0t3ZGVLUzZQN1dZMVpUOFppYTkteFRYLXhuVUVGY240VWpIaGJRd0w4eVNUUQ?oc=5",
-     "time": "2026-11-25T13:37:00+00:00"
-    },
-    {
-     "title": "Nvidia stock slides 5.2% before the open as tech selloff extends after Huang's return",
-     "publisher": "Quartz",
-     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5DcHRhOVdQQjRQcERRVkJ2dHJLNXVTdmlIYk1GVUJrQ2oyQVJBQmhzSDdDZHJmS2lqbndmWUV6ZjB4Y3pTU0dMOUlQTWJlbVJHcUhVLWs4WDZZdzd3dWQ1VGUzVFR5bGhCQkNlR0UxREpHMklvTUxHWVp3?oc=5",
-     "time": "2026-11-25T12:33:33+00:00"
-    },
-    {
-     "title": "Nvidia Stock Looks Like a Screaming Buy Below $160. Here's Why.",
-     "publisher": "The Motley Fool",
-     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNbUthSHN1NzE4STZyUUczU2wxT2lYeG8ySDUwbFp5U01nVHRJQjVTNktOZkoxVmE4SnVsY05jdFdjS1VPc3hYbEZVOE5EWEU2TVlJVmdoaVVYX0tCRFdYOTNnc1NXRVc5bjdybFpJS29BeGllQ2pQVE1XQVJqTXBsTWhoOUVKclB4Z1lhM0toSmJXandlYjZ4NVl1SFZtNkF5TEFlQg?oc=5",
-     "time": "2026-11-25T12:30:02+00:00"
-    },
-    {
-     "title": "Nvidia Still Faces Issues That Cost $2 Trillion in Market Value",
-     "publisher": "Bloomberg",
-     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNT2s0ak5QRUUzVDBKTzB4angtVVVGbHZXWERKeXFiaXZYTHA5ZGdYa09ZbkdrT1dBN1pJejkyaGdINE94Q3VRTHp5bk8wTWw3cmM3bnNWZVJwZS1QTU9BVVVYU2xwTW1XNmVRcWpMT2lVZEF6dll1RHFOUEJ2czMyX1dUd2NoLUcyME1rX2pmX0Y4ZXFnN0xEazVrRVlPYnBFSVBteWZ6a3lDUjJ3M29vNi1lcw?oc=5",
-     "time": "2026-11-25T12:20:58+00:00"
-    },
-    {
-     "title": "Jensen Huang Says Nvidia's Next-Gen Vera Rubin Chips Will Generate $40 Billion in Revenue per Gigawatt, Up From $25 Billion for Grace Blackwell. What That Means for NVDA's Growth Runway.",
-     "publisher": "The Motley Fool",
-     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNV0hIaVZJVEZvZ2FMR3NpLU9DV3BYUHJzRDlsMUdtZ21BTTBRNFR2a1pVZVZlM2hZeTZsZ1kzdDV2a1l2Q3dWWEJ5SzI5NzFsSVJyRUxTTzhGdzZkYXhPdlVXemE4R29JaU95Yld6Nk1UU2l2UjBQbnY0S2RTOU1EeHdINmRsdXhiLUQtOGhINThVQVVFVUlGNg?oc=5",
-     "time": "2026-11-25T11:15:00+00:00"
-    },
-    {
-     "title": "Nvidia Stock Keeps Falling. It\u2019s Obvious Jensen Was Not the Only Problem.",
-     "publisher": "Barron's",
-     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1qNE95d05EdUt4VmhtanBHWXZjaEZhUktJLXRZaUNqejRZWk1lRW5lRUdUbFhMOGM5OUZBVUNYOVAwZTk0LURzQ3RSZHJTU29QT3dGdWhyTjdaMzJUcUdFaUFMMktvUkx3aWE4LTRvUnYtN3NYZHU0TTJR?oc=5",
-     "time": "2026-11-25T10:53:00+00:00"
-    }
-   ],
-   "brief": null
-  },
-  {
    "symbol": "ANET",
    "name": "Arista Networks",
    "list": "portfolio",
-   "price": 156.68,
+   "price": 155.37,
    "prev_close": 168.56,
-   "change_pct": -7.1,
+   "change_pct": -7.8,
    "trigger_change": -5.7,
-   "peak_change": -7.1,
+   "peak_change": -7.8,
    "first_seen": "2026-11-25T14:56:37+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 399.58,
-    "change_pct": -6.37
+    "price": 399.06,
+    "change_pct": -6.49
    },
    "chart": {
-    "ema8": -10.4,
-    "ema21": -13.3,
-    "sma50": -17.8,
-    "sma200": -7.3,
+    "ema8": -11.0,
+    "ema21": -14.0,
+    "sma50": -18.4,
+    "sma200": -8.1,
     "momentum": false
    },
    "headlines": [
@@ -324,23 +249,23 @@
    "symbol": "CRWD",
    "name": "CrowdStrike",
    "list": "portfolio",
-   "price": 196.78,
+   "price": 195.22,
    "prev_close": 210.86,
-   "change_pct": -6.7,
+   "change_pct": -7.4,
    "trigger_change": -3.1,
-   "peak_change": -6.7,
+   "peak_change": -7.4,
    "first_seen": "2026-11-25T14:56:37+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 91.97,
-    "change_pct": -3.54
+    "price": 91.59,
+    "change_pct": -3.94
    },
    "chart": {
-    "ema8": -9.4,
-    "ema21": -13.7,
-    "sma50": -19.7,
-    "sma200": 10.7,
+    "ema8": -10.0,
+    "ema21": -14.3,
+    "sma50": -20.3,
+    "sma200": 9.8,
     "momentum": false
    },
    "headlines": [
@@ -396,26 +321,101 @@
    "brief": null
   },
   {
-   "symbol": "AVGO",
-   "name": "Broadcom",
+   "symbol": "NVDA",
+   "name": "Nvidia",
    "list": "portfolio",
-   "price": 284.29,
-   "prev_close": 301.08,
-   "change_pct": -5.6,
-   "trigger_change": -5.1,
-   "peak_change": -5.6,
+   "price": 144.62,
+   "prev_close": 155.38,
+   "change_pct": -6.9,
+   "trigger_change": -7.2,
+   "peak_change": -7.6,
    "first_seen": "2026-11-25T14:56:37+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 399.58,
-    "change_pct": -6.37
+    "price": 399.06,
+    "change_pct": -6.49
    },
    "chart": {
-    "ema8": -9.6,
-    "ema21": -12.8,
-    "sma50": -16.4,
-    "sma200": -22.6,
+    "ema8": -5.5,
+    "ema21": -15.1,
+    "sma50": -29.0,
+    "sma200": -28.7,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Nvidia, AMD, and Micron stocks sink as investors flee AI trade",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOVk9mVUxsUll4NmpxRklUb1dFaHduU3ZURXZRV2ktV0pDM2ZMNElPb3RrV0NiS0JlLTVXQXJKNnpTV1JmV1k2NGMtdzNLa0F0c2tsY2xRMmJKZHhwY1dueWZXb0l4VXhWNkl4NmJ6QUlTNjBpZUItN0xkX21JUXJ5WGlUbWdON0E0V2FOT2lGYkozcm9VSjlXVjR3SDc5WWQ3VzJhWm5mb29YbjBQSU1hQURkYw?oc=5",
+     "time": "2026-11-25T14:41:55+00:00"
+    },
+    {
+     "title": "Scott Galloway Predicts Nvidia Stock Will Be \u201cUp at the End of the Year.\u201d Six Weeks Left",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQNUVveHEtZHdDMGZkQU9OQ3F3TnhsVDBGWWVELXBWYVl1WjFuR2k1M2VEMEpTdUpxd0ZPX2Vkc0dGS3l3VzFpTTZVM2FxNVhtTG8tdVhIeEMtYUtMWWZJRHh5Z0VodWdsX2lhdkVRVFo5cy1INE05Y2VaRWNQSnVpWjFWRmVLWkpHTWtEVU5iQXdNaG1jWnFCWFYyWFRqcHVwUUpN?oc=5",
+     "time": "2026-11-25T14:05:28+00:00"
+    },
+    {
+     "title": "Nvidia\u2019s Top Lawyer Sold $4.5 Million of Nvidia Stock the Day Before Its 14% Plunge",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQRkE4VnFkcDdSOVlQc1cySDl4S2FrYTQ5ZFdlOVNVblRQbm9na2J4VDc4Y201U2VZMEU2ekxDV3pOSWZBSmo5a003Y29XdmE4VjJoZGVtazEyenVXZVZSWjhjeUt4QVdmV0c1NFJTZWVXdE9xc1padmh6YVg0VmNzNkNMTEpFTmxoMUdLWUxfeUdveGlQS0t3ZGVLUzZQN1dZMVpUOFppYTkteFRYLXhuVUVGY240VWpIaGJRd0w4eVNUUQ?oc=5",
+     "time": "2026-11-25T13:37:00+00:00"
+    },
+    {
+     "title": "Nvidia stock slides 5.2% before the open as tech selloff extends after Huang's return",
+     "publisher": "Quartz",
+     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5DcHRhOVdQQjRQcERRVkJ2dHJLNXVTdmlIYk1GVUJrQ2oyQVJBQmhzSDdDZHJmS2lqbndmWUV6ZjB4Y3pTU0dMOUlQTWJlbVJHcUhVLWs4WDZZdzd3dWQ1VGUzVFR5bGhCQkNlR0UxREpHMklvTUxHWVp3?oc=5",
+     "time": "2026-11-25T12:33:33+00:00"
+    },
+    {
+     "title": "Nvidia Stock Looks Like a Screaming Buy Below $160. Here's Why.",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNbUthSHN1NzE4STZyUUczU2wxT2lYeG8ySDUwbFp5U01nVHRJQjVTNktOZkoxVmE4SnVsY05jdFdjS1VPc3hYbEZVOE5EWEU2TVlJVmdoaVVYX0tCRFdYOTNnc1NXRVc5bjdybFpJS29BeGllQ2pQVE1XQVJqTXBsTWhoOUVKclB4Z1lhM0toSmJXandlYjZ4NVl1SFZtNkF5TEFlQg?oc=5",
+     "time": "2026-11-25T12:30:02+00:00"
+    },
+    {
+     "title": "Nvidia Still Faces Issues That Cost $2 Trillion in Market Value",
+     "publisher": "Bloomberg",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNT2s0ak5QRUUzVDBKTzB4angtVVVGbHZXWERKeXFiaXZYTHA5ZGdYa09ZbkdrT1dBN1pJejkyaGdINE94Q3VRTHp5bk8wTWw3cmM3bnNWZVJwZS1QTU9BVVVYU2xwTW1XNmVRcWpMT2lVZEF6dll1RHFOUEJ2czMyX1dUd2NoLUcyME1rX2pmX0Y4ZXFnN0xEazVrRVlPYnBFSVBteWZ6a3lDUjJ3M29vNi1lcw?oc=5",
+     "time": "2026-11-25T12:20:58+00:00"
+    },
+    {
+     "title": "Jensen Huang Says Nvidia's Next-Gen Vera Rubin Chips Will Generate $40 Billion in Revenue per Gigawatt, Up From $25 Billion for Grace Blackwell. What That Means for NVDA's Growth Runway.",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNV0hIaVZJVEZvZ2FMR3NpLU9DV3BYUHJzRDlsMUdtZ21BTTBRNFR2a1pVZVZlM2hZeTZsZ1kzdDV2a1l2Q3dWWEJ5SzI5NzFsSVJyRUxTTzhGdzZkYXhPdlVXemE4R29JaU95Yld6Nk1UU2l2UjBQbnY0S2RTOU1EeHdINmRsdXhiLUQtOGhINThVQVVFVUlGNg?oc=5",
+     "time": "2026-11-25T11:15:00+00:00"
+    },
+    {
+     "title": "Nvidia Stock Keeps Falling. It\u2019s Obvious Jensen Was Not the Only Problem.",
+     "publisher": "Barron's",
+     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1qNE95d05EdUt4VmhtanBHWXZjaEZhUktJLXRZaUNqejRZWk1lRW5lRUdUbFhMOGM5OUZBVUNYOVAwZTk0LURzQ3RSZHJTU29QT3dGdWhyTjdaMzJUcUdFaUFMMktvUkx3aWE4LTRvUnYtN3NYZHU0TTJR?oc=5",
+     "time": "2026-11-25T10:53:00+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
+   "symbol": "AVGO",
+   "name": "Broadcom",
+   "list": "portfolio",
+   "price": 283.54,
+   "prev_close": 301.08,
+   "change_pct": -5.8,
+   "trigger_change": -5.1,
+   "peak_change": -5.8,
+   "first_seen": "2026-11-25T14:56:37+00:00",
+   "sector": {
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 399.06,
+    "change_pct": -6.49
+   },
+   "chart": {
+    "ema8": -9.8,
+    "ema21": -13.0,
+    "sma50": -16.7,
+    "sma200": -22.8,
     "momentum": false
    },
    "headlines": [
@@ -483,13 +483,13 @@
    "sector": {
     "etf": "XLF",
     "name": "Financials",
-    "price": 55.45,
-    "change_pct": -1.19
+    "price": 55.43,
+    "change_pct": -1.21
    },
    "chart": {
-    "ema8": -9.2,
-    "ema21": -16.4,
-    "sma50": -21.6,
+    "ema8": -9.3,
+    "ema21": -16.5,
+    "sma50": -21.7,
     "sma200": -28.5,
     "momentum": false
    },
@@ -549,23 +549,23 @@
    "symbol": "AMZN",
    "name": "Amazon",
    "list": "portfolio",
-   "price": 240.16,
+   "price": 239.54,
    "prev_close": 252.29,
-   "change_pct": -4.8,
+   "change_pct": -5.1,
    "trigger_change": -5.0,
-   "peak_change": -5.0,
+   "peak_change": -5.1,
    "first_seen": "2026-11-25T14:56:37+00:00",
    "sector": {
     "etf": "XLY",
     "name": "Consumer discr.",
-    "price": 114.62,
-    "change_pct": -2.63
+    "price": 114.42,
+    "change_pct": -2.8
    },
    "chart": {
-    "ema8": -5.0,
-    "ema21": -6.2,
-    "sma50": -5.8,
-    "sma200": -2.3,
+    "ema8": -5.2,
+    "ema21": -6.4,
+    "sma50": -6.1,
+    "sma200": -2.5,
     "momentum": false
    },
    "headlines": [
@@ -624,23 +624,23 @@
    "symbol": "GOOG",
    "name": "Alphabet",
    "list": "portfolio",
-   "price": 264.94,
+   "price": 264.67,
    "prev_close": 276.58,
-   "change_pct": -4.2,
+   "change_pct": -4.3,
    "trigger_change": -4.2,
-   "peak_change": -4.2,
+   "peak_change": -4.3,
    "first_seen": "2026-11-25T14:56:37+00:00",
    "sector": {
     "etf": "XLC",
     "name": "Communication",
-    "price": 102.41,
-    "change_pct": -1.95
+    "price": 102.28,
+    "change_pct": -2.08
    },
    "chart": {
-    "ema8": -3.6,
-    "ema21": -7.5,
-    "sma50": -15.9,
-    "sma200": -20.7,
+    "ema8": -3.7,
+    "ema21": -7.6,
+    "sma50": -16.0,
+    "sma200": -20.8,
     "momentum": false
    },
    "headlines": [
@@ -699,23 +699,23 @@
    "symbol": "APP",
    "name": "AppLovin",
    "list": "portfolio",
-   "price": 367.61,
+   "price": 365.55,
    "prev_close": 381.11,
-   "change_pct": -3.5,
+   "change_pct": -4.1,
    "trigger_change": -4.5,
    "peak_change": -4.5,
    "first_seen": "2026-11-25T14:56:37+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 91.97,
-    "change_pct": -3.54
+    "price": 91.59,
+    "change_pct": -3.94
    },
    "chart": {
-    "ema8": -2.1,
-    "ema21": 3.4,
-    "sma50": 17.9,
-    "sma200": -8.9,
+    "ema8": -2.5,
+    "ema21": 2.9,
+    "sma50": 17.2,
+    "sma200": -9.4,
     "momentum": true
    },
    "headlines": [
@@ -774,18 +774,18 @@
    "symbol": "BTC-USD",
    "name": "Bitcoin",
    "list": "watchlist",
-   "price": 57743.6,
+   "price": 57849.2,
    "prev_close": 59741.2,
-   "change_pct": -3.3,
+   "change_pct": -3.2,
    "trigger_change": -3.0,
    "peak_change": -3.3,
    "first_seen": "2026-11-25T14:56:37+00:00",
    "sector": null,
    "chart": {
-    "ema8": -5.2,
-    "ema21": -12.5,
-    "sma50": -23.1,
-    "sma200": -19.8,
+    "ema8": -5.1,
+    "ema21": -12.3,
+    "sma50": -23.0,
+    "sma200": -19.7,
     "momentum": false
    },
    "headlines": [
@@ -844,23 +844,23 @@
    "symbol": "NOW",
    "name": "ServiceNow",
    "list": "portfolio",
-   "price": 89.58,
+   "price": 89.12,
    "prev_close": 91.74,
-   "change_pct": -2.4,
+   "change_pct": -2.9,
    "trigger_change": -3.2,
    "peak_change": -3.2,
    "first_seen": "2026-11-25T14:56:37+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 91.97,
-    "change_pct": -3.54
+    "price": 91.59,
+    "change_pct": -3.94
    },
    "chart": {
-    "ema8": -3.3,
-    "ema21": -13.3,
-    "sma50": -28.3,
-    "sma200": -20.8,
+    "ema8": -3.7,
+    "ema21": -13.7,
+    "sma50": -28.6,
+    "sma200": -21.2,
     "momentum": false
    },
    "headlines": [
