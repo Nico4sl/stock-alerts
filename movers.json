@@ -1,22 +1,22 @@
 {
  "date": "2026-11-25",
  "threshold": 3.0,
- "updated": "2026-11-25T20:22:32+00:00",
+ "updated": "2026-11-25T20:27:32+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 716.37,
-   "change_pct": -0.34
+   "price": 716.03,
+   "change_pct": -0.38
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 632.71,
-   "change_pct": -0.84
+   "price": 632.24,
+   "change_pct": -0.92
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 82.34,
-   "change_pct": 1.05
+   "price": 82.37,
+   "change_pct": 1.08
   }
  },
  "movers": [
@@ -24,23 +24,23 @@
    "symbol": "AXON",
    "name": "Axon",
    "list": "watchlist",
-   "price": 339.64,
+   "price": 340.76,
    "prev_close": 319.32,
-   "change_pct": 6.4,
+   "change_pct": 6.7,
    "trigger_change": 4.8,
    "peak_change": 8.6,
    "first_seen": "2026-11-25T17:11:02+00:00",
    "sector": {
     "etf": "XLI",
     "name": "Industrials",
-    "price": 162.9,
-    "change_pct": 0.8
+    "price": 162.82,
+    "change_pct": 0.75
    },
    "chart": {
-    "ema8": 7.0,
-    "ema21": 0.1,
-    "sma50": -12.9,
-    "sma200": -26.3,
+    "ema8": 7.2,
+    "ema21": 0.4,
+    "sma50": -12.6,
+    "sma200": -26.1,
     "momentum": false
    },
    "headlines": [
@@ -99,7 +99,7 @@
    "symbol": "AMAT",
    "name": "Applied Materials",
    "list": "portfolio",
-   "price": 306.25,
+   "price": 306.21,
    "prev_close": 323.76,
    "change_pct": -5.4,
    "trigger_change": -7.5,
@@ -108,8 +108,8 @@
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 419.75,
-    "change_pct": -1.64
+    "price": 418.76,
+    "change_pct": -1.87
    },
    "chart": {
     "ema8": -8.0,
@@ -174,23 +174,23 @@
    "symbol": "NVDA",
    "name": "Nvidia",
    "list": "portfolio",
-   "price": 148.14,
+   "price": 148.35,
    "prev_close": 155.38,
-   "change_pct": -4.7,
+   "change_pct": -4.5,
    "trigger_change": -7.2,
    "peak_change": -8.9,
    "first_seen": "2026-11-25T14:56:37+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 419.75,
-    "change_pct": -1.64
+    "price": 418.76,
+    "change_pct": -1.87
    },
    "chart": {
-    "ema8": -3.7,
-    "ema21": -13.2,
-    "sma50": -27.2,
-    "sma200": -27.0,
+    "ema8": -3.6,
+    "ema21": -13.1,
+    "sma50": -27.1,
+    "sma200": -26.9,
     "momentum": false
    },
    "headlines": [
@@ -249,23 +249,23 @@
    "symbol": "AMZN",
    "name": "Amazon",
    "list": "portfolio",
-   "price": 245.51,
+   "price": 245.21,
    "prev_close": 252.29,
-   "change_pct": -2.7,
+   "change_pct": -2.8,
    "trigger_change": -5.0,
    "peak_change": -6.1,
    "first_seen": "2026-11-25T14:56:37+00:00",
    "sector": {
     "etf": "XLY",
     "name": "Consumer discr.",
-    "price": 117.69,
-    "change_pct": -0.02
+    "price": 117.52,
+    "change_pct": -0.17
    },
    "chart": {
-    "ema8": -3.4,
-    "ema21": -4.3,
-    "sma50": -3.8,
-    "sma200": -0.1,
+    "ema8": -3.5,
+    "ema21": -4.4,
+    "sma50": -3.9,
+    "sma200": -0.2,
     "momentum": false
    },
    "headlines": [
@@ -324,23 +324,23 @@
    "symbol": "ANET",
    "name": "Arista Networks",
    "list": "portfolio",
-   "price": 164.03,
+   "price": 164.16,
    "prev_close": 168.56,
-   "change_pct": -2.7,
+   "change_pct": -2.6,
    "trigger_change": -5.7,
    "peak_change": -8.0,
    "first_seen": "2026-11-25T14:56:37+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 419.75,
-    "change_pct": -1.64
+    "price": 418.76,
+    "change_pct": -1.87
    },
    "chart": {
     "ema8": -7.0,
-    "ema21": -9.6,
-    "sma50": -14.0,
-    "sma200": -3.0,
+    "ema21": -9.5,
+    "sma50": -13.9,
+    "sma200": -2.9,
     "momentum": false
    },
    "headlines": [
@@ -399,23 +399,23 @@
    "symbol": "META",
    "name": "Meta",
    "list": "portfolio",
-   "price": 605.62,
+   "price": 604.64,
    "prev_close": 589.82,
-   "change_pct": 2.7,
+   "change_pct": 2.5,
    "trigger_change": 3.1,
    "peak_change": 3.1,
    "first_seen": "2026-11-25T20:12:25+00:00",
    "sector": {
     "etf": "XLC",
     "name": "Communication",
-    "price": 105.25,
-    "change_pct": 0.77
+    "price": 105.22,
+    "change_pct": 0.73
    },
    "chart": {
-    "ema8": 0.6,
-    "ema21": -2.3,
-    "sma50": -9.9,
-    "sma200": -3.5,
+    "ema8": 0.5,
+    "ema21": -2.5,
+    "sma50": -10.1,
+    "sma200": -3.6,
     "momentum": false
    },
    "headlines": [
@@ -474,7 +474,7 @@
    "symbol": "GOOG",
    "name": "Alphabet",
    "list": "portfolio",
-   "price": 270.29,
+   "price": 270.31,
    "prev_close": 276.58,
    "change_pct": -2.3,
    "trigger_change": -4.2,
@@ -483,8 +483,8 @@
    "sector": {
     "etf": "XLC",
     "name": "Communication",
-    "price": 105.25,
-    "change_pct": 0.77
+    "price": 105.22,
+    "change_pct": 0.73
    },
    "chart": {
     "ema8": -2.1,
@@ -546,101 +546,26 @@
    "brief": "2026-11-25-GOOG"
   },
   {
-   "symbol": "NBIS",
-   "name": "Nebius",
-   "list": "portfolio",
-   "price": 85.46,
-   "prev_close": 87.31,
-   "change_pct": -2.1,
-   "trigger_change": -9.0,
-   "peak_change": -12.5,
-   "first_seen": "2026-11-25T14:56:37+00:00",
-   "sector": {
-    "etf": "IGV",
-    "name": "Software",
-    "price": 95.1,
-    "change_pct": -0.26
-   },
-   "chart": {
-    "ema8": -12.6,
-    "ema21": -30.1,
-    "sma50": -50.9,
-    "sma200": -52.5,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "CRWV and NBIS Stock Test Last Support on Neocloud Debt, HPE Margin Risks Warning for Nebius and Coreweave",
-     "publisher": "FXLeaders",
-     "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQQksyMFU0U1hHZ1pKSng5dmF2LVAzZWpoOHpwQ2JkY2ZmZF9tT3JGcW5mYS1EZXFBQ2U1MTVPa0MyN0piaFpxYll6UE9nVmdySWpsR1NielVwWjlfS09vRFEzMERtdVVzdmZ1UXlqZ1FLRlJhYU1ZYmdoczVxWmtWZmhoN1JyVEYzU0pzUVdJelc3cy1TQVdoSWlHQzlDVGZ5VXA2U1d2VkVTQW96R0pWQVpBejBtWnRqcWRMTzZtUlVyLUJZYzEwcGl2OWdXX1ZucEZUeFN6eDhRN0dWWTdoWA?oc=5",
-     "time": "2026-11-25T19:49:17+00:00"
-    },
-    {
-     "title": "Nebius Group (NASDAQ:NBIS) Shares Gap Down - Here's Why",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOa1g4LWNRMmxKUjFmaHI2OHgzTDNYYzB6TEh2MUZPVVVieDdOemc0VzNzaWJtdE0tOF9BRXFKeDY1aEx6ZS1BOEJyblQwYWtvSVQ1eEdIcXRWZGUwU1ZrUGRLVnRET0xGSU9ycjYwb1V5bDhiWWVSRGUxQWNGdy1jQUdWSkNZV0h5ZEZWNDlLck1LOWcyaUJoSm4xQXg4eWk4a3FCM1czU0gza0JLLVFz?oc=5",
-     "time": "2026-11-25T18:03:55+00:00"
-    },
-    {
-     "title": "Cloud Cover: How Nebius Group Is Filling the Gaps Left by Hyperscalers",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPelVPT1AyeTRGLTdpU3FBX3FXdXMxRzU0SVM0TmZwYWFMQld0aW9oZHhjWWV0MDFranlYUmZCNF9oNFhvMlhjek8tek9PNk1TckNLdVp4NUwtMUozMGpJcU9QWTNONktLeTh6NGVBQlk1ekUzSkx2MmhMLUIzeDB4Wm5GVlprNk1CSGJfbzV4am9rT2JNMnlpQk5IR1BqMkZnV3JOZ2s5SHpLZw?oc=5",
-     "time": "2026-11-25T17:47:08+00:00"
-    },
-    {
-     "title": "Nebius Stock Slides 7% as $45 Billion Spending Plan Raises Concerns",
-     "publisher": "Blockonomi",
-     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPUEgzcnJvSWZyeFNmWE0tVkNkQ0NEa0tJLWlYUFJKVnlRMThVdGJjSmxBMzRCRi1CVVZmekc3eU0yaTZpNm5wcXFCVmx2NlJhWWlBeXhhbHFDSmlZSTAzTW02QUlBUmFaRDBjYWVQZFRkTUo3N2xsZTRvdEFQWnYyWVJlVzl6LWVGbDhNVFVXWGd1SUk?oc=5",
-     "time": "2026-11-25T17:37:48+00:00"
-    },
-    {
-     "title": "Nebius Stock\u2019s Death Cross Signals Trouble for Its Once-Hot AI Growth Story",
-     "publisher": "Benzinga",
-     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPa2NDN1o5X1lYdElvenUzQU1jODdnTEtGX0VfWDV0STR1UlpOSUxqT0hkcE4wa1VPNmF1WnY1YmVHNE9NX3FuNVFQRm5VUlJBcFF5a2VhWmJXWEc2UnZlQnFZdGhsSlZnc3FQeE0zZVk0clluejZmb0F3cW9BVXJnYWFVY0VTQ1JFTW9hWlpMdnZUUjg?oc=5",
-     "time": "2026-11-25T17:25:20+00:00"
-    },
-    {
-     "title": "Nebius Group (NBIS) Shares Plunge Over 11% Amid Tech Sector Sell",
-     "publisher": "GuruFocus",
-     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOZW5uYXg1RHhhMndBNS1heHhGSm44WmQwbi04b1J0RHBwNE85VmNjazJFcTJvYkNxWXZzckRCMFhPdkxUTlJ3QWRIVDJ5c2E2Ny1uTEFncTF4OWE5T01UTVQ2dGxIeE9OMEpEY0lSc1E4ellBM2U1WlBOYXVaUjhralJoU2o0bkFYT2RQbDI4d3Btb1BhVXU0X3NKQnhmTFBGRm1zdzg5cUJ6eVZ2SE1QbUU1UTJIY2JGNWN0bHNpY0g?oc=5",
-     "time": "2026-11-25T16:14:01+00:00"
-    },
-    {
-     "title": "REG - Leverage Shares PLC LS 3X LONG NEBIUS $ LS 3X NBIS ETP \u00a3 - Notice of Original Meeting - 3x Nebius",
-     "publisher": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOU0QzR09VR2lsUzFZajAtbXJFcENReVlHdzRNVWpuSGNyNUp6M3piNTNwVmNVamc0SnEzSmZhdWN5dm5Vd1Jxa0lqVTFrU2hhMDI1M24zU1BJSU5CNndSOFVBVFhfb1R1LUhMaFZ1cTMxV2thNTFvMG5DZzJ3NmRRaTZLQ0ZlMm9aQnUtR05QdkNRX3MxWTJ6Z3h3bkxSMnpFeWVzeXplS3ZzcXU4a2lYS2l3b19BckpuZWl6ZXpFVFlfSzJVb1kxU3dORTU0QzZuU1FGYmpSWEd2WHVsdDFhS013T3lRdDRjOVctNm9wVk1vc25NYU1XUDMtVUQxQQ?oc=5",
-     "time": "2026-11-25T15:49:07+00:00"
-    },
-    {
-     "title": "Nebius Stock Falls Near 52-Week Low - Here's Why",
-     "publisher": "Benzinga",
-     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTGxSeHNfcC1ianprMzdOY2NZclBqZVppSHQzTnVaMk9XYTJfc09wQUVWdXRhYWd1V3QzdGNuWlc1czFITmEteEZHX3BTb1JtVmhCQ1RKNTdKakpGNDZKenllekxMVWNVeXJLTW1qdmJiSWFZZlUyV1pKYnZXWmUzd1pmaHJDWnY2emx6RVg4YzJQNnhPUnNjUVd0bGk0d1J1NkFiVU52Sm1CQQ?oc=5",
-     "time": "2026-11-25T15:21:44+00:00"
-    }
-   ],
-   "brief": "2026-11-25-NBIS"
-  },
-  {
    "symbol": "MELI",
    "name": "MercadoLibre",
    "list": "watchlist",
-   "price": 1479.83,
+   "price": 1481.26,
    "prev_close": 1450.31,
-   "change_pct": 2.0,
+   "change_pct": 2.1,
    "trigger_change": -3.0,
    "peak_change": -3.0,
    "first_seen": "2026-11-25T15:27:07+00:00",
    "sector": {
     "etf": "XLY",
     "name": "Consumer discr.",
-    "price": 117.69,
-    "change_pct": -0.02
+    "price": 117.52,
+    "change_pct": -0.17
    },
    "chart": {
-    "ema8": 2.4,
-    "ema21": -2.7,
-    "sma50": -12.2,
-    "sma200": -15.8,
+    "ema8": 2.5,
+    "ema21": -2.6,
+    "sma50": -12.1,
+    "sma200": -15.7,
     "momentum": false
    },
    "headlines": [
@@ -701,19 +626,19 @@
    "list": "portfolio",
    "price": 13.09,
    "prev_close": 12.86,
-   "change_pct": 1.7,
+   "change_pct": 1.8,
    "trigger_change": -5.1,
    "peak_change": -5.4,
    "first_seen": "2026-11-25T14:56:37+00:00",
    "sector": {
     "etf": "XLF",
     "name": "Financials",
-    "price": 56.59,
-    "change_pct": 0.85
+    "price": 56.55,
+    "change_pct": 0.79
    },
    "chart": {
-    "ema8": -3.9,
-    "ema21": -10.7,
+    "ema8": -3.8,
+    "ema21": -10.6,
     "sma50": -15.8,
     "sma200": -23.1,
     "momentum": false
@@ -771,10 +696,85 @@
    "brief": "2026-11-25-SOFI"
   },
   {
+   "symbol": "NBIS",
+   "name": "Nebius",
+   "list": "portfolio",
+   "price": 85.95,
+   "prev_close": 87.31,
+   "change_pct": -1.6,
+   "trigger_change": -9.0,
+   "peak_change": -12.5,
+   "first_seen": "2026-11-25T14:56:37+00:00",
+   "sector": {
+    "etf": "IGV",
+    "name": "Software",
+    "price": 95.08,
+    "change_pct": -0.28
+   },
+   "chart": {
+    "ema8": -12.2,
+    "ema21": -29.7,
+    "sma50": -50.6,
+    "sma200": -52.2,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "CRWV and NBIS Stock Test Last Support on Neocloud Debt, HPE Margin Risks Warning for Nebius and Coreweave",
+     "publisher": "FXLeaders",
+     "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQQksyMFU0U1hHZ1pKSng5dmF2LVAzZWpoOHpwQ2JkY2ZmZF9tT3JGcW5mYS1EZXFBQ2U1MTVPa0MyN0piaFpxYll6UE9nVmdySWpsR1NielVwWjlfS09vRFEzMERtdVVzdmZ1UXlqZ1FLRlJhYU1ZYmdoczVxWmtWZmhoN1JyVEYzU0pzUVdJelc3cy1TQVdoSWlHQzlDVGZ5VXA2U1d2VkVTQW96R0pWQVpBejBtWnRqcWRMTzZtUlVyLUJZYzEwcGl2OWdXX1ZucEZUeFN6eDhRN0dWWTdoWA?oc=5",
+     "time": "2026-11-25T19:49:17+00:00"
+    },
+    {
+     "title": "Nebius Group (NASDAQ:NBIS) Shares Gap Down - Here's Why",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOa1g4LWNRMmxKUjFmaHI2OHgzTDNYYzB6TEh2MUZPVVVieDdOemc0VzNzaWJtdE0tOF9BRXFKeDY1aEx6ZS1BOEJyblQwYWtvSVQ1eEdIcXRWZGUwU1ZrUGRLVnRET0xGSU9ycjYwb1V5bDhiWWVSRGUxQWNGdy1jQUdWSkNZV0h5ZEZWNDlLck1LOWcyaUJoSm4xQXg4eWk4a3FCM1czU0gza0JLLVFz?oc=5",
+     "time": "2026-11-25T18:03:55+00:00"
+    },
+    {
+     "title": "Cloud Cover: How Nebius Group Is Filling the Gaps Left by Hyperscalers",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPelVPT1AyeTRGLTdpU3FBX3FXdXMxRzU0SVM0TmZwYWFMQld0aW9oZHhjWWV0MDFranlYUmZCNF9oNFhvMlhjek8tek9PNk1TckNLdVp4NUwtMUozMGpJcU9QWTNONktLeTh6NGVBQlk1ekUzSkx2MmhMLUIzeDB4Wm5GVlprNk1CSGJfbzV4am9rT2JNMnlpQk5IR1BqMkZnV3JOZ2s5SHpLZw?oc=5",
+     "time": "2026-11-25T17:47:08+00:00"
+    },
+    {
+     "title": "Nebius Stock Slides 7% as $45 Billion Spending Plan Raises Concerns",
+     "publisher": "Blockonomi",
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPUEgzcnJvSWZyeFNmWE0tVkNkQ0NEa0tJLWlYUFJKVnlRMThVdGJjSmxBMzRCRi1CVVZmekc3eU0yaTZpNm5wcXFCVmx2NlJhWWlBeXhhbHFDSmlZSTAzTW02QUlBUmFaRDBjYWVQZFRkTUo3N2xsZTRvdEFQWnYyWVJlVzl6LWVGbDhNVFVXWGd1SUk?oc=5",
+     "time": "2026-11-25T17:37:48+00:00"
+    },
+    {
+     "title": "Nebius Stock\u2019s Death Cross Signals Trouble for Its Once-Hot AI Growth Story",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPa2NDN1o5X1lYdElvenUzQU1jODdnTEtGX0VfWDV0STR1UlpOSUxqT0hkcE4wa1VPNmF1WnY1YmVHNE9NX3FuNVFQRm5VUlJBcFF5a2VhWmJXWEc2UnZlQnFZdGhsSlZnc3FQeE0zZVk0clluejZmb0F3cW9BVXJnYWFVY0VTQ1JFTW9hWlpMdnZUUjg?oc=5",
+     "time": "2026-11-25T17:25:20+00:00"
+    },
+    {
+     "title": "Nebius Group (NBIS) Shares Plunge Over 11% Amid Tech Sector Sell",
+     "publisher": "GuruFocus",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOZW5uYXg1RHhhMndBNS1heHhGSm44WmQwbi04b1J0RHBwNE85VmNjazJFcTJvYkNxWXZzckRCMFhPdkxUTlJ3QWRIVDJ5c2E2Ny1uTEFncTF4OWE5T01UTVQ2dGxIeE9OMEpEY0lSc1E4ellBM2U1WlBOYXVaUjhralJoU2o0bkFYT2RQbDI4d3Btb1BhVXU0X3NKQnhmTFBGRm1zdzg5cUJ6eVZ2SE1QbUU1UTJIY2JGNWN0bHNpY0g?oc=5",
+     "time": "2026-11-25T16:14:01+00:00"
+    },
+    {
+     "title": "REG - Leverage Shares PLC LS 3X LONG NEBIUS $ LS 3X NBIS ETP \u00a3 - Notice of Original Meeting - 3x Nebius",
+     "publisher": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOU0QzR09VR2lsUzFZajAtbXJFcENReVlHdzRNVWpuSGNyNUp6M3piNTNwVmNVamc0SnEzSmZhdWN5dm5Vd1Jxa0lqVTFrU2hhMDI1M24zU1BJSU5CNndSOFVBVFhfb1R1LUhMaFZ1cTMxV2thNTFvMG5DZzJ3NmRRaTZLQ0ZlMm9aQnUtR05QdkNRX3MxWTJ6Z3h3bkxSMnpFeWVzeXplS3ZzcXU4a2lYS2l3b19BckpuZWl6ZXpFVFlfSzJVb1kxU3dORTU0QzZuU1FGYmpSWEd2WHVsdDFhS013T3lRdDRjOVctNm9wVk1vc25NYU1XUDMtVUQxQQ?oc=5",
+     "time": "2026-11-25T15:49:07+00:00"
+    },
+    {
+     "title": "Nebius Stock Falls Near 52-Week Low - Here's Why",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTGxSeHNfcC1ianprMzdOY2NZclBqZVppSHQzTnVaMk9XYTJfc09wQUVWdXRhYWd1V3QzdGNuWlc1czFITmEteEZHX3BTb1JtVmhCQ1RKNTdKakpGNDZKenllekxMVWNVeXJLTW1qdmJiSWFZZlUyV1pKYnZXWmUzd1pmaHJDWnY2emx6RVg4YzJQNnhPUnNjUVd0bGk0d1J1NkFiVU52Sm1CQQ?oc=5",
+     "time": "2026-11-25T15:21:44+00:00"
+    }
+   ],
+   "brief": "2026-11-25-NBIS"
+  },
+  {
    "symbol": "CRWD",
    "name": "CrowdStrike",
    "list": "portfolio",
-   "price": 208.34,
+   "price": 208.23,
    "prev_close": 210.86,
    "change_pct": -1.2,
    "trigger_change": -3.1,
@@ -783,14 +783,14 @@
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 95.1,
-    "change_pct": -0.26
+    "price": 95.08,
+    "change_pct": -0.28
    },
    "chart": {
-    "ema8": -5.2,
-    "ema21": -9.0,
-    "sma50": -15.0,
-    "sma200": 17.2,
+    "ema8": -5.3,
+    "ema21": -9.1,
+    "sma50": -15.1,
+    "sma200": 17.1,
     "momentum": false
    },
    "headlines": [
@@ -849,23 +849,23 @@
    "symbol": "AVGO",
    "name": "Broadcom",
    "list": "portfolio",
-   "price": 297.79,
+   "price": 298.24,
    "prev_close": 301.08,
-   "change_pct": -1.1,
+   "change_pct": -0.9,
    "trigger_change": -5.1,
    "peak_change": -6.3,
    "first_seen": "2026-11-25T14:56:37+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 419.75,
-    "change_pct": -1.64
+    "price": 418.76,
+    "change_pct": -1.87
    },
    "chart": {
-    "ema8": -6.2,
-    "ema21": -9.0,
-    "sma50": -12.5,
-    "sma200": -18.9,
+    "ema8": -6.1,
+    "ema21": -8.9,
+    "sma50": -12.4,
+    "sma200": -18.8,
     "momentum": false
    },
    "headlines": [
@@ -924,22 +924,22 @@
    "symbol": "NOW",
    "name": "ServiceNow",
    "list": "portfolio",
-   "price": 92.11,
+   "price": 92.16,
    "prev_close": 91.74,
-   "change_pct": 0.4,
+   "change_pct": 0.5,
    "trigger_change": -3.2,
    "peak_change": -3.3,
    "first_seen": "2026-11-25T14:56:37+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 95.1,
-    "change_pct": -0.26
+    "price": 95.08,
+    "change_pct": -0.28
    },
    "chart": {
-    "ema8": -1.2,
-    "ema21": -11.1,
-    "sma50": -26.3,
+    "ema8": -1.1,
+    "ema21": -11.0,
+    "sma50": -26.2,
     "sma200": -18.5,
     "momentum": false
    },
@@ -996,95 +996,25 @@
    "brief": "2026-11-25-NOW"
   },
   {
-   "symbol": "BTC-USD",
-   "name": "Bitcoin",
-   "list": "watchlist",
-   "price": 59986.7,
-   "prev_close": 59741.2,
-   "change_pct": 0.4,
-   "trigger_change": -3.0,
-   "peak_change": -3.3,
-   "first_seen": "2026-11-25T14:56:37+00:00",
-   "sector": null,
-   "chart": {
-    "ema8": -2.3,
-    "ema21": -9.3,
-    "sma50": -20.2,
-    "sma200": -16.7,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Strategic Bitcoin Reserve Bill Clears House Committee, Heads to Floor",
-     "publisher": "Bitcoin Magazine",
-     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQNWxleFpSeVk1OE9WUTRPOEd5YTNxMG5BeHBNVlpiblVxNHRGcG5tRlpuUzlJaDdYWkhCZ0s5ZzBtOU5qMENSdWFGU2pwYVZjZ1lnajY4TS0tQ0VZTDlPQTBwREg0TlpYYXRILUJxelVXVHNNQXMxdmtJaDIzY1pRNA?oc=5",
-     "time": "2026-11-25T19:53:48+00:00"
-    },
-    {
-     "title": "Bitcoin Miners Hammered Again as Price Rout Squeezes Margins",
-     "publisher": "Bloomberg",
-     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQNmk3azVqYnFjM2hqMV95SkptWkNCWGpIaTQ1dmpvM3lXNFlxV3BYZ2VNdHEtanVEVmhvemZjbXJadllhd0txR0RPdk9pQmdNbzBJcWhXekJ0dDRHTXZ4c1c5LUE1U00welAxNU5GbDJSQ1RLYUFoaTVEYllUSU5vc29kTzZ1dldlWHhIVzVzamEwRk5lMXpYbjNpdHBEWWpDdVF4NDZpRmk2RC1LOUZVNA?oc=5",
-     "time": "2026-11-25T19:48:55+00:00"
-    },
-    {
-     "title": "How One Brewer Turned Bitcoin Into a Taproom",
-     "publisher": "American Craft Beer",
-     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNM2U0SlB4cDNfZGxHSFg5YW5QVXpJM09Tb19ta0lRby1rZmpLeDlHVU5RLWxXU3R4X0p1SFUwVnRkYjM4M3lpUTB5WjlUSlRxNHRWZ2EySGJYTm1YN3lSRUsxSGx3M2lOOUNEakU1UEZvanZ4U1FSNTBld0I5RFNTbW9jaHZFUQ?oc=5",
-     "time": "2026-11-25T19:45:35+00:00"
-    },
-    {
-     "title": "New Cryptographic Breakthrough Could Transform Bitcoin\u2019s Global Utility",
-     "publisher": "BeInCrypto",
-     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBvdWFrR296Z0ZpZ0otOWFySmtHb3VtbkdicUtQM3Q3S0djTFlvakdOeXRzNy1YUVRZbVBmVVVXNU44UXpYUWZTQVJCbS1wT2VOek9sUFJFRWcxSzFmZEhLbmRRNzFCMzhMbXpBZFg3RUxUNXBsVkVVZWNB?oc=5",
-     "time": "2026-11-25T19:43:00+00:00"
-    },
-    {
-     "title": "Bitcoin miners hit by hashrate hijacking attack exploiting unencrypted connections",
-     "publisher": "The Block",
-     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNRmdjMHoxUHhoUGR2c2x5YnlhSTYwWmFodVk2dWNzYkFJS25zYlM2d24zZ2xkbVFvMFl3RHJWWVJ3MTRDUmRsZVRuVk5qRmJHOFJZVFIzUjlQZUtZM0FfVnRLbjFaQ2tfdzhpa3pOazB2aG5WTXVUb0VfU1dORkJucUVLU3lobUcyVzhxZVlfbzhmc0w3aTdGNnloQ25BUFUydF9TbnctQjN5ZkZqSTM5bGFwX3p5QzRhWl9ZV29NT09wWmc0eXhfakk3RlBFNEt3aHIw?oc=5",
-     "time": "2026-11-25T19:37:00+00:00"
-    },
-    {
-     "title": "US Bitcoin Reserve Bill Reaches House Union Calendar",
-     "publisher": "The Defiant",
-     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPdk9Ua3JlZG9jUTVBcDBLdWg3Sm5fTUFyUnJqNEFfUEJZeTNWUElJYkZrVFhfeGZWQlFUc0xTcERva1RVb3hnY1ZJa2FzR3MxVVFEaVVqVE9xd3ZBcWVZM0FUaS1aUHMzN2FmNU40RHhfMmdkck8zMWtfSEU5a0k5djFDYlRvRnZNY1lsMUZzZjdNUmpO?oc=5",
-     "time": "2026-11-25T19:31:30+00:00"
-    },
-    {
-     "title": "Bitcoin slips as Nasdaq surges: Is leverage taking over?",
-     "publisher": "Crypto News",
-     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBfSWJYNTdMVGhZd0ZkdDk2T0lHWVp1UUd0Q213X3NRTlk0bXNqUUZkMXVhMFpFbkFNdjZWY1puYXRLTHVyUjB4SUVYZWVjVkhISW51REVsY2pOYlJSNlpRQVF2TkVQWVVQ?oc=5",
-     "time": "2026-11-25T19:21:09+00:00"
-    },
-    {
-     "title": "Kraken\u2019s new credit cards offer up to 4% bitcoin rewards",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE04aXd5NFFnbkVrZkpiTWYxOVF1M1VqVWFEN1dTMUt6ZmQwZ0RRbTR1aGRhTFhUX2JoYkZhd2RtbWFBWVlIYVZxeTUtVHFJNTZCVVdBOWVneEYzRVlacTlwcnVrTFFKdVJTR25rZ1JNN2Fyc0ZFTm1PbHZZcGNtY3M?oc=5",
-     "time": "2026-11-25T19:21:00+00:00"
-    }
-   ],
-   "brief": "2026-11-25-BTC-USD"
-  },
-  {
    "symbol": "APP",
    "name": "AppLovin",
    "list": "portfolio",
-   "price": 379.86,
+   "price": 379.58,
    "prev_close": 381.11,
-   "change_pct": -0.3,
+   "change_pct": -0.4,
    "trigger_change": -4.5,
    "peak_change": -5.8,
    "first_seen": "2026-11-25T14:56:37+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 95.1,
-    "change_pct": -0.26
+    "price": 95.08,
+    "change_pct": -0.28
    },
    "chart": {
-    "ema8": 0.5,
-    "ema21": 6.5,
-    "sma50": 21.7,
+    "ema8": 0.4,
+    "ema21": 6.4,
+    "sma50": 21.6,
     "sma200": -5.9,
     "momentum": true
    },
@@ -1139,6 +1069,76 @@
     }
    ],
    "brief": "2026-11-25-APP"
+  },
+  {
+   "symbol": "BTC-USD",
+   "name": "Bitcoin",
+   "list": "watchlist",
+   "price": 59860.1,
+   "prev_close": 59741.2,
+   "change_pct": 0.2,
+   "trigger_change": -3.0,
+   "peak_change": -3.3,
+   "first_seen": "2026-11-25T14:56:37+00:00",
+   "sector": null,
+   "chart": {
+    "ema8": -2.5,
+    "ema21": -9.5,
+    "sma50": -20.3,
+    "sma200": -16.9,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Strategic Bitcoin Reserve Bill Clears House Committee, Heads to Floor",
+     "publisher": "Bitcoin Magazine",
+     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQNWxleFpSeVk1OE9WUTRPOEd5YTNxMG5BeHBNVlpiblVxNHRGcG5tRlpuUzlJaDdYWkhCZ0s5ZzBtOU5qMENSdWFGU2pwYVZjZ1lnajY4TS0tQ0VZTDlPQTBwREg0TlpYYXRILUJxelVXVHNNQXMxdmtJaDIzY1pRNA?oc=5",
+     "time": "2026-11-25T19:53:48+00:00"
+    },
+    {
+     "title": "Bitcoin Miners Hammered Again as Price Rout Squeezes Margins",
+     "publisher": "Bloomberg",
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQNmk3azVqYnFjM2hqMV95SkptWkNCWGpIaTQ1dmpvM3lXNFlxV3BYZ2VNdHEtanVEVmhvemZjbXJadllhd0txR0RPdk9pQmdNbzBJcWhXekJ0dDRHTXZ4c1c5LUE1U00welAxNU5GbDJSQ1RLYUFoaTVEYllUSU5vc29kTzZ1dldlWHhIVzVzamEwRk5lMXpYbjNpdHBEWWpDdVF4NDZpRmk2RC1LOUZVNA?oc=5",
+     "time": "2026-11-25T19:48:55+00:00"
+    },
+    {
+     "title": "How One Brewer Turned Bitcoin Into a Taproom",
+     "publisher": "American Craft Beer",
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNM2U0SlB4cDNfZGxHSFg5YW5QVXpJM09Tb19ta0lRby1rZmpLeDlHVU5RLWxXU3R4X0p1SFUwVnRkYjM4M3lpUTB5WjlUSlRxNHRWZ2EySGJYTm1YN3lSRUsxSGx3M2lOOUNEakU1UEZvanZ4U1FSNTBld0I5RFNTbW9jaHZFUQ?oc=5",
+     "time": "2026-11-25T19:45:35+00:00"
+    },
+    {
+     "title": "New Cryptographic Breakthrough Could Transform Bitcoin\u2019s Global Utility",
+     "publisher": "BeInCrypto",
+     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBvdWFrR296Z0ZpZ0otOWFySmtHb3VtbkdicUtQM3Q3S0djTFlvakdOeXRzNy1YUVRZbVBmVVVXNU44UXpYUWZTQVJCbS1wT2VOek9sUFJFRWcxSzFmZEhLbmRRNzFCMzhMbXpBZFg3RUxUNXBsVkVVZWNB?oc=5",
+     "time": "2026-11-25T19:43:00+00:00"
+    },
+    {
+     "title": "Bitcoin miners hit by hashrate hijacking attack exploiting unencrypted connections",
+     "publisher": "The Block",
+     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNRmdjMHoxUHhoUGR2c2x5YnlhSTYwWmFodVk2dWNzYkFJS25zYlM2d24zZ2xkbVFvMFl3RHJWWVJ3MTRDUmRsZVRuVk5qRmJHOFJZVFIzUjlQZUtZM0FfVnRLbjFaQ2tfdzhpa3pOazB2aG5WTXVUb0VfU1dORkJucUVLU3lobUcyVzhxZVlfbzhmc0w3aTdGNnloQ25BUFUydF9TbnctQjN5ZkZqSTM5bGFwX3p5QzRhWl9ZV29NT09wWmc0eXhfakk3RlBFNEt3aHIw?oc=5",
+     "time": "2026-11-25T19:37:00+00:00"
+    },
+    {
+     "title": "US Bitcoin Reserve Bill Reaches House Union Calendar",
+     "publisher": "The Defiant",
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPdk9Ua3JlZG9jUTVBcDBLdWg3Sm5fTUFyUnJqNEFfUEJZeTNWUElJYkZrVFhfeGZWQlFUc0xTcERva1RVb3hnY1ZJa2FzR3MxVVFEaVVqVE9xd3ZBcWVZM0FUaS1aUHMzN2FmNU40RHhfMmdkck8zMWtfSEU5a0k5djFDYlRvRnZNY1lsMUZzZjdNUmpO?oc=5",
+     "time": "2026-11-25T19:31:30+00:00"
+    },
+    {
+     "title": "Bitcoin slips as Nasdaq surges: Is leverage taking over?",
+     "publisher": "Crypto News",
+     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBfSWJYNTdMVGhZd0ZkdDk2T0lHWVp1UUd0Q213X3NRTlk0bXNqUUZkMXVhMFpFbkFNdjZWY1puYXRLTHVyUjB4SUVYZWVjVkhISW51REVsY2pOYlJSNlpRQVF2TkVQWVVQ?oc=5",
+     "time": "2026-11-25T19:21:09+00:00"
+    },
+    {
+     "title": "Kraken\u2019s new credit cards offer up to 4% bitcoin rewards",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE04aXd5NFFnbkVrZkpiTWYxOVF1M1VqVWFEN1dTMUt6ZmQwZ0RRbTR1aGRhTFhUX2JoYkZhd2RtbWFBWVlIYVZxeTUtVHFJNTZCVVdBOWVneEYzRVlacTlwcnVrTFFKdVJTR25rZ1JNN2Fyc0ZFTm1PbHZZcGNtY3M?oc=5",
+     "time": "2026-11-25T19:21:00+00:00"
+    }
+   ],
+   "brief": "2026-11-25-BTC-USD"
   }
  ]
 }
