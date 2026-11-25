@@ -1,22 +1,22 @@
 {
  "date": "2026-11-25",
  "threshold": 3.0,
- "updated": "2026-11-25T18:36:26+00:00",
+ "updated": "2026-11-25T18:41:37+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 714.76,
-   "change_pct": -0.56
+   "price": 715.26,
+   "change_pct": -0.49
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 629.51,
-   "change_pct": -1.35
+   "price": 629.33,
+   "change_pct": -1.37
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 82.52,
-   "change_pct": 1.26
+   "price": 82.58,
+   "change_pct": 1.33
   }
  },
  "movers": [
@@ -24,23 +24,23 @@
    "symbol": "AXON",
    "name": "Axon",
    "list": "watchlist",
-   "price": 345.94,
+   "price": 344.69,
    "prev_close": 319.32,
-   "change_pct": 8.3,
+   "change_pct": 7.9,
    "trigger_change": 4.8,
    "peak_change": 8.6,
    "first_seen": "2026-11-25T17:11:02+00:00",
    "sector": {
     "etf": "XLI",
     "name": "Industrials",
-    "price": 162.72,
-    "change_pct": 0.69
+    "price": 162.83,
+    "change_pct": 0.75
    },
    "chart": {
-    "ema8": 8.5,
-    "ema21": 1.8,
-    "sma50": -11.3,
-    "sma200": -25.0,
+    "ema8": 8.2,
+    "ema21": 1.4,
+    "sma50": -11.6,
+    "sma200": -25.3,
     "momentum": false
    },
    "headlines": [
@@ -99,23 +99,23 @@
    "symbol": "AMAT",
    "name": "Applied Materials",
    "list": "portfolio",
-   "price": 303.15,
+   "price": 304.07,
    "prev_close": 323.76,
-   "change_pct": -6.4,
+   "change_pct": -6.1,
    "trigger_change": -7.5,
    "peak_change": -10.2,
    "first_seen": "2026-11-25T14:56:37+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 414.69,
-    "change_pct": -2.83
+    "price": 415.31,
+    "change_pct": -2.68
    },
    "chart": {
-    "ema8": -8.7,
-    "ema21": -15.6,
-    "sma50": -27.8,
-    "sma200": -32.2,
+    "ema8": -8.5,
+    "ema21": -15.3,
+    "sma50": -27.6,
+    "sma200": -32.0,
     "momentum": false
    },
    "headlines": [
@@ -174,23 +174,23 @@
    "symbol": "NVDA",
    "name": "Nvidia",
    "list": "portfolio",
-   "price": 147.55,
+   "price": 147.38,
    "prev_close": 155.38,
-   "change_pct": -5.0,
+   "change_pct": -5.1,
    "trigger_change": -7.2,
    "peak_change": -8.9,
    "first_seen": "2026-11-25T14:56:37+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 414.69,
-    "change_pct": -2.83
+    "price": 415.31,
+    "change_pct": -2.68
    },
    "chart": {
-    "ema8": -4.0,
-    "ema21": -13.5,
-    "sma50": -27.5,
-    "sma200": -27.3,
+    "ema8": -4.1,
+    "ema21": -13.6,
+    "sma50": -27.6,
+    "sma200": -27.4,
     "momentum": false
    },
    "headlines": [
@@ -249,23 +249,23 @@
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 83.31,
+   "price": 84.0,
    "prev_close": 87.31,
-   "change_pct": -4.6,
+   "change_pct": -3.8,
    "trigger_change": -9.0,
    "peak_change": -12.5,
    "first_seen": "2026-11-25T14:56:37+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 94.77,
-    "change_pct": -0.61
+    "price": 94.91,
+    "change_pct": -0.46
    },
    "chart": {
-    "ema8": -14.4,
-    "ema21": -31.7,
-    "sma50": -52.1,
-    "sma200": -53.6,
+    "ema8": -13.8,
+    "ema21": -31.2,
+    "sma50": -51.8,
+    "sma200": -53.3,
     "momentum": false
    },
    "headlines": [
@@ -324,17 +324,17 @@
    "symbol": "ANET",
    "name": "Arista Networks",
    "list": "portfolio",
-   "price": 162.04,
+   "price": 162.13,
    "prev_close": 168.56,
-   "change_pct": -3.9,
+   "change_pct": -3.8,
    "trigger_change": -5.7,
    "peak_change": -8.0,
    "first_seen": "2026-11-25T14:56:37+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 414.69,
-    "change_pct": -2.83
+    "price": 415.31,
+    "change_pct": -2.68
    },
    "chart": {
     "ema8": -7.9,
@@ -396,101 +396,26 @@
    "brief": "2026-11-25-ANET"
   },
   {
-   "symbol": "AVGO",
-   "name": "Broadcom",
-   "list": "portfolio",
-   "price": 291.62,
-   "prev_close": 301.08,
-   "change_pct": -3.1,
-   "trigger_change": -5.1,
-   "peak_change": -6.3,
-   "first_seen": "2026-11-25T14:56:37+00:00",
-   "sector": {
-    "etf": "SMH",
-    "name": "Semiconductors",
-    "price": 414.69,
-    "change_pct": -2.83
-   },
-   "chart": {
-    "ema8": -7.8,
-    "ema21": -10.8,
-    "sma50": -14.3,
-    "sma200": -20.6,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "AI Chip Stocks Extend Brutal Selloff as Nvidia, AMD and Broadcom Tumble Again",
-     "publisher": "GuruFocus",
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQWHhwaDdYY2JIVWZGYnp0NjlxSWhmWDBJbENFVzI1YkVFd1JnVFIwdmJmbVY1MldHdzJGTDVEcnIyQkFTMjdoOHpRVUU2eWZtNzJ5WGZhVXBKdUtlLXBxWjM4LWg0c0owZUZaRHNxdThBMUdRVXNiVzJMM1VSaFBIbjRQQVBmaDgwTF9xMS1Vd0puZDBSWXNiU05SMXJGNElJQ05obzJYMU15ZXhuaEZyTi1KVlVXdw?oc=5",
-     "time": "2026-11-25T17:15:00+00:00"
-    },
-    {
-     "title": "104% Upside for Broadcom? Bernstein Thinks So, and Here\u2019s How",
-     "publisher": "TIKR.com",
-     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNbHY1UmJMazF0d2Vzb0NRMFktcjBNcnRCV1JaU0ZYdXpYS21hWUZqaGw3Qy05X0drX3pOb3lpS29PYkNfczVYcTZ2YzV5R3F2NTFQb2x1ZFgyR1pHd2RhREI2dTJJXy0wbUY2alNSbkNQa0NNSUw1b3NBbzZmc3Q2eDRxWDRZeXM3UTlta2I3X2ptaTRrcWZSWXp2R2ZsaENUaGtoMkhjNGVsNlZ1czJnaGZaTVRNMG5jX2lmWnJHWUdxQQ?oc=5",
-     "time": "2026-11-25T17:08:42+00:00"
-    },
-    {
-     "title": "This Is Why I Wouldn\u2019t Ignore This Stock Heading Into 2027",
-     "publisher": "24/7 Wall St.",
-     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNbDlmcUJaYURxUGN4UEFrZmJVY280OHdacmRndG1iYkxxajd6MlRtTnBWbzVGckhKSEViSmxZSXozSjNIcm8zbEFQcU9wOHlrWUJ0Vmd5WEo0Z2RQQVZUSHdObE9UNmxEeER6RmdkYUNNRUdQOHQ2bDIxNldtamhxMmFTZGxXd1FVY1hQWmF0RkpnTDBCcWNfV3NKRTBObDEwbUJJ?oc=5",
-     "time": "2026-11-25T17:03:00+00:00"
-    },
-    {
-     "title": "Without an Anthropic Rally, \u201cThere Will Be No OpenAI.\u201d AMD Is the Real Loser",
-     "publisher": "TIKR.com",
-     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOWHBSOE96SHBDdGxKMWlsYjlQZTVScnQ1ZnJBQkhXSEVTaDZvLXl3c0JSLTljcWNnX0ljRnpQeU4ya191SVM3OFRCS0ZVMnh4NlNvZ1B1dF9UNEJ2WF9POHZfVGdVZlpSOXRSSEFNSENTSFMwcEtPdUpOR1d0VWxMVlNGbDk5cnh1OGZJdHNuXzFkZUFOWG5DWGFpVHpkb3ZCNUtRWnlseDVTc01pTkk3RmVjZkhIMV82aFJsQVE1M3BSNzZxeHFpSFBmOXd2b25kMHhPS1Vn?oc=5",
-     "time": "2026-11-25T16:40:17+00:00"
-    },
-    {
-     "title": "Broadcom vs. Qualcomm: Which Technology Stock Is a Better Buy for 2027?",
-     "publisher": "The Motley Fool",
-     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPZnJVR3BUNWZaTzB5Z0hBaHQ2b1RaWEZOekItNzg3ajFlRW9VQWl2c3FIT1Q3Qzd3RWhIUWdoNE5JVHFuSUJwbEt6SWkzanRfaUxkaXJtaWtud19uLXJZN2UxNHBqcjZCWGJQaW9oVkpDVk1fWFJrVE5qVnB6SFVOdDRYX3Q0MkwwVVpyeVUzTXhOOF9DVy1jeFQ3MVd1NWFERjd5NzFoZ3BqeUlVQmd2dW41VmVTVk5nYjNHN0F3?oc=5",
-     "time": "2026-11-25T16:32:01+00:00"
-    },
-    {
-     "title": "AI Stocks Crash as Nvidia Falls 8%, Broadcom Loses 6% and CoreWeave Plunges Over 10%",
-     "publisher": "Coinpaper",
-     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPb3dOM3puTnBWVThSSmVLWTU3MU5WekpYbEpsNDVtbmRJUHJQQkFkNHctZ1JIM2xrZTRsbzhOUVhmZTQ5Ti13a21ael9MdWF6cVV2b1d2SEtfUjFoVFE5SkFPa09TMzhrODlqM3R6ejJMNGhGa2s0YTRhT0pRY054SjNKVERUalhRYUNPUEx6UFN6VzJhTkNkNkUxSGs0blpFUVpycHp1Z0Foc2R3Q0E?oc=5",
-     "time": "2026-11-25T16:14:59+00:00"
-    },
-    {
-     "title": "Broadcom Shares Close Lower Amid Broad Semiconductor Sector Retreat : \uae30\uc5c5\uc8fc\uc2dd\uc815\ubcf4 : JKN",
-     "publisher": "\uc7ac\uacbd\uc77c\ubcf4",
-     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1FNFdOWUtMdkNoUmJ6NG42Mi1xRWNubDhmRWFweklnQzVDQjFMX0RvRU00aHhjSUhncVNza1htOEJheVVKdHBCcGRBR0JMOFUtX3ZsLWE1TWlaRjAwZFRpX1l3?oc=5",
-     "time": "2026-11-25T15:56:00+00:00"
-    },
-    {
-     "title": "Broadcom Stocks Slide 6.86% as AI Chip Selloff Deepens",
-     "publisher": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOUVpZUjJEc09Fdll2OUdjRkJ5UHdhSTVfWEdfWXVZdjN1U0VaY0NjTjdLUjZqcEROYWpSVXJJQ0FmbmhSVlZsbS1XWGEyQk04OVlhNnBtNlhpVFh4dnVVNDNGTGs5WXZpcTdZN1VsM1ZNUkpPQ2FGMkxNMnFKQUFrRFc0ME4yRFF1Y25Uc1k5WlFzWHBhMVI1d1NCY0xUZWt2Q1NESGRwWGpmUnJNclFzNUtWMA?oc=5",
-     "time": "2026-11-25T15:46:31+00:00"
-    }
-   ],
-   "brief": "2026-11-25-AVGO"
-  },
-  {
    "symbol": "AMZN",
    "name": "Amazon",
    "list": "portfolio",
-   "price": 244.62,
+   "price": 244.87,
    "prev_close": 252.29,
-   "change_pct": -3.0,
+   "change_pct": -2.9,
    "trigger_change": -5.0,
    "peak_change": -6.1,
    "first_seen": "2026-11-25T14:56:37+00:00",
    "sector": {
     "etf": "XLY",
     "name": "Consumer discr.",
-    "price": 117.56,
-    "change_pct": -0.14
+    "price": 117.8,
+    "change_pct": 0.07
    },
    "chart": {
     "ema8": -3.6,
-    "ema21": -4.6,
-    "sma50": -4.1,
-    "sma200": -0.5,
+    "ema21": -4.5,
+    "sma50": -4.0,
+    "sma200": -0.4,
     "momentum": false
    },
    "headlines": [
@@ -546,101 +471,101 @@
    "brief": "2026-11-25-AMZN"
   },
   {
-   "symbol": "CRWD",
-   "name": "CrowdStrike",
+   "symbol": "AVGO",
+   "name": "Broadcom",
    "list": "portfolio",
-   "price": 204.62,
-   "prev_close": 210.86,
-   "change_pct": -3.0,
-   "trigger_change": -3.1,
-   "peak_change": -7.4,
+   "price": 292.5,
+   "prev_close": 301.08,
+   "change_pct": -2.8,
+   "trigger_change": -5.1,
+   "peak_change": -6.3,
    "first_seen": "2026-11-25T14:56:37+00:00",
    "sector": {
-    "etf": "IGV",
-    "name": "Software",
-    "price": 94.77,
-    "change_pct": -0.61
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 415.31,
+    "change_pct": -2.68
    },
    "chart": {
-    "ema8": -6.6,
+    "ema8": -7.5,
     "ema21": -10.5,
-    "sma50": -16.5,
-    "sma200": 15.1,
+    "sma50": -14.1,
+    "sma200": -20.4,
     "momentum": false
    },
    "headlines": [
     {
-     "title": "CrowdStrike Holdings Inc Stock (CRWD) Moved Down by 4.77% on Nov 25: Facts Behind the Movement",
-     "publisher": "TradingKey",
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPUVJIR3hqREI4QzlKeS1QSmdvMHlFSWtzcTJWc29xQWVsYVBmQUhNOXZZVEwxYmE2bUV5cnliTjJFX090MHRzVnNQVlZtLVJneHRmMTB2X2xkUTNWaVE2Mmd5aU9BUGFHdjdrM2x1eTVmMzN3VXBlRmxMVEdONGpkRUMtcTNpYlB3U193?oc=5",
-     "time": "2026-11-25T17:15:41+00:00"
+     "title": "AI Chip Stocks Extend Brutal Selloff as Nvidia, AMD and Broadcom Tumble Again",
+     "publisher": "GuruFocus",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQWHhwaDdYY2JIVWZGYnp0NjlxSWhmWDBJbENFVzI1YkVFd1JnVFIwdmJmbVY1MldHdzJGTDVEcnIyQkFTMjdoOHpRVUU2eWZtNzJ5WGZhVXBKdUtlLXBxWjM4LWg0c0owZUZaRHNxdThBMUdRVXNiVzJMM1VSaFBIbjRQQVBmaDgwTF9xMS1Vd0puZDBSWXNiU05SMXJGNElJQ05obzJYMU15ZXhuaEZyTi1KVlVXdw?oc=5",
+     "time": "2026-11-25T17:15:00+00:00"
     },
     {
-     "title": "CRWD stock price slides to $196.99 in Wednesday trading",
-     "publisher": "JournalArta",
-     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNcmk1NzBjVXhYMFJOczFBdDdhLURIclR1UTN2Vmg5NmdNVkJ5ZnhqVGRodVRjNDJIazd5b2dhLUs4cVI0X084NXN6c1Njd1piMzhqcFdmSVYwRV9TZFNTdVo4ZGZpbFJaTHZTQUI5SHpPaVF4MGJSV0dCQUNPT1JCbzMxWGJXT3BESzNDRVIwc3NWam1RQjNUR25rdw?oc=5",
-     "time": "2026-11-25T15:59:19+00:00"
-    },
-    {
-     "title": "CrowdStrike to Participate in Upcoming Investor Conferences",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQYXFkMk5nSFF3ZVBKeTczdDJTMVA3QW5WaW81ekRVUEUxaWplN083aW9EalN1SEVTOHF2dTg3akcta195MllWNDg4OXhHRnV5QVFoODVLbEM2bWFLWnpOdms3X0ZtaHl2ajVrUjZtcEtVdHZCZXpkMjdZNkhGaEp4Z0dNemJ0TjBKU1RCZWozMXNNLXl0bHRLWWIwMlJRVG9scGVaRFBwWGtyWEpVR0k3VjZXN0w?oc=5",
-     "time": "2026-11-25T13:00:00+00:00"
-    },
-    {
-     "title": "CrowdStrike Holdings \u2022 Robinhood Token - CRWD - Stock Price & News",
-     "publisher": "The Motley Fool",
-     "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5XWHJjeExNSm5OeHZ6Vi1yc1NseU94UGhXOW9BNmV6MnJRUWZaWXlzTmFOc3RnbmRyS2MxZW9adVFkbUpDWm95M0NXR3FRUHV2?oc=5",
-     "time": "2026-11-25T12:35:14+00:00"
-    },
-    {
-     "title": "CrowdStrike Holdings, Inc. (CRWD) Stock Forecasts",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZEhDVlZVX2VXUDVTaFRoUjB4UGM0djIzb1JlYkJDX2V0UktnYVI3eTU2RWZ2bnRRQnFGN05QWldBTmlKYVYwa3VFZ1Bud1FFZm1EQXotbHBYQkluTUluUTRuUzlaY2JvVkx1RWkwTEZYVS1LN1dRV2ZjUHY5aUVjbVJzWHUweG5lbFM1dFFB?oc=5",
-     "time": "2026-11-25T12:25:41+00:00"
-    },
-    {
-     "title": "CrowdStrike CEO Says Security Has Gone \u201cFrom the Brakes to the Gas\u201d as Fortune 50 Clients Pause AI Rollouts",
+     "title": "104% Upside for Broadcom? Bernstein Thinks So, and Here\u2019s How",
      "publisher": "TIKR.com",
-     "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQLXNXajdvSm5JLU15REhzdllGVEFadnNZT3pQXzk0YTNuMEo2UHdwVVBlT2VTZUNaUUJ6ZGxxUEpEeW4wSnBXRTExX3JMUGRhdnFyWUFHWEpmYWpJRTljd2FXSm9GMXhsV3RySWM4X1VSMmdjRmpLYTBmdTVrRGlib01ON2ljLVRaVlh4Z19fQlJ6RHNuSjRSdVdvSk54aWhHRkVnNW0tWTVaakhURmE3MXRKMVBqM1lIUlNqM09TM1Y0c0FHZ256Qk9CZWFVbW95TzAtbndwZ1ZBZTJUZHN0YTM2M0lkOGFVa3hQV1VLX0J1VkJCalVrSFNTX1hUSHBSbkE?oc=5",
-     "time": "2026-11-25T12:01:18+00:00"
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNbHY1UmJMazF0d2Vzb0NRMFktcjBNcnRCV1JaU0ZYdXpYS21hWUZqaGw3Qy05X0drX3pOb3lpS29PYkNfczVYcTZ2YzV5R3F2NTFQb2x1ZFgyR1pHd2RhREI2dTJJXy0wbUY2alNSbkNQa0NNSUw1b3NBbzZmc3Q2eDRxWDRZeXM3UTlta2I3X2ptaTRrcWZSWXp2R2ZsaENUaGtoMkhjNGVsNlZ1czJnaGZaTVRNMG5jX2lmWnJHWUdxQQ?oc=5",
+     "time": "2026-11-25T17:08:42+00:00"
     },
     {
-     "title": "CrowdStrike: An Interesting And Large Tie-Up With Zscaler (NASDAQ:CRWD)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNN3VCcnlveEZUaVVpVWhDN2syR1VraEk5cEQ5UHBfdzdIVUZfT0k3aC1ON2pUNnZ1LUtOWXBybzRpQXN2eUtyUkM3WEdpVC1FbmhYOXRQMTE5Z256WTd5ZkhTWG95NDdrUFpkNWJQeTJ5cXI2RmdoS1JUYVV1cm5wbFhlS1hsTXBPTDFvVkZ0RkIzeGxlckN6RnBHaWlHdw?oc=5",
-     "time": "2026-11-25T11:08:26+00:00"
+     "title": "This Is Why I Wouldn\u2019t Ignore This Stock Heading Into 2027",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNbDlmcUJaYURxUGN4UEFrZmJVY280OHdacmRndG1iYkxxajd6MlRtTnBWbzVGckhKSEViSmxZSXozSjNIcm8zbEFQcU9wOHlrWUJ0Vmd5WEo0Z2RQQVZUSHdObE9UNmxEeER6RmdkYUNNRUdQOHQ2bDIxNldtamhxMmFTZGxXd1FVY1hQWmF0RkpnTDBCcWNfV3NKRTBObDEwbUJJ?oc=5",
+     "time": "2026-11-25T17:03:00+00:00"
     },
     {
-     "title": "Analysts Are Bullish on Top Technology Stocks: CrowdStrike Holdings (CRWD), Nvidia (NVDA)",
-     "publisher": "The Globe and Mail",
-     "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOcnZpT29wR3NqbWx6cWVxNXRLTURPa0dFTXNrNjVYVDBjblJ5RDgyRUt3S0h4MEJLSjUwRVpxQ3pwMUpGTE5WYk95dXBIOXFOZmQ0dTR3dFRvUnMwck1iNzdPdlZhb2Flc3llNzJJTTNWbDVFZHl2SzJHR1p6MG9sQ1R3ODNLck5SUm9tNWFfSVo1dml5M2pHWVFEMVRfclVEMENJMmxfc1NzLU9sdEQ5bTRjV096SGVpdmlSN055Ui1qOFlGNFFjY25zMkhfU2phYW5jcmQwbFpVQVpHN3lIUXE2akdJZGRrT3BMQnZEZ2o0aGtGQ0tMOFZMd0s?oc=5",
-     "time": "2026-11-25T09:58:20+00:00"
+     "title": "Without an Anthropic Rally, \u201cThere Will Be No OpenAI.\u201d AMD Is the Real Loser",
+     "publisher": "TIKR.com",
+     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOWHBSOE96SHBDdGxKMWlsYjlQZTVScnQ1ZnJBQkhXSEVTaDZvLXl3c0JSLTljcWNnX0ljRnpQeU4ya191SVM3OFRCS0ZVMnh4NlNvZ1B1dF9UNEJ2WF9POHZfVGdVZlpSOXRSSEFNSENTSFMwcEtPdUpOR1d0VWxMVlNGbDk5cnh1OGZJdHNuXzFkZUFOWG5DWGFpVHpkb3ZCNUtRWnlseDVTc01pTkk3RmVjZkhIMV82aFJsQVE1M3BSNzZxeHFpSFBmOXd2b25kMHhPS1Vn?oc=5",
+     "time": "2026-11-25T16:40:17+00:00"
+    },
+    {
+     "title": "Broadcom vs. Qualcomm: Which Technology Stock Is a Better Buy for 2027?",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPZnJVR3BUNWZaTzB5Z0hBaHQ2b1RaWEZOekItNzg3ajFlRW9VQWl2c3FIT1Q3Qzd3RWhIUWdoNE5JVHFuSUJwbEt6SWkzanRfaUxkaXJtaWtud19uLXJZN2UxNHBqcjZCWGJQaW9oVkpDVk1fWFJrVE5qVnB6SFVOdDRYX3Q0MkwwVVpyeVUzTXhOOF9DVy1jeFQ3MVd1NWFERjd5NzFoZ3BqeUlVQmd2dW41VmVTVk5nYjNHN0F3?oc=5",
+     "time": "2026-11-25T16:32:01+00:00"
+    },
+    {
+     "title": "AI Stocks Crash as Nvidia Falls 8%, Broadcom Loses 6% and CoreWeave Plunges Over 10%",
+     "publisher": "Coinpaper",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPb3dOM3puTnBWVThSSmVLWTU3MU5WekpYbEpsNDVtbmRJUHJQQkFkNHctZ1JIM2xrZTRsbzhOUVhmZTQ5Ti13a21ael9MdWF6cVV2b1d2SEtfUjFoVFE5SkFPa09TMzhrODlqM3R6ejJMNGhGa2s0YTRhT0pRY054SjNKVERUalhRYUNPUEx6UFN6VzJhTkNkNkUxSGs0blpFUVpycHp1Z0Foc2R3Q0E?oc=5",
+     "time": "2026-11-25T16:14:59+00:00"
+    },
+    {
+     "title": "Broadcom Shares Close Lower Amid Broad Semiconductor Sector Retreat : \uae30\uc5c5\uc8fc\uc2dd\uc815\ubcf4 : JKN",
+     "publisher": "\uc7ac\uacbd\uc77c\ubcf4",
+     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1FNFdOWUtMdkNoUmJ6NG42Mi1xRWNubDhmRWFweklnQzVDQjFMX0RvRU00aHhjSUhncVNza1htOEJheVVKdHBCcGRBR0JMOFUtX3ZsLWE1TWlaRjAwZFRpX1l3?oc=5",
+     "time": "2026-11-25T15:56:00+00:00"
+    },
+    {
+     "title": "Broadcom Stocks Slide 6.86% as AI Chip Selloff Deepens",
+     "publisher": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOUVpZUjJEc09Fdll2OUdjRkJ5UHdhSTVfWEdfWXVZdjN1U0VaY0NjTjdLUjZqcEROYWpSVXJJQ0FmbmhSVlZsbS1XWGEyQk04OVlhNnBtNlhpVFh4dnVVNDNGTGs5WXZpcTdZN1VsM1ZNUkpPQ2FGMkxNMnFKQUFrRFc0ME4yRFF1Y25Uc1k5WlFzWHBhMVI1d1NCY0xUZWt2Q1NESGRwWGpmUnJNclFzNUtWMA?oc=5",
+     "time": "2026-11-25T15:46:31+00:00"
     }
    ],
-   "brief": "2026-11-25-CRWD"
+   "brief": "2026-11-25-AVGO"
   },
   {
    "symbol": "GOOG",
    "name": "Alphabet",
    "list": "portfolio",
-   "price": 269.26,
+   "price": 269.08,
    "prev_close": 276.58,
-   "change_pct": -2.6,
+   "change_pct": -2.7,
    "trigger_change": -4.2,
    "peak_change": -4.9,
    "first_seen": "2026-11-25T14:56:37+00:00",
    "sector": {
     "etf": "XLC",
     "name": "Communication",
-    "price": 105.19,
-    "change_pct": 0.71
+    "price": 105.29,
+    "change_pct": 0.8
    },
    "chart": {
     "ema8": -2.4,
-    "ema21": -6.1,
+    "ema21": -6.2,
     "sma50": -14.6,
-    "sma200": -19.4,
+    "sma200": -19.5,
     "momentum": false
    },
    "headlines": [
@@ -696,26 +621,101 @@
    "brief": "2026-11-25-GOOG"
   },
   {
+   "symbol": "CRWD",
+   "name": "CrowdStrike",
+   "list": "portfolio",
+   "price": 205.15,
+   "prev_close": 210.86,
+   "change_pct": -2.7,
+   "trigger_change": -3.1,
+   "peak_change": -7.4,
+   "first_seen": "2026-11-25T14:56:37+00:00",
+   "sector": {
+    "etf": "IGV",
+    "name": "Software",
+    "price": 94.91,
+    "change_pct": -0.46
+   },
+   "chart": {
+    "ema8": -6.4,
+    "ema21": -10.3,
+    "sma50": -16.3,
+    "sma200": 15.4,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "CrowdStrike Holdings Inc Stock (CRWD) Moved Down by 4.77% on Nov 25: Facts Behind the Movement",
+     "publisher": "TradingKey",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPUVJIR3hqREI4QzlKeS1QSmdvMHlFSWtzcTJWc29xQWVsYVBmQUhNOXZZVEwxYmE2bUV5cnliTjJFX090MHRzVnNQVlZtLVJneHRmMTB2X2xkUTNWaVE2Mmd5aU9BUGFHdjdrM2x1eTVmMzN3VXBlRmxMVEdONGpkRUMtcTNpYlB3U193?oc=5",
+     "time": "2026-11-25T17:15:41+00:00"
+    },
+    {
+     "title": "CRWD stock price slides to $196.99 in Wednesday trading",
+     "publisher": "JournalArta",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNcmk1NzBjVXhYMFJOczFBdDdhLURIclR1UTN2Vmg5NmdNVkJ5ZnhqVGRodVRjNDJIazd5b2dhLUs4cVI0X084NXN6c1Njd1piMzhqcFdmSVYwRV9TZFNTdVo4ZGZpbFJaTHZTQUI5SHpPaVF4MGJSV0dCQUNPT1JCbzMxWGJXT3BESzNDRVIwc3NWam1RQjNUR25rdw?oc=5",
+     "time": "2026-11-25T15:59:19+00:00"
+    },
+    {
+     "title": "CrowdStrike to Participate in Upcoming Investor Conferences",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQYXFkMk5nSFF3ZVBKeTczdDJTMVA3QW5WaW81ekRVUEUxaWplN083aW9EalN1SEVTOHF2dTg3akcta195MllWNDg4OXhHRnV5QVFoODVLbEM2bWFLWnpOdms3X0ZtaHl2ajVrUjZtcEtVdHZCZXpkMjdZNkhGaEp4Z0dNemJ0TjBKU1RCZWozMXNNLXl0bHRLWWIwMlJRVG9scGVaRFBwWGtyWEpVR0k3VjZXN0w?oc=5",
+     "time": "2026-11-25T13:00:00+00:00"
+    },
+    {
+     "title": "CrowdStrike Holdings \u2022 Robinhood Token - CRWD - Stock Price & News",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5XWHJjeExNSm5OeHZ6Vi1yc1NseU94UGhXOW9BNmV6MnJRUWZaWXlzTmFOc3RnbmRyS2MxZW9adVFkbUpDWm95M0NXR3FRUHV2?oc=5",
+     "time": "2026-11-25T12:35:14+00:00"
+    },
+    {
+     "title": "CrowdStrike Holdings, Inc. (CRWD) Stock Forecasts",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZEhDVlZVX2VXUDVTaFRoUjB4UGM0djIzb1JlYkJDX2V0UktnYVI3eTU2RWZ2bnRRQnFGN05QWldBTmlKYVYwa3VFZ1Bud1FFZm1EQXotbHBYQkluTUluUTRuUzlaY2JvVkx1RWkwTEZYVS1LN1dRV2ZjUHY5aUVjbVJzWHUweG5lbFM1dFFB?oc=5",
+     "time": "2026-11-25T12:25:41+00:00"
+    },
+    {
+     "title": "CrowdStrike CEO Says Security Has Gone \u201cFrom the Brakes to the Gas\u201d as Fortune 50 Clients Pause AI Rollouts",
+     "publisher": "TIKR.com",
+     "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQLXNXajdvSm5JLU15REhzdllGVEFadnNZT3pQXzk0YTNuMEo2UHdwVVBlT2VTZUNaUUJ6ZGxxUEpEeW4wSnBXRTExX3JMUGRhdnFyWUFHWEpmYWpJRTljd2FXSm9GMXhsV3RySWM4X1VSMmdjRmpLYTBmdTVrRGlib01ON2ljLVRaVlh4Z19fQlJ6RHNuSjRSdVdvSk54aWhHRkVnNW0tWTVaakhURmE3MXRKMVBqM1lIUlNqM09TM1Y0c0FHZ256Qk9CZWFVbW95TzAtbndwZ1ZBZTJUZHN0YTM2M0lkOGFVa3hQV1VLX0J1VkJCalVrSFNTX1hUSHBSbkE?oc=5",
+     "time": "2026-11-25T12:01:18+00:00"
+    },
+    {
+     "title": "CrowdStrike: An Interesting And Large Tie-Up With Zscaler (NASDAQ:CRWD)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNN3VCcnlveEZUaVVpVWhDN2syR1VraEk5cEQ5UHBfdzdIVUZfT0k3aC1ON2pUNnZ1LUtOWXBybzRpQXN2eUtyUkM3WEdpVC1FbmhYOXRQMTE5Z256WTd5ZkhTWG95NDdrUFpkNWJQeTJ5cXI2RmdoS1JUYVV1cm5wbFhlS1hsTXBPTDFvVkZ0RkIzeGxlckN6RnBHaWlHdw?oc=5",
+     "time": "2026-11-25T11:08:26+00:00"
+    },
+    {
+     "title": "Analysts Are Bullish on Top Technology Stocks: CrowdStrike Holdings (CRWD), Nvidia (NVDA)",
+     "publisher": "The Globe and Mail",
+     "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOcnZpT29wR3NqbWx6cWVxNXRLTURPa0dFTXNrNjVYVDBjblJ5RDgyRUt3S0h4MEJLSjUwRVpxQ3pwMUpGTE5WYk95dXBIOXFOZmQ0dTR3dFRvUnMwck1iNzdPdlZhb2Flc3llNzJJTTNWbDVFZHl2SzJHR1p6MG9sQ1R3ODNLck5SUm9tNWFfSVo1dml5M2pHWVFEMVRfclVEMENJMmxfc1NzLU9sdEQ5bTRjV096SGVpdmlSN055Ui1qOFlGNFFjY25zMkhfU2phYW5jcmQwbFpVQVpHN3lIUXE2akdJZGRrT3BMQnZEZ2o0aGtGQ0tMOFZMd0s?oc=5",
+     "time": "2026-11-25T09:58:20+00:00"
+    }
+   ],
+   "brief": "2026-11-25-CRWD"
+  },
+  {
    "symbol": "MELI",
    "name": "MercadoLibre",
    "list": "watchlist",
-   "price": 1473.87,
+   "price": 1476.87,
    "prev_close": 1450.31,
-   "change_pct": 1.6,
+   "change_pct": 1.8,
    "trigger_change": -3.0,
    "peak_change": -3.0,
    "first_seen": "2026-11-25T15:27:07+00:00",
    "sector": {
     "etf": "XLY",
     "name": "Consumer discr.",
-    "price": 117.56,
-    "change_pct": -0.14
+    "price": 117.8,
+    "change_pct": 0.07
    },
    "chart": {
-    "ema8": 2.1,
-    "ema21": -3.1,
-    "sma50": -12.5,
-    "sma200": -16.2,
+    "ema8": 2.2,
+    "ema21": -2.9,
+    "sma50": -12.4,
+    "sma200": -16.0,
     "momentum": false
    },
    "headlines": [
@@ -774,21 +774,21 @@
    "symbol": "SOFI",
    "name": "SoFi",
    "list": "portfolio",
-   "price": 13.0,
+   "price": 12.99,
    "prev_close": 12.86,
-   "change_pct": 1.1,
+   "change_pct": 1.0,
    "trigger_change": -5.1,
    "peak_change": -5.4,
    "first_seen": "2026-11-25T14:56:37+00:00",
    "sector": {
     "etf": "XLF",
     "name": "Financials",
-    "price": 56.49,
-    "change_pct": 0.69
+    "price": 56.55,
+    "change_pct": 0.78
    },
    "chart": {
     "ema8": -4.4,
-    "ema21": -11.2,
+    "ema21": -11.3,
     "sma50": -16.4,
     "sma200": -23.6,
     "momentum": false
@@ -849,23 +849,23 @@
    "symbol": "APP",
    "name": "AppLovin",
    "list": "portfolio",
-   "price": 378.7,
+   "price": 377.88,
    "prev_close": 381.11,
-   "change_pct": -0.6,
+   "change_pct": -0.8,
    "trigger_change": -4.5,
    "peak_change": -5.8,
    "first_seen": "2026-11-25T14:56:37+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 94.77,
-    "change_pct": -0.61
+    "price": 94.91,
+    "change_pct": -0.46
    },
    "chart": {
-    "ema8": 0.2,
-    "ema21": 6.2,
-    "sma50": 21.3,
-    "sma200": -6.2,
+    "ema8": 0.1,
+    "ema21": 6.0,
+    "sma50": 21.1,
+    "sma200": -6.4,
     "momentum": true
    },
    "headlines": [
@@ -924,20 +924,20 @@
    "symbol": "NOW",
    "name": "ServiceNow",
    "list": "portfolio",
-   "price": 92.13,
+   "price": 92.2,
    "prev_close": 91.74,
-   "change_pct": 0.4,
+   "change_pct": 0.5,
    "trigger_change": -3.2,
    "peak_change": -3.3,
    "first_seen": "2026-11-25T14:56:37+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 94.77,
-    "change_pct": -0.61
+    "price": 94.91,
+    "change_pct": -0.46
    },
    "chart": {
-    "ema8": -1.2,
+    "ema8": -1.1,
     "ema21": -11.0,
     "sma50": -26.2,
     "sma200": -18.5,
@@ -999,18 +999,18 @@
    "symbol": "BTC-USD",
    "name": "Bitcoin",
    "list": "watchlist",
-   "price": 59624.3,
+   "price": 59586.8,
    "prev_close": 59741.2,
-   "change_pct": -0.2,
+   "change_pct": -0.3,
    "trigger_change": -3.0,
    "peak_change": -3.3,
    "first_seen": "2026-11-25T14:56:37+00:00",
    "sector": null,
    "chart": {
-    "ema8": -2.8,
-    "ema21": -9.8,
-    "sma50": -20.6,
-    "sma200": -17.2,
+    "ema8": -2.9,
+    "ema21": -9.9,
+    "sma50": -20.7,
+    "sma200": -17.3,
     "momentum": false
    },
    "headlines": [
