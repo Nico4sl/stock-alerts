@@ -1,22 +1,22 @@
 {
  "date": "2026-11-25",
  "threshold": 3.0,
- "updated": "2026-11-25T17:46:08+00:00",
+ "updated": "2026-11-25T17:51:09+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 710.67,
-   "change_pct": -1.13
+   "price": 711.19,
+   "change_pct": -1.06
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 623.82,
-   "change_pct": -2.24
+   "price": 624.5,
+   "change_pct": -2.13
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 82.46,
-   "change_pct": 1.18
+   "price": 82.42,
+   "change_pct": 1.15
   }
  },
  "movers": [
@@ -24,23 +24,23 @@
    "symbol": "AMAT",
    "name": "Applied Materials",
    "list": "portfolio",
-   "price": 300.65,
+   "price": 301.41,
    "prev_close": 323.76,
-   "change_pct": -7.1,
+   "change_pct": -6.9,
    "trigger_change": -7.5,
    "peak_change": -10.2,
    "first_seen": "2026-11-25T14:56:37+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 407.98,
-    "change_pct": -4.4
+    "price": 409.96,
+    "change_pct": -3.93
    },
    "chart": {
-    "ema8": -9.3,
-    "ema21": -16.2,
-    "sma50": -28.4,
-    "sma200": -32.8,
+    "ema8": -9.1,
+    "ema21": -16.0,
+    "sma50": -28.2,
+    "sma200": -32.6,
     "momentum": false
    },
    "headlines": [
@@ -96,176 +96,26 @@
    "brief": "2026-11-25-AMAT"
   },
   {
-   "symbol": "NVDA",
-   "name": "Nvidia",
-   "list": "portfolio",
-   "price": 144.64,
-   "prev_close": 155.38,
-   "change_pct": -6.9,
-   "trigger_change": -7.2,
-   "peak_change": -8.9,
-   "first_seen": "2026-11-25T14:56:37+00:00",
-   "sector": {
-    "etf": "SMH",
-    "name": "Semiconductors",
-    "price": 407.98,
-    "change_pct": -4.4
-   },
-   "chart": {
-    "ema8": -5.5,
-    "ema21": -15.1,
-    "sma50": -28.9,
-    "sma200": -28.7,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "\u2018Big Short\u2019 investor Michael Burry pinpoints the next time he\u2019ll be betting against Nvidia stock",
-     "publisher": "Business Insider",
-     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOSXJabHpKbGl3S2tfeW9PM3M3V3JCaGpQOWEyZjZET1VzSERvZDRIYWhFeDdIallVUmF1V2g1UkFEM0ZpZHA4RkQ3QzREVGJfMUFLZzZlYWN3RE04Qllqa1Mzb0JIX2hSMDNXWmtFTGVQdkR2Z0c5aUZMQ2tmSHBua2d2bWwwSUFYY0VKcVliY1pRZw?oc=5",
-     "time": "2026-11-25T16:37:00+00:00"
-    },
-    {
-     "title": "Nvidia\u2019s Jensen Huang Should Do This 1 Thing Now",
-     "publisher": "The Motley Fool",
-     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPYnZTTExMUUt5N180OFVtSGJHdndvZjBWcGJoamZkbHJ3U0RUeHFudHZFb1hkcjR1UXFsUlJ1WDdoWmYtb1NibWNUUjBTclAtYzlrYWctVTMwTGVoNW5Va1N2eENOWHBIbmc4NGpFLWozTGRPX0oyR3lDRHBZaEpZNjQwZURPcy1kVG80VnZtcHBFakZjMXc?oc=5",
-     "time": "2026-11-25T16:12:02+00:00"
-    },
-    {
-     "title": "Nvidia Just Delivered Its Latest Earnings Report. Is the Stock a Buy Below $160?",
-     "publisher": "The Motley Fool",
-     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQMWFEZklIRmdFMUJ1dktUREJ4SnZSRlBkc2xJMDFkNWJRbjRHWFA0WWRxeEpaQkpTWkZYSDdoMEZFNkhoM3ZZZENMR184RmppdURjV2ZPLUxUUE5pckE3SXJ5V3FQYThiX2VfOTRscUFhdFd0V2FTYUxablpTZ3FlSDUtTC1RUlE3Mlk2X1ZvWE1ITzdLRDhBMlB0cEd5c0JQdWtQbndfZUhjSnVjZ3RYMVdLMGE3X3B5Znd5UlZNZEo?oc=5",
-     "time": "2026-11-25T15:53:02+00:00"
-    },
-    {
-     "title": "Why Nvidia Stock Continues to Fall After the Jensen Huang Pop",
-     "publisher": "The Motley Fool",
-     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNeEdUYmZIR2RoMjZ5ZGR0dWlNU002TXhHeGoySnJSTjVObWlzVDhZYk85WW1FaWNndzFkR05tYk9LTkdCcUo4QjNPVzdoMWNnZkg0U1hCV05WSlhyQUpYNmVURDJCRFdyQWhsNTZsNDVQeWppbUdHeFQyNnFsV01LaThmZ3lXUEVIOWlRMnFRUU12bVdMY2haY2xhM2NZUzE2ZllMZkhINA?oc=5",
-     "time": "2026-11-25T15:42:25+00:00"
-    },
-    {
-     "title": "Why Nvidia (NVDA) Stock Is Falling Today: Tech and Chip Selloff",
-     "publisher": "GuruFocus",
-     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOOG44SUZNajA0WHF4d21ubVgwT2V5SzBXTWhLRDhaSko5eWU2Q011THhKU2FfcmNxMU1lUnFlT2RtanJfZ25iNHhqZkwtVU1UNW9UbGp1eWQ0UUV0SmZCellVR0lETElBZFhIWWdONlRBalkzbVZBZ3I4bmU2TV8yVTlWQ3picldsTTFscERLaWh6a2lHeFhOYVhWM1dLOTEw?oc=5",
-     "time": "2026-11-25T15:33:45+00:00"
-    },
-    {
-     "title": "Not a Bubble: 2 Numbers That Show Nvidia\u2019s Demand Is Real",
-     "publisher": "The Motley Fool",
-     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQkI5NzU5OEx1MnZ0Q2wzQTNuYnBNTXNOdUhmVFBrakN4QUtqQlRKXy12bkFuU0RLeWl2M3pmVTJGalM0ckF3amYwMjA0N0FaOU9DMDdtMHFJVDQ0S2RVTXdwLVg4ODRLU2VTQVBNV0FyTmpPdnJia0UxempiOTJIVXkycjRFS0RzdHlKZjZFaWFqSDFVVGpOMzlmQjM1NU0?oc=5",
-     "time": "2026-11-25T15:30:02+00:00"
-    },
-    {
-     "title": "Nvidia Stock Crashes 8% Despite Huang's Return and Record $115.8B Revenue",
-     "publisher": "Coinpaper",
-     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOS21YZHpBUUoyVWlSMFcxN3pFa1l1RUVhVmp5LTkxVVowc2pOY0dUNG95aGhWVElMc2EyWEZoak51LVN2OTRaMlBlaG9Sb2NTVlBKc1MzNEZKZi05NUhYbzhvT29tYWFQS1hDc0M3LUVob2VDdWJ4UmwzQkE1MjVabWhzcXVrVmhDdGJMNWR2WEZsRU5TeFhLTmJkV0RkVmpwaHc?oc=5",
-     "time": "2026-11-25T15:29:57+00:00"
-    },
-    {
-     "title": "Nvidia (NVDA) Stock Falls 8% as Chip Rout Deepens Days After Huang Return",
-     "publisher": "Blockonomi",
-     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPdWl0YXZqTU1FZUxHM1ltOFJjUUMzY2Z5Wm5WcEZVRjllYVIxUTU2UVJYWXVFSFUwanJHVVVseTBqU1NPckdTY2VhVHF6U1Z5Tjlac1BNRUhwWXdVeE1PSWFCNlZ3UndQT2NzWU44MHIxUnVPWGpRVW1Lb2VaWDg2eDVXVnVHN0ZQU2xYZEVKU3lTeFJqaGo5TlJB?oc=5",
-     "time": "2026-11-25T15:23:16+00:00"
-    }
-   ],
-   "brief": "2026-11-25-NVDA"
-  },
-  {
-   "symbol": "NBIS",
-   "name": "Nebius",
-   "list": "portfolio",
-   "price": 81.36,
-   "prev_close": 87.31,
-   "change_pct": -6.8,
-   "trigger_change": -9.0,
-   "peak_change": -12.5,
-   "first_seen": "2026-11-25T14:56:37+00:00",
-   "sector": {
-    "etf": "IGV",
-    "name": "Software",
-    "price": 93.88,
-    "change_pct": -1.55
-   },
-   "chart": {
-    "ema8": -16.0,
-    "ema21": -33.2,
-    "sma50": -53.3,
-    "sma200": -54.7,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Nebius Group (NBIS) Shares Plunge Over 11% Amid Tech Sector Sell",
-     "publisher": "GuruFocus",
-     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOZW5uYXg1RHhhMndBNS1heHhGSm44WmQwbi04b1J0RHBwNE85VmNjazJFcTJvYkNxWXZzckRCMFhPdkxUTlJ3QWRIVDJ5c2E2Ny1uTEFncTF4OWE5T01UTVQ2dGxIeE9OMEpEY0lSc1E4ellBM2U1WlBOYXVaUjhralJoU2o0bkFYT2RQbDI4d3Btb1BhVXU0X3NKQnhmTFBGRm1zdzg5cUJ6eVZ2SE1QbUU1UTJIY2JGNWN0bHNpY0g?oc=5",
-     "time": "2026-11-25T16:14:01+00:00"
-    },
-    {
-     "title": "REG - Leverage Shares PLC LS 3X LONG NEBIUS $ LS 3X NBIS ETP \u00a3 - Notice of Original Meeting - 3x Nebius",
-     "publisher": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOU0QzR09VR2lsUzFZajAtbXJFcENReVlHdzRNVWpuSGNyNUp6M3piNTNwVmNVamc0SnEzSmZhdWN5dm5Vd1Jxa0lqVTFrU2hhMDI1M24zU1BJSU5CNndSOFVBVFhfb1R1LUhMaFZ1cTMxV2thNTFvMG5DZzJ3NmRRaTZLQ0ZlMm9aQnUtR05QdkNRX3MxWTJ6Z3h3bkxSMnpFeWVzeXplS3ZzcXU4a2lYS2l3b19BckpuZWl6ZXpFVFlfSzJVb1kxU3dORTU0QzZuU1FGYmpSWEd2WHVsdDFhS013T3lRdDRjOVctNm9wVk1vc25NYU1XUDMtVUQxQQ?oc=5",
-     "time": "2026-11-25T15:49:07+00:00"
-    },
-    {
-     "title": "Nebius Stock Falls Near 52-Week Low - Here's Why - Nebius Group (NASDAQ:NBIS)",
-     "publisher": "Benzinga",
-     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTGxSeHNfcC1ianprMzdOY2NZclBqZVppSHQzTnVaMk9XYTJfc09wQUVWdXRhYWd1V3QzdGNuWlc1czFITmEteEZHX3BTb1JtVmhCQ1RKNTdKakpGNDZKenllekxMVWNVeXJLTW1qdmJiSWFZZlUyV1pKYnZXWmUzd1pmaHJDWnY2emx6RVg4YzJQNnhPUnNjUVd0bGk0d1J1NkFiVU52Sm1CQQ?oc=5",
-     "time": "2026-11-25T15:21:44+00:00"
-    },
-    {
-     "title": "Nebius Group drops 11% amid broad technology selloff (NBIS:NASDAQ)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPNVkyV3lDUkRUcmE3ZU9SUi1HTjlZMGJ4ZDRodVBsU1lPZ3MteVpUd2VEWk93OFZpaUVheGRfeUhRS3pWTWEwdWU3T19teXVyRUZOYTREODJVV2ZxZzExZ1hpNzVVVS1XbjE5cGpYYlNOS3lKT2J1TU9UeFBkZGJBamkyaW5sYzh3cVRfaDJYYkpPVUlaYkJ2UFJwXzRKdw?oc=5",
-     "time": "2026-11-25T15:13:09+00:00"
-    },
-    {
-     "title": "Nebius: Why I'm Extremely Bullish After The Crash (NASDAQ:NBIS)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQZlR2U2VxOEx0aG1jR3paN3NiNGJERWJtVUhSRzNRTGhYVTk2YVB3cjRxS09kdHNVZVFRWG1iRXJJeWp0Q1V6ZnJuUlM2UGFpUm5sNHZrcVlCZGVEQ3hOOVNJRmlUMXdUaEF4VEd1bGFybUFzb0NySGFqSW90UUE0R3BrZ0lyd1o2Y01CdUFZeDdGZw?oc=5",
-     "time": "2026-11-25T12:45:00+00:00"
-    },
-    {
-     "title": "Nebius Group (NBIS) Stock Price Prediction: Data-center delays hit Nebius as momentum stays under pressure",
-     "publisher": "Blockchain News",
-     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPYUJ6eHhSemduVXJ1R2JPaVVQM1c1V0dyOTBkMElLRWRtcGNIRF9MSzZ3M2JmLXlVS1ktdXBMeXdWSjBOU0ZHbzRMLU5tdEE0Uzh1STZqNVliZ0IxWjZPSVdleWJrbXU1N1Y0T3RiXzk3NEZhN0ltaUJRQWdJdlVjWmlITjVoNGQtQ1k2eEszaEV2eDM2YTFr?oc=5",
-     "time": "2026-11-25T08:22:00+00:00"
-    },
-    {
-     "title": "Nebius Stock Forecast: NBIS Slides to $85 as AI Stocks Cool After HPE Margin Warning",
-     "publisher": "FXLeaders",
-     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQaUtpOEZQN0FtblhJZGoyYXViYktMMzFTYWhzVHpnYkR4eXFrbUwyZm5Va1JleE1SNVdSVjhjYWhQb0dRUUE4Qmc5azBZZWlhOFhQOXNtRkhYUnNIZzRvYnVjS1BtS1h2RmRFeG9TWmFsS21teF9PblZ1bmU4dVVCQVI3S3MzWnpKWVNXdEdNbTlQWDNhYlJrQW16eHNBU2dyMFF0YVVHWkFPM2hoaTgtTGZTbGp1STR0T2hpczhjSDlWRTQ?oc=5",
-     "time": "2026-11-25T00:21:17+00:00"
-    },
-    {
-     "title": "Nebius Group (NASDAQ:NBIS) Stock Price Down 10.7% - Here's Why",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQc19VNG5wZDFoNWdkZFl3V0hwTFNwS2tyNlpfeXNfbGdtOV9ZalZUNEhIZU9oc3kwZnd5ZE9lTjREZkxiNVJiQXNHUkI3ZHBYSUxlMndNYWtsVy16NnB3WVM3VXQ3Y1dKbDYyMDd4UTI0RzNSaWxuMTBIYUZybWlXT0drRW5oUXJKZ2xMRjNVNFFzdzU0NXBHY29SWGEwLW9IN0xlUFNsbnJpRVRJSUo0UEZPaUk1QQ?oc=5",
-     "time": "2026-11-24T22:34:11+00:00"
-    }
-   ],
-   "brief": "2026-11-25-NBIS"
-  },
-  {
    "symbol": "AXON",
    "name": "Axon",
    "list": "watchlist",
-   "price": 339.35,
+   "price": 341.18,
    "prev_close": 319.32,
-   "change_pct": 6.3,
+   "change_pct": 6.8,
    "trigger_change": 4.8,
-   "peak_change": 6.3,
+   "peak_change": 6.8,
    "first_seen": "2026-11-25T17:11:02+00:00",
    "sector": {
     "etf": "XLI",
     "name": "Industrials",
-    "price": 161.68,
-    "change_pct": 0.04
+    "price": 161.7,
+    "change_pct": 0.06
    },
    "chart": {
-    "ema8": 6.9,
-    "ema21": 0.0,
-    "sma50": -12.9,
-    "sma200": -26.4,
+    "ema8": 7.3,
+    "ema21": 0.5,
+    "sma50": -12.5,
+    "sma200": -26.0,
     "momentum": false
    },
    "headlines": [
@@ -321,26 +171,176 @@
    "brief": null
   },
   {
+   "symbol": "NBIS",
+   "name": "Nebius",
+   "list": "portfolio",
+   "price": 81.56,
+   "prev_close": 87.31,
+   "change_pct": -6.6,
+   "trigger_change": -9.0,
+   "peak_change": -12.5,
+   "first_seen": "2026-11-25T14:56:37+00:00",
+   "sector": {
+    "etf": "IGV",
+    "name": "Software",
+    "price": 93.97,
+    "change_pct": -1.45
+   },
+   "chart": {
+    "ema8": -15.9,
+    "ema21": -33.1,
+    "sma50": -53.1,
+    "sma200": -54.6,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Nebius Group (NBIS) Shares Plunge Over 11% Amid Tech Sector Sell",
+     "publisher": "GuruFocus",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOZW5uYXg1RHhhMndBNS1heHhGSm44WmQwbi04b1J0RHBwNE85VmNjazJFcTJvYkNxWXZzckRCMFhPdkxUTlJ3QWRIVDJ5c2E2Ny1uTEFncTF4OWE5T01UTVQ2dGxIeE9OMEpEY0lSc1E4ellBM2U1WlBOYXVaUjhralJoU2o0bkFYT2RQbDI4d3Btb1BhVXU0X3NKQnhmTFBGRm1zdzg5cUJ6eVZ2SE1QbUU1UTJIY2JGNWN0bHNpY0g?oc=5",
+     "time": "2026-11-25T16:14:01+00:00"
+    },
+    {
+     "title": "REG - Leverage Shares PLC LS 3X LONG NEBIUS $ LS 3X NBIS ETP \u00a3 - Notice of Original Meeting - 3x Nebius",
+     "publisher": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOU0QzR09VR2lsUzFZajAtbXJFcENReVlHdzRNVWpuSGNyNUp6M3piNTNwVmNVamc0SnEzSmZhdWN5dm5Vd1Jxa0lqVTFrU2hhMDI1M24zU1BJSU5CNndSOFVBVFhfb1R1LUhMaFZ1cTMxV2thNTFvMG5DZzJ3NmRRaTZLQ0ZlMm9aQnUtR05QdkNRX3MxWTJ6Z3h3bkxSMnpFeWVzeXplS3ZzcXU4a2lYS2l3b19BckpuZWl6ZXpFVFlfSzJVb1kxU3dORTU0QzZuU1FGYmpSWEd2WHVsdDFhS013T3lRdDRjOVctNm9wVk1vc25NYU1XUDMtVUQxQQ?oc=5",
+     "time": "2026-11-25T15:49:07+00:00"
+    },
+    {
+     "title": "Nebius Stock Falls Near 52-Week Low - Here's Why - Nebius Group (NASDAQ:NBIS)",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTGxSeHNfcC1ianprMzdOY2NZclBqZVppSHQzTnVaMk9XYTJfc09wQUVWdXRhYWd1V3QzdGNuWlc1czFITmEteEZHX3BTb1JtVmhCQ1RKNTdKakpGNDZKenllekxMVWNVeXJLTW1qdmJiSWFZZlUyV1pKYnZXWmUzd1pmaHJDWnY2emx6RVg4YzJQNnhPUnNjUVd0bGk0d1J1NkFiVU52Sm1CQQ?oc=5",
+     "time": "2026-11-25T15:21:44+00:00"
+    },
+    {
+     "title": "Nebius Group drops 11% amid broad technology selloff (NBIS:NASDAQ)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPNVkyV3lDUkRUcmE3ZU9SUi1HTjlZMGJ4ZDRodVBsU1lPZ3MteVpUd2VEWk93OFZpaUVheGRfeUhRS3pWTWEwdWU3T19teXVyRUZOYTREODJVV2ZxZzExZ1hpNzVVVS1XbjE5cGpYYlNOS3lKT2J1TU9UeFBkZGJBamkyaW5sYzh3cVRfaDJYYkpPVUlaYkJ2UFJwXzRKdw?oc=5",
+     "time": "2026-11-25T15:13:09+00:00"
+    },
+    {
+     "title": "Nebius: Why I'm Extremely Bullish After The Crash (NASDAQ:NBIS)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQZlR2U2VxOEx0aG1jR3paN3NiNGJERWJtVUhSRzNRTGhYVTk2YVB3cjRxS09kdHNVZVFRWG1iRXJJeWp0Q1V6ZnJuUlM2UGFpUm5sNHZrcVlCZGVEQ3hOOVNJRmlUMXdUaEF4VEd1bGFybUFzb0NySGFqSW90UUE0R3BrZ0lyd1o2Y01CdUFZeDdGZw?oc=5",
+     "time": "2026-11-25T12:45:00+00:00"
+    },
+    {
+     "title": "Nebius Group (NBIS) Stock Price Prediction: Data-center delays hit Nebius as momentum stays under pressure",
+     "publisher": "Blockchain News",
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPYUJ6eHhSemduVXJ1R2JPaVVQM1c1V0dyOTBkMElLRWRtcGNIRF9MSzZ3M2JmLXlVS1ktdXBMeXdWSjBOU0ZHbzRMLU5tdEE0Uzh1STZqNVliZ0IxWjZPSVdleWJrbXU1N1Y0T3RiXzk3NEZhN0ltaUJRQWdJdlVjWmlITjVoNGQtQ1k2eEszaEV2eDM2YTFr?oc=5",
+     "time": "2026-11-25T08:22:00+00:00"
+    },
+    {
+     "title": "Nebius Stock Forecast: NBIS Slides to $85 as AI Stocks Cool After HPE Margin Warning",
+     "publisher": "FXLeaders",
+     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQaUtpOEZQN0FtblhJZGoyYXViYktMMzFTYWhzVHpnYkR4eXFrbUwyZm5Va1JleE1SNVdSVjhjYWhQb0dRUUE4Qmc5azBZZWlhOFhQOXNtRkhYUnNIZzRvYnVjS1BtS1h2RmRFeG9TWmFsS21teF9PblZ1bmU4dVVCQVI3S3MzWnpKWVNXdEdNbTlQWDNhYlJrQW16eHNBU2dyMFF0YVVHWkFPM2hoaTgtTGZTbGp1STR0T2hpczhjSDlWRTQ?oc=5",
+     "time": "2026-11-25T00:21:17+00:00"
+    },
+    {
+     "title": "Nebius Group (NASDAQ:NBIS) Stock Price Down 10.7% - Here's Why",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQc19VNG5wZDFoNWdkZFl3V0hwTFNwS2tyNlpfeXNfbGdtOV9ZalZUNEhIZU9oc3kwZnd5ZE9lTjREZkxiNVJiQXNHUkI3ZHBYSUxlMndNYWtsVy16NnB3WVM3VXQ3Y1dKbDYyMDd4UTI0RzNSaWxuMTBIYUZybWlXT0drRW5oUXJKZ2xMRjNVNFFzdzU0NXBHY29SWGEwLW9IN0xlUFNsbnJpRVRJSUo0UEZPaUk1QQ?oc=5",
+     "time": "2026-11-24T22:34:11+00:00"
+    }
+   ],
+   "brief": "2026-11-25-NBIS"
+  },
+  {
+   "symbol": "NVDA",
+   "name": "Nvidia",
+   "list": "portfolio",
+   "price": 145.23,
+   "prev_close": 155.38,
+   "change_pct": -6.5,
+   "trigger_change": -7.2,
+   "peak_change": -8.9,
+   "first_seen": "2026-11-25T14:56:37+00:00",
+   "sector": {
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 409.96,
+    "change_pct": -3.93
+   },
+   "chart": {
+    "ema8": -5.2,
+    "ema21": -14.8,
+    "sma50": -28.7,
+    "sma200": -28.4,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "\u2018Big Short\u2019 investor Michael Burry pinpoints the next time he\u2019ll be betting against Nvidia stock",
+     "publisher": "Business Insider",
+     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOSXJabHpKbGl3S2tfeW9PM3M3V3JCaGpQOWEyZjZET1VzSERvZDRIYWhFeDdIallVUmF1V2g1UkFEM0ZpZHA4RkQ3QzREVGJfMUFLZzZlYWN3RE04Qllqa1Mzb0JIX2hSMDNXWmtFTGVQdkR2Z0c5aUZMQ2tmSHBua2d2bWwwSUFYY0VKcVliY1pRZw?oc=5",
+     "time": "2026-11-25T16:37:00+00:00"
+    },
+    {
+     "title": "Nvidia\u2019s Jensen Huang Should Do This 1 Thing Now",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPYnZTTExMUUt5N180OFVtSGJHdndvZjBWcGJoamZkbHJ3U0RUeHFudHZFb1hkcjR1UXFsUlJ1WDdoWmYtb1NibWNUUjBTclAtYzlrYWctVTMwTGVoNW5Va1N2eENOWHBIbmc4NGpFLWozTGRPX0oyR3lDRHBZaEpZNjQwZURPcy1kVG80VnZtcHBFakZjMXc?oc=5",
+     "time": "2026-11-25T16:12:02+00:00"
+    },
+    {
+     "title": "Nvidia Just Delivered Its Latest Earnings Report. Is the Stock a Buy Below $160?",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQMWFEZklIRmdFMUJ1dktUREJ4SnZSRlBkc2xJMDFkNWJRbjRHWFA0WWRxeEpaQkpTWkZYSDdoMEZFNkhoM3ZZZENMR184RmppdURjV2ZPLUxUUE5pckE3SXJ5V3FQYThiX2VfOTRscUFhdFd0V2FTYUxablpTZ3FlSDUtTC1RUlE3Mlk2X1ZvWE1ITzdLRDhBMlB0cEd5c0JQdWtQbndfZUhjSnVjZ3RYMVdLMGE3X3B5Znd5UlZNZEo?oc=5",
+     "time": "2026-11-25T15:53:02+00:00"
+    },
+    {
+     "title": "Why Nvidia Stock Continues to Fall After the Jensen Huang Pop",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNeEdUYmZIR2RoMjZ5ZGR0dWlNU002TXhHeGoySnJSTjVObWlzVDhZYk85WW1FaWNndzFkR05tYk9LTkdCcUo4QjNPVzdoMWNnZkg0U1hCV05WSlhyQUpYNmVURDJCRFdyQWhsNTZsNDVQeWppbUdHeFQyNnFsV01LaThmZ3lXUEVIOWlRMnFRUU12bVdMY2haY2xhM2NZUzE2ZllMZkhINA?oc=5",
+     "time": "2026-11-25T15:42:25+00:00"
+    },
+    {
+     "title": "Why Nvidia (NVDA) Stock Is Falling Today: Tech and Chip Selloff",
+     "publisher": "GuruFocus",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOOG44SUZNajA0WHF4d21ubVgwT2V5SzBXTWhLRDhaSko5eWU2Q011THhKU2FfcmNxMU1lUnFlT2RtanJfZ25iNHhqZkwtVU1UNW9UbGp1eWQ0UUV0SmZCellVR0lETElBZFhIWWdONlRBalkzbVZBZ3I4bmU2TV8yVTlWQ3picldsTTFscERLaWh6a2lHeFhOYVhWM1dLOTEw?oc=5",
+     "time": "2026-11-25T15:33:45+00:00"
+    },
+    {
+     "title": "Not a Bubble: 2 Numbers That Show Nvidia\u2019s Demand Is Real",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQkI5NzU5OEx1MnZ0Q2wzQTNuYnBNTXNOdUhmVFBrakN4QUtqQlRKXy12bkFuU0RLeWl2M3pmVTJGalM0ckF3amYwMjA0N0FaOU9DMDdtMHFJVDQ0S2RVTXdwLVg4ODRLU2VTQVBNV0FyTmpPdnJia0UxempiOTJIVXkycjRFS0RzdHlKZjZFaWFqSDFVVGpOMzlmQjM1NU0?oc=5",
+     "time": "2026-11-25T15:30:02+00:00"
+    },
+    {
+     "title": "Nvidia Stock Crashes 8% Despite Huang's Return and Record $115.8B Revenue",
+     "publisher": "Coinpaper",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOS21YZHpBUUoyVWlSMFcxN3pFa1l1RUVhVmp5LTkxVVowc2pOY0dUNG95aGhWVElMc2EyWEZoak51LVN2OTRaMlBlaG9Sb2NTVlBKc1MzNEZKZi05NUhYbzhvT29tYWFQS1hDc0M3LUVob2VDdWJ4UmwzQkE1MjVabWhzcXVrVmhDdGJMNWR2WEZsRU5TeFhLTmJkV0RkVmpwaHc?oc=5",
+     "time": "2026-11-25T15:29:57+00:00"
+    },
+    {
+     "title": "Nvidia (NVDA) Stock Falls 8% as Chip Rout Deepens Days After Huang Return",
+     "publisher": "Blockonomi",
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPdWl0YXZqTU1FZUxHM1ltOFJjUUMzY2Z5Wm5WcEZVRjllYVIxUTU2UVJYWXVFSFUwanJHVVVseTBqU1NPckdTY2VhVHF6U1Z5Tjlac1BNRUhwWXdVeE1PSWFCNlZ3UndQT2NzWU44MHIxUnVPWGpRVW1Lb2VaWDg2eDVXVnVHN0ZQU2xYZEVKU3lTeFJqaGo5TlJB?oc=5",
+     "time": "2026-11-25T15:23:16+00:00"
+    }
+   ],
+   "brief": "2026-11-25-NVDA"
+  },
+  {
    "symbol": "ANET",
    "name": "Arista Networks",
    "list": "portfolio",
-   "price": 158.99,
+   "price": 159.27,
    "prev_close": 168.56,
-   "change_pct": -5.7,
+   "change_pct": -5.5,
    "trigger_change": -5.7,
    "peak_change": -8.0,
    "first_seen": "2026-11-25T14:56:37+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 407.98,
-    "change_pct": -4.4
+    "price": 409.96,
+    "change_pct": -3.93
    },
    "chart": {
-    "ema8": -9.3,
-    "ema21": -12.2,
-    "sma50": -16.6,
-    "sma200": -5.9,
+    "ema8": -9.2,
+    "ema21": -12.0,
+    "sma50": -16.4,
+    "sma200": -5.8,
     "momentum": false
    },
    "headlines": [
@@ -399,7 +399,7 @@
    "symbol": "CRWD",
    "name": "CrowdStrike",
    "list": "portfolio",
-   "price": 201.19,
+   "price": 201.18,
    "prev_close": 210.86,
    "change_pct": -4.6,
    "trigger_change": -3.1,
@@ -408,8 +408,8 @@
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 93.88,
-    "change_pct": -1.55
+    "price": 93.97,
+    "change_pct": -1.45
    },
    "chart": {
     "ema8": -7.8,
@@ -474,23 +474,23 @@
    "symbol": "AVGO",
    "name": "Broadcom",
    "list": "portfolio",
-   "price": 288.37,
+   "price": 287.57,
    "prev_close": 301.08,
-   "change_pct": -4.2,
+   "change_pct": -4.5,
    "trigger_change": -5.1,
    "peak_change": -6.3,
    "first_seen": "2026-11-25T14:56:37+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 407.98,
-    "change_pct": -4.4
+    "price": 409.96,
+    "change_pct": -3.93
    },
    "chart": {
-    "ema8": -8.6,
-    "ema21": -11.7,
-    "sma50": -15.3,
-    "sma200": -21.5,
+    "ema8": -8.8,
+    "ema21": -11.9,
+    "sma50": -15.5,
+    "sma200": -21.7,
     "momentum": false
    },
    "headlines": [
@@ -549,23 +549,23 @@
    "symbol": "AMZN",
    "name": "Amazon",
    "list": "portfolio",
-   "price": 243.94,
+   "price": 244.43,
    "prev_close": 252.29,
-   "change_pct": -3.3,
+   "change_pct": -3.1,
    "trigger_change": -5.0,
    "peak_change": -6.1,
    "first_seen": "2026-11-25T14:56:37+00:00",
    "sector": {
     "etf": "XLY",
     "name": "Consumer discr.",
-    "price": 116.95,
-    "change_pct": -0.65
+    "price": 116.89,
+    "change_pct": -0.71
    },
    "chart": {
-    "ema8": -3.9,
-    "ema21": -4.8,
-    "sma50": -4.4,
-    "sma200": -0.7,
+    "ema8": -3.7,
+    "ema21": -4.7,
+    "sma50": -4.2,
+    "sma200": -0.6,
     "momentum": false
    },
    "headlines": [
@@ -624,23 +624,23 @@
    "symbol": "GOOG",
    "name": "Alphabet",
    "list": "portfolio",
-   "price": 268.06,
+   "price": 268.52,
    "prev_close": 276.58,
-   "change_pct": -3.1,
+   "change_pct": -2.9,
    "trigger_change": -4.2,
    "peak_change": -4.9,
    "first_seen": "2026-11-25T14:56:37+00:00",
    "sector": {
     "etf": "XLC",
     "name": "Communication",
-    "price": 104.77,
-    "change_pct": 0.31
+    "price": 104.83,
+    "change_pct": 0.36
    },
    "chart": {
-    "ema8": -2.7,
-    "ema21": -6.5,
-    "sma50": -15.0,
-    "sma200": -19.8,
+    "ema8": -2.6,
+    "ema21": -6.4,
+    "sma50": -14.8,
+    "sma200": -19.6,
     "momentum": false
    },
    "headlines": [
@@ -699,7 +699,7 @@
    "symbol": "APP",
    "name": "AppLovin",
    "list": "portfolio",
-   "price": 373.77,
+   "price": 373.9,
    "prev_close": 381.11,
    "change_pct": -1.9,
    "trigger_change": -4.5,
@@ -708,14 +708,14 @@
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 93.88,
-    "change_pct": -1.55
+    "price": 93.97,
+    "change_pct": -1.45
    },
    "chart": {
     "ema8": -0.8,
     "ema21": 5.0,
     "sma50": 19.8,
-    "sma200": -7.4,
+    "sma200": -7.3,
     "momentum": true
    },
    "headlines": [
@@ -771,85 +771,80 @@
    "brief": "2026-11-25-APP"
   },
   {
-   "symbol": "SOFI",
-   "name": "SoFi",
-   "list": "portfolio",
-   "price": 12.77,
-   "prev_close": 12.86,
-   "change_pct": -0.7,
-   "trigger_change": -5.1,
-   "peak_change": -5.4,
+   "symbol": "BTC-USD",
+   "name": "Bitcoin",
+   "list": "watchlist",
+   "price": 59405.2,
+   "prev_close": 59741.2,
+   "change_pct": -0.6,
+   "trigger_change": -3.0,
+   "peak_change": -3.3,
    "first_seen": "2026-11-25T14:56:37+00:00",
-   "sector": {
-    "etf": "XLF",
-    "name": "Financials",
-    "price": 56.27,
-    "change_pct": 0.29
-   },
+   "sector": null,
    "chart": {
-    "ema8": -5.7,
-    "ema21": -12.7,
-    "sma50": -17.8,
-    "sma200": -24.9,
+    "ema8": -3.1,
+    "ema21": -10.1,
+    "sma50": -20.9,
+    "sma200": -17.5,
     "momentum": false
    },
    "headlines": [
     {
-     "title": "SoFi slips as broader risk-off selling appears to outweigh recent strong results",
-     "publisher": "Quiver Quantitative",
-     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNbXU4U2x6YVBzYXY0bG4tdEI0cTRZcnlHYTk2NThybG4wN0k5ZktYRjlkYVEzaVVZbXpxd2tFZldPUWVfZi1zaEppcThNTkpWS2FscUdfYXZRbVNpLU5UYzZGNEtoVnhjWmJaU25XdFRveFRkUk5IRkUxVXlPQTNpMWREY3pFSDl4bndJOEw5aHYzRGotX3lPUFNIalBFb21nQ1pXX0ZJU3ZuZ3J3YnQ4ajdkdw?oc=5",
-     "time": "2026-11-25T16:18:00+00:00"
+     "title": "Hyperliquid's HYPE will join bitcoin, ether and more in Franklin Templeton's crypto ETF",
+     "publisher": "The Block",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPdDZFNzVlelZVcGlidlNmZkk0eDJRc0VnQ3dHSEVqd1dab2hUYjJid0xVVTZsV094bm9JMkpjZ0ktemtrQS1IaW0ycFA3QUlMZjViNnFRN0tWd05fZ3ktNDQyU2RTd0NFUTRZUFRpTkJBUWlwTF9rR2toaFRtcm9NNThpelF0U21NeHBSYkVIdS1VOTFkVUlYR1QwODgyNVRJVHI2UFYzSQ?oc=5",
+     "time": "2026-11-25T16:54:00+00:00"
     },
     {
-     "title": "SoFi Technologies (NASDAQ:SOFI) Hits New 52-Week Low - Should You Sell?",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQdjMyYmJldE1LRnU5MjljbGhrTDkzdlA1dUtfTEdNamkwS2gxUUdwaUoweXJMU1hjVHkwYTRkbFVZcWxYMkQ2ZndVMzZqdUd5bFRLUC1aLXhfbThTZVpHSi16MW5JRTYzMjdIR0RsYUxxTzRVMXF0N0xSemMxVXlsMDJMYUZ6SVh5UXVWT3dYNHhRbzhGUDQ4RWt0Nkw4N0l4LXRFUkdUMm9pWG5SQnU1LWtYVFRWSHU5azcyeXJWeUJkTzl3?oc=5",
-     "time": "2026-11-25T16:02:37+00:00"
+     "title": "Bitcoin Falls Further as Inflation, Trump Tariffs and AI Selloff Rattle Markets",
+     "publisher": "Decrypt",
+     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBjWWJWUlo0aHRXWld1MHBLUnNjR1hQQVRkTVdlOEV4bDlGRmYxb296ODJlZ2szRmJiWnpCRU9pdm92djJtVzg5LXVReUVxZXNjYUV5Nk04azAyOEVOc0JsUEZkZ0hNYkVkdEg3NVd0aFRrWEphS0ZZWkx2RGhMbFk?oc=5",
+     "time": "2026-11-25T16:52:50+00:00"
     },
     {
-     "title": "Why SoFi\u2019s $26 Bull Case for 2027 Hinges on What Happens Outside Lending",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQWkVUWl9VNk41VkNnbTgtX2N6VEVBd0hzZDNGT2hydXhVZXZwaDl3dlZScFF6ZHdqSHlSa243NkRSWGNxS19OVlJtYjJVbGFVSjhUMGVvenI0RWtFY3I5cDZLVVpaWGVreWw1SUpDTTlCU1B3MmRtUklwT3YxNFBpMm5RX2RBXzFFTUNDRXNfSQ?oc=5",
-     "time": "2026-11-25T12:15:24+00:00"
+     "title": "$Bitcoin (BTC.CC)$",
+     "publisher": "Moomoo",
+     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBqd1d2SUdqNk1wZmdHd1RTY2VIYXlLdjZuRjVEVVBiODlKb0duNDhtQ19uMzFLdjhKX0tVckI5UzAwV0dnLVJmamtudUZjam1leVhzQVpmSDlXOUNSUy1wM3dMWDNDUnNtODU1ZmRiVmU2WmtidjV3?oc=5",
+     "time": "2026-11-25T16:44:23+00:00"
     },
     {
-     "title": "SoFi Technologies, Inc. $SOFI Stock Sold by Marshall Wace LLP",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPUE54S1VtN2lDalNIR2Zfa0RPVlBFMkJsUjltcjRVNUMwZ0Z3NWZCRlZFRWdSU3lVTTd5QkRoM09xZC1CUUxrMVBRa2pMckJvcmQtaGdsMXVLRElLS0hFcXoxWnNJYmRiT3FXN0wtR2lidmxQVlVidGlvVlR0c0hpcE1NTGFCT0swbjhlbExxbGlGT0FfR3lld25CaWdyNTVxN2pHYjUxb3pFNzE3SHFTaXZaNkg5MkZXLVFN?oc=5",
-     "time": "2026-11-25T11:28:55+00:00"
+     "title": "Bitcoin retreats to summer lows as risk-off sentiment prevails",
+     "publisher": "Cryptonews.net",
+     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBTcUc2bzBSZVhSbnljcC1TUTB4c3RVaXhQYk1pQ192czJ0ZWV4bDBLRnV2UTJuM2JacVM1U0FZTzVrT0c5RF8zUl90VU5iMzBaVmExa3RXNzY?oc=5",
+     "time": "2026-11-25T16:43:48+00:00"
     },
     {
-     "title": "SoFi Technologies, Inc. $SOFI Stock: Healthcare of Ontario Pension Plan Trust Fund Increases Stake",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPeG9QbDBOcUtMN1BFazNvcUZmaDcwY1F5bFNPZTlqWnRYYU5aSHZwQjlxOFRFZ2llcWVyMEtSWnpCak5OWTN4Q2FYQlJYazd3b3JSa2hXOXNLaVZFWUJwRVprNzdoZGJjQUlTVGs0eGlHbVcyLWY4ZHpHWGJFekJ5UkhwZ1JmWDFpQ19iVzRfZWhwV3hyaV9ROHBsaFZUVHFoTEYtYVlILURkVkFvb1Z1b2xRanhRMkc3TTBUVEEybmRCa04zNVoyQWwtNXVyWEJSVWhCcVJGc0JwMnU0MzdKd3dJWGlkYjFRZkYw?oc=5",
-     "time": "2026-11-25T11:16:57+00:00"
+     "title": "Adam Back urges Strategy to spend $3 billion on roughly 50,000 Bitcoin",
+     "publisher": "Cryptonews.net",
+     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBNdXB5UExRTUw1ZmVTMjZGZG5FZDREY25oRDA2MTVERVR2Y0tlc21oZS16XzFwRnB1N2x6ZWxHTHFPV3g3ZW9FYWhhNXktZHJWMU5TQmJLSDY?oc=5",
+     "time": "2026-11-25T16:43:44+00:00"
     },
     {
-     "title": "SoFi Technologies (SOFI) Stock Price Prediction: Oversold bounce risk meets a still-broken trend",
-     "publisher": "Blockchain News",
-     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQa0FKTVdVME02MzZwR0VjQUpSUzJRUG50YnhXQ0R3eHlzaVQ1TTB2djlBNEZGLTRCWmhoeE1ycFF1bHlvUGgzYnhHUDU1ZHhZRzJTdnFVRmt6WG9OM2d1MzJFNnF3MUFadkNYSkQ4OVpHN0NsZjB2dDQzU1ZjZ2xtU3hJLTJBdDRxRkczRXZrWkUwQVlSVm5EdUNn?oc=5",
-     "time": "2026-11-25T10:12:00+00:00"
+     "title": "Bitcoin Whales Shed 150K BTC As Prices Keep Falling",
+     "publisher": "Santiment",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQRFQxSDRka2s1MXRzRnBVT0FoWVp6aXcxUFlBeUZkM1RaajFGSTJudHkxZzhHTTB0cVdlV1RFTkZhRnUxUUNnS2k0MGFRMmpiOUpxakFoMEtVd2ZBZUhKMk5YU0xaRkdNMXZIN0l4NnlSLUp1R2NJbXd4VDVia3BYY25TV3FWMnd1WWdKNndSeW9OS0lSeGxGS0w3QjBMQQ?oc=5",
+     "time": "2026-11-25T16:40:55+00:00"
     },
     {
-     "title": "SoFi Technologies rebounds with upgraded revenue forecast despite macroeconomic challenges.",
-     "publisher": "Pluang",
-     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQeU95RVNNUk1kTVd4bk1wZGZWUFNYSWxrellLMTdaQVpTOTJFczNxZjZOdmVNcGx0UzVFb0hsU0F5ZzNUcmt3TGVtRm00cW1SZEVzckdLbFZOWGZIZ2dqUGk3aDNxeTAtXzk3Z0VxWW9lQVNaelU0WFRnMG9PMGZTU21XZ2tKUXpMWWluQWFtUzdzcHRBRnZJaw?oc=5",
-     "time": "2026-11-25T09:13:58+00:00"
+     "title": "Bitcoin dominance slips below 60%, but altcoin season is not arriving",
+     "publisher": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNbWlzbU1YTzZjNHJLRDNONVlpX1NmekFWaWdaVlRmMmtkenNtMjV4ME5JTVVORm5VWnFtUWpwaVdlRmN4dnRxTEpqQ1BITU8xd0VQNVVIQ3RHTGkycHNZVF9oaXY1djBVdmJMTkY1NEdPbU9uUUlVRlVSNVdhNWRGVmRZUklCZjhmZzk5SlUzOENLOE5EQTl1VUxBY3pWLUlCTmQ4bUd1bmRuR19CdHpQWG5yVDdJRkR3OWV5dnRfSFhGc1N3d1NJU2R5Z3o?oc=5",
+     "time": "2026-11-25T16:39:33+00:00"
     },
     {
-     "title": "SoFi Is Down 30%: The 2027 Institutional Outlook Tells A Different Story (NASDAQ:SOFI)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOdlNiZXljR2RESVNpSlYtX1lLcGJBVTNyNEtzeHBSbnFCTko4XzI1MVR4V1ExQzhhRVlCbU9ZTnA3b3UtS0R1OVZ3OEJLWkVSUzFnMEh0cE9DNG84Rm1kX3NyczF4dGFvNm40Yi1BNkJGN1d1RGdoaFlVWWZaTnRyczFpSW91M2I2cTZlNG9GaVhNelh3ekNTMVIzYXZIR3JaLXc1NUFsb080Z1N3NWZoVG90c2hQWm5TQm1B?oc=5",
-     "time": "2026-11-25T08:42:25+00:00"
+     "title": "Bitcoin whales shed about 150,000 BTC as price slides 24.5%",
+     "publisher": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOVW8wZHBRb1VGNkhpMWZwcTg5UWZlQ1lpWmhhTUxreHdNR0tfZ3N0cTJZdjRHV0YxZm9FWDBsOHVFOEZHQUt1M1l1bnkzRUY4SUIzOU1yQ2RLV0VfR09LN3hFN2hKZ1VxTWtUaGlBWGx0WHdnc2YtRVc4bDlwVFFQbTNfeW5JcW1rMk1DMXlwNlNQOU5wa1M5WkxNalJsbHd0SHpMS2pIRnQyOVFZV3JvZmxobGpQWmM5MEtmWE5EQmc?oc=5",
+     "time": "2026-11-25T16:38:48+00:00"
     }
    ],
-   "brief": "2026-11-25-SOFI"
+   "brief": "2026-11-25-BTC-USD"
   },
   {
    "symbol": "NOW",
    "name": "ServiceNow",
    "list": "portfolio",
-   "price": 91.37,
+   "price": 91.35,
    "prev_close": 91.74,
    "change_pct": -0.4,
    "trigger_change": -3.2,
@@ -858,13 +853,13 @@
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 93.88,
-    "change_pct": -1.55
+    "price": 93.97,
+    "change_pct": -1.45
    },
    "chart": {
     "ema8": -1.8,
     "ema21": -11.7,
-    "sma50": -26.8,
+    "sma50": -26.9,
     "sma200": -19.2,
     "momentum": false
    },
@@ -921,96 +916,101 @@
    "brief": "2026-11-25-NOW"
   },
   {
-   "symbol": "BTC-USD",
-   "name": "Bitcoin",
-   "list": "watchlist",
-   "price": 59603.7,
-   "prev_close": 59741.2,
-   "change_pct": -0.2,
-   "trigger_change": -3.0,
-   "peak_change": -3.3,
+   "symbol": "SOFI",
+   "name": "SoFi",
+   "list": "portfolio",
+   "price": 12.81,
+   "prev_close": 12.86,
+   "change_pct": -0.3,
+   "trigger_change": -5.1,
+   "peak_change": -5.4,
    "first_seen": "2026-11-25T14:56:37+00:00",
-   "sector": null,
+   "sector": {
+    "etf": "XLF",
+    "name": "Financials",
+    "price": 56.28,
+    "change_pct": 0.31
+   },
    "chart": {
-    "ema8": -2.8,
-    "ema21": -9.9,
-    "sma50": -20.7,
-    "sma200": -17.2,
+    "ema8": -5.4,
+    "ema21": -12.4,
+    "sma50": -17.5,
+    "sma200": -24.7,
     "momentum": false
    },
    "headlines": [
     {
-     "title": "Hyperliquid's HYPE will join bitcoin, ether and more in Franklin Templeton's crypto ETF",
-     "publisher": "The Block",
-     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPdDZFNzVlelZVcGlidlNmZkk0eDJRc0VnQ3dHSEVqd1dab2hUYjJid0xVVTZsV094bm9JMkpjZ0ktemtrQS1IaW0ycFA3QUlMZjViNnFRN0tWd05fZ3ktNDQyU2RTd0NFUTRZUFRpTkJBUWlwTF9rR2toaFRtcm9NNThpelF0U21NeHBSYkVIdS1VOTFkVUlYR1QwODgyNVRJVHI2UFYzSQ?oc=5",
-     "time": "2026-11-25T16:54:00+00:00"
+     "title": "SoFi slips as broader risk-off selling appears to outweigh recent strong results",
+     "publisher": "Quiver Quantitative",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNbXU4U2x6YVBzYXY0bG4tdEI0cTRZcnlHYTk2NThybG4wN0k5ZktYRjlkYVEzaVVZbXpxd2tFZldPUWVfZi1zaEppcThNTkpWS2FscUdfYXZRbVNpLU5UYzZGNEtoVnhjWmJaU25XdFRveFRkUk5IRkUxVXlPQTNpMWREY3pFSDl4bndJOEw5aHYzRGotX3lPUFNIalBFb21nQ1pXX0ZJU3ZuZ3J3YnQ4ajdkdw?oc=5",
+     "time": "2026-11-25T16:18:00+00:00"
     },
     {
-     "title": "Bitcoin Falls Further as Inflation, Trump Tariffs and AI Selloff Rattle Markets",
-     "publisher": "Decrypt",
-     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBjWWJWUlo0aHRXWld1MHBLUnNjR1hQQVRkTVdlOEV4bDlGRmYxb296ODJlZ2szRmJiWnpCRU9pdm92djJtVzg5LXVReUVxZXNjYUV5Nk04azAyOEVOc0JsUEZkZ0hNYkVkdEg3NVd0aFRrWEphS0ZZWkx2RGhMbFk?oc=5",
-     "time": "2026-11-25T16:52:50+00:00"
+     "title": "SoFi Technologies (NASDAQ:SOFI) Hits New 52-Week Low - Should You Sell?",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQdjMyYmJldE1LRnU5MjljbGhrTDkzdlA1dUtfTEdNamkwS2gxUUdwaUoweXJMU1hjVHkwYTRkbFVZcWxYMkQ2ZndVMzZqdUd5bFRLUC1aLXhfbThTZVpHSi16MW5JRTYzMjdIR0RsYUxxTzRVMXF0N0xSemMxVXlsMDJMYUZ6SVh5UXVWT3dYNHhRbzhGUDQ4RWt0Nkw4N0l4LXRFUkdUMm9pWG5SQnU1LWtYVFRWSHU5azcyeXJWeUJkTzl3?oc=5",
+     "time": "2026-11-25T16:02:37+00:00"
     },
     {
-     "title": "$Bitcoin (BTC.CC)$",
-     "publisher": "Moomoo",
-     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBqd1d2SUdqNk1wZmdHd1RTY2VIYXlLdjZuRjVEVVBiODlKb0duNDhtQ19uMzFLdjhKX0tVckI5UzAwV0dnLVJmamtudUZjam1leVhzQVpmSDlXOUNSUy1wM3dMWDNDUnNtODU1ZmRiVmU2WmtidjV3?oc=5",
-     "time": "2026-11-25T16:44:23+00:00"
+     "title": "Why SoFi\u2019s $26 Bull Case for 2027 Hinges on What Happens Outside Lending",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQWkVUWl9VNk41VkNnbTgtX2N6VEVBd0hzZDNGT2hydXhVZXZwaDl3dlZScFF6ZHdqSHlSa243NkRSWGNxS19OVlJtYjJVbGFVSjhUMGVvenI0RWtFY3I5cDZLVVpaWGVreWw1SUpDTTlCU1B3MmRtUklwT3YxNFBpMm5RX2RBXzFFTUNDRXNfSQ?oc=5",
+     "time": "2026-11-25T12:15:24+00:00"
     },
     {
-     "title": "Bitcoin retreats to summer lows as risk-off sentiment prevails",
-     "publisher": "Cryptonews.net",
-     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBTcUc2bzBSZVhSbnljcC1TUTB4c3RVaXhQYk1pQ192czJ0ZWV4bDBLRnV2UTJuM2JacVM1U0FZTzVrT0c5RF8zUl90VU5iMzBaVmExa3RXNzY?oc=5",
-     "time": "2026-11-25T16:43:48+00:00"
+     "title": "SoFi Technologies, Inc. $SOFI Stock Sold by Marshall Wace LLP",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPUE54S1VtN2lDalNIR2Zfa0RPVlBFMkJsUjltcjRVNUMwZ0Z3NWZCRlZFRWdSU3lVTTd5QkRoM09xZC1CUUxrMVBRa2pMckJvcmQtaGdsMXVLRElLS0hFcXoxWnNJYmRiT3FXN0wtR2lidmxQVlVidGlvVlR0c0hpcE1NTGFCT0swbjhlbExxbGlGT0FfR3lld25CaWdyNTVxN2pHYjUxb3pFNzE3SHFTaXZaNkg5MkZXLVFN?oc=5",
+     "time": "2026-11-25T11:28:55+00:00"
     },
     {
-     "title": "Adam Back urges Strategy to spend $3 billion on roughly 50,000 Bitcoin",
-     "publisher": "Cryptonews.net",
-     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBNdXB5UExRTUw1ZmVTMjZGZG5FZDREY25oRDA2MTVERVR2Y0tlc21oZS16XzFwRnB1N2x6ZWxHTHFPV3g3ZW9FYWhhNXktZHJWMU5TQmJLSDY?oc=5",
-     "time": "2026-11-25T16:43:44+00:00"
+     "title": "SoFi Technologies, Inc. $SOFI Stock: Healthcare of Ontario Pension Plan Trust Fund Increases Stake",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPeG9QbDBOcUtMN1BFazNvcUZmaDcwY1F5bFNPZTlqWnRYYU5aSHZwQjlxOFRFZ2llcWVyMEtSWnpCak5OWTN4Q2FYQlJYazd3b3JSa2hXOXNLaVZFWUJwRVprNzdoZGJjQUlTVGs0eGlHbVcyLWY4ZHpHWGJFekJ5UkhwZ1JmWDFpQ19iVzRfZWhwV3hyaV9ROHBsaFZUVHFoTEYtYVlILURkVkFvb1Z1b2xRanhRMkc3TTBUVEEybmRCa04zNVoyQWwtNXVyWEJSVWhCcVJGc0JwMnU0MzdKd3dJWGlkYjFRZkYw?oc=5",
+     "time": "2026-11-25T11:16:57+00:00"
     },
     {
-     "title": "Bitcoin Whales Shed 150K BTC As Prices Keep Falling",
-     "publisher": "Santiment",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQRFQxSDRka2s1MXRzRnBVT0FoWVp6aXcxUFlBeUZkM1RaajFGSTJudHkxZzhHTTB0cVdlV1RFTkZhRnUxUUNnS2k0MGFRMmpiOUpxakFoMEtVd2ZBZUhKMk5YU0xaRkdNMXZIN0l4NnlSLUp1R2NJbXd4VDVia3BYY25TV3FWMnd1WWdKNndSeW9OS0lSeGxGS0w3QjBMQQ?oc=5",
-     "time": "2026-11-25T16:40:55+00:00"
+     "title": "SoFi Technologies (SOFI) Stock Price Prediction: Oversold bounce risk meets a still-broken trend",
+     "publisher": "Blockchain News",
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQa0FKTVdVME02MzZwR0VjQUpSUzJRUG50YnhXQ0R3eHlzaVQ1TTB2djlBNEZGLTRCWmhoeE1ycFF1bHlvUGgzYnhHUDU1ZHhZRzJTdnFVRmt6WG9OM2d1MzJFNnF3MUFadkNYSkQ4OVpHN0NsZjB2dDQzU1ZjZ2xtU3hJLTJBdDRxRkczRXZrWkUwQVlSVm5EdUNn?oc=5",
+     "time": "2026-11-25T10:12:00+00:00"
     },
     {
-     "title": "Bitcoin dominance slips below 60%, but altcoin season is not arriving",
-     "publisher": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNbWlzbU1YTzZjNHJLRDNONVlpX1NmekFWaWdaVlRmMmtkenNtMjV4ME5JTVVORm5VWnFtUWpwaVdlRmN4dnRxTEpqQ1BITU8xd0VQNVVIQ3RHTGkycHNZVF9oaXY1djBVdmJMTkY1NEdPbU9uUUlVRlVSNVdhNWRGVmRZUklCZjhmZzk5SlUzOENLOE5EQTl1VUxBY3pWLUlCTmQ4bUd1bmRuR19CdHpQWG5yVDdJRkR3OWV5dnRfSFhGc1N3d1NJU2R5Z3o?oc=5",
-     "time": "2026-11-25T16:39:33+00:00"
+     "title": "SoFi Technologies rebounds with upgraded revenue forecast despite macroeconomic challenges.",
+     "publisher": "Pluang",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQeU95RVNNUk1kTVd4bk1wZGZWUFNYSWxrellLMTdaQVpTOTJFczNxZjZOdmVNcGx0UzVFb0hsU0F5ZzNUcmt3TGVtRm00cW1SZEVzckdLbFZOWGZIZ2dqUGk3aDNxeTAtXzk3Z0VxWW9lQVNaelU0WFRnMG9PMGZTU21XZ2tKUXpMWWluQWFtUzdzcHRBRnZJaw?oc=5",
+     "time": "2026-11-25T09:13:58+00:00"
     },
     {
-     "title": "Bitcoin whales shed about 150,000 BTC as price slides 24.5%",
-     "publisher": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOVW8wZHBRb1VGNkhpMWZwcTg5UWZlQ1lpWmhhTUxreHdNR0tfZ3N0cTJZdjRHV0YxZm9FWDBsOHVFOEZHQUt1M1l1bnkzRUY4SUIzOU1yQ2RLV0VfR09LN3hFN2hKZ1VxTWtUaGlBWGx0WHdnc2YtRVc4bDlwVFFQbTNfeW5JcW1rMk1DMXlwNlNQOU5wa1M5WkxNalJsbHd0SHpMS2pIRnQyOVFZV3JvZmxobGpQWmM5MEtmWE5EQmc?oc=5",
-     "time": "2026-11-25T16:38:48+00:00"
+     "title": "SoFi Is Down 30%: The 2027 Institutional Outlook Tells A Different Story (NASDAQ:SOFI)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOdlNiZXljR2RESVNpSlYtX1lLcGJBVTNyNEtzeHBSbnFCTko4XzI1MVR4V1ExQzhhRVlCbU9ZTnA3b3UtS0R1OVZ3OEJLWkVSUzFnMEh0cE9DNG84Rm1kX3NyczF4dGFvNm40Yi1BNkJGN1d1RGdoaFlVWWZaTnRyczFpSW91M2I2cTZlNG9GaVhNelh3ekNTMVIzYXZIR3JaLXc1NUFsb080Z1N3NWZoVG90c2hQWm5TQm1B?oc=5",
+     "time": "2026-11-25T08:42:25+00:00"
     }
    ],
-   "brief": "2026-11-25-BTC-USD"
+   "brief": "2026-11-25-SOFI"
   },
   {
    "symbol": "MELI",
    "name": "MercadoLibre",
    "list": "watchlist",
-   "price": 1453.56,
+   "price": 1450.65,
    "prev_close": 1450.31,
-   "change_pct": 0.2,
+   "change_pct": 0.0,
    "trigger_change": -3.0,
    "peak_change": -3.0,
    "first_seen": "2026-11-25T15:27:07+00:00",
    "sector": {
     "etf": "XLY",
     "name": "Consumer discr.",
-    "price": 116.95,
-    "change_pct": -0.65
+    "price": 116.89,
+    "change_pct": -0.71
    },
    "chart": {
-    "ema8": 1.0,
-    "ema21": -4.3,
-    "sma50": -13.7,
-    "sma200": -17.3,
+    "ema8": 0.8,
+    "ema21": -4.5,
+    "sma50": -13.9,
+    "sma200": -17.5,
     "momentum": false
    },
    "headlines": [
