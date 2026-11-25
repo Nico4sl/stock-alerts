@@ -1,22 +1,22 @@
 {
  "date": "2026-11-25",
  "threshold": 3.0,
- "updated": "2026-11-25T17:16:03+00:00",
+ "updated": "2026-11-25T17:21:03+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 708.23,
-   "change_pct": -1.47
+   "price": 709.54,
+   "change_pct": -1.29
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 621.72,
-   "change_pct": -2.57
+   "price": 622.2,
+   "change_pct": -2.49
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 82.41,
-   "change_pct": 1.13
+   "price": 82.47,
+   "change_pct": 1.2
   }
  },
  "movers": [
@@ -24,23 +24,23 @@
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 80.08,
+   "price": 80.78,
    "prev_close": 87.31,
-   "change_pct": -8.3,
+   "change_pct": -7.5,
    "trigger_change": -9.0,
    "peak_change": -12.5,
    "first_seen": "2026-11-25T14:56:37+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 93.71,
-    "change_pct": -1.72
+    "price": 93.46,
+    "change_pct": -1.98
    },
    "chart": {
-    "ema8": -17.1,
-    "ema21": -34.2,
-    "sma50": -54.0,
-    "sma200": -55.4,
+    "ema8": -16.5,
+    "ema21": -33.7,
+    "sma50": -53.6,
+    "sma200": -55.1,
     "momentum": false
    },
    "headlines": [
@@ -99,23 +99,23 @@
    "symbol": "AMAT",
    "name": "Applied Materials",
    "list": "portfolio",
-   "price": 299.05,
+   "price": 299.41,
    "prev_close": 323.76,
-   "change_pct": -7.6,
+   "change_pct": -7.5,
    "trigger_change": -7.5,
    "peak_change": -10.2,
    "first_seen": "2026-11-25T14:56:37+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 406.37,
-    "change_pct": -4.78
+    "price": 407.89,
+    "change_pct": -4.42
    },
    "chart": {
-    "ema8": -9.7,
-    "ema21": -16.6,
-    "sma50": -28.8,
-    "sma200": -33.1,
+    "ema8": -9.6,
+    "ema21": -16.5,
+    "sma50": -28.7,
+    "sma200": -33.0,
     "momentum": false
    },
    "headlines": [
@@ -174,7 +174,7 @@
    "symbol": "NVDA",
    "name": "Nvidia",
    "list": "portfolio",
-   "price": 144.87,
+   "price": 144.85,
    "prev_close": 155.38,
    "change_pct": -6.8,
    "trigger_change": -7.2,
@@ -183,8 +183,8 @@
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 406.37,
-    "change_pct": -4.78
+    "price": 407.89,
+    "change_pct": -4.42
    },
    "chart": {
     "ema8": -5.4,
@@ -249,23 +249,23 @@
    "symbol": "ANET",
    "name": "Arista Networks",
    "list": "portfolio",
-   "price": 158.98,
+   "price": 158.56,
    "prev_close": 168.56,
-   "change_pct": -5.7,
+   "change_pct": -5.9,
    "trigger_change": -5.7,
    "peak_change": -8.0,
    "first_seen": "2026-11-25T14:56:37+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 406.37,
-    "change_pct": -4.78
+    "price": 407.89,
+    "change_pct": -4.42
    },
    "chart": {
-    "ema8": -9.3,
-    "ema21": -12.2,
-    "sma50": -16.6,
-    "sma200": -5.9,
+    "ema8": -9.5,
+    "ema21": -12.4,
+    "sma50": -16.8,
+    "sma200": -6.2,
     "momentum": false
    },
    "headlines": [
@@ -321,101 +321,26 @@
    "brief": "2026-11-25-ANET"
   },
   {
-   "symbol": "AXON",
-   "name": "Axon",
-   "list": "watchlist",
-   "price": 336.52,
-   "prev_close": 319.32,
-   "change_pct": 5.4,
-   "trigger_change": 4.8,
-   "peak_change": 5.4,
-   "first_seen": "2026-11-25T17:11:02+00:00",
-   "sector": {
-    "etf": "XLI",
-    "name": "Industrials",
-    "price": 161.36,
-    "change_pct": -0.15
-   },
-   "chart": {
-    "ema8": 6.2,
-    "ema21": -0.7,
-    "sma50": -13.7,
-    "sma200": -27.0,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "AXON Nov 2026 297.500 put (AXON261127P00297500) Interactive Stock Chart - Yahoo Finance",
-     "publisher": "Yahoo! Finance Canada",
-     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9paWxjQlpLaUZTOXkwOHlsNG1DUXVXNDVHcnhYd1RmTFBHNk9NZmRQcFpJTGtvbWlXM2ZxLXNOUkxlWEEwOHJ3ak91dHFiVkRXbUtaUXVqelR4emhqSHc0c1FKb3FHZUowYk1Sa1pR?oc=5",
-     "time": "2026-11-25T11:06:23+00:00"
-    },
-    {
-     "title": "AXON Nov 2026 250.000 put (AXON261127P00250000) Stock Price, News, Quote & History",
-     "publisher": "Yahoo! Finance Canada",
-     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1tZC1lNTV5MGh4M0JoaE82TWJpazk3eEdHdjZsclFPOVMxb3RfNkFsRmY5UUNlRE5zd05sRlVyeFRPSi10WEVqazFEYnozWlNDVGM0aV9vdGtiTzhlVmF4X0xPa283QQ?oc=5",
-     "time": "2026-11-25T09:56:37+00:00"
-    },
-    {
-     "title": "167,896 Axon Enterprise, Inc $AXON Shares Sold by Rothschild Investment LLC",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPYVJGTENjNG9TRHg0d3VoQXhXdVpWQWxOWTdnYkdZWmtON2NrQTdDNlVmQ1hlTnJMWk9fUEFqanNaQ183SUlfcHlpdFlNeml6amp4YUpOOWNqb0Q5MnI5V1FmRF9ockdFRW1TRkhaTVdJQmNVTHNiRXZkbU83YlJzZWRBUjh3bWJGb1ZMU3JkSEVXLUMwemoyTTh1RHhldF9sWGxmVHA5Ti1SMXhfS1R2d21IYjNjQ3hyazJlVFdWU05KWnFyMXdTMHdjWDBGZw?oc=5",
-     "time": "2026-11-25T09:41:24+00:00"
-    },
-    {
-     "title": "AXON Nov 2026 392.500 put (AXON261120P00392500) stock price, news, quote and history",
-     "publisher": "Yahoo Finance UK",
-     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE52WFBaWHhlWEhsVG9ubkoya0gxN0l5VGh1elN6Y2xfYXVoMVFVOUdYQ2Rha050SVJtQ1JPX1lHdTNYNjdNMG9JdElXZlpWTTdUT0NrWWhNS1dtVzJwNzVsZkZDRTVGQQ?oc=5",
-     "time": "2026-11-25T04:53:18+00:00"
-    },
-    {
-     "title": "AXON Jun 2027 290.000 call (AXON270617C00290000) stock price, news, quote and history",
-     "publisher": "Yahoo Finance UK",
-     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5NVlhXY3BZaWdwSFpTU0N2Sl9KcWpPQ2NfakQ4QmhFeUJPbklQcmNRX3ZaNkVDS0J5SjhmT1JnT0s4X2pfWTNDazI2dnRPUWdpcUZOYjlKQkF3c1p1Z2JNV252VE4tZw?oc=5",
-     "time": "2026-11-25T03:23:35+00:00"
-    },
-    {
-     "title": "AXON Nov 2026 295.000 call (AXON261127C00295000) stock price, news, quote and history",
-     "publisher": "Yahoo Finance Singapore",
-     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1VZkd4R3NVOUphbnRzSF9rejJqX3ZnMWVfdWVwcnFnOXhXcEY5a2Voa1d1QXFzRDFFazZ3eGJvbGFEVHlIRFNFRGREMm91R1dCaC1YWlhEdnZwRjRKc1NfUGJNMFNMZw?oc=5",
-     "time": "2026-11-25T03:08:44+00:00"
-    },
-    {
-     "title": "AXON Dec 2026 390.000 call (AXON261204C00390000) interactive stock chart",
-     "publisher": "Yahoo Finance Australia",
-     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA2X0hGUG92Y2o3RjZFSG5NQnRVOGlnV3R0Z2F3MVZSaFptaDBmMjczWVZfRWVBVjU3UThuRGV6VDdqRlE5MXI1Y3NiYVJlVFozU0FpajhnUWJuZzdNWXh0THdCaDQ0YlhvcTRGTnlR?oc=5",
-     "time": "2026-11-25T01:31:31+00:00"
-    },
-    {
-     "title": "AXON Nov 2026 225.000 put (AXON261127P00225000) stock price, news, quote and history",
-     "publisher": "Yahoo Finance Australia",
-     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5pM1ZMaVpiQkRITFE5b3pqOVpYOG81SEktSW5ld3NRXzF2MXBadUhZYjlmZzJyMUZkeEZnNzZGaVpqaXpEb3JKZGJrQThOdU9MLWtfNFU5cEpSQ0gxLXBOcUtEUWhSUQ?oc=5",
-     "time": "2026-11-24T22:36:18+00:00"
-    }
-   ],
-   "brief": null
-  },
-  {
    "symbol": "CRWD",
    "name": "CrowdStrike",
    "list": "portfolio",
-   "price": 201.1,
+   "price": 200.43,
    "prev_close": 210.86,
-   "change_pct": -4.6,
+   "change_pct": -4.9,
    "trigger_change": -3.1,
    "peak_change": -7.4,
    "first_seen": "2026-11-25T14:56:37+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 93.71,
-    "change_pct": -1.72
+    "price": 93.46,
+    "change_pct": -1.98
    },
    "chart": {
-    "ema8": -7.8,
-    "ema21": -11.9,
-    "sma50": -17.9,
-    "sma200": 13.1,
+    "ema8": -8.1,
+    "ema21": -12.2,
+    "sma50": -18.2,
+    "sma200": 12.7,
     "momentum": false
    },
    "headlines": [
@@ -471,26 +396,101 @@
    "brief": "2026-11-25-CRWD"
   },
   {
+   "symbol": "AXON",
+   "name": "Axon",
+   "list": "watchlist",
+   "price": 334.87,
+   "prev_close": 319.32,
+   "change_pct": 4.9,
+   "trigger_change": 4.8,
+   "peak_change": 5.4,
+   "first_seen": "2026-11-25T17:11:02+00:00",
+   "sector": {
+    "etf": "XLI",
+    "name": "Industrials",
+    "price": 160.93,
+    "change_pct": -0.42
+   },
+   "chart": {
+    "ema8": 5.8,
+    "ema21": -1.2,
+    "sma50": -14.1,
+    "sma200": -27.4,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "AXON Nov 2026 297.500 put (AXON261127P00297500) Interactive Stock Chart - Yahoo Finance",
+     "publisher": "Yahoo! Finance Canada",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9paWxjQlpLaUZTOXkwOHlsNG1DUXVXNDVHcnhYd1RmTFBHNk9NZmRQcFpJTGtvbWlXM2ZxLXNOUkxlWEEwOHJ3ak91dHFiVkRXbUtaUXVqelR4emhqSHc0c1FKb3FHZUowYk1Sa1pR?oc=5",
+     "time": "2026-11-25T11:06:23+00:00"
+    },
+    {
+     "title": "AXON Nov 2026 250.000 put (AXON261127P00250000) Stock Price, News, Quote & History",
+     "publisher": "Yahoo! Finance Canada",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1tZC1lNTV5MGh4M0JoaE82TWJpazk3eEdHdjZsclFPOVMxb3RfNkFsRmY5UUNlRE5zd05sRlVyeFRPSi10WEVqazFEYnozWlNDVGM0aV9vdGtiTzhlVmF4X0xPa283QQ?oc=5",
+     "time": "2026-11-25T09:56:37+00:00"
+    },
+    {
+     "title": "167,896 Axon Enterprise, Inc $AXON Shares Sold by Rothschild Investment LLC",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPYVJGTENjNG9TRHg0d3VoQXhXdVpWQWxOWTdnYkdZWmtON2NrQTdDNlVmQ1hlTnJMWk9fUEFqanNaQ183SUlfcHlpdFlNeml6amp4YUpOOWNqb0Q5MnI5V1FmRF9ockdFRW1TRkhaTVdJQmNVTHNiRXZkbU83YlJzZWRBUjh3bWJGb1ZMU3JkSEVXLUMwemoyTTh1RHhldF9sWGxmVHA5Ti1SMXhfS1R2d21IYjNjQ3hyazJlVFdWU05KWnFyMXdTMHdjWDBGZw?oc=5",
+     "time": "2026-11-25T09:41:24+00:00"
+    },
+    {
+     "title": "AXON Nov 2026 392.500 put (AXON261120P00392500) stock price, news, quote and history",
+     "publisher": "Yahoo Finance UK",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE52WFBaWHhlWEhsVG9ubkoya0gxN0l5VGh1elN6Y2xfYXVoMVFVOUdYQ2Rha050SVJtQ1JPX1lHdTNYNjdNMG9JdElXZlpWTTdUT0NrWWhNS1dtVzJwNzVsZkZDRTVGQQ?oc=5",
+     "time": "2026-11-25T04:53:18+00:00"
+    },
+    {
+     "title": "AXON Jun 2027 290.000 call (AXON270617C00290000) stock price, news, quote and history",
+     "publisher": "Yahoo Finance UK",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5NVlhXY3BZaWdwSFpTU0N2Sl9KcWpPQ2NfakQ4QmhFeUJPbklQcmNRX3ZaNkVDS0J5SjhmT1JnT0s4X2pfWTNDazI2dnRPUWdpcUZOYjlKQkF3c1p1Z2JNV252VE4tZw?oc=5",
+     "time": "2026-11-25T03:23:35+00:00"
+    },
+    {
+     "title": "AXON Nov 2026 295.000 call (AXON261127C00295000) stock price, news, quote and history",
+     "publisher": "Yahoo Finance Singapore",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1VZkd4R3NVOUphbnRzSF9rejJqX3ZnMWVfdWVwcnFnOXhXcEY5a2Voa1d1QXFzRDFFazZ3eGJvbGFEVHlIRFNFRGREMm91R1dCaC1YWlhEdnZwRjRKc1NfUGJNMFNMZw?oc=5",
+     "time": "2026-11-25T03:08:44+00:00"
+    },
+    {
+     "title": "AXON Dec 2026 390.000 call (AXON261204C00390000) interactive stock chart",
+     "publisher": "Yahoo Finance Australia",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA2X0hGUG92Y2o3RjZFSG5NQnRVOGlnV3R0Z2F3MVZSaFptaDBmMjczWVZfRWVBVjU3UThuRGV6VDdqRlE5MXI1Y3NiYVJlVFozU0FpajhnUWJuZzdNWXh0THdCaDQ0YlhvcTRGTnlR?oc=5",
+     "time": "2026-11-25T01:31:31+00:00"
+    },
+    {
+     "title": "AXON Nov 2026 225.000 put (AXON261127P00225000) stock price, news, quote and history",
+     "publisher": "Yahoo Finance Australia",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5pM1ZMaVpiQkRITFE5b3pqOVpYOG81SEktSW5ld3NRXzF2MXBadUhZYjlmZzJyMUZkeEZnNzZGaVpqaXpEb3JKZGJrQThOdU9MLWtfNFU5cEpSQ0gxLXBOcUtEUWhSUQ?oc=5",
+     "time": "2026-11-24T22:36:18+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
    "symbol": "AVGO",
    "name": "Broadcom",
    "list": "portfolio",
-   "price": 287.5,
+   "price": 288.8,
    "prev_close": 301.08,
-   "change_pct": -4.5,
+   "change_pct": -4.1,
    "trigger_change": -5.1,
    "peak_change": -6.3,
    "first_seen": "2026-11-25T14:56:37+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 406.37,
-    "change_pct": -4.78
+    "price": 407.89,
+    "change_pct": -4.42
    },
    "chart": {
-    "ema8": -8.8,
-    "ema21": -11.9,
-    "sma50": -15.5,
-    "sma200": -21.7,
+    "ema8": -8.5,
+    "ema21": -11.6,
+    "sma50": -15.1,
+    "sma200": -21.4,
     "momentum": false
    },
    "headlines": [
@@ -549,23 +549,23 @@
    "symbol": "AMZN",
    "name": "Amazon",
    "list": "portfolio",
-   "price": 243.21,
+   "price": 243.48,
    "prev_close": 252.29,
-   "change_pct": -3.6,
+   "change_pct": -3.5,
    "trigger_change": -5.0,
    "peak_change": -6.1,
    "first_seen": "2026-11-25T14:56:37+00:00",
    "sector": {
     "etf": "XLY",
     "name": "Consumer discr.",
-    "price": 116.89,
-    "change_pct": -0.71
+    "price": 116.5,
+    "change_pct": -1.04
    },
    "chart": {
-    "ema8": -4.1,
-    "ema21": -5.1,
-    "sma50": -4.7,
-    "sma200": -1.0,
+    "ema8": -4.0,
+    "ema21": -5.0,
+    "sma50": -4.6,
+    "sma200": -0.9,
     "momentum": false
    },
    "headlines": [
@@ -624,23 +624,23 @@
    "symbol": "GOOG",
    "name": "Alphabet",
    "list": "portfolio",
-   "price": 266.73,
+   "price": 267.76,
    "prev_close": 276.58,
-   "change_pct": -3.6,
+   "change_pct": -3.2,
    "trigger_change": -4.2,
    "peak_change": -4.9,
    "first_seen": "2026-11-25T14:56:37+00:00",
    "sector": {
     "etf": "XLC",
     "name": "Communication",
-    "price": 104.43,
-    "change_pct": -0.02
+    "price": 104.19,
+    "change_pct": -0.25
    },
    "chart": {
-    "ema8": -3.1,
-    "ema21": -6.9,
-    "sma50": -15.4,
-    "sma200": -20.2,
+    "ema8": -2.8,
+    "ema21": -6.6,
+    "sma50": -15.1,
+    "sma200": -19.9,
     "momentum": false
    },
    "headlines": [
@@ -699,23 +699,23 @@
    "symbol": "APP",
    "name": "AppLovin",
    "list": "portfolio",
-   "price": 374.0,
+   "price": 374.58,
    "prev_close": 381.11,
-   "change_pct": -1.9,
+   "change_pct": -1.7,
    "trigger_change": -4.5,
    "peak_change": -5.8,
    "first_seen": "2026-11-25T14:56:37+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 93.71,
-    "change_pct": -1.72
+    "price": 93.46,
+    "change_pct": -1.98
    },
    "chart": {
-    "ema8": -0.7,
-    "ema21": 5.0,
-    "sma50": 19.9,
-    "sma200": -7.3,
+    "ema8": -0.6,
+    "ema21": 5.2,
+    "sma50": 20.1,
+    "sma200": -7.2,
     "momentum": true
    },
    "headlines": [
@@ -846,21 +846,96 @@
    "brief": "2026-11-25-SOFI"
   },
   {
+   "symbol": "NOW",
+   "name": "ServiceNow",
+   "list": "portfolio",
+   "price": 90.92,
+   "prev_close": 91.74,
+   "change_pct": -0.9,
+   "trigger_change": -3.2,
+   "peak_change": -3.3,
+   "first_seen": "2026-11-25T14:56:37+00:00",
+   "sector": {
+    "etf": "IGV",
+    "name": "Software",
+    "price": 93.46,
+    "change_pct": -1.98
+   },
+   "chart": {
+    "ema8": -2.2,
+    "ema21": -12.1,
+    "sma50": -27.2,
+    "sma200": -19.6,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "SPSL Stock Discussion and Investor Sentiment - Sitara Petroleum Service Ltd",
+     "publisher": "Investify",
+     "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9BZ2JvYUFUSFlWRVJRM3g4b1R5U2tKRWNuX2FEeHAxMV9sXzQ5Nzg4dVBQTi1kSVI0V1FPeFZrY1pNTFNSTFVrY1UzTFlCR3RmOHNMQ0dtMG5XZkVh?oc=5",
+     "time": "2026-11-25T14:04:34+00:00"
+    },
+    {
+     "title": "Coca-Cola Europacific Partners (NASDAQ:CCEP) Stock Gets Price Target Boost from JPMorgan Chase & Co.",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOVU41RXcwdXhVaGlBNWZXaVp6Ym8xMFRjdllGamNBcEZPYjhlRE5Zc2tMbjNCSE82MklGRWVsZ3Fpc3hCSC1BcmxRMmJ4ZV9FRDRxeXM4NTd5R0JheWthZ01hMl8wdldPd0o4cWNzdXpUMHkxa2xVX0FCajlpNG1FdjU1bWxhbkJkNkZKUk5SZE1YNGZMd2kxLWRsd3FGU0JjbEYwRlJHMzNXYkNYOWxvU2FkRDBLbHk2aEp5M0c4LXpZNkVvdm40U0s4bUVXb1V4ZHNZTlg1Vm5WanMxV0x4U0phUDRkYXBoTjVGekh3?oc=5",
+     "time": "2026-11-25T13:27:36+00:00"
+    },
+    {
+     "title": "ServiceNow's AI Story Now Hinges on Proof From Live Operations, Not Stage Demos",
+     "publisher": "ad-hoc-news.de",
+     "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOSnVOT29sNE1DcURlNWpzYTlyNi1wUVBMUFk1QXlmNi1wWEVLZ3pFeXAxMVpOVENXYnJ2aFJ4ZlB5UmNvdEZ2Z0hvLWxRVWVZcmRZTmtqaUF1ZTZ6U2R4ME1oR2J3RHE0eXFHeVNlSW1JaTY3S29oQWhRdi1pZkg2amdNd2dsTWNCSjBrY1hycGhoZmV2b3kxT19PMDI5b2s2ZzlZcXJuT2RSNzZsWTRZOXNoLVBLYV92aXY5UmxMcFhSLW16bURubi1VV0FWbTNoR0h6MmF4MmtKYmFJek96ZVk4bC0?oc=5",
+     "time": "2026-11-25T12:40:56+00:00"
+    },
+    {
+     "title": "A new online attack service draws on partner data centers in every major region.",
+     "publisher": "Stock Titan",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNWkxNR3lZaHM0YUdYVWNNdmhGMjMydjV2TUdNZnZkeXgxSXBvNTRucTN4UWdKaDJmX3FwUjNMNFlMaWduc1NzQWZvTDdLeGJCN2dSczF4em5ZV0xXVDQwMzFFT1pySFNGUWpNcjBsamdieHNhb1ZybnhoVFVqSS0yRVIwQkhseGRub1Y1cGJ0X19GSmtBNzVpckw0V2dnRGI5a1lZc0wweVI5MDJXV2NNYXJJX3FIUWZFREtKdXlsNXQ?oc=5",
+     "time": "2026-11-25T12:00:00+00:00"
+    },
+    {
+     "title": "Fox Corporation $FOXA Stock: Marshall Wace LLP Trims Stake",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOV0xScDJadU9KbDBfSm5Rdy1YeGFTR2J0MlBTdnFBTThCaWdZOHZXNDRuWEpEOTZIV2U5MDhSOWRpY1NMUFdPck5DY1JKbjdRd3Q0YjRnU1VSTEdiVEFrYWtSejdxdnI3Unl4N3o1bTVSeVowazVzOXYzX2FnRVZZUXRBUGlXbF9laU1Rb045eDRyVVRoNlUzSDFhVHhjNkVLSm9QbEFpd3Q0bHlmai1TMnIydkRKS3Ja?oc=5",
+     "time": "2026-11-25T11:31:04+00:00"
+    },
+    {
+     "title": "Salesforce Is 28% Off Its High: Why Guggenheim Still Sees 55% Upside Ahead of Earnings",
+     "publisher": "TIKR.com",
+     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPWmw3TVB0UXEwem5GVC10R0ExQm4yX0xaS1ZjS3hvSTBNSk1rR0plNFJxQkdTSl9iV0txcHRSSk1Ma05xVnNuVUVtcFNIQUo0QU83a3JpTXQtVEItbldEcmF3Umw5UHFudy1PN3BEeEFPM3prSHhpV2VkanYwMjdvS1ZkNVc3bGRmcmF2TFZmQ1o0Nml2MkwzcVZISWQzTm8wZ2pBUzR4VDJZX3V3S0pMVFhlOTh5dWdHcVAyQlh5cw?oc=5",
+     "time": "2026-11-25T11:03:45+00:00"
+    },
+    {
+     "title": "AI is crushing software stocks \u2014 and a debt wall looms: Chart of the Day",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPRUhKczlUa1hBaTFyQktnQ1E4X2RLYUlCT3l2dGtsY1otZjdRN2MzU2duNkNHcVJYaHNxME00WUd3QUdReUVQaktPeXFlcGZfenhVUmwwQ2c2YjVEalhpYmhnelBsV0tYQzNnbnRfc0FBQ3ljOU9FdUxYQXBldWRwMlNiOC1ybTFDWmxMRU9RYWxmSjJQejVSblEweWNYaHY3eThHdGJtbDR4TWUtV1AwOEtzSXRjWGhlMXNyUkVWQWJqOUFCMVE?oc=5",
+     "time": "2026-11-25T11:00:00+00:00"
+    },
+    {
+     "title": "ServiceNow, Inc. $NOW Shares Sold by First Trust Advisors LP",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQY0IxT2xvTkR2RWh5YTFIbkotQndBbllEaUZQQkVPZFRRTC1mRThjSGlrSHRUMkZIZC1ZcVVqSTZ4Nnp5dTE5SGZrRERkVTc5ejJQeDJldUZmWHRyWVFEQTdhMkVWT0dIZVpuT2gwMzhPWlZBWHhNSzZEZjlTTzg3SWdIVVo5bzNINVEtdTIzNGNRdGtpOE56Y2drQ2M1ampLVUpJTlJCNkdmckI5UHpCRFBubXZJcmx5R0E?oc=5",
+     "time": "2026-11-25T08:40:20+00:00"
+    }
+   ],
+   "brief": "2026-11-25-NOW"
+  },
+  {
    "symbol": "BTC-USD",
    "name": "Bitcoin",
    "list": "watchlist",
-   "price": 59384.6,
+   "price": 59266.8,
    "prev_close": 59741.2,
-   "change_pct": -0.6,
+   "change_pct": -0.8,
    "trigger_change": -3.0,
    "peak_change": -3.3,
    "first_seen": "2026-11-25T14:56:37+00:00",
    "sector": null,
    "chart": {
-    "ema8": -3.1,
-    "ema21": -10.2,
-    "sma50": -20.9,
-    "sma200": -17.5,
+    "ema8": -3.3,
+    "ema21": -10.3,
+    "sma50": -21.1,
+    "sma200": -17.7,
     "momentum": false
    },
    "headlines": [
@@ -919,7 +994,7 @@
    "symbol": "MELI",
    "name": "MercadoLibre",
    "list": "watchlist",
-   "price": 1441.81,
+   "price": 1441.09,
    "prev_close": 1450.31,
    "change_pct": -0.6,
    "trigger_change": -3.0,
@@ -928,13 +1003,13 @@
    "sector": {
     "etf": "XLY",
     "name": "Consumer discr.",
-    "price": 116.89,
-    "change_pct": -0.71
+    "price": 116.5,
+    "change_pct": -1.04
    },
    "chart": {
-    "ema8": 0.4,
+    "ema8": 0.3,
     "ema21": -5.0,
-    "sma50": -14.4,
+    "sma50": -14.5,
     "sma200": -18.0,
     "momentum": false
    },
@@ -989,81 +1064,6 @@
     }
    ],
    "brief": null
-  },
-  {
-   "symbol": "NOW",
-   "name": "ServiceNow",
-   "list": "portfolio",
-   "price": 91.26,
-   "prev_close": 91.74,
-   "change_pct": -0.5,
-   "trigger_change": -3.2,
-   "peak_change": -3.3,
-   "first_seen": "2026-11-25T14:56:37+00:00",
-   "sector": {
-    "etf": "IGV",
-    "name": "Software",
-    "price": 93.71,
-    "change_pct": -1.72
-   },
-   "chart": {
-    "ema8": -1.9,
-    "ema21": -11.8,
-    "sma50": -26.9,
-    "sma200": -19.3,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "SPSL Stock Discussion and Investor Sentiment - Sitara Petroleum Service Ltd",
-     "publisher": "Investify",
-     "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9BZ2JvYUFUSFlWRVJRM3g4b1R5U2tKRWNuX2FEeHAxMV9sXzQ5Nzg4dVBQTi1kSVI0V1FPeFZrY1pNTFNSTFVrY1UzTFlCR3RmOHNMQ0dtMG5XZkVh?oc=5",
-     "time": "2026-11-25T14:04:34+00:00"
-    },
-    {
-     "title": "Coca-Cola Europacific Partners (NASDAQ:CCEP) Stock Gets Price Target Boost from JPMorgan Chase & Co.",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOVU41RXcwdXhVaGlBNWZXaVp6Ym8xMFRjdllGamNBcEZPYjhlRE5Zc2tMbjNCSE82MklGRWVsZ3Fpc3hCSC1BcmxRMmJ4ZV9FRDRxeXM4NTd5R0JheWthZ01hMl8wdldPd0o4cWNzdXpUMHkxa2xVX0FCajlpNG1FdjU1bWxhbkJkNkZKUk5SZE1YNGZMd2kxLWRsd3FGU0JjbEYwRlJHMzNXYkNYOWxvU2FkRDBLbHk2aEp5M0c4LXpZNkVvdm40U0s4bUVXb1V4ZHNZTlg1Vm5WanMxV0x4U0phUDRkYXBoTjVGekh3?oc=5",
-     "time": "2026-11-25T13:27:36+00:00"
-    },
-    {
-     "title": "ServiceNow's AI Story Now Hinges on Proof From Live Operations, Not Stage Demos",
-     "publisher": "ad-hoc-news.de",
-     "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOSnVOT29sNE1DcURlNWpzYTlyNi1wUVBMUFk1QXlmNi1wWEVLZ3pFeXAxMVpOVENXYnJ2aFJ4ZlB5UmNvdEZ2Z0hvLWxRVWVZcmRZTmtqaUF1ZTZ6U2R4ME1oR2J3RHE0eXFHeVNlSW1JaTY3S29oQWhRdi1pZkg2amdNd2dsTWNCSjBrY1hycGhoZmV2b3kxT19PMDI5b2s2ZzlZcXJuT2RSNzZsWTRZOXNoLVBLYV92aXY5UmxMcFhSLW16bURubi1VV0FWbTNoR0h6MmF4MmtKYmFJek96ZVk4bC0?oc=5",
-     "time": "2026-11-25T12:40:56+00:00"
-    },
-    {
-     "title": "A new online attack service draws on partner data centers in every major region.",
-     "publisher": "Stock Titan",
-     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNWkxNR3lZaHM0YUdYVWNNdmhGMjMydjV2TUdNZnZkeXgxSXBvNTRucTN4UWdKaDJmX3FwUjNMNFlMaWduc1NzQWZvTDdLeGJCN2dSczF4em5ZV0xXVDQwMzFFT1pySFNGUWpNcjBsamdieHNhb1ZybnhoVFVqSS0yRVIwQkhseGRub1Y1cGJ0X19GSmtBNzVpckw0V2dnRGI5a1lZc0wweVI5MDJXV2NNYXJJX3FIUWZFREtKdXlsNXQ?oc=5",
-     "time": "2026-11-25T12:00:00+00:00"
-    },
-    {
-     "title": "Fox Corporation $FOXA Stock: Marshall Wace LLP Trims Stake",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOV0xScDJadU9KbDBfSm5Rdy1YeGFTR2J0MlBTdnFBTThCaWdZOHZXNDRuWEpEOTZIV2U5MDhSOWRpY1NMUFdPck5DY1JKbjdRd3Q0YjRnU1VSTEdiVEFrYWtSejdxdnI3Unl4N3o1bTVSeVowazVzOXYzX2FnRVZZUXRBUGlXbF9laU1Rb045eDRyVVRoNlUzSDFhVHhjNkVLSm9QbEFpd3Q0bHlmai1TMnIydkRKS3Ja?oc=5",
-     "time": "2026-11-25T11:31:04+00:00"
-    },
-    {
-     "title": "Salesforce Is 28% Off Its High: Why Guggenheim Still Sees 55% Upside Ahead of Earnings",
-     "publisher": "TIKR.com",
-     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPWmw3TVB0UXEwem5GVC10R0ExQm4yX0xaS1ZjS3hvSTBNSk1rR0plNFJxQkdTSl9iV0txcHRSSk1Ma05xVnNuVUVtcFNIQUo0QU83a3JpTXQtVEItbldEcmF3Umw5UHFudy1PN3BEeEFPM3prSHhpV2VkanYwMjdvS1ZkNVc3bGRmcmF2TFZmQ1o0Nml2MkwzcVZISWQzTm8wZ2pBUzR4VDJZX3V3S0pMVFhlOTh5dWdHcVAyQlh5cw?oc=5",
-     "time": "2026-11-25T11:03:45+00:00"
-    },
-    {
-     "title": "AI is crushing software stocks \u2014 and a debt wall looms: Chart of the Day",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPRUhKczlUa1hBaTFyQktnQ1E4X2RLYUlCT3l2dGtsY1otZjdRN2MzU2duNkNHcVJYaHNxME00WUd3QUdReUVQaktPeXFlcGZfenhVUmwwQ2c2YjVEalhpYmhnelBsV0tYQzNnbnRfc0FBQ3ljOU9FdUxYQXBldWRwMlNiOC1ybTFDWmxMRU9RYWxmSjJQejVSblEweWNYaHY3eThHdGJtbDR4TWUtV1AwOEtzSXRjWGhlMXNyUkVWQWJqOUFCMVE?oc=5",
-     "time": "2026-11-25T11:00:00+00:00"
-    },
-    {
-     "title": "ServiceNow, Inc. $NOW Shares Sold by First Trust Advisors LP",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQY0IxT2xvTkR2RWh5YTFIbkotQndBbllEaUZQQkVPZFRRTC1mRThjSGlrSHRUMkZIZC1ZcVVqSTZ4Nnp5dTE5SGZrRERkVTc5ejJQeDJldUZmWHRyWVFEQTdhMkVWT0dIZVpuT2gwMzhPWlZBWHhNSzZEZjlTTzg3SWdIVVo5bzNINVEtdTIzNGNRdGtpOE56Y2drQ2M1ampLVUpJTlJCNkdmckI5UHpCRFBubXZJcmx5R0E?oc=5",
-     "time": "2026-11-25T08:40:20+00:00"
-    }
-   ],
-   "brief": "2026-11-25-NOW"
   }
  ]
 }
