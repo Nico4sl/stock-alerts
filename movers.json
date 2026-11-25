@@ -1,121 +1,46 @@
 {
  "date": "2026-11-25",
  "threshold": 3.0,
- "updated": "2026-11-25T20:37:33+00:00",
+ "updated": "2026-11-25T20:42:32+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 713.81,
-   "change_pct": -0.69
+   "price": 714.46,
+   "change_pct": -0.6
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 629.23,
-   "change_pct": -1.39
+   "price": 630.11,
+   "change_pct": -1.25
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 82.37,
-   "change_pct": 1.08
+   "price": 82.39,
+   "change_pct": 1.1
   }
  },
  "movers": [
   {
-   "symbol": "AMAT",
-   "name": "Applied Materials",
-   "list": "portfolio",
-   "price": 303.1,
-   "prev_close": 323.76,
-   "change_pct": -6.4,
-   "trigger_change": -7.5,
-   "peak_change": -10.2,
-   "first_seen": "2026-11-25T14:56:37+00:00",
-   "sector": {
-    "etf": "SMH",
-    "name": "Semiconductors",
-    "price": 415.44,
-    "change_pct": -2.65
-   },
-   "chart": {
-    "ema8": -8.7,
-    "ema21": -15.6,
-    "sma50": -27.8,
-    "sma200": -32.2,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Applied Materials Keeps Sliding: Why UBS Still Sees 94% Upside",
-     "publisher": "TIKR.com",
-     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxONjctYzYzV0hNUnpLMnN0MmNwMUJEOC1ZY2JNMjdtM0dmajh3X2FJTEtjVGJpMl9uMEMzSk1lQkZWX184aTduR1lQZkExYUxHdVRPYzhBWldTUkhyY3BBSFV1M3ZMM1d6Rk1yRExwcXNJaS15WDJsZWpsOWZSRldoejVycGtuNUR1bHJTTldIWTdqRHl4RnpBRkJZTUYyQ1ZqY2V3OWNNSE5BdE1GOWFKQmJUenVJbzYwLUdZTzV6YUplN09RTkE?oc=5",
-     "time": "2026-11-25T18:13:17+00:00"
-    },
-    {
-     "title": "Applied Materials Stocks Fall 7.98% as MATCH Act Fight Rattles Chip Toolmakers",
-     "publisher": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPN3dLWVFNejhrMFpCc1NjY3hBUkwyUy1wRFB6eEFFUTBXMElndjZVLU1KdlRWdExMeWZPVnU0NFFPVU5pMktGZmhRLVVXX3NxWl9Db2FEaldSa3JlVzc0WjdXVzhIN0FSbm9fdm9PWlZFVUd6VzVmNUdXUFpOWlZwcFF3R2txZFVoRUk1eE9DVllDcUhVdlRxT2dFSGN1VzdnaTJzblJxSVAzNUJfOXB6ZVdJU2d6V0o2cXd6aHJtYzRTbmtBbTg5MG9zWGJPS2hLN1JZ?oc=5",
-     "time": "2026-11-25T17:40:57+00:00"
-    },
-    {
-     "title": "Jim Cramer tells investors to buy beaten-down chip stock down 53%",
-     "publisher": "Yahoo Finance Singapore",
-     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNOWh4d2tpd1FQYlVwSWZ6bUpVX0FYUElIN2M3OTFkenp3Y1NvSVZvZ2tVQmV3dDdGcTdIQUl0cHFMb2xhNzlESnBvVXJUbXVBblUzSjh3TF8zNmR4UElDdVk5T1RMUjB6WGF6dWtKN2tCMDAxcC04dUxxdG1sNnVta2lROUZ2dw?oc=5",
-     "time": "2026-11-25T15:17:00+00:00"
-    },
-    {
-     "title": "SiTime, Vishay Intertechnology, Onto Innovation, Applied Materials, and AMD shares are falling, what you need to know",
-     "publisher": "The Globe and Mail",
-     "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxNUmFHVExVY2FNbFFfWUZnVXRwZFFlaVhnc3NhSXEwU2NxVHk2RmMtcHNHLURGSFNEWHc0UjRoWUYyQmF0aFpBTkdOaG5wUkx6ZlFPMC0yWmI0RnZkMG4xNUpUSFBVaWlDVDN3a09YNzJsMmExZ2JxbjdEY1J6aXhQRUUzSERrN2sxeUVYMmpLc2RoNXF1dS00bzZOMHZqNzRBYnV3OWhld292aUwyVHhWNURaeFluc1hhWVBzZlJ0YTA4cWlLYXRVVkkyY3ZXVFZSNFR4MlpZU21ac1pkQWxTSnk5c25JNUN3X3llcERlZUM3QlppYUY0Z25pODlZOV9zRkc5dXpQUmh6VTVDMlJvcldnZmJIY3Uyc21PQWZYNEUyNUE?oc=5",
-     "time": "2026-11-25T14:31:10+00:00"
-    },
-    {
-     "title": "UBS Adjusts Price Target on Applied Materials to $575 From $640, Maintains Buy Rating",
-     "publisher": "marketscreener.com",
-     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPUVRiR3lsUmFqbmJKUlJqVVA3VDRlLXdacmowTjZMQU5oN3pldS1vWWV6c0RtbURtZ25FbTMwNlZnRUZvM0dIdmx5SmlGT2hnaGlkZUNzUnBVLWU0TGxISnE1MlNQUVVhMl9GZlh1UUlIRXF0N2NRY19pSEZuOEk5djFrZHNaemxVZXB2YUJHMDkxRHZLN25KblRhUThMY3JIRUZBbWVUR2VyTkN4emFZanpPQ3hJdWNpQnlrdXBNYXoySHZqc1Z3N29oUE5zLUk0?oc=5",
-     "time": "2026-11-25T14:25:17+00:00"
-    },
-    {
-     "title": "Applied Materials (AMAT) Stock Sees Fair Value Cut As Analysts Trim Targets",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOUjBIeEhhQnBqUmpqX2dSSGVzRm5PUEpnb1JuVjU1b21WR0FwMi1HbGFRaURKdW1kd0VUZUJMNWtxczJjOElELUQtYmlkbEpxdWRmbzFILTJBSTNKdmc5eEpRZm9TQ0tpVmVzZDlFbU1rb2tTdXZ1MWtVdWctUHF2aVFKWmVzMzJVQ1Q0MmlwNFNxZWNLSHJNRWhlV09aeUU?oc=5",
-     "time": "2026-11-25T12:13:30+00:00"
-    },
-    {
-     "title": "ASML Dips Premarket Amid Chip Rout: Dutch Lawmakers Push Back On Proposed US Curbs On Sales To China",
-     "publisher": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxObXI3WWhfNDN4aUxKdlBXNVNHd215MTZzOWN2Q1AtbUk5Y1NOQUpRQUhoT0dYSkJ2bUNCUXoteUxUUlBaZ25xVVphU3lCdi1pQjhpYVlSQ3h4eG9KaU1JQmN2YlZhVy1zMDRUT1ZtVFlsSTRaeUxpSjkwMWlsSGN6bUY5Y3lYa085S29uczhpU0NFelJVaW9iWFo5ZGZKRlIyaEhxMEdkemNYMVhGdnJKSmhtUkY4b3p3TnFpOUxzX0xKTG5jWDNIVll6cVNYN2U1TldWSlVSN1ZkZFBxeGZ1d2QzSmhvaGZpYXRhcF82TVJLdw?oc=5",
-     "time": "2026-11-25T09:25:35+00:00"
-    },
-    {
-     "title": "Lam Research (LRCX) Stock Price Prediction: Pullback tests key support as bullish analyst targets collide with weak near-term momentum",
-     "publisher": "Blockchain News",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPamFJV1hlZGx0RUJUelVTNFVFZW5ITHVESndKWmN3ODJ0SURGSEZpX1kxazhxT1A3bUFybHI1c2xmWHFFUlpzY09vVUw1b25odlpNbS1BanJSOTRWMWlleVlnS2JMRlkwWDVHQmtudEM5aUI2aktJUFNaRUh1VVFDNFRTV0U2MWtPb3VLLVJRUW11bkJReXp1bzgzT1RQUQ?oc=5",
-     "time": "2026-11-25T08:28:00+00:00"
-    }
-   ],
-   "brief": "2026-11-25-AMAT"
-  },
-  {
    "symbol": "AXON",
    "name": "Axon",
    "list": "watchlist",
-   "price": 338.47,
+   "price": 340.95,
    "prev_close": 319.32,
-   "change_pct": 6.0,
+   "change_pct": 6.8,
    "trigger_change": 4.8,
    "peak_change": 8.6,
    "first_seen": "2026-11-25T17:11:02+00:00",
    "sector": {
     "etf": "XLI",
     "name": "Industrials",
-    "price": 162.47,
-    "change_pct": 0.54
+    "price": 162.73,
+    "change_pct": 0.69
    },
    "chart": {
-    "ema8": 6.7,
-    "ema21": -0.2,
-    "sma50": -13.2,
-    "sma200": -26.6,
+    "ema8": 7.3,
+    "ema21": 0.4,
+    "sma50": -12.5,
+    "sma200": -26.1,
     "momentum": false
    },
    "headlines": [
@@ -171,26 +96,101 @@
    "brief": "2026-11-25-AXON"
   },
   {
+   "symbol": "AMAT",
+   "name": "Applied Materials",
+   "list": "portfolio",
+   "price": 303.47,
+   "prev_close": 323.76,
+   "change_pct": -6.3,
+   "trigger_change": -7.5,
+   "peak_change": -10.2,
+   "first_seen": "2026-11-25T14:56:37+00:00",
+   "sector": {
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 416.46,
+    "change_pct": -2.41
+   },
+   "chart": {
+    "ema8": -8.6,
+    "ema21": -15.5,
+    "sma50": -27.7,
+    "sma200": -32.1,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Applied Materials Keeps Sliding: Why UBS Still Sees 94% Upside",
+     "publisher": "TIKR.com",
+     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxONjctYzYzV0hNUnpLMnN0MmNwMUJEOC1ZY2JNMjdtM0dmajh3X2FJTEtjVGJpMl9uMEMzSk1lQkZWX184aTduR1lQZkExYUxHdVRPYzhBWldTUkhyY3BBSFV1M3ZMM1d6Rk1yRExwcXNJaS15WDJsZWpsOWZSRldoejVycGtuNUR1bHJTTldIWTdqRHl4RnpBRkJZTUYyQ1ZqY2V3OWNNSE5BdE1GOWFKQmJUenVJbzYwLUdZTzV6YUplN09RTkE?oc=5",
+     "time": "2026-11-25T18:13:17+00:00"
+    },
+    {
+     "title": "Applied Materials Stocks Fall 7.98% as MATCH Act Fight Rattles Chip Toolmakers",
+     "publisher": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPN3dLWVFNejhrMFpCc1NjY3hBUkwyUy1wRFB6eEFFUTBXMElndjZVLU1KdlRWdExMeWZPVnU0NFFPVU5pMktGZmhRLVVXX3NxWl9Db2FEaldSa3JlVzc0WjdXVzhIN0FSbm9fdm9PWlZFVUd6VzVmNUdXUFpOWlZwcFF3R2txZFVoRUk1eE9DVllDcUhVdlRxT2dFSGN1VzdnaTJzblJxSVAzNUJfOXB6ZVdJU2d6V0o2cXd6aHJtYzRTbmtBbTg5MG9zWGJPS2hLN1JZ?oc=5",
+     "time": "2026-11-25T17:40:57+00:00"
+    },
+    {
+     "title": "Jim Cramer tells investors to buy beaten-down chip stock down 53%",
+     "publisher": "Yahoo Finance Singapore",
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNOWh4d2tpd1FQYlVwSWZ6bUpVX0FYUElIN2M3OTFkenp3Y1NvSVZvZ2tVQmV3dDdGcTdIQUl0cHFMb2xhNzlESnBvVXJUbXVBblUzSjh3TF8zNmR4UElDdVk5T1RMUjB6WGF6dWtKN2tCMDAxcC04dUxxdG1sNnVta2lROUZ2dw?oc=5",
+     "time": "2026-11-25T15:17:00+00:00"
+    },
+    {
+     "title": "SiTime, Vishay Intertechnology, Onto Innovation, Applied Materials, and AMD shares are falling, what you need to know",
+     "publisher": "The Globe and Mail",
+     "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxNUmFHVExVY2FNbFFfWUZnVXRwZFFlaVhnc3NhSXEwU2NxVHk2RmMtcHNHLURGSFNEWHc0UjRoWUYyQmF0aFpBTkdOaG5wUkx6ZlFPMC0yWmI0RnZkMG4xNUpUSFBVaWlDVDN3a09YNzJsMmExZ2JxbjdEY1J6aXhQRUUzSERrN2sxeUVYMmpLc2RoNXF1dS00bzZOMHZqNzRBYnV3OWhld292aUwyVHhWNURaeFluc1hhWVBzZlJ0YTA4cWlLYXRVVkkyY3ZXVFZSNFR4MlpZU21ac1pkQWxTSnk5c25JNUN3X3llcERlZUM3QlppYUY0Z25pODlZOV9zRkc5dXpQUmh6VTVDMlJvcldnZmJIY3Uyc21PQWZYNEUyNUE?oc=5",
+     "time": "2026-11-25T14:31:10+00:00"
+    },
+    {
+     "title": "UBS Adjusts Price Target on Applied Materials to $575 From $640, Maintains Buy Rating",
+     "publisher": "marketscreener.com",
+     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPUVRiR3lsUmFqbmJKUlJqVVA3VDRlLXdacmowTjZMQU5oN3pldS1vWWV6c0RtbURtZ25FbTMwNlZnRUZvM0dIdmx5SmlGT2hnaGlkZUNzUnBVLWU0TGxISnE1MlNQUVVhMl9GZlh1UUlIRXF0N2NRY19pSEZuOEk5djFrZHNaemxVZXB2YUJHMDkxRHZLN25KblRhUThMY3JIRUZBbWVUR2VyTkN4emFZanpPQ3hJdWNpQnlrdXBNYXoySHZqc1Z3N29oUE5zLUk0?oc=5",
+     "time": "2026-11-25T14:25:17+00:00"
+    },
+    {
+     "title": "Applied Materials (AMAT) Stock Sees Fair Value Cut As Analysts Trim Targets",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOUjBIeEhhQnBqUmpqX2dSSGVzRm5PUEpnb1JuVjU1b21WR0FwMi1HbGFRaURKdW1kd0VUZUJMNWtxczJjOElELUQtYmlkbEpxdWRmbzFILTJBSTNKdmc5eEpRZm9TQ0tpVmVzZDlFbU1rb2tTdXZ1MWtVdWctUHF2aVFKWmVzMzJVQ1Q0MmlwNFNxZWNLSHJNRWhlV09aeUU?oc=5",
+     "time": "2026-11-25T12:13:30+00:00"
+    },
+    {
+     "title": "ASML Dips Premarket Amid Chip Rout: Dutch Lawmakers Push Back On Proposed US Curbs On Sales To China",
+     "publisher": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxObXI3WWhfNDN4aUxKdlBXNVNHd215MTZzOWN2Q1AtbUk5Y1NOQUpRQUhoT0dYSkJ2bUNCUXoteUxUUlBaZ25xVVphU3lCdi1pQjhpYVlSQ3h4eG9KaU1JQmN2YlZhVy1zMDRUT1ZtVFlsSTRaeUxpSjkwMWlsSGN6bUY5Y3lYa085S29uczhpU0NFelJVaW9iWFo5ZGZKRlIyaEhxMEdkemNYMVhGdnJKSmhtUkY4b3p3TnFpOUxzX0xKTG5jWDNIVll6cVNYN2U1TldWSlVSN1ZkZFBxeGZ1d2QzSmhvaGZpYXRhcF82TVJLdw?oc=5",
+     "time": "2026-11-25T09:25:35+00:00"
+    },
+    {
+     "title": "Lam Research (LRCX) Stock Price Prediction: Pullback tests key support as bullish analyst targets collide with weak near-term momentum",
+     "publisher": "Blockchain News",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPamFJV1hlZGx0RUJUelVTNFVFZW5ITHVESndKWmN3ODJ0SURGSEZpX1kxazhxT1A3bUFybHI1c2xmWHFFUlpzY09vVUw1b25odlpNbS1BanJSOTRWMWlleVlnS2JMRlkwWDVHQmtudEM5aUI2aktJUFNaRUh1VVFDNFRTV0U2MWtPb3VLLVJRUW11bkJReXp1bzgzT1RQUQ?oc=5",
+     "time": "2026-11-25T08:28:00+00:00"
+    }
+   ],
+   "brief": "2026-11-25-AMAT"
+  },
+  {
    "symbol": "NVDA",
    "name": "Nvidia",
    "list": "portfolio",
-   "price": 147.32,
+   "price": 147.38,
    "prev_close": 155.38,
-   "change_pct": -5.2,
+   "change_pct": -5.1,
    "trigger_change": -7.2,
    "peak_change": -8.9,
    "first_seen": "2026-11-25T14:56:37+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 415.44,
-    "change_pct": -2.65
+    "price": 416.46,
+    "change_pct": -2.41
    },
    "chart": {
     "ema8": -4.1,
-    "ema21": -13.7,
+    "ema21": -13.6,
     "sma50": -27.6,
-    "sma200": -27.4,
+    "sma200": -27.3,
     "momentum": false
    },
    "headlines": [
@@ -249,23 +249,23 @@
    "symbol": "ANET",
    "name": "Arista Networks",
    "list": "portfolio",
-   "price": 163.17,
+   "price": 163.4,
    "prev_close": 168.56,
-   "change_pct": -3.2,
+   "change_pct": -3.1,
    "trigger_change": -5.7,
    "peak_change": -8.0,
    "first_seen": "2026-11-25T14:56:37+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 415.44,
-    "change_pct": -2.65
+    "price": 416.46,
+    "change_pct": -2.41
    },
    "chart": {
-    "ema8": -7.4,
-    "ema21": -10.0,
-    "sma50": -14.4,
-    "sma200": -3.5,
+    "ema8": -7.3,
+    "ema21": -9.9,
+    "sma50": -14.3,
+    "sma200": -3.3,
     "momentum": false
    },
    "headlines": [
@@ -324,7 +324,7 @@
    "symbol": "AMZN",
    "name": "Amazon",
    "list": "portfolio",
-   "price": 244.7,
+   "price": 244.8,
    "prev_close": 252.29,
    "change_pct": -3.0,
    "trigger_change": -5.0,
@@ -333,13 +333,13 @@
    "sector": {
     "etf": "XLY",
     "name": "Consumer discr.",
-    "price": 117.42,
-    "change_pct": -0.25
+    "price": 117.52,
+    "change_pct": -0.17
    },
    "chart": {
     "ema8": -3.6,
-    "ema21": -4.6,
-    "sma50": -4.1,
+    "ema21": -4.5,
+    "sma50": -4.0,
     "sma200": -0.4,
     "momentum": false
    },
@@ -396,101 +396,26 @@
    "brief": "2026-11-25-AMZN"
   },
   {
-   "symbol": "GOOG",
-   "name": "Alphabet",
-   "list": "portfolio",
-   "price": 269.69,
-   "prev_close": 276.58,
-   "change_pct": -2.5,
-   "trigger_change": -4.2,
-   "peak_change": -4.9,
-   "first_seen": "2026-11-25T14:56:37+00:00",
-   "sector": {
-    "etf": "XLC",
-    "name": "Communication",
-    "price": 105.07,
-    "change_pct": 0.59
-   },
-   "chart": {
-    "ema8": -2.3,
-    "ema21": -6.0,
-    "sma50": -14.5,
-    "sma200": -19.3,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Alphabet Stock GOOG Tests Key $270 Support as Tiger Global Cut, AI Spending and Competition Weigh on Google",
-     "publisher": "FXLeaders",
-     "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPYVpJVW00YUJ3MDNPSnpKdFVEVWhZVm1aS04yZ0d5RW1GR0RFZ0w3d0VmaGlHSkl1emF1QUttS3ExeENtbVI4Rjc5TW5GRmEwQVNUZ0tLNUdBeUdCdURUUzM2LXE1R1I4cDhrb0NvWWVVcTNnMmpXTVJyM1I4dllRT2lwS3lkaFFmZzkteGhUaVFhWkVNeUsxQS1STEN0ZzNtWDdFMXhySG5vVFg4QUVvQlZfbEIxM2lVYlJmbWNGWFZSeHB6UnBtOWU4LTQ5TFVlREVBN0E3SzByWXFfb1QydExR?oc=5",
-     "time": "2026-11-25T19:54:19+00:00"
-    },
-    {
-     "title": "Why Alphabet Stock Is Down Today",
-     "publisher": "The Motley Fool",
-     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPMGFXeDBPQXVQOWxaWGJlY2VxMWIxSXJ0U0hTaXNucFktZVBlUENGbXEweUU0VXNSbUFGTEhienE0MmpibTIzeEp1TWFSZjlSb01hZ2pvc2FBQ01OcFE1Smk3MVFQOXhSSEJHeFplTlpOMjBfbzdQS1VtVTh4cWxmTQ?oc=5",
-     "time": "2026-11-25T18:55:01+00:00"
-    },
-    {
-     "title": "Why Alphabet Stock Fell Today (Hint: It's AI-Related)",
-     "publisher": "The Motley Fool",
-     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBkeThCOUJKVXM5alhlRV9IV08ycTRLZmdwWDlWVkJ1M1ViVnhOSG9tNkxtVkhoRW15VG1hUUthYmNwUEpCYTVwOG9nWGYzdFQyZUthaHhULXJFdDhsLUQwWU9tdjhPQzQ2eXl2QVBIUTQyRXEwYlpZVWhtdjI?oc=5",
-     "time": "2026-11-25T18:32:11+00:00"
-    },
-    {
-     "title": "Alphabet stock slides to $270 as credit concerns deepen",
-     "publisher": "JournalArta",
-     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQXzBOWGNCdThHVHFIbmttaUJRQnIzZDdaVXlNcUJtVWRHWlJwUk95T1phaUNhak9tUVhtTC1rZ3RLVzJwWi0xNW15Wm9qX2xRekc5cU1nTU1yenJTcE16QkZWZ3lmWFROTEc0UmxlZUpseXZGRnppQ0lFVGtmOE5zTWNaM2VLZXBBRmt2a3dqbGNxWlBxVllFZA?oc=5",
-     "time": "2026-11-25T18:11:35+00:00"
-    },
-    {
-     "title": "Alphabet stock plunges as Google walks away from a big Australian news deal",
-     "publisher": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNRHppYVF4UlRjVERuWnA5WUNMVTNTUVJNNWY5Q2RzZmZUNGJXNFZ3SW5XdkJ4cXZORFdxbEZ2R1dSN3BrVGhtcENqUC12bm9fNGlueE50S3BiNDNDdHZId1FmQjZ1Rkx0MnFiMVpZYndnQmsybEQ4Rnk2RlZiay0tdmdJd3JKVi1aVmpkQ2V4M2VrcW4xbGpHUDNPWkhEcmxlVW04OGRwUTRRaUNxclNMUjFiVEhnQ1lnZ1JhNnZ6clVIbWV0clZ3U1hzNDJDWFVC?oc=5",
-     "time": "2026-11-25T17:14:50+00:00"
-    },
-    {
-     "title": "Cathie Wood Just Bought $17 Million of Alphabet Across 2 ARK Funds",
-     "publisher": "TIKR.com",
-     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQRUlwS0pQd2ZBVGQtZWN2dUpaZ2NZSWdmS3lsMG9YWUxXUWZsb0o4dDRIWWxrU1VNNDgxRkZMUnVqOG45aEo3UTBnaHB6LV83enlvTElOT2h5ZjRWSm5pSVFpejZ1Y1pRSHhSejVOSm1mMEgwWWpGdnNJMVZTc0RDbFIxYUpkbVNGYXdsclE5UmpBbWJWbnZFQk5QSnV0NjBLTUExTm1EdHVRbm9BVUtMYlR6Yldlc0ZrcmpiTQ?oc=5",
-     "time": "2026-11-25T17:08:42+00:00"
-    },
-    {
-     "title": "SA Asks: What's the most attractive hyperscaler stock right now? (AMZN:NASDAQ)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQSy02TjRNUmozTWlveGVSMlNOZWYta1R4cVZ5ejU4UGhiNjRpZkp3amZjbnBPRlloM1hHb2tBZno5YnlmUF9aMThhYmxTN2llZS1kNDlJN1ZxWGZYQl9wNVJleTJ2YXEzdk1NeS1jallPajVWdHE1MTBzaHZqVGlqOXRHd1Z3Vm05bklXb2hHUkcyLUhNVUtLQVN1Q3E0Snpz?oc=5",
-     "time": "2026-11-25T17:00:56+00:00"
-    },
-    {
-     "title": "Why Is Google Stock Down Today? Alphabet Falls 5% to $264.58 as Tech Selloff Drags Nasdaq 4%",
-     "publisher": "Around Prague",
-     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPdlVVR2E5MkZ3NlJQRkp1MkRlcW1KUVRVeHVaQ3Boc3AxdnFJVjBwY05aUm1BU0t0ZHZhVDNiZDVxLUVlWG9sS3ZBa2tfSTNsb18zRE1kaGo0Nng5bWk1cUY5Q0JPMDZ6WkJQZTY1bFU1ZUdhRmlmZTNFUng3aHhzTzE2Q0czVkhhVzVuMFBaQVEtLUs0WXdjQS1ZZFc5WnRUb1doNGRTUkVkTjdHVDI4NlV0Zmk?oc=5",
-     "time": "2026-11-25T16:51:06+00:00"
-    }
-   ],
-   "brief": "2026-11-25-GOOG"
-  },
-  {
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 85.19,
+   "price": 84.89,
    "prev_close": 87.31,
-   "change_pct": -2.4,
+   "change_pct": -2.8,
    "trigger_change": -9.0,
    "peak_change": -12.5,
    "first_seen": "2026-11-25T14:56:37+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 94.63,
-    "change_pct": -0.76
+    "price": 94.91,
+    "change_pct": -0.46
    },
    "chart": {
-    "ema8": -12.8,
-    "ema21": -30.3,
-    "sma50": -51.1,
-    "sma200": -52.6,
+    "ema8": -13.1,
+    "ema21": -30.5,
+    "sma50": -51.2,
+    "sma200": -52.8,
     "momentum": false
    },
    "headlines": [
@@ -546,10 +471,85 @@
    "brief": "2026-11-25-NBIS"
   },
   {
+   "symbol": "GOOG",
+   "name": "Alphabet",
+   "list": "portfolio",
+   "price": 269.98,
+   "prev_close": 276.58,
+   "change_pct": -2.4,
+   "trigger_change": -4.2,
+   "peak_change": -4.9,
+   "first_seen": "2026-11-25T14:56:37+00:00",
+   "sector": {
+    "etf": "XLC",
+    "name": "Communication",
+    "price": 105.17,
+    "change_pct": 0.69
+   },
+   "chart": {
+    "ema8": -2.2,
+    "ema21": -5.9,
+    "sma50": -14.4,
+    "sma200": -19.2,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Alphabet Stock GOOG Tests Key $270 Support as Tiger Global Cut, AI Spending and Competition Weigh on Google",
+     "publisher": "FXLeaders",
+     "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPYVpJVW00YUJ3MDNPSnpKdFVEVWhZVm1aS04yZ0d5RW1GR0RFZ0w3d0VmaGlHSkl1emF1QUttS3ExeENtbVI4Rjc5TW5GRmEwQVNUZ0tLNUdBeUdCdURUUzM2LXE1R1I4cDhrb0NvWWVVcTNnMmpXTVJyM1I4dllRT2lwS3lkaFFmZzkteGhUaVFhWkVNeUsxQS1STEN0ZzNtWDdFMXhySG5vVFg4QUVvQlZfbEIxM2lVYlJmbWNGWFZSeHB6UnBtOWU4LTQ5TFVlREVBN0E3SzByWXFfb1QydExR?oc=5",
+     "time": "2026-11-25T19:54:19+00:00"
+    },
+    {
+     "title": "Why Alphabet Stock Is Down Today",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPMGFXeDBPQXVQOWxaWGJlY2VxMWIxSXJ0U0hTaXNucFktZVBlUENGbXEweUU0VXNSbUFGTEhienE0MmpibTIzeEp1TWFSZjlSb01hZ2pvc2FBQ01OcFE1Smk3MVFQOXhSSEJHeFplTlpOMjBfbzdQS1VtVTh4cWxmTQ?oc=5",
+     "time": "2026-11-25T18:55:01+00:00"
+    },
+    {
+     "title": "Why Alphabet Stock Fell Today (Hint: It's AI-Related)",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBkeThCOUJKVXM5alhlRV9IV08ycTRLZmdwWDlWVkJ1M1ViVnhOSG9tNkxtVkhoRW15VG1hUUthYmNwUEpCYTVwOG9nWGYzdFQyZUthaHhULXJFdDhsLUQwWU9tdjhPQzQ2eXl2QVBIUTQyRXEwYlpZVWhtdjI?oc=5",
+     "time": "2026-11-25T18:32:11+00:00"
+    },
+    {
+     "title": "Alphabet stock slides to $270 as credit concerns deepen",
+     "publisher": "JournalArta",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQXzBOWGNCdThHVHFIbmttaUJRQnIzZDdaVXlNcUJtVWRHWlJwUk95T1phaUNhak9tUVhtTC1rZ3RLVzJwWi0xNW15Wm9qX2xRekc5cU1nTU1yenJTcE16QkZWZ3lmWFROTEc0UmxlZUpseXZGRnppQ0lFVGtmOE5zTWNaM2VLZXBBRmt2a3dqbGNxWlBxVllFZA?oc=5",
+     "time": "2026-11-25T18:11:35+00:00"
+    },
+    {
+     "title": "Alphabet stock plunges as Google walks away from a big Australian news deal",
+     "publisher": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNRHppYVF4UlRjVERuWnA5WUNMVTNTUVJNNWY5Q2RzZmZUNGJXNFZ3SW5XdkJ4cXZORFdxbEZ2R1dSN3BrVGhtcENqUC12bm9fNGlueE50S3BiNDNDdHZId1FmQjZ1Rkx0MnFiMVpZYndnQmsybEQ4Rnk2RlZiay0tdmdJd3JKVi1aVmpkQ2V4M2VrcW4xbGpHUDNPWkhEcmxlVW04OGRwUTRRaUNxclNMUjFiVEhnQ1lnZ1JhNnZ6clVIbWV0clZ3U1hzNDJDWFVC?oc=5",
+     "time": "2026-11-25T17:14:50+00:00"
+    },
+    {
+     "title": "Cathie Wood Just Bought $17 Million of Alphabet Across 2 ARK Funds",
+     "publisher": "TIKR.com",
+     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQRUlwS0pQd2ZBVGQtZWN2dUpaZ2NZSWdmS3lsMG9YWUxXUWZsb0o4dDRIWWxrU1VNNDgxRkZMUnVqOG45aEo3UTBnaHB6LV83enlvTElOT2h5ZjRWSm5pSVFpejZ1Y1pRSHhSejVOSm1mMEgwWWpGdnNJMVZTc0RDbFIxYUpkbVNGYXdsclE5UmpBbWJWbnZFQk5QSnV0NjBLTUExTm1EdHVRbm9BVUtMYlR6Yldlc0ZrcmpiTQ?oc=5",
+     "time": "2026-11-25T17:08:42+00:00"
+    },
+    {
+     "title": "SA Asks: What's the most attractive hyperscaler stock right now? (AMZN:NASDAQ)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQSy02TjRNUmozTWlveGVSMlNOZWYta1R4cVZ5ejU4UGhiNjRpZkp3amZjbnBPRlloM1hHb2tBZno5YnlmUF9aMThhYmxTN2llZS1kNDlJN1ZxWGZYQl9wNVJleTJ2YXEzdk1NeS1jallPajVWdHE1MTBzaHZqVGlqOXRHd1Z3Vm05bklXb2hHUkcyLUhNVUtLQVN1Q3E0Snpz?oc=5",
+     "time": "2026-11-25T17:00:56+00:00"
+    },
+    {
+     "title": "Why Is Google Stock Down Today? Alphabet Falls 5% to $264.58 as Tech Selloff Drags Nasdaq 4%",
+     "publisher": "Around Prague",
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPdlVVR2E5MkZ3NlJQRkp1MkRlcW1KUVRVeHVaQ3Boc3AxdnFJVjBwY05aUm1BU0t0ZHZhVDNiZDVxLUVlWG9sS3ZBa2tfSTNsb18zRE1kaGo0Nng5bWk1cUY5Q0JPMDZ6WkJQZTY1bFU1ZUdhRmlmZTNFUng3aHhzTzE2Q0czVkhhVzVuMFBaQVEtLUs0WXdjQS1ZZFc5WnRUb1doNGRTUkVkTjdHVDI4NlV0Zmk?oc=5",
+     "time": "2026-11-25T16:51:06+00:00"
+    }
+   ],
+   "brief": "2026-11-25-GOOG"
+  },
+  {
    "symbol": "META",
    "name": "Meta",
    "list": "portfolio",
-   "price": 603.4,
+   "price": 603.42,
    "prev_close": 589.82,
    "change_pct": 2.3,
    "trigger_change": 3.1,
@@ -558,8 +558,8 @@
    "sector": {
     "etf": "XLC",
     "name": "Communication",
-    "price": 105.07,
-    "change_pct": 0.59
+    "price": 105.17,
+    "change_pct": 0.69
    },
    "chart": {
     "ema8": 0.3,
@@ -621,85 +621,85 @@
    "brief": null
   },
   {
-   "symbol": "CRWD",
-   "name": "CrowdStrike",
-   "list": "portfolio",
-   "price": 206.78,
-   "prev_close": 210.86,
-   "change_pct": -1.9,
-   "trigger_change": -3.1,
-   "peak_change": -7.4,
-   "first_seen": "2026-11-25T14:56:37+00:00",
+   "symbol": "MELI",
+   "name": "MercadoLibre",
+   "list": "watchlist",
+   "price": 1476.12,
+   "prev_close": 1450.31,
+   "change_pct": 1.8,
+   "trigger_change": -3.0,
+   "peak_change": -3.0,
+   "first_seen": "2026-11-25T15:27:07+00:00",
    "sector": {
-    "etf": "IGV",
-    "name": "Software",
-    "price": 94.63,
-    "change_pct": -0.76
+    "etf": "XLY",
+    "name": "Consumer discr.",
+    "price": 117.52,
+    "change_pct": -0.17
    },
    "chart": {
-    "ema8": -5.8,
-    "ema21": -9.6,
-    "sma50": -15.7,
-    "sma200": 16.3,
+    "ema8": 2.2,
+    "ema21": -2.9,
+    "sma50": -12.4,
+    "sma200": -16.0,
     "momentum": false
    },
    "headlines": [
     {
-     "title": "CrowdStrike stock tumbles to $203.58 as tech selloff deepens",
-     "publisher": "JournalArta",
-     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQdnNGdmNKNG1WQWZ6QXVhdEhwN1hROVFNMnhrTDdORW9pNWk0NHhHZVNSSXlTSk80Q1R0RkNpTzFnV2d1QUxoMjNITlFnNWFvbWxZUWZwUjdRckplb0ZDc1otSHZrNDFCYXhvS3BIWEwxVGFJRW5SS0FTTS1IQjdRNWY5S1lYb0puSzQzVjNQQ3RhUTFXSkVDLVNTaGY3MUk?oc=5",
-     "time": "2026-11-25T18:45:00+00:00"
-    },
-    {
-     "title": "CrowdStrike Holdings Inc Stock (CRWD) Moved Down by 4.77% on Nov 25: Facts Behind the Movement",
-     "publisher": "TradingKey",
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPUVJIR3hqREI4QzlKeS1QSmdvMHlFSWtzcTJWc29xQWVsYVBmQUhNOXZZVEwxYmE2bUV5cnliTjJFX090MHRzVnNQVlZtLVJneHRmMTB2X2xkUTNWaVE2Mmd5aU9BUGFHdjdrM2x1eTVmMzN3VXBlRmxMVEdONGpkRUMtcTNpYlB3U193?oc=5",
-     "time": "2026-11-25T17:15:41+00:00"
-    },
-    {
-     "title": "Analysts Are Bullish on Top Technology Stocks: CrowdStrike Holdings (CRWD), Nvidia (NVDA)",
-     "publisher": "The Globe and Mail",
-     "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNd1l5ZVpEd0l1d2ZYQlRmcXJYVmtlZGx3d3RWVEVfa0t1ZEwtNUI2NUlUYUdNZE9HSDRpaVQyUENlV0RIUXQ4bWJKSXAtMlMzWGtXRVFWRnE3ODA2eFRxbXpRdXIxaVJ2LTdKdENNaUl3cjFadnZnRnZyX2xEWjJONDRTRzRfWDg4cEZUSVh2RWZsbVcyOVJtUV8tU2xDaUpBX3k5RTlZYlJNaENvemxZU2JxMzZ1ckxRcHplZW93N1QxUTZrWGVMR2Nsa0ExTldORWNCRWlac3lBTEpCWlVqQWZ6OXl0ZnJtQkZmM0pxOVYzRVBfYVVmeDhYd0Q?oc=5",
-     "time": "2026-11-25T16:25:02+00:00"
-    },
-    {
-     "title": "CRWD stock price slides to $196.99 in Wednesday trading",
-     "publisher": "JournalArta",
-     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNcmk1NzBjVXhYMFJOczFBdDdhLURIclR1UTN2Vmg5NmdNVkJ5ZnhqVGRodVRjNDJIazd5b2dhLUs4cVI0X084NXN6c1Njd1piMzhqcFdmSVYwRV9TZFNTdVo4ZGZpbFJaTHZTQUI5SHpPaVF4MGJSV0dCQUNPT1JCbzMxWGJXT3BESzNDRVIwc3NWam1RQjNUR25rdw?oc=5",
-     "time": "2026-11-25T15:59:19+00:00"
-    },
-    {
-     "title": "CrowdStrike Sees a Path to the \u201cLargest AI Safety and Security Company\u201d Ever. Zscaler Must Deliver $1 Billion of Synergies",
+     "title": "Morgan Stanley Cut Its MercadoLibre Target. It Still Sees 66% Upside",
      "publisher": "TIKR.com",
-     "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQWE9saTJSTllvN3FEZVJhWjZ1NnhHaE1yOWxPbDFpQW9jM0JFT0c3QkJZOFU2RUQ4V2VCRVJSWHBMZU1DY1NvY2ZMb1dMbVFkclFKREZISmRYUXplelFRNXpQZ2RiY1hEc2JuVGw3VGxIRGtoRDY5X0szSlVKNmx6OF9qY09iNXJ4a096dWpGVE5wSm9ST0ZNUkNBQVMwTXJXSG5ucTQzQWR6eHVsS2Z2MW9DQU9LZWhKc3hCbnJPRFRGUjFmUVFHSGZBRW1xRXdSSXBNeTFlYkpSeUJXSFE?oc=5",
-     "time": "2026-11-25T13:59:08+00:00"
+     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQTEthM1RWdXBnWEFKZkxZbkI1QjNDSHN3M0xjMk5EUEhscmF6bG5BcjlGekdJZlZ6bURFdVd3NGJzY29ONlo4MmFOMHVhNDZIejdfcVI0WEVteGVybXhiR3l2SkQtaXlmNUVkWHNBalR6cUxxR1FuSVlra2NxZVpCSThRdTRITUE5NVNwRGtESHI3cC1Za3FwV001dVFZRUk3elNCb18tVFhoTlZkMmw2bHRzMy1hQmV4R0RzTnRUcGtIV2dZZEtSeVM4b1U5Zw?oc=5",
+     "time": "2026-11-25T17:08:42+00:00"
     },
     {
-     "title": "CrowdStrike to Participate in Upcoming Investor Conferences",
+     "title": "Is MercadoLibre (MELI) Becoming A Bigger AI Play In Emerging Markets?",
+     "publisher": "Simply Wall St",
+     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPdXdUZmF3ZlRIVERKQXZTMXhvdlc5TVFFby1qejR4dE1jaHVEN0xnVEVyNGs1V1JtbnNTQU4yM09aaTY1VHVWZHNvQWdpZVF5cFJJQmxJTThSR3FWR2JEc0hwS2pNbTRSMVNBNFdFdDlyN0RqdHlzcmlYcHh5bXIxZXN3TjNGcHVFVkJqOTV3Z3lMX3NJdFRmUjRWRmhrOUowUXppeHNrdGlVeThMdzZKZ0o1UC1EVkFOY0V3bHlPbnJhZWNDRkVYctIBzgFBVV95cUxNRjNzQjdxeG1vLWJ3Qjh1WnhXVmVyaUZBNjNPMEMzeERDMGNvekZDNzBDTFI0U004LUxNWFpCS1IxNEN1WDJ5cllwdnkxVUo3ZVF4aG93QjRFclhoRzlsOU1NaG4yTkFYajh4UzZzSG1lbDBzSHRjbUhkY0pveVBvdFNBQTc5OFVZZmlFNHZzNHhrYWk0THZaWmU2SlNDUHNRYjVDSkFvVzBKb3NWak9vbXVDVzJLclVtcEVjZXRGMXpHaThPcDZNZ2U2RUQzdw?oc=5",
+     "time": "2026-11-25T14:10:50+00:00"
+    },
+    {
+     "title": "MercadoLibre, Inc. $MELI Shares Acquired by Pathstone Holdings LLC",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQanNpR3Jtc3pycTdLVVM0ZUpvc3Z3T1lvdFNHMlEtcXVfeGhvZkhBZ205MVJRV3EyUGlQdlg2TEhoWm9tMS1iRnlPYmt2U21mdmdKOXpKWEo2ZFFYUkhFNlRBcm9hNF9EZ3lFbFZ1aVA5eVBET0stVFJDcUJrR1NBaWdCcTZlbnRXa2Y4cWU4dUlrazFMTmRMVTctTzJ5Y3FJeXloOFJnLURjX2JhckQxZVRXLVFxajYzZUxyU01hUGJodw?oc=5",
+     "time": "2026-11-25T11:50:23+00:00"
+    },
+    {
+     "title": "MercadoLibre (MELI) Stock Price Prediction: Bank of America trims target as MELI trades below key moving averages",
+     "publisher": "Blockchain News",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNY1lkNnZPTmRyWTZwbUZHeGdITm90YzF2TGFrVnl2MVRTakJmQzlkb2drVS1kTzJBbmY4MUE1dW9QSUtPUVN4cGg1c194dTFyNnVCZjNQMkNLeGMxQ0c3elYwODVQdk45Y2hudnQzbDVpamJwYkZJWXZKMDBjTjBwMkF0ZzdFTWlNNXBaWW5TbXBuZ1lwYkgxMzFMSDg?oc=5",
+     "time": "2026-11-25T10:16:00+00:00"
+    },
+    {
+     "title": "MercadoLibre vs. Target: Which Stock Looks More Compelling Now?",
+     "publisher": "The Globe and Mail",
+     "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNc0xGY1JtR3dHci15eURfVDNIYjN1RXJMdlR5YzlpWU9LZ2tpNkswVWRCOVNLQW9pNmFDVm5xU3hTV2VYajhDeFQyRDNzdmxMNXFLT0Q5SzE2bjVJUXdPUXk5VVBidFlBVVp2OTYxaFM0SzJuNkkwaDloTkVfY2FRaG10elZEVmZfN0RSU0J0N0lRVFlaRjdHeTZMT1R1VzJaVjNhVThtTGRBTUtNVVhFempUUGFQOTV5Vjk3Sk5VMzA4VkgxbzBYdWJ2empxTUp5V2JneXBSOEZ3ZWFJU2VZ?oc=5",
+     "time": "2026-11-25T04:12:40+00:00"
+    },
+    {
+     "title": "MercadoLibre Grew Revenue 45% as Operating Income Fell 6%. Is It \u201ca Gift at These Prices\u201d?",
+     "publisher": "TIKR.com",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNRmR4YnFqLURMbUJacktVSkZ6SDZKWWR5c3AxOXFoWXBFSHNvNVAxV2lRNHdiLTBrY0ZXdi1VOU5RTnNNTjNldVRmS1FrUmptUGlQVlpsazI5ZTJtS3NFOERtdGpiY1k3UVd4eThwZVVINWF6d05fenV0TkJoSnh1MC1GUk8yVkl0S1gyTzNOX3hIZ3BkZVJOOHRwMGRsMlVkSHVfNG1JRWIxbFBjWmNhamEzSUp4aERXdzhKazhaTHA?oc=5",
+     "time": "2026-11-24T19:18:45+00:00"
+    },
+    {
+     "title": "MercadoLibre stock edges up after bounce off 1-year low",
+     "publisher": "JournalArta",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOTmtRUHlZbm1QVFI1T3JhR1k3Z25NN0hzNU9kTjgxbVh1azJVWDBqakJvWTNYZEROTVItSHJ5bklaLUpTcDM4NFhTR0FibjBqQkV6US1BU2Jrc3pUSDZJZHNqVFBZQXJGb1dOMHdjcVB6NnFjVkFxeVY2Ny1NMVhvRFdLZHRxX2pGVVVoUGZkZWc2UmJKX3F0MGE3NDFXMjRncVd6SnFHMA?oc=5",
+     "time": "2026-11-24T18:46:43+00:00"
+    },
+    {
+     "title": "How Investors May Respond To MercadoLibre (MELI) Logistics Spending Push",
      "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQYXFkMk5nSFF3ZVBKeTczdDJTMVA3QW5WaW81ekRVUEUxaWplN083aW9EalN1SEVTOHF2dTg3akcta195MllWNDg4OXhHRnV5QVFoODVLbEM2bWFLWnpOdms3X0ZtaHl2ajVrUjZtcEtVdHZCZXpkMjdZNkhGaEp4Z0dNemJ0TjBKU1RCZWozMXNNLXl0bHRLWWIwMlJRVG9scGVaRFBwWGtyWEpVR0k3VjZXN0w?oc=5",
-     "time": "2026-11-25T13:00:00+00:00"
-    },
-    {
-     "title": "CrowdStrike Holdings \u2022 Robinhood Token - CRWD - Stock Price & News",
-     "publisher": "The Motley Fool",
-     "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5XWHJjeExNSm5OeHZ6Vi1yc1NseU94UGhXOW9BNmV6MnJRUWZaWXlzTmFOc3RnbmRyS2MxZW9adVFkbUpDWm95M0NXR3FRUHV2?oc=5",
-     "time": "2026-11-25T12:35:14+00:00"
-    },
-    {
-     "title": "CrowdStrike Holdings, Inc. (CRWD) Stock Forecasts",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZEhDVlZVX2VXUDVTaFRoUjB4UGM0djIzb1JlYkJDX2V0UktnYVI3eTU2RWZ2bnRRQnFGN05QWldBTmlKYVYwa3VFZ1Bud1FFZm1EQXotbHBYQkluTUluUTRuUzlaY2JvVkx1RWkwTEZYVS1LN1dRV2ZjUHY5aUVjbVJzWHUweG5lbFM1dFFB?oc=5",
-     "time": "2026-11-25T12:25:41+00:00"
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNY0xzbnBLMDFPa0NNSGlqb1hxS0tuRWdMMkZvZUNKRWZaUnZrSUc5SExJdzBYV1d4VmwxZXc5eUV0MTZYdWhqMnZxRmY4dTRYektlSV9DSk9TdWdIakthU05HcjRVQmZnMWxmRkZOWUVMNllNOGRZeElIMlpSamxXNm42V2RqNS1FNEJ1c2x0dC15NzhPSXJoYmc3elhxUExsd19yVGQ1TQ?oc=5",
+     "time": "2026-11-24T16:11:18+00:00"
     }
    ],
-   "brief": "2026-11-25-CRWD"
+   "brief": "2026-11-25-MELI"
   },
   {
    "symbol": "AVGO",
    "name": "Broadcom",
    "list": "portfolio",
-   "price": 295.94,
+   "price": 296.06,
    "prev_close": 301.08,
    "change_pct": -1.7,
    "trigger_change": -5.1,
@@ -708,13 +708,13 @@
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 415.44,
-    "change_pct": -2.65
+    "price": 416.46,
+    "change_pct": -2.41
    },
    "chart": {
-    "ema8": -6.7,
-    "ema21": -9.6,
-    "sma50": -13.1,
+    "ema8": -6.6,
+    "ema21": -9.5,
+    "sma50": -13.0,
     "sma200": -19.4,
     "momentum": false
    },
@@ -771,101 +771,101 @@
    "brief": "2026-11-25-AVGO"
   },
   {
-   "symbol": "MELI",
-   "name": "MercadoLibre",
-   "list": "watchlist",
-   "price": 1473.47,
-   "prev_close": 1450.31,
-   "change_pct": 1.6,
-   "trigger_change": -3.0,
-   "peak_change": -3.0,
-   "first_seen": "2026-11-25T15:27:07+00:00",
+   "symbol": "CRWD",
+   "name": "CrowdStrike",
+   "list": "portfolio",
+   "price": 207.67,
+   "prev_close": 210.86,
+   "change_pct": -1.5,
+   "trigger_change": -3.1,
+   "peak_change": -7.4,
+   "first_seen": "2026-11-25T14:56:37+00:00",
    "sector": {
-    "etf": "XLY",
-    "name": "Consumer discr.",
-    "price": 117.42,
-    "change_pct": -0.25
+    "etf": "IGV",
+    "name": "Software",
+    "price": 94.91,
+    "change_pct": -0.46
    },
    "chart": {
-    "ema8": 2.1,
-    "ema21": -3.1,
-    "sma50": -12.6,
-    "sma200": -16.2,
+    "ema8": -5.5,
+    "ema21": -9.3,
+    "sma50": -15.3,
+    "sma200": 16.8,
     "momentum": false
    },
    "headlines": [
     {
-     "title": "Morgan Stanley Cut Its MercadoLibre Target. It Still Sees 66% Upside",
-     "publisher": "TIKR.com",
-     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQTEthM1RWdXBnWEFKZkxZbkI1QjNDSHN3M0xjMk5EUEhscmF6bG5BcjlGekdJZlZ6bURFdVd3NGJzY29ONlo4MmFOMHVhNDZIejdfcVI0WEVteGVybXhiR3l2SkQtaXlmNUVkWHNBalR6cUxxR1FuSVlra2NxZVpCSThRdTRITUE5NVNwRGtESHI3cC1Za3FwV001dVFZRUk3elNCb18tVFhoTlZkMmw2bHRzMy1hQmV4R0RzTnRUcGtIV2dZZEtSeVM4b1U5Zw?oc=5",
-     "time": "2026-11-25T17:08:42+00:00"
-    },
-    {
-     "title": "Is MercadoLibre (MELI) Becoming A Bigger AI Play In Emerging Markets?",
-     "publisher": "Simply Wall St",
-     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPdXdUZmF3ZlRIVERKQXZTMXhvdlc5TVFFby1qejR4dE1jaHVEN0xnVEVyNGs1V1JtbnNTQU4yM09aaTY1VHVWZHNvQWdpZVF5cFJJQmxJTThSR3FWR2JEc0hwS2pNbTRSMVNBNFdFdDlyN0RqdHlzcmlYcHh5bXIxZXN3TjNGcHVFVkJqOTV3Z3lMX3NJdFRmUjRWRmhrOUowUXppeHNrdGlVeThMdzZKZ0o1UC1EVkFOY0V3bHlPbnJhZWNDRkVYctIBzgFBVV95cUxNRjNzQjdxeG1vLWJ3Qjh1WnhXVmVyaUZBNjNPMEMzeERDMGNvekZDNzBDTFI0U004LUxNWFpCS1IxNEN1WDJ5cllwdnkxVUo3ZVF4aG93QjRFclhoRzlsOU1NaG4yTkFYajh4UzZzSG1lbDBzSHRjbUhkY0pveVBvdFNBQTc5OFVZZmlFNHZzNHhrYWk0THZaWmU2SlNDUHNRYjVDSkFvVzBKb3NWak9vbXVDVzJLclVtcEVjZXRGMXpHaThPcDZNZ2U2RUQzdw?oc=5",
-     "time": "2026-11-25T14:10:50+00:00"
-    },
-    {
-     "title": "MercadoLibre, Inc. $MELI Shares Acquired by Pathstone Holdings LLC",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQanNpR3Jtc3pycTdLVVM0ZUpvc3Z3T1lvdFNHMlEtcXVfeGhvZkhBZ205MVJRV3EyUGlQdlg2TEhoWm9tMS1iRnlPYmt2U21mdmdKOXpKWEo2ZFFYUkhFNlRBcm9hNF9EZ3lFbFZ1aVA5eVBET0stVFJDcUJrR1NBaWdCcTZlbnRXa2Y4cWU4dUlrazFMTmRMVTctTzJ5Y3FJeXloOFJnLURjX2JhckQxZVRXLVFxajYzZUxyU01hUGJodw?oc=5",
-     "time": "2026-11-25T11:50:23+00:00"
-    },
-    {
-     "title": "MercadoLibre (MELI) Stock Price Prediction: Bank of America trims target as MELI trades below key moving averages",
-     "publisher": "Blockchain News",
-     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNY1lkNnZPTmRyWTZwbUZHeGdITm90YzF2TGFrVnl2MVRTakJmQzlkb2drVS1kTzJBbmY4MUE1dW9QSUtPUVN4cGg1c194dTFyNnVCZjNQMkNLeGMxQ0c3elYwODVQdk45Y2hudnQzbDVpamJwYkZJWXZKMDBjTjBwMkF0ZzdFTWlNNXBaWW5TbXBuZ1lwYkgxMzFMSDg?oc=5",
-     "time": "2026-11-25T10:16:00+00:00"
-    },
-    {
-     "title": "MercadoLibre vs. Target: Which Stock Looks More Compelling Now?",
-     "publisher": "The Globe and Mail",
-     "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNc0xGY1JtR3dHci15eURfVDNIYjN1RXJMdlR5YzlpWU9LZ2tpNkswVWRCOVNLQW9pNmFDVm5xU3hTV2VYajhDeFQyRDNzdmxMNXFLT0Q5SzE2bjVJUXdPUXk5VVBidFlBVVp2OTYxaFM0SzJuNkkwaDloTkVfY2FRaG10elZEVmZfN0RSU0J0N0lRVFlaRjdHeTZMT1R1VzJaVjNhVThtTGRBTUtNVVhFempUUGFQOTV5Vjk3Sk5VMzA4VkgxbzBYdWJ2empxTUp5V2JneXBSOEZ3ZWFJU2VZ?oc=5",
-     "time": "2026-11-25T04:12:40+00:00"
-    },
-    {
-     "title": "MercadoLibre Grew Revenue 45% as Operating Income Fell 6%. Is It \u201ca Gift at These Prices\u201d?",
-     "publisher": "TIKR.com",
-     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNRmR4YnFqLURMbUJacktVSkZ6SDZKWWR5c3AxOXFoWXBFSHNvNVAxV2lRNHdiLTBrY0ZXdi1VOU5RTnNNTjNldVRmS1FrUmptUGlQVlpsazI5ZTJtS3NFOERtdGpiY1k3UVd4eThwZVVINWF6d05fenV0TkJoSnh1MC1GUk8yVkl0S1gyTzNOX3hIZ3BkZVJOOHRwMGRsMlVkSHVfNG1JRWIxbFBjWmNhamEzSUp4aERXdzhKazhaTHA?oc=5",
-     "time": "2026-11-24T19:18:45+00:00"
-    },
-    {
-     "title": "MercadoLibre stock edges up after bounce off 1-year low",
+     "title": "CrowdStrike stock tumbles to $203.58 as tech selloff deepens",
      "publisher": "JournalArta",
-     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOTmtRUHlZbm1QVFI1T3JhR1k3Z25NN0hzNU9kTjgxbVh1azJVWDBqakJvWTNYZEROTVItSHJ5bklaLUpTcDM4NFhTR0FibjBqQkV6US1BU2Jrc3pUSDZJZHNqVFBZQXJGb1dOMHdjcVB6NnFjVkFxeVY2Ny1NMVhvRFdLZHRxX2pGVVVoUGZkZWc2UmJKX3F0MGE3NDFXMjRncVd6SnFHMA?oc=5",
-     "time": "2026-11-24T18:46:43+00:00"
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQdnNGdmNKNG1WQWZ6QXVhdEhwN1hROVFNMnhrTDdORW9pNWk0NHhHZVNSSXlTSk80Q1R0RkNpTzFnV2d1QUxoMjNITlFnNWFvbWxZUWZwUjdRckplb0ZDc1otSHZrNDFCYXhvS3BIWEwxVGFJRW5SS0FTTS1IQjdRNWY5S1lYb0puSzQzVjNQQ3RhUTFXSkVDLVNTaGY3MUk?oc=5",
+     "time": "2026-11-25T18:45:00+00:00"
     },
     {
-     "title": "How Investors May Respond To MercadoLibre (MELI) Logistics Spending Push",
+     "title": "CrowdStrike Holdings Inc Stock (CRWD) Moved Down by 4.77% on Nov 25: Facts Behind the Movement",
+     "publisher": "TradingKey",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPUVJIR3hqREI4QzlKeS1QSmdvMHlFSWtzcTJWc29xQWVsYVBmQUhNOXZZVEwxYmE2bUV5cnliTjJFX090MHRzVnNQVlZtLVJneHRmMTB2X2xkUTNWaVE2Mmd5aU9BUGFHdjdrM2x1eTVmMzN3VXBlRmxMVEdONGpkRUMtcTNpYlB3U193?oc=5",
+     "time": "2026-11-25T17:15:41+00:00"
+    },
+    {
+     "title": "Analysts Are Bullish on Top Technology Stocks: CrowdStrike Holdings (CRWD), Nvidia (NVDA)",
+     "publisher": "The Globe and Mail",
+     "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNd1l5ZVpEd0l1d2ZYQlRmcXJYVmtlZGx3d3RWVEVfa0t1ZEwtNUI2NUlUYUdNZE9HSDRpaVQyUENlV0RIUXQ4bWJKSXAtMlMzWGtXRVFWRnE3ODA2eFRxbXpRdXIxaVJ2LTdKdENNaUl3cjFadnZnRnZyX2xEWjJONDRTRzRfWDg4cEZUSVh2RWZsbVcyOVJtUV8tU2xDaUpBX3k5RTlZYlJNaENvemxZU2JxMzZ1ckxRcHplZW93N1QxUTZrWGVMR2Nsa0ExTldORWNCRWlac3lBTEpCWlVqQWZ6OXl0ZnJtQkZmM0pxOVYzRVBfYVVmeDhYd0Q?oc=5",
+     "time": "2026-11-25T16:25:02+00:00"
+    },
+    {
+     "title": "CRWD stock price slides to $196.99 in Wednesday trading",
+     "publisher": "JournalArta",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNcmk1NzBjVXhYMFJOczFBdDdhLURIclR1UTN2Vmg5NmdNVkJ5ZnhqVGRodVRjNDJIazd5b2dhLUs4cVI0X084NXN6c1Njd1piMzhqcFdmSVYwRV9TZFNTdVo4ZGZpbFJaTHZTQUI5SHpPaVF4MGJSV0dCQUNPT1JCbzMxWGJXT3BESzNDRVIwc3NWam1RQjNUR25rdw?oc=5",
+     "time": "2026-11-25T15:59:19+00:00"
+    },
+    {
+     "title": "CrowdStrike Sees a Path to the \u201cLargest AI Safety and Security Company\u201d Ever. Zscaler Must Deliver $1 Billion of Synergies",
+     "publisher": "TIKR.com",
+     "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQWE9saTJSTllvN3FEZVJhWjZ1NnhHaE1yOWxPbDFpQW9jM0JFT0c3QkJZOFU2RUQ4V2VCRVJSWHBMZU1DY1NvY2ZMb1dMbVFkclFKREZISmRYUXplelFRNXpQZ2RiY1hEc2JuVGw3VGxIRGtoRDY5X0szSlVKNmx6OF9qY09iNXJ4a096dWpGVE5wSm9ST0ZNUkNBQVMwTXJXSG5ucTQzQWR6eHVsS2Z2MW9DQU9LZWhKc3hCbnJPRFRGUjFmUVFHSGZBRW1xRXdSSXBNeTFlYkpSeUJXSFE?oc=5",
+     "time": "2026-11-25T13:59:08+00:00"
+    },
+    {
+     "title": "CrowdStrike to Participate in Upcoming Investor Conferences",
      "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNY0xzbnBLMDFPa0NNSGlqb1hxS0tuRWdMMkZvZUNKRWZaUnZrSUc5SExJdzBYV1d4VmwxZXc5eUV0MTZYdWhqMnZxRmY4dTRYektlSV9DSk9TdWdIakthU05HcjRVQmZnMWxmRkZOWUVMNllNOGRZeElIMlpSamxXNm42V2RqNS1FNEJ1c2x0dC15NzhPSXJoYmc3elhxUExsd19yVGQ1TQ?oc=5",
-     "time": "2026-11-24T16:11:18+00:00"
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQYXFkMk5nSFF3ZVBKeTczdDJTMVA3QW5WaW81ekRVUEUxaWplN083aW9EalN1SEVTOHF2dTg3akcta195MllWNDg4OXhHRnV5QVFoODVLbEM2bWFLWnpOdms3X0ZtaHl2ajVrUjZtcEtVdHZCZXpkMjdZNkhGaEp4Z0dNemJ0TjBKU1RCZWozMXNNLXl0bHRLWWIwMlJRVG9scGVaRFBwWGtyWEpVR0k3VjZXN0w?oc=5",
+     "time": "2026-11-25T13:00:00+00:00"
+    },
+    {
+     "title": "CrowdStrike Holdings \u2022 Robinhood Token - CRWD - Stock Price & News",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5XWHJjeExNSm5OeHZ6Vi1yc1NseU94UGhXOW9BNmV6MnJRUWZaWXlzTmFOc3RnbmRyS2MxZW9adVFkbUpDWm95M0NXR3FRUHV2?oc=5",
+     "time": "2026-11-25T12:35:14+00:00"
+    },
+    {
+     "title": "CrowdStrike Holdings, Inc. (CRWD) Stock Forecasts",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZEhDVlZVX2VXUDVTaFRoUjB4UGM0djIzb1JlYkJDX2V0UktnYVI3eTU2RWZ2bnRRQnFGN05QWldBTmlKYVYwa3VFZ1Bud1FFZm1EQXotbHBYQkluTUluUTRuUzlaY2JvVkx1RWkwTEZYVS1LN1dRV2ZjUHY5aUVjbVJzWHUweG5lbFM1dFFB?oc=5",
+     "time": "2026-11-25T12:25:41+00:00"
     }
    ],
-   "brief": "2026-11-25-MELI"
+   "brief": "2026-11-25-CRWD"
   },
   {
    "symbol": "SOFI",
    "name": "SoFi",
    "list": "portfolio",
-   "price": 12.97,
+   "price": 12.99,
    "prev_close": 12.86,
-   "change_pct": 0.9,
+   "change_pct": 1.0,
    "trigger_change": -5.1,
    "peak_change": -5.4,
    "first_seen": "2026-11-25T14:56:37+00:00",
    "sector": {
     "etf": "XLF",
     "name": "Financials",
-    "price": 56.47,
-    "change_pct": 0.63
+    "price": 56.52,
+    "change_pct": 0.73
    },
    "chart": {
-    "ema8": -4.5,
-    "ema21": -11.4,
-    "sma50": -16.6,
-    "sma200": -23.8,
+    "ema8": -4.4,
+    "ema21": -11.2,
+    "sma50": -16.4,
+    "sma200": -23.6,
     "momentum": false
    },
    "headlines": [
@@ -924,23 +924,23 @@
    "symbol": "APP",
    "name": "AppLovin",
    "list": "portfolio",
-   "price": 379.26,
+   "price": 379.93,
    "prev_close": 381.11,
-   "change_pct": -0.5,
+   "change_pct": -0.3,
    "trigger_change": -4.5,
    "peak_change": -5.8,
    "first_seen": "2026-11-25T14:56:37+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 94.63,
-    "change_pct": -0.76
+    "price": 94.91,
+    "change_pct": -0.46
    },
    "chart": {
-    "ema8": 0.3,
-    "ema21": 6.4,
-    "sma50": 21.5,
-    "sma200": -6.0,
+    "ema8": 0.5,
+    "ema21": 6.5,
+    "sma50": 21.7,
+    "sma200": -5.8,
     "momentum": true
    },
    "headlines": [
@@ -996,10 +996,85 @@
    "brief": "2026-11-25-APP"
   },
   {
+   "symbol": "NOW",
+   "name": "ServiceNow",
+   "list": "portfolio",
+   "price": 91.98,
+   "prev_close": 91.74,
+   "change_pct": 0.3,
+   "trigger_change": -3.2,
+   "peak_change": -3.3,
+   "first_seen": "2026-11-25T14:56:37+00:00",
+   "sector": {
+    "etf": "IGV",
+    "name": "Software",
+    "price": 94.91,
+    "change_pct": -0.46
+   },
+   "chart": {
+    "ema8": -1.3,
+    "ema21": -11.2,
+    "sma50": -26.4,
+    "sma200": -18.7,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Fervo Energy Company (NASDAQ: FRVO) Investors: Hagens Berman Highlights Recent Q3 2026 Financial Disclosures and Operating Losses Amid Pending Securities Class Action; Jan. 19 Lead Plaintiff Deadline Approaching",
+     "publisher": "PR Newswire",
+     "url": "https://news.google.com/rss/articles/CBMi-AJBVV95cUxNbjlzNndDNTZaZVIyUXY5b1VMZFgzRldTWTl3c2pKeWdxNTE4ZVhXZktyMFgwbUsyZl96ay1DYzNwaGMyYjJSQUdhd3ByaVhwNlpHT0ZqcWRDOHFMY19aR3dRdFJ1QkUwUXppdW8xVXZZbmlTdXU3dWF2QlpJcXJhZHBQdk81eWN0Y1RKajBOTDdHNU5BQVdvVXNQd3daWlZaaUtnTW9wZWRsQ3MtUzl1eUt2RlloNGZZNDdLLWlpNzdPSVg5dWRodVJNYl9qbUlkOHJxQWhxN0Jrb0ZnUUtjcnpMTkx4ZGZOQnp4WkZCbGZ0bzkwajVhcWdVc29YcHY3ZFlHTExvTkp3Vk10eGRmYkJyalpEMmN1OERHUjJZb2tTWjdjcXVfYUdYX2YtZGx5Mk5TMzlWTDRBelpicjBQMmh5ODliTEs1UVhhOEYtd09RNTFvN194blpHRFl6SHlCMWlHbUJ0TTlTYnBXMExJdlFGV1lZUWxh?oc=5",
+     "time": "2026-11-25T18:17:00+00:00"
+    },
+    {
+     "title": "Coca-Cola Europacific Partners (NASDAQ:CCEP) Stock Gets Price Target Boost from JPMorgan Chase & Co.",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOVU41RXcwdXhVaGlBNWZXaVp6Ym8xMFRjdllGamNBcEZPYjhlRE5Zc2tMbjNCSE82MklGRWVsZ3Fpc3hCSC1BcmxRMmJ4ZV9FRDRxeXM4NTd5R0JheWthZ01hMl8wdldPd0o4cWNzdXpUMHkxa2xVX0FCajlpNG1FdjU1bWxhbkJkNkZKUk5SZE1YNGZMd2kxLWRsd3FGU0JjbEYwRlJHMzNXYkNYOWxvU2FkRDBLbHk2aEp5M0c4LXpZNkVvdm40U0s4bUVXb1V4ZHNZTlg1Vm5WanMxV0x4U0phUDRkYXBoTjVGekh3?oc=5",
+     "time": "2026-11-25T13:27:36+00:00"
+    },
+    {
+     "title": "ServiceNow's AI Story Now Hinges on Proof From Live Operations, Not Stage Demos",
+     "publisher": "ad-hoc-news.de",
+     "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOSnVOT29sNE1DcURlNWpzYTlyNi1wUVBMUFk1QXlmNi1wWEVLZ3pFeXAxMVpOVENXYnJ2aFJ4ZlB5UmNvdEZ2Z0hvLWxRVWVZcmRZTmtqaUF1ZTZ6U2R4ME1oR2J3RHE0eXFHeVNlSW1JaTY3S29oQWhRdi1pZkg2amdNd2dsTWNCSjBrY1hycGhoZmV2b3kxT19PMDI5b2s2ZzlZcXJuT2RSNzZsWTRZOXNoLVBLYV92aXY5UmxMcFhSLW16bURubi1VV0FWbTNoR0h6MmF4MmtKYmFJek96ZVk4bC0?oc=5",
+     "time": "2026-11-25T12:40:56+00:00"
+    },
+    {
+     "title": "A new online attack service draws on partner data centers in every major region.",
+     "publisher": "Stock Titan",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNWkxNR3lZaHM0YUdYVWNNdmhGMjMydjV2TUdNZnZkeXgxSXBvNTRucTN4UWdKaDJmX3FwUjNMNFlMaWduc1NzQWZvTDdLeGJCN2dSczF4em5ZV0xXVDQwMzFFT1pySFNGUWpNcjBsamdieHNhb1ZybnhoVFVqSS0yRVIwQkhseGRub1Y1cGJ0X19GSmtBNzVpckw0V2dnRGI5a1lZc0wweVI5MDJXV2NNYXJJX3FIUWZFREtKdXlsNXQ?oc=5",
+     "time": "2026-11-25T12:00:00+00:00"
+    },
+    {
+     "title": "Fox Corporation $FOXA Stock: Marshall Wace LLP Trims Stake",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOV0xScDJadU9KbDBfSm5Rdy1YeGFTR2J0MlBTdnFBTThCaWdZOHZXNDRuWEpEOTZIV2U5MDhSOWRpY1NMUFdPck5DY1JKbjdRd3Q0YjRnU1VSTEdiVEFrYWtSejdxdnI3Unl4N3o1bTVSeVowazVzOXYzX2FnRVZZUXRBUGlXbF9laU1Rb045eDRyVVRoNlUzSDFhVHhjNkVLSm9QbEFpd3Q0bHlmai1TMnIydkRKS3Ja?oc=5",
+     "time": "2026-11-25T11:31:04+00:00"
+    },
+    {
+     "title": "Salesforce Is 28% Off Its High: Why Guggenheim Still Sees 55% Upside Ahead of Earnings",
+     "publisher": "TIKR.com",
+     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPWmw3TVB0UXEwem5GVC10R0ExQm4yX0xaS1ZjS3hvSTBNSk1rR0plNFJxQkdTSl9iV0txcHRSSk1Ma05xVnNuVUVtcFNIQUo0QU83a3JpTXQtVEItbldEcmF3Umw5UHFudy1PN3BEeEFPM3prSHhpV2VkanYwMjdvS1ZkNVc3bGRmcmF2TFZmQ1o0Nml2MkwzcVZISWQzTm8wZ2pBUzR4VDJZX3V3S0pMVFhlOTh5dWdHcVAyQlh5cw?oc=5",
+     "time": "2026-11-25T11:03:45+00:00"
+    },
+    {
+     "title": "AI is crushing software stocks \u2014 and a debt wall looms: Chart of the Day",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPRUhKczlUa1hBaTFyQktnQ1E4X2RLYUlCT3l2dGtsY1otZjdRN2MzU2duNkNHcVJYaHNxME00WUd3QUdReUVQaktPeXFlcGZfenhVUmwwQ2c2YjVEalhpYmhnelBsV0tYQzNnbnRfc0FBQ3ljOU9FdUxYQXBldWRwMlNiOC1ybTFDWmxMRU9RYWxmSjJQejVSblEweWNYaHY3eThHdGJtbDR4TWUtV1AwOEtzSXRjWGhlMXNyUkVWQWJqOUFCMVE?oc=5",
+     "time": "2026-11-25T11:00:00+00:00"
+    },
+    {
+     "title": "ServiceNow, Inc. $NOW Shares Sold by First Trust Advisors LP",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQY0IxT2xvTkR2RWh5YTFIbkotQndBbllEaUZQQkVPZFRRTC1mRThjSGlrSHRUMkZIZC1ZcVVqSTZ4Nnp5dTE5SGZrRERkVTc5ejJQeDJldUZmWHRyWVFEQTdhMkVWT0dIZVpuT2gwMzhPWlZBWHhNSzZEZjlTTzg3SWdIVVo5bzNINVEtdTIzNGNRdGtpOE56Y2drQ2M1ampLVUpJTlJCNkdmckI5UHpCRFBubXZJcmx5R0E?oc=5",
+     "time": "2026-11-25T08:40:20+00:00"
+    }
+   ],
+   "brief": "2026-11-25-NOW"
+  },
+  {
    "symbol": "BTC-USD",
    "name": "Bitcoin",
    "list": "watchlist",
-   "price": 59850.1,
+   "price": 59886.7,
    "prev_close": 59741.2,
    "change_pct": 0.2,
    "trigger_change": -3.0,
@@ -1064,81 +1139,6 @@
     }
    ],
    "brief": "2026-11-25-BTC-USD"
-  },
-  {
-   "symbol": "NOW",
-   "name": "ServiceNow",
-   "list": "portfolio",
-   "price": 91.73,
-   "prev_close": 91.74,
-   "change_pct": -0.0,
-   "trigger_change": -3.2,
-   "peak_change": -3.3,
-   "first_seen": "2026-11-25T14:56:37+00:00",
-   "sector": {
-    "etf": "IGV",
-    "name": "Software",
-    "price": 94.63,
-    "change_pct": -0.76
-   },
-   "chart": {
-    "ema8": -1.5,
-    "ema21": -11.4,
-    "sma50": -26.6,
-    "sma200": -18.9,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Fervo Energy Company (NASDAQ: FRVO) Investors: Hagens Berman Highlights Recent Q3 2026 Financial Disclosures and Operating Losses Amid Pending Securities Class Action; Jan. 19 Lead Plaintiff Deadline Approaching",
-     "publisher": "PR Newswire",
-     "url": "https://news.google.com/rss/articles/CBMi-AJBVV95cUxNbjlzNndDNTZaZVIyUXY5b1VMZFgzRldTWTl3c2pKeWdxNTE4ZVhXZktyMFgwbUsyZl96ay1DYzNwaGMyYjJSQUdhd3ByaVhwNlpHT0ZqcWRDOHFMY19aR3dRdFJ1QkUwUXppdW8xVXZZbmlTdXU3dWF2QlpJcXJhZHBQdk81eWN0Y1RKajBOTDdHNU5BQVdvVXNQd3daWlZaaUtnTW9wZWRsQ3MtUzl1eUt2RlloNGZZNDdLLWlpNzdPSVg5dWRodVJNYl9qbUlkOHJxQWhxN0Jrb0ZnUUtjcnpMTkx4ZGZOQnp4WkZCbGZ0bzkwajVhcWdVc29YcHY3ZFlHTExvTkp3Vk10eGRmYkJyalpEMmN1OERHUjJZb2tTWjdjcXVfYUdYX2YtZGx5Mk5TMzlWTDRBelpicjBQMmh5ODliTEs1UVhhOEYtd09RNTFvN194blpHRFl6SHlCMWlHbUJ0TTlTYnBXMExJdlFGV1lZUWxh?oc=5",
-     "time": "2026-11-25T18:17:00+00:00"
-    },
-    {
-     "title": "Coca-Cola Europacific Partners (NASDAQ:CCEP) Stock Gets Price Target Boost from JPMorgan Chase & Co.",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOVU41RXcwdXhVaGlBNWZXaVp6Ym8xMFRjdllGamNBcEZPYjhlRE5Zc2tMbjNCSE82MklGRWVsZ3Fpc3hCSC1BcmxRMmJ4ZV9FRDRxeXM4NTd5R0JheWthZ01hMl8wdldPd0o4cWNzdXpUMHkxa2xVX0FCajlpNG1FdjU1bWxhbkJkNkZKUk5SZE1YNGZMd2kxLWRsd3FGU0JjbEYwRlJHMzNXYkNYOWxvU2FkRDBLbHk2aEp5M0c4LXpZNkVvdm40U0s4bUVXb1V4ZHNZTlg1Vm5WanMxV0x4U0phUDRkYXBoTjVGekh3?oc=5",
-     "time": "2026-11-25T13:27:36+00:00"
-    },
-    {
-     "title": "ServiceNow's AI Story Now Hinges on Proof From Live Operations, Not Stage Demos",
-     "publisher": "ad-hoc-news.de",
-     "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOSnVOT29sNE1DcURlNWpzYTlyNi1wUVBMUFk1QXlmNi1wWEVLZ3pFeXAxMVpOVENXYnJ2aFJ4ZlB5UmNvdEZ2Z0hvLWxRVWVZcmRZTmtqaUF1ZTZ6U2R4ME1oR2J3RHE0eXFHeVNlSW1JaTY3S29oQWhRdi1pZkg2amdNd2dsTWNCSjBrY1hycGhoZmV2b3kxT19PMDI5b2s2ZzlZcXJuT2RSNzZsWTRZOXNoLVBLYV92aXY5UmxMcFhSLW16bURubi1VV0FWbTNoR0h6MmF4MmtKYmFJek96ZVk4bC0?oc=5",
-     "time": "2026-11-25T12:40:56+00:00"
-    },
-    {
-     "title": "A new online attack service draws on partner data centers in every major region.",
-     "publisher": "Stock Titan",
-     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNWkxNR3lZaHM0YUdYVWNNdmhGMjMydjV2TUdNZnZkeXgxSXBvNTRucTN4UWdKaDJmX3FwUjNMNFlMaWduc1NzQWZvTDdLeGJCN2dSczF4em5ZV0xXVDQwMzFFT1pySFNGUWpNcjBsamdieHNhb1ZybnhoVFVqSS0yRVIwQkhseGRub1Y1cGJ0X19GSmtBNzVpckw0V2dnRGI5a1lZc0wweVI5MDJXV2NNYXJJX3FIUWZFREtKdXlsNXQ?oc=5",
-     "time": "2026-11-25T12:00:00+00:00"
-    },
-    {
-     "title": "Fox Corporation $FOXA Stock: Marshall Wace LLP Trims Stake",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOV0xScDJadU9KbDBfSm5Rdy1YeGFTR2J0MlBTdnFBTThCaWdZOHZXNDRuWEpEOTZIV2U5MDhSOWRpY1NMUFdPck5DY1JKbjdRd3Q0YjRnU1VSTEdiVEFrYWtSejdxdnI3Unl4N3o1bTVSeVowazVzOXYzX2FnRVZZUXRBUGlXbF9laU1Rb045eDRyVVRoNlUzSDFhVHhjNkVLSm9QbEFpd3Q0bHlmai1TMnIydkRKS3Ja?oc=5",
-     "time": "2026-11-25T11:31:04+00:00"
-    },
-    {
-     "title": "Salesforce Is 28% Off Its High: Why Guggenheim Still Sees 55% Upside Ahead of Earnings",
-     "publisher": "TIKR.com",
-     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPWmw3TVB0UXEwem5GVC10R0ExQm4yX0xaS1ZjS3hvSTBNSk1rR0plNFJxQkdTSl9iV0txcHRSSk1Ma05xVnNuVUVtcFNIQUo0QU83a3JpTXQtVEItbldEcmF3Umw5UHFudy1PN3BEeEFPM3prSHhpV2VkanYwMjdvS1ZkNVc3bGRmcmF2TFZmQ1o0Nml2MkwzcVZISWQzTm8wZ2pBUzR4VDJZX3V3S0pMVFhlOTh5dWdHcVAyQlh5cw?oc=5",
-     "time": "2026-11-25T11:03:45+00:00"
-    },
-    {
-     "title": "AI is crushing software stocks \u2014 and a debt wall looms: Chart of the Day",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPRUhKczlUa1hBaTFyQktnQ1E4X2RLYUlCT3l2dGtsY1otZjdRN2MzU2duNkNHcVJYaHNxME00WUd3QUdReUVQaktPeXFlcGZfenhVUmwwQ2c2YjVEalhpYmhnelBsV0tYQzNnbnRfc0FBQ3ljOU9FdUxYQXBldWRwMlNiOC1ybTFDWmxMRU9RYWxmSjJQejVSblEweWNYaHY3eThHdGJtbDR4TWUtV1AwOEtzSXRjWGhlMXNyUkVWQWJqOUFCMVE?oc=5",
-     "time": "2026-11-25T11:00:00+00:00"
-    },
-    {
-     "title": "ServiceNow, Inc. $NOW Shares Sold by First Trust Advisors LP",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQY0IxT2xvTkR2RWh5YTFIbkotQndBbllEaUZQQkVPZFRRTC1mRThjSGlrSHRUMkZIZC1ZcVVqSTZ4Nnp5dTE5SGZrRERkVTc5ejJQeDJldUZmWHRyWVFEQTdhMkVWT0dIZVpuT2gwMzhPWlZBWHhNSzZEZjlTTzg3SWdIVVo5bzNINVEtdTIzNGNRdGtpOE56Y2drQ2M1ampLVUpJTlJCNkdmckI5UHpCRFBubXZJcmx5R0E?oc=5",
-     "time": "2026-11-25T08:40:20+00:00"
-    }
-   ],
-   "brief": "2026-11-25-NOW"
   }
  ]
 }
