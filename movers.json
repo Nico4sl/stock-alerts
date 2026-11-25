@@ -1,22 +1,22 @@
 {
  "date": "2026-11-25",
  "threshold": 3.0,
- "updated": "2026-11-25T17:36:07+00:00",
+ "updated": "2026-11-25T17:41:07+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 709.8,
-   "change_pct": -1.25
+   "price": 709.38,
+   "change_pct": -1.31
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 622.72,
-   "change_pct": -2.41
+   "price": 622.87,
+   "change_pct": -2.39
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 82.46,
-   "change_pct": 1.19
+   "price": 82.42,
+   "change_pct": 1.14
   }
  },
  "movers": [
@@ -24,23 +24,23 @@
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 80.39,
+   "price": 80.65,
    "prev_close": 87.31,
-   "change_pct": -7.9,
+   "change_pct": -7.6,
    "trigger_change": -9.0,
    "peak_change": -12.5,
    "first_seen": "2026-11-25T14:56:37+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 93.63,
-    "change_pct": -1.8
+    "price": 93.98,
+    "change_pct": -1.43
    },
    "chart": {
-    "ema8": -16.8,
-    "ema21": -34.0,
-    "sma50": -53.8,
-    "sma200": -55.3,
+    "ema8": -16.6,
+    "ema21": -33.8,
+    "sma50": -53.7,
+    "sma200": -55.1,
     "momentum": false
    },
    "headlines": [
@@ -99,17 +99,17 @@
    "symbol": "AMAT",
    "name": "Applied Materials",
    "list": "portfolio",
-   "price": 299.61,
+   "price": 299.72,
    "prev_close": 323.76,
-   "change_pct": -7.5,
+   "change_pct": -7.4,
    "trigger_change": -7.5,
    "peak_change": -10.2,
    "first_seen": "2026-11-25T14:56:37+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 406.76,
-    "change_pct": -4.68
+    "price": 409.1,
+    "change_pct": -4.14
    },
    "chart": {
     "ema8": -9.6,
@@ -174,23 +174,23 @@
    "symbol": "NVDA",
    "name": "Nvidia",
    "list": "portfolio",
-   "price": 144.32,
+   "price": 144.09,
    "prev_close": 155.38,
-   "change_pct": -7.1,
+   "change_pct": -7.3,
    "trigger_change": -7.2,
    "peak_change": -8.9,
    "first_seen": "2026-11-25T14:56:37+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 406.76,
-    "change_pct": -4.68
+    "price": 409.1,
+    "change_pct": -4.14
    },
    "chart": {
-    "ema8": -5.7,
-    "ema21": -15.3,
-    "sma50": -29.1,
-    "sma200": -28.9,
+    "ema8": -5.8,
+    "ema21": -15.4,
+    "sma50": -29.2,
+    "sma200": -29.0,
     "momentum": false
    },
    "headlines": [
@@ -246,101 +246,26 @@
    "brief": "2026-11-25-NVDA"
   },
   {
-   "symbol": "ANET",
-   "name": "Arista Networks",
-   "list": "portfolio",
-   "price": 158.88,
-   "prev_close": 168.56,
-   "change_pct": -5.7,
-   "trigger_change": -5.7,
-   "peak_change": -8.0,
-   "first_seen": "2026-11-25T14:56:37+00:00",
-   "sector": {
-    "etf": "SMH",
-    "name": "Semiconductors",
-    "price": 406.76,
-    "change_pct": -4.68
-   },
-   "chart": {
-    "ema8": -9.4,
-    "ema21": -12.2,
-    "sma50": -16.6,
-    "sma200": -6.0,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Arista Networks, Inc. $ANET Shares Sold by Healthcare of Ontario Pension Plan Trust Fund",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPMVVCeGF4Y1JTZHZvYi1ma0I4LTdDMm1GMVM0Z2NEUE50TTRJUkJKa2ROYnhuMVFGLWxFUnFtaGdFYTgzeVpJeDh5eENaSHRjSWttdjJyaXVVa09yeDlpbk9XQ2RQaTFNRmthRENWS3doYU1iUUoxbVNYS1Q2VllSeDhzRDZZeGxra0xCTFV6VHpkUF9fdS0zRnBFLTlCaVhyeENOdGlKMXZTRVROaS1RRFo4UEdUX00zdFRidnExM0EtdnZ3cFdEY256VTl0b2ladmI2dnU4aUgwdm5KNmZJ?oc=5",
-     "time": "2026-11-25T11:16:56+00:00"
-    },
-    {
-     "title": "Arista Networks (ANET) Stock Price Prediction: Pullback tests support after AI-driven rally meets heavy selling",
-     "publisher": "Blockchain News",
-     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQUnBldE15Mm5IQUZUX3pkallDQW1RalRrb0R4TkxXVTB2MTdSUno1VmtMeHk1aHh5TUhlVHd5dXFfWlk5TVZLZG5vR3ZCRGpCa3JycjFXcjRkT2RYbHd2YU9rUWljcVFLNEZPSnMyNVpuUkhfMS1wcWZRWTB1YktyNy1wMEtNMi11NXc1Q2QwSi0wbU1CYzE4eVBZRHUtYjA?oc=5",
-     "time": "2026-11-25T09:39:00+00:00"
-    },
-    {
-     "title": "Arista Networks vs. SentinelOne: Which Technology Stock Is a Better Buy for 2027?",
-     "publisher": "The Motley Fool",
-     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQQVdxcHZ3SFhNcVhYQmFuUnZRZVc0SnRfOFhyVXRtUmZuSGdGWlMxN2FnV0JQR1g3bGZFWTRiUUNUeW1Lc2RZRVAydDFGS3VOSVg4MmFSdHp1T0JKTnA5bWpUMzAzUXBEWGVaQzJqbWRaX004UmNXTjlNR2FwUVNDX2s5TXhONTQzbGwwdHVJbldfeUVhcXcxeGlZc0FYZ3VzQ1UybnF2SFlnTjRndFVEWlZkUXRfUkMzWWlVLVo3bUN1cEt4ZC02VkFsSQ?oc=5",
-     "time": "2026-11-25T02:23:00+00:00"
-    },
-    {
-     "title": "Insider Selling: Arista Networks (NYSE:ANET) Insider Sells $2,949,903.27 in Stock",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQSms5ZDZtV2xEQno1VUlFbjhTTkUtQTlRbnAxY2Jza1J1TUl0ejFTSlYtQmV5M1R4MjVhdjJwZS04TjVOZUhLMVg1S2k5X2MyaHQ3Z1pRa0NtNkJzS2czXzZXQlZ0cnZ4bzJ5X0VfendXNFBXZ1VERThfNGhLLXlrRUJzZ2pMcDBhWVdPbEt3UWxTQVhBNkkybUkxNnVzc1Fsd3JabVhuR2tKSGJfZUtDUmkwQS11UDdEczRqYThEM3Q3SzI2SjBvUnpHZkVCQ1BPakE?oc=5",
-     "time": "2026-11-25T02:15:48+00:00"
-    },
-    {
-     "title": "Lewis Chew RSU Vest: 539 Arista Networks Shares, Nov 2026",
-     "publisher": "kalkine.com",
-     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOR0FKTXBrSEN2Z1hSUlA0SXpaTGVQUUlJTElsY2dMelVHRlFGRVVhOWNqcHRZQkJvRWJFN3BfbkRuV2Zud2c0MXJOWWl5REozSFc2WDVwd1pZdUg2WVk5cFUtRC1HbkVDSmJiQVFpMjJPUWYtNUU2bVEzQmJwU1ZKRkRJaHVlQ2xuMmk1OEh2Mk1DT2MtTGJpR0xB?oc=5",
-     "time": "2026-11-25T00:32:30+00:00"
-    },
-    {
-     "title": "Kelly Battles RSU Vest: 539 Shares at Arista Networks",
-     "publisher": "kalkine.com",
-     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNdXFVSWQya1hxWjZIRGJqN0E0MnM5NEdObGwwTVN4ZWtaRWZmNFZsUmxNM3Y3cVA1eWZZNzJyd1pybEpyRkV1STh2NWVGdmtJNXJYd2JCTzlGdWJsM3dtWmQ4eVVjSFJrZ2VHM3lpZmFWYjM5QkVhN3paZkxCM2NQdUFjMXRsZEdXMkF1emozbFNMM0RTWFE?oc=5",
-     "time": "2026-11-25T00:32:29+00:00"
-    },
-    {
-     "title": "Arista Networks CEO Jayshree Ullal Vests 27,668 RSUs, Withholds 13,857 Shares for Taxes",
-     "publisher": "Kalkine Media",
-     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQZnh1a2JiU1VGVlNqYVg4dDFncWZRc2p5Y0xNSU56TmEybzl0bU0tb3NENTBiSVBvZl9XczYxUk1pOS05Q3p6TV9lN043ZHdDeVppa3VPWFVuMDNycjJReHY0cENUWGtZS2k1QU9sNlBfVW5KN1djbzJxdnJhSjhJWW1kV0JwSWk1bmthVXlWekNVbER1QUNEY3g1Ri1sSjlPU2dOenRtZHVCWEpObm1YaHJjd005djdQNG1BeDdxU21fRk5zdDRCdkRROA?oc=5",
-     "time": "2026-11-25T00:31:55+00:00"
-    },
-    {
-     "title": "Arista Networks COO Todd Nightingale Vests 29,129 RSUs, Withholds 14,588 Shares for Taxes",
-     "publisher": "Kalkine Media",
-     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOTUdra3BmejRyTmttU2J0M01odkNRUGE3V0ZqVE1VdkJZLXQ3eHFWQ2hSUW5INmhrbElGZkk4Umx4SEk4ck9JVkZzN3NEdU5saXptUFlCakxJb2hoVEVTQXZTYUVlWWlaLXZwajMzY05FYXhmeEUwcGhHSzN4dmdhVFcyblVWTTlVbnRyUGJ0cnJDLTlCdXFDVnRXV29qTks5SGFsRWp1WDVodWRkVDFuV3ZIQkxhR3pnbkRfdWwyVW9MS3d0U1ZSSUIwank1dw?oc=5",
-     "time": "2026-11-25T00:31:54+00:00"
-    }
-   ],
-   "brief": "2026-11-25-ANET"
-  },
-  {
    "symbol": "AXON",
    "name": "Axon",
    "list": "watchlist",
-   "price": 337.14,
+   "price": 339.03,
    "prev_close": 319.32,
-   "change_pct": 5.6,
+   "change_pct": 6.2,
    "trigger_change": 4.8,
-   "peak_change": 5.6,
+   "peak_change": 6.2,
    "first_seen": "2026-11-25T17:11:02+00:00",
    "sector": {
     "etf": "XLI",
     "name": "Industrials",
-    "price": 161.29,
-    "change_pct": -0.2
+    "price": 161.68,
+    "change_pct": 0.04
    },
    "chart": {
-    "ema8": 6.4,
-    "ema21": -0.6,
-    "sma50": -13.5,
-    "sma200": -26.9,
+    "ema8": 6.8,
+    "ema21": -0.1,
+    "sma50": -13.0,
+    "sma200": -26.5,
     "momentum": false
    },
    "headlines": [
@@ -396,101 +321,101 @@
    "brief": null
   },
   {
-   "symbol": "CRWD",
-   "name": "CrowdStrike",
+   "symbol": "ANET",
+   "name": "Arista Networks",
    "list": "portfolio",
-   "price": 200.47,
-   "prev_close": 210.86,
-   "change_pct": -4.9,
-   "trigger_change": -3.1,
-   "peak_change": -7.4,
+   "price": 158.41,
+   "prev_close": 168.56,
+   "change_pct": -6.0,
+   "trigger_change": -5.7,
+   "peak_change": -8.0,
    "first_seen": "2026-11-25T14:56:37+00:00",
    "sector": {
-    "etf": "IGV",
-    "name": "Software",
-    "price": 93.63,
-    "change_pct": -1.8
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 409.1,
+    "change_pct": -4.14
    },
    "chart": {
-    "ema8": -8.1,
-    "ema21": -12.2,
-    "sma50": -18.2,
-    "sma200": 12.8,
+    "ema8": -9.6,
+    "ema21": -12.5,
+    "sma50": -16.9,
+    "sma200": -6.3,
     "momentum": false
    },
    "headlines": [
     {
-     "title": "CRWD stock price slides to $196.99 in Wednesday trading",
-     "publisher": "JournalArta",
-     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNcmk1NzBjVXhYMFJOczFBdDdhLURIclR1UTN2Vmg5NmdNVkJ5ZnhqVGRodVRjNDJIazd5b2dhLUs4cVI0X084NXN6c1Njd1piMzhqcFdmSVYwRV9TZFNTdVo4ZGZpbFJaTHZTQUI5SHpPaVF4MGJSV0dCQUNPT1JCbzMxWGJXT3BESzNDRVIwc3NWam1RQjNUR25rdw?oc=5",
-     "time": "2026-11-25T15:59:19+00:00"
+     "title": "Arista Networks, Inc. $ANET Shares Sold by Healthcare of Ontario Pension Plan Trust Fund",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPMVVCeGF4Y1JTZHZvYi1ma0I4LTdDMm1GMVM0Z2NEUE50TTRJUkJKa2ROYnhuMVFGLWxFUnFtaGdFYTgzeVpJeDh5eENaSHRjSWttdjJyaXVVa09yeDlpbk9XQ2RQaTFNRmthRENWS3doYU1iUUoxbVNYS1Q2VllSeDhzRDZZeGxra0xCTFV6VHpkUF9fdS0zRnBFLTlCaVhyeENOdGlKMXZTRVROaS1RRFo4UEdUX00zdFRidnExM0EtdnZ3cFdEY256VTl0b2ladmI2dnU4aUgwdm5KNmZJ?oc=5",
+     "time": "2026-11-25T11:16:56+00:00"
     },
     {
-     "title": "Analysts Are Neutral on These Technology Stocks: Zoom Communications Inc (ZM), CrowdStrike Holdings (CRWD)",
-     "publisher": "The Globe and Mail",
-     "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPNnlPUEN5T2piM3JLb0ZrLTNwMU5FbHhmMVpWY3Q0Z1oyWmlfMzJlRnVzLW9ZeGVpdnhpcFc1cTBhRE9fblJWTEs0VTlubFozNk81bmlHcnNOYllYeXpaSGNvemIwM2dBU0hoamFyRU95U3h3R0FYSjlFV3FIR0l2YkY1dDJVUEpGQzk5eGp3Y0dKZWQyQ1RHTmhSYkZ0Z0UzNi1Lc3pkZWhZN0l0VWJrdDhHUE5iRkh4WmhHLWhDQ1JOaFQtaVFXdVhSaUJtYXRoVmpidVJfWk5TV3VFOFMzQU1VZnlLR0lMQ3dsR3laOTJjc0pienoyOE1LWVpCbTFUSE1CUkhlTWgtS3MxbWc?oc=5",
-     "time": "2026-11-25T13:11:50+00:00"
+     "title": "Arista Networks (ANET) Stock Price Prediction: Pullback tests support after AI-driven rally meets heavy selling",
+     "publisher": "Blockchain News",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQUnBldE15Mm5IQUZUX3pkallDQW1RalRrb0R4TkxXVTB2MTdSUno1VmtMeHk1aHh5TUhlVHd5dXFfWlk5TVZLZG5vR3ZCRGpCa3JycjFXcjRkT2RYbHd2YU9rUWljcVFLNEZPSnMyNVpuUkhfMS1wcWZRWTB1YktyNy1wMEtNMi11NXc1Q2QwSi0wbU1CYzE4eVBZRHUtYjA?oc=5",
+     "time": "2026-11-25T09:39:00+00:00"
     },
     {
-     "title": "CrowdStrike to Participate in Upcoming Investor Conferences",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQYXFkMk5nSFF3ZVBKeTczdDJTMVA3QW5WaW81ekRVUEUxaWplN083aW9EalN1SEVTOHF2dTg3akcta195MllWNDg4OXhHRnV5QVFoODVLbEM2bWFLWnpOdms3X0ZtaHl2ajVrUjZtcEtVdHZCZXpkMjdZNkhGaEp4Z0dNemJ0TjBKU1RCZWozMXNNLXl0bHRLWWIwMlJRVG9scGVaRFBwWGtyWEpVR0k3VjZXN0w?oc=5",
-     "time": "2026-11-25T13:00:00+00:00"
-    },
-    {
-     "title": "CrowdStrike Holdings \u2022 Robinhood Token - CRWD - Stock Price & News",
+     "title": "Arista Networks vs. SentinelOne: Which Technology Stock Is a Better Buy for 2027?",
      "publisher": "The Motley Fool",
-     "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5XWHJjeExNSm5OeHZ6Vi1yc1NseU94UGhXOW9BNmV6MnJRUWZaWXlzTmFOc3RnbmRyS2MxZW9adVFkbUpDWm95M0NXR3FRUHV2?oc=5",
-     "time": "2026-11-25T12:35:14+00:00"
+     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQQVdxcHZ3SFhNcVhYQmFuUnZRZVc0SnRfOFhyVXRtUmZuSGdGWlMxN2FnV0JQR1g3bGZFWTRiUUNUeW1Lc2RZRVAydDFGS3VOSVg4MmFSdHp1T0JKTnA5bWpUMzAzUXBEWGVaQzJqbWRaX004UmNXTjlNR2FwUVNDX2s5TXhONTQzbGwwdHVJbldfeUVhcXcxeGlZc0FYZ3VzQ1UybnF2SFlnTjRndFVEWlZkUXRfUkMzWWlVLVo3bUN1cEt4ZC02VkFsSQ?oc=5",
+     "time": "2026-11-25T02:23:00+00:00"
     },
     {
-     "title": "CrowdStrike Holdings, Inc. (CRWD) Stock Forecasts",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZEhDVlZVX2VXUDVTaFRoUjB4UGM0djIzb1JlYkJDX2V0UktnYVI3eTU2RWZ2bnRRQnFGN05QWldBTmlKYVYwa3VFZ1Bud1FFZm1EQXotbHBYQkluTUluUTRuUzlaY2JvVkx1RWkwTEZYVS1LN1dRV2ZjUHY5aUVjbVJzWHUweG5lbFM1dFFB?oc=5",
-     "time": "2026-11-25T12:25:41+00:00"
+     "title": "Insider Selling: Arista Networks (NYSE:ANET) Insider Sells $2,949,903.27 in Stock",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQSms5ZDZtV2xEQno1VUlFbjhTTkUtQTlRbnAxY2Jza1J1TUl0ejFTSlYtQmV5M1R4MjVhdjJwZS04TjVOZUhLMVg1S2k5X2MyaHQ3Z1pRa0NtNkJzS2czXzZXQlZ0cnZ4bzJ5X0VfendXNFBXZ1VERThfNGhLLXlrRUJzZ2pMcDBhWVdPbEt3UWxTQVhBNkkybUkxNnVzc1Fsd3JabVhuR2tKSGJfZUtDUmkwQS11UDdEczRqYThEM3Q3SzI2SjBvUnpHZkVCQ1BPakE?oc=5",
+     "time": "2026-11-25T02:15:48+00:00"
     },
     {
-     "title": "CrowdStrike CEO Says Security Has Gone \u201cFrom the Brakes to the Gas\u201d as Fortune 50 Clients Pause AI Rollouts",
-     "publisher": "TIKR.com",
-     "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQLXNXajdvSm5JLU15REhzdllGVEFadnNZT3pQXzk0YTNuMEo2UHdwVVBlT2VTZUNaUUJ6ZGxxUEpEeW4wSnBXRTExX3JMUGRhdnFyWUFHWEpmYWpJRTljd2FXSm9GMXhsV3RySWM4X1VSMmdjRmpLYTBmdTVrRGlib01ON2ljLVRaVlh4Z19fQlJ6RHNuSjRSdVdvSk54aWhHRkVnNW0tWTVaakhURmE3MXRKMVBqM1lIUlNqM09TM1Y0c0FHZ256Qk9CZWFVbW95TzAtbndwZ1ZBZTJUZHN0YTM2M0lkOGFVa3hQV1VLX0J1VkJCalVrSFNTX1hUSHBSbkE?oc=5",
-     "time": "2026-11-25T12:01:18+00:00"
+     "title": "Lewis Chew RSU Vest: 539 Arista Networks Shares, Nov 2026",
+     "publisher": "kalkine.com",
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOR0FKTXBrSEN2Z1hSUlA0SXpaTGVQUUlJTElsY2dMelVHRlFGRVVhOWNqcHRZQkJvRWJFN3BfbkRuV2Zud2c0MXJOWWl5REozSFc2WDVwd1pZdUg2WVk5cFUtRC1HbkVDSmJiQVFpMjJPUWYtNUU2bVEzQmJwU1ZKRkRJaHVlQ2xuMmk1OEh2Mk1DT2MtTGJpR0xB?oc=5",
+     "time": "2026-11-25T00:32:30+00:00"
     },
     {
-     "title": "CrowdStrike: An Interesting And Large Tie-Up With Zscaler (NASDAQ:CRWD)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNN3VCcnlveEZUaVVpVWhDN2syR1VraEk5cEQ5UHBfdzdIVUZfT0k3aC1ON2pUNnZ1LUtOWXBybzRpQXN2eUtyUkM3WEdpVC1FbmhYOXRQMTE5Z256WTd5ZkhTWG95NDdrUFpkNWJQeTJ5cXI2RmdoS1JUYVV1cm5wbFhlS1hsTXBPTDFvVkZ0RkIzeGxlckN6RnBHaWlHdw?oc=5",
-     "time": "2026-11-25T11:08:26+00:00"
+     "title": "Kelly Battles RSU Vest: 539 Shares at Arista Networks",
+     "publisher": "kalkine.com",
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNdXFVSWQya1hxWjZIRGJqN0E0MnM5NEdObGwwTVN4ZWtaRWZmNFZsUmxNM3Y3cVA1eWZZNzJyd1pybEpyRkV1STh2NWVGdmtJNXJYd2JCTzlGdWJsM3dtWmQ4eVVjSFJrZ2VHM3lpZmFWYjM5QkVhN3paZkxCM2NQdUFjMXRsZEdXMkF1emozbFNMM0RTWFE?oc=5",
+     "time": "2026-11-25T00:32:29+00:00"
     },
     {
-     "title": "Analysts Are Bullish on Top Technology Stocks: CrowdStrike Holdings (CRWD), Nvidia (NVDA)",
-     "publisher": "The Globe and Mail",
-     "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOcnZpT29wR3NqbWx6cWVxNXRLTURPa0dFTXNrNjVYVDBjblJ5RDgyRUt3S0h4MEJLSjUwRVpxQ3pwMUpGTE5WYk95dXBIOXFOZmQ0dTR3dFRvUnMwck1iNzdPdlZhb2Flc3llNzJJTTNWbDVFZHl2SzJHR1p6MG9sQ1R3ODNLck5SUm9tNWFfSVo1dml5M2pHWVFEMVRfclVEMENJMmxfc1NzLU9sdEQ5bTRjV096SGVpdmlSN055Ui1qOFlGNFFjY25zMkhfU2phYW5jcmQwbFpVQVpHN3lIUXE2akdJZGRrT3BMQnZEZ2o0aGtGQ0tMOFZMd0s?oc=5",
-     "time": "2026-11-25T09:58:20+00:00"
+     "title": "Arista Networks CEO Jayshree Ullal Vests 27,668 RSUs, Withholds 13,857 Shares for Taxes",
+     "publisher": "Kalkine Media",
+     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQZnh1a2JiU1VGVlNqYVg4dDFncWZRc2p5Y0xNSU56TmEybzl0bU0tb3NENTBiSVBvZl9XczYxUk1pOS05Q3p6TV9lN043ZHdDeVppa3VPWFVuMDNycjJReHY0cENUWGtZS2k1QU9sNlBfVW5KN1djbzJxdnJhSjhJWW1kV0JwSWk1bmthVXlWekNVbER1QUNEY3g1Ri1sSjlPU2dOenRtZHVCWEpObm1YaHJjd005djdQNG1BeDdxU21fRk5zdDRCdkRROA?oc=5",
+     "time": "2026-11-25T00:31:55+00:00"
+    },
+    {
+     "title": "Arista Networks COO Todd Nightingale Vests 29,129 RSUs, Withholds 14,588 Shares for Taxes",
+     "publisher": "Kalkine Media",
+     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOTUdra3BmejRyTmttU2J0M01odkNRUGE3V0ZqVE1VdkJZLXQ3eHFWQ2hSUW5INmhrbElGZkk4Umx4SEk4ck9JVkZzN3NEdU5saXptUFlCakxJb2hoVEVTQXZTYUVlWWlaLXZwajMzY05FYXhmeEUwcGhHSzN4dmdhVFcyblVWTTlVbnRyUGJ0cnJDLTlCdXFDVnRXV29qTks5SGFsRWp1WDVodWRkVDFuV3ZIQkxhR3pnbkRfdWwyVW9MS3d0U1ZSSUIwank1dw?oc=5",
+     "time": "2026-11-25T00:31:54+00:00"
     }
    ],
-   "brief": "2026-11-25-CRWD"
+   "brief": "2026-11-25-ANET"
   },
   {
    "symbol": "AVGO",
    "name": "Broadcom",
    "list": "portfolio",
-   "price": 287.78,
+   "price": 286.96,
    "prev_close": 301.08,
-   "change_pct": -4.4,
+   "change_pct": -4.7,
    "trigger_change": -5.1,
    "peak_change": -6.3,
    "first_seen": "2026-11-25T14:56:37+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 406.76,
-    "change_pct": -4.68
+    "price": 409.1,
+    "change_pct": -4.14
    },
    "chart": {
-    "ema8": -8.7,
-    "ema21": -11.9,
-    "sma50": -15.4,
-    "sma200": -21.6,
+    "ema8": -8.9,
+    "ema21": -12.1,
+    "sma50": -15.7,
+    "sma200": -21.9,
     "momentum": false
    },
    "headlines": [
@@ -546,26 +471,101 @@
    "brief": "2026-11-25-AVGO"
   },
   {
+   "symbol": "CRWD",
+   "name": "CrowdStrike",
+   "list": "portfolio",
+   "price": 200.88,
+   "prev_close": 210.86,
+   "change_pct": -4.7,
+   "trigger_change": -3.1,
+   "peak_change": -7.4,
+   "first_seen": "2026-11-25T14:56:37+00:00",
+   "sector": {
+    "etf": "IGV",
+    "name": "Software",
+    "price": 93.98,
+    "change_pct": -1.43
+   },
+   "chart": {
+    "ema8": -7.9,
+    "ema21": -12.0,
+    "sma50": -18.0,
+    "sma200": 13.0,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "CRWD stock price slides to $196.99 in Wednesday trading",
+     "publisher": "JournalArta",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNcmk1NzBjVXhYMFJOczFBdDdhLURIclR1UTN2Vmg5NmdNVkJ5ZnhqVGRodVRjNDJIazd5b2dhLUs4cVI0X084NXN6c1Njd1piMzhqcFdmSVYwRV9TZFNTdVo4ZGZpbFJaTHZTQUI5SHpPaVF4MGJSV0dCQUNPT1JCbzMxWGJXT3BESzNDRVIwc3NWam1RQjNUR25rdw?oc=5",
+     "time": "2026-11-25T15:59:19+00:00"
+    },
+    {
+     "title": "Analysts Are Neutral on These Technology Stocks: Zoom Communications Inc (ZM), CrowdStrike Holdings (CRWD)",
+     "publisher": "The Globe and Mail",
+     "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPNnlPUEN5T2piM3JLb0ZrLTNwMU5FbHhmMVpWY3Q0Z1oyWmlfMzJlRnVzLW9ZeGVpdnhpcFc1cTBhRE9fblJWTEs0VTlubFozNk81bmlHcnNOYllYeXpaSGNvemIwM2dBU0hoamFyRU95U3h3R0FYSjlFV3FIR0l2YkY1dDJVUEpGQzk5eGp3Y0dKZWQyQ1RHTmhSYkZ0Z0UzNi1Lc3pkZWhZN0l0VWJrdDhHUE5iRkh4WmhHLWhDQ1JOaFQtaVFXdVhSaUJtYXRoVmpidVJfWk5TV3VFOFMzQU1VZnlLR0lMQ3dsR3laOTJjc0pienoyOE1LWVpCbTFUSE1CUkhlTWgtS3MxbWc?oc=5",
+     "time": "2026-11-25T13:11:50+00:00"
+    },
+    {
+     "title": "CrowdStrike to Participate in Upcoming Investor Conferences",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQYXFkMk5nSFF3ZVBKeTczdDJTMVA3QW5WaW81ekRVUEUxaWplN083aW9EalN1SEVTOHF2dTg3akcta195MllWNDg4OXhHRnV5QVFoODVLbEM2bWFLWnpOdms3X0ZtaHl2ajVrUjZtcEtVdHZCZXpkMjdZNkhGaEp4Z0dNemJ0TjBKU1RCZWozMXNNLXl0bHRLWWIwMlJRVG9scGVaRFBwWGtyWEpVR0k3VjZXN0w?oc=5",
+     "time": "2026-11-25T13:00:00+00:00"
+    },
+    {
+     "title": "CrowdStrike Holdings \u2022 Robinhood Token - CRWD - Stock Price & News",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5XWHJjeExNSm5OeHZ6Vi1yc1NseU94UGhXOW9BNmV6MnJRUWZaWXlzTmFOc3RnbmRyS2MxZW9adVFkbUpDWm95M0NXR3FRUHV2?oc=5",
+     "time": "2026-11-25T12:35:14+00:00"
+    },
+    {
+     "title": "CrowdStrike Holdings, Inc. (CRWD) Stock Forecasts",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZEhDVlZVX2VXUDVTaFRoUjB4UGM0djIzb1JlYkJDX2V0UktnYVI3eTU2RWZ2bnRRQnFGN05QWldBTmlKYVYwa3VFZ1Bud1FFZm1EQXotbHBYQkluTUluUTRuUzlaY2JvVkx1RWkwTEZYVS1LN1dRV2ZjUHY5aUVjbVJzWHUweG5lbFM1dFFB?oc=5",
+     "time": "2026-11-25T12:25:41+00:00"
+    },
+    {
+     "title": "CrowdStrike CEO Says Security Has Gone \u201cFrom the Brakes to the Gas\u201d as Fortune 50 Clients Pause AI Rollouts",
+     "publisher": "TIKR.com",
+     "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQLXNXajdvSm5JLU15REhzdllGVEFadnNZT3pQXzk0YTNuMEo2UHdwVVBlT2VTZUNaUUJ6ZGxxUEpEeW4wSnBXRTExX3JMUGRhdnFyWUFHWEpmYWpJRTljd2FXSm9GMXhsV3RySWM4X1VSMmdjRmpLYTBmdTVrRGlib01ON2ljLVRaVlh4Z19fQlJ6RHNuSjRSdVdvSk54aWhHRkVnNW0tWTVaakhURmE3MXRKMVBqM1lIUlNqM09TM1Y0c0FHZ256Qk9CZWFVbW95TzAtbndwZ1ZBZTJUZHN0YTM2M0lkOGFVa3hQV1VLX0J1VkJCalVrSFNTX1hUSHBSbkE?oc=5",
+     "time": "2026-11-25T12:01:18+00:00"
+    },
+    {
+     "title": "CrowdStrike: An Interesting And Large Tie-Up With Zscaler (NASDAQ:CRWD)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNN3VCcnlveEZUaVVpVWhDN2syR1VraEk5cEQ5UHBfdzdIVUZfT0k3aC1ON2pUNnZ1LUtOWXBybzRpQXN2eUtyUkM3WEdpVC1FbmhYOXRQMTE5Z256WTd5ZkhTWG95NDdrUFpkNWJQeTJ5cXI2RmdoS1JUYVV1cm5wbFhlS1hsTXBPTDFvVkZ0RkIzeGxlckN6RnBHaWlHdw?oc=5",
+     "time": "2026-11-25T11:08:26+00:00"
+    },
+    {
+     "title": "Analysts Are Bullish on Top Technology Stocks: CrowdStrike Holdings (CRWD), Nvidia (NVDA)",
+     "publisher": "The Globe and Mail",
+     "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOcnZpT29wR3NqbWx6cWVxNXRLTURPa0dFTXNrNjVYVDBjblJ5RDgyRUt3S0h4MEJLSjUwRVpxQ3pwMUpGTE5WYk95dXBIOXFOZmQ0dTR3dFRvUnMwck1iNzdPdlZhb2Flc3llNzJJTTNWbDVFZHl2SzJHR1p6MG9sQ1R3ODNLck5SUm9tNWFfSVo1dml5M2pHWVFEMVRfclVEMENJMmxfc1NzLU9sdEQ5bTRjV096SGVpdmlSN055Ui1qOFlGNFFjY25zMkhfU2phYW5jcmQwbFpVQVpHN3lIUXE2akdJZGRrT3BMQnZEZ2o0aGtGQ0tMOFZMd0s?oc=5",
+     "time": "2026-11-25T09:58:20+00:00"
+    }
+   ],
+   "brief": "2026-11-25-CRWD"
+  },
+  {
    "symbol": "AMZN",
    "name": "Amazon",
    "list": "portfolio",
-   "price": 244.29,
+   "price": 243.46,
    "prev_close": 252.29,
-   "change_pct": -3.2,
+   "change_pct": -3.5,
    "trigger_change": -5.0,
    "peak_change": -6.1,
    "first_seen": "2026-11-25T14:56:37+00:00",
    "sector": {
     "etf": "XLY",
     "name": "Consumer discr.",
-    "price": 116.61,
-    "change_pct": -0.94
+    "price": 116.91,
+    "change_pct": -0.69
    },
    "chart": {
-    "ema8": -3.7,
-    "ema21": -4.7,
-    "sma50": -4.2,
-    "sma200": -0.6,
+    "ema8": -4.0,
+    "ema21": -5.0,
+    "sma50": -4.6,
+    "sma200": -0.9,
     "momentum": false
    },
    "headlines": [
@@ -624,7 +624,7 @@
    "symbol": "GOOG",
    "name": "Alphabet",
    "list": "portfolio",
-   "price": 268.26,
+   "price": 268.17,
    "prev_close": 276.58,
    "change_pct": -3.0,
    "trigger_change": -4.2,
@@ -633,12 +633,12 @@
    "sector": {
     "etf": "XLC",
     "name": "Communication",
-    "price": 104.48,
-    "change_pct": 0.03
+    "price": 104.76,
+    "change_pct": 0.3
    },
    "chart": {
     "ema8": -2.7,
-    "ema21": -6.4,
+    "ema21": -6.5,
     "sma50": -14.9,
     "sma200": -19.7,
     "momentum": false
@@ -699,23 +699,23 @@
    "symbol": "APP",
    "name": "AppLovin",
    "list": "portfolio",
-   "price": 372.02,
+   "price": 373.66,
    "prev_close": 381.11,
-   "change_pct": -2.4,
+   "change_pct": -2.0,
    "trigger_change": -4.5,
    "peak_change": -5.8,
    "first_seen": "2026-11-25T14:56:37+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 93.63,
-    "change_pct": -1.8
+    "price": 93.98,
+    "change_pct": -1.43
    },
    "chart": {
-    "ema8": -1.2,
-    "ema21": 4.5,
-    "sma50": 19.3,
-    "sma200": -7.8,
+    "ema8": -0.8,
+    "ema21": 4.9,
+    "sma50": 19.8,
+    "sma200": -7.4,
     "momentum": true
    },
    "headlines": [
@@ -774,23 +774,23 @@
    "symbol": "SOFI",
    "name": "SoFi",
    "list": "portfolio",
-   "price": 12.76,
+   "price": 12.77,
    "prev_close": 12.86,
-   "change_pct": -0.8,
+   "change_pct": -0.7,
    "trigger_change": -5.1,
    "peak_change": -5.4,
    "first_seen": "2026-11-25T14:56:37+00:00",
    "sector": {
     "etf": "XLF",
     "name": "Financials",
-    "price": 56.22,
-    "change_pct": 0.19
+    "price": 56.29,
+    "change_pct": 0.32
    },
    "chart": {
     "ema8": -5.7,
-    "ema21": -12.7,
-    "sma50": -17.9,
-    "sma200": -25.0,
+    "ema21": -12.6,
+    "sma50": -17.8,
+    "sma200": -24.9,
     "momentum": false
    },
    "headlines": [
@@ -846,95 +846,25 @@
    "brief": "2026-11-25-SOFI"
   },
   {
-   "symbol": "BTC-USD",
-   "name": "Bitcoin",
-   "list": "watchlist",
-   "price": 59462.7,
-   "prev_close": 59741.2,
-   "change_pct": -0.5,
-   "trigger_change": -3.0,
-   "peak_change": -3.3,
-   "first_seen": "2026-11-25T14:56:37+00:00",
-   "sector": null,
-   "chart": {
-    "ema8": -3.0,
-    "ema21": -10.1,
-    "sma50": -20.8,
-    "sma200": -17.4,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Hyperliquid's HYPE will join bitcoin, ether and more in Franklin Templeton's crypto ETF",
-     "publisher": "The Block",
-     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPdDZFNzVlelZVcGlidlNmZkk0eDJRc0VnQ3dHSEVqd1dab2hUYjJid0xVVTZsV094bm9JMkpjZ0ktemtrQS1IaW0ycFA3QUlMZjViNnFRN0tWd05fZ3ktNDQyU2RTd0NFUTRZUFRpTkJBUWlwTF9rR2toaFRtcm9NNThpelF0U21NeHBSYkVIdS1VOTFkVUlYR1QwODgyNVRJVHI2UFYzSQ?oc=5",
-     "time": "2026-11-25T16:54:00+00:00"
-    },
-    {
-     "title": "Bitcoin Falls Further as Inflation, Trump Tariffs and AI Selloff Rattle Markets",
-     "publisher": "Decrypt",
-     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBjWWJWUlo0aHRXWld1MHBLUnNjR1hQQVRkTVdlOEV4bDlGRmYxb296ODJlZ2szRmJiWnpCRU9pdm92djJtVzg5LXVReUVxZXNjYUV5Nk04azAyOEVOc0JsUEZkZ0hNYkVkdEg3NVd0aFRrWEphS0ZZWkx2RGhMbFk?oc=5",
-     "time": "2026-11-25T16:52:50+00:00"
-    },
-    {
-     "title": "$Bitcoin (BTC.CC)$",
-     "publisher": "Moomoo",
-     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBqd1d2SUdqNk1wZmdHd1RTY2VIYXlLdjZuRjVEVVBiODlKb0duNDhtQ19uMzFLdjhKX0tVckI5UzAwV0dnLVJmamtudUZjam1leVhzQVpmSDlXOUNSUy1wM3dMWDNDUnNtODU1ZmRiVmU2WmtidjV3?oc=5",
-     "time": "2026-11-25T16:44:23+00:00"
-    },
-    {
-     "title": "Bitcoin retreats to summer lows as risk-off sentiment prevails",
-     "publisher": "Cryptonews.net",
-     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBTcUc2bzBSZVhSbnljcC1TUTB4c3RVaXhQYk1pQ192czJ0ZWV4bDBLRnV2UTJuM2JacVM1U0FZTzVrT0c5RF8zUl90VU5iMzBaVmExa3RXNzY?oc=5",
-     "time": "2026-11-25T16:43:48+00:00"
-    },
-    {
-     "title": "Adam Back urges Strategy to spend $3 billion on roughly 50,000 Bitcoin",
-     "publisher": "Cryptonews.net",
-     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBNdXB5UExRTUw1ZmVTMjZGZG5FZDREY25oRDA2MTVERVR2Y0tlc21oZS16XzFwRnB1N2x6ZWxHTHFPV3g3ZW9FYWhhNXktZHJWMU5TQmJLSDY?oc=5",
-     "time": "2026-11-25T16:43:44+00:00"
-    },
-    {
-     "title": "Bitcoin Whales Shed 150K BTC As Prices Keep Falling",
-     "publisher": "Santiment",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQRFQxSDRka2s1MXRzRnBVT0FoWVp6aXcxUFlBeUZkM1RaajFGSTJudHkxZzhHTTB0cVdlV1RFTkZhRnUxUUNnS2k0MGFRMmpiOUpxakFoMEtVd2ZBZUhKMk5YU0xaRkdNMXZIN0l4NnlSLUp1R2NJbXd4VDVia3BYY25TV3FWMnd1WWdKNndSeW9OS0lSeGxGS0w3QjBMQQ?oc=5",
-     "time": "2026-11-25T16:40:55+00:00"
-    },
-    {
-     "title": "Bitcoin dominance slips below 60%, but altcoin season is not arriving",
-     "publisher": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNbWlzbU1YTzZjNHJLRDNONVlpX1NmekFWaWdaVlRmMmtkenNtMjV4ME5JTVVORm5VWnFtUWpwaVdlRmN4dnRxTEpqQ1BITU8xd0VQNVVIQ3RHTGkycHNZVF9oaXY1djBVdmJMTkY1NEdPbU9uUUlVRlVSNVdhNWRGVmRZUklCZjhmZzk5SlUzOENLOE5EQTl1VUxBY3pWLUlCTmQ4bUd1bmRuR19CdHpQWG5yVDdJRkR3OWV5dnRfSFhGc1N3d1NJU2R5Z3o?oc=5",
-     "time": "2026-11-25T16:39:33+00:00"
-    },
-    {
-     "title": "Bitcoin whales shed about 150,000 BTC as price slides 24.5%",
-     "publisher": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOVW8wZHBRb1VGNkhpMWZwcTg5UWZlQ1lpWmhhTUxreHdNR0tfZ3N0cTJZdjRHV0YxZm9FWDBsOHVFOEZHQUt1M1l1bnkzRUY4SUIzOU1yQ2RLV0VfR09LN3hFN2hKZ1VxTWtUaGlBWGx0WHdnc2YtRVc4bDlwVFFQbTNfeW5JcW1rMk1DMXlwNlNQOU5wa1M5WkxNalJsbHd0SHpMS2pIRnQyOVFZV3JvZmxobGpQWmM5MEtmWE5EQmc?oc=5",
-     "time": "2026-11-25T16:38:48+00:00"
-    }
-   ],
-   "brief": "2026-11-25-BTC-USD"
-  },
-  {
    "symbol": "NOW",
    "name": "ServiceNow",
    "list": "portfolio",
-   "price": 91.36,
+   "price": 91.3,
    "prev_close": 91.74,
-   "change_pct": -0.4,
+   "change_pct": -0.5,
    "trigger_change": -3.2,
    "peak_change": -3.3,
    "first_seen": "2026-11-25T14:56:37+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 93.63,
-    "change_pct": -1.8
+    "price": 93.98,
+    "change_pct": -1.43
    },
    "chart": {
     "ema8": -1.8,
-    "ema21": -11.7,
-    "sma50": -26.8,
+    "ema21": -11.8,
+    "sma50": -26.9,
     "sma200": -19.2,
     "momentum": false
    },
@@ -991,26 +921,96 @@
    "brief": "2026-11-25-NOW"
   },
   {
+   "symbol": "BTC-USD",
+   "name": "Bitcoin",
+   "list": "watchlist",
+   "price": 59768.6,
+   "prev_close": 59741.2,
+   "change_pct": 0.0,
+   "trigger_change": -3.0,
+   "peak_change": -3.3,
+   "first_seen": "2026-11-25T14:56:37+00:00",
+   "sector": null,
+   "chart": {
+    "ema8": -2.6,
+    "ema21": -9.6,
+    "sma50": -20.4,
+    "sma200": -17.0,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Hyperliquid's HYPE will join bitcoin, ether and more in Franklin Templeton's crypto ETF",
+     "publisher": "The Block",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPdDZFNzVlelZVcGlidlNmZkk0eDJRc0VnQ3dHSEVqd1dab2hUYjJid0xVVTZsV094bm9JMkpjZ0ktemtrQS1IaW0ycFA3QUlMZjViNnFRN0tWd05fZ3ktNDQyU2RTd0NFUTRZUFRpTkJBUWlwTF9rR2toaFRtcm9NNThpelF0U21NeHBSYkVIdS1VOTFkVUlYR1QwODgyNVRJVHI2UFYzSQ?oc=5",
+     "time": "2026-11-25T16:54:00+00:00"
+    },
+    {
+     "title": "Bitcoin Falls Further as Inflation, Trump Tariffs and AI Selloff Rattle Markets",
+     "publisher": "Decrypt",
+     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBjWWJWUlo0aHRXWld1MHBLUnNjR1hQQVRkTVdlOEV4bDlGRmYxb296ODJlZ2szRmJiWnpCRU9pdm92djJtVzg5LXVReUVxZXNjYUV5Nk04azAyOEVOc0JsUEZkZ0hNYkVkdEg3NVd0aFRrWEphS0ZZWkx2RGhMbFk?oc=5",
+     "time": "2026-11-25T16:52:50+00:00"
+    },
+    {
+     "title": "$Bitcoin (BTC.CC)$",
+     "publisher": "Moomoo",
+     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBqd1d2SUdqNk1wZmdHd1RTY2VIYXlLdjZuRjVEVVBiODlKb0duNDhtQ19uMzFLdjhKX0tVckI5UzAwV0dnLVJmamtudUZjam1leVhzQVpmSDlXOUNSUy1wM3dMWDNDUnNtODU1ZmRiVmU2WmtidjV3?oc=5",
+     "time": "2026-11-25T16:44:23+00:00"
+    },
+    {
+     "title": "Bitcoin retreats to summer lows as risk-off sentiment prevails",
+     "publisher": "Cryptonews.net",
+     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBTcUc2bzBSZVhSbnljcC1TUTB4c3RVaXhQYk1pQ192czJ0ZWV4bDBLRnV2UTJuM2JacVM1U0FZTzVrT0c5RF8zUl90VU5iMzBaVmExa3RXNzY?oc=5",
+     "time": "2026-11-25T16:43:48+00:00"
+    },
+    {
+     "title": "Adam Back urges Strategy to spend $3 billion on roughly 50,000 Bitcoin",
+     "publisher": "Cryptonews.net",
+     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBNdXB5UExRTUw1ZmVTMjZGZG5FZDREY25oRDA2MTVERVR2Y0tlc21oZS16XzFwRnB1N2x6ZWxHTHFPV3g3ZW9FYWhhNXktZHJWMU5TQmJLSDY?oc=5",
+     "time": "2026-11-25T16:43:44+00:00"
+    },
+    {
+     "title": "Bitcoin Whales Shed 150K BTC As Prices Keep Falling",
+     "publisher": "Santiment",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQRFQxSDRka2s1MXRzRnBVT0FoWVp6aXcxUFlBeUZkM1RaajFGSTJudHkxZzhHTTB0cVdlV1RFTkZhRnUxUUNnS2k0MGFRMmpiOUpxakFoMEtVd2ZBZUhKMk5YU0xaRkdNMXZIN0l4NnlSLUp1R2NJbXd4VDVia3BYY25TV3FWMnd1WWdKNndSeW9OS0lSeGxGS0w3QjBMQQ?oc=5",
+     "time": "2026-11-25T16:40:55+00:00"
+    },
+    {
+     "title": "Bitcoin dominance slips below 60%, but altcoin season is not arriving",
+     "publisher": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNbWlzbU1YTzZjNHJLRDNONVlpX1NmekFWaWdaVlRmMmtkenNtMjV4ME5JTVVORm5VWnFtUWpwaVdlRmN4dnRxTEpqQ1BITU8xd0VQNVVIQ3RHTGkycHNZVF9oaXY1djBVdmJMTkY1NEdPbU9uUUlVRlVSNVdhNWRGVmRZUklCZjhmZzk5SlUzOENLOE5EQTl1VUxBY3pWLUlCTmQ4bUd1bmRuR19CdHpQWG5yVDdJRkR3OWV5dnRfSFhGc1N3d1NJU2R5Z3o?oc=5",
+     "time": "2026-11-25T16:39:33+00:00"
+    },
+    {
+     "title": "Bitcoin whales shed about 150,000 BTC as price slides 24.5%",
+     "publisher": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOVW8wZHBRb1VGNkhpMWZwcTg5UWZlQ1lpWmhhTUxreHdNR0tfZ3N0cTJZdjRHV0YxZm9FWDBsOHVFOEZHQUt1M1l1bnkzRUY4SUIzOU1yQ2RLV0VfR09LN3hFN2hKZ1VxTWtUaGlBWGx0WHdnc2YtRVc4bDlwVFFQbTNfeW5JcW1rMk1DMXlwNlNQOU5wa1M5WkxNalJsbHd0SHpMS2pIRnQyOVFZV3JvZmxobGpQWmM5MEtmWE5EQmc?oc=5",
+     "time": "2026-11-25T16:38:48+00:00"
+    }
+   ],
+   "brief": "2026-11-25-BTC-USD"
+  },
+  {
    "symbol": "MELI",
    "name": "MercadoLibre",
    "list": "watchlist",
-   "price": 1451.32,
+   "price": 1450.88,
    "prev_close": 1450.31,
-   "change_pct": 0.1,
+   "change_pct": 0.0,
    "trigger_change": -3.0,
    "peak_change": -3.0,
    "first_seen": "2026-11-25T15:27:07+00:00",
    "sector": {
     "etf": "XLY",
     "name": "Consumer discr.",
-    "price": 116.61,
-    "change_pct": -0.94
+    "price": 116.91,
+    "change_pct": -0.69
    },
    "chart": {
-    "ema8": 0.9,
+    "ema8": 0.8,
     "ema21": -4.4,
     "sma50": -13.9,
-    "sma200": -17.4,
+    "sma200": -17.5,
     "momentum": false
    },
    "headlines": [
