@@ -1,22 +1,22 @@
 {
  "date": "2026-11-25",
  "threshold": 3.0,
- "updated": "2026-11-25T19:52:16+00:00",
+ "updated": "2026-11-25T19:57:19+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 717.0,
-   "change_pct": -0.25
+   "price": 716.07,
+   "change_pct": -0.38
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 633.53,
-   "change_pct": -0.72
+   "price": 632.28,
+   "change_pct": -0.91
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 82.43,
-   "change_pct": 1.15
+   "price": 82.41,
+   "change_pct": 1.13
   }
  },
  "movers": [
@@ -24,7 +24,7 @@
    "symbol": "AXON",
    "name": "Axon",
    "list": "watchlist",
-   "price": 340.15,
+   "price": 339.92,
    "prev_close": 319.32,
    "change_pct": 6.5,
    "trigger_change": 4.8,
@@ -33,14 +33,14 @@
    "sector": {
     "etf": "XLI",
     "name": "Industrials",
-    "price": 163.24,
-    "change_pct": 1.01
+    "price": 162.94,
+    "change_pct": 0.83
    },
    "chart": {
-    "ema8": 7.1,
+    "ema8": 7.0,
     "ema21": 0.2,
-    "sma50": -12.7,
-    "sma200": -26.2,
+    "sma50": -12.8,
+    "sma200": -26.3,
     "momentum": false
    },
    "headlines": [
@@ -99,23 +99,23 @@
    "symbol": "AMAT",
    "name": "Applied Materials",
    "list": "portfolio",
-   "price": 304.75,
+   "price": 305.3,
    "prev_close": 323.76,
-   "change_pct": -5.9,
+   "change_pct": -5.7,
    "trigger_change": -7.5,
    "peak_change": -10.2,
    "first_seen": "2026-11-25T14:56:37+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 419.92,
-    "change_pct": -1.6
+    "price": 419.43,
+    "change_pct": -1.72
    },
    "chart": {
-    "ema8": -8.3,
-    "ema21": -15.2,
-    "sma50": -27.4,
-    "sma200": -31.8,
+    "ema8": -8.2,
+    "ema21": -15.0,
+    "sma50": -27.3,
+    "sma200": -31.7,
     "momentum": false
    },
    "headlines": [
@@ -174,23 +174,23 @@
    "symbol": "NVDA",
    "name": "Nvidia",
    "list": "portfolio",
-   "price": 147.66,
+   "price": 147.83,
    "prev_close": 155.38,
-   "change_pct": -5.0,
+   "change_pct": -4.9,
    "trigger_change": -7.2,
    "peak_change": -8.9,
    "first_seen": "2026-11-25T14:56:37+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 419.92,
-    "change_pct": -1.6
+    "price": 419.43,
+    "change_pct": -1.72
    },
    "chart": {
     "ema8": -3.9,
-    "ema21": -13.5,
-    "sma50": -27.5,
-    "sma200": -27.2,
+    "ema21": -13.4,
+    "sma50": -27.4,
+    "sma200": -27.1,
     "momentum": false
    },
    "headlines": [
@@ -249,23 +249,23 @@
    "symbol": "ANET",
    "name": "Arista Networks",
    "list": "portfolio",
-   "price": 163.44,
+   "price": 162.97,
    "prev_close": 168.56,
-   "change_pct": -3.0,
+   "change_pct": -3.3,
    "trigger_change": -5.7,
    "peak_change": -8.0,
    "first_seen": "2026-11-25T14:56:37+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 419.92,
-    "change_pct": -1.6
+    "price": 419.43,
+    "change_pct": -1.72
    },
    "chart": {
-    "ema8": -7.3,
-    "ema21": -9.9,
-    "sma50": -14.3,
-    "sma200": -3.3,
+    "ema8": -7.5,
+    "ema21": -10.1,
+    "sma50": -14.5,
+    "sma200": -3.6,
     "momentum": false
    },
    "headlines": [
@@ -324,23 +324,23 @@
    "symbol": "AMZN",
    "name": "Amazon",
    "list": "portfolio",
-   "price": 246.21,
+   "price": 245.47,
    "prev_close": 252.29,
-   "change_pct": -2.4,
+   "change_pct": -2.7,
    "trigger_change": -5.0,
    "peak_change": -6.1,
    "first_seen": "2026-11-25T14:56:37+00:00",
    "sector": {
     "etf": "XLY",
     "name": "Consumer discr.",
-    "price": 118.09,
-    "change_pct": 0.32
+    "price": 117.79,
+    "change_pct": 0.06
    },
    "chart": {
-    "ema8": -3.2,
-    "ema21": -4.0,
-    "sma50": -3.5,
-    "sma200": 0.2,
+    "ema8": -3.4,
+    "ema21": -4.3,
+    "sma50": -3.8,
+    "sma200": -0.1,
     "momentum": false
    },
    "headlines": [
@@ -396,101 +396,26 @@
    "brief": "2026-11-25-AMZN"
   },
   {
-   "symbol": "MELI",
-   "name": "MercadoLibre",
-   "list": "watchlist",
-   "price": 1483.0,
-   "prev_close": 1450.31,
-   "change_pct": 2.3,
-   "trigger_change": -3.0,
-   "peak_change": -3.0,
-   "first_seen": "2026-11-25T15:27:07+00:00",
-   "sector": {
-    "etf": "XLY",
-    "name": "Consumer discr.",
-    "price": 118.09,
-    "change_pct": 0.32
-   },
-   "chart": {
-    "ema8": 2.6,
-    "ema21": -2.5,
-    "sma50": -12.0,
-    "sma200": -15.6,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Morgan Stanley Cut Its MercadoLibre Target. It Still Sees 66% Upside",
-     "publisher": "TIKR.com",
-     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQTEthM1RWdXBnWEFKZkxZbkI1QjNDSHN3M0xjMk5EUEhscmF6bG5BcjlGekdJZlZ6bURFdVd3NGJzY29ONlo4MmFOMHVhNDZIejdfcVI0WEVteGVybXhiR3l2SkQtaXlmNUVkWHNBalR6cUxxR1FuSVlra2NxZVpCSThRdTRITUE5NVNwRGtESHI3cC1Za3FwV001dVFZRUk3elNCb18tVFhoTlZkMmw2bHRzMy1hQmV4R0RzTnRUcGtIV2dZZEtSeVM4b1U5Zw?oc=5",
-     "time": "2026-11-25T17:08:42+00:00"
-    },
-    {
-     "title": "Is MercadoLibre (MELI) Becoming A Bigger AI Play In Emerging Markets?",
-     "publisher": "Simply Wall St",
-     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPdXdUZmF3ZlRIVERKQXZTMXhvdlc5TVFFby1qejR4dE1jaHVEN0xnVEVyNGs1V1JtbnNTQU4yM09aaTY1VHVWZHNvQWdpZVF5cFJJQmxJTThSR3FWR2JEc0hwS2pNbTRSMVNBNFdFdDlyN0RqdHlzcmlYcHh5bXIxZXN3TjNGcHVFVkJqOTV3Z3lMX3NJdFRmUjRWRmhrOUowUXppeHNrdGlVeThMdzZKZ0o1UC1EVkFOY0V3bHlPbnJhZWNDRkVYctIBzgFBVV95cUxNRjNzQjdxeG1vLWJ3Qjh1WnhXVmVyaUZBNjNPMEMzeERDMGNvekZDNzBDTFI0U004LUxNWFpCS1IxNEN1WDJ5cllwdnkxVUo3ZVF4aG93QjRFclhoRzlsOU1NaG4yTkFYajh4UzZzSG1lbDBzSHRjbUhkY0pveVBvdFNBQTc5OFVZZmlFNHZzNHhrYWk0THZaWmU2SlNDUHNRYjVDSkFvVzBKb3NWak9vbXVDVzJLclVtcEVjZXRGMXpHaThPcDZNZ2U2RUQzdw?oc=5",
-     "time": "2026-11-25T14:10:50+00:00"
-    },
-    {
-     "title": "MercadoLibre, Inc. $MELI Shares Acquired by Pathstone Holdings LLC",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQanNpR3Jtc3pycTdLVVM0ZUpvc3Z3T1lvdFNHMlEtcXVfeGhvZkhBZ205MVJRV3EyUGlQdlg2TEhoWm9tMS1iRnlPYmt2U21mdmdKOXpKWEo2ZFFYUkhFNlRBcm9hNF9EZ3lFbFZ1aVA5eVBET0stVFJDcUJrR1NBaWdCcTZlbnRXa2Y4cWU4dUlrazFMTmRMVTctTzJ5Y3FJeXloOFJnLURjX2JhckQxZVRXLVFxajYzZUxyU01hUGJodw?oc=5",
-     "time": "2026-11-25T11:50:23+00:00"
-    },
-    {
-     "title": "MercadoLibre (MELI) Stock Price Prediction: Bank of America trims target as MELI trades below key moving averages",
-     "publisher": "Blockchain News",
-     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNY1lkNnZPTmRyWTZwbUZHeGdITm90YzF2TGFrVnl2MVRTakJmQzlkb2drVS1kTzJBbmY4MUE1dW9QSUtPUVN4cGg1c194dTFyNnVCZjNQMkNLeGMxQ0c3elYwODVQdk45Y2hudnQzbDVpamJwYkZJWXZKMDBjTjBwMkF0ZzdFTWlNNXBaWW5TbXBuZ1lwYkgxMzFMSDg?oc=5",
-     "time": "2026-11-25T10:16:00+00:00"
-    },
-    {
-     "title": "MercadoLibre vs. Target: Which Stock Looks More Compelling Now?",
-     "publisher": "The Globe and Mail",
-     "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNc0xGY1JtR3dHci15eURfVDNIYjN1RXJMdlR5YzlpWU9LZ2tpNkswVWRCOVNLQW9pNmFDVm5xU3hTV2VYajhDeFQyRDNzdmxMNXFLT0Q5SzE2bjVJUXdPUXk5VVBidFlBVVp2OTYxaFM0SzJuNkkwaDloTkVfY2FRaG10elZEVmZfN0RSU0J0N0lRVFlaRjdHeTZMT1R1VzJaVjNhVThtTGRBTUtNVVhFempUUGFQOTV5Vjk3Sk5VMzA4VkgxbzBYdWJ2empxTUp5V2JneXBSOEZ3ZWFJU2VZ?oc=5",
-     "time": "2026-11-25T04:12:40+00:00"
-    },
-    {
-     "title": "MercadoLibre Grew Revenue 45% as Operating Income Fell 6%. Is It \u201ca Gift at These Prices\u201d?",
-     "publisher": "TIKR.com",
-     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNRmR4YnFqLURMbUJacktVSkZ6SDZKWWR5c3AxOXFoWXBFSHNvNVAxV2lRNHdiLTBrY0ZXdi1VOU5RTnNNTjNldVRmS1FrUmptUGlQVlpsazI5ZTJtS3NFOERtdGpiY1k3UVd4eThwZVVINWF6d05fenV0TkJoSnh1MC1GUk8yVkl0S1gyTzNOX3hIZ3BkZVJOOHRwMGRsMlVkSHVfNG1JRWIxbFBjWmNhamEzSUp4aERXdzhKazhaTHA?oc=5",
-     "time": "2026-11-24T19:18:45+00:00"
-    },
-    {
-     "title": "MercadoLibre stock edges up after bounce off 1-year low",
-     "publisher": "JournalArta",
-     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOTmtRUHlZbm1QVFI1T3JhR1k3Z25NN0hzNU9kTjgxbVh1azJVWDBqakJvWTNYZEROTVItSHJ5bklaLUpTcDM4NFhTR0FibjBqQkV6US1BU2Jrc3pUSDZJZHNqVFBZQXJGb1dOMHdjcVB6NnFjVkFxeVY2Ny1NMVhvRFdLZHRxX2pGVVVoUGZkZWc2UmJKX3F0MGE3NDFXMjRncVd6SnFHMA?oc=5",
-     "time": "2026-11-24T18:46:43+00:00"
-    },
-    {
-     "title": "How Investors May Respond To MercadoLibre (MELI) Logistics Spending Push",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNY0xzbnBLMDFPa0NNSGlqb1hxS0tuRWdMMkZvZUNKRWZaUnZrSUc5SExJdzBYV1d4VmwxZXc5eUV0MTZYdWhqMnZxRmY4dTRYektlSV9DSk9TdWdIakthU05HcjRVQmZnMWxmRkZOWUVMNllNOGRZeElIMlpSamxXNm42V2RqNS1FNEJ1c2x0dC15NzhPSXJoYmc3elhxUExsd19yVGQ1TQ?oc=5",
-     "time": "2026-11-24T16:11:18+00:00"
-    }
-   ],
-   "brief": "2026-11-25-MELI"
-  },
-  {
    "symbol": "GOOG",
    "name": "Alphabet",
    "list": "portfolio",
-   "price": 270.77,
+   "price": 270.22,
    "prev_close": 276.58,
-   "change_pct": -2.1,
+   "change_pct": -2.3,
    "trigger_change": -4.2,
    "peak_change": -4.9,
    "first_seen": "2026-11-25T14:56:37+00:00",
    "sector": {
     "etf": "XLC",
     "name": "Communication",
-    "price": 105.4,
-    "change_pct": 0.91
+    "price": 105.19,
+    "change_pct": 0.71
    },
    "chart": {
-    "ema8": -2.0,
-    "ema21": -5.6,
-    "sma50": -14.1,
-    "sma200": -19.0,
+    "ema8": -2.1,
+    "ema21": -5.8,
+    "sma50": -14.3,
+    "sma200": -19.1,
     "momentum": false
    },
    "headlines": [
@@ -549,23 +474,23 @@
    "symbol": "SOFI",
    "name": "SoFi",
    "list": "portfolio",
-   "price": 13.13,
+   "price": 13.12,
    "prev_close": 12.86,
-   "change_pct": 2.1,
+   "change_pct": 2.0,
    "trigger_change": -5.1,
    "peak_change": -5.4,
    "first_seen": "2026-11-25T14:56:37+00:00",
    "sector": {
     "etf": "XLF",
     "name": "Financials",
-    "price": 56.58,
-    "change_pct": 0.84
+    "price": 56.5,
+    "change_pct": 0.7
    },
    "chart": {
-    "ema8": -3.6,
-    "ema21": -10.4,
-    "sma50": -15.5,
-    "sma200": -22.8,
+    "ema8": -3.7,
+    "ema21": -10.5,
+    "sma50": -15.6,
+    "sma200": -22.9,
     "momentum": false
    },
    "headlines": [
@@ -621,176 +546,101 @@
    "brief": "2026-11-25-SOFI"
   },
   {
-   "symbol": "NBIS",
-   "name": "Nebius",
-   "list": "portfolio",
-   "price": 85.57,
-   "prev_close": 87.31,
-   "change_pct": -2.0,
-   "trigger_change": -9.0,
-   "peak_change": -12.5,
-   "first_seen": "2026-11-25T14:56:37+00:00",
+   "symbol": "MELI",
+   "name": "MercadoLibre",
+   "list": "watchlist",
+   "price": 1478.59,
+   "prev_close": 1450.31,
+   "change_pct": 1.9,
+   "trigger_change": -3.0,
+   "peak_change": -3.0,
+   "first_seen": "2026-11-25T15:27:07+00:00",
    "sector": {
-    "etf": "IGV",
-    "name": "Software",
-    "price": 95.19,
-    "change_pct": -0.17
+    "etf": "XLY",
+    "name": "Consumer discr.",
+    "price": 117.79,
+    "change_pct": 0.06
    },
    "chart": {
-    "ema8": -12.5,
-    "ema21": -30.0,
-    "sma50": -50.9,
-    "sma200": -52.4,
+    "ema8": 2.3,
+    "ema21": -2.8,
+    "sma50": -12.3,
+    "sma200": -15.9,
     "momentum": false
    },
    "headlines": [
     {
-     "title": "Nebius Group (NASDAQ:NBIS) Shares Gap Down - Here's Why",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOa1g4LWNRMmxKUjFmaHI2OHgzTDNYYzB6TEh2MUZPVVVieDdOemc0VzNzaWJtdE0tOF9BRXFKeDY1aEx6ZS1BOEJyblQwYWtvSVQ1eEdIcXRWZGUwU1ZrUGRLVnRET0xGSU9ycjYwb1V5bDhiWWVSRGUxQWNGdy1jQUdWSkNZV0h5ZEZWNDlLck1LOWcyaUJoSm4xQXg4eWk4a3FCM1czU0gza0JLLVFz?oc=5",
-     "time": "2026-11-25T18:03:55+00:00"
-    },
-    {
-     "title": "Cloud Cover: How Nebius Group Is Filling the Gaps Left by Hyperscalers",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPelVPT1AyeTRGLTdpU3FBX3FXdXMxRzU0SVM0TmZwYWFMQld0aW9oZHhjWWV0MDFranlYUmZCNF9oNFhvMlhjek8tek9PNk1TckNLdVp4NUwtMUozMGpJcU9QWTNONktLeTh6NGVBQlk1ekUzSkx2MmhMLUIzeDB4Wm5GVlprNk1CSGJfbzV4am9rT2JNMnlpQk5IR1BqMkZnV3JOZ2s5SHpLZw?oc=5",
-     "time": "2026-11-25T17:47:08+00:00"
-    },
-    {
-     "title": "Nebius Stock Slides 7% as $45 Billion Spending Plan Raises Concerns",
-     "publisher": "Blockonomi",
-     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPUEgzcnJvSWZyeFNmWE0tVkNkQ0NEa0tJLWlYUFJKVnlRMThVdGJjSmxBMzRCRi1CVVZmekc3eU0yaTZpNm5wcXFCVmx2NlJhWWlBeXhhbHFDSmlZSTAzTW02QUlBUmFaRDBjYWVQZFRkTUo3N2xsZTRvdEFQWnYyWVJlVzl6LWVGbDhNVFVXWGd1SUk?oc=5",
-     "time": "2026-11-25T17:37:48+00:00"
-    },
-    {
-     "title": "CRWV and NBIS Stock Test Last Support on Neocloud Debt and HPE Margin Risks Warning for Nebius and Coreweave",
-     "publisher": "FXLeaders",
-     "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPbEI2Uk5ORTAwY3pHaWEya3VTdzJWQ2JheWQ0djZpLWFhQ0VRRk9POGFFZnhKcDg4RHNmNV9aRlJQV2U2LXRzS09jTkRRbFZiR1piZk8wWnFmRWtSeFFtZFBNUWhmZlJZeVktdXFqN1RTNGJwUmZseFRsX0JEV090RE4zM21FLUs1Y00yTEljM0xoem1TcWQ0M2xCdXhXck5zNkNWQlZ4Vm0wRFdQU3hLRFR6UDRBREhfTHlGbFl6Slg3Z2xnWkFuWFMzcGdPMjcySEZmVkRrY0FkeTFkMXJBRFhsVEczQQ?oc=5",
-     "time": "2026-11-25T17:33:56+00:00"
-    },
-    {
-     "title": "Nebius Stock\u2019s Death Cross Signals Trouble for Its Once-Hot AI Growth Story",
-     "publisher": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPSjEwUF9kLUJHOXZyZXVmS2tKTmtia3ZaWDU0cnJ4Mk5lbnZ4eHh0a2tWbmF1bV92WGVYVm9mTW52dEs2TTB1Nk11ckNhRWwzaFVzOXFkcEdCVGFGb2hieldRd1R3MEdwejhPUS1FQXZ5UFVHV2x1em05X3BfdlR3YUVXR1Q0amN3RmpxODNyS1NoOXlHX0RjNDQwQ0tnYktReElnSUN3QUs0ZS1CZU5kbHhla2otdXVUdE10S2otLVZWMTJtbkljYld2a2dpLXM?oc=5",
-     "time": "2026-11-25T17:25:20+00:00"
-    },
-    {
-     "title": "Nebius Group (NBIS) Shares Plunge Over 11% Amid Tech Sector Sell",
-     "publisher": "GuruFocus",
-     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOZW5uYXg1RHhhMndBNS1heHhGSm44WmQwbi04b1J0RHBwNE85VmNjazJFcTJvYkNxWXZzckRCMFhPdkxUTlJ3QWRIVDJ5c2E2Ny1uTEFncTF4OWE5T01UTVQ2dGxIeE9OMEpEY0lSc1E4ellBM2U1WlBOYXVaUjhralJoU2o0bkFYT2RQbDI4d3Btb1BhVXU0X3NKQnhmTFBGRm1zdzg5cUJ6eVZ2SE1QbUU1UTJIY2JGNWN0bHNpY0g?oc=5",
-     "time": "2026-11-25T16:14:01+00:00"
-    },
-    {
-     "title": "REG - Leverage Shares PLC LS 3X LONG NEBIUS $ LS 3X NBIS ETP \u00a3 - Notice of Original Meeting - 3x Nebius",
-     "publisher": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOU0QzR09VR2lsUzFZajAtbXJFcENReVlHdzRNVWpuSGNyNUp6M3piNTNwVmNVamc0SnEzSmZhdWN5dm5Vd1Jxa0lqVTFrU2hhMDI1M24zU1BJSU5CNndSOFVBVFhfb1R1LUhMaFZ1cTMxV2thNTFvMG5DZzJ3NmRRaTZLQ0ZlMm9aQnUtR05QdkNRX3MxWTJ6Z3h3bkxSMnpFeWVzeXplS3ZzcXU4a2lYS2l3b19BckpuZWl6ZXpFVFlfSzJVb1kxU3dORTU0QzZuU1FGYmpSWEd2WHVsdDFhS013T3lRdDRjOVctNm9wVk1vc25NYU1XUDMtVUQxQQ?oc=5",
-     "time": "2026-11-25T15:49:07+00:00"
-    },
-    {
-     "title": "Nebius Stock Falls Near 52-Week Low - Here's Why",
-     "publisher": "Benzinga",
-     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTGxSeHNfcC1ianprMzdOY2NZclBqZVppSHQzTnVaMk9XYTJfc09wQUVWdXRhYWd1V3QzdGNuWlc1czFITmEteEZHX3BTb1JtVmhCQ1RKNTdKakpGNDZKenllekxMVWNVeXJLTW1qdmJiSWFZZlUyV1pKYnZXWmUzd1pmaHJDWnY2emx6RVg4YzJQNnhPUnNjUVd0bGk0d1J1NkFiVU52Sm1CQQ?oc=5",
-     "time": "2026-11-25T15:21:44+00:00"
-    }
-   ],
-   "brief": "2026-11-25-NBIS"
-  },
-  {
-   "symbol": "AVGO",
-   "name": "Broadcom",
-   "list": "portfolio",
-   "price": 295.92,
-   "prev_close": 301.08,
-   "change_pct": -1.7,
-   "trigger_change": -5.1,
-   "peak_change": -6.3,
-   "first_seen": "2026-11-25T14:56:37+00:00",
-   "sector": {
-    "etf": "SMH",
-    "name": "Semiconductors",
-    "price": 419.92,
-    "change_pct": -1.6
-   },
-   "chart": {
-    "ema8": -6.7,
-    "ema21": -9.6,
-    "sma50": -13.1,
-    "sma200": -19.4,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Broadcom Stock Price Nears Year Low at $291.96 as AI Doubts Weigh",
-     "publisher": "JournalArta",
-     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNMXdBVU91cjJzUmRWVDdVNFlXdjFmRFBMQnBiRVlYbnRzbjd2X3JMRjY0RS0yNlJhTXRwalc4YUwzalR6V3NpcDVNVzBMZWlCYUYxU1dVVFpXaURGbXVQdDdXbkFFZ3VMVzZpVkR1bTFVb2UtSHU4RERoMjBuX3ZJYmoycThpUURMSWlsS2EySmRhQnAzWFRKdDdKaC0?oc=5",
-     "time": "2026-11-25T18:31:47+00:00"
-    },
-    {
-     "title": "AI Chip Stocks Extend Brutal Selloff as Nvidia, AMD and Broadcom Tumble Again",
-     "publisher": "GuruFocus",
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQWHhwaDdYY2JIVWZGYnp0NjlxSWhmWDBJbENFVzI1YkVFd1JnVFIwdmJmbVY1MldHdzJGTDVEcnIyQkFTMjdoOHpRVUU2eWZtNzJ5WGZhVXBKdUtlLXBxWjM4LWg0c0owZUZaRHNxdThBMUdRVXNiVzJMM1VSaFBIbjRQQVBmaDgwTF9xMS1Vd0puZDBSWXNiU05SMXJGNElJQ05obzJYMU15ZXhuaEZyTi1KVlVXdw?oc=5",
-     "time": "2026-11-25T17:15:00+00:00"
-    },
-    {
-     "title": "104% Upside for Broadcom? Bernstein Thinks So, and Here\u2019s How",
+     "title": "Morgan Stanley Cut Its MercadoLibre Target. It Still Sees 66% Upside",
      "publisher": "TIKR.com",
-     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNbHY1UmJMazF0d2Vzb0NRMFktcjBNcnRCV1JaU0ZYdXpYS21hWUZqaGw3Qy05X0drX3pOb3lpS29PYkNfczVYcTZ2YzV5R3F2NTFQb2x1ZFgyR1pHd2RhREI2dTJJXy0wbUY2alNSbkNQa0NNSUw1b3NBbzZmc3Q2eDRxWDRZeXM3UTlta2I3X2ptaTRrcWZSWXp2R2ZsaENUaGtoMkhjNGVsNlZ1czJnaGZaTVRNMG5jX2lmWnJHWUdxQQ?oc=5",
+     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQTEthM1RWdXBnWEFKZkxZbkI1QjNDSHN3M0xjMk5EUEhscmF6bG5BcjlGekdJZlZ6bURFdVd3NGJzY29ONlo4MmFOMHVhNDZIejdfcVI0WEVteGVybXhiR3l2SkQtaXlmNUVkWHNBalR6cUxxR1FuSVlra2NxZVpCSThRdTRITUE5NVNwRGtESHI3cC1Za3FwV001dVFZRUk3elNCb18tVFhoTlZkMmw2bHRzMy1hQmV4R0RzTnRUcGtIV2dZZEtSeVM4b1U5Zw?oc=5",
      "time": "2026-11-25T17:08:42+00:00"
     },
     {
-     "title": "AI Stocks Crash as Nvidia Falls 8%, Broadcom Loses 6% and CoreWeave Plunges Over 10%",
-     "publisher": "CryptoRank",
-     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOQWNwdk9iS0JsX0pwSEgxRE85ck5VUnN5VHVBc3lOZEVJMmxpNGlIU0p6VXVGSTZTNUdTVzRxNmQtRDA0TFRURFJ2eVVQV1hmdmpmdVd5a2N0TWFtcHdweHhkNjN3UnFSYmZERHEzZkNQQWJ0OW54VUtTWE41VGJIQWx6a2V2cDh6bXNfblkwUzl3amM1ejRzUTE2WDJndUJzOTBLWmxsTUFIQjJibl9aLXhNOVdDNkswcFVj?oc=5",
-     "time": "2026-11-25T17:04:10+00:00"
+     "title": "Is MercadoLibre (MELI) Becoming A Bigger AI Play In Emerging Markets?",
+     "publisher": "Simply Wall St",
+     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPdXdUZmF3ZlRIVERKQXZTMXhvdlc5TVFFby1qejR4dE1jaHVEN0xnVEVyNGs1V1JtbnNTQU4yM09aaTY1VHVWZHNvQWdpZVF5cFJJQmxJTThSR3FWR2JEc0hwS2pNbTRSMVNBNFdFdDlyN0RqdHlzcmlYcHh5bXIxZXN3TjNGcHVFVkJqOTV3Z3lMX3NJdFRmUjRWRmhrOUowUXppeHNrdGlVeThMdzZKZ0o1UC1EVkFOY0V3bHlPbnJhZWNDRkVYctIBzgFBVV95cUxNRjNzQjdxeG1vLWJ3Qjh1WnhXVmVyaUZBNjNPMEMzeERDMGNvekZDNzBDTFI0U004LUxNWFpCS1IxNEN1WDJ5cllwdnkxVUo3ZVF4aG93QjRFclhoRzlsOU1NaG4yTkFYajh4UzZzSG1lbDBzSHRjbUhkY0pveVBvdFNBQTc5OFVZZmlFNHZzNHhrYWk0THZaWmU2SlNDUHNRYjVDSkFvVzBKb3NWak9vbXVDVzJLclVtcEVjZXRGMXpHaThPcDZNZ2U2RUQzdw?oc=5",
+     "time": "2026-11-25T14:10:50+00:00"
     },
     {
-     "title": "This Is Why I Wouldn\u2019t Ignore This Stock Heading Into 2027",
-     "publisher": "24/7 Wall St.",
-     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNbDlmcUJaYURxUGN4UEFrZmJVY280OHdacmRndG1iYkxxajd6MlRtTnBWbzVGckhKSEViSmxZSXozSjNIcm8zbEFQcU9wOHlrWUJ0Vmd5WEo0Z2RQQVZUSHdObE9UNmxEeER6RmdkYUNNRUdQOHQ2bDIxNldtamhxMmFTZGxXd1FVY1hQWmF0RkpnTDBCcWNfV3NKRTBObDEwbUJJ?oc=5",
-     "time": "2026-11-25T17:03:00+00:00"
+     "title": "MercadoLibre, Inc. $MELI Shares Acquired by Pathstone Holdings LLC",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQanNpR3Jtc3pycTdLVVM0ZUpvc3Z3T1lvdFNHMlEtcXVfeGhvZkhBZ205MVJRV3EyUGlQdlg2TEhoWm9tMS1iRnlPYmt2U21mdmdKOXpKWEo2ZFFYUkhFNlRBcm9hNF9EZ3lFbFZ1aVA5eVBET0stVFJDcUJrR1NBaWdCcTZlbnRXa2Y4cWU4dUlrazFMTmRMVTctTzJ5Y3FJeXloOFJnLURjX2JhckQxZVRXLVFxajYzZUxyU01hUGJodw?oc=5",
+     "time": "2026-11-25T11:50:23+00:00"
     },
     {
-     "title": "Without an Anthropic Rally, \u201cThere Will Be No OpenAI.\u201d AMD Is the Real Loser",
+     "title": "MercadoLibre (MELI) Stock Price Prediction: Bank of America trims target as MELI trades below key moving averages",
+     "publisher": "Blockchain News",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNY1lkNnZPTmRyWTZwbUZHeGdITm90YzF2TGFrVnl2MVRTakJmQzlkb2drVS1kTzJBbmY4MUE1dW9QSUtPUVN4cGg1c194dTFyNnVCZjNQMkNLeGMxQ0c3elYwODVQdk45Y2hudnQzbDVpamJwYkZJWXZKMDBjTjBwMkF0ZzdFTWlNNXBaWW5TbXBuZ1lwYkgxMzFMSDg?oc=5",
+     "time": "2026-11-25T10:16:00+00:00"
+    },
+    {
+     "title": "MercadoLibre vs. Target: Which Stock Looks More Compelling Now?",
+     "publisher": "The Globe and Mail",
+     "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNc0xGY1JtR3dHci15eURfVDNIYjN1RXJMdlR5YzlpWU9LZ2tpNkswVWRCOVNLQW9pNmFDVm5xU3hTV2VYajhDeFQyRDNzdmxMNXFLT0Q5SzE2bjVJUXdPUXk5VVBidFlBVVp2OTYxaFM0SzJuNkkwaDloTkVfY2FRaG10elZEVmZfN0RSU0J0N0lRVFlaRjdHeTZMT1R1VzJaVjNhVThtTGRBTUtNVVhFempUUGFQOTV5Vjk3Sk5VMzA4VkgxbzBYdWJ2empxTUp5V2JneXBSOEZ3ZWFJU2VZ?oc=5",
+     "time": "2026-11-25T04:12:40+00:00"
+    },
+    {
+     "title": "MercadoLibre Grew Revenue 45% as Operating Income Fell 6%. Is It \u201ca Gift at These Prices\u201d?",
      "publisher": "TIKR.com",
-     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMzRmX3NLSnZBZmZaVTJGbEIxZGFyX3NmUmtCQzVqcThNU1NPVlMtWHdhSFp5VGcwaWJ1emFCd2o4QW55Mk9PSHowcURONmdIUWUwT25hZHdVdEs3ZGVwZldGNkZBaEZuRkNweWVuRjhRWTExTlZEbTNnRmVaMFd0XzZxQTByTGdyZzNkcGNsT0ZQMGJNaVRWZ1lCRUp5R1JmbDdUb2hVWXFfMk9FekQwaQ?oc=5",
-     "time": "2026-11-25T16:41:15+00:00"
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNRmR4YnFqLURMbUJacktVSkZ6SDZKWWR5c3AxOXFoWXBFSHNvNVAxV2lRNHdiLTBrY0ZXdi1VOU5RTnNNTjNldVRmS1FrUmptUGlQVlpsazI5ZTJtS3NFOERtdGpiY1k3UVd4eThwZVVINWF6d05fenV0TkJoSnh1MC1GUk8yVkl0S1gyTzNOX3hIZ3BkZVJOOHRwMGRsMlVkSHVfNG1JRWIxbFBjWmNhamEzSUp4aERXdzhKazhaTHA?oc=5",
+     "time": "2026-11-24T19:18:45+00:00"
     },
     {
-     "title": "Broadcom vs. Qualcomm: Which Technology Stock Is a Better Buy for 2027?",
-     "publisher": "The Motley Fool",
-     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPZnJVR3BUNWZaTzB5Z0hBaHQ2b1RaWEZOekItNzg3ajFlRW9VQWl2c3FIT1Q3Qzd3RWhIUWdoNE5JVHFuSUJwbEt6SWkzanRfaUxkaXJtaWtud19uLXJZN2UxNHBqcjZCWGJQaW9oVkpDVk1fWFJrVE5qVnB6SFVOdDRYX3Q0MkwwVVpyeVUzTXhOOF9DVy1jeFQ3MVd1NWFERjd5NzFoZ3BqeUlVQmd2dW41VmVTVk5nYjNHN0F3?oc=5",
-     "time": "2026-11-25T16:32:01+00:00"
+     "title": "MercadoLibre stock edges up after bounce off 1-year low",
+     "publisher": "JournalArta",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOTmtRUHlZbm1QVFI1T3JhR1k3Z25NN0hzNU9kTjgxbVh1azJVWDBqakJvWTNYZEROTVItSHJ5bklaLUpTcDM4NFhTR0FibjBqQkV6US1BU2Jrc3pUSDZJZHNqVFBZQXJGb1dOMHdjcVB6NnFjVkFxeVY2Ny1NMVhvRFdLZHRxX2pGVVVoUGZkZWc2UmJKX3F0MGE3NDFXMjRncVd6SnFHMA?oc=5",
+     "time": "2026-11-24T18:46:43+00:00"
     },
     {
-     "title": "Broadcom Shares Close Lower Amid Broad Semiconductor Sector Retreat : \uae30\uc5c5\uc8fc\uc2dd\uc815\ubcf4 : JKN",
-     "publisher": "\uc7ac\uacbd\uc77c\ubcf4",
-     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1FNFdOWUtMdkNoUmJ6NG42Mi1xRWNubDhmRWFweklnQzVDQjFMX0RvRU00aHhjSUhncVNza1htOEJheVVKdHBCcGRBR0JMOFUtX3ZsLWE1TWlaRjAwZFRpX1l3?oc=5",
-     "time": "2026-11-25T15:56:00+00:00"
+     "title": "How Investors May Respond To MercadoLibre (MELI) Logistics Spending Push",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNY0xzbnBLMDFPa0NNSGlqb1hxS0tuRWdMMkZvZUNKRWZaUnZrSUc5SExJdzBYV1d4VmwxZXc5eUV0MTZYdWhqMnZxRmY4dTRYektlSV9DSk9TdWdIakthU05HcjRVQmZnMWxmRkZOWUVMNllNOGRZeElIMlpSamxXNm42V2RqNS1FNEJ1c2x0dC15NzhPSXJoYmc3elhxUExsd19yVGQ1TQ?oc=5",
+     "time": "2026-11-24T16:11:18+00:00"
     }
    ],
-   "brief": "2026-11-25-AVGO"
+   "brief": "2026-11-25-MELI"
   },
   {
    "symbol": "CRWD",
    "name": "CrowdStrike",
    "list": "portfolio",
-   "price": 207.59,
+   "price": 207.71,
    "prev_close": 210.86,
-   "change_pct": -1.6,
+   "change_pct": -1.5,
    "trigger_change": -3.1,
    "peak_change": -7.4,
    "first_seen": "2026-11-25T14:56:37+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 95.19,
-    "change_pct": -0.17
+    "price": 95.0,
+    "change_pct": -0.37
    },
    "chart": {
-    "ema8": -5.5,
+    "ema8": -5.4,
     "ema21": -9.3,
     "sma50": -15.3,
-    "sma200": 16.7,
+    "sma200": 16.8,
     "momentum": false
    },
    "headlines": [
@@ -846,10 +696,235 @@
    "brief": "2026-11-25-CRWD"
   },
   {
+   "symbol": "AVGO",
+   "name": "Broadcom",
+   "list": "portfolio",
+   "price": 296.99,
+   "prev_close": 301.08,
+   "change_pct": -1.4,
+   "trigger_change": -5.1,
+   "peak_change": -6.3,
+   "first_seen": "2026-11-25T14:56:37+00:00",
+   "sector": {
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 419.43,
+    "change_pct": -1.72
+   },
+   "chart": {
+    "ema8": -6.4,
+    "ema21": -9.3,
+    "sma50": -12.8,
+    "sma200": -19.1,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Broadcom Stock Price Nears Year Low at $291.96 as AI Doubts Weigh",
+     "publisher": "JournalArta",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNMXdBVU91cjJzUmRWVDdVNFlXdjFmRFBMQnBiRVlYbnRzbjd2X3JMRjY0RS0yNlJhTXRwalc4YUwzalR6V3NpcDVNVzBMZWlCYUYxU1dVVFpXaURGbXVQdDdXbkFFZ3VMVzZpVkR1bTFVb2UtSHU4RERoMjBuX3ZJYmoycThpUURMSWlsS2EySmRhQnAzWFRKdDdKaC0?oc=5",
+     "time": "2026-11-25T18:31:47+00:00"
+    },
+    {
+     "title": "AI Chip Stocks Extend Brutal Selloff as Nvidia, AMD and Broadcom Tumble Again",
+     "publisher": "GuruFocus",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQWHhwaDdYY2JIVWZGYnp0NjlxSWhmWDBJbENFVzI1YkVFd1JnVFIwdmJmbVY1MldHdzJGTDVEcnIyQkFTMjdoOHpRVUU2eWZtNzJ5WGZhVXBKdUtlLXBxWjM4LWg0c0owZUZaRHNxdThBMUdRVXNiVzJMM1VSaFBIbjRQQVBmaDgwTF9xMS1Vd0puZDBSWXNiU05SMXJGNElJQ05obzJYMU15ZXhuaEZyTi1KVlVXdw?oc=5",
+     "time": "2026-11-25T17:15:00+00:00"
+    },
+    {
+     "title": "104% Upside for Broadcom? Bernstein Thinks So, and Here\u2019s How",
+     "publisher": "TIKR.com",
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNbHY1UmJMazF0d2Vzb0NRMFktcjBNcnRCV1JaU0ZYdXpYS21hWUZqaGw3Qy05X0drX3pOb3lpS29PYkNfczVYcTZ2YzV5R3F2NTFQb2x1ZFgyR1pHd2RhREI2dTJJXy0wbUY2alNSbkNQa0NNSUw1b3NBbzZmc3Q2eDRxWDRZeXM3UTlta2I3X2ptaTRrcWZSWXp2R2ZsaENUaGtoMkhjNGVsNlZ1czJnaGZaTVRNMG5jX2lmWnJHWUdxQQ?oc=5",
+     "time": "2026-11-25T17:08:42+00:00"
+    },
+    {
+     "title": "AI Stocks Crash as Nvidia Falls 8%, Broadcom Loses 6% and CoreWeave Plunges Over 10%",
+     "publisher": "CryptoRank",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOQWNwdk9iS0JsX0pwSEgxRE85ck5VUnN5VHVBc3lOZEVJMmxpNGlIU0p6VXVGSTZTNUdTVzRxNmQtRDA0TFRURFJ2eVVQV1hmdmpmdVd5a2N0TWFtcHdweHhkNjN3UnFSYmZERHEzZkNQQWJ0OW54VUtTWE41VGJIQWx6a2V2cDh6bXNfblkwUzl3amM1ejRzUTE2WDJndUJzOTBLWmxsTUFIQjJibl9aLXhNOVdDNkswcFVj?oc=5",
+     "time": "2026-11-25T17:04:10+00:00"
+    },
+    {
+     "title": "This Is Why I Wouldn\u2019t Ignore This Stock Heading Into 2027",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNbDlmcUJaYURxUGN4UEFrZmJVY280OHdacmRndG1iYkxxajd6MlRtTnBWbzVGckhKSEViSmxZSXozSjNIcm8zbEFQcU9wOHlrWUJ0Vmd5WEo0Z2RQQVZUSHdObE9UNmxEeER6RmdkYUNNRUdQOHQ2bDIxNldtamhxMmFTZGxXd1FVY1hQWmF0RkpnTDBCcWNfV3NKRTBObDEwbUJJ?oc=5",
+     "time": "2026-11-25T17:03:00+00:00"
+    },
+    {
+     "title": "Without an Anthropic Rally, \u201cThere Will Be No OpenAI.\u201d AMD Is the Real Loser",
+     "publisher": "TIKR.com",
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMzRmX3NLSnZBZmZaVTJGbEIxZGFyX3NmUmtCQzVqcThNU1NPVlMtWHdhSFp5VGcwaWJ1emFCd2o4QW55Mk9PSHowcURONmdIUWUwT25hZHdVdEs3ZGVwZldGNkZBaEZuRkNweWVuRjhRWTExTlZEbTNnRmVaMFd0XzZxQTByTGdyZzNkcGNsT0ZQMGJNaVRWZ1lCRUp5R1JmbDdUb2hVWXFfMk9FekQwaQ?oc=5",
+     "time": "2026-11-25T16:41:15+00:00"
+    },
+    {
+     "title": "Broadcom vs. Qualcomm: Which Technology Stock Is a Better Buy for 2027?",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPZnJVR3BUNWZaTzB5Z0hBaHQ2b1RaWEZOekItNzg3ajFlRW9VQWl2c3FIT1Q3Qzd3RWhIUWdoNE5JVHFuSUJwbEt6SWkzanRfaUxkaXJtaWtud19uLXJZN2UxNHBqcjZCWGJQaW9oVkpDVk1fWFJrVE5qVnB6SFVOdDRYX3Q0MkwwVVpyeVUzTXhOOF9DVy1jeFQ3MVd1NWFERjd5NzFoZ3BqeUlVQmd2dW41VmVTVk5nYjNHN0F3?oc=5",
+     "time": "2026-11-25T16:32:01+00:00"
+    },
+    {
+     "title": "Broadcom Shares Close Lower Amid Broad Semiconductor Sector Retreat : \uae30\uc5c5\uc8fc\uc2dd\uc815\ubcf4 : JKN",
+     "publisher": "\uc7ac\uacbd\uc77c\ubcf4",
+     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1FNFdOWUtMdkNoUmJ6NG42Mi1xRWNubDhmRWFweklnQzVDQjFMX0RvRU00aHhjSUhncVNza1htOEJheVVKdHBCcGRBR0JMOFUtX3ZsLWE1TWlaRjAwZFRpX1l3?oc=5",
+     "time": "2026-11-25T15:56:00+00:00"
+    }
+   ],
+   "brief": "2026-11-25-AVGO"
+  },
+  {
+   "symbol": "NBIS",
+   "name": "Nebius",
+   "list": "portfolio",
+   "price": 86.64,
+   "prev_close": 87.31,
+   "change_pct": -0.8,
+   "trigger_change": -9.0,
+   "peak_change": -12.5,
+   "first_seen": "2026-11-25T14:56:37+00:00",
+   "sector": {
+    "etf": "IGV",
+    "name": "Software",
+    "price": 95.0,
+    "change_pct": -0.37
+   },
+   "chart": {
+    "ema8": -11.7,
+    "ema21": -29.2,
+    "sma50": -50.3,
+    "sma200": -51.8,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Nebius Group (NASDAQ:NBIS) Shares Gap Down - Here's Why",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOa1g4LWNRMmxKUjFmaHI2OHgzTDNYYzB6TEh2MUZPVVVieDdOemc0VzNzaWJtdE0tOF9BRXFKeDY1aEx6ZS1BOEJyblQwYWtvSVQ1eEdIcXRWZGUwU1ZrUGRLVnRET0xGSU9ycjYwb1V5bDhiWWVSRGUxQWNGdy1jQUdWSkNZV0h5ZEZWNDlLck1LOWcyaUJoSm4xQXg4eWk4a3FCM1czU0gza0JLLVFz?oc=5",
+     "time": "2026-11-25T18:03:55+00:00"
+    },
+    {
+     "title": "Cloud Cover: How Nebius Group Is Filling the Gaps Left by Hyperscalers",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPelVPT1AyeTRGLTdpU3FBX3FXdXMxRzU0SVM0TmZwYWFMQld0aW9oZHhjWWV0MDFranlYUmZCNF9oNFhvMlhjek8tek9PNk1TckNLdVp4NUwtMUozMGpJcU9QWTNONktLeTh6NGVBQlk1ekUzSkx2MmhMLUIzeDB4Wm5GVlprNk1CSGJfbzV4am9rT2JNMnlpQk5IR1BqMkZnV3JOZ2s5SHpLZw?oc=5",
+     "time": "2026-11-25T17:47:08+00:00"
+    },
+    {
+     "title": "Nebius Stock Slides 7% as $45 Billion Spending Plan Raises Concerns",
+     "publisher": "Blockonomi",
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPUEgzcnJvSWZyeFNmWE0tVkNkQ0NEa0tJLWlYUFJKVnlRMThVdGJjSmxBMzRCRi1CVVZmekc3eU0yaTZpNm5wcXFCVmx2NlJhWWlBeXhhbHFDSmlZSTAzTW02QUlBUmFaRDBjYWVQZFRkTUo3N2xsZTRvdEFQWnYyWVJlVzl6LWVGbDhNVFVXWGd1SUk?oc=5",
+     "time": "2026-11-25T17:37:48+00:00"
+    },
+    {
+     "title": "CRWV and NBIS Stock Test Last Support on Neocloud Debt and HPE Margin Risks Warning for Nebius and Coreweave",
+     "publisher": "FXLeaders",
+     "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPbEI2Uk5ORTAwY3pHaWEya3VTdzJWQ2JheWQ0djZpLWFhQ0VRRk9POGFFZnhKcDg4RHNmNV9aRlJQV2U2LXRzS09jTkRRbFZiR1piZk8wWnFmRWtSeFFtZFBNUWhmZlJZeVktdXFqN1RTNGJwUmZseFRsX0JEV090RE4zM21FLUs1Y00yTEljM0xoem1TcWQ0M2xCdXhXck5zNkNWQlZ4Vm0wRFdQU3hLRFR6UDRBREhfTHlGbFl6Slg3Z2xnWkFuWFMzcGdPMjcySEZmVkRrY0FkeTFkMXJBRFhsVEczQQ?oc=5",
+     "time": "2026-11-25T17:33:56+00:00"
+    },
+    {
+     "title": "Nebius Stock\u2019s Death Cross Signals Trouble for Its Once-Hot AI Growth Story",
+     "publisher": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPSjEwUF9kLUJHOXZyZXVmS2tKTmtia3ZaWDU0cnJ4Mk5lbnZ4eHh0a2tWbmF1bV92WGVYVm9mTW52dEs2TTB1Nk11ckNhRWwzaFVzOXFkcEdCVGFGb2hieldRd1R3MEdwejhPUS1FQXZ5UFVHV2x1em05X3BfdlR3YUVXR1Q0amN3RmpxODNyS1NoOXlHX0RjNDQwQ0tnYktReElnSUN3QUs0ZS1CZU5kbHhla2otdXVUdE10S2otLVZWMTJtbkljYld2a2dpLXM?oc=5",
+     "time": "2026-11-25T17:25:20+00:00"
+    },
+    {
+     "title": "Nebius Group (NBIS) Shares Plunge Over 11% Amid Tech Sector Sell",
+     "publisher": "GuruFocus",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOZW5uYXg1RHhhMndBNS1heHhGSm44WmQwbi04b1J0RHBwNE85VmNjazJFcTJvYkNxWXZzckRCMFhPdkxUTlJ3QWRIVDJ5c2E2Ny1uTEFncTF4OWE5T01UTVQ2dGxIeE9OMEpEY0lSc1E4ellBM2U1WlBOYXVaUjhralJoU2o0bkFYT2RQbDI4d3Btb1BhVXU0X3NKQnhmTFBGRm1zdzg5cUJ6eVZ2SE1QbUU1UTJIY2JGNWN0bHNpY0g?oc=5",
+     "time": "2026-11-25T16:14:01+00:00"
+    },
+    {
+     "title": "REG - Leverage Shares PLC LS 3X LONG NEBIUS $ LS 3X NBIS ETP \u00a3 - Notice of Original Meeting - 3x Nebius",
+     "publisher": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOU0QzR09VR2lsUzFZajAtbXJFcENReVlHdzRNVWpuSGNyNUp6M3piNTNwVmNVamc0SnEzSmZhdWN5dm5Vd1Jxa0lqVTFrU2hhMDI1M24zU1BJSU5CNndSOFVBVFhfb1R1LUhMaFZ1cTMxV2thNTFvMG5DZzJ3NmRRaTZLQ0ZlMm9aQnUtR05QdkNRX3MxWTJ6Z3h3bkxSMnpFeWVzeXplS3ZzcXU4a2lYS2l3b19BckpuZWl6ZXpFVFlfSzJVb1kxU3dORTU0QzZuU1FGYmpSWEd2WHVsdDFhS013T3lRdDRjOVctNm9wVk1vc25NYU1XUDMtVUQxQQ?oc=5",
+     "time": "2026-11-25T15:49:07+00:00"
+    },
+    {
+     "title": "Nebius Stock Falls Near 52-Week Low - Here's Why",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTGxSeHNfcC1ianprMzdOY2NZclBqZVppSHQzTnVaMk9XYTJfc09wQUVWdXRhYWd1V3QzdGNuWlc1czFITmEteEZHX3BTb1JtVmhCQ1RKNTdKakpGNDZKenllekxMVWNVeXJLTW1qdmJiSWFZZlUyV1pKYnZXWmUzd1pmaHJDWnY2emx6RVg4YzJQNnhPUnNjUVd0bGk0d1J1NkFiVU52Sm1CQQ?oc=5",
+     "time": "2026-11-25T15:21:44+00:00"
+    }
+   ],
+   "brief": "2026-11-25-NBIS"
+  },
+  {
+   "symbol": "APP",
+   "name": "AppLovin",
+   "list": "portfolio",
+   "price": 379.29,
+   "prev_close": 381.11,
+   "change_pct": -0.5,
+   "trigger_change": -4.5,
+   "peak_change": -5.8,
+   "first_seen": "2026-11-25T14:56:37+00:00",
+   "sector": {
+    "etf": "IGV",
+    "name": "Software",
+    "price": 95.0,
+    "change_pct": -0.37
+   },
+   "chart": {
+    "ema8": 0.3,
+    "ema21": 6.4,
+    "sma50": 21.5,
+    "sma200": -6.0,
+    "momentum": true
+   },
+   "headlines": [
+    {
+     "title": "AppLovin Falls as AI-Sector Weakness and Deal Speculation Pressure Shares",
+     "publisher": "Quiver Quantitative",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOa1VDcE5ZSWtMSU1HalE4cHRGMl9HT1RFQlVuMFlJcHBRWkJLNUtBbmdGZ2ZKMXRGZTBwdG8ycEJkV1ZfMXJtQnJobU1lcnJRbnVfcl9vTjBhbGY0MjJ2d0VnN3djakdwT2RKSTlUaTk3aTJRcExBRUZiS2I3THFPdS1mYklmTTFqb3M1eWVJTk94dl81cVQ5THdvdWJPbHJWZlN6ZmZhd3RfQQ?oc=5",
+     "time": "2026-11-25T16:18:00+00:00"
+    },
+    {
+     "title": "AppLovin (APP) Stock Price Prediction: Buyers Defend Support, but Momentum Still Needs Confirmation",
+     "publisher": "Blockchain News",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZHcxSVRjQVJCRjFkTTU2dURpSmRIbXB5ZEhNcTdVcDdpYi1CNE9JRzVXTEpiWXc3T3pOQ0FjREExd2dqUG9iUkVsNTVLQ05xamlLUFpqSlYyS2JQOEVWLWZ5eFhudV9nSF9zZTFsZnNzUVpKMkR1bXZBeGtRUzJhTC1EeS1KeUZEZXZRTzRPLXk1SDRDVUVIOVM0UTlKUFdN?oc=5",
+     "time": "2026-11-25T08:18:00+00:00"
+    },
+    {
+     "title": "Applovin Corporation (APP) Stock Forecasts",
+     "publisher": "Yahoo! Finance Canada",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOOUtlbWotYWs4SXJBMEtwZ2pfNTVwRHgzWkE2dXVMTHh0Wkw4MGJicWhlSnBDcktYUFBuTzhkYmZRczQxQTBZdko3dE1DZXIxNk1lc3N1MzZ0Z1VwMXNmbkZKVmFTNTg3UXc1bEk2dGhvTUxkczNSMlVYVWs2MWJfek1NaGJhcUpEVzU3X090UFQ?oc=5",
+     "time": "2026-11-24T22:50:36+00:00"
+    },
+    {
+     "title": "AppLovin (APP) Stock Could Be Undervalued Despite Its 7x Three Year Run",
+     "publisher": "Simply Wall St",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQOUtJRHo4dDJTZnpWNDFCSnphUUxWTjJxZElDaXlZUXNZUW5UTXlIcTQ4cE1RcFVFRzlPOUQyc0NXcldzVDVSdC1kYTducDEwaXBsdmpQNFVtZmNENmFlZkk5MlhZNDdjNEh5RkZxQ3lQR1BudGpQS1VnZzdZRGRrNkxaOTRvU0NDZWZSQlZITEd1dmptS3J1U2QxMFIxdGQ2bkVRSl9OYkZGU0dYaGVyY1pWXzVGX3BhTUVIUnhlRkPSAcYBQVVfeXFMTnY5SGQ3ODBCWDBnX2pRel9GT1I5RmpRRXY3OEhlaEVSMnU2cnZJWlNEaUxELUlFelR3dVdvbFd0WDMwWUxtSVBKQkZLQ1NZZmNjd3J6ay1MNDg1eHZuWHhTRXlmZzdjX193UHQxMllSMjdNSVhPQ0tvSWtmYnZ2LTk3c3hDWFh2V0hoMjhJbHFDM05PRzlGWFlTUW9WTE1YRXdZeGp3RUpTeXJ0TV9rYWpMWU42dm84eFJ4WDFyekh0TF90aUFB?oc=5",
+     "time": "2026-11-24T22:14:27+00:00"
+    },
+    {
+     "title": "CTO Xiaochuan Ge held 1,236,967 shares directly after AppLovin (APP) withheld 5,459 for taxes.",
+     "publisher": "Stock Titan",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOQjdpRnA3V1NCTVJQNDNQVXktWF92NU10YkJlOTh0SXJndURZd1ZMLWpoN014Tl9kcFgxbDVhbU9HbFRXNDN4ZUJiTGx0QmtfSnVyak9QRXhrbFpSMVFGamJXM3A2VjhDOFBTZzNYREt3clQwMk9hajlPeGkzcXNXUVo4LTUxSjFsR3lXU0RvbFh6X0puaDk5aDdTaG1INW5OV21CQ3Q1TjFKcWs?oc=5",
+     "time": "2026-11-24T21:53:55+00:00"
+    },
+    {
+     "title": "AppLovin Is Down 28% in a Year. CEO Says \u201cWe Have Every Mobile Gaming Company Live, Probably.\u201d Time to Buy?",
+     "publisher": "TIKR.com",
+     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPWlQwVllyNXRmbFN4Qk4yR2lrTTBtRFVLanlPYUFCQVJyVEFPNDdHS1NiVkxZX25jaVVPY1U2NU4wTnNJSUE5dll1LWM1T3lzb2hCS3dWazc5SlVEX1U0LVB2ZGI5aHZfaTdZZk5EcnpnMVlOZEthaU1LUXl1SnVFR01JYzFqbWFJMXcyVjV0UWVhdUtJYm5mcUsxSTNZY2U0dFdPSVdoemxSdkNid28wdk1kZ1ZYRGFkQTA4OTBNUjdyVGZpczZFN0o4SnZ3eTdhcGZyRk9R?oc=5",
+     "time": "2026-11-24T19:07:30+00:00"
+    },
+    {
+     "title": "AppLovin (APP) Tops Communication Services Quant Ratings as Earnings Season Ends",
+     "publisher": "GuruFocus",
+     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdGdna1Z1YUN4eVZYZnNYZml3NDJPZ1pGaklpUGNKLThuN3NjUTFmSm1heFo5cXg0b3d2SlRKZUFYMUxmTEdHdDJoOHNvYUtfZG8yQTRUQVE5bGVPVi1BQ2dOY0RsaU1ITWxvQ0RjeVlSdmd6dWdwX2d5UldYdy00bDUzenN4NHdQWFZYdmV5YTRLSFdZTlJTd0I0OFNCYXJHZXp4aWdCVjkyUGpnQXh4RGs4LThWNVJN?oc=5",
+     "time": "2026-11-24T16:05:55+00:00"
+    },
+    {
+     "title": "AppLovin (APP) Stock Price Prediction: Momentum improves, but APP still needs volume to confirm the rebound",
+     "publisher": "Blockchain News",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQa09feVJSNW1WMlI5Zkg5Zk9tUHhxeGMtcHhzQXdhVnJ0R2g1dndVZFNkdlZyTHhOVFJ1N1dZaEJOYUM1VU5aX3M1b2h6cXBtWEVFV0tIZXV4OGhhN2o3a3A4LWR1WEZzM0ZRQzc4cEJSa3ZJUWRrTm5YRlI0TEhxS1d6aElDVDRfLXR1Z3VEQV9kYmpZMUVDMGluaXc?oc=5",
+     "time": "2026-11-24T08:11:00+00:00"
+    }
+   ],
+   "brief": "2026-11-25-APP"
+  },
+  {
    "symbol": "BTC-USD",
    "name": "Bitcoin",
    "list": "watchlist",
-   "price": 59917.8,
+   "price": 59892.5,
    "prev_close": 59741.2,
    "change_pct": 0.3,
    "trigger_change": -3.0,
@@ -857,9 +932,9 @@
    "first_seen": "2026-11-25T14:56:37+00:00",
    "sector": null,
    "chart": {
-    "ema8": -2.4,
-    "ema21": -9.4,
-    "sma50": -20.2,
+    "ema8": -2.5,
+    "ema21": -9.5,
+    "sma50": -20.3,
     "sma200": -16.8,
     "momentum": false
    },
@@ -916,101 +991,26 @@
    "brief": "2026-11-25-BTC-USD"
   },
   {
-   "symbol": "APP",
-   "name": "AppLovin",
-   "list": "portfolio",
-   "price": 381.75,
-   "prev_close": 381.11,
-   "change_pct": 0.2,
-   "trigger_change": -4.5,
-   "peak_change": -5.8,
-   "first_seen": "2026-11-25T14:56:37+00:00",
-   "sector": {
-    "etf": "IGV",
-    "name": "Software",
-    "price": 95.19,
-    "change_pct": -0.17
-   },
-   "chart": {
-    "ema8": 0.9,
-    "ema21": 7.0,
-    "sma50": 22.3,
-    "sma200": -5.4,
-    "momentum": true
-   },
-   "headlines": [
-    {
-     "title": "AppLovin Falls as AI-Sector Weakness and Deal Speculation Pressure Shares",
-     "publisher": "Quiver Quantitative",
-     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOa1VDcE5ZSWtMSU1HalE4cHRGMl9HT1RFQlVuMFlJcHBRWkJLNUtBbmdGZ2ZKMXRGZTBwdG8ycEJkV1ZfMXJtQnJobU1lcnJRbnVfcl9vTjBhbGY0MjJ2d0VnN3djakdwT2RKSTlUaTk3aTJRcExBRUZiS2I3THFPdS1mYklmTTFqb3M1eWVJTk94dl81cVQ5THdvdWJPbHJWZlN6ZmZhd3RfQQ?oc=5",
-     "time": "2026-11-25T16:18:00+00:00"
-    },
-    {
-     "title": "AppLovin (APP) Stock Price Prediction: Buyers Defend Support, but Momentum Still Needs Confirmation",
-     "publisher": "Blockchain News",
-     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZHcxSVRjQVJCRjFkTTU2dURpSmRIbXB5ZEhNcTdVcDdpYi1CNE9JRzVXTEpiWXc3T3pOQ0FjREExd2dqUG9iUkVsNTVLQ05xamlLUFpqSlYyS2JQOEVWLWZ5eFhudV9nSF9zZTFsZnNzUVpKMkR1bXZBeGtRUzJhTC1EeS1KeUZEZXZRTzRPLXk1SDRDVUVIOVM0UTlKUFdN?oc=5",
-     "time": "2026-11-25T08:18:00+00:00"
-    },
-    {
-     "title": "Applovin Corporation (APP) Stock Forecasts",
-     "publisher": "Yahoo! Finance Canada",
-     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOOUtlbWotYWs4SXJBMEtwZ2pfNTVwRHgzWkE2dXVMTHh0Wkw4MGJicWhlSnBDcktYUFBuTzhkYmZRczQxQTBZdko3dE1DZXIxNk1lc3N1MzZ0Z1VwMXNmbkZKVmFTNTg3UXc1bEk2dGhvTUxkczNSMlVYVWs2MWJfek1NaGJhcUpEVzU3X090UFQ?oc=5",
-     "time": "2026-11-24T22:50:36+00:00"
-    },
-    {
-     "title": "AppLovin (APP) Stock Could Be Undervalued Despite Its 7x Three Year Run",
-     "publisher": "Simply Wall St",
-     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQOUtJRHo4dDJTZnpWNDFCSnphUUxWTjJxZElDaXlZUXNZUW5UTXlIcTQ4cE1RcFVFRzlPOUQyc0NXcldzVDVSdC1kYTducDEwaXBsdmpQNFVtZmNENmFlZkk5MlhZNDdjNEh5RkZxQ3lQR1BudGpQS1VnZzdZRGRrNkxaOTRvU0NDZWZSQlZITEd1dmptS3J1U2QxMFIxdGQ2bkVRSl9OYkZGU0dYaGVyY1pWXzVGX3BhTUVIUnhlRkPSAcYBQVVfeXFMTnY5SGQ3ODBCWDBnX2pRel9GT1I5RmpRRXY3OEhlaEVSMnU2cnZJWlNEaUxELUlFelR3dVdvbFd0WDMwWUxtSVBKQkZLQ1NZZmNjd3J6ay1MNDg1eHZuWHhTRXlmZzdjX193UHQxMllSMjdNSVhPQ0tvSWtmYnZ2LTk3c3hDWFh2V0hoMjhJbHFDM05PRzlGWFlTUW9WTE1YRXdZeGp3RUpTeXJ0TV9rYWpMWU42dm84eFJ4WDFyekh0TF90aUFB?oc=5",
-     "time": "2026-11-24T22:14:27+00:00"
-    },
-    {
-     "title": "CTO Xiaochuan Ge held 1,236,967 shares directly after AppLovin (APP) withheld 5,459 for taxes.",
-     "publisher": "Stock Titan",
-     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOQjdpRnA3V1NCTVJQNDNQVXktWF92NU10YkJlOTh0SXJndURZd1ZMLWpoN014Tl9kcFgxbDVhbU9HbFRXNDN4ZUJiTGx0QmtfSnVyak9QRXhrbFpSMVFGamJXM3A2VjhDOFBTZzNYREt3clQwMk9hajlPeGkzcXNXUVo4LTUxSjFsR3lXU0RvbFh6X0puaDk5aDdTaG1INW5OV21CQ3Q1TjFKcWs?oc=5",
-     "time": "2026-11-24T21:53:55+00:00"
-    },
-    {
-     "title": "AppLovin Is Down 28% in a Year. CEO Says \u201cWe Have Every Mobile Gaming Company Live, Probably.\u201d Time to Buy?",
-     "publisher": "TIKR.com",
-     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPWlQwVllyNXRmbFN4Qk4yR2lrTTBtRFVLanlPYUFCQVJyVEFPNDdHS1NiVkxZX25jaVVPY1U2NU4wTnNJSUE5dll1LWM1T3lzb2hCS3dWazc5SlVEX1U0LVB2ZGI5aHZfaTdZZk5EcnpnMVlOZEthaU1LUXl1SnVFR01JYzFqbWFJMXcyVjV0UWVhdUtJYm5mcUsxSTNZY2U0dFdPSVdoemxSdkNid28wdk1kZ1ZYRGFkQTA4OTBNUjdyVGZpczZFN0o4SnZ3eTdhcGZyRk9R?oc=5",
-     "time": "2026-11-24T19:07:30+00:00"
-    },
-    {
-     "title": "AppLovin (APP) Tops Communication Services Quant Ratings as Earnings Season Ends",
-     "publisher": "GuruFocus",
-     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdGdna1Z1YUN4eVZYZnNYZml3NDJPZ1pGaklpUGNKLThuN3NjUTFmSm1heFo5cXg0b3d2SlRKZUFYMUxmTEdHdDJoOHNvYUtfZG8yQTRUQVE5bGVPVi1BQ2dOY0RsaU1ITWxvQ0RjeVlSdmd6dWdwX2d5UldYdy00bDUzenN4NHdQWFZYdmV5YTRLSFdZTlJTd0I0OFNCYXJHZXp4aWdCVjkyUGpnQXh4RGs4LThWNVJN?oc=5",
-     "time": "2026-11-24T16:05:55+00:00"
-    },
-    {
-     "title": "AppLovin (APP) Stock Price Prediction: Momentum improves, but APP still needs volume to confirm the rebound",
-     "publisher": "Blockchain News",
-     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQa09feVJSNW1WMlI5Zkg5Zk9tUHhxeGMtcHhzQXdhVnJ0R2g1dndVZFNkdlZyTHhOVFJ1N1dZaEJOYUM1VU5aX3M1b2h6cXBtWEVFV0tIZXV4OGhhN2o3a3A4LWR1WEZzM0ZRQzc4cEJSa3ZJUWRrTm5YRlI0TEhxS1d6aElDVDRfLXR1Z3VEQV9kYmpZMUVDMGluaXc?oc=5",
-     "time": "2026-11-24T08:11:00+00:00"
-    }
-   ],
-   "brief": "2026-11-25-APP"
-  },
-  {
    "symbol": "NOW",
    "name": "ServiceNow",
    "list": "portfolio",
-   "price": 91.75,
+   "price": 91.6,
    "prev_close": 91.74,
-   "change_pct": 0.0,
+   "change_pct": -0.2,
    "trigger_change": -3.2,
    "peak_change": -3.3,
    "first_seen": "2026-11-25T14:56:37+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 95.19,
-    "change_pct": -0.17
+    "price": 95.0,
+    "change_pct": -0.37
    },
    "chart": {
-    "ema8": -1.5,
-    "ema21": -11.4,
-    "sma50": -26.5,
-    "sma200": -18.9,
+    "ema8": -1.6,
+    "ema21": -11.5,
+    "sma50": -26.7,
+    "sma200": -19.0,
     "momentum": false
    },
    "headlines": [
