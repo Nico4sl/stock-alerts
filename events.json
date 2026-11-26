@@ -1,15 +1,8 @@
 {
-  "as_of": "2026-11-19",
+  "as_of": "2026-11-26",
   "updated_by": "Claude",
   "about": "Upcoming dates for the app's 'Upcoming dates' card. Earnings and ex-dividend dates come from Nasdaq automatically and FOMC dates from fed.json – list only macro releases and company events here. Kept current by the brief task (BRIEF_TASK.md step 6).",
   "macro": [
-    {
-      "date": "2026-11-25",
-      "time": "08:30 ET",
-      "kind": "pce",
-      "title": "PCE inflation (October) + GDP Q3 2nd estimate",
-      "title_de": "PCE-Inflation (Oktober) + BIP Q3, 2. Schätzung"
-    },
     {
       "date": "2026-12-04",
       "time": "08:30 ET",
@@ -133,6 +126,16 @@
         "note": "AWS's biggest yearly conference, where new cloud and AI products are announced – AWS is Amazon's main profit engine.",
         "note_de": "Die wichtigste Jahreskonferenz von AWS mit neuen Cloud- und KI-Produkten – AWS ist Amazons wichtigster Gewinnbringer."
       }
+    ],
+    "NVDA": [
+      {
+        "date": "2027-03-15",
+        "kind": "company",
+        "title": "Nvidia GTC 2027 begins (San Jose, to Mar 18)",
+        "title_de": "Nvidia GTC 2027 startet (San Jose, bis 18. März)",
+        "note": "Nvidia's main yearly AI conference, where Jensen Huang's keynote usually unveils new chips and the product roadmap.",
+        "note_de": "Nvidias wichtigste jährliche KI-Konferenz – in Jensen Huangs Keynote werden meist neue Chips und die Produkt-Roadmap vorgestellt."
+      }
     ]
   },
   "sources": [
@@ -140,6 +143,7 @@
     "https://www.bls.gov/schedule/news_release/empsit.htm",
     "https://www.bea.gov/news/schedule/full",
     "https://www.bea.gov/news/schedule/next-year",
-    "https://aws.amazon.com/events/reinvent/"
+    "https://aws.amazon.com/events/reinvent/",
+    "https://www.nvidia.com/gtc/"
   ]
 }
