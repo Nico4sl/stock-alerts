@@ -1,182 +1,32 @@
 {
  "date": "2026-11-27",
  "threshold": 3.0,
- "updated": "2026-11-27T19:17:48+00:00",
+ "updated": "2026-11-27T19:22:54+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 728.83,
-   "change_pct": 1.69
+   "price": 729.02,
+   "change_pct": 1.72
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 649.94,
-   "change_pct": 2.53
+   "price": 650.35,
+   "change_pct": 2.59
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 82.5,
-   "change_pct": 0.31
+   "price": 81.32,
+   "change_pct": -1.12
   }
  },
  "movers": [
   {
-   "symbol": "META",
-   "name": "Meta",
-   "list": "portfolio",
-   "price": 658.37,
-   "prev_close": 609.89,
-   "change_pct": 7.9,
-   "trigger_change": 3.1,
-   "peak_change": 7.9,
-   "first_seen": "2026-11-27T15:21:17+00:00",
-   "sector": {
-    "etf": "XLC",
-    "name": "Communication",
-    "price": 107.22,
-    "change_pct": 1.74
-   },
-   "chart": {
-    "ema8": 7.0,
-    "ema21": 5.5,
-    "sma50": -2.0,
-    "sma200": 4.9,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Why is Meta Platforms stock rallying today?",
-     "publisher": "Investing.com",
-     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOU3VkZ2VmcmhVOXlwblhTbEJ0QlVMcFpSSVF6MEc3WmNsZlh0S1Vac0hsWDZsVHQ5RlpISjdBUnF3Vzg5N2RnN1dDcWFNS3JrY0xjeHJQU1Rsd0MwRmYxYXhYNE4zcVVrOXk2TTlMNFlGYVVOZUdzSEtZMlMyMUpwZHo3ZXRLWnRWV1NOMnFLUTdkaGNCRzI5T21tUVFEcjdpNkN5NzdTYw?oc=5",
-     "time": "2026-11-27T16:51:04+00:00"
-    },
-    {
-     "title": "Meta shares jump 3.5% to $631.10 as stock outpaces S&P 500",
-     "publisher": "JournalArta",
-     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNSXh5RTY2SDhUMjc5RFAwc0wwbk1uLWgtNXlfOTJFVTR1RU5XN0gwZjQxaUhzaXVVTlAtcnl4M21Ib0JaWTlWZGFqSEhuNGtkRE9ScFpiVng5cEpLaDRwNlMwb2pmVXRSTkNOelhNMW1HX1poUFJreEVFRGN5M214QjB1VUFmQjRxVmFnaHEySXRJZDdzOHhuQU9B?oc=5",
-     "time": "2026-11-27T16:47:15+00:00"
-    },
-    {
-     "title": "Tech Stock Sell-Off: Down 23%, Is Meta a Buy Now?",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNdk1heV9Xa19KT3FnOEdOOHRYSjFBeGxNT1p4YXFKRTBRMDR0dEVpWjFFaExRLWZENll0dEttWk5ReFJtalZPNjRFaU5rTlBoa1FKWjZTbjRxVkFiT01yQWZoUmVwNnlGMUJUVDUwNnkwNkJfVjVvNVU2T2tHSVJCc1VrbkRwN3NfTmtnYm9iXzNfVkE?oc=5",
-     "time": "2026-11-27T16:43:01+00:00"
-    },
-    {
-     "title": "Meta Platforms Inc Stock (META) Moved Up by 3.52% on Nov 27: Facts Behind the Movement",
-     "publisher": "TradingKey",
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPamIxN3Z6LVNiZzBvVzUxZFVGLURpb094al9sNm9TckQ2RjlUNjZVdVVuNVBhUE1Gc3Y4ZUpwLUFwWEx2MTRIS1pGaVJVMGdOMnc1TGdtTXVJQ2hfX1FVNTZiTjc4a01RMDI0dUFMSV9MSjRwX0UxczQxc1NfUHNnMEU5aFpUM19iX1NF?oc=5",
-     "time": "2026-11-27T16:15:31+00:00"
-    },
-    {
-     "title": "Meta Stock Climbs: What's Going On?",
-     "publisher": "Benzinga",
-     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNbjFJTkRlT3l6WjFMc3hyNWNISGpoemg3S0FROWtKRnU3ck5YY2hTSzRQdnVVTnpabVR4M3d4NEdoVXMtdmdJU0ZkYk45cVBKdjNfSkpXX3VFQjhiZ3dtNVFYOVBtS2xJWFk4OHNxaXNnUWx5Vnh6WVZCUkhnSUx1eWo2UVJjdlMzR2d1R1pmRVJvM0tCNnJ0ZA?oc=5",
-     "time": "2026-11-27T15:39:43+00:00"
-    },
-    {
-     "title": "Meta Stock Price Today",
-     "publisher": "JournalArta",
-     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQd1RkbXhoLUFvQWw0VUZBR0VLZ2NGTU9MVlhrLWsybk5IRXdxNWlXSjNUc0ZMcjV0RnBURF9wWEY4ZkFIbVhJLWF2SDJTX0F1bG5yVzAtU2VCUG56XzVGQjF0dHBqb1FXOG81NF92RTgySHVWV201S1JKVG1YZ3U5SXQzRHE3b0tRRGlmRDNCeTFpM0tQMnA1QVhJdDBXLVBDNDFVZ2t6YzYzVjdBS0E?oc=5",
-     "time": "2026-11-27T14:55:49+00:00"
-    },
-    {
-     "title": "Meta Platforms (META) Stock: $609.89, Up 3.40% Nov 25",
-     "publisher": "JournalArta",
-     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPYzFFQ2Y4MEM2WXVBNkpqRzNnTWtVOURvSHN3TUhZN2pHSVhBZi1icFN4Q092RlJYRmpFNjY3WUE5eVQ1bjI2aWJNbzMzZ3A0UHI1NEVReDNxbVg4dVNVSzU3YjdGY3VzU1hFTERsVGpoelowalI5Z21zektVS3hzck1zaTFKOGM0dzBjTmJad0lna2RtcmI3RlVMaHN1cGlRZlVoNFhnWHh4Nl9WMGpVNVJITkxoZUdjcHJv?oc=5",
-     "time": "2026-11-27T13:37:58+00:00"
-    },
-    {
-     "title": "Tech Sell-Off: 1 Unstoppable Stock-Split Stock to Buy Before It Joins Nvidia, Alphabet, Microsoft, and Apple in the $3 Trillion Club",
-     "publisher": "The Motley Fool",
-     "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQZTcxSkFQTk9fTnVOMV9YMUstU3lhRTFqZDYzLVRKd1NVVVk4MzVFSXh4OXUtdV94cE5FVmU2UlBpX1dwT0s1YXcwTTJsZktiOGJPQzRDY0huc2lOWV85ZTFZMUpFV0tmZEo1M0hYeTNCaUlHSlYxUExqbHJFNDFvZENOc0pJUDVpejdvRkI5emFJSUQ3VlJYTmlDQjFTZ215RDZqTXh0QjZyY3NZcDV4N2x6bVFJR0ZqblY4dV9idms5Z0NmaDRrWlpfMlk1N1NhckFscEU2OHhfaGJ0bkE3M2l5SkY2cnZrZWtzbw?oc=5",
-     "time": "2026-11-27T12:17:02+00:00"
-    }
-   ],
-   "brief": "2026-11-27-META"
-  },
-  {
-   "symbol": "ANET",
-   "name": "Arista Networks",
-   "list": "portfolio",
-   "price": 174.25,
-   "prev_close": 163.99,
-   "change_pct": 6.3,
-   "trigger_change": 3.1,
-   "peak_change": 6.9,
-   "first_seen": "2026-11-27T15:21:17+00:00",
-   "sector": {
-    "etf": "SMH",
-    "name": "Semiconductors",
-    "price": 436.6,
-    "change_pct": 3.35
-   },
-   "chart": {
-    "ema8": -1.0,
-    "ema21": -3.6,
-    "sma50": -8.4,
-    "sma200": 3.0,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Arista Networks Rises as Investors Revisit AI Networking Growth Story",
-     "publisher": "Quiver Quantitative",
-     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOOGdfYWhrZ19xSUFVUWNrUWN5ekt0a1N5eENTczJBaUFWZFRJVlJzOHVEYVAyM01BYVVWNEtvT1gwamdrSG0teUwzdFN1bWVmV2NzSUFnOWFHbzFkM1BJV05JVnZMYkhfSzhsZ2JjOFVHdzZjT2JHRjhhSVBsS0VhSjVWVUplbW9NMHpyRUlGcnZtc1pyQmMwaktrZHpJMF94Ni1WVg?oc=5",
-     "time": "2026-11-27T16:17:00+00:00"
-    },
-    {
-     "title": "Arista Networks Inc Stock (ANET) Moved Up by 5.26% on Nov 27: What Investors Need To Know",
-     "publisher": "TradingKey",
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNQThnTWJ2UTd2NDlnVmFTNVNTXzlXbklTcHJwOXZTdktBTWtpRjhya1llbmdYN0dHTmVQdGJJMGtvZ29EV2p5dE9KeEJoeUtaZjZnRnJCeS1tYlR3b05paXMwMDItZlpTQkhhQ1hNUW9TTFl0TXVSSzRXMjhHdHF3MmtNVEo2XzE0TEhF?oc=5",
-     "time": "2026-11-27T16:15:29+00:00"
-    },
-    {
-     "title": "Arista Networks (ANET) Upgraded to Strong Buy: Here's What You Should Know",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPUDZvWW5WVlFMZTJ0aHZpa2ZSRE8yOW1RWEF4ZXMzcHpWZ0tQLVI4NElzbWc5eU1oRF96NkQxRHlKc2R3Q0tWdGI0cHkydUxvRzZkR2J5T2o3eHd4eTRXZ0xPalZ5RUxyRHRQSnBCZlNhSkVhNXRCNGViSjMyTG1vUkVpQkk4VTFyYjh3Z0I5VmtCZnVhMFkxaE5FYzFiSU9MVE9B?oc=5",
-     "time": "2026-11-27T16:00:03+00:00"
-    },
-    {
-     "title": "Arista Networks (ANET) Stock: $163.99, Down 2.71% Nov 25",
-     "publisher": "JournalArta",
-     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQVHpnOU9vWkNQNk5wMWtTNm5LcHB1UFN1SkhhTWpheGE2cWpuS3FVblFQeExaVUhXLVpud2FBZ3pfTjNwb3p2SzJLdm5henh1SmRUN0hvanV5eWJGbm9VQ0VIT1dCZ0FzQ1RxdWlra0xhVkxxRlBTMmlXaUtvQW5zUTRLRWhMSFJZQkI4THBCUlRlNTNHUmlDbm93OHlIbWJzN2NhS3daQWw?oc=5",
-     "time": "2026-11-27T11:49:35+00:00"
-    },
-    {
-     "title": "How Did AI Networking Demand Drive Record Growth at Arista Networks (NYSE:ANET)?",
-     "publisher": "Kalkine Media",
-     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOZTU2U1lhSWcyYU1xNG01cU50QTBsb1ViSDVReGFsdWgtcnBNMUwyalhjbDhMeWNWdzZrSnJrSGpKeU1lcElENUFYc0thZDJJVHNiUGY4ajBVZG1rQXk4V1pSWnF2RHZXLXJKbFdvVlZfU1ZzOUZkelpuM1ltbVZtT2dvMzh4ZVkyWnJybTZ3YURNaGo3Rm16Ykg5SnJIaFdzaDc4SGpBUFFBRFQ2Mnp2VlI5UHIwelpoc2tGVkNadEhHc05RS3FpN09PTmN3blUx?oc=5",
-     "time": "2026-11-27T10:34:00+00:00"
-    },
-    {
-     "title": "Arista Networks (ANET) Stock Price Prediction: Rally meets resistance as Arista tests a weaker trend structure",
-     "publisher": "Blockchain News",
-     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPUm1MZS1DN2o5YnJmMGFSVGJlMjNZLWZiZTRuRzVORFJPek9fRlh1cjZ0bldHSEJvSVNaWjduQm83RDE1cHJ0S1diN1dCcUJHUjZtMkxTaWl0VnQ1QTV4VUVzT0pUT0hfSWp2a1A4NE5hSndMY1VUeHBOWjNGbWQzMEJmLVl6WUFLaHJ3cFMtLWJ4RDFxbnIxeFBPdFNsM0k?oc=5",
-     "time": "2026-11-27T09:31:00+00:00"
-    },
-    {
-     "title": "Arista Networks Stock: Assets, Liabilities and Net Debt Reviewed",
-     "publisher": "Kalkine India",
-     "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPYjlNcU5rZ0ROU0NBcHVwbHdKM3lPTWV2RVlvX0tLV1dDdU96N3NzSGthb3BjX1FkTkhkbkc2MGJsb2RHeVRXa3lCYXo0SlQxMlo0N0JhNXB0UHRCbURFU2h2MEpiM1BGdEZrMEpMdjhKVEtOWVZWVUFjTUNpR2YtRXZkZlBXVDJKQ1FDb1ZDUER2T2MzQWhYMzYwRlM3eW00Z2JQYUVZdjA4Z1gzUnllTTMyMktJYTFTQ3BBM29YdVNuUkV1TDhWQ3gxU1d2QjRFTHU0bVk0NXVsd0VM?oc=5",
-     "time": "2026-11-27T09:00:00+00:00"
-    },
-    {
-     "title": "Arista Networks (ANET) Could Be 4% Undervalued On Etherlink R4 And AI Growth",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPRl81ZWVsZlpzaEJ1bUVNVlF6cWpkZmFVOWdxQ0Y3WTFFcG9USGpqNWd1Y0ZfZkhPT1EwUG5kaGxRNXRSdWk0Q1l6aGtSUGlEQVZoWWxOMmRFTHNNMTVKbzFlY2x5ck1VNFcwdll6WXg0ZFJwQVhkeEVvaTEwbHJlVG91bUd3WkhSVTFEZzZmVE1MU0hsTW9nQw?oc=5",
-     "time": "2026-11-26T21:10:55+00:00"
-    }
-   ],
-   "brief": "2026-11-27-ANET"
-  },
-  {
    "symbol": "AXON",
    "name": "Axon",
    "list": "watchlist",
-   "price": 364.0,
+   "price": 367.69,
    "prev_close": 343.05,
-   "change_pct": 6.1,
+   "change_pct": 7.2,
    "trigger_change": 4.9,
    "peak_change": 8.0,
    "first_seen": "2026-11-27T14:56:15+00:00",
@@ -187,10 +37,10 @@
     "change_pct": 1.57
    },
    "chart": {
-    "ema8": 10.8,
-    "ema21": 6.5,
-    "sma50": -6.2,
-    "sma200": -21.0,
+    "ema8": 11.7,
+    "ema21": 7.5,
+    "sma50": -5.3,
+    "sma200": -20.2,
     "momentum": false
    },
    "headlines": [
@@ -246,10 +96,85 @@
    "brief": "2026-11-27-AXON"
   },
   {
+   "symbol": "ANET",
+   "name": "Arista Networks",
+   "list": "portfolio",
+   "price": 174.5,
+   "prev_close": 163.99,
+   "change_pct": 6.4,
+   "trigger_change": 3.1,
+   "peak_change": 6.9,
+   "first_seen": "2026-11-27T15:21:17+00:00",
+   "sector": {
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 463.46,
+    "change_pct": 9.71
+   },
+   "chart": {
+    "ema8": -0.9,
+    "ema21": -3.5,
+    "sma50": -8.2,
+    "sma200": 3.1,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Arista Networks Rises as Investors Revisit AI Networking Growth Story",
+     "publisher": "Quiver Quantitative",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOOGdfYWhrZ19xSUFVUWNrUWN5ekt0a1N5eENTczJBaUFWZFRJVlJzOHVEYVAyM01BYVVWNEtvT1gwamdrSG0teUwzdFN1bWVmV2NzSUFnOWFHbzFkM1BJV05JVnZMYkhfSzhsZ2JjOFVHdzZjT2JHRjhhSVBsS0VhSjVWVUplbW9NMHpyRUlGcnZtc1pyQmMwaktrZHpJMF94Ni1WVg?oc=5",
+     "time": "2026-11-27T16:17:00+00:00"
+    },
+    {
+     "title": "Arista Networks Inc Stock (ANET) Moved Up by 5.26% on Nov 27: What Investors Need To Know",
+     "publisher": "TradingKey",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNQThnTWJ2UTd2NDlnVmFTNVNTXzlXbklTcHJwOXZTdktBTWtpRjhya1llbmdYN0dHTmVQdGJJMGtvZ29EV2p5dE9KeEJoeUtaZjZnRnJCeS1tYlR3b05paXMwMDItZlpTQkhhQ1hNUW9TTFl0TXVSSzRXMjhHdHF3MmtNVEo2XzE0TEhF?oc=5",
+     "time": "2026-11-27T16:15:29+00:00"
+    },
+    {
+     "title": "Arista Networks (ANET) Upgraded to Strong Buy: Here's What You Should Know",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPUDZvWW5WVlFMZTJ0aHZpa2ZSRE8yOW1RWEF4ZXMzcHpWZ0tQLVI4NElzbWc5eU1oRF96NkQxRHlKc2R3Q0tWdGI0cHkydUxvRzZkR2J5T2o3eHd4eTRXZ0xPalZ5RUxyRHRQSnBCZlNhSkVhNXRCNGViSjMyTG1vUkVpQkk4VTFyYjh3Z0I5VmtCZnVhMFkxaE5FYzFiSU9MVE9B?oc=5",
+     "time": "2026-11-27T16:00:03+00:00"
+    },
+    {
+     "title": "Arista Networks (ANET) Stock: $163.99, Down 2.71% Nov 25",
+     "publisher": "JournalArta",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQVHpnOU9vWkNQNk5wMWtTNm5LcHB1UFN1SkhhTWpheGE2cWpuS3FVblFQeExaVUhXLVpud2FBZ3pfTjNwb3p2SzJLdm5henh1SmRUN0hvanV5eWJGbm9VQ0VIT1dCZ0FzQ1RxdWlra0xhVkxxRlBTMmlXaUtvQW5zUTRLRWhMSFJZQkI4THBCUlRlNTNHUmlDbm93OHlIbWJzN2NhS3daQWw?oc=5",
+     "time": "2026-11-27T11:49:35+00:00"
+    },
+    {
+     "title": "How Did AI Networking Demand Drive Record Growth at Arista Networks (NYSE:ANET)?",
+     "publisher": "Kalkine Media",
+     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOZTU2U1lhSWcyYU1xNG01cU50QTBsb1ViSDVReGFsdWgtcnBNMUwyalhjbDhMeWNWdzZrSnJrSGpKeU1lcElENUFYc0thZDJJVHNiUGY4ajBVZG1rQXk4V1pSWnF2RHZXLXJKbFdvVlZfU1ZzOUZkelpuM1ltbVZtT2dvMzh4ZVkyWnJybTZ3YURNaGo3Rm16Ykg5SnJIaFdzaDc4SGpBUFFBRFQ2Mnp2VlI5UHIwelpoc2tGVkNadEhHc05RS3FpN09PTmN3blUx?oc=5",
+     "time": "2026-11-27T10:34:00+00:00"
+    },
+    {
+     "title": "Arista Networks (ANET) Stock Price Prediction: Rally meets resistance as Arista tests a weaker trend structure",
+     "publisher": "Blockchain News",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPUm1MZS1DN2o5YnJmMGFSVGJlMjNZLWZiZTRuRzVORFJPek9fRlh1cjZ0bldHSEJvSVNaWjduQm83RDE1cHJ0S1diN1dCcUJHUjZtMkxTaWl0VnQ1QTV4VUVzT0pUT0hfSWp2a1A4NE5hSndMY1VUeHBOWjNGbWQzMEJmLVl6WUFLaHJ3cFMtLWJ4RDFxbnIxeFBPdFNsM0k?oc=5",
+     "time": "2026-11-27T09:31:00+00:00"
+    },
+    {
+     "title": "Arista Networks Stock: Assets, Liabilities and Net Debt Reviewed",
+     "publisher": "Kalkine India",
+     "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPYjlNcU5rZ0ROU0NBcHVwbHdKM3lPTWV2RVlvX0tLV1dDdU96N3NzSGthb3BjX1FkTkhkbkc2MGJsb2RHeVRXa3lCYXo0SlQxMlo0N0JhNXB0UHRCbURFU2h2MEpiM1BGdEZrMEpMdjhKVEtOWVZWVUFjTUNpR2YtRXZkZlBXVDJKQ1FDb1ZDUER2T2MzQWhYMzYwRlM3eW00Z2JQYUVZdjA4Z1gzUnllTTMyMktJYTFTQ3BBM29YdVNuUkV1TDhWQ3gxU1d2QjRFTHU0bVk0NXVsd0VM?oc=5",
+     "time": "2026-11-27T09:00:00+00:00"
+    },
+    {
+     "title": "Arista Networks (ANET) Could Be 4% Undervalued On Etherlink R4 And AI Growth",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPRl81ZWVsZlpzaEJ1bUVNVlF6cWpkZmFVOWdxQ0Y3WTFFcG9USGpqNWd1Y0ZfZkhPT1EwUG5kaGxRNXRSdWk0Q1l6aGtSUGlEQVZoWWxOMmRFTHNNMTVKbzFlY2x5ck1VNFcwdll6WXg0ZFJwQVhkeEVvaTEwbHJlVG91bUd3WkhSVTFEZzZmVE1MU0hsTW9nQw?oc=5",
+     "time": "2026-11-26T21:10:55+00:00"
+    }
+   ],
+   "brief": "2026-11-27-ANET"
+  },
+  {
    "symbol": "APP",
    "name": "AppLovin",
    "list": "portfolio",
-   "price": 399.5,
+   "price": 399.38,
    "prev_close": 378.95,
    "change_pct": 5.4,
    "trigger_change": 3.0,
@@ -264,8 +189,8 @@
    "chart": {
     "ema8": 4.4,
     "ema21": 10.8,
-    "sma50": 27.4,
-    "sma200": -0.9,
+    "sma50": 27.3,
+    "sma200": -1.0,
     "momentum": true
    },
    "headlines": [
@@ -324,9 +249,9 @@
    "symbol": "NBIS",
    "name": "Nebius",
    "list": "portfolio",
-   "price": 89.3,
+   "price": 89.48,
    "prev_close": 84.99,
-   "change_pct": 5.1,
+   "change_pct": 5.3,
    "trigger_change": 3.0,
    "peak_change": 6.5,
    "first_seen": "2026-11-27T16:11:36+00:00",
@@ -337,10 +262,10 @@
     "change_pct": 2.06
    },
    "chart": {
-    "ema8": -6.8,
-    "ema21": -25.1,
-    "sma50": -47.9,
-    "sma200": -50.3,
+    "ema8": -6.7,
+    "ema21": -24.9,
+    "sma50": -47.8,
+    "sma200": -50.2,
     "momentum": false
    },
    "headlines": [
@@ -399,9 +324,9 @@
    "symbol": "MELI",
    "name": "MercadoLibre",
    "list": "watchlist",
-   "price": 1530.0,
+   "price": 1532.98,
    "prev_close": 1467.3,
-   "change_pct": 4.3,
+   "change_pct": 4.5,
    "trigger_change": 3.7,
    "peak_change": 5.2,
    "first_seen": "2026-11-27T14:56:15+00:00",
@@ -412,10 +337,10 @@
     "change_pct": 2.01
    },
    "chart": {
-    "ema8": 4.7,
-    "ema21": 0.6,
-    "sma50": -8.9,
-    "sma200": -12.8,
+    "ema8": 4.8,
+    "ema21": 0.8,
+    "sma50": -8.7,
+    "sma200": -12.7,
     "momentum": false
    },
    "headlines": [
@@ -474,9 +399,9 @@
    "symbol": "AMZN",
    "name": "Amazon",
    "list": "portfolio",
-   "price": 254.38,
+   "price": 254.25,
    "prev_close": 244.43,
-   "change_pct": 4.1,
+   "change_pct": 4.0,
    "trigger_change": 3.6,
    "peak_change": 4.4,
    "first_seen": "2026-11-27T15:41:25+00:00",
@@ -487,10 +412,10 @@
     "change_pct": 2.01
    },
    "chart": {
-    "ema8": 0.2,
-    "ema21": -0.7,
-    "sma50": -0.3,
-    "sma200": 3.4,
+    "ema8": 0.1,
+    "ema21": -0.8,
+    "sma50": -0.4,
+    "sma200": 3.3,
     "momentum": false
    },
    "headlines": [
@@ -546,99 +471,24 @@
    "brief": "2026-11-27-AMZN"
   },
   {
-   "symbol": "CRWD",
-   "name": "CrowdStrike",
-   "list": "portfolio",
-   "price": 216.64,
-   "prev_close": 209.3,
-   "change_pct": 3.5,
-   "trigger_change": 3.2,
-   "peak_change": 3.6,
-   "first_seen": "2026-11-27T17:22:06+00:00",
-   "sector": {
-    "etf": "IGV",
-    "name": "Software",
-    "price": 96.97,
-    "change_pct": 2.06
-   },
-   "chart": {
-    "ema8": -1.2,
-    "ema21": -5.0,
-    "sma50": -11.5,
-    "sma200": 21.5,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "CrowdStrike (CRWD) Stock Jumps to $217.20 on Zscaler Deal",
-     "publisher": "JournalArta",
-     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQaU5KMmtiby1adG9wUzZ4NXBybENiWC1XbTRfNVl2X1pVUDhtTVRGNzdEdFRUZmRzTXpUZUo1Rk9XcXY4bmtCVkJhN0o5UjFyWFZqbjlWdFJDWC16WWJ1TFd1MmhJU1Rab1paa3dVTUszUFN3WDFCM2JzYkJoZFZTRUEydGdCVDd6SEREeXNlTlU1YnlHV1VUeGx2ZWlsQzhtMmw3WUZfbXIwWGJhOHFqTUdR?oc=5",
-     "time": "2026-11-27T18:29:59+00:00"
-    },
-    {
-     "title": "CrowdStrike Holdings, Inc. (CRWD) Stock Forecasts",
-     "publisher": "Yahoo! Finance Canada",
-     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNS09BenNJSzVUbURWQjZjSkVnRnBvMmJCOHlnSlBkVHRSaGVNdjJwcC1NR2FhOUtKdUxLRzdpWHhhc1phakNTczNlemV3ZDJKWjhORXhodjNmYWg2eGlCdW0tV3hmek5YYm9TcjhPUmdnWEgzYVo1cGhpVjJyMVhhOERNMkRDbFQxYUpneFd3?oc=5",
-     "time": "2026-11-27T17:28:01+00:00"
-    },
-    {
-     "title": "CrowdStrike: The $44B Zscaler Merger Unlocks An Agentic AI Powerhouse (NASDAQ:CRWD)",
-     "publisher": "Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOaGZLRXNNZ3d5YldNUmVDejJwMnhYYUNvVEJwVkhXUG4xY0FJaWhiVEQybnZsdFdWeHpYbVJ3LVYtYkRoRFF5QzVwRUdER25RRGVwYV9sRE5uVTJ2c1p3RTF6Z0Z0bGJMOHNEZVY0dTlWd0RyNktTT1pmN0pWY2JQQ3kyV2RzdVpYSzVoU2s1dlVvSkw2MlVXX0pXNjhEenVSN2VEbGEyZGxQcFBT?oc=5",
-     "time": "2026-11-27T15:47:13+00:00"
-    },
-    {
-     "title": "CrowdStrike CEO Predicts \u201cMore Agents Than Humans on the Internet.\u201d That\u2019s His Case for a $43.9 Billion Zscaler Deal",
-     "publisher": "TIKR.com",
-     "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxOaFN4R2JVZWNCdXdxemlkYy1YTG5TbVF2VG1XUE5vb2NsUUpwQWkzS3RLS2ZDUzdsdGZzT1V0RkgwLU5Ec2Y3NzROd3JNd0xlY3A4RFo0M0I5eUhnQ2hrWVluQWFwcmJkQjRyRmthTXZfUVFaaU9iMElramYtM0hsWGJSMnZjSUM2Mm9LX01kOHpPSUVoRnJPZUVhcnhWN29RSVhVeDlVcE5PMTBnUnZ0dGVQeFdDRk9ZR3lidnEyeTFvMHJCbm1HZ3Jjc3hWelpRbzJjbm5HdHZ0aGRRYzFfblNYcjNjMG85Y3l5T3JSbjZHeWdnQXNyV19oemp5R3JYTC15Ym15bVhHdw?oc=5",
-     "time": "2026-11-27T13:22:06+00:00"
-    },
-    {
-     "title": "CrowdStrike (CRWD) Stock Price Prediction: Guggenheim upgrade meets a choppy pullback below key moving averages",
-     "publisher": "Blockchain News",
-     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOWFEtdU5JTzVuWkdxZ2R4ZGNCYlRfeEg3WEtQdGVtcm9JRllhRFNPdXdyVXBmRUxkdEpXbWFKeDFMVmktSllfYVg4WWFORnpJUFVjTGtfcmoyM2M3WndCTzZWd2J5bExqdVk1Y0JHdnBTd1pUOHZKM2dTbEpuQkVDc1c1NnBOVDhhb0ZndzRyTDgxek1aa3NTdHJ0OHVOLTFDNFZWbQ?oc=5",
-     "time": "2026-11-27T08:22:00+00:00"
-    },
-    {
-     "title": "Was CrowdStrike\u2019s $43.9 Billion Bid for Zscaler the Right Move at the Wrong Time?",
-     "publisher": "24/7 Wall St.",
-     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNcEFjNjBXdXRkdWFwVE9nQzlFVElEV092dGRnVFBxY1V0SkhpNEVZNm81MVF2WktrcFlTUXlBS2pDeGxkMTI2bVlPd2x2dDNqU2N2UFpENUctZFYtV3pqWTR0Mnl2QUhlNTlVeTV6YUNkMEJIRzJNWFdNMkJqVHg1WTFNS205X2hLaDk3YzFRaV9UYW9fSHB0cmtXRXFJVWN1aW8taE9NYkZjckNfalZCbExHU1FYZnJrLWR2NjRFUQ?oc=5",
-     "time": "2026-11-26T17:00:00+00:00"
-    },
-    {
-     "title": "Top Guggenheim Analyst Upgrades CrowdStrike Stock (CRWD) to Buy After Zscaler Mega-Deal",
-     "publisher": "TipRanks",
-     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQcmM4U01oUEd4LU9SX0NpRy1fQXB6MlFvZTZ0ZkJibjRleXNhNmJfVkRCa2NzRXAzUWNOcTNZYkpic1luU295ejFqZGFBNkhrWU9xSVZsTHQ3ZURGZ2tnMGZWbGhiMkdhMzU0bTFadFRTS0UtaW5WNHB6cUY1OGNRYU5SM2JkVlhoeUZEeGUzQUNVR3NZc181LUdIdWtBd2VBeTJRWUhkcVFfQ3FNMmJicEF1SVVmckZLdlllb01Nclk?oc=5",
-     "time": "2026-11-26T14:59:53+00:00"
-    },
-    {
-     "title": "How Will CrowdStrike (NASDAQ:CRWD) Reshape Cybersecurity After Its Record Zscaler Deal?",
-     "publisher": "Kalkine Media",
-     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQbXdCZzhkWWItbC1uOWZBN3ZHeG9HUS1XbzVtSlppd1RjemVoc1VPaFA2NU9mcGJ4TTR4d0NQY2tBT1dMb0FvMWJqMVJTY1dTckhWZWtNbGxtY1gwdnp2T0FBLWV1U2RKekJxa25mMzI1U1JLZjdfYlMzSVF5aDRsV2JmaEhWYlNfTFAtQ3paZUtpc09HV0wzTzJKeW80RUdXb2V4T2s5TzlTVk9LcFgwa0xaZjlpanB5QUhRN25EMnZkNXc?oc=5",
-     "time": "2026-11-26T13:22:00+00:00"
-    }
-   ],
-   "brief": "2026-11-27-CRWD"
-  },
-  {
    "symbol": "AVGO",
    "name": "Broadcom",
    "list": "portfolio",
-   "price": 310.83,
+   "price": 311.04,
    "prev_close": 300.86,
-   "change_pct": 3.3,
+   "change_pct": 3.4,
    "trigger_change": 3.5,
    "peak_change": 4.0,
    "first_seen": "2026-11-27T15:41:25+00:00",
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 436.6,
-    "change_pct": 3.35
+    "price": 463.46,
+    "change_pct": 9.71
    },
    "chart": {
     "ema8": -1.8,
-    "ema21": -4.7,
+    "ema21": -4.6,
     "sma50": -8.5,
     "sma200": -15.3,
     "momentum": false
@@ -696,6 +546,156 @@
    "brief": "2026-11-27-AVGO"
   },
   {
+   "symbol": "CRWD",
+   "name": "CrowdStrike",
+   "list": "portfolio",
+   "price": 216.2,
+   "prev_close": 209.3,
+   "change_pct": 3.3,
+   "trigger_change": 3.2,
+   "peak_change": 3.6,
+   "first_seen": "2026-11-27T17:22:06+00:00",
+   "sector": {
+    "etf": "IGV",
+    "name": "Software",
+    "price": 96.97,
+    "change_pct": 2.06
+   },
+   "chart": {
+    "ema8": -1.4,
+    "ema21": -5.1,
+    "sma50": -11.6,
+    "sma200": 21.2,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "CrowdStrike (CRWD) Stock Jumps to $217.20 on Zscaler Deal",
+     "publisher": "JournalArta",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQaU5KMmtiby1adG9wUzZ4NXBybENiWC1XbTRfNVl2X1pVUDhtTVRGNzdEdFRUZmRzTXpUZUo1Rk9XcXY4bmtCVkJhN0o5UjFyWFZqbjlWdFJDWC16WWJ1TFd1MmhJU1Rab1paa3dVTUszUFN3WDFCM2JzYkJoZFZTRUEydGdCVDd6SEREeXNlTlU1YnlHV1VUeGx2ZWlsQzhtMmw3WUZfbXIwWGJhOHFqTUdR?oc=5",
+     "time": "2026-11-27T18:29:59+00:00"
+    },
+    {
+     "title": "CrowdStrike Holdings, Inc. (CRWD) Stock Forecasts",
+     "publisher": "Yahoo! Finance Canada",
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNS09BenNJSzVUbURWQjZjSkVnRnBvMmJCOHlnSlBkVHRSaGVNdjJwcC1NR2FhOUtKdUxLRzdpWHhhc1phakNTczNlemV3ZDJKWjhORXhodjNmYWg2eGlCdW0tV3hmek5YYm9TcjhPUmdnWEgzYVo1cGhpVjJyMVhhOERNMkRDbFQxYUpneFd3?oc=5",
+     "time": "2026-11-27T17:28:01+00:00"
+    },
+    {
+     "title": "CrowdStrike: The $44B Zscaler Merger Unlocks An Agentic AI Powerhouse (NASDAQ:CRWD)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOaGZLRXNNZ3d5YldNUmVDejJwMnhYYUNvVEJwVkhXUG4xY0FJaWhiVEQybnZsdFdWeHpYbVJ3LVYtYkRoRFF5QzVwRUdER25RRGVwYV9sRE5uVTJ2c1p3RTF6Z0Z0bGJMOHNEZVY0dTlWd0RyNktTT1pmN0pWY2JQQ3kyV2RzdVpYSzVoU2s1dlVvSkw2MlVXX0pXNjhEenVSN2VEbGEyZGxQcFBT?oc=5",
+     "time": "2026-11-27T15:47:13+00:00"
+    },
+    {
+     "title": "CrowdStrike CEO Predicts \u201cMore Agents Than Humans on the Internet.\u201d That\u2019s His Case for a $43.9 Billion Zscaler Deal",
+     "publisher": "TIKR.com",
+     "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxOaFN4R2JVZWNCdXdxemlkYy1YTG5TbVF2VG1XUE5vb2NsUUpwQWkzS3RLS2ZDUzdsdGZzT1V0RkgwLU5Ec2Y3NzROd3JNd0xlY3A4RFo0M0I5eUhnQ2hrWVluQWFwcmJkQjRyRmthTXZfUVFaaU9iMElramYtM0hsWGJSMnZjSUM2Mm9LX01kOHpPSUVoRnJPZUVhcnhWN29RSVhVeDlVcE5PMTBnUnZ0dGVQeFdDRk9ZR3lidnEyeTFvMHJCbm1HZ3Jjc3hWelpRbzJjbm5HdHZ0aGRRYzFfblNYcjNjMG85Y3l5T3JSbjZHeWdnQXNyV19oemp5R3JYTC15Ym15bVhHdw?oc=5",
+     "time": "2026-11-27T13:22:06+00:00"
+    },
+    {
+     "title": "CrowdStrike (CRWD) Stock Price Prediction: Guggenheim upgrade meets a choppy pullback below key moving averages",
+     "publisher": "Blockchain News",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOWFEtdU5JTzVuWkdxZ2R4ZGNCYlRfeEg3WEtQdGVtcm9JRllhRFNPdXdyVXBmRUxkdEpXbWFKeDFMVmktSllfYVg4WWFORnpJUFVjTGtfcmoyM2M3WndCTzZWd2J5bExqdVk1Y0JHdnBTd1pUOHZKM2dTbEpuQkVDc1c1NnBOVDhhb0ZndzRyTDgxek1aa3NTdHJ0OHVOLTFDNFZWbQ?oc=5",
+     "time": "2026-11-27T08:22:00+00:00"
+    },
+    {
+     "title": "Was CrowdStrike\u2019s $43.9 Billion Bid for Zscaler the Right Move at the Wrong Time?",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNcEFjNjBXdXRkdWFwVE9nQzlFVElEV092dGRnVFBxY1V0SkhpNEVZNm81MVF2WktrcFlTUXlBS2pDeGxkMTI2bVlPd2x2dDNqU2N2UFpENUctZFYtV3pqWTR0Mnl2QUhlNTlVeTV6YUNkMEJIRzJNWFdNMkJqVHg1WTFNS205X2hLaDk3YzFRaV9UYW9fSHB0cmtXRXFJVWN1aW8taE9NYkZjckNfalZCbExHU1FYZnJrLWR2NjRFUQ?oc=5",
+     "time": "2026-11-26T17:00:00+00:00"
+    },
+    {
+     "title": "Top Guggenheim Analyst Upgrades CrowdStrike Stock (CRWD) to Buy After Zscaler Mega-Deal",
+     "publisher": "TipRanks",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQcmM4U01oUEd4LU9SX0NpRy1fQXB6MlFvZTZ0ZkJibjRleXNhNmJfVkRCa2NzRXAzUWNOcTNZYkpic1luU295ejFqZGFBNkhrWU9xSVZsTHQ3ZURGZ2tnMGZWbGhiMkdhMzU0bTFadFRTS0UtaW5WNHB6cUY1OGNRYU5SM2JkVlhoeUZEeGUzQUNVR3NZc181LUdIdWtBd2VBeTJRWUhkcVFfQ3FNMmJicEF1SVVmckZLdlllb01Nclk?oc=5",
+     "time": "2026-11-26T14:59:53+00:00"
+    },
+    {
+     "title": "How Will CrowdStrike (NASDAQ:CRWD) Reshape Cybersecurity After Its Record Zscaler Deal?",
+     "publisher": "Kalkine Media",
+     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQbXdCZzhkWWItbC1uOWZBN3ZHeG9HUS1XbzVtSlppd1RjemVoc1VPaFA2NU9mcGJ4TTR4d0NQY2tBT1dMb0FvMWJqMVJTY1dTckhWZWtNbGxtY1gwdnp2T0FBLWV1U2RKekJxa25mMzI1U1JLZjdfYlMzSVF5aDRsV2JmaEhWYlNfTFAtQ3paZUtpc09HV0wzTzJKeW80RUdXb2V4T2s5TzlTVk9LcFgwa0xaZjlpanB5QUhRN25EMnZkNXc?oc=5",
+     "time": "2026-11-26T13:22:00+00:00"
+    }
+   ],
+   "brief": "2026-11-27-CRWD"
+  },
+  {
+   "symbol": "META",
+   "name": "Meta",
+   "list": "portfolio",
+   "price": 628.13,
+   "prev_close": 609.89,
+   "change_pct": 3.0,
+   "trigger_change": 3.1,
+   "peak_change": 7.9,
+   "first_seen": "2026-11-27T15:21:17+00:00",
+   "sector": {
+    "etf": "XLC",
+    "name": "Communication",
+    "price": 107.22,
+    "change_pct": 1.74
+   },
+   "chart": {
+    "ema8": 3.2,
+    "ema21": 1.1,
+    "sma50": -6.4,
+    "sma200": 0.1,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Why is Meta Platforms stock rallying today?",
+     "publisher": "Investing.com",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOU3VkZ2VmcmhVOXlwblhTbEJ0QlVMcFpSSVF6MEc3WmNsZlh0S1Vac0hsWDZsVHQ5RlpISjdBUnF3Vzg5N2RnN1dDcWFNS3JrY0xjeHJQU1Rsd0MwRmYxYXhYNE4zcVVrOXk2TTlMNFlGYVVOZUdzSEtZMlMyMUpwZHo3ZXRLWnRWV1NOMnFLUTdkaGNCRzI5T21tUVFEcjdpNkN5NzdTYw?oc=5",
+     "time": "2026-11-27T16:51:04+00:00"
+    },
+    {
+     "title": "Meta shares jump 3.5% to $631.10 as stock outpaces S&P 500",
+     "publisher": "JournalArta",
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNSXh5RTY2SDhUMjc5RFAwc0wwbk1uLWgtNXlfOTJFVTR1RU5XN0gwZjQxaUhzaXVVTlAtcnl4M21Ib0JaWTlWZGFqSEhuNGtkRE9ScFpiVng5cEpLaDRwNlMwb2pmVXRSTkNOelhNMW1HX1poUFJreEVFRGN5M214QjB1VUFmQjRxVmFnaHEySXRJZDdzOHhuQU9B?oc=5",
+     "time": "2026-11-27T16:47:15+00:00"
+    },
+    {
+     "title": "Tech Stock Sell-Off: Down 23%, Is Meta a Buy Now?",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNdk1heV9Xa19KT3FnOEdOOHRYSjFBeGxNT1p4YXFKRTBRMDR0dEVpWjFFaExRLWZENll0dEttWk5ReFJtalZPNjRFaU5rTlBoa1FKWjZTbjRxVkFiT01yQWZoUmVwNnlGMUJUVDUwNnkwNkJfVjVvNVU2T2tHSVJCc1VrbkRwN3NfTmtnYm9iXzNfVkE?oc=5",
+     "time": "2026-11-27T16:43:01+00:00"
+    },
+    {
+     "title": "Meta Platforms Inc Stock (META) Moved Up by 3.52% on Nov 27: Facts Behind the Movement",
+     "publisher": "TradingKey",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPamIxN3Z6LVNiZzBvVzUxZFVGLURpb094al9sNm9TckQ2RjlUNjZVdVVuNVBhUE1Gc3Y4ZUpwLUFwWEx2MTRIS1pGaVJVMGdOMnc1TGdtTXVJQ2hfX1FVNTZiTjc4a01RMDI0dUFMSV9MSjRwX0UxczQxc1NfUHNnMEU5aFpUM19iX1NF?oc=5",
+     "time": "2026-11-27T16:15:31+00:00"
+    },
+    {
+     "title": "Meta Stock Climbs: What's Going On?",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNbjFJTkRlT3l6WjFMc3hyNWNISGpoemg3S0FROWtKRnU3ck5YY2hTSzRQdnVVTnpabVR4M3d4NEdoVXMtdmdJU0ZkYk45cVBKdjNfSkpXX3VFQjhiZ3dtNVFYOVBtS2xJWFk4OHNxaXNnUWx5Vnh6WVZCUkhnSUx1eWo2UVJjdlMzR2d1R1pmRVJvM0tCNnJ0ZA?oc=5",
+     "time": "2026-11-27T15:39:43+00:00"
+    },
+    {
+     "title": "Meta Stock Price Today",
+     "publisher": "JournalArta",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQd1RkbXhoLUFvQWw0VUZBR0VLZ2NGTU9MVlhrLWsybk5IRXdxNWlXSjNUc0ZMcjV0RnBURF9wWEY4ZkFIbVhJLWF2SDJTX0F1bG5yVzAtU2VCUG56XzVGQjF0dHBqb1FXOG81NF92RTgySHVWV201S1JKVG1YZ3U5SXQzRHE3b0tRRGlmRDNCeTFpM0tQMnA1QVhJdDBXLVBDNDFVZ2t6YzYzVjdBS0E?oc=5",
+     "time": "2026-11-27T14:55:49+00:00"
+    },
+    {
+     "title": "Meta Platforms (META) Stock: $609.89, Up 3.40% Nov 25",
+     "publisher": "JournalArta",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPYzFFQ2Y4MEM2WXVBNkpqRzNnTWtVOURvSHN3TUhZN2pHSVhBZi1icFN4Q092RlJYRmpFNjY3WUE5eVQ1bjI2aWJNbzMzZ3A0UHI1NEVReDNxbVg4dVNVSzU3YjdGY3VzU1hFTERsVGpoelowalI5Z21zektVS3hzck1zaTFKOGM0dzBjTmJad0lna2RtcmI3RlVMaHN1cGlRZlVoNFhnWHh4Nl9WMGpVNVJITkxoZUdjcHJv?oc=5",
+     "time": "2026-11-27T13:37:58+00:00"
+    },
+    {
+     "title": "Tech Sell-Off: 1 Unstoppable Stock-Split Stock to Buy Before It Joins Nvidia, Alphabet, Microsoft, and Apple in the $3 Trillion Club",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQZTcxSkFQTk9fTnVOMV9YMUstU3lhRTFqZDYzLVRKd1NVVVk4MzVFSXh4OXUtdV94cE5FVmU2UlBpX1dwT0s1YXcwTTJsZktiOGJPQzRDY0huc2lOWV85ZTFZMUpFV0tmZEo1M0hYeTNCaUlHSlYxUExqbHJFNDFvZENOc0pJUDVpejdvRkI5emFJSUQ3VlJYTmlDQjFTZ215RDZqTXh0QjZyY3NZcDV4N2x6bVFJR0ZqblY4dV9idms5Z0NmaDRrWlpfMlk1N1NhckFscEU2OHhfaGJ0bkE3M2l5SkY2cnZrZWtzbw?oc=5",
+     "time": "2026-11-27T12:17:02+00:00"
+    }
+   ],
+   "brief": "2026-11-27-META"
+  },
+  {
    "symbol": "AMAT",
    "name": "Applied Materials",
    "list": "portfolio",
@@ -708,8 +708,8 @@
    "sector": {
     "etf": "SMH",
     "name": "Semiconductors",
-    "price": 436.6,
-    "change_pct": 3.35
+    "price": 463.46,
+    "change_pct": 9.71
    },
    "chart": {
     "ema8": -3.5,
