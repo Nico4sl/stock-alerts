@@ -1,7 +1,174 @@
 {
  "date": "2026-11-27",
  "threshold": 3.0,
- "updated": "2026-11-27T14:51:09+00:00",
- "market": {},
- "movers": []
+ "updated": "2026-11-27T14:56:15+00:00",
+ "market": {
+  "SPY": {
+   "name": "S&P 500",
+   "price": 721.27,
+   "change_pct": 0.64
+  },
+  "QQQ": {
+   "name": "Nasdaq 100",
+   "price": 639.43,
+   "change_pct": 0.87
+  },
+  "TLT": {
+   "name": "Long Treasuries",
+   "price": 81.73,
+   "change_pct": -0.62
+  }
+ },
+ "movers": [
+  {
+   "symbol": "AXON",
+   "name": "Axon",
+   "list": "watchlist",
+   "price": 360.01,
+   "prev_close": 343.05,
+   "change_pct": 4.9,
+   "trigger_change": 4.9,
+   "peak_change": 4.9,
+   "first_seen": "2026-11-27T14:56:15+00:00",
+   "sector": {
+    "etf": "XLI",
+    "name": "Industrials",
+    "price": 164.36,
+    "change_pct": 0.87
+   },
+   "chart": {
+    "ema8": 9.9,
+    "ema21": 5.4,
+    "sma50": -7.2,
+    "sma200": -21.9,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "RDST Capital LLC Purchases 110,355 Shares of Axon Enterprise, Inc $AXON",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNMFZsbzBTeGxXbXJ4Vlc3VlE0S3duRjN2TUstalIyR1BmOHRiNUYxaGZXZHNGWUJHRjlxb2lJVVB5bmQyWV9YRkxyc3NKaWF1WW9qZ0x4QUpRWjdJMEt4d2lKVFhWV1J5dUROS0FrQUVjRzVsY3FXcHBIMTVPQl9SZklIRkt3VW93VVh4TEJLSWN6ejYtRjFuUHgycGtGd2ZBVlRWVlZia2ZseFRGR2pGWkN4cEpfX09zSEMyR19xeXJxS1haVnM4RA?oc=5",
+     "time": "2026-11-27T11:25:47+00:00"
+    },
+    {
+     "title": "Is Axon Stock Priced Right Against Its Peers?",
+     "publisher": "Trefis",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPN0pjZEMxMkk3YXJBek5DRTRQenJoSm4xSU1ybjR4OVJoZFN0VndZY1U3aFBVdlRoTFBEb3dJTV8wak81RUZOSm9GZXBSWGZ1ekU4VTJoLXo5X2kxa2ZMWm9DVlZEOEFZMnBfd3ZFQmtSUkZDbDlXQTg4TFp2SFppTG4zOEh2c09PQ1AxZ2IwM3YtemlQUnBDUGlPU2dFQXlJc29XSk1FM0w?oc=5",
+     "time": "2026-11-27T10:53:36+00:00"
+    },
+    {
+     "title": "Axon Enterprise, Inc $AXON Shares Acquired by Ardmore Road Asset Management LP",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPeGp0MDhQSEdVU1dRNW5sNkNaaWhpa01OVGJKS21PazFvVDJGeDFuTHU3RTVUQkNDM0dmRm5SclRnNnhzX1NaSlZRTXdTZl9OYURZMWUzZUcyMGJzLXphVDdiQThVNHNtVjBZalFZLUI3b2J6UGtaNzN3bHNmN0liOE9rMTlNTlJLS3RYSEE0Y3NVQkI3NkIzTVdFRmQ4NTZNM3hwT05WdF85U1pKX2x3VS04SndteXRSY2tMNzdmWDUyYTB2dkl1Ymtiby1uRlpEakxN?oc=5",
+     "time": "2026-11-27T08:21:13+00:00"
+    },
+    {
+     "title": "Ken Fisher and 5 Other Big Funds Sold Axon Enterprise Last Quarter, While 9 Bought. Who\u2019s Right?",
+     "publisher": "TIKR.com",
+     "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPcWNUc0JQXzg3RlV2X2JLWlAzbXl5bVRyVTJIOF9DR01sRmV0Z1ZIQjBPaXVLeTVwUWRRXzRSd2VDNXpxSnp6Rjh1VVhabmpMVjRBRmhLY3RlcGY2RWxIT0FIbHJMbm1iaWlGcmtxcGVZY25ySDFQTHctYW9fX09nTnFma3ZWei1Ta3pSZk5rZjl4UjJMd1UyTndrcTB2dm1kZ1RNeXpiUmhERGJIazZKd2RfUF81OFhGdkNwQk0ySjJoVTU5QXJGOG1zd0dRbjd1M0ZuczFYVHF2Sy1qVWloeE5va2UxQWFGTGVjX0RZcXFmS3I0WjRMeDBqRTVDdw?oc=5",
+     "time": "2026-11-26T20:07:17+00:00"
+    },
+    {
+     "title": "Axon Is Down 47% From Its High. TD Cowen Still Sees $650",
+     "publisher": "TIKR.com",
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPS29qQkFadm1WazRqZTFVSm95ZlRPQjJ1TktDeXFLMTVlV3J3c1pfc1FKYTBWWFlFdzBXUms2Sm9SVDJ2NHNKRDVqQ1RoT1lCT3NkQ1ZVSFlFOC1nMUFINGJ0eWRpUW9obDNEVjBycHVwWlMwZ2xYY2kzN3BnWkZHMW5OTjNFZw?oc=5",
+     "time": "2026-11-26T19:30:00+00:00"
+    },
+    {
+     "title": "2 Growth Stocks That Lagged the S&P 500 in 2026 and Could Lead in 2027",
+     "publisher": "The Globe and Mail",
+     "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQWEF3V2JqdmF2WE9Jb0NsbEFRdEVubmwyeTVhRXVBVVIzWXQ3dXI3bmI0UWJfOGlVQVZlQUpiTjBWcndURnB3Q0lwaEd6SlMxR3pJRmVnbTFQUm44VHlYTnhBcndPQzNiT0VEcXoxTV9JcXlhZEduTWwtY1ZaV2FUQ2NxV0hvd0kxWThHSkJ6dUNfUF94SUFXT3lPQXY0aFk4WFVFTjd0Qm9ZRWhCQXJNQ0ZWN3kxNDBFLUNCaFVzeUtTVW5SWUExWnJuMTl0ME1leWpiUzVYV3FRU2Z2ZF85dTZ6dHVQRk5HVXc?oc=5",
+     "time": "2026-11-26T18:48:08+00:00"
+    },
+    {
+     "title": "Axon Enterprise, Inc. (AXON) stock price, news, quote and history",
+     "publisher": "Yahoo Finance Singapore",
+     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBIRDlEVVllQ19EZHhZcl9QR0hFT0ItN05XRGp3RkZ0YUhmdGFjLTdQSTRpLWwzOFVZNFp3c3Joc0YyQlRWYlZ3aHhVeWZBTm9vT3c?oc=5",
+     "time": "2026-11-26T18:04:24+00:00"
+    },
+    {
+     "title": "Can Axon's Expanding Dedrone Platform Sustain Its Growth Momentum?",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPT196X2F2Uy1tTlF0M3FNaloyRWlHY3JpaEZMYk1VTFVTNWQ2UHlqU2NVUTIwanhrTGdhSzlmcEw1bU5qdGxFcWcta0dYVnF6RWo5Q2s1Tk1GY1VwNFhKRHU1dDZLclRhSFJZN2lUd3IxaTRKZ2w5SVhsRko4Mk5veHdmSzdLcHIzMTFZMlNoY3loV1lYREJQbTNvTV92WnhvdTcwdWlfTmo?oc=5",
+     "time": "2026-11-26T16:51:00+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
+   "symbol": "MELI",
+   "name": "MercadoLibre",
+   "list": "watchlist",
+   "price": 1522.25,
+   "prev_close": 1467.3,
+   "change_pct": 3.7,
+   "trigger_change": 3.7,
+   "peak_change": 3.7,
+   "first_seen": "2026-11-27T14:56:15+00:00",
+   "sector": {
+    "etf": "XLY",
+    "name": "Consumer discr.",
+    "price": 118.5,
+    "change_pct": 0.86
+   },
+   "chart": {
+    "ema8": 4.3,
+    "ema21": 0.1,
+    "sma50": -9.3,
+    "sma200": -13.3,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Why Is MercadoLibre (MELI) Stock Up in Premarket Trading Today? Market Rally",
+     "publisher": "GuruFocus",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOdWVILTdObUZCdmVDVFJiaWJmYXlmVnc2OUNzTFVvSDlRVHRmUjVKRFRFSERYeUZRSlpjV2VXWVpLQUVMSzkzN3RMOWZHSHJsOG9URjFEek01OHVNYnNwakZtWnl2bF9pR253cUN6bHJYQU5qYnRzcExqQVFUay1UZG1KWUxWajUxR2pqZGNJUkRYcWZWZzBQOEs4WS0wR21jUFRyMzcwZGdVM0dFQ0tmZEJR?oc=5",
+     "time": "2026-11-27T12:39:18+00:00"
+    },
+    {
+     "title": "MercadoLibre Shares Rise 3.68% in Low-Volume Resistance Test",
+     "publisher": "www.tokenpost.com",
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9FLUJXVzdjOS1VbDVaT29KMVp0bVNiRHl4MHRsWjdzaGZVYTZ2Tk5STjJvTHdtTjdrQ0RpaVVIWjVzZ1RuUzY2Ry1NLWhiZ0FpZ3N3dXFvaHctQQ?oc=5",
+     "time": "2026-11-27T10:12:09+00:00"
+    },
+    {
+     "title": "Uber Technologies (UBER) Stock Price Prediction: Range-bound setup holds as sellers lean on the tape",
+     "publisher": "Blockchain News",
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNbThNcnVSalBnVW1CZjIyb2ZOaWEzUFZOcUhEeFg2TnZpbkpwa3VBbENqcnNxUWRSUFFyaDlQSThHazNJMVRPNFh4SWNYQXBUR0lDUkZEWHVLNmVIalhaRlZieXhDekJCQ2piVmRlWVkzcVo2THFXb2tzMm82Z05tSmtmQ3lDcGNjMjhRTmFEYTdtbUdXWG10SUFn?oc=5",
+     "time": "2026-11-27T10:08:00+00:00"
+    },
+    {
+     "title": "MercadoLibre (MELI) Stock Price Prediction: Testing resistance after a low-volume bounce",
+     "publisher": "Blockchain News",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQOHFxZzh2d2JFTTNjYUx2QzJNZXZFQ3VMM1FaeEFleXoxZG56a1pSME1xZjY0M1p2NjRKM3ZtVVcySGstd19kTzU0OWVRUjhpWnJ5bUNNV0lLalhhbXJWMkxnTjBjR1FLRUlrb1Y2Z0ZxQThLQ185M0VJbjcyUE9LY2VWMFlxNDEwemNvSW5mU2tXVFVjN0dUV05RZXVSdw?oc=5",
+     "time": "2026-11-27T10:06:00+00:00"
+    },
+    {
+     "title": "MercadoLibre (MELI): Near-Term Margin Compression Masks Strong User and Credit Growth",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNd3NsQ3FKVXBjNEhkZkxMak9CdldPQlpxSk9iZm53RGdmV0pJeHdjSE5Dek9XVW16UV9JNXo5QlZzQlBuWXVLWTRTanJXSzE1c3B1SGNNdDk1ak5vMDFYeTcwNnlCYkl1X1FIOF9uc21KLVNyQW9PRVluUG92WDlVRDlNbjVDZFNrc2FQNEhIcDg5bUN4RC0zNzJXeDV3dnBv?oc=5",
+     "time": "2026-11-26T16:54:11+00:00"
+    },
+    {
+     "title": "MercadoLibre stock: Morgan Stanley cuts target but keeps Overweight",
+     "publisher": "ad-hoc-news.de",
+     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOSHNsbThKdVlNWVRJZXdCZXp0X21CV1pyNzYyd3l0dzBYcjN1Mzg3NFl6RzVKRUVfeUQ2c2xzMWI0NW5ZY2hOaFNiV21ISEMzb1pCcll2aTBtenJBdHhIbzhjeTdrQ3dBMGk3OUprNk93VldReTRGYjlna2ZqVDhrcFdhVE12aUpqU2dLdE9jZnZKeDlGQ2lweHVEY2RGX1NXdFpuemk1Nk5JaTJkc2d6ZFpQdE12RnR0M0VlUElKLWVWNU9ZMTdRQg?oc=5",
+     "time": "2026-11-26T12:24:25+00:00"
+    },
+    {
+     "title": "Mercadolibre Stock Price Forecast. Should You Buy MELI?",
+     "publisher": "StockInvest.us",
+     "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5mUHZLVW9LRUlKWVFybHZyZkw4d3UzeFlma0FnZC0yUzREQVlQdURxMjJhaXA3UHo1bGdFbm5jZU9YN0o0dWQxNw?oc=5",
+     "time": "2026-11-25T22:19:39+00:00"
+    },
+    {
+     "title": "MercadoLibre Inc (MELI) Stock Price, Trades & News",
+     "publisher": "GuruFocus",
+     "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9mUWxCaUs4UklxTXRkUXB3TU1xVDhVYzBBZVR3S2VqejV0azkyMGpMbmRKeWhpWmpnZGk1YVpRR3BmXzdKRkVVRDZ6UTE3TWY5RDRGMEVTOA?oc=5",
+     "time": "2026-11-25T21:21:22+00:00"
+    }
+   ],
+   "brief": null
+  }
+ ]
 }
