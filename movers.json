@@ -1,22 +1,22 @@
 {
  "date": "2026-11-27",
  "threshold": 3.0,
- "updated": "2026-11-27T15:01:13+00:00",
+ "updated": "2026-11-27T15:21:17+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 720.27,
-   "change_pct": 0.5
+   "price": 722.84,
+   "change_pct": 0.86
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 637.79,
-   "change_pct": 0.61
+   "price": 640.87,
+   "change_pct": 1.09
   },
   "TLT": {
    "name": "Long Treasuries",
-   "price": 81.72,
-   "change_pct": -0.63
+   "price": 81.46,
+   "change_pct": -0.95
   }
  },
  "movers": [
@@ -24,23 +24,23 @@
    "symbol": "AXON",
    "name": "Axon",
    "list": "watchlist",
-   "price": 358.18,
+   "price": 363.52,
    "prev_close": 343.05,
-   "change_pct": 4.4,
+   "change_pct": 6.0,
    "trigger_change": 4.9,
-   "peak_change": 4.9,
+   "peak_change": 6.0,
    "first_seen": "2026-11-27T14:56:15+00:00",
    "sector": {
     "etf": "XLI",
     "name": "Industrials",
-    "price": 164.46,
-    "change_pct": 0.92
+    "price": 164.77,
+    "change_pct": 1.12
    },
    "chart": {
-    "ema8": 9.5,
-    "ema21": 4.9,
-    "sma50": -7.7,
-    "sma200": -22.3,
+    "ema8": 10.7,
+    "ema21": 6.4,
+    "sma50": -6.3,
+    "sma200": -21.1,
     "momentum": false
    },
    "headlines": [
@@ -96,23 +96,98 @@
    "brief": null
   },
   {
+   "symbol": "APP",
+   "name": "AppLovin",
+   "list": "portfolio",
+   "price": 394.24,
+   "prev_close": 378.95,
+   "change_pct": 4.0,
+   "trigger_change": 3.0,
+   "peak_change": 4.0,
+   "first_seen": "2026-11-27T15:01:13+00:00",
+   "sector": {
+    "etf": "IGV",
+    "name": "Software",
+    "price": 96.33,
+    "change_pct": 1.38
+   },
+   "chart": {
+    "ema8": 3.3,
+    "ema21": 9.5,
+    "sma50": 25.7,
+    "sma200": -2.2,
+    "momentum": true
+   },
+   "headlines": [
+    {
+     "title": "AppLovin Shares Hold Above Key Averages in Nov. 27 Snapshot",
+     "publisher": "www.tokenpost.com",
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBSVFRYTmtDaWViWm0xWXBrbVI4Ym5MLWhqWmlYY1ZlX1l3YnZjR05BdzNCVV9Uek5ITmhzTGYxRkM2S3BFMmhpeTZtYU10NVZxbFdrUW94UTlJUQ?oc=5",
+     "time": "2026-11-27T08:17:16+00:00"
+    },
+    {
+     "title": "AppLovin (APP) Stock Price Prediction: Price holds above short-term averages as analysts lift targets after earnings beat",
+     "publisher": "Blockchain News",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOa1htRklTcXBxdGoxS2VfS3hNUlpQMVpPYTNwT3dldUVLdnhiMkZKN19QaUNEc2NVc2ZYTW5Xbktiek5vbmhyd0hHcURmZ0xpNDhHbEZSQlZCdUo5NmNKZzUyZUtFUXowTTA3RmptWVBPODN0SG1IVUlJY19DTUNnclBEZFdYRlFKNUMzeWhUa2FQdXBqamVVd0pnWmFYSEVS?oc=5",
+     "time": "2026-11-27T08:11:00+00:00"
+    },
+    {
+     "title": "What Do AppLovin (NASDAQ:APP) Latest Results Reveal About Growth?",
+     "publisher": "Kalkine Media",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOQThaSkVOWFluakRfcEJXYWZxb2Z4R0gwZVZHLTd4ZkNEcGx3aTdmQXBTa3ZlcVJrRzFHNTVpWmgzRVgxaHAxLVJvNGJKXzhDSlNEdHZseEZldXdJeXF5cFYzU1BESUJtSXk5d3VCMDRseHc5dUNOMlpuUE5jOXhvOVNacE5rVUNpUU5JR1JmaUVmakY0YkFGZFVENDhncnBOZmNrZVdR?oc=5",
+     "time": "2026-11-26T22:05:00+00:00"
+    },
+    {
+     "title": "What AppLovin Bears Saw Before The Fall",
+     "publisher": "Simply Wall St",
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNOTV0aXJLR0JKQldfRllLRlhJVE1Xa21IUFFUemtBMjZxQm83WXFGUFY2azZVRWxuSE5FOVJiZjlwekgxaVlicWhYOGl2TEVSTks2aVMtRndIWXhNdFd6NXlCa0pva2FIWXpfaEN0ak9rMEdlcjZkdmstclpIbTRkcWZIMzZTeVpRRUNvdkRfN1BsQnRqTTZOSElaQ1RkYmFoaWlUenBwME16UWtI0gGsAUFVX3lxTE05NXRpcktHQkpCV19GWUtGWElUTVdrbUhQUVR6a0EyNnFCbzdZcUZQVjZrNlVFbG5ITkU5UmJmOXB6SDFpWWJxaFg4aXZMRVJOSzZpUy1Gd0hZeE10V3o1eUJrSm9rYUhZel9oQ3RqT2swR2VyNmR2ay1yWkhtNGRxZkgzNlN5WlFFQ292RF83UGxCdGpNNk5ISVpDVGRiYWhpaVR6cHAwTXpRa0g?oc=5",
+     "time": "2026-11-26T10:09:16+00:00"
+    },
+    {
+     "title": "AppLovin (APP) Could Be 25% Undervalued As Criteo Deal Talks Stir Debate",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOOXRTeGh2OU5Qd1g2VlBXM1E2TTZQQV9kMlVSRDJRNE9vcDkzbkNUVkZGSFNsVHE4Zlp0dHJQZFhYc2UxaWNpYWlyNGVSMnVNeEZQZnRlUkdvZ2hvQmZnc1o3OXVIWnBNVk5MYTJxN0pVUGpRb2R4QjVqREptM1FRNFFKWVNfS3VjcFVrdXdoVHh4ekd2OXpISGJ1NkhnMUU?oc=5",
+     "time": "2026-11-25T22:10:42+00:00"
+    },
+    {
+     "title": "AppLovin (APP) Options Show Slight Bearish Sentiment Amid Stock Dip to $380.25",
+     "publisher": "GuruFocus",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMm01XzRCRm9IOVBSX3BWLTlhdDdMZFhja3FZRFZqRnR2SUZfcENIZjVGYjMxaFhuSG1EVTcxLWkzZnRETzFoWklNQTd4WGcybm9OLXp4TnFqZGt2cmhoWm9pSjAyVFJVQlFneWw5d2E2bDlPMmV6TExscGxRWF9HeHdWb0NtWWxncmhYTzVGTFNZbjQxR1lBME9nYjc1UlVwb0dUeUNsU2laVWlubVprLXJTdw?oc=5",
+     "time": "2026-11-25T19:33:12+00:00"
+    },
+    {
+     "title": "AppLovin Falls as AI-Sector Weakness and Deal Speculation Pressure Shares",
+     "publisher": "Quiver Quantitative",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOa1VDcE5ZSWtMSU1HalE4cHRGMl9HT1RFQlVuMFlJcHBRWkJLNUtBbmdGZ2ZKMXRGZTBwdG8ycEJkV1ZfMXJtQnJobU1lcnJRbnVfcl9vTjBhbGY0MjJ2d0VnN3djakdwT2RKSTlUaTk3aTJRcExBRUZiS2I3THFPdS1mYklmTTFqb3M1eWVJTk94dl81cVQ5THdvdWJPbHJWZlN6ZmZhd3RfQQ?oc=5",
+     "time": "2026-11-25T16:18:00+00:00"
+    },
+    {
+     "title": "Applovin Corporation (APP) Stock Forecasts",
+     "publisher": "Yahoo! Finance Canada",
+     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPODJuNjdzRnlTdUN0aVZVYjNCYVhKTEs0cTY0cnhhZjR4Rm96NWZKUUMwV1M4N0l6UjJNU1FrT1ZZT0QxTkVBQV91WHlHajlFTDlPaWc2TE8xNVRLXzlFNDZKbzQ1LUMxdW5nSXZKT2V4cWNRMldqazlJeEdkX3pnTU8wXzFHUHIwNGF1ekhXTXVLZw?oc=5",
+     "time": "2026-11-25T16:01:34+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
    "symbol": "MELI",
    "name": "MercadoLibre",
    "list": "watchlist",
-   "price": 1516.64,
+   "price": 1515.91,
    "prev_close": 1467.3,
-   "change_pct": 3.4,
+   "change_pct": 3.3,
    "trigger_change": 3.7,
    "peak_change": 3.7,
    "first_seen": "2026-11-27T14:56:15+00:00",
    "sector": {
     "etf": "XLY",
     "name": "Consumer discr.",
-    "price": 118.61,
-    "change_pct": 0.95
+    "price": 119.21,
+    "change_pct": 1.46
    },
    "chart": {
-    "ema8": 4.0,
+    "ema8": 3.9,
     "ema21": -0.2,
     "sma50": -9.7,
     "sma200": -13.6,
@@ -171,76 +246,151 @@
    "brief": null
   },
   {
-   "symbol": "APP",
-   "name": "AppLovin",
+   "symbol": "META",
+   "name": "Meta",
    "list": "portfolio",
-   "price": 390.49,
-   "prev_close": 378.95,
-   "change_pct": 3.0,
-   "trigger_change": 3.0,
-   "peak_change": 3.0,
-   "first_seen": "2026-11-27T15:01:13+00:00",
+   "price": 628.78,
+   "prev_close": 609.89,
+   "change_pct": 3.1,
+   "trigger_change": 3.1,
+   "peak_change": 3.1,
+   "first_seen": "2026-11-27T15:21:17+00:00",
    "sector": {
-    "etf": "IGV",
-    "name": "Software",
-    "price": 95.86,
-    "change_pct": 0.88
+    "etf": "XLC",
+    "name": "Communication",
+    "price": 107.06,
+    "change_pct": 1.59
    },
    "chart": {
-    "ema8": 2.6,
-    "ema21": 8.6,
-    "sma50": 24.6,
-    "sma200": -3.1,
-    "momentum": true
+    "ema8": 3.3,
+    "ema21": 1.2,
+    "sma50": -6.3,
+    "sma200": 0.2,
+    "momentum": false
    },
    "headlines": [
     {
-     "title": "AppLovin Shares Hold Above Key Averages in Nov. 27 Snapshot",
-     "publisher": "www.tokenpost.com",
-     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBSVFRYTmtDaWViWm0xWXBrbVI4Ym5MLWhqWmlYY1ZlX1l3YnZjR05BdzNCVV9Uek5ITmhzTGYxRkM2S3BFMmhpeTZtYU10NVZxbFdrUW94UTlJUQ?oc=5",
-     "time": "2026-11-27T08:17:16+00:00"
+     "title": "Meta Stock Price Today",
+     "publisher": "JournalArta",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQd1RkbXhoLUFvQWw0VUZBR0VLZ2NGTU9MVlhrLWsybk5IRXdxNWlXSjNUc0ZMcjV0RnBURF9wWEY4ZkFIbVhJLWF2SDJTX0F1bG5yVzAtU2VCUG56XzVGQjF0dHBqb1FXOG81NF92RTgySHVWV201S1JKVG1YZ3U5SXQzRHE3b0tRRGlmRDNCeTFpM0tQMnA1QVhJdDBXLVBDNDFVZ2t6YzYzVjdBS0E?oc=5",
+     "time": "2026-11-27T14:55:49+00:00"
     },
     {
-     "title": "AppLovin (APP) Stock Price Prediction: Price holds above short-term averages as analysts lift targets after earnings beat",
+     "title": "Meta Platforms (META) Stock: $609.89, Up 3.40% Nov 25",
+     "publisher": "JournalArta",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPYzFFQ2Y4MEM2WXVBNkpqRzNnTWtVOURvSHN3TUhZN2pHSVhBZi1icFN4Q092RlJYRmpFNjY3WUE5eVQ1bjI2aWJNbzMzZ3A0UHI1NEVReDNxbVg4dVNVSzU3YjdGY3VzU1hFTERsVGpoelowalI5Z21zektVS3hzck1zaTFKOGM0dzBjTmJad0lna2RtcmI3RlVMaHN1cGlRZlVoNFhnWHh4Nl9WMGpVNVJITkxoZUdjcHJv?oc=5",
+     "time": "2026-11-27T13:37:58+00:00"
+    },
+    {
+     "title": "Is Meta Stock a Buy as Amazon Reportedly Weighs Letting Its AI Shopping Agent Back In?",
+     "publisher": "The Motley Fool",
+     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQbkJxTzdfd0M4MGpJNnBncHhMQ3pRanF6VnJVTWhneUlkWEIzN2J1UmdmZFFhM0tHTThUZGE0Z2ZkRXFFTTBKUmk4RzY5b1BKSVVFcWdJNENOUDdTMlFzLXYxeWpjTUxtY1FlcmZVZi1OdkVFb01veWNEd2JMNWFJTW9pMGdtZ1lUNEJHbGV0TjhxSWk1NG1RNUdMSmZDSEZrclp0QXNjaHBGQ3BtMU5fZ3Fqd3c0SzlCdWFUcEdNNHZ5SHRsVEpn?oc=5",
+     "time": "2026-11-27T11:13:02+00:00"
+    },
+    {
+     "title": "Meta Platforms, Inc. $META Stock: Lionhunter Capital Management LLC Grows Holdings",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPRWx4Vnc2Z0hnQklhT3JvSTktTWQ3NktkdHlsdlBzZFk2Nlphd0U5MWI3SlB5WE1fRXhWdUlaZnV0WHduQlVkSmV4aWl3MFp0RnRNeHJXaGZUdDllWUo0eExqbDNBbk51UG1ZNVdRMkdXYWhVbDFHUWliYWZleFJ2ZlNqTUFEckNmR0NJV3czeDNIZDMzMTlEZV94S0thWHJGd2phNkRfWE9UYjhBYndaMlNQQll5eW5iN1MwN2YxQWNEYklNdmpVQkNQTlA5U05tX2xyVkV3?oc=5",
+     "time": "2026-11-27T11:01:43+00:00"
+    },
+    {
+     "title": "Meta Platforms, Inc. $META Stock: Dodge & Cox Increases Stake",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxORU9UdjJtOTZ0ZngxUk9EYnlHN3NFSGhpTS1TakRqdDNoWUo4bk9ENElYRGN3T3h1SEdvQ0QteWx2dTNtS1Z2bDk3amN3V1R0Snc2Umd1NkNtLXpYaEM3U2JKRjFYdTlkZGtCbGZ2WE83Z1ozbEprbExGazlBZl9KYVZ0WjVjRHlsdExSZk5yaDhQVFh2eU5kN19hcmlOU2lQSjVHaXpGek5ob21BYXFSb05peUlUREk?oc=5",
+     "time": "2026-11-27T09:51:40+00:00"
+    },
+    {
+     "title": "Meta Platforms, Inc. $META Stock Acquired by Empirical Finance LLC",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPOTRTVi10NnprbTE2YmNOX1FKdHhkMDBXdDRJY1ZaTUpQbUFRV0VkVTY3aFU3RjMtcTIydDVOemg2SGg2MUlYdnJPQWp4bk00Um1od19DaWJQSzlsWDI0amFXNGYtbS0tYUJ2Yi05VG9rQ1ZaV2Rob3c2ZE9BM2xLSnN4OVFzVExuNHBfWGZuNEd5UjFoRmpmRUxuWVh0NE5NV2dSMjBUdVMyMlV5WXBCc2J0RUJ3SVNsdU1Nb0FzcEFkQQ?oc=5",
+     "time": "2026-11-27T09:47:31+00:00"
+    },
+    {
+     "title": "Meta Platforms, Inc. $META Stock Acquired by Douglass Winthrop Advisors LLC",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPVktfeUNpbHB4YmNfb2ZJQndQNHI2ZEw0MHZ2TUpwVnlXUHNXaHk1d3RtR0N2UVNla3VmWXg2Y1ZSWmJjU0taUldHVWRnVUMtRHdwdTF2dFlsSmhlVUZQZzdGcGlSRVNocFo3STFZOHBHaVp5Z2RPbzNuTWNya1ZpQVVGaEhxN0dva0JuM29XeWZvSWpJbGVTVEF4aUo5NWN4SmJqS0RmRjVXYmJXZEEtelZXVnNFMkdDZmtmSy13RWwtVEdHLXBvd2ZrTnpOZw?oc=5",
+     "time": "2026-11-27T09:47:31+00:00"
+    },
+    {
+     "title": "Meta Platforms, Inc. $META Stock: Flputnam Investment Management Co. Grows Stake",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNMWowZU82Rno3Q3F4RGZBNzZtVDlZMzM4VmgwWnBrUHRLVFpaLXdQLVFabGdXSGxXczRBWkwxWlBBU0d1OTVyQkRIS1VKU05NUGhIcGh1QUtBdlpQOVMxRlYyVnZydVZrelJaWkk4UnNobG5JRVJfTUxCYTFtMjAySmdhNkpoSXJqemxXQVlSS0VGSVZMNTNua0lpMi1aZVc5dDdiUmkzTENaYlJaZ2NfQWhXXzlfRHVHcllQSEQ5d3c4Q1RRRnpIbFNKZkJyQlNhcVE?oc=5",
+     "time": "2026-11-27T09:39:30+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
+   "symbol": "ANET",
+   "name": "Arista Networks",
+   "list": "portfolio",
+   "price": 169.08,
+   "prev_close": 163.99,
+   "change_pct": 3.1,
+   "trigger_change": 3.1,
+   "peak_change": 3.1,
+   "first_seen": "2026-11-27T15:21:17+00:00",
+   "sector": {
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 427.99,
+    "change_pct": 1.31
+   },
+   "chart": {
+    "ema8": -3.3,
+    "ema21": -6.2,
+    "sma50": -11.0,
+    "sma200": -0.0,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Arista Networks (ANET) Stock: $163.99, Down 2.71% Nov 25",
+     "publisher": "JournalArta",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQVHpnOU9vWkNQNk5wMWtTNm5LcHB1UFN1SkhhTWpheGE2cWpuS3FVblFQeExaVUhXLVpud2FBZ3pfTjNwb3p2SzJLdm5henh1SmRUN0hvanV5eWJGbm9VQ0VIT1dCZ0FzQ1RxdWlra0xhVkxxRlBTMmlXaUtvQW5zUTRLRWhMSFJZQkI4THBCUlRlNTNHUmlDbm93OHlIbWJzN2NhS3daQWw?oc=5",
+     "time": "2026-11-27T11:49:35+00:00"
+    },
+    {
+     "title": "Arista Networks (ANET) Stock Price Prediction: Rally meets resistance as Arista tests a weaker trend structure",
      "publisher": "Blockchain News",
-     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOa1htRklTcXBxdGoxS2VfS3hNUlpQMVpPYTNwT3dldUVLdnhiMkZKN19QaUNEc2NVc2ZYTW5Xbktiek5vbmhyd0hHcURmZ0xpNDhHbEZSQlZCdUo5NmNKZzUyZUtFUXowTTA3RmptWVBPODN0SG1IVUlJY19DTUNnclBEZFdYRlFKNUMzeWhUa2FQdXBqamVVd0pnWmFYSEVS?oc=5",
-     "time": "2026-11-27T08:11:00+00:00"
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPUm1MZS1DN2o5YnJmMGFSVGJlMjNZLWZiZTRuRzVORFJPek9fRlh1cjZ0bldHSEJvSVNaWjduQm83RDE1cHJ0S1diN1dCcUJHUjZtMkxTaWl0VnQ1QTV4VUVzT0pUT0hfSWp2a1A4NE5hSndMY1VUeHBOWjNGbWQzMEJmLVl6WUFLaHJ3cFMtLWJ4RDFxbnIxeFBPdFNsM0k?oc=5",
+     "time": "2026-11-27T09:31:00+00:00"
     },
     {
-     "title": "What Do AppLovin (NASDAQ:APP) Latest Results Reveal About Growth?",
-     "publisher": "Kalkine Media",
-     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOQThaSkVOWFluakRfcEJXYWZxb2Z4R0gwZVZHLTd4ZkNEcGx3aTdmQXBTa3ZlcVJrRzFHNTVpWmgzRVgxaHAxLVJvNGJKXzhDSlNEdHZseEZldXdJeXF5cFYzU1BESUJtSXk5d3VCMDRseHc5dUNOMlpuUE5jOXhvOVNacE5rVUNpUU5JR1JmaUVmakY0YkFGZFVENDhncnBOZmNrZVdR?oc=5",
-     "time": "2026-11-26T22:05:00+00:00"
+     "title": "Arista Networks Stock: Assets, Liabilities and Net Debt Reviewed",
+     "publisher": "Kalkine India",
+     "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPYjlNcU5rZ0ROU0NBcHVwbHdKM3lPTWV2RVlvX0tLV1dDdU96N3NzSGthb3BjX1FkTkhkbkc2MGJsb2RHeVRXa3lCYXo0SlQxMlo0N0JhNXB0UHRCbURFU2h2MEpiM1BGdEZrMEpMdjhKVEtOWVZWVUFjTUNpR2YtRXZkZlBXVDJKQ1FDb1ZDUER2T2MzQWhYMzYwRlM3eW00Z2JQYUVZdjA4Z1gzUnllTTMyMktJYTFTQ3BBM29YdVNuUkV1TDhWQ3gxU1d2QjRFTHU0bVk0NXVsd0VM?oc=5",
+     "time": "2026-11-27T09:00:00+00:00"
     },
     {
-     "title": "What AppLovin Bears Saw Before The Fall",
-     "publisher": "Simply Wall St",
-     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNOTV0aXJLR0JKQldfRllLRlhJVE1Xa21IUFFUemtBMjZxQm83WXFGUFY2azZVRWxuSE5FOVJiZjlwekgxaVlicWhYOGl2TEVSTks2aVMtRndIWXhNdFd6NXlCa0pva2FIWXpfaEN0ak9rMEdlcjZkdmstclpIbTRkcWZIMzZTeVpRRUNvdkRfN1BsQnRqTTZOSElaQ1RkYmFoaWlUenBwME16UWtI0gGsAUFVX3lxTE05NXRpcktHQkpCV19GWUtGWElUTVdrbUhQUVR6a0EyNnFCbzdZcUZQVjZrNlVFbG5ITkU5UmJmOXB6SDFpWWJxaFg4aXZMRVJOSzZpUy1Gd0hZeE10V3o1eUJrSm9rYUhZel9oQ3RqT2swR2VyNmR2ay1yWkhtNGRxZkgzNlN5WlFFQ292RF83UGxCdGpNNk5ISVpDVGRiYWhpaVR6cHAwTXpRa0g?oc=5",
-     "time": "2026-11-26T10:09:16+00:00"
-    },
-    {
-     "title": "AppLovin (APP) Could Be 25% Undervalued As Criteo Deal Talks Stir Debate",
+     "title": "Arista Networks (ANET) Could Be 4% Undervalued On Etherlink R4 And AI Growth",
      "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOOXRTeGh2OU5Qd1g2VlBXM1E2TTZQQV9kMlVSRDJRNE9vcDkzbkNUVkZGSFNsVHE4Zlp0dHJQZFhYc2UxaWNpYWlyNGVSMnVNeEZQZnRlUkdvZ2hvQmZnc1o3OXVIWnBNVk5MYTJxN0pVUGpRb2R4QjVqREptM1FRNFFKWVNfS3VjcFVrdXdoVHh4ekd2OXpISGJ1NkhnMUU?oc=5",
-     "time": "2026-11-25T22:10:42+00:00"
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPRl81ZWVsZlpzaEJ1bUVNVlF6cWpkZmFVOWdxQ0Y3WTFFcG9USGpqNWd1Y0ZfZkhPT1EwUG5kaGxRNXRSdWk0Q1l6aGtSUGlEQVZoWWxOMmRFTHNNMTVKbzFlY2x5ck1VNFcwdll6WXg0ZFJwQVhkeEVvaTEwbHJlVG91bUd3WkhSVTFEZzZmVE1MU0hsTW9nQw?oc=5",
+     "time": "2026-11-26T21:10:55+00:00"
     },
     {
-     "title": "AppLovin (APP) Options Show Slight Bearish Sentiment Amid Stock Dip to $380.25",
-     "publisher": "GuruFocus",
-     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMm01XzRCRm9IOVBSX3BWLTlhdDdMZFhja3FZRFZqRnR2SUZfcENIZjVGYjMxaFhuSG1EVTcxLWkzZnRETzFoWklNQTd4WGcybm9OLXp4TnFqZGt2cmhoWm9pSjAyVFJVQlFneWw5d2E2bDlPMmV6TExscGxRWF9HeHdWb0NtWWxncmhYTzVGTFNZbjQxR1lBME9nYjc1UlVwb0dUeUNsU2laVWlubVprLXJTdw?oc=5",
-     "time": "2026-11-25T19:33:12+00:00"
+     "title": "Arista Networks Stocks Fall 2.71% as AI Networking Gets Caught in Chip Rout",
+     "publisher": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNV0YtNUdxS2hUM2c2SW43TVI2NFJNZm83VGItNVd1TmFtTjZlc2xzYXN6Mmk3Z0p2TVk1S0NlT0FJNHJHdklCc05wNGJDcEc5U1lGUlNjUTdubF9OWVJvMWhpNEdkcWw3YUhUUTNYMDYtY2xIWVBCdWtJQTIxMk9FLTdwQVowdmVtMTBaaS1MTGZRMDRYcmJyUk1HZUhOQVNfa2ZMMUFzQTF4bUhlUmp2UFdLNG1zN2RZZkgxUEtRZjVrX0UyUTNxNWs5NmxnSnc?oc=5",
+     "time": "2026-11-26T18:38:06+00:00"
     },
     {
-     "title": "AppLovin Falls as AI-Sector Weakness and Deal Speculation Pressure Shares",
-     "publisher": "Quiver Quantitative",
-     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOa1VDcE5ZSWtMSU1HalE4cHRGMl9HT1RFQlVuMFlJcHBRWkJLNUtBbmdGZ2ZKMXRGZTBwdG8ycEJkV1ZfMXJtQnJobU1lcnJRbnVfcl9vTjBhbGY0MjJ2d0VnN3djakdwT2RKSTlUaTk3aTJRcExBRUZiS2I3THFPdS1mYklmTTFqb3M1eWVJTk94dl81cVQ5THdvdWJPbHJWZlN6ZmZhd3RfQQ?oc=5",
-     "time": "2026-11-25T16:18:00+00:00"
+     "title": "$100 Invested In Arista Networks 5 Years Ago Would Be Worth This Much Today",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOY09lakhITXhCN3pIZEUyOWF5VkNFNDA4OVBBZXZaeHViSFRfaHVnMVhINGYyRGtGbGxtY3lKN1l5QUlyZk8tNFByajAyUXo4a05FS3BJaHpER0hnb2F3YU55WmgxUTNXRVg1aUdWOUpYOEt2aVloVFE1NURjSm9lQUVTM2FUWmhoeVVBQnJOVjIwLWhLX0REbkVFOVpaY0pRNE5pbVo0UVlHeXFjcHFJdg?oc=5",
+     "time": "2026-11-26T14:45:12+00:00"
     },
     {
-     "title": "Applovin Corporation (APP) Stock Forecasts",
-     "publisher": "Yahoo! Finance Canada",
-     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPODJuNjdzRnlTdUN0aVZVYjNCYVhKTEs0cTY0cnhhZjR4Rm96NWZKUUMwV1M4N0l6UjJNU1FrT1ZZT0QxTkVBQV91WHlHajlFTDlPaWc2TE8xNVRLXzlFNDZKbzQ1LUMxdW5nSXZKT2V4cWNRMldqazlJeEdkX3pnTU8wXzFHUHIwNGF1ekhXTXVLZw?oc=5",
-     "time": "2026-11-25T16:01:34+00:00"
+     "title": "How Did Arista Networks (NYSE:ANET) Turn AI Demand Into Record Sales?",
+     "publisher": "Kalkine Media",
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQQ004cEhScGVVTl82YTVsN29jRkRjSk94MzdfeWJTZmV3aVNkQnpsNFpsQUNMNGJ2UmkzYVpNNE40S1FXblg3cXpSZHhRNHc4S3pmSE5zNklIdV8yNEpsZExheGIxWXVuUGlNckgyUHJiVnhyN3hkcXJYOFJvRlpHNGZJVy1MbmlGM0QwU2htT1ludjZ3TGlYeVp5UDhMeUNwMWtLSmxXNmJIU3U5RUpsVzBvRy1RcXpMNm85TGdWY3c1QQ?oc=5",
+     "time": "2026-11-26T11:46:00+00:00"
+    },
+    {
+     "title": "Arista Networks, Inc. $ANET Shares Purchased by Flputnam Investment Management Co.",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxObGNGVTB3VzhjWjFnUmRlcXBQNU1hVnJmREtjQlZGdG43X2RLMmo4eEYtR3dsSEE4azFZdjMyZi1GVUN6bnlLSndaRTJIV3ZGVlJIZFlLWHd2Yzc4b1ExSXpiNS1ZRWt3b0dkSTdIYURERmdRdUdCNlI2VW4xTmk3ajVGREpKQzBkYkEwWHhCTlFSUTV4RVczbTZQTV9ldmhWeWdpMnFncmVsdUdzUGQzSlN0TkF4UlNLblE4dGgwRFpoM3hsUnZYbDgtbGNTelZGQ2pmMWZn?oc=5",
+     "time": "2026-11-26T09:39:45+00:00"
     }
    ],
    "brief": null
