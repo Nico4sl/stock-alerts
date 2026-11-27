@@ -1,22 +1,22 @@
 {
  "date": "2026-11-27",
  "threshold": 3.0,
- "updated": "2026-11-27T15:26:17+00:00",
+ "updated": "2026-11-27T15:41:25+00:00",
  "market": {
   "SPY": {
    "name": "S&P 500",
-   "price": 722.99,
-   "change_pct": 0.88
+   "price": 724.89,
+   "change_pct": 1.14
   },
   "QQQ": {
    "name": "Nasdaq 100",
-   "price": 641.3,
-   "change_pct": 1.16
+   "price": 644.34,
+   "change_pct": 1.64
   },
   "TLT": {
    "name": "Long Treasuries",
    "price": 81.53,
-   "change_pct": -0.87
+   "change_pct": -0.86
   }
  },
  "movers": [
@@ -24,23 +24,23 @@
    "symbol": "AXON",
    "name": "Axon",
    "list": "watchlist",
-   "price": 364.37,
+   "price": 365.82,
    "prev_close": 343.05,
-   "change_pct": 6.2,
+   "change_pct": 6.6,
    "trigger_change": 4.9,
-   "peak_change": 6.2,
+   "peak_change": 6.6,
    "first_seen": "2026-11-27T14:56:15+00:00",
    "sector": {
     "etf": "XLI",
     "name": "Industrials",
-    "price": 164.65,
-    "change_pct": 1.04
+    "price": 164.93,
+    "change_pct": 1.22
    },
    "chart": {
-    "ema8": 10.9,
-    "ema21": 6.6,
-    "sma50": -6.1,
-    "sma200": -20.9,
+    "ema8": 11.3,
+    "ema21": 7.0,
+    "sma50": -5.7,
+    "sma200": -20.6,
     "momentum": false
    },
    "headlines": [
@@ -96,26 +96,101 @@
    "brief": null
   },
   {
+   "symbol": "ANET",
+   "name": "Arista Networks",
+   "list": "portfolio",
+   "price": 171.85,
+   "prev_close": 163.99,
+   "change_pct": 4.8,
+   "trigger_change": 3.1,
+   "peak_change": 4.8,
+   "first_seen": "2026-11-27T15:21:17+00:00",
+   "sector": {
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 430.59,
+    "change_pct": 1.92
+   },
+   "chart": {
+    "ema8": -2.0,
+    "ema21": -4.8,
+    "sma50": -9.6,
+    "sma200": 1.6,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Arista Networks (ANET) Stock: $163.99, Down 2.71% Nov 25",
+     "publisher": "JournalArta",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQVHpnOU9vWkNQNk5wMWtTNm5LcHB1UFN1SkhhTWpheGE2cWpuS3FVblFQeExaVUhXLVpud2FBZ3pfTjNwb3p2SzJLdm5henh1SmRUN0hvanV5eWJGbm9VQ0VIT1dCZ0FzQ1RxdWlra0xhVkxxRlBTMmlXaUtvQW5zUTRLRWhMSFJZQkI4THBCUlRlNTNHUmlDbm93OHlIbWJzN2NhS3daQWw?oc=5",
+     "time": "2026-11-27T11:49:35+00:00"
+    },
+    {
+     "title": "Arista Networks (ANET) Stock Price Prediction: Rally meets resistance as Arista tests a weaker trend structure",
+     "publisher": "Blockchain News",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPUm1MZS1DN2o5YnJmMGFSVGJlMjNZLWZiZTRuRzVORFJPek9fRlh1cjZ0bldHSEJvSVNaWjduQm83RDE1cHJ0S1diN1dCcUJHUjZtMkxTaWl0VnQ1QTV4VUVzT0pUT0hfSWp2a1A4NE5hSndMY1VUeHBOWjNGbWQzMEJmLVl6WUFLaHJ3cFMtLWJ4RDFxbnIxeFBPdFNsM0k?oc=5",
+     "time": "2026-11-27T09:31:00+00:00"
+    },
+    {
+     "title": "Arista Networks Stock: Assets, Liabilities and Net Debt Reviewed",
+     "publisher": "Kalkine India",
+     "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPYjlNcU5rZ0ROU0NBcHVwbHdKM3lPTWV2RVlvX0tLV1dDdU96N3NzSGthb3BjX1FkTkhkbkc2MGJsb2RHeVRXa3lCYXo0SlQxMlo0N0JhNXB0UHRCbURFU2h2MEpiM1BGdEZrMEpMdjhKVEtOWVZWVUFjTUNpR2YtRXZkZlBXVDJKQ1FDb1ZDUER2T2MzQWhYMzYwRlM3eW00Z2JQYUVZdjA4Z1gzUnllTTMyMktJYTFTQ3BBM29YdVNuUkV1TDhWQ3gxU1d2QjRFTHU0bVk0NXVsd0VM?oc=5",
+     "time": "2026-11-27T09:00:00+00:00"
+    },
+    {
+     "title": "Arista Networks (ANET) Could Be 4% Undervalued On Etherlink R4 And AI Growth",
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPRl81ZWVsZlpzaEJ1bUVNVlF6cWpkZmFVOWdxQ0Y3WTFFcG9USGpqNWd1Y0ZfZkhPT1EwUG5kaGxRNXRSdWk0Q1l6aGtSUGlEQVZoWWxOMmRFTHNNMTVKbzFlY2x5ck1VNFcwdll6WXg0ZFJwQVhkeEVvaTEwbHJlVG91bUd3WkhSVTFEZzZmVE1MU0hsTW9nQw?oc=5",
+     "time": "2026-11-26T21:10:55+00:00"
+    },
+    {
+     "title": "Arista Networks Stocks Fall 2.71% as AI Networking Gets Caught in Chip Rout",
+     "publisher": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNV0YtNUdxS2hUM2c2SW43TVI2NFJNZm83VGItNVd1TmFtTjZlc2xzYXN6Mmk3Z0p2TVk1S0NlT0FJNHJHdklCc05wNGJDcEc5U1lGUlNjUTdubF9OWVJvMWhpNEdkcWw3YUhUUTNYMDYtY2xIWVBCdWtJQTIxMk9FLTdwQVowdmVtMTBaaS1MTGZRMDRYcmJyUk1HZUhOQVNfa2ZMMUFzQTF4bUhlUmp2UFdLNG1zN2RZZkgxUEtRZjVrX0UyUTNxNWs5NmxnSnc?oc=5",
+     "time": "2026-11-26T18:38:06+00:00"
+    },
+    {
+     "title": "$100 Invested In Arista Networks 5 Years Ago Would Be Worth This Much Today",
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOY09lakhITXhCN3pIZEUyOWF5VkNFNDA4OVBBZXZaeHViSFRfaHVnMVhINGYyRGtGbGxtY3lKN1l5QUlyZk8tNFByajAyUXo4a05FS3BJaHpER0hnb2F3YU55WmgxUTNXRVg1aUdWOUpYOEt2aVloVFE1NURjSm9lQUVTM2FUWmhoeVVBQnJOVjIwLWhLX0REbkVFOVpaY0pRNE5pbVo0UVlHeXFjcHFJdg?oc=5",
+     "time": "2026-11-26T14:45:12+00:00"
+    },
+    {
+     "title": "How Did Arista Networks (NYSE:ANET) Turn AI Demand Into Record Sales?",
+     "publisher": "Kalkine Media",
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQQ004cEhScGVVTl82YTVsN29jRkRjSk94MzdfeWJTZmV3aVNkQnpsNFpsQUNMNGJ2UmkzYVpNNE40S1FXblg3cXpSZHhRNHc4S3pmSE5zNklIdV8yNEpsZExheGIxWXVuUGlNckgyUHJiVnhyN3hkcXJYOFJvRlpHNGZJVy1MbmlGM0QwU2htT1ludjZ3TGlYeVp5UDhMeUNwMWtLSmxXNmJIU3U5RUpsVzBvRy1RcXpMNm85TGdWY3c1QQ?oc=5",
+     "time": "2026-11-26T11:46:00+00:00"
+    },
+    {
+     "title": "Arista Networks, Inc. $ANET Shares Purchased by Flputnam Investment Management Co.",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxObGNGVTB3VzhjWjFnUmRlcXBQNU1hVnJmREtjQlZGdG43X2RLMmo4eEYtR3dsSEE4azFZdjMyZi1GVUN6bnlLSndaRTJIV3ZGVlJIZFlLWHd2Yzc4b1ExSXpiNS1ZRWt3b0dkSTdIYURERmdRdUdCNlI2VW4xTmk3ajVGREpKQzBkYkEwWHhCTlFSUTV4RVczbTZQTV9ldmhWeWdpMnFncmVsdUdzUGQzSlN0TkF4UlNLblE4dGgwRFpoM3hsUnZYbDgtbGNTelZGQ2pmMWZn?oc=5",
+     "time": "2026-11-26T09:39:45+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
    "symbol": "APP",
    "name": "AppLovin",
    "list": "portfolio",
-   "price": 394.86,
+   "price": 396.59,
    "prev_close": 378.95,
-   "change_pct": 4.2,
+   "change_pct": 4.7,
    "trigger_change": 3.0,
-   "peak_change": 4.2,
+   "peak_change": 4.7,
    "first_seen": "2026-11-27T15:01:13+00:00",
    "sector": {
     "etf": "IGV",
     "name": "Software",
-    "price": 96.4,
-    "change_pct": 1.45
+    "price": 96.67,
+    "change_pct": 1.74
    },
    "chart": {
-    "ema8": 3.5,
-    "ema21": 9.7,
-    "sma50": 25.9,
-    "sma200": -2.1,
+    "ema8": 3.8,
+    "ema21": 10.1,
+    "sma50": 26.5,
+    "sma200": -1.6,
     "momentum": true
    },
    "headlines": [
@@ -174,23 +249,23 @@
    "symbol": "MELI",
    "name": "MercadoLibre",
    "list": "watchlist",
-   "price": 1519.25,
+   "price": 1528.84,
    "prev_close": 1467.3,
-   "change_pct": 3.5,
+   "change_pct": 4.2,
    "trigger_change": 3.7,
-   "peak_change": 3.7,
+   "peak_change": 4.2,
    "first_seen": "2026-11-27T14:56:15+00:00",
    "sector": {
     "etf": "XLY",
     "name": "Consumer discr.",
-    "price": 119.23,
-    "change_pct": 1.48
+    "price": 119.75,
+    "change_pct": 1.92
    },
    "chart": {
-    "ema8": 4.1,
-    "ema21": -0.0,
-    "sma50": -9.5,
-    "sma200": -13.5,
+    "ema8": 4.6,
+    "ema21": 0.5,
+    "sma50": -9.0,
+    "sma200": -12.9,
     "momentum": false
    },
    "headlines": [
@@ -246,101 +321,26 @@
    "brief": null
   },
   {
-   "symbol": "ANET",
-   "name": "Arista Networks",
-   "list": "portfolio",
-   "price": 169.81,
-   "prev_close": 163.99,
-   "change_pct": 3.5,
-   "trigger_change": 3.1,
-   "peak_change": 3.5,
-   "first_seen": "2026-11-27T15:21:17+00:00",
-   "sector": {
-    "etf": "SMH",
-    "name": "Semiconductors",
-    "price": 428.5,
-    "change_pct": 1.43
-   },
-   "chart": {
-    "ema8": -3.0,
-    "ema21": -5.9,
-    "sma50": -10.7,
-    "sma200": 0.4,
-    "momentum": false
-   },
-   "headlines": [
-    {
-     "title": "Arista Networks (ANET) Stock: $163.99, Down 2.71% Nov 25",
-     "publisher": "JournalArta",
-     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQVHpnOU9vWkNQNk5wMWtTNm5LcHB1UFN1SkhhTWpheGE2cWpuS3FVblFQeExaVUhXLVpud2FBZ3pfTjNwb3p2SzJLdm5henh1SmRUN0hvanV5eWJGbm9VQ0VIT1dCZ0FzQ1RxdWlra0xhVkxxRlBTMmlXaUtvQW5zUTRLRWhMSFJZQkI4THBCUlRlNTNHUmlDbm93OHlIbWJzN2NhS3daQWw?oc=5",
-     "time": "2026-11-27T11:49:35+00:00"
-    },
-    {
-     "title": "Arista Networks (ANET) Stock Price Prediction: Rally meets resistance as Arista tests a weaker trend structure",
-     "publisher": "Blockchain News",
-     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPUm1MZS1DN2o5YnJmMGFSVGJlMjNZLWZiZTRuRzVORFJPek9fRlh1cjZ0bldHSEJvSVNaWjduQm83RDE1cHJ0S1diN1dCcUJHUjZtMkxTaWl0VnQ1QTV4VUVzT0pUT0hfSWp2a1A4NE5hSndMY1VUeHBOWjNGbWQzMEJmLVl6WUFLaHJ3cFMtLWJ4RDFxbnIxeFBPdFNsM0k?oc=5",
-     "time": "2026-11-27T09:31:00+00:00"
-    },
-    {
-     "title": "Arista Networks Stock: Assets, Liabilities and Net Debt Reviewed",
-     "publisher": "Kalkine India",
-     "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPYjlNcU5rZ0ROU0NBcHVwbHdKM3lPTWV2RVlvX0tLV1dDdU96N3NzSGthb3BjX1FkTkhkbkc2MGJsb2RHeVRXa3lCYXo0SlQxMlo0N0JhNXB0UHRCbURFU2h2MEpiM1BGdEZrMEpMdjhKVEtOWVZWVUFjTUNpR2YtRXZkZlBXVDJKQ1FDb1ZDUER2T2MzQWhYMzYwRlM3eW00Z2JQYUVZdjA4Z1gzUnllTTMyMktJYTFTQ3BBM29YdVNuUkV1TDhWQ3gxU1d2QjRFTHU0bVk0NXVsd0VM?oc=5",
-     "time": "2026-11-27T09:00:00+00:00"
-    },
-    {
-     "title": "Arista Networks (ANET) Could Be 4% Undervalued On Etherlink R4 And AI Growth",
-     "publisher": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPRl81ZWVsZlpzaEJ1bUVNVlF6cWpkZmFVOWdxQ0Y3WTFFcG9USGpqNWd1Y0ZfZkhPT1EwUG5kaGxRNXRSdWk0Q1l6aGtSUGlEQVZoWWxOMmRFTHNNMTVKbzFlY2x5ck1VNFcwdll6WXg0ZFJwQVhkeEVvaTEwbHJlVG91bUd3WkhSVTFEZzZmVE1MU0hsTW9nQw?oc=5",
-     "time": "2026-11-26T21:10:55+00:00"
-    },
-    {
-     "title": "Arista Networks Stocks Fall 2.71% as AI Networking Gets Caught in Chip Rout",
-     "publisher": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNV0YtNUdxS2hUM2c2SW43TVI2NFJNZm83VGItNVd1TmFtTjZlc2xzYXN6Mmk3Z0p2TVk1S0NlT0FJNHJHdklCc05wNGJDcEc5U1lGUlNjUTdubF9OWVJvMWhpNEdkcWw3YUhUUTNYMDYtY2xIWVBCdWtJQTIxMk9FLTdwQVowdmVtMTBaaS1MTGZRMDRYcmJyUk1HZUhOQVNfa2ZMMUFzQTF4bUhlUmp2UFdLNG1zN2RZZkgxUEtRZjVrX0UyUTNxNWs5NmxnSnc?oc=5",
-     "time": "2026-11-26T18:38:06+00:00"
-    },
-    {
-     "title": "$100 Invested In Arista Networks 5 Years Ago Would Be Worth This Much Today",
-     "publisher": "Benzinga",
-     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOY09lakhITXhCN3pIZEUyOWF5VkNFNDA4OVBBZXZaeHViSFRfaHVnMVhINGYyRGtGbGxtY3lKN1l5QUlyZk8tNFByajAyUXo4a05FS3BJaHpER0hnb2F3YU55WmgxUTNXRVg1aUdWOUpYOEt2aVloVFE1NURjSm9lQUVTM2FUWmhoeVVBQnJOVjIwLWhLX0REbkVFOVpaY0pRNE5pbVo0UVlHeXFjcHFJdg?oc=5",
-     "time": "2026-11-26T14:45:12+00:00"
-    },
-    {
-     "title": "How Did Arista Networks (NYSE:ANET) Turn AI Demand Into Record Sales?",
-     "publisher": "Kalkine Media",
-     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQQ004cEhScGVVTl82YTVsN29jRkRjSk94MzdfeWJTZmV3aVNkQnpsNFpsQUNMNGJ2UmkzYVpNNE40S1FXblg3cXpSZHhRNHc4S3pmSE5zNklIdV8yNEpsZExheGIxWXVuUGlNckgyUHJiVnhyN3hkcXJYOFJvRlpHNGZJVy1MbmlGM0QwU2htT1ludjZ3TGlYeVp5UDhMeUNwMWtLSmxXNmJIU3U5RUpsVzBvRy1RcXpMNm85TGdWY3c1QQ?oc=5",
-     "time": "2026-11-26T11:46:00+00:00"
-    },
-    {
-     "title": "Arista Networks, Inc. $ANET Shares Purchased by Flputnam Investment Management Co.",
-     "publisher": "MarketBeat",
-     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxObGNGVTB3VzhjWjFnUmRlcXBQNU1hVnJmREtjQlZGdG43X2RLMmo4eEYtR3dsSEE4azFZdjMyZi1GVUN6bnlLSndaRTJIV3ZGVlJIZFlLWHd2Yzc4b1ExSXpiNS1ZRWt3b0dkSTdIYURERmdRdUdCNlI2VW4xTmk3ajVGREpKQzBkYkEwWHhCTlFSUTV4RVczbTZQTV9ldmhWeWdpMnFncmVsdUdzUGQzSlN0TkF4UlNLblE4dGgwRFpoM3hsUnZYbDgtbGNTelZGQ2pmMWZn?oc=5",
-     "time": "2026-11-26T09:39:45+00:00"
-    }
-   ],
-   "brief": null
-  },
-  {
    "symbol": "META",
    "name": "Meta",
    "list": "portfolio",
-   "price": 630.33,
+   "price": 632.43,
    "prev_close": 609.89,
-   "change_pct": 3.4,
+   "change_pct": 3.7,
    "trigger_change": 3.1,
-   "peak_change": 3.4,
+   "peak_change": 3.7,
    "first_seen": "2026-11-27T15:21:17+00:00",
    "sector": {
     "etf": "XLC",
     "name": "Communication",
-    "price": 107.14,
-    "change_pct": 1.67
+    "price": 107.5,
+    "change_pct": 2.01
    },
    "chart": {
-    "ema8": 3.5,
-    "ema21": 1.4,
-    "sma50": -6.1,
-    "sma200": 0.5,
+    "ema8": 3.8,
+    "ema21": 1.7,
+    "sma50": -5.8,
+    "sma200": 0.8,
     "momentum": false
    },
    "headlines": [
@@ -391,6 +391,156 @@
      "publisher": "MarketBeat",
      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNMWowZU82Rno3Q3F4RGZBNzZtVDlZMzM4VmgwWnBrUHRLVFpaLXdQLVFabGdXSGxXczRBWkwxWlBBU0d1OTVyQkRIS1VKU05NUGhIcGh1QUtBdlpQOVMxRlYyVnZydVZrelJaWkk4UnNobG5JRVJfTUxCYTFtMjAySmdhNkpoSXJqemxXQVlSS0VGSVZMNTNua0lpMi1aZVc5dDdiUmkzTENaYlJaZ2NfQWhXXzlfRHVHcllQSEQ5d3c4Q1RRRnpIbFNKZkJyQlNhcVE?oc=5",
      "time": "2026-11-27T09:39:30+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
+   "symbol": "AMZN",
+   "name": "Amazon",
+   "list": "portfolio",
+   "price": 253.24,
+   "prev_close": 244.43,
+   "change_pct": 3.6,
+   "trigger_change": 3.6,
+   "peak_change": 3.6,
+   "first_seen": "2026-11-27T15:41:25+00:00",
+   "sector": {
+    "etf": "XLY",
+    "name": "Consumer discr.",
+    "price": 119.75,
+    "change_pct": 1.92
+   },
+   "chart": {
+    "ema8": -0.2,
+    "ema21": -1.1,
+    "sma50": -0.8,
+    "sma200": 2.9,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "Amazon.com (NASDAQ:AMZN) Bounces Back Pre-Market Today After Wednesday's Drop, with the AI Trade Recovering and AWS Concerns Still in Play",
+     "publisher": "kalkine.ca",
+     "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOci1QLXJmYkU1QmVGU205alV1QXlfVEV1cnhCYWIzVDZ2cmJEUGJSWGtLaTR1Y1A4RnFTUWpaWkc5NnQ4SmlmQ3puYXZPSENKSld6OTY0TVZVeThhVGRpX1EtNTc4b0IxREIwaEJKd0FzYU9MaDU2RUhabmhfTFBqYi1ZNXItVWFLT1dIRFczTzVDODVkSzgzZ2FWREplS2UzM2loeDJBZ1cwVmRWN2k3QzQwOHdIVk5XNV94R2Y4alpzUmdpSlZzSEZackZ6MHRJeTJ0RWF2M0hDSVdxWV9MdXpYbE1Wd25KeENyaWh4Y3R6WUktcTE0Q0RiOA?oc=5",
+     "time": "2026-11-27T14:19:00+00:00"
+    },
+    {
+     "title": "From squishies to can crushers: The toys on the top of Santa's list (AMZN:NASDAQ)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQWDRDWGpsVURXNF9JUFBMUmVrRTBsLUJfWVJhQlliQ19hQXhEaXJ5Rk1sUXRGd0VGalVxMFJnYkVpazlyRTJnSDFfS2d0RUk0Z09odXpmZF9uYUl6YWxIb19yVzdGdU1hdFVQcUwxd3RodHprNDBta25uMExuek42TjVsaVVXdWwwMC1vZTZ2ckpkcTBOTHcxaU90aTNidEtPLWRVRlRR?oc=5",
+     "time": "2026-11-27T14:00:45+00:00"
+    },
+    {
+     "title": "Amazon Just Found Another Way to Chip Away at NVIDIA's AI Dominance",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPSXNUUGdMU2d4a2pvcXlnMEZIWDlUajFraDVOd0kzbVpFczZNb3Rab1I4bVM3NnZnMmJaSWdXRVVXQXJ5amY5SmNQVng2WlZIVllWX1RTcU5DQUpvWElOMkNsMWxqYW9aMkh4YXVHSzNSVmNiM29UOENCcXk3VVZjNDgzTmZld0N0T0hEcWg2OWktdElUMjRoSTdJd2l1bEFDMk5VQTVR?oc=5",
+     "time": "2026-11-27T13:49:06+00:00"
+    },
+    {
+     "title": "Amazon.com, Inc. $AMZN Stock: Hoertkorn Richard Charles Increases Position",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPNHZub2hCNDJsOXBoSkFYZnU5dHU3NVRMTTJfS0tCMExoVGRjT3M1S1kwQ3E0d1NjWjVmTVNKUk5OX21vUDdCYWpDRThzcjl3QlpxZ0lGenVWMkQ3ZFRHbWJVMm9nUjhka2RVbjFJTkdXZEhWdS03ZDZTXzhicEFIR013ZnhNakdyNEJpU0wtQXE2YV9hc0x0TTl4Q0I5UGhfZWxsT0VlMzdHVHNDNWt0VF9EUExNOXEwVWVwZk9GaEtIT1hpTVVPdkpR?oc=5",
+     "time": "2026-11-27T10:07:44+00:00"
+    },
+    {
+     "title": "Amazon.com, Inc. $AMZN Stock Sold by University of Texas Texas AM Investment Management Co.",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQbnJfT2ppSWJVSlFBbFRNeTMxZ20wdnVYSXhHMDlnQWo4cWRQR2ZKZFM0eFNQeFV6aUU3RHNqOTlEanlWOExoU2ZOMzJjMHZCSlp0YU1JUVJ1LUdmTFg5Y2ZGNkpyczRTS0swOEZ6LXI1blpaNFdudW02M0xKYS1JcV9JN3ZpRGF0MEFzdEhoekNEcDcyY2dEQUE3d1QyOW9HQy1HdG5wZTFFVGJxTkk5T0ltT1ZDYUlWdlV2Z2tMWHNUZGNsVUQ4SHdMdjdtNnQwM3prT3B2WjAxa3YxSEVEaQ?oc=5",
+     "time": "2026-11-27T10:07:44+00:00"
+    },
+    {
+     "title": "Amazon.com, Inc. $AMZN Shares Bought by Hohimer Wealth Management LLC",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQMzY4T2F0T0V0U3I2RWZIR0xVOWJQdGlVZzRacE85QUQ4SWIwRF9vSHJSUGVQbG42X3JPZTFqb1ZfcmNyRDJwV1dXVFVUSjR3U1B2MXp6cVEzZlgxZktsX1Nqc3N4M2tndk1UTmlPZkZReUEtSVBEanM5ZXF0MW1sRUxpZzVKZkliT2xSVjZjcHVaT0FLZE5hVWRsSE1RWDREMi1JVk9NblV6RWx3NHMxb2pHdDNXRjlLTkFqOG5ZaDhMcnVS?oc=5",
+     "time": "2026-11-27T10:07:44+00:00"
+    },
+    {
+     "title": "Amazon.com, Inc. $AMZN Stock: Bryn Mawr Trust Advisors LLC Grows Holdings",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOY1pNQ2tKRVV2MUZGQ3pjcHp1cnBmX0h1OHo4X1NBY3pwbEdNVHhuQUZVNC1xbWFTT1AwX25PanBkRjZmOTFHRENuQU00ckJYLWx4OFpmSXdzeDdvSzBPb2FGSjBiQUVTbDhOd2o2Q3dwMW9IUWkteExyRHJMU1hxUHJyTDZ6UWJYc2toVWlvRkdNSklUMjZNUG9ERWtRWktWSC1nc0JDRlBqLUJTbW1sVFVxWTJxWGsxZDB1M2hLMWpNeVExT2RhTw?oc=5",
+     "time": "2026-11-27T08:53:26+00:00"
+    },
+    {
+     "title": "Amazon.com, Inc. $AMZN Stock Purchased by Brighton Jones LLC",
+     "publisher": "MarketBeat",
+     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQd1EyNlFEWWhwYi1fQnExQkJqZVdVQmRNT3hfNVdyY3d0TzU4ZlpNQ215eEFOV2ptNE1rVk9uay1pSHpDcEo2WWE5Z0hxNkhYSGRKMXpPa0VRZS1LRUROWG01N0JpMVdSMl9VR3dmcTRCQjFKM29KWVFGN1lsVDdnVkpoVzFfaVlaUVJyTE9Dem45UTduR1gtejBWSVpZbl9iQWxYaUdQS3EzQlhvel9xTkNoRzI4eGFH?oc=5",
+     "time": "2026-11-27T08:46:37+00:00"
+    }
+   ],
+   "brief": null
+  },
+  {
+   "symbol": "AVGO",
+   "name": "Broadcom",
+   "list": "portfolio",
+   "price": 311.31,
+   "prev_close": 300.86,
+   "change_pct": 3.5,
+   "trigger_change": 3.5,
+   "peak_change": 3.5,
+   "first_seen": "2026-11-27T15:41:25+00:00",
+   "sector": {
+    "etf": "SMH",
+    "name": "Semiconductors",
+    "price": 430.59,
+    "change_pct": 1.92
+   },
+   "chart": {
+    "ema8": -1.7,
+    "ema21": -4.6,
+    "sma50": -8.4,
+    "sma200": -15.2,
+    "momentum": false
+   },
+   "headlines": [
+    {
+     "title": "NVIDIA stock falls 2% amid export concerns afte...",
+     "publisher": "Pluang",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPOU9LVFExSlRWdlBFU000RDRqb1JCQ1RtZk9NcEZoMkpjWVBrYTlkeVluTm5BTWl3SFcyczMzaGVUTzdDRGlqT2ZoRDBELWVnZFh5NkE5bThKNmhMeVJKdEdEWGU0dVRoYTFjak1KSXRSNlNKZ2gxM0VTTnNHaEtmWHc1UnRWb1o5ZEc1Zkd5REZiRk5meFFOOGZrZVRIaG4wTFc4WFJ3?oc=5",
+     "time": "2026-11-27T15:13:46+00:00"
+    },
+    {
+     "title": "Broadcom stock could surge 72% in 2027 as AI ch...",
+     "publisher": "Pluang",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPMFdZRk1DbG1NLWxjQ0xKMlZXb245a1RLQ2dEdlBaaTktSXl6QWxBR1I2ZlowUUxqVk5sT1JQNmRwemN4V0duVFcyS3JHNzZia0NvMXFJNmhxYmlVbmRXb2tDXzV0YV9INXBBQ05RX0ZUVkpBQ095VnZSbzYwM3FGTEZMVk12enBrTlJDTFlnZ0NscEJTdk9RSjh2bFJWRmlDVGc?oc=5",
+     "time": "2026-11-27T14:49:36+00:00"
+    },
+    {
+     "title": "Prediction: Broadcom Stock Could Have Another Big Year as AI Chip Revenue Accelerates",
+     "publisher": "24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOakJSS3hzcVptX2RzblNLVFNDcS1PekgxMDd4T3NsTGlORk51eWlYR0dqZHUtalVnWVFHZlA1M01xY3NhSVlzMm05Yl84MkRzZS1xTEJEZi01OFdxLTFrbHVKdmhNek9iR241UkxwYU4tYzRueE9CNFMwcUJWMm5WMGcxY1ZFbG5jREp6MnEtR2xNTGJ1YmVwMTBaWDQtUGx1WDNIeWJYMEt0eDBnOWdsMDVxQ0tYYTREdFFlVU9XYWh1bm9VeHJJ?oc=5",
+     "time": "2026-11-27T14:33:00+00:00"
+    },
+    {
+     "title": "3 Tech Stocks To Buy And 2 To Avoid Amid AI Uncertainty (NDX)",
+     "publisher": "Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQMm4wU3VfVnlEeEFkVXpvOVI3RFp6TXFxa0pNbzVoUHJIT3daa0kybDVoU29aNDctYXl1RWJySUNFbDNfRU9UNUMwc3FZOGVNendiX2h0bVRWNWVIOXQ2WHY3YnUyN25zYTRtNVc3RXZ5U0JfRGN2bEVIY1RqaHVJQ0dkNDlKOG92dzVETjNhYkg2WXpwZkJaLVVSUWtMQWhfSmFydTNXWmhEOEVOQ1dvWm1OSEstQQ?oc=5",
+     "time": "2026-11-27T13:42:18+00:00"
+    },
+    {
+     "title": "NVIDIA's AI Cloud Revenues Nearly Triple: Can NVDA Keep the Pace Ahead?",
+     "publisher": "The Globe and Mail",
+     "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQNnVsSnZja1ZGX2VrVW45QkNUN3pfeGlCV182ZHJZMVdYc296Vld2cVN0U1V6ZDR0YWtBN0ZEZ0dYeEVDZEVZZUo1WHZjWjk4aUhZNEl4ZDIzV0RjQmVDb3NQYXdMdVVra2gxQzMydEMwcDgyR3NOenJERHEweEF3S05xYnJTdHFWWnBJYV85bkFhSGxWSGs2bENkZEdscFNWRTBDM3ZYWVNHc1A5c2ppclZwdS1zdHNOV3RXdks1aXZobGkxMGY5OHJlNkQ1LXNfYnUyRGJjTi1qVVpxSTNoWmI5NXZWLWtG?oc=5",
+     "time": "2026-11-27T13:10:28+00:00"
+    },
+    {
+     "title": "Broadcom Could See Bounce With This ETF",
+     "publisher": "ETF Trends",
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNSlJwZ09jdUhwX1RTbEZZcDRRNU5wMWYzOTdnYndMWC1wajR0V04tQVlldTR6RkVRMWU4c3o3WDFTcDJBOHNtRW9JWVZUNHRlQ2hrUnBZa1E2c1drMnU0UndwYWFDWmF2YjdOWlF4TzFaX0c5NE5tT0x4YjdTQ2hDTzlVTGg3cFRrV2dUbGk3bw?oc=5",
+     "time": "2026-11-27T13:00:42+00:00"
+    },
+    {
+     "title": "AMD stock soars 89.6% despite Broadcom's larger AI revenue and market scale.",
+     "publisher": "Pluang",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTy1Td3oxdTF1QUFXcTZSUUgzSW5Sb0tUMDhjX3pRLVhMSUg4dmFBYmlPdlJFZm5YWW9Ud2JkNGlrWXRpQUhWNjRjdV96c0FzaHp3VjNQMzBfeERqT3pKWXNYbldsZFZ2UjdlRVVpS211amZEVDUwUG1PMUUzMW5mSk9aX19rY2FmRVBEdXA2LThCNmtDenFFRzZxbm5zam1SMWVFcHppVms?oc=5",
+     "time": "2026-11-27T12:41:09+00:00"
+    },
+    {
+     "title": "Broadcom aims to double AI revenue to $115B in ...",
+     "publisher": "Pluang",
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOTVJVX2xlVTM4dDdfaXI3T3cwY0dpMVVhSHBncDJ5VWhZRWJlb2xxTElQajF4SGROODg0WExOMnhrZHZtLWxKbnctcTZzNmc1eUc4NU1xR3lMMGNMN1lIdnJkMFo0Q3AxVHpwOEt4c1VOWV8zREJzOXBNUVZDdlZZWHg5NkwtVDhfMzVSRjR3LU0xZjlLa083YlRla2NKLUVKTm5iNGxaVWVUcEhV?oc=5",
+     "time": "2026-11-27T12:34:59+00:00"
     }
    ],
    "brief": null
